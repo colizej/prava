@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Sign gallery — inline sign images in article body */
+.sign-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+}
+
+.sign-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 60px;
+  max-width: 140px;
+}
+
+.sign-img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 0.25rem;
+}
+
+.sign-label {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-align: center;
+  background: #e5e7eb;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+/* Fallback: prose images that still have inline paths should at least look decent */
+.prose img[src*="/media/signs/"] {
+  display: inline-block;
+  max-height: 80px;
+  width: auto;
+  vertical-align: middle;
+  margin: 0.25rem;
+}

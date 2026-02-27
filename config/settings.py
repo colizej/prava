@@ -1,5 +1,5 @@
 """
-PermisReady — Django settings
+PRAVA.be — Django settings
 """
 
 import os
@@ -146,6 +146,9 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # WhiteNoise compression
 STORAGES = {
+    'default': {
+        'BACKEND': 'django.core.files.storage.FileSystemStorage',
+    },
     'staticfiles': {
         'BACKEND': 'whitenoise.storage.CompressedManifestStaticFilesStorage',
     },
@@ -168,7 +171,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # SITE SETTINGS (used by context processor)
 # ==============================================================================
 
-SITE_NAME = 'PermisReady'
+SITE_NAME = 'PRAVA.be'
 SITE_DESCRIPTION = "Préparation à l'examen théorique du permis de conduire en Belgique"
 SITE_URL = env('SITE_URL', default='http://localhost:8000')
 

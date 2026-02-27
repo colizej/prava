@@ -1,45 +1,145 @@
 ======================================================================
-ОФИЦИАЛЬНЫЙ КОДЕКС ДОРОЖНОГО ДВИЖЕНИЯ БЕЛЬГИИ
+CODE DE LA ROUTE BELGIQUE — Scrape Summary
 ======================================================================
+Source: https://www.codedelaroute.be/fr/perma/hra8v386pu/regulation_regulation
+Scraped: 2026-02-27 20:00:19
+Title: Arrêté royal du 1er décembre 1975 portant règlement général sur la police de la circulation routière et de l'usage de la voie publique
+Articles: 122
+Structure entries: 9
 
-📜 Название: Arrêté royal du 1er décembre 1975 portant règlement général sur la police de la circulation routière et de l'usage de la voie publique
-🌐 Источник: https://www.codedelaroute.be/fr/perma/hra8v386pu/regulation_regulation
-📅 Загружено: 2026-02-21 14:43:05
+STRUCTURE:
+  📚 Titre I. Dispositions préliminaires
+  📚 Titre II. Règles d'usage de la voie publique
+  📚 Titre III. Signalisation routière
+    📖 Chapitre I. Signaux lumineux de circulation
+    📖 Chapitre II. Signaux routiers
+    📖 Chapitre III. Marques routières
+    📖 Chapitre IV. Dispositions diverses
+  📚 Titre IV. Prescriptions techniques
+  📚 Titre V. Dispositions abrogatoires et transitoires, et mise en vigueur
 
-📊 Статистика:
-   • Всего статей: 122
-   • Титулов: 5
+ARTICLES:
+  Art. 1.: Article 1. Champ d'application [ℹ️]
+  Art. 2.: Article 2. Définitions [🖼43 ℹ️]
+  Art. 3.: Article 3. Agents qualifiés [🖼5]
+  Art. 4.: Article 4. Force obligatoire des injonctions des agents qual
+  Art. 5.: Article 5. Force obligatoire de la signalisation routière
+  Art. 6.: Article 6. Valeur des injonctions des agents qualifiés, de l [🖼2]
+  Art. 7.: Article 7. Règles générales de comportement dans le chef des
+  Art. 7bis: Article 7bis. Utilisateurs d’un engin de déplacement
+  Art. 7ter: Article 7ter. Conducteurs d’un cycle motorisé
+  Art. 8.: Article 8. Les conducteurs
+  Art. 9.: Article 9. Place des conducteurs sur la voie publique [🖼6 ℹ️]
+  Art. 10.: Article 10. Vitesse
+  Art. 11.: Article 11. Limitations de vitesse [🖼3 ℹ️]
+  Art. 12.: Article 12. Obligations de céder le passage [🖼2]
+  Art. 12bis: Article 12bis. Tirette [ℹ️]
+  Art. 13.: Article 13. Annonce d'une manœuvre
+  Art. 14.: Article 14. Dégagement des carrefours
+  Art. 15.: Article 15. Croisement
+  Art. 16.: Article 16. Dépassement [🖼2 ℹ️]
+  Art. 17.: Article 17. Interdiction de dépasser [🖼2]
+  Art. 18.: Article 18. Intervalle entre les véhicules [📝]
+  Art. 19.: Article 19. Changement de direction [ℹ️]
+  Art. 20.: Article 20. Circulation sur les voies ferrées et passages à 
+  Art. 21.: Article 21. Circulation sur les autoroutes [🖼4 📝]
+  Art. 22.: Article 22. Circulation sur les routes pour automobiles
+  Art. 22bis: Article 22bis. Circulation dans les zones résidentielles et  [🖼2]
+  Art. 22ter: Article 22ter. Circulation sur les voies publiques munies de [🖼4 ℹ️]
+  Art. 22quater: Article 22quater. Zones dans lesquelles la vitesse est limit [🖼2]
+  Art. 22quinquies: Article 22quinquies. Circulation sur les chemins réservés au [🖼4]
+  Art. 22sexies: Article 22sexies. Circulation dans les zones piétonnes [🖼2]
+  Art. 22septies: Article 22septies. Circulation dans les rues réservées au je [🖼2]
+  Art. 22octies: Article 22octies. Circulation sur les chemins réservés aux v [🖼2]
+  Art. 22novies: Article 22novies. Circulation dans les zones cyclables
+  Art. 22decies: Article 22decies. Circulation sur les bandes réservées aux h
+  Art. 22un: Article 22undecies. Circulation dans les rues scolaires [🖼2 ℹ️]
+  Art. 23.: Article 23. Arrêt et stationnement
+  Art. 24.: Article 24. Interdiction de l'arrêt et du stationnement
+  Art. 25.: Article 25. Interdiction de stationnement [🖼3]
+  Art. 26.: Article 26. Stationnement alterné semi-mensuel dans toute un [🖼1]
+  Art. 27.: Article 27. Stationnement à durée limitée [🖼9 ℹ️]
+  Art. 27bis: Article 27bis. Emplacements de stationnement réservés aux pe
+  Art. 27ter: Article 27ter. Places de stationnement réservées
+  Art. 27quater: Article 27quater. Contrôle électronique
+  Art. 27quinquies: Article 27quinquies. Usage d'un sabot
+  Art. 28.: Article 28. Ouverture des portières
+  Art. 29.: Article 29. Emploi des feux: prescription générale
+  Art. 30.: Article 30. Emploi des feux: véhicules et usagers circulant 
+  Art. 30bis: Article 30bis. Emploi des feux: cyclomoteurs et motocyclette
+  Art. 31.: Article 31. Emploi des feux à l'arrêt ou en stationnement
+  Art. 32.: Article 32. Emploi des feux particuliers
+  Art. 32bis: Article 32bis. Emploi simultané de tous les indicateurs de d
+  Art. 33.: Article 33. Emploi des avertisseurs sonores
+  Art. 34.: Article 34. Emploi des miroirs rétroviseurs
+  Art. 34bis: Article 34bis. Usage des dispositifs aérodynamiques
+  Art. 35.: Article 35. Ceintures de sécurité et dispositifs de retenue  [ℹ️]
+  Art. 36.: Article 36. Casques de protection - Vêtements de protection
+  Art. 37.: Article 37. Véhicules prioritaires
+  Art. 38.: Article 38. Comportement à l'égard des vehicules prioritaire
+  Art. 39.: Article 39. Comportement à l'égard des autobus et des trolle
+  Art. 39bis: Article 39bis. Comportement à l'égard des véhicules affectés [🖼1]
+  Art. 40.: Article 40. Comportement des conducteurs à l'égard des piéto [🖼9 📝]
+  Art. 40bis: Article 40bis. Comportement à l'égard des groupes d'enfants, [🖼1 ℹ️]
+  Art. 40ter: Article 40ter. Comportement à l'égard des cyclistes et des c
+  Art. 40quater: Article 40quater. Comportement à l’égard des participants à 
+  Art. 41.: Article 41. Comportement à l'égard des colonnes militaires,  [🖼1 ℹ️]
+  Art. 42.: Article 42. Piétons [🖼4]
+  Art. 43.: Article 43. Conducteurs de bicyclettes et de cyclomoteurs [ℹ️]
+  Art. 43bis: Article 43bis. Cyclistes en groupe [🖼1 ℹ️]
+  Art. 43ter: Article 43ter. Motocyclistes en groupe [🖼1]
+  Art. 44.: Article 44. Conducteurs et passagers des véhicules [🖼1]
+  Art. 45.: Article 45. Chargement des véhicules: prescriptions générale
+  Art. 45bis: Article 45bis. Chargement des véhicules : prescriptions géné [📊 ℹ️]
+  Art. 46.: Article 46. Chargement des véhicules : dimensions
+  Art. 47.: Article 47. Chargement des véhicules : signalisation [🖼1 ℹ️]
+  Art. 47bis: Article 47bis. Plateaux élévateurs et engins de manutention [📝]
+  Art. 48.: Article 48. Transport exceptionnel [ℹ️]
+  Art. 48bis: Article 48bis. Transport des marchandises dangereuses [🖼3 ℹ️]
+  Art. 49.: Article 49. Trains de véhicules [📝]
+  Art. 50.: Article 50. Luttes de vitesse, épreuves sportives [ℹ️]
+  Art. 51.: Article 51. Véhicule en panne, Chargement tombé sur la voie 
+  Art. 52.: Article 52. Comportement en cas d'accident
+  Art. 53.: Article 53. Véhicules attelés
+  Art. 54.: Article 54. Charrettes à bras
+  Art. 55.: Article 55. Animaux
+  Art. 55bis: Article 55bis. Cavaliers en groupe
+  Art. 56.: Article 56. Véhicules ou animaux halant des bateaux
+  Art. 56bis: Article 56bis. Véhicules folkloriques
+  Art. 57.: Article 57. Circulation dans les zones portuaires et aéropor [ℹ️]
+  Art. 58.: Article 58. Limitations de la circulation en période de dége
+  Art. 59.: Article 59. Dispositions diverses [🖼1 ℹ️]
+  Art. 59/1.: Article 59/1. Essais
+  Art. 60.: Article 60. Disposition générale [ℹ️]
+  Art. 61.: Article 61. Signaux du système tricolore [🖼5]
+  Art. 62.: Article 62. Flèche d'évacuation d'un carrefour
+  Art. 62bis: Article 62bis. Signaux lumineux de circulation placés au-des
+  Art. 62ter: Article 62ter. Signaux lumineux spéciaux destinés à régler l [🖼6]
+  Art. 63.: Article 63. Signaux du système bicolore
+  Art. 64.: Article 64. Signaux à feux clignotants
+  Art. 65.: Article 65. Dispositions générales [🖼45 📊 ℹ️]
+  Art. 66.: Article 66. Signaux de danger [🖼35 📊]
+  Art. 67.: Article 67. Signaux relatifs à la priorité [🖼35 📊]
+  Art. 68.: Article 68. Signaux d'interdiction [🖼31 📊]
+  Art. 69.: Article 69. Signaux d'obligation [🖼10 📊]
+  Art. 70.: Article 70. Signaux relatifs à l'arrêt et au stationnement [🖼46 📊 ℹ️]
+  Art. 71.: Article 71. Signaux d'indication [🖼132 📊]
+  Art. 72.: Article 72. Marques longitudinales indiquant les bandes de c [🖼27 ℹ️]
+  Art. 73.: Article 73. Marques longitudinales provisoires indiquant les [🖼1]
+  Art. 74.: Article 74. Marques longitudinales indiquant une piste cycla [🖼1]
+  Art. 75.: Article 75. Marques longitudinales indiquant le bord de la c [🖼4]
+  Art. 76.: Article 76. Marques transversales [🖼4]
+  Art. 77.: Article 77. Autres marques [🖼6 📝]
+  Art. 78.: Article 78. Signalisation des chantiers et des obstacles [ℹ️]
+  Art. 79.: Article 79. Balisage de la voie publique
+  Art. 80.: Article 80. Placement de la signalisation routière
+  Art. 81.: Article 81. Véhicules à moteur et leurs remorques [ℹ️]
+  Art. 82.: Article 82. Cycles et leurs remorques [ℹ️]
+  Art. 82bis: Article 82bis. Engins de déplacement [📝]
+  Art. 83.: Article 83. Véhicules attelés
+  Art. 84.: Article 84. Dispositions abrogatoires
+  Art. 85.: Article 85. Dispositions transitoires [🖼4 ℹ️]
+  Art. 86.: Article 86. Mise en vigueur [📝]
+  Art. 87: Article 87
 
-📚 СТРУКТУРА:
-
-Titre I. Dispositions préliminaires
-
-Titre II. Règles d'usage de la voie publique
-
-Titre III. Signalisation routière
-
-Titre IV. Prescriptions techniques
-
-Titre V. Dispositions abrogatoires et transitoires, et mise en vigueur
-
-
-📋 ПРИМЕРЫ СТАТЕЙ:
-
-1. Article 1. Champ d'application
-   Le présent règlement régit la circulation sur de la voie publique et l'usage de celle-ci, par les pi...
-
-2. Article 2. Définitions
-   Pour l'application des dispositions du présent règlement:
-
-3. Article 3. Agents qualifiés
-   Les agents qualifiés pour veiller à l'exécution des lois relatives à la police de la circulation rou...
-
-4. Article 4. Force obligatoire des injonctions des agents qualifiés
-   4.1.Les usagers doivent obtempérer immédiatement aux injonctions des agents qualifiés.
-
-5. Article 5. Force obligatoire de la signalisation routière
-   Les usagers doivent se conformer aux signaux lumineux de circulation, aux signaux routiers et aux ma...
-
-======================================================================
-✅ Все 122 статей успешно загружены
 ======================================================================

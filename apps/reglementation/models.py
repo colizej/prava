@@ -51,9 +51,13 @@ class CodeArticle(models.Model):
     title_nl = models.CharField('Titel (NL)', max_length=250, blank=True)
     title_ru = models.CharField('Заголовок (RU)', max_length=250, blank=True)
 
-    content = models.TextField('Contenu (FR)')
+    content = models.TextField('Contenu (FR)', blank=True)
     content_nl = models.TextField('Inhoud (NL)', blank=True)
     content_ru = models.TextField('Содержание (RU)', blank=True)
+
+    # Plain text version for search
+    content_text = models.TextField('Texte brut', blank=True,
+                                     help_text='Version texte pour la recherche.')
 
     slug = models.SlugField(unique=True, max_length=250)
     is_free = models.BooleanField('Gratuit', default=True,
@@ -140,3 +144,24 @@ class TrafficSign(models.Model):
         if lang == 'ru' and self.name_ru:
             return self.name_ru
         return self.name
+
+
+class ArticleImage(models.Model):
+    """Image associée à un article (panneau, schéma, etc.)."""
+    article = models.ForeignKey(
+        CodeArticle, on_delete=models.CASCADE,
+        related_name='images', verbose_name='Article'
+    )
+    image = models.ImageField('Image', upload_to='reglementation/')
+    alt_text = models.CharField('Texte alternatif', max_length=200, blank=True)
+    sign_code = models.CharField('Code panneau', max_length=20, blank=True,
+                                 help_text='Ex: C1, D7, F17')
+    order = models.IntegerField('Ordre', default=0)
+
+    class Meta:
+        verbose_name = "Image d'article"
+        verbose_name_plural = "Images d'articles"
+        ordering = ['order']
+
+    def __str__(self):
+        return f'{self.sign_code or self.alt_text} — {self.article.article_number}'

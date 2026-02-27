@@ -1,0 +1,709 @@
+{
+  "theme": {
+    "name": "Infrastructure et signalisation",
+    "name_nl": "Infrastructuur en signalisatie",
+    "name_ru": "Инфраструктура и дорожные знаки",
+    "slug": "infrastructure-et-signalisation",
+    "icon": "sign-post",
+    "description": "Signalisation routière : feux, panneaux, marquages au sol, balisage et signalisation de chantiers.",
+    "description_nl": "Verkeerssignalisatie: verkeerslichten, verkeersborden, wegmarkeringen, bakens en werfsignalisatie.",
+    "description_ru": "Дорожная сигнализация: светофоры, знаки, дорожная разметка, ограждения и обозначения."
+  },
+  "source": "codedelaroute.be — Arrêté royal du 1er décembre 1975",
+  "articles_count": 23,
+  "articles": [
+    {
+      "article_number": "Art. 60",
+      "title": "Article 60. Disposition générale",
+      "content_html": "<p><strong>60.1.</strong> La signalisation routière est divisée en trois catégories:</p>\n<p style=\"padding-left: 40px;\">- les signaux lumineux de circulation;</p>\n<p style=\"padding-left: 40px;\">- les signaux routiers;</p>\n<p style=\"padding-left: 40px;\">- les marques routières.</p>\n<p><strong>60.2.</strong> Le Ministre des Communications fixe les dimensions minimales et les conditions particulières de placements de la signalisation routière qui ne sont pas prévues par le présent règlement, ainsi que la manière dont les chantiers et les obstacles doivent être signalés.</p>",
+      "content_text": "60.1.La signalisation routière est divisée en trois catégories:\n\n- les signaux lumineux de circulation;\n\n- les signaux routiers;\n\n- les marques routières.\n\n60.2.Le Ministre des Communications fixe les dimensions minimales et les conditions particulières de placements de la signalisation routière qui ne sont pas prévues par le présent règlement, ainsi que la manière dont les chantiers et les obstacles doivent être signalés.",
+      "content_paragraphs": [
+        "60.1.La signalisation routière est divisée en trois catégories:",
+        "- les signaux lumineux de circulation;",
+        "- les signaux routiers;",
+        "- les marques routières.",
+        "60.2.Le Ministre des Communications fixe les dimensions minimales et les conditions particulières de placements de la signalisation routière qui ne sont pas prévues par le présent règlement, ainsi que la manière dont les chantiers et les obstacles doivent être signalés."
+      ],
+      "source_id": "or0hhmms4i",
+      "order": 92,
+      "images": []
+    },
+    {
+      "article_number": "Art. 61",
+      "title": "Article 61. Signaux du système tricolore",
+      "content_html": "<p><strong><a name=\"61.1\"></a>61.1.</strong> Les feux des signaux du système tricolore sont circulaires et ont la signification suivante:</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"61.1.1\"></a>1°</strong> le feu rouge signifie interdiction de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt, le signal même;</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"61.1.2\"></a>2°</strong> le feu jaune-orange fixe signifie interdiction de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt le signal même, à moins qu'au moment où il s'allume le conducteur ne s'en trouve si près qu'il ne puisse plus s'arrêter dans des conditions de sécurité suffisante; toutefois, si le signal est placé à un carrefour, le conducteur qui, dans de telles circonstances, a franchi la ligne d'arrêt ou le signal, ne peut traverser le carrefour qu'à la condition de ne pas mettre en danger les autres usagers;</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"61.1.3\"></a>3°</strong> le feu vert signifie autorisation de franchir le signal;</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"61.1.4\"></a>4°</strong> le feu rouge, le feu jaune-orange fixe et le feu vert peuvent être remplacés respectivement par une ou des flèches de couleur rouge, jaune-orange ou verte. Ces flèches ont la même signification que les feux mais l'interdiction ou l'autorisation est limitée aux directions indiquées par les flèches;</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"61.1.5\"></a>5°</strong> quand un ou plusieurs feux supplémentaires sous la forme d'une flèche ou de plusieurs flèches vertes sont éclairés conjointement avec le feu rouge ou le feu jaune-orange, les flèches signifient autorisation de poursuivre la marche uniquement dans les directions indiquées par les flèches, à condition de céder le passage aux conducteurs débouchant régulièrement d'autres directions et aux piétons;</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"61.1.6\"></a>6°</strong> quand les feux présentent la silhouette éclairée d'une bicyclette, ils ne concernent que les conducteurs des bicyclettes et des cyclomoteurs à deux roues.</p>\n<p style=\"padding-left: 30px;\"><strong>7°</strong> Lorsque le feu vert, jaune-orange ou rouge représente la silhouette d’une bicyclette entouré de flèches, cela signifie qu’il est simultanément au vert, au jaune-orange ou au rouge dans la direction transversale. Ces feux s’appliquent uniquement aux cyclistes et aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable.</p>\n<p style=\"padding-left: 30px;\"><strong>8°</strong> Lorsque le feu représente la silhouette éclairée d’une bicyclette et d’un piéton, ce feu s’applique uniquement aux cyclistes, aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable et aux piétons.</p>\n<p style=\"padding-left: 30px;\"><strong>9°</strong> quand un feu clignotant jaune-orange supplémentaire présentant la silhouette d’une bicyclette et une flèche jaune-orange clignotante est éclairé conjointement avec un feu rouge ou un feu jaune-orange, cela signifie que les conducteurs de bicyclettes et de cyclomoteurs à deux roues sont autorisés à poursuivre la marche uniquement dans la direction indiquée par la flèche, à condition de céder le passage aux conducteurs débouchant régulièrement d’autres directions et aux piétons.</p>\n<p><strong>61.2.</strong> Les feux sont groupés de la façon ci-après:</p>\n<p style=\"padding-left: 30px;\"><strong>1°</strong> le feu rouge est placé au-dessus du feu jaune- orange; le feu vert est placé en dessous du feu jaune- orange;</p>\n<p style=\"padding-left: 30px;\"><strong>2°</strong> les feux supplémentaires sous la forme d'une flèche sont placés en dessous ou à côté du feu vert.</p>\n<p><strong>61.3.1.</strong> Les feux se succèdent comme suit:</p>\n<p style=\"padding-left: 30px;\"><strong>1°</strong> le feu jaune-orange apparaît après le feu vert;</p>\n<p style=\"padding-left: 30px;\"><strong>2°</strong> le feu rouge apparaît après le feu jaune-orange;</p>\n<p style=\"padding-left: 30px;\"><strong>3°</strong> le feu vert apparaît après le feu rouge.</p>\n<p><strong><a name=\"61.3.2\"></a>61.3.2 (Région de Bruxelles-Capitale).</strong> Lorsque les signaux lumineux sont placés à un carrefour, le feu vert ou le feu jaune-orange ne peuvent apparaître que lorsque les feux rouges sont allumés pour la circulation débouchant des voies transversales.</p>\n<p>Toutefois, sur une voie publique pourvue d'un signal B9 ou B15, les signaux lumineux sur les voies transversales peuvent, dans des cas exceptionnels, être remplacés par le signal B5 (Stop):</p>\n<p style=\"padding-left: 30px;\"><strong>1°</strong> lorsque les signaux lumineux sont placés pour protéger un passage pour piétons situé à l'approche d'un carrefour;</p>\n<p style=\"padding-left: 30px;\"><strong>2°</strong> lorsque les signaux lumineux sont placés à hauteur d'un carrefour à proximité immédiate d'un autre carrefour qui est équipé de signaux lumineux du système tricolore.</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/f9ccf0862e268c3bfaf5943027cbf3e90cf00cc3.png\"/>B5 <img alt=\"\" src=\"/media/image/orig/67a4dd01f9d061728d453c6be8e6f28854489cfd.png\"/>B9 <img alt=\"\" src=\"/media/image/orig/92b5fc03a0fde4c459df590ee918066a6fcc4528.png\"/> B15</p>\n<p><strong>61.3.2 (Région flamande et Région wallonne).</strong> Toutefois, sur une voie publique pourvue d'un signal B9 ou B15, les signaux lumineux sur les voies transversales peuvent, dans des cas exceptionnels, être remplacés par le signal B5 (Stop):</p>\n<p style=\"padding-left: 30px;\"><strong>1°</strong> lorsque les signaux lumineux sont placés pour protéger un passage pour piétons situé à l'approche d'un carrefour;</p>\n<p style=\"padding-left: 30px;\"><strong>2°</strong> lorsque les signaux lumineux sont placés à hauteur d'un carrefour à proximité immédiate d'un autre carrefour qui est équipé de signaux lumineux du système tricolore.</p>\n<p><strong><a name=\"61.4.1\"></a>61.4.1 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Les signaux lumineux circulaires du système tricolore sont placés à droite de la chaussée.</p>\n<p>A titre indicatif, ils peuvent être répétés à gauche ou au-dessus de la chaussée et aux endroits où la circulation le justifie.</p>\n<p>Aux carrefours, ils peuvent être répétés de l'autre côté du carrefour, à gauche ou au-dessus de la chaussée.</p>\n<p><strong><a name=\"61.4.2\"></a>61.4.2 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Les signaux lumineux sous forme de flèches sont placés au-dessus des bandes de circulation ou à droite.</p>\n<p>Ils peuvent être répétés à gauche de même qu'à gauche de l'autre côté du carrefour.</p>\n<p><strong><a name=\"61.4.3\"></a>61.4.3.</strong> Des signaux lumineux peuvent être répétés sur le même poteau à hauteur du conducteur.</p>\n<p><strong>61.5.</strong> Un panneau des modèles B22 et B23, tels que prévus à <a href=\"#art-67.3,\">l’article 67.3,</a> peut modifier la signification des feux des signaux du système tricolore en faveur des cyclistes et des conducteurs de speed pedelecs.</p>\n<p style=\"padding-left: 40px;\"><img alt=\"\" src=\"/media/image/orig/24604e16189c0430a35cac3a3ae1c76dd2e4c0a3.png\"/>B22 <img alt=\"\" src=\"/media/image/orig/b593576997842fc66b9c070f83dcd34ccd1c1fbf.png\"/>B23</p>",
+      "content_text": "61.1.Les feux des signaux du système tricolore sont circulaires et ont la signification suivante:\n\n1°le feu rouge signifie interdiction de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt, le signal même;\n\n2°le feu jaune-orange fixe signifie interdiction de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt le signal même, à moins qu'au moment où il s'allume le conducteur ne s'en trouve si près qu'il ne puisse plus s'arrêter dans des conditions de sécurité suffisante; toutefois, si le signal est placé à un carrefour, le conducteur qui, dans de telles circonstances, a franchi la ligne d'arrêt ou le signal, ne peut traverser le carrefour qu'à la condition de ne pas mettre en danger les autres usagers;\n\n3°le feu vert signifie autorisation de franchir le signal;\n\n4°le feu rouge, le feu jaune-orange fixe et le feu vert peuvent être remplacés respectivement par une ou des flèches de couleur rouge, jaune-orange ou verte. Ces flèches ont la même signification que les feux mais l'interdiction ou l'autorisation est limitée aux directions indiquées par les flèches;\n\n5°quand un ou plusieurs feux supplémentaires sous la forme d'une flèche ou de plusieurs flèches vertes sont éclairés conjointement avec le feu rouge ou le feu jaune-orange, les flèches signifient autorisation de poursuivre la marche uniquement dans les directions indiquées par les flèches, à condition de céder le passage aux conducteurs débouchant régulièrement d'autres directions et aux piétons;\n\n6°quand les feux présentent la silhouette éclairée d'une bicyclette, ils ne concernent que les conducteurs des bicyclettes et des cyclomoteurs à deux roues.\n\n7°Lorsque le feu vert, jaune-orange ou rouge représente la silhouette d’une bicyclette entouré de flèches, cela signifie qu’il est simultanément au vert, au jaune-orange ou au rouge dans la direction transversale. Ces feux s’appliquent uniquement aux cyclistes et aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable.\n\n8°Lorsque le feu représente la silhouette éclairée d’une bicyclette et d’un piéton, ce feu s’applique uniquement aux cyclistes, aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable et aux piétons.\n\n9°quand un feu clignotant jaune-orange supplémentaire présentant la silhouette d’une bicyclette et une flèche jaune-orange clignotante est éclairé conjointement avec un feu rouge ou un feu jaune-orange, cela signifie que les conducteurs de bicyclettes et de cyclomoteurs à deux roues sont autorisés à poursuivre la marche uniquement dans la direction indiquée par la flèche, à condition de céder le passage aux conducteurs débouchant régulièrement d’autres directions et aux piétons.\n\n61.2.Les feux sont groupés de la façon ci-après:\n\n1°le feu rouge est placé au-dessus du feu jaune- orange; le feu vert est placé en dessous du feu jaune- orange;\n\n2°les feux supplémentaires sous la forme d'une flèche sont placés en dessous ou à côté du feu vert.\n\n61.3.1.Les feux se succèdent comme suit:\n\n1°le feu jaune-orange apparaît après le feu vert;\n\n2°le feu rouge apparaît après le feu jaune-orange;\n\n3°le feu vert apparaît après le feu rouge.\n\n61.3.2 (Région de Bruxelles-Capitale).Lorsque les signaux lumineux sont placés à un carrefour, le feu vert ou le feu jaune-orange ne peuvent apparaître que lorsque les feux rouges sont allumés pour la circulation débouchant des voies transversales.\n\nToutefois, sur une voie publique pourvue d'un signal B9 ou B15, les signaux lumineux sur les voies transversales peuvent, dans des cas exceptionnels, être remplacés par le signal B5 (Stop):\n\n1°lorsque les signaux lumineux sont placés pour protéger un passage pour piétons situé à l'approche d'un carrefour;\n\n2°lorsque les signaux lumineux sont placés à hauteur d'un carrefour à proximité immédiate d'un autre carrefour qui est équipé de signaux lumineux du système tricolore.\n\nB5B9B15\n\n61.3.2 (Région flamande et Région wallonne).Toutefois, sur une voie publique pourvue d'un signal B9 ou B15, les signaux lumineux sur les voies transversales peuvent, dans des cas exceptionnels, être remplacés par le signal B5 (Stop):\n\n1°lorsque les signaux lumineux sont placés pour protéger un passage pour piétons situé à l'approche d'un carrefour;\n\n2°lorsque les signaux lumineux sont placés à hauteur d'un carrefour à proximité immédiate d'un autre carrefour qui est équipé de signaux lumineux du système tricolore.\n\n61.4.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux lumineux circulaires du système tricolore sont placés à droite de la chaussée.\n\nA titre indicatif, ils peuvent être répétés à gauche ou au-dessus de la chaussée et aux endroits où la circulation le justifie.\n\nAux carrefours, ils peuvent être répétés de l'autre côté du carrefour, à gauche ou au-dessus de la chaussée.\n\n61.4.2 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux lumineux sous forme de flèches sont placés au-dessus des bandes de circulation ou à droite.\n\nIls peuvent être répétés à gauche de même qu'à gauche de l'autre côté du carrefour.\n\n61.4.3.Des signaux lumineux peuvent être répétés sur le même poteau à hauteur du conducteur.\n\n61.5.Un panneau des modèles B22 et B23, tels que prévus àl’article 67.3,peut modifier la signification des feux des signaux du système tricolore en faveur des cyclistes et des conducteurs de speed pedelecs.\n\nB22B23",
+      "content_paragraphs": [
+        "61.1.Les feux des signaux du système tricolore sont circulaires et ont la signification suivante:",
+        "1°le feu rouge signifie interdiction de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt, le signal même;",
+        "2°le feu jaune-orange fixe signifie interdiction de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt le signal même, à moins qu'au moment où il s'allume le conducteur ne s'en trouve si près qu'il ne puisse plus s'arrêter dans des conditions de sécurité suffisante; toutefois, si le signal est placé à un carrefour, le conducteur qui, dans de telles circonstances, a franchi la ligne d'arrêt ou le signal, ne peut traverser le carrefour qu'à la condition de ne pas mettre en danger les autres usagers;",
+        "3°le feu vert signifie autorisation de franchir le signal;",
+        "4°le feu rouge, le feu jaune-orange fixe et le feu vert peuvent être remplacés respectivement par une ou des flèches de couleur rouge, jaune-orange ou verte. Ces flèches ont la même signification que les feux mais l'interdiction ou l'autorisation est limitée aux directions indiquées par les flèches;",
+        "5°quand un ou plusieurs feux supplémentaires sous la forme d'une flèche ou de plusieurs flèches vertes sont éclairés conjointement avec le feu rouge ou le feu jaune-orange, les flèches signifient autorisation de poursuivre la marche uniquement dans les directions indiquées par les flèches, à condition de céder le passage aux conducteurs débouchant régulièrement d'autres directions et aux piétons;",
+        "6°quand les feux présentent la silhouette éclairée d'une bicyclette, ils ne concernent que les conducteurs des bicyclettes et des cyclomoteurs à deux roues.",
+        "7°Lorsque le feu vert, jaune-orange ou rouge représente la silhouette d’une bicyclette entouré de flèches, cela signifie qu’il est simultanément au vert, au jaune-orange ou au rouge dans la direction transversale. Ces feux s’appliquent uniquement aux cyclistes et aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable.",
+        "8°Lorsque le feu représente la silhouette éclairée d’une bicyclette et d’un piéton, ce feu s’applique uniquement aux cyclistes, aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable et aux piétons.",
+        "9°quand un feu clignotant jaune-orange supplémentaire présentant la silhouette d’une bicyclette et une flèche jaune-orange clignotante est éclairé conjointement avec un feu rouge ou un feu jaune-orange, cela signifie que les conducteurs de bicyclettes et de cyclomoteurs à deux roues sont autorisés à poursuivre la marche uniquement dans la direction indiquée par la flèche, à condition de céder le passage aux conducteurs débouchant régulièrement d’autres directions et aux piétons.",
+        "61.2.Les feux sont groupés de la façon ci-après:",
+        "1°le feu rouge est placé au-dessus du feu jaune- orange; le feu vert est placé en dessous du feu jaune- orange;",
+        "2°les feux supplémentaires sous la forme d'une flèche sont placés en dessous ou à côté du feu vert.",
+        "61.3.1.Les feux se succèdent comme suit:",
+        "1°le feu jaune-orange apparaît après le feu vert;",
+        "2°le feu rouge apparaît après le feu jaune-orange;",
+        "3°le feu vert apparaît après le feu rouge.",
+        "61.3.2 (Région de Bruxelles-Capitale).Lorsque les signaux lumineux sont placés à un carrefour, le feu vert ou le feu jaune-orange ne peuvent apparaître que lorsque les feux rouges sont allumés pour la circulation débouchant des voies transversales.",
+        "Toutefois, sur une voie publique pourvue d'un signal B9 ou B15, les signaux lumineux sur les voies transversales peuvent, dans des cas exceptionnels, être remplacés par le signal B5 (Stop):",
+        "1°lorsque les signaux lumineux sont placés pour protéger un passage pour piétons situé à l'approche d'un carrefour;",
+        "2°lorsque les signaux lumineux sont placés à hauteur d'un carrefour à proximité immédiate d'un autre carrefour qui est équipé de signaux lumineux du système tricolore.",
+        "B5B9B15",
+        "61.3.2 (Région flamande et Région wallonne).Toutefois, sur une voie publique pourvue d'un signal B9 ou B15, les signaux lumineux sur les voies transversales peuvent, dans des cas exceptionnels, être remplacés par le signal B5 (Stop):",
+        "1°lorsque les signaux lumineux sont placés pour protéger un passage pour piétons situé à l'approche d'un carrefour;",
+        "2°lorsque les signaux lumineux sont placés à hauteur d'un carrefour à proximité immédiate d'un autre carrefour qui est équipé de signaux lumineux du système tricolore.",
+        "61.4.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux lumineux circulaires du système tricolore sont placés à droite de la chaussée.",
+        "A titre indicatif, ils peuvent être répétés à gauche ou au-dessus de la chaussée et aux endroits où la circulation le justifie.",
+        "Aux carrefours, ils peuvent être répétés de l'autre côté du carrefour, à gauche ou au-dessus de la chaussée.",
+        "61.4.2 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux lumineux sous forme de flèches sont placés au-dessus des bandes de circulation ou à droite.",
+        "Ils peuvent être répétés à gauche de même qu'à gauche de l'autre côté du carrefour.",
+        "61.4.3.Des signaux lumineux peuvent être répétés sur le même poteau à hauteur du conducteur.",
+        "61.5.Un panneau des modèles B22 et B23, tels que prévus àl’article 67.3,peut modifier la signification des feux des signaux du système tricolore en faveur des cyclistes et des conducteurs de speed pedelecs.",
+        "B22B23"
+      ],
+      "source_id": "mg2xcgfomk",
+      "order": 93,
+      "images": [
+        {
+          "filename": "art61_img1_1.png",
+          "path": "/media/reglementation/art61_img1_1.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art61_img2_2.png",
+          "path": "/media/reglementation/art61_img2_2.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art61_img3_3.png",
+          "path": "/media/reglementation/art61_img3_3.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art61_img4_4.png",
+          "path": "/media/reglementation/art61_img4_4.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art61_img5_5.png",
+          "path": "/media/reglementation/art61_img5_5.png",
+          "alt": "",
+          "sign_code": ""
+        }
+      ]
+    },
+    {
+      "article_number": "Art. 62",
+      "title": "Article 62. Flèche d'évacuation d'un carrefour",
+      "content_html": "<p>Une flèche verte orientée vers la gauche et placée seule à la sortie d'un carrefour, signifie que la circulation venant en sens inverse sur la chaussée que les conducteurs qui tournent à gauche s'apprêtent à quitter, est arrêtée par un feu rouge afin de faciliter l'évacuation du carrefour.</p>",
+      "content_text": "Une flèche verte orientée vers la gauche et placée seule à la sortie d'un carrefour, signifie que la circulation venant en sens inverse sur la chaussée que les conducteurs qui tournent à gauche s'apprêtent à quitter, est arrêtée par un feu rouge afin de faciliter l'évacuation du carrefour.",
+      "content_paragraphs": [
+        "Une flèche verte orientée vers la gauche et placée seule à la sortie d'un carrefour, signifie que la circulation venant en sens inverse sur la chaussée que les conducteurs qui tournent à gauche s'apprêtent à quitter, est arrêtée par un feu rouge afin de faciliter l'évacuation du carrefour."
+      ],
+      "source_id": "p9cuz77gbo",
+      "order": 94,
+      "images": []
+    },
+    {
+      "article_number": "Art. 62bis",
+      "title": "Article 62bis. Signaux lumineux de circulation placés au-dessus des bandes de circulation ou d’autres parties de la voie publique",
+      "content_html": "<p>Les signaux lumineux de circulation qui sont placés au-dessus des bandes de circulation ou de parties de la voie publique ont la signification suivante :</p>\n<p style=\"padding-left: 30px;\"><strong>1°</strong> le feu rouge qui a la forme d’une croix signifie sens interdit sur la bande de circulation ou la partie de la voie publique sauf dans les cas visés à <a href=\"#art-9.7\">l’article 9.7</a> ;</p>\n<p style=\"padding-left: 30px;\"><strong>2°</strong> le feu vert qui a la forme d'une flèche dont la pointe est dirigée vers le bas, signifie sens autorisé sur la bande de circulation ou la partie de la voie publique ;</p>\n<p style=\"padding-left: 30px;\"><strong>3°</strong> le feu orange, éventuellement clignotant, qui a la forme d'une flèche oblique dont la pointe est dirigée vers le bas, signifie sens interdit, sauf pour quitter la bande de circulation ou la partie de la voie publique dans le sens qui est indiqué par la flèche, et dans les cas visés à <a href=\"#art-9.7\">l’article 9.7</a>.</p>",
+      "content_text": "Les signaux lumineux de circulation qui sont placés au-dessus des bandes de circulation ou de parties de la voie publique ont la signification suivante :\n\n1°le feu rouge qui a la forme d’une croix signifie sens interdit sur la bande de circulation ou la partie de la voie publique sauf dans les cas visés àl’article 9.7;\n\n2°le feu vert qui a la forme d'une flèche dont la pointe est dirigée vers le bas, signifie sens autorisé sur la bande de circulation ou la partie de la voie publique ;\n\n3°le feu orange, éventuellement clignotant, qui a la forme d'une flèche oblique dont la pointe est dirigée vers le bas, signifie sens interdit, sauf pour quitter la bande de circulation ou la partie de la voie publique dans le sens qui est indiqué par la flèche, et dans les cas visés àl’article 9.7.",
+      "content_paragraphs": [
+        "Les signaux lumineux de circulation qui sont placés au-dessus des bandes de circulation ou de parties de la voie publique ont la signification suivante :",
+        "1°le feu rouge qui a la forme d’une croix signifie sens interdit sur la bande de circulation ou la partie de la voie publique sauf dans les cas visés àl’article 9.7;",
+        "2°le feu vert qui a la forme d'une flèche dont la pointe est dirigée vers le bas, signifie sens autorisé sur la bande de circulation ou la partie de la voie publique ;",
+        "3°le feu orange, éventuellement clignotant, qui a la forme d'une flèche oblique dont la pointe est dirigée vers le bas, signifie sens interdit, sauf pour quitter la bande de circulation ou la partie de la voie publique dans le sens qui est indiqué par la flèche, et dans les cas visés àl’article 9.7."
+      ],
+      "source_id": "tgnxjqh7tz",
+      "order": 95,
+      "images": []
+    },
+    {
+      "article_number": "Art. 62ter",
+      "title": "Article 62ter. Signaux lumineux spéciaux destinés à régler la circulation des véhicules des services réguliers de transport en commun",
+      "content_html": "<p>Les signaux lumineux sous forme de barres, cercles et triangles de couleur blanche apparaissant sur un fond noir sont destinés à régler la circulation des véhicules des services réguliers de transport en commun.</p>\n<p>Ils ont la signification suivante:</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"1\"></a>1°</strong> une barre horizontale a la même signification que le feu rouge prévu à <a href=\"#art-61.1.1\">l'article 61.1.1°</a>;</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"2\"></a>2°</strong> un cercle a la même signification que le feu jaune-orange fixe prévu à <a href=\"#art-61.1.2\">l'article 61.1.2°</a>;</p>\n<p style=\"padding-left: 30px;\"><strong>3°</strong> un triangle sur pointe à la même signification que le feu vert prévu à <a href=\"#art-61.1.3\">l'article 61.1.3°</a>;</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"4\"></a>4°</strong> une barre verticale signifie l'autorisation de poursuivre sa route uniquement tout droit;</p>\n<p style=\"padding-left: 30px;\"><strong>5°</strong> une barre inclinée à 45° vers la gauche ou la droite signifie l'autorisation de poursuivre sa marche uniquement dans les directions indiquées par la barre;</p>\n<p style=\"padding-left: 30px;\"><strong>6°</strong> un cercle clignotant a la même signification qu’un feu orange clignotant.</p>\n<p>La signification de ces signaux lumineux spéciaux peut être modifiée en faveur des cyclistes et des conducteurs de speed pedelecs au moyen d’un panneau de signalisation des modèles B22 et B23, tels que prévus à l’<a href=\"#67.3\">article 67.3</a>.</p>\n<p>La signification de ces signaux lumineux spéciaux peut être modifiée en faveur des cyclistes et des conducteurs de cyclomoteur à deux roues au moyen d’un feu clignotant jaune-orange supplémentaire présentant la silhouette d’une bicyclette et une flèche jaune-orange clignotante, tel que prévu à l’<a href=\"#61.1\">article 61.1</a>, 9°.</p>",
+      "content_text": "Les signaux lumineux sous forme de barres, cercles et triangles de couleur blanche apparaissant sur un fond noir sont destinés à régler la circulation des véhicules des services réguliers de transport en commun.\n\nIls ont la signification suivante:\n\n1°une barre horizontale a la même signification que le feu rouge prévu àl'article 61.1.1°;\n\n2°un cercle a la même signification que le feu jaune-orange fixe prévu àl'article 61.1.2°;\n\n3°un triangle sur pointe à la même signification que le feu vert prévu àl'article 61.1.3°;\n\n4°une barre verticale signifie l'autorisation de poursuivre sa route uniquement tout droit;\n\n5°une barre inclinée à 45° vers la gauche ou la droite signifie l'autorisation de poursuivre sa marche uniquement dans les directions indiquées par la barre;\n\n6°un cercle clignotant a la même signification qu’un feu orange clignotant.\n\nLa signification de ces signaux lumineux spéciaux peut être modifiée en faveur des cyclistes et des conducteurs de speed pedelecs au moyen d’un panneau de signalisation des modèles B22 et B23, tels que prévus à l’article 67.3.\n\nLa signification de ces signaux lumineux spéciaux peut être modifiée en faveur des cyclistes et des conducteurs de cyclomoteur à deux roues au moyen d’un feu clignotant jaune-orange supplémentaire présentant la silhouette d’une bicyclette et une flèche jaune-orange clignotante, tel que prévu à l’article 61.1, 9°.",
+      "content_paragraphs": [
+        "Les signaux lumineux sous forme de barres, cercles et triangles de couleur blanche apparaissant sur un fond noir sont destinés à régler la circulation des véhicules des services réguliers de transport en commun.",
+        "Ils ont la signification suivante:",
+        "1°une barre horizontale a la même signification que le feu rouge prévu àl'article 61.1.1°;",
+        "2°un cercle a la même signification que le feu jaune-orange fixe prévu àl'article 61.1.2°;",
+        "3°un triangle sur pointe à la même signification que le feu vert prévu àl'article 61.1.3°;",
+        "4°une barre verticale signifie l'autorisation de poursuivre sa route uniquement tout droit;",
+        "5°une barre inclinée à 45° vers la gauche ou la droite signifie l'autorisation de poursuivre sa marche uniquement dans les directions indiquées par la barre;",
+        "6°un cercle clignotant a la même signification qu’un feu orange clignotant.",
+        "La signification de ces signaux lumineux spéciaux peut être modifiée en faveur des cyclistes et des conducteurs de speed pedelecs au moyen d’un panneau de signalisation des modèles B22 et B23, tels que prévus à l’article 67.3.",
+        "La signification de ces signaux lumineux spéciaux peut être modifiée en faveur des cyclistes et des conducteurs de cyclomoteur à deux roues au moyen d’un feu clignotant jaune-orange supplémentaire présentant la silhouette d’une bicyclette et une flèche jaune-orange clignotante, tel que prévu à l’article 61.1, 9°."
+      ],
+      "source_id": "ohee2y9mbi",
+      "order": 96,
+      "images": []
+    },
+    {
+      "article_number": "Art. 63",
+      "title": "Article 63. Signaux du système bicolore",
+      "content_html": "<p><strong>63.1. Signaux lumineux de circulation pour piétons.</strong></p>\n<p style=\"padding-left: 30px;\"><strong>1. </strong>Les signaux lumineux de circulation pour piétons sont bicolores.</p>\n<p style=\"padding-left: 30px;\"><strong>2.</strong> Les feux de ces signaux ont la signification suivante:</p>\n<p style=\"padding-left: 60px;\"><strong>1°</strong> le feu rouge signifie interdiction de s'engager sur la chaussée;</p>\n<p style=\"padding-left: 60px;\"><strong>2°</strong> le feu vert signifie autorisation de s'engager sur la chaussée. A titre indicatif, la fin de cette autorisation peut être annoncée par le clignotement du feu vert.</p>\n<p style=\"padding-left: 30px;\"><strong>3.</strong> Le feu rouge est placé au-dessus du feu vert.</p>\n<p style=\"padding-left: 30px;\"><strong>4. </strong>Le feu rouge présente la silhouette éclairée d'un piéton immobile, tandis que le feu vert présente la silhouette éclairée d'un piéton en marche.<strong><br/></strong></p>\n<p style=\"padding-left: 30px;\"><strong>5.</strong> Lorsque la silhouette d’un piéton est entourée de flèches, cela signifie que le feu est simultanément au vert ou au rouge dans la direction transversale. Ces feux ne s’appliquent qu’aux piétons.</p>\n<p><strong><a name=\"63.2\"></a>63.2. Signaux lumineux de circulation combinés pour piétons et cyclistes.</strong></p>\n<p>Lorsque le feu représente la silhouette éclairée d’une bicyclette et d’un piéton, ce feu s’applique uniquement aux cyclistes, aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable, et aux piétons. Ces feux ont la même signification que ceux visés à <a href=\"#art-63.1,\">l’article 63.1,</a> 2.</p>",
+      "content_text": "63.1. Signaux lumineux de circulation pour piétons.\n\n1.Les signaux lumineux de circulation pour piétons sont bicolores.\n\n2.Les feux de ces signaux ont la signification suivante:\n\n1°le feu rouge signifie interdiction de s'engager sur la chaussée;\n\n2°le feu vert signifie autorisation de s'engager sur la chaussée. A titre indicatif, la fin de cette autorisation peut être annoncée par le clignotement du feu vert.\n\n3.Le feu rouge est placé au-dessus du feu vert.\n\n4.Le feu rouge présente la silhouette éclairée d'un piéton immobile, tandis que le feu vert présente la silhouette éclairée d'un piéton en marche.\n\n5.Lorsque la silhouette d’un piéton est entourée de flèches, cela signifie que le feu est simultanément au vert ou au rouge dans la direction transversale. Ces feux ne s’appliquent qu’aux piétons.\n\n63.2. Signaux lumineux de circulation combinés pour piétons et cyclistes.\n\nLorsque le feu représente la silhouette éclairée d’une bicyclette et d’un piéton, ce feu s’applique uniquement aux cyclistes, aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable, et aux piétons. Ces feux ont la même signification que ceux visés àl’article 63.1,2.",
+      "content_paragraphs": [
+        "63.1. Signaux lumineux de circulation pour piétons.",
+        "1.Les signaux lumineux de circulation pour piétons sont bicolores.",
+        "2.Les feux de ces signaux ont la signification suivante:",
+        "1°le feu rouge signifie interdiction de s'engager sur la chaussée;",
+        "2°le feu vert signifie autorisation de s'engager sur la chaussée. A titre indicatif, la fin de cette autorisation peut être annoncée par le clignotement du feu vert.",
+        "3.Le feu rouge est placé au-dessus du feu vert.",
+        "4.Le feu rouge présente la silhouette éclairée d'un piéton immobile, tandis que le feu vert présente la silhouette éclairée d'un piéton en marche.",
+        "5.Lorsque la silhouette d’un piéton est entourée de flèches, cela signifie que le feu est simultanément au vert ou au rouge dans la direction transversale. Ces feux ne s’appliquent qu’aux piétons.",
+        "63.2. Signaux lumineux de circulation combinés pour piétons et cyclistes.",
+        "Lorsque le feu représente la silhouette éclairée d’une bicyclette et d’un piéton, ce feu s’applique uniquement aux cyclistes, aux conducteurs de cyclomoteurs à deux roues s’ils sont autorisés à circuler sur la piste cyclable, et aux piétons. Ces feux ont la même signification que ceux visés àl’article 63.1,2."
+      ],
+      "source_id": "lw8ttdtedl",
+      "order": 97,
+      "images": []
+    },
+    {
+      "article_number": "Art. 64",
+      "title": "Article 64. Signaux à feux clignotants",
+      "content_html": "<p><strong>64.1.</strong> Un feu jaune-orange clignotant signifie autorisation de franchir le signal en redoublant de prudence; il ne modifie pas les règles de priorité.</p>\n<p>Il peut s'agir:</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"64.1.1\"></a>1°</strong> d'un feu placé seul ou de deux feux s'allumant alternativement;<br/><strong>2°</strong> d'un feu jaune-orange du système tricolore lorsque l'ensemble de ce système ne fonctionne pas;<br/><strong><a name=\"64.1.3\"></a>3°</strong> dans des cas spéciaux, d'un feu qui, dans le fonctionnement du système tricolore, s'allume à la place du feu vert.</p>\n<p><strong><a name=\"64.2\"></a>64.2 (Région de Bruxelles-Capitale et Région flamande).</strong> Deux feux rouges clignotant alternativement, placés aux passages à niveau, signifient pour tous les usagers interdiction de franchir la ligne d'arrêt, ou, s'il n'y a pas de ligne d'arrêt, le signal même.</p>\n<p><strong>64.2 (Région wallonne).</strong> Deux feux rouges clignotant alternativement signifient pour tous les usagers interdiction de franchir la ligne d'arrêt, ou, s'il n'y a pas de ligne d'arrêt, le signal même.</p>\n<p><strong><a name=\"64.3\"></a>64.3.</strong> Un feu blanc lunaire clignotant placé aux passages à niveau signifie autorisation de franchir le signal.</p>",
+      "content_text": "64.1.Un feu jaune-orange clignotant signifie autorisation de franchir le signal en redoublant de prudence; il ne modifie pas les règles de priorité.\n\nIl peut s'agir:\n\n1°d'un feu placé seul ou de deux feux s'allumant alternativement;2°d'un feu jaune-orange du système tricolore lorsque l'ensemble de ce système ne fonctionne pas;3°dans des cas spéciaux, d'un feu qui, dans le fonctionnement du système tricolore, s'allume à la place du feu vert.\n\n64.2 (Région de Bruxelles-Capitale et Région flamande).Deux feux rouges clignotant alternativement, placés aux passages à niveau, signifient pour tous les usagers interdiction de franchir la ligne d'arrêt, ou, s'il n'y a pas de ligne d'arrêt, le signal même.\n\n64.2 (Région wallonne).Deux feux rouges clignotant alternativement signifient pour tous les usagers interdiction de franchir la ligne d'arrêt, ou, s'il n'y a pas de ligne d'arrêt, le signal même.\n\n64.3.Un feu blanc lunaire clignotant placé aux passages à niveau signifie autorisation de franchir le signal.",
+      "content_paragraphs": [
+        "64.1.Un feu jaune-orange clignotant signifie autorisation de franchir le signal en redoublant de prudence; il ne modifie pas les règles de priorité.",
+        "Il peut s'agir:",
+        "1°d'un feu placé seul ou de deux feux s'allumant alternativement;2°d'un feu jaune-orange du système tricolore lorsque l'ensemble de ce système ne fonctionne pas;3°dans des cas spéciaux, d'un feu qui, dans le fonctionnement du système tricolore, s'allume à la place du feu vert.",
+        "64.2 (Région de Bruxelles-Capitale et Région flamande).Deux feux rouges clignotant alternativement, placés aux passages à niveau, signifient pour tous les usagers interdiction de franchir la ligne d'arrêt, ou, s'il n'y a pas de ligne d'arrêt, le signal même.",
+        "64.2 (Région wallonne).Deux feux rouges clignotant alternativement signifient pour tous les usagers interdiction de franchir la ligne d'arrêt, ou, s'il n'y a pas de ligne d'arrêt, le signal même.",
+        "64.3.Un feu blanc lunaire clignotant placé aux passages à niveau signifie autorisation de franchir le signal."
+      ],
+      "source_id": "pjeuapwtrv",
+      "order": 98,
+      "images": []
+    },
+    {
+      "article_number": "Art. 65",
+      "title": "Article 65. Dispositions générales",
+      "content_html": "<p><strong>65.1.</strong> Les signaux routiers sont divisés en six catégories:</p>\n<p style=\"padding-left: 40px;\">- Signaux de danger;</p>\n<p style=\"padding-left: 40px;\">- Signaux relatifs à la priorité;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'interdiction;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'obligation;</p>\n<p style=\"padding-left: 40px;\">- Signaux relatifs à l'arrêt et au stationnement;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'indication.</p>\n<p><strong><a name=\"65.2\"></a>65.2.</strong> La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal.</p>\n<p>Toutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants:</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png\"/> M1  <img alt=\"\" src=\"/media/image/orig/772bc7265326a5fddc53d7ce37e97d0148cb9491.png\"/> M2  <img alt=\"\" src=\"/media/image/orig/4ca038f6935e8db364645c321fa08f8bca3d6dc8.png\"/> M3  <img alt=\"\" src=\"/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png\"/> M4  <img alt=\"\" src=\"/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png\"/> M5  <img alt=\"\" src=\"/media/image/orig/8f6f9fb8021583dec0cee041a245a4a96ef48545.png\"/> M6  <img alt=\"\" src=\"/media/image/orig/2cd4d297a4a4dbff6b26ff95878837f61ced401e.png\"/> M7  <img alt=\"\" src=\"/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png\"/> M8  <img alt=\"\" src=\"/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png\"/> M9  <img alt=\"\" src=\"/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png\"/> M10  <img alt=\"\" src=\"/media/image/orig/2d91637a66fe81b698b2b3afaeabb4be513cd7f9.png\"/> M11  <img alt=\"\" src=\"/media/image/orig/52005dc12ffbb763cb92d10a71fff09973f32101.png\"/> M12  <img alt=\"\" src=\"/media/image/orig/b8e11faeb24b3ff62a169ba1070df18c13030260.png\"/> M13  <img alt=\"\" src=\"/media/image/orig/17e9c5d419ebe661c77441822bf283c8a02748f7.png\"/> M14  <img alt=\"\" src=\"/media/image/orig/3cae0e9c260a53ec2da21ee4ba51ff8a89bf6ddf.png\"/> M15  <img alt=\"\" src=\"/media/image/orig/f590b17a5daf64865356cbd2bef12eb2658887d1.png\"/> M16  <img alt=\"\" src=\"/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png\"/> M17  <img alt=\"\" src=\"/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png\"/> M18  <img alt=\"\" src=\"/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png\"/> M19   <img alt=\"\" src=\"/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png\"/> M20</p>\n<p style=\"padding-left: 30px;\">M21 <img alt=\"M21\" height=\"60\" src=\"/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png\" width=\"120\"/> Engins de déplacement.</p>\n<p style=\"padding-left: 30px;\">M22 <img alt=\"M22\" height=\"61\" src=\"/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png\" width=\"120\"/> Engins de déplacement en libre-partage.</p>\n<p style=\"padding-left: 30px;\">M23 <img alt=\"M23\" height=\"61\" src=\"/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png\" width=\"120\"/> Bicyclettes en libre-partage.</p>\n<p style=\"padding-left: 30px;\">M24 <img alt=\"M24\" height=\"122\" src=\"/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png\" width=\"120\"/> Bicyclettes et engins de déplacement en libre-partage.</p>\n<p>Ces symboles peuvent être combinés sur un panneau additionnel unique du modèle M.</p>\n<p>Sauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19.</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png\"/>C1 <img alt=\"\" src=\"/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png\"/> F19</p>\n<p>Les panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :</p>\n<p>Les panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :</p>\n<p><strong><a name=\"65.3\"></a>65.3. Signalisation à message variable</strong></p>\n<p>Lorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre.</p>\n<p>La couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée.</p>\n<p>Les signaux gardent leur signification.</p>\n<p><strong><a name=\"65.4\"></a>65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique</strong></p>\n<p>Lorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée.</p>\n<p><strong><a name=\"65.5\"></a>65.5. Signalisation à validité zonale</strong></p>\n<p style=\"padding-left: 30px;\"><strong>1.</strong> La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement.</p>\n<p style=\"padding-left: 30px;\">Leur signification reste inchangée.</p>\n<p style=\"padding-left: 30px;\"><strong>2.</strong> Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale.</p>",
+      "content_text": "65.1.Les signaux routiers sont divisés en six catégories:\n\n- Signaux de danger;\n\n- Signaux relatifs à la priorité;\n\n- Signaux d'interdiction;\n\n- Signaux d'obligation;\n\n- Signaux relatifs à l'arrêt et au stationnement;\n\n- Signaux d'indication.\n\n65.2.La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal.\n\nToutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants:\n\nM1M2M3M4M5M6M7M8M9M10M11M12M13M14M15M16M17M18M19M20\n\nM21Engins de déplacement.\n\nM22Engins de déplacement en libre-partage.\n\nM23Bicyclettes en libre-partage.\n\nM24Bicyclettes et engins de déplacement en libre-partage.\n\nCes symboles peuvent être combinés sur un panneau additionnel unique du modèle M.\n\nSauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19.\n\nC1F19\n\nLes panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :\n\nLes panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :\n\n65.3. Signalisation à message variable\n\nLorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre.\n\nLa couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée.\n\nLes signaux gardent leur signification.\n\n65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique\n\nLorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée.\n\n65.5. Signalisation à validité zonale\n\n1.La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement.\n\nLeur signification reste inchangée.\n\n2.Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale.",
+      "content_paragraphs": [
+        "65.1.Les signaux routiers sont divisés en six catégories:",
+        "- Signaux de danger;",
+        "- Signaux relatifs à la priorité;",
+        "- Signaux d'interdiction;",
+        "- Signaux d'obligation;",
+        "- Signaux relatifs à l'arrêt et au stationnement;",
+        "- Signaux d'indication.",
+        "65.2.La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal.",
+        "Toutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants:",
+        "M1M2M3M4M5M6M7M8M9M10M11M12M13M14M15M16M17M18M19M20",
+        "M21Engins de déplacement.",
+        "M22Engins de déplacement en libre-partage.",
+        "M23Bicyclettes en libre-partage.",
+        "M24Bicyclettes et engins de déplacement en libre-partage.",
+        "Ces symboles peuvent être combinés sur un panneau additionnel unique du modèle M.",
+        "Sauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19.",
+        "C1F19",
+        "Les panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :",
+        "Les panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :",
+        "65.3. Signalisation à message variable",
+        "Lorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre.",
+        "La couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée.",
+        "Les signaux gardent leur signification.",
+        "65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique",
+        "Lorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée.",
+        "65.5. Signalisation à validité zonale",
+        "1.La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement.",
+        "Leur signification reste inchangée.",
+        "2.Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale."
+      ],
+      "source_id": "d8quazowfa",
+      "order": 99,
+      "images": [
+        {
+          "filename": "art65_M21_21.png",
+          "path": "/media/reglementation/art65_M21_21.png",
+          "alt": "M21",
+          "sign_code": "M21"
+        },
+        {
+          "filename": "art65_M22_22.png",
+          "path": "/media/reglementation/art65_M22_22.png",
+          "alt": "M22",
+          "sign_code": "M22"
+        },
+        {
+          "filename": "art65_M23_23.png",
+          "path": "/media/reglementation/art65_M23_23.png",
+          "alt": "M23",
+          "sign_code": "M23"
+        },
+        {
+          "filename": "art65_M24_24.png",
+          "path": "/media/reglementation/art65_M24_24.png",
+          "alt": "M24",
+          "sign_code": "M24"
+        },
+        {
+          "filename": "art65_img10_10.png",
+          "path": "/media/reglementation/art65_img10_10.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img11_11.png",
+          "path": "/media/reglementation/art65_img11_11.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img12_12.png",
+          "path": "/media/reglementation/art65_img12_12.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img13_13.png",
+          "path": "/media/reglementation/art65_img13_13.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img14_14.png",
+          "path": "/media/reglementation/art65_img14_14.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img15_15.png",
+          "path": "/media/reglementation/art65_img15_15.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img16_16.png",
+          "path": "/media/reglementation/art65_img16_16.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img17_17.png",
+          "path": "/media/reglementation/art65_img17_17.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img18_18.png",
+          "path": "/media/reglementation/art65_img18_18.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img19_19.png",
+          "path": "/media/reglementation/art65_img19_19.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img1_1.png",
+          "path": "/media/reglementation/art65_img1_1.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img20_20.png",
+          "path": "/media/reglementation/art65_img20_20.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img25_25.png",
+          "path": "/media/reglementation/art65_img25_25.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img26_26.png",
+          "path": "/media/reglementation/art65_img26_26.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img2_2.png",
+          "path": "/media/reglementation/art65_img2_2.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img3_3.png",
+          "path": "/media/reglementation/art65_img3_3.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img4_4.png",
+          "path": "/media/reglementation/art65_img4_4.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img5_5.png",
+          "path": "/media/reglementation/art65_img5_5.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img6_6.png",
+          "path": "/media/reglementation/art65_img6_6.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img7_7.png",
+          "path": "/media/reglementation/art65_img7_7.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img8_8.png",
+          "path": "/media/reglementation/art65_img8_8.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art65_img9_9.png",
+          "path": "/media/reglementation/art65_img9_9.png",
+          "alt": "",
+          "sign_code": ""
+        }
+      ]
+    },
+    {
+      "article_number": "Art. 66",
+      "title": "Article 66. Signaux de danger",
+      "content_html": "<p><strong>66.1 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Les signaux de danger sont placés à droite; toutefois, lorsque la disposition des lieux ne le permet pas, ils peuvent être placés au-dessus de la chaussée.</p>\n<p>Ils peuvent être répétés aux endroits où la circulation le justifie.</p>\n<p><strong>66.2 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> A l'exception des signaux A45 et A47 qui sont placés au droit ou à proximité immédiate du passage à niveau, les signaux de danger sont placés à une distance approximative de 150 m de l'endroit dangereux.</p>\n<p>Dans des circonstances particulières, ils peuvent cependant être placés à une distance inférieure ou supérieure à 150 m; dans ce cas, la distance approximative entre le signal et l'endroit dangereux est indiquée sur un panneau additionnel.</p>\n<p><strong>66.3.</strong> La longueur d'une section dangereuse de la voie publique peut être indiquée par un panneau additionnel du modèle suivant:</p>\n<p><strong><a name=\"66.4\"></a>66.4.</strong> Les signaux de danger sont reproduits ci-après.</p>",
+      "content_text": "66.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux de danger sont placés à droite; toutefois, lorsque la disposition des lieux ne le permet pas, ils peuvent être placés au-dessus de la chaussée.\n\nIls peuvent être répétés aux endroits où la circulation le justifie.\n\n66.2 (uniquement Région de Bruxelles-Capitale et Région flamande).A l'exception des signaux A45 et A47 qui sont placés au droit ou à proximité immédiate du passage à niveau, les signaux de danger sont placés à une distance approximative de 150 m de l'endroit dangereux.\n\nDans des circonstances particulières, ils peuvent cependant être placés à une distance inférieure ou supérieure à 150 m; dans ce cas, la distance approximative entre le signal et l'endroit dangereux est indiquée sur un panneau additionnel.\n\n66.3.La longueur d'une section dangereuse de la voie publique peut être indiquée par un panneau additionnel du modèle suivant:\n\n66.4.Les signaux de danger sont reproduits ci-après.",
+      "content_paragraphs": [
+        "66.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux de danger sont placés à droite; toutefois, lorsque la disposition des lieux ne le permet pas, ils peuvent être placés au-dessus de la chaussée.",
+        "Ils peuvent être répétés aux endroits où la circulation le justifie.",
+        "66.2 (uniquement Région de Bruxelles-Capitale et Région flamande).A l'exception des signaux A45 et A47 qui sont placés au droit ou à proximité immédiate du passage à niveau, les signaux de danger sont placés à une distance approximative de 150 m de l'endroit dangereux.",
+        "Dans des circonstances particulières, ils peuvent cependant être placés à une distance inférieure ou supérieure à 150 m; dans ce cas, la distance approximative entre le signal et l'endroit dangereux est indiquée sur un panneau additionnel.",
+        "66.3.La longueur d'une section dangereuse de la voie publique peut être indiquée par un panneau additionnel du modèle suivant:",
+        "66.4.Les signaux de danger sont reproduits ci-après."
+      ],
+      "source_id": "pkpwiowbbk",
+      "order": 100,
+      "images": []
+    },
+    {
+      "article_number": "Art. 67",
+      "title": "Article 67. Signaux relatifs à la priorité",
+      "content_html": "<p><strong>67.1 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Les signaux de priorité sont placés à droite. Ils peuvent être répétés au-dessus de la chaussée ou à gauche.</p>\n<p><strong>67.2.</strong> Un panneau additionnel du modèle suivant peut compléter les signaux B1, B3, B5, B7 et B15 pour indiquer le tracé de la voie sur laquelle les conducteurs ont priorité de passage au carrefour suivant.</p>\n<p>Lorsque le signal B9 est placé avant ou dans le carrefour, il peut également être complété par ce panneau additionnel.</p>\n<p><strong><a name=\"67.3\"></a>67.3.</strong> Les signaux relatifs à la priorité sont reproduits ci-après.</p>",
+      "content_text": "67.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux de priorité sont placés à droite. Ils peuvent être répétés au-dessus de la chaussée ou à gauche.\n\n67.2.Un panneau additionnel du modèle suivant peut compléter les signaux B1, B3, B5, B7 et B15 pour indiquer le tracé de la voie sur laquelle les conducteurs ont priorité de passage au carrefour suivant.\n\nLorsque le signal B9 est placé avant ou dans le carrefour, il peut également être complété par ce panneau additionnel.\n\n67.3.Les signaux relatifs à la priorité sont reproduits ci-après.",
+      "content_paragraphs": [
+        "67.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux de priorité sont placés à droite. Ils peuvent être répétés au-dessus de la chaussée ou à gauche.",
+        "67.2.Un panneau additionnel du modèle suivant peut compléter les signaux B1, B3, B5, B7 et B15 pour indiquer le tracé de la voie sur laquelle les conducteurs ont priorité de passage au carrefour suivant.",
+        "Lorsque le signal B9 est placé avant ou dans le carrefour, il peut également être complété par ce panneau additionnel.",
+        "67.3.Les signaux relatifs à la priorité sont reproduits ci-après."
+      ],
+      "source_id": "lqk1sji5wn",
+      "order": 101,
+      "images": []
+    },
+    {
+      "article_number": "Art. 68",
+      "title": "Article 68. Signaux d'interdiction",
+      "content_html": "<p><strong>68.1 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Les signaux d'interdiction sont placés à droite; toutefois, lorsque la disposition des lieux ne le permet pas, ils peuvent être placés au-dessus de la chaussée.</p>\n<p>Ils peuvent être répétés aux endroits où la circulation le justifie.</p>\n<p><strong>68.2.</strong> Un signal d'interdiction peut être annoncé par un signal identique complété par un panneau additionnel indiquant la distance approximative à laquelle commence l'interdiction.</p>\n<p><strong><a name=\"68.3\"></a>68.3.</strong> Les signaux d'interdiction et de fin d'interdiction sont reproduits ci-après.</p>",
+      "content_text": "68.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux d'interdiction sont placés à droite; toutefois, lorsque la disposition des lieux ne le permet pas, ils peuvent être placés au-dessus de la chaussée.\n\nIls peuvent être répétés aux endroits où la circulation le justifie.\n\n68.2.Un signal d'interdiction peut être annoncé par un signal identique complété par un panneau additionnel indiquant la distance approximative à laquelle commence l'interdiction.\n\n68.3.Les signaux d'interdiction et de fin d'interdiction sont reproduits ci-après.",
+      "content_paragraphs": [
+        "68.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux d'interdiction sont placés à droite; toutefois, lorsque la disposition des lieux ne le permet pas, ils peuvent être placés au-dessus de la chaussée.",
+        "Ils peuvent être répétés aux endroits où la circulation le justifie.",
+        "68.2.Un signal d'interdiction peut être annoncé par un signal identique complété par un panneau additionnel indiquant la distance approximative à laquelle commence l'interdiction.",
+        "68.3.Les signaux d'interdiction et de fin d'interdiction sont reproduits ci-après."
+      ],
+      "source_id": "twlfl0bocy",
+      "order": 102,
+      "images": []
+    },
+    {
+      "article_number": "Art. 69",
+      "title": "Article 69. Signaux d'obligation",
+      "content_html": "<p><strong>69.1 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Les signaux d'obligation sont placés à l'endroit où leur visibilité est la mieux assurée.</p>\n<p><strong>69.2.</strong> Un signal d'obligation peut être annoncé par un signal identique complété par un panneau additionnel indiquant la distance approximative à laquelle commence l'obligation.</p>\n<p><strong><a name=\"69.3\"></a>69.3.</strong> Les signaux d'obligation sont reproduits ci-après.</p>",
+      "content_text": "69.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux d'obligation sont placés à l'endroit où leur visibilité est la mieux assurée.\n\n69.2.Un signal d'obligation peut être annoncé par un signal identique complété par un panneau additionnel indiquant la distance approximative à laquelle commence l'obligation.\n\n69.3.Les signaux d'obligation sont reproduits ci-après.",
+      "content_paragraphs": [
+        "69.1 (uniquement Région de Bruxelles-Capitale et Région flamande).Les signaux d'obligation sont placés à l'endroit où leur visibilité est la mieux assurée.",
+        "69.2.Un signal d'obligation peut être annoncé par un signal identique complété par un panneau additionnel indiquant la distance approximative à laquelle commence l'obligation.",
+        "69.3.Les signaux d'obligation sont reproduits ci-après."
+      ],
+      "source_id": "bqkj7289ow",
+      "order": 103,
+      "images": []
+    },
+    {
+      "article_number": "Art. 70",
+      "title": "Article 70. Signaux relatifs à l'arrêt et au stationnement",
+      "content_html": "<p><strong>70.1.</strong> Les signaux relatifs à l'arrêt et au stationnement sont reproduits ci-après. Ils ne peuvent être complétés que par le symbole ou l'une des inscriptions prévus pour chaque catégorie de signaux.</p>\n<p><strong><a name=\"70.2.1\"></a>70.2.1.</strong> Signaux d'interdiction de stationnement et d'arrêt, signaux de stationnement alterné et signaux autorisant et réglementant le stationnement.</p>\n<p style=\"padding-left: 30px;\"><strong>1° Signaux d'interdiction de stationnement et d'arrêt.</strong></p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/c9264fe767562db1f4fd009c9a31a7a3f27e0f21.png\"/> <strong>E1.</strong><strong class=\"text-bold\"> </strong>Stationnement interdit.</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/90a343732d20e647bd3bc08114c5dafb9e08fdb6.png\"/> <strong>E3.</strong> Arrêt et stationnement interdits.</p>\n<p style=\"padding-left: 30px;\">Une inscription peut indiquer la période pendant laquelle l'interdiction est applicable.</p>\n<p style=\"padding-left: 60px;\">Ex.</p>\n<p style=\"padding-left: 60px;\">- de 7 à 19 h.</p>\n<p style=\"padding-left: 60px;\">- du lundi au vendredi;</p>\n<p style=\"padding-left: 60px;\">- de 7 à 19 h.<br/>- du lundi au vendredi;</p>\n<p>Une inscription ou un symbole prévu à l'article <a href=\"#65.2\">65.2</a>, alinéa 2, <a href=\"#art-70.2.1,\">70.2.1,</a> 3° et <a href=\"#72.6\">72.6</a>, peut indiquer la catégorie de véhicules pour laquelle l’interdiction est applicable.</p>\n<p style=\"padding-left: 30px;\"><strong>2° Signaux de stationnement alterné.</strong></p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/73278935455c524decab679132a7ca0705d5e6ff.png\"/> <strong> E5.</strong> Stationnement interdit du 1<sup>er</sup> au 15 du mois.</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/ba47d1e4a96a212a5042c821b684bc9a4d5edd99.png\"/> <strong> E7.</strong> Stationnement interdit du 16 à la fin du mois.</p>\n<p style=\"padding-left: 60px;\"><strong>a)</strong> Le changement de côté doit se faire le dernier jour de chaque période entre 19 h 30 et 20 h.</p>\n<p style=\"padding-left: 60px;\"><strong>b)</strong> Un panneau additionnel sur lequel est reproduit le disque de stationnement indique que la durée du stationnement est limitée du côté où celui-ci est autorisé, et que l'usage du disque est obligatoire.</p>\n<p style=\"padding-left: 60px;\">Le panneau additionnel peut être complété par la mention \"Excepté riverains\" pour les personnes qui sont en possession de la carte de riverain visée à <a href=\"#art-27.1.4\">l'article 27.1.4</a>.</p>\n<p style=\"padding-left: 60px;\">Un panneau additionnel comportant la mention \"payant\" signifie que le conducteur doit utiliser une carte de stationnement payant.</p>\n<p style=\"padding-left: 60px;\">La mention \"payant\" est complétée par la mention \"excepté riverains\" pour les personnes qui sont en possession de la carte de riverain visée à <a href=\"#art-27.1.4\">l'article 27.1.4</a>.</p>\n<p style=\"padding-left: 30px;\"><strong>3° Signaux autorisant ou réglementant le stationnement.</strong></p>",
+      "content_text": "70.1.Les signaux relatifs à l'arrêt et au stationnement sont reproduits ci-après. Ils ne peuvent être complétés que par le symbole ou l'une des inscriptions prévus pour chaque catégorie de signaux.\n\n70.2.1.Signaux d'interdiction de stationnement et d'arrêt, signaux de stationnement alterné et signaux autorisant et réglementant le stationnement.\n\n1° Signaux d'interdiction de stationnement et d'arrêt.\n\nE1.Stationnement interdit.\n\nE3.Arrêt et stationnement interdits.\n\nUne inscription peut indiquer la période pendant laquelle l'interdiction est applicable.\n\nEx.\n\n- de 7 à 19 h.\n\n- du lundi au vendredi;\n\n- de 7 à 19 h.- du lundi au vendredi;\n\nUne inscription ou un symbole prévu à l'article65.2, alinéa 2,70.2.1,3° et72.6, peut indiquer la catégorie de véhicules pour laquelle l’interdiction est applicable.\n\n2° Signaux de stationnement alterné.\n\nE5.Stationnement interdit du 1erau 15 du mois.\n\nE7.Stationnement interdit du 16 à la fin du mois.\n\na)Le changement de côté doit se faire le dernier jour de chaque période entre 19 h 30 et 20 h.\n\nb)Un panneau additionnel sur lequel est reproduit le disque de stationnement indique que la durée du stationnement est limitée du côté où celui-ci est autorisé, et que l'usage du disque est obligatoire.\n\nLe panneau additionnel peut être complété par la mention \"Excepté riverains\" pour les personnes qui sont en possession de la carte de riverain visée àl'article 27.1.4.\n\nUn panneau additionnel comportant la mention \"payant\" signifie que le conducteur doit utiliser une carte de stationnement payant.\n\nLa mention \"payant\" est complétée par la mention \"excepté riverains\" pour les personnes qui sont en possession de la carte de riverain visée àl'article 27.1.4.\n\n3° Signaux autorisant ou réglementant le stationnement.",
+      "content_paragraphs": [
+        "70.1.Les signaux relatifs à l'arrêt et au stationnement sont reproduits ci-après. Ils ne peuvent être complétés que par le symbole ou l'une des inscriptions prévus pour chaque catégorie de signaux.",
+        "70.2.1.Signaux d'interdiction de stationnement et d'arrêt, signaux de stationnement alterné et signaux autorisant et réglementant le stationnement.",
+        "1° Signaux d'interdiction de stationnement et d'arrêt.",
+        "E1.Stationnement interdit.",
+        "E3.Arrêt et stationnement interdits.",
+        "Une inscription peut indiquer la période pendant laquelle l'interdiction est applicable.",
+        "Ex.",
+        "- de 7 à 19 h.",
+        "- du lundi au vendredi;",
+        "- de 7 à 19 h.- du lundi au vendredi;",
+        "Une inscription ou un symbole prévu à l'article65.2, alinéa 2,70.2.1,3° et72.6, peut indiquer la catégorie de véhicules pour laquelle l’interdiction est applicable.",
+        "2° Signaux de stationnement alterné.",
+        "E5.Stationnement interdit du 1erau 15 du mois.",
+        "E7.Stationnement interdit du 16 à la fin du mois.",
+        "a)Le changement de côté doit se faire le dernier jour de chaque période entre 19 h 30 et 20 h.",
+        "b)Un panneau additionnel sur lequel est reproduit le disque de stationnement indique que la durée du stationnement est limitée du côté où celui-ci est autorisé, et que l'usage du disque est obligatoire.",
+        "Le panneau additionnel peut être complété par la mention \"Excepté riverains\" pour les personnes qui sont en possession de la carte de riverain visée àl'article 27.1.4.",
+        "Un panneau additionnel comportant la mention \"payant\" signifie que le conducteur doit utiliser une carte de stationnement payant.",
+        "La mention \"payant\" est complétée par la mention \"excepté riverains\" pour les personnes qui sont en possession de la carte de riverain visée àl'article 27.1.4.",
+        "3° Signaux autorisant ou réglementant le stationnement."
+      ],
+      "source_id": "eilcifaa1y",
+      "order": 104,
+      "images": [
+        {
+          "filename": "art70_img1_1.png",
+          "path": "/media/reglementation/art70_img1_1.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art70_img2_2.png",
+          "path": "/media/reglementation/art70_img2_2.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art70_img3_3.png",
+          "path": "/media/reglementation/art70_img3_3.png",
+          "alt": "",
+          "sign_code": ""
+        },
+        {
+          "filename": "art70_img4_4.png",
+          "path": "/media/reglementation/art70_img4_4.png",
+          "alt": "",
+          "sign_code": ""
+        }
+      ]
+    },
+    {
+      "article_number": "Art. 71",
+      "title": "Article 71. Signaux d'indication",
+      "content_html": "<p><strong>71.1.</strong> Les signaux d'indication sont placés aux endroits appropriés eu égard à la nature de l'indication qu'ils fournissent.</p>\n<p>Sur la signalisation de direction menant vers une autoroute et sur la signalisation de direction placée sur l'autoroute elle-même, le nom des destinations étrangères est indiqué dans la langue du pays où se trouve cette destination.</p>\n<p>Si, en vertu de l'application des lois coordonnées sur l'emploi des langues en matière administrative, ce nom ne figure pas déjà sur cette signalisation, il est ajouté après ou en-dessous de la destination mentionnée, dans un autre caractère et entre parenthèses.</p>\n<p><strong><a name=\"71.2\"></a>71.2.</strong> Les principaux signaux sont reproduits ci-après. D'autres signaux d'indication, de forme rectangulaire et portant une inscription ou un symbole en blanc sur fond bleu, peuvent être utilisés dans des cas particuliers.</p>",
+      "content_text": "71.1.Les signaux d'indication sont placés aux endroits appropriés eu égard à la nature de l'indication qu'ils fournissent.\n\nSur la signalisation de direction menant vers une autoroute et sur la signalisation de direction placée sur l'autoroute elle-même, le nom des destinations étrangères est indiqué dans la langue du pays où se trouve cette destination.\n\nSi, en vertu de l'application des lois coordonnées sur l'emploi des langues en matière administrative, ce nom ne figure pas déjà sur cette signalisation, il est ajouté après ou en-dessous de la destination mentionnée, dans un autre caractère et entre parenthèses.\n\n71.2.Les principaux signaux sont reproduits ci-après. D'autres signaux d'indication, de forme rectangulaire et portant une inscription ou un symbole en blanc sur fond bleu, peuvent être utilisés dans des cas particuliers.",
+      "content_paragraphs": [
+        "71.1.Les signaux d'indication sont placés aux endroits appropriés eu égard à la nature de l'indication qu'ils fournissent.",
+        "Sur la signalisation de direction menant vers une autoroute et sur la signalisation de direction placée sur l'autoroute elle-même, le nom des destinations étrangères est indiqué dans la langue du pays où se trouve cette destination.",
+        "Si, en vertu de l'application des lois coordonnées sur l'emploi des langues en matière administrative, ce nom ne figure pas déjà sur cette signalisation, il est ajouté après ou en-dessous de la destination mentionnée, dans un autre caractère et entre parenthèses.",
+        "71.2.Les principaux signaux sont reproduits ci-après. D'autres signaux d'indication, de forme rectangulaire et portant une inscription ou un symbole en blanc sur fond bleu, peuvent être utilisés dans des cas particuliers."
+      ],
+      "source_id": "q9a8xnjft5",
+      "order": 105,
+      "images": []
+    },
+    {
+      "article_number": "Art. 72",
+      "title": "Article 72. Marques longitudinales indiquant les bandes de circulation",
+      "content_html": "<p><strong><a name=\"72.1\"></a>72.1.</strong> Ces marques routières sont de couleur blanche et peuvent consister en:</p>\n<p style=\"padding-left: 30px;\"><strong>1°</strong> une ligne continue;<br/><strong>2°</strong> une ligne discontinue;<br/><strong>3°</strong> une ligne continue et une ligne discontinue juxtaposées.</p>\n<p><strong><a name=\"72.2\"></a>72.2.</strong> Une ligne continue signifie qu'il est interdit à tout conducteur de la franchir.</p>\n<p>En outre, il est interdit de circuler à gauche d'une ligne continue, lorsque celle-ci sépare les deux sens de circulation.</p>\n<p><strong><a name=\"72.3\"></a>72.3.</strong> Une ligne discontinue signifie qu'il est interdit à tout conducteur de la franchir, sauf pour dépasser, pour tourner à gauche, pour effectuer un demi-tour ou pour changer de bande.</p>\n<p>Lorsque les traits de la ligne discontinue sont plus courts et plus rapprochés les uns des autres, ils annoncent l'approche d'une ligne continue.</p>\n<p><strong><a name=\"72.4\"></a>72.4.</strong> Lorsqu'une ligne continue et une ligne discontinue sont juxtaposées, le conducteur ne doit tenir compte que de la ligne qui se trouve de son côté.</p>\n<p>Les conducteurs qui ont franchi ces lignes pour effectuer un dépassement peuvent cependant les franchir à nouveau pour reprendre leur place normale sur la chaussée.</p>\n<p><strong><a name=\"72.5\"></a>72.5. Bande bus.</strong></p>\n<p style=\"padding-left: 40px;\">1° Marques et signalisation :</p>\n<p style=\"padding-left: 40px;\">Exemple :</p>\n<p style=\"padding-left: 40px;\">Le signal F17 et une ou deux larges lignes blanches discontinues ou des marques en damier composées de carrés blancs délimitent la bande bus.</p>\n<p style=\"padding-left: 40px;\"><img alt=\"\" src=\"/media/image/orig/7189b2c0a35729e9596f9c9f7f3e884500bab2d3.png\"/> F17</p>\n<p style=\"padding-left: 40px;\">La bande bus ne fait pas partie de la chaussée.</p>\n<p style=\"padding-left: 40px;\">Des clous lumineux blancs peuvent remplacer les marques au sol en cas de signalisation message variable.</p>\n<p style=\"padding-left: 40px;\">2° Véhicules autorisés :</p>\n<p style=\"padding-left: 40px;\">Outre les véhicules des services réguliers de transport en commun, peuvent y circuler, condition que les symboles, mots ou panneaux suivants soient repris sur le signal F17 ou sur un panneau additionnel :</p>\n<p style=\"padding-left: 80px;\">a) les véhicules utilisés pour le transport scolaire ;</p>\n<p style=\"padding-left: 80px;\">b) les taxis ;</p>\n<p style=\"padding-left: 80px;\">TAXI</p>\n<p style=\"padding-left: 80px;\">c) les bicyclettes ;</p>\n<p style=\"padding-left: 80px;\">d) les cyclomoteurs. Les classes peuvent être indiquées en dessous du signal ;</p>",
+      "content_text": "72.1.Ces marques routières sont de couleur blanche et peuvent consister en:\n\n1°une ligne continue;2°une ligne discontinue;3°une ligne continue et une ligne discontinue juxtaposées.\n\n72.2.Une ligne continue signifie qu'il est interdit à tout conducteur de la franchir.\n\nEn outre, il est interdit de circuler à gauche d'une ligne continue, lorsque celle-ci sépare les deux sens de circulation.\n\n72.3.Une ligne discontinue signifie qu'il est interdit à tout conducteur de la franchir, sauf pour dépasser, pour tourner à gauche, pour effectuer un demi-tour ou pour changer de bande.\n\nLorsque les traits de la ligne discontinue sont plus courts et plus rapprochés les uns des autres, ils annoncent l'approche d'une ligne continue.\n\n72.4.Lorsqu'une ligne continue et une ligne discontinue sont juxtaposées, le conducteur ne doit tenir compte que de la ligne qui se trouve de son côté.\n\nLes conducteurs qui ont franchi ces lignes pour effectuer un dépassement peuvent cependant les franchir à nouveau pour reprendre leur place normale sur la chaussée.\n\n72.5. Bande bus.\n\n1° Marques et signalisation :\n\nExemple :\n\nLe signal F17 et une ou deux larges lignes blanches discontinues ou des marques en damier composées de carrés blancs délimitent la bande bus.\n\nF17\n\nLa bande bus ne fait pas partie de la chaussée.\n\nDes clous lumineux blancs peuvent remplacer les marques au sol en cas de signalisation message variable.\n\n2° Véhicules autorisés :\n\nOutre les véhicules des services réguliers de transport en commun, peuvent y circuler, condition que les symboles, mots ou panneaux suivants soient repris sur le signal F17 ou sur un panneau additionnel :\n\na) les véhicules utilisés pour le transport scolaire ;\n\nb) les taxis ;\n\nTAXI\n\nc) les bicyclettes ;\n\nd) les cyclomoteurs. Les classes peuvent être indiquées en dessous du signal ;",
+      "content_paragraphs": [
+        "72.1.Ces marques routières sont de couleur blanche et peuvent consister en:",
+        "1°une ligne continue;2°une ligne discontinue;3°une ligne continue et une ligne discontinue juxtaposées.",
+        "72.2.Une ligne continue signifie qu'il est interdit à tout conducteur de la franchir.",
+        "En outre, il est interdit de circuler à gauche d'une ligne continue, lorsque celle-ci sépare les deux sens de circulation.",
+        "72.3.Une ligne discontinue signifie qu'il est interdit à tout conducteur de la franchir, sauf pour dépasser, pour tourner à gauche, pour effectuer un demi-tour ou pour changer de bande.",
+        "Lorsque les traits de la ligne discontinue sont plus courts et plus rapprochés les uns des autres, ils annoncent l'approche d'une ligne continue.",
+        "72.4.Lorsqu'une ligne continue et une ligne discontinue sont juxtaposées, le conducteur ne doit tenir compte que de la ligne qui se trouve de son côté.",
+        "Les conducteurs qui ont franchi ces lignes pour effectuer un dépassement peuvent cependant les franchir à nouveau pour reprendre leur place normale sur la chaussée.",
+        "72.5. Bande bus.",
+        "1° Marques et signalisation :",
+        "Exemple :",
+        "Le signal F17 et une ou deux larges lignes blanches discontinues ou des marques en damier composées de carrés blancs délimitent la bande bus.",
+        "F17",
+        "La bande bus ne fait pas partie de la chaussée.",
+        "Des clous lumineux blancs peuvent remplacer les marques au sol en cas de signalisation message variable.",
+        "2° Véhicules autorisés :",
+        "Outre les véhicules des services réguliers de transport en commun, peuvent y circuler, condition que les symboles, mots ou panneaux suivants soient repris sur le signal F17 ou sur un panneau additionnel :",
+        "a) les véhicules utilisés pour le transport scolaire ;",
+        "b) les taxis ;",
+        "TAXI",
+        "c) les bicyclettes ;",
+        "d) les cyclomoteurs. Les classes peuvent être indiquées en dessous du signal ;"
+      ],
+      "source_id": "uubflmlajy",
+      "order": 106,
+      "images": [
+        {
+          "filename": "art72_img1_1.png",
+          "path": "/media/reglementation/art72_img1_1.png",
+          "alt": "",
+          "sign_code": ""
+        }
+      ]
+    },
+    {
+      "article_number": "Art. 73",
+      "title": "Article 73. Marques longitudinales provisoires indiquant les bandes de circulation",
+      "content_html": "<p><strong><a name=\"73.1\"></a>73.1.</strong> Des marques provisoires pour canaliser la circulation à l'occasion de travaux sont constituées soit par des lignes continues ou discontinues de couleur orange, soit par des clous de couleur orange.</p>\n<p>Les lignes continues et discontinues de couleur orange ont la même signification que les lignes continues et discontinues visées aux articles 72.2. en 72.3.</p>\n<p>Lorsqu'il est fait usage de clous, les marques peuvent consister en:</p>\n<p style=\"padding-left: 30px;\"><strong>1°</strong> une ligne continue;<br/><strong>2°</strong> une ligne discontinue.</p>\n<p><strong><a name=\"73.2\"></a>73.2.</strong> Une ligne continue est constituée par des clous de couleur orange placés à des distances courtes et régulières les uns des autres.</p>\n<p>Cette ligne a la même signification que la ligne continue de couleur blanche visée à <a href=\"#art-72.2.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;73.3\">l'article 72.2.</a></p>\n<p><strong>73.3.</strong> Une ligne discontinue est constituée par des clous de couleur orange placés en groupe. Dans chaque groupe, les clous sont placés à des distances courtes et régulières les uns des autres.</p>\n<p>Une distance sensiblement plus grande sépare les groupes successifs. Cette ligne a la même signification que la ligne discontinue de couleur blanche visée à <a href=\"#art-72.3.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;73.4\">l'article 72.3.</a></p>\n<p><strong>73.4.</strong> Les marques provisoires rendent sans effet les autres marques longitudinales de couleur blanche tracées au même endroit.</p>",
+      "content_text": "73.1.Des marques provisoires pour canaliser la circulation à l'occasion de travaux sont constituées soit par des lignes continues ou discontinues de couleur orange, soit par des clous de couleur orange.\n\nLes lignes continues et discontinues de couleur orange ont la même signification que les lignes continues et discontinues visées aux articles 72.2. en 72.3.\n\nLorsqu'il est fait usage de clous, les marques peuvent consister en:\n\n1°une ligne continue;2°une ligne discontinue.\n\n73.2.Une ligne continue est constituée par des clous de couleur orange placés à des distances courtes et régulières les uns des autres.\n\nCette ligne a la même signification que la ligne continue de couleur blanche visée àl'article 72.2.\n\n73.3.Une ligne discontinue est constituée par des clous de couleur orange placés en groupe. Dans chaque groupe, les clous sont placés à des distances courtes et régulières les uns des autres.\n\nUne distance sensiblement plus grande sépare les groupes successifs. Cette ligne a la même signification que la ligne discontinue de couleur blanche visée àl'article 72.3.\n\n73.4.Les marques provisoires rendent sans effet les autres marques longitudinales de couleur blanche tracées au même endroit.",
+      "content_paragraphs": [
+        "73.1.Des marques provisoires pour canaliser la circulation à l'occasion de travaux sont constituées soit par des lignes continues ou discontinues de couleur orange, soit par des clous de couleur orange.",
+        "Les lignes continues et discontinues de couleur orange ont la même signification que les lignes continues et discontinues visées aux articles 72.2. en 72.3.",
+        "Lorsqu'il est fait usage de clous, les marques peuvent consister en:",
+        "1°une ligne continue;2°une ligne discontinue.",
+        "73.2.Une ligne continue est constituée par des clous de couleur orange placés à des distances courtes et régulières les uns des autres.",
+        "Cette ligne a la même signification que la ligne continue de couleur blanche visée àl'article 72.2.",
+        "73.3.Une ligne discontinue est constituée par des clous de couleur orange placés en groupe. Dans chaque groupe, les clous sont placés à des distances courtes et régulières les uns des autres.",
+        "Une distance sensiblement plus grande sépare les groupes successifs. Cette ligne a la même signification que la ligne discontinue de couleur blanche visée àl'article 72.3.",
+        "73.4.Les marques provisoires rendent sans effet les autres marques longitudinales de couleur blanche tracées au même endroit."
+      ],
+      "source_id": "ggo4hbemcf",
+      "order": 107,
+      "images": []
+    },
+    {
+      "article_number": "Art. 74",
+      "title": "Article 74. Marques longitudinales indiquant une piste cyclable",
+      "content_html": "<p>La partie de la voie publique délimitée par deux lignes discontinues parallèles de couleur blanche et n'ayant pas une largeur suffisante pour permettre la circulation des véhicules automobiles, constitue une piste cyclable.</p>",
+      "content_text": "La partie de la voie publique délimitée par deux lignes discontinues parallèles de couleur blanche et n'ayant pas une largeur suffisante pour permettre la circulation des véhicules automobiles, constitue une piste cyclable.",
+      "content_paragraphs": [
+        "La partie de la voie publique délimitée par deux lignes discontinues parallèles de couleur blanche et n'ayant pas une largeur suffisante pour permettre la circulation des véhicules automobiles, constitue une piste cyclable."
+      ],
+      "source_id": "bogok2zg5p",
+      "order": 108,
+      "images": []
+    },
+    {
+      "article_number": "Art. 75",
+      "title": "Article 75. Marques longitudinales indiquant le bord de la chaussée",
+      "content_html": "<p><strong>75.1. Marques indiquant le bord réel de la chaussée.</strong></p>\n<p style=\"padding-left: 30px;\"><strong>1°</strong> Une ligne continue de couleur blanche peut être tracée sur le bord réel de la chaussée, la bordure d'un trottoir ou d'un accotement en saillie pour les rendre plus apparentes.</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"75.1.2\"></a>2°</strong> Une ligne discontinue de couleur jaune peut être tracée sur le bord réel de la chaussée, la bordure du trottoir ou d'un accotement en saillie.</p>\n<p style=\"padding-left: 30px;\">Le stationnement est interdit sur la chaussée le long de cette ligne de couleur jaune.</p>\n<p><strong><a name=\"75.2\"></a>75.2. Marques indiquant le bord fictif de la chaussée.</strong></p>\n<p>Une large ligne continue de couleur blanche peut être tracée sur la chaussée pour marquer le bord fictif de celle-ci.</p>\n<p>La partie de la voie publique située au-delà de cette ligne est réservée à l'arrêt et au stationnement, sauf sur les autoroutes et les routes pour automobiles.</p>\n<p>Le début et la fin de cette bande de stationnement peuvent être indiqués par une ligne transversale continue de couleur blanche.</p>\n<p><strong class=\"text-bold\"><a id=\"art75.3\"></a>75.3. Marques routières indiquant la chaussée à voie centrale.</strong></p>\n<p>Deux lignes blanches parallèles discontinues de chaque côté de la chaussée, constituées à chaque fois de deux paires de traits courts, délimitent les bords fictifs de la chaussée à voie centrale.</p>",
+      "content_text": "75.1. Marques indiquant le bord réel de la chaussée.\n\n1°Une ligne continue de couleur blanche peut être tracée sur le bord réel de la chaussée, la bordure d'un trottoir ou d'un accotement en saillie pour les rendre plus apparentes.\n\n2°Une ligne discontinue de couleur jaune peut être tracée sur le bord réel de la chaussée, la bordure du trottoir ou d'un accotement en saillie.\n\nLe stationnement est interdit sur la chaussée le long de cette ligne de couleur jaune.\n\n75.2. Marques indiquant le bord fictif de la chaussée.\n\nUne large ligne continue de couleur blanche peut être tracée sur la chaussée pour marquer le bord fictif de celle-ci.\n\nLa partie de la voie publique située au-delà de cette ligne est réservée à l'arrêt et au stationnement, sauf sur les autoroutes et les routes pour automobiles.\n\nLe début et la fin de cette bande de stationnement peuvent être indiqués par une ligne transversale continue de couleur blanche.\n\n75.3. Marques routières indiquant la chaussée à voie centrale.\n\nDeux lignes blanches parallèles discontinues de chaque côté de la chaussée, constituées à chaque fois de deux paires de traits courts, délimitent les bords fictifs de la chaussée à voie centrale.",
+      "content_paragraphs": [
+        "75.1. Marques indiquant le bord réel de la chaussée.",
+        "1°Une ligne continue de couleur blanche peut être tracée sur le bord réel de la chaussée, la bordure d'un trottoir ou d'un accotement en saillie pour les rendre plus apparentes.",
+        "2°Une ligne discontinue de couleur jaune peut être tracée sur le bord réel de la chaussée, la bordure du trottoir ou d'un accotement en saillie.",
+        "Le stationnement est interdit sur la chaussée le long de cette ligne de couleur jaune.",
+        "75.2. Marques indiquant le bord fictif de la chaussée.",
+        "Une large ligne continue de couleur blanche peut être tracée sur la chaussée pour marquer le bord fictif de celle-ci.",
+        "La partie de la voie publique située au-delà de cette ligne est réservée à l'arrêt et au stationnement, sauf sur les autoroutes et les routes pour automobiles.",
+        "Le début et la fin de cette bande de stationnement peuvent être indiqués par une ligne transversale continue de couleur blanche.",
+        "75.3. Marques routières indiquant la chaussée à voie centrale.",
+        "Deux lignes blanches parallèles discontinues de chaque côté de la chaussée, constituées à chaque fois de deux paires de traits courts, délimitent les bords fictifs de la chaussée à voie centrale."
+      ],
+      "source_id": "wfdunvea3o",
+      "order": 109,
+      "images": []
+    },
+    {
+      "article_number": "Art. 76",
+      "title": "Article 76. Marques transversales",
+      "content_html": "<p><strong>76.1.</strong> Une ligne d'arrêt constituée par une ligne blanche continue, tracée perpendiculairement au bord de la chaussée, indique l'endroit où les conducteurs doivent marquer l'arrêt imposé par un signal B5 ou un signal lumineux de circulation.</p>\n<p><strong>76.2.</strong> Une ligne transversale constituée par des triangles blancs, indique l'endroit où les conducteurs doivent, s'il y a lieu, s'arrêter pour céder le passage en vertu d'un signal B1.</p>\n<p><strong>76.3.</strong> Les passages pour piétons sont délimités par des bandes de couleur blanche, parallèles à l'axe de la chaussée.</p>\n<p><strong>76.4.</strong> Les passages que les conducteurs de bicyclettes et de cyclomoteurs à deux roues doivent utiliser pour traverser la chaussée, sont délimités par deux lignes discontinues constituées par des carrés ou des parallélogrammes de couleur blanche.</p>",
+      "content_text": "76.1.Une ligne d'arrêt constituée par une ligne blanche continue, tracée perpendiculairement au bord de la chaussée, indique l'endroit où les conducteurs doivent marquer l'arrêt imposé par un signal B5 ou un signal lumineux de circulation.\n\n76.2.Une ligne transversale constituée par des triangles blancs, indique l'endroit où les conducteurs doivent, s'il y a lieu, s'arrêter pour céder le passage en vertu d'un signal B1.\n\n76.3.Les passages pour piétons sont délimités par des bandes de couleur blanche, parallèles à l'axe de la chaussée.\n\n76.4.Les passages que les conducteurs de bicyclettes et de cyclomoteurs à deux roues doivent utiliser pour traverser la chaussée, sont délimités par deux lignes discontinues constituées par des carrés ou des parallélogrammes de couleur blanche.",
+      "content_paragraphs": [
+        "76.1.Une ligne d'arrêt constituée par une ligne blanche continue, tracée perpendiculairement au bord de la chaussée, indique l'endroit où les conducteurs doivent marquer l'arrêt imposé par un signal B5 ou un signal lumineux de circulation.",
+        "76.2.Une ligne transversale constituée par des triangles blancs, indique l'endroit où les conducteurs doivent, s'il y a lieu, s'arrêter pour céder le passage en vertu d'un signal B1.",
+        "76.3.Les passages pour piétons sont délimités par des bandes de couleur blanche, parallèles à l'axe de la chaussée.",
+        "76.4.Les passages que les conducteurs de bicyclettes et de cyclomoteurs à deux roues doivent utiliser pour traverser la chaussée, sont délimités par deux lignes discontinues constituées par des carrés ou des parallélogrammes de couleur blanche."
+      ],
+      "source_id": "9abqsaiamn",
+      "order": 110,
+      "images": []
+    },
+    {
+      "article_number": "Art. 77",
+      "title": "Article 77. Autres marques",
+      "content_html": "<p><strong>77.1.</strong> Des flèches de sélection de couleur blanche peuvent être tracées à l'approche d'un carrefour. Ces flèches marquent la bande de circulation que les conducteurs doivent suivre pour s'engager dans la direction indiquée par les flèches.</p>\n<p>En outre, au carrefour, les conducteurs doivent suivre la ou une des directions indiquées sur la bande de circulation dans laquelle ils se trouvent.</p>\n<p><strong>77.2.</strong> La ligne discontinue qui annonce l'approche d'une ligne continue peut être complétée par des flèches de rabattement de couleur blanche.</p>\n<p>Ces flèches annoncent la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi.</p>\n<p><strong>77.3.</strong> Des inscriptions de couleur blanche sur la chaussée peuvent répéter les indications données par des signaux routiers.</p>\n<p>Les différentes directions peuvent être indiquées sur les bandes de circulation.</p>\n<p>Aux arrêts d'autobus, de trolleybus ou de trams, la zone où le stationnement est interdit en vertu de <a href=\"#art-25.1.2\">l'article 25.1.2°</a>, peut être indiquée par des inscriptions de couleur blanche.</p>\n<p><strong>77.4.</strong> Des îlots directionnels et des zones d'évitement peuvent être marqués sur le sol par des lignes parallèles obliques de couleur blanche.</p>\n<p>Les conducteurs ne peuvent pas circuler, ni s'arrêter ni stationner sur ces marques.</p>\n<p><strong>77.5.</strong> Dans une bande de stationnement, des marques de couleur blanche peuvent délimiter les emplacements que doivent occuper les véhicules.</p>\n<p>Un emplacement de stationnement équipé d’arceaux ou identifié par le marquage au sol du symbole ou des symboles figurant sur les panneaux additionnels M1, M8 et M19 à M24 prévus à <a href=\"#65.2\">l’article 65.2</a>, est réservé, selon le cas, aux engins de déplacement, aux bicyclettes ou aux cyclomoteurs à deux roues, en libre-partage ou non.</p>\n<p><strong>77.6. Marques indiquant une zone avancée pour cyclistes et conducteurs de cyclomoteurs à deux roues.</strong></p>\n<p>La zone où aboutit une piste cyclable et qui est délimitée par deux lignes d'arrêt et dans laquelle le symbole d'une bicyclette est reproduit en couleur blanche, indique l'endroit où les cyclistes et conducteurs de cyclomoteurs à deux roues peuvent se ranger uniquement pendant la phase rouge des signaux lumineux de circulation.</p>\n<p>Pendant la phase rouge des signaux lumineux de circulation, les autres conducteurs doivent s'arrêter devant la première ligne d'arrêt.</p>\n<p><strong>77.7. Marques indiquant les bandes de sélection pour cyclistes et conducteurs de cyclomoteurs à deux roues.</strong></p>\n<p>A l'approche d'un carrefour, des bandes de sélection pour cyclistes et conducteurs de cyclomoteurs à deux roues peuvent être délimitées au moyen de lignes continues de couleur blanche. Dans ces bandes, le symbole de la bicyclette et la flèche indiquant la direction qui doit être suivie, sont reproduits en couleur blanche. Ces bandes de sélection sont réservées aux cyclistes et conducteurs de cyclomoteurs à deux roues.</p>\n<p><strong><a name=\"77.8\"></a>77.8. Des marques en damier composées de carrés blancs peuvent être apposées sur le sol.</strong></p>\n<p>Elles délimitent :</p>",
+      "content_text": "77.1.Des flèches de sélection de couleur blanche peuvent être tracées à l'approche d'un carrefour. Ces flèches marquent la bande de circulation que les conducteurs doivent suivre pour s'engager dans la direction indiquée par les flèches.\n\nEn outre, au carrefour, les conducteurs doivent suivre la ou une des directions indiquées sur la bande de circulation dans laquelle ils se trouvent.\n\n77.2.La ligne discontinue qui annonce l'approche d'une ligne continue peut être complétée par des flèches de rabattement de couleur blanche.\n\nCes flèches annoncent la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi.\n\n77.3.Des inscriptions de couleur blanche sur la chaussée peuvent répéter les indications données par des signaux routiers.\n\nLes différentes directions peuvent être indiquées sur les bandes de circulation.\n\nAux arrêts d'autobus, de trolleybus ou de trams, la zone où le stationnement est interdit en vertu del'article 25.1.2°, peut être indiquée par des inscriptions de couleur blanche.\n\n77.4.Des îlots directionnels et des zones d'évitement peuvent être marqués sur le sol par des lignes parallèles obliques de couleur blanche.\n\nLes conducteurs ne peuvent pas circuler, ni s'arrêter ni stationner sur ces marques.\n\n77.5.Dans une bande de stationnement, des marques de couleur blanche peuvent délimiter les emplacements que doivent occuper les véhicules.\n\nUn emplacement de stationnement équipé d’arceaux ou identifié par le marquage au sol du symbole ou des symboles figurant sur les panneaux additionnels M1, M8 et M19 à M24 prévus àl’article 65.2, est réservé, selon le cas, aux engins de déplacement, aux bicyclettes ou aux cyclomoteurs à deux roues, en libre-partage ou non.\n\n77.6. Marques indiquant une zone avancée pour cyclistes et conducteurs de cyclomoteurs à deux roues.\n\nLa zone où aboutit une piste cyclable et qui est délimitée par deux lignes d'arrêt et dans laquelle le symbole d'une bicyclette est reproduit en couleur blanche, indique l'endroit où les cyclistes et conducteurs de cyclomoteurs à deux roues peuvent se ranger uniquement pendant la phase rouge des signaux lumineux de circulation.\n\nPendant la phase rouge des signaux lumineux de circulation, les autres conducteurs doivent s'arrêter devant la première ligne d'arrêt.\n\n77.7. Marques indiquant les bandes de sélection pour cyclistes et conducteurs de cyclomoteurs à deux roues.\n\nA l'approche d'un carrefour, des bandes de sélection pour cyclistes et conducteurs de cyclomoteurs à deux roues peuvent être délimitées au moyen de lignes continues de couleur blanche. Dans ces bandes, le symbole de la bicyclette et la flèche indiquant la direction qui doit être suivie, sont reproduits en couleur blanche. Ces bandes de sélection sont réservées aux cyclistes et conducteurs de cyclomoteurs à deux roues.\n\n77.8. Des marques en damier composées de carrés blancs peuvent être apposées sur le sol.\n\nElles délimitent :",
+      "content_paragraphs": [
+        "77.1.Des flèches de sélection de couleur blanche peuvent être tracées à l'approche d'un carrefour. Ces flèches marquent la bande de circulation que les conducteurs doivent suivre pour s'engager dans la direction indiquée par les flèches.",
+        "En outre, au carrefour, les conducteurs doivent suivre la ou une des directions indiquées sur la bande de circulation dans laquelle ils se trouvent.",
+        "77.2.La ligne discontinue qui annonce l'approche d'une ligne continue peut être complétée par des flèches de rabattement de couleur blanche.",
+        "Ces flèches annoncent la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi.",
+        "77.3.Des inscriptions de couleur blanche sur la chaussée peuvent répéter les indications données par des signaux routiers.",
+        "Les différentes directions peuvent être indiquées sur les bandes de circulation.",
+        "Aux arrêts d'autobus, de trolleybus ou de trams, la zone où le stationnement est interdit en vertu del'article 25.1.2°, peut être indiquée par des inscriptions de couleur blanche.",
+        "77.4.Des îlots directionnels et des zones d'évitement peuvent être marqués sur le sol par des lignes parallèles obliques de couleur blanche.",
+        "Les conducteurs ne peuvent pas circuler, ni s'arrêter ni stationner sur ces marques.",
+        "77.5.Dans une bande de stationnement, des marques de couleur blanche peuvent délimiter les emplacements que doivent occuper les véhicules.",
+        "Un emplacement de stationnement équipé d’arceaux ou identifié par le marquage au sol du symbole ou des symboles figurant sur les panneaux additionnels M1, M8 et M19 à M24 prévus àl’article 65.2, est réservé, selon le cas, aux engins de déplacement, aux bicyclettes ou aux cyclomoteurs à deux roues, en libre-partage ou non.",
+        "77.6. Marques indiquant une zone avancée pour cyclistes et conducteurs de cyclomoteurs à deux roues.",
+        "La zone où aboutit une piste cyclable et qui est délimitée par deux lignes d'arrêt et dans laquelle le symbole d'une bicyclette est reproduit en couleur blanche, indique l'endroit où les cyclistes et conducteurs de cyclomoteurs à deux roues peuvent se ranger uniquement pendant la phase rouge des signaux lumineux de circulation.",
+        "Pendant la phase rouge des signaux lumineux de circulation, les autres conducteurs doivent s'arrêter devant la première ligne d'arrêt.",
+        "77.7. Marques indiquant les bandes de sélection pour cyclistes et conducteurs de cyclomoteurs à deux roues.",
+        "A l'approche d'un carrefour, des bandes de sélection pour cyclistes et conducteurs de cyclomoteurs à deux roues peuvent être délimitées au moyen de lignes continues de couleur blanche. Dans ces bandes, le symbole de la bicyclette et la flèche indiquant la direction qui doit être suivie, sont reproduits en couleur blanche. Ces bandes de sélection sont réservées aux cyclistes et conducteurs de cyclomoteurs à deux roues.",
+        "77.8. Des marques en damier composées de carrés blancs peuvent être apposées sur le sol.",
+        "Elles délimitent :"
+      ],
+      "source_id": "ccbtfct3ms",
+      "order": 111,
+      "images": []
+    },
+    {
+      "article_number": "Art. 78",
+      "title": "Article 78. Signalisation des chantiers et des obstacles",
+      "content_html": "<div class=\"notification notification-primary\">En ce qui concerne la Région wallonne, l’article 78 est abrogé et remplacé par le <a href=\"/fr/perma/e9bwxpzvgr/regulation_regulation\">décret du 19 décembre 2007 relatif à la tutelle d'approbation de la Région wallonne sur les règlements complémentaires relatifs aux voies publiques et à la circulation des transports en commun</a>.</div>\n<p><strong>78.1.1.</strong> La signalisation des chantiers établis sur la voie publique incombe à celui qui exécute les travaux.</p>\n<p>S'il doit être fait usage de signaux relatifs à la priorité, de signaux d'interdiction, de signaux d'obligation, de signaux relatifs à l'arrêt et au stationnement ou de marques longitudinales provisoires indiquant les bandes de circulation, cette signalisation ne peut être placée que moyennant autorisation donnée:</p>\n<p style=\"padding-left: 40px;\">- par le Ministre qui a la gestion des autoroutes dans ses attributions, ou par son délégué, lorsqu'il s'agit d'une autoroute;</p>\n<p style=\"padding-left: 40px;\">- par le bourgmestre ou par son délégué lorsqu'il s'agit d'une autre voie publique.</p>\n<p>L'autorisation détermine dans chaque cas la signalisation routière qui sera utilisée.</p>\n<p><strong>78.1.2.</strong> La signalisation routière doit être enlevée par celui qui exécute les travaux dès que ceux-ci sont terminés.</p>\n<p><strong>78.2.</strong> La signalisation des obstacles incombe:</p>\n<p style=\"padding-left: 40px;\">- soit à l'autorité qui a la gestion de la voie publique s'il s'agit d'un obstacle qui n'est pas dû au fait d'un tiers;</p>\n<p style=\"padding-left: 40px;\">- soit à celui qui a créé l'obstacle.</p>\n<p>En cas de carence de ce dernier, cette obligation est assumée par l'autorité qui a la gestion de la voie publique; les frais qui en résultent peuvent être récupérés par cette autorité à charge de la personne défaillante.</p>",
+      "content_text": "En ce qui concerne la Région wallonne, l’article 78 est abrogé et remplacé par ledécret du 19 décembre 2007 relatif à la tutelle d'approbation de la Région wallonne sur les règlements complémentaires relatifs aux voies publiques et à la circulation des transports en commun.\n\n78.1.1.La signalisation des chantiers établis sur la voie publique incombe à celui qui exécute les travaux.\n\nS'il doit être fait usage de signaux relatifs à la priorité, de signaux d'interdiction, de signaux d'obligation, de signaux relatifs à l'arrêt et au stationnement ou de marques longitudinales provisoires indiquant les bandes de circulation, cette signalisation ne peut être placée que moyennant autorisation donnée:\n\n- par le Ministre qui a la gestion des autoroutes dans ses attributions, ou par son délégué, lorsqu'il s'agit d'une autoroute;\n\n- par le bourgmestre ou par son délégué lorsqu'il s'agit d'une autre voie publique.\n\nL'autorisation détermine dans chaque cas la signalisation routière qui sera utilisée.\n\n78.1.2.La signalisation routière doit être enlevée par celui qui exécute les travaux dès que ceux-ci sont terminés.\n\n78.2.La signalisation des obstacles incombe:\n\n- soit à l'autorité qui a la gestion de la voie publique s'il s'agit d'un obstacle qui n'est pas dû au fait d'un tiers;\n\n- soit à celui qui a créé l'obstacle.\n\nEn cas de carence de ce dernier, cette obligation est assumée par l'autorité qui a la gestion de la voie publique; les frais qui en résultent peuvent être récupérés par cette autorité à charge de la personne défaillante.",
+      "content_paragraphs": [
+        "78.1.1.La signalisation des chantiers établis sur la voie publique incombe à celui qui exécute les travaux.",
+        "S'il doit être fait usage de signaux relatifs à la priorité, de signaux d'interdiction, de signaux d'obligation, de signaux relatifs à l'arrêt et au stationnement ou de marques longitudinales provisoires indiquant les bandes de circulation, cette signalisation ne peut être placée que moyennant autorisation donnée:",
+        "- par le Ministre qui a la gestion des autoroutes dans ses attributions, ou par son délégué, lorsqu'il s'agit d'une autoroute;",
+        "- par le bourgmestre ou par son délégué lorsqu'il s'agit d'une autre voie publique.",
+        "L'autorisation détermine dans chaque cas la signalisation routière qui sera utilisée.",
+        "78.1.2.La signalisation routière doit être enlevée par celui qui exécute les travaux dès que ceux-ci sont terminés.",
+        "78.2.La signalisation des obstacles incombe:",
+        "- soit à l'autorité qui a la gestion de la voie publique s'il s'agit d'un obstacle qui n'est pas dû au fait d'un tiers;",
+        "- soit à celui qui a créé l'obstacle.",
+        "En cas de carence de ce dernier, cette obligation est assumée par l'autorité qui a la gestion de la voie publique; les frais qui en résultent peuvent être récupérés par cette autorité à charge de la personne défaillante."
+      ],
+      "source_id": "g0av2wjbk1",
+      "order": 112,
+      "images": []
+    },
+    {
+      "article_number": "Art. 79",
+      "title": "Article 79. Balisage de la voie publique",
+      "content_html": "<p>Les bords de la voie publique ou de la chaussée peuvent être signalés par des dispositifs rétroréfléchissants.</p>\n<p>Ces dispositifs doivent être placés de manière que les usagers ne voient à leur droite que ceux de couleur rouge ou orange et à leur gauche que ceux de couleur blanche.</p>",
+      "content_text": "Les bords de la voie publique ou de la chaussée peuvent être signalés par des dispositifs rétroréfléchissants.\n\nCes dispositifs doivent être placés de manière que les usagers ne voient à leur droite que ceux de couleur rouge ou orange et à leur gauche que ceux de couleur blanche.",
+      "content_paragraphs": [
+        "Les bords de la voie publique ou de la chaussée peuvent être signalés par des dispositifs rétroréfléchissants.",
+        "Ces dispositifs doivent être placés de manière que les usagers ne voient à leur droite que ceux de couleur rouge ou orange et à leur gauche que ceux de couleur blanche."
+      ],
+      "source_id": "qrrpwmcb3m",
+      "order": 113,
+      "images": []
+    },
+    {
+      "article_number": "Art. 80",
+      "title": "Article 80. Placement de la signalisation routière",
+      "content_html": "<p><strong>80.1.</strong> Hormis les cas expressément visés par le présent règlement, la signalisation prévue par celui-ci ne peut être placée sur la voie publique que par les autorités légalement habilitées.</p>\n<p>Lorsque des artères sont encombrées, les services de police et de gendarmerie peuvent, en cas d'urgence, placer des signaux destinés à détourner ou à canaliser temporairement la circulation.</p>\n<p>Dans ce dernier cas, les signaux doivent être enlevés dès que la circulation est redevenue normale.</p>\n<p><strong>80.2.</strong> Il est interdit d'établir sur la voie publique des panneaux publicitaires, enseignes ou autres dispositifs qui éblouissent les conducteurs, qui les induisent en erreur, représentent ou imitent même partiellement des signaux routiers, se confondent à distance avec des signaux ou nuisent de toute autre manière à l'efficacité des signaux réglementaires.</p>\n<p>Il est interdit de donner une luminosité d'un ton rouge ou vert à tout panneau publicitaire, enseigne ou dispositif se trouvant dans une zone s'étendant jusqu'à 75 mètres d'un signal lumineux de circulation, à une hauteur inférieure à 7 mètres au-dessus du sol.</p>",
+      "content_text": "80.1.Hormis les cas expressément visés par le présent règlement, la signalisation prévue par celui-ci ne peut être placée sur la voie publique que par les autorités légalement habilitées.\n\nLorsque des artères sont encombrées, les services de police et de gendarmerie peuvent, en cas d'urgence, placer des signaux destinés à détourner ou à canaliser temporairement la circulation.\n\nDans ce dernier cas, les signaux doivent être enlevés dès que la circulation est redevenue normale.\n\n80.2.Il est interdit d'établir sur la voie publique des panneaux publicitaires, enseignes ou autres dispositifs qui éblouissent les conducteurs, qui les induisent en erreur, représentent ou imitent même partiellement des signaux routiers, se confondent à distance avec des signaux ou nuisent de toute autre manière à l'efficacité des signaux réglementaires.\n\nIl est interdit de donner une luminosité d'un ton rouge ou vert à tout panneau publicitaire, enseigne ou dispositif se trouvant dans une zone s'étendant jusqu'à 75 mètres d'un signal lumineux de circulation, à une hauteur inférieure à 7 mètres au-dessus du sol.",
+      "content_paragraphs": [
+        "80.1.Hormis les cas expressément visés par le présent règlement, la signalisation prévue par celui-ci ne peut être placée sur la voie publique que par les autorités légalement habilitées.",
+        "Lorsque des artères sont encombrées, les services de police et de gendarmerie peuvent, en cas d'urgence, placer des signaux destinés à détourner ou à canaliser temporairement la circulation.",
+        "Dans ce dernier cas, les signaux doivent être enlevés dès que la circulation est redevenue normale.",
+        "80.2.Il est interdit d'établir sur la voie publique des panneaux publicitaires, enseignes ou autres dispositifs qui éblouissent les conducteurs, qui les induisent en erreur, représentent ou imitent même partiellement des signaux routiers, se confondent à distance avec des signaux ou nuisent de toute autre manière à l'efficacité des signaux réglementaires.",
+        "Il est interdit de donner une luminosité d'un ton rouge ou vert à tout panneau publicitaire, enseigne ou dispositif se trouvant dans une zone s'étendant jusqu'à 75 mètres d'un signal lumineux de circulation, à une hauteur inférieure à 7 mètres au-dessus du sol."
+      ],
+      "source_id": "3elotbehid",
+      "order": 114,
+      "images": []
+    }
+  ]
+}

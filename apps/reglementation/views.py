@@ -1,8 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator
-from django.db.models import Count
+from django.db.models import Count, Prefetch
 
-from .models import RuleCategory, CodeArticle, TrafficSign
+from .models import RuleCategory, CodeArticle, TrafficSign, ArticleImage
 
 
 def index(request):
@@ -20,7 +20,7 @@ def index(request):
 def category_detail(request, slug):
     """Articles d'une catégorie."""
     category = get_object_or_404(RuleCategory, slug=slug, is_active=True)
-    articles = category.articles.all()
+    articles = category.articles.prefetch_related('images').all()
 
     # Free access check
     if not request.user.is_authenticated or not (
@@ -32,16 +32,25 @@ def category_detail(request, slug):
     page = request.GET.get('page')
     articles_page = paginator.get_page(page)
 
+    # All categories for sidebar navigation
+    all_categories = RuleCategory.objects.filter(is_active=True).annotate(
+        articles_count=Count('articles')
+    ).order_by('order')
+
     context = {
         'category': category,
         'articles': articles_page,
+        'all_categories': all_categories,
     }
     return render(request, 'reglementation/category.html', context)
 
 
 def article_detail(request, slug):
     """Détail d'un article du code."""
-    article = get_object_or_404(CodeArticle, slug=slug)
+    article = get_object_or_404(
+        CodeArticle.objects.select_related('category').prefetch_related('images'),
+        slug=slug
+    )
 
     # Premium check
     if not article.is_free:
@@ -52,21 +61,29 @@ def article_detail(request, slug):
             return redirect('main:pricing')
 
     # Related questions from examens
-    related_questions = article.questions.filter(is_active=True)[:5]
+    related_questions = []
+    if hasattr(article, 'questions'):
+        related_questions = article.questions.filter(is_active=True)[:5]
 
-    # Next/previous
+    # Next/previous within same category
     next_article = CodeArticle.objects.filter(
-        order__gt=article.order
+        category=article.category, order__gt=article.order
     ).order_by('order').first()
     prev_article = CodeArticle.objects.filter(
-        order__lt=article.order
+        category=article.category, order__lt=article.order
     ).order_by('-order').first()
+
+    # Table of contents for long articles
+    siblings = CodeArticle.objects.filter(
+        category=article.category
+    ).values_list('article_number', 'title', 'slug').order_by('order')[:30]
 
     context = {
         'article': article,
         'related_questions': related_questions,
         'next_article': next_article,
         'prev_article': prev_article,
+        'siblings': siblings,
     }
     return render(request, 'reglementation/article.html', context)
 

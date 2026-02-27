@@ -29,16 +29,18 @@
     {% block canonical %}<link rel="canonical" href="{{ request.build_absolute_uri }}">{% endblock %}
 
     {# Favicon #}
+    <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
 
     {# PWA #}
     <meta name="theme-color" content="#3B82F6">
     <link rel="manifest" href="/static/manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    {# Tailwind CSS (CDN for dev — replace with build in prod) #}
-    <script src="https://cdn.tailwindcss.com"></script>
+    {# Tailwind CSS (built locally) #}
+    <link rel="stylesheet" href="/static/css/output.css">
 
     {# Alpine.js #}
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>

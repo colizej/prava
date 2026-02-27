@@ -4,7 +4,10 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             {# About #}
             <div>
-                <h3 class="text-white font-bold text-lg mb-4">🚗 {{ SITE_NAME }}</h3>
+                <h3 class="text-white font-bold text-lg mb-4 flex items-center gap-2">
+                    <img src="/media/logo.png" alt="{{ SITE_NAME }}" class="h-6 w-auto">
+                    {{ SITE_NAME }}
+                </h3>
                 <p class="text-sm">
                     Préparation à l'examen théorique du permis de conduire en Belgique.
                     Plus de 1000 questions pour réussir votre examen.

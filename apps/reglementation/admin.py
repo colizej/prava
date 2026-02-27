@@ -1,5 +1,11 @@
 from django.contrib import admin
-from .models import RuleCategory, CodeArticle, TrafficSign
+from .models import RuleCategory, CodeArticle, TrafficSign, ArticleImage
+
+
+class ArticleImageInline(admin.TabularInline):
+    model = ArticleImage
+    extra = 1
+    fields = ('image', 'sign_code', 'alt_text', 'order')
 
 
 @admin.register(RuleCategory)
@@ -12,19 +18,20 @@ class RuleCategoryAdmin(admin.ModelAdmin):
 
 @admin.register(CodeArticle)
 class CodeArticleAdmin(admin.ModelAdmin):
-    list_display = ('article_number', 'title', 'category', 'is_free', 'order')
+    list_display = ('article_number', 'title', 'category', 'is_free', 'order', 'image_count')
     list_filter = ('category', 'is_free')
-    search_fields = ('article_number', 'title', 'content', 'title_nl', 'title_ru')
+    search_fields = ('article_number', 'title', 'content', 'content_text', 'title_nl', 'title_ru')
     prepopulated_fields = {'slug': ('article_number', 'title')}
     list_editable = ('is_free', 'order')
     ordering = ('order', 'article_number')
+    inlines = [ArticleImageInline]
 
     fieldsets = (
         ('Identification', {
             'fields': ('article_number', 'slug', 'category', 'is_free', 'order'),
         }),
         ('Contenu FR', {
-            'fields': ('title', 'content'),
+            'fields': ('title', 'content', 'content_text'),
         }),
         ('Contenu NL', {
             'fields': ('title_nl', 'content_nl'),
@@ -35,6 +42,10 @@ class CodeArticleAdmin(admin.ModelAdmin):
             'classes': ('collapse',),
         }),
     )
+
+    def image_count(self, obj):
+        return obj.images.count()
+    image_count.short_description = 'Images'
 
 
 @admin.register(TrafficSign)
