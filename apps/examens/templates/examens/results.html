@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Résultats — {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-12">
+    {# Score card #}
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 text-center mb-8">
+        <div class="text-6xl mb-4">{% if attempt.passed %}🎉{% else %}💪{% endif %}</div>
+        <h1 class="text-2xl font-bold text-gray-900 mb-2">
+            {% if attempt.passed %}Félicitations !{% else %}Continuez à vous entraîner{% endif %}
+        </h1>
+        <div class="text-5xl font-bold {% if attempt.passed %}text-green-600{% else %}text-red-600{% endif %} my-4">
+            {{ attempt.percentage }}%
+        </div>
+        <p class="text-gray-500">{{ attempt.score }} / {{ attempt.total_questions }} bonnes réponses</p>
+        {% if attempt.time_spent %}
+        <p class="text-sm text-gray-400 mt-2">Temps: {{ attempt.time_spent|floatformat:0 }}s</p>
+        {% endif %}
+    </div>
+
+    {# Detailed results #}
+    {% if detailed_results %}
+    <h2 class="text-xl font-bold text-gray-900 mb-4">Détail des réponses</h2>
+    <div class="space-y-4">
+        {% for result in detailed_results %}
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+            <div class="flex items-start gap-3">
+                <span class="text-lg">{% if result.is_correct %}✅{% else %}❌{% endif %}</span>
+                <div class="flex-1">
+                    <p class="font-medium text-gray-900">{{ result.question.text }}</p>
+                    <p class="text-sm text-gray-500 mt-1">Votre réponse: {{ result.selected }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {# Actions #}
+    <div class="flex gap-4 mt-8">
+        <a href="{% url 'examens:practice' %}" class="flex-1 bg-blue-600 text-white py-3 rounded-lg font-semibold text-center hover:bg-blue-700 transition">
+            Recommencer
+        </a>
+        <a href="{% url 'examens:categories' %}" class="flex-1 bg-gray-100 text-gray-700 py-3 rounded-lg font-semibold text-center hover:bg-gray-200 transition">
+            Catégories
+        </a>
+    </div>
+</div>
+{% endblock %}

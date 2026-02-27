@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Tableau de bord — {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-2xl font-bold text-gray-900 mb-8">Tableau de bord</h1>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 text-center">
+            <div class="text-2xl font-bold text-blue-600">{{ total_tests }}</div>
+            <div class="text-xs text-gray-500">Tests passés</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 text-center">
+            <div class="text-2xl font-bold text-green-600">{{ passed_tests }}</div>
+            <div class="text-xs text-gray-500">Tests réussis</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 text-center">
+            <div class="text-2xl font-bold text-purple-600">{{ profile.total_questions_answered }}</div>
+            <div class="text-xs text-gray-500">Questions</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 text-center">
+            <div class="text-2xl font-bold text-orange-600">{{ profile.success_rate }}%</div>
+            <div class="text-xs text-gray-500">Taux de réussite</div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <a href="{% url 'examens:practice' %}" class="bg-blue-600 text-white p-6 rounded-xl hover:bg-blue-700 transition">
+            <h3 class="font-semibold text-lg mb-2">📝 S'entraîner</h3>
+            <p class="text-blue-100 text-sm">Répondez à des questions par catégorie</p>
+        </a>
+        <a href="{% url 'examens:categories' %}" class="bg-green-600 text-white p-6 rounded-xl hover:bg-green-700 transition">
+            <h3 class="font-semibold text-lg mb-2">📚 Catégories</h3>
+            <p class="text-green-100 text-sm">Explorez toutes les catégories de questions</p>
+        </a>
+    </div>
+</div>
+{% endblock %}

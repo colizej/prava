@@ -1,0 +1,87 @@
+from django.contrib import admin
+from .models import ExamCategory, Question, AnswerOption, TestAttempt
+
+
+class AnswerOptionInline(admin.TabularInline):
+    model = AnswerOption
+    extra = 3
+    min_num = 2
+    fields = ('letter', 'text', 'text_nl', 'text_ru', 'is_correct', 'order')
+
+
+@admin.register(ExamCategory)
+class ExamCategoryAdmin(admin.ModelAdmin):
+    list_display = ('name', 'name_nl', 'name_ru', 'slug', 'active_questions_count', 'order', 'is_active')
+    prepopulated_fields = {'slug': ('name',)}
+    list_editable = ('order', 'is_active')
+    search_fields = ('name', 'name_nl', 'name_ru')
+
+    @admin.display(description='Questions')
+    def active_questions_count(self, obj):
+        return obj.active_questions_count
+
+
+@admin.register(Question)
+class QuestionAdmin(admin.ModelAdmin):
+    list_display = (
+        'id', 'short_text', 'category', 'difficulty_badge',
+        'is_active', 'is_official', 'success_rate_display',
+        'times_answered',
+    )
+    list_filter = ('category', 'difficulty', 'is_active', 'is_official', 'source')
+    search_fields = ('text', 'text_nl', 'text_ru', 'explanation')
+    list_editable = ('is_active', 'is_official')
+    readonly_fields = ('times_answered', 'times_correct', 'success_rate_display', 'created_at', 'updated_at')
+    inlines = [AnswerOptionInline]
+
+    fieldsets = (
+        ('Question FR', {
+            'fields': ('text', 'image', 'explanation'),
+        }),
+        ('Question NL', {
+            'fields': ('text_nl', 'explanation_nl'),
+            'classes': ('collapse',),
+        }),
+        ('Question RU', {
+            'fields': ('text_ru', 'explanation_ru'),
+            'classes': ('collapse',),
+        }),
+        ('Classification', {
+            'fields': ('category', 'difficulty', 'code_article', 'traffic_sign', 'tags'),
+        }),
+        ('État', {
+            'fields': ('is_active', 'is_official', 'source'),
+        }),
+        ('Statistiques', {
+            'fields': ('times_answered', 'times_correct', 'success_rate_display', 'created_at', 'updated_at'),
+        }),
+    )
+
+    @admin.display(description='Question')
+    def short_text(self, obj):
+        return obj.text[:80] + '...' if len(obj.text) > 80 else obj.text
+
+    @admin.display(description='Difficulté')
+    def difficulty_badge(self, obj):
+        colors = {1: '🟢', 2: '🟡', 3: '🔴'}
+        labels = {1: 'Facile', 2: 'Moyen', 3: 'Difficile'}
+        return f'{colors.get(obj.difficulty, "⚪")} {labels.get(obj.difficulty, "?")}'
+
+    @admin.display(description='Taux réussite')
+    def success_rate_display(self, obj):
+        return f'{obj.success_rate}%'
+
+
+@admin.register(TestAttempt)
+class TestAttemptAdmin(admin.ModelAdmin):
+    list_display = (
+        'user', 'test_type', 'category', 'score',
+        'total_questions', 'percentage', 'passed', 'started_at',
+    )
+    list_filter = ('test_type', 'passed', 'category', 'started_at')
+    search_fields = ('user__username',)
+    readonly_fields = (
+        'uuid', 'user', 'test_type', 'category', 'answers_data',
+        'score', 'total_questions', 'percentage', 'passed',
+        'started_at', 'completed_at', 'time_spent',
+    )

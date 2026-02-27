@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}À propos — {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-16">
+    <h1 class="text-3xl font-bold text-gray-900 mb-8">À propos de {{ SITE_NAME }}</h1>
+    <div class="prose prose-lg max-w-none">
+        <p>{{ SITE_NAME }} est une plateforme de préparation à l'examen théorique du permis de conduire en Belgique.</p>
+        <p>Notre mission : vous aider à réussir votre examen grâce à des questions d'entraînement de qualité, disponibles en français, néerlandais et russe.</p>
+    </div>
+</div>
+{% endblock %}

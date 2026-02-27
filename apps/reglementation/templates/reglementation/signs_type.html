@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Panneaux {{ type_label }} — {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <nav class="text-sm text-gray-500 mb-6">
+        <a href="{% url 'reglementation:signs_list' %}" class="hover:text-blue-600">Panneaux</a>
+        / <span class="text-gray-900">{{ type_label }}</span>
+    </nav>
+    <h1 class="text-3xl font-bold text-gray-900 mb-8">Panneaux {{ type_label|lower }}</h1>
+    {% if signs %}
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        {% for sign in signs %}
+        <div class="bg-white rounded-xl border border-gray-100 p-5 text-center hover:shadow-md transition">
+            {% if sign.image %}
+            <img src="{{ sign.image.url }}" alt="{{ sign.name }}" class="w-20 h-20 mx-auto mb-3 object-contain">
+            {% else %}
+            <div class="w-20 h-20 mx-auto mb-3 bg-gray-100 rounded-full flex items-center justify-center text-3xl">🪧</div>
+            {% endif %}
+            <p class="text-xs font-mono text-blue-600 mb-1">{{ sign.code }}</p>
+            <p class="text-sm text-gray-900 font-semibold">{{ sign.name }}</p>
+            {% if sign.description %}
+            <p class="text-xs text-gray-500 mt-1">{{ sign.description|truncatewords:12 }}</p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p class="text-gray-500">Aucun panneau dans cette catégorie pour le moment.</p>
+    {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Catégories d'examen — {{ SITE_NAME }}{% endblock %}
+{% block meta_description %}Entraînez-vous par catégorie pour l'examen théorique. Signalisation, priorité, code de la route et plus.{% endblock %}
+{% block content %}
+<div class="max-w-7xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-gray-900 mb-8">Catégories d'examen</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for cat in categories %}
+        <a href="{% url 'examens:practice_category' cat.slug %}"
+           class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 group">
+            <div class="flex items-start justify-between">
+                <div>
+                    <span class="text-3xl">{{ cat.icon|default:"📝" }}</span>
+                    <h2 class="text-lg font-semibold text-gray-900 mt-3 group-hover:text-blue-600 transition">{{ cat.name }}</h2>
+                    {% if cat.description %}<p class="text-sm text-gray-500 mt-1">{{ cat.description|truncatewords:15 }}</p>{% endif %}
+                </div>
+                <span class="text-sm font-medium text-blue-600 bg-blue-50 px-2 py-1 rounded">
+                    {{ cat.question_count }} Q
+                </span>
+            </div>
+        </a>
+        {% empty %}
+        <p class="text-gray-500 col-span-3 text-center py-8">Aucune catégorie disponible pour le moment.</p>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

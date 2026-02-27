@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Réglementation — {{ SITE_NAME }}{% endblock %}
+{% block meta_description %}Code de la route belge complet. Réglementation, panneaux de signalisation, règles de circulation.{% endblock %}
+{% block content %}
+<div class="max-w-7xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-gray-900 mb-4">Réglementation</h1>
+    <p class="text-gray-600 mb-8">Code de la route belge organisé par thèmes.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        {% for cat in categories %}
+        <a href="{{ cat.get_absolute_url }}" class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 group">
+            <span class="text-3xl">{{ cat.icon|default:"📖" }}</span>
+            <h2 class="text-lg font-semibold text-gray-900 mt-3 group-hover:text-blue-600 transition">{{ cat.name }}</h2>
+            <p class="text-sm text-gray-500 mt-1">{{ cat.articles_count }} articles</p>
+        </a>
+        {% empty %}
+        <p class="text-gray-500 col-span-3 text-center py-8">Aucune catégorie disponible.</p>
+        {% endfor %}
+    </div>
+    {# Signs link #}
+    <div class="bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-xl border border-yellow-200">
+        <h2 class="text-xl font-bold text-gray-900 mb-2">🚧 Panneaux de signalisation</h2>
+        <p class="text-gray-600 mb-4">Consultez tous les panneaux de signalisation belges.</p>
+        <a href="{% url 'reglementation:signs' %}" class="inline-block bg-yellow-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition">
+            Voir les panneaux
+        </a>
+    </div>
+</div>
+{% endblock %}

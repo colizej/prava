@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Tarifs — {{ SITE_NAME }}{% endblock %}
+{% block meta_description %}Découvrez nos tarifs pour la préparation à l'examen théorique du permis de conduire. Accès gratuit ou premium.{% endblock %}
+{% block content %}
+<div class="max-w-7xl mx-auto px-4 py-16">
+    <div class="text-center mb-12">
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">Nos tarifs</h1>
+        <p class="text-gray-600 max-w-2xl mx-auto">Choisissez le plan qui vous convient. Commencez gratuitement et passez à Premium quand vous êtes prêt.</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+        {% for plan in plans %}
+        <div class="bg-white rounded-xl shadow-sm border-2 {% if plan.highlighted %}border-blue-500 relative{% else %}border-gray-100{% endif %} p-6 flex flex-col">
+            {% if plan.highlighted %}
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs px-3 py-1 rounded-full font-semibold">
+                Populaire
+            </div>
+            {% endif %}
+            <h3 class="text-lg font-semibold text-gray-900">{{ plan.name }}</h3>
+            <div class="mt-4 mb-6">
+                <span class="text-3xl font-bold text-gray-900">{{ plan.price }}</span>
+                <span class="text-gray-500 text-sm">{{ plan.period }}</span>
+            </div>
+            <ul class="space-y-3 mb-8 flex-1">
+                {% for feature in plan.features %}
+                <li class="flex items-start text-sm">
+                    <svg class="w-5 h-5 text-green-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-600">{{ feature }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+            <button class="w-full py-2 rounded-lg font-semibold transition
+                          {% if plan.highlighted %}bg-blue-600 text-white hover:bg-blue-700
+                          {% else %}bg-gray-100 text-gray-700 hover:bg-gray-200{% endif %}">
+                {{ plan.cta }}
+            </button>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

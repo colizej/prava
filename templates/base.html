@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ current_language|default:'fr' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {# SEO #}
+    <title>{% block title %}{{ SITE_NAME }}{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{{ SITE_DESCRIPTION }}{% endblock %}">
+    {% block meta_extra %}{% endblock %}
+
+    {# Open Graph #}
+    <meta property="og:title" content="{% block og_title %}{{ SITE_NAME }}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{{ SITE_DESCRIPTION }}{% endblock %}">
+    <meta property="og:type" content="{% block og_type %}website{% endblock %}">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    {% block og_image %}<meta property="og:image" content="{% block og_image_url %}/static/img/og-default.png{% endblock %}">{% endblock %}
+    <meta property="og:locale" content="{{ current_language|default:'fr' }}_BE">
+
+    {# Twitter Card #}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% block twitter_title %}{{ SITE_NAME }}{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}{{ SITE_DESCRIPTION }}{% endblock %}">
+
+    {# hreflang #}
+    <link rel="alternate" hreflang="fr" href="{{ request.build_absolute_uri }}?lang=fr">
+    <link rel="alternate" hreflang="nl" href="{{ request.build_absolute_uri }}?lang=nl">
+    <link rel="alternate" hreflang="ru" href="{{ request.build_absolute_uri }}?lang=ru">
+    {% block canonical %}<link rel="canonical" href="{{ request.build_absolute_uri }}">{% endblock %}
+
+    {# Favicon #}
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
+
+    {# PWA #}
+    <meta name="theme-color" content="#3B82F6">
+    <link rel="manifest" href="/static/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    {# Tailwind CSS (CDN for dev — replace with build in prod) #}
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    {# Alpine.js #}
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    {% block extra_css %}{% endblock %}
+</head>
+<body class="min-h-screen bg-gray-50 flex flex-col">
+
+    {# Navigation #}
+    {% include "includes/navbar.html" %}
+
+    {# Messages #}
+    {% include "includes/messages.html" %}
+
+    {# Main Content #}
+    <main class="flex-1">
+        {% block content %}{% endblock %}
+    </main>
+
+    {# Footer #}
+    {% include "includes/footer.html" %}
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

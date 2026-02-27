@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Historique — {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-2xl font-bold text-gray-900 mb-8">Historique des tests</h1>
+    {% if attempts %}
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+        <div class="divide-y">
+            {% for attempt in attempts %}
+            <a href="{{ attempt.get_absolute_url }}" class="flex items-center justify-between p-4 hover:bg-gray-50 transition">
+                <div>
+                    <span class="font-medium text-gray-900">{{ attempt.get_test_type_display }}</span>
+                    {% if attempt.category %}<span class="text-sm text-gray-500 ml-2">{{ attempt.category.name }}</span>{% endif %}
+                    <div class="text-xs text-gray-400 mt-1">{{ attempt.started_at|date:"d/m/Y à H:i" }}</div>
+                </div>
+                <div class="text-right">
+                    <span class="text-lg font-bold {% if attempt.passed %}text-green-600{% else %}text-red-600{% endif %}">
+                        {{ attempt.percentage }}%
+                    </span>
+                    <div class="text-xs text-gray-400">{{ attempt.score }}/{{ attempt.total_questions }}</div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% else %}
+    <p class="text-gray-500 text-center py-12">Aucun test effectué. <a href="{% url 'examens:practice' %}" class="text-blue-600">Commencez maintenant!</a></p>
+    {% endif %}
+</div>
+{% endblock %}

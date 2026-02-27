@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Modifier le profil — {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="max-w-md mx-auto px-4 py-16">
+    <h1 class="text-2xl font-bold text-gray-900 mb-6">Modifier le profil</h1>
+    <form method="post" enctype="multipart/form-data" class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 space-y-4">
+        {% csrf_token %}
+        {% for field in form %}
+        <div>
+            <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700 mb-1">{{ field.label }}</label>
+            {{ field }}
+            {% if field.errors %}<p class="mt-1 text-sm text-red-600">{{ field.errors.0 }}</p>{% endif %}
+        </div>
+        {% endfor %}
+        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+            Enregistrer
+        </button>
+    </form>
+</div>
+{% endblock %}

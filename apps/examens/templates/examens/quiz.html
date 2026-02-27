@@ -1,0 +1,195 @@
+{% extends "base.html" %}
+{% block title %}{% if test_type == 'exam' %}Examen simulé{% else %}Entraînement{% endif %}{% if category %} — {{ category.name }}{% endif %} — {{ SITE_NAME }}{% endblock %}
+{% block extra_css %}
+<style>[x-cloak] { display: none !important; }</style>
+{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-8" x-cloak x-data="quizEngine()" x-init="init()">
+
+    {# Progress bar #}
+    <div class="mb-6">
+        <div class="flex justify-between text-sm text-gray-500 mb-1">
+            <span>Question <span x-text="currentIndex + 1"></span> / <span x-text="questions.length"></span></span>
+            <span x-show="timeLimit > 0" x-text="formatTime(timeRemaining)"></span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-2">
+            <div class="bg-blue-600 h-2 rounded-full transition-all"
+                 :style="`width: ${(currentIndex + 1) / questions.length * 100}%`"></div>
+        </div>
+    </div>
+
+    {# Question #}
+    <template x-if="currentQuestion">
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+            {# Image #}
+            <template x-if="currentQuestion.image">
+                <img :src="currentQuestion.image" alt="Question" class="w-full max-h-64 object-contain rounded-lg mb-4">
+            </template>
+
+            {# Question text #}
+            <h2 class="text-lg font-semibold text-gray-900 mb-6" x-text="currentQuestion.text"></h2>
+
+            {# Options #}
+            <div class="space-y-3">
+                <template x-for="option in currentQuestion.options" :key="option.letter">
+                    <button
+                        @click="selectAnswer(option)"
+                        :disabled="answered"
+                        class="w-full text-left p-4 rounded-lg border-2 transition-all"
+                        :class="{
+                            'border-gray-200 hover:border-blue-300 hover:bg-blue-50': !answered && selectedOption?.letter !== option.letter,
+                            'border-blue-500 bg-blue-50': !answered && selectedOption?.letter === option.letter,
+                            'border-green-500 bg-green-50': answered && option.is_correct,
+                            'border-red-500 bg-red-50': answered && selectedOption?.letter === option.letter && !option.is_correct,
+                            'border-gray-200 opacity-60': answered && !option.is_correct && selectedOption?.letter !== option.letter,
+                        }">
+                        <div class="flex items-center">
+                            <span class="w-8 h-8 rounded-full border-2 flex items-center justify-center text-sm font-semibold mr-3"
+                                  :class="{
+                                      'border-gray-300 text-gray-500': !answered,
+                                      'border-green-500 bg-green-500 text-white': answered && option.is_correct,
+                                      'border-red-500 bg-red-500 text-white': answered && selectedOption?.letter === option.letter && !option.is_correct,
+                                  }"
+                                  x-text="option.letter"></span>
+                            <span class="text-gray-900" x-text="option.text"></span>
+                        </div>
+                    </button>
+                </template>
+            </div>
+
+            {# Confirm button #}
+            <div x-show="selectedOption && !answered" class="mt-4">
+                <button @click="confirmAnswer()"
+                        class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+                    Confirmer
+                </button>
+            </div>
+
+            {# Explanation #}
+            <div x-show="answered" x-transition class="mt-6">
+                <div class="p-4 rounded-lg" :class="isCorrect ? 'bg-green-50 border border-green-200' : 'bg-yellow-50 border border-yellow-200'">
+                    <p class="font-semibold mb-1" :class="isCorrect ? 'text-green-800' : 'text-yellow-800'"
+                       x-text="isCorrect ? '✅ Bonne réponse !' : '❌ Mauvaise réponse'"></p>
+                    <p class="text-sm text-gray-700" x-text="currentQuestion.explanation" x-show="currentQuestion.explanation"></p>
+                    <template x-if="currentQuestion.code_reference">
+                        <a :href="currentQuestion.code_reference.url"
+                           class="inline-block mt-2 text-sm text-blue-600 hover:text-blue-700"
+                           x-text="'📖 ' + currentQuestion.code_reference.article"></a>
+                    </template>
+                </div>
+                <button @click="nextQuestion()"
+                        class="w-full mt-4 bg-gray-800 text-white py-3 rounded-lg font-semibold hover:bg-gray-900 transition"
+                        x-text="currentIndex < questions.length - 1 ? 'Question suivante →' : 'Voir les résultats'"></button>
+            </div>
+        </div>
+    </template>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function quizEngine() {
+    return {
+        questions: {{ questions_json|safe }},
+        currentIndex: 0,
+        selectedOption: null,
+        answered: false,
+        isCorrect: false,
+        answers: [],
+        timeLimit: {{ time_limit|default:0 }},
+        timeRemaining: {{ time_limit|default:0 }},
+        timerInterval: null,
+
+        get currentQuestion() {
+            return this.questions[this.currentIndex] || null;
+        },
+
+        init() {
+            if (this.timeLimit > 0) {
+                this.startTimer();
+            }
+        },
+
+        selectAnswer(option) {
+            if (!this.answered) {
+                this.selectedOption = option;
+            }
+        },
+
+        confirmAnswer() {
+            if (!this.selectedOption) return;
+            this.answered = true;
+            this.isCorrect = this.selectedOption.is_correct;
+
+            this.answers.push({
+                question_id: this.currentQuestion.id,
+                selected_option: this.selectedOption.letter,
+                is_correct: this.isCorrect,
+            });
+
+            // Record answer via API
+            fetch('{% url "examens:api_record_answer" %}', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]')?.value || '{{ csrf_token }}',
+                },
+                body: JSON.stringify({
+                    question_id: this.currentQuestion.id,
+                    is_correct: this.isCorrect,
+                }),
+            }).catch(() => {});
+        },
+
+        nextQuestion() {
+            if (this.currentIndex < this.questions.length - 1) {
+                this.currentIndex++;
+                this.selectedOption = null;
+                this.answered = false;
+                this.isCorrect = false;
+            } else {
+                this.finishQuiz();
+            }
+        },
+
+        async finishQuiz() {
+            if (this.timerInterval) clearInterval(this.timerInterval);
+
+            try {
+                const resp = await fetch('{% url "examens:api_finish_quiz" %}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]')?.value || '{{ csrf_token }}',
+                    },
+                    body: JSON.stringify({ answers: this.answers }),
+                });
+                const data = await resp.json();
+                if (data.url) {
+                    window.location.href = data.url;
+                }
+            } catch (e) {
+                console.error('Error finishing quiz:', e);
+            }
+        },
+
+        startTimer() {
+            this.timerInterval = setInterval(() => {
+                this.timeRemaining--;
+                if (this.timeRemaining <= 0) {
+                    this.finishQuiz();
+                }
+            }, 1000);
+        },
+
+        formatTime(seconds) {
+            const m = Math.floor(seconds / 60);
+            const s = seconds % 60;
+            return `${m}:${s.toString().padStart(2, '0')}`;
+        }
+    };
+}
+</script>
+{% endblock %}
