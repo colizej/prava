@@ -89,17 +89,20 @@
 {% endblock %}
 
 {% block extra_js %}
+<script id="quiz-data" type="application/json">{{ questions_json|safe }}</script>
+<script id="quiz-config" type="application/json">{"timeLimit": {{ time_limit|default:0 }}, "apiRecordUrl": "{% url 'examens:api_record_answer' %}", "apiFinishUrl": "{% url 'examens:api_finish_quiz' %}", "csrfToken": "{{ csrf_token }}"}</script>
 <script>
 function quizEngine() {
+    var config = JSON.parse(document.getElementById('quiz-config').textContent);
     return {
-        questions: {{ questions_json|safe }},
+        questions: JSON.parse(document.getElementById('quiz-data').textContent),
         currentIndex: 0,
         selectedOption: null,
         answered: false,
         isCorrect: false,
         answers: [],
-        timeLimit: {{ time_limit|default:0 }},
-        timeRemaining: {{ time_limit|default:0 }},
+        timeLimit: config.timeLimit,
+        timeRemaining: config.timeLimit,
         timerInterval: null,
 
         get currentQuestion() {
@@ -130,17 +133,17 @@ function quizEngine() {
             });
 
             // Record answer via API
-            fetch('{% url "examens:api_record_answer" %}', {
+            fetch(config.apiRecordUrl, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]')?.value || '{{ csrf_token }}',
+                    'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]')?.value || config.csrfToken,
                 },
                 body: JSON.stringify({
                     question_id: this.currentQuestion.id,
                     is_correct: this.isCorrect,
                 }),
-            }).catch(() => {});
+            }).catch(function() {});
         },
 
         nextQuestion() {
@@ -154,40 +157,43 @@ function quizEngine() {
             }
         },
 
-        async finishQuiz() {
+        finishQuiz() {
             if (this.timerInterval) clearInterval(this.timerInterval);
+            var self = this;
 
-            try {
-                const resp = await fetch('{% url "examens:api_finish_quiz" %}', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]')?.value || '{{ csrf_token }}',
-                    },
-                    body: JSON.stringify({ answers: this.answers }),
-                });
-                const data = await resp.json();
+            fetch(config.apiFinishUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]')?.value || config.csrfToken,
+                },
+                body: JSON.stringify({ answers: self.answers }),
+            })
+            .then(function(resp) { return resp.json(); })
+            .then(function(data) {
                 if (data.url) {
                     window.location.href = data.url;
                 }
-            } catch (e) {
+            })
+            .catch(function(e) {
                 console.error('Error finishing quiz:', e);
-            }
+            });
         },
 
         startTimer() {
-            this.timerInterval = setInterval(() => {
-                this.timeRemaining--;
-                if (this.timeRemaining <= 0) {
-                    this.finishQuiz();
+            var self = this;
+            this.timerInterval = setInterval(function() {
+                self.timeRemaining--;
+                if (self.timeRemaining <= 0) {
+                    self.finishQuiz();
                 }
             }, 1000);
         },
 
         formatTime(seconds) {
-            const m = Math.floor(seconds / 60);
-            const s = seconds % 60;
-            return `${m}:${s.toString().padStart(2, '0')}`;
+            var m = Math.floor(seconds / 60);
+            var s = seconds % 60;
+            return m + ':' + s.toString().padStart(2, '0');
         }
     };
 }
