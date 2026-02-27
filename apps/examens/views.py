@@ -78,8 +78,8 @@ def practice(request, category_slug=None):
 @login_required
 def exam_mode(request):
     """Mode examen simulé (50 questions, 30 minutes)."""
-    # Premium only
-    if not request.user.profile.has_active_premium:
+    # Premium only (staff/superuser bypass)
+    if not request.user.is_staff and not request.user.profile.has_active_premium:
         return redirect('main:pricing')
 
     questions = Question.objects.filter(

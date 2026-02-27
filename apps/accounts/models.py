@@ -110,6 +110,8 @@ class DailyQuota(models.Model):
     @classmethod
     def can_answer(cls, user):
         """Vérifie si l'utilisateur peut encore répondre aujourd'hui."""
+        if user.is_staff or user.is_superuser:
+            return True, None
         if hasattr(user, 'profile') and user.profile.has_active_premium:
             return True, None
         quota = cls.get_or_create_today(user)
