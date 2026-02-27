@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.utils.html import format_html, escape
+from django.utils.safestring import mark_safe
 from .models import ExamCategory, Question, AnswerOption, TestAttempt
 
 
@@ -142,32 +143,22 @@ class QuestionAdmin(admin.ModelAdmin):
         layout_style = 'display: flex; gap: 24px;' if obj.image else ''
         question_width = 'flex: 1; min-width: 0;' if obj.image else ''
 
-        return format_html('''
+        return mark_safe(f'''
         <div style="max-width: 800px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
             <div style="background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,.08);">
-                <div style="margin-bottom: 12px;">{diff}{cat}</div>
-                <div style="{layout}">
-                    <div style="{qwidth}">
-                        <h3 style="font-size: 16px; font-weight: 600; color: #111827; margin: 0 0 20px 0; line-height: 1.5;">{text}</h3>
-                        <div>{options}</div>
+                <div style="margin-bottom: 12px;">{diff_html}{cat_html}</div>
+                <div style="{layout_style}">
+                    <div style="{question_width}">
+                        <h3 style="font-size: 16px; font-weight: 600; color: #111827; margin: 0 0 20px 0; line-height: 1.5;">{escape(obj.text)}</h3>
+                        <div>{options_html}</div>
                     </div>
-                    {image}
+                    {image_html}
                 </div>
-                {explanation}
-                {ref}
+                {explanation_html}
+                {ref_html}
             </div>
         </div>
-        ''',
-            diff=format_html(diff_html),
-            cat=format_html(cat_html),
-            layout=layout_style,
-            qwidth=question_width,
-            text=obj.text,
-            options=format_html(options_html),
-            image=format_html(image_html),
-            explanation=format_html(explanation_html),
-            ref=format_html(ref_html),
-        )
+        ''')
 
 
 @admin.register(TestAttempt)
