@@ -11,6 +11,9 @@ urlpatterns = [
     path('results/<uuid:uuid>/', views.results, name='results'),
     path('history/', views.history, name='history'),
 
+    # Admin preview
+    path('preview/<int:pk>/', views.question_preview, name='question_preview'),
+
     # API
     path('api/record-answer/', views.api_record_answer, name='api_record_answer'),
     path('api/finish/', views.api_finish_quiz, name='api_finish_quiz'),

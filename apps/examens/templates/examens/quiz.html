@@ -1,11 +1,19 @@
 {% extends "base.html" %}
-{% block title %}{% if test_type == 'exam' %}Examen simulé{% else %}Entraînement{% endif %}{% if category %} — {{ category.name }}{% endif %} — {{ SITE_NAME }}{% endblock %}
+{% block title %}{% if test_type == 'preview' %}Aperçu question{% elif test_type == 'exam' %}Examen simulé{% else %}Entraînement{% endif %}{% if category %} — {{ category.name }}{% endif %} — {{ SITE_NAME }}{% endblock %}
 {% block extra_css %}
 <style>[x-cloak] { display: none !important; }</style>
 {% endblock %}
 
 {% block content %}
 <div class="max-w-5xl mx-auto px-4 py-8" x-cloak x-data="quizEngine()" x-init="init()">
+
+    {% if is_preview %}
+    {# Admin preview banner #}
+    <div class="mb-4 flex items-center justify-between bg-amber-50 border border-amber-200 rounded-lg px-4 py-3">
+        <span class="text-sm font-medium text-amber-800">👁 Aperçu admin — Question #{{ preview_question_id }}</span>
+        <a href="javascript:history.back()" class="text-sm font-semibold text-amber-700 hover:text-amber-900">← Retour à l'admin</a>
+    </div>
+    {% endif %}
 
     {# Progress bar #}
     <div class="mb-6">
@@ -95,7 +103,7 @@
                     </div>
                     <button @click="nextQuestion()"
                             class="w-full mt-4 bg-gray-800 text-white py-3 rounded-lg font-semibold hover:bg-gray-900 transition"
-                            x-text="currentIndex < questions.length - 1 ? 'Question suivante →' : 'Voir les résultats'"></button>
+                            x-text="currentIndex < questions.length - 1 ? 'Question suivante →' : {% if is_preview %}'✓ Aperçu terminé'{% else %}'Voir les résultats'{% endif %}"></button>
                 </div>
             </div>
         </div>
@@ -106,7 +114,7 @@
 
 {% block extra_js %}
 <script id="quiz-data" type="application/json">{{ questions_json|safe }}</script>
-<script id="quiz-config" type="application/json">{"timeLimit": {{ time_limit|default:0 }}, "apiRecordUrl": "{% url 'examens:api_record_answer' %}", "apiFinishUrl": "{% url 'examens:api_finish_quiz' %}", "csrfToken": "{{ csrf_token }}"}</script>
+<script id="quiz-config" type="application/json">{"timeLimit": {{ time_limit|default:0 }}, "apiRecordUrl": "{% url 'examens:api_record_answer' %}", "apiFinishUrl": "{% url 'examens:api_finish_quiz' %}", "csrfToken": "{{ csrf_token }}", "isPreview": {% if is_preview %}true{% else %}false{% endif %}}</script>
 <script>
 function quizEngine() {
     var config = JSON.parse(document.getElementById('quiz-config').textContent);
@@ -149,6 +157,7 @@ function quizEngine() {
             });
 
             // Record answer via API
+            if (config.isPreview) return;
             fetch(config.apiRecordUrl, {
                 method: 'POST',
                 headers: {
@@ -175,6 +184,7 @@ function quizEngine() {
 
         finishQuiz() {
             if (this.timerInterval) clearInterval(this.timerInterval);
+            if (config.isPreview) { history.back(); return; }
             var self = this;
 
             fetch(config.apiFinishUrl, {

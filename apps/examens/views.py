@@ -1,5 +1,6 @@
 import json
 from django.shortcuts import render, get_object_or_404, redirect
+from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from django.views.decorators.http import require_POST
@@ -197,6 +198,43 @@ def api_record_answer(request):
 
 @require_POST
 @login_required
+@staff_member_required
+def question_preview(request, pk):
+    """Admin preview: render a single question in the real quiz UI."""
+    question = get_object_or_404(Question.objects.prefetch_related('options'), pk=pk)
+
+    questions_data = [{
+        'id': question.id,
+        'text': question.text,
+        'image': question.image.url if question.image else None,
+        'options': [
+            {
+                'letter': opt.letter,
+                'text': opt.text,
+                'is_correct': opt.is_correct,
+            }
+            for opt in question.options.all()
+        ],
+        'explanation': question.explanation,
+        'code_reference': {
+            'article': question.code_article.article_number,
+            'url': question.code_article.get_absolute_url(),
+        } if question.code_article else None,
+    }]
+
+    context = {
+        'category': question.category,
+        'questions_json': json.dumps(questions_data),
+        'time_limit': 0,
+        'test_type': 'preview',
+        'is_preview': True,
+        'preview_question_id': question.pk,
+    }
+    return render(request, 'examens/quiz.html', context)
+
+
+@login_required
+@require_POST
 def api_finish_quiz(request):
     """API: terminer un quiz et sauvegarder les résultats."""
     try:
