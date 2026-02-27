@@ -196,7 +196,6 @@ def api_record_answer(request):
     return JsonResponse({'status': 'ok'})
 
 
-@require_POST
 @login_required
 @staff_member_required
 def question_preview(request, pk):
@@ -229,6 +228,7 @@ def question_preview(request, pk):
         'test_type': 'preview',
         'is_preview': True,
         'preview_question_id': question.pk,
+        'question_timer': 0,
     }
     return render(request, 'examens/quiz.html', context)
 

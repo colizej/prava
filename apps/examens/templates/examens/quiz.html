@@ -1,7 +1,11 @@
 {% extends "base.html" %}
 {% block title %}{% if test_type == 'preview' %}Aperçu question{% elif test_type == 'exam' %}Examen simulé{% else %}Entraînement{% endif %}{% if category %} — {{ category.name }}{% endif %} — {{ SITE_NAME }}{% endblock %}
 {% block extra_css %}
-<style>[x-cloak] { display: none !important; }</style>
+<style>
+[x-cloak] { display: none !important; }
+.progress-ring { transition: stroke-dashoffset 0.35s ease; }
+.timer-ring { transition: stroke-dashoffset 1s linear; }
+</style>
 {% endblock %}
 
 {% block content %}
@@ -15,32 +19,69 @@
     </div>
     {% endif %}
 
-    {# Progress bar #}
-    <div class="mb-6">
-        <div class="flex justify-between text-sm text-gray-500 mb-1">
-            <span>Question <span x-text="currentIndex + 1"></span> / <span x-text="questions.length"></span></span>
-            <span x-show="timeLimit > 0" x-text="formatTime(timeRemaining)"></span>
+    {# Top bar: progress circle + timer circle #}
+    <div class="flex items-center justify-between mb-6">
+        {# Progress circle #}
+        <div class="flex items-center gap-3">
+            <svg viewBox="0 0 56 56" class="w-14 h-14">
+                <circle cx="28" cy="28" r="24" stroke="#e5e7eb" stroke-width="4" fill="none"/>
+                <circle cx="28" cy="28" r="24" stroke="#3b82f6" stroke-width="4" fill="none"
+                        stroke-linecap="round" class="progress-ring"
+                        :stroke-dasharray="150.8"
+                        :stroke-dashoffset="150.8 * (1 - (currentIndex + 1) / questions.length)"
+                        transform="rotate(-90 28 28)"/>
+                <text x="28" y="28" text-anchor="middle" dominant-baseline="central"
+                      style="font-size:12px;font-weight:700;fill:#374151"
+                      x-text="(currentIndex + 1) + '/' + questions.length"></text>
+            </svg>
+            <span class="text-sm font-medium text-gray-500 hidden sm:inline">Question</span>
         </div>
-        <div class="w-full bg-gray-200 rounded-full h-2">
-            <div class="bg-blue-600 h-2 rounded-full transition-all"
-                 :style="`width: ${(currentIndex + 1) / questions.length * 100}%`"></div>
-        </div>
+
+        {# Global exam timer (if set) #}
+        <span x-show="timeLimit > 0" class="text-sm font-mono text-gray-600 bg-gray-100 px-3 py-1 rounded-full"
+              x-text="formatTime(timeRemaining)"></span>
+
+        {# Per-question timer circle — click to pause/resume #}
+        <button x-show="questionTimer > 0" @click="toggleTimer()"
+                class="flex items-center gap-3 cursor-pointer select-none"
+                :title="timerPaused ? 'Reprendre le chrono' : 'Mettre en pause'">
+            <span class="text-xs text-gray-400 hidden sm:inline transition-opacity"
+                  x-show="timerPaused" x-transition>pause</span>
+            <svg viewBox="0 0 56 56" class="w-14 h-14">
+                <circle cx="28" cy="28" r="24" stroke="#e5e7eb" stroke-width="4" fill="none"/>
+                <circle cx="28" cy="28" r="24"
+                        :stroke="questionTimeRemaining <= 5 ? '#ef4444' : '#f59e0b'"
+                        stroke-width="4" fill="none" stroke-linecap="round" class="timer-ring"
+                        :stroke-dasharray="150.8"
+                        :stroke-dashoffset="150.8 * (1 - questionTimeRemaining / questionTimer)"
+                        transform="rotate(-90 28 28)"/>
+                <text x="28" y="28" text-anchor="middle" dominant-baseline="central"
+                      :style="'font-size:' + (timerPaused ? '16px' : '14px') + ';font-weight:700;fill:' + (questionTimeRemaining <= 5 ? '#dc2626' : '#d97706')"
+                      x-text="timerPaused ? '▶' : questionTimeRemaining"></text>
+            </svg>
+        </button>
     </div>
 
-    {# Question #}
+    {# Question card #}
     <template x-if="currentQuestion">
         <div>
-            {# Two-column layout: question left, image right (mobile: image top, question below) #}
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-                <div class="flex flex-col-reverse md:flex-row md:gap-8"
-                     :class="{ 'md:flex-row': currentQuestion.image }">
+                {# Question text — full width #}
+                <h2 class="text-lg font-semibold text-gray-900 mb-6" x-text="currentQuestion.text"></h2>
 
-                    {# LEFT: Question text + options #}
-                    <div class="flex-1 min-w-0" :class="currentQuestion.image ? 'md:w-1/2' : 'w-full'">
-                        {# Question text #}
-                        <h2 class="text-lg font-semibold text-gray-900 mb-6" x-text="currentQuestion.text"></h2>
+                {# Two columns: image LEFT, options RIGHT #}
+                <div class="flex flex-col md:flex-row md:gap-8">
 
-                        {# Options #}
+                    {# LEFT: Image #}
+                    <div x-show="currentQuestion.image"
+                         class="mb-4 md:mb-0 md:w-1/2 flex items-start justify-center shrink-0"
+                         style="display: none;">
+                        <img :src="currentQuestion.image || ''" alt="Question"
+                             class="w-full max-h-80 object-contain rounded-lg border border-gray-100 bg-gray-50 p-2">
+                    </div>
+
+                    {# RIGHT: Options + confirm #}
+                    <div class="flex-1 min-w-0">
                         <div class="space-y-3">
                             <template x-for="option in currentQuestion.options" :key="option.letter">
                                 <button
@@ -75,15 +116,11 @@
                                 Confirmer
                             </button>
                         </div>
-                    </div>
 
-                    {# RIGHT: Image (desktop) / TOP: Image (mobile) #}
-                    <div x-show="currentQuestion.image"
-                         class="mb-4 md:mb-0 md:w-1/2 md:flex md:items-start md:justify-center shrink-0"
-                         style="display: none;">
-                        <img x-bind:src="currentQuestion.image || ''"
-                             alt="Question"
-                             class="w-full max-h-80 object-contain rounded-lg border border-gray-100 bg-gray-50 p-2">
+                        {# Time expired indicator #}
+                        <div x-show="answered && !selectedOption" class="mt-4">
+                            <p class="text-center text-red-600 font-semibold text-sm">⏰ Temps écoulé !</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -114,7 +151,7 @@
 
 {% block extra_js %}
 <script id="quiz-data" type="application/json">{{ questions_json|safe }}</script>
-<script id="quiz-config" type="application/json">{"timeLimit": {{ time_limit|default:0 }}, "apiRecordUrl": "{% url 'examens:api_record_answer' %}", "apiFinishUrl": "{% url 'examens:api_finish_quiz' %}", "csrfToken": "{{ csrf_token }}", "isPreview": {% if is_preview %}true{% else %}false{% endif %}}</script>
+<script id="quiz-config" type="application/json">{"timeLimit": {{ time_limit|default:0 }}, "questionTimer": {{ question_timer|default:15 }}, "apiRecordUrl": "{% url 'examens:api_record_answer' %}", "apiFinishUrl": "{% url 'examens:api_finish_quiz' %}", "csrfToken": "{{ csrf_token }}", "isPreview": {% if is_preview %}true{% else %}false{% endif %}}</script>
 <script>
 function quizEngine() {
     var config = JSON.parse(document.getElementById('quiz-config').textContent);
@@ -128,27 +165,71 @@ function quizEngine() {
         timeLimit: config.timeLimit,
         timeRemaining: config.timeLimit,
         timerInterval: null,
+        questionTimer: config.questionTimer || 0,
+        questionTimeRemaining: config.questionTimer || 0,
+        timerPaused: false,
+        questionTimerInterval: null,
 
         get currentQuestion() {
             return this.questions[this.currentIndex] || null;
         },
 
         init() {
-            if (this.timeLimit > 0) {
-                this.startTimer();
-            }
+            if (this.timeLimit > 0) this.startTimer();
+            if (this.questionTimer > 0) this.startQuestionTimer();
+        },
+
+        toggleTimer() {
+            this.timerPaused = !this.timerPaused;
+        },
+
+        startQuestionTimer() {
+            this.questionTimeRemaining = this.questionTimer;
+            this.timerPaused = false;
+            if (this.questionTimerInterval) clearInterval(this.questionTimerInterval);
+            var self = this;
+            this.questionTimerInterval = setInterval(function() {
+                if (!self.timerPaused && !self.answered) {
+                    self.questionTimeRemaining--;
+                    if (self.questionTimeRemaining <= 0) {
+                        self.questionTimeRemaining = 0;
+                        clearInterval(self.questionTimerInterval);
+                        if (!self.answered) {
+                            self.answered = true;
+                            self.isCorrect = false;
+                            self.answers.push({
+                                question_id: self.currentQuestion.id,
+                                selected_option: null,
+                                is_correct: false,
+                            });
+                            if (!config.isPreview) {
+                                fetch(config.apiRecordUrl, {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                        'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]')?.value || config.csrfToken,
+                                    },
+                                    body: JSON.stringify({
+                                        question_id: self.currentQuestion.id,
+                                        is_correct: false,
+                                    }),
+                                }).catch(function() {});
+                            }
+                        }
+                    }
+                }
+            }, 1000);
         },
 
         selectAnswer(option) {
-            if (!this.answered) {
-                this.selectedOption = option;
-            }
+            if (!this.answered) this.selectedOption = option;
         },
 
         confirmAnswer() {
             if (!this.selectedOption) return;
             this.answered = true;
             this.isCorrect = this.selectedOption.is_correct;
+            if (this.questionTimerInterval) clearInterval(this.questionTimerInterval);
 
             this.answers.push({
                 question_id: this.currentQuestion.id,
@@ -156,7 +237,6 @@ function quizEngine() {
                 is_correct: this.isCorrect,
             });
 
-            // Record answer via API
             if (config.isPreview) return;
             fetch(config.apiRecordUrl, {
                 method: 'POST',
@@ -177,6 +257,7 @@ function quizEngine() {
                 this.selectedOption = null;
                 this.answered = false;
                 this.isCorrect = false;
+                if (this.questionTimer > 0) this.startQuestionTimer();
             } else {
                 this.finishQuiz();
             }
@@ -184,6 +265,7 @@ function quizEngine() {
 
         finishQuiz() {
             if (this.timerInterval) clearInterval(this.timerInterval);
+            if (this.questionTimerInterval) clearInterval(this.questionTimerInterval);
             if (config.isPreview) { history.back(); return; }
             var self = this;
 
@@ -197,9 +279,7 @@ function quizEngine() {
             })
             .then(function(resp) { return resp.json(); })
             .then(function(data) {
-                if (data.url) {
-                    window.location.href = data.url;
-                }
+                if (data.url) window.location.href = data.url;
             })
             .catch(function(e) {
                 console.error('Error finishing quiz:', e);
@@ -210,9 +290,7 @@ function quizEngine() {
             var self = this;
             this.timerInterval = setInterval(function() {
                 self.timeRemaining--;
-                if (self.timeRemaining <= 0) {
-                    self.finishQuiz();
-                }
+                if (self.timeRemaining <= 0) self.finishQuiz();
             }, 1000);
         },
 
