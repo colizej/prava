@@ -42,6 +42,130 @@
         {% endfor %}
     </div>
 
+    {# Themes section — 9 thematic categories #}
+    <div class="mb-14">
+        <div class="flex items-center gap-3 mb-6">
+            <div class="flex items-center justify-center w-9 h-9 rounded-lg bg-indigo-50 text-indigo-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25a2.25 2.25 0 0 1-2.25-2.25v-2.25Z"/></svg>
+            </div>
+            <div>
+                <h2 class="text-xl font-bold text-gray-900">Réglementation par thème</h2>
+                <p class="text-sm text-gray-500">Toute la réglementation routière belge classée par domaine</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {# 1. Règles de circulation → Titre II #}
+            <a href="{% url 'reglementation:category' slug='regles-usage-voie-publique' %}"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-red-50 text-red-500 shrink-0 group-hover:bg-red-100 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.588-.75H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Règles de circulation</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">Priorité, vitesse, dépassement…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+            {# 2. Infrastructure et signalisation → Titre III #}
+            <a href="{% url 'reglementation:category' slug='signalisation-routiere' %}"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-50 text-blue-500 shrink-0 group-hover:bg-blue-100 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h6m-6 3.75h6m-6 3.75h3"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Infrastructure et signalisation</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">Panneaux, marquages, feux…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+            {# 3. Politique criminelle #}
+            <a href="https://www.codedelaroute.be/fr/reglementation/theme/politique-criminelle" target="_blank" rel="noopener"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-purple-50 text-purple-500 shrink-0 group-hover:bg-purple-100 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0 0 12 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 0 1-2.031.352 5.988 5.988 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971Zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 0 1-2.031.352 5.989 5.989 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971Z"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Politique criminelle</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">Sanctions, amendes, procédures…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+            {# 4. Permis de conduire #}
+            <a href="https://www.codedelaroute.be/fr/reglementation/theme/permis-de-conduire" target="_blank" rel="noopener"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-green-50 text-green-500 shrink-0 group-hover:bg-green-100 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Permis de conduire</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">Catégories, examen, validité…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+            {# 5. Assurance et immatriculation #}
+            <a href="https://www.codedelaroute.be/fr/reglementation/theme/assurance-et-immatriculation-de-vehicules" target="_blank" rel="noopener"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-amber-50 text-amber-500 shrink-0 group-hover:bg-amber-100 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Assurance et immatriculation</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">Plaques, assurance RC, contrôle…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+            {# 6. Transport de marchandises #}
+            <a href="https://www.codedelaroute.be/fr/reglementation/theme/transport-de-marchandises" target="_blank" rel="noopener"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-orange-50 text-orange-500 shrink-0 group-hover:bg-orange-100 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.588-.75H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Transport de marchandises</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">ADR, poids lourds, chargement…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+            {# 7. Transport de personnes #}
+            <a href="https://www.codedelaroute.be/fr/reglementation/theme/transport-de-personnes" target="_blank" rel="noopener"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-teal-50 text-teal-500 shrink-0 group-hover:bg-teal-100 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Transport de personnes</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">Bus, taxis, covoiturage…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+            {# 8. Aptitude professionnelle #}
+            <a href="https://www.codedelaroute.be/fr/reglementation/theme/aptitude-professionnelle" target="_blank" rel="noopener"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-cyan-50 text-cyan-500 shrink-0 group-hover:bg-cyan-100 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Aptitude professionnelle</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">Formation, certificats, CAP…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+            {# 9. Conditions techniques #}
+            <a href="https://www.codedelaroute.be/fr/reglementation/theme/conditions-techniques" target="_blank" rel="noopener"
+               class="group flex items-center gap-4 bg-white rounded-xl border border-gray-200 px-5 py-4 hover:border-indigo-300 hover:shadow-md transition-all duration-200">
+                <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-slate-100 text-slate-500 shrink-0 group-hover:bg-slate-200 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.048.58.024 1.194-.14 1.743"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition">Conditions techniques</h3>
+                    <p class="text-xs text-gray-400 mt-0.5">Contrôle technique, normes…</p>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </a>
+        </div>
+        <p class="mt-3 text-xs text-gray-400 text-center">Source : <a href="https://www.codedelaroute.be/fr/reglementation/start" target="_blank" rel="noopener" class="text-indigo-500 hover:underline">codedelaroute.be</a></p>
+    </div>
+
     {# Signs section #}
     <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl border border-amber-200 p-8 flex flex-col sm:flex-row items-start sm:items-center gap-6">
         <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-amber-100 text-amber-600 shrink-0">
