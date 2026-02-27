@@ -20,25 +20,25 @@ for q in data['questions']:
     qid = q['question_id']
     qnum = q['question_number']
     source_tag = f'permisdeconduire-online:{qid}'
-    
+
     # Find local image: question_N.gif
     local_file = os.path.join(LOCAL_DIR, f'question_{qnum}.gif')
     if not os.path.exists(local_file):
         print(f"  SKIP Q{qnum}: no local image")
         continue
-    
+
     # Find Question in DB
     try:
         question = Question.objects.get(source=source_tag)
     except Question.DoesNotExist:
         print(f"  SKIP Q{qnum}: not in DB")
         continue
-    
+
     # Copy to media/questions/
     dest = os.path.join(MEDIA_DIR, f'q{qnum}_{qid}.gif')
     if not os.path.exists(dest):
         shutil.copy2(local_file, dest)
-    
+
     question.image = f'questions/q{qnum}_{qid}.gif'
     question.save(update_fields=['image'])
     linked += 1

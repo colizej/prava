@@ -24,7 +24,7 @@ for q in data['questions']:
         continue
 
     source_tag = f'permisdeconduire-online:{qid}'
-    
+
     # Find the Question in DB
     try:
         question = Question.objects.get(source=source_tag)
