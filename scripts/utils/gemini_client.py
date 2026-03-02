@@ -1,9 +1,9 @@
 """
-PRAVA — Gemini 1.5 Flash API client.
+PRAVA — Gemini 2.0 Flash API client.
 Generates exam questions from article content.
 
 Requires:
-    pip install google-generativeai
+    pip install google-genai
     GEMINI_API_KEY in .env
 """
 import json
@@ -17,6 +17,8 @@ logger = logging.getLogger(__name__)
 # Gemini Free tier limits
 RATE_LIMIT_RPM = 15           # requests per minute
 RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # seconds between requests (~4s)
+
+MODEL_NAME = "gemini-2.5-flash"
 
 SYSTEM_PROMPT = """\
 Tu es un expert du code de la route belge (AR du 1er décembre 1975).
@@ -48,7 +50,8 @@ Retourne UNIQUEMENT un tableau JSON de 5 objets question. Aucun texte avant ou a
 
 class GeminiClient:
     """
-    Wrapper around the Gemini 1.5 Flash API for question generation.
+    Wrapper around the Gemini 2.0 Flash API for question generation.
+    Uses the new google.genai SDK (google-genai package).
     Respects the free tier rate limit of 15 requests/minute.
     """
 
@@ -61,25 +64,23 @@ class GeminiClient:
 
         Raises:
             ValueError: If no API key is found.
-            ImportError: If 'google-generativeai' package is not installed.
+            ImportError: If 'google-genai' package is not installed.
         """
         try:
-            import google.generativeai as genai
+            from google import genai
+            from google.genai import types as genai_types
             self._genai = genai
+            self._types = genai_types
         except ImportError:
             raise ImportError(
-                "Install the Gemini package: pip install google-generativeai"
+                "Install the Gemini package: pip install google-genai"
             )
 
         self.api_key = api_key or os.environ.get("GEMINI_API_KEY")
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY not set. Add it to your .env file.")
 
-        self._genai.configure(api_key=self.api_key)
-        self.model = self._genai.GenerativeModel(
-            model_name="gemini-1.5-flash",
-            system_instruction=SYSTEM_PROMPT,
-        )
+        self._client = self._genai.Client(api_key=self.api_key)
         self._last_request_time: float = 0
 
     def _rate_limit(self) -> None:
@@ -137,7 +138,13 @@ class GeminiClient:
         )
 
         try:
-            response = self.model.generate_content(prompt)
+            response = self._client.models.generate_content(
+                model=MODEL_NAME,
+                contents=prompt,
+                config=self._types.GenerateContentConfig(
+                    system_instruction=SYSTEM_PROMPT,
+                ),
+            )
             self._last_request_time = time.time()
 
             raw_text = response.text.strip()

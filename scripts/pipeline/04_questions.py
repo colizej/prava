@@ -276,7 +276,7 @@ def main():
 
         # Write back into the article file
         article["exam_questions"] = valid_questions
-        article["_meta"]["questions_generated_at"] = __import__("datetime").datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        article["_meta"]["questions_generated_at"] = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         article["_meta"]["questions_model"] = "gemini-1.5-flash"
         article["_meta"]["questions_count"] = len(valid_questions)
         save_json(article, article_file)
