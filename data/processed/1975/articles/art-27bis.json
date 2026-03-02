@@ -26,7 +26,190 @@
   "anchor_id_fr": "rojsviduq2",
   "anchor_id_nl": "qflujhl6bt",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 27bis, à qui sont réservés les emplacements de stationnement portant le signal visé à l'article 70.2.1.3°c) ?",
+      "text_nl": "Volgens artikel 27bis, voor wie zijn de parkeerplaatsen met het verkeersbord bedoeld in artikel 70.2.1.3°c) voorbehouden?",
+      "text_ru": "Согласно статье 27бис, для кого зарезервированы парковочные места со знаком, указанным в статье 70.2.1.3°c)?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "Belgian road sign F5: disabled parking symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement aux conducteurs qui ont obtenu une autorisation spéciale de la commune.",
+          "text_nl": "Enkel aan bestuurders die een speciale toelating van de gemeente hebben verkregen.",
+          "text_ru": "Только водителям, получившим специальное разрешение от муниципалитета.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Aux véhicules utilisés par les personnes handicapées titulaires de la carte spéciale ou d'un document assimilé.",
+          "text_nl": "Aan voertuigen die gebruikt worden door personen met een handicap die houder zijn van de speciale kaart of een gelijkgesteld document.",
+          "text_ru": "Автомобилям, используемым лицами с ограниченными возможностями, имеющими специальную карту или аналогичный документ.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À tous les véhicules dont le conducteur présente un certificat médical.",
+          "text_nl": "Aan alle voertuigen waarvan de bestuurder een medisch attest voorlegt.",
+          "text_ru": "Всем автомобилям, водитель которых предъявляет медицинскую справку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27bis stipule clairement que ces emplacements sont réservés aux véhicules utilisés par les personnes handicapées qui possèdent la carte spéciale visée à l'article 27.4.3 ou un document assimilé.",
+      "explanation_nl": "Artikel 27bis stelt duidelijk dat deze plaatsen voorbehouden zijn voor voertuigen die gebruikt worden door personen met een handicap die houder zijn van de speciale kaart bedoeld in artikel 27.4.3 of een gelijkgesteld document.",
+      "explanation_ru": "Статья 27бис четко указывает, что эти места зарезервированы для транспортных средств, используемых лицами с ограниченными возможностями, имеющими специальную карту, указанную в статье 27.4.3, или аналогичный документ."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Où le document attestant le droit de stationner sur un emplacement réservé aux personnes handicapées doit-il être apposé selon l'article 27bis ?",
+      "text_nl": "Waar moet het document dat het recht om op een parkeerplaats voor personen met een handicap te parkeren aantoont, volgens artikel 27bis aangebracht worden?",
+      "text_ru": "Где, согласно статье 27бис, должен быть размещен документ, удостоверяющий право парковаться на месте, зарезервированном для лиц с ограниченными возможностями?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Sur le tableau de bord, bien en vue.",
+          "text_nl": "Op het dashboard, goed zichtbaar.",
+          "text_ru": "На приборной панели, хорошо видимое.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur la face interne du pare-brise, ou à défaut, sur la partie avant du véhicule.",
+          "text_nl": "Op de binnenkant van de voorruit, of bij gebrek daaraan, op het voorste gedeelte van het voertuig.",
+          "text_ru": "На внутренней стороне лобового стекла, или при его отсутствии, на передней части транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dans la boîte à gants, pour présentation sur demande.",
+          "text_nl": "In het handschoenenkastje, om op verzoek te tonen.",
+          "text_ru": "В бардачке, для предъявления по требованию.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27bis précise que la carte ou le document doit être apposé sur la face interne du pare-brise, ou à défaut, sur la partie avant du véhicule mis en stationnement.",
+      "explanation_nl": "Artikel 27bis specificeert dat de kaart of het document aangebracht moet worden op de binnenkant van de voorruit, of bij gebrek daaraan, op het voorste gedeelte van het geparkeerde voertuig.",
+      "explanation_ru": "Статья 27бис уточняет, что карта или документ должны быть размещены на внутренней стороне лобового стекла, или при его отсутствии, на передней части транспортного средства, припаркованного на этом месте."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez et apercevez un emplacement de stationnement marqué du panneau F5. Vous n'êtes pas titulaire d'une carte spéciale pour personnes handicapées. Pouvez-vous y stationner si tous les autres emplacements sont occupés ?",
+      "text_nl": "U rijdt en ziet een parkeerplaats gemarkeerd met het F5-bord. U bent geen houder van een speciale kaart voor personen met een handicap. Mag u daar parkeren als alle andere plaatsen bezet zijn?",
+      "text_ru": "Вы едете и замечаете парковочное место, обозначенное знаком F5. У вас нет специальной карты для инвалидов. Можете ли вы там припарковаться, если все остальные места заняты?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "Belgian road sign F5: disabled parking symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si vous avez un certificat médical prouvant une gêne temporaire.",
+          "text_nl": "Ja, als u een medisch attest hebt dat tijdelijke hinder bewijst.",
+          "text_ru": "Да, если у вас есть медицинская справка, подтверждающая временные неудобства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, ces emplacements sont strictement réservés aux personnes handicapées titulaires de la carte spéciale ou document assimilé.",
+          "text_nl": "Nee, deze plaatsen zijn strikt voorbehouden voor personen met een handicap die houder zijn van de speciale kaart of een gelijkgesteld document.",
+          "text_ru": "Нет, эти места строго зарезервированы для лиц с ограниченными возможностями, имеющих специальную карту или аналогичный документ.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si vous vous garez pour une courte durée.",
+          "text_nl": "Ja, als u voor korte duur parkeert.",
+          "text_ru": "Да, если вы паркуетесь на короткое время.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27bis réserve ces emplacements aux personnes handicapées détentrices d'une carte spécifique. Le manque d'autres places ne justifie pas une infraction.",
+      "explanation_nl": "Artikel 27bis reserveert deze plaatsen voor personen met een handicap die houder zijn van een specifieke kaart. Het gebrek aan andere plaatsen is geen rechtvaardiging voor een inbreuk.",
+      "explanation_ru": "Статья 27бис резервирует эти места для лиц с ограниченными возможностями, имеющих специальную карту. Отсутствие других мест не является оправданием для нарушения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes en train de vous garer sur un emplacement réservé aux personnes handicapées et votre passager est titulaire de la carte spéciale. Vous positionnez la carte sur la plage arrière pour qu'elle soit visible. Est-ce correct ?",
+      "text_nl": "U bent aan het parkeren op een parkeerplaats voor personen met een handicap en uw passagier is houder van de speciale kaart. U legt de kaart op de hoedenplank zodat deze zichtbaar is. Is dat correct?",
+      "text_ru": "Вы паркуетесь на месте, зарезервированном для лиц с ограниченными возможностями, и ваш пассажир является владельцем специальной карты. Вы кладете карту на заднюю полку, чтобы она была видна. Это правильно?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "Belgian road sign F5: disabled parking symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, tant que la carte est visible de l'extérieur.",
+          "text_nl": "Ja, zolang de kaart van buitenaf zichtbaar is.",
+          "text_ru": "Да, если карта видна снаружи.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, la carte doit être apposée sur la face interne du pare-brise, ou à défaut, sur la partie avant du véhicule.",
+          "text_nl": "Nee, de kaart moet aangebracht worden op de binnenkant van de voorruit, of bij gebrek daaraan, op het voorste gedeelte van het voertuig.",
+          "text_ru": "Нет, карта должна быть размещена на внутренней стороне лобового стекла, или при его отсутствии, на передней части транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si le conducteur est également une personne handicapée.",
+          "text_nl": "Ja, als de bestuurder ook een persoon met een handicap is.",
+          "text_ru": "Да, если водитель также является лицом с ограниченными возможностями.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27bis spécifie que la carte ou le document doit être apposé sur la face interne du pare-brise, ou à défaut, sur la partie avant du véhicule. La plage arrière n'est pas un emplacement correct.",
+      "explanation_nl": "Artikel 27bis specificeert dat de kaart of het document aangebracht moet worden op de binnenkant van de voorruit, of bij gebrek daaraan, op het voorste gedeelte van het voertuig. De hoedenplank is geen correcte plaats.",
+      "explanation_ru": "Статья 27бис уточняет, что карта или документ должны быть размещены на внутренней стороне лобового стекла, или при его отсутствии, на передней части транспортного средства. Задняя полка не является правильным местом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un véhicule stationné sur un emplacement réservé aux personnes handicapées. Le conducteur vous informe qu'il vient de déposer son épouse, titulaire de la carte spéciale, chez le médecin et qu'il va la chercher dans 5 minutes. Est-il en infraction ?",
+      "text_nl": "U ziet een voertuig geparkeerd op een parkeerplaats voor personen met een handicap. De bestuurder informeert u dat hij net zijn echtgenote, houder van de speciale kaart, bij de dokter heeft afgezet en dat hij haar over 5 minuten komt halen. Is hij in overtreding?",
+      "text_ru": "Вы видите автомобиль, припаркованный на месте, зарезервированном для лиц с ограниченными возможностями. Водитель сообщает вам, что только что высадил свою жену, имеющую специальную карту, у врача и что он заберет ее через 5 минут. Нарушает ли он правила?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "Belgian road sign F5: disabled parking symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car il attend sa passagère qui est titulaire de la carte.",
+          "text_nl": "Nee, want hij wacht op zijn passagier die de kaart bezit.",
+          "text_ru": "Нет, так как он ждет свою пассажирку, которая является владелицей карты.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car le véhicule doit être utilisé par la personne handicapée, et non seulement 'gardé'. La carte doit être visible.",
+          "text_nl": "Ja, want het voertuig moet gebruikt worden door de persoon met een handicap, en niet alleen 'bewaakt' worden. De kaart moet zichtbaar zijn.",
+          "text_ru": "Да, потому что транспортным средством должно пользоваться лицо с ограниченными возможностями, а не просто 'охраняться'. Карта должна быть видна.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, s'il laisse son gyrophare allumé.",
+          "text_nl": "Nee, als hij zijn zwaailicht laat branden.",
+          "text_ru": "Нет, если он оставит включенным проблесковый маячок.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27bis réserve ces places aux 'véhicules utilisés par les personnes handicapées'. Le fait d'attendre une personne handicapée ne suffit pas si la carte n'est pas apposée correctement et si le véhicule n'est pas sous la responsabilité directe et immédiate de cette personne au moment du stationnement.",
+      "explanation_nl": "Artikel 27bis reserveert deze plaatsen voor 'voertuigen die gebruikt worden door personen met een handicap'. Het wachten op een persoon met een handicap is niet voldoende als de kaart niet correct is aangebracht en het voertuig niet onder de directe en onmiddellijke verantwoordelijkheid van die persoon staat op het moment van parkeren.",
+      "explanation_ru": "Статья 27бис резервирует эти места для 'транспортных средств, используемых лицами с ограниченными возможностями'. Простое ожидание человека с ограниченными возможностями недостаточно, если карта не размещена должным образом, и транспортное средство не находится под непосредственной и немедленной ответственностью этого лица во время парковки."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "e7973695fc8e",
@@ -36,6 +219,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:10:08Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

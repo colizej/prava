@@ -47,7 +47,193 @@
   "anchor_id_fr": "cmkztstawj",
   "anchor_id_nl": "yezmpzgyb9",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon le Code de la route belge, quand est-ce que le fait de rouler plus vite dans une bande ou une file de circulation n'est PAS considéré comme un dépassement ?",
+      "text_nl": "Volgens de Belgische Wegcode, wanneer wordt het sneller rijden in een rijstrook of file NIET als inhalen beschouwd?",
+      "text_ru": "Согласно Бельгийскому кодексу дорожного движения, когда движение с большей скоростью по одной полосе или ряду НЕ считается обгоном?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image illustrating multi-lane traffic flow, possibly with signs F13 or F15, showing vehicles in different lanes moving at varying speeds."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque vous dépassez un véhicule arrêté.",
+          "text_nl": "Wanneer u een stilstaand voertuig inhaalt.",
+          "text_ru": "Когда вы обгоняете остановившееся транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque les conducteurs suivent les indications des signaux F13 et F15 ou les dispositions de l'article 9.4 ou 9.5.",
+          "text_nl": "Wanneer bestuurders de aanwijzingen van de verkeersborden F13 en F15 of de bepalingen van artikel 9.4 of 9.5 opvolgen.",
+          "text_ru": "Когда водители следуют указаниям знаков F13 и F15 или положениям статьи 9.4 или 9.5.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsque vous dépassez un cycliste.",
+          "text_nl": "Wanneer u een fietser inhaalt.",
+          "text_ru": "Когда вы обгоняете велосипедиста.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 16.2 stipule que le fait que les véhicules d'une bande ou d'une file circulent à une vitesse plus grande que ceux d'une autre bande ou file, n'est pas considéré comme un dépassement lorsque les conducteurs se conforment aux indications des signaux F13 et F15 ou aux dispositions de l'article 9.4 ou 9.5, sauf pour l'application de l'article 17.2.5°.",
+      "explanation_nl": "Artikel 16.2 bepaalt dat het sneller rijden van voertuigen in een rijstrook of een file ten opzichte van voertuigen in een andere rijstrook of file niet als inhalen wordt beschouwd, wanneer bestuurders de aanwijzingen van de verkeersborden F13 en F15 of de bepalingen van artikel 9.4 of 9.5 opvolgen, behalve voor de toepassing van artikel 17.2.5°.",
+      "explanation_ru": "Статья 16.2 гласит, что тот факт, что транспортные средства в одной полосе или ряду движутся с большей скоростью, чем транспортные средства в другой полосе или ряду, не считается обгоном, когда водители следуют указаниям знаков F13 и F15 или положениям статьи 9.4 или 9.5, за исключением применения статьи 17.2.5°."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'article 16.2bis, sous quelles conditions un motocycliste circulant entre deux bandes de circulation n'est-il PAS considéré comme effectuant un dépassement ?",
+      "text_nl": "Volgens artikel 16.2bis, onder welke voorwaarden wordt een motorfietser die tussen twee rijstroken rijdt NIET beschouwd als inhalen?",
+      "text_ru": "Согласно статье 16.2bis, при каких условиях мотоциклист, движущийся между двумя полосами движения, НЕ считается совершающим обгон?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a motorcyclist carefully filtering between two lanes of slow-moving or stopped cars."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La vitesse du motocycliste ne dépasse pas 70 km/h et la différence de vitesse ne dépasse pas 30 km/h.",
+          "text_nl": "De snelheid van de motorfietser bedraagt maximaal 70 km/u en het snelheidsverschil bedraagt maximaal 30 km/u.",
+          "text_ru": "Скорость мотоциклиста не превышает 70 км/ч, а разница в скорости не превышает 30 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La vitesse du motocycliste ne dépasse pas 50 km/h et la différence de vitesse avec les autres véhicules ne dépasse pas 20 km/h.",
+          "text_nl": "De snelheid van de motorfietser bedraagt maximaal 50 km/u en het snelheidsverschil met de andere voertuigen bedraagt maximaal 20 km/u.",
+          "text_ru": "Скорость мотоциклиста не превышает 50 км/ч, а разница в скорости с другими транспортными средствами не превышает 20 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le motocycliste roule uniquement sur les autoroutes et entre n'importe quelles deux bandes.",
+          "text_nl": "De motorfietser rijdt enkel op autosnelwegen en tussen willekeurig welke twee rijstroken.",
+          "text_ru": "Мотоциклист движется только по автомагистралям и между любыми двумя полосами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 16.2bis stipule que le motocycliste ne peut dépasser 50 km/h et que la différence de vitesse entre le motocycliste et les véhicules ne peut être supérieure à 20 km/h. Sur autoroutes et routes pour automobiles, il doit rouler entre les deux bandes situées le plus à gauche.",
+      "explanation_nl": "Artikel 16.2bis stelt dat de motorfietser niet sneller mag rijden dan 50 km/u en dat het snelheidsverschil tussen de motorfietser en de voertuigen niet meer dan 20 km/u mag bedragen. Op autosnelwegen en autowegen moet hij bovendien tussen de twee meest links gelegen rijstroken rijden.",
+      "explanation_ru": "Статья 16.2bis гласит, что мотоциклист не может превышать скорость 50 км/ч, а разница в скорости между мотоциклистом и транспортными средствами не может превышать 20 км/ч. На автомагистралях и дорогах для автомобилей он также должен двигаться между двумя крайними левыми полосами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous suivez une voiture qui a enclenché son clignotant gauche et s'est déplacée vers la gauche pour se préparer à tourner à gauche. Comment pouvez-vous la dépasser légalement ?",
+      "text_nl": "U volgt een auto die zijn linkerrichtingaanwijzer heeft aangezet en naar links is opgeschoven om zich voor te bereiden op linksaf slaan. Hoe mag u deze legaal inhalen?",
+      "text_ru": "Вы едете за автомобилем, который включил левый поворотник и сместился влево, готовясь повернуть налево. Как вы можете его законно обогнать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image showing a car in the left lane with its left turn signal on, positioned to turn left, and another car behind it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez attendre derrière la voiture jusqu'à ce qu'elle ait tourné.",
+          "text_nl": "U moet achter de auto wachten tot deze is afgeslagen.",
+          "text_ru": "Вы должны подождать за машиной, пока она не повернет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez la dépasser par la droite.",
+          "text_nl": "U mag deze rechts inhalen.",
+          "text_ru": "Вы можете обогнать его справа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez la dépasser par la gauche, en veillant à laisser suffisamment d'espace.",
+          "text_nl": "U mag deze links inhalen, met voldoende ruimte.",
+          "text_ru": "Вы можете обогнать его слева, оставляя достаточно места.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 16.3, le dépassement s'effectue à droite lorsque le conducteur à dépasser a indiqué son intention de tourner à gauche ou de ranger son véhicule sur le côté gauche de la voie publique et s'est porté à gauche en vue d'effectuer ce mouvement.",
+      "explanation_nl": "Volgens artikel 16.3 geschiedt het inhalen rechts wanneer de in te halen bestuurder te kennen heeft gegeven dat hij voornemens is links af te slaan of zijn voertuig op te stellen aan de linkerkant van de openbare weg en zich naar links heeft begeven om dit manoeuvre uit te voeren.",
+      "explanation_ru": "Согласно статье 16.3, обгон осуществляется справа, когда водитель, которого следует обогнать, указал свое намерение повернуть налево или поставить свое транспортное средство на левую сторону проезжей части и сместился влево для выполнения этого маневра."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un motocycliste roule entre deux files de voitures qui se déplacent lentement à 20 km/h sur une autoroute. Quelle est la vitesse maximale à laquelle le motocycliste peut rouler sans que cela ne soit considéré comme un dépassement, conformément à l'article 16.2bis ?",
+      "text_nl": "Een motorfietser rijdt op een autosnelweg tussen twee files van auto's die langzaam rijden met 20 km/u. Wat is de maximale snelheid waarmee de motorfietser mag rijden zonder dat dit als inhalen wordt beschouwd, conform artikel 16.2bis?",
+      "text_ru": "Мотоциклист движется между двумя рядами автомобилей, которые медленно едут со скоростью 20 км/ч по автомагистрали. Какова максимальная скорость, с которой мотоциклист может двигаться, чтобы это не считалось обгоном, согласно статье 16.2bis?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a motorcyclist filtering on a highway between two lanes of cars moving slowly at approximately 20 km/h."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "50 km/h, car c'est la limite absolue pour les motocyclistes dans cette situation.",
+          "text_nl": "50 km/u, omdat dit de absolute limiet is voor motorfietsers in deze situatie.",
+          "text_ru": "50 км/ч, так как это абсолютный предел для мотоциклистов в этой ситуации.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "40 km/h, car la différence de vitesse ne peut excéder 20 km/h et la vitesse ne peut dépasser 50 km/h.",
+          "text_nl": "40 km/u, want het snelheidsverschil mag niet meer dan 20 km/u bedragen en de snelheid mag niet hoger zijn dan 50 km/u.",
+          "text_ru": "40 км/ч, потому что разница в скорости не может превышать 20 км/ч, а скорость не может превышать 50 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "20 km/h, soit la même vitesse que les voitures.",
+          "text_nl": "20 km/u, oftewel dezelfde snelheid als de auto's.",
+          "text_ru": "20 км/ч, то есть та же скорость, что и у автомобилей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 16.2bis indique que la vitesse du motocycliste ne peut dépasser 50 km/h ET que la différence de vitesse avec les véhicules ne peut excéder 20 km/h. Si les véhicules roulent à 20 km/h, la vitesse maximale du motocycliste est de 20 km/h + 20 km/h = 40 km/h, ce qui est également inférieur à la limite absolue de 50 km/h.",
+      "explanation_nl": "Artikel 16.2bis geeft aan dat de snelheid van de motorfietser niet meer dan 50 km/u mag bedragen EN dat het snelheidsverschil met de voertuigen niet meer dan 20 km/u mag bedragen. Als de voertuigen 20 km/u rijden, is de maximale snelheid van de motorfietser 20 km/u + 20 km/u = 40 km/u, wat ook lager is dan de absolute limiet van 50 km/u.",
+      "explanation_ru": "Статья 16.2bis указывает, что скорость мотоциклиста не может превышать 50 км/ч И что разница в скорости с транспортными средствами не может превышать 20 км/ч. Если транспортные средства движутся со скоростью 20 км/ч, максимальная скорость мотоциклиста составляет 20 км/ч + 20 км/ч = 40 км/ч, что также ниже абсолютного предела в 50 км/ч."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Avant de dépasser par la gauche, un conducteur doit s'assurer de plusieurs conditions. Laquelle des actions suivantes N'EST PAS explicitement mentionnée comme obligatoire dans l'article 16.4.1° du Code de la route ?",
+      "text_nl": "Voordat men links inhaalt, moet een bestuurder zich van verschillende voorwaarden vergewissen. Welke van de volgende acties wordt NIET expliciet vermeld als verplicht in artikel 16.4.1° van de Wegcode?",
+      "text_ru": "Прежде чем обгонять слева, водитель должен убедиться в соблюдении нескольких условий. Какое из следующих действий НЕ упоминается явно как обязательное в статье 16.4.1° Правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image illustrating a car preparing to overtake another car on a two-lane road, emphasizing safety checks before the maneuver."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'assurer qu'il a la possibilité de reprendre sa place à droite sans gêner les autres conducteurs.",
+          "text_nl": "Zich ervan vergewissen dat hij zijn plaats rechts kan hernemen zonder de andere bestuurders te hinderen.",
+          "text_ru": "Убедиться, что он может вернуться на свою полосу справа, не мешая другим водителям.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Avertir le conducteur à dépasser d'un coup de klaxon.",
+          "text_nl": "De in te halen bestuurder waarschuwen met een claxon.",
+          "text_ru": "Предупредить обгоняемого водителя гудком.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "S'assurer qu'aucun conducteur qui le suit n'a commencé un dépassement.",
+          "text_nl": "Zich ervan vergewissen dat geen enkele bestuurder die hem volgt reeds een inhaalmanoeuvre heeft aangevangen.",
+          "text_ru": "Убедиться, что ни один следующий за ним водитель не начал обгон.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 16.4.1° énumère les conditions pour s'assurer de la sécurité avant un dépassement : voie libre sur distance suffisante, aucun conducteur suiveur n'a commencé un dépassement, possibilité de reprendre sa place à droite sans gêner, et possibilité d'effectuer le dépassement en un temps très court. Avertir d'un coup de klaxon n'est pas une obligation explicite mentionnée.",
+      "explanation_nl": "Artikel 16.4.1° somt de voorwaarden op om de veiligheid te garanderen voor een inhaalmanoeuvre: vrije baan over voldoende afstand, geen achteropkomende bestuurder is reeds begonnen met inhalen, mogelijkheid om rechts terug te keren zonder te hinderen, en de mogelijkheid om het inhalen in zeer korte tijd uit te voeren. Waarschuwen met een claxon is geen expliciet vermelde verplichting.",
+      "explanation_ru": "Статья 16.4.1° перечисляет условия обеспечения безопасности перед обгоном: свободная дорога на достаточное расстояние, никто из следующих водителей не начал обгон, возможность вернуться вправо, не мешая, и возможность выполнить обгон за очень короткое время. Предупреждение гудком явно не упомянуто как обязательное действие."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "2c7c25ec3c92",
@@ -57,6 +243,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:29:11Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

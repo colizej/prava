@@ -31,7 +31,193 @@
   "anchor_id_fr": "th29jmkqia",
   "anchor_id_nl": "mc3tvvucg3",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon le Code de la route belge, quels types de véhicules sont autorisés à circuler sur les routes pour automobiles ?",
+      "text_nl": "Volgens de Belgische Wegcode, welke voertuigen zijn toegelaten op autowegen?",
+      "text_ru": "Согласно Бельгийскому дорожному кодексу, какие типы транспортных средств разрешены для движения по автомобильным дорогам?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tous les véhicules motorisés, y compris les cyclomoteurs.",
+          "text_nl": "Alle motorvoertuigen, inclusief bromfietsen.",
+          "text_ru": "Все моторизованные транспортные средства, включая мопеды.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement les véhicules à moteur et leurs remorques, à l'exception de certaines catégories spécifiques.",
+          "text_nl": "Enkel motorvoertuigen en hun aanhangwagens, met uitzondering van bepaalde specifieke categorieën.",
+          "text_ru": "Только моторные транспортные средства и их прицепы, за исключением некоторых специфических категорий.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tous les véhicules, motorisés ou non.",
+          "text_nl": "Alle voertuigen, gemotoriseerd of niet.",
+          "text_ru": "Все транспортные средства, моторизованные или нет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22.1 stipule que « La circulation sur les routes pour automobiles est réservée aux véhicules à moteur ainsi qu'à leurs remorques, à l'exception des cyclomoteurs, des véhicules agricoles et des trains de véhicules forains et les quadricycles sans habitacle. »",
+      "explanation_nl": "Artikel 22.1 stelt dat « Alleen de motorvoertuigen en hun aanhangwagens, met uitzondering van de bromfietsen, de landbouwvoertuigen en de slepen van kermisvoertuigen alsook de vierwielers zonder passagiersruimte, worden tot het verkeer op autowegen toegelaten. »",
+      "explanation_ru": "Статья 22.1 гласит: «Движение по автомобильным дорогам разрешено только моторным транспортным средствам и их прицепам, за исключением мопедов, сельскохозяйственных транспортных средств, составов ярмарочных транспортных средств и квадроциклов без кабины.»"
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Parmi les catégories suivantes, lesquelles sont explicitement interdites sur les routes pour automobiles selon l'article 22.1 du Code de la route belge ?",
+      "text_nl": "Welke van de volgende categorieën voertuigen zijn expliciet verboden op autowegen volgens artikel 22.1 van de Belgische Wegcode?",
+      "text_ru": "Какие из следующих категорий транспортных средств явно запрещены на автомобильных дорогах согласно статье 22.1 Бельгийского дорожного кодекса?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les cyclomoteurs et les véhicules agricoles.",
+          "text_nl": "Enkel bromfietsen en landbouwvoertuigen.",
+          "text_ru": "Только мопеды и сельскохозяйственные транспортные средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les cyclomoteurs, les véhicules agricoles, les trains de véhicules forains et les quadricycles sans habitacle.",
+          "text_nl": "De bromfietsen, de landbouwvoertuigen, de slepen van kermisvoertuigen en de vierwielers zonder passagiersruimte.",
+          "text_ru": "Мопеды, сельскохозяйственные транспортные средства, составы ярмарочных транспортных средств и квадроциклы без кабины.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement les véhicules sans moteur.",
+          "text_nl": "Enkel voertuigen zonder motor.",
+          "text_ru": "Только безмоторные транспортные средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22.1 mentionne explicitement l'exception pour « les cyclomoteurs, des véhicules agricoles et des trains de véhicules forains et les quadricycles sans habitacle. »",
+      "explanation_nl": "Artikel 22.1 vermeldt expliciet de uitzondering voor « de bromfietsen, de landbouwvoertuigen en de slepen van kermisvoertuigen alsook de vierwielers zonder passagiersruimte. »",
+      "explanation_ru": "Статья 22.1 явно упоминает исключение для «мопедов, сельскохозяйственных транспортных средств, составов ярмарочных транспортных средств и квадроциклов без кабины»."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes le conducteur d'un quadricycle sans habitacle. Pouvez-vous emprunter une autoroute en Belgique ?",
+      "text_nl": "U bent de bestuurder van een vierwieler zonder passagiersruimte. Mag u een autoweg oprijden in België?",
+      "text_ru": "Вы управляете квадроциклом без кабины. Можете ли вы выехать на автомагистраль в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car c'est un véhicule motorisé.",
+          "text_nl": "Ja, want het is een gemotoriseerd voertuig.",
+          "text_ru": "Да, так как это моторизованное транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car ce type de véhicule est explicitement exclu des routes pour automobiles.",
+          "text_nl": "Nee, want dit type voertuig is expliciet uitgesloten van autowegen.",
+          "text_ru": "Нет, так как этот тип транспортного средства явно исключен из числа разрешенных на автомобильных дорогах.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, uniquement si la vitesse maximale de mon véhicule est supérieure à 70 km/h.",
+          "text_nl": "Ja, enkel als de maximale snelheid van mijn voertuig hoger is dan 70 km/u.",
+          "text_ru": "Да, только если максимальная скорость моего транспортного средства превышает 70 км/ч.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22.1 exclut explicitement les « quadricycles sans habitacle » de la circulation sur les routes pour automobiles.",
+      "explanation_nl": "Artikel 22.1 sluit expliciet de « vierwielers zonder passagiersruimte » uit van het verkeer op autowegen.",
+      "explanation_ru": "Статья 22.1 явно исключает «квадроциклы без кабины» из движения по автомобильным дорогам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un agriculteur doit livrer des marchandises avec son tracteur et sa remorque. Peut-il utiliser l'autoroute pour réduire le temps de trajet ?",
+      "text_nl": "Een landbouwer moet goederen leveren met zijn tractor en aanhangwagen. Mag hij de autoweg gebruiken om de reistijd te verkorten?",
+      "text_ru": "Фермер должен доставить товары на своем тракторе с прицепом. Может ли он использовать автомагистраль, чтобы сократить время в пути?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si son tracteur est homologué pour une vitesse suffisante.",
+          "text_nl": "Ja, als zijn tractor is goedgekeurd voor een voldoende snelheid.",
+          "text_ru": "Да, если его трактор сертифицирован для достаточной скорости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, les véhicules agricoles sont explicitement interdits sur les routes pour automobiles.",
+          "text_nl": "Nee, landbouwvoertuigen zijn expliciet verboden op autowegen.",
+          "text_ru": "Нет, сельскохозяйственные транспортные средства явно запрещены на автомобильных дорогах.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement en dehors des heures de pointe.",
+          "text_nl": "Ja, maar enkel buiten de spitsuren.",
+          "text_ru": "Да, но только вне часов пик.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22.1 du Code de la route belge exclut spécifiquement les « véhicules agricoles » de la circulation sur les routes pour automobiles, quelle que soit leur homologation de vitesse ou l'heure de la journée.",
+      "explanation_nl": "Artikel 22.1 van de Belgische Wegcode sluit specifiek « landbouwvoertuigen » uit van het verkeer op autowegen, ongeacht hun snelheidsgoedkeuring of het tijdstip van de dag.",
+      "explanation_ru": "Статья 22.1 Бельгийского дорожного кодекса специально исключает «сельскохозяйственные транспортные средства» из движения по автомобильным дорогам, независимо от их скоростной классификации или времени суток."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un cyclomoteur de classe B (max 45 km/h). Votre destination est accessible via une autoroute. Pouvez-vous l'emprunter ?",
+      "text_nl": "U rijdt met een bromfiets klasse B (max 45 km/u). Uw bestemming is bereikbaar via een autoweg. Mag u deze oprijden?",
+      "text_ru": "Вы управляете мопедом класса B (макс. 45 км/ч). Ваш пункт назначения доступен по автомагистрали. Можете ли вы выехать на нее?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car les cyclomoteurs sont des véhicules motorisés.",
+          "text_nl": "Ja, want bromfietsen zijn gemotoriseerde voertuigen.",
+          "text_ru": "Да, так как мопеды являются моторизованными транспортными средствами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car les cyclomoteurs sont explicitement exclus de la circulation sur les routes pour automobiles.",
+          "text_nl": "Nee, want bromfietsen zijn expliciet uitgesloten van het verkeer op autowegen.",
+          "text_ru": "Нет, так как мопеды явно исключены из движения по автомобильным дорогам.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si je reste sur la bande de droite et ne dépasse pas les 45 km/h.",
+          "text_nl": "Ja, als ik op de rechterrijstrook blijf en de 45 km/u niet overschrijd.",
+          "text_ru": "Да, если я останусь на правой полосе и не превышу 45 км/ч.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22.1 du Code de la route belge précise que la circulation sur les routes pour automobiles est réservée aux véhicules à moteur, « à l'exception des cyclomoteurs ». Cela inclut tous les cyclomoteurs, quelle que soit leur classe ou leur vitesse maximale.",
+      "explanation_nl": "Artikel 22.1 van de Belgische Wegcode preciseert dat het verkeer op autowegen is voorbehouden aan motorvoertuigen, « met uitzondering van de bromfietsen ». Dit geldt voor alle bromfietsen, ongeacht hun klasse of maximumsnelheid.",
+      "explanation_ru": "Статья 22.1 Бельгийского дорожного кодекса уточняет, что движение по автомобильным дорогам разрешено моторным транспортным средствам, «за исключением мопедов». Это относится ко всем мопедам, независимо от их класса или максимальной скорости."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "bd6e2a09c77e",
@@ -41,6 +227,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:32:21Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

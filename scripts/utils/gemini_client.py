@@ -1,7 +1,8 @@
 """
-PRAVA — Gemini 2.0 Flash API client.
+PRAVA — Gemini API client.
 Generates exam questions from article content.
 
+Model: gemini-2.5-flash-lite (free tier: separate quota from 2.0-flash)
 Requires:
     pip install google-genai
     GEMINI_API_KEY in .env
@@ -14,11 +15,15 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-# Gemini Free tier limits
-RATE_LIMIT_RPM = 15           # requests per minute
-RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # seconds between requests (~4s)
+# Gemini Free tier limits — gemini-2.5-flash-lite: ~30 RPM free tier
+# Use 10 RPM (6s delay) to stay safely under the burst limit
+RATE_LIMIT_RPM = 10
+RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # 6s between requests
 
-MODEL_NAME = "gemini-2.5-flash"
+MAX_RETRIES = 4          # retry on 429
+RETRY_BASE_DELAY = 35    # seconds flat wait on 429 (API resets each minute)
+
+MODEL_NAME = "gemini-2.5-flash-lite"
 
 SYSTEM_PROMPT = """\
 Tu es un expert du code de la route belge (AR du 1er décembre 1975).
@@ -137,16 +142,37 @@ class GeminiClient:
             f"({len(prompt)} chars)"
         )
 
-        try:
-            response = self._client.models.generate_content(
-                model=MODEL_NAME,
-                contents=prompt,
-                config=self._types.GenerateContentConfig(
-                    system_instruction=SYSTEM_PROMPT,
-                ),
-            )
-            self._last_request_time = time.time()
+        for attempt in range(MAX_RETRIES):
+            try:
+                response = self._client.models.generate_content(
+                    model=MODEL_NAME,
+                    contents=prompt,
+                    config=self._types.GenerateContentConfig(
+                        system_instruction=SYSTEM_PROMPT,
+                    ),
+                )
+                self._last_request_time = time.time()
+                break  # success — exit retry loop
+            except Exception as exc:
+                err_str = str(exc)
+                if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
+                    wait = RETRY_BASE_DELAY  # flat wait — API resets every minute
+                    logger.warning(
+                        f"429 rate limit hit (attempt {attempt + 1}/{MAX_RETRIES}), "
+                        f"waiting {wait}s before retry…"
+                    )
+                    time.sleep(wait)
+                    self._last_request_time = time.time()
+                    if attempt == MAX_RETRIES - 1:
+                        logger.error(f"Gemini API error after {MAX_RETRIES} retries: {exc}")
+                        return []
+                    continue
+                logger.error(f"Gemini API error: {exc}")
+                return []
+        else:
+            return []
 
+        try:
             raw_text = response.text.strip()
 
             # Strip markdown code fences (```json ... ``` or ``` ... ```)

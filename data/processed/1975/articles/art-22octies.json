@@ -37,7 +37,190 @@
   "anchor_id_fr": "xba1p4hmjx",
   "anchor_id_nl": "stba9isjv1",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le signal F99c utilisé sur les chemins réservés aux véhicules agricoles, aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs ?",
+      "text_nl": "Wat betekent het verkeersbord F99c dat gebruikt wordt op wegen voorbehouden voor landbouwvoertuigen, voetgangers, fietsers, ruiters en bestuurders van speed pedelecs?",
+      "text_ru": "Что означает знак F99c, используемый на дорогах, предназначенных для сельскохозяйственной техники, пешеходов, велосипедистов, всадников и водителей электровелосипедов?",
+      "image": {
+        "sign_code": "F99c",
+        "generation_prompt": "Belgian road sign F99c, indicating the start of a path reserved for agricultural vehicles, pedestrians, cyclists, horse riders, and speed pedelec riders."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il indique la fin d'un chemin réservé.",
+          "text_nl": "Het geeft het einde van een voorbehouden weg aan.",
+          "text_ru": "Он указывает конец выделенной дороги.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il indique le début d'un chemin réservé à certaines catégories d'usagers.",
+          "text_nl": "Het geeft het begin aan van een weg die voorbehouden is voor bepaalde categorieën weggebruikers.",
+          "text_ru": "Он указывает начало дороги, зарезервированной для определенных категорий пользователей.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il indique une interdiction de circuler pour les véhicules agricoles.",
+          "text_nl": "Het geeft een verbod op verkeer voor landbouwvoertuigen aan.",
+          "text_ru": "Он указывает запрет на движение сельскохозяйственной техники.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal F99c indique le début d'un chemin ou d'une voie réservée à des usagers spécifiques tels que les véhicules agricoles, les piétons, les cyclistes, les cavaliers et les conducteurs de speed pedelecs.",
+      "explanation_nl": "Verkeersbord F99c geeft het begin aan van een weg of pad dat is voorbehouden voor specifieke weggebruikers zoals landbouwvoertuigen, voetgangers, fietsers, ruiters en speed pedelec-bestuurders.",
+      "explanation_ru": "Знак F99c указывает начало дороги или полосы, зарезервированной для определенных пользователей, таких как сельскохозяйственная техника, пешеходы, велосипедисты, всадники и водители электровелосипедов."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la limitation de vitesse générale sur les chemins réservés aux véhicules agricoles, aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs, sauf indication contraire ?",
+      "text_nl": "Wat is de algemene snelheidsbeperking op wegen voorbehouden voor landbouwvoertuigen, voetgangers, fietsers, ruiters en bestuurders van speed pedelecs, tenzij anders aangegeven?",
+      "text_ru": "Каково общее ограничение скорости на дорогах, предназначенных для сельскохозяйственной техники, пешеходов, велосипедистов, всадников и водителей электровелосипедов, если не указано иное?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "20 km/h",
+          "text_nl": "20 km/u",
+          "text_ru": "20 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 km/h",
+          "text_nl": "30 km/u",
+          "text_ru": "30 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "40 km/h",
+          "text_nl": "40 km/u",
+          "text_ru": "40 км/ч",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 22octies.3, la vitesse est limitée à 30 km par heure sur ces chemins.",
+      "explanation_nl": "Volgens artikel 22octies.3 is de snelheid op deze wegen beperkt tot 30 km per uur.",
+      "explanation_ru": "Согласно статье 22-октис.3, скорость на этих дорогах ограничена 30 км/ч."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule agricole et abordez un chemin où le signal F99c est présent. Vous voyez un groupe de cyclistes qui utilisent toute la largeur de la chaussée. Que devez-vous faire ?",
+      "text_nl": "U bestuurt een landbouwvoertuig en nadert een weg met het verkeersbord F99c. U ziet een groep fietsers die de volledige breedte van de weg gebruiken. Wat moet u doen?",
+      "text_ru": "Вы управляете сельскохозяйственной техникой и приближаетесь к дороге со знаком F99c. Вы видите группу велосипедистов, использующих всю ширину дороги. Ваши действия?",
+      "image": {
+        "sign_code": "F99c",
+        "generation_prompt": "Belgian road sign F99c, start of a path reserved for agricultural vehicles, pedestrians, cyclists, horse riders, and speed pedelec riders, with cyclists occupying the entire width of the path ahead."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Klaxonner pour qu'ils se déplacent.",
+          "text_nl": "Toeteren om hen te laten plaatsmaken.",
+          "text_ru": "Посигнальте, чтобы они освободили дорогу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez redoubler de prudence, réduire votre vitesse et, si nécessaire, vous arrêter pour ne pas les mettre en danger.",
+          "text_nl": "U moet extra voorzichtig zijn, uw snelheid verminderen en indien nodig stoppen om hen niet in gevaar te brengen.",
+          "text_ru": "Вы должны проявить особую осторожность, снизить скорость и, при необходимости, остановиться, чтобы не подвергать их опасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez les dépasser s'il y a un peu d'espace sur le côté.",
+          "text_nl": "U kunt hen inhalen als er een beetje ruimte aan de zijkant is.",
+          "text_ru": "Вы можете их обогнать, если сбоку есть немного места.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22octies.2 stipule que les usagers motorisés, et particulièrement les véhicules agricoles, doivent redoubler de prudence en présence des piétons, des cyclistes, etc. Ils ne doivent pas les mettre en danger ni les gêner.",
+      "explanation_nl": "Artikel 22octies.2 stelt dat gemotoriseerd verkeer, en in het bijzonder landbouwvoertuigen, dubbel voorzichtig moeten zijn ten aanzien van voetgangers, fietsers, enz. Zij mogen hen niet in gevaar brengen of hinderen.",
+      "explanation_ru": "Статья 22-октис.2 гласит, что моторизованные пользователи, и в частности сельскохозяйственная техника, должны проявлять особую осторожность по отношению к пешеходам, велосипедистам и т. д. Они не должны подвергать их опасности или мешать им."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous circulez sur un chemin indiqué par F99c. Vous voyez un panneau F101c indiquant la sortie. Avant de quitter ce chemin réservé, vous devez vous assurer de ne pas gêner les usagers qui y entrent ou qui continuent sur ce chemin. Comment devez-vous céder le passage ?",
+      "text_nl": "U rijdt op een weg aangeduid met F99c. U ziet een F101c-bord dat het einde aangeeft. Voordat u deze voorbehouden weg verlaat, moet u ervoor zorgen dat u geen hinder veroorzaakt voor weggebruikers die erop rijden of erop doorrijden. Hoe moet u voorrang verlenen?",
+      "text_ru": "Вы едете по дороге, обозначенной F99c. Вы видите знак F101c, указывающий выход. Прежде чем покинуть эту зарезервированную дорогу, вы должны убедиться, что не мешаете пользователям, которые въезжают на нее или продолжают движение по ней. Как вы должны уступить дорогу?",
+      "image": {
+        "sign_code": "F101c",
+        "generation_prompt": "Belgian road sign F101c, indicating the end of a path reserved for agricultural vehicles, pedestrians, cyclists, horse riders, and speed pedelec riders."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous n'avez pas à céder le passage, le F101c signifie que vous avez la priorité.",
+          "text_nl": "U hoeft geen voorrang te verlenen, F101c betekent dat u voorrang heeft.",
+          "text_ru": "Вам не нужно уступать дорогу, F101c означает, что вы имеете приоритет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez céder le passage à tous les usagers qui arrivent sur le chemin réservé, qu'ils y entrent ou continuent.",
+          "text_nl": "U moet voorrang verlenen aan alle weggebruikers die op de voorbehouden weg komen, zowel degenen die erop rijden als degenen die erop doorrijden.",
+          "text_ru": "Вы должны уступить дорогу всем пользователям, которые въезжают на зарезервированную дорогу, будь то въезжающие или продолжающие движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez céder le passage uniquement aux véhicules agricoles.",
+          "text_nl": "U moet alleen voorrang verlenen aan landbouwvoertuigen.",
+          "text_ru": "Вы должны уступать дорогу только сельскохозяйственной технике.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Bien que le signal F101c indique la fin du chemin réservé, l'article 22octies.2 rappelle que les usagers ne doivent pas se gêner mutuellement. En quittant le chemin, il est logique de devoir céder le passage à ceux qui continuent ou entrent sur ce chemin pour éviter tout encombrement ou danger.",
+      "explanation_nl": "Hoewel het F101c-bord het einde van de voorbehouden weg aangeeft, herinnert artikel 22octies.2 eraan dat weggebruikers elkaar niet mogen hinderen. Bij het verlaten van de weg is het logisch om voorrang te verlenen aan degenen die op deze weg blijven rijden of erop komen om belemmering of gevaar te voorkomen.",
+      "explanation_ru": "Хотя знак F101c указывает на конец зарезервированной дороги, статья 22-октис.2 напоминает, что пользователи не должны мешать друг другу. При выезде с дороги логично уступить дорогу тем, кто продолжает движение или въезжает на эту дорогу, чтобы избежать заторов или опасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes à vélo sur un chemin où le signal F99c est affiché. Vous croisez des véhicules d'entretien affectés au ramassage des immondices. Pouvez-vous circuler sur ce chemin ?",
+      "text_nl": "U bent met de fiets op een weg waar het F99c-bord is geplaatst. U kruist voertuigen voor afvalophaling. Mag u op deze weg rijden?",
+      "text_ru": "Вы едете на велосипеде по дороге, где установлен знак F99c. Вы пересекаете мусороуборочные машины. Можете ли вы ехать по этой дороге?",
+      "image": {
+        "sign_code": "F99c",
+        "generation_prompt": "Belgian road sign F99c, start of a path reserved for agricultural vehicles, pedestrians, cyclists, horse riders, and speed pedelec riders. Imagine garbage trucks are also present on this path."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car les véhicules d'entretien ne sont pas explicitement mentionnés dans les usagers principaux.",
+          "text_nl": "Nee, want afvalophalingsvoertuigen zijn niet expliciet vermeld bij de belangrijkste weggebruikers.",
+          "text_ru": "Нет, потому что мусороуборочные машины не указаны явно среди основных пользователей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car le vélo est un usager autorisé, et l'article 22octies.1.d autorise également les véhicules d'entretien.",
+          "text_nl": "Ja, want fietsen is toegestaan, en artikel 22octies.1.d staat ook onderhoudsvoertuigen toe.",
+          "text_ru": "Да, потому что езда на велосипеде разрешена, а статья 22-октис.1.d также разрешает использование служебных транспортных средств.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si le vélo est un vélo électrique.",
+          "text_nl": "Ja, maar alleen als de fiets een elektrische fiets is.",
+          "text_ru": "Да, но только если велосипед электрический.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22octies.1.d stipule que les véhicules d'entretien, affectés au ramassage des immondices, peuvent circuler sur ces chemins, en plus des usagers dont le symbole est reproduit sur les signaux (piétons, cyclistes, etc.). En tant que cycliste, vous êtes donc autorisé à circuler, et vous partagerez ce chemin avec les véhicules d'entretien.",
+      "explanation_nl": "Artikel 22octies.1.d stelt dat onderhoudsvoertuigen, zoals afvalophalingsvoertuigen, op deze wegen mogen rijden, naast de weggebruikers waarvan het symbool op de verkeersborden is weergegeven (voetgangers, fietsers, etc.). Als fietser mag u dus op deze weg rijden en u deelt deze met de onderhoudsvoertuigen.",
+      "explanation_ru": "Статья 22-октис.1.d гласит, что служебные транспортные средства, такие как мусороуборочные машины, могут двигаться по этим дорогам, помимо пользователей, чей символ отображается на знаках (пешеходы, велосипедисты и т. д.). Следовательно, вы, как велосипедист, можете ездить по этой дороге, и вы будете делить ее с мусороуборочными машинами."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "3c4a1dcfe118",
@@ -47,6 +230,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:07:14Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

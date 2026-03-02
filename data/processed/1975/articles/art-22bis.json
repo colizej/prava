@@ -37,7 +37,193 @@
   "anchor_id_fr": "wvtzxgfrw0",
   "anchor_id_nl": "telxqrxnvj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le signal F12a 'Zone résidentielle' en ce qui concerne l'utilisation de la voie publique par les piétons?",
+      "text_nl": "Wat betekent verkeersbord F12a 'Woonerf' betreffende het gebruik van de openbare weg door voetgangers?",
+      "text_ru": "Что означает знак F12a 'Жилая зона' в отношении использования проезжей части пешеходами?",
+      "image": {
+        "sign_code": "F12a",
+        "generation_prompt": "Belgian road sign F12a, residential zone, blue square with white house, car, and child playing"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les piétons doivent circuler sur les trottoirs.",
+          "text_nl": "Voetgangers moeten op de trottoirs lopen.",
+          "text_ru": "Пешеходы должны ходить по тротуарам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les piétons peuvent utiliser toute la largeur de la voie publique et y jouer.",
+          "text_nl": "Voetgangers mogen de hele breedte van de openbare weg gebruiken en er spelen.",
+          "text_ru": "Пешеходы могут использовать всю ширину проезжей части и играть там.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les piétons peuvent traverser, mais ne doivent pas rester sur la chaussée.",
+          "text_nl": "Voetgangers mogen oversteken, maar niet op de rijbaan blijven.",
+          "text_ru": "Пешеходы могут переходить дорогу, но не должны оставаться на проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 22bis, 1°, dans les zones résidentielles, les piétons peuvent utiliser toute la largeur de la voie publique et les jeux y sont autorisés.",
+      "explanation_nl": "Volgens artikel 22bis, 1°, mogen voetgangers in woonerven de ganse breedte van de openbare weg gebruiken en er zijn spelen eveneens toegelaten.",
+      "explanation_ru": "Согласно статье 22bis, 1°, в жилых зонах пешеходы могут использовать всю ширину проезжей части, а также там разрешены игры."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la règle générale concernant le stationnement dans les zones résidentielles et les zones de rencontre?",
+      "text_nl": "Wat is de algemene regel betreffende parkeren in woonerven en erven?",
+      "text_ru": "Каково общее правило относительно парковки в жилых зонах и зонах встречного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le stationnement est toujours autorisé, à condition de ne pas gêner la circulation.",
+          "text_nl": "Parkeren is altijd toegestaan, mits het verkeer niet wordt gehinderd.",
+          "text_ru": "Парковка всегда разрешена, при условии, что она не препятствует движению.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le stationnement est interdit, sauf aux emplacements marqués d'un \"P\" ou autorisés par un signal routier.",
+          "text_nl": "Parkeren is verboden, behalve op plaatsen met een \"P\" of toegestaan door een verkeersbord.",
+          "text_ru": "Парковка запрещена, за исключением мест, обозначенных \"P\" или разрешенных дорожным знаком.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le stationnement est autorisé uniquement sur le côté droit de la chaussée.",
+          "text_nl": "Parkeren is alleen toegestaan aan de rechterkant van de rijbaan.",
+          "text_ru": "Парковка разрешена только на правой стороне проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22bis, 4° a) stipule que le stationnement est interdit sauf aux emplacements délimités par des marques routières ou un revêtement de couleur différente et sur lesquels est reproduite la lettre \"P\", ou aux endroits où un signal routier l'autorise.",
+      "explanation_nl": "Artikel 22bis, 4° a) bepaalt dat parkeren verboden is, behalve op de plaatsen die afgebakend zijn door wegmarkeringen of door een wegbedekking in een andere kleur en waar de letter P aangebracht is, of op plaatsen waar een verkeersbord het toelaat.",
+      "explanation_ru": "Статья 22bis, 4° a) гласит, что парковка запрещена, за исключением мест, обозначенных дорожной разметкой или другим цветом покрытия с буквой \"P\", или мест, разрешенных дорожным знаком."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez dans une zone résidentielle. Quelle est la vitesse maximale autorisée?",
+      "text_nl": "U rijdt in een woonerf. Wat is de maximaal toegelaten snelheid?",
+      "text_ru": "Вы едете в жилой зоне. Какова максимально разрешенная скорость?",
+      "image": {
+        "sign_code": "F12a",
+        "generation_prompt": "Belgian road sign F12a, residential zone, blue square with white house, car, and child playing"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "50 km/h",
+          "text_nl": "50 km/u",
+          "text_ru": "50 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "20 km/h",
+          "text_nl": "20 km/u",
+          "text_ru": "20 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "30 km/h",
+          "text_nl": "30 km/u",
+          "text_ru": "30 км/ч",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22bis, 3° précise que dans les zones résidentielles et de rencontre, la vitesse est limitée à 20 km à l'heure.",
+      "explanation_nl": "Artikel 22bis, 3° vermeldt dat de snelheid in woonerven en erven beperkt is tot 20 km per uur.",
+      "explanation_ru": "Статья 22bis, 3° указывает, что в жилых зонах и зонах встречного движения скорость ограничена до 20 км/ч."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous circulez dans une zone de rencontre et vous voyez des enfants jouer sur la voie publique. Quelle est votre obligation principale en tant que conducteur?",
+      "text_nl": "U rijdt in een erf en ziet kinderen op de openbare weg spelen. Wat is uw belangrijkste verplichting als bestuurder?",
+      "text_ru": "Вы едете в зоне встречного движения и видите детей, играющих на проезжей части. Какова ваша основная обязанность как водителя?",
+      "image": {
+        "sign_code": "F12b",
+        "generation_prompt": "Belgian road sign F12b, zone de rencontre, blue square with white car, pedestrian, and children playing"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Klaxonner pour avertir les enfants de s'écarter.",
+          "text_nl": "Toeteren om de kinderen te waarschuwen dat ze aan de kant moeten gaan.",
+          "text_ru": "Посигналить, чтобы предупредить детей отойти в сторону.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Redoubler de prudence, ne pas les mettre en danger ni les gêner, et s'arrêter si nécessaire.",
+          "text_nl": "Dubbel voorzichtig zijn, ze niet in gevaar brengen of hinderen, en zo nodig stoppen.",
+          "text_ru": "Проявлять повышенную осторожность, не подвергать их опасности и не мешать им, а также при необходимости остановиться.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre qu'ils quittent la chaussée avant de continuer votre chemin.",
+          "text_nl": "Wachten tot ze de rijbaan verlaten voordat u verder rijdt.",
+          "text_ru": "Ждать, пока они покинут проезжую часть, прежде чем продолжить движение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22bis, 2° stipule que les conducteurs ne peuvent mettre les piétons en danger ni les gêner et doivent, au besoin, s'arrêter. Ils doivent en outre redoubler de prudence en présence d'enfants.",
+      "explanation_nl": "Artikel 22bis, 2° bepaalt dat bestuurders voetgangers niet in gevaar mogen brengen of hinderen en zo nodig moeten stoppen. Zij moeten bovendien dubbel voorzichtig zijn ten aanzien van kinderen.",
+      "explanation_ru": "Статья 22bis, 2° гласит, что водители не должны подвергать пешеходов опасности или мешать им, и при необходимости должны остановиться. Кроме того, они должны проявлять повышенную осторожность в присутствии детей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Dans une zone résidentielle sans signalisation additionnelle ni marquage au sol spécifique, où pouvez-vous légalement stationner votre véhicule?",
+      "text_nl": "Waar mag u uw voertuig legaal parkeren in een woonerf zonder extra signalisatie of specifieke wegmarkeringen?",
+      "text_ru": "Где вы можете законно припарковать свой автомобиль в жилой зоне без дополнительных знаков или специальной дорожной разметки?",
+      "image": {
+        "sign_code": "F12a",
+        "generation_prompt": "Belgian road sign F12a, residential zone, blue square with white house, car, and child playing"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Partout où la visibilité n'est pas gênée.",
+          "text_nl": "Overal waar het zicht niet belemmerd wordt.",
+          "text_ru": "Везде, где не затруднен обзор.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement aux emplacements délimités par des marques routières ou un revêtement de couleur différente et portant la lettre \"P\".",
+          "text_nl": "Alleen op plaatsen die afgebakend zijn door wegmarkeringen of door een wegbedekking in een andere kleur en waar de letter \"P\" aangebracht is.",
+          "text_ru": "Только на местах, обозначенных дорожной разметкой или другим цветом покрытия с буквой \"P\".",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sur la chaussée, à droite ou à gauche, tant que vous ne bloquez pas la circulation.",
+          "text_nl": "Op de rijbaan, rechts of links, zolang u het verkeer niet blokkeert.",
+          "text_ru": "На проезжей части, справа или слева, если вы не блокируете движение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22bis, 4° a) stipule que le stationnement est interdit dans les zones résidentielles, sauf aux emplacements spécifiques marqués d'un \"P\" ou autorisés par un signal. Sans ces éléments, le stationnement est interdit.",
+      "explanation_nl": "Artikel 22bis, 4° a) bepaalt dat parkeren in woonerven verboden is, behalve op specifieke plaatsen gemarkeerd met een \"P\" of toegestaan door een verkeersbord. Zonder deze elementen is parkeren verboden.",
+      "explanation_ru": "Статья 22bis, 4° a) гласит, что парковка в жилых зонах запрещена, за исключением специально обозначенных мест с буквой \"P\" или разрешенных знаком. Без этих элементов парковка запрещена."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "ee8e64f9a58f",
@@ -47,6 +233,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:32:50Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

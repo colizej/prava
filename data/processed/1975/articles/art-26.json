@@ -32,7 +32,181 @@
   "anchor_id_fr": "z69awai72y",
   "anchor_id_nl": "buorrp8apw",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le signal E11 lorsqu'il est placé au-dessus des signaux marquant le début d'une agglomération ?",
+      "text_nl": "Wat betekent verkeersbord E11 wanneer het boven de verkeersborden die het begin van een bebouwde kom aanduiden, wordt geplaatst?",
+      "text_ru": "Что означает знак E11, когда он расположен над знаками, обозначающими начало населенного пункта?",
+      "image": {
+        "sign_code": "E11",
+        "generation_prompt": "Sign E11 showing half-monthly alternating parking."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il indique une zone de stationnement gratuit.",
+          "text_nl": "Het geeft een gratis parkeerzone aan.",
+          "text_ru": "Он указывает на зону бесплатной парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il impose le stationnement alterné semi-mensuel dans toute l'agglomération.",
+          "text_nl": "Het verplicht halfmaandelijks beurtelings parkeren in de gehele bebouwde kom.",
+          "text_ru": "Он предписывает полумесячную чередующуюся парковку во всем населенном пункте.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il signale l'interdiction de stationner sauf pour les résidents.",
+          "text_nl": "Het signaleert een parkeerverbod, behalve voor bewoners.",
+          "text_ru": "Он сигнализирует о запрете парковки, кроме как для резидентов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal E11, lorsqu'il est placé au début d'une agglomération, impose le stationnement alterné semi-mensuel sur toutes les chaussées de cette agglomération.",
+      "explanation_nl": "Verkeersbord E11, wanneer geplaatst aan het begin van een bebouwde kom, verplicht het halfmaandelijks beurtelings parkeren op alle rijbanen van die bebouwde kom.",
+      "explanation_ru": "Знак E11, расположенный в начале населенного пункта, предписывает полумесячную чередующуюся парковку на всех проезжих частях этого населенного пункта."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans une agglomération soumise au stationnement alterné semi-mensuel, où doit se garer un véhicule du 1er au 15 du mois ?",
+      "text_nl": "Waar moet een voertuig parkeren van de 1ste tot de 15de van de maand in een bebouwde kom waar halfmaandelijks beurtelings parkeren geldt?",
+      "text_ru": "Где должен парковаться автомобиль с 1 по 15 число месяца в населенном пункте, где действует полумесячная чередующаяся парковка?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Du côté des immeubles portant des numéros pairs.",
+          "text_nl": "Langsheen de kant van de gebouwen met pare nummers.",
+          "text_ru": "Со стороны зданий с четными номерами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Du côté des immeubles portant des numéros impairs.",
+          "text_nl": "Langsheen de kant van de gebouwen met onpare nummers.",
+          "text_ru": "Со стороны зданий с нечетными номерами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Peu importe le côté, le stationnement est libre.",
+          "text_nl": "Het maakt niet uit aan welke kant, parkeren is vrij.",
+          "text_ru": "Сторона не имеет значения, парковка свободная.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Du 1er au 15 du mois, le stationnement sur la chaussée est autorisé uniquement du côté des immeubles portant des numéros impairs.",
+      "explanation_nl": "Van de 1ste tot de 15de van de maand is het parkeren op de rijbaan slechts toegestaan langs de kant van de gebouwen met onpare nummers.",
+      "explanation_ru": "С 1 по 15 число месяца парковка на проезжей части разрешена только со стороны зданий с нечетными номерами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Nous sommes le 15 du mois, il est 19h45. Vous êtes garé du côté des numéros pairs. La règle du stationnement alterné semi-mensuel s'applique. Devez-vous déplacer votre véhicule ?",
+      "text_nl": "Het is de 15de van de maand, 19u45. U bent geparkeerd aan de kant van de pare nummers. De regel van halfmaandelijks beurtelings parkeren is van kracht. Moet u uw voertuig verplaatsen?",
+      "text_ru": "Сегодня 15-е число месяца, 19:45. Вы припаркованы со стороны четных номеров. Действует правило полумесячной чередующейся парковки. Нужно ли вам перемещать свой автомобиль?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car le changement de côté doit s'effectuer avant 20h.",
+          "text_nl": "Ja, want de verandering van kant moet gebeuren vóór 20 uur.",
+          "text_ru": "Да, потому что смена стороны должна произойти до 20:00.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car vous avez jusqu'au lendemain matin pour changer.",
+          "text_nl": "Nee, want u heeft tot de volgende ochtend om te veranderen.",
+          "text_ru": "Нет, потому что у вас есть время до следующего утра, чтобы сменить сторону.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, car vous êtes du bon côté pour la période à venir.",
+          "text_nl": "Nee, want u bent aan de juiste kant voor de komende periode.",
+          "text_ru": "Нет, потому что вы находитесь на правильной стороне для предстоящего периода.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le changement de côté doit se faire le dernier jour de chaque période (le 15 pour la période du 1er au 15) entre 19h30 et 20h. Il est donc nécessaire de déplacer votre véhicule avant 20h vers le côté des numéros impairs.",
+      "explanation_nl": "De verandering van kant moet gebeuren op de laatste dag van elke periode (de 15de voor de periode van de 1ste tot de 15de) tussen 19u30 en 20 uur. U moet uw voertuig dus vóór 20 uur naar de kant van de oneven nummers verplaatsen.",
+      "explanation_ru": "Смена стороны должна произойти в последний день каждого периода (15-го числа для периода с 1-го по 15-е) между 19:30 и 20:00. Поэтому необходимо переместить ваш автомобиль до 20:00 на сторону нечетных номеров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous arrivez dans une rue d'une agglomération où le stationnement alterné semi-mensuel est en vigueur. Un côté de la rue présente des maisons avec des numéros pairs, l'autre côté est une rangée de garages sans numéro. Nous sommes le 10 du mois. Où devez-vous vous garer ?",
+      "text_nl": "U komt aan in een straat van een bebouwde kom waar halfmaandelijks beurtelings parkeren geldt. Eén kant van de straat heeft huizen met pare nummers, de andere kant is een rij garages zonder nummering. Het is de 10de van de maand. Waar moet u parkeren?",
+      "text_ru": "Вы въезжаете на улицу населенного пункта, где действует полумесячная чередующаяся парковка. Одна сторона улицы имеет дома с четными номерами, другая сторона - ряд гаражей без номеров. Сегодня 10-е число месяца. Где вы должны припарковаться?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Du côté des garages sans numéro, car l'absence de numéro équivaut à un numéro impair.",
+          "text_nl": "Aan de kant van de garages zonder nummer, want de afwezigheid van een nummer staat gelijk aan een onpare nummering.",
+          "text_ru": "Со стороны гаражей без номеров, так как отсутствие номера равносильно нечетному номеру.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Du côté des numéros pairs, car le côté sans numéro est considéré comme pair.",
+          "text_nl": "Aan de kant van de pare nummers, want de kant zonder nummer wordt als een pare nummering beschouwd.",
+          "text_ru": "Со стороны четных номеров, так как сторона без номеров считается четной.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Du côté des garages sans numéro, car l'absence de numéro équivaut à un numéro pair.",
+          "text_nl": "Aan de kant van de garages zonder nummer, want de afwezigheid van een nummer staat gelijk aan een pare nummering.",
+          "text_ru": "Со стороны гаражей без номеров, так как отсутствие номера равносильно четному номеру.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'absence de numérotation d'un côté équivaut à une numérotation paire si les immeubles de l'autre côté portent des numéros impairs. Comme les garages sont sans numéro et que l'autre côté a des numéros pairs, le côté des garages est considéré comme impair pour la période du 16 au 31. Pour la période du 1er au 15, il faut se garer du côté des numéros pairs. Dans cet exemple, vous devez vous garer du côté des numéros pairs. Correction : L'énoncé pose une situation où l'autre côté a des numéros pairs. Or, du 1er au 15, on se gare du côté des impairs. Si l'autre côté a des numéros pairs, le côté sans numéro est considéré impair. Donc on se gare du côté des garages sans numéro.",
+      "explanation_nl": "Wanneer er langs één kant van de rijbaan geen huisnummering is, staat zulks gelijk met een pare nummering indien de gebouwen langs de andere kant onpare nummers hebben. Aangezien de garages geen nummer hebben en de andere kant pare nummers heeft, wordt de kant van de garages beschouwd als een pare nummering. Aangezien het de 10de van de maand is, moet u parkeren aan de kant van de oneven nummers. Omdat de andere kant pare nummers heeft, wordt de kant zonder nummering als oneven beschouwd. Dus u parkeert aan de kant van de garages zonder nummer.",
+      "explanation_ru": "Отсутствие нумерации с одной стороны равносильно четной нумерации, если здания с другой стороны имеют нечетные номера. Поскольку гаражи не имеют номеров, а другая сторона имеет четные номера, сторона гаражей считается нечетной для периода с 1 по 15. Следовательно, вам следует припарковаться со стороны гаражей без номеров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez dans une agglomération avec le signal E11. Vous arrivez à un endroit où les véhicules sont stationnés sur un trottoir large, en dehors de la chaussée. Êtes-vous concerné par la règle du stationnement alterné semi-mensuel à cet endroit ?",
+      "text_nl": "U rijdt in een bebouwde kom met verkeersbord E11. U komt aan op een plaats waar voertuigen op een breed trottoir, buiten de rijbaan, geparkeerd staan. Bent u op deze plaats gebonden aan de regel van halfmaandelijks beurtelings parkeren?",
+      "text_ru": "Вы едете по населенному пункту со знаком E11. Вы подъезжаете к месту, где автомобили припаркованы на широком тротуаре, вне проезжей части. Распространяется ли на вас правило полумесячной чередующейся парковки в этом месте?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, la règle s'applique partout dans l'agglomération.",
+          "text_nl": "Ja, de regel geldt overal in de bebouwde kom.",
+          "text_ru": "Да, правило действует везде в населенном пункте.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car les véhicules sont stationnés en dehors de la chaussée.",
+          "text_nl": "Nee, want de voertuigen staan geparkeerd buiten de rijbaan.",
+          "text_ru": "Нет, потому что автомобили припаркованы вне проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le trottoir est signalé comme zone de stationnement alterné.",
+          "text_nl": "Alleen als het trottoir is aangegeven als een zone voor beurtelings parkeren.",
+          "text_ru": "Только если тротуар обозначен как зона чередующейся парковки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le stationnement alterné semi-mensuel n'est pas applicable aux endroits où les véhicules sont mis en stationnement en dehors de la chaussée.",
+      "explanation_nl": "Het halfmaandelijks beurtelings parkeren is niet van toepassing op plaatsen waar de voertuigen buiten de rijbaan geparkeerd worden.",
+      "explanation_ru": "Полумесячная чередующаяся парковка не применяется в местах, где автомобили паркуются вне проезжей части."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "f4bc55e8822a",
@@ -42,6 +216,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:09:32Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

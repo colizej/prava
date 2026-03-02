@@ -62,7 +62,193 @@
   "anchor_id_fr": "ydjkotxwcj",
   "anchor_id_nl": "exkdpu73cc",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel signalisation annonce la présence de dispositifs surélevés sur la voie publique, selon l'article 22ter.1 ?",
+      "text_nl": "Welke signalisatie kondigt de aanwezigheid van verhoogde inrichtingen op de openbare weg aan, volgens artikel 22ter.1?",
+      "text_ru": "Какая сигнализация, согласно статье 22ter.1, информирует о наличии приподнятых элементов на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Show signs A14, F4a, F4b, and F87."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement le signal A14.",
+          "text_nl": "Alleen het verkeersbord A14.",
+          "text_ru": "Только знак A14.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les signaux A14 et F87, ou le signal A14 seul aux carrefours, ou la zone délimitée par les signaux F4a et F4b.",
+          "text_nl": "De verkeersborden A14 en F87, of alleen het verkeersbord A14 op kruispunten, of de zone afgebakend door de verkeersborden F4a en F4b.",
+          "text_ru": "Знаки A14 и F87, или только знак A14 на перекрестках, или зона, обозначенная знаками F4a и F4b.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement les signaux F4a et F4b.",
+          "text_nl": "Alleen de verkeersborden F4a en F4b.",
+          "text_ru": "Только знаки F4a и F4b.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22ter.1 stipule que les dispositifs surélevés sont annoncés par les signaux A14 et F87, ou que ces dispositifs sont situés dans une zone délimitée par les signaux F4a et F4b. Il est également précisé que sur les carrefours, le signal A14 peut annoncer seul ces dispositifs.",
+      "explanation_nl": "Artikel 22ter.1 stelt dat verhoogde inrichtingen worden aangekondigd door de verkeersborden A14 en F87, of dat deze inrichtingen zich bevinden binnen een zone afgebakend door de verkeersborden F4a en F4b. Er wordt ook vermeld dat op kruispunten het verkeersbord A14 deze inrichtingen alleen kan aankondigen.",
+      "explanation_ru": "Статья 22ter.1 гласит, что приподнятые элементы анонсируются знаками A14 и F87, или что эти элементы расположены в зоне, обозначенной знаками F4a и F4b. Также уточняется, что на перекрестках знак A14 может самостоятельно анонсировать эти элементы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la vitesse maximale autorisée pour franchir un dispositif surélevé annoncé par la signalisation mentionnée dans l'article 22ter.1 ?",
+      "text_nl": "Wat is de maximaal toegestane snelheid om een verhoogde inrichting te passeren die wordt aangekondigd door de signalisatie vermeld in artikel 22ter.1?",
+      "text_ru": "Какова максимально разрешенная скорость для преодоления приподнятого элемента, обозначенного согласно статье 22ter.1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Show signs A14, F4a, F4b, and F87."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "20 km/h",
+          "text_nl": "20 km/u",
+          "text_ru": "20 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 km/h",
+          "text_nl": "30 km/u",
+          "text_ru": "30 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "40 km/h",
+          "text_nl": "40 km/u",
+          "text_ru": "40 км/ч",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 22ter.1, les conducteurs doivent approcher ces dispositifs en redoublant de prudence et à allure modérée, de manière à franchir ceux-ci à une vitesse n'excédant pas 30 km/h.",
+      "explanation_nl": "Volgens artikel 22ter.1 moeten bestuurders deze inrichtingen dubbel voorzichtig en met matige snelheid naderen, zodat zij erover rijden met een snelheid die niet meer bedraagt dan 30 km/u.",
+      "explanation_ru": "Согласно статье 22ter.1, водители должны приближаться к этим элементам с повышенной осторожностью и умеренной скоростью, чтобы преодолевать их со скоростью не более 30 км/ч."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous approchez d'un carrefour et voyez le signal A14. Vous savez que cet article s'applique. Quelle doit être votre attitude à l'approche du carrefour ?",
+      "text_nl": "U nadert een kruispunt en ziet het verkeersbord A14. U weet dat dit artikel van toepassing is. Hoe moet u zich gedragen bij het naderen van het kruispunt?",
+      "text_ru": "Вы приближаетесь к перекрестку и видите знак A14. Вы знаете, что данная статья применима. Как вам следует вести себя при приближении к перекрестку?",
+      "image": {
+        "sign_code": "A14",
+        "generation_prompt": "Show the Belgian traffic sign A14 (warning of a dangerous section of road ahead, typically a hump or unevenness)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer rapidement le carrefour.",
+          "text_nl": "Versnellen om snel door het kruispunt te rijden.",
+          "text_ru": "Ускориться, чтобы быстро проехать перекресток.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réduire votre vitesse et approcher avec prudence, prêt à franchir un éventuel obstacle surélevé à 30 km/h maximum.",
+          "text_nl": "Uw snelheid verminderen en voorzichtig naderen, klaar om een eventuele verhoogde hindernis met maximaal 30 km/u te passeren.",
+          "text_ru": "Снизить скорость и приближаться осторожно, готовый преодолеть возможный приподнятый элемент со скоростью максимум 30 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Maintenir votre vitesse habituelle car le signal A14 n'indique qu'un danger général.",
+          "text_nl": "Uw gebruikelijke snelheid aanhouden, aangezien het verkeersbord A14 slechts een algemeen gevaar aangeeft.",
+          "text_ru": "Сохранять обычную скорость, так как знак A14 указывает только на общую опасность.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22ter.1 spécifie que sur les voies publiques munies de dispositifs surélevés, annoncés par le signal A14 (même seul aux carrefours), les conducteurs doivent approcher avec prudence et à allure modérée, en ne dépassant pas 30 km/h pour franchir ces dispositifs.",
+      "explanation_nl": "Artikel 22ter.1 specificeert dat op openbare wegen met verhoogde inrichtingen, aangekondigd door het verkeersbord A14 (zelfs alleen op kruispunten), bestuurders voorzichtig en met matige snelheid moeten naderen, en niet sneller dan 30 km/u mogen rijden om deze inrichtingen te passeren.",
+      "explanation_ru": "Статья 22ter.1 уточняет, что на дорогах с приподнятыми элементами, обозначенными знаком A14 (даже если он стоит один на перекрестке), водители должны приближаться с осторожностью и умеренной скоростью, не превышая 30 км/ч при их преодолении."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une route où les signaux F4a (début de zone) et F4b (fin de zone) sont présents, délimitant une zone avec des dispositifs surélevés. Quelle est votre vitesse recommandée ?",
+      "text_nl": "U rijdt op een weg waar de verkeersborden F4a (begin van de zone) en F4b (einde van de zone) aanwezig zijn, die een zone met verhoogde inrichtingen afbakenen. Wat is uw aanbevolen snelheid?",
+      "text_ru": "Вы едете по дороге, где установлены знаки F4a (начало зоны) и F4b (конец зоны), ограничивающие зону с приподнятыми элементами. Какова ваша рекомендуемая скорость?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Show Belgian traffic signs F4a (Zone beginning) and F4b (Zone end)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La vitesse maximale autorisée par le code de la route, sauf indication contraire.",
+          "text_nl": "De maximaal toegestane snelheid volgens het verkeersreglement, tenzij anders aangegeven.",
+          "text_ru": "Максимально разрешенная скорость согласно ПДД, если не указано иное.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une vitesse modérée, ne dépassant pas 30 km/h, pour franchir les dispositifs surélevés.",
+          "text_nl": "Een matige snelheid, niet meer dan 30 km/u, om de verhoogde inrichtingen te passeren.",
+          "text_ru": "Умеренная скорость, не более 30 км/ч, для преодоления приподнятых элементов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La vitesse doit être adaptée au trafic, mais pas nécessairement réduite à 30 km/h.",
+          "text_nl": "De snelheid moet worden aangepast aan het verkeer, maar niet noodzakelijk worden teruggebracht tot 30 km/u.",
+          "text_ru": "Скорость должна быть адаптирована к трафику, но не обязательно снижена до 30 км/ч.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22ter.1 indique que les conducteurs doivent approcher les dispositifs surélevés (situés dans des zones délimitées par F4a et F4b) en redoublant de prudence et à allure modérée, afin de ne pas dépasser 30 km/h pour les franchir.",
+      "explanation_nl": "Artikel 22ter.1 geeft aan dat bestuurders verhoogde inrichtingen (gelegen in zones afgebakend door F4a en F4b) dubbel voorzichtig en met matige snelheid moeten naderen, om niet sneller dan 30 km/u te rijden bij het passeren ervan.",
+      "explanation_ru": "Статья 22ter.1 указывает, что водители должны приближаться к приподнятым элементам (расположенным в зонах, обозначенных F4a и F4b) с повышенной осторожностью и умеренной скоростью, чтобы при их преодолении не превышать 30 км/ч."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes dans une zone où des dispositifs surélevés sont présents, annoncés par les signaux F4a et F4b. Vous apercevez un enfant qui court sur le trottoir, à proximité de la chaussée. Que devez-vous faire en priorité ?",
+      "text_nl": "U bevindt zich in een zone waar verhoogde inrichtingen aanwezig zijn, aangekondigd door de verkeersborden F4a en F4b. U ziet een kind op de stoep rennen, dichtbij de rijbaan. Wat moet u als eerste doen?",
+      "text_ru": "Вы находитесь в зоне с приподнятыми элементами, обозначенной знаками F4a и F4b. Вы видите ребенка, бегущего по тротуару, недалеко от проезжей части. Что вы должны сделать в первую очередь?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Show Belgian traffic signs F4a (Zone beginning) and F4b (Zone end), and a generic warning sign for children playing."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à 30 km/h, car l'enfant est sur le trottoir.",
+          "text_nl": "Doorrijden aan 30 km/u, aangezien het kind op de stoep is.",
+          "text_ru": "Продолжать движение со скоростью 30 км/ч, так как ребенок находится на тротуаре.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Immédiatement ralentir et être prêt à vous arrêter, car le danger est imminent, même si la vitesse est déjà limitée à 30 km/h.",
+          "text_nl": "Onmiddellijk vertragen en klaar zijn om te stoppen, aangezien het gevaar dreigt, zelfs als de snelheid al beperkt is tot 30 km/u.",
+          "text_ru": "Немедленно замедлиться и быть готовым остановиться, так как опасность непосредственна, даже если скорость уже ограничена до 30 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour avertir l'enfant.",
+          "text_nl": "Toeteren om het kind te waarschuwen.",
+          "text_ru": "Посигналить, чтобы предупредить ребенка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Bien que la vitesse soit déjà limitée à 30 km/h dans cette zone, la présence d'un enfant qui court à proximité de la chaussée constitue un danger potentiel immédiat. La prudence impose de ralentir davantage et d'être prêt à s'arrêter pour éviter tout accident, conformément à l'esprit de l'article 22ter.1 qui demande une prudence accrue dans ces zones.",
+      "explanation_nl": "Hoewel de snelheid in deze zone al beperkt is tot 30 km/u, vormt de aanwezigheid van een rennend kind in de buurt van de rijbaan een onmiddellijk potentieel gevaar. Voorzichtigheid vereist om nog verder te vertragen en klaar te zijn om te stoppen om elk ongeval te voorkomen, in overeenstemming met de geest van artikel 22ter.1 dat verhoogde voorzichtigheid in deze zones vraagt.",
+      "explanation_ru": "Хотя скорость в этой зоне уже ограничена до 30 км/ч, присутствие бегущего ребенка вблизи проезжей части представляет непосредственную потенциальную опасность. Осторожность требует дальнейшего замедления и готовности остановиться, чтобы избежать любого несчастного случая, в соответствии с духом статьи 22ter.1, которая требует повышенной осторожности в этих зонах."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "823667a1a372",
@@ -72,6 +258,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:08:34Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

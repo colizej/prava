@@ -58,7 +58,187 @@
   "anchor_id_fr": "tpocbemlln",
   "anchor_id_nl": "v5n2ezxg82",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 3 du Code de la route, qui est qualifié pour veiller à l'exécution des lois relatives à la police de la circulation routière ?",
+      "text_nl": "Volgens artikel 3 van het verkeersreglement, wie is bevoegd om toezicht uit te oefenen op de naleving van de wetten betreffende de politie over het wegverkeer?",
+      "text_ru": "Согласно статье 3 Правил дорожного движения, кто уполномочен следить за соблюдением законов, касающихся дорожной полиции?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les agents de police fédérale et locale.",
+          "text_nl": "Alleen de federale en lokale politieagenten.",
+          "text_ru": "Только сотрудники федеральной и местной полиции.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le personnel du cadre opérationnel de la police fédérale et de la police locale, ainsi que d'autres agents spécifiquement désignés dans l'article.",
+          "text_nl": "Het personeel van het operationele kader van de federale en de lokale politie, alsook andere specifiek in het artikel aangewezen ambtenaren.",
+          "text_ru": "Сотрудники оперативного состава федеральной и местной полиции, а также другие должностные лица, специально указанные в статье.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seuls les fonctionnaires du transport terrestre.",
+          "text_nl": "Alleen ambtenaren van het landvervoer.",
+          "text_ru": "Только должностные лица наземного транспорта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 3 du Code de la route liste de manière exhaustive les différentes catégories d'agents qualifiés pour veiller à l'exécution des lois relatives à la police de la circulation routière. Cela inclut le personnel opérationnel de la police fédérale et locale, mais aussi d'autres fonctionnaires et agents mentionnés dans les différents points.",
+      "explanation_nl": "Artikel 3 van het verkeersreglement somt exhaustief de verschillende categorieën van bevoegde ambtenaren op om toezicht uit te oefenen op de naleving van de wetten betreffende de politie over het wegverkeer. Dit omvat het operationele personeel van de federale en lokale politie, maar ook andere ambtenaren en beambten die in de verschillende punten worden genoemd.",
+      "explanation_ru": "Статья 3 Правил дорожного движения исчерпывающе перечисляет различные категории должностных лиц, уполномоченных следить за соблюдением законов, касающихся дорожной полиции. Сюда входят оперативный персонал федеральной и местной полиции, а также другие должностные лица и агенты, упомянутые в различных пунктах."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel cas spécifique les agents des sociétés de transport en commun sont-ils considérés comme agents qualifiés selon l'article 3, point 12° ?",
+      "text_nl": "In welk specifiek geval worden de agenten van openbaarvervoerbedrijven beschouwd als bevoegde ambtenaren volgens artikel 3, punt 12°?",
+      "text_ru": "В каком конкретном случае агенты компаний общественного транспорта считаются уполномоченными агентами согласно статье 3, пункту 12°?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour toute infraction constatée à bord de leurs véhicules.",
+          "text_nl": "Voor elke overtreding die aan boord van hun voertuigen wordt vastgesteld.",
+          "text_ru": "За любое нарушение, зафиксированное на борту их транспортных средств.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsqu'ils sont investis d'un mandat de police judiciaire et uniquement pour les articles 5, certains signaux (C5, F17, F18, etc.) et articles spécifiques.",
+          "text_nl": "Wanneer zij met een mandaat van gerechtelijke politie belast zijn en enkel voor de artikelen 5, bepaalde signalen (C5, F17, F18, enz.) en specifieke artikelen.",
+          "text_ru": "Когда они наделены мандатом судебной полиции и только в отношении статей 5, определенных знаков (C5, F17, F18 и т. д.) и конкретных статей.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement lors de la perception des titres de transport.",
+          "text_nl": "Alleen bij het innen van de vervoersbewijzen.",
+          "text_ru": "Только при взимании платы за проезд.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 3, point 12°, précise que les agents des sociétés de transport en commun sont des agents qualifiés lorsqu'ils sont investis d'un mandat de police judiciaire et qu'ils interviennent spécifiquement pour les articles 5, certains signaux (C5 avec panneau additionnel, F17, F18), 72.5, 72.6, 25.1.2° et 6°, 62ter et 77.8.",
+      "explanation_nl": "Artikel 3, punt 12°, specificeert dat agenten van openbaarvervoerbedrijven bevoegde ambtenaren zijn wanneer zij belast zijn met een mandaat van gerechtelijke politie en specifiek optreden voor de artikelen 5, bepaalde verkeersborden (C5 met aanvullend paneel, F17, F18), 72.5, 72.6, 25.1.2° en 6°, 62ter en 77.8.",
+      "explanation_ru": "Статья 3, пункт 12°, уточняет, что агенты компаний общественного транспорта являются уполномоченными агентами, когда они наделены мандатом судебной полиции и конкретно вмешиваются в отношении статей 5, определенных знаков (C5 с дополнительной табличкой, F17, F18), 72.5, 72.6, 25.1.2° и 6°, 62ter и 77.8."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en train de conduire et vous voyez un agent de police vous faire signe d'arrêter. D'après l'article 3, cet agent est qualifié pour faire respecter le code de la route. Quelle est votre obligation immédiate ?",
+      "text_nl": "U rijdt en een politieagent geeft u een teken om te stoppen. Volgens artikel 3 is deze agent bevoegd om het verkeersreglement te handhaven. Wat is uw onmiddellijke verplichting?",
+      "text_ru": "Вы едете и видите, как полицейский дает вам знак остановиться. Согласно статье 3, этот сотрудник уполномочен обеспечивать соблюдение Правил дорожного движения. Какова ваша немедленная обязанность?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer gesturing to stop traffic on a road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer votre route en signalant poliment que vous ne comprenez pas le geste.",
+          "text_nl": "Uw weg vervolgen door beleefd te signaleren dat u het gebaar niet begrijpt.",
+          "text_ru": "Продолжать движение, вежливо сигнализируя, что вы не понимаете жест.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Immédiatement vous ranger en sécurité et immobiliser votre véhicule.",
+          "text_nl": "Onmiddellijk veilig aan de kant gaan staan en uw voertuig stilzetten.",
+          "text_ru": "Немедленно безопасно остановиться и заглушить автомобиль.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre que l'agent s'approche pour vous expliquer la raison de l'arrêt.",
+          "text_nl": "Wachten tot de agent nadert om u de reden van de stop uit te leggen.",
+          "text_ru": "Ждать, пока агент подойдет, чтобы объяснить причину остановки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 3 stipule que le personnel du cadre opérationnel de la police fédérale et de la police locale est qualifié pour veiller à l'exécution des lois relatives à la police de la circulation routière. Un geste d'arrêt de la part d'un agent qualifié impose l'obligation immédiate de se ranger en sécurité et d'immobiliser son véhicule.",
+      "explanation_nl": "Artikel 3 stelt dat het personeel van het operationele kader van de federale en de lokale politie bevoegd is om toezicht uit te oefenen op de naleving van de wetten betreffende de politie over het wegverkeer. Een stopgebaar van een bevoegde agent legt de onmiddellijke verplichting op om veilig aan de kant te gaan staan en het voertuig stil te zetten.",
+      "explanation_ru": "Статья 3 гласит, что оперативный персонал федеральной и местной полиции уполномочен следить за соблюдением законов, касающихся дорожной полиции. Жест остановки со стороны уполномоченного сотрудника налагает немедленную обязанность безопасно съехать на обочину и остановить транспортное средство."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes conducteur d'un véhicule de transport exceptionnel dans le Brabant flamand. Un inspecteur des routes flamand vous arrête. D'après l'article 3, ce dernier est-il autorisé à contrôler votre respect du code de la route ?",
+      "text_nl": "U bent bestuurder van een uitzonderlijk transportvoertuig in Vlaams-Brabant. Een Vlaamse wegeninspecteur houdt u aan. Is deze laatste volgens artikel 3 gemachtigd om uw naleving van het verkeersreglement te controleren?",
+      "text_ru": "Вы водитель транспортного средства для перевозки негабаритных грузов во Фламандском Брабанте. Вас останавливает фламандский инспектор дорог. Имеет ли последний, согласно статье 3, право контролировать соблюдение вами Правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A Flemish road inspector inspecting a large truck carrying exceptional transport."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car sa compétence se limite à l'infrastructure routière.",
+          "text_nl": "Nee, want zijn bevoegdheid is beperkt tot de verkeersinfrastructuur.",
+          "text_ru": "Нет, так как его компетенция ограничена дорожной инфраструктурой.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car l'article 3, point 4° (Région flamande) le mentionne explicitement pour la surveillance sur la voie publique.",
+          "text_nl": "Ja, want artikel 3, punt 4° (Vlaams Gewest) vermeldt hem expliciet voor het toezicht op de openbare weg.",
+          "text_ru": "Да, потому что статья 3, пункт 4° (Фламандский регион) явно упоминает его для надзора на общественных дорогах.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si l'infraction concerne spécifiquement le transport exceptionnel.",
+          "text_nl": "Alleen als de overtreding specifiek betrekking heeft op het uitzonderlijk transport.",
+          "text_ru": "Только если нарушение конкретно касается перевозки негабаритных грузов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 3, point 4°, pour la Région flamande, désigne explicitement les membres du personnel affectés à la surveillance sur la voie publique, y compris les inspecteurs des routes, comme étant qualifiés pour la surveillance sur la voie publique, ce qui inclut le contrôle du respect du code de la route, même pour les transports exceptionnels.",
+      "explanation_nl": "Artikel 3, punt 4°, voor het Vlaams Gewest, wijst expliciet de voor het toezicht op de openbare weg aangestelde personeelsleden, waaronder wegeninspecteurs, aan als bevoegd voor het toezicht op de openbare weg, wat de controle op de naleving van het verkeersreglement omvat, zelfs voor uitzonderlijk vervoer.",
+      "explanation_ru": "Статья 3, пункт 4°, для Фламандского региона, явно указывает на сотрудников, назначенных для надзора на общественных дорогах, включая инспекторов дорог, как уполномоченных для надзора на общественных дорогах, что включает контроль за соблюдением Правил дорожного движения, даже для перевозки негабаритных грузов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes au volant d'une voiture et un agent des douanes vous demande de vous arrêter. D'après l'article 3, cet agent est-il habilité à vous contrôler sur la route ?",
+      "text_nl": "U rijdt met een auto en een douanebeambte vraagt u te stoppen. Is deze beambte volgens artikel 3 bevoegd om u op de weg te controleren?",
+      "text_ru": "Вы за рулем автомобиля, и сотрудник таможни просит вас остановиться. Имеет ли этот сотрудник, согласно статье 3, право контролировать вас на дороге?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A customs officer gesturing to stop a car on a road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les agents des douanes n'ont aucune compétence sur la route.",
+          "text_nl": "Nee, douanebeambten hebben geen enkele bevoegdheid op de weg.",
+          "text_ru": "Нет, таможенники не имеют никакой власти на дороге.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car l'article 3, point 7°, les mentionne dans l'exercice de leurs fonctions.",
+          "text_nl": "Ja, want artikel 3, punt 7°, vermeldt hen in de uitoefening van hun functie.",
+          "text_ru": "Да, потому что статья 3, пункт 7°, упоминает их при исполнении служебных обязанностей.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement s'il s'agit d'une infraction liée à des marchandises.",
+          "text_nl": "Alleen als het een overtreding betreft die verband houdt met goederen.",
+          "text_ru": "Только если речь идет о нарушении, связанном с товарами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 3, point 7°, stipule que les agents des douanes sont des agents qualifiés dans l'exercice de leurs fonctions. Cela implique qu'ils ont la compétence de faire respecter certaines règles de circulation, y compris lors d'un contrôle routier.",
+      "explanation_nl": "Artikel 3, punt 7°, stelt dat douanebeambten bevoegde ambtenaren zijn in de uitoefening van hun functie. Dit impliceert dat zij de bevoegdheid hebben om bepaalde verkeersregels te handhaven, ook tijdens een verkeerscontrole.",
+      "explanation_ru": "Статья 3, пункт 7°, гласит, что таможенники являются уполномоченными агентами при исполнении своих служебных обязанностей. Это означает, что они имеют право обеспечивать соблюдение определенных правил дорожного движения, в том числе во время дорожного контроля."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "7a8d24dafaab",
@@ -68,6 +248,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:11:56Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

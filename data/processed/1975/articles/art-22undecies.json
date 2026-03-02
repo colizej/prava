@@ -52,7 +52,193 @@
   "anchor_id_fr": "ks2op4dncm",
   "anchor_id_nl": "o4df44qofz",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le panneau C3 ?",
+      "text_nl": "Wat betekent het C3-verkeersbord?",
+      "text_ru": "Что означает дорожный знак C3?",
+      "image": {
+        "sign_code": "C3",
+        "generation_prompt": "Belgian traffic sign C3"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accès interdit aux cyclomoteurs.",
+          "text_nl": "Toegang verboden voor bromfietsen.",
+          "text_ru": "Въезд на полосу запрещен для мопедов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Accès interdit à tout véhicule, sauf ceux mentionnés dans l'article 22undecies.",
+          "text_nl": "Toegang verboden voor elk voertuig, behalve die welke in artikel 22undecies worden vermeld.",
+          "text_ru": "Въезд запрещен для всех транспортных средств, кроме тех, которые упомянуты в статье 22 undecies.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accès interdit à tous les véhicules.",
+          "text_nl": "Toegang verboden voor alle voertuigen.",
+          "text_ru": "Въезд запрещен для всех транспортных средств.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau C3 signifie 'Accès interdit à tout véhicule'. Cependant, l'article 22undecies spécifie des exceptions pour les rues scolaires, permettant l'accès aux piétons, cycles, speed pedelecs, véhicules prioritaires sous conditions, et véhicules autorisés par le gestionnaire de voirie.",
+      "explanation_nl": "Het C3-verkeersbord betekent 'Toegang verboden voor elk voertuig'. Artikel 22undecies specificeert echter uitzonderingen voor schoolstraten, die toegang verlenen aan voetgangers, fietsen, speed pedelecs, prioritaire voertuigen onder voorwaarden en door de wegbeheerder gemachtigde voertuigen.",
+      "explanation_ru": "Дорожный знак C3 означает «Въезд запрещен для всех транспортных средств». Однако статья 22 undecies устанавливает исключения для школьных улиц, разрешая проезд пешеходам, велосипедистам, скоростным велосипедам, транспортным средствам с приоритетным правом проезда при определенных условиях и транспортным средствам, уполномоченным дорожным управляющим."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quels types de véhicules sont autorisés à circuler dans une rue scolaire, en dehors des exceptions spécifiques mentionnées dans l'article 22undecies ?",
+      "text_nl": "Welke soorten voertuigen mogen in een schoolstraat rijden, buiten de specifieke uitzonderingen in artikel 22undecies?",
+      "text_ru": "Какие типы транспортных средств разрешены для движения по школьной улице, помимо конкретных исключений, упомянутых в статье 22 undecies?",
+      "image": {
+        "sign_code": "rue scolaire",
+        "generation_prompt": "Belgian traffic sign indicating a school street"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les piétons et les cycles.",
+          "text_nl": "Alleen voetgangers en fietsen.",
+          "text_ru": "Только пешеходы и велосипеды.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les piétons, les cycles et les speed pedelecs.",
+          "text_nl": "Voetgangers, rijwielen en speed pedelecs.",
+          "text_ru": "Пешеходы, велосипеды и скоростные велосипеды.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tous les véhicules motorisés munis d'une autorisation.",
+          "text_nl": "Alle gemotoriseerde voertuigen met een vergunning.",
+          "text_ru": "Все моторизованные транспортные средства с разрешением.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 22undecies, dans les rues scolaires, la voie publique est réservée aux piétons et aux cycles ainsi qu'aux speed pedelecs. Les autres véhicules ne sont autorisés que dans des conditions très spécifiques.",
+      "explanation_nl": "Volgens artikel 22undecies is de openbare weg in schoolstraten voorbehouden voor voetgangers, rijwielen en speed pedelecs. Andere voertuigen zijn alleen toegestaan onder zeer specifieke voorwaarden.",
+      "explanation_ru": "В соответствии со статьей 22 undecies, на школьных улицах общественная дорога зарезервирована для пешеходов, велосипедов и скоростных велосипедов. Другие транспортные средства разрешены только при очень специфических условиях."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes conducteur d'une voiture et vous devez traverser une rue scolaire. Quelle est la règle de conduite principale à respecter ?",
+      "text_nl": "U bent automobilist en moet een schoolstraat doorkruisen. Wat is de belangrijkste gedragsregel die u moet naleven?",
+      "text_ru": "Вы водитель автомобиля и вам нужно проехать через школьную улицу. Каково основное правило поведения, которого вы должны придерживаться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving very slowly in a street with pedestrians and cyclists, a sign for 'school street' visible in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez circuler à vitesse normale tant que vous ne gênez personne.",
+          "text_nl": "U mag normaal rijden zolang u niemand hindert.",
+          "text_ru": "Вы можете двигаться с нормальной скоростью, пока никому не мешаете.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez circuler au pas, céder le passage aux piétons et cyclistes, et vous arrêter si nécessaire.",
+          "text_nl": "U moet stapvoets rijden, voetgangers en fietsers voor laten gaan en indien nodig stoppen.",
+          "text_ru": "Вы должны ехать шагом, уступать дорогу пешеходам и велосипедистам и при необходимости останавливаться.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous avez la priorité sur tous les autres usagers.",
+          "text_nl": "U heeft voorrang op alle andere weggebruikers.",
+          "text_ru": "У вас есть приоритет перед всеми другими участниками дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22undecies stipule que les conducteurs circulant dans une rue scolaire doivent le faire au pas, céder le passage aux piétons et cyclistes, et s'arrêter si nécessaire, tout en veillant à ne pas les mettre en danger ni les gêner.",
+      "explanation_nl": "Artikel 22undecies bepaalt dat bestuurders die in een schoolstraat rijden, dit stapvoets moeten doen, voetgangers en fietsers voorrang moeten verlenen en indien nodig moeten stoppen, terwijl ze ervoor zorgen dat ze hen niet in gevaar brengen of hinderen.",
+      "explanation_ru": "Статья 22 undecies гласит, что водители, движущиеся по школьной улице, должны ехать шагом, уступать дорогу пешеходам и велосипедистам и при необходимости останавливаться, при этом не подвергая их опасности и не мешая им."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez une ambulance en intervention urgente dans une rue scolaire. Vous actionnez vos avertisseurs lumineux et sonores. Quelle est votre obligation envers les autres usagers ?",
+      "text_nl": "U bestuurt een ambulance met dringende interventie in een schoolstraat. U gebruikt uw zwaailichten en geluidssignalen. Wat is uw verplichting ten opzichte van de andere weggebruikers?",
+      "text_ru": "Вы управляете машиной скорой помощи, срочно выезжающей на вызов в школьной улице. Вы включаете световые и звуковые сигналы. Какова ваша обязанность по отношению к другим участникам дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An ambulance with flashing lights and siren on in a narrow street with pedestrians and cyclists, indicating a school street."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les piétons et cyclistes doivent s'écarter immédiatement et vous laisser passer sans délai.",
+          "text_nl": "Voetgangers en fietsers moeten onmiddellijk opzij gaan en u zonder vertraging laten passeren.",
+          "text_ru": "Пешеходы и велосипедисты должны немедленно уступить дорогу и дать вам беспрепятственно проехать.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous avez accès à la rue scolaire et les autres usagers doivent céder le passage, mais vous devez toujours éviter de les mettre en danger.",
+          "text_nl": "U heeft toegang tot de schoolstraat en de andere weggebruikers moeten plaatsmaken, maar u moet altijd voorkomen dat u hen in gevaar brengt.",
+          "text_ru": "У вас есть доступ к школьной улице, и другие участники дорожного движения должны уступить дорогу, но вы всегда должны избегать создания для них опасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez immobiliser le véhicule et attendre que la rue soit dégagée.",
+          "text_nl": "U moet het voertuig stilzetten en wachten tot de straat vrij is.",
+          "text_ru": "Вы должны остановить транспортное средство и дождаться, пока улица не освободится.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22undecies permet aux véhicules prioritaires, lorsque la nature de leur mission le justifie, d'accéder aux rues scolaires. Bien que les autres usagers doivent céder le passage, le conducteur du véhicule prioritaire a la responsabilité de ne pas mettre en danger les piétons et cyclistes, même dans l'urgence.",
+      "explanation_nl": "Artikel 22undecies staat prioritaire voertuigen toe, wanneer de aard van hun opdracht dit rechtvaardigt, om schoolstraten binnen te rijden. Hoewel andere weggebruikers plaats moeten maken, blijft de bestuurder van het prioritaire voertuig verantwoordelijk om voetgangers en fietsers niet in gevaar te brengen, zelfs in noodgevallen.",
+      "explanation_ru": "Статья 22 undecies разрешает транспортным средствам с приоритетным правом проезда, когда характер их миссии это оправдывает, въезжать в школьные улицы. Хотя другие участники дорожного движения должны уступить дорогу, водитель транспортного средства с приоритетным правом проезда несет ответственность за то, чтобы не подвергать опасности пешеходов и велосипедистов, даже в экстренных ситуациях."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes cycliste et vous entrez dans une rue scolaire. Quelle est votre priorité par rapport à un véhicule autorisé à y circuler ?",
+      "text_nl": "U bent fietser en rijdt een schoolstraat binnen. Wat is uw prioriteit ten opzichte van een voertuig dat daar mag rijden?",
+      "text_ru": "Вы велосипедист и въезжаете в школьную улицу. Какой у вас приоритет по отношению к транспортному средству, которому разрешено там ездить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A cyclist entering a school street, with a car driving slowly and yielding to the cyclist."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule a la priorité pour ne pas ralentir sa progression.",
+          "text_nl": "Het voertuig heeft voorrang om zijn voortgang niet te vertragen.",
+          "text_ru": "Транспортное средство имеет приоритет, чтобы не замедлять свое движение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous n'avez pas de priorité particulière, vous devez vous adapter au véhicule.",
+          "text_nl": "U heeft geen speciale voorrang, u moet zich aanpassen aan het voertuig.",
+          "text_ru": "У вас нет особого приоритета, вы должны приспосабливаться к транспортному средству.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous avez la priorité sur les véhicules autorisés à circuler dans la rue scolaire.",
+          "text_nl": "U heeft voorrang op voertuigen die in de schoolstraat mogen rijden.",
+          "text_ru": "У вас есть приоритет перед транспортными средствами, которым разрешено движение по школьной улице.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 22undecies stipule que les conducteurs qui circulent dans la rue scolaire 'cèdent le passage aux piétons et aux cyclistes, leur cèdent la priorité et, au besoin, s'arrêtent'. Cela signifie que les cyclistes ont la priorité sur les véhicules autorisés.",
+      "explanation_nl": "Artikel 22undecies bepaalt dat bestuurders die in de schoolstraat rijden, 'de doorgang vrij laten voor de voetgangers en fietsers, hen voorrang verlenen en er zo nodig voor stoppen'. Dit betekent dat fietsers voorrang hebben op voertuigen die daar mogen rijden.",
+      "explanation_ru": "Статья 22 undecies гласит, что водители, движущиеся по школьной улице, «уступают дорогу пешеходам и велосипедистам, предоставляют им приоритет и, при необходимости, останавливаются». Это означает, что велосипедисты имеют приоритет перед транспортными средствами, которым разрешено движение по школьной улице."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "b3a5e344be8c",
@@ -62,6 +248,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:08:53Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

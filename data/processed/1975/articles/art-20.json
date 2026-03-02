@@ -26,7 +26,193 @@
   "anchor_id_fr": "yhowmipagr",
   "anchor_id_nl": "9xk6grdun8",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'Article 20.1 du code de la route belge, quelle est la règle concernant la circulation sur les voies ferrées établies en dehors de la chaussée ?",
+      "text_nl": "Volgens artikel 20.1 van de Belgische wegcode, wat is de regel betreffende het verkeer op spoorwegen die buiten de rijbaan zijn aangelegd?",
+      "text_ru": "Согласно статье 20.1 Правил дорожного движения Бельгии, какое правило касается движения по железнодорожным путям, расположенным вне проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image showing railway tracks running alongside a road, clearly separated from it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La circulation est autorisée pour les véhicules ayant une autorisation spéciale.",
+          "text_nl": "Verkeer is toegestaan voor voertuigen met een speciale vergunning.",
+          "text_ru": "Движение разрешено для транспортных средств со специальным разрешением.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Toute circulation est interdite sur ces voies ferrées.",
+          "text_nl": "Elk verkeer is verboden op deze spoorwegen.",
+          "text_ru": "Любое движение по этим железнодорожным путям запрещено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La circulation est autorisée si la voie n'est pas utilisée par des trains.",
+          "text_nl": "Verkeer is toegestaan als de spoorweg niet door treinen wordt gebruikt.",
+          "text_ru": "Движение разрешено, если путь не используется поездами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 20.1 est explicite : « Toute circulation est interdite sur les voies ferrées établies en dehors de la chaussée. »",
+      "explanation_nl": "Artikel 20.1 is expliciet: « Elk verkeer op buiten de rijbaan aangelegde sporen is verboden. »",
+      "explanation_ru": "Статья 20.1 прямо указывает: «Любое движение по железнодорожным путям, расположенным вне проезжей части, запрещено.»"
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'Article 20.3, dans quelles situations spécifiques est-il interdit de s'engager sur un passage à niveau ?",
+      "text_nl": "Volgens artikel 20.3, in welke specifieke situaties is het verboden een overweg op te rijden?",
+      "text_ru": "Согласно статье 20.3, в каких конкретных ситуациях запрещено выезжать на железнодорожный переезд?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image illustrating a level crossing with various warning elements like barriers, flashing lights, and sound signals."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement lorsque les barrières sont fermées ou que les feux rouges clignotants sont allumés.",
+          "text_nl": "Alleen wanneer de slagbomen gesloten zijn of de rode knipperlichten branden.",
+          "text_ru": "Только когда шлагбаумы закрыты или горят красные мигающие огни.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque les barrières sont en mouvement ou fermées, lorsque les feux rouges clignotants sont allumés, ou lorsque le signal sonore fonctionne.",
+          "text_nl": "Wanneer de slagbomen in beweging of gesloten zijn, wanneer de rode knipperlichten branden, of wanneer het geluidssein werkt.",
+          "text_ru": "Когда шлагбаумы движутся или закрыты, когда горят красные мигающие огни, или когда работает звуковой сигнал.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsque le passage à niveau est encombré par d'autres véhicules.",
+          "text_nl": "Wanneer de overweg geblokkeerd is door andere voertuigen.",
+          "text_ru": "Когда переезд заблокирован другими транспортными средствами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 20.3 énumère ces trois situations spécifiques où il est interdit de s'engager sur un passage à niveau.",
+      "explanation_nl": "Artikel 20.3 somt deze drie specifieke situaties op waarin het verboden is een overweg op te rijden.",
+      "explanation_ru": "Статья 20.3 перечисляет эти три конкретные ситуации, когда запрещено выезжать на железнодорожный переезд."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'un passage à niveau qui ne comporte ni barrières ni signaux lumineux, et vous ne voyez ni n'entendez de train. Que devez-vous faire avant de vous y engager ?",
+      "text_nl": "U nadert een overweg zonder slagbomen of verkeerslichten, en u ziet of hoort geen trein. Wat moet u doen voordat u de overweg oprijdt?",
+      "text_ru": "Вы приближаетесь к железнодорожному переезду без шлагбаумов и светофоров, и вы не видите и не слышите поезда. Что вы должны сделать, прежде чем выехать на него?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car approaching an unmarked level crossing in a rural setting, with no barriers or lights visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ralentir et traverser si vous estimez que c'est sûr.",
+          "text_nl": "Vertragen en oversteken als u denkt dat het veilig is.",
+          "text_ru": "Замедлиться и проехать, если вы считаете это безопасным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter, vous assurer qu'aucun véhicule sur rails n'approche des deux côtés, puis vous engager.",
+          "text_nl": "Stoppen, zich ervan vergewissen dat geen enkel spoorvoertuig nadert uit beide richtingen, en dan de overweg oprijden.",
+          "text_ru": "Остановиться, убедиться, что ни один рельсовый транспорт не приближается с обеих сторон, а затем выехать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour signaler votre présence et traverser rapidement.",
+          "text_nl": "Claxonneren om uw aanwezigheid te signaleren en snel oversteken.",
+          "text_ru": "Посигналить, чтобы обозначить свое присутствие, и быстро проехать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 20.2 stipule que lorsque le passage à niveau n'est muni ni de barrières ni de signaux lumineux ou lorsque ces signaux ne fonctionnent pas, l'usager ne peut s'y engager qu'après s'être assuré qu'aucun véhicule sur rails n'approche.",
+      "explanation_nl": "Artikel 20.2 bepaalt dat wanneer de overweg niet is uitgerust met slagbomen of verkeerslichten, of wanneer deze lichten niet werken, de weggebruiker zich er slechts op mag begeven nadat hij zich ervan heeft vergewist dat geen enkel spoorvoertuig nadert.",
+      "explanation_ru": "Статья 20.2 гласит, что когда железнодорожный переезд не оборудован шлагбаумами или светофорами, или когда эти сигналы не работают, пользователь может выезжать на него только после того, как убедится, что ни один рельсовый транспорт не приближается."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous arrivez à un passage à niveau dont les barrières sont ouvertes et les feux éteints. Cependant, le trafic devant vous est si dense qu'il est immobilisé juste après le passage à niveau. Que devez-vous faire ?",
+      "text_nl": "U nadert een overweg waarvan de slagbomen open zijn en de lichten uit. Het verkeer voor u is echter zo druk dat het net na de overweg stilstaat. Wat moet u doen?",
+      "text_ru": "Вы подъезжаете к железнодорожному переезду, шлагбаумы открыты, а светофоры выключены. Однако движение впереди настолько плотное, что оно остановилось сразу за переездом. Что вы должны делать?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A car stopped before a level crossing. Beyond the crossing, there is a queue of stationary cars, indicating traffic congestion."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous engager sur le passage à niveau et attendre que le trafic avance.",
+          "text_nl": "De overweg oprijden en wachten tot het verkeer verder beweegt.",
+          "text_ru": "Выехать на переезд и ждать, пока движение возобновится.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Attendre avant le passage à niveau jusqu'à ce que l'espace soit suffisant pour le traverser entièrement sans devoir vous y immobiliser.",
+          "text_nl": "Wachten vóór de overweg totdat er voldoende ruimte is om deze volledig over te steken zonder te moeten stoppen.",
+          "text_ru": "Ждать перед переездом, пока не появится достаточно места, чтобы полностью пересечь его, не останавливаясь.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour encourager le trafic à avancer plus vite et traverser.",
+          "text_nl": "Claxonneren om het verkeer aan te moedigen sneller te rijden en dan oversteken.",
+          "text_ru": "Посигналить, чтобы побудить движение ускориться, и проехать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 20.4 interdit de s'engager sur un passage à niveau si l'encombrement de la circulation est tel qu'il serait vraisemblablement immobilisé sur ce passage, même si les signaux ne l'interdisent pas directement.",
+      "explanation_nl": "Artikel 20.4 verbiedt een overweg op te rijden wanneer het verkeer zodanig belemmerd is dat men waarschijnlijk op die overweg zou moeten stoppen, zelfs als de signalen dit niet direct verbieden.",
+      "explanation_ru": "Статья 20.4 запрещает выезжать на железнодорожный переезд, если затор в движении таков, что вы, вероятно, остановились бы на этом переезде, даже если сигналы напрямую это не запрещают."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur le point de traverser un passage à niveau et les feux rouges clignotants s'allument soudainement. Que devez-vous faire ?",
+      "text_nl": "U staat op het punt een overweg over te steken en de rode knipperlichten gaan plotseling branden. Wat moet u doen?",
+      "text_ru": "Вы собираетесь пересечь железнодорожный переезд, и внезапно загораются красные мигающие огни. Что вы должны делать?",
+      "image": {
+        "sign_code": "A7",
+        "generation_prompt": "A car approaching a level crossing with active red flashing lights."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour traverser avant que les barrières ne se ferment ou qu'un train n'arrive.",
+          "text_nl": "Versnellen om over te steken voordat de slagbomen sluiten of een trein arriveert.",
+          "text_ru": "Ускориться, чтобы проехать до закрытия шлагбаумов или прибытия поезда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter immédiatement avant le passage à niveau, sans le franchir.",
+          "text_nl": "Onmiddellijk stoppen vóór de overweg, zonder deze te overschrijden.",
+          "text_ru": "Немедленно остановиться перед переездом, не пересекая его.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vérifier rapidement si un train approche avant de décider d'arrêter ou de passer.",
+          "text_nl": "Snel controleren of er een trein nadert voordat u beslist te stoppen of door te rijden.",
+          "text_ru": "Быстро проверить, приближается ли поезд, прежде чем принять решение остановиться или проехать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 20.3, point 2°, stipule qu'il est interdit de s'engager sur un passage à niveau lorsque les feux rouges clignotants sont allumés. La bonne conduite est de s'arrêter avant le passage à niveau.",
+      "explanation_nl": "Artikel 20.3, punt 2°, stelt dat het verboden is een overweg op te rijden wanneer de rode knipperlichten branden. De juiste handeling is om vóór de overweg te stoppen.",
+      "explanation_ru": "Статья 20.3, пункт 2°, гласит, что запрещено выезжать на железнодорожный переезд, когда горят красные мигающие огни. Правильное действие — остановиться перед переездом."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "b8b034d583ab",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:31:56Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

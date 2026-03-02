@@ -1,0 +1,162 @@
+{% extends "dashboard/base.html" %}
+
+{% block dashboard_content %}
+
+<div class="flex items-center justify-between mb-6">
+  <div>
+    <h2 class="text-xl font-bold text-gray-800">Questions</h2>
+    <p class="text-sm text-gray-500 mt-0.5">{{ total }} question{{ total|pluralize }}</p>
+  </div>
+  <a href="{% url 'dashboard:question_create' %}"
+     class="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700">
+    + Nouvelle question
+  </a>
+</div>
+
+{# ── Filters ── #}
+<form method="get" class="bg-white rounded-xl border border-gray-200 shadow-sm p-4 mb-6 flex flex-wrap gap-3 items-end">
+  <div class="flex-1 min-w-[200px]">
+    <label class="block text-xs font-medium text-gray-500 mb-1">Recherche</label>
+    {{ form.search }}
+  </div>
+  <div>
+    <label class="block text-xs font-medium text-gray-500 mb-1">Catégorie</label>
+    {{ form.category }}
+  </div>
+  <div>
+    <label class="block text-xs font-medium text-gray-500 mb-1">Difficulté</label>
+    {{ form.difficulty }}
+  </div>
+  <div>
+    <label class="block text-xs font-medium text-gray-500 mb-1">Statut</label>
+    {{ form.is_active }}
+  </div>
+  <button type="submit" class="px-4 py-2 bg-gray-800 text-white text-sm rounded-lg hover:bg-gray-700">
+    Filtrer
+  </button>
+  <a href="{% url 'dashboard:questions' %}" class="px-4 py-2 text-gray-600 text-sm hover:underline">
+    Réinitialiser
+  </a>
+</form>
+
+{# ── Table ── #}
+<div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden" x-data>
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead class="bg-gray-50 text-gray-500 text-xs uppercase border-b border-gray-100">
+        <tr>
+          <th class="px-4 py-3 text-left w-12">#</th>
+          <th class="px-4 py-3 text-left">Question (FR)</th>
+          <th class="px-4 py-3 text-left">Catégorie</th>
+          <th class="px-4 py-3 text-left">Article</th>
+          <th class="px-4 py-3 text-center">Diff.</th>
+          <th class="px-4 py-3 text-center">Options</th>
+          <th class="px-4 py-3 text-center">Actif</th>
+          <th class="px-4 py-3 text-right">Actions</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-50">
+        {% for q in page_obj %}
+        <tr class="hover:bg-gray-50 group" id="row-{{ q.pk }}">
+          <td class="px-4 py-3 font-mono text-gray-400 text-xs">{{ q.pk }}</td>
+          <td class="px-4 py-3 text-gray-700 max-w-sm">
+            <a href="{% url 'dashboard:question_detail' q.pk %}" class="hover:text-blue-600 line-clamp-2">
+              {{ q.text|truncatechars:120 }}
+            </a>
+            {% if not q.text_fr and q.text_nl %}
+              <span class="text-xs text-orange-500">pas de FR</span>
+            {% endif %}
+          </td>
+          <td class="px-4 py-3 text-gray-500 text-xs whitespace-nowrap">{{ q.category.name|default:'—' }}</td>
+          <td class="px-4 py-3 text-gray-400 text-xs font-mono">
+            {% if q.code_article %}{{ q.code_article.article_number }}{% else %}—{% endif %}
+          </td>
+          <td class="px-4 py-3 text-center">
+            {% if q.difficulty == 1 %}<span class="text-green-500 font-bold text-xs">Facile</span>
+            {% elif q.difficulty == 2 %}<span class="text-yellow-500 font-bold text-xs">Moyen</span>
+            {% else %}<span class="text-red-500 font-bold text-xs">Diff.</span>{% endif %}
+          </td>
+          <td class="px-4 py-3 text-center text-gray-400 text-xs">{{ q.options.count }}</td>
+          <td class="px-4 py-3 text-center">
+            <button
+              @click="toggleActive({{ q.pk }})"
+              class="w-8 h-5 rounded-full transition-colors focus:outline-none
+                {% if q.is_active %}bg-green-500 hover:bg-green-600{% else %}bg-gray-300 hover:bg-gray-400{% endif %}"
+              :id="`toggle-${q.pk}`"
+              title="{% if q.is_active %}Désactiver{% else %}Activer{% endif %}">
+            </button>
+          </td>
+          <td class="px-4 py-3 text-right">
+            <div class="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+              <a href="{% url 'dashboard:question_edit' q.pk %}"
+                 class="text-xs text-blue-600 hover:underline">Modifier</a>
+              <a href="{% url 'dashboard:question_delete' q.pk %}"
+                 class="text-xs text-red-500 hover:underline"
+                 onclick="return confirm('Supprimer Q#{{ q.pk }} ?')">Sup.</a>
+            </div>
+          </td>
+        </tr>
+        {% empty %}
+        <tr>
+          <td colspan="8" class="px-4 py-12 text-center text-gray-400">
+            Aucune question trouvée.
+            {% if not form.search.value and not form.category.value %}
+              <a href="{% url 'dashboard:index' %}" class="text-blue-600 hover:underline">Lancer l'import ?</a>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  {# Pagination #}
+  {% if page_obj.has_other_pages %}
+  <div class="px-4 py-3 border-t border-gray-100 flex items-center justify-between text-sm text-gray-500">
+    <span>Page {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}</span>
+    <div class="flex gap-1">
+      {% if page_obj.has_previous %}
+        <a href="?{% if request.GET.urlencode %}{{ request.GET.urlencode }}&{% endif %}page={{ page_obj.previous_page_number }}"
+           class="px-3 py-1 rounded border hover:bg-gray-50">←</a>
+      {% endif %}
+      {% if page_obj.has_next %}
+        <a href="?{% if request.GET.urlencode %}{{ request.GET.urlencode }}&{% endif %}page={{ page_obj.next_page_number }}"
+           class="px-3 py-1 rounded border hover:bg-gray-50">→</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+async function toggleActive(pk) {
+  try {
+    const resp = await fetch(`/dashboard/questions/${pk}/toggle/`, {
+      method: 'POST',
+      headers: {'X-CSRFToken': getCookie('csrftoken')},
+    });
+    const data = await resp.json();
+    const btn = document.getElementById(`toggle-${pk}`);
+    if (btn) {
+      if (data.is_active) {
+        btn.classList.replace('bg-gray-300', 'bg-green-500');
+        btn.classList.replace('hover:bg-gray-400', 'hover:bg-green-600');
+      } else {
+        btn.classList.replace('bg-green-500', 'bg-gray-300');
+        btn.classList.replace('hover:bg-green-600', 'hover:bg-gray-400');
+      }
+    }
+  } catch(e) { console.error(e); }
+}
+
+function getCookie(name) {
+  const val = `; ${document.cookie}`;
+  const parts = val.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop().split(';').shift();
+  return '';
+}
+</script>
+{% endblock %}

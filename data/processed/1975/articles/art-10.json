@@ -26,7 +26,193 @@
   "anchor_id_fr": "lj6uebxxi7",
   "anchor_id_nl": "aupervujt8",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'Article 10.1.1° du Code de la route belge, quels sont les principaux facteurs qu'un conducteur doit prendre en compte pour régler sa vitesse ?",
+      "text_nl": "Volgens Artikel 10.1.1° van de Belgische wegcode, welke zijn de belangrijkste factoren die een bestuurder in acht moet nemen om zijn snelheid te regelen?",
+      "text_ru": "Согласно статье 10.1.1° Бельгийского дорожного кодекса, какие основные факторы водитель должен учитывать при регулировании своей скорости?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les conditions climatiques et l'état du véhicule.",
+          "text_nl": "Enkel de weersomstandigheden en de staat van het voertuig.",
+          "text_ru": "Только погодные условия и состояние транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La présence d'autres usagers, les conditions climatiques, l'état de la route et la visibilité.",
+          "text_nl": "De aanwezigheid van andere weggebruikers, de weersomstandigheden, de staat van de weg en het zicht.",
+          "text_ru": "Присутствие других участников дорожного движения, погодные условия, состояние дороги и видимость.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Principalement la vitesse maximale autorisée sur le tronçon de route.",
+          "text_nl": "Hoofdzakelijk de toegelaten maximumsnelheid op het weggedeelte.",
+          "text_ru": "В основном максимально разрешенная скорость на данном участке дороги.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 10.1.1° stipule que la vitesse doit être réglée en fonction de la présence d'autres usagers (particulièrement les plus vulnérables), les conditions climatiques, la disposition des lieux, l'encombrement, la densité de la circulation, le champ de visibilité, l'état de la route, l'état et le chargement du véhicule. L'option B couvre les facteurs les plus importants énumérés.",
+      "explanation_nl": "Artikel 10.1.1° stelt dat de snelheid moet worden geregeld afhankelijk van de aanwezigheid van andere weggebruikers (vooral de meest kwetsbaren), de weersomstandigheden, de plaatsgesteldheid, haar belemmering, de verkeersdichtheid, het zicht, de staat van de weg, de staat en de lading van het voertuig. Optie B omvat de belangrijkste genoemde factoren.",
+      "explanation_ru": "Статья 10.1.1° гласит, что скорость должна регулироваться в зависимости от присутствия других участников дорожного движения (особенно наиболее уязвимых), погодных условий, расположения местности, ее загруженности, плотности движения, поля зрения, состояния дороги, состояния и загрузки транспортного средства. Вариант B охватывает наиболее важные перечисленные факторы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'Article 10.2 du Code de la route belge, comment un conducteur ne peut-il pas gêner la marche normale des autres conducteurs en ce qui concerne la vitesse ?",
+      "text_nl": "Volgens Artikel 10.2 van de Belgische wegcode, hoe mag een bestuurder de normale gang van andere bestuurders niet hinderen wat snelheid betreft?",
+      "text_ru": "Согласно статье 10.2 Бельгийского дорожного кодекса, как водитель не должен мешать нормальному движению других водителей в отношении скорости?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "En circulant à une vitesse légèrement inférieure à la limite autorisée.",
+          "text_nl": "Door met een snelheid te rijden die iets lager is dan de toegestane limiet.",
+          "text_ru": "Двигаясь со скоростью немного ниже разрешенной.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En circulant sans raison valable à une vitesse anormalement réduite ou en exerçant un freinage soudain non exigé par des raisons de sécurité.",
+          "text_nl": "Door zonder geldige reden abnormaal traag te rijden of door plots te remmen wanneer dit niet om veiligheidsredenen vereist is.",
+          "text_ru": "Двигаясь без уважительной причины на аномально низкой скорости или резко тормозя без необходимости для обеспечения безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "En signalant toujours son intention de freiner, même pour un léger ralentissement.",
+          "text_nl": "Door altijd zijn intentie om te remmen aan te geven, zelfs bij een lichte vertraging.",
+          "text_ru": "Всегда сигнализируя о своем намерении тормозить, даже при небольшом замедлении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 10.2 interdit de gêner la marche normale des autres conducteurs en circulant sans raison valable à une vitesse anormalement réduite ou en exerçant un freinage soudain non exigé par des raisons de sécurité.",
+      "explanation_nl": "Artikel 10.2 verbiedt de normale gang van andere bestuurders te hinderen door zonder geldige reden abnormaal traag te rijden of door plots te remmen wanneer dit niet om veiligheidsredenen vereist is.",
+      "explanation_ru": "Статья 10.2 запрещает мешать нормальному движению других водителей, двигаясь без уважительной причины на аномально низкой скорости или резко тормозя без необходимости для обеспечения безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez sur une route mouillée derrière un autre véhicule. Quelle est votre principale responsabilité concernant la distance de sécurité et la capacité d'arrêt ?",
+      "text_nl": "U rijdt op een natte weg achter een ander voertuig. Wat is uw voornaamste verantwoordelijkheid met betrekking tot de veiligheidsafstand en de stopmogelijkheid?",
+      "text_ru": "Вы едете по мокрой дороге за другим транспортным средством. Какова ваша основная ответственность в отношении безопасной дистанции и возможности остановки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Maintenir la même distance de sécurité que sur sol sec, car les freins modernes sont très efficaces.",
+          "text_nl": "Dezelfde veiligheidsafstand aanhouden als op droog wegdek, want moderne remmen zijn zeer efficiënt.",
+          "text_ru": "Сохранять ту же безопасную дистанцию, что и на сухой дороге, поскольку современные тормоза очень эффективны.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Augmenter la distance de sécurité par rapport au véhicule qui vous précède et vous assurer de pouvoir vous arrêter devant tout obstacle prévisible, en tenant compte des conditions météorologiques.",
+          "text_nl": "De veiligheidsafstand tot uw voorligger vergroten en ervoor zorgen dat u kunt stoppen voor elke voorzienbare hindernis, rekening houdend met de weersomstandigheden.",
+          "text_ru": "Увеличить безопасную дистанцию до впереди идущего транспортного средства и убедиться, что вы сможете остановиться перед любым предвидимым препятствием, учитывая погодные условия.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous concentrer uniquement sur l'obstacle éventuel et ignorer la distance avec le véhicule de devant si celui-ci roule trop vite.",
+          "text_nl": "U enkel concentreren op een eventuele hindernis en de afstand tot het voertuig voor u negeren als deze te snel rijdt.",
+          "text_ru": "Сосредоточиться исключительно на возможном препятствии и игнорировать дистанцию до впереди идущего транспортного средства, если оно едет слишком быстро.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 10.1.2° exige de maintenir une distance de sécurité suffisante. L'article 10.1.3° exige de pouvoir s'arrêter devant un obstacle prévisible. L'article 10.1.1° précise que la vitesse doit être adaptée aux conditions climatiques (route mouillée) et à l'état de la route, ce qui implique d'augmenter la distance de sécurité.",
+      "explanation_nl": "Artikel 10.1.2° vereist een voldoende veiligheidsafstand. Artikel 10.1.3° vereist dat men in alle omstandigheden kan stoppen voor een voorzienbare hindernis. Artikel 10.1.1° specificeert dat de snelheid moet worden aangepast aan de weersomstandigheden (natte weg) en de staat van de weg, wat impliceert dat de veiligheidsafstand vergroot moet worden.",
+      "explanation_ru": "Статья 10.1.2° требует соблюдения достаточной безопасной дистанции. Статья 10.1.3° требует возможности остановиться перед предвидимым препятствием. Статья 10.1.1° уточняет, что скорость должна быть адаптирована к погодным условиям (мокрая дорога) и состоянию дороги, что подразумевает увеличение безопасной дистанции."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route de campagne et vous approchez d'un troupeau de vaches traversant la chaussée. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een landweg en nadert een kudde koeien die de rijbaan oversteekt. Wat moet u doen?",
+      "text_ru": "Вы едете по проселочной дороге и приближаетесь к стаду коров, пересекающих проезжую часть. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Klaxonner pour disperser les animaux et continuer à votre vitesse habituelle.",
+          "text_nl": "Claxonneren om de dieren te verspreiden en doorrijden met uw gebruikelijke snelheid.",
+          "text_ru": "Посигналить, чтобы разогнать животных, и продолжать движение с обычной скоростью.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et être prêt à vous arrêter si les animaux montrent des signes de frayeur.",
+          "text_nl": "Vertragen en klaar zijn om te stoppen als de dieren tekenen van angst vertonen.",
+          "text_ru": "Замедлить движение и быть готовым остановиться, если животные проявят признаки испуга.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Garder votre vitesse, mais zigzaguer pour éviter les animaux.",
+          "text_nl": "Uw snelheid aanhouden, maar zigzaggen om de dieren te ontwijken.",
+          "text_ru": "Сохранять скорость, но маневрировать, чтобы объехать животных.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 10.3 exige que tout conducteur ralentisse lorsqu'il approche d'animaux se trouvant sur la voie publique et qu'il s'arrête si ces animaux montrent des signes de frayeur.",
+      "explanation_nl": "Artikel 10.3 vereist dat elke bestuurder vertraagt wanneer hij dieren op de openbare weg nadert en moet stoppen indien deze dieren tekenen van angst vertonen.",
+      "explanation_ru": "Статья 10.3 требует, чтобы каждый водитель замедлил движение при приближении к животным, находящимся на проезжей части, и остановился, если эти животные проявляют признаки страха."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous roulez à 70 km/h sur une route et vous préparez à tourner dans une rue latérale, ce qui nécessite de ralentir considérablement votre vitesse. Comment devez-vous signaler votre intention ?",
+      "text_nl": "U rijdt 70 km/u op een weg en bereidt zich voor om een zijstraat in te slaan, waarvoor u uw snelheid aanzienlijk moet verminderen. Hoe moet u uw intentie kenbaar maken?",
+      "text_ru": "Вы едете со скоростью 70 км/ч по дороге и готовитесь повернуть в боковую улицу, что требует значительного снижения скорости. Как вы должны обозначить свое намерение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Juste en actionnant votre clignotant pour le virage.",
+          "text_nl": "Alleen door uw richtingaanwijzer voor de bocht te gebruiken.",
+          "text_ru": "Просто включив поворотник для поворота.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au moyen des feux-stop de votre véhicule et, si nécessaire, des clignotants pour le virage.",
+          "text_nl": "Met behulp van de stoplichten van uw voertuig en, indien nodig, de richtingaanwijzers voor de bocht.",
+          "text_ru": "С помощью стоп-сигналов вашего транспортного средства и, при необходимости, указателей поворота для поворота.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "En ouvrant la fenêtre et en faisant un signe de la main, car les feux-stop ne sont pas obligatoires pour cela.",
+          "text_nl": "Door het raam te openen en een handgebaar te maken, aangezien stoplichten hiervoor niet verplicht zijn.",
+          "text_ru": "Открыв окно и сделав жест рукой, так как стоп-сигналы для этого не обязательны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 10.2 stipule que le conducteur qui veut ralentir de façon notable l'allure de son véhicule doit indiquer cette intention au moyen des feux-stop lorsque le véhicule en est pourvu. Le clignotant sert à indiquer un changement de direction.",
+      "explanation_nl": "Artikel 10.2 stelt dat de bestuurder die de snelheid van zijn voertuig aanzienlijk wil verminderen, dit voornemen kenbaar moet maken door middel van de stoplichten wanneer het voertuig ervan voorzien is. De richtingaanwijzer dient om een richtingsverandering aan te geven.",
+      "explanation_ru": "Статья 10.2 гласит, что водитель, желающий значительно снизить скорость своего транспортного средства, должен указать это намерение с помощью стоп-сигналов, если транспортное средство ими оборудовано. Указатель поворота служит для обозначения изменения направления."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "f95cccc1f5a0",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:25:11Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

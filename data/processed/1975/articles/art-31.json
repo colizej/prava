@@ -30,7 +30,178 @@
   "anchor_id_fr": "qzsamlyxwc",
   "anchor_id_nl": "4jn9sw4tvq",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quelles conditions la présence d'un véhicule à moteur sur la voie publique doit-elle être signalée par des feux la nuit ou par mauvaise visibilité ?",
+      "text_nl": "Onder welke voorwaarden moet de aanwezigheid van een motorvoertuig op de openbare weg 's nachts of bij slecht zicht met lichten worden gesignaleerd?",
+      "text_ru": "При каких условиях наличие транспортного средства на дороге должно быть обозначено огнями ночью или при плохой видимости?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement la nuit, entre la tombée et le lever du jour.",
+          "text_nl": "Alleen 's nachts, tussen zonsondergang en zonsopgang.",
+          "text_ru": "Только ночью, между закатом и восходом солнца.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La nuit et lorsqu'il n'est plus possible de voir distinctement jusqu'à 200 mètres.",
+          "text_nl": " 's Nachts en wanneer het niet meer mogelijk is duidelijk te zien tot op 200 meter.",
+          "text_ru": "Ночью и когда невозможно четко видеть на расстоянии до 200 метров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement lorsqu'il pleut ou neige fort.",
+          "text_nl": "Alleen bij hevige regen of sneeuwval.",
+          "text_ru": "Только при сильном дожде или снегопаде.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 31.1 stipule que la présence d'un véhicule doit être signalée entre la tombée et le lever du jour, ainsi qu'en toute circonstance où la visibilité est réduite à moins de 200 mètres.",
+      "explanation_nl": "Artikel 31.1 stelt dat de aanwezigheid van een voertuig moet worden gesignaleerd tussen zonsondergang en zonsopgang, en onder alle omstandigheden waarbij het zicht minder dan 200 meter is.",
+      "explanation_ru": "Статья 31.1 гласит, что наличие транспортного средства должно быть обозначено между закатом и восходом солнца, а также при любых обстоятельствах, когда видимость ограничена менее чем 200 метрами."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que peut remplacer un feu de stationnement dans une agglomération, selon l'article 31.1.1, 3° ?",
+      "text_nl": "Wat kan een parkeerlicht vervangen in een bebouwde kom, volgens artikel 31.1.1, 3°?",
+      "text_ru": "Что может заменить стояночный огонь в населенном пункте, согласно статье 31.1.1, 3°?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les feux de route.",
+          "text_nl": "De grootlichten.",
+          "text_ru": "Дальний свет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les feux de position et les feux rouges arrière.",
+          "text_nl": "De standlichten en de rode achterlichten.",
+          "text_ru": "Габаритные огни и задние красные огни.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement les feux de croisement.",
+          "text_nl": "Alleen de dimlichten.",
+          "text_ru": "Только ближний свет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 31.1.1, 3° précise que dans les agglomérations, les feux de position et les feux rouges arrière peuvent être remplacés par un feu de stationnement sous certaines conditions.",
+      "explanation_nl": "Artikel 31.1.1, 3° specificeert dat in bebouwde kommen de standlichten en de rode achterlichten vervangen mogen worden door een parkeerlicht onder bepaalde voorwaarden.",
+      "explanation_ru": "Статья 31.1.1, 3° уточняет, что в населенных пунктах габаритные огни и задние красные огни могут быть заменены стояночным огнем при определенных условиях."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une voiture par un épais brouillard. La visibilité est réduite à moins de 100 mètres. Quelle combinaison de feux est autorisée et recommandée par temps de brouillard selon l'article 31.1.1 ?",
+      "text_nl": "U rijdt met de auto in dichte mist. Het zicht is beperkt tot minder dan 100 meter. Welke combinatie van lichten is toegestaan en aanbevolen bij mist volgens artikel 31.1.1?",
+      "text_ru": "Вы едете на машине в густом тумане. Видимость ограничена менее чем 100 метрами. Какая комбинация огней разрешена и рекомендована при тумане согласно статье 31.1.1?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Feux de position uniquement.",
+          "text_nl": "Alleen standlichten.",
+          "text_ru": "Только габаритные огни.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Feux de croisement ou feux de brouillard avant, et feux de brouillard arrière.",
+          "text_nl": "Dimlichten of voormistlichten, en achtermistlichten.",
+          "text_ru": "Ближний свет или передние противотуманные фары, и задние противотуманные фары.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Feux de route et feux de brouillard arrière.",
+          "text_nl": "Grootlichten en achtermistlichten.",
+          "text_ru": "Дальний свет и задние противотуманные фары.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 31.1.1, 1° et 2° permet l'utilisation des feux de croisement ou des feux de brouillard avant, ainsi que des feux de brouillard arrière par temps de brouillard, chute de neige ou forte pluie.",
+      "explanation_nl": "Artikel 31.1.1, 1° en 2° staat het gebruik van dimlichten of voormistlichten, evenals achtermistlichten bij mist, sneeuwval of hevige regen toe.",
+      "explanation_ru": "Статья 31.1.1, 1° и 2° разрешает использование ближнего света или передних противотуманных фар, а также задних противотуманных фар при тумане, снегопаде или сильном дожде."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous garez votre voiture parallèlement à l'axe de la chaussée dans une agglomération, la nuit, par temps clair. Vous n'avez pas de remorque. Vous souhaitez utiliser la solution la plus discrète autorisée par l'article 31.1.1, 3°.",
+      "text_nl": "U parkeert uw auto 's nachts bij helder weer parallel aan de aslijn van de rijbaan binnen de bebouwde kom. U heeft geen aanhanger. U wilt de meest discrete oplossing gebruiken die is toegestaan door artikel 31.1.1, 3°.",
+      "text_ru": "Вы паркуете свой автомобиль ночью в ясную погоду параллельно оси проезжей части в населенном пункте. У вас нет прицепа. Вы хотите использовать наиболее незаметное решение, разрешенное статьей 31.1.1, 3°.",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous utilisez vos feux de position avant et arrière.",
+          "text_nl": "U gebruikt uw voor- en achterstandlichten.",
+          "text_ru": "Вы используете свои передние и задние габаритные огни.",
+          "is_correct": false
+        },
+        {
+          "letter": "A",
+          "text_fr": "Vous utilisez un seul feu de stationnement du côté de l'axe de la chaussée.",
+          "text_nl": "U gebruikt één enkel parkeerlicht aan de kant van de aslijn.",
+          "text_ru": "Вы используете один стояночный огонь со стороны оси проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous n'avez pas besoin d'utiliser de feux car il fait nuit et clair.",
+          "text_nl": "U hoeft geen lichten te gebruiken omdat het nacht en helder is.",
+          "text_ru": "Вам не нужно использовать огни, так как ночь и ясно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 31.1.1, 3° autorise le remplacement des feux de position et des feux arrière par un feu de stationnement dans une agglomération, sous réserve que le véhicule soit garé parallèlement à l'axe de la chaussée et sans remorque. Seul le feu de stationnement du côté de l'axe peut être utilisé, ce qui correspond à l'option la plus discrète.",
+      "explanation_nl": "Artikel 31.1.1, 3° staat toe dat standlichten en achterlichten worden vervangen door een parkeerlicht in een bebouwde kom, op voorwaarde dat het voertuig evenwijdig aan de aslijn van de rijbaan is geparkeerd en zonder aanhanger. Alleen het parkeerlicht aan de kant van de aslijn mag worden gebruikt, wat overeenkomt met de meest discrete optie.",
+      "explanation_ru": "Статья 31.1.1, 3° разрешает замену габаритных огней и задних огней стояночным огнем в населенном пункте при условии, что транспортное средство припарковано параллельно оси проезжей части и без прицепа. Может использоваться только стояночный огонь со стороны оси, что соответствует наиболее незаметному варианту."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes immobilisé sur la voie publique avec votre véhicule. L'éclairage public est défaillant et vous ne pouvez pas être vu distinctement à 100 mètres. Que devez-vous faire pour signaler la présence de votre véhicule, selon l'article 31.2 ?",
+      "text_nl": "Uw voertuig staat stil op de openbare weg. De openbare verlichting werkt niet en u bent niet duidelijk zichtbaar op 100 meter afstand. Wat moet u doen om de aanwezigheid van uw voertuig te signaleren, volgens artikel 31.2?",
+      "text_ru": "Ваш автомобиль неисправен на проезжей части. Уличное освещение не работает, и вас не видно четко на расстоянии 100 метров. Что вы должны сделать, чтобы обозначить присутствие вашего автомобиля, согласно статье 31.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Utiliser les feux de détresse uniquement.",
+          "text_nl": "Alleen de alarmlichten gebruiken.",
+          "text_ru": "Использовать только аварийную сигнализацию.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Utiliser les feux prescrits par l'article 31.1.",
+          "text_nl": "De lichten gebruiken die voorgeschreven zijn door artikel 31.1.",
+          "text_ru": "Использовать огни, предписанные статьей 31.1.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre l'arrivée des secours sans signaler le véhicule.",
+          "text_nl": "Wachten op hulpdiensten zonder het voertuig te signaleren.",
+          "text_ru": "Ждать прибытия помощи, не обозначая автомобиль.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 31.2 précise que l'utilisation des feux prescrits par l'article 31.1 est obligatoire si l'éclairage public ne permet pas d'apercevoir distinctement le véhicule à 100 mètres.",
+      "explanation_nl": "Artikel 31.2 specificeert dat het gebruik van de door artikel 31.1 voorgeschreven lichten verplicht is indien de openbare verlichting het niet mogelijk maakt het voertuig duidelijk zichtbaar te maken op 100 meter afstand.",
+      "explanation_ru": "Статья 31.2 уточняет, что использование огней, предписанных статьей 31.1, является обязательным, если уличное освещение не позволяет четко видеть транспортное средство на расстоянии 100 метров."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "b1968614e759",
@@ -40,6 +211,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:12:49Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

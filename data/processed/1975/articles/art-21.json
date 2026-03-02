@@ -49,7 +49,193 @@
   "anchor_id_fr": "koe1mmxrxy",
   "anchor_id_nl": "uqtb0bclrx",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quels types de véhicules sont généralement interdits d'accès aux autoroutes, selon le Code de la route belge ?",
+      "text_nl": "Welke soorten voertuigen zijn over het algemeen verboden op autosnelwegen, volgens de Belgische wegcode?",
+      "text_ru": "Какие типы транспортных средств обычно запрещены к доступу на автомагистрали, согласно бельгийскому Кодексу дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les véhicules qui ne peuvent atteindre 60 km/h en palier.",
+          "text_nl": "Voertuigen die op een vlakke weg geen 60 km/u kunnen halen.",
+          "text_ru": "Транспортные средства, которые не могут развивать скорость 60 км/ч на ровной поверхности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les quadricycles à moteur sans habitacle.",
+          "text_nl": "Vierwielers met motor zonder passagiersruimte.",
+          "text_ru": "Мотоциклы-квадроциклы без кабины.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les véhicules dont la masse maximale autorisée dépasse 7,5 tonnes.",
+          "text_nl": "Voertuigen waarvan de maximaal toegelaten massa meer dan 7,5 ton bedraagt.",
+          "text_ru": "Транспортные средства, максимальная разрешенная масса которых превышает 7,5 тонн.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 21.1 du Code de la route belge interdit l'accès aux autoroutes notamment aux conducteurs de quadricycles à moteur sans habitacle. L'interdiction s'applique également aux véhicules qui ne peuvent atteindre 70 km/h en palier (et non 60 km/h).",
+      "explanation_nl": "Artikel 21.1 van de Belgische wegcode verbiedt de toegang tot autosnelwegen voor onder andere bestuurders van vierwielers met motor zonder passagiersruimte. Het verbod geldt ook voor voertuigen die op een vlakke weg geen 70 km/u (en niet 60 km/u) kunnen halen.",
+      "explanation_ru": "Статья 21.1 Бельгийского кодекса дорожного движения запрещает доступ на автомагистрали, в частности, водителям квадроциклов без кабины. Запрет также распространяется на транспортные средства, которые не могут развивать скорость 70 км/ч (а не 60 км/ч) на ровной дороге."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la vitesse minimale obligatoire sur une autoroute en Belgique, en l'absence de signalisation spécifique ?",
+      "text_nl": "Wat is de verplichte minimumsnelheid op een autosnelweg in België, bij afwezigheid van specifieke signalisatie?",
+      "text_ru": "Какова обязательная минимальная скорость на автомагистрали в Бельгии при отсутствии специальной сигнализации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "60 km/h.",
+          "text_nl": "60 km/u.",
+          "text_ru": "60 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "70 km/h.",
+          "text_nl": "70 km/u.",
+          "text_ru": "70 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La vitesse minimale est déterminée par le conducteur en fonction des conditions de circulation.",
+          "text_nl": "De minimumsnelheid wordt door de bestuurder bepaald op basis van de verkeersomstandigheden.",
+          "text_ru": "Минимальная скорость определяется водителем в зависимости от дорожных условий.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'Article 21.2 du Code de la route belge, la vitesse minimale obligatoire sur une autoroute est de 70 km/h, sauf si un signal C43 impose une limitation inférieure.",
+      "explanation_nl": "Overeenkomstig artikel 21.2 van de Belgische wegcode is de verplichte minimumsnelheid op een autosnelweg 70 km/u, tenzij een verkeersbord C43 een lagere beperking oplegt.",
+      "explanation_ru": "Согласно статье 21.2 Бельгийского кодекса дорожного движения, обязательная минимальная скорость на автомагистрали составляет 70 км/ч, если только знак C43 не устанавливает более низкое ограничение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un autocar de 12 tonnes sur une autoroute comportant quatre bandes de circulation dans votre direction. Dans quelles bandes de circulation pouvez-vous légalement rouler ?",
+      "text_nl": "U rijdt met een autocar van 12 ton op een autosnelweg met vier rijstroken in uw rijrichting. Op welke rijstroken mag u legaal rijden?",
+      "text_ru": "Вы ведете туристический автобус весом 12 тонн по автомагистрали с четырьмя полосами движения в вашем направлении. По каким полосам движения вы можете законно ехать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An empty four-lane motorway seen from above, showing a coach driving on the second lane from the right."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La bande de droite ou la deuxième bande à partir de la droite.",
+          "text_nl": "De rechterrijstrook of de tweede rijstrook van rechts.",
+          "text_ru": "Правая полоса или вторая полоса справа.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "N'importe laquelle des quatre bandes.",
+          "text_nl": "Elke van de vier rijstroken.",
+          "text_ru": "Любая из четырех полос.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement la bande de droite.",
+          "text_nl": "Alleen de rechterrijstrook.",
+          "text_ru": "Только по правой полосе.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 21.3 stipule que les autocars et autres véhicules de plus de 3,5 tonnes, sur une autoroute à trois bandes ou plus dans la direction suivie, ne peuvent utiliser qu'une des deux bandes situées du côté droit de la chaussée.",
+      "explanation_nl": "Artikel 21.3 bepaalt dat autocars en andere voertuigen van meer dan 3,5 ton, op een autosnelweg met drie of meer rijstroken in de gevolgde rijrichting, alleen een van de twee rechts gelegen rijstroken van de rijbaan mogen gebruiken.",
+      "explanation_ru": "Статья 21.3 гласит, что автобусы и другие транспортные средства массой более 3,5 тонн на автомагистрали с тремя и более полосами движения в одном направлении могут использовать только одну из двух крайних правых полос проезжей части."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur souhaite s'arrêter quelques instants sur une autoroute pour consulter une carte. Où est-il autorisé à le faire ?",
+      "text_nl": "Een bestuurder wil even stoppen op een autosnelweg om een kaart te raadplegen. Waar is hij gemachtigd om dat te doen?",
+      "text_ru": "Водитель хочет ненадолго остановиться на автомагистрали, чтобы посмотреть карту. Где ему разрешено это сделать?",
+      "image": {
+        "sign_code": "E9a",
+        "generation_prompt": "A blue square road sign with a white P and a car icon, indicating a parking area (E9a)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Sur la bande d'arrêt d'urgence.",
+          "text_nl": "Op de pechstrook.",
+          "text_ru": "На аварийной полосе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur une aire de stationnement signalée par le panneau E9a.",
+          "text_nl": "Op een parkeerplaats aangeduid door het verkeersbord E9a.",
+          "text_ru": "На парковочной зоне, обозначенной знаком E9a.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sur l'accotement de la chaussée.",
+          "text_nl": "Op de berm van de rijbaan.",
+          "text_ru": "На обочине проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 21.4.4° interdit de mettre un véhicule à l'arrêt ou en stationnement sur les autoroutes, sauf sur les aires de stationnement indiquées par le signal E9a. La bande d'arrêt d'urgence et l'accotement sont réservés aux cas d'urgence absolue.",
+      "explanation_nl": "Artikel 21.4.4° verbiedt het doen stilstaan of parkeren van een voertuig op autosnelwegen, behalve op de parkeerplaatsen aangeduid door het verkeersbord E9a. De pechstrook en de berm zijn gereserveerd voor absolute noodgevallen.",
+      "explanation_ru": "Статья 21.4.4° запрещает остановку или стоянку транспортного средства на автомагистралях, за исключением специально оборудованных мест для стоянки, обозначенных знаком E9a. Аварийная полоса и обочина предназначены только для экстренных случаев."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "En roulant sur une autoroute, vous réalisez que vous avez manqué votre sortie. Quelle est la manœuvre correcte à effectuer ?",
+      "text_nl": "Rijdend op een autosnelweg, merkt u dat u uw afrit gemist heeft. Welke manoeuvre moet u uitvoeren?",
+      "text_ru": "Двигаясь по автомагистрали, вы понимаете, что пропустили свой съезд. Какой маневр следует выполнить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car on a motorway missing an exit, continuing straight while the exit ramp is visible behind."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Faire demi-tour à la prochaine occasion.",
+          "text_nl": "Rechtsomkeer maken bij de eerstvolgende gelegenheid.",
+          "text_ru": "Развернуться при первой же возможности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire marche arrière jusqu'à la sortie manquée.",
+          "text_nl": "Achteruitrijden tot de gemiste afrit.",
+          "text_ru": "Двигаться задним ходом до пропущенного съезда.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer jusqu'à la prochaine sortie et faire demi-tour en dehors de l'autoroute.",
+          "text_nl": "Doorrijden tot de volgende afrit en buiten de autosnelweg rechtsomkeer maken.",
+          "text_ru": "Продолжить движение до следующего съезда и развернуться за пределами автомагистрали.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'Article 21.4 interdit formellement de faire demi-tour (2°) ou de faire marche arrière (3°) sur une autoroute. Il faut toujours continuer jusqu'à la prochaine sortie et faire demi-tour légalement en dehors de l'autoroute.",
+      "explanation_nl": "Artikel 21.4 verbiedt formeel om rechtsomkeer te maken (2°) of achteruit te rijden (3°) op een autosnelweg. U moet altijd doorrijden tot de volgende afrit en buiten de autosnelweg legaal rechtsomkeer maken.",
+      "explanation_ru": "Статья 21.4 категорически запрещает разворот (2°) или движение задним ходом (3°) на автомагистрали. Всегда следует продолжать движение до следующего съезда и разворачиваться на законных основаниях за пределами автомагистрали."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "58576eb9f519",
@@ -59,6 +245,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:23:12Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

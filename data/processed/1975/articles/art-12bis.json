@@ -41,7 +41,193 @@
   "anchor_id_fr": "u9awbgqjkf",
   "anchor_id_nl": "q7buqasthm",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le principe fondamental du mécanisme de la tirette (ritsen) en Belgique ?",
+      "text_nl": "Wat is het fundamentele principe van het ritsmechanisme in België?",
+      "text_ru": "Каков основной принцип механизма «застежки-молнии» (tirette) в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les conducteurs doivent s'intercaler dès qu'ils voient un panneau de rétrécissement, même s'il est loin.",
+          "text_nl": "Bestuurders moeten invoegen zodra ze een versmallingsbord zien, zelfs als het nog ver is.",
+          "text_ru": "Водители должны перестраиваться, как только они видят знак сужения, даже если он находится далеко.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conducteurs circulant sur une bande qui prend fin doivent s'intercaler juste devant le rétrécissement, et ceux sur la bande libre doivent leur céder la priorité tour à tour.",
+          "text_nl": "Bestuurders die op een rijstrook rijden die ophoudt, moeten vlak voor de versmalling invoegen, en bestuurders op de vrije rijstrook moeten hen beurtelings voorrang verlenen.",
+          "text_ru": "Водители, движущиеся по заканчивающейся полосе, должны перестроиться непосредственно перед сужением, а водители на свободной полосе должны уступать им дорогу поочередно.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les conducteurs sur la bande libre ont toujours priorité sur ceux qui s'intercalent.",
+          "text_nl": "Bestuurders op de vrije rijstrook hebben altijd voorrang op degenen die invoegen.",
+          "text_ru": "Водители на свободной полосе всегда имеют приоритет над теми, кто перестраивается.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 12bis stipule que les conducteurs sur une bande de circulation qui prend fin s'intercalent seulement juste devant le rétrécissement, et ceux sur la bande libre adjacente doivent leur céder la priorité tour à tour.",
+      "explanation_nl": "Artikel 12bis bepaalt dat bestuurders op een rijstrook die ophoudt slechts vlak voor de versmalling invoegen, en dat bestuurders op de aangrenzende vrije rijstrook hen beurtelings voorrang moeten verlenen.",
+      "explanation_ru": "Статья 12bis гласит, что водители на заканчивающейся полосе должны перестраиваться только непосредственно перед сужением, а водители на соседней свободной полосе должны уступать им дорогу поочередно."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon le mécanisme de la tirette, à quel moment précis un conducteur doit-il s'intercaler sur la bande libre adjacente lorsque sa bande prend fin ?",
+      "text_nl": "Volgens het ritsmechanisme, op welk precies moment moet een bestuurder invoegen op de aangrenzende vrije rijstrook wanneer zijn rijstrook ophoudt?",
+      "text_ru": "Согласно механизму «застежки-молнии», в какой именно момент водитель должен перестроиться на соседнюю свободную полосу, если его полоса заканчивается?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dès qu'il aperçoit les premiers véhicules ralentis, quel que soit l'emplacement du rétrécissement.",
+          "text_nl": "Zodra hij de eerste vertraagde voertuigen ziet, ongeacht de locatie van de versmalling.",
+          "text_ru": "Как только он замечает первые замедленные транспортные средства, независимо от местоположения сужения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dès qu'il le juge sûr, même si c'est bien avant le rétrécissement, pour anticiper.",
+          "text_nl": "Zodra hij het veilig acht, zelfs ruim voor de versmalling, om te anticiperen.",
+          "text_ru": "Как только он посчитает это безопасным, даже задолго до сужения, чтобы предвидеть.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement juste devant le rétrécissement.",
+          "text_nl": "Slechts vlak voor de versmalling.",
+          "text_ru": "Только непосредственно перед сужением.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 12bis indique clairement que les conducteurs sur une bande de circulation qui prend fin peuvent s’intercaler 'seulement juste devant le rétrécissement'.",
+      "explanation_nl": "Artikel 12bis geeft duidelijk aan dat bestuurders op een rijstrook die ophoudt zich 'slechts vlak voor de versmalling' mogen invoegen.",
+      "explanation_ru": "Статья 12bis четко указывает, что водители, движущиеся по заканчивающейся полосе, могут перестраиваться 'только непосредственно перед сужением'."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une autoroute à deux voies et la voie de droite prend fin dans 500 mètres en raison de travaux. La circulation est fortement ralentie. Que devez-vous faire pour appliquer le mécanisme de la tirette ?",
+      "text_nl": "U rijdt op een tweebaansweg en de rechterrijstrook eindigt over 500 meter wegens werken. Het verkeer is sterk vertraagd. Wat moet u doen om het ritsmechanisme toe te passen?",
+      "text_ru": "Вы едете по двухполосной автомагистрали, и правая полоса заканчивается через 500 метров из-за ремонтных работ. Движение сильно замедлено. Что вы должны делать, чтобы применить механизм «застежки-молнии»?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A two-lane highway where the right lane is ending due to roadworks, with slow-moving traffic. There's a sign indicating the lane ends in 500m. A car is currently in the right lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous changez de voie immédiatement pour vous insérer sur la voie de gauche, car le rétrécissement est annoncé.",
+          "text_nl": "U wisselt onmiddellijk van rijstrook om in te voegen op de linkerrijstrook, want de versmalling is aangekondigd.",
+          "text_ru": "Вы немедленно меняете полосу, чтобы перестроиться на левую полосу, так как сужение объявлено.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous continuez sur la voie de droite jusqu'à ce que vous soyez juste devant le rétrécissement, puis vous vous insérez sur la voie de gauche.",
+          "text_nl": "U rijdt verder op de rechterrijstrook tot u vlak voor de versmalling bent, en voegt dan in op de linkerrijstrook.",
+          "text_ru": "Вы продолжаете движение по правой полосе, пока не окажетесь непосредственно перед сужением, а затем перестраиваетесь на левую полосу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous vous arrêtez sur la voie de droite et attendez que quelqu'un vous laisse passer, même si le rétrécissement est encore loin.",
+          "text_nl": "U stopt op de rechterrijstrook en wacht tot iemand u laat invoegen, zelfs als de versmalling nog ver is.",
+          "text_ru": "Вы останавливаетесь на правой полосе и ждете, пока кто-нибудь вас пропустит, даже если сужение еще далеко.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 12bis prescrit de s'intercaler 'seulement juste devant le rétrécissement' pour permettre une utilisation maximale de la bande qui prend fin et fluidifier le trafic.",
+      "explanation_nl": "Artikel 12bis schrijft voor om 'slechts vlak voor de versmalling' in te voegen om maximaal gebruik te maken van de eindigende rijstrook en de verkeersstroom te optimaliseren.",
+      "explanation_ru": "Статья 12bis предписывает перестраиваться 'только непосредственно перед сужением', чтобы максимально использовать заканчивающуюся полосу и облегчить движение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur la bande de gauche, qui reste ouverte, et voyez un véhicule sur la bande de droite qui prend fin. La circulation est fortement ralentie. Un véhicule devant vous vient de laisser passer un conducteur de la bande de droite. Que devez-vous faire quand le prochain véhicule de la bande de droite arrive à votre niveau, juste devant le rétrécissement ?",
+      "text_nl": "U rijdt op de linkerrijstrook, die open blijft, en ziet een voertuig op de rechterrijstrook die ophoudt. Het verkeer is sterk vertraagd. Een voertuig voor u heeft zojuist een bestuurder van de rechterrijstrook laten invoegen. Wat moet u doen wanneer het volgende voertuig van de rechterrijstrook uw niveau bereikt, vlak voor de versmalling?",
+      "text_ru": "Вы ведете автомобиль по левой полосе, которая остается открытой, и видите транспортное средство на правой полосе, которая заканчивается. Движение сильно замедлено. Транспортное средство перед вами только что пропустило водителя с правой полосы. Что вы должны делать, когда следующее транспортное средство с правой полосы достигнет вашего уровня, непосредственно перед сужением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A two-lane road merging into one. Traffic is slow. A car on the open left lane is approaching the merge point. A car on the ending right lane is also approaching. The car ahead on the left lane has just allowed a car from the right lane to merge. The merging point is clearly visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous accélérez pour ne pas laisser passer le véhicule de la bande de droite, car vous êtes sur la bande principale.",
+          "text_nl": "U versnelt om het voertuig op de rechterrijstrook niet te laten invoegen, want u bevindt zich op de hoofdrijstrook.",
+          "text_ru": "Вы ускоряетесь, чтобы не пропустить транспортное средство с правой полосы, так как вы находитесь на главной полосе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous continuez sans ralentir, en attendant que le conducteur de la bande de droite trouve une opportunité sans votre intervention.",
+          "text_nl": "U rijdt verder zonder te vertragen, in afwachting dat de bestuurder op de rechterrijstrook zelf een gelegenheid vindt zonder uw tussenkomst.",
+          "text_ru": "Вы продолжаете движение, не замедляясь, ожидая, что водитель с правой полосы найдет возможность без вашего вмешательства.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous cédez la priorité au conducteur de la bande de droite, car la priorité doit être cédée tour à tour.",
+          "text_nl": "U verleent voorrang aan de bestuurder op de rechterrijstrook, want de voorrang moet beurtelings worden verleend.",
+          "text_ru": "Вы уступаете дорогу водителю с правой полосы, так как приоритет должен быть предоставлен поочередно.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 12bis stipule que les conducteurs sur la bande libre doivent céder 'tour à tour' la priorité à un conducteur qui s'intercale, juste devant le rétrécissement.",
+      "explanation_nl": "Artikel 12bis bepaalt dat de bestuurders op de vrije rijstrook 'beurtelings' voorrang moeten verlenen aan één invoegende bestuurder, vlak voor de versmalling.",
+      "explanation_ru": "Статья 12bis гласит, что водители на свободной полосе должны уступать дорогу 'поочередно' водителю, который перестраивается, непосредственно перед сужением."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez sur la bande centrale d'une route à trois voies, où les bandes de gauche et de droite sont toutes deux interrompues juste devant un rétrécissement important, et la circulation est fortement ralentie. Un véhicule de la bande de droite et un véhicule de la bande de gauche veulent tous deux s'insérer juste devant vous. Qui doit se voir céder la priorité en premier ?",
+      "text_nl": "U rijdt op de middenrijstrook van een driebaansweg, waar zowel de linker- als de rechterrijstrook worden verhinderd vlak voor een aanzienlijke versmalling, en het verkeer is sterk vertraagd. Een voertuig van de rechterrijstrook en een voertuig van de linkerrijstrook willen beide vlak voor u invoegen. Aan wie moet eerst voorrang worden verleend?",
+      "text_ru": "Вы едете по центральной полосе трехполосной дороги, где как левая, так и правая полосы прерываются непосредственно перед значительным сужением, и движение сильно замедлено. Транспортное средство с правой полосы и транспортное средство с левой полосы хотят оба перестроиться непосредственно перед вами. Кому следует уступить дорогу в первую очередь?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A three-lane road merging into a single central lane. Traffic is slow. A car is in the central lane. Cars in the ending left and right lanes are both trying to merge into the central lane just ahead of the central car. The merging point is visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur du véhicule de la bande de gauche.",
+          "text_nl": "De bestuurder van het voertuig op de linkerrijstrook.",
+          "text_ru": "Водитель транспортного средства на левой полосе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur du véhicule de la bande de droite.",
+          "text_nl": "De bestuurder van het voertuig op de rechterrijstrook.",
+          "text_ru": "Водитель транспортного средства на правой полосе.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est à la discrétion des conducteurs de s'entendre, il n'y a pas de règle fixe dans ce cas.",
+          "text_nl": "Het is aan de discretie van de bestuurders om tot een overeenkomst te komen; er is geen vaste regel in dit geval.",
+          "text_ru": "Это на усмотрение водителей договориться, в данном случае нет фиксированного правила.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 12bis précise que si la circulation est interrompue aussi bien sur la bande de gauche que sur celle de droite, la priorité doit être cédée 'à un conducteur qui se trouve sur la bande de droite et ensuite à un conducteur qui se trouve sur la bande de gauche'.",
+      "explanation_nl": "Artikel 12bis preciseert dat indien het rijden in zowel de linker als in de rechter rijstrook wordt verhinderd, 'eerst voorrang moet worden verleend aan één bestuurder op de rechter rijstrook en daarna aan één bestuurder op de linker rijstrook'.",
+      "explanation_ru": "Статья 12bis уточняет, что если движение прервано как на левой, так и на правой полосе, 'приоритет должен быть предоставлен сначала водителю, находящемуся на правой полосе, а затем водителю, находящемуся на левой полосе'."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "136b14685ddd",
@@ -51,6 +237,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:27:06Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

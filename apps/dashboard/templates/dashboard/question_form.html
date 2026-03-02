@@ -1,0 +1,144 @@
+{% extends "dashboard/base.html" %}
+
+{% block dashboard_content %}
+
+<div class="flex items-center gap-3 mb-6">
+  <a href="{% url 'dashboard:questions' %}" class="text-sm text-gray-500 hover:text-gray-700">← Questions</a>
+  {% if action == 'edit' %}
+    <span class="text-gray-300">/</span>
+    <a href="{% url 'dashboard:question_detail' question.pk %}" class="text-sm text-gray-500 hover:text-gray-700">Q#{{ question.pk }}</a>
+  {% endif %}
+  <span class="text-gray-300">/</span>
+  <span class="text-sm text-gray-700">{{ title }}</span>
+</div>
+
+<form method="post" enctype="multipart/form-data" class="grid lg:grid-cols-3 gap-6">
+  {% csrf_token %}
+
+  {# ── Left: Question fields ── #}
+  <div class="lg:col-span-2 space-y-4">
+
+    {# Questions text #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+      <h3 class="font-semibold text-gray-700 mb-4">Texte de la question</h3>
+      {% for field in form %}
+        {% if field.name in 'text,text_nl,text_ru' %}
+        <div class="mb-4">
+          <label class="block text-xs font-medium text-gray-600 mb-1">{{ field.label }}</label>
+          {{ field }}
+          {% if field.errors %}
+            <p class="text-xs text-red-600 mt-1">{{ field.errors|join:', ' }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {# Explanation #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+      <h3 class="font-semibold text-gray-700 mb-4">Explication</h3>
+      {% for field in form %}
+        {% if field.name in 'explanation,explanation_nl,explanation_ru' %}
+        <div class="mb-4">
+          <label class="block text-xs font-medium text-gray-600 mb-1">{{ field.label }}</label>
+          {{ field }}
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {# Answer options formset #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+      <h3 class="font-semibold text-gray-700 mb-4">Options de réponse</h3>
+      {{ formset.management_form }}
+      <div class="space-y-4">
+        {% for opt_form in formset %}
+          <div class="border border-gray-100 rounded-lg p-4 bg-gray-50">
+            {{ opt_form.id }}
+            {{ opt_form.order }}
+            <div class="flex items-start gap-3">
+              <div class="w-12 shrink-0">
+                <label class="text-xs text-gray-500">Let.</label>
+                {{ opt_form.letter }}
+              </div>
+              <div class="flex-1 grid grid-cols-1 gap-2">
+                <div>
+                  <label class="text-xs text-gray-500">FR *</label>
+                  {{ opt_form.text }}
+                </div>
+                <div>
+                  <label class="text-xs text-gray-500">NL</label>
+                  {{ opt_form.text_nl }}
+                </div>
+                <div>
+                  <label class="text-xs text-gray-500">RU</label>
+                  {{ opt_form.text_ru }}
+                </div>
+              </div>
+              <div class="flex flex-col items-center gap-1 pt-4">
+                <label class="text-xs text-gray-500">Correcte</label>
+                {{ opt_form.is_correct }}
+                {% if formset.can_delete %}
+                  <label class="text-xs text-red-400 mt-2">Suppr.</label>
+                  {{ opt_form.DELETE }}
+                {% endif %}
+              </div>
+            </div>
+            {% if opt_form.errors %}
+              <p class="text-xs text-red-600 mt-2">{{ opt_form.errors }}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  {# ── Right: Metadata + submit ── #}
+  <div class="space-y-4">
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
+      <h3 class="font-semibold text-gray-700 mb-4 text-sm">Métadonnées</h3>
+      {% for field in form %}
+        {% if field.name in 'category,code_article,traffic_sign,difficulty,is_active,is_official,source,image' %}
+        <div class="mb-3">
+          <label class="block text-xs font-medium text-gray-600 mb-1">{{ field.label }}</label>
+          {{ field }}
+          {% if field.errors %}
+            <p class="text-xs text-red-600 mt-1">{{ field.errors|join:', ' }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5 flex flex-col gap-3">
+      <button type="submit"
+              class="w-full py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700">
+        {% if action == 'create' %}Créer la question{% else %}Enregistrer les modifications{% endif %}
+      </button>
+      {% if action == 'edit' %}
+        <a href="{% url 'dashboard:question_detail' question.pk %}"
+           class="w-full py-2 text-center text-sm text-gray-500 border border-gray-200 rounded-lg hover:bg-gray-50">
+          Annuler
+        </a>
+        <a href="{% url 'dashboard:question_delete' question.pk %}"
+           class="w-full py-2 text-center text-sm text-red-500 border border-red-200 rounded-lg hover:bg-red-50">
+          Supprimer cette question
+        </a>
+      {% else %}
+        <a href="{% url 'dashboard:questions' %}"
+           class="w-full py-2 text-center text-sm text-gray-500 border border-gray-200 rounded-lg hover:bg-gray-50">
+          Annuler
+        </a>
+      {% endif %}
+    </div>
+
+    {% if form.non_field_errors %}
+    <div class="bg-red-50 border border-red-200 rounded-xl p-4 text-sm text-red-700">
+      {{ form.non_field_errors }}
+    </div>
+    {% endif %}
+  </div>
+
+</form>
+
+{% endblock %}

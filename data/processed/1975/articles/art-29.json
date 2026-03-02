@@ -26,7 +26,193 @@
   "anchor_id_fr": "atzzhdsixs",
   "anchor_id_nl": "bforg7bzvh",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 29, qu'est-il interdit d'utiliser en ce qui concerne les feux des véhicules ?",
+      "text_nl": "Volgens artikel 29, wat is verboden te gebruiken met betrekking tot de lichten van voertuigen?",
+      "text_ru": "Согласно статье 29, что запрещено использовать в отношении освещения транспортных средств?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Illustration of various car lights, some standard and some unusual or excessive."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les feux de croisement et de route.",
+          "text_nl": "Enkel de dimlichten en de grootlichten.",
+          "text_ru": "Только ближний и дальний свет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Tous les feux autres que ceux prescrits ou prévus par les règlements.",
+          "text_nl": "Alle lichten behalve die welke door de reglementen zijn voorgeschreven of voorzien.",
+          "text_ru": "Любые огни, кроме тех, которые предписаны или предусмотрены правилами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les feux de position uniquement.",
+          "text_nl": "Enkel de parkeerlichten.",
+          "text_ru": "Только габаритные огни.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 29 stipule qu'il est interdit d'utiliser d'autres feux que ceux qui sont prescrits ou prévus par le règlement ou par les règlements techniques des véhicules.",
+      "explanation_nl": "Artikel 29 stelt dat het verboden is om andere lichten te gebruiken dan die welke in het reglement of in de technische reglementen van de voertuigen zijn voorgeschreven of voorzien.",
+      "explanation_ru": "Статья 29 гласит, что запрещено использовать любые другие огни, кроме тех, которые предписаны или предусмотрены правилами или техническими нормами для транспортных средств."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que précise l'article 29 concernant l'utilisation des feux sur les véhicules ?",
+      "text_nl": "Wat bepaalt artikel 29 met betrekking tot het gebruik van lichten op voertuigen?",
+      "text_ru": "Что гласит статья 29 относительно использования освещения на транспортных средствах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image showing a car with its standard lights on, and another car with additional, non-standard decorative lights."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seuls les feux obligatoires par le code de la route peuvent être utilisés.",
+          "text_nl": "Alleen de verplichte lichten volgens de wegcode mogen gebruikt worden.",
+          "text_ru": "Могут использоваться только огни, обязательные согласно Правилам дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'utilisation de feux non prévus par les règlements techniques ou le présent règlement est interdite.",
+          "text_nl": "Het gebruik van lichten die niet voorzien zijn door de technische reglementen of dit reglement is verboden.",
+          "text_ru": "Запрещено использование огней, не предусмотренных техническими нормами или настоящими Правилами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les conducteurs peuvent ajouter des feux décoratifs tant qu'ils ne gênent pas les autres usagers.",
+          "text_nl": "Bestuurders mogen decoratieve lichten toevoegen zolang ze andere weggebruikers niet hinderen.",
+          "text_ru": "Водители могут добавлять декоративные огни, если они не мешают другим участникам движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 29 interdit explicitement l'utilisation de tout feu qui n'est pas prescrit ou prévu par le code de la route ou les règlements techniques des véhicules.",
+      "explanation_nl": "Artikel 29 verbiedt expliciet het gebruik van elk licht dat niet is voorgeschreven of voorzien door de wegcode of de technische reglementen van de voertuigen.",
+      "explanation_ru": "Статья 29 явно запрещает использование любых огней, которые не предписаны или не предусмотрены Правилами дорожного движения или техническими нормами для транспортных средств."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez de nuit sur une route non éclairée. Vous remarquez qu'une voiture circule avec des feux clignotants de couleur bleue à l'avant. Quelle est votre interprétation de cette situation, en référence à l'article 29 ?",
+      "text_nl": "U rijdt 's nachts op een onverlichte weg. U merkt dat een auto rijdt met blauwe knipperlichten aan de voorkant. Hoe interpreteert u deze situatie, met verwijzing naar artikel 29?",
+      "text_ru": "Вы едете ночью по неосвещенной дороге. Вы замечаете, что автомобиль движется с синими мигающими огнями спереди. Как вы интерпретируете эту ситуацию со ссылкой на статью 29?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Night scene on a dark, unlit road. A car in the distance has bright blue flashing lights at the front."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ces feux bleus sont autorisés pour signaler une anomalie technique.",
+          "text_nl": "Deze blauwe lichten zijn toegestaan om een technische storing te signaleren.",
+          "text_ru": "Эти синие огни разрешены для обозначения технической неисправности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'utilisation de feux bleus clignotants à l'avant n'est pas prévue par le règlement et est donc interdite selon l'article 29.",
+          "text_nl": "Het gebruik van blauwe knipperlichten aan de voorkant is niet voorzien door het reglement en is dus verboden volgens artikel 29.",
+          "text_ru": "Использование синих мигающих огней спереди не предусмотрено правилами и, следовательно, запрещено согласно статье 29.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ces feux sont probablement des feux de détresse inhabituels mais autorisés dans certaines circonstances.",
+          "text_nl": "Deze lichten zijn waarschijnlijk ongebruikelijke noodverlichting maar toegestaan onder bepaalde omstandigheden.",
+          "text_ru": "Эти огни, вероятно, являются необычными аварийными огнями, но разрешены при определенных обстоятельствах.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 29 interdit l'utilisation de feux non prescrits ou prévus. Les feux bleus clignotants à l'avant ne sont pas des feux standards pour un véhicule et leur utilisation est interdite.",
+      "explanation_nl": "Artikel 29 verbiedt het gebruik van lichten die niet zijn voorgeschreven of voorzien. Blauwe knipperlichten aan de voorkant zijn geen standaard lichten voor een voertuig en het gebruik ervan is verboden.",
+      "explanation_ru": "Статья 29 запрещает использование огней, не предписанных или не предусмотренных. Синие мигающие огни спереди не являются стандартными огнями для транспортного средства, и их использование запрещено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous observez un véhicule de tourisme équipé de phares qui émettent une lumière violette intense. En vertu de l'article 29, quelle est la principale préoccupation concernant ces phares ?",
+      "text_nl": "U observeert een personenauto uitgerust met koplampen die een intens paars licht uitstralen. Welk is, krachtens artikel 29, de belangrijkste zorg met betrekking tot deze koplampen?",
+      "text_ru": "Вы наблюдаете легковой автомобиль, оснащенный фарами, излучающими интенсивный фиолетовый свет. Согласно статье 29, какова основная проблема, связанная с этими фарами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Close-up of a car's headlight emitting a strong, unnatural purple light."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Leur couleur peut être différente, tant que l'intensité lumineuse est conforme.",
+          "text_nl": "Hun kleur mag anders zijn, zolang de lichtintensiteit conform is.",
+          "text_ru": "Их цвет может быть другим, если интенсивность света соответствует требованиям.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ces phares ne sont pas conformes aux règlements techniques et leur usage est donc interdit par l'article 29.",
+          "text_nl": "Deze koplampen voldoen niet aan de technische reglementen en hun gebruik is dus verboden door artikel 29.",
+          "text_ru": "Эти фары не соответствуют техническим нормам, и поэтому их использование запрещено статьей 29.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La lumière violette est une nouvelle technologie autorisée pour améliorer la vision.",
+          "text_nl": "Paars licht is een nieuwe technologie die is toegestaan om het zicht te verbeteren.",
+          "text_ru": "Фиолетовый свет - это новая технология, разрешенная для улучшения видимости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 29 stipule que seuls les feux prescrits ou prévus par les règlements peuvent être utilisés. Une lumière violette intense émise par des phares n'est généralement pas conforme aux normes techniques pour l'éclairage automobile.",
+      "explanation_nl": "Artikel 29 stelt dat alleen lichten die zijn voorgeschreven of voorzien door de reglementen mogen worden gebruikt. Een intens paars licht dat door koplampen wordt uitgestraald, voldoet over het algemeen niet aan de technische normen voor autoverlichting.",
+      "explanation_ru": "Статья 29 гласит, что могут использоваться только те огни, которые предписаны или предусмотрены правилами. Интенсивный фиолетовый свет, излучаемый фарами, как правило, не соответствует техническим стандартам автомобильного освещения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un cyclomoteur équipé de lumières sous le châssis qui changent de couleur en permanence. Selon l'article 29, cette modification est-elle autorisée ?",
+      "text_nl": "U ziet een bromfiets uitgerust met onder het chassis veranderende, kleurrijke lichten. Is deze aanpassing, volgens artikel 29, toegestaan?",
+      "text_ru": "Вы видите мопед, оснащенный постоянно меняющими цвет огнями под рамой. Разрешена ли эта модификация согласно статье 29?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a moped at night with colorful LED lights glowing underneath its frame."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, tant que les feux principaux du cyclomoteur fonctionnent correctement.",
+          "text_nl": "Ja, zolang de hoofdverlichting van de bromfiets correct functioneert.",
+          "text_ru": "Да, если основные огни мопеда работают исправно.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car l'article 29 interdit l'utilisation de feux autres que ceux prévus par les règlements techniques pour les cyclomoteurs.",
+          "text_nl": "Nee, omdat artikel 29 het gebruik van andere lichten dan die voorzien zijn door de technische reglementen voor bromfietsen verbiedt.",
+          "text_ru": "Нет, поскольку статья 29 запрещает использование огней, отличных от тех, которые предусмотрены техническими нормами для мопедов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la visibilité de ces lumières pour les autres usagers.",
+          "text_nl": "Het hangt af van de zichtbaarheid van deze lichten voor andere weggebruikers.",
+          "text_ru": "Это зависит от видимости этих огней для других участников движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 29 est clair : seuls les feux prescrits ou prévus par le règlement ou les règlements techniques sont autorisés. Les lumières décoratives sous le châssis d'un cyclomoteur ne font pas partie de ces feux réglementaires.",
+      "explanation_nl": "Artikel 29 is duidelijk: alleen de lichten die zijn voorgeschreven of voorzien door het reglement of de technische reglementen zijn toegestaan. Decoratieve lichten onder het chassis van een bromfiets maken geen deel uit van deze reglementaire lichten.",
+      "explanation_ru": "Статья 29 четко гласит: разрешены только те огни, которые предписаны или предусмотрены правилами или техническими нормами. Декоративное освещение под рамой мопеда не входит в число этих регулируемых огней."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "990801f708e4",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:11:38Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

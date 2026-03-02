@@ -28,7 +28,178 @@
   "anchor_id_fr": "53kvf1piws",
   "anchor_id_nl": "qvaqcojrfy",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 32.1, quand les feux chercheurs et les projecteurs de travail peuvent-ils être utilisés ?",
+      "text_nl": "Volgens artikel 32.1, wanneer mogen zoeklichten en werkprojectoren gebruikt worden?",
+      "text_ru": "Согласно статье 32.1, когда можно использовать поисковые прожекторы и рабочие прожекторы?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement la nuit.",
+          "text_nl": "Enkel 's nachts.",
+          "text_ru": "Только ночью.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dans la mesure strictement nécessaire.",
+          "text_nl": "Voor zover strikt noodzakelijk.",
+          "text_ru": "Насколько это строго необходимо.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À tout moment pour améliorer la visibilité.",
+          "text_nl": "Op elk moment om het zicht te verbeteren.",
+          "text_ru": "В любое время для улучшения видимости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 32.1 stipule que les feux chercheurs et les projecteurs de travail ne peuvent être utilisés que dans la mesure strictement nécessaire.",
+      "explanation_nl": "Artikel 32.1 stelt dat zoeklichten en werkprojectoren slechts gebruikt mogen worden voor zover strikt noodzakelijk.",
+      "explanation_ru": "Статья 32.1 гласит, что поисковые прожекторы и рабочие прожекторы могут использоваться только по мере крайней необходимости."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quelles circonstances les feux jaune-orange clignotants des dépanneuses doivent-ils être utilisés, selon l'article 32.2 ?",
+      "text_nl": "In welke omstandigheden moeten de oranjegele knipperlichten van takelwagens gebruikt worden, volgens artikel 32.2?",
+      "text_ru": "При каких обстоятельствах должны использоваться оранжево-желтые мигающие огни эвакуаторов, согласно статье 32.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement lorsqu'ils remorquent un véhicule.",
+          "text_nl": "Enkel wanneer ze een voertuig slepen.",
+          "text_ru": "Только когда они буксируют транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur les lieux du dépannage et pendant le remorquage.",
+          "text_nl": "Op de plaats van het depanneren en tijdens het wegslepen.",
+          "text_ru": "На месте ремонта и во время буксировки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "En permanence pour signaler leur présence.",
+          "text_nl": "Permanent om hun aanwezigheid aan te geven.",
+          "text_ru": "Постоянно для обозначения их присутствия.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 32.2 précise que les feux jaune-orange clignotants des dépanneuses doivent être utilisés sur les lieux du dépannage et pendant le remorquage.",
+      "explanation_nl": "Artikel 32.2 stelt dat de oranjegele knipperlichten van takelwagens gebruikt moeten worden op de plaats van het depanneren en tijdens het wegslepen.",
+      "explanation_ru": "Статья 32.2 уточняет, что оранжево-желтые мигающие огни эвакуаторов должны использоваться на месте ремонта и во время буксировки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un tracteur agricole de nuit. Que devez-vous faire concernant l'utilisation des feux, conformément à l'article 32.2 ?",
+      "text_nl": "U bestuurt een landbouwtractor 's nachts. Wat moet u doen met betrekking tot het gebruik van de lichten, volgens artikel 32.2?",
+      "text_ru": "Вы управляете сельскохозяйственным трактором ночью. Что вы должны сделать относительно использования фар, согласно статье 32.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Utiliser un phare standard et éventuellement les feux de détresse si nécessaire.",
+          "text_nl": "Gebruik een standaard koplamp en eventueel de alarmlichten indien nodig.",
+          "text_ru": "Использовать стандартную фару и, возможно, аварийные огни при необходимости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Utiliser un ou deux feux jaune-orange clignotants, visibles dans toutes les directions.",
+          "text_nl": "Gebruik één of twee oranjegele knipperlichten, zichtbaar in alle richtingen.",
+          "text_ru": "Использовать один или два оранжево-желтых мигающих огня, видимых во всех направлениях.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ne pas utiliser de feux supplémentaires, car cela pourrait gêner les autres conducteurs.",
+          "text_nl": "Gebruik geen extra lichten, omdat dit andere bestuurders kan hinderen.",
+          "text_ru": "Не использовать дополнительные огни, так как это может помешать другим водителям.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 32.2 stipule que les conducteurs de tracteurs agricoles doivent utiliser un ou deux feux jaune-orange clignotants, placés de manière à être visibles dans toutes les directions, entre la tombée et le lever du jour.",
+      "explanation_nl": "Artikel 32.2 stelt dat bestuurders van landbouwtractoren één of twee oranjegele knipperlichten moeten gebruiken die zodanig geplaatst zijn dat ze in alle richtingen zichtbaar zijn, tussen het vallen van de avond en het aanbreken van de dag.",
+      "explanation_ru": "Статья 32.2 гласит, что водители сельскохозяйственных тракторов должны использовать один или два оранжево-желтых мигающих огня, расположенных так, чтобы они были видны во всех направлениях, между закатом и рассветом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes policier et vous vous rendez sur les lieux d'un incident sur l'autoroute en utilisant le couloir de secours. Quelle signalisation lumineuse devez-vous activer, conformément à l'article 32.3 ?",
+      "text_nl": "U bent een politieagent en u begeeft zich naar een incident op de snelweg via de pechstrook. Welke lichtsignalering moet u inschakelen, volgens artikel 32.3?",
+      "text_ru": "Вы являетесь сотрудником полиции и направляетесь к месту происшествия на автомагистрали, используя полосу для экстренной остановки. Какую световую сигнализацию вы должны включить, согласно статье 32.3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les feux de détresse uniquement.",
+          "text_nl": "Enkel de alarmlichten.",
+          "text_ru": "Только аварийные огни.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un ou deux feux jaune-orange clignotants.",
+          "text_nl": "Eén of twee oranjegele knipperlichten.",
+          "text_ru": "Один или два оранжево-желтых мигающих огня.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les feux de route pour signaler votre urgence.",
+          "text_nl": "De grootlichten om uw urgentie aan te geven.",
+          "text_ru": "Дальний свет для обозначения вашей срочности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 32.3 stipule que les véhicules des personnes ou des services requis par le ministère public, la police fédérale ou locale doivent, lorsqu'ils circulent dans le couloir de secours, utiliser un ou deux feux jaune-orange clignotants.",
+      "explanation_nl": "Artikel 32.3 stelt dat voertuigen van personen of diensten die vereist zijn door het openbaar ministerie, de federale of lokale politie, één of twee oranjegele knipperlichten moeten gebruiken wanneer zij in de pechstrook rijden.",
+      "explanation_ru": "Статья 32.3 гласит, что транспортные средства лиц или служб, требуемых прокуратурой, федеральной или местной полицией, должны использовать один или два оранжево-желтых мигающих огня при движении по полосе для экстренной остановки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur une route à trois bandes de circulation et il fait nuit. Vous conduisez un véhicule qui n'est pas affecté à une tâche particulière, mais qui est en mouvement normal. Devez-vous utiliser des feux jaune-orange clignotants, selon l'article 32.2 ?",
+      "text_nl": "U rijdt op een weg met drie rijstroken en het is nacht. U bestuurt een voertuig dat niet is toegewezen aan een specifieke taak, maar normaal rijdt. Moet u oranjegele knipperlichten gebruiken, volgens artikel 32.2?",
+      "text_ru": "Вы едете по трехполосной дороге ночью. Вы управляете транспортным средством, которое не назначено для конкретной задачи, но движется в обычном режиме. Должны ли вы использовать оранжево-желтые мигающие огни, согласно статье 32.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car la route comporte plus de deux bandes de circulation.",
+          "text_nl": "Ja, omdat de weg meer dan twee rijstroken heeft.",
+          "text_ru": "Да, потому что на дороге более двух полос движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car le véhicule n'est pas affecté à une tâche spéciale et n'est pas un tracteur agricole.",
+          "text_nl": "Nee, omdat het voertuig niet is toegewezen aan een speciale taak en geen landbouwtractor is.",
+          "text_ru": "Нет, потому что транспортное средство не назначено для специальной задачи и не является сельскохозяйственным трактором.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si la visibilité est réduite à moins de 200 mètres.",
+          "text_nl": "Alleen als het zicht beperkt is tot minder dan 200 meter.",
+          "text_ru": "Только если видимость снижена до менее чем 200 метров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 32.2 spécifie que les conducteurs de tracteurs agricoles doivent utiliser des feux jaune-orange clignotants en permanence sur les voies publiques comportant plus de deux bandes de circulation, entre la tombée et le lever du jour et lorsque la visibilité est réduite. Cet usage n'est pas généralisé à tous les véhicules dans ce contexte.",
+      "explanation_nl": "Artikel 32.2 specificeert dat bestuurders van landbouwtractoren permanent oranjegele knipperlichten moeten gebruiken op openbare wegen met meer dan twee rijstroken, tussen het vallen van de avond en het aanbreken van de dag en wanneer het zicht beperkt is. Dit gebruik is niet gegeneraliseerd voor alle voertuigen in deze context.",
+      "explanation_ru": "Статья 32.2 уточняет, что водители сельскохозяйственных тракторов должны постоянно использовать оранжево-желтые мигающие огни на дорогах с более чем двумя полосами движения, между закатом и рассветом и при сниженной видимости. Это правило не распространяется на все транспортные средства в данном контексте."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "008f151c2f3e",
@@ -38,6 +209,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:14:50Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

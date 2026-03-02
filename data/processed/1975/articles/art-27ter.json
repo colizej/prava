@@ -26,7 +26,178 @@
   "anchor_id_fr": "ql8lahbxqd",
   "anchor_id_nl": "xrvst4swng",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie la signalisation d'une place de stationnement avec la lettre 'P' accompagnée des mots 'carte de stationnement', 'riverains' ou 'voitures partagées' ?",
+      "text_nl": "Wat betekent de signalisatie van een parkeerplaats met de letter 'P' vergezeld van de woorden 'parkeerkaart', 'bewoners' of 'autodelen'?",
+      "text_ru": "Что означает обозначение парковочного места буквой «P» и словами «парковочная карта», «жители» или «каршеринг»?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ces places sont gratuites pour tous les usagers.",
+          "text_nl": "Deze plaatsen zijn gratis voor alle gebruikers.",
+          "text_ru": "Эти места бесплатны для всех пользователей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ces places sont réservées aux véhicules disposant de la carte correspondante (communale, riverain ou voiture partagée).",
+          "text_nl": "Deze plaatsen zijn voorbehouden voor voertuigen die over de bijbehorende kaart beschikken (gemeentelijk, bewoners of autodelen).",
+          "text_ru": "Эти места зарезервированы для транспортных средств, имеющих соответствующую карту (муниципальную, для жителей или каршеринга).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ces places sont réservées aux véhicules de livraison uniquement.",
+          "text_nl": "Deze plaatsen zijn uitsluitend voorbehouden voor leveringsvoertuigen.",
+          "text_ru": "Эти места зарезервированы только для грузовых автомобилей доставки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27ter précise que ces places sont réservées aux véhicules qui apposent la carte de stationnement appropriée (communale, riverain ou voiture partagée).",
+      "explanation_nl": "Artikel 27ter verduidelijkt dat deze plaatsen voorbehouden zijn voor voertuigen waarop de juiste parkeerkaart (gemeentelijk, bewoners of autodelen) is aangebracht.",
+      "explanation_ru": "Статья 27тер уточняет, что эти места зарезервированы для транспортных средств, на которых размещена соответствующая парковочная карта (муниципальная, для жителей или каршеринга)."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Où doit être apposée la carte de stationnement pour être visible et lisible sur un véhicule selon l'article 27ter ?",
+      "text_nl": "Waar moet de parkeerkaart volgens artikel 27ter aangebracht worden om duidelijk en zichtbaar te zijn op een voertuig?",
+      "text_ru": "Где, согласно статье 27тер, должна быть размещена парковочная карта, чтобы быть четко видимой и читаемой на транспортном средстве?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Sur le tableau de bord, à l'extérieur du véhicule.",
+          "text_nl": "Op het dashboard, aan de buitenkant van het voertuig.",
+          "text_ru": "На приборной панели, снаружи транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur la vitre arrière, à l'intérieur.",
+          "text_nl": "Op de achterruit, aan de binnenkant.",
+          "text_ru": "На заднем стекле, внутри.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "À l'intérieur du pare-brise, ou sur la partie avant du véhicule s'il n'y a pas de pare-brise.",
+          "text_nl": "Aan de binnenkant van de voorruit, of op het voorste gedeelte van het voertuig als er geen voorruit is.",
+          "text_ru": "Внутри лобового стекла или на передней части транспортного средства, если нет лобового стекла.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 27ter stipule que la carte doit être apposée à l'intérieur du pare-brise, ou sur la partie avant du véhicule si celui-ci n'en est pas équipé.",
+      "explanation_nl": "Artikel 27ter bepaalt dat de kaart aan de binnenkant van de voorruit moet worden aangebracht, of op het voorste gedeelte van het voertuig indien dit er niet mee is uitgerust.",
+      "explanation_ru": "Статья 27тер гласит, что карта должна быть размещена внутри лобового стекла или на передней части транспортного средства, если оно им не оборудовано."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez dans une rue résidentielle et voyez une place de stationnement libre signalée par la lettre 'P' et les mots 'riverains'. Vous n'avez pas de carte de riverain. Pouvez-vous vous y garer ?",
+      "text_nl": "U komt aan in een woonerf en ziet een vrije parkeerplaats gesignaleerd met de letter 'P' en het woord 'bewoners'. U heeft geen bewonerskaart. Mag u er parkeren?",
+      "text_ru": "Вы подъезжаете к жилой зоне и видите свободное парковочное место, обозначенное буквой «P» и словом «жители». У вас нет карты жителя. Можете ли вы там припарковаться?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car la place est libre dans une zone résidentielle.",
+          "text_nl": "Ja, want de plaats is vrij in een woonerf.",
+          "text_ru": "Да, потому что место свободно в жилой зоне.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car cette place est spécifiquement réservée aux résidents disposant de la carte appropriée.",
+          "text_nl": "Nee, want deze plaats is specifiek voorbehouden aan bewoners met de bijbehorende kaart.",
+          "text_ru": "Нет, потому что это место специально зарезервировано для жителей, имеющих соответствующую карту.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si vous stationnez pour une courte durée.",
+          "text_nl": "Ja, als u voor korte duur parkeert.",
+          "text_ru": "Да, если вы паркуетесь на короткое время.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27ter indique clairement que les places signalées avec 'riverains' sont réservées aux véhicules possédant la carte de riverain.",
+      "explanation_nl": "Artikel 27ter geeft duidelijk aan dat plaatsen gesignaleerd met 'bewoners' voorbehouden zijn voor voertuigen met een bewonerskaart.",
+      "explanation_ru": "Статья 27тер ясно указывает, что места, обозначенные как «жители», зарезервированы для транспортных средств, имеющих карту жителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez une voiture partagée. Vous trouvez une place de stationnement avec le panneau 'P' et l'indication 'voitures partagées'. Où devez-vous placer la carte de stationnement pour voiture partagée ?",
+      "text_nl": "U bestuurt een deelauto. U vindt een parkeerplaats met het 'P'-bord en de vermelding 'autodelen'. Waar moet u de parkeerkaart voor deelauto's plaatsen?",
+      "text_ru": "Вы управляете каршеринговым автомобилем. Вы находите парковочное место с знаком «P» и указанием «каршеринг». Где вы должны разместить парковочную карту для каршеринга?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À l'extérieur du véhicule, sur le tableau de bord.",
+          "text_nl": "Aan de buitenkant van het voertuig, op het dashboard.",
+          "text_ru": "Снаружи транспортного средства, на приборной панели.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À l'intérieur du pare-brise, de manière visible et lisible.",
+          "text_nl": "Aan de binnenkant van de voorruit, op een duidelijke en leesbare manier.",
+          "text_ru": "Внутри лобового стекла, четко и читаемо.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sur la portière du conducteur, à l'extérieur.",
+          "text_nl": "Op de bestuurdersdeur, aan de buitenkant.",
+          "text_ru": "На двери водителя, снаружи.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 27ter, la carte de stationnement doit être apposée à l'intérieur du pare-brise ou sur la partie avant du véhicule de manière visible et lisible.",
+      "explanation_nl": "Volgens artikel 27ter moet de parkeerkaart aan de binnenkant van de voorruit of op het voorste gedeelte van het voertuig worden aangebracht, op een duidelijke en leesbare manier.",
+      "explanation_ru": "В соответствии со статьей 27тер, парковочная карта должна быть размещена внутри лобового стекла или на передней части транспортного средства таким образом, чтобы она была четко видна и читаема."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous voyez un panneau 'P' avec un pictogramme de carte de stationnement et le texte 'carte communale' dans une zone non résidentielle. Vous possédez une carte de riverain pour votre quartier. Pouvez-vous utiliser cette place de stationnement ?",
+      "text_nl": "U ziet een 'P'-bord met een pictogram van een parkeerkaart en de tekst 'gemeentelijk' in een niet-woonzone. U heeft een bewonerskaart voor uw wijk. Mag u deze parkeerplaats gebruiken?",
+      "text_ru": "Вы видите знак «P» с пиктограммой парковочной карты и текстом «муниципальная» в нежилой зоне. У вас есть карта жителя вашего района. Можете ли вы использовать это парковочное место?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car la carte de riverain est aussi une carte communale.",
+          "text_nl": "Ja, want de bewonerskaart is ook een gemeentelijke kaart.",
+          "text_ru": "Да, потому что карта жителя — это тоже муниципальная карта.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car la place est spécifiquement réservée aux détenteurs de la carte communale, et non de la carte de riverain.",
+          "text_nl": "Nee, want de plaats is specifiek voorbehouden aan houders van de gemeentelijke kaart, niet aan de bewonerskaart.",
+          "text_ru": "Нет, потому что место специально зарезервировано для владельцев муниципальной карты, а не карты жителя.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si vous résidez dans la commune où se trouve le stationnement.",
+          "text_nl": "Ja, als u in de gemeente woont waar de parkeerplaats zich bevindt.",
+          "text_ru": "Да, если вы проживаете в муниципалитете, где находится парковочное место.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27ter distingue clairement les cartes : la 'carte communale de stationnement' est différente de la 'carte de riverain'. La place est donc réservée aux titulaires de la carte communale.",
+      "explanation_nl": "Artikel 27ter maakt duidelijk onderscheid tussen de kaarten: de 'gemeentelijke parkeerkaart' is anders dan de 'bewonerskaart'. De plaats is dus voorbehouden aan houders van de gemeentelijke kaart.",
+      "explanation_ru": "Статья 27тер четко различает карты: «муниципальная парковочная карта» отличается от «карты жителя». Таким образом, место зарезервировано для владельцев муниципальной карты."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "5fbab594e016",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:11:01Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

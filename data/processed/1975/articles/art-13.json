@@ -26,7 +26,193 @@
   "anchor_id_fr": "4ptofkeiqv",
   "anchor_id_nl": "22v6lra8tn",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon le Code de la route belge, quel est le moyen prioritaire pour indiquer une intention de manœuvre nécessitant un déplacement latéral ou une modification de direction, si le véhicule en est pourvu ?",
+      "text_nl": "Volgens de Belgische Wegcode, wat is het prioritaire middel om de intentie aan te geven van een manoeuvre die een zijdelingse verplaatsing of een richtingsverandering vereist, indien het voertuig hiermee is uitgerust?",
+      "text_ru": "Согласно Бельгийскому кодексу дорожного движения, какое средство является приоритетным для обозначения намерения выполнить маневр, требующий бокового смещения или изменения направления, если транспортное средство им оборудовано?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Par un coup de klaxon.",
+          "text_nl": "Door te claxonneren.",
+          "text_ru": "Гудя клаксоном.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au moyen des feux indicateurs de direction.",
+          "text_nl": "Met de richtingsaanwijzers.",
+          "text_ru": "С помощью указателей поворота.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Par un geste du bras, même si le véhicule a des clignotants.",
+          "text_nl": "Door een teken met de arm, zelfs als het voertuig richtingsaanwijzers heeft.",
+          "text_ru": "Жестом руки, даже если транспортное средство имеет указатели поворота.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 13 stipule que le conducteur doit indiquer son intention « au moyen des feux indicateurs de direction lorsque le véhicule en est pourvu ».",
+      "explanation_nl": "Artikel 13 bepaalt dat de bestuurder zijn voornemen kenbaar moet maken « met de richtingsaanwijzers wanneer het voertuig daarvan voorzien is ».",
+      "explanation_ru": "Статья 13 гласит, что водитель должен обозначить свое намерение « с помощью указателей поворота, если транспортное средство ими оборудовано »."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "D'après l'article 13 du Code de la route, à quel moment l'indication d'une manœuvre doit-elle cesser ?",
+      "text_nl": "Volgens artikel 13 van de Wegcode, wanneer moet de aanduiding van een manoeuvre ophouden?",
+      "text_ru": "Согласно статье 13 Правил дорожного движения, в какой момент должно прекратиться обозначение маневра?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Immédiatement après avoir commencé la manœuvre.",
+          "text_nl": "Onmiddellijk na het begin van de manoeuvre.",
+          "text_ru": "Сразу после начала маневра.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dès que le déplacement latéral ou la modification de direction est accompli.",
+          "text_nl": "Zodra de zijdelingse verplaatsing of de wijziging van richting uitgevoerd is.",
+          "text_ru": "Как только боковое смещение или изменение направления завершено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Au moment de la reprise de la vitesse normale.",
+          "text_nl": "Bij het hervatten van de normale snelheid.",
+          "text_ru": "В момент восстановления нормальной скорости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 13 précise que « Cette indication doit cesser dès que le déplacement latéral ou la modification de direction est accompli ».",
+      "explanation_nl": "Artikel 13 preciseert dat « Deze aanduiding moet ophouden zodra de zijdelingse verplaatsing of de wijziging van richting uitgevoerd is ».",
+      "explanation_ru": "Статья 13 уточняет, что « Это обозначение должно прекратиться, как только боковое смещение или изменение направления завершено »."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous roulez sur l'autoroute et souhaitez changer de bande pour dépasser un véhicule. Quand devez-vous activer votre feu indicateur de direction ?",
+      "text_nl": "U rijdt op de snelweg en wilt van rijstrook wisselen om een voertuig in te halen. Wanneer moet u uw richtingsaanwijzer aanzetten?",
+      "text_ru": "Вы едете по автомагистрали и хотите сменить полосу движения, чтобы обогнать автомобиль. Когда вы должны включить указатель поворота?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Juste au moment de commencer le changement de bande.",
+          "text_nl": "Net op het moment dat u de rijstrookwisseling begint.",
+          "text_ru": "Прямо в момент начала смены полосы движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suffisamment à temps avant d'entamer le déplacement latéral.",
+          "text_nl": "Tijdig genoeg voordat u de zijdelingse verplaatsing begint.",
+          "text_ru": "Достаточно заблаговременно до начала бокового смещения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Après avoir vérifié que la voie est libre, mais sans urgence.",
+          "text_nl": "Nadat u hebt gecontroleerd of de rijstrook vrij is, maar zonder haast.",
+          "text_ru": "После того как убедитесь, что полоса свободна, но без спешки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 13 exige que le conducteur indique son intention « suffisamment à temps » avant d'effectuer un mouvement nécessitant un déplacement latéral, tel qu'un changement de bande.",
+      "explanation_nl": "Artikel 13 vereist dat de bestuurder zijn voornemen « tijdig genoeg » kenbaar maakt voordat hij een beweging uitvoert die een zijdelingse verplaatsing vereist, zoals een rijstrookwisseling.",
+      "explanation_ru": "Статья 13 требует, чтобы водитель обозначил свое намерение « достаточно заблаговременно » до выполнения маневра, требующего бокового смещения, такого как смена полосы движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous apprêtez à stationner votre véhicule en créneau le long du trottoir. L'article 13 du Code de la route vous impose-t-il d'utiliser vos feux indicateurs de direction ?",
+      "text_nl": "U staat op het punt uw voertuig in te parkeren langs de stoep. Verplicht artikel 13 van de Wegcode u om uw richtingsaanwijzers te gebruiken?",
+      "text_ru": "Вы собираетесь припарковать свой автомобиль параллельно бордюру. Требует ли статья 13 Правил дорожного движения от вас использования указателей поворота?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, l'utilisation des clignotants n'est pas nécessaire pour le stationnement.",
+          "text_nl": "Nee, het gebruik van richtingsaanwijzers is niet nodig voor parkeren.",
+          "text_ru": "Нет, использование указателей поворота не требуется для парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car le stationnement en créneau est une manœuvre qui entraîne un déplacement latéral.",
+          "text_nl": "Ja, want parallel parkeren is een manoeuvre die een zijdelingse verplaatsing met zich meebrengt.",
+          "text_ru": "Да, потому что параллельная парковка — это маневр, который включает боковое смещение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si d'autres véhicules sont à proximité.",
+          "text_nl": "Alleen als er andere voertuigen in de buurt zijn.",
+          "text_ru": "Только если рядом есть другие транспортные средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 13 s'applique à toute « manœuvre ou mouvement nécessitant un déplacement latéral ». Le stationnement en créneau implique un déplacement latéral et une modification de direction, rendant l'utilisation des clignotants obligatoire.",
+      "explanation_nl": "Artikel 13 is van toepassing op elke « manoeuvre of een beweging die een zijdelingse verplaatsing vereist ». Parallel parkeren houdt een zijdelingse verplaatsing en een wijziging van richting in, waardoor het gebruik van de richtingaanwijzers verplicht is.",
+      "explanation_ru": "Статья 13 применяется к любому « маневру или движению, требующему бокового смещения ». Параллельная парковка включает боковое смещение и изменение направления, что делает использование указателей поворота обязательным."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes sur le point de tourner à gauche à une intersection, mais votre feu indicateur de direction gauche tombe en panne juste avant la manœuvre. Que devez-vous faire si la situation le permet et la visibilité est bonne ?",
+      "text_nl": "U staat op het punt om linksaf te slaan op een kruispunt, maar uw linkerrichtingsaanwijzer valt net voor de manoeuvre uit. Wat moet u doen als de situatie het toelaat en het zicht goed is?",
+      "text_ru": "Вы собираетесь повернуть налево на перекрестке, но ваш левый указатель поворота отказывает прямо перед маневром. Что вы должны сделать, если ситуация позволяет и видимость хорошая?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Renoncer à tourner et continuer tout droit jusqu'à un endroit sûr.",
+          "text_nl": "Afzien van afslaan en rechtdoor rijden tot een veilige plaats.",
+          "text_ru": "Отказаться от поворота и продолжать движение прямо до безопасного места.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indiquer votre intention de tourner à gauche par un geste du bras.",
+          "text_nl": "Uw intentie om linksaf te slaan aangeven door een teken met de arm.",
+          "text_ru": "Обозначить свое намерение повернуть налево жестом руки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour avertir les autres usagers.",
+          "text_nl": "Claxonneren om andere weggebruikers te waarschuwen.",
+          "text_ru": "Посигналить, чтобы предупредить других участников движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 13 prévoit une solution de remplacement en cas de défaillance des feux indicateurs de direction : « ou, sinon, et si possible, par un geste du bras ».",
+      "explanation_nl": "Artikel 13 voorziet een alternatieve oplossing bij uitval van de richtingsaanwijzers: « of, zoniet en indien mogelijk, door een teken met de arm ».",
+      "explanation_ru": "Статья 13 предусматривает запасной вариант в случае отказа указателей поворота: « или, если нет такой возможности, и если возможно, жестом руки »."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "16509bcf0af8",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:27:32Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

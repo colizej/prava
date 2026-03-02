@@ -26,7 +26,193 @@
   "anchor_id_fr": "hah4d5gjlc",
   "anchor_id_nl": "0qxtbauqtv",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon le code de la route belge, qui est assimilé aux cyclistes lors de la circulation dans les zones cyclables ?",
+      "text_nl": "Volgens de Belgische wegcode, wie wordt gelijkgesteld met fietsers bij het rijden in fietszones?",
+      "text_ru": "Согласно бельгийскому ПДД, кто приравнивается к велосипедистам при движении в велосипедных зонах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An illustration showing various types of two-wheeled vehicles, perhaps some with pedals and some with motors."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les conducteurs de trottinettes électriques.",
+          "text_nl": "De bestuurders van elektrische steps.",
+          "text_ru": "Водители электросамокатов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conducteurs de cycles ou de speed pedelecs.",
+          "text_nl": "De bestuurders van rijwielen of speed pedelecs.",
+          "text_ru": "Водители велосипедов или скоростных электровелосипедов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les conducteurs de cyclomoteurs de classe A.",
+          "text_nl": "De bestuurders van bromfietsen klasse A.",
+          "text_ru": "Водители мопедов класса А.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22novies stipule clairement que « Pour l’application du présent article, sont assimilés aux cyclistes : les conducteurs de cycles ou de speed pedelecs. »",
+      "explanation_nl": "Artikel 22novies stelt duidelijk dat « Worden voor de toepassing van dit artikel met fietsers gelijkgesteld: de bestuurders van rijwielen of speed pedelecs. »",
+      "explanation_ru": "Статья 22novies четко указывает, что « Для применения данной статьи к велосипедистам приравниваются: водители велосипедов или скоростных электровелосипедов. »"
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans une zone cyclable, quelle est la règle concernant le dépassement de cyclistes par les véhicules à moteur ?",
+      "text_nl": "Wat is in een fietszone de regel betreffende het inhalen van fietsers door motorvoertuigen?",
+      "text_ru": "Каково правило относительно обгона велосипедистов моторизованными транспортными средствами в велосипедной зоне?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A road sign F5 (cyclable zone) with a question mark about overtaking."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le dépassement est autorisé si la visibilité est bonne et l'espace suffisant.",
+          "text_nl": "Inhalen is toegestaan als het zicht goed is en er voldoende ruimte is.",
+          "text_ru": "Обгон разрешен, если видимость хорошая и достаточно места.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les véhicules à moteur ne peuvent en aucun cas dépasser les cyclistes.",
+          "text_nl": "Motorvoertuigen mogen in geen geval fietsers inhalen.",
+          "text_ru": "Моторизованные транспортные средства ни в коем случае не могут обгонять велосипедистов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le dépassement est autorisé si le véhicule à moteur maintient une distance latérale minimale de 1,5 mètre.",
+          "text_nl": "Inhalen is toegestaan als het motorvoertuig een minimale zijdelingse afstand van 1,5 meter aanhoudt.",
+          "text_ru": "Обгон разрешен, если моторизованное транспортное средство соблюдает минимальное боковое расстояние в 1,5 метра.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22novies est formel : « Ils ne peuvent toutefois pas dépasser les cyclistes. » Cette interdiction est absolue dans les zones cyclables.",
+      "explanation_nl": "Artikel 22novies is duidelijk: « Zij mogen de fietsers evenwel niet inhalen. » Dit verbod is absoluut in fietszones.",
+      "explanation_ru": "Статья 22novies четко гласит: « Однако они не могут обгонять велосипедистов. » Этот запрет является абсолютным в велосипедных зонах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez votre voiture et entrez dans une zone cyclable. Quelle est la vitesse maximale autorisée dans cette zone, même si aucun panneau de vitesse n'est explicitement présent ?",
+      "text_nl": "U rijdt met uw auto en komt een fietszone binnen. Wat is de maximaal toegestane snelheid in deze zone, zelfs als er geen expliciet snelheidsbord aanwezig is?",
+      "text_ru": "Вы ведете свой автомобиль и въезжаете в велосипедную зону. Какова максимально допустимая скорость в этой зоне, даже если нет явного знака ограничения скорости?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A car entering a road with sign F5 (cyclable zone) at the entrance, with a default speed limit of 30 km/h implied."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "50 km/h.",
+          "text_nl": "50 km/u.",
+          "text_ru": "50 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 km/h.",
+          "text_nl": "30 km/u.",
+          "text_ru": "30 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "20 km/h.",
+          "text_nl": "20 km/u.",
+          "text_ru": "20 км/ч.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22novies stipule que « La vitesse ne peut jamais y être supérieure à 30 km/h » dans une zone cyclable. Cette règle s'applique par défaut à toute zone cyclable.",
+      "explanation_nl": "Artikel 22novies stelt dat « De snelheid mag in een fietszone nooit hoger liggen dan 30 kilometer per uur. » Deze regel geldt standaard voor elke fietszone.",
+      "explanation_ru": "Статья 22novies гласит, что « Скорость никогда не может быть выше 30 км/ч » в велосипедной зоне. Это правило применяется по умолчанию ко всем велосипедным зонам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez en voiture dans une zone cyclable derrière un cycliste qui roule à 20 km/h. La chaussée est large et dégagée. Pouvez-vous dépasser ce cycliste en toute sécurité ?",
+      "text_nl": "U rijdt met de auto in een fietszone achter een fietser die 20 km/u rijdt. De rijbaan is breed en vrij. Mag u deze fietser veilig inhalen?",
+      "text_ru": "Вы едете на машине в велосипедной зоне за велосипедистом, который едет со скоростью 20 км/ч. Дорога широкая и свободная. Можете ли вы безопасно обогнать этого велосипедиста?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A car following a cyclist on a wide, clear road marked as a cyclable zone (F5 sign)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si l'espace le permet et que vous gardez une distance de sécurité suffisante.",
+          "text_nl": "Ja, als er voldoende ruimte is en u een veilige afstand bewaart.",
+          "text_ru": "Да, если позволяет место и вы соблюдаете достаточную безопасную дистанцию.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, le dépassement de cyclistes est formellement interdit dans une zone cyclable, quelle que soit la situation.",
+          "text_nl": "Nee, het inhalen van fietsers is formeel verboden in een fietszone, ongeacht de situatie.",
+          "text_ru": "Нет, обгон велосипедистов строго запрещен в велосипедной зоне, независимо от ситуации.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si le cycliste signale qu'il vous laisse passer.",
+          "text_nl": "Ja, als de fietser aangeeft dat hij u voorbij laat.",
+          "text_ru": "Да, если велосипедист сигнализирует, что пропускает вас.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22novies indique clairement que les véhicules à moteur « ne peuvent toutefois pas dépasser les cyclistes » dans une zone cyclable, sans exception liée à la largeur de la chaussée ou à la sécurité perçue.",
+      "explanation_nl": "Artikel 22novies vermeldt duidelijk dat motorvoertuigen « de fietsers evenwel niet mogen inhalen » in een fietszone, zonder uitzondering met betrekking tot de breedte van de rijbaan of de waargenomen veiligheid.",
+      "explanation_ru": "Статья 22novies четко указывает, что моторизованным транспортным средствам « однако запрещено обгонять велосипедистов » в велосипедной зоне, без исключений, связанных с шириной дороги или воспринимаемой безопасностью."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes cycliste et vous roulez dans une zone cyclable où la chaussée est ouverte aux deux sens de circulation. Quelle partie de la chaussée pouvez-vous utiliser ?",
+      "text_nl": "U bent fietser en rijdt in een fietszone waar de rijbaan openstaat in beide rijrichtingen. Welk deel van de rijbaan mag u gebruiken?",
+      "text_ru": "Вы велосипедист и едете в велосипедной зоне, где проезжая часть открыта для движения в обоих направлениях. Какую часть проезжей части вы можете использовать?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A cyclist riding on a two-way road marked as a cyclable zone (F5 sign), showing half of the right side of the road highlighted."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La totalité de la largeur de la chaussée.",
+          "text_nl": "De gehele breedte van de rijbaan.",
+          "text_ru": "Всю ширину проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement la bande de circulation la plus à droite.",
+          "text_nl": "Enkel de meest rechtse rijstrook.",
+          "text_ru": "Только крайнюю правую полосу движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La moitié de la largeur de la chaussée située du côté droit.",
+          "text_nl": "De helft van de breedte van de rijbaan langs de rechterzijde.",
+          "text_ru": "Половину ширины проезжей части, расположенную с правой стороны.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 22novies précise que le cycliste peut utiliser « la moitié de la largeur située du côté droit lorsqu’elle est ouverte aux deux sens de circulation. »",
+      "explanation_nl": "Artikel 22novies preciseert dat de fietser « de helft van de breedte langs de rechterzijde indien de rijbaan opengesteld is in beide rijrichtingen » mag gebruiken.",
+      "explanation_ru": "Статья 22novies уточняет, что велосипедист может использовать « половину ширины, расположенную с правой стороны, когда она открыта для движения в обоих направлениях. »"
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "0af73a76810c",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:34:07Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

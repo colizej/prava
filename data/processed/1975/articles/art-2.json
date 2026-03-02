@@ -1109,7 +1109,193 @@
       "cross_refs": []
     }
   ],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel signal routier indique le début ou l'accès à une autoroute en Belgique ?",
+      "text_nl": "Welk verkeersbord geeft het begin of de toegang tot een autosnelweg in België aan?",
+      "text_ru": "Какой дорожный знак указывает на начало или доступ к автомагистрали в Бельгии?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signal F5",
+          "text_nl": "Verkeersbord F5",
+          "text_ru": "Знак F5",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal F9",
+          "text_nl": "Verkeersbord F9",
+          "text_ru": "Знак F9",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signal F1",
+          "text_nl": "Verkeersbord F1",
+          "text_ru": "Знак F1",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 2.3, le terme \"autoroute\" désigne la voie publique dont le commencement ou l'accès est indiqué par le signal F5.",
+      "explanation_nl": "Volgens artikel 2.3 duidt de term \"autosnelweg\" op de openbare weg waarvan het begin of de oprit wordt aangegeven door verkeersbord F5.",
+      "explanation_ru": "Согласно статье 2.3, термин \"автомагистраль\" обозначает дорогу общего пользования, начало или подъезд к которой обозначается знаком F5."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon le code de la route belge, est-ce qu'une piste cyclable fait partie de la chaussée ?",
+      "text_nl": "Volgens de Belgische wegcode, maakt een fietspad deel uit van de rijbaan?",
+      "text_ru": "Согласно бельгийскому дорожному кодексу, является ли велосипедная дорожка частью проезжей части?",
+      "image": {
+        "sign_code": "D7",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui",
+          "text_nl": "Ja",
+          "text_ru": "Да",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non",
+          "text_nl": "Nee",
+          "text_ru": "Нет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si elle est séparée par une ligne blanche",
+          "text_nl": "Alleen als deze is afgescheiden door een witte lijn",
+          "text_ru": "Только если она отделена белой линией",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 2.7 stipule clairement : \"La piste cyclable ne fait pas partie de la chaussée.\"",
+      "explanation_nl": "Artikel 2.7 stelt duidelijk: \"Het fietspad maakt geen deel uit van de rijbaan.\"",
+      "explanation_ru": "Статья 2.7 четко гласит: \"Велосипедная дорожка не является частью проезжей части.\""
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une portion de route où des travaux sont en cours. Les voies de circulation sont délimitées par des lignes discontinues de couleur orange. Quelle est la nature de ces lignes selon le code de la route ?",
+      "text_nl": "U rijdt op een weggedeelte waar werkzaamheden aan de gang zijn. De rijstroken zijn afgebakend met oranje onderbroken lijnen. Wat is de aard van deze lijnen volgens de wegcode?",
+      "text_ru": "Вы едете по участку дороги, где ведутся работы. Полосы движения обозначены прерывистыми оранжевыми линиями. Какова природа этих линий согласно правилам дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image showing a road under construction with temporary orange dashed lines delineating traffic lanes."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lignes indiquant un danger temporaire",
+          "text_nl": "Lijnen die tijdelijk gevaar aangeven",
+          "text_ru": "Линии, указывающие на временную опасность",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Marques provisoires délimitant une bande de circulation",
+          "text_nl": "Tijdelijke markeringen die een rijstrook afbakenen",
+          "text_ru": "Временные маркировки, обозначающие полосу движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lignes de séparation de voies d'urgence",
+          "text_nl": "Lijnen voor de scheiding van noodrijstroken",
+          "text_ru": "Линии разделения аварийных полос",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 2.2 b) indique que des marques provisoires de couleur orange (continues ou discontinues, ou par clous) définissent une \"bande de circulation\".",
+      "explanation_nl": "Artikel 2.2 b) geeft aan dat voorlopige markeringen van oranje kleur (doorlopend of onderbroken, of door spijkers) een \"rijstrook\" definiëren.",
+      "explanation_ru": "Статья 2.2 b) указывает, что временные маркировки оранжевого цвета (сплошные или прерывистые, или гвоздиками) определяют \"полосу движения\"."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous entrez dans une zone urbaine où vous voyez le signal F1. Quel type d'espace cette signalisation indique-t-elle ?",
+      "text_nl": "U rijdt een stedelijk gebied binnen waar u het verkeersbord F1 ziet. Welk type ruimte geeft deze signalisatie aan?",
+      "text_ru": "Вы въезжаете в городской район, где видите знак F1. Какой тип пространства указывает эта сигнализация?",
+      "image": {
+        "sign_code": "F1",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une autoroute",
+          "text_nl": "Een autosnelweg",
+          "text_ru": "Автомагистраль",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une agglomération",
+          "text_nl": "Een bebouwde kom",
+          "text_ru": "Населенный пункт",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une route pour automobiles",
+          "text_nl": "Een autoweg",
+          "text_ru": "Автодорога",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 2.12 définit l'agglomération comme un espace qui comprend des immeubles bâtis et dont les accès sont indiqués par les signaux F1, F1a ou F1b.",
+      "explanation_nl": "Artikel 2.12 definieert een bebouwde kom als een gebied dat bebouwde percelen omvat en waarvan de toegangen worden aangegeven door de borden F1, F1a of F1b.",
+      "explanation_ru": "Статья 2.12 определяет \"населенный пункт\" как пространство, включающее застроенные здания, въезды в которое обозначаются знаками F1, F1a или F1b."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une voie publique qui est plus large qu'un sentier et qui n'est pas spécifiquement aménagée pour la circulation générale des véhicules, bien qu'une courte section soit pavée à son intersection avec une autre route. Comment cette voie est-elle définie par le code de la route ?",
+      "text_nl": "U rijdt op een openbare weg die breder is dan een pad en die niet specifiek is ingericht voor het algemene voertuigenverkeer, hoewel een kort gedeelte verhard is op de kruising met een andere weg. Hoe wordt deze weg volgens de wegcode gedefinieerd?",
+      "text_ru": "Вы едете по дороге общего пользования, которая шире тропы и не предназначена специально для общего движения транспортных средств, хотя короткий участок заасфальтирован на ее пересечении с другой дорогой. Как эта дорога определяется правилами дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image showing a dirt road, slightly wider than a footpath, with a small paved section at its junction with a main road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une chaussée",
+          "text_nl": "Een rijbaan",
+          "text_ru": "Проезжая часть",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un chemin de terre",
+          "text_nl": "Een aardeweg",
+          "text_ru": "Грунтовая дорога",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une piste cyclable",
+          "text_nl": "Een fietspad",
+          "text_ru": "Велосипедная дорожка",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 2.6 définit un \"chemin de terre\" comme une voie publique plus large qu'un sentier et non aménagée pour la circulation des véhicules en général, précisant qu'il conserve sa nature même s'il présente l'aspect d'une chaussée à sa jonction.",
+      "explanation_nl": "Artikel 2.6 definieert een \"aardeweg\" als een openbare weg die breder is dan een pad en die niet is ingericht voor het algemene voertuigenverkeer, met de precisie dat hij zijn aard behoudt, zelfs als hij het uiterlijk van een rijbaan heeft bij de aansluiting.",
+      "explanation_ru": "Статья 2.6 определяет \"грунтовую дорогу\" как дорогу общего пользования, которая шире тропы и не предназначена для общего движения транспортных средств, уточняя, что она сохраняет свою природу, даже если выглядит как проезжая часть на пересечении."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "b16789cbe13c",
@@ -1119,6 +1305,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:31:26Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

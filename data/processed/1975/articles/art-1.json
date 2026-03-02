@@ -36,7 +36,193 @@
   "anchor_id_fr": "rgppxd5uxd",
   "anchor_id_nl": "2nh1etdujl",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que régit principalement l'article 1 du Code de la route belge ?",
+      "text_nl": "Wat regelt artikel 1 van de Belgische Wegcode hoofdzakelijk?",
+      "text_ru": "Что главным образом регулирует статья 1 Бельгийского дорожного кодекса?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An abstract illustration representing the scope of road regulations, showing diverse road users like pedestrians, vehicles, and animals on a public road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement la circulation des véhicules motorisés sur les routes privées.",
+          "text_nl": "Enkel het verkeer van motorvoertuigen op privéterreinen.",
+          "text_ru": "Только движение моторизованных транспортных средств по частным дорогам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La circulation et l'usage de la voie publique par les piétons, les véhicules, certains animaux et les bestiaux.",
+          "text_nl": "Het verkeer op en het gebruik van de openbare weg door voetgangers, voertuigen, bepaalde dieren en vee.",
+          "text_ru": "Движение и использование дорог общего пользования пешеходами, транспортными средствами, некоторыми животными и скотом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le déplacement des véhicules sur rails sur tous les types de routes.",
+          "text_nl": "De verplaatsing van spoorvoertuigen op alle soorten wegen.",
+          "text_ru": "Движение рельсового транспорта по всем типам дорог.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 1 stipule que le règlement régit la circulation sur la voie publique et l'usage de celle-ci, par les piétons, les véhicules, ainsi que les animaux de trait, de charge ou de monture et les bestiaux. L'option B est la plus complète et correcte.",
+      "explanation_nl": "Artikel 1 stelt dat het reglement geldt voor het verkeer op de openbare weg en het gebruik ervan, door voetgangers, voertuigen, trek-, last- of rijdieren en vee. Optie B is de meest complete en correcte.",
+      "explanation_ru": "Статья 1 гласит, что правила регулируют движение по дорогам общего пользования и их использование пешеходами, транспортными средствами, а также упряжными, вьючными или верховыми животными и скотом. Вариант B является наиболее полным и правильным."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 1 du Code de la route belge, quels usagers, bien qu'empruntant la voie publique, ne sont explicitement PAS couverts par ce règlement ?",
+      "text_nl": "Welke weggebruikers vallen, hoewel ze gebruik maken van de openbare weg, volgens artikel 1 van de Belgische Wegcode uitdrukkelijk NIET onder de toepassing van dit reglement?",
+      "text_ru": "Согласно статье 1 Бельгийского дорожного кодекса, какие пользователи, несмотря на использование дорог общего пользования, явно НЕ подпадают под действие этого положения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image showing a tram on its tracks embedded in a city street, with cars and pedestrians nearby, highlighting the tram as an exception."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les cyclistes.",
+          "text_nl": "Fietsers.",
+          "text_ru": "Велосипедисты.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conducteurs de trottinettes électriques.",
+          "text_nl": "Bestuurders van elektrische scooters.",
+          "text_ru": "Водители электросамокатов.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les véhicules sur rails.",
+          "text_nl": "Spoorvoertuigen.",
+          "text_ru": "Рельсовые транспортные средства.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 1 mentionne spécifiquement que \"Les véhicules sur rails empruntant la voie publique ne tombent pas sous l'application du présent règlement.\"",
+      "explanation_nl": "Artikel 1 vermeldt specifiek: \"Spoorvoertuigen die van de openbare weg gebruik maken, vallen niet onder de toepassing van dit reglement.\"",
+      "explanation_ru": "Статья 1 конкретно упоминает, что «Рельсовые транспортные средства, использующие дороги общего пользования, не подпадают под действие настоящего положения»."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un agriculteur rassemble son bétail le long d'une voie publique pour le mener à un pâturage. Les règles du Code de la route belge s'appliquent-elles à l'agriculteur et à son bétail dans cette situation ?",
+      "text_nl": "Een boer drijft zijn vee langs een openbare weg naar een weide. Gelden de regels van de Belgische Wegcode voor de boer en zijn vee in deze situatie?",
+      "text_ru": "Фермер гонит свой скот по дороге общего пользования на пастбище. Применяются ли правила Бельгийского дорожного кодекса к фермеру и его скоту в этой ситуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a farmer herding sheep or cows along the side of a rural public road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, le Code de la route ne s'applique qu'aux véhicules et aux piétons.",
+          "text_nl": "Nee, de Wegcode geldt enkel voor voertuigen en voetgangers.",
+          "text_ru": "Нет, дорожный кодекс распространяется только на транспортные средства и пешеходов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, le Code de la route couvre explicitement les bestiaux utilisant la voie publique.",
+          "text_nl": "Ja, de Wegcode omvat uitdrukkelijk vee dat de openbare weg gebruikt.",
+          "text_ru": "Да, дорожный кодекс явно охватывает скот, использующий дороги общего пользования.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le bétail est transporté dans un véhicule.",
+          "text_nl": "Alleen als het vee in een voertuig wordt vervoerd.",
+          "text_ru": "Только если скот перевозится в транспортном средстве.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 1 stipule que le règlement régit l'usage de la voie publique par les bestiaux. Par conséquent, l'agriculteur et son bétail sont soumis à ses dispositions.",
+      "explanation_nl": "Artikel 1 stelt dat het reglement geldt voor het gebruik van de openbare weg door vee. De boer en zijn vee vallen dus onder de bepalingen ervan.",
+      "explanation_ru": "Статья 1 гласит, что правила регулируют использование дорог общего пользования скотом. Следовательно, фермер и его скот подпадают под его действие."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Une personne monte un cheval sur un chemin de cavalier public qui longe une route principale. Ce cavalier est-il soumis aux règles du Code de la route belge ?",
+      "text_nl": "Een persoon rijdt te paard op een openbaar ruiterpad dat langs een hoofdweg loopt. Is deze ruiter onderworpen aan de regels van de Belgische Wegcode?",
+      "text_ru": "Человек едет верхом на лошади по общественной конной тропе, которая проходит вдоль главной дороги. Распространяются ли на этого всадника правила Бельгийского дорожного кодекса?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a person riding a horse on a dedicated bridle path next to a road, implying a public space."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les chevaux sont considérés comme indépendants des lois de la circulation routière.",
+          "text_nl": "Nee, paarden worden als onafhankelijk van de verkeerswetgeving beschouwd.",
+          "text_ru": "Нет, лошади считаются независимыми от законов дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, les animaux de monture sont explicitement mentionnés comme des usagers couverts par le règlement.",
+          "text_nl": "Ja, rijdieren worden uitdrukkelijk vermeld als gebruikers die onder het reglement vallen.",
+          "text_ru": "Да, верховые животные явно упомянуты как пользователи, подпадающие под действие правил.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le chemin de cavalier est explicitement signalé comme faisant partie du réseau routier public.",
+          "text_nl": "Alleen als het ruiterpad uitdrukkelijk is aangeduid als onderdeel van het openbare wegennet.",
+          "text_ru": "Только если конная тропа явно обозначена как часть сети дорог общего пользования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 1 inclut les \"animaux de monture\" dans le champ d'application du Code de la route, signifiant que le cavalier est soumis à ses règles.",
+      "explanation_nl": "Artikel 1 omvat \"rijdieren\" in het toepassingsgebied van de Wegcode, wat betekent dat de ruiter onderworpen is aan de regels ervan.",
+      "explanation_ru": "Статья 1 включает «верховых животных» в сферу действия Дорожного кодекса, что означает, что всадник подчиняется его правилам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un piéton marche sur un trottoir public en zone urbaine. Est-il soumis aux dispositions du Code de la route belge ?",
+      "text_nl": "Een voetganger wandelt op een openbaar trottoir in een stedelijk gebied. Is hij onderworpen aan de bepalingen van de Belgische Wegcode?",
+      "text_ru": "Пешеход идет по общественному тротуару в городской местности. Распространяются ли на него положения Бельгийского дорожного кодекса?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a pedestrian walking on a sidewalk in a city, with buildings and a street in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les piétons ne sont couverts que lorsqu'ils traversent la route.",
+          "text_nl": "Nee, voetgangers vallen enkel onder de regels wanneer ze de weg oversteken.",
+          "text_ru": "Нет, пешеходы охватываются только при пересечении дороги.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, les piétons sont explicitement listés comme des usagers couverts par le règlement sur la voie publique.",
+          "text_nl": "Ja, voetgangers staan uitdrukkelijk vermeld als gebruikers die onder het reglement op de openbare weg vallen.",
+          "text_ru": "Да, пешеходы явно перечислены как пользователи, подпадающие под действие правил на дорогах общего пользования.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement s'ils marchent sur la chaussée elle-même, et non sur le trottoir.",
+          "text_nl": "Alleen als ze op de rijbaan zelf lopen, niet op het trottoir.",
+          "text_ru": "Только если они идут по проезжей части, а не по тротуару.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 1 stipule clairement que le règlement régit l'usage de la voie publique par les piétons, y compris sur le trottoir qui fait partie de la voie publique.",
+      "explanation_nl": "Artikel 1 stelt duidelijk dat het reglement het gebruik van de openbare weg door voetgangers regelt, inclusief op het trottoir dat deel uitmaakt van de openbare weg.",
+      "explanation_ru": "Статья 1 четко гласит, что правила регулируют использование дорог общего пользования пешеходами, включая тротуар, который является частью дороги общего пользования."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "cd0443c14e38",
@@ -46,6 +232,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:24:30Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

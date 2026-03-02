@@ -24,6 +24,7 @@ urlpatterns = [
     path('blog/', include('apps.blog.urls')),
     path('reglementation/', include('apps.reglementation.urls')),
     path('examens/', include('apps.examens.urls')),
+    path('dashboard/', include('apps.dashboard.urls')),
 
     # SEO
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps},

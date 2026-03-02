@@ -26,7 +26,193 @@
   "anchor_id_fr": "zo9seludgm",
   "anchor_id_nl": "faejuxvvce",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la règle générale pour l'arrêt ou le stationnement d'un véhicule par rapport au sens de sa marche ?",
+      "text_nl": "Wat is de algemene regel voor het stilstaan of parkeren van een voertuig ten opzichte van zijn rijrichting?",
+      "text_ru": "Каково общее правило остановки или стоянки транспортного средства относительно направления его движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car parked on the right side of a two-way street, seen from the front of the car."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toujours à gauche.",
+          "text_nl": "Altijd links.",
+          "text_ru": "Всегда слева.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Toujours à droite.",
+          "text_nl": "Altijd rechts.",
+          "text_ru": "Всегда справа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Peu importe, tant qu'il est hors de la chaussée.",
+          "text_nl": "Het maakt niet uit, zolang het maar buiten de rijbaan is.",
+          "text_ru": "Не имеет значения, если он находится вне проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 23.1.1°, tout véhicule à l'arrêt ou en stationnement doit être rangé à droite par rapport au sens de sa marche, sauf si la chaussée est à sens unique.",
+      "explanation_nl": "Volgens artikel 23.1.1° moet elk stilstaand of geparkeerd voertuig worden opgesteld rechts ten opzichte van zijn rijrichting, tenzij het een éénrichtingsweg betreft.",
+      "explanation_ru": "Согласно статье 23.1.1°, любое транспортное средство, остановившееся или припаркованное, должно быть размещено справа по отношению к направлению его движения, за исключением случаев одностороннего движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Si l'accotement est un accotement que les piétons doivent emprunter, quelle largeur de bande praticable doit être laissée à leur disposition ?",
+      "text_nl": "Indien het een berm betreft die de voetgangers moeten volgen, welke breedte van een begaanbare strook moet er voor hen worden vrijgelaten?",
+      "text_ru": "Если обочина предназначена для использования пешеходами, какую ширину проходимой полосы необходимо оставить для них?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road with a narrow shoulder next to a pedestrian walking path. A car is parked on the shoulder, leaving some space for pedestrians."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au moins un mètre.",
+          "text_nl": "Minimaal één meter.",
+          "text_ru": "Не менее одного метра.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au moins un mètre vingt.",
+          "text_nl": "Minimaal één meter twintig.",
+          "text_ru": "Не менее одного метра двадцати сантиметров.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Au moins un mètre cinquante.",
+          "text_nl": "Minimaal één meter vijftig.",
+          "text_ru": "Не менее полутора метров.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 23.1.2° précise que si l'accotement est utilisé par des piétons, une bande praticable d'au moins un mètre cinquante de largeur doit être laissée à leur disposition.",
+      "explanation_nl": "Artikel 23.1.2° preciseert dat indien het een berm betreft die de voetgangers moeten volgen, een begaanbare strook van ten minste 1,50 meter breed moet worden vrijgelaten.",
+      "explanation_ru": "Статья 23.1.2° уточняет, что если обочина предназначена для использования пешеходами, необходимо оставить проходимую полосу шириной не менее полутора метров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous trouvez dans une rue à sens unique. Où pouvez-vous garer votre véhicule ?",
+      "text_nl": "U bevindt zich in een eenrichtingsstraat. Waar mag u uw voertuig parkeren?",
+      "text_ru": "Вы находитесь на улице с односторонним движением. Где вы можете припарковать свой автомобиль?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street scene with a one-way sign (white arrow on blue rectangle pointing right). Cars are parked on both the left and right sides of the street."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement à droite, comme sur toute autre chaussée.",
+          "text_nl": "Uitsluitend rechts, zoals op elke andere rijbaan.",
+          "text_ru": "Только справа, как на любой другой проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De l'un ou de l'autre côté de la chaussée.",
+          "text_nl": "Aan de ene of aan de andere kant van de rijbaan.",
+          "text_ru": "С любой стороны проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement sur l'accotement, peu importe le côté.",
+          "text_nl": "Uitsluitend op de berm, ongeacht de kant.",
+          "text_ru": "Только на обочине, независимо от стороны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 23.1.1°, si la chaussée est à sens unique, le véhicule peut être rangé de l'un ou de l'autre côté.",
+      "explanation_nl": "Volgens artikel 23.1.1° mag, indien het een rijbaan is met éénrichtingsverkeer, het voertuig langs de ene of langs de andere kant opgesteld worden.",
+      "explanation_ru": "Согласно статье 23.1.1°, если проезжая часть является односторонней, транспортное средство может быть припарковано с любой стороны."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous souhaitez stationner votre véhicule le long d'une chaussée sans accotement praticable. Comment devez-vous le placer ?",
+      "text_nl": "U wilt uw voertuig parkeren langs een rijbaan zonder bruikbare berm. Hoe moet u het plaatsen?",
+      "text_ru": "Вы хотите припарковать свой автомобиль вдоль проезжей части без пригодной для использования обочины. Как вы должны его расположить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A two-lane road with no shoulder. A car is correctly parked on the side of the roadway, as far as possible from the center line and parallel to the curb."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "N'importe où sur la chaussée, mais en laissant un passage suffisant.",
+          "text_nl": "Overal op de rijbaan, maar met voldoende doorgang.",
+          "text_ru": "В любом месте на проезжей части, но оставляя достаточно места для проезда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur la chaussée, le plus loin possible de l'axe et parallèlement au bord.",
+          "text_nl": "Op de rijbaan, zover mogelijk van de aslijn en evenwijdig met de rand.",
+          "text_ru": "На проезжей части, как можно дальше от оси и параллельно краю.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement sur l'accotement, même s'il n'est pas suffisamment large.",
+          "text_nl": "Uitsluitend op de berm, zelfs als deze niet breed genoeg is.",
+          "text_ru": "Только на обочине, даже если она недостаточно широка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 23.1.2° stipule qu'à défaut d'accotement praticable, le véhicule en stationnement doit être rangé sur la chaussée. L'article 23.2.1° ajoute que tout véhicule rangé sur la chaussée doit être placé à la plus grande distance possible de l'axe de la chaussée et 23.2.2° parallèlement au bord de la chaussée.",
+      "explanation_nl": "Artikel 23.1.2° bepaalt dat, indien er geen bruikbare berm is, het geparkeerd voertuig op de rijbaan moet worden opgesteld. Artikel 23.2.1° voegt eraan toe dat elk voertuig dat op de rijbaan is opgesteld, moet geplaatst worden zover mogelijk van de aslijn van de rijbaan en 23.2.2° evenwijdig met de rand van de rijbaan.",
+      "explanation_ru": "Статья 23.1.2° гласит, что при отсутствии пригодной для использования обочины, парковочное средство должно быть размещено на проезжей части. Статья 23.2.1° добавляет, что любое транспортное средство, расположенное на проезжей части, должно быть размещено как можно дальше от оси проезжей части и 23.2.2° параллельно краю проезжей части."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une motocyclette sans side-car ni remorque. Comment pouvez-vous la stationner sur le côté de la chaussée ?",
+      "text_nl": "U rijdt op een motorfiets zonder zijspan of aanhangwagen. Hoe mag u deze aan de zijkant van de rijbaan parkeren?",
+      "text_ru": "Вы управляете мотоциклом без коляски или прицепа. Как вы можете припарковать его сбоку от проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street with a designated parking area. A motorcycle is parked perpendicularly to the curb, neatly within a marked parking space."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement en une seule file, parallèlement au bord de la chaussée.",
+          "text_nl": "Uitsluitend in één enkele file, evenwijdig met de rand van de rijbaan.",
+          "text_ru": "Только в один ряд, параллельно краю проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Perpendiculairement au bord de la chaussée, si elle ne dépasse pas le marquage de stationnement.",
+          "text_nl": "Haaks op de rand van de rijbaan, indien deze de parkeermarkering niet overschrijdt.",
+          "text_ru": "Перпендикулярно краю проезжей части, если она не выходит за пределы разметки парковочного места.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "N'importe comment, tant qu'elle est rangée hors de la chaussée.",
+          "text_nl": "Op welke manier dan ook, zolang deze maar buiten de rijbaan is opgesteld.",
+          "text_ru": "Как угодно, лишь бы она была припаркована вне проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 23.2.3° stipule que les motocyclettes sans side-car ou remorque peuvent stationner perpendiculairement sur le côté de la chaussée pour autant qu'elles ne dépassent pas le marquage de stationnement indiqué.",
+      "explanation_nl": "Artikel 23.2.3° bepaalt dat motorfietsen zonder zijspan of aanhangwagen evenwel haaks op de rand van de rijbaan mogen parkeren voor zover zij het aangeduide parkeermarkering niet overschrijden.",
+      "explanation_ru": "Статья 23.2.3° гласит, что мотоциклы без бокового прицепа или прицепа могут парковаться перпендикулярно краю проезжей части при условии, что они не выходят за пределы указанной разметки парковочного места."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "54b3213280aa",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T14:49:57Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

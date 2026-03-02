@@ -37,7 +37,156 @@
   "anchor_id_fr": "ehc0piwand",
   "anchor_id_nl": "ubohcwyblf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie la combinaison des panneaux F4a et F4b dans le trafic routier belge ?",
+      "text_nl": "Wat betekenen de verkeersborden F4a en F4b samen in het Belgische verkeer?",
+      "text_ru": "Что означает комбинация знаков F4a и F4b в дорожном движении Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Belgian road signs F4a (start of a 30 km/h zone) and F4b (end of a 30 km/h zone)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Début et fin d'une zone où la vitesse maximale autorisée est de 50 km/h.",
+          "text_nl": "Begin en einde van een zone waar de maximale toegelaten snelheid 50 km/u is.",
+          "text_ru": "Начало и конец зоны, где максимально разрешенная скорость составляет 50 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Début et fin d'une zone où la vitesse maximale autorisée est de 30 km/h.",
+          "text_nl": "Begin en einde van een zone waar de maximale toegelaten snelheid 30 km/u is.",
+          "text_ru": "Начало и конец зоны, где максимально разрешенная скорость составляет 30 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indication d'un passage piéton.",
+          "text_nl": "Aanduiding van een voetgangersoversteekplaats.",
+          "text_ru": "Указание на пешеходный переход.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les panneaux F4a et F4b délimitent respectivement le début et la fin d'une zone où la vitesse est limitée à 30 km/h.",
+      "explanation_nl": "De verkeersborden F4a en F4b markeren respectievelijk het begin en het einde van een zone waar de snelheid beperkt is tot 30 km/u.",
+      "explanation_ru": "Дорожные знаки F4a и F4b обозначают соответственно начало и конец зоны, где скорость ограничена 30 км/ч."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la limite de vitesse appliquée dans une zone signalée par les panneaux F4a et F4b ?",
+      "text_nl": "Wat is de snelheidslimiet die geldt in een zone die is aangegeven met de verkeersborden F4a en F4b?",
+      "text_ru": "Каково ограничение скорости, применяемое в зоне, обозначенной знаками F4a и F4b?",
+      "image": {
+        "sign_code": "F4a",
+        "generation_prompt": "Belgian road sign F4a (start of a 30 km/h zone)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "50 km/h",
+          "text_nl": "50 km/u",
+          "text_ru": "50 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "70 km/h",
+          "text_nl": "70 km/u",
+          "text_ru": "70 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "30 km/h",
+          "text_nl": "30 km/u",
+          "text_ru": "30 км/ч",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Selon l'article 22quater, dans les zones délimitées par les signaux F4a et F4b, la vitesse est limitée à 30 km/h.",
+      "explanation_nl": "Volgens artikel 22quater is binnen de zones afgebakend door de verkeersborden F4a en F4b de snelheid beperkt tot 30 km/u.",
+      "explanation_ru": "Согласно статье 22quater, в зонах, обозначенных знаками F4a и F4b, скорость ограничена 30 км/ч."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez dans une rue résidentielle et vous apercevez le panneau F4a. Quelle doit être votre vitesse maximale adaptée ?",
+      "text_nl": "U rijdt in een woonstraat en u ziet het verkeersbord F4a. Wat moet uw aangepaste maximale snelheid zijn?",
+      "text_ru": "Вы едете по жилой улице и видите знак F4a. Какова должна быть ваша максимально допустимая скорость?",
+      "image": {
+        "sign_code": "F4a",
+        "generation_prompt": "Belgian road sign F4a (start of a 30 km/h zone)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La limite générale de vitesse de 50 km/h, car il s'agit d'une rue résidentielle.",
+          "text_nl": "De algemene snelheidslimiet van 50 km/u, aangezien het een woonstraat is.",
+          "text_ru": "Общий лимит скорости 50 км/ч, так как это жилая улица.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 km/h, car le panneau F4a indique le début d'une zone limitée à 30 km/h.",
+          "text_nl": "30 km/u, aangezien het F4a-bord het begin van een zone met een limiet van 30 km/u aangeeft.",
+          "text_ru": "30 км/ч, так как знак F4a указывает на начало зоны с ограничением 30 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez adapter votre vitesse en fonction du trafic, sans limite précise.",
+          "text_nl": "U kunt uw snelheid aanpassen aan het verkeer, zonder specifieke limiet.",
+          "text_ru": "Вы можете регулировать скорость в зависимости от дорожного движения, без конкретного ограничения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau F4a signale le début d'une zone où la vitesse maximale autorisée est de 30 km/h. Vous devez donc réduire votre vitesse et la maintenir en dessous ou égale à 30 km/h tant que vous n'avez pas rencontré le panneau F4b.",
+      "explanation_nl": "Het F4a-bord geeft het begin aan van een zone waar de maximaal toegelaten snelheid 30 km/u is. U moet dus uw snelheid verminderen en deze onder of gelijk aan 30 km/u houden totdat u het F4b-bord tegenkomt.",
+      "explanation_ru": "Знак F4a сигнализирует о начале зоны, где максимально разрешенная скорость составляет 30 км/ч. Поэтому вы должны снизить скорость и поддерживать ее ниже или равной 30 км/ч, пока не встретите знак F4b."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en train de rouler à 25 km/h dans une zone où le panneau F4a est affiché. Vous voyez le panneau F4b au loin. Que devez-vous faire avant d'atteindre ce panneau ?",
+      "text_nl": "U rijdt 25 km/u in een zone waar het F4a-bord is geplaatst. U ziet het F4b-bord in de verte. Wat moet u doen voordat u dit bord bereikt?",
+      "text_ru": "Вы едете со скоростью 25 км/ч в зоне, где установлен знак F4a. Вдалеке вы видите знак F4b. Что вы должны сделать, прежде чем достигнете этого знака?",
+      "image": {
+        "sign_code": "F4b",
+        "generation_prompt": "Belgian road sign F4b (end of a 30 km/h zone)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour dépasser rapidement la zone.",
+          "text_nl": "Versnellen om de zone snel te verlaten.",
+          "text_ru": "Ускориться, чтобы быстро покинуть зону.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Maintenir votre vitesse de 25 km/h jusqu'à avoir dépassé le panneau F4b.",
+          "text_nl": "Uw snelheid van 25 km/u behouden totdat u het F4b-bord bent gepasseerd.",
+          "text_ru": "Поддерживать скорость 25 км/ч до тех пор, пока вы не проедете знак F4b.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez maintenant rouler à la vitesse maximale autorisée hors zone.",
+          "text_nl": "U mag nu rijden met de toegelaten snelheid buiten de zone.",
+          "text_ru": "Теперь вы можете двигаться с разрешенной скоростью вне зоны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau F4b indique la fin de la zone limitée à 30 km/h. Tant que vous n'avez pas dépassé ce panneau, vous devez respecter la limite de 30 km/h. Votre vitesse actuelle de 25 km/h est donc conforme, et vous devez la maintenir jusqu'à la fin de la zone.",
+      "explanation_nl": "Het F4b-bord geeft het einde aan van de zone beperkt tot 30 km/u. Zolang u dit bord niet bent gepasseerd, moet u zich houden aan de limiet van 30 km/u. Uw huidige snelheid van 25 km/u is dus conform, en u moet deze behouden tot het einde van de zone.",
+      "explanation_ru": "Знак F4b обозначает конец зоны с ограничением 30 км/ч. Пока вы не проехали этот знак, вы должны соблюдать ограничение 30 км/ч. Ваша текущая скорость 25 км/ч соответствует этому, и вы должны поддерживать ее до конца зоны."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "b11019ba9ff4",
@@ -47,6 +196,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:07:31Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 4
   }
 }

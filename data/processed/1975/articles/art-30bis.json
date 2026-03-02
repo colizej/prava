@@ -28,7 +28,193 @@
   "anchor_id_fr": "iruq8skkjr",
   "anchor_id_nl": "nj4bxb4yug",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 30bis, quels feux doivent être utilisés en permanence par les cyclomoteurs à deux roues et les motocyclettes, en dehors des circonstances visées à l'article 30 ?",
+      "text_nl": "Volgens artikel 30bis, welke lichten moeten voortdurend gebruikt worden door tweewielige bromfietsen en motorfietsen, buiten de omstandigheden bedoeld in artikel 30?",
+      "text_ru": "Согласно статье 30бис, какие огни должны постоянно использоваться двухколесными мопедами и мотоциклами, за исключением обстоятельств, указанных в статье 30?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Illustration simple d'un phare avant allumé (feu de croisement) et d'un feu arrière rouge allumé sur une moto."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les feux de position et le feu de stationnement.",
+          "text_nl": "De parkeerlichten en het standlicht.",
+          "text_ru": "Габаритные огни и стояночный свет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le feu de croisement et le feu rouge arrière.",
+          "text_nl": "Het dimlicht en het rode achterlicht.",
+          "text_ru": "Ближний свет и задний красный фонарь.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les feux de route et les feux de détresse.",
+          "text_nl": "Het grootlicht en de alarmlichten.",
+          "text_ru": "Дальний свет и аварийная сигнализация.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 30bis stipule explicitement que le feu de croisement et le feu rouge arrière des cyclomoteurs à deux roues et des motocyclettes doivent être utilisés en permanence, en dehors des circonstances visées à l'article 30.",
+      "explanation_nl": "Artikel 30bis stelt uitdrukkelijk dat het dimlicht en het rode achterlicht van tweewielige bromfietsen en motorfietsen voortdurend gebruikt moeten worden, buiten de omstandigheden bedoeld in artikel 30.",
+      "explanation_ru": "Статья 30бис четко гласит, что ближний свет и задний красный фонарь двухколесных мопедов и мотоциклов должны постоянно использоваться, за исключением обстоятельств, указанных в статье 30."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le rôle du feu de route pour un cyclomoteur ou une motocyclette circulant sur la voie publique, selon l'article 30bis ?",
+      "text_nl": "Wat is de rol van het grootlicht voor een bromfiets of motorfiets die op de openbare weg rijdt, volgens artikel 30bis?",
+      "text_ru": "Какова роль дальнего света для мопеда или мотоцикла, движущегося по проезжей части, согласно статье 30бис?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Schéma représentant un véhicule avec les feux de croisement allumés et le feu de route éteint."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit être utilisé en permanence, comme le feu de croisement.",
+          "text_nl": "Het moet voortdurend gebruikt worden, net als het dimlicht.",
+          "text_ru": "Он должен использоваться постоянно, как и ближний свет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il ne peut pas être utilisé lorsque le feu de croisement est allumé.",
+          "text_nl": "Het mag niet gebruikt worden wanneer het dimlicht brandt.",
+          "text_ru": "Он не может использоваться, когда горит ближний свет.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Son utilisation est facultative selon les conditions de visibilité.",
+          "text_nl": "Het gebruik ervan is optioneel, afhankelijk van de zichtomstandigheden.",
+          "text_ru": "Его использование необязательно, в зависимости от условий видимости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 30bis précise que le feu de route ne peut pas être utilisé lorsque le feu de croisement doit être utilisé en permanence.",
+      "explanation_nl": "Artikel 30bis specificeert dat het grootlicht niet gebruikt mag worden wanneer het dimlicht voortdurend gebruikt moet worden.",
+      "explanation_ru": "Статья 30бис уточняет, что дальний свет не может использоваться, когда ближний свет должен использоваться постоянно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez une motocyclette sur une route de campagne bien éclairée, à 14h00. Selon l'article 30bis, quels feux devez-vous avoir allumés ?",
+      "text_nl": "U bestuurt een motorfiets op een goed verlichte landweg om 14:00 uur. Volgens artikel 30bis, welke lichten moet u aan hebben?",
+      "text_ru": "Вы управляете мотоциклом по хорошо освещенной проселочной дороге в 14:00. Согласно статье 30бис, какие огни должны быть включены?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Photo d'une motocyclette circulant sur une route de campagne en plein jour, avec le feu de croisement avant et le feu arrière rouge allumés."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement les feux de position.",
+          "text_nl": "Alleen de parkeerlichten.",
+          "text_ru": "Только габаритные огни.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le feu de croisement avant et le feu rouge arrière.",
+          "text_nl": "Het dimlicht voor en het rode achterlicht.",
+          "text_ru": "Передний ближний свет и задний красный фонарь.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucun feu, car il fait jour.",
+          "text_nl": "Geen lichten, omdat het dag is.",
+          "text_ru": "Никакие огни, так как день.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 30bis exige que le feu de croisement et le feu rouge arrière soient utilisés en permanence par les motocyclettes, indépendamment des conditions de luminosité, sauf exceptions spécifiques non mentionnées ici.",
+      "explanation_nl": "Artikel 30bis vereist dat het dimlicht en het rode achterlicht voortdurend gebruikt worden door motorfietsen, ongeacht de lichtomstandigheden, behalve voor specifieke uitzonderingen die hier niet vermeld zijn.",
+      "explanation_ru": "Статья 30бис требует, чтобы ближний свет и задний красный фонарь постоянно использовались мотоциклами, независимо от условий освещенности, за исключением конкретных случаев, не упомянутых здесь."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes au volant d'un cyclomoteur et vous vous apprêtez à dépasser un camion lent sur une route nationale. Vous souhaitez utiliser vos feux de route pour signaler votre présence lors du dépassement. Est-ce autorisé selon l'article 30bis ?",
+      "text_nl": "U rijdt met een bromfiets en staat op het punt een trage vrachtwagen in te halen op een gewestelijke weg. U wilt uw grootlicht gebruiken om uw aanwezigheid tijdens het inhalen aan te geven. Is dit toegestaan volgens artikel 30bis?",
+      "text_ru": "Вы управляете мопедом и собираетесь обогнать медленно движущийся грузовик на национальной дороге. Вы хотите использовать дальний свет, чтобы обозначить свое присутствие во время обгона. Разрешено ли это согласно статье 30бис?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Schéma représentant un cyclomoteur essayant de dépasser un camion, avec l'indication que les feux de route ne doivent pas être utilisés dans cette situation."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, pour signaler sa présence lors d'un dépassement.",
+          "text_nl": "Ja, om de aanwezigheid tijdens het inhalen aan te geven.",
+          "text_ru": "Да, чтобы обозначить присутствие во время обгона.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, le feu de route ne peut pas être utilisé.",
+          "text_nl": "Nee, het grootlicht mag niet gebruikt worden.",
+          "text_ru": "Нет, дальний свет использовать нельзя.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si la visibilité est très réduite.",
+          "text_nl": "Alleen als het zicht zeer beperkt is.",
+          "text_ru": "Только если видимость очень ограничена.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 30bis interdit l'utilisation du feu de route pour les cyclomoteurs et motocyclettes lorsqu'ils circulent sur la voie publique, car ils doivent utiliser en permanence le feu de croisement.",
+      "explanation_nl": "Artikel 30bis verbiedt het gebruik van het grootlicht voor bromfietsen en motorfietsen wanneer zij op de openbare weg rijden, omdat zij voortdurend het dimlicht moeten gebruiken.",
+      "explanation_ru": "Статья 30бис запрещает использование дальнего света для мопедов и мотоциклов при движении по проезжей части, поскольку они должны постоянно использовать ближний свет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une motocyclette dans un tunnel. Le tunnel est bien éclairé. Que dit l'article 30bis concernant l'utilisation de vos feux ?",
+      "text_nl": "U bestuurt een motorfiets in een tunnel. De tunnel is goed verlicht. Wat zegt artikel 30bis over het gebruik van uw lichten?",
+      "text_ru": "Вы управляете мотоциклом в туннеле. Туннель хорошо освещен. Что говорит статья 30бис об использовании ваших огней?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'une motocyclette circulant dans un tunnel bien éclairé, avec le feu de croisement avant et le feu arrière rouge allumés."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je peux éteindre mes feux car le tunnel est éclairé.",
+          "text_nl": "Ik kan mijn lichten uitschakelen omdat de tunnel verlicht is.",
+          "text_ru": "Я могу выключить свои огни, потому что туннель освещен.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je dois garder le feu de croisement et le feu rouge arrière allumés.",
+          "text_nl": "Ik moet het dimlicht en het rode achterlicht aanhouden.",
+          "text_ru": "Я должен держать ближний свет и задний красный фонарь включенными.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je peux utiliser le feu de route pour mieux voir.",
+          "text_nl": "Ik kan het grootlicht gebruiken om beter te zien.",
+          "text_ru": "Я могу использовать дальний свет, чтобы лучше видеть.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 30bis stipule que le feu de croisement et le feu rouge arrière doivent être utilisés en permanence, sans distinction de lieu (tunnel, route de campagne, etc.) ni de luminosité ambiante, sauf exceptions prévues par l'article 30.",
+      "explanation_nl": "Artikel 30bis stelt dat het dimlicht en het rode achterlicht voortdurend gebruikt moeten worden, ongeacht de locatie (tunnel, landweg, etc.) of de omgevingslicht, behalve voor uitzonderingen voorzien in artikel 30.",
+      "explanation_ru": "Статья 30бис гласит, что ближний свет и задний красный фонарь должны постоянно использоваться, независимо от места (туннель, проселочная дорога и т. д.) или окружающего освещения, за исключением случаев, предусмотренных статьей 30."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "0990762ffa11",
@@ -38,6 +224,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:12:31Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

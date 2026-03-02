@@ -26,7 +26,178 @@
   "anchor_id_fr": "ymtvv8axvw",
   "anchor_id_nl": "c1stjq0s38",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 28, que devez-vous faire avant d'ouvrir la portière de votre véhicule ?",
+      "text_nl": "Volgens artikel 28, wat moet u doen voordat u de deur van uw voertuig opent?",
+      "text_ru": "Согласно статье 28, что вы должны сделать, прежде чем открыть дверь своего автомобиля?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vérifier si le moteur est allumé.",
+          "text_nl": "Controleren of de motor aan staat.",
+          "text_ru": "Проверить, заведен ли двигатель.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'assurer qu'il n'y a pas de danger ou de gêne pour les autres usagers.",
+          "text_nl": "Zich ervan vergewissen dat er geen gevaar of hinder is voor andere weggebruikers.",
+          "text_ru": "Убедиться, что нет опасности или помех для других участников движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Activer les feux de détresse.",
+          "text_nl": "De alarmlichten inschakelen.",
+          "text_ru": "Включить аварийную сигнализацию.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 28 stipule explicitement qu'il est interdit d'ouvrir une portière sans s'être assuré qu'il n'en résulte ni danger ni gêne pour les autres usagers.",
+      "explanation_nl": "Artikel 28 stelt expliciet dat het verboden is een portier te openen zonder zich ervan vergewist te hebben dat dit geen gevaar of hinder veroorzaakt voor andere weggebruikers.",
+      "explanation_ru": "Статья 28 прямо указывает, что запрещено открывать дверь, не убедившись в отсутствии опасности или помех для других участников движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "L'article 28 mentionne spécifiquement deux catégories d'usagers de la route qui doivent faire l'objet d'une attention particulière lors de l'ouverture des portières. Lesquelles ?",
+      "text_nl": "Artikel 28 vermeldt specifiek twee categorieën weggebruikers waaraan bijzondere aandacht moet worden besteed bij het openen van portieren. Welke?",
+      "text_ru": "Статья 28 конкретно упоминает две категории участников дорожного движения, которым следует уделять особое внимание при открытии дверей. Какие?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les cyclistes et les automobilistes.",
+          "text_nl": "Fietsers en automobilisten.",
+          "text_ru": "Велосипедисты и автомобилисты.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les piétons et les conducteurs de véhicules à deux roues.",
+          "text_nl": "Voetgangers en bestuurders van tweewielers.",
+          "text_ru": "Пешеходы и водители двухколесных транспортных средств.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les motocyclistes et les conducteurs de transports en commun.",
+          "text_nl": "Motorrijders en bestuurders van openbaar vervoer.",
+          "text_ru": "Мотоциклисты и водители общественного транспорта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 28 précise que l'attention doit être portée en particulier aux piétons et aux conducteurs de véhicules à deux roues, car ils sont plus vulnérables aux dangers liés à l'ouverture soudaine d'une portière.",
+      "explanation_nl": "Artikel 28 specificeert dat bijzondere aandacht moet worden besteed aan voetgangers en bestuurders van tweewielers, omdat zij kwetsbaarder zijn voor de gevaren die gepaard gaan met het plotseling openen van een portier.",
+      "explanation_ru": "Статья 28 уточняет, что особое внимание следует уделять пешеходам и водителям двухколесных транспортных средств, поскольку они более уязвимы к опасностям, связанным с внезапным открытием двери."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes garé en double file dans une rue étroite. Vous devez descendre rapidement de votre véhicule pour récupérer un objet tombé. Comment devez-vous procéder ?",
+      "text_nl": "U bent dubbel geparkeerd in een smalle straat. U moet snel uit uw voertuig stappen om een gevallen voorwerp op te rapen. Hoe moet u te werk gaan?",
+      "text_ru": "Вы припаркованы во второй линии в узкой улице. Вам нужно быстро выйти из машины, чтобы поднять упавший предмет. Как вам следует поступить?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ouvrir la portière brusquement et descendre rapidement pour ne pas perdre de temps.",
+          "text_nl": "De portier plotseling openen en snel uitstappen om geen tijd te verliezen.",
+          "text_ru": "Резко открыть дверь и быстро выйти, чтобы не терять времени.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vérifier attentivement dans vos rétroviseurs et par-dessus votre épaule avant d'ouvrir la portière, même si cela prend un peu plus de temps.",
+          "text_nl": "Zorgvuldig uw spiegels en over uw schouder controleren voordat u de portier opent, zelfs als dit iets langer duurt.",
+          "text_ru": "Внимательно проверить зеркала и через плечо перед открытием двери, даже если это займет немного больше времени.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Utiliser la commande d'ouverture centralisée pour ouvrir uniquement la portière du côté trottoir.",
+          "text_nl": "De centrale vergrendeling gebruiken om alleen de portier aan de trottoirzijde te openen.",
+          "text_ru": "Использовать центральный замок, чтобы открыть только дверь со стороны тротуара.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même en situation d'urgence ou de stationnement délicat, l'article 28 impose de s'assurer qu'il n'y a ni danger ni gêne. Vérifier son environnement est primordial avant toute ouverture de portière.",
+      "explanation_nl": "Zelfs in een noodsituatie of bij een lastige parkeersituatie, verplicht artikel 28 u om ervoor te zorgen dat er geen gevaar of hinder is. Het controleren van uw omgeving is essentieel voordat u een portier opent.",
+      "explanation_ru": "Даже в экстренной ситуации или при сложной парковке статья 28 обязывает вас убедиться в отсутствии опасности или помех. Проверка окружающей обстановки имеет первостепенное значение перед любым открытием двери."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez sur une piste cyclable à côté d'une voiture garée. Le conducteur de la voiture ouvre soudainement sa portière sans regarder. Quel est le risque principal pour vous ?",
+      "text_nl": "U rijdt op een fietspad naast een geparkeerde auto. De bestuurder van de auto opent plotseling zijn portier zonder te kijken. Wat is het belangrijkste risico voor u?",
+      "text_ru": "Вы едете по велосипедной дорожке рядом с припаркованным автомобилем. Водитель автомобиля внезапно открывает дверь, не глядя. Какой главный риск для вас?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Être heurté par la portière en mouvement, causant une chute et des blessures.",
+          "text_nl": "Aangereden worden door de bewegende portier, wat leidt tot een val en verwondingen.",
+          "text_ru": "Быть сбитым движущейся дверью, что приведет к падению и травмам.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Recevoir une contravention pour avoir roulé sur la piste cyclable.",
+          "text_nl": "Een boete ontvangen voor het rijden op het fietspad.",
+          "text_ru": "Получить штраф за езду по велосипедной дорожке.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que le conducteur vous insulte.",
+          "text_nl": "Dat de bestuurder u uitscheldt.",
+          "text_ru": "Что водитель вас оскорбит.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 28 vise à prévenir les collisions, notamment avec les usagers vulnérables comme les cyclistes. L'ouverture imprévue d'une portière sur une piste cyclable représente un danger immédiat de collision.",
+      "explanation_nl": "Artikel 28 is bedoeld om botsingen te voorkomen, met name met kwetsbare weggebruikers zoals fietsers. Het onverwacht openen van een portier op een fietspad vormt een onmiddellijk botsingsgevaar.",
+      "explanation_ru": "Статья 28 направлена на предотвращение столкновений, особенно с уязвимыми участниками дорожного движения, такими как велосипедисты. Неожиданное открытие двери на велосипедной дорожке представляет непосредственную опасность столкновения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes dans un embouteillage et votre portière est côté trottoir. Vous avez besoin de récupérer quelque chose rapidement dans votre boîte à gants. Que devez-vous faire avant d'ouvrir votre portière ?",
+      "text_nl": "U staat in een file en uw portier is aan de trottoirzijde. U moet snel iets uit uw handschoenenkastje halen. Wat moet u doen voordat u uw portier opent?",
+      "text_ru": "Вы стоите в пробке, и ваша дверь находится со стороны тротуара. Вам нужно быстро достать что-то из бардачка. Что вы должны сделать, прежде чем открыть дверь?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ouvrir la portière directement car il n'y a pas de circulation.",
+          "text_nl": "De portier direct openen, aangezien er geen verkeer is.",
+          "text_ru": "Открыть дверь напрямую, так как движения нет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Regarder si un piéton ou un cycliste arrive, même si le trafic est à l'arrêt.",
+          "text_nl": "Kijken of er een voetganger of fietser nadert, zelfs als het verkeer stilstaat.",
+          "text_ru": "Посмотреть, приближается ли пешеход или велосипедист, даже если движение остановлено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre que la circulation reprenne pour être sûr de ne gêner personne.",
+          "text_nl": "Wachten tot het verkeer weer op gang komt om zeker te zijn dat u niemand hindert.",
+          "text_ru": "Дождаться возобновления движения, чтобы убедиться, что никому не мешаете.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même à l'arrêt, des piétons ou des cyclistes peuvent circuler sur le trottoir ou à proximité. L'article 28 s'applique à toute situation où une portière pourrait causer danger ou gêne.",
+      "explanation_nl": "Zelfs bij stilstand kunnen voetgangers of fietsers op het trottoir of in de buurt passeren. Artikel 28 is van toepassing op elke situatie waarin een portier gevaar of hinder kan veroorzaken.",
+      "explanation_ru": "Даже когда движение остановлено, пешеходы или велосипедисты могут двигаться по тротуару или рядом. Статья 28 применяется к любой ситуации, когда дверь может представлять опасность или причинять неудобства."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "152a311a96cd",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:11:19Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

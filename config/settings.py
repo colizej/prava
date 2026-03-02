@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'apps.blog',
     'apps.reglementation',
     'apps.examens',
+    'apps.dashboard',
 ]
 
 # ==============================================================================

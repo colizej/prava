@@ -39,7 +39,193 @@
   "anchor_id_fr": "o8jnpzpdda",
   "anchor_id_nl": "kdpjcvfdbq",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Parmi les actions suivantes, laquelle est considérée comme une manœuvre au sens de l'Article 12.4 et exige de céder le passage ?",
+      "text_nl": "Welke van de volgende handelingen wordt volgens Artikel 12.4 als een manoeuvre beschouwd en vereist voorrang verlenen?",
+      "text_ru": "Какое из следующих действий считается маневром в соответствии со статьей 12.4 и требует уступить дорогу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An illustration of a car performing one of the listed actions in an urban environment, emphasizing the action."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Changer de bande de circulation lors d'un raccordement en tirette.",
+          "text_nl": "Van rijstrook veranderen bij het ritsen.",
+          "text_ru": "Смена полосы движения при слиянии по принципу молнии.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Déboucher d'une propriété riveraine.",
+          "text_nl": "Uit een aanpalende eigendom komen.",
+          "text_ru": "Выезд с прилегающей территории.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Emprunter la chaussée à la fin d'une piste cyclable pour continuer tout droit.",
+          "text_nl": "Zich op het einde van een fietspad op de rijbaan begeven om rechtdoor te rijden.",
+          "text_ru": "Выезд на проезжую часть в конце велосипедной дорожки для движения прямо.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'Article 12.4, déboucher d'une propriété riveraine est explicitement mentionné comme une manœuvre. Changer de bande lors du principe de la tirette et emprunter la chaussée après une piste cyclable pour aller tout droit ne sont pas considérés comme des manœuvres.",
+      "explanation_nl": "Volgens Artikel 12.4 wordt het verlaten van een aanpalende eigendom expliciet vermeld als een manoeuvre. Van rijstrook veranderen bij het ritsen en zich op de rijbaan begeven na een fietspad om rechtdoor te rijden, worden niet als manoeuvres beschouwd.",
+      "explanation_ru": "Согласно статье 12.4, выезд с прилегающей территории явно упоминается как маневр. Смена полосы движения при слиянии по принципу молнии и выезд на проезжую часть после велосипедной дорожки для движения прямо не считаются маневрами."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifient les signaux B1 (céder le passage) et B5 (stop) concernant les obligations de priorité ?",
+      "text_nl": "Wat betekenen de verkeersborden B1 (voorrang verlenen) en B5 (stop) met betrekking tot de voorrangsverplichtingen?",
+      "text_ru": "Что означают дорожные знаки B1 (уступить дорогу) и B5 (стоп) в отношении правил приоритета?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": "Traffic signs B1 (inverted triangle) and B5 (red octagon with STOP text)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils imposent de céder le passage à tous les usagers, y compris les piétons, circulant sur la voie publique abordée.",
+          "text_nl": "Zij verplichten voorrang te verlenen aan alle weggebruikers, inclusief voetgangers, die op de te naderen openbare weg rijden.",
+          "text_ru": "Они обязывают уступить дорогу всем участникам движения, включая пешеходов, движущимся по приближаемой дороге общего пользования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils imposent au conducteur de céder le passage à tout autre conducteur circulant sur la voie publique ou la chaussée qu'il aborde.",
+          "text_nl": "Zij verplichten de bestuurder voorrang te verlenen aan iedere bestuurder die rijdt op de openbare weg of de rijbaan die hij oprijdt.",
+          "text_ru": "Они обязывают водителя уступить дорогу любому другому водителю, движущемуся по дороге общего пользования или проезжей части, к которой он приближается.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils imposent un arrêt obligatoire d'au moins 3 secondes avant de s'engager sur la voie publique abordée.",
+          "text_nl": "Zij verplichten tot een verplichte stop van minstens 3 seconden alvorens de te naderen openbare weg op te rijden.",
+          "text_ru": "Они обязывают к обязательной остановке не менее чем на 3 секунды перед выездом на приближаемую дорогу общего пользования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'Article 12.3.1.a, les signaux B1 et B5 indiquent l'obligation de céder le passage à tout autre conducteur circulant sur la voie publique ou la chaussée que l'on aborde. Seul le signal B5 exige un arrêt obligatoire.",
+      "explanation_nl": "Volgens Artikel 12.3.1.a geven de verkeersborden B1 en B5 de verplichting aan om voorrang te verlenen aan iedere bestuurder die rijdt op de openbare weg of de rijbaan die men oprijdt. Enkel verkeersbord B5 vereist een verplichte stop.",
+      "explanation_ru": "Согласно статье 12.3.1.a, знаки B1 и B5 указывают на обязанность уступить дорогу любому другому водителю, движущемуся по дороге общего пользования или проезжей части, к которой приближаются. Только знак B5 требует обязательной остановки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour en sortant d'un chemin de terre. Une voiture vient de votre gauche sur la chaussée asphaltée. Qui a la priorité ?",
+      "text_nl": "U nadert een kruispunt vanuit een aardeweg. Een auto komt van uw linkerzijde op de geasfalteerde rijbaan. Wie heeft voorrang?",
+      "text_ru": "Вы приближаетесь к перекрестку, выезжая с грунтовой дороги. Автомобиль приближается слева по асфальтированной проезжей части. Кто имеет приоритет?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An aerial view of a car exiting a dirt road onto a paved road, with another car approaching from the left on the paved road. No traffic signs are visible at the intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous avez la priorité, car la voiture vient de votre gauche.",
+          "text_nl": "U heeft voorrang, omdat de auto van uw linkerzijde komt.",
+          "text_ru": "У вас приоритет, так как автомобиль приближается слева.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La voiture sur la chaussée asphaltée a la priorité.",
+          "text_nl": "De auto op de geasfalteerde rijbaan heeft voorrang.",
+          "text_ru": "Автомобиль на асфальтированной проезжей части имеет приоритет.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La priorité est déterminée par la première personne qui s'engage dans le carrefour.",
+          "text_nl": "De voorrang wordt bepaald door de eerste die het kruispunt oprijdt.",
+          "text_ru": "Приоритет определяется тем, кто первым въезжает на перекресток.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'Article 12.3.1.b, un conducteur débouchant d'un chemin de terre sur une voie publique pourvue d'une chaussée doit céder le passage à tout autre conducteur circulant sur cette voie publique.",
+      "explanation_nl": "Volgens Artikel 12.3.1.b moet een bestuurder die uit een aardeweg op een openbare weg met een rijbaan komt, voorrang verlenen aan iedere bestuurder die op die openbare weg rijdt.",
+      "explanation_ru": "Согласно статье 12.3.1.b, водитель, выезжающий с грунтовой дороги на дорогу общего пользования с проезжей частью, должен уступить дорогу любому другому водителю, движущемуся по этой дороге общего пользования."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous quittez une place de stationnement le long de la chaussée. Un vélo arrive derrière vous sur la piste cyclable. Qui doit céder le passage ?",
+      "text_nl": "U verlaat een parkeerplaats langs de rijbaan. Een fiets nadert achter u op het fietspad. Wie moet voorrang verlenen?",
+      "text_ru": "Вы выезжаете с парковочного места вдоль проезжей части. Велосипедист приближается сзади по велосипедной дорожке. Кто должен уступить дорогу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car pulling out of a parallel parking spot on the side of a road, with a cyclist approaching from behind the car on a dedicated bike lane next to the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le vélo doit céder le passage, car vous êtes un véhicule motorisé.",
+          "text_nl": "De fiets moet voorrang verlenen, omdat u een gemotoriseerd voertuig bent.",
+          "text_ru": "Велосипедист должен уступить дорогу, так как вы являетесь моторизованным транспортным средством.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez céder le passage au vélo, car quitter un emplacement de stationnement est une manœuvre.",
+          "text_nl": "U moet voorrang verlenen aan de fiets, omdat het verlaten van een parkeerplaats een manoeuvre is.",
+          "text_ru": "Вы должны уступить дорогу велосипедисту, так как выезд с парковочного места является маневром.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Chacun doit faire preuve de prudence et la priorité est à celui qui arrive le premier à l'intersection.",
+          "text_nl": "Iedereen moet voorzichtig zijn en de voorrang is voor degene die het eerst bij de kruising aankomt.",
+          "text_ru": "Каждый должен проявлять осторожность, и приоритет принадлежит тому, кто первым приближается к перекрестку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'Article 12.4, quitter un emplacement de stationnement est considéré comme une manœuvre. Le conducteur qui effectue une manœuvre doit céder le passage aux autres usagers, y compris les cyclistes.",
+      "explanation_nl": "Volgens Artikel 12.4 wordt het verlaten van een parkeerplaats als een manoeuvre beschouwd. De bestuurder die een manoeuvre uitvoert, moet voorrang verlenen aan de andere weggebruikers, inclusief fietsers.",
+      "explanation_ru": "Согласно статье 12.4, выезд с парковочного места считается маневром. Водитель, выполняющий маневр, должен уступить дорогу другим участникам движения, включая велосипедистов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous arrivez à un carrefour sans aucun signal de priorité. Un véhicule s'approche de votre droite. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt zonder voorrangssignalisatie. Een voertuig nadert van uw rechterzijde. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрестку без каких-либо знаков приоритета. Транспортное средство приближается справа от вас. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An intersection with two cars, one coming from the viewer's right, and the viewer's car approaching the intersection, with no traffic signs or lights visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Poursuivre votre chemin, car vous avez la priorité tant que vous ne changez pas de direction.",
+          "text_nl": "Uw weg vervolgen, want u heeft voorrang zolang u niet van richting verandert.",
+          "text_ru": "Продолжить движение, так как у вас приоритет, пока вы не меняете направление.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Céder le passage au véhicule venant de droite.",
+          "text_nl": "Voorrang verlenen aan het voertuig dat van rechts komt.",
+          "text_ru": "Уступить дорогу транспортному средству, приближающемуся справа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Faire un signe au conducteur de droite pour qu'il s'arrête ou vous laisse passer.",
+          "text_nl": "Een teken geven aan de bestuurder van rechts om te stoppen of u te laten passeren.",
+          "text_ru": "Подать знак водителю справа, чтобы он остановился или пропустил вас.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'Article 12.3.1, tout conducteur doit céder le passage à celui qui vient à sa droite, sauf exceptions non applicables dans cette situation (rond-point, sens interdit, ou signalisation spécifique).",
+      "explanation_nl": "Volgens Artikel 12.3.1 moet elke bestuurder voorrang verlenen aan de bestuurder die van rechts komt, behalve in niet-toepasselijke uitzonderingen (rotonde, verboden rijrichting, of specifieke signalisatie).",
+      "explanation_ru": "Согласно статье 12.3.1, каждый водитель должен уступить дорогу тому, кто приближается справа, за исключением случаев, не применимых в данной ситуации (круговое движение, движение в запрещенном направлении или специальные знаки)."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "731afb96f8ff",
@@ -49,6 +235,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:26:32Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

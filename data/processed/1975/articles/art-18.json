@@ -26,7 +26,193 @@
   "anchor_id_fr": "erbbk3jvfn",
   "anchor_id_nl": "tn6qhxuvmi",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel intervalle minimum doivent maintenir les conducteurs de véhicules et trains de véhicules dont la masse maximale autorisée dépasse 7,5 tonnes, lorsqu'ils circulent sur les ponts ?",
+      "text_nl": "Welke minimale afstand moeten bestuurders van voertuigen en slepen met een maximale toegelaten massa van meer dan 7,5 ton aanhouden, wanneer zij op bruggen rijden?",
+      "text_ru": "Какой минимальный интервал должны соблюдать водители транспортных средств и автопоездов с максимальной разрешенной массой более 7,5 тонн при движении по мостам?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "10 mètres",
+          "text_nl": "10 meter",
+          "text_ru": "10 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "15 mètres",
+          "text_nl": "15 meter",
+          "text_ru": "15 метров",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "20 mètres",
+          "text_nl": "20 meter",
+          "text_ru": "20 метров",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 18.1, sur les ponts, les conducteurs de véhicules et trains de véhicules dont la masse maximale autorisée dépasse 7,5 tonnes, doivent maintenir entre eux un intervalle de 15 mètres au moins.",
+      "explanation_nl": "Volgens artikel 18.1 moeten op bruggen de bestuurders van voertuigen en slepen met een maximale toegelaten massa van meer dan 7,5 ton, onderling een afstand houden van ten minste 15 meter.",
+      "explanation_ru": "Согласно статье 18.1, на мостах водители транспортных средств и автопоездов с максимальной разрешенной массой более 7,5 тонн должны соблюдать интервал не менее 15 метров."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans un convoi militaire, de nuit, quel est le signal lumineux qu'un conducteur doit s'attendre à voir à l'avant du dernier véhicule du convoi ?",
+      "text_nl": "Welk lichtsignaal mag een bestuurder 's nachts verwachten te zien aan de voorkant van het laatste voertuig van een militair konvooi?",
+      "text_ru": "В военном конвое, ночью, какой световой сигнал водитель должен ожидать увидеть в передней части последнего транспортного средства конвоя?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un feu bleu",
+          "text_nl": "Een blauw licht",
+          "text_ru": "Синий свет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un feu vert",
+          "text_nl": "Een groen licht",
+          "text_ru": "Зеленый свет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un feu blanc",
+          "text_nl": "Een wit licht",
+          "text_ru": "Белый свет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 18.4, le dernier véhicule d'un convoi militaire porte un fanion vert ou, de nuit, à l'avant un feu vert.",
+      "explanation_nl": "Volgens artikel 18.4 voert het laatste voertuig van een militair konvooi een groene wimpel of, bij nacht, vooraan een groen licht.",
+      "explanation_ru": "Согласно статье 18.4, последнее транспортное средство военного конвоя несет зеленый вымпел или, ночью, впереди зеленый свет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un camion de 8 tonnes et de 9 mètres de long sur une route en dehors d'une agglomération. Quelle distance minimale devez-vous maintenir avec le véhicule qui vous précède ?",
+      "text_nl": "U rijdt met een vrachtwagen van 8 ton en 9 meter lang op een weg buiten een bebouwde kom. Welke minimale afstand moet u aanhouden ten opzichte van het voorgaande voertuig?",
+      "text_ru": "Вы управляете грузовиком массой 8 тонн и длиной 9 метров по дороге вне населенного пункта. Какое минимальное расстояние вы должны соблюдать до впереди идущего транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image showing a truck driving on a rural road outside a city, with a car in front of it, illustrating the concept of maintaining a safe distance."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "15 mètres",
+          "text_nl": "15 meter",
+          "text_ru": "15 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "50 mètres",
+          "text_nl": "50 meter",
+          "text_ru": "50 метров",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune distance spécifique n'est imposée pour les véhicules lourds en dehors des agglomérations.",
+          "text_nl": "Geen specifieke afstand is verplicht voor zware voertuigen buiten de bebouwde kommen.",
+          "text_ru": "Никакое конкретное расстояние не требуется для тяжелых транспортных средств вне населенных пунктов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 18.2, en dehors des agglomérations, les conducteurs de véhicules et trains de véhicules dont la masse maximale autorisée dépasse 7,5 tonnes ou dont la longueur dépasse 7 mètres, doivent maintenir entre eux un intervalle de 50 mètres au moins. Votre camion répond aux deux critères.",
+      "explanation_nl": "Volgens artikel 18.2 moeten buiten de bebouwde kommen bestuurders van voertuigen en slepen met een maximale toegelaten massa van meer dan 7,5 ton of langer dan 7 meter, onderling een afstand houden van ten minste 50 meter. Uw vrachtwagen voldoet aan beide criteria.",
+      "explanation_ru": "Согласно статье 18.2, вне населенных пунктов водители транспортных средств и автопоездов с максимальной разрешенной массой более 7,5 тонн или длиной более 7 метров должны соблюдать интервал не менее 50 метров. Ваш грузовик соответствует обоим критериям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Trois véhicules automobiles circulent en convoi pour un trajet commun en dehors des agglomérations. Quelle est la distance minimale que chaque conducteur doit maintenir avec le véhicule qui le précède ?",
+      "text_nl": "Drie auto's rijden in konvooi voor een gezamenlijke tocht buiten de bebouwde kommen. Welke minimale afstand moet elke bestuurder aanhouden ten opzichte van het voorgaande voertuig?",
+      "text_ru": "Три автомобиля движутся в колонне для совместной поездки вне населенных пунктов. Какое минимальное расстояние должен соблюдать каждый водитель до впереди идущего автомобиля?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image showing three passenger cars driving in a convoy on a highway outside a city, maintaining a specific distance between them."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "15 mètres",
+          "text_nl": "15 meter",
+          "text_ru": "15 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 mètres",
+          "text_nl": "30 meter",
+          "text_ru": "30 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "50 mètres",
+          "text_nl": "50 meter",
+          "text_ru": "50 метров",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 18.3, en dehors des agglomérations, les conducteurs de véhicules automobiles circulant en convoi en vue d'un trajet à faire de conserve doivent maintenir entre eux un intervalle de 50 mètres au moins.",
+      "explanation_nl": "Conform artikel 18.3 moeten buiten de bebouwde kommen bestuurders van auto's die in konvooi rijden voor een gezamenlijk te maken tocht, onderling een afstand houden van ten minste 50 meter.",
+      "explanation_ru": "В соответствии со статьей 18.3, вне населенных пунктов водители автомобилей, движущихся в колонне для совместной поездки, должны соблюдать интервал не менее 50 метров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Il fait nuit et le brouillard est intense. Vous croisez un convoi militaire sur une route hors agglomération. Quel est le comportement attendu concernant la signalisation lumineuse des véhicules de ce convoi, et la règle de l'intervalle de 50 mètres leur est-elle applicable ?",
+      "text_nl": "Het is nacht en er is dichte mist. U komt een militair konvooi tegen op een weg buiten de bebouwde kom. Welk gedrag mag verwacht worden met betrekking tot de lichtsignalering van de voertuigen van dit konvooi, en is de regel van de 50 meter afstand op hen van toepassing?",
+      "text_ru": "Ночь, сильный туман. Вы встречаете военный конвой на дороге вне населенного пункта. Какое поведение ожидается в отношении световой сигнализации транспортных средств этого конвоя, и применимо ли к ним правило интервала в 50 метров?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a military convoy driving at night in dense fog on a rural road. The lead vehicle has a blue light, and the last vehicle has a green light. Headlights (dimmed or full) are on."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le premier véhicule aura un feu bleu et le dernier un feu vert ; la règle de l'intervalle de 50 mètres leur est applicable.",
+          "text_nl": "Het eerste voertuig zal een blauw licht voeren en het laatste een groen licht; de regel van de 50 meter afstand is op hen van toepassing.",
+          "text_ru": "Первое транспортное средство будет иметь синий свет, а последнее — зеленый свет; правило интервала в 50 метров к ним применимо.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le premier véhicule aura un feu bleu et le dernier un feu vert ; la règle de l'intervalle de 50 mètres ne leur est pas applicable.",
+          "text_nl": "Het eerste voertuig zal een blauw licht voeren en het laatste een groen licht; de regel van de 50 meter afstand is niet op hen van toepassing.",
+          "text_ru": "Первое транспортное средство будет иметь синий свет, а последнее — зеленый свет; правило интервала в 50 метров к ним не применимо.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les véhicules doivent utiliser leurs feux de croisement ou de route uniquement ; la règle de l'intervalle de 50 mètres ne leur est pas applicable.",
+          "text_nl": "De voertuigen moeten alleen dimlichten of grootlichten gebruiken; de regel van de 50 meter afstand is niet op hen van toepassing.",
+          "text_ru": "Транспортные средства должны использовать только ближний или дальний свет; правило интервала в 50 метров к ним не применимо.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 18.4, la disposition prévue au 18.3 (intervalle de 50m pour les convois) n'est pas applicable aux véhicules militaires circulant en convoi entre la tombée et le lever du jour ou par temps de brouillard intense. Dans ces conditions, le premier véhicule porte, de nuit, un feu bleu et le dernier véhicule un feu vert. En outre, ils utilisent leurs feux de croisement ou de route.",
+      "explanation_nl": "Volgens artikel 18.4 geldt het bepaalde in 18.3 (50m afstand voor konvooien) niet voor legervoertuigen die in konvooi rijden tussen het vallen van de avond en het aanbreken van de dag of bij zeer mistig weer. In deze omstandigheden voert het eerste voertuig 's nachts een blauw licht en het laatste voertuig een groen licht. Bovendien moeten ze dimlichten of grootlichten gebruiken.",
+      "explanation_ru": "Согласно статье 18.4, положение, предусмотренное в 18.3 (интервал 50 м для колонн), не применяется к военным транспортным средствам, движущимся в колонне между заходом и восходом солнца или в условиях сильного тумана. В таких условиях первое транспортное средство ночью несет синий свет, а последнее — зеленый свет. Кроме того, они используют ближний или дальний свет фар."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "32662ce142ef",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:30:21Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

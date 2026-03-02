@@ -7,4 +7,4 @@ whitenoise>=6.0
 # Pipeline dependencies
 deepl>=1.17          # DeepL Free API (FR→RU translation, Markdown support)
 python-dotenv>=1.0   # .env loading in pipeline scripts
-google-generativeai>=0.8.0
+google-genai>=1.0.0

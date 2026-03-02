@@ -26,7 +26,193 @@
   "anchor_id_fr": "ix2hiritb6",
   "anchor_id_nl": "vngtmp46ry",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quelles circonstances l'usage d'un sabot peut-il être envisagé selon l'article 27quinquies ?",
+      "text_nl": "Onder welke omstandigheden kan het gebruik van een wielklem worden overwogen volgens artikel 27quinquies?",
+      "text_ru": "При каких обстоятельствах, согласно статье 27 quinquies, может быть рассмотрено использование блокиратора колес?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An illustration of a car wheel with a boot attached, symbolizing immobilization."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement en cas de stationnement dans un endroit interdit.",
+          "text_nl": "Alleen in geval van parkeren op een verboden plaats.",
+          "text_ru": "Только в случае парковки в запрещенном месте.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lors d'infractions spécifiques mentionnées dans l'article 27quinquies.",
+          "text_nl": "Bij specifieke inbreuken vermeld in artikel 27quinquies.",
+          "text_ru": "При совершении конкретных нарушений, упомянутых в статье 27 quinquies.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si le véhicule gêne gravement la circulation.",
+          "text_nl": "Alleen als het voertuig het verkeer ernstig belemmert.",
+          "text_ru": "Только если транспортное средство серьезно мешает движению.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27quinquies stipule que l'usage d'un sabot peut être fait en cas d'infraction aux dispositions des articles 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter et 27quater.",
+      "explanation_nl": "Artikel 27quinquies bepaalt dat een wielklem kan worden gebruikt bij overtreding van de bepalingen van de artikelen 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter en 27quater.",
+      "explanation_ru": "Статья 27 quinquies предусматривает, что блокиратор колес может быть использован при нарушении положений статей 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter и 27quater."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le but de l'usage d'un sabot mentionné dans l'article 27quinquies ?",
+      "text_nl": "Wat is het doel van het gebruik van een wielklem vermeld in artikel 27quinquies?",
+      "text_ru": "Какова цель использования блокиратора колес, упомянутого в статье 27 quinquies?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A graphic representing immobilization or restriction of movement."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Servir d'avertissement visuel pour les autres conducteurs.",
+          "text_nl": "Dienen als visuele waarschuwing voor andere bestuurders.",
+          "text_ru": "Служить визуальным предупреждением для других водителей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Démolir le véhicule.",
+          "text_nl": "Het voertuig slopen.",
+          "text_ru": "Снести транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Immobiliser le véhicule.",
+          "text_nl": "Het voertuig immobiliseren.",
+          "text_ru": "Обездвижить транспортное средство.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 27quinquies indique explicitement que le sabot est destiné à immobiliser le véhicule.",
+      "explanation_nl": "Artikel 27quinquies geeft expliciet aan dat de wielklem bedoeld is om het voertuig te immobiliseren.",
+      "explanation_ru": "Статья 27 quinquies явно указывает, что блокиратор колес предназначен для обездвиживания транспортного средства."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes garé sur une place réservée aux personnes handicapées sans disposer de la carte de stationnement adéquate. Un agent de police constate l'infraction. Quelle mesure peut être appliquée à votre véhicule selon l'article 27quinquies ?",
+      "text_nl": "U bent geparkeerd op een plaats voorbehouden voor personen met een handicap zonder de juiste parkeerkaart te bezitten. Een politieagent stelt de inbreuk vast. Welke maatregel kan op uw voertuig worden toegepast volgens artikel 27quinquies?",
+      "text_ru": "Вы припарковались на месте, предназначенном для инвалидов, не имея соответствующей парковочной карты. Сотрудник полиции фиксирует нарушение. Какая мера может быть применена к вашему автомобилю согласно статье 27 quinquies?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street sign indicating a parking spot reserved for people with disabilities, with a car illegally parked in it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre véhicule sera immobilisé à l'aide d'un sabot.",
+          "text_nl": "Uw voertuig zal worden geïmmobiliseerd met behulp van een wielklem.",
+          "text_ru": "Ваш автомобиль будет обездвижен с помощью блокиратора колес.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre véhicule sera immédiatement remorqué, sans possibilité de sabotage.",
+          "text_nl": "Uw voertuig zal onmiddellijk worden weggesleept, zonder mogelijkheid tot wielklem.",
+          "text_ru": "Ваш автомобиль будет немедленно эвакуирован без возможности использования блокиратора колес.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seule une amende sera appliquée, sans immobilisation du véhicule.",
+          "text_nl": "Alleen een boete zal worden toegepast, zonder immobilisatie van het voertuig.",
+          "text_ru": "Будет наложен только штраф, без обездвиживания автомобиля.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le stationnement dans un endroit réservé aux personnes handicapées sans autorisation peut être considéré comme une infraction relevant des articles mentionnés dans l'article 27quinquies, permettant l'usage d'un sabot pour immobiliser le véhicule.",
+      "explanation_nl": "Parkeren op een plaats voorbehouden voor personen met een handicap zonder toestemming kan worden beschouwd als een inbreuk die valt onder de artikelen vermeld in artikel 27quinquies, wat het gebruik van een wielklem om het voertuig te immobiliseren mogelijk maakt.",
+      "explanation_ru": "Парковка на месте, предназначенном для инвалидов, без разрешения, может рассматриваться как нарушение, подпадающее под действие статей, упомянутых в статье 27 quinquies, что позволяет использовать блокиратор колес для обездвиживания транспортного средства."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez omis de payer votre stationnement dans une zone bleue et le disque de stationnement n'est pas visible. Vous revenez à votre véhicule et remarquez qu'un sabot a été placé sur l'une de vos roues. Cette mesure est-elle conforme à l'article 27quinquies si l'infraction concerne le non-respect des règles de stationnement ?",
+      "text_nl": "U hebt nagelaten uw parkeergeld te betalen in een blauwe zone en de parkeerschijf is niet zichtbaar. U keert terug naar uw voertuig en merkt dat er een wielklem op een van uw wielen is geplaatst. Is deze maatregel in overeenstemming met artikel 27quinquies als de overtreding betrekking heeft op het niet naleven van de parkeerregels?",
+      "text_ru": "Вы забыли оплатить парковку в синей зоне, и парковочный диск не виден. Вы возвращаетесь к своему автомобилю и обнаруживаете, что на одно из ваших колес установлен блокиратор. Соответствует ли эта мера статье 27 quinquies, если нарушение связано с несоблюдением правил парковки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car with a parking ticket on the windshield and a wheel clamp attached to one of its wheels."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car l'article 27quinquies ne concerne que les infractions de roulage, pas de stationnement.",
+          "text_nl": "Nee, want artikel 27quinquies heeft alleen betrekking op rijovertredingen, niet op parkeerovertredingen.",
+          "text_ru": "Нет, так как статья 27 quinquies касается только нарушений правил дорожного движения, а не парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car le non-paiement du stationnement peut être lié à des infractions spécifiques qui permettent l'usage d'un sabot.",
+          "text_nl": "Ja, want het niet betalen van parkeerplaatsen kan verband houden met specifieke overtredingen die het gebruik van een wielklem toelaten.",
+          "text_ru": "Да, так как неоплата парковки может быть связана с конкретными нарушениями, допускающими использование блокиратора колес.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car le non-respect des règles de stationnement, comme le non-paiement, peut être inclus dans les infractions visées par l'article 27.2 ou 27.3 qui autorisent l'usage d'un sabot.",
+          "text_nl": "Ja, want het niet naleven van de parkeerregels, zoals niet betalen, kan vallen onder de overtredingen bedoeld in artikel 27.2 of 27.3 die het gebruik van een wielklem toestaan.",
+          "text_ru": "Да, так как несоблюдение правил парковки, такое как неоплата, может подпадать под нарушения, предусмотренные статьей 27.2 или 27.3, которые разрешают использование блокиратора колес.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 27quinquies fait référence aux articles 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter et 27quater. Le non-respect des règles de stationnement, tel que le non-paiement dans une zone bleue, peut effectivement relever des articles 27.2 ou 27.3, rendant l'application d'un sabot légale dans ce contexte.",
+      "explanation_nl": "Artikel 27quinquies verwijst naar de artikelen 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter en 27quater. Het niet naleven van de parkeerregels, zoals niet betalen in een blauwe zone, kan inderdaad onder artikel 27.2 of 27.3 vallen, waardoor het toepassen van een wielklem in deze context wettelijk is.",
+      "explanation_ru": "Статья 27 quinquies ссылается на статьи 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter и 27quater. Несоблюдение правил парковки, такое как неоплата в синей зоне, действительно может подпадать под действие статей 27.2 или 27.3, что делает применение блокиратора колес в данном контексте законным."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre véhicule est stationné en double file dans une rue commerçante et bloque partiellement la circulation. Un agent verbalisateur arrive. Selon l'article 27quinquies, quelle est l'une des mesures qui pourrait être prise ?",
+      "text_nl": "Uw voertuig is dubbel geparkeerd in een winkelstraat en belemmert gedeeltelijk het verkeer. Een parkeerwachter komt aan. Volgens artikel 27quinquies, wat is een van de maatregelen die genomen kan worden?",
+      "text_ru": "Ваш автомобиль припаркован в два ряда на торговой улице и частично блокирует движение. Приближается инспектор по парковке. Согласно статье 27 quinquies, какая из мер может быть предпринята?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car double parked on a busy street, obstructing traffic. A parking enforcement officer is approaching."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende et le retrait immédiat du permis de conduire.",
+          "text_nl": "Een boete en de onmiddellijke intrekking van het rijbewijs.",
+          "text_ru": "Штраф и немедленное изъятие водительских прав.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'immobilisation du véhicule par un sabot.",
+          "text_nl": "De immobilisatie van het voertuig met een wielklem.",
+          "text_ru": "Обездвиживание транспортного средства с помощью блокиратора колес.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un avertissement verbal sans aucune sanction.",
+          "text_nl": "Een mondelinge waarschuwing zonder enige sanctie.",
+          "text_ru": "Устное предупреждение без каких-либо санкций.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le stationnement en double file peut constituer une infraction aux dispositions mentionnées dans l'article 27quinquies (par exemple, l'article 27.2 ou 27.3), permettant ainsi l'usage d'un sabot pour immobiliser le véhicule.",
+      "explanation_nl": "Dubbel parkeren kan een overtreding vormen van de bepalingen vermeld in artikel 27quinquies (bijvoorbeeld artikel 27.2 of 27.3), waardoor het gebruik van een wielklem om het voertuig te immobiliseren mogelijk is.",
+      "explanation_ru": "Двойная парковка может представлять собой нарушение положений, упомянутых в статье 27 quinquies (например, статья 27.2 или 27.3), что позволяет использовать блокиратор колес для обездвиживания транспортного средства."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "a2c7ef91879e",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:10:46Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

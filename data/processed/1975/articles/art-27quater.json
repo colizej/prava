@@ -26,7 +26,178 @@
   "anchor_id_fr": "g8aykzmlzy",
   "anchor_id_nl": "vflupyreqp",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 27quater, qu'est-ce qui peut remplacer la carte communale de stationnement ?",
+      "text_nl": "Volgens artikel 27quater, wat kan de gemeentelijke parkeerkaart vervangen?",
+      "text_ru": "Согласно статье 27-кватер, что может заменить муниципальную парковочную карту?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un disque de stationnement classique.",
+          "text_nl": "Een klassieke parkeerschijf.",
+          "text_ru": "Классический парковочный диск.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un système de contrôle électronique basé sur le numéro d'immatriculation.",
+          "text_nl": "Een elektronisch controlesysteem op basis van het kenteken.",
+          "text_ru": "Электронная система контроля на основе номерного знака.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un permis de stationnement temporaire délivré par la police.",
+          "text_nl": "Een tijdelijke parkeervergunning afgegeven door de politie.",
+          "text_ru": "Временное разрешение на парковку, выданное полицией.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27quater stipule que la commune peut remplacer la carte communale de stationnement par un système de contrôle électronique basé sur le numéro d'immatriculation du véhicule.",
+      "explanation_nl": "Artikel 27quater stelt dat de gemeente de gemeentelijke parkeerkaart kan vervangen door een elektronisch controlesysteem op basis van het kenteken van het voertuig.",
+      "explanation_ru": "Статья 27-кватер гласит, что муниципалитет может заменить муниципальную парковочную карту электронной системой контроля на основе номерного знака транспортного средства."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quand une carte de stationnement n'a-t-elle pas besoin d'être apposée sur le pare-brise selon l'article 27quater ?",
+      "text_nl": "Wanneer hoeft er geen parkeerkaart op de voorruit te worden aangebracht volgens artikel 27quater?",
+      "text_ru": "Когда, согласно статье 27-кватер, парковочную карту не нужно размещать на лобовом стекле?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement si le stationnement est gratuit.",
+          "text_nl": "Alleen als het parkeren gratis is.",
+          "text_ru": "Только если парковка бесплатная.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque le stationnement est contrôlé par un système électronique basé sur le numéro d'immatriculation.",
+          "text_nl": "Wanneer het parkeren wordt gecontroleerd door een elektronisch systeem op basis van het kenteken.",
+          "text_ru": "Когда парковка контролируется электронной системой на основе номерного знака.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement pour les stationnements de longue durée.",
+          "text_nl": "Alleen voor parkeren voor langere duur.",
+          "text_ru": "Только для длительной парковки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27quater précise que dans le cas d'un système de contrôle électronique basé sur le numéro d'immatriculation, aucune carte ne doit être apposée sur le pare-brise.",
+      "explanation_nl": "Artikel 27quater specificeert dat in het geval van een elektronisch controlesysteem op basis van het kenteken, er geen kaart op de voorruit hoeft te worden aangebracht.",
+      "explanation_ru": "Статья 27-кватер уточняет, что в случае электронной системы контроля на основе номерного знака, парковочную карту не нужно размещать на лобовом стекле."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez dans une zone de stationnement payant où il n'y a pas de parcmètres visibles, mais des panneaux indiquent 'Stationnement contrôlé électroniquement'. Vous voyez des caméras sur des poteaux. Quelle est la procédure correcte pour vous conformer au règlement, selon l'esprit de l'article 27quater ?",
+      "text_nl": "U komt aan in een zone met betalend parkeren waar geen parkeermeters zichtbaar zijn, maar borden aangeven 'Elektronisch gecontroleerd parkeren'. U ziet camera's op palen. Wat is de juiste procedure om aan de regelgeving te voldoen, in de geest van artikel 27quater?",
+      "text_ru": "Вы прибываете в зону платной парковки, где нет видимых парковочных автоматов, но знаки указывают 'Электронный контроль парковки'. Вы видите камеры на столбах. Какова правильная процедура для соблюдения правил, в духе статьи 27-кватер?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Chercher un parcmètre à proximité, car le panneau doit être une indication erronée.",
+          "text_nl": "Zoek naar een parkeermeter in de buurt, want het bord moet een verkeerde indicatie zijn.",
+          "text_ru": "Ищите ближайший парковочный автомат, так как знак должен быть ошибочным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous garer sans rien faire, car le système enregistrera votre plaque et le paiement sera effectué automatiquement ou via une application mobile liée à votre plaque.",
+          "text_nl": "Parkeer zonder iets te doen, omdat het systeem uw kenteken zal registreren en de betaling automatisch zal worden verricht of via een mobiele app die aan uw kenteken is gekoppeld.",
+          "text_ru": "Припаркуйтесь, ничего не делая, так как система зарегистрирует ваш номерной знак, и оплата будет произведена автоматически или через мобильное приложение, связанное с вашим номером.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Laisser une note sur votre tableau de bord avec l'heure d'arrivée, car le système n'est pas clair.",
+          "text_nl": "Laat een briefje achter op uw dashboard met de aankomsttijd, omdat het systeem niet duidelijk is.",
+          "text_ru": "Оставьте записку на приборной панели с указанием времени прибытия, так как система неясна.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27quater décrit un système de contrôle électronique basé sur le numéro d'immatriculation. Cela implique que le contrôle et potentiellement le paiement se font via la plaque, sans nécessité d'afficher une carte ou d'utiliser un parcmètre physique.",
+      "explanation_nl": "Artikel 27quater beschrijft een elektronisch controlesysteem op basis van het kenteken. Dit impliceert dat de controle en eventuele betaling via de kentekenplaat verlopen, zonder dat er een kaart moet worden getoond of een fysieke parkeermeter moet worden gebruikt.",
+      "explanation_ru": "Статья 27-кватер описывает электронную систему контроля на основе номерного знака. Это подразумевает, что контроль и, возможно, оплата производятся через номерной знак, без необходимости отображать карту или использовать физический парковочный автомат."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes dans une rue où le stationnement est limité à 2 heures et soumis à un contrôle électronique via la plaque d'immatriculation. Vous vous garez pour une durée prévue de 3 heures. Que risquez-vous, en considérant le fonctionnement décrit par l'article 27quater ?",
+      "text_nl": "U bevindt zich in een straat waar de parkeerduur beperkt is tot 2 uur en elektronisch wordt gecontroleerd via de kentekenplaat. U parkeert voor een verwachte duur van 3 uur. Wat riskeert u, rekening houdend met de werking beschreven in artikel 27quater?",
+      "text_ru": "Вы находитесь на улице, где время парковки ограничено 2 часами и контролируется в электронном виде через номерной знак. Вы паркуетесь на предполагаемое время 3 часа. Что вам грозит, учитывая работу, описанную в статье 27-кватер?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien, car sans carte visible, le contrôle est difficile.",
+          "text_nl": "Niets, want zonder zichtbare kaart is de controle moeilijk.",
+          "text_ru": "Ничего, так как без видимой карты контроль затруднен.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende pour dépassement de la durée de stationnement autorisée, car le système électronique enregistre votre plaque et la durée.",
+          "text_nl": "Een boete voor het overschrijden van de toegestane parkeerduur, omdat het elektronische systeem uw kenteken en de duur registreert.",
+          "text_ru": "Штраф за превышение разрешенного времени парковки, так как электронная система регистрирует ваш номерной знак и время.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La commune vous contactera par courrier pour vous rappeler la règle.",
+          "text_nl": "De gemeente zal u per post contacteren om u aan de regel te herinneren.",
+          "text_ru": "Муниципалитет свяжется с вами по почте, чтобы напомнить о правиле.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27quater explique que le règlement de stationnement (y compris la durée limitée) est contrôlé sur la base de la plaque d'immatriculation. Dépasser la durée limite entraînera une sanction, potentiellement une amende enregistrée via le système électronique.",
+      "explanation_nl": "Artikel 27quater legt uit dat de parkeerregeling (inclusief beperkte duur) wordt gecontroleerd op basis van de kentekenplaat. Het overschrijden van de limiet zal leiden tot een sanctie, mogelijk een boete die via het elektronische systeem wordt geregistreerd.",
+      "explanation_ru": "Статья 27-кватер объясняет, что правила парковки (включая ограничение по времени) контролируются на основе номерного знака. Превышение лимита времени приведет к санкции, возможно, к штрафу, зарегистрированному через электронную систему."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous voyez un panneau de stationnement indiquant 'Zone résidentielle' avec à côté un panneau additionnel 'Contrôle par immatriculation'. Vous habitez dans cette zone et possédez une carte communale qui est désormais remplacée par le système électronique. Comment votre stationnement est-il désormais géré ?",
+      "text_nl": "U ziet een parkeerbord dat 'Bewonerszone' aangeeft met ernaast een aanvullend bord 'Controle via kenteken'. U woont in deze zone en heeft een gemeentekaart die nu is vervangen door het elektronische systeem. Hoe wordt uw parkeren nu beheerd?",
+      "text_ru": "Вы видите знак парковки, указывающий 'Зона для резидентов', а рядом дополнительный знак 'Контроль по номеру'. Вы проживаете в этой зоне и имеете муниципальную карту, которая теперь заменена электронной системой. Как теперь управляется ваша парковка?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez toujours apposer votre ancienne carte communale sur le tableau de bord.",
+          "text_nl": "U moet nog steeds uw oude gemeentekaart op het dashboard leggen.",
+          "text_ru": "Вы по-прежнему должны класть свою старую муниципальную карту на приборную панель.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre droit de stationnement en tant que résident est enregistré électroniquement via votre numéro d'immatriculation, sans nécessité d'afficher quoi que ce soit.",
+          "text_nl": "Uw parkeerrecht als bewoner wordt elektronisch geregistreerd via uw kenteken, zonder dat u iets hoeft te tonen.",
+          "text_ru": "Ваше право на парковку как резидента регистрируется в электронном виде через ваш номерной знак, без необходимости что-либо показывать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez obtenir un nouveau disque de stationnement spécifique pour les résidents.",
+          "text_nl": "U moet een nieuwe, specifieke parkeerschijf voor bewoners aanvragen.",
+          "text_ru": "Вы должны запросить новый, специальный парковочный диск для резидентов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 27quater, le système électronique remplace la carte physique. Le contrôle se fait par l'immatriculation, donc votre statut de résident est reconnu via votre plaque sans action manuelle de votre part.",
+      "explanation_nl": "Volgens artikel 27quater vervangt het elektronische systeem de fysieke kaart. De controle gebeurt via de kentekenplaat, dus uw status als bewoner wordt via uw kenteken herkend zonder handeling van uw kant.",
+      "explanation_ru": "В соответствии со статьей 27-кватер, электронная система заменяет физическую карту. Контроль осуществляется по номеру регистрации, поэтому ваш статус резидента распознается через ваш номер без каких-либо действий с вашей стороны."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "059c5eba5006",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:10:26Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

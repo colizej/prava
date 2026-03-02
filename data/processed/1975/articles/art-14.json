@@ -26,7 +26,193 @@
   "anchor_id_fr": "3mttvee6hj",
   "anchor_id_nl": "wpsxf8bvwr",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'Article 14.1 du Code de la route belge, qu'est-ce qu'un conducteur engagé dans un carrefour réglementé par un agent qualifié ou des signaux lumineux de circulation est autorisé à faire concernant le dégagement du carrefour ?",
+      "text_nl": "Wat mag een bestuurder die een kruispunt opgereden is waar het verkeer geregeld wordt door een bevoegd persoon of door verkeerslichten, volgens Artikel 14.1 van de Belgische wegcode doen met betrekking tot het vrijmaken van het kruispunt?",
+      "text_ru": "Согласно статье 14.1 Бельгийского дорожного кодекса, что разрешено делать водителю, въехавшему на регулируемый перекресток (регулировщиком или светофором), относительно освобождения перекрестка?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An abstract illustration of an intersection with traffic flow, not a specific sign."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Attendre toujours que la circulation soit ouverte dans le sens où il va s'engager.",
+          "text_nl": "Altijd wachten tot het verkeer in zijn richting wordt opengesteld.",
+          "text_ru": "Всегда ждать, пока движение в его направлении не откроется.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dégager le carrefour sans attendre que la circulation soit ouverte dans son sens, sauf interdiction spécifique par un feu rouge à sa droite sur la voie qu'il emprunte.",
+          "text_nl": "Het kruispunt vrijmaken zonder te wachten tot het verkeer in zijn richting wordt opengesteld, behalve indien een specifiek rood licht aan zijn rechterzijde op de te volgen weg dit verbiedt.",
+          "text_ru": "Освободить перекресток, не дожидаясь открытия движения в его направлении, за исключением случаев, когда красный свет справа на дороге, по которой он едет, запрещает это.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Rester immobilisé dans le carrefour jusqu'à ce que son feu devienne vert, même s'il gêne le trafic transversal.",
+          "text_nl": "Stil blijven staan op het kruispunt totdat zijn licht groen wordt, zelfs als hij het dwarsverkeer hindert.",
+          "text_ru": "Оставаться на перекрестке до тех пор, пока его светофор не загорится зеленым, даже если это мешает поперечному движению.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 14.1 autorise le conducteur déjà engagé dans un carrefour réglementé à le dégager sans attendre l'ouverture de la circulation dans sa direction, à moins qu'un feu rouge spécifique sur la voie d'emprunt ne l'interdise.",
+      "explanation_nl": "Artikel 14.1 staat de bestuurder die al op een geregeld kruispunt is, toe dit vrij te maken zonder te wachten tot het verkeer in zijn richting wordt opengesteld, tenzij een specifiek rood licht op de te volgen weg dit verbiedt.",
+      "explanation_ru": "Статья 14.1 разрешает водителю, уже въехавшему на регулируемый перекресток, освободить его, не дожидаясь открытия движения в его направлении, если только это не запрещено специальным красным светом на выездной полосе."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la principale raison pour laquelle un conducteur ne doit pas s'engager dans un carrefour, même si les signaux lumineux de circulation l'y autorisent, selon l'Article 14.2 ?",
+      "text_nl": "Wat is de belangrijkste reden waarom een bestuurder een kruispunt niet mag oprijden, zelfs als verkeerslichten dit toelaten, volgens Artikel 14.2?",
+      "text_ru": "Какова основная причина, по которой водитель не должен въезжать на перекресток, даже если это разрешено светофором, согласно статье 14.2?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An abstract illustration of traffic congestion at an intersection, with cars gridlocked."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour éviter une amende pour vitesse excessive.",
+          "text_nl": "Om een boete voor overdreven snelheid te vermijden.",
+          "text_ru": "Чтобы избежать штрафа за превышение скорости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Parce que l'encombrement de la circulation est tel qu'il serait vraisemblablement immobilisé dans le carrefour, gênant ou empêchant la circulation transversale.",
+          "text_nl": "Omdat het verkeer zodanig belemmerd is dat hij waarschijnlijk op het kruispunt zou moeten stoppen en aldus het dwarsverkeer zou hinderen of beletten.",
+          "text_ru": "Потому что затор настолько велик, что он, вероятно, будет обездвижен на перекрестке, мешая или препятствуя поперечному движению.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si un agent de circulation est présent et lui donne un ordre contraire.",
+          "text_nl": "Alleen als er een verkeersagent aanwezig is en hem een tegenovergesteld bevel geeft.",
+          "text_ru": "Только если присутствует регулировщик и дает противоположное указание.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 14.2 stipule que même avec un feu vert, il est interdit de s'engager dans un carrefour si l'on risque d'y rester bloqué et de gêner ou d'empêcher la circulation dans les directions transversales.",
+      "explanation_nl": "Artikel 14.2 stelt dat het zelfs bij groen licht verboden is een kruispunt op te rijden als men het risico loopt er geblokkeerd te raken en het dwarsverkeer te hinderen of te beletten.",
+      "explanation_ru": "Статья 14.2 гласит, что даже при зеленом свете запрещено въезжать на перекресток, если есть риск застрять на нем и препятствовать или блокировать движение в поперечном направлении."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour avec un feu de circulation vert. Cependant, vous constatez que le trafic devant vous est bloqué et que vous ne pourriez pas dégager le carrefour avant que le feu ne passe au rouge. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt met een groen verkeerslicht. U merkt echter dat het verkeer voor u geblokkeerd is en dat u het kruispunt niet kunt vrijmaken voordat het licht rood wordt. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрестку с зеленым светофором. Однако вы видите, что движение впереди заблокировано, и вы не сможете освободить перекресток до того, как свет станет красным. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An intersection with a green traffic light for the approaching car, but heavy congestion visible inside the intersection, preventing the car from clearing it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous engager prudemment dans le carrefour en espérant que le trafic avance rapidement.",
+          "text_nl": "Voorzichtig het kruispunt oprijden in de hoop dat het verkeer snel vooruitgaat.",
+          "text_ru": "Осторожно въехать на перекресток в надежде, что движение быстро возобновится.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter avant le carrefour, même si votre feu est vert, pour ne pas encombrer le carrefour et bloquer le trafic transversal.",
+          "text_nl": "Stoppen vóór het kruispunt, zelfs als uw licht groen is, om het kruispunt niet te blokkeren en het dwarsverkeer niet te hinderen.",
+          "text_ru": "Остановиться перед перекрестком, даже если ваш светофор зеленый, чтобы не загромождать перекресток и не блокировать поперечное движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour encourager les autres conducteurs à avancer plus vite.",
+          "text_nl": "Claxonneren om andere bestuurders aan te moedigen sneller te rijden.",
+          "text_ru": "Посигналить, чтобы побудить других водителей ехать быстрее.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'Article 14.2, même si le feu est vert, il est interdit de s'engager dans un carrefour si l'on risque d'y rester immobilisé et de gêner ou empêcher la circulation dans les directions transversales. Il faut attendre avant le carrefour.",
+      "explanation_nl": "Overeenkomstig Artikel 14.2 is het, zelfs bij groen licht, verboden een kruispunt op te rijden als men het risico loopt er stil te komen staan en het dwarsverkeer te hinderen of te beletten. U moet vóór het kruispunt wachten.",
+      "explanation_ru": "В соответствии со статьей 14.2, даже при зеленом свете запрещено въезжать на перекресток, если есть риск застрять на нем и препятствовать или блокировать движение в поперечном направлении. Вы должны подождать перед перекрестком."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes au volant de votre voiture et vous avez commencé à tourner à gauche dans un grand carrefour réglementé par des feux de circulation. Le feu pour votre direction de départ vient de passer au rouge, mais vous êtes déjà bien engagé dans le carrefour et la voie que vous souhaitez emprunter est libre d'obstacle et n'a pas de feu rouge spécifique à sa droite. Que faites-vous ?",
+      "text_nl": "U rijdt in uw auto en bent begonnen links af te slaan op een groot kruispunt dat geregeld wordt door verkeerslichten. Het licht voor uw startrichting is net rood geworden, maar u bent al ver op het kruispunt en de rijstrook die u wilt nemen is vrij van obstakels en heeft geen specifiek rood licht aan de rechterkant. Wat doet u?",
+      "text_ru": "Вы за рулем автомобиля и начали поворачивать налево на большом перекрестке, регулируемом светофорами. Свет для вашего начального направления только что стал красным, но вы уже находитесь глубоко на перекрестке, и полоса, которую вы хотите занять, свободна от препятствий и не имеет специального красного света справа. Что вы делаете?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car in the middle of a large intersection, having initiated a left turn. The traffic light for the direction from which it came is now red. The exit path is clear."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous vous arrêtez au milieu du carrefour et attendez que le feu pour la direction où vous allez s'ouvre à nouveau.",
+          "text_nl": "U stopt midden op het kruispunt en wacht tot het licht voor uw richting weer groen wordt.",
+          "text_ru": "Вы останавливаетесь посреди перекрестка и ждете, пока свет для вашего направления снова станет зеленым.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous klaxonnez et forcez le passage pour sortir rapidement du carrefour.",
+          "text_nl": "U toetert en dwingt uw weg af om snel het kruispunt te verlaten.",
+          "text_ru": "Вы сигналите и пробиваетесь, чтобы быстро выехать с перекрестка.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous dégagez le carrefour sans attendre que le feu dans votre sens de marche s'ouvre, car vous êtes déjà engagé.",
+          "text_nl": "U maakt het kruispunt vrij zonder te wachten tot het licht in uw rijrichting opengaat, omdat u al op het kruispunt bent.",
+          "text_ru": "Вы освобождаете перекресток, не дожидаясь, пока свет в вашем направлении движения откроется, так как вы уже въехали.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Selon l'Article 14.1, si vous êtes déjà engagé dans un carrefour réglementé et qu'il n'y a pas de feu rouge spécifique interdisant de prendre la voie souhaitée, vous devez dégager le carrefour pour ne pas gêner.",
+      "explanation_nl": "Volgens Artikel 14.1, als u al op een geregeld kruispunt bent en er geen specifiek rood licht is dat de gewenste rijstrook verbiedt, moet u het kruispunt vrijmaken om geen hinder te veroorzaken.",
+      "explanation_ru": "Согласно статье 14.1, если вы уже въехали на регулируемый перекресток и нет специального красного света, запрещающего движение по желаемой полосе, вы должны освободить перекресток, чтобы не мешать движению."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes engagé dans un carrefour réglementé et vous tournez à gauche. Votre feu initial est passé au rouge, mais la voie que vous devez emprunter pour quitter le carrefour est libre. Cependant, un feu de circulation secondaire, placé spécifiquement sur cette voie à votre droite, indique un feu rouge. Que devez-vous faire ?",
+      "text_nl": "U bent op een geregeld kruispunt en slaat linksaf. Uw oorspronkelijke licht is op rood gesprongen, maar de rijstrook die u moet nemen om het kruispunt te verlaten, is vrij. Echter, een secundair verkeerslicht, specifiek op die rijstrook aan uw rechterzijde geplaatst, toont rood. Wat moet u doen?",
+      "text_ru": "Вы въехали на регулируемый перекресток и поворачиваете налево. Ваш исходный свет стал красным, но полоса, по которой вы должны выехать с перекрестка, свободна. Однако дополнительный светофор, расположенный конкретно на этой полосе справа от вас, показывает красный свет. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car in the middle of an intersection, having initiated a left turn. The main traffic light for the entry direction is red. There is a secondary traffic light *on the exit path* to the car's right, showing red, specifically for that lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à dégager le carrefour, car la priorité est de ne pas bloquer les autres usagers.",
+          "text_nl": "Blijven het kruispunt vrijmaken, want de prioriteit is om andere weggebruikers niet te blokkeren.",
+          "text_ru": "Продолжить освобождать перекресток, так как приоритет — не блокировать других участников движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter prudemment avant le feu rouge secondaire et attendre qu'il passe au vert avant de continuer.",
+          "text_nl": "Voorzichtig stoppen vóór het secundaire rode licht en wachten tot het groen wordt voordat u verder rijdt.",
+          "text_ru": "Осторожно остановиться перед дополнительным красным светом и дождаться, пока он не станет зеленым, прежде чем продолжить движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour signaler votre présence et forcer le passage.",
+          "text_nl": "Claxonneren om uw aanwezigheid aan te geven en uw weg af te dwingen.",
+          "text_ru": "Посигналить, чтобы обозначить свое присутствие и пробить себе путь.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'Article 14.1 prévoit explicitement l'exception : 'sauf si un feu rouge placé à sa droite sur la voie publique qu'il va emprunter le lui interdit'. Dans ce cas, vous devez vous conformer à ce feu rouge secondaire.",
+      "explanation_nl": "Artikel 14.1 voorziet expliciet in de uitzondering: 'behalve indien op de weg die hij gaat volgen een aan zijn rechterzijde geplaatst rood licht hem zulks verbiedt'. In dit geval moet u dit secundaire rode licht opvolgen.",
+      "explanation_ru": "Статья 14.1 явно предусматривает исключение: 'за исключением случаев, когда красный свет, расположенный справа на дороге, по которой он собирается ехать, запрещает это'. В этом случае вы должны подчиниться этому дополнительному красному свету."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "0876d6aad377",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:28:11Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

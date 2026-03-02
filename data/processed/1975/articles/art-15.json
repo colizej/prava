@@ -26,7 +26,193 @@
   "anchor_id_fr": "mg2amk0cfl",
   "anchor_id_nl": "w6w2zvaxhp",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon le Code de la route belge, de quel côté le croisement doit-il généralement s'effectuer ?",
+      "text_nl": "Volgens de Belgische Wegcode, aan welke kant moet het kruisen algemeen geschieden?",
+      "text_ru": "Согласно бельгийскому Кодексу дорожного движения, с какой стороны обычно следует осуществлять проезд мимо встречного транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À gauche.",
+          "text_nl": "Links.",
+          "text_ru": "Слева.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À droite.",
+          "text_nl": "Rechts.",
+          "text_ru": "Справа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend du sens de la circulation le plus libre.",
+          "text_nl": "Dit hangt af van de meest vrije rijrichting.",
+          "text_ru": "Это зависит от наиболее свободного направления движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 15.1 du Code de la route stipule clairement que le croisement s'effectue à droite.",
+      "explanation_nl": "Artikel 15.1 van de Wegcode bepaalt duidelijk dat het kruisen rechts geschiedt.",
+      "explanation_ru": "Статья 15.1 Правил дорожного движения четко указывает, что проезд мимо встречного транспортного средства осуществляется справа."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles conditions spécifiques est-il permis de croiser un véhicule sur rails (tel qu'un tram) par la gauche, selon l'article 15.4 ?",
+      "text_nl": "Onder welke specifieke voorwaarden is het toegestaan om een spoorvoertuig (zoals een tram) links te kruisen, volgens artikel 15.4?",
+      "text_ru": "При каких конкретных условиях разрешается обгонять рельсовое транспортное средство (например, трамвай) слева, согласно статье 15.4?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jamais, le croisement des véhicules sur rails doit toujours se faire à droite.",
+          "text_nl": "Nooit, het kruisen van spoorvoertuigen moet altijd rechts geschieden.",
+          "text_ru": "Никогда, проезд мимо рельсовых транспортных средств всегда должен осуществляться справа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement si le véhicule sur rails est à l'arrêt ou en stationnement.",
+          "text_nl": "Enkel indien het spoorvoertuig stilstaat of geparkeerd is.",
+          "text_ru": "Только если рельсовое транспортное средство стоит или припарковано.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le croisement à droite est impossible en raison de l'étroitesse du passage ou d'un obstacle fixe, et à condition de ne pas gêner ou mettre en danger les usagers venant en sens inverse.",
+          "text_nl": "Indien het rechts kruisen onmogelijk is wegens de engte van de doorgang of een vaste hindernis, en op voorwaarde dat de tegemoetkomende weggebruikers niet gehinderd of in gevaar gebracht worden.",
+          "text_ru": "Если проезд справа невозможен из-за узости проезда или неподвижного препятствия, и при условии, что это не мешает и не создает опасности для встречных участников движения.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 15.4 prévoit une exception pour les véhicules sur rails : le croisement peut se faire à gauche si le passage à droite est impossible en raison d'un obstacle ou de l'exiguïté, et sans danger pour autrui.",
+      "explanation_nl": "Artikel 15.4 voorziet een uitzondering voor spoorvoertuigen: het kruisen mag links geschieden wanneer het rechts niet kan wegens een hindernis of de engte van de doorgang, en zonder gevaar voor anderen.",
+      "explanation_ru": "Статья 15.4 предусматривает исключение для рельсовых транспортных средств: проезд мимо может осуществляться слева, если проезд справа невозможен из-за препятствия или узости проезда, и без опасности для других."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route étroite et votre voie est partiellement bloquée par une voiture en stationnement. Un véhicule arrive en sens inverse. Que devez-vous faire pour permettre le croisement en toute sécurité ?",
+      "text_nl": "U rijdt op een smalle weg en uw rijstrook is gedeeltelijk geblokkeerd door een geparkeerde auto. Een tegenligger komt eraan. Wat moet u doen om het kruisen veilig te laten verlopen?",
+      "text_ru": "Вы движетесь по узкой дороге, и ваша полоса частично заблокирована припаркованным автомобилем. Встречное транспортное средство приближается. Что вы должны сделать, чтобы безопасно проехать мимо?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A narrow road with a parked car on one side, blocking part of the lane. An oncoming car is visible in the distance. The perspective is from the driver's seat of the car approaching the parked car."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer la voiture en stationnement avant que le véhicule venant en sens inverse n'arrive à votre hauteur.",
+          "text_nl": "Versnellen om de geparkeerde auto voorbij te rijden voordat de tegenligger u bereikt.",
+          "text_ru": "Ускориться, чтобы проехать мимо припаркованного автомобиля до того, как встречное транспортное средство доедет до вас.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et, si nécessaire, s'arrêter pour laisser passer le véhicule venant en sens inverse avant de contourner l'obstacle.",
+          "text_nl": "Vertragen en, zo nodig, stoppen om de tegenligger doorgang te verlenen alvorens de hindernis te omzeilen.",
+          "text_ru": "Замедлить движение и, при необходимости, остановиться, чтобы пропустить встречное транспортное средство, прежде чем объезжать препятствие.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour signaler votre intention de passer et forcer le passage.",
+          "text_nl": "Toeteren om uw intentie aan te geven en u een weg te banen.",
+          "text_ru": "Посигналить, чтобы обозначить свое намерение проехать, и проехать силой.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 15.2, si votre progression est entravée par un obstacle, vous devez ralentir et, au besoin, vous arrêter pour laisser passer les usagers qui viennent en sens inverse.",
+      "explanation_nl": "Overeenkomstig artikel 15.2, indien uw doorrijden wordt belemmerd door een hindernis, moet u vertragen en, zo nodig, stoppen om de tegemoetkomende weggebruikers doorgang te verlenen.",
+      "explanation_ru": "В соответствии со статьей 15.2, если ваше движение затруднено препятствием, вы должны замедлить движение и, при необходимости, остановиться, чтобы пропустить встречных участников движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une chaussée si étroite qu'il est difficile de croiser un autre véhicule. Est-il permis d'emprunter l'accotement de plain-pied ou la bande latérale pour faciliter le croisement ?",
+      "text_nl": "U rijdt op een rijbaan die zo smal is dat het moeilijk is om een ander voertuig te kruisen. Is het toegestaan om de gelijkgrondse berm of de zijdelingse strook te gebruiken om het kruisen te vergemakkelijken?",
+      "text_ru": "Вы движетесь по настолько узкой проезжей части, что трудно разъехаться со встречным транспортным средством. Разрешено ли использовать обочину в одном уровне или боковую полосу для облегчения разъезда?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A very narrow rural road with a clear, flat shoulder (accotement de plain-pied) on the side. Two cars are attempting to cross each other, one slightly on the shoulder."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, l'accotement est réservé aux arrêts d'urgence et aux cyclistes.",
+          "text_nl": "Nee, de berm is gereserveerd voor noodstops en fietsers.",
+          "text_ru": "Нет, обочина предназначена только для аварийных остановок и велосипедистов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, à condition de ne pas mettre en danger les autres usagers qui s'y trouvent (piétons, cyclistes, etc.).",
+          "text_nl": "Ja, op voorwaarde dat u de andere weggebruikers die zich daar bevinden (voetgangers, fietsers, enz.) niet in gevaar brengt.",
+          "text_ru": "Да, при условии, что вы не создаете опасности для других участников движения, находящихся там (пешеходов, велосипедистов и т.д.).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si la signalisation routière l'autorise explicitement.",
+          "text_nl": "Ja, maar enkel als de verkeersborden dit uitdrukkelijk toestaan.",
+          "text_ru": "Да, но только если дорожные знаки явно это разрешают.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 15.3, si la largeur de la chaussée ne permet pas un croisement aisé, le conducteur peut emprunter l'accotement de plain-pied ou la bande latérale, à condition de ne pas mettre en danger les usagers qui s'y trouvent.",
+      "explanation_nl": "Volgens artikel 15.3, wanneer het kruisen wegens de breedte van de rijbaan niet gemakkelijk kan uitgevoerd worden, mag de bestuurder de gelijkgrondse berm of de zijdelingse strook volgen, op voorwaarde dat hij de weggebruikers die zich daar bevinden, niet in gevaar brengt.",
+      "explanation_ru": "Согласно статье 15.3, если ширина проезжей части не позволяет легко разъехаться, водитель может использовать обочину в одном уровне или боковую полосу при условии, что он не создает опасности для находящихся там участников движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous circulez sur une rue avec des voies de tram et vous vous apprêtez à croiser un tram venant en sens inverse. Il y a une voiture en stationnement sur le côté droit, juste à côté du tram, rendant le passage à droite impossible. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een straat met tramsporen en staat op het punt een tegenliggende tram te kruisen. Er staat een auto geparkeerd aan de rechterkant, vlak naast de tram, waardoor rechts passeren onmogelijk is. Wat moet u doen?",
+      "text_ru": "Вы движетесь по улице с трамвайными путями и собираетесь разъехаться со встречным трамваем. С правой стороны, прямо рядом с трамваем, припаркован автомобиль, что делает проезд справа невозможным. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street scene with tram tracks. A tram is approaching. On the right side of the street, next to the tram, there's a parked car that obstructs the path for a car to cross the tram on the right. The viewpoint is from the driver's perspective of the car needing to cross."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Attendre derrière le tram que la voiture en stationnement se déplace.",
+          "text_nl": "Wachten achter de tram totdat de geparkeerde auto wegrijdt.",
+          "text_ru": "Ждать за трамваем, пока припаркованный автомобиль не уедет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez croiser le tram par sa gauche, à condition de ne pas gêner ou mettre en danger les usagers circulant en sens inverse.",
+          "text_nl": "U mag de tram links kruisen, op voorwaarde dat u de tegemoetkomende weggebruikers niet hindert of in gevaar brengt.",
+          "text_ru": "Вы можете проехать мимо трамвая слева, при условии, что вы не мешаете и не создаете опасности для встречных участников движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour que le tram s'arrête et que vous puissiez passer en serrant au maximum à droite.",
+          "text_nl": "Toeteren zodat de tram stopt en u erlangs kunt door maximaal rechts uit te wijken.",
+          "text_ru": "Посигналить, чтобы трамвай остановился, и вы могли проехать, максимально прижавшись вправо.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 15.4 stipule que le croisement des véhicules sur rails peut se faire à gauche s'il ne peut s'effectuer à droite en raison d'un obstacle fixe (comme une voiture en stationnement), et à condition de ne pas gêner ou mettre en danger les usagers circulant en sens inverse.",
+      "explanation_nl": "Artikel 15.4 stelt dat het kruisen van spoorvoertuigen links mag geschieden wanneer het rechts niet kan wegens een vaste hindernis (zoals een geparkeerde auto), en op voorwaarde dat de tegemoetkomende weggebruikers niet gehinderd of in gevaar gebracht worden.",
+      "explanation_ru": "Статья 15.4 гласит, что проезд мимо рельсовых транспортных средств может осуществляться слева, если проезд справа невозможен из-за неподвижного препятствия (например, припаркованного автомобиля), и при условии, что это не мешает и не создает опасности для встречных участников движения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "71240d61f0ef",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:28:42Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

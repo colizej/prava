@@ -30,7 +30,178 @@
   "anchor_id_fr": "8ysqrps1xx",
   "anchor_id_nl": "2ecrb8zp1n",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quelles conditions les feux de route des véhicules à moteur doivent-ils être remplacés par les feux de croisement, selon l'article 30.1.1° c) ?",
+      "text_nl": "Onder welke voorwaarden moeten de grootlichten van motorvoertuigen vervangen worden door dimlichten, volgens artikel 30.1.1° c)?",
+      "text_ru": "При каких условиях дальний свет моторных транспортных средств должен быть заменен ближним светом согласно статье 30.1.1° c)?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque le véhicule suit un autre véhicule à une distance de moins de 50 mètres, sauf lors d'un dépassement.",
+          "text_nl": "Wanneer het voertuig een ander voertuig volgt op een afstand van minder dan 50 meter, behalve tijdens het inhalen.",
+          "text_ru": "Когда транспортное средство следует за другим транспортным средством на расстоянии менее 50 метров, кроме случаев обгона.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque le véhicule suit un autre véhicule à une distance de moins de 100 mètres.",
+          "text_nl": "Wanneer het voertuig een ander voertuig volgt op een afstand van minder dan 100 meter.",
+          "text_ru": "Когда транспортное средство следует за другим транспортным средством на расстоянии менее 100 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement en cas de brouillard dense.",
+          "text_nl": "Enkel bij dichte mist.",
+          "text_ru": "Только при густом тумане.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 30.1.1° c) stipule que les feux de route doivent être éteints et remplacés par les feux de croisement lorsque le véhicule en suit un autre à une distance de moins de 50 mètres, sauf lorsqu'il effectue un dépassement.",
+      "explanation_nl": "Artikel 30.1.1° c) stelt dat de grootlichten gedoofd en vervangen moeten worden door dimlichten wanneer het voertuig een ander voertuig op minder dan 50 meter afstand volgt, behalve wanneer het inhaalt.",
+      "explanation_ru": "Статья 30.1.1° c) гласит, что дальний свет должен быть выключен и заменен ближним светом, когда транспортное средство следует за другим транспортным средством на расстоянии менее 50 метров, кроме случаев обгона."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quand les feux de brouillard avant peuvent-ils être utilisés selon l'article 30.1.1° ?",
+      "text_nl": "Wanneer mogen de voormistlichten gebruikt worden volgens artikel 30.1.1°?",
+      "text_ru": "Когда могут использоваться передние противотуманные фары согласно статье 30.1.1°?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement la nuit.",
+          "text_nl": "Alleen 's nachts.",
+          "text_ru": "Только ночью.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En cas de brouillard, de chute de neige ou de forte pluie.",
+          "text_nl": "Bij mist, sneeuwval of hevige regen.",
+          "text_ru": "При тумане, снегопаде или сильном дожде.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement pour remplacer les feux de route.",
+          "text_nl": "Enkel ter vervanging van de grootlichten.",
+          "text_ru": "Только для замены дальнего света.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 30.1.1° indique que les feux de brouillard avant ne peuvent être utilisés qu'en cas de brouillard, de chute de neige ou de forte pluie.",
+      "explanation_nl": "Artikel 30.1.1° geeft aan dat de voormistlichten slechts gebruikt mogen worden bij mist, sneeuwval of hevige regen.",
+      "explanation_ru": "Статья 30.1.1° указывает, что передние противотуманные фары могут использоваться только при тумане, снегопаде или сильном дожде."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez de nuit sur une route de campagne peu éclairée. Un véhicule arrive en sens inverse. À quelle distance environ devriez-vous passer de vos feux de route aux feux de croisement pour ne pas éblouir l'autre conducteur ?",
+      "text_nl": "U rijdt 's nachts op een slecht verlichte landweg. Een voertuig komt u tegemoet. Op welke afstand ongeveer moet u overschakelen van grootlicht naar dimlicht om de andere bestuurder niet te verblinden?",
+      "text_ru": "Вы едете ночью по плохо освещенной проселочной дороге. Навстречу вам движется автомобиль. На каком расстоянии примерно вы должны переключиться с дальнего света на ближний, чтобы не ослепить другого водителя?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À moins de 50 mètres.",
+          "text_nl": "Minder dan 50 meter.",
+          "text_ru": "Менее 50 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dès qu'il est possible que l'autre conducteur soit ébloui, en tout cas avant 100 mètres.",
+          "text_nl": "Zodra de andere bestuurder verblind kan worden, in ieder geval voor 100 meter.",
+          "text_ru": "Как только другой водитель может быть ослеплен, в любом случае до 100 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "À la distance nécessaire pour que l'usager venant en sens inverse puisse continuer sa marche aisément et sans danger.",
+          "text_nl": "Op de afstand die nodig is opdat de tegemoetkomende weggebruiker zijn weg gemakkelijk en zonder gevaar kan voortzetten.",
+          "text_ru": "На расстояние, необходимое для того, чтобы встречный водитель мог безопасно и легко продолжить движение.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 30.1.1° a) stipule que les feux de route doivent être remplacés par les feux de croisement à l'approche d'un usager venant en sens inverse, à la distance nécessaire pour que celui-ci puisse continuer sa marche aisément et sans danger.",
+      "explanation_nl": "Artikel 30.1.1° a) stelt dat de grootlichten vervangen moeten worden door dimlichten bij het naderen van een tegemoetkomende weggebruiker, op de nodige afstand opdat deze laatste zijn weg gemakkelijk en zonder gevaar zou kunnen voortzetten.",
+      "explanation_ru": "Статья 30.1.1° a) гласит, что дальний свет должен быть заменен ближним светом при приближении к встречному транспортному средству на расстояние, необходимое для того, чтобы этот водитель мог безопасно и легко продолжить движение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez sur une autoroute déserte pendant la nuit, avec un éclairage continu et suffisant de la chaussée. Quelle est la distance maximale de visibilité qui vous permettrait encore d'utiliser vos feux de route ?",
+      "text_nl": "U rijdt 's nachts op een verlaten autosnelweg met continue en voldoende verlichting van de rijbaan. Wat is de maximale zichtbaarheidsafstand waarbij u uw grootlichten nog zou mogen gebruiken?",
+      "text_ru": "Вы едете ночью по пустынному автобану с постоянным и достаточным освещением дороги. Каково максимальное расстояние видимости, при котором вам все еще разрешено использовать дальний свет?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jusqu'à 200 mètres.",
+          "text_nl": "Tot 200 meter.",
+          "text_ru": "До 200 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Moins de 100 mètres.",
+          "text_nl": "Minder dan 100 meter.",
+          "text_ru": "Менее 100 метров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Plus de 100 mètres.",
+          "text_nl": "Meer dan 100 meter.",
+          "text_ru": "Более 100 метров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 30.1.1° d), les feux de route doivent être éteints et remplacés par les feux de croisement lorsque l'éclairage de la chaussée est continu et suffisant pour permettre au conducteur de voir distinctement jusqu'à une distance d'environ 100 mètres. Par conséquent, pour pouvoir utiliser les feux de route, la visibilité doit être inférieure à 100 mètres.",
+      "explanation_nl": "Volgens artikel 30.1.1° d) moeten de grootlichten gedoofd en vervangen worden door dimlichten wanneer de rijbaan onafgebroken en voldoende verlicht is zodat de bestuurder tot op ongeveer 100 meter duidelijk kan zien. Bijgevolg, om grootlichten te mogen gebruiken, moet de zichtbaarheid minder dan 100 meter zijn.",
+      "explanation_ru": "Согласно статье 30.1.1° d), дальний свет должен быть выключен и заменен ближним светом, когда освещение дороги непрерывно и достаточно, чтобы водитель мог четко видеть на расстоянии около 100 метров. Следовательно, чтобы иметь возможность использовать дальний свет, видимость должна быть менее 100 метров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous suivez un autre véhicule la nuit sur une route nationale. La distance entre votre véhicule et celui que vous suivez est de 40 mètres. Vous n'êtes pas en train de dépasser. Quels feux devriez-vous utiliser ?",
+      "text_nl": "U volgt 's nachts een ander voertuig op een gewestweg. De afstand tussen uw voertuig en het voertuig dat u volgt is 40 meter. U bent niet aan het inhalen. Welke lichten zou u moeten gebruiken?",
+      "text_ru": "Вы едете ночью по национальной дороге за другим транспортным средством. Расстояние между вашим автомобилем и автомобилем, за которым вы следуете, составляет 40 метров. Вы не обгоняете. Какие огни вы должны использовать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Feux de route, car la distance est encore raisonnable.",
+          "text_nl": "Grootlichten, omdat de afstand nog redelijk is.",
+          "text_ru": "Дальний свет, так как расстояние еще разумно.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Feux de croisement, car vous suivez un autre véhicule à moins de 50 mètres et n'effectuez pas de dépassement.",
+          "text_nl": "Dimlichten, omdat u een ander voertuig volgt op minder dan 50 meter afstand en niet aan het inhalen bent.",
+          "text_ru": "Ближний свет, так как вы следуете за другим транспортным средством на расстоянии менее 50 метров и не обгоняете.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Feux de brouillard avant, car la visibilité est réduite.",
+          "text_nl": "Voormistlichten, omdat het zicht beperkt is.",
+          "text_ru": "Передние противотуманные фары, так как видимость ограничена.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 30.1.1° c) stipule que les feux de route doivent être remplacés par les feux de croisement lorsque le véhicule en suit un autre à une distance de moins de 50 mètres, sauf lorsqu'il effectue un dépassement. Ici, la distance est de 40 mètres et il n'y a pas de dépassement.",
+      "explanation_nl": "Artikel 30.1.1° c) stelt dat de grootlichten gedoofd en vervangen moeten worden door dimlichten wanneer het voertuig een ander voertuig op minder dan 50 meter afstand volgt, behalve wanneer het inhaalt. Hier is de afstand 40 meter en wordt er niet ingehaald.",
+      "explanation_ru": "Статья 30.1.1° c) гласит, что дальний свет должен быть выключен и заменен ближним светом, когда транспортное средство следует за другим на расстоянии менее 50 метров, кроме случаев обгона. Здесь расстояние составляет 40 метров, и обгон не производится."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "0a301d3c2fd0",
@@ -40,6 +211,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:12:14Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

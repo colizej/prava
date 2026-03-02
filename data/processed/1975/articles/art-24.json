@@ -26,7 +26,181 @@
   "anchor_id_fr": "czsvsx9u53",
   "anchor_id_nl": "bnpxk0mrrc",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 24 du Code de la route belge, où est-il interdit de se garer sur la chaussée à proximité d'une côte ou d'un virage ?",
+      "text_nl": "Volgens artikel 24 van de Belgische Wegcode, waar is het verboden om op de rijbaan te parkeren in de nabijheid van een helling of een bocht?",
+      "text_ru": "Согласно статье 24 бельгийских Правил дорожного движения, где запрещено парковаться на проезжей части вблизи холма или поворота?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement au sommet de la côte.",
+          "text_nl": "Alleen op de top van de helling.",
+          "text_ru": "Только на вершине холма.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque la visibilité est insuffisante.",
+          "text_nl": "Wanneer het zicht onvoldoende is.",
+          "text_ru": "Когда видимость недостаточна.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À 10 mètres avant et après chaque côte ou virage.",
+          "text_nl": "Op 10 meter voor en na elke helling of bocht.",
+          "text_ru": "За 10 метров до и после каждого холма или поворота.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 24.6 interdit l'arrêt ou le stationnement sur la chaussée à proximité du sommet d'une côte et dans un virage lorsque la visibilité est insuffisante.",
+      "explanation_nl": "Artikel 24.6 verbiedt het stilstaand houden of parkeren op de rijbaan in de nabijheid van de top van een helling en in een bocht wanneer het zicht onvoldoende is.",
+      "explanation_ru": "Статья 24.6 запрещает остановку или стоянку на проезжей части вблизи вершины холма и в повороте, когда видимость недостаточна."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les exceptions locales mentionnées dans l'article 24 concernant le stationnement sur les trottoirs, sous les ponts et aux abords des carrefours ?",
+      "text_nl": "Welke lokale uitzonderingen worden in artikel 24 vermeld met betrekking tot het parkeren op de trottoirs, onder bruggen en in de nabijheid van kruispunten?",
+      "text_ru": "Какие местные исключения упомянуты в статье 24 относительно парковки на тротуарах, под мостами и вблизи перекрестков?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ces exceptions permettent toujours de stationner si le maire l'autorise.",
+          "text_nl": "Deze uitzonderingen staan altijd toe te parkeren indien de burgemeester dit toestaat.",
+          "text_ru": "Эти исключения всегда разрешают парковку, если это разрешено мэром.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ces exceptions sont soumises à une réglementation locale spécifique qui peut autoriser le stationnement.",
+          "text_nl": "Deze uitzonderingen zijn onderworpen aan specifieke lokale reglementering die parkeren kan toestaan.",
+          "text_ru": "Эти исключения подлежат специальным местным правилам, которые могут разрешать парковку.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les exceptions locales ne s'appliquent que dans les zones rurales.",
+          "text_nl": "Lokale uitzonderingen zijn alleen van toepassing in landelijke gebieden.",
+          "text_ru": "Местные исключения применяются только в сельской местности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 24 mentionne explicitement l'expression « sauf réglementation locale » pour les trottoirs (1°), sous les ponts (5°) et aux abords des carrefours (7°), indiquant que des règles locales peuvent déroger à l'interdiction générale.",
+      "explanation_nl": "Artikel 24 vermeldt expliciet de uitdrukking 'behoudens plaatselijke reglementering' voor trottoirs (1°), onder bruggen (5°) en in de nabijheid van kruispunten (7°), wat aangeeft dat lokale regels kunnen afwijken van het algemene verbod.",
+      "explanation_ru": "Статья 24 явно упоминает выражение «за исключением местных правил» для тротуаров (1°), под мостами (5°) и вблизи перекрестков (7°), указывая, что местные правила могут отклоняться от общего запрета."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à un carrefour équipé de feux de circulation. Il y a un panneau d'interdiction de stationnement 20 mètres avant le feu. Pouvez-vous vous garer juste avant ce panneau ?",
+      "text_nl": "U nadert een kruispunt met verkeerslichten. Er staat een verbodsbord voor parkeren 20 meter voor het licht. Mag u net voor dit bord parkeren?",
+      "text_ru": "Вы подъезжаете к перекрестку со светофорами. За 20 метров до светофора висит знак, запрещающий парковку. Можете ли вы припарковаться прямо перед этим знаком?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A Belgian road sign 'F5' (interdiction de stationner - verboden te parkeren) against a white background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car le panneau interdit de se garer à 20 mètres en deçà des feux, pas avant le panneau lui-même.",
+          "text_nl": "Ja, want het bord verbiedt te parkeren op 20 meter voor de lichten, niet voor het bord zelf.",
+          "text_ru": "Да, потому что знак запрещает парковаться за 20 метров до светофора, а не перед самим знаком.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car l'article 24.8 interdit de se garer à moins de 20 mètres en deçà des signaux lumineux de circulation placés aux carrefours.",
+          "text_nl": "Nee, want artikel 24.8 verbiedt te parkeren op minder dan 20 meter voor de verkeerslichten op de kruispunten.",
+          "text_ru": "Нет, потому что статья 24.8 запрещает парковаться на расстоянии менее 20 метров до светофоров на перекрестках.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si le véhicule ne dépasse pas 1,65m de hauteur.",
+          "text_nl": "Ja, als het voertuig niet hoger is dan 1,65m.",
+          "text_ru": "Да, если высота транспортного средства не превышает 1,65 м.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 24.8 stipule qu'il est interdit de se garer à moins de 20 mètres en deçà des signaux lumineux de circulation placés aux carrefours. Se garer juste avant le panneau signifie que vous seriez dans cette zone interdite.",
+      "explanation_nl": "Artikel 24.8 stelt dat het verboden is te parkeren op minder dan 20 meter voor de verkeerslichten op de kruispunten. Parkeren net voor het bord betekent dat u zich in deze verboden zone zou bevinden.",
+      "explanation_ru": "Статья 24.8 гласит, что запрещено парковаться на расстоянии менее 20 метров до светофоров на перекрестках. Парковка непосредственно перед знаком означает, что вы окажетесь в этой запретной зоне."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule léger sur une route de campagne avec une piste cyclable. Vous devez vous arrêter pour un court instant. Pouvez-vous vous garer sur la piste cyclable ?",
+      "text_nl": "U bestuurt een lichte vrachtwagen op een landweg met een fietspad. U moet even stoppen. Mag u op het fietspad parkeren?",
+      "text_ru": "Вы управляете легким грузовиком по проселочной дороге с велосипедной дорожкой. Вам нужно ненадолго остановиться. Можете ли вы припарковаться на велосипедной дорожке?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car il s'agit d'un arrêt de courte durée.",
+          "text_nl": "Ja, omdat het om een korte stop gaat.",
+          "text_ru": "Да, потому что это короткая остановка.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car l'article 24.2 interdit de stationner sur les pistes cyclables.",
+          "text_nl": "Nee, want artikel 24.2 verbiedt te parkeren op de fietspaden.",
+          "text_ru": "Нет, потому что статья 24.2 запрещает парковаться на велосипедных дорожках.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si le véhicule est léger et ne gêne pas les cyclistes.",
+          "text_nl": "Ja, als het voertuig licht is en fietsers niet hindert.",
+          "text_ru": "Да, если транспортное средство легкое и не мешает велосипедистам.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 24.2 interdit formellement de stationner sur les pistes cyclables. De plus, il est interdit de se garer à moins de 5 mètres de l'endroit où les cyclistes sont obligés de quitter la piste cyclable.",
+      "explanation_nl": "Artikel 24.2 verbiedt expliciet te parkeren op fietspaden. Bovendien is het verboden te parkeren op minder dan 5 meter van de plaats waar fietsers verplicht zijn het fietspad te verlaten.",
+      "explanation_ru": "Статья 24.2 прямо запрещает парковаться на велосипедных дорожках. Кроме того, запрещено парковаться на расстоянии менее 5 метров от места, где велосипедисты обязаны покинуть велосипедную дорожку."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes sur une route étroite en agglomération et arrivez à une intersection. Le bord de la chaussée transversale se prolonge à 4 mètres de votre droite. Pouvez-vous vous arrêter à cet endroit ?",
+      "text_nl": "U rijdt op een smalle weg in een bebouwde kom en nadert een kruispunt. De rand van de dwarsliggende rijbaan loopt 4 meter van uw rechterkant. Mag u daar stoppen?",
+      "text_ru": "Вы едете по узкой дороге в населенном пункте и приближаетесь к перекрестку. Край пересекающей проезжей части находится на расстоянии 4 метров от вашей правой стороны. Можете ли вы остановиться там?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car la distance de 5 mètres ne s'applique qu'en dehors des agglomérations.",
+          "text_nl": "Ja, want de afstand van 5 meter is alleen van toepassing buiten de bebouwde kommen.",
+          "text_ru": "Да, потому что расстояние в 5 метров применяется только за пределами населенных пунктов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car l'article 24.7 interdit de se garer à moins de 5 mètres du prolongement du bord de la chaussée transversale, même en agglomération.",
+          "text_nl": "Nee, want artikel 24.7 verbiedt te parkeren op minder dan 5 meter van de verlenging van de rand van de dwarsliggende rijbaan, zelfs binnen de bebouwde kom.",
+          "text_ru": "Нет, потому что статья 24.7 запрещает парковаться на расстоянии менее 5 метров от продолжения края пересекающей проезжей части, даже в населенном пункте.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si vous ne bloquez pas la visibilité des autres conducteurs.",
+          "text_nl": "Ja, als u de zichtbaarheid voor andere bestuurders niet belemmert.",
+          "text_ru": "Да, если вы не блокируете обзор другим водителям.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 24.7 stipule qu'il est interdit de stationner aux abords des carrefours, à moins de 5 mètres du prolongement du bord le plus rapproché de la chaussée transversale, sauf réglementation locale. Cette règle s'applique même en agglomération si aucune réglementation locale ne dit le contraire.",
+      "explanation_nl": "Artikel 24.7 stelt dat het verboden is te parkeren in de nabijheid van kruispunten, op minder dan 5 meter van de verlenging van de naastbijgelegen rand van de dwarsliggende rijbaan, behoudens plaatselijke reglementering. Deze regel geldt ook binnen de bebouwde kom, tenzij lokale reglementering anders bepaalt.",
+      "explanation_ru": "Статья 24.7 гласит, что запрещено парковаться вблизи перекрестков на расстоянии менее 5 метров от продолжения ближайшего края пересекающей проезжей части, за исключением местных правил. Это правило применяется даже в населенном пункте, если местные правила не устанавливают иное."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "7a969caa4b0d",
@@ -36,6 +210,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:06:47Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

@@ -51,7 +51,193 @@
   "anchor_id_fr": "mayc5kyvob",
   "anchor_id_nl": "peg6is45hk",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'Article 22quinquies, qui est autorisé à circuler sur un chemin réservé dont l'accès est signalé par un panneau comme le F99a ?",
+      "text_nl": "Volgens Artikel 22quinquies, wie mag er op een voorbehouden weg rijden waarvan de toegang is aangegeven met een bord zoals F99a?",
+      "text_ru": "Согласно статье 22quinquies, кому разрешено двигаться по зарезервированной дороге, обозначенной знаком F99a на въезде?",
+      "image": {
+        "sign_code": "F99a",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tous les usagers, pour autant qu'ils ne gênent pas les catégories indiquées.",
+          "text_nl": "Alle weggebruikers, zolang ze de aangegeven categorieën niet hinderen.",
+          "text_ru": "Всем участникам дорожного движения, при условии, что они не мешают указанным категориям.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement les catégories d'usagers dont le symbole est reproduit sur le signal.",
+          "text_nl": "Uitsluitend de categorieën van weggebruikers waarvan het symbool op het bord is afgebeeld.",
+          "text_ru": "Только тем категориям участников дорожного движения, символ которых изображен на знаке.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les piétons, les cyclistes et les conducteurs de speed pedelecs, quelle que soit la signalisation.",
+          "text_nl": "Voetgangers, fietsers en bestuurders van speed pedelecs, ongeacht de signalisatie.",
+          "text_ru": "Пешеходам, велосипедистам и водителям скоростных электровелосипедов, независимо от знаков.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22quinquies.1 stipule que \"Ne peuvent circuler sur ces chemins que les catégories d'usagers dont le symbole est reproduit sur les signaux placés à leurs accès.\"",
+      "explanation_nl": "Artikel 22quinquies.1 stelt dat \"Op deze wegen is alleen het verkeer toegestaan van de categorieën van weggebruikers waarvan het symbool afgebeeld is op de verkeersborden die bij de toegang geplaatst zijn.\"",
+      "explanation_ru": "Статья 22quinquies.1 гласит: \"На этих дорогах разрешено движение только тех категорий участников дорожного движения, символ которых изображен на дорожных знаках, установленных у въезда.\""
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la vitesse maximale autorisée sur un chemin réservé aux catégories d'usagers spécifiques (piétons, cyclistes, etc.) selon l'Article 22quinquies.4 ?",
+      "text_nl": "Wat is de maximaal toegestane snelheid op een voorbehouden weg voor specifieke categorieën weggebruikers (voetgangers, fietsers, enz.) volgens Artikel 22quinquies.4?",
+      "text_ru": "Какова максимально разрешенная скорость на выделенной дороге для определенных категорий участников дорожного движения (пешеходов, велосипедистов и т. д.) согласно Статье 22quinquies.4?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A scenic reserved path for pedestrians and cyclists, no specific speed limit sign, just the path."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "20 km/h",
+          "text_nl": "20 km/u",
+          "text_ru": "20 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 km/h",
+          "text_nl": "30 km/u",
+          "text_ru": "30 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "50 km/h",
+          "text_nl": "50 km/u",
+          "text_ru": "50 км/ч",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22quinquies.4 précise que \"La vitesse est limitée à 30 km par heure.\"",
+      "explanation_nl": "Artikel 22quinquies.4 vermeldt dat \"De snelheid is beperkt tot 30 km per uur.\"",
+      "explanation_ru": "Статья 22quinquies.4 указывает, что \"Скорость ограничена 30 км в час.\""
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous circulez à vélo sur un chemin réservé (signalé F99a). Une ambulance, avec ses gyrophares et sirène activés, souhaite l'emprunter pour une mission urgente. Est-ce autorisé ?",
+      "text_nl": "U fietst op een voorbehouden weg (aangegeven met F99a). Een ambulance, met zwaailichten en sirene aan, wil de weg gebruiken voor een dringende missie. Is dit toegestaan?",
+      "text_ru": "Вы едете на велосипеде по зарезервированной дороге (обозначенной знаком F99a). Скорая помощь, с включенными проблесковыми маячками и сиреной, хочет использовать эту дорогу для срочной миссии. Разрешено ли это?",
+      "image": {
+        "sign_code": "F99a",
+        "generation_prompt": "An ambulance with flashing lights and siren activated, approaching a reserved path sign F99a, with a cyclist on the path."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car ce chemin est strictement réservé aux usagers dont le symbole figure sur le signal.",
+          "text_nl": "Nee, want deze weg is strikt voorbehouden voor de weggebruikers wiens symbool op het bord staat.",
+          "text_ru": "Нет, поскольку эта дорога строго зарезервирована для тех участников движения, символ которых изображен на знаке.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, si la nature de leur mission le justifie, conformément à l'article 22quinquies.1.",
+          "text_nl": "Ja, als de aard van hun opdracht het rechtvaardigt, conform artikel 22quinquies.1.",
+          "text_ru": "Да, если характер их миссии оправдывает это, в соответствии со статьей 22quinquies.1.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais l'ambulance doit céder le passage à tous les autres usagers.",
+          "text_nl": "Ja, maar de ambulance moet voorrang verlenen aan alle andere weggebruikers.",
+          "text_ru": "Да, но скорая помощь должна уступить дорогу всем остальным участникам движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22quinquies.1 prévoit une exception pour \"les véhicules prioritaires visés à l'article 37, lorsque la nature de leur mission le justifie\".",
+      "explanation_nl": "Artikel 22quinquies.1 voorziet een uitzondering voor \"de prioritaire voertuigen als bedoeld in artikel 37, wanneer de aard van hun opdracht het rechtvaardigt\".",
+      "explanation_ru": "Статья 22quinquies.1 предусматривает исключение для \"приоритетных транспортных средств, указанных в статье 37, когда характер их миссии оправдывает это\"."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous marchez sur un chemin réservé partagé (signalé F99b), dont une partie est désignée pour les piétons et l'autre pour les cyclistes. Vous décidez d'emprunter la partie cyclable. Quel est votre devoir ?",
+      "text_nl": "U loopt op een gedeelde voorbehouden weg (aangegeven met F99b), waarvan één deel is bestemd voor voetgangers en het andere voor fietsers. U besluit het fietsgedeelte te gebruiken. Wat is uw plicht?",
+      "text_ru": "Вы идете по раздельной зарезервированной дороге (обозначенной знаком F99b), одна часть которой предназначена для пешеходов, а другая — для велосипедистов. Вы решаете использовать велосипедную часть. Какова ваша обязанность?",
+      "image": {
+        "sign_code": "F99b",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous avez la priorité en tant que piéton, les cyclistes doivent vous céder le passage.",
+          "text_nl": "U heeft als voetganger voorrang, fietsers moeten u de doorgang vrijlaten.",
+          "text_ru": "Вы имеете приоритет как пешеход, велосипедисты должны уступить вам дорогу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez céder le passage aux cyclistes qui se trouvent régulièrement sur cette partie du chemin.",
+          "text_nl": "U moet voorrang verlenen aan fietsers die zich regelmatig op dat deel van de weg bevinden.",
+          "text_ru": "Вы должны уступить дорогу велосипедистам, которые на законных основаниях находятся на этой части дороги.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous n'êtes pas autorisé à marcher sur la partie cyclable.",
+          "text_nl": "U mag niet op het fietsgedeelte lopen.",
+          "text_ru": "Вам не разрешается ходить по велосипедной части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22quinquies.3 indique que \"Ils peuvent toutefois circuler sur l'autre partie du chemin à condition de céder le passage aux usagers qui s'y trouvent régulièrement.\"",
+      "explanation_nl": "Artikel 22quinquies.3 vermeldt dat \"Zij mogen evenwel het andere deel van de weg volgen op voorwaarde dat ze de doorgang vrij laten voor de gebruikers die er zich op regelmatige wijze op bevinden.\"",
+      "explanation_ru": "Статья 22quinquies.3 указывает: \"Однако они могут двигаться по другой части дороги при условии, что они уступают дорогу участникам дорожного движения, которые находятся там на законных основаниях.\""
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes chauffeur d'un véhicule de ramassage des immondices. Pouvez-vous emprunter un chemin réservé aux piétons et cyclistes (signalé F99a) pour effectuer votre collecte ?",
+      "text_nl": "U bent bestuurder van een vuilniswagen. Mag u een voorbehouden weg voor voetgangers en fietsers (aangegeven met F99a) gebruiken om uw afvalinzameling uit te voeren?",
+      "text_ru": "Вы водитель мусоровоза. Можете ли вы использовать дорогу, зарезервированную для пешеходов и велосипедистов (обозначенную знаком F99a), для сбора мусора?",
+      "image": {
+        "sign_code": "F99a",
+        "generation_prompt": "A garbage truck approaching a reserved path sign F99a."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les véhicules de ramassage des immondices n'ont jamais accès à ces chemins.",
+          "text_nl": "Nee, vuilniswagens hebben nooit toegang tot deze wegen.",
+          "text_ru": "Нет, мусоровозы никогда не имеют доступа к этим дорогам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, mais uniquement si vous avez une autorisation délivrée par le gestionnaire du chemin.",
+          "text_nl": "Ja, maar alleen als u een vergunning heeft die is afgegeven door de beheerder van de weg.",
+          "text_ru": "Да, но только если у вас есть разрешение, выданное управляющим дорогой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, toujours, car ils sont considérés comme des véhicules de service public.",
+          "text_nl": "Ja, altijd, want ze worden beschouwd als voertuigen van openbare dienst.",
+          "text_ru": "Да, всегда, поскольку они считаются транспортными средствами коммунальных служб.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22quinquies.1 permet aux \"véhicules affectés au ramassage des immondices\" d'emprunter ces chemins \"moyennant autorisation délivrée par le gestionnaire desdits chemins ou son délégué\".",
+      "explanation_nl": "Artikel 22quinquies.1 staat toe dat \"de voertuigen voor het wegruimen van vuilnis\" deze wegen mogen gebruiken \"op basis van een vergunning afgegeven door de beheerder van deze wegen of zijn gemachtigde\".",
+      "explanation_ru": "Статья 22quinquies.1 разрешает \"транспортным средствам, предназначенным для вывоза мусора\", использовать эти дороги \"при наличии разрешения, выданного управляющим этими дорогами или его уполномоченным представителем\"."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "67ae81a0061e",
@@ -61,6 +247,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T14:51:00Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

@@ -37,7 +37,193 @@
   "anchor_id_fr": "6hxotehopv",
   "anchor_id_nl": "2u7pqaapvf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifient les signaux A45 et A47 concernant les passages à niveau, en relation avec l'interdiction de dépasser ?",
+      "text_nl": "Wat betekenen de verkeersborden A45 en A47 met betrekking tot overwegen, in relatie tot het inhaalverbod?",
+      "text_ru": "Что означают знаки A45 и A47 в отношении железнодорожных переездов, в связи с запретом обгона?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Railway crossing signs A45 and A47, as typically seen in Belgium"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ces signaux indiquent la présence d'une voie ferrée, où le dépassement est toujours autorisé si la visibilité est bonne.",
+          "text_nl": "Deze borden geven de aanwezigheid van een spoorweg aan, waar inhalen altijd is toegestaan als het zicht goed is.",
+          "text_ru": "Эти знаки указывают на наличие железнодорожного пути, где обгон всегда разрешен при хорошей видимости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ces signaux indiquent la présence d'une voie ferrée, où le dépassement par la gauche est interdit, sauf si le passage à niveau est muni de barrières ou réglé par des signaux lumineux.",
+          "text_nl": "Deze borden geven de aanwezigheid van een spoorweg aan, waar links inhalen verboden is, tenzij de overweg is voorzien van slagbomen of geregeld wordt door verkeerslichten.",
+          "text_ru": "Эти знаки указывают на наличие железнодорожного пути, где обгон слева запрещен, если только переезд не оборудован шлагбаумами или не регулируется светофорами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ces signaux indiquent un passage à niveau dangereux où seul le dépassement par la droite est autorisé.",
+          "text_nl": "Deze borden geven een gevaarlijke overweg aan waar alleen rechts inhalen is toegestaan.",
+          "text_ru": "Эти знаки указывают на опасный железнодорожный переезд, где разрешен только обгон справа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 17.2.1° stipule que le dépassement par la gauche est interdit sur un passage à niveau signalé par les signaux A45 ou A47, sauf si celui-ci est muni de barrières ou si la circulation y est réglée par des signaux lumineux de circulation.",
+      "explanation_nl": "Artikel 17.2.1° bepaalt dat links inhalen verboden is op een overweg gesignaleerd door de verkeersborden A45 of A47, behalve indien het een overweg is met slagbomen of indien het verkeer er door verkeerslichten wordt geregeld.",
+      "explanation_ru": "Статья 17.2.1° гласит, что обгон слева запрещен на железнодорожном переезде, обозначенном знаками A45 или A47, за исключением случаев, когда переезд оборудован шлагбаумами или регулируется светофорами."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'Article 17 du Code de la route belge, sous quelle condition spécifique le dépassement par la gauche est-il autorisé à l'approche du sommet d'une côte ou dans les virages, malgré une visibilité insuffisante ?",
+      "text_nl": "Volgens Artikel 17 van de Belgische Wegcode, onder welke specifieke voorwaarde is links inhalen toegestaan bij het naderen van de top van een helling of in bochten, ondanks onvoldoende zicht?",
+      "text_ru": "Согласно статье 17 Бельгийского кодекса дорожного движения, при каком конкретном условии обгон слева разрешен при приближении к вершине подъема или на поворотах, несмотря на недостаточную видимость?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Road with a blind hill crest and a curve, poor visibility, no specific road signs"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le dépassement est toujours interdit dans ces situations en raison du danger élevé.",
+          "text_nl": "Inhalen is in deze situaties altijd verboden vanwege het hoge gevaar.",
+          "text_ru": "Обгон всегда запрещен в этих ситуациях из-за высокой опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le dépassement est autorisé uniquement s'il n'y a pas de ligne continue sur la chaussée.",
+          "text_nl": "Inhalen is alleen toegestaan als er geen doorlopende streep op de rijbaan is.",
+          "text_ru": "Обгон разрешен только при отсутствии сплошной линии на проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le dépassement peut se faire sans franchir la ligne blanche continue délimitant la partie de la chaussée affectée à la circulation venant en sens inverse.",
+          "text_nl": "Inhalen kan gebeuren zonder de doorlopende witte streep te overschrijden die het voor de tegenliggers bestemde deel van de rijbaan aflijnt.",
+          "text_ru": "Обгон может быть выполнен без пересечения сплошной белой линии, обозначающей часть проезжей части, предназначенную для встречного движения.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 17.2.3° stipule que le dépassement est interdit à l'approche du sommet d'une côte et dans les virages, lorsque la visibilité est insuffisante, sauf si le dépassement peut se faire sans franchir la ligne blanche continue délimitant la partie de la chaussée affectée à la circulation venant en sens inverse.",
+      "explanation_nl": "Artikel 17.2.3° stelt dat inhalen verboden is bij het naderen van de top van een helling en in bochten, wanneer de zichtbaarheid onvoldoende is, behalve indien kan ingehaald worden zonder de doorlopende witte streep te overschrijden die het voor de tegenliggers bestemde deel van de rijbaan aflijnt.",
+      "explanation_ru": "Статья 17.2.3° гласит, что обгон запрещен при приближении к вершине подъема и на поворотах, когда видимость недостаточна, если только обгон не может быть выполнен без пересечения сплошной белой линии, обозначающей часть проезжей части, предназначенную для встречного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route secondaire et approchez d'un carrefour où aucune signalisation spécifique n'indique la priorité. Un véhicule devant vous ralentit légèrement. Êtes-vous autorisé à le dépasser par la gauche juste avant d'entrer dans ce carrefour ?",
+      "text_nl": "U rijdt op een secundaire weg en nadert een kruispunt waar geen specifieke signalisatie de voorrang aangeeft. Een voertuig voor u vertraagt licht. Mag u dit voertuig links inhalen vlak voordat u dit kruispunt oprijdt?",
+      "text_ru": "Вы едете по второстепенной дороге и приближаетесь к перекрестку, где нет специальной сигнализации, указывающей приоритет. Автомобиль перед вами немного замедляет ход. Разрешено ли вам обогнать его слева непосредственно перед въездом на этот перекресток?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Unsignposted intersection in a rural area, two cars, one trying to overtake"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si le dépassement est rapide et que la voie est libre.",
+          "text_nl": "Ja, als de inhaalmanoeuvre snel is en de weg vrij is.",
+          "text_ru": "Да, если обгон быстрый и дорога свободна.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car dans un tel carrefour, la priorité de droite s'applique et le dépassement par la gauche est interdit.",
+          "text_nl": "Nee, want op zo'n kruispunt geldt de voorrang van rechts en links inhalen is verboden.",
+          "text_ru": "Нет, потому что на таком перекрестке действует правило правой руки, и обгон слева запрещен.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si le véhicule à dépasser est un cyclomoteur ou une bicyclette.",
+          "text_nl": "Ja, maar alleen als het in te halen voertuig een bromfiets of fiets is.",
+          "text_ru": "Да, но только если обгоняемое транспортное средство — мопед или велосипед.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 17.2.2°a) stipule que le dépassement par la gauche est interdit dans les carrefours où la priorité de droite est applicable. En l'absence de signalisation, la priorité de droite s'applique.",
+      "explanation_nl": "Artikel 17.2.2°a) stelt dat links inhalen verboden is op kruispunten waar de voorrang van rechts geldt. Bij afwezigheid van signalisatie geldt de voorrang van rechts.",
+      "explanation_ru": "Статья 17.2.2°a) гласит, что обгон слева запрещен на перекрестках, где действует правило правой руки. При отсутствии сигнализации действует правило правой руки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous suivez un véhicule qui ralentit et s'apprête à s'arrêter devant un passage pour piétons non régulé par des feux ou un agent. La visibilité est bonne, et il n'y a pas de piétons engagés. Pouvez-vous dépasser ce véhicule par la gauche ?",
+      "text_nl": "U volgt een voertuig dat vertraagt en zich voorbereidt om te stoppen voor een zebrapad dat niet geregeld wordt door verkeerslichten of een agent. Het zicht is goed, en er zijn geen voetgangers aan het oversteken. Mag u dit voertuig links inhalen?",
+      "text_ru": "Вы следуете за транспортным средством, которое замедляет ход и собирается остановиться перед пешеходным переходом, не регулируемым светофорами или инспектором. Видимость хорошая, пешеходов нет. Можете ли вы обогнать это транспортное средство слева?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A car slowing down for a pedestrian crossing without traffic lights or a police officer, with another car behind considering overtaking."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car il n'y a pas de piétons engagés et la visibilité est bonne.",
+          "text_nl": "Ja, want er zijn geen voetgangers aan het oversteken en het zicht is goed.",
+          "text_ru": "Да, потому что пешеходов нет, и видимость хорошая.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car il est interdit de dépasser un véhicule qui s'approche de ou s'arrête devant un passage pour piétons non régulé.",
+          "text_nl": "Nee, want het is verboden een voertuig in te halen dat een ongeregeld zebrapad nadert of ervoor stopt.",
+          "text_ru": "Нет, потому что запрещено обгонять транспортное средство, которое приближается или останавливается перед нерегулируемым пешеходным переходом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si la chaussée comporte au moins deux bandes de circulation dans votre sens.",
+          "text_nl": "Ja, maar alleen als de rijbaan ten minste twee rijstroken in uw rijrichting heeft.",
+          "text_ru": "Да, но только если на проезжей части есть хотя бы две полосы движения в вашем направлении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 17.2.5° interdit le dépassement par la gauche lorsque le conducteur à dépasser s'approche de ou s'arrête devant un passage pour piétons ou un passage pour cyclistes et conducteurs de cyclomoteurs à deux roues aux endroits où la circulation n'est pas réglée par un agent qualifié ou par des signaux lumineux de circulation.",
+      "explanation_nl": "Artikel 17.2.5° verbiedt links inhalen wanneer de in te halen bestuurder stopt voor een oversteekplaats voor voetgangers of een oversteekplaats voor fietsers en bestuurders van tweewielige bromfietsen op plaatsen waar het verkeer niet geregeld wordt door een gekwalificeerd agent of door verkeerslichten.",
+      "explanation_ru": "Статья 17.2.5° запрещает обгон слева, когда водитель, которого обгоняют, приближается или останавливается перед пешеходным переходом или переходом для велосипедистов и водителей двухколесных мопедов в местах, где движение не регулируется квалифицированным сотрудником или светофорами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous circulez sur une route à deux bandes de circulation (une par sens). Le véhicule devant vous est en train de dépasser un autre véhicule (une voiture particulière). Êtes-vous autorisé à dépasser le véhicule qui est lui-même en train de dépasser ?",
+      "text_nl": "U rijdt op een tweestrooksweg (één strook per richting). Het voertuig voor u is bezig een ander voertuig (een personenauto) in te halen. Mag u het voertuig dat zelf aan het inhalen is, inhalen?",
+      "text_ru": "Вы движетесь по двухполосной дороге (одна полоса в каждом направлении). Транспортное средство перед вами обгоняет другое транспортное средство (легковой автомобиль). Разрешено ли вам обгонять транспортное средство, которое само находится в процессе обгона?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Two-lane road, one car overtaking another car, and a third car behind them considering a double overtake."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si la manœuvre peut être effectuée en toute sécurité et que vous avez une bonne visibilité.",
+          "text_nl": "Ja, als de manoeuvre veilig kan worden uitgevoerd en u goed zicht heeft.",
+          "text_ru": "Да, если маневр может быть выполнен безопасно и у вас хорошая видимость.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il est interdit de dépasser un véhicule qui dépasse lui-même un autre véhicule, à moins que la chaussée n'ait trois bandes de circulation ou plus dans votre sens.",
+          "text_nl": "Nee, het is verboden een voertuig in te halen dat zelf een ander voertuig inhaalt, tenzij de rijbaan drie of meer rijstroken heeft in uw rijrichting.",
+          "text_ru": "Нет, запрещено обгонять транспортное средство, которое само обгоняет другое транспортное средство, если только на проезжей части нет трех или более полос движения в вашем направлении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si le véhicule dépassé est une moto ou un cyclomoteur.",
+          "text_nl": "Ja, als het ingehaalde voertuig een motorfiets of bromfiets is.",
+          "text_ru": "Да, если обгоняемое транспортное средство — мотоцикл или мопед.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 17.2.4° interdit de dépasser lorsque le conducteur à dépasser dépasse lui-même un véhicule autre qu'une bicyclette, un cyclomoteur à deux roues ou une motocyclette à deux roues. L'exception pour les chaussées à trois bandes ou plus ne s'applique pas ici, car il s'agit d'une route à deux bandes (une par sens).",
+      "explanation_nl": "Artikel 17.2.4° verbiedt inhalen wanneer de in te halen bestuurder zelf een ander voertuig dan een fiets, een tweewielige bromfiets of een tweewielige motorfiets inhaalt. De uitzondering voor rijbanen met drie of meer rijstroken is hier niet van toepassing, aangezien het een tweestrooksweg (één per richting) betreft.",
+      "explanation_ru": "Статья 17.2.4° запрещает обгон, когда водитель, которого обгоняют, сам обгоняет другое транспортное средство, отличное от велосипеда, двухколесного мопеда или двухколесного мотоцикла. Исключение для проезжих частей с тремя и более полосами здесь не применяется, поскольку это двухполосная дорога (по одной полосе в каждом направлении)."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "b4817ed663e5",
@@ -47,6 +233,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:29:55Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

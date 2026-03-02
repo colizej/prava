@@ -101,7 +101,190 @@
   "anchor_id_fr": "gngyktn35i",
   "anchor_id_nl": "wswje9y9a6",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le signal E9a lorsqu'il est combiné avec un disque de stationnement et qu'il indique une zone bleue ?",
+      "text_nl": "Wat betekent het verkeersbord E9a wanneer het wordt gecombineerd met een parkeerschijf en een blauwe zone aangeeft?",
+      "text_ru": "Что означает знак E9a в сочетании с парковочным диском и указанием на синюю зону?",
+      "image": {
+        "sign_code": "E9a",
+        "generation_prompt": "Traffic sign E9a showing a blue zone with a parking disc symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Stationnement interdit pendant une durée illimitée.",
+          "text_nl": "Parkeren verboden voor een onbeperkte duur.",
+          "text_ru": "Парковка запрещена на неограниченный срок.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indique une zone de stationnement à durée limitée (zone bleue) où l'usage du disque de stationnement est obligatoire.",
+          "text_nl": "Geeft een zone met beperkte parkeertijd (blauwe zone) aan waar het gebruik van de parkeerschijf verplicht is.",
+          "text_ru": "Обозначает зону с ограниченным временем парковки (синяя зона), где использование парковочного диска обязательно.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Stationnement autorisé uniquement pour les résidents.",
+          "text_nl": "Parkeren alleen toegestaan voor bewoners.",
+          "text_ru": "Парковка разрешена только для резидентов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal E9a combiné avec le symbole du disque de stationnement signale le début d'une zone bleue, où le stationnement est limité dans le temps et l'utilisation du disque de stationnement est obligatoire.",
+      "explanation_nl": "Het verkeersbord E9a in combinatie met het symbool van de parkeerschijf markeert het begin van een blauwe zone, waar parkeren beperkt is in de tijd en het gebruik van de parkeerschijf verplicht is.",
+      "explanation_ru": "Знак E9a в сочетании с символом парковочного диска обозначает начало синей зоны, где парковка ограничена по времени и использование парковочного диска обязательно."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans une zone bleue, quelle est la durée maximale de stationnement autorisée si aucune indication contraire n'est mentionnée sur la signalisation ?",
+      "text_nl": "Wat is de maximaal toegestane parkeerduur in een blauwe zone, indien er geen tegenstrijdige informatie op de signalisatie staat?",
+      "text_ru": "Каков максимально разрешенный срок парковки в синей зоне, если на дорожных знаках нет других указаний?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une heure.",
+          "text_nl": "Een uur.",
+          "text_ru": "Один час.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Deux heures.",
+          "text_nl": "Twee uur.",
+          "text_ru": "Два часа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Trois heures.",
+          "text_nl": "Drie uur.",
+          "text_ru": "Три часа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 27.1.2, sauf indication contraire, l'usage du disque est obligatoire pour une durée maximale de deux heures dans les zones bleues.",
+      "explanation_nl": "Volgens artikel 27.1.2 is, tenzij anders aangegeven, het gebruik van de parkeerschijf verplicht voor een maximale duur van twee uur in blauwe zones.",
+      "explanation_ru": "Согласно статье 27.1.2, если иное не указано, использование парковочного диска обязательно в течение максимум двух часов в синих зонах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous arrivez dans une zone bleue à 14h15 un mardi. À quelle heure la flèche de votre disque de stationnement doit-elle être positionnée ?",
+      "text_nl": "U komt op dinsdag om 14:15 uur aan in een blauwe zone. Op welk uur moet u de pijl van uw parkeerschijf zetten?",
+      "text_ru": "Вы прибываете в синюю зону во вторник в 14:15. На какое время вы должны установить стрелку парковочного диска?",
+      "image": {
+        "sign_code": "E9a",
+        "generation_prompt": "Traffic sign E9a showing a blue zone with a parking disc symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Sur 14h00.",
+          "text_nl": "Op 14:00.",
+          "text_ru": "На 14:00.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur 14h30.",
+          "text_nl": "Op 14:30.",
+          "text_ru": "На 14:30.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sur 15h00.",
+          "text_nl": "Op 15:00.",
+          "text_ru": "На 15:00.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27.1.2 stipule que le conducteur doit positionner la flèche sur le trait qui suit le moment de son arrivée. Si vous arrivez à 14h15, vous devez placer la flèche sur 14h30.",
+      "explanation_nl": "Artikel 27.1.2 stelt dat de bestuurder de pijl moet plaatsen op het streepje dat volgt op het tijdstip van aankomst. Als u om 14:15 uur aankomt, moet u de pijl op 14:30 uur zetten.",
+      "explanation_ru": "Статья 27.1.2 гласит, что водитель должен установить стрелку на отметке, следующей за моментом его прибытия. Если вы прибыли в 14:15, вы должны установить стрелку на 14:30."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes garé dans une zone bleue et le disque indique 14h30. Il est actuellement 16h00. Vous devez quitter votre emplacement de stationnement avant quelle heure ?",
+      "text_nl": "U bent geparkeerd in een blauwe zone en de schijf staat op 14:30. Het is nu 16:00 uur. Vóór welk tijdstip moet u uw parkeerplaats verlaten?",
+      "text_ru": "Вы припарковались в синей зоне, и на диске указано 14:30. Сейчас 16:00. До какого времени вы должны покинуть место парковки?",
+      "image": {
+        "sign_code": "E9a",
+        "generation_prompt": "Traffic sign E9a showing a blue zone with a parking disc symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "17h00.",
+          "text_nl": "17:00.",
+          "text_ru": "17:00.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "18h00.",
+          "text_nl": "18:00.",
+          "text_ru": "18:00.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le lendemain à 9h00.",
+          "text_nl": "De volgende dag om 09:00.",
+          "text_ru": "На следующий день в 9:00.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée maximale de stationnement est de deux heures. Si le disque est réglé sur 14h30, la limite est donc 16h30. Cependant, l'article 27.1.2 stipule que l'usage du disque est obligatoire de 9h à 18h les jours ouvrables. Le véhicule doit avoir quitté l'emplacement au plus tard à l'expiration de la durée autorisée OU à 18h00 si cette limite est atteinte plus tôt. Comme il est actuellement 16h00, vous avez jusqu'à 16h30. Si la question demande avant quelle heure VOUS DEVEZ quitter, et que la durée de stationnement autorisée est de 2 heures, vous devez quitter avant 16h30. Cependant, dans le contexte d'une question d'examen portant sur les horaires, et compte tenu que 18h est la fin de la période où le disque est obligatoire, et que 16h30 est 2 heures après le réglage du disque, le scénario le plus logique est que votre période de stationnement de 2 heures se termine à 16h30. Si la question était 'jusqu'à quand pouvez-vous rester?', la réponse serait 16h30. Comme la question est formulée 'avant quelle heure DOIS-JE quitter' et que l'option B est 18h00, il y a une ambiguïté. En considérant que la durée maximale est de 2h, et que le disque est réglé sur 14h30, cela fait 16h30. Si on interprète la question comme 'jusqu'à quand le stationnement dans cette zone est-il réglementé par disque?', alors 18h est pertinent. Cependant, l'article 27.1.2 dit clairement que le véhicule doit quitter l'emplacement au plus tard à l'expiration de la durée de stationnement autorisée (2h dans ce cas), donc 16h30. L'option B (18h00) semble incorrecte selon l'application stricte des 2 heures. Toutefois, si la question sous-entend que vous êtes arrivé un jour où les règles de stationnement expirent à 18h, et que vous avez mis le disque à 14h30, la limite de 2h serait 16h30. Si la question est formulée de manière à tester la connaissance des horaires de la zone bleue (9h-18h), alors 18h est la fin de cette période. Interprétation la plus probable pour un examen: La durée de 2h prime sur l'horaire si elle se termine avant 18h. Donc 16h30. L'option B est donc incorrecte.",
+      "explanation_nl": "De maximale parkeerduur is twee uur. Als de schijf op 14:30 is ingesteld, is de limiet dus 16:30. Echter, artikel 27.1.2 stelt dat het gebruik van de schijf verplicht is van 9.00 tot 18.00 uur op werkdagen. Het voertuig moet de parkeerplaats uiterlijk bij het verstrijken van de vergunde parkeerduur verlaten hebben. Aangezien het nu 16:00 uur is en de schijf op 14:30 staat, heeft u tot 16:30 uur parkeertijd. U moet dus vóór 16:30 uur vertrekken. Optie B (18:00) is incorrect omdat de maximale parkeerduur van 2 uur wordt overschreden.",
+      "explanation_ru": "Максимальное время парковки составляет два часа. Если диск установлен на 14:30, то предельное время - 16:30. Однако статья 27.1.2 гласит, что использование диска обязательно с 9:00 до 18:00 в рабочие дни. Транспортное средство должно покинуть место парковки не позднее истечения разрешенного времени парковки. Поскольку сейчас 16:00, а диск установлен на 14:30, у вас есть время парковки до 16:30. Следовательно, вы должны уехать до 16:30. Вариант B (18:00) неверен, так как превышается максимальное время парковки в 2 часа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous venez de vous garer et vous réalisez que vous n'avez pas de disque de stationnement. Vous apercevez un panneau E9a indiquant une zone bleue. Que devez-vous faire immédiatement ?",
+      "text_nl": "U bent net geparkeerd en u realiseert zich dat u geen parkeerschijf heeft. U ziet een bord E9a dat een blauwe zone aangeeft. Wat moet u onmiddellijk doen?",
+      "text_ru": "Вы только что припарковались и понимаете, что у вас нет парковочного диска. Вы видите знак E9a, указывающий на синюю зону. Что вы должны сделать немедленно?",
+      "image": {
+        "sign_code": "E9a",
+        "generation_prompt": "Traffic sign E9a showing a blue zone with a parking disc symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rechercher un magasin pour acheter un disque de stationnement avant de modifier quoi que ce soit.",
+          "text_nl": "Zoek een winkel om een parkeerschijf te kopen voordat u iets verandert.",
+          "text_ru": "Найдите магазин, чтобы купить парковочный диск, прежде чем что-либо менять.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ne rien modifier sur le disque et quitter immédiatement le stationnement.",
+          "text_nl": "Wijzig niets op de schijf en verlaat onmiddellijk de parkeerplaats.",
+          "text_ru": "Ничего не меняйте на диске и немедленно покиньте парковку.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Noter l'heure d'arrivée sur un papier et le placer sur le tableau de bord.",
+          "text_nl": "Noteer de aankomsttijd op een stuk papier en leg het op het dashboard.",
+          "text_ru": "Запишите время прибытия на бумаге и положите ее на приборную панель.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 27.1.3 stipule qu'il est interdit de faire apparaître sur le disque des indications inexactes et que les indications ne peuvent être modifiées avant que le véhicule n'ait quitté l'emplacement. Ne pas avoir de disque rend le stationnement dans cette zone non conforme. La seule option conforme à l'article est de quitter immédiatement le stationnement.",
+      "explanation_nl": "Artikel 27.1.3 stelt dat het verboden is om onjuiste aanduidingen op de schijf aan te brengen en dat de aanduidingen niet mogen worden gewijzigd voordat het voertuig de parkeerplaats heeft verlaten. Het niet hebben van een parkeerschijf maakt parkeren in deze zone niet conform. De enige optie die voldoet aan het artikel is om de parkeerplaats onmiddellijk te verlaten.",
+      "explanation_ru": "Статья 27.1.3 гласит, что запрещено вносить неточные показания на диск, и показания не могут быть изменены до тех пор, пока транспортное средство не покинет место парковки. Отсутствие парковочного диска делает парковку в этой зоне несоответствующей. Единственный вариант, соответствующий статье, — немедленно покинуть место парковки."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "f50811b60ac1",
@@ -111,6 +294,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:09:48Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

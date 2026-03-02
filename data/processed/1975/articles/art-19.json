@@ -36,7 +36,193 @@
   "anchor_id_fr": "96so4qt3uv",
   "anchor_id_nl": "5r0b8tsit0",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 19 du Code de la route belge, comment devez-vous utiliser vos feux indicateurs de direction lorsque vous circulez sur un rond-point ?",
+      "text_nl": "Volgens artikel 19 van de Belgische wegcode, hoe moet u uw richtingaanwijzers gebruiken wanneer u op een rotonde rijdt?",
+      "text_ru": "Согласно статье 19 Бельгийского кодекса дорожного движения, как вы должны использовать свои указатели поворота при движении по круговому движению?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A simple diagram of a car entering and exiting a roundabout, showing indicator usage."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les utiliser pour entrer et pour sortir du rond-point.",
+          "text_nl": "Ze gebruiken om de rotonde op en af te rijden.",
+          "text_ru": "Использовать их при въезде и выезде с кругового движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ne pas les utiliser pour entrer, mais les utiliser pour sortir du rond-point.",
+          "text_nl": "Ze niet gebruiken om de rotonde op te rijden, maar wel om af te rijden.",
+          "text_ru": "Не использовать их при въезде, но использовать при выезде с кругового движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ne les utiliser ni pour entrer, ni pour sortir du rond-point.",
+          "text_nl": "Ze noch gebruiken om de rotonde op te rijden, noch om af te rijden.",
+          "text_ru": "Не использовать их ни при въезде, ни при выезде с кругового движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 19.2.1° stipule que « Le fait d'entrer dans un rond-point constitue un changement de direction n'impliquant pas l'usage des indicateurs de direction. Le fait de sortir d'un rond-point est un changement de direction impliquant l'usage des indicateurs de direction. »",
+      "explanation_nl": "Artikel 19.2.1° stelt dat « Het oprijden van een rotonde wordt beschouwd als een richtingsverandering waarbij de richtingaanwijzers niet moeten gebruikt worden. Het verlaten van een rotonde is een richtingsverandering waarbij de richtingaanwijzers wel gebruikt moeten worden. »",
+      "explanation_ru": "Статья 19.2.1° гласит, что «Въезд на круговое движение является изменением направления, не требующим использования указателей поворота. Выезд с кругового движения является изменением направления, требующим использования указателей поворота.»"
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Avant d'effectuer un changement de direction (tourner à droite, à gauche ou se ranger sur le côté gauche d'une chaussée à sens unique), à quoi le conducteur doit-il particulièrement veiller, selon l'article 19.1 ?",
+      "text_nl": "Voordat een bestuurder van richting verandert (rechts of links afslaan of langs de linkerkant van een eenrichtingsweg parkeren), waar moet hij dan in het bijzonder op letten, volgens artikel 19.1?",
+      "text_ru": "Прежде чем сменить направление движения (повернуть направо, налево или припарковаться с левой стороны односторонней дороги), на что водитель должен обратить особое внимание, согласно статье 19.1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car signalling to turn, with a car behind it, highlighting the need for safety consideration and potential slowing down."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement s'assurer qu'il n'y a pas d'autres usagers sur le côté où il va tourner.",
+          "text_nl": "Enkel ervoor zorgen dat er geen andere weggebruikers zijn aan de kant waar hij zal afslaan.",
+          "text_ru": "Только убедиться, что нет других участников движения с той стороны, куда он собирается повернуть.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'assurer qu'il peut le faire sans danger pour les autres usagers et en tenant compte des possibilités de ralentissement des véhicules qui le suivent.",
+          "text_nl": "Zich ervan vergewissen dat hij dit kan doen zonder gevaar voor de andere weggebruikers en vooral rekening houdend met de vertragingsmogelijkheden van de achterliggers.",
+          "text_ru": "Убедиться, что он может это сделать без опасности для других участников движения и особенно учитывая возможности замедления следующих за ним транспортных средств.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "S'assurer qu'il a suffisamment d'espace pour effectuer sa manœuvre sans gêner la circulation.",
+          "text_nl": "Zich ervan vergewissen dat hij voldoende ruimte heeft om zijn manoeuvre uit te voeren zonder het verkeer te hinderen.",
+          "text_ru": "Убедиться, что у него достаточно места для выполнения маневра, не препятствуя движению.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 19.1 indique: « Le conducteur qui veut tourner à droite ou à gauche pour quitter la chaussée ou qui veut ranger son véhicule sur le côté gauche d'une chaussée à sens unique doit s'assurer au préalable qu'il peut le faire sans danger pour les autres usagers et particulièrement en tenant compte des possibilités de ralentissement de ceux qui le suivent. »",
+      "explanation_nl": "Artikel 19.1 stelt: « De bestuurder die naar rechts of naar links wil afslaan om de rijbaan te verlaten of die zijn voertuig langs de linkerkant van een rijbaan met éénrichtingsverkeer wil opstellen, moet zich vooraf ervan vergewissen dat hij dit kan doen zonder gevaar voor de andere weggebruikers, vooral rekening houdend met de vertragingsmogelijkheden van de achterliggers. »",
+      "explanation_ru": "Статья 19.1 гласит: «Водитель, который хочет повернуть направо или налево, чтобы покинуть проезжую часть, или который хочет припарковать свое транспортное средство с левой стороны односторонней проезжей части, должен предварительно убедиться, что он может это сделать без опасности для других участников движения, и особенно учитывая возможности замедления следующих за ним.»"
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un camion de grande taille et vous devez tourner à droite à un carrefour étroit. Pour cela, vous êtes obligé de vous déporter légèrement vers la gauche avant de tourner. Que devez-vous faire dans cette situation, conformément à l'article 19.2.2° ?",
+      "text_nl": "U rijdt met een grote vrachtwagen en moet op een smal kruispunt rechts afslaan. Hiervoor bent u genoodzaakt om iets naar links uit te wijken voordat u afslaat. Wat moet u in deze situatie doen, conform artikel 19.2.2°?",
+      "text_ru": "Вы управляете большим грузовиком и должны повернуть направо на узком перекрестке. Для этого вам необходимо немного сместиться влево перед поворотом. Что вы должны сделать в этой ситуации, согласно статье 19.2.2°?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A large truck at a narrow intersection, signalling right but positioned slightly to the left, with a car behind it potentially attempting to overtake."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je me déporte vers la gauche, puis je tourne à droite, en m'assurant que je ne gêne pas la circulation venant en sens inverse.",
+          "text_nl": "Ik wijk uit naar links en sla dan rechtsaf, ervoor zorgend dat ik het tegemoetkomend verkeer niet hinder.",
+          "text_ru": "Я смещаюсь влево, затем поворачиваю направо, убедившись, что не мешаю встречному движению.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je me déporte vers la gauche après m'être assuré qu'aucun conducteur qui me suit n'a commencé un dépassement et que je ne mets pas en danger les autres conducteurs circulant normalement sur la voie publique que je m'apprête à quitter, puis je tourne à droite.",
+          "text_nl": "Ik wijk uit naar links nadat ik mij vooraf ervan vergewist heb dat geen achterligger reeds begonnen is in te halen en dat ik de andere bestuurders die op normale wijze rijden op de openbare weg die ik ga verlaten, niet in gevaar breng, en sla dan rechtsaf.",
+          "text_ru": "Я смещаюсь влево, убедившись предварительно, что ни один водитель, следующий за мной, не начал обгон, и что я не создаю опасности для других водителей, движущихся обычным образом по дороге, которую я собираюсь покинуть, а затем поворачиваю направо.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je serre le plus possible le bord droit, quitte à monter sur le trottoir si nécessaire, car le déport est interdit pour les virages à droite.",
+          "text_nl": "Ik blijf zo dicht mogelijk bij de rechterrand, zelfs indien ik hiervoor op het trottoir moet rijden, want uitwijken is verboden voor rechtsaf slaan.",
+          "text_ru": "Я прижимаюсь как можно ближе к правому краю, даже если для этого придется заехать на тротуар, так как смещение запрещено при поворотах направо.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 19.2.2° stipule que le conducteur peut se porter vers la gauche lorsque la disposition des lieux et les dimensions du véhicule ou de son chargement ne permettent pas de serrer le bord droit de la chaussée. Dans ce cas, il doit « s'assurer au préalable qu'aucun conducteur qui le suit n'a commencé un dépassement; en outre il ne peut mettre en danger les autres conducteurs qui circulent normalement sur la voie publique qu'il s'apprête à quitter. »",
+      "explanation_nl": "Artikel 19.2.2° stelt dat de bestuurder zich evenwel naar links mag begeven wanneer hij wegens de plaatsgesteldheid en de afmetingen van het voertuig of de lading niet bij de rechterrand van de rijbaan kan blijven. In dat geval moet hij « zich vooraf ervan vergewissen dat geen achterligger reeds begonnen is in te halen, bovendien mag hij de andere bestuurders die op normale wijze rijden op de openbare weg die hij gaat verlaten, niet in gevaar brengen. »",
+      "explanation_ru": "Статья 19.2.2° гласит, что водитель может сместиться влево, если расположение места и размеры транспортного средства или его груза не позволяют ему придерживаться правого края проезжей части. В этом случае он должен «предварительно убедиться, что ни один следующий за ним водитель не начал обгон; кроме того, он не может ставить под угрозу других водителей, которые нормально движутся по общественной дороге, которую он собирается покинуть.»"
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une chaussée à deux sens de circulation et vous souhaitez tourner à gauche à la prochaine intersection. Quelle est votre principale obligation concernant les autres usagers, selon l'article 19.3.3° ?",
+      "text_nl": "U rijdt op een tweerichtingsweg en wilt op het volgende kruispunt links afslaan. Wat is uw belangrijkste verplichting ten opzichte van andere weggebruikers, volgens artikel 19.3.3°?",
+      "text_ru": "Вы едете по двухсторонней дороге и хотите повернуть налево на следующем перекрестке. Какова ваша основная обязанность по отношению к другим участникам движения, согласно статье 19.3.3°?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car signalling left at an intersection on a two-way road, with an oncoming car in the opposite lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je dois céder le passage uniquement aux piétons qui traversent la chaussée où je vais m'engager.",
+          "text_nl": "Ik moet enkel voorrang verlenen aan voetgangers die de rijbaan oversteken waar ik zal inrijden.",
+          "text_ru": "Я должен уступать дорогу только пешеходам, которые переходят проезжую часть, на которую я собираюсь выехать.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je dois céder le passage aux conducteurs venant en sens inverse sur la chaussée que je m'apprête à quitter.",
+          "text_nl": "Ik moet voorrang verlenen aan de bestuurders die in tegengestelde richting rijden op de rijbaan die ik ga verlaten.",
+          "text_ru": "Я должен уступать дорогу водителям, движущимся навстречу по проезжей части, которую я собираюсь покинуть.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je peux tourner si j'estime que la manœuvre ne prendra pas trop de temps et que je ne gêne pas le trafic derrière moi.",
+          "text_nl": "Ik mag afslaan als ik denk dat de manoeuvre niet te veel tijd in beslag zal nemen en ik het verkeer achter mij niet hinder.",
+          "text_ru": "Я могу повернуть, если считаю, что маневр не займет слишком много времени и я не помешаю движению за мной.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 19.3.3° est explicite: le conducteur qui tourne à gauche doit « céder le passage aux conducteurs venant en sens inverse sur la chaussée qu'il s'apprête à quitter. »",
+      "explanation_nl": "Artikel 19.3.3° is expliciet: de bestuurder die naar links afslaat moet « voorrang verlenen aan de bestuurders komende uit de tegenovergestelde richting op de rijbaan die hij gaat verlaten. »",
+      "explanation_ru": "Статья 19.3.3° четко гласит: водитель, поворачивающий налево, должен «уступать дорогу водителям, движущимся навстречу по проезжей части, которую он собирается покинуть.»"
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous apprêtez à tourner à droite à un carrefour. Un piéton traverse la chaussée sur laquelle vous allez vous engager. Que devez-vous faire, selon l'article 19.5 ?",
+      "text_nl": "U staat op het punt rechtsaf te slaan op een kruispunt. Een voetganger steekt de rijbaan over waarop u zult rijden. Wat moet u doen, volgens artikel 19.5?",
+      "text_ru": "Вы собираетесь повернуть направо на перекрестке. Пешеход переходит дорогу, на которую вы собираетесь выехать. Что вы должны сделать, согласно статье 19.5?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car making a right turn at an intersection, with a pedestrian crossing the road the car is turning into from the right side."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je peux tourner si le piéton est suffisamment loin de ma trajectoire pour ne pas gêner ma manœuvre.",
+          "text_nl": "Ik mag afslaan als de voetganger ver genoeg van mijn traject is om mijn manoeuvre niet te hinderen.",
+          "text_ru": "Я могу повернуть, если пешеход достаточно далеко от моей траектории, чтобы не мешать моему маневру.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je dois céder le passage au piéton.",
+          "text_nl": "Ik moet de voetganger voorrang verlenen.",
+          "text_ru": "Я должен уступить дорогу пешеходу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le piéton doit me laisser passer car j'ai la priorité en tant que véhicule engagé dans un carrefour.",
+          "text_nl": "De voetganger moet mij laten voorgaan omdat ik als voertuig dat een kruispunt oprijdt, voorrang heb.",
+          "text_ru": "Пешеход должен уступить мне дорогу, так как у меня приоритет как у транспортного средства, въезжающего на перекресток.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 19.5 est formel: « Le conducteur qui change de direction doit céder le passage aux piétons qui traversent la chaussée sur laquelle il va s'engager. »",
+      "explanation_nl": "Artikel 19.5 is duidelijk: « De bestuurder die van richting verandert moet voorrang verlenen aan de voetgangers die de rijbaan oversteken waarop hij zal rijden. »",
+      "explanation_ru": "Статья 19.5 является однозначной: «Водитель, который меняет направление движения, должен уступать дорогу пешеходам, которые переходят проезжую часть, на которую он собирается выехать.»"
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "1193e3b665f3",
@@ -46,6 +232,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:30:57Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

@@ -39,7 +39,193 @@
   "anchor_id_fr": "ofiq7svk08",
   "anchor_id_nl": "1obzcnlcjj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le signal routier F103 affiché en conjonction avec le signal F105 ?",
+      "text_nl": "Wat betekent het verkeersbord F103 in combinatie met verkeersbord F105?",
+      "text_ru": "Что означает дорожный знак F103 в сочетании со знаком F105?",
+      "image": {
+        "sign_code": "F103",
+        "generation_prompt": "A Belgian road sign F103 (pedestrian zone) with sign F105 (end of zone) placed below it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une zone de danger de piétons.",
+          "text_nl": "Het is een gevarenzone voor voetgangers.",
+          "text_ru": "Это опасная зона для пешеходов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est une zone réservée aux piétons, sauf exceptions prévues par la loi.",
+          "text_nl": "Het is een zone voorbehouden voor voetgangers, met uitzondering van de wettelijk voorziene gevallen.",
+          "text_ru": "Это зона, предназначенная для пешеходов, за исключением случаев, предусмотренных законом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une zone où les piétons ont la priorité absolue sur tous les autres usagers.",
+          "text_nl": "Het is een zone waar voetgangers absolute voorrang hebben op alle andere weggebruikers.",
+          "text_ru": "Это зона, где пешеходы имеют абсолютный приоритет перед всеми другими участниками дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal F103 indique une zone piétonne. Le signal F105 indique la fin de la zone. L'article 22sexies.1 stipule que l'accès aux zones piétonnes est réservé aux piétons, mais autorise des exceptions sous certaines conditions.",
+      "explanation_nl": "Verkeersbord F103 geeft een voetgangerszone aan. Verkeersbord F105 geeft het einde van de zone aan. Artikel 22sexies.1 stelt dat toegang tot voetgangerszones is voorbehouden aan voetgangers, maar staat uitzonderingen toe onder bepaalde voorwaarden.",
+      "explanation_ru": "Дорожный знак F103 обозначает пешеходную зону. Дорожный знак F105 обозначает конец зоны. Статья 22sexies.1 гласит, что доступ в пешеходные зоны разрешен только пешеходам, но допускает исключения при определенных условиях."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'article 22sexies.2, quel comportement les conducteurs admis à circuler dans une zone piétonne doivent-ils adopter face aux piétons ?",
+      "text_nl": "Volgens artikel 22sexies.2, welk gedrag moeten bestuurders die zijn toegelaten in een voetgangerszone aannemen ten opzichte van voetgangers?",
+      "text_ru": "Согласно статье 22sexies.2, какое поведение должны проявлять водители, которым разрешено движение в пешеходной зоне, по отношению к пешеходам?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street scene within a pedestrian zone, showing a car carefully navigating among pedestrians."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent rouler au pas, céder le passage aux piétons et s'arrêter si nécessaire, sans les mettre en danger ou les gêner.",
+          "text_nl": "Ze moeten stapvoets rijden, voorrang verlenen aan voetgangers en indien nodig stoppen, zonder hen in gevaar te brengen of te hinderen.",
+          "text_ru": "Они должны двигаться шагом, уступать дорогу пешеходам и при необходимости останавливаться, не подвергая их опасности и не мешая им.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils peuvent circuler normalement tant qu'ils ne dépassent pas 15 km/h.",
+          "text_nl": "Ze mogen normaal rijden zolang ze niet sneller dan 15 km/u rijden.",
+          "text_ru": "Они могут двигаться в обычном режиме, если скорость не превышает 15 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les piétons doivent leur laisser le passage, car ils ont été autorisés à entrer dans la zone.",
+          "text_nl": "Voetgangers moeten hen doorgang verlenen, aangezien zij toestemming hebben gekregen om de zone binnen te rijden.",
+          "text_ru": "Пешеходы должны уступать им дорогу, поскольку им было разрешено въехать в зону.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22sexies.2 stipule explicitement que dans ces zones, les conducteurs admis doivent rouler à l'allure du pas, céder le passage aux piétons et s'arrêter si nécessaire. Ils ne doivent ni mettre en danger ni gêner les piétons.",
+      "explanation_nl": "Artikel 22sexies.2 stelt expliciet dat in deze zones de toegelaten bestuurders stapvoets moeten rijden, voorrang moeten verlenen aan voetgangers en indien nodig moeten stoppen. Ze mogen voetgangers niet in gevaar brengen of hinderen.",
+      "explanation_ru": "Статья 22sexies.2 четко указывает, что в этих зонах разрешенные водители должны двигаться шагом, уступать дорогу пешеходам и при необходимости останавливаться. Они не должны подвергать пешеходов опасности или мешать им."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un livreur avec un véhicule utilitaire et vous devez livrer un colis à une entreprise située dans une zone piétonne. L'accès à cette entreprise n'est possible qu'en traversant la zone piétonne. Quelle est la condition principale pour pouvoir accéder à cette zone ?",
+      "text_nl": "U bent een bezorger met een bestelwagen en u moet een pakket bezorgen bij een bedrijf in een voetgangerszone. De toegang tot dit bedrijf is alleen mogelijk door de voetgangerszone te doorkruisen. Wat is de belangrijkste voorwaarde om deze zone te mogen betreden?",
+      "text_ru": "Вы курьер на фургоне и вам нужно доставить посылку в компанию, расположенную в пешеходной зоне. Доступ в эту компанию возможен только через пешеходную зону. Каково основное условие для доступа в эту зону?",
+      "image": {
+        "sign_code": "F103",
+        "generation_prompt": "A Belgian road sign F103 (pedestrian zone) at the entrance of a street."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez obtenir un laisser-passer délivré par le bourgmestre et prouver que la livraison est une activité principale de votre entreprise.",
+          "text_nl": "U moet een door de burgemeester afgegeven doorgangsbewijs verkrijgen en bewijzen dat de levering een hoofdactiviteit van uw bedrijf is.",
+          "text_ru": "Вы должны получить разрешение на проезд, выданное мэром, и доказать, что доставка является основной деятельностью вашей компании.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez entrer sans autorisation car il s'agit d'une livraison.",
+          "text_nl": "U mag zonder toestemming binnenrijden omdat het om een levering gaat.",
+          "text_ru": "Вы можете въехать без разрешения, так как это доставка.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez attendre que la zone soit moins fréquentée par les piétons pour effectuer votre livraison.",
+          "text_nl": "U moet wachten tot de zone minder druk is met voetgangers om uw levering te doen.",
+          "text_ru": "Вы должны подождать, пока зона не станет менее оживленной пешеходами, чтобы осуществить доставку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22sexies.1, 1°, f) autorise les véhicules d'entreprises commerciales établies dans ces zones, affectés à des livraisons constituant une activité principale, en cas d'absolue nécessité et après obtention d'un laisser-passer délivré par le bourgmestre ou son délégué.",
+      "explanation_nl": "Artikel 22sexies.1, 1°, f) staat voertuigen van handelsondernemingen die in deze zones gevestigd zijn, bestemd voor leveringen die een hoofdactiviteit uitmaken, toe in geval van absolute noodzaak en na verkrijging van een door de burgemeester of zijn gemachtigde afgegeven doorgangsbewijs.",
+      "explanation_ru": "Статья 22sexies.1, 1°, f) разрешает транспортным средствам коммерческих предприятий, расположенных в этих зонах и предназначенных для доставки, составляющей основную деятельность, въезд в случае крайней необходимости и после получения разрешения на проезд, выданного мэром или его уполномоченным."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un taxi et votre destination se trouve dans une zone piétonne. Vous avez des passagers à déposer. Quel article de loi régit votre accès et quelles sont les conditions ?",
+      "text_nl": "U bestuurt een taxi en uw bestemming bevindt zich in een voetgangerszone. U heeft passagiers die u moet afzetten. Welk wetsartikel regelt uw toegang en wat zijn de voorwaarden?",
+      "text_ru": "Вы управляете такси, и ваш пункт назначения находится в пешеходной зоне. У вас есть пассажиры, которых нужно высадить. Какая статья закона регулирует ваш доступ и каковы условия?",
+      "image": {
+        "sign_code": "F103",
+        "generation_prompt": "A Belgian road sign F103 (pedestrian zone) at the entrance of a street, with a sign below indicating exceptions."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Article 22sexies.1, 1°c : vous êtes un véhicule prioritaire dont la nature de la mission justifie l'accès.",
+          "text_nl": "Artikel 22sexies.1, 1°c: u bent een prioriteitsvoertuig waarvan de aard van de opdracht de toegang rechtvaardigt.",
+          "text_ru": "Статья 22sexies.1, 1°c: вы являетесь приоритетным транспортным средством, характер миссии которого оправдывает доступ.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Article 22sexies.1, 2°b : vous pouvez accéder à la zone lorsque la signalisation le prévoit pour embarquer ou débarquer des personnes.",
+          "text_nl": "Artikel 22sexies.1, 2°b: u mag de zone betreden wanneer de signalisatie dit toelaat voor het in- of uitstappen van personen.",
+          "text_ru": "Статья 22sexies.1, 2°b: вы можете въехать в зону, когда это предусмотрено дорожными знаками, для посадки или высадки пассажиров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Article 22sexies.1, 1°d : vous êtes un véhicule de service régulier de transport en commun.",
+          "text_nl": "Artikel 22sexies.1, 1°d: u bent een voertuig van geregelde diensten voor gemeenschappelijk vervoer.",
+          "text_ru": "Статья 22sexies.1, 1°d: вы являетесь транспортным средством регулярных общественных перевозок.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22sexies.1, 2°b stipule que les taxis peuvent accéder à ces zones lorsque la signalisation routière le prévoit, pour l'embarquement ou le débarquement de personnes.",
+      "explanation_nl": "Artikel 22sexies.1, 2°b stelt dat taxi's deze zones mogen betreden wanneer de verkeerssignalisatie dit toelaat, voor het in- of uitstappen van personen.",
+      "explanation_ru": "Статья 22sexies.1, 2°b гласит, что такси могут въезжать в эти зоны, когда это предусмотрено дорожными знаками, для посадки или высадки пассажиров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes cycliste et vous arrivez à l'entrée d'une zone piétonne. La zone est très fréquentée par les piétons. Que devez-vous faire selon l'article 22sexies.2 ?",
+      "text_nl": "U bent fietser en u komt aan bij de ingang van een voetgangerszone. De zone is erg druk met voetgangers. Wat moet u doen volgens artikel 22sexies.2?",
+      "text_ru": "Вы велосипедист и подъезжаете к въезду в пешеходную зону. Зона очень оживленная пешеходами. Что вы должны сделать согласно статье 22sexies.2?",
+      "image": {
+        "sign_code": "F103",
+        "generation_prompt": "A Belgian road sign F103 (pedestrian zone) at the entrance of a street, with many pedestrians visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler prudemment en slalomant entre les piétons.",
+          "text_nl": "Blijf voorzichtig rijden en slalommen tussen de voetgangers.",
+          "text_ru": "Продолжайте ехать осторожно, лавируя между пешеходами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Descendre de votre bicyclette et la pousser à la main.",
+          "text_nl": "Stap van uw fiets en duw deze te voet.",
+          "text_ru": "Слезьте с велосипеда и ведите его рядом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre que le flux de piétons diminue pour pouvoir rouler normalement.",
+          "text_nl": "Wacht tot de stroom voetgangers afneemt om normaal te kunnen rijden.",
+          "text_ru": "Подождите, пока поток пешеходов уменьшится, чтобы можно было ехать нормально.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22sexies.2 précise que dans les zones piétonnes, les cyclistes doivent descendre de leur bicyclette lorsque la densité de circulation des piétons rend difficile leur passage.",
+      "explanation_nl": "Artikel 22sexies.2 specificeert dat in voetgangerszones fietsers van hun fiets moeten afstappen wanneer de drukte van voetgangers hun doorgang bemoeilijkt.",
+      "explanation_ru": "Статья 22sexies.2 уточняет, что в пешеходных зонах велосипедисты должны слезть с велосипеда, когда плотность пешеходного движения затрудняет их проезд."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "a630e724efdb",
@@ -49,6 +235,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:08:14Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

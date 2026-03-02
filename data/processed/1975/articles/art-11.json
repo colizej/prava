@@ -59,7 +59,193 @@
   "anchor_id_fr": "pcwb5s3qpd",
   "anchor_id_nl": "qnofdw3izy",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'Article 11.1, quelle est la fonction principale du signal C43 ?",
+      "text_nl": "Volgens Artikel 11.1, wat is de primaire functie van het verkeersbord C43?",
+      "text_ru": "Согласно Статье 11.1, какова основная функция дорожного знака C43?",
+      "image": {
+        "sign_code": "C43",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il indique la fin de toutes les limitations de vitesse.",
+          "text_nl": "Het duidt het einde aan van alle snelheidsbeperkingen.",
+          "text_ru": "Он указывает на конец всех ограничений скорости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il impose ou permet une limitation de vitesse inférieure ou supérieure à la vitesse par défaut.",
+          "text_nl": "Het legt een lagere of hogere snelheidsbeperking op of laat deze toe dan de standaard snelheid.",
+          "text_ru": "Он налагает или разрешает ограничение скорости ниже или выше стандартной скорости.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il signale une zone de travaux où la prudence est de mise.",
+          "text_nl": "Het geeft een werkzone aan waar voorzichtigheid geboden is.",
+          "text_ru": "Он обозначает зону работ, где требуется осторожность.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 11.1 (pour chaque région) stipule que le signal C43 peut imposer ou permettre une limitation de vitesse inférieure ou supérieure à la vitesse par défaut.",
+      "explanation_nl": "Artikel 11.1 (voor elke regio) stelt dat het verkeersbord C43 een lagere of hogere snelheidsbeperking kan opleggen of toelaten dan de standaardsnelheid.",
+      "explanation_ru": "Статья 11.1 (для каждого региона) указывает, что знак C43 может устанавливать или разрешать ограничение скорости ниже или выше стандартной скорости."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'Article 11.1 pour la Région de Bruxelles-Capitale, quelle est la limitation de vitesse générale à l'intérieur des agglomérations ?",
+      "text_nl": "Volgens Artikel 11.1 voor het Brussels Hoofdstedelijk Gewest, wat is de algemene snelheidsbeperking binnen de bebouwde kommen?",
+      "text_ru": "Согласно Статье 11.1 для Брюссельского столичного региона, каково общее ограничение скорости в населенных пунктах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "50 km/h",
+          "text_nl": "50 km/u",
+          "text_ru": "50 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 km/h",
+          "text_nl": "30 km/u",
+          "text_ru": "30 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "70 km/h",
+          "text_nl": "70 km/u",
+          "text_ru": "70 км/ч",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 11.1 (Région de Bruxelles-Capitale) stipule clairement que « Dans les agglomérations, la vitesse est limitée à 30 km à l'heure ».",
+      "explanation_nl": "Artikel 11.1 (Brussels Hoofdstedelijk Gewest) stelt duidelijk dat « Binnen de bebouwde kommen is de snelheid beperkt tot 30 km per uur ».",
+      "explanation_ru": "Статья 11.1 (Брюссельский столичный регион) четко указывает, что «В населенных пунктах скорость ограничена 30 км/ч»."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une voiture dans une agglomération en Région flamande. Vous passez un signal C43 indiquant « 70 ». Quelle est la vitesse maximale autorisée, en supposant qu'aucune autre limitation spécifique ne s'applique ?",
+      "text_nl": "U rijdt met een auto in een bebouwde kom in het Vlaams Gewest. U passeert een verkeersbord C43 dat '70' aangeeft. Wat is de maximaal toegelaten snelheid, ervan uitgaande dat er geen andere specifieke beperkingen van toepassing zijn?",
+      "text_ru": "Вы ведете автомобиль в населенном пункте Фламандского региона. Вы проезжаете дорожный знак C43 с указанием «70». Какова максимально разрешенная скорость, предполагая, что никакие другие особые ограничения не применяются?",
+      "image": {
+        "sign_code": "C43",
+        "generation_prompt": "Panneau C43 indiquant 70 km/h / Verkeersbord C43 dat 70 km/u aangeeft / Дорожный знак C43 с указанием 70 км/ч"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "50 km/h, car c'est la limite générale en agglomération flamande.",
+          "text_nl": "50 km/u, omdat dit de algemene limiet is in Vlaamse bebouwde kommen.",
+          "text_ru": "50 км/ч, так как это общее ограничение в фламандских населенных пунктах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "70 km/h, car le signal C43 prime sur la limitation générale.",
+          "text_nl": "70 km/u, omdat het verkeersbord C43 voorrang heeft op de algemene beperking.",
+          "text_ru": "70 км/ч, так как знак C43 имеет приоритет над общим ограничением.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "30 km/h, car c'est la limite dans certaines zones sensibles.",
+          "text_nl": "30 km/u, omdat dit de limiet is in bepaalde gevoelige zones.",
+          "text_ru": "30 км/ч, так как это ограничение в некоторых чувствительных зонах.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 11.1 (Région flamande) précise que même si la vitesse générale en agglomération est de 50 km/h, une limitation supérieure peut être imposée ou permise par le signal C43.",
+      "explanation_nl": "Artikel 11.1 (Vlaams Gewest) preciseert dat, zelfs als de algemene snelheid in de bebouwde kom 50 km/u is, een hogere beperking kan worden opgelegd of toegelaten door het verkeersbord C43.",
+      "explanation_ru": "Статья 11.1 (Фламандский регион) уточняет, что, хотя общая скорость в населенном пункте составляет 50 км/ч, более высокое ограничение может быть установлено или разрешено знаком C43."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule de tourisme standard hors agglomération dans la Région de Bruxelles-Capitale sur une autoroute. Quelle est la vitesse maximale autorisée ?",
+      "text_nl": "U rijdt met een standaard personenwagen buiten de bebouwde kom in het Brussels Hoofdstedelijk Gewest op een autosnelweg. Wat is de maximaal toegelaten snelheid?",
+      "text_ru": "Вы ведете стандартный легковой автомобиль вне населенного пункта в Брюссельском столичном регионе по автомагистрали. Какова максимально разрешенная скорость?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Autoroute en dehors d'une agglomération / Autosnelweg buiten de bebouwde kom / Автомагистраль вне населенного пункта"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "90 km/h",
+          "text_nl": "90 km/u",
+          "text_ru": "90 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "100 km/h",
+          "text_nl": "100 km/u",
+          "text_ru": "100 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "120 km/h",
+          "text_nl": "120 km/u",
+          "text_ru": "120 км/ч",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 11.2 (Région de Bruxelles-Capitale) 1° a) indique que la vitesse est limitée à 120 km/h sur les autoroutes pour les véhicules de tourisme standards.",
+      "explanation_nl": "Artikel 11.2 (Brussels Hoofdstedelijk Gewest) 1° a) geeft aan dat de snelheid op autosnelwegen beperkt is tot 120 km/u voor standaard personenwagens.",
+      "explanation_ru": "Статья 11.2 (Брюссельский столичный регион) 1° а) указывает, что скорость на автомагистралях ограничена 120 км/ч для стандартных легковых автомобилей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un camion dont la masse maximale autorisée est de 4 tonnes sur une autoroute en dehors d'une agglomération dans la Région de Bruxelles-Capitale. Quelle est votre vitesse maximale autorisée ?",
+      "text_nl": "U rijdt met een vrachtwagen waarvan de maximaal toegelaten massa 4 ton bedraagt op een autosnelweg buiten de bebouwde kom in het Brussels Hoofdstedelijk Gewest. Wat is uw maximaal toegelaten snelheid?",
+      "text_ru": "Вы ведете грузовик с максимально допустимой массой 4 тонны по автомагистрали вне населенного пункта в Брюссельском столичном регионе. Какова ваша максимально разрешенная скорость?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Camion > 3,5 tonnes sur autoroute / Vrachtwagen > 3,5 ton op autosnelweg / Грузовик > 3,5 тонны на автомагистрали"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "120 km/h",
+          "text_nl": "120 km/u",
+          "text_ru": "120 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "90 km/h",
+          "text_nl": "90 km/u",
+          "text_ru": "90 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "100 km/h",
+          "text_nl": "100 km/u",
+          "text_ru": "100 км/ч",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 11.2 (Région de Bruxelles-Capitale) 1° a) spécifie que la vitesse des véhicules et trains de véhicules dont la masse maximale autorisée est supérieure à 3,5 tonnes est limitée à 90 km/h sur les autoroutes.",
+      "explanation_nl": "Artikel 11.2 (Brussels Hoofdstedelijk Gewest) 1° a) specificeert dat de snelheid van voertuigen en samenstellen van voertuigen waarvan de maximaal toegelaten massa meer dan 3,5 ton bedraagt, op autosnelwegen beperkt is tot 90 km/u.",
+      "explanation_ru": "Статья 11.2 (Брюссельский столичный регион) 1° а) уточняет, что скорость транспортных средств и составов транспортных средств с максимально допустимой массой более 3,5 тонны на автомагистралях ограничена 90 км/ч."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "1c79a2422c88",
@@ -69,6 +255,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:25:47Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

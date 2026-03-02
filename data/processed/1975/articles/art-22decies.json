@@ -26,7 +26,193 @@
   "anchor_id_fr": "m95ijbz7c5",
   "anchor_id_nl": "slvab4jcdr",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui régit l'usage des bandes réservées aux heures de pointe ?",
+      "text_nl": "Wat regelt het gebruik van spitsstroken?",
+      "text_ru": "Что регулирует использование полос, предназначенных для движения в часы пик?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les limitations de vitesse générales.",
+          "text_nl": "De algemene snelheidsbeperkingen.",
+          "text_ru": "Общие ограничения скорости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La signalisation spécifique (art. 65.4) ou les signaux lumineux de circulation (art. 62bis).",
+          "text_nl": "De specifieke signalisatie (art. 65.4) of de verkeerslichten (art. 62bis).",
+          "text_ru": "Специальная сигнализация (ст. 65.4) или светофоры (ст. 62bis).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La présence d'autres usagers de la route.",
+          "text_nl": "De aanwezigheid van andere weggebruikers.",
+          "text_ru": "Присутствие других участников дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22decies stipule que l'usage des bandes réservées aux heures de pointe est réglé par la signalisation visée à l’article 65.4 ou les signaux lumineux de circulation visés à l’article 62bis.",
+      "explanation_nl": "Artikel 22decies stelt dat het gebruik van spitsstroken wordt geregeld door de signalisatie bedoeld in artikel 65.4 of de verkeerslichten bedoeld in artikel 62bis.",
+      "explanation_ru": "Статья 22decies предусматривает, что использование полос, предназначенных для движения в часы пик, регулируется сигналами, указанными в статье 65.4, или светофорами, указанными в статье 62bis."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Si la signalisation spécifique et les signaux lumineux d'une bande réservée aux heures de pointe ne fonctionnent pas, quelle est la règle générale concernant la circulation sur cette bande ?",
+      "text_nl": "Indien de specifieke signalisatie en de verkeerslichten van een spitsstrook niet in werking zijn, wat is dan de algemene regel betreffende het verkeer op deze strook?",
+      "text_ru": "Если специальная сигнализация и светофоры полосы, предназначенной для движения в часы пик, не работают, каково общее правило движения по этой полосе?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La circulation est toujours autorisée.",
+          "text_nl": "Het verkeer is altijd toegelaten.",
+          "text_ru": "Движение всегда разрешено.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La circulation est généralement interdite, sauf exceptions.",
+          "text_nl": "Het verkeer is over het algemeen niet toegelaten, behalve in bepaalde gevallen.",
+          "text_ru": "Движение обычно запрещено, за исключением некоторых случаев.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La circulation est autorisée uniquement pour les transports en commun.",
+          "text_nl": "Het verkeer is enkel toegelaten voor het openbaar vervoer.",
+          "text_ru": "Движение разрешено только для общественного транспорта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22decies précise que si ni la signalisation ni les signaux lumineux ne fonctionnent, la circulation sur la bande réservée aux heures de pointe est interdite sauf dans les cas spécifiés.",
+      "explanation_nl": "Artikel 22decies preciseert dat indien noch de signalisatie noch de verkeerslichten in werking zijn, het verkeer op de spitsstrook niet toegelaten is, behalve in de gespecificeerde gevallen.",
+      "explanation_ru": "Статья 22decies уточняет, что если ни сигналы, ни светофоры не работают, движение по полосе, предназначенной для движения в часы пик, запрещено, за исключением указанных случаев."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route comportant une bande réservée aux heures de pointe. La signalisation spécifique et les signaux lumineux de cette bande ne sont pas actifs. Vous devez continuer tout droit. Êtes-vous autorisé à utiliser cette bande réservée aux heures de pointe ?",
+      "text_nl": "U rijdt op een weg met een spitsstrook. De specifieke signalisatie en de verkeerslichten van deze strook zijn niet actief. U moet rechtdoor blijven rijden. Mag u deze spitsstrook gebruiken?",
+      "text_ru": "Вы едете по дороге с полосой, предназначенной для движения в часы пик. Специальная сигнализация и светофоры этой полосы неактивны. Вам нужно ехать прямо. Разрешено ли вам использовать эту полосу, предназначенную для движения в часы пик?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car is driving on a multi-lane road. The leftmost lane is marked as a peak-hour lane with signs (currently off or covered) indicating its special status. The main lanes are to the right. The car is planning to go straight."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car c'est une voie normale lorsque les signaux sont éteints.",
+          "text_nl": "Ja, want het is een normale rijstrook wanneer de signalen uit zijn.",
+          "text_ru": "Да, потому что это обычная полоса, когда сигналы выключены.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, sauf si vous accédez ou sortez d'une autoroute ou changez de direction.",
+          "text_nl": "Nee, tenzij u de autosnelweg oprijdt of verlaat of van richting verandert.",
+          "text_ru": "Нет, если только вы не въезжаете на автомагистраль, не съезжаете с нее или не меняете направление.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais seulement s'il n'y a pas d'autre trafic.",
+          "text_nl": "Ja, maar alleen als er geen ander verkeer is.",
+          "text_ru": "Да, но только если нет другого движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Continuer tout droit ne fait pas partie des exceptions à l'interdiction de circuler sur une bande réservée aux heures de pointe lorsque la signalisation est inactive. Les exceptions sont : cas de l'article 9.7, accès ou sortie d'autoroute, ou changement de direction.",
+      "explanation_nl": "Rechtdoor rijden behoort niet tot de uitzonderingen op het verbod om op een spitsstrook te rijden wanneer de signalisatie inactief is. De uitzonderingen zijn: gevallen bedoeld in artikel 9.7, om de autosnelweg op te rijden of te verlaten, of om van richting te veranderen.",
+      "explanation_ru": "Движение прямо не входит в число исключений из запрета на движение по полосе, предназначенной для движения в часы пик, когда сигнализация неактивна. Исключения: случаи, указанные в статье 9.7, въезд или выезд с автомагистрали, или изменение направления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous approchez d'une sortie d'autoroute. La bande réservée aux heures de pointe à côté de vous a ses signaux de régulation éteints. Pouvez-vous utiliser cette bande pour vous préparer à sortir de l'autoroute ?",
+      "text_nl": "U nadert een afrit van de autosnelweg. De spitsstrook naast u heeft zijn regelsignalen uitgeschakeld. Mag u deze strook gebruiken om u voor te bereiden op het verlaten van de autosnelweg?",
+      "text_ru": "Вы приближаетесь к съезду с автомагистрали. Полоса, предназначенная для движения в часы пик, рядом с вами, имеет выключенные регулирующие сигналы. Можете ли вы использовать эту полосу, чтобы подготовиться к съезду с автомагистрали?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car is on a motorway, approaching an exit ramp. To the left (or right, depending on layout) there is a peak-hour lane. Its specific signals are off. The car needs to merge into the peak-hour lane to access the exit ramp."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les bandes réservées aux heures de pointe sont toujours interdites lorsque les signaux sont éteints, même pour sortir.",
+          "text_nl": "Nee, spitsstroken zijn altijd verboden wanneer de signalen uit zijn, zelfs om af te slaan.",
+          "text_ru": "Нет, полосы, предназначенные для движения в часы пик, всегда запрещены, когда сигналы выключены, даже для съезда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, c'est l'une des exceptions spécifiques à l'interdiction.",
+          "text_nl": "Ja, dit is een van de specifieke uitzonderingen op het verbod.",
+          "text_ru": "Да, это одно из конкретных исключений из запрета.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement s'il n'y a pas de trafic dense sur les voies principales.",
+          "text_nl": "Alleen als er geen druk verkeer is op de hoofdrijbanen.",
+          "text_ru": "Только если на основных полосах нет интенсивного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22decies permet spécifiquement l'usage des bandes réservées aux heures de pointe, même si les signaux ne fonctionnent pas, pour \"accéder ou sortir de l’autoroute\".",
+      "explanation_nl": "Artikel 22decies staat specifiek het gebruik van spitsstroken toe, zelfs als de signalen niet werken, om \"de autosnelweg op te rijden of te verlaten\".",
+      "explanation_ru": "Статья 22decies специально разрешает использование полос, предназначенных для движения в часы пик, даже если сигналы не работают, для \"въезда или выезда с автомагистрали\"."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez sur une route à plusieurs voies et devez tourner à gauche à la prochaine intersection. La bande réservée aux heures de pointe adjacente a ses signaux spécifiques inactifs. Êtes-vous autorisé à emprunter cette bande réservée aux heures de pointe pour changer de direction (tourner à gauche) ?",
+      "text_nl": "U rijdt op een meerstrooksweg en moet op het volgende kruispunt linksaf slaan. De naastgelegen spitsstrook heeft zijn specifieke signalen inactief. Mag u deze spitsstrook gebruiken om van richting te veranderen (linksaf te slaan)?",
+      "text_ru": "Вы едете по многополосной дороге и должны повернуть налево на следующем перекрестке. Прилегающая полоса, предназначенная для движения в часы пик, имеет неактивные специальные сигналы. Разрешено ли вам использовать эту полосу, предназначенную для движения в часы пик, для изменения направления (поворота налево)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car is on a multi-lane road, approaching an intersection. The car is in a main lane and needs to turn left. To its left, there is a peak-hour lane with its specific signals (e.g., dynamic arrows/crosses) currently off. The car is signaling a left turn."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, il est interdit d'utiliser les bandes réservées aux heures de pointe lorsque les signaux sont éteints pour toute manœuvre.",
+          "text_nl": "Nee, het is verboden om spitsstroken te gebruiken wanneer de signalen uit zijn voor welke manoeuvre dan ook.",
+          "text_ru": "Нет, запрещено использовать полосы, предназначенные для движения в часы пик, когда сигналы выключены, для любых маневров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, changer de direction est l'une des exceptions autorisées.",
+          "text_nl": "Ja, van richting veranderen is een van de toegestane uitzonderingen.",
+          "text_ru": "Да, изменение направления является одним из разрешенных исключений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si cela permet d'éviter de bloquer le reste du trafic.",
+          "text_nl": "Ja, als dit helpt om het andere verkeer niet te hinderen.",
+          "text_ru": "Да, если это помогает избежать блокировки другого движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22decies autorise spécifiquement la circulation sur la bande réservée aux heures de pointe, même si les signaux ne fonctionnent pas, si c'est \"pour changer de direction\".",
+      "explanation_nl": "Artikel 22decies staat specifiek verkeer op de spitsstrook toe, zelfs als de signalen niet werken, als het \"om van richting te veranderen\" is.",
+      "explanation_ru": "Статья 22decies специально разрешает движение по полосе, предназначенной для движения в часы пик, даже если сигналы не работают, если это \"для изменения направления\"."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "ebbb41e55a99",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T13:33:28Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

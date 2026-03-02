@@ -40,7 +40,193 @@
   "anchor_id_fr": "8o5h8vaoeo",
   "anchor_id_nl": "vd6oxdaim0",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 22septies.1, qui est autorisé à circuler dans une rue réservée au jeu, outre les résidents et les véhicules prioritaires ?",
+      "text_nl": "Volgens artikel 22septies.1, wie mag, naast bewoners en prioritaire voertuigen, in een speelstraat rijden?",
+      "text_ru": "Согласно статье 22septies.1, кто, помимо жителей и приоритетных транспортных средств, может въезжать в игровую зону?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Traffic sign indicating the end of a play street (Wegwijzer voor het einde van een speelstraat)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tous les cyclomotoristes.",
+          "text_nl": "Alle bromfietsers.",
+          "text_ru": "Все водители мопедов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les cyclistes et les véhicules munis d'une autorisation du gestionnaire de voirie.",
+          "text_nl": "Fietsers en voertuigen met een vergunning van de wegendienst.",
+          "text_ru": "Велосипедисты и транспортные средства, имеющие разрешение от дорожного администратора.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seuls les véhicules de livraison.",
+          "text_nl": "Enkel leveringsvoertuigen.",
+          "text_ru": "Только грузовые автомобили для доставки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22septies.1 stipule que seuls les conducteurs des véhicules à moteur habitant dans la rue ou dont le garage s'y trouve, les véhicules prioritaires, les véhicules en possession d'une autorisation délivrée par le gestionnaire de voirie, et les cyclistes ont accès aux rues réservées au jeu.",
+      "explanation_nl": "Artikel 22septies.1 stelt dat alleen bestuurders van motorvoertuigen die in de straat wonen of wiens garage zich daar bevindt, prioritaire voertuigen, voertuigen met een vergunning afgegeven door de beheerder van de wegen, en fietsers toegang hebben tot speelstraten.",
+      "explanation_ru": "Статья 22septies.1 гласит, что только водители механических транспортных средств, проживающие на улице или имеющие гараж там, приоритетные транспортные средства, транспортные средства, имеющие разрешение, выданное дорожным администратором, и велосипедисты имеют доступ к игровым зонам."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans une rue réservée au jeu, comment les personnes qui jouent sont-elles assimilées en termes de réglementation routière ?",
+      "text_nl": "In een speelstraat, hoe worden de spelende personen gelijkgesteld qua verkeersreglementering?",
+      "text_ru": "В игровой зоне, как приравниваются играющие люди с точки зрения правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street sign that explicitly states it is a play street, with children playing depicted."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont considérées comme des cyclistes.",
+          "text_nl": "Ze worden beschouwd als fietsers.",
+          "text_ru": "Они считаются велосипедистами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles sont considérées comme des piétons, mais l'article 42 ne s'applique pas.",
+          "text_nl": "Ze worden gelijkgesteld met voetgangers, maar artikel 42 is niet van toepassing.",
+          "text_ru": "Они приравниваются к пешеходам, но статья 42 не применяется.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles ne sont pas réglementées spécifiquement.",
+          "text_nl": "Ze zijn niet specifiek gereguleerd.",
+          "text_ru": "Они не регулируются конкретно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22septies.1 précise que les personnes qui jouent dans les rues réservées au jeu sont considérées comme des piétons, mais que les dispositions de l'article 42 (qui concerne généralement les piétons sur la chaussée) ne leur sont pas applicables.",
+      "explanation_nl": "Artikel 22septies.1 stelt dat de personen die spelen in speelstraten gelijkgesteld worden met voetgangers, maar dat de bepalingen van artikel 42 (dat over het algemeen voetgangers op de rijbaan betreft) niet op hen van toepassing zijn.",
+      "explanation_ru": "Статья 22septies.1 уточняет, что люди, играющие в игровых зонах, приравниваются к пешеходам, но положения статьи 42 (которая обычно касается пешеходов на проезжей части) к ним не применяются."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez dans une rue où le panneau 'Rue réservée au jeu' est en place. Vous voyez des enfants jouer sur la chaussée. Quelle est la vitesse maximale autorisée et quelle doit être votre attitude ?",
+      "text_nl": "U rijdt in een straat met het 'Speelstraat'-bord. U ziet kinderen op de rijbaan spelen. Wat is de maximale toegelaten snelheid en hoe moet u zich gedragen?",
+      "text_ru": "Вы едете по улице, где установлен знак «Игровая зона». Вы видите детей, играющих на проезжей части. Какова максимальная разрешенная скорость и как вы должны себя вести?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A Belgian traffic sign indicating the start of a play street (DE41 - begin van een speelstraat)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vitesse normale, et vous devez leur céder le passage s'ils sont sur votre trajectoire.",
+          "text_nl": "Normale snelheid, en u moet hen voorrang verlenen als ze op uw weghelft zijn.",
+          "text_ru": "Нормальная скорость, и вы должны уступить им дорогу, если они находятся на вашей полосе движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vitesse du pas, céder le passage, et être extrêmement prudent.",
+          "text_nl": "Stapvoets, doorgang verlenen, en uiterst voorzichtig zijn.",
+          "text_ru": "Скорость шага, уступать дорогу и быть предельно осторожным.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vitesse limitée à 30 km/h, et ne pas gêner les jeux.",
+          "text_nl": "Snelheid beperkt tot 30 km/u, en de spelen niet hinderen.",
+          "text_ru": "Скорость ограничена 30 км/ч, и не мешать играм.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 22septies.2, les conducteurs dans les rues réservées au jeu doivent rouler à l'allure du pas, céder le passage aux personnes qui jouent, et faire preuve d'une prudence accrue, notamment en présence d'enfants.",
+      "explanation_nl": "Volgens artikel 22septies.2 moeten bestuurders in speelstraten stapvoets rijden, doorgang verlenen aan spelende personen en uiterste voorzichtigheid betrachten, vooral in de aanwezigheid van kinderen.",
+      "explanation_ru": "Согласно статье 22septies.2, водители в игровых зонах должны двигаться со скоростью шага, уступать дорогу играющим и проявлять повышенную осторожность, особенно в присутствии детей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes cycliste et entrez dans une rue réservée au jeu. Vous voyez des enfants jouer et un résident tente de sortir de son garage avec sa voiture. Quelle est votre priorité et comment devez-vous vous comporter ?",
+      "text_nl": "U bent fietser en rijdt een speelstraat binnen. U ziet kinderen spelen en een bewoner probeert met zijn auto uit zijn garage te rijden. Wat is uw prioriteit en hoe moet u zich gedragen?",
+      "text_ru": "Вы велосипедист и въезжаете в игровую зону. Вы видите играющих детей и жителя, пытающегося выехать из своего гаража на машине. Каков ваш приоритет и как вы должны себя вести?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian crossing sign combined with a play street sign."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous avez la priorité car vous êtes un usager 'toléré' et devez demander au résident de patienter.",
+          "text_nl": "U heeft voorrang omdat u een 'getolereerde' gebruiker bent en moet de bewoner vragen te wachten.",
+          "text_ru": "У вас приоритет, потому что вы являетесь «допущенным» пользователем, и вы должны попросить жителя подождать.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez descendre de votre vélo si nécessaire, céder le passage aux enfants et au véhicule sortant du garage, et ne pas gêner.",
+          "text_nl": "U moet afstappen indien nodig, voorrang verlenen aan de kinderen en het voertuig dat uit de garage komt, en niet hinderen.",
+          "text_ru": "Вы должны слезть с велосипеда при необходимости, уступить дорогу детям и выезжающему из гаража автомобилю и не мешать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez continuer à rouler prudemment et le résident doit vous céder le passage.",
+          "text_nl": "U moet voorzichtig blijven rijden en de bewoner moet u voorrang verlenen.",
+          "text_ru": "Вы должны продолжать осторожно ехать, а житель должен уступить вам дорогу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 22septies.2 stipule que les cyclistes doivent descendre de leur bicyclette si nécessaire et que les conducteurs (y compris les cyclistes dans ce contexte) ne doivent ni mettre en danger ni gêner les piétons qui jouent. La prudence prime, et les règles de priorité habituelles sont subordonnées à la sécurité des enfants et à la fluidité des manœuvres des résidents autorisés.",
+      "explanation_nl": "Artikel 22septies.2 bepaalt dat fietsers indien nodig moeten afstappen en dat bestuurders (waaronder fietsers in deze context) spelende voetgangers niet in gevaar mogen brengen of hinderen. Voorzichtigheid is geboden, en gebruikelijke voorrangsregels zijn ondergeschikt aan de veiligheid van de kinderen en het gemakkelijke manoeuvreren van de toegestane bewoners.",
+      "explanation_ru": "Статья 22septies.2 гласит, что велосипедисты должны слезть с велосипеда при необходимости, а водители (включая велосипедистов в этом контексте) не должны подвергать опасности или мешать играющим пешеходам. Приоритет имеет осторожность, а обычные правила приоритета подчинены безопасности детей и легкости маневрирования для разрешенных жильцов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes au volant d'un véhicule prioritaire et devez entrer dans une rue réservée au jeu pour une mission urgente. Quelle est la procédure ?",
+      "text_nl": "U bestuurt een prioritaire voertuig en moet een speelstraat binnenrijden voor een dringende missie. Wat is de procedure?",
+      "text_ru": "Вы управляете приоритетным транспортным средством и должны въехать в игровую зону для выполнения срочной миссии. Какова процедура?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A Belgian sign indicating the start of a play street (F5), with emergency vehicle lights flashing."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez entrer à vitesse normale, car votre statut de véhicule prioritaire vous donne le droit de passer.",
+          "text_nl": "U mag met normale snelheid binnenrijden, omdat uw status als prioritaire voertuig u het recht geeft om te passeren.",
+          "text_ru": "Вы можете въехать с нормальной скоростью, так как ваш статус приоритетного транспортного средства дает вам право проезда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez rouler à l'allure du pas, activer vos avertisseurs lumineux et sonores, et céder le passage à tous les usagers de la rue, même s'ils jouent.",
+          "text_nl": "U moet stapvoets rijden, uw zwaailichten en sirenes activeren, en voorrang verlenen aan alle weggebruikers, zelfs als ze spelen.",
+          "text_ru": "Вы должны ехать со скоростью шага, включить проблесковые маячки и звуковые сигналы, и уступать дорогу всем участникам дорожного движения, даже если они играют.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez entrer en utilisant vos avertisseurs lumineux et sonores, en ralentissant et en vous assurant que les piétons ne sont pas mis en danger.",
+          "text_nl": "U mag binnenrijden met gebruik van uw zwaailichten en sirenes, vertragen en ervoor zorgen dat de voetgangers niet in gevaar worden gebracht.",
+          "text_ru": "Вы можете въехать, используя проблесковые маячки и звуковые сигналы, замедлив движение и убедившись, что пешеходы не подвергаются опасности.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 22septies.1 autorise les véhicules prioritaires dans les rues réservées au jeu lorsque la nature de leur mission le justifie. L'article 22septies.2 impose une allure du pas et de redoubler de prudence. L'article 37 (concernant les véhicules prioritaires) implique l'usage des avertisseurs pour signaler leur présence et leur urgence, tout en exigeant de ne pas créer de danger.",
+      "explanation_nl": "Artikel 22septies.1 staat prioritaire voertuigen toe in speelstraten wanneer de aard van hun opdracht dit rechtvaardigt. Artikel 22septies.2 eist stapvoets rijden en uiterste voorzichtigheid. Artikel 37 (betreffende prioritaire voertuigen) impliceert het gebruik van signalen om hun aanwezigheid en urgentie aan te geven, terwijl ook geëist wordt om geen gevaar te creëren.",
+      "explanation_ru": "Статья 22septies.1 разрешает приоритетным транспортным средствам въезжать в игровые зоны, когда характер их миссии это оправдывает. Статья 22septies.2 требует движения со скоростью шага и предельной осторожности. Статья 37 (касающаяся приоритетных транспортных средств) подразумевает использование предупреждающих сигналов для обозначения их присутствия и срочности, при этом требуя не создавать опасности."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "5195f8804c88",
@@ -50,6 +236,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-02T15:07:51Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }
