@@ -90,33 +90,48 @@ class GeminiClient:
             logger.debug(f"Rate limit: waiting {wait:.1f}s")
             time.sleep(wait)
 
-    def generate_questions(self, article: dict) -> list[dict]:
+    def generate_questions(
+        self,
+        article: dict,
+        prompt_override: Optional[str] = None,
+    ) -> list[dict]:
         """
         Generate 5 exam questions for a given article.
 
         Args:
-            article: Article dict with at minimum:
-                     - article_number, title_fr, content_text_fr,
-                       content_text_nl (optional), content_text_ru (optional)
+            article: Processed article dict (output of 03_process.py).
+                     Expected fields: article_number, title_fr,
+                     full_text_fr, full_text_nl, full_text_ru,
+                     content_md_fr, sign_codes.
+            prompt_override: If given, use this string as the full prompt
+                             instead of building one from the article fields.
+                             (Used by 04_questions.py for richer context.)
 
         Returns:
-            List of 5 question dicts (see DATA_SCHEMA.md §4), or [] on failure.
+            List of question dicts (see TECHNICAL_ARCHITECTURE.md §questions),
+            or [] on failure.
         """
         self._rate_limit()
 
-        # Build the prompt context from available article content
-        context_parts = [
-            f"Article: {article.get('article_number', '')} — {article.get('title_fr', '')}",
-            f"\n[FR]\n{article.get('content_text_fr', '')}",
-        ]
-        if article.get("content_text_nl"):
-            context_parts.append(f"\n[NL]\n{article.get('content_text_nl', '')}")
-        if article.get("content_text_ru"):
-            context_parts.append(f"\n[RU]\n{article.get('content_text_ru', '')}")
+        if prompt_override:
+            prompt = prompt_override
+        else:
+            # Fallback: build a simple prompt from available fields
+            content_fr = (
+                article.get("content_md_fr")
+                or article.get("full_text_fr")
+                or article.get("content_text_fr", "")
+            )
+            context_parts = [
+                f"Article: {article.get('article_number', '')} — {article.get('title_fr', '')}",
+                f"\n[FR]\n{content_fr[:3000]}",
+            ]
+            content_nl = article.get("full_text_nl") or article.get("content_text_nl", "")
+            if content_nl:
+                context_parts.append(f"\n[NL]\n{content_nl[:1500]}")
+            prompt = "\n".join(context_parts)
 
-        prompt = "\n".join(context_parts)
-
-        logger.info(
+        logger.debug(
             f"Generating questions for article {article.get('article_number', '?')} "
             f"({len(prompt)} chars)"
         )
@@ -127,11 +142,15 @@ class GeminiClient:
 
             raw_text = response.text.strip()
 
-            # Strip markdown code fences if present
+            # Strip markdown code fences (```json ... ``` or ``` ... ```)
             if raw_text.startswith("```"):
-                raw_text = raw_text.split("```")[1]
-                if raw_text.startswith("json"):
-                    raw_text = raw_text[4:]
+                lines = raw_text.splitlines()
+                # drop first and last fence lines
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines and lines[-1].strip() == "```":
+                    lines = lines[:-1]
+                raw_text = "\n".join(lines).strip()
 
             questions = json.loads(raw_text)
 
@@ -139,7 +158,7 @@ class GeminiClient:
                 logger.error(f"Gemini returned non-list: {type(questions)}")
                 return []
 
-            logger.info(f"Generated {len(questions)} questions")
+            logger.debug(f"Generated {len(questions)} questions")
             return questions
 
         except json.JSONDecodeError as e:
