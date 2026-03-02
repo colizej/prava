@@ -74,14 +74,35 @@ def _get_rule_category(article):
     return cat
 
 
-def _get_exam_category(article_number):
-    from django.utils.text import slugify
+# RuleCategory slug → ExamCategory slug (broad topic)
+_TITRE_TO_EXAM_SLUG = {
+    "titre-i":    "voie-publique",
+    "titre-ii":   "signalisation",
+    "titre-iii":  "voie-publique",
+    "titre-iv":   "priorites",
+    "titre-v":    "vitesse-freinage",
+    "titre-vi":   "depassement",
+    "titre-vii":  "priorites",
+    "titre-viii": "voie-publique",
+    "titre-ix":   "arret-stationnement",
+    "titre-x":    "obligations",
+    "titre-xi":   "obligations",
+    "titre-xii":  "situations",
+}
+
+
+def _get_exam_category(article: dict):
+    """Return the broad topic ExamCategory for this article."""
     from apps.examens.models import ExamCategory
-    slug = slugify(f"art-{article_number}")
-    cat, _ = ExamCategory.objects.get_or_create(
-        slug=slug, defaults={"name": f"Article {article_number}"}
-    )
-    return cat
+    rule_cat = _get_rule_category(article)
+    exam_slug = _TITRE_TO_EXAM_SLUG.get(rule_cat.slug, "voie-publique")
+    try:
+        return ExamCategory.objects.get(slug=exam_slug)
+    except ExamCategory.DoesNotExist:
+        cat, _ = ExamCategory.objects.get_or_create(
+            slug=exam_slug, defaults={"name": exam_slug.replace("-", " ").title()}
+        )
+        return cat
 
 
 # ─── Import functions ─────────────────────────────────────────────────────────
@@ -145,7 +166,7 @@ def import_questions(article: dict, dry_run: bool = False) -> int:
     except CodeArticle.DoesNotExist:
         code_article = None
 
-    exam_category = _get_exam_category(str(article.get("article_number", slug)))
+    exam_category = _get_exam_category(article)
     count = 0
 
     for q_data in exam_questions:
