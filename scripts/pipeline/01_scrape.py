@@ -287,10 +287,24 @@ def parse_regulation_page(html: str, lang: str, source_url: str, base_url: str) 
         current_article_meta = None
 
     def parse_article_number(text: str) -> str:
-        """Extract article number from heading text, e.g. 'Article 21.' → '21'"""
-        m = re.search(r"(?:Article|Artikel)\s+(\d+(?:bis|ter|quater)?\.?)", text, re.IGNORECASE)
+        """
+        Extract full article number from heading text.
+
+        Handles:
+          'Article 1.'          → '1'
+          'Article 22quinquies' → '22quinquies'
+          'Article 59bis'       → '59bis'
+          'Artikel 27ter'       → '27ter'
+        """
+        # Match number + optional slash-sub-number (59/1) or Latin/French ordinal suffix
+        # (bis, ter, quater, quinquies, sexies, septies, octies, novies, decies, undecies, ...)
+        m = re.search(
+            r"(?:Article|Artikel)\s+(\d+(?:/\d+)?(?:bis|ter|quater|quinquies|sexies|"
+            r"septies|octies|novies|decies|undecies|duodecies)?)",
+            text, re.IGNORECASE
+        )
         if m:
-            return m.group(1).rstrip(".")
+            return m.group(1)
         # Fallback: first number in text
         m2 = re.search(r"\d+", text)
         return m2.group(0) if m2 else text.strip()

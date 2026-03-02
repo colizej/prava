@@ -46,6 +46,8 @@ class DeepLClient:
 
         self.translator = self._deepl.Translator(self.api_key)
         self._usage_cache: Optional[object] = None
+        # Detect whether this account supports tag_handling=markdown (Pro only on older versions)
+        self._markdown_supported: Optional[bool] = None
 
     def get_usage(self) -> dict:
         """
@@ -147,8 +149,9 @@ class DeepLClient:
         """
         Translate Markdown text, preserving formatting markers (**, >, -, etc.).
 
-        Uses DeepL's tag_handling="markdown" mode (deepl >= 1.17).
-        Falls back to plain text translation if not supported.
+        Attempts DeepL tag_handling="markdown" on first call. If the Free-tier
+        account returns 400, falls back to plain text and skips tag_handling for
+        all subsequent calls (avoids repeated failed API calls).
 
         Args:
             text: Markdown text to translate.
@@ -158,22 +161,30 @@ class DeepLClient:
         Returns:
             Translated Markdown string.
         """
-        try:
+        # If we already know markdown is not supported, skip straight to plain text
+        if self._markdown_supported is False:
             return self.translate(
+                text, source_lang=source_lang, target_lang=target_lang,
+                check_quota_before=check_quota_before,
+            )
+
+        try:
+            result = self.translate(
                 text,
                 source_lang=source_lang,
                 target_lang=target_lang,
                 tag_handling="markdown",
                 check_quota_before=check_quota_before,
             )
+            self._markdown_supported = True
+            return result
         except Exception as e:
-            # Fallback: plain text if this deepl version doesn't support markdown mode
-            if "tag_handling" in str(e).lower() or "markdown" in str(e).lower():
-                logger.warning("tag_handling=markdown not supported — falling back to plain text")
+            if "400" in str(e) or "tag_handling" in str(e).lower() or "bad_request" in str(e).lower():
+                if self._markdown_supported is None:
+                    logger.info("tag_handling=markdown not supported on this account — using plain text")
+                self._markdown_supported = False
                 return self.translate(
-                    text,
-                    source_lang=source_lang,
-                    target_lang=target_lang,
+                    text, source_lang=source_lang, target_lang=target_lang,
                     check_quota_before=False,
                 )
             raise
