@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "62",
+  "slug": "art-62",
+  "structure": {
+    "titre": "III",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 62. Flèche d'évacuation d'un carrefour",
+  "title_nl": "Artikel 62. Ontruimingspijl op een kruispunt",
+  "title_ru": "Статья 62. Стрелка эвакуации с перекрестка",
+  "content_md_fr": "Une flèche verte orientée vers la gauche et placée seule à la sortie d'un carrefour, signifie que la circulation venant en sens inverse sur la chaussée que les conducteurs qui tournent à gauche s'apprêtent à quitter, est arrêtée par un feu rouge afin de faciliter l'évacuation du carrefour.",
+  "content_md_nl": "Een naar links gerichte groene pijl afzonderlijk geplaatst bij het uitrijden van een kruispunt, betekent dat het tegenliggend verkeer op de rijbaan die de bestuurders bij het links afslaan gaan verlaten, tegengehouden wordt door een rood licht teneinde het ontruimen van het kruispunt te vergemakkelijken.",
+  "content_md_ru": "Зеленая стрелка, направленная влево и установленная отдельно на выезде с перекрестка, означает, что встречное движение по проезжей части, с которой собираются выехать водители, совершающие левый поворот, остановлено красным светом, чтобы облегчить выезд с перекрестка.",
+  "content_html_fr": "<p>Une flèche verte orientée vers la gauche et placée seule à la sortie d'un carrefour, signifie que la circulation venant en sens inverse sur la chaussée que les conducteurs qui tournent à gauche s'apprêtent à quitter, est arrêtée par un feu rouge afin de faciliter l'évacuation du carrefour.</p>",
+  "content_html_nl": "<p>Een naar links gerichte groene pijl afzonderlijk geplaatst bij het uitrijden van een kruispunt, betekent dat het tegenliggend verkeer op de rijbaan die de bestuurders bij het links afslaan gaan verlaten, tegengehouden wordt door een rood licht teneinde het ontruimen van het kruispunt te vergemakkelijken.</p>",
+  "full_text_fr": "Une flèche verte orientée vers la gauche et placée seule à la sortie d'un carrefour, signifie que la circulation venant en sens inverse sur la chaussée que les conducteurs qui tournent à gauche s'apprêtent à quitter, est arrêtée par un feu rouge afin de faciliter l'évacuation du carrefour.",
+  "full_text_nl": "Een naar links gerichte groene pijl afzonderlijk geplaatst bij het uitrijden van een kruispunt, betekent dat het tegenliggend verkeer op de rijbaan die de bestuurders bij het links afslaan gaan verlaten, tegengehouden wordt door een rood licht teneinde het ontruimen van het kruispunt te vergemakkelijken.",
+  "full_text_ru": "Зеленая стрелка, направленная влево и установленная отдельно на выезде с перекрестка, означает, что встречное движение по проезжей части, с которой собираются выехать водители, совершающие левый поворот, остановлено красным светом, чтобы облегчить выезд с перекрестка.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "p9cuz77gbo",
+  "anchor_id_nl": "hv3g93eklg",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "2de54975fbfb",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "22decies",
+  "slug": "art-22decies",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 22decies. Circulation sur les bandes réservées aux heures de pointe",
+  "title_nl": "Artikel 22decies. Verkeer op spitsstroken",
+  "title_ru": "Статья 22decies. Движение по выделенным полосам в час пик",
+  "content_md_fr": "L’usage des bandes réservées aux heures de pointe est réglé par la signalisation visée à l’article 65.4 ou les signaux lumineux de circulation visés à l’article 62bis.\n\nSi ni la signalisation visée à l’article 65.4 ni les signaux lumineux ne fonctionnent, la circulation sur la bande réservée aux heures de pointe est interdite sauf :\n\n**1°** dans les cas visés à l’article 9.7;\n\n**2°** pour accéder ou sortir de l’autoroute;\n\n**3°** pour changer de direction.",
+  "content_md_nl": "Het gebruik van spitsstroken wordt geregeld door de signalisatie bedoeld in artikel 65.4 of de verkeerslichten bedoeld in [artikel 62bis](#art-62bis).\n\nIndien noch de signalisatie bedoeld in artikel 65.4 noch de verkeerslichten in werking zijn, is het verkeer op de spitsstrook niet toegelaten behalve:\n\n**1°** in de gevallen bedoeld in artikel 9.7;\n\n**2°** om de autosnelweg op te rijden of te verlaten;\n\n**3°** om van richting te veranderen.",
+  "content_md_ru": "Использование резервных полос во время пиковых полных остановок регулируется знаками, указанными в статье 65.4, или сигналами светофора, указанными в статье 62bis.\n\nЕсли ни знаки, указанные в статье 65.4, ни световые сигналы не работают, движение по полосе, предназначенной для движения в часы пик, запрещено, за исключением случаев, когда :\n\n**1°** в случаях, указанных в статье 9.7;\n\n**2°** для въезда на автомагистраль или выезда с нее;\n\n**3°** для изменения направления движения.",
+  "content_html_fr": "<p>L’usage des bandes réservées aux heures de pointe est réglé par la signalisation visée à l’article 65.4 ou les signaux lumineux de circulation visés à l’article 62bis.</p><p>Si ni la signalisation visée à l’article 65.4 ni les signaux lumineux ne fonctionnent, la circulation sur la bande réservée aux heures de pointe est interdite sauf :</p><p style=\"padding-left: 40px;\"><strong>1°</strong> dans les cas visés à l’article 9.7;</p><p style=\"padding-left: 40px;\"><strong>2°</strong> pour accéder ou sortir de l’autoroute;</p><p style=\"padding-left: 40px;\"><strong>3°</strong> pour changer de direction.</p>",
+  "content_html_nl": "<p>Het gebruik van spitsstroken wordt geregeld door de signalisatie bedoeld in artikel 65.4 of de verkeerslichten bedoeld in <a href=\"#art-62bis\">artikel 62bis</a>.</p><p>Indien noch de signalisatie bedoeld in artikel 65.4 noch de verkeerslichten in werking zijn, is het verkeer op de spitsstrook niet toegelaten behalve:</p><p style=\"padding-left: 30px;\"><strong>1°</strong> in de gevallen bedoeld in artikel 9.7;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> om de autosnelweg op te rijden of te verlaten;</p><p style=\"padding-left: 30px;\"><strong>3°</strong> om van richting te veranderen.</p>",
+  "full_text_fr": "L’usage des bandes réservées aux heures de pointe est réglé par la signalisation visée à l’article 65.4 ou les signaux lumineux de circulation visés à l’article 62bis.\n\nSi ni la signalisation visée à l’article 65.4 ni les signaux lumineux ne fonctionnent, la circulation sur la bande réservée aux heures de pointe est interdite sauf :\n\n1° dans les cas visés à l’article 9.7;\n\n2° pour accéder ou sortir de l’autoroute;\n\n3° pour changer de direction.",
+  "full_text_nl": "Het gebruik van spitsstroken wordt geregeld door de signalisatie bedoeld in artikel 65.4 of de verkeerslichten bedoeld in artikel 62bis.\n\nIndien noch de signalisatie bedoeld in artikel 65.4 noch de verkeerslichten in werking zijn, is het verkeer op de spitsstrook niet toegelaten behalve:\n\n1° in de gevallen bedoeld in artikel 9.7;\n\n2° om de autosnelweg op te rijden of te verlaten;\n\n3° om van richting te veranderen.",
+  "full_text_ru": "Использование резервных полос во время пиковых полных остановок регулируется знаками, указанными в статье 65.4, или сигналами светофора, указанными в статье 62bis.\n\nЕсли ни знаки, указанные в статье 65.4, ни световые сигналы не работают, движение по полосе, предназначенной для движения в часы пик, запрещено, за исключением случаев, когда :\n\n1° в случаях, указанных в статье 9.7;\n\n2° для въезда на автомагистраль или выезда с нее;\n\n3° для изменения направления движения.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "m95ijbz7c5",
+  "anchor_id_nl": "slvab4jcdr",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "ebbb41e55a99",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "law_year": "1975",
+  "article_number": "39",
+  "slug": "art-39",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 39. Comportement à l'égard des autobus et des trolleybus quittant leurs points d'arrêt",
+  "title_nl": "Artikel 39. Gedrag tegenover autobussen en trolleybussen die hun halteplaatsen verlaten",
+  "title_ru": "Статья 39. Поведение по отношению к автобусам и троллейбусам, отъезжающим от своих остановок",
+  "content_md_fr": "Dans les agglomérations, tout conducteur qui suit la même direction qu'un autobus ou un trolleybus, doit permettre au conducteur de cet autobus ou de ce trolleybus de quitter son point d'arrêt lorsqu'il a indiqué, au moyen des feux indicateurs de direction, son intention de remettre son véhicule en mouvement. A cette fin, il doit ralentir et, au besoin, s'arrêter.\n\nDans ce cas, et par dérogation aux dispositions de [l'article 12.4,](#art-12.4,) les conducteurs des autobus et des trolleybus ne doivent pas céder le passage aux autres conducteurs qui suivent la même direction.",
+  "content_md_nl": "Binnen de bebouwde kommen moet elke bestuurder die dezelfde richting volgt als een autobus of een trolleybus, die autobus- of trolleybusbestuurder gelegenheid laten zijn halteplaats te verlaten wanneer hij met de richtingsaanwijzers zijn voornemen kenbaar heeft gemaakt zijn voertuig opnieuw in beweging te brengen. Daartoe moet hij vertragen en, zo nodig, stoppen.\n\nIn dat geval en in afwijking van de bepalingen van [artikel 12.4.](#art-12.4.), moeten de autobus- en de trolleybusbestuurders geen voorrang verlenen aan de andere bestuurders die dezelfde richting volgen.",
+  "content_md_ru": "В населенных пунктах любой водитель, следующий в том же направлении, что и автобус или троллейбус, должен пропустить его, когда он с помощью световых указателей поворота даст понять, что намерен снова привести свое транспортное средство в движение. Для этого он должен снизить скорость и, если необходимо, остановиться.\n\nВ этом случае, несмотря на положения [статьи 12.4] (#art-12.4), водители автобусов и троллейбусов не должны уступать дорогу другим водителям, следующим в том же направлении.",
+  "content_html_fr": "<p align=\"left\">Dans les agglomérations, tout conducteur qui suit la même direction qu'un autobus ou un trolleybus, doit permettre au conducteur de cet autobus ou de ce trolleybus de quitter son point d'arrêt lorsqu'il a indiqué, au moyen des feux indicateurs de direction, son intention de remettre son véhicule en mouvement. A cette fin, il doit ralentir et, au besoin, s'arrêter.</p><p align=\"left\">Dans ce cas, et par dérogation aux dispositions de <a href=\"#art-12.4,\">l'article 12.4,</a> les conducteurs des autobus et des trolleybus ne doivent pas céder le passage aux autres conducteurs qui suivent la même direction.</p>",
+  "content_html_nl": "<p>Binnen de bebouwde kommen moet elke bestuurder die dezelfde richting volgt als een autobus of een trolleybus, die autobus- of trolleybusbestuurder gelegenheid laten zijn halteplaats te verlaten wanneer hij met de richtingsaanwijzers zijn voornemen kenbaar heeft gemaakt zijn voertuig opnieuw in beweging te brengen. Daartoe moet hij vertragen en, zo nodig, stoppen.</p><p>In dat geval en in afwijking van de bepalingen van <a href=\"#art-12.4.\">artikel 12.4.</a>, moeten de autobus- en de trolleybusbestuurders geen voorrang verlenen aan de andere bestuurders die dezelfde richting volgen.</p>",
+  "full_text_fr": "Dans les agglomérations, tout conducteur qui suit la même direction qu'un autobus ou un trolleybus, doit permettre au conducteur de cet autobus ou de ce trolleybus de quitter son point d'arrêt lorsqu'il a indiqué, au moyen des feux indicateurs de direction, son intention de remettre son véhicule en mouvement. A cette fin, il doit ralentir et, au besoin, s'arrêter.\n\nDans ce cas, et par dérogation aux dispositions de l'article 12.4, les conducteurs des autobus et des trolleybus ne doivent pas céder le passage aux autres conducteurs qui suivent la même direction.",
+  "full_text_nl": "Binnen de bebouwde kommen moet elke bestuurder die dezelfde richting volgt als een autobus of een trolleybus, die autobus- of trolleybusbestuurder gelegenheid laten zijn halteplaats te verlaten wanneer hij met de richtingsaanwijzers zijn voornemen kenbaar heeft gemaakt zijn voertuig opnieuw in beweging te brengen. Daartoe moet hij vertragen en, zo nodig, stoppen.\n\nIn dat geval en in afwijking van de bepalingen van artikel 12.4., moeten de autobus- en de trolleybusbestuurders geen voorrang verlenen aan de andere bestuurders die dezelfde richting volgen.",
+  "full_text_ru": "В населенных пунктах любой водитель, следующий в том же направлении, что и автобус или троллейбус, должен пропустить его, когда он с помощью световых указателей поворота даст понять, что намерен снова привести свое транспортное средство в движение. Для этого он должен снизить скорость и, если необходимо, остановиться.\n\nВ этом случае, несмотря на положения [статьи 12.4] (#art-12.4), водители автобусов и троллейбусов не должны уступать дорогу другим водителям, следующим в том же направлении.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-12.4,"
+  ],
+  "anchor_id_fr": "hujdsldnvn",
+  "anchor_id_nl": "xgtnpozgzw",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "12a2d2b8380e",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

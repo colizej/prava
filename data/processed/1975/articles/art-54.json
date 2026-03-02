@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "54",
+  "slug": "art-54",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 54. Charrettes à bras",
+  "title_nl": "Artikel 54. Handkarren",
+  "title_ru": "Статья 54. Ручные тележки",
+  "content_md_fr": "Lorsqu'une charrette à bras ou son chargement ne laisse pas au conducteur une visibilité suffisante vers l'avant, le conducteur doit tirer son véhicule.",
+  "content_md_nl": "Wanneer een handkar of de lading hiervan niet voldoende zicht naar voren vrijlaat, moet de bestuurder zijn handkar trekken.",
+  "content_md_ru": "Если ручная тележка или ее груз не обеспечивают водителю достаточный обзор вперед, он должен остановить транспортное средство.",
+  "content_html_fr": "<p>Lorsqu'une charrette à bras ou son chargement ne laisse pas au conducteur une visibilité suffisante vers l'avant, le conducteur doit tirer son véhicule.</p>",
+  "content_html_nl": "<p>Wanneer een handkar of de lading hiervan niet voldoende zicht naar voren vrijlaat, moet de bestuurder zijn handkar trekken.</p>",
+  "full_text_fr": "Lorsqu'une charrette à bras ou son chargement ne laisse pas au conducteur une visibilité suffisante vers l'avant, le conducteur doit tirer son véhicule.",
+  "full_text_nl": "Wanneer een handkar of de lading hiervan niet voldoende zicht naar voren vrijlaat, moet de bestuurder zijn handkar trekken.",
+  "full_text_ru": "Если ручная тележка или ее груз не обеспечивают водителю достаточный обзор вперед, он должен остановить транспортное средство.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "b9qahakvru",
+  "anchor_id_nl": "1ca4k38q8v",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "ae09e8bbe8e6",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

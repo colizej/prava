@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "84",
+  "slug": "art-84",
+  "structure": {
+    "titre": "V",
+    "chapitre": null
+  },
+  "title_fr": "Article 84. Dispositions abrogatoires",
+  "title_nl": "Artikel 84. Opheffing",
+  "title_ru": "Статья 84. Положения об отмене",
+  "content_md_fr": "Est abrogé l'arrêté royal du 14 mars 1968, portant règlement général sur la police de la circulation routière, modifié et complété par les arrêtés royaux des 12 juin 1969, 15 septembre 1970, 18 et 29 juin 1971, 13 octobre 1971, 29 septembre 1972, 1er décembre 1972, 5 et 16 juillet 1973, 27 septembre 1973, 8 novembre 1973, 18 mars 1975, 13 mai 1975 et 11 juin 1975.",
+  "content_md_nl": "Wordt opgeheven het koninklijk besluit van 14 maart 1968, houdende algemeen reglement op de politie van het wegverkeer, gewijzigd en aangevuld door de koninklijke besluiten van 12 juni 1969, 15 september 1970, 18 en 29 juni 1971, 13 oktober 1971, 29 september 1972, 1 december 1972, 5 en 16 juli 1973, 27 september 1973, 8 november 1973, 18 maart 1975, 13 mei 1975 en 11 juni 1975.",
+  "content_md_ru": "Настоящим отменяется Королевский декрет от 14 марта 1968 года об общих правилах дорожного движения с изменениями и дополнениями, внесенными Королевскими декретами от 12 июня 1969 года, 15 сентября 1970 года, 18 и 29 июня 1971 года, 13 октября 1971 года, 29 сентября 1972 года, 1 декабря 1972 года, 5 и 16 июля 1973 года, 27 сентября 1973 года, 8 ноября 1973 года, 18 марта 1975 года, 13 мая 1975 года и 11 июня 1975 года.",
+  "content_html_fr": "<p>Est abrogé l'arrêté royal du 14 mars 1968, portant règlement général sur la police de la circulation routière, modifié et complété par les arrêtés royaux des 12 juin 1969, 15 septembre 1970, 18 et 29 juin 1971, 13 octobre 1971, 29 septembre 1972, 1<sup>er</sup> décembre 1972, 5 et 16 juillet 1973, 27 septembre 1973, 8 novembre 1973, 18 mars 1975, 13 mai 1975 et 11 juin 1975.</p>",
+  "content_html_nl": "<p>Wordt opgeheven het koninklijk besluit van 14 maart 1968, houdende algemeen reglement op de politie van het wegverkeer, gewijzigd en aangevuld door de koninklijke besluiten van 12 juni 1969, 15 september 1970, 18 en 29 juni 1971, 13 oktober 1971, 29 september 1972, 1 december 1972, 5 en 16 juli 1973, 27 september 1973, 8 november 1973, 18 maart 1975, 13 mei 1975 en 11 juni 1975.</p>",
+  "full_text_fr": "Est abrogé l'arrêté royal du 14 mars 1968, portant règlement général sur la police de la circulation routière, modifié et complété par les arrêtés royaux des 12 juin 1969, 15 septembre 1970, 18 et 29 juin 1971, 13 octobre 1971, 29 septembre 1972, 1er décembre 1972, 5 et 16 juillet 1973, 27 septembre 1973, 8 novembre 1973, 18 mars 1975, 13 mai 1975 et 11 juin 1975.",
+  "full_text_nl": "Wordt opgeheven het koninklijk besluit van 14 maart 1968, houdende algemeen reglement op de politie van het wegverkeer, gewijzigd en aangevuld door de koninklijke besluiten van 12 juni 1969, 15 september 1970, 18 en 29 juni 1971, 13 oktober 1971, 29 september 1972, 1 december 1972, 5 en 16 juli 1973, 27 september 1973, 8 november 1973, 18 maart 1975, 13 mei 1975 en 11 juni 1975.",
+  "full_text_ru": "Настоящим отменяется Королевский декрет от 14 марта 1968 года об общих правилах дорожного движения с изменениями и дополнениями, внесенными Королевскими декретами от 12 июня 1969 года, 15 сентября 1970 года, 18 и 29 июня 1971 года, 13 октября 1971 года, 29 сентября 1972 года, 1 декабря 1972 года, 5 и 16 июля 1973 года, 27 сентября 1973 года, 8 ноября 1973 года, 18 марта 1975 года, 13 мая 1975 года и 11 июня 1975 года.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "9opabbfx21",
+  "anchor_id_nl": "js786gymeg",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "776a3c36a78d",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

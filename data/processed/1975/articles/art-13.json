@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "13",
+  "slug": "art-13",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 13. Annonce d'une manœuvre",
+  "title_nl": "Artikel 13. Aankondiging van een manoeuvre",
+  "title_ru": "Статья 13. Объявление о маневре",
+  "content_md_fr": "Avant d'effectuer une manœuvre ou un mouvement nécessitant un déplacement latéral ou entraînant une modification de direction, le conducteur doit indiquer son intention suffisamment à temps au moyen des feux indicateurs de direction lorsque le véhicule en est pourvu ou, sinon, et si possible, par un geste du bras. Cette indication doit cesser dès que le déplacement latéral ou la modification de direction est accompli.",
+  "content_md_nl": "Alvorens een manoeuvre of een beweging uit te voeren die een zijdelingse verplaatsing vereist of een wijziging van richting veroorzaakt, moet de bestuurder zijn voornemen tijdig genoeg kenbaar maken met de richtingsaanwijzers wanneer het voertuig daarvan voorzien is of, zoniet en indien mogelijk, door een teken met de arm. Deze aanduiding moet ophouden zodra de zijdelingse verplaatsing of de wijziging van richting uitgevoerd is.",
+  "content_md_ru": "Перед выполнением маневра или движения, требующего бокового смещения или связанного с изменением направления, водитель должен заблаговременно сообщить о своем намерении с помощью указателей поворота, если они установлены на транспортном средстве, или, в противном случае, по возможности, жестом руки. Это указание должно быть прекращено сразу после завершения бокового движения или изменения направления.",
+  "content_html_fr": "<p>Avant d'effectuer une manœuvre ou un mouvement nécessitant un déplacement latéral ou entraînant une modification de direction, le conducteur doit indiquer son intention suffisamment à temps au moyen des feux indicateurs de direction lorsque le véhicule en est pourvu ou, sinon, et si possible, par un geste du bras. Cette indication doit cesser dès que le déplacement latéral ou la modification de direction est accompli.</p>",
+  "content_html_nl": "<p>Alvorens een manoeuvre of een beweging uit te voeren die een zijdelingse verplaatsing vereist of een wijziging van richting veroorzaakt, moet de bestuurder zijn voornemen tijdig genoeg kenbaar maken met de richtingsaanwijzers wanneer het voertuig daarvan voorzien is of, zoniet en indien mogelijk, door een teken met de arm. Deze aanduiding moet ophouden zodra de zijdelingse verplaatsing of de wijziging van richting uitgevoerd is.</p>",
+  "full_text_fr": "Avant d'effectuer une manœuvre ou un mouvement nécessitant un déplacement latéral ou entraînant une modification de direction, le conducteur doit indiquer son intention suffisamment à temps au moyen des feux indicateurs de direction lorsque le véhicule en est pourvu ou, sinon, et si possible, par un geste du bras. Cette indication doit cesser dès que le déplacement latéral ou la modification de direction est accompli.",
+  "full_text_nl": "Alvorens een manoeuvre of een beweging uit te voeren die een zijdelingse verplaatsing vereist of een wijziging van richting veroorzaakt, moet de bestuurder zijn voornemen tijdig genoeg kenbaar maken met de richtingsaanwijzers wanneer het voertuig daarvan voorzien is of, zoniet en indien mogelijk, door een teken met de arm. Deze aanduiding moet ophouden zodra de zijdelingse verplaatsing of de wijziging van richting uitgevoerd is.",
+  "full_text_ru": "Перед выполнением маневра или движения, требующего бокового смещения или связанного с изменением направления, водитель должен заблаговременно сообщить о своем намерении с помощью указателей поворота, если они установлены на транспортном средстве, или, в противном случае, по возможности, жестом руки. Это указание должно быть прекращено сразу после завершения бокового движения или изменения направления.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "4ptofkeiqv",
+  "anchor_id_nl": "22v6lra8tn",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "16509bcf0af8",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

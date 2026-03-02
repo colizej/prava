@@ -1,0 +1,56 @@
+{
+  "law_year": "1975",
+  "article_number": "50",
+  "slug": "art-50",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 50. Luttes de vitesse, épreuves sportives",
+  "title_nl": "Artikel 50. Snelheidswedstrijden, sportwedstrijden",
+  "title_ru": "Статья 50. Борьба на скорость, спортивные соревнования",
+  "content_md_fr": "Sauf autorisation spéciale de l'autorité légalement habilitée, il est interdit de se livrer sur la voie publique à des luttes de vitesse, ainsi qu'à des épreuves sportives, notamment des courses ou concours de vitesse, de régularité ou d'adresse.\n\n> ℹ️ Voir aussi l' AR du 28 novembre 1997 portant réglementation de l'organisation d'épreuves ou de compétitions sportives pour véhicules automobiles disputées en totalité ou en partie sur la voie publique.",
+  "content_md_nl": "Behoudens speciale toelating van de wettelijk gemachtigde overheid zijn verboden op de openbare weg, alle snelheids- en sportwedstrijden, inzonderheid snelheids-, regelmatigheids- of behendigheidsritten of -wedstrijden.\n\n> ℹ️ Zie ook het koninklijk besluit van 28 november 1997 houdende de reglementering van de organisatie van sportwedstrijden of sportcompetities voor auto's die geheel of gedeeltelijk op de openbare weg plaatshebben .",
+  "content_md_ru": "Запрещается, кроме как с особого разрешения уполномоченного органа, участвовать в скоростных поединках на дорогах общего пользования, а также в спортивных мероприятиях, в частности, в гонках или соревнованиях на скорость, регулярность или мастерство.\n\n> ℹ️ См. также Королевский указ от 28 ноября 1997 г., регулирующий организацию спортивных мероприятий или соревнований на автомобильном транспорте, проводимых полностью или частично на дорогах общего пользования.",
+  "content_html_fr": "<p>Sauf autorisation spéciale de l'autorité légalement habilitée, il est interdit de se livrer sur la voie publique à des luttes de vitesse, ainsi qu'à des épreuves sportives, notamment des courses ou concours de vitesse, de régularité ou d'adresse.</p><div class=\"notification notification-primary\">Voir aussi l'<a href=\"/fr/perma/bl98l8tz5u/regulation_regulation\">AR du 28 novembre 1997</a> portant réglementation de l'organisation d'épreuves ou de compétitions sportives pour véhicules automobiles disputées en totalité ou en partie sur la voie publique.</div>",
+  "content_html_nl": "<p>Behoudens speciale toelating van de wettelijk gemachtigde overheid zijn verboden op de openbare weg, alle snelheids- en sportwedstrijden, inzonderheid snelheids-, regelmatigheids- of behendigheidsritten of -wedstrijden.</p><div class=\"notification notification-primary\">Zie ook het <a href=\"/nl/perma/bl98l8tz5u/regulation_regulation\">koninklijk besluit van 28 november 1997 houdende de reglementering van de organisatie van sportwedstrijden of sportcompetities voor auto's die geheel of gedeeltelijk op de openbare weg plaatshebben</a>.</div>",
+  "full_text_fr": "Sauf autorisation spéciale de l'autorité légalement habilitée, il est interdit de se livrer sur la voie publique à des luttes de vitesse, ainsi qu'à des épreuves sportives, notamment des courses ou concours de vitesse, de régularité ou d'adresse.\n\n️ Voir aussi l' AR du 28 novembre 1997 portant réglementation de l'organisation d'épreuves ou de compétitions sportives pour véhicules automobiles disputées en totalité ou en partie sur la voie publique.",
+  "full_text_nl": "Behoudens speciale toelating van de wettelijk gemachtigde overheid zijn verboden op de openbare weg, alle snelheids- en sportwedstrijden, inzonderheid snelheids-, regelmatigheids- of behendigheidsritten of -wedstrijden.\n\n️ Zie ook het koninklijk besluit van 28 november 1997 houdende de reglementering van de organisatie van sportwedstrijden of sportcompetities voor auto's die geheel of gedeeltelijk op de openbare weg plaatshebben .",
+  "full_text_ru": "Запрещается, кроме как с особого разрешения уполномоченного органа, участвовать в скоростных поединках на дорогах общего пользования, а также в спортивных мероприятиях, в частности, в гонках или соревнованиях на скорость, регулярность или мастерство.\n\n️ См. также Королевский указ от 28 ноября 1997 г., регулирующий организацию спортивных мероприятий или соревнований на автомобильном транспорте, проводимых полностью или частично на дорогах общего пользования.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "Voir aussi l' AR du 28 novembre 1997 portant réglementation de l'organisation d'épreuves ou de compétitions sportives pour véhicules automobiles disputées en totalité ou en partie sur la voie publique."
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Zie ook het koninklijk besluit van 28 november 1997 houdende de reglementering van de organisatie van sportwedstrijden of sportcompetities voor auto's die geheel of gedeeltelijk op de openbare weg plaatshebben ."
+    }
+  ],
+  "notifications_ru": [
+    {
+      "type": "primary",
+      "text": "См. также Королевский указ от 28 ноября 1997 года, регулирующий организацию автоспортивных мероприятий или соревнований, проводимых полностью или частично на дорогах общего пользования."
+    }
+  ],
+  "cross_refs": [],
+  "anchor_id_fr": "ha2ik7vsgd",
+  "anchor_id_nl": "ojuyotyipp",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "3b4ca1f839c1",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

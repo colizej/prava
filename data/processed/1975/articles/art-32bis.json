@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "32bis",
+  "slug": "art-32bis",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 32bis. Emploi simultané de tous les indicateurs de direction",
+  "title_nl": "Artikel 32bis. Gelijktijdig gebruik van al de richtingsaanwijzers",
+  "title_ru": "Статья 32bis. Одновременное использование всех указателей поворота",
+  "content_md_fr": "Le dispositif permettant de faire fonctionner simultanément tous les indicateurs de direction d'un véhicule ne peut être utilisé que dans les cas prévus aux articles 39bis.2 et 51 ou pour signaler aux autres usagers de la route le risque d'un accident imminent.",
+  "content_md_nl": "De inrichting die toelaat al de richtingsaanwijzers van een voertuig gelijktijdig te laten werken, mag slechts gebruikt worden in de gevallen voorzien in artikelen 39bis.2 en 51 of om de andere weggebruikers te wijzen op een dreigend gevaar voor ongeval.",
+  "content_md_ru": "Устройство, позволяющее одновременно работать всем указателям поворота транспортного средства, может использоваться только в случаях, предусмотренных статьями 39bis.2 и 51, или для предупреждения других участников дорожного движения о риске неизбежного дорожно-транспортного происшествия.",
+  "content_html_fr": "<p>Le dispositif permettant de faire fonctionner simultanément tous les indicateurs de direction d'un véhicule ne peut être utilisé que dans les cas prévus aux articles 39bis.2 et 51 ou pour signaler aux autres usagers de la route le risque d'un accident imminent.</p>",
+  "content_html_nl": "<p>De inrichting die toelaat al de richtingsaanwijzers van een voertuig gelijktijdig te laten werken, mag slechts gebruikt worden in de gevallen voorzien in artikelen 39bis.2 en 51 of om de andere weggebruikers te wijzen op een dreigend gevaar voor ongeval.</p>",
+  "full_text_fr": "Le dispositif permettant de faire fonctionner simultanément tous les indicateurs de direction d'un véhicule ne peut être utilisé que dans les cas prévus aux articles 39bis.2 et 51 ou pour signaler aux autres usagers de la route le risque d'un accident imminent.",
+  "full_text_nl": "De inrichting die toelaat al de richtingsaanwijzers van een voertuig gelijktijdig te laten werken, mag slechts gebruikt worden in de gevallen voorzien in artikelen 39bis.2 en 51 of om de andere weggebruikers te wijzen op een dreigend gevaar voor ongeval.",
+  "full_text_ru": "Устройство, позволяющее одновременно работать всем указателям поворота транспортного средства, может использоваться только в случаях, предусмотренных статьями 39bis.2 и 51, или для предупреждения других участников дорожного движения о риске неизбежного дорожно-транспортного происшествия.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "9jvgikai9p",
+  "anchor_id_nl": "erl6ra993y",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "366c2c6b7c81",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

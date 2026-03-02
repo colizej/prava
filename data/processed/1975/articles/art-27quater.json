@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "27quater",
+  "slug": "art-27quater",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 27quater. Contrôle électronique",
+  "title_nl": "Artikel 27quater. Elektronische toezicht",
+  "title_ru": "Статья 27c. Электронный контроль",
+  "content_md_fr": "La commune peut remplacer l'utilisation de la carte communale de stationnement par un système de contrôle électronique basé sur le numéro d'immatriculation du véhicule. Dans ce cas, le règlement de stationnement particulier en matière de stationnement à durée limitée, de stationnement payant ou des emplacements de stationnement réservés est contrôlé sur la base de la plaque d'immatriculation du véhicule et aucune carte ne doit être apposée sur le pare-brise.",
+  "content_md_nl": "De gemeente kan het gebruik van de gemeentelijke parkeerkaart vervangen door een elektronisch toezichtsysteem op basis van het kenteken van het voertuig. In dat geval wordt de bijzondere parkeerregeling inzake beperkte parkeertijd, betalend parkeren of voorbehouden parkeerplaatsen gecontroleerd op basis van de kentekenplaat van het voertuig en hoeft er geen kaart op de voorruit te worden aangebracht.",
+  "content_md_ru": "Местные власти могут заменить муниципальную парковочную карту электронной системой контроля, основанной на регистрационном номере автомобиля. В этом случае конкретные правила парковки, касающиеся ограниченных по времени, платных или зарезервированных парковочных мест, проверяются по номерному знаку автомобиля, и карточку не нужно прикреплять к лобовому стеклу.",
+  "content_html_fr": "<p>La commune peut remplacer l'utilisation de la carte communale de stationnement par un système de contrôle électronique basé sur le numéro d'immatriculation du véhicule. Dans ce cas, le règlement de stationnement particulier en matière de stationnement à durée limitée, de stationnement payant ou des emplacements de stationnement réservés est contrôlé sur la base de la plaque d'immatriculation du véhicule et aucune carte ne doit être apposée sur le pare-brise.</p>",
+  "content_html_nl": "<p>De gemeente kan het gebruik van de gemeentelijke parkeerkaart vervangen door een elektronisch toezichtsysteem op basis van het kenteken van het voertuig. In dat geval wordt de bijzondere parkeerregeling inzake beperkte parkeertijd, betalend parkeren of voorbehouden parkeerplaatsen gecontroleerd op basis van de kentekenplaat van het voertuig en hoeft er geen kaart op de voorruit te worden aangebracht.</p>",
+  "full_text_fr": "La commune peut remplacer l'utilisation de la carte communale de stationnement par un système de contrôle électronique basé sur le numéro d'immatriculation du véhicule. Dans ce cas, le règlement de stationnement particulier en matière de stationnement à durée limitée, de stationnement payant ou des emplacements de stationnement réservés est contrôlé sur la base de la plaque d'immatriculation du véhicule et aucune carte ne doit être apposée sur le pare-brise.",
+  "full_text_nl": "De gemeente kan het gebruik van de gemeentelijke parkeerkaart vervangen door een elektronisch toezichtsysteem op basis van het kenteken van het voertuig. In dat geval wordt de bijzondere parkeerregeling inzake beperkte parkeertijd, betalend parkeren of voorbehouden parkeerplaatsen gecontroleerd op basis van de kentekenplaat van het voertuig en hoeft er geen kaart op de voorruit te worden aangebracht.",
+  "full_text_ru": "Местные власти могут заменить муниципальную парковочную карту электронной системой контроля, основанной на регистрационном номере автомобиля. В этом случае конкретные правила парковки, касающиеся ограниченных по времени, платных или зарезервированных парковочных мест, проверяются по номерному знаку автомобиля, и карточку не нужно прикреплять к лобовому стеклу.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "g8aykzmlzy",
+  "anchor_id_nl": "vflupyreqp",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "059c5eba5006",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

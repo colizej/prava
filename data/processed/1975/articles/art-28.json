@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "28",
+  "slug": "art-28",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 28. Ouverture des portières",
+  "title_nl": "Artikel 28. Openen van portieren",
+  "title_ru": "Статья 28. Открытие дверей",
+  "content_md_fr": "Il est interdit d'ouvrir la portière d'un véhicule, de la laisser ouverte, de descendre d'un véhicule ou d'y monter, sans s'être assuré qu'il ne peut en résulter ni danger ni gêne pour d'autres usagers de la route en particulier les piétons et les conducteurs de véhicules à deux roues.",
+  "content_md_nl": "Het is verboden het portier van een voertuig te openen of open te laten, in- of uit een voertuig te stappen, zonder zich ervan vergewist te hebben dat dit de andere weggebruikers niet in gevaar kan brengen of hinderen in het bijzonder voetgangers en bestuurders van tweewielers.",
+  "content_md_ru": "Запрещается открывать дверь транспортного средства, оставлять ее открытой, выходить из транспортного средства или садиться в транспортное средство, не убедившись, что это не создает опасности или помех другим участникам дорожного движения, в частности пешеходам и водителям двухколесных транспортных средств.",
+  "content_html_fr": "<p>Il est interdit d'ouvrir la portière d'un véhicule, de la laisser ouverte, de descendre d'un véhicule ou d'y monter, sans s'être assuré qu'il ne peut en résulter ni danger ni gêne pour d'autres usagers de la route en particulier les piétons et les conducteurs de véhicules à deux roues.</p>",
+  "content_html_nl": "<p>Het is verboden het portier van een voertuig te openen of open te laten, in- of uit een voertuig te stappen, zonder zich ervan vergewist te hebben dat dit de andere weggebruikers niet in gevaar kan brengen of hinderen in het bijzonder voetgangers en bestuurders van tweewielers.</p>",
+  "full_text_fr": "Il est interdit d'ouvrir la portière d'un véhicule, de la laisser ouverte, de descendre d'un véhicule ou d'y monter, sans s'être assuré qu'il ne peut en résulter ni danger ni gêne pour d'autres usagers de la route en particulier les piétons et les conducteurs de véhicules à deux roues.",
+  "full_text_nl": "Het is verboden het portier van een voertuig te openen of open te laten, in- of uit een voertuig te stappen, zonder zich ervan vergewist te hebben dat dit de andere weggebruikers niet in gevaar kan brengen of hinderen in het bijzonder voetgangers en bestuurders van tweewielers.",
+  "full_text_ru": "Запрещается открывать дверь транспортного средства, оставлять ее открытой, выходить из транспортного средства или садиться в транспортное средство, не убедившись, что это не создает опасности или помех другим участникам дорожного движения, в частности пешеходам и водителям двухколесных транспортных средств.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ymtvv8axvw",
+  "anchor_id_nl": "c1stjq0s38",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "152a311a96cd",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

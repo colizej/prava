@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "34bis",
+  "slug": "art-34bis",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 34bis. Usage des dispositifs aérodynamiques",
+  "title_nl": "Artikel 34bis. Gebruik van aerodynamische voorzieningen",
+  "title_ru": "Статья 34bis. Использование аэродинамических устройств",
+  "content_md_fr": "Il est interdit d’utiliser d’autres dispositifs aérodynamiques que ceux qui sont prescrits ou prévus par le règlement technique des véhicules automobiles.\n\nCes dispositifs ne peuvent être utilisés que sur les autoroutes et les routes pour automobiles.\n\nEn cas de risque pour la sécurité d’autres usagers de la route ou du conducteur, ils sont repliés, rétractés ou enlevés par le conducteur.",
+  "content_md_nl": "Het is verboden andere aerodynamische voorzieningen te gebruiken dan die welke in het technisch reglement van de auto’s voorgeschreven of voorzien zijn.\n\nDeze voorzieningen mogen enkel op de autosnelwegen en de autowegen gebruikt worden.\n\nIn omstandigheden waarin de veiligheid van andere weggebruikers of van de bestuurder in gevaar is, worden deze door de bestuurder ingeklapt, ingetrokken of verwijderd.",
+  "content_md_ru": "Запрещается использовать аэродинамические устройства, кроме тех, которые предписаны или предусмотрены техническим регламентом для автомобилей.\n\nЭти устройства можно использовать только на автомагистралях и автомобильных дорогах.\n\nЕсли существует опасность для безопасности других участников дорожного движения или водителя, они должны быть сложены, убраны или убраны водителем.",
+  "content_html_fr": "<p>Il est interdit d’utiliser d’autres dispositifs aérodynamiques que ceux qui sont prescrits ou prévus par le règlement technique des véhicules automobiles.</p><p>Ces dispositifs ne peuvent être utilisés que sur les autoroutes et les routes pour automobiles.</p><p>En cas de risque pour la sécurité d’autres usagers de la route ou du conducteur, ils sont repliés, rétractés ou enlevés par le conducteur.</p>",
+  "content_html_nl": "<p>Het is verboden andere aerodynamische voorzieningen te gebruiken dan die welke in het technisch reglement van de auto’s voorgeschreven of voorzien zijn.</p><p>Deze voorzieningen mogen enkel op de autosnelwegen en de autowegen gebruikt worden.</p><p>In omstandigheden waarin de veiligheid van andere weggebruikers of van de bestuurder in gevaar is, worden deze door de bestuurder ingeklapt, ingetrokken of verwijderd.</p>",
+  "full_text_fr": "Il est interdit d’utiliser d’autres dispositifs aérodynamiques que ceux qui sont prescrits ou prévus par le règlement technique des véhicules automobiles.\n\nCes dispositifs ne peuvent être utilisés que sur les autoroutes et les routes pour automobiles.\n\nEn cas de risque pour la sécurité d’autres usagers de la route ou du conducteur, ils sont repliés, rétractés ou enlevés par le conducteur.",
+  "full_text_nl": "Het is verboden andere aerodynamische voorzieningen te gebruiken dan die welke in het technisch reglement van de auto’s voorgeschreven of voorzien zijn.\n\nDeze voorzieningen mogen enkel op de autosnelwegen en de autowegen gebruikt worden.\n\nIn omstandigheden waarin de veiligheid van andere weggebruikers of van de bestuurder in gevaar is, worden deze door de bestuurder ingeklapt, ingetrokken of verwijderd.",
+  "full_text_ru": "Запрещается использовать аэродинамические устройства, кроме тех, которые предписаны или предусмотрены техническим регламентом для автомобилей.\n\nЭти устройства можно использовать только на автомагистралях и автомобильных дорогах.\n\nЕсли существует опасность для безопасности других участников дорожного движения или водителя, они должны быть сложены, убраны или убраны водителем.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "t7fkzvhxcw",
+  "anchor_id_nl": "v0815ttvhq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "69636344e58a",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

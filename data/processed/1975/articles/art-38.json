@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "38",
+  "slug": "art-38",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 38. Comportement à l'égard des vehicules prioritaires faisant usage de l'avertisseur sonore spécial",
+  "title_nl": "Artikel 38. Gedrag tegenover prioritaire voertuigen die het speciaal geluidstoestel gebruiken",
+  "title_ru": "Статья 38. Поведение по отношению к приоритетным транспортным средствам, использующим специальный звуковой сигнал",
+  "content_md_fr": "Dès que l'approche d'un véhicule prioritaire est signalée par l'avertisseur sonore spécial, tout usager doit immédiatement dégager et céder le passage; au besoin, il doit s'arrêter.",
+  "content_md_nl": "Zodra het speciaal geluidstoestel het naderen van een prioritair voertuig aankondigt, moet elke weggebruiker onmiddellijk de doorgang vrijmaken en voorrang verlenen; zo nodig moet hij stoppen.",
+  "content_md_ru": "Как только о приближении приоритетного транспортного средства сообщит специальный звуковой сигнал, все участники движения должны немедленно уступить дорогу и переместиться; при необходимости они должны остановиться.",
+  "content_html_fr": "<p>Dès que l'approche d'un véhicule prioritaire est signalée par l'avertisseur sonore spécial, tout usager doit immédiatement dégager et céder le passage; au besoin, il doit s'arrêter.</p>",
+  "content_html_nl": "<p>Zodra het speciaal geluidstoestel het naderen van een prioritair voertuig aankondigt, moet elke weggebruiker onmiddellijk de doorgang vrijmaken en voorrang verlenen; zo nodig moet hij stoppen.</p>",
+  "full_text_fr": "Dès que l'approche d'un véhicule prioritaire est signalée par l'avertisseur sonore spécial, tout usager doit immédiatement dégager et céder le passage; au besoin, il doit s'arrêter.",
+  "full_text_nl": "Zodra het speciaal geluidstoestel het naderen van een prioritair voertuig aankondigt, moet elke weggebruiker onmiddellijk de doorgang vrijmaken en voorrang verlenen; zo nodig moet hij stoppen.",
+  "full_text_ru": "Как только о приближении приоритетного транспортного средства сообщит специальный звуковой сигнал, все участники движения должны немедленно уступить дорогу и переместиться; при необходимости они должны остановиться.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "hraq64qavl",
+  "anchor_id_nl": "hyhazhae8u",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "e7f7aca60f16",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

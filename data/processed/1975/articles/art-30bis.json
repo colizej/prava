@@ -1,0 +1,43 @@
+{
+  "law_year": "1975",
+  "article_number": "30bis",
+  "slug": "art-30bis",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 30bis. Emploi des feux: cyclomoteurs et motocyclettes circulant sur la voie publique - règle particulière",
+  "title_nl": "Artikel 30bis. Gebruik van de lichten : bromfietsen en motorfietsen die op de openbare weg rijden - bijzondere regel",
+  "title_ru": "Статья 30bis. Использование световых приборов: мопеды и мотоциклы на дорогах общего пользования - специальное правило",
+  "content_md_fr": "En dehors des circonstances visées à [l'article 30,](#art-30,) le feu de croisement et le feu rouge arrière des cyclomoteurs à deux roues et des motocyclettes doivent être utilisés en permanence. Le feu de route ne peut alors être utilisé.",
+  "content_md_nl": "Buiten de omstandigheden bedoeld in [artikel 30](#art-30), moeten het dimlicht en het rode achterlicht van de tweewielige bromfietsen en van de motorfietsen bestendig gebruikt worden. Het grootlicht mag dan niet gebruikt worden.",
+  "content_md_ru": "За исключением случаев, указанных в [статье 30] (#art-30), на двухколесных мопедах и мотоциклах должны постоянно использоваться фара ближнего света и задний красный фонарь. Дальний свет при этом не должен использоваться.",
+  "content_html_fr": "<p>En dehors des circonstances visées à <a href=\"#art-30,\">l'article 30,</a> le feu de croisement et le feu rouge arrière des cyclomoteurs à deux roues et des motocyclettes doivent être utilisés en permanence. Le feu de route ne peut alors être utilisé.</p>",
+  "content_html_nl": "<p>Buiten de omstandigheden bedoeld in <a href=\"#art-30\">artikel 30</a>, moeten het dimlicht en het rode achterlicht van de tweewielige bromfietsen en van de motorfietsen bestendig gebruikt worden. Het grootlicht mag dan niet gebruikt worden.</p>",
+  "full_text_fr": "En dehors des circonstances visées à l'article 30, le feu de croisement et le feu rouge arrière des cyclomoteurs à deux roues et des motocyclettes doivent être utilisés en permanence. Le feu de route ne peut alors être utilisé.",
+  "full_text_nl": "Buiten de omstandigheden bedoeld in artikel 30, moeten het dimlicht en het rode achterlicht van de tweewielige bromfietsen en van de motorfietsen bestendig gebruikt worden. Het grootlicht mag dan niet gebruikt worden.",
+  "full_text_ru": "За исключением случаев, указанных в [статье 30] (#art-30), на двухколесных мопедах и мотоциклах должны постоянно использоваться фара ближнего света и задний красный фонарь. Дальний свет при этом не должен использоваться.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-30,"
+  ],
+  "anchor_id_fr": "iruq8skkjr",
+  "anchor_id_nl": "nj4bxb4yug",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "0990762ffa11",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

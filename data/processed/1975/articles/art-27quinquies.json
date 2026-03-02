@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "27quinquies",
+  "slug": "art-27quinquies",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 27quinquies. Usage d'un sabot",
+  "title_nl": "Artikel 27quinquies. Gebruik van een wielklem",
+  "title_ru": "Статья 27quinquies. Использование копыта",
+  "content_md_fr": "En cas d'infraction aux dispositions des articles 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter et 27quater, il peut être fait usage d'un sabot destiné à immobiliser le véhicule.",
+  "content_md_nl": "Bij overtreding van de bepalingen van de artikelen 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter en 27quater, kan het voertuig met een wielklem worden geïmmobiliseerd.",
+  "content_md_ru": "В случае нарушения положений статей 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter и 27quater для обездвиживания автомобиля может быть использован багажник.",
+  "content_html_fr": "<p>En cas d'infraction aux dispositions des articles 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter et 27quater, il peut être fait usage d'un sabot destiné à immobiliser le véhicule.</p>",
+  "content_html_nl": "<p>Bij overtreding van de bepalingen van de artikelen 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter en 27quater, kan het voertuig met een wielklem worden geïmmobiliseerd.</p>",
+  "full_text_fr": "En cas d'infraction aux dispositions des articles 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter et 27quater, il peut être fait usage d'un sabot destiné à immobiliser le véhicule.",
+  "full_text_nl": "Bij overtreding van de bepalingen van de artikelen 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter en 27quater, kan het voertuig met een wielklem worden geïmmobiliseerd.",
+  "full_text_ru": "В случае нарушения положений статей 27.1.1, 27.1.2, 27.1.4, 27.2, 27.3, 27ter и 27quater для обездвиживания автомобиля может быть использован багажник.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ix2hiritb6",
+  "anchor_id_nl": "vngtmp46ry",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "a2c7ef91879e",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

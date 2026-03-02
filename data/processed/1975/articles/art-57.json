@@ -1,0 +1,56 @@
+{
+  "law_year": "1975",
+  "article_number": "57",
+  "slug": "art-57",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 57. Circulation dans les zones portuaires et aéroportuaires",
+  "title_nl": "Artikel 57. Verkeer binnen de haven- en luchthavengebieden",
+  "title_ru": "Статья 57. Движение в портовых и аэропортовых зонах",
+  "content_md_fr": "> ℹ️ En ce qui concerne la Région wallonne, l’article 57 est abrogé et remplacé par le décret du 19 décembre 2007 relatif à la tutelle d'approbation de la Région wallonne sur les règlements complémentaires relatifs aux voies publiques et à la circulation des transports en commun .\n\nLes dispositions du présent règlement général ne peuvent pas s’appliquer ou être modifiées pour le trafic entre les quais d’embarquement et de débarquement, les dépôts, les hangars et les magasins établis dans les zones portuaires et aéroportuaires.",
+  "content_md_nl": "> ℹ️ Voor wat betreft het Waals Gewest, wordt artikel 57 opgeheven en vervangen door het decreet van 19 december 2007 betreffende het goedkeuringstoezicht van het Waalse Gewest op de aanvullende reglementen op de openbare wegen en op het verkeer van de gemeenschappelijke vervoermiddelen .\n\nDe bepalingen van dit algemeen reglement kunnen niet van toepassing zijn of gewijzigd zijn voor het verkeer tussen de laad- en loskaaien, de opslagplaatsen, de hangars en de magazijnen gelegen binnen de haven- en luchthavengebieden.",
+  "content_md_ru": "> ℹ️ В отношении Валлонского региона статья 57 отменяется и заменяется Декретом от 19 декабря 2007 года о надзоре и утверждении Валлонским регионом дополнительных правил, касающихся дорог общего пользования и движения общественного транспорта.\n\nПоложения настоящего общего положения не могут применяться или изменяться в отношении движения между причалами для посадки и высадки, складами, ангарами и хранилищами, установленными в портах и аэропортах.",
+  "content_html_fr": "<div class=\"notification notification-primary\">En ce qui concerne la Région wallonne, l’article 57 est abrogé et remplacé par le <a href=\"/fr/perma/e9bwxpzvgr/regulation_regulation\">décret du 19 décembre 2007 relatif à la tutelle d'approbation de la Région wallonne sur les règlements complémentaires relatifs aux voies publiques et à la circulation des transports en commun</a>.</div><p>Les dispositions du présent règlement général ne peuvent pas s’appliquer ou être modifiées pour le trafic entre les quais d’embarquement et de débarquement, les dépôts, les hangars et les magasins établis dans les zones portuaires et aéroportuaires.</p>",
+  "content_html_nl": "<div class=\"notification notification-primary\">Voor wat betreft het Waals Gewest, wordt artikel 57 opgeheven en vervangen door het <a href=\"/nl/perma/e9bwxpzvgr/regulation_regulation\">decreet van 19 december 2007 betreffende het goedkeuringstoezicht van het Waalse Gewest op de aanvullende reglementen op de openbare wegen en op het verkeer van de gemeenschappelijke vervoermiddelen</a>.</div><p>De bepalingen van dit algemeen reglement kunnen niet van toepassing zijn of gewijzigd zijn voor het verkeer tussen de laad- en loskaaien, de opslagplaatsen, de hangars en de magazijnen gelegen binnen de haven- en luchthavengebieden.</p>",
+  "full_text_fr": "️ En ce qui concerne la Région wallonne, l’article 57 est abrogé et remplacé par le décret du 19 décembre 2007 relatif à la tutelle d'approbation de la Région wallonne sur les règlements complémentaires relatifs aux voies publiques et à la circulation des transports en commun .\n\nLes dispositions du présent règlement général ne peuvent pas s’appliquer ou être modifiées pour le trafic entre les quais d’embarquement et de débarquement, les dépôts, les hangars et les magasins établis dans les zones portuaires et aéroportuaires.",
+  "full_text_nl": "️ Voor wat betreft het Waals Gewest, wordt artikel 57 opgeheven en vervangen door het decreet van 19 december 2007 betreffende het goedkeuringstoezicht van het Waalse Gewest op de aanvullende reglementen op de openbare wegen en op het verkeer van de gemeenschappelijke vervoermiddelen .\n\nDe bepalingen van dit algemeen reglement kunnen niet van toepassing zijn of gewijzigd zijn voor het verkeer tussen de laad- en loskaaien, de opslagplaatsen, de hangars en de magazijnen gelegen binnen de haven- en luchthavengebieden.",
+  "full_text_ru": "️ В отношении Валлонского региона статья 57 отменяется и заменяется Декретом от 19 декабря 2007 года о надзоре и утверждении Валлонским регионом дополнительных правил, касающихся дорог общего пользования и движения общественного транспорта.\n\nПоложения настоящего общего положения не могут применяться или изменяться в отношении движения между причалами для посадки и высадки, складами, ангарами и хранилищами, установленными в портах и аэропортах.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "En ce qui concerne la Région wallonne, l’article 57 est abrogé et remplacé par le décret du 19 décembre 2007 relatif à la tutelle d'approbation de la Région wallonne sur les règlements complémentaires relatifs aux voies publiques et à la circulation des transports en commun ."
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Voor wat betreft het Waals Gewest, wordt artikel 57 opgeheven en vervangen door het decreet van 19 december 2007 betreffende het goedkeuringstoezicht van het Waalse Gewest op de aanvullende reglementen op de openbare wegen en op het verkeer van de gemeenschappelijke vervoermiddelen ."
+    }
+  ],
+  "notifications_ru": [
+    {
+      "type": "primary",
+      "text": "Что касается Валлонского региона, то статья 57 отменяется и заменяется Декретом от 19 декабря 2007 года о контроле и утверждении Валлонским регионом дополнительных правил, касающихся дорог общего пользования и движения общественного транспорта."
+    }
+  ],
+  "cross_refs": [],
+  "anchor_id_fr": "omdrusfanb",
+  "anchor_id_nl": "o2hygsawob",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "6591af56fd38",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

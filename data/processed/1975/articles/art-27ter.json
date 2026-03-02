@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "27ter",
+  "slug": "art-27ter",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 27ter. Places de stationnement réservées",
+  "title_nl": "Artikel 27ter. Voorbehouden parkeerplaatsen",
+  "title_ru": "Статья 27ter. Зарезервированные парковочные места",
+  "content_md_fr": "Les places de stationnement signalées conformément à l'article 70.2.1.3°d), ainsi que dans une zone résidentielle où la lettre \"P\" et les mots \"carte de stationnement\", \"riverains\" ou \"voitures partagées\" sont apposés, sont réservées aux véhicules sur lesquels est apposée respectivement la carte communale de stationnement, la carte de riverain ou la carte de stationnement pour voitures partagées à l'intérieur du pare-brise, ou, s'il n'y a pas de pare-brise, sur la partie avant du véhicule, de manière visible et lisible.",
+  "content_md_nl": "Parkeerplaatsen gesignaleerd overeenkomstig artikel 70.2.1.3°d), alsmede in een woonerf, waar de letter « P » en het woord « parkeerkaart », « bewoners » of « autodelen » zijn aangebracht, zijn voorbehouden voor de voertuigen waarop op de binnenkant van de voorruit of, als er geen voorruit is, op het voorste gedeelte van het voertuig, respectievelijk de gemeentelijke parkeerkaart, de bewonerskaart of de parkeerkaart voor autodelen duidelijk leesbaar en zichtbaar is aangebracht.",
+  "content_md_ru": "Парковочные места, обозначенные в соответствии со статьей 70.2.1.3°d), а также в жилой зоне, где нанесены буква \"P\" и слова \"carte de stationnement\", \"riverains\" или \"voitures partagées\", предназначены для транспортных средств, на которых \"carte communale de stationnement\", \"carte de riverain\" или \"carte de stationnement pour voitures partagées\" прикреплены на внутренней стороне ветрового стекла или, если ветрового стекла нет, на передней части транспортного средства, видимым и разборчивым образом.",
+  "content_html_fr": "<p>Les places de stationnement signalées conformément à l'article 70.2.1.3°d), ainsi que dans une zone résidentielle où la lettre \"P\" et les mots \"carte de stationnement\", \"riverains\" ou \"voitures partagées\" sont apposés, sont réservées aux véhicules sur lesquels est apposée respectivement la carte communale de stationnement, la carte de riverain ou la carte de stationnement pour voitures partagées à l'intérieur du pare-brise, ou, s'il n'y a pas de pare-brise, sur la partie avant du véhicule, de manière visible et lisible.</p>",
+  "content_html_nl": "<p>Parkeerplaatsen gesignaleerd overeenkomstig artikel 70.2.1.3°d), alsmede in een woonerf, waar de letter « P » en het woord « parkeerkaart », « bewoners » of « autodelen » zijn aangebracht, zijn voorbehouden voor de voertuigen waarop op de binnenkant van de voorruit of, als er geen voorruit is, op het voorste gedeelte van het voertuig, respectievelijk de gemeentelijke parkeerkaart, de bewonerskaart of de parkeerkaart voor autodelen duidelijk leesbaar en zichtbaar is aangebracht.</p>",
+  "full_text_fr": "Les places de stationnement signalées conformément à l'article 70.2.1.3°d), ainsi que dans une zone résidentielle où la lettre \"P\" et les mots \"carte de stationnement\", \"riverains\" ou \"voitures partagées\" sont apposés, sont réservées aux véhicules sur lesquels est apposée respectivement la carte communale de stationnement, la carte de riverain ou la carte de stationnement pour voitures partagées à l'intérieur du pare-brise, ou, s'il n'y a pas de pare-brise, sur la partie avant du véhicule, de manière visible et lisible.",
+  "full_text_nl": "Parkeerplaatsen gesignaleerd overeenkomstig artikel 70.2.1.3°d), alsmede in een woonerf, waar de letter « P » en het woord « parkeerkaart », « bewoners » of « autodelen » zijn aangebracht, zijn voorbehouden voor de voertuigen waarop op de binnenkant van de voorruit of, als er geen voorruit is, op het voorste gedeelte van het voertuig, respectievelijk de gemeentelijke parkeerkaart, de bewonerskaart of de parkeerkaart voor autodelen duidelijk leesbaar en zichtbaar is aangebracht.",
+  "full_text_ru": "Парковочные места, обозначенные в соответствии со статьей 70.2.1.3°d), а также в жилой зоне, где нанесены буква \"P\" и слова \"carte de stationnement\", \"riverains\" или \"voitures partagées\", предназначены для транспортных средств, на которых \"carte communale de stationnement\", \"carte de riverain\" или \"carte de stationnement pour voitures partagées\" прикреплены на внутренней стороне ветрового стекла или, если ветрового стекла нет, на передней части транспортного средства, видимым и разборчивым образом.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ql8lahbxqd",
+  "anchor_id_nl": "xrvst4swng",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "5fbab594e016",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "law_year": "1975",
+  "article_number": "1",
+  "slug": "art-1",
+  "structure": {
+    "titre": "I",
+    "chapitre": null
+  },
+  "title_fr": "Article 1. Champ d'application",
+  "title_nl": "Artikel 1. Toepassingsgebied",
+  "title_ru": "Статья 1. Сфера применения",
+  "content_md_fr": "Le présent règlement régit la circulation sur de la voie publique et l'usage de celle-ci, par les piétons, les véhicules, ainsi que les animaux de trait, de charge ou de monture et les bestiaux.\n\n> ℹ️ Les mots « sur de la » doivent être lus comme « sur la ».\n\nLes véhicules sur rails empruntant la voie publique ne tombent pas sous l'application du présent règlement.",
+  "content_md_nl": "Dit reglement geldt voor het verkeer op de openbare weg en het gebruik ervan, door voetgangers, voertuigen, trek-, last- of rijdieren en vee.\n\nSpoorvoertuigen die van de openbare weg gebruik maken, vallen niet onder de toepassing van dit reglement.",
+  "content_md_ru": "Эти правила регулируют движение по дорогам общего пользования и их использование пешеходами, транспортными средствами, тягловыми и вьючными животными, а также домашним скотом.\n\n> ℹ️ Слова \"sur de la\" следует читать как \"sur la\".\n\nТранспортные средства на рельсах, использующие общественное шоссе, не подпадают под действие данного подзаконного акта.",
+  "content_html_fr": "<p>Le présent règlement régit la circulation sur de la voie publique et l'usage de celle-ci, par les piétons, les véhicules, ainsi que les animaux de trait, de charge ou de monture et les bestiaux.</p><div class=\"notification notification-primary\">Les mots « sur de la » doivent être lus comme « sur la ».</div><p>Les véhicules sur rails empruntant la voie publique ne tombent pas sous l'application du présent règlement.</p>",
+  "content_html_nl": "<p>Dit reglement geldt voor het verkeer op de openbare weg en het gebruik ervan, door voetgangers, voertuigen, trek-, last- of rijdieren en vee.</p><p>Spoorvoertuigen die van de openbare weg gebruik maken, vallen niet onder de toepassing van dit reglement.</p>",
+  "full_text_fr": "Le présent règlement régit la circulation sur de la voie publique et l'usage de celle-ci, par les piétons, les véhicules, ainsi que les animaux de trait, de charge ou de monture et les bestiaux.\n\n️ Les mots « sur de la » doivent être lus comme « sur la ».\n\nLes véhicules sur rails empruntant la voie publique ne tombent pas sous l'application du présent règlement.",
+  "full_text_nl": "Dit reglement geldt voor het verkeer op de openbare weg en het gebruik ervan, door voetgangers, voertuigen, trek-, last- of rijdieren en vee.\n\nSpoorvoertuigen die van de openbare weg gebruik maken, vallen niet onder de toepassing van dit reglement.",
+  "full_text_ru": "Эти правила регулируют движение по дорогам общего пользования и их использование пешеходами, транспортными средствами, тягловыми и вьючными животными, а также домашним скотом.\n\n️ Слова \"sur de la\" следует читать как \"sur la\".\n\nТранспортные средства на рельсах, использующие общественное шоссе, не подпадают под действие данного подзаконного акта.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "Les mots « sur de la » doivent être lus comme « sur la »."
+    }
+  ],
+  "notifications_nl": [],
+  "notifications_ru": [
+    {
+      "type": "primary",
+      "text": "Слова \"sur de la\" следует читать как \"sur la\"."
+    }
+  ],
+  "cross_refs": [],
+  "anchor_id_fr": "rgppxd5uxd",
+  "anchor_id_nl": "2nh1etdujl",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "cd0443c14e38",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

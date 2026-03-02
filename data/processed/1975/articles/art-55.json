@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "55",
+  "slug": "art-55",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 55. Animaux",
+  "title_nl": "Artikel 55. Dieren",
+  "title_ru": "Статья 55. Животные",
+  "content_md_fr": "**55.1. **Le conducteur d'animaux de trait, de charge ou de monture, ainsi que de bestiaux doit, le cas échéant, être assisté de convoyeurs en nombre suffisant.\n\n**55.2.** Le conducteur et les convoyeurs doivent constamment se tenir à proximité des animaux et être en état de les maîtriser et d'empêcher qu'ils n'entravent la circulation et ne provoquent d'accident.\n\n**55.3.** Dans les agglomérations, il est interdit de laisser galoper les animaux attelés ou montés.\n\n**55.4. **Les cavaliers qui empruntent la chaussée peuvent circuler à deux de front.****",
+  "content_md_nl": "**55.1.** De bestuurder van trek-, last- of rijdieren en van vee moet, in voorkomend geval, door een voldoend aantal begeleiders bijgestaan worden.\n\n**55.2.** De bestuurders en de begeleiders moeten voortdurend in de nabijheid van de dieren blijven, ze kunnen in bedwang houden en kunnen beletten dat zij het verkeer belemmeren en ongevallen veroorzaken.\n\n**55.3.** Binnen de bebouwde kommen is het verboden de ingespannen of de bereden dieren te laten galopperen.\n\n**55.4.** De ruiters die de rijbaan volgen, mogen met tweeën naast elkaar rijden.",
+  "content_md_ru": "**55.1. **Водитель тягловых животных, грузов или маунтов, а также домашнего скота должен, при необходимости, пользоваться помощью достаточного количества сопровождающих.\n\n**55.2 Водитель и сопровождающие должны постоянно находиться рядом с животными и быть в состоянии контролировать их и не допускать, чтобы они мешали движению и вызывали аварии.\n\n**55.3 В населенных пунктах запрещается пускать запряженных или конных животных в галоп.\n\n**55.4. Всадники, пользующиеся проезжей частью, могут ехать по двое в ряд. ****",
+  "content_html_fr": "<p><strong>55.1. </strong>Le conducteur d'animaux de trait, de charge ou de monture, ainsi que de bestiaux doit, le cas échéant, être assisté de convoyeurs en nombre suffisant.</p><p><strong>55.2.</strong> Le conducteur et les convoyeurs doivent constamment se tenir à proximité des animaux et être en état de les maîtriser et d'empêcher qu'ils n'entravent la circulation et ne provoquent d'accident.</p><p><strong>55.3.</strong> Dans les agglomérations, il est interdit de laisser galoper les animaux attelés ou montés.</p><p><strong>55.4. </strong>Les cavaliers qui empruntent la chaussée peuvent circuler à deux de front.<strong><br/></strong></p>",
+  "content_html_nl": "<p><strong>55.1.</strong> De bestuurder van trek-, last- of rijdieren en van vee moet, in voorkomend geval, door een voldoend aantal begeleiders bijgestaan worden.</p><p><strong>55.2.</strong> De bestuurders en de begeleiders moeten voortdurend in de nabijheid van de dieren blijven, ze kunnen in bedwang houden en kunnen beletten dat zij het verkeer belemmeren en ongevallen veroorzaken.</p><p><strong>55.3.</strong> Binnen de bebouwde kommen is het verboden de ingespannen of de bereden dieren te laten galopperen.</p><p><strong>55.4.</strong> De ruiters die de rijbaan volgen, mogen met tweeën naast elkaar rijden.</p>",
+  "full_text_fr": "55.1. Le conducteur d'animaux de trait, de charge ou de monture, ainsi que de bestiaux doit, le cas échéant, être assisté de convoyeurs en nombre suffisant.\n\n55.2. Le conducteur et les convoyeurs doivent constamment se tenir à proximité des animaux et être en état de les maîtriser et d'empêcher qu'ils n'entravent la circulation et ne provoquent d'accident.\n\n55.3. Dans les agglomérations, il est interdit de laisser galoper les animaux attelés ou montés.\n\n55.4. Les cavaliers qui empruntent la chaussée peuvent circuler à deux de front.",
+  "full_text_nl": "55.1. De bestuurder van trek-, last- of rijdieren en van vee moet, in voorkomend geval, door een voldoend aantal begeleiders bijgestaan worden.\n\n55.2. De bestuurders en de begeleiders moeten voortdurend in de nabijheid van de dieren blijven, ze kunnen in bedwang houden en kunnen beletten dat zij het verkeer belemmeren en ongevallen veroorzaken.\n\n55.3. Binnen de bebouwde kommen is het verboden de ingespannen of de bereden dieren te laten galopperen.\n\n55.4. De ruiters die de rijbaan volgen, mogen met tweeën naast elkaar rijden.",
+  "full_text_ru": "55.1. Водитель тягловых животных, грузов или маунтов, а также домашнего скота должен, при необходимости, пользоваться помощью достаточного количества сопровождающих.\n\n55.2 Водитель и сопровождающие должны постоянно находиться рядом с животными и быть в состоянии контролировать их и не допускать, чтобы они мешали движению и вызывали аварии.\n\n55.3 В населенных пунктах запрещается пускать запряженных или конных животных в галоп.\n\n55.4. Всадники, пользующиеся проезжей частью, могут ехать по двое в ряд.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "fyzfygp2y7",
+  "anchor_id_nl": "gfvqglunut",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "9cdad0600ff0",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

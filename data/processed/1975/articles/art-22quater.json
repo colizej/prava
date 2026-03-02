@@ -1,0 +1,52 @@
+{
+  "law_year": "1975",
+  "article_number": "22quater",
+  "slug": "art-22quater",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 22quater. Zones dans lesquelles la vitesse est limitée à 30 km à l'heure",
+  "title_nl": "Artikel 22quater. Zones met een snelheidsbeperking van 30 km/u",
+  "title_ru": "Статья 22c. Зоны, в которых ограничение скорости составляет 30 км в час",
+  "content_md_fr": "Dans les zones délimitées par les signaux routiers F4a et F4b, la vitesse est limitée à 30 km à l'heure.\n\n![sign](/media/image/orig/c5e17f6b95f150e9580d468e2d218a114fe8f61e.png) F4a ![sign](/media/image/orig/d060d7a1fea86221849be5fcdda717cd7889f876.png) F4b",
+  "content_md_nl": "Binnen de zones afgebakend door de verkeersborden F4a en F4b is de snelheid beperkt tot 30 km per uur.\n\n![sign](/media/image/orig/c5e17f6b95f150e9580d468e2d218a114fe8f61e.png) F4a ![sign](/media/image/orig/d060d7a1fea86221849be5fcdda717cd7889f876.png) F4b",
+  "content_md_ru": "На участках, обозначенных дорожными знаками F4a и F4b, ограничение скорости составляет 30 км в час.\n\n![sign](/media/image/orig/c5e17f6b95f150e9580d468e2d218a114fe8f61e.png) F4a ![sign](/media/image/orig/d060d7a1fea86221849be5fcdda717cd7889f876.png) F4b",
+  "content_html_fr": "<p>Dans les zones délimitées par les signaux routiers F4a et F4b, la vitesse est limitée à 30 km à l'heure.</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/c5e17f6b95f150e9580d468e2d218a114fe8f61e.png\"/> F4a <img alt=\"\" src=\"/media/image/orig/d060d7a1fea86221849be5fcdda717cd7889f876.png\"/> F4b</p>",
+  "content_html_nl": "<p>Binnen de zones afgebakend door de verkeersborden F4a en F4b is de snelheid beperkt tot 30 km per uur.</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/c5e17f6b95f150e9580d468e2d218a114fe8f61e.png\"/> F4a <img alt=\"\" src=\"/media/image/orig/d060d7a1fea86221849be5fcdda717cd7889f876.png\"/> F4b</p>",
+  "full_text_fr": "Dans les zones délimitées par les signaux routiers F4a et F4b, la vitesse est limitée à 30 km à l'heure.\n\nsign F4a sign F4b",
+  "full_text_nl": "Binnen de zones afgebakend door de verkeersborden F4a en F4b is de snelheid beperkt tot 30 km per uur.\n\nsign F4a sign F4b",
+  "full_text_ru": "На участках, обозначенных дорожными знаками F4a и F4b, ограничение скорости составляет 30 км в час.\n\nsign F4a sign F4b",
+  "images": [
+    {
+      "src": "/media/image/orig/c5e17f6b95f150e9580d468e2d218a114fe8f61e.png",
+      "alt": "",
+      "full_url": "https://www.codedelaroute.be/media/image/orig/c5e17f6b95f150e9580d468e2d218a114fe8f61e.png"
+    },
+    {
+      "src": "/media/image/orig/d060d7a1fea86221849be5fcdda717cd7889f876.png",
+      "alt": "",
+      "full_url": "https://www.codedelaroute.be/media/image/orig/d060d7a1fea86221849be5fcdda717cd7889f876.png"
+    }
+  ],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ehc0piwand",
+  "anchor_id_nl": "ubohcwyblf",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "b11019ba9ff4",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

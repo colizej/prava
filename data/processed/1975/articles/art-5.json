@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "5",
+  "slug": "art-5",
+  "structure": {
+    "titre": "I",
+    "chapitre": null
+  },
+  "title_fr": "Article 5. Force obligatoire de la signalisation routière",
+  "title_nl": "Artikel 5. Bindende kracht van de verkeerstekens",
+  "title_ru": "Статья 5. Обязательная сила дорожных знаков",
+  "content_md_fr": "Les usagers doivent se conformer aux signaux lumineux de circulation, aux signaux routiers et aux marques routières, lorsque ceux-ci sont réguliers en la forme, suffisamment visibles et placés conformément aux prescriptions du présent règlement.",
+  "content_md_nl": "De weggebruikers moeten de verkeerslichten, verkeersborden en wegmarkeringen in acht nemen wanneer deze regelmatig zijn naar de vorm, voldoende zichtbaar zijn en overeenkomstig de voorschriften van dit reglement zijn aangebracht.",
+  "content_md_ru": "Участники дорожного движения должны подчиняться сигналам светофора, дорожным знакам и дорожной разметке, если они имеют обычную форму, достаточно заметны и расположены в соответствии с положениями настоящих Правил.",
+  "content_html_fr": "<p>Les usagers doivent se conformer aux signaux lumineux de circulation, aux signaux routiers et aux marques routières, lorsque ceux-ci sont réguliers en la forme, suffisamment visibles et placés conformément aux prescriptions du présent règlement.</p>",
+  "content_html_nl": "<p>De weggebruikers moeten de verkeerslichten, verkeersborden en wegmarkeringen in acht nemen wanneer deze regelmatig zijn naar de vorm, voldoende zichtbaar zijn en overeenkomstig de voorschriften van dit reglement zijn aangebracht.</p>",
+  "full_text_fr": "Les usagers doivent se conformer aux signaux lumineux de circulation, aux signaux routiers et aux marques routières, lorsque ceux-ci sont réguliers en la forme, suffisamment visibles et placés conformément aux prescriptions du présent règlement.",
+  "full_text_nl": "De weggebruikers moeten de verkeerslichten, verkeersborden en wegmarkeringen in acht nemen wanneer deze regelmatig zijn naar de vorm, voldoende zichtbaar zijn en overeenkomstig de voorschriften van dit reglement zijn aangebracht.",
+  "full_text_ru": "Участники дорожного движения должны подчиняться сигналам светофора, дорожным знакам и дорожной разметке, если они имеют обычную форму, достаточно заметны и расположены в соответствии с положениями настоящих Правил.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "lcpx84u5ey",
+  "anchor_id_nl": "ucq1ialpgq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "48f1cbbceb92",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

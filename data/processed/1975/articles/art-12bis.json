@@ -1,0 +1,56 @@
+{
+  "law_year": "1975",
+  "article_number": "12bis",
+  "slug": "art-12bis",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 12bis. Tirette",
+  "title_nl": "Artikel 12bis. Ritsen",
+  "title_ru": "Статья 12bis. Выдвижной язычок",
+  "content_md_fr": "Les conducteurs qui, lorsque la circulation est fortement ralentie, circulent sur une bande de circulation qui prend fin ou sur laquelle la circulation est interrompue, peuvent s’intercaler sur la bande libre adjacente seulement juste devant le rétrécissement.\n\nLes conducteurs qui circulent sur cette bande libre, doivent céder tour à tour, juste devant le rétrécissement, la priorité à un conducteur qui s’intercale; si la circulation est interrompue aussi bien sur la bande de gauche que sur celle de droite, la priorité doit être cédée à un conducteur qui se trouve sur la bande de droite et ensuite à un conducteur qui se trouve sur la bande de gauche.\n\n> 📎 Voir aussi les « FAQ Mécanisme de la tirette »",
+  "content_md_nl": "De bestuurders die, bij sterk vertraagd verkeer, rijden op een rijstrook die ophoudt of waarop het verder rijden wordt verhinderd, mogen slechts vlak voor de versmalling invoegen in de aangrenzende vrije rijstrook.\n\nDe bestuurders die rijden op die vrije rijstrook moeten vlak voor de versmalling beurtelings voorrang verlenen aan één invoegende bestuurder; in geval het rijden in zowel de linker als in de rechter rijstrook wordt verhinderd, moet eerst voorrang worden verleend aan één bestuurder op de rechter rijstrook en daarna aan één bestuurder op de linker rijstrook.\n\n> 📎 Zie ook de “ FAQ Ritsen ”",
+  "content_md_ru": "Водители, которые при очень медленном движении едут по полосе, которая заканчивается или на которой остановилось движение, могут выехать на соседнюю свободную полосу только перед сужением.\n\nЕсли движение прервано как по левой, так и по правой полосе, приоритет должен быть отдан водителю, движущемуся по правой полосе, а затем водителю, движущемуся по левой полосе.\n\n> 📎 См. также раздел \"Часто задаваемые вопросы о механизме выезда\".",
+  "content_html_fr": "<p>Les conducteurs qui, lorsque la circulation est fortement ralentie, circulent sur une bande de circulation qui prend fin ou sur laquelle la circulation est interrompue, peuvent s’intercaler sur la bande libre adjacente seulement juste devant le rétrécissement.</p><p>Les conducteurs qui circulent sur cette bande libre, doivent céder tour à tour, juste devant le rétrécissement, la priorité à un conducteur qui s’intercale; si la circulation est interrompue aussi bien sur la bande de gauche que sur celle de droite, la priorité doit être cédée à un conducteur qui se trouve sur la bande de droite et ensuite à un conducteur qui se trouve sur la bande de gauche.</p><div class=\"notification notification-secondary\">Voir aussi les « <a href=\"https://mobilit.belgium.be/fr/route/conduire/code-de-la-route-violations-et-sanctions/regles-de-circulation#side-anchor-2\">FAQ Mécanisme de la tirette</a> »</div>",
+  "content_html_nl": "<p>De bestuurders die, bij sterk vertraagd verkeer, rijden op een rijstrook die ophoudt of waarop het verder rijden wordt verhinderd, mogen slechts vlak voor de versmalling invoegen in de aangrenzende vrije rijstrook.</p><p>De bestuurders die rijden op die vrije rijstrook moeten vlak voor de versmalling beurtelings voorrang verlenen aan één invoegende bestuurder; in geval het rijden in zowel de linker als in de rechter rijstrook wordt verhinderd, moet eerst voorrang worden verleend aan één bestuurder op de rechter rijstrook en daarna aan één bestuurder op de linker rijstrook.</p><div class=\"notification notification-secondary\">Zie ook de “<a href=\"https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels#side-anchor-2\">FAQ Ritsen</a>”</div>",
+  "full_text_fr": "Les conducteurs qui, lorsque la circulation est fortement ralentie, circulent sur une bande de circulation qui prend fin ou sur laquelle la circulation est interrompue, peuvent s’intercaler sur la bande libre adjacente seulement juste devant le rétrécissement.\n\nLes conducteurs qui circulent sur cette bande libre, doivent céder tour à tour, juste devant le rétrécissement, la priorité à un conducteur qui s’intercale; si la circulation est interrompue aussi bien sur la bande de gauche que sur celle de droite, la priorité doit être cédée à un conducteur qui se trouve sur la bande de droite et ensuite à un conducteur qui se trouve sur la bande de gauche.\n\nVoir aussi les « FAQ Mécanisme de la tirette »",
+  "full_text_nl": "De bestuurders die, bij sterk vertraagd verkeer, rijden op een rijstrook die ophoudt of waarop het verder rijden wordt verhinderd, mogen slechts vlak voor de versmalling invoegen in de aangrenzende vrije rijstrook.\n\nDe bestuurders die rijden op die vrije rijstrook moeten vlak voor de versmalling beurtelings voorrang verlenen aan één invoegende bestuurder; in geval het rijden in zowel de linker als in de rechter rijstrook wordt verhinderd, moet eerst voorrang worden verleend aan één bestuurder op de rechter rijstrook en daarna aan één bestuurder op de linker rijstrook.\n\nZie ook de “ FAQ Ritsen ”",
+  "full_text_ru": "Водители, которые при очень медленном движении едут по полосе, которая заканчивается или на которой остановилось движение, могут выехать на соседнюю свободную полосу только перед сужением.\n\nЕсли движение прервано как по левой, так и по правой полосе, приоритет должен быть отдан водителю, движущемуся по правой полосе, а затем водителю, движущемуся по левой полосе.\n\nСм. также раздел \"Часто задаваемые вопросы о механизме выезда\".",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "secondary",
+      "text": "Voir aussi les « FAQ Mécanisme de la tirette »"
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "secondary",
+      "text": "Zie ook de “ FAQ Ritsen ”"
+    }
+  ],
+  "notifications_ru": [
+    {
+      "type": "secondary",
+      "text": "См. также \"Часто задаваемые вопросы Механизм вытягивания шнура\"."
+    }
+  ],
+  "cross_refs": [],
+  "anchor_id_fr": "u9awbgqjkf",
+  "anchor_id_nl": "q7buqasthm",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "136b14685ddd",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

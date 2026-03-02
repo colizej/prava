@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "29",
+  "slug": "art-29",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 29. Emploi des feux: prescription générale",
+  "title_nl": "Artikel 29. Gebruik van de lichten : algemene regel",
+  "title_ru": "Статья 29. Использование фонарей: общие требования",
+  "content_md_fr": "Il est interdit d'utiliser d'autres feux que ceux qui sont prescrits ou prévus par le présent règlement ou par les règlements techniques des véhicules automobiles ou des cyclomoteurs et motocyclettes.",
+  "content_md_nl": "Het is verboden andere lichten te gebruiken dan die welke in dit reglement of in de technische reglementen van de auto's of van de bromfietsen en motorfietsen voorgeschreven of voorzien zijn.",
+  "content_md_ru": "Запрещается использовать лампы, отличные от тех, которые предписаны или предусмотрены настоящими правилами или техническими правилами для автомобилей, мопедов и мотоциклов.",
+  "content_html_fr": "<p>Il est interdit d'utiliser d'autres feux que ceux qui sont prescrits ou prévus par le présent règlement ou par les règlements techniques des véhicules automobiles ou des cyclomoteurs et motocyclettes.</p>",
+  "content_html_nl": "<p>Het is verboden andere lichten te gebruiken dan die welke in dit reglement of in de technische reglementen van de auto's of van de bromfietsen en motorfietsen voorgeschreven of voorzien zijn.</p>",
+  "full_text_fr": "Il est interdit d'utiliser d'autres feux que ceux qui sont prescrits ou prévus par le présent règlement ou par les règlements techniques des véhicules automobiles ou des cyclomoteurs et motocyclettes.",
+  "full_text_nl": "Het is verboden andere lichten te gebruiken dan die welke in dit reglement of in de technische reglementen van de auto's of van de bromfietsen en motorfietsen voorgeschreven of voorzien zijn.",
+  "full_text_ru": "Запрещается использовать лампы, отличные от тех, которые предписаны или предусмотрены настоящими правилами или техническими правилами для автомобилей, мопедов и мотоциклов.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "atzzhdsixs",
+  "anchor_id_nl": "bforg7bzvh",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "990801f708e4",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

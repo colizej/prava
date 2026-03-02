@@ -1,0 +1,1735 @@
+{
+  "law_year": "1975",
+  "built_at": "2026-03-02T12:48:17Z",
+  "total_articles": 122,
+  "structure": [
+    {
+      "type": "titre",
+      "number": "I",
+      "text": "Titre I. Dispositions préliminaires",
+      "id": "dwdxrvmmnd"
+    },
+    {
+      "type": "titre",
+      "number": "II",
+      "text": "Titre II. Règles d'usage de la voie publique",
+      "id": "ebkfshz0c2"
+    },
+    {
+      "type": "titre",
+      "number": "III",
+      "text": "Titre III. Signalisation routière",
+      "id": "ncld409viw"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Signaux lumineux de circulation",
+      "id": "alisqjctqe"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Signaux routiers",
+      "id": "6yc7s9ts4f"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Marques routières",
+      "id": "6cuki7f4hl"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. Dispositions diverses",
+      "id": "pevc84qkuk"
+    },
+    {
+      "type": "titre",
+      "number": "IV",
+      "text": "Titre IV. Prescriptions techniques",
+      "id": "pkmdpepkpt"
+    },
+    {
+      "type": "titre",
+      "number": "V",
+      "text": "Titre V. Dispositions abrogatoires et transitoires, et mise en vigueur",
+      "id": "fshvm9qtmm"
+    }
+  ],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 1. Champ d'application",
+      "title_nl": "Artikel 1. Toepassingsgebied",
+      "title_ru": "Статья 1. Сфера применения",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 2. Définitions",
+      "title_nl": "Artikel 2. Bepalingen",
+      "title_ru": "Статья 2. Определения",
+      "has_images": true,
+      "sign_codes": [
+        "F5",
+        "F7",
+        "F9",
+        "F11",
+        "D7",
+        "D9",
+        "F1",
+        "F1a",
+        "F1b",
+        "F3",
+        "F3a",
+        "F3b",
+        "F12a",
+        "F12b",
+        "F99a",
+        "F101a",
+        "F99b",
+        "F101b",
+        "F103",
+        "F105",
+        "C3",
+        "F4a",
+        "F4b",
+        "A23",
+        "D5",
+        "B1",
+        "B5",
+        "A51",
+        "F117",
+        "F118",
+        "rue scolaire"
+      ]
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 3. Agents qualifiés",
+      "title_nl": "Artikel 3. Bevoegde personen",
+      "title_ru": "Статья 3. Квалифицированные агенты",
+      "has_images": true,
+      "sign_codes": [
+        "C5",
+        "F17",
+        "F18"
+      ]
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 4. Force obligatoire des injonctions des agents qualifiés",
+      "title_nl": "Artikel 4. Bindende kracht van de bevelen van de bevoegde personen",
+      "title_ru": "Статья 4. Обязательная сила предписаний, вынесенных квалифицированными агентами",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 5. Force obligatoire de la signalisation routière",
+      "title_nl": "Artikel 5. Bindende kracht van de verkeerstekens",
+      "title_ru": "Статья 5. Обязательная сила дорожных знаков",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 6. Valeur des injonctions des agents qualifiés, de la signalisation routière et des règles de circulation",
+      "title_nl": "Artikel 6. Waarde van de bevelen van de bevoegde personen, van de verkeerstekens en van de verkeersregels",
+      "title_ru": "Статья 6. Значение предписаний квалифицированных должностных лиц, дорожных знаков и правил дорожного движения",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 7. Règles générales de comportement dans le chef des usagers",
+      "title_nl": "Artikel 7. Algemene gedragsregels voor de weggebruikers",
+      "title_ru": "Статья 7. Общие правила поведения для пользователей",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7bis",
+      "slug": "art-7bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 7bis. Utilisateurs d’un engin de déplacement",
+      "title_nl": "Artikel 7bis. Gebruikers van een voortbewegingstoestel",
+      "title_ru": "Статья 7bis. Пользователи движущегося оборудования",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7ter",
+      "slug": "art-7ter",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 7ter. Conducteurs d’un cycle motorisé",
+      "title_nl": "Artikel 7ter. Bestuurders van een gemotoriseerd rijwiel",
+      "title_ru": "Статья 7ter. Водители моторизованных велосипедов",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 8. Les conducteurs",
+      "title_nl": "Artikel 8. De bestuurders",
+      "title_ru": "Статья 8. Водители",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 9. Place des conducteurs sur la voie publique",
+      "title_nl": "Artikel 9. Plaats van de bestuurders op de openbare weg",
+      "title_ru": "Статья 9. Место водителей на дорогах общего пользования",
+      "has_images": true,
+      "sign_codes": [
+        "D7",
+        "D9",
+        "D10",
+        "F13",
+        "F15",
+        "D1"
+      ]
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 10. Vitesse",
+      "title_nl": "Artikel 10. Snelheid",
+      "title_ru": "Статья 10. Скорость",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 11. Limitations de vitesse",
+      "title_nl": "Artikel 11. Snelheidsbeperkingen",
+      "title_ru": "Статья 11. Ограничения скорости",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "12",
+      "slug": "art-12",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 12. Obligations de céder le passage",
+      "title_nl": "Artikel 12. Verplichting voorrang te verlenen",
+      "title_ru": "Статья 12. Обязательства уступить дорогу",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "12bis",
+      "slug": "art-12bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 12bis. Tirette",
+      "title_nl": "Artikel 12bis. Ritsen",
+      "title_ru": "Статья 12bis. Выдвижной язычок",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "13",
+      "slug": "art-13",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 13. Annonce d'une manœuvre",
+      "title_nl": "Artikel 13. Aankondiging van een manoeuvre",
+      "title_ru": "Статья 13. Объявление о маневре",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 14. Dégagement des carrefours",
+      "title_nl": "Artikel 14. Vrijmaken van de kruispunten",
+      "title_ru": "Статья 14. Очистка перекрестков",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 15. Croisement",
+      "title_nl": "Artikel 15. Kruisen",
+      "title_ru": "Статья 15. Пересечение",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 16. Dépassement",
+      "title_nl": "Artikel 16. Inhalen",
+      "title_ru": "Статья 16. Превышение",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 17. Interdiction de dépasser",
+      "title_nl": "Artikel 17. Inhaalverbod",
+      "title_ru": "Статья 17. Запрет обгона",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 18. Intervalle entre les véhicules",
+      "title_nl": "Artikel 18. Afstand tussen de voertuigen",
+      "title_ru": "Статья 18: Интервалы между транспортными средствами",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 19. Changement de direction",
+      "title_nl": "Artikel 19. Richtingsverandering",
+      "title_ru": "Статья 19. Смена руководства",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 20. Circulation sur les voies ferrées et passages à niveau",
+      "title_nl": "Artikel 20. Verkeer op spoorwegen en overwegen",
+      "title_ru": "Статья 20: Движение по железнодорожным путям и железнодорожным переездам",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 21. Circulation sur les autoroutes",
+      "title_nl": "Artikel 21. Verkeer op autosnelwegen",
+      "title_ru": "Статья 21. Движение по автомагистралям",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "22",
+      "slug": "art-22",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22. Circulation sur les routes pour automobiles",
+      "title_nl": "Artikel 22. Verkeer op autowegen",
+      "title_ru": "Статья 22undecies. Движение по школьным улицам",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22bis",
+      "slug": "art-22bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22bis. Circulation dans les zones résidentielles et dans les zones de rencontre",
+      "title_nl": "Artikel 22bis. Verkeer in woonerven en in de erven",
+      "title_ru": "Статья 22bis. Движение в жилых районах и прогулочных зонах",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "22ter",
+      "slug": "art-22ter",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22ter. Circulation sur les voies publiques munies de dispositifs surélevés",
+      "title_nl": "Artikel 22ter. Verkeer op rijbanen voorzien van verhoogde inrichtingen",
+      "title_ru": "Статья 22ter. Движение по дорогам общего пользования с приподнятыми подъездными пандусами",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "22quater",
+      "slug": "art-22quater",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22quater. Zones dans lesquelles la vitesse est limitée à 30 km à l'heure",
+      "title_nl": "Artikel 22quater. Zones met een snelheidsbeperking van 30 km/u",
+      "title_ru": "Статья 22c. Зоны, в которых ограничение скорости составляет 30 км в час",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "22quinquies",
+      "slug": "art-22quinquies",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22quinquies. Circulation sur les chemins réservés aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs",
+      "title_nl": "Artikel 22quinquies. Verkeer op wegen voorbehouden voor voetgangers, fietsers, ruiters en bestuurders van speed pedelecs",
+      "title_ru": "Статья 22quinquies. Движение по дорогам, предназначенным для пешеходов, велосипедистов, всадников и водителей скоростных педелей",
+      "has_images": true,
+      "sign_codes": [
+        "F101A"
+      ]
+    },
+    {
+      "number": "22sexies",
+      "slug": "art-22sexies",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22sexies. Circulation dans les zones piétonnes",
+      "title_nl": "Artikel 22sexies. Verkeer in de voetgangerszones",
+      "title_ru": "Статья 22sexies. Движение в пешеходных зонах",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "22septies",
+      "slug": "art-22septies",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22septies. Circulation dans les rues réservées au jeu",
+      "title_nl": "Artikel 22septies. Verkeer in speelstraten",
+      "title_ru": "Статья 22f. Движение на улицах, предназначенных для игр",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "22octies",
+      "slug": "art-22octies",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22octies. Circulation sur les chemins réservés aux véhicules agricoles, aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs",
+      "title_nl": "Artikel 22octies. Verkeer op wegen voorbehouden voor landbouwvoertuigen, voetgangers, fietsers, ruiters en bestuurders van speed pedelecs",
+      "title_ru": "Статья 22окти. Движение по дорогам, предназначенным для сельскохозяйственных транспортных средств, пешеходов, велосипедистов, всадников и водителей скоростных педелей",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "22novies",
+      "slug": "art-22novies",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22novies. Circulation dans les zones cyclables",
+      "title_nl": "Artikel 22novies. Verkeer in fietszones",
+      "title_ru": "Статья 22новости. Движение в велосипедных зонах",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22decies",
+      "slug": "art-22decies",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22decies. Circulation sur les bandes réservées aux heures de pointe",
+      "title_nl": "Artikel 22decies. Verkeer op spitsstroken",
+      "title_ru": "Статья 22decies. Движение по выделенным полосам в час пик",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22undecies",
+      "slug": "art-22undecies",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 22undecies. Circulation dans les rues scolaires",
+      "title_nl": "Artikel 22undecies. Verkeer in schoolstraten",
+      "title_ru": "Статья 22undecies. Движение по школьным улицам",
+      "has_images": true,
+      "sign_codes": [
+        "C3",
+        "rue scolaire"
+      ]
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 23. Arrêt et stationnement",
+      "title_nl": "Artikel 23. Stilstaan en parkeren",
+      "title_ru": "Статья 23. Остановка и стоянка",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "24",
+      "slug": "art-24",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 24. Interdiction de l'arrêt et du stationnement",
+      "title_nl": "Artikel 24. Stilstaan- en parkeerverbod",
+      "title_ru": "Статья 24. Запрет остановки или стоянки",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 25. Interdiction de stationnement",
+      "title_nl": "Artikel 25. Parkeerverbod",
+      "title_ru": "Статья 25: Запрет на парковку",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 26. Stationnement alterné semi-mensuel dans toute une agglomération",
+      "title_nl": "Artikel 26. Halfmaandelijks beurtelings parkeren in gans een bebouwde kom",
+      "title_ru": "Статья 26. Полумесячная чередующаяся парковка на всей застроенной территории",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "27",
+      "slug": "art-27",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 27. Stationnement à durée limitée",
+      "title_nl": "Artikel 27. Beperkte parkeertijd",
+      "title_ru": "Статья 27quinquies. Использование копыта",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "27bis",
+      "slug": "art-27bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 27bis. Emplacements de stationnement réservés aux personnes handicapées",
+      "title_nl": "Artikel 27bis. Parkeerplaatsen voorbehouden voor personen met een handicap",
+      "title_ru": "Статья 27bis. Парковочные места, зарезервированные для инвалидов",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27ter",
+      "slug": "art-27ter",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 27ter. Places de stationnement réservées",
+      "title_nl": "Artikel 27ter. Voorbehouden parkeerplaatsen",
+      "title_ru": "Статья 27ter. Зарезервированные парковочные места",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27quater",
+      "slug": "art-27quater",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 27quater. Contrôle électronique",
+      "title_nl": "Artikel 27quater. Elektronische toezicht",
+      "title_ru": "Статья 27c. Электронный контроль",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27quinquies",
+      "slug": "art-27quinquies",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 27quinquies. Usage d'un sabot",
+      "title_nl": "Artikel 27quinquies. Gebruik van een wielklem",
+      "title_ru": "Статья 27quinquies. Использование копыта",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "28",
+      "slug": "art-28",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 28. Ouverture des portières",
+      "title_nl": "Artikel 28. Openen van portieren",
+      "title_ru": "Статья 28. Открытие дверей",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29",
+      "slug": "art-29",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 29. Emploi des feux: prescription générale",
+      "title_nl": "Artikel 29. Gebruik van de lichten : algemene regel",
+      "title_ru": "Статья 29. Использование фонарей: общие требования",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30",
+      "slug": "art-30",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 30. Emploi des feux: véhicules et usagers circulant sur la voie publique",
+      "title_nl": "Artikel 30. Gebruik van de lichten : voertuigen en weggebruikers die de openbare weg volgen",
+      "title_ru": "Статья 30. Использование световых приборов: транспортные средства и пользователи на дорогах общего пользования",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30bis",
+      "slug": "art-30bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 30bis. Emploi des feux: cyclomoteurs et motocyclettes circulant sur la voie publique - règle particulière",
+      "title_nl": "Artikel 30bis. Gebruik van de lichten : bromfietsen en motorfietsen die op de openbare weg rijden - bijzondere regel",
+      "title_ru": "Статья 30bis. Использование световых приборов: мопеды и мотоциклы на дорогах общего пользования - специальное правило",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "31",
+      "slug": "art-31",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 31. Emploi des feux à l'arrêt ou en stationnement",
+      "title_nl": "Artikel 31. Gebruik van de lichten bij het stilstaan en parkeren",
+      "title_ru": "Статья 31. Использование световых приборов во время стоянки или парковки",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 32. Emploi des feux particuliers",
+      "title_nl": "Artikel 32. Gebruik van speciale lichten",
+      "title_ru": "Статья 32. Использование специальных костров",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32bis",
+      "slug": "art-32bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 32bis. Emploi simultané de tous les indicateurs de direction",
+      "title_nl": "Artikel 32bis. Gelijktijdig gebruik van al de richtingsaanwijzers",
+      "title_ru": "Статья 32bis. Одновременное использование всех указателей поворота",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33",
+      "slug": "art-33",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 33. Emploi des avertisseurs sonores",
+      "title_nl": "Artikel 33. Gebruik van geluidstoestellen",
+      "title_ru": "Статья 33. Использование звуковых предупреждающих устройств",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 34. Emploi des miroirs rétroviseurs",
+      "title_nl": "Artikel 34. Gebruik van de achteruitkijkspiegels",
+      "title_ru": "Статья 34. Использование зеркал заднего вида",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34bis",
+      "slug": "art-34bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 34bis. Usage des dispositifs aérodynamiques",
+      "title_nl": "Artikel 34bis. Gebruik van aerodynamische voorzieningen",
+      "title_ru": "Статья 34bis. Использование аэродинамических устройств",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 35. Ceintures de sécurité et dispositifs de retenue pour enfants",
+      "title_nl": "Artikel 35. Veiligheidsgordels en kinderbeveiligingssystemen",
+      "title_ru": "Статья 35. Ремни безопасности и детские удерживающие системы",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 36. Casques de protection - Vêtements de protection",
+      "title_nl": "Artikel 36. Valhelm - beschermende kleding",
+      "title_ru": "Статья 36. Защитные шлемы - Защитная одежда",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 37. Véhicules prioritaires",
+      "title_nl": "Artikel 37. Prioritaire voertuigen",
+      "title_ru": "Статья 37. Приоритетные транспортные средства",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "38",
+      "slug": "art-38",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 38. Comportement à l'égard des vehicules prioritaires faisant usage de l'avertisseur sonore spécial",
+      "title_nl": "Artikel 38. Gedrag tegenover prioritaire voertuigen die het speciaal geluidstoestel gebruiken",
+      "title_ru": "Статья 38. Поведение по отношению к приоритетным транспортным средствам, использующим специальный звуковой сигнал",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 39. Comportement à l'égard des autobus et des trolleybus quittant leurs points d'arrêt",
+      "title_nl": "Artikel 39. Gedrag tegenover autobussen en trolleybussen die hun halteplaatsen verlaten",
+      "title_ru": "Статья 39. Поведение по отношению к автобусам и троллейбусам, отъезжающим от своих остановок",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39bis",
+      "slug": "art-39bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 39bis. Comportement à l'égard des véhicules affectés au transport scolaire",
+      "title_nl": "Artikel 39bis. Gedrag tegenover voertuigen voor schoolvervoer",
+      "title_ru": "Статья 39bis. Поведение по отношению к школьным транспортным средствам",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "40",
+      "slug": "art-40",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 40. Comportement des conducteurs à l'égard des piétons",
+      "title_nl": "Artikel 40. Gedrag van de bestuurders tegenover voetgangers",
+      "title_ru": "Статья 40: Поведение водителей по отношению к пешеходам",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "40bis",
+      "slug": "art-40bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 40bis. Comportement à l'égard des groupes d'enfants, d'écoliers, de personnes handicapées ou âgées",
+      "title_nl": "Artikel 40bis. Gedrag tegenover groepen kinderen, scholieren, personen met een handicap en bejaarden",
+      "title_ru": "Статья 40bis. Поведение по отношению к группам детей, школьников, инвалидов или пожилых людей",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "40ter",
+      "slug": "art-40ter",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 40ter. Comportement à l'égard des cyclistes et des conducteurs de cyclomoteurs à deux roues",
+      "title_nl": "Artikel 40ter. Gedrag tegenover de fietsers en bestuurders van tweewielige bromfietsen",
+      "title_ru": "Статья 40ter. Поведение по отношению к велосипедистам и водителям двухколесных мопедов",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "40quater",
+      "slug": "art-40quater",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 40quater. Comportement à l’égard des participants à une course cycliste",
+      "title_nl": "Artikel 40quater. Gedrag tegenover de deelnemers aan een wielerwedstrijd",
+      "title_ru": "Статья 40c. Поведение по отношению к участникам велопробега",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "41",
+      "slug": "art-41",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 41. Comportement à l'égard des colonnes militaires, des cortèges, groupes de piétons, processions, manifestations culturelles, sportives et touristiques, des courses cyclistes, des épreuves ou compétitions sportives non-motorisées, des groupes de cyclistes, groupes de motocyclistes, des groupes de cavaliers et du personnel des chantiers établis sur la voie publique",
+      "title_nl": "Artikel 41. Gedrag tegenover militaire kolonnes, stoeten, groepen voetgangers, processies, culturele, sportieve en toeristische evenementen, wielerwedstrijden, niet-gemotoriseerde sportwedstrijden of -competities, groepen fietsers, groepen motorfietsers, groepen ruiters en werfopzichters op de openbare weg",
+      "title_ru": "Статья 41. Поведение по отношению к воинским колоннам, шествиям, группам пешеходов, процессиям, культурным, спортивным и туристическим мероприятиям, велопробегам, немоторизованным спортивным мероприятиям или соревнованиям, группам велосипедистов, группам мотоциклистов, группам всадников и персоналу строительных площадок на дорогах общего пользования",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "42",
+      "slug": "art-42",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 42. Piétons",
+      "title_nl": "Artikel 42. Voetgangers",
+      "title_ru": "Статья 42. Пешеходы",
+      "has_images": true,
+      "sign_codes": [
+        "D11.png",
+        "D13.png"
+      ]
+    },
+    {
+      "number": "43",
+      "slug": "art-43",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 43. Conducteurs de bicyclettes et de cyclomoteurs",
+      "title_nl": "Artikel 43. Fietsers en bromfietsers",
+      "title_ru": "Статья 43. Водители велосипедов и мопедов",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "43bis",
+      "slug": "art-43bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 43bis. Cyclistes en groupe",
+      "title_nl": "Artikel 43bis. Fietsers in groep",
+      "title_ru": "Статья 43bis. Велосипедисты в группе",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "43ter",
+      "slug": "art-43ter",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 43ter. Motocyclistes en groupe",
+      "title_nl": "Artikel 43ter. Motorfietsers in groep",
+      "title_ru": "Статья 43ter. Мотоциклисты в группе",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "44",
+      "slug": "art-44",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 44. Conducteurs et passagers des véhicules",
+      "title_nl": "Artikel 44. Bestuurders en passagiers van voertuigen",
+      "title_ru": "Статья 44. Водители и пассажиры транспортных средств",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "45",
+      "slug": "art-45",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 45. Chargement des véhicules: prescriptions générales",
+      "title_nl": "Artikel 45. Lading van de voertuigen : algemene voorschriften",
+      "title_ru": "Статья 45. Загрузка транспортных средств: общие требования",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "45bis",
+      "slug": "art-45bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 45bis. Chargement des véhicules : prescriptions générales (uniquement Région flamande)",
+      "title_nl": "Artikel 45bis. Lading van de voertuigen: specifieke voorschriften (enkel Vlaams Gewest)",
+      "title_ru": "Статья 45bis. Загрузка транспортных средств: общие требования (только для Фламандского региона)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "46",
+      "slug": "art-46",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 46. Chargement des véhicules : dimensions",
+      "title_nl": "Artikel 46. Lading van de voertuigen : afmetingen",
+      "title_ru": "Статья 46. Загрузка транспортного средства: габариты",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "47",
+      "slug": "art-47",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 47. Chargement des véhicules : signalisation",
+      "title_nl": "Artikel 47. Lading van de voertuigen : signalisatie",
+      "title_ru": "Статья 47. Погрузка транспортных средств: знаки",
+      "has_images": true,
+      "sign_codes": [
+        "Lading"
+      ]
+    },
+    {
+      "number": "47bis",
+      "slug": "art-47bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 47bis. Plateaux élévateurs et engins de manutention",
+      "title_nl": "Artikel 47bis. Laadplatformen en bedieningstoestellen",
+      "title_ru": "Статья 47bis. Подъемные платформы и подъемно-транспортное оборудование",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "48",
+      "slug": "art-48",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 48. Transport exceptionnel",
+      "title_nl": "Artikel 48. Uitzonderlijk vervoer",
+      "title_ru": "Статья 48. Исключительные перевозки",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "48bis",
+      "slug": "art-48bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 48bis. Transport des marchandises dangereuses",
+      "title_nl": "Artikel 48bis. Vervoer van gevaarlijke goederen",
+      "title_ru": "Статья 48a. Перевозка опасных грузов",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "49",
+      "slug": "art-49",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 49. Trains de véhicules",
+      "title_nl": "Artikel 49. Slepen",
+      "title_ru": "Статья 49: Поезда транспортных средств",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "50",
+      "slug": "art-50",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 50. Luttes de vitesse, épreuves sportives",
+      "title_nl": "Artikel 50. Snelheidswedstrijden, sportwedstrijden",
+      "title_ru": "Статья 50. Борьба на скорость, спортивные соревнования",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "51",
+      "slug": "art-51",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 51. Véhicule en panne, Chargement tombé sur la voie publique",
+      "title_nl": "Artikel 51. Defect voertuig, op de openbare weg gevallen lading",
+      "title_ru": "Статья 51. Транспортное средство сломалось, груз упал на дорогу общего пользования",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "52",
+      "slug": "art-52",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 52. Comportement en cas d'accident",
+      "title_nl": "Artikel 52. Gedrag bij een ongeval",
+      "title_ru": "Статья 52. Поведение в случае несчастного случая",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "53",
+      "slug": "art-53",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 53. Véhicules attelés",
+      "title_nl": "Artikel 53. Gespannen",
+      "title_ru": "Статья 53. Сцепленные транспортные средства",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "54",
+      "slug": "art-54",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 54. Charrettes à bras",
+      "title_nl": "Artikel 54. Handkarren",
+      "title_ru": "Статья 54. Ручные тележки",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "55",
+      "slug": "art-55",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 55. Animaux",
+      "title_nl": "Artikel 55. Dieren",
+      "title_ru": "Статья 55. Животные",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "55bis",
+      "slug": "art-55bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 55bis. Cavaliers en groupe",
+      "title_nl": "Artikel 55bis. Ruiters in groep",
+      "title_ru": "Статья 55bis. Всадники группы",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "56",
+      "slug": "art-56",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 56. Véhicules ou animaux halant des bateaux",
+      "title_nl": "Artikel 56. Voertuigen en dieren die vaartuigen jagen",
+      "title_ru": "Статья 56. Транспортные средства или животные, буксирующие лодки",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "56bis",
+      "slug": "art-56bis",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 56bis. Véhicules folkloriques",
+      "title_nl": "Artikel 56bis. Folkloristische voertuigen",
+      "title_ru": "Статья 56bis. Фольклорные транспортные средства",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "57",
+      "slug": "art-57",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 57. Circulation dans les zones portuaires et aéroportuaires",
+      "title_nl": "Artikel 57. Verkeer binnen de haven- en luchthavengebieden",
+      "title_ru": "Статья 57. Движение в портовых и аэропортовых зонах",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "58",
+      "slug": "art-58",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 58. Limitations de la circulation en période de dégel",
+      "title_nl": "Artikel 58. Verkeersbeperkingen bij dooiweder",
+      "title_ru": "Статья 58. Ограничение движения в период оттепели",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "59",
+      "slug": "art-59",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 59. Dispositions diverses",
+      "title_nl": "Artikel 59. Allerhande bepalingen",
+      "title_ru": "Статья 59/1. Испытания",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "59/1",
+      "slug": "art-59-1",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 59/1. Essais",
+      "title_nl": "Artikel 59/1. Experimenten",
+      "title_ru": "Статья 59/1. Испытания",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "60",
+      "slug": "art-60",
+      "structure": {
+        "titre": "III",
+        "chapitre": null
+      },
+      "title_fr": "Article 60. Disposition générale",
+      "title_nl": "Artikel 60. Algemene bepaling",
+      "title_ru": "Статья 60: Общие положения",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61",
+      "slug": "art-61",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 61. Signaux du système tricolore",
+      "title_nl": "Artikel 61. Driekleurige verkeerslichten",
+      "title_ru": "Статья 61. Светофоры",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "62",
+      "slug": "art-62",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 62. Flèche d'évacuation d'un carrefour",
+      "title_nl": "Artikel 62. Ontruimingspijl op een kruispunt",
+      "title_ru": "Статья 62. Стрелка эвакуации с перекрестка",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "62bis",
+      "slug": "art-62bis",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 62bis. Signaux lumineux de circulation placés au-dessus des bandes de circulation ou d’autres parties de la voie publique",
+      "title_nl": "Artikel 62bis. Verkeerslichten boven de rijstroken of andere delen van de openbare weg",
+      "title_ru": "Статья 62bis. Светофоры, установленные над полосами движения или другими частями общественной магистрали",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "62ter",
+      "slug": "art-62ter",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 62ter. Signaux lumineux spéciaux destinés à régler la circulation des véhicules des services réguliers de transport en commun",
+      "title_nl": "Artikel 62ter. Bijzondere verkeerslichten voor het regelen van het verkeer van voertuigen van geregelde diensten voor gemeenschappelijk vervoer",
+      "title_ru": "Статья 62ter. Специальные световые сигналы для регулирования движения транспортных средств на регулярных маршрутах общественного транспорта",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "63",
+      "slug": "art-63",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 63. Signaux du système bicolore",
+      "title_nl": "Artikel 63. Tweekleurige verkeerslichten",
+      "title_ru": "Статья 63. Сигналы двухцветной системы",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "64",
+      "slug": "art-64",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 64. Signaux à feux clignotants",
+      "title_nl": "Artikel 64. Verkeersknipperlichten",
+      "title_ru": "Статья 64. Мигающие световые сигналы",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "65",
+      "slug": "art-65",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 65. Dispositions générales",
+      "title_nl": "Artikel 65. Algemene bepalingen",
+      "title_ru": "Статья 65. Общие положения",
+      "has_images": true,
+      "sign_codes": [
+        "M21",
+        "M22",
+        "M23",
+        "M24",
+        "7 19 wit",
+        "7 19 blauw",
+        "ZE1+M22"
+      ]
+    },
+    {
+      "number": "66",
+      "slug": "art-66",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 66. Signaux de danger",
+      "title_nl": "Artikel 66. Gevaarsborden",
+      "title_ru": "Статья 66. Знаки опасности",
+      "has_images": true,
+      "sign_codes": [
+        "A50"
+      ]
+    },
+    {
+      "number": "67",
+      "slug": "art-67",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 67. Signaux relatifs à la priorité",
+      "title_nl": "Artikel 67. Verkeersborden betreffende de voorrang",
+      "title_ru": "Статья 67. Знаки, относящиеся к приоритету",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "68",
+      "slug": "art-68",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 68. Signaux d'interdiction",
+      "title_nl": "Artikel 68. Verbodsborden",
+      "title_ru": "Статья 68. Запрещающие знаки",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "69",
+      "slug": "art-69",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 69. Signaux d'obligation",
+      "title_nl": "Artikel 69. Gebodsborden",
+      "title_ru": "Статья 69. Сигналы обязательства",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "70",
+      "slug": "art-70",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 70. Signaux relatifs à l'arrêt et au stationnement",
+      "title_nl": "Artikel 70. Verkeersborden betreffende het stilstaan en het parkeren",
+      "title_ru": "Статья 70. Знаки остановки и стоянки",
+      "has_images": true,
+      "sign_codes": [
+        "E9j_FR",
+        "elec",
+        "elec auto",
+        "laden en lossen",
+        "F1",
+        "F1a",
+        "F1b"
+      ]
+    },
+    {
+      "number": "71",
+      "slug": "art-71",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 71. Signaux d'indication",
+      "title_nl": "Artikel 71. Aanwijzingsborden",
+      "title_ru": "Статья 71. Индикационные знаки",
+      "has_images": true,
+      "sign_codes": [
+        "F45b",
+        "F63a",
+        "F63b",
+        "F63c",
+        "F63d",
+        "F63e",
+        "F63f",
+        "F117",
+        "F118"
+      ]
+    },
+    {
+      "number": "72",
+      "slug": "art-72",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 72. Marques longitudinales indiquant les bandes de circulation",
+      "title_nl": "Artikel 72. Overlangse markeringen die de rijstroken aanduiden",
+      "title_ru": "Статья 72. Продольная разметка, обозначающая полосы движения",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "73",
+      "slug": "art-73",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 73. Marques longitudinales provisoires indiquant les bandes de circulation",
+      "title_nl": "Artikel 73. Overlangse voorlopige markeringen die de rijstroken aanduiden",
+      "title_ru": "Статья 73. Временная продольная разметка, обозначающая полосы движения",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "74",
+      "slug": "art-74",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 74. Marques longitudinales indiquant une piste cyclable",
+      "title_nl": "Artikel 74. Overlangse markeringen die een fietspad aanduiden",
+      "title_ru": "Статья 74. Продольная разметка, обозначающая велосипедную дорожку",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "75",
+      "slug": "art-75",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 75. Marques longitudinales indiquant le bord de la chaussée",
+      "title_nl": "Artikel 75. Overlangse markeringen die de rand van de rijbaan aanduiden",
+      "title_ru": "Статья 75: Продольная разметка, обозначающая край проезжей части",
+      "has_images": true,
+      "sign_codes": [
+        "Wegmarkering 75.3"
+      ]
+    },
+    {
+      "number": "76",
+      "slug": "art-76",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 76. Marques transversales",
+      "title_nl": "Artikel 76. Dwarsmarkeringen",
+      "title_ru": "Статья 76. Поперечные знаки",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "77",
+      "slug": "art-77",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 77. Autres marques",
+      "title_nl": "Artikel 77. Andere markeringen",
+      "title_ru": "Статья 77. Другие знаки",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "78",
+      "slug": "art-78",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 78. Signalisation des chantiers et des obstacles",
+      "title_nl": "Artikel 78. Signaleren van werken en verkeersbelemmeringen",
+      "title_ru": "Статья 78. Указатели строительных площадок и препятствий",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "79",
+      "slug": "art-79",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 79. Balisage de la voie publique",
+      "title_nl": "Artikel 79. Afbakening van de openbare weg",
+      "title_ru": "Статья 79. Дорожная разметка",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "80",
+      "slug": "art-80",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 80. Placement de la signalisation routière",
+      "title_nl": "Artikel 80. Het aanbrengen van de verkeerstekens",
+      "title_ru": "Статья 80. Размещение дорожных знаков",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "81",
+      "slug": "art-81",
+      "structure": {
+        "titre": "IV",
+        "chapitre": null
+      },
+      "title_fr": "Article 81. Véhicules à moteur et leurs remorques",
+      "title_nl": "Artikel 81. Motorvoertuigen en hun aanhangwagens",
+      "title_ru": "Статья 81. Автотранспортные средства и прицепы к ним",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "82",
+      "slug": "art-82",
+      "structure": {
+        "titre": "IV",
+        "chapitre": null
+      },
+      "title_fr": "Article 82. Cycles et leurs remorques",
+      "title_nl": "Artikel 82. Rijwielen en hun aanhangwagens",
+      "title_ru": "Статья 82. Велосипеды и прицепы к ним",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "82bis",
+      "slug": "art-82bis",
+      "structure": {
+        "titre": "IV",
+        "chapitre": null
+      },
+      "title_fr": "Article 82bis. Engins de déplacement",
+      "title_nl": "Artikel 82bis. Voortbewegingstoestellen",
+      "title_ru": "Статья 82bis. Передвижное оборудование",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "83",
+      "slug": "art-83",
+      "structure": {
+        "titre": "IV",
+        "chapitre": null
+      },
+      "title_fr": "Article 83. Véhicules attelés",
+      "title_nl": "Artikel 83. Gespannen",
+      "title_ru": "Статья 83. Сцепленные транспортные средства",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "84",
+      "slug": "art-84",
+      "structure": {
+        "titre": "V",
+        "chapitre": null
+      },
+      "title_fr": "Article 84. Dispositions abrogatoires",
+      "title_nl": "Artikel 84. Opheffing",
+      "title_ru": "Статья 84. Положения об отмене",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "85",
+      "slug": "art-85",
+      "structure": {
+        "titre": "V",
+        "chapitre": null
+      },
+      "title_fr": "Article 85. Dispositions transitoires",
+      "title_nl": "Artikel 85. Overgangsbepalingen",
+      "title_ru": "Статья 85. Переходные положения",
+      "has_images": true,
+      "sign_codes": [
+        "p begin",
+        "p einde"
+      ]
+    },
+    {
+      "number": "86",
+      "slug": "art-86",
+      "structure": {
+        "titre": "V",
+        "chapitre": null
+      },
+      "title_fr": "Article 86. Mise en vigueur",
+      "title_nl": "Artikel 86. Inwerkingtreding",
+      "title_ru": "Статья 86. Вступление в силу",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "87",
+      "slug": "art-87",
+      "structure": {
+        "titre": "V",
+        "chapitre": null
+      },
+      "title_fr": "Article 87",
+      "title_nl": "Artikel 87",
+      "title_ru": "Статья 87",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}

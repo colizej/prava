@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "34",
+  "slug": "art-34",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 34. Emploi des miroirs rétroviseurs",
+  "title_nl": "Artikel 34. Gebruik van de achteruitkijkspiegels",
+  "title_ru": "Статья 34. Использование зеркал заднего вида",
+  "content_md_fr": "Le conducteur doit régler les miroirs rétroviseurs de telle manière qu'il puisse, de son siège, surveiller la circulation vers l'arrière et sur la gauche et notamment apercevoir un autre véhicule ayant commencé un dépassement par la gauche.",
+  "content_md_nl": "De bestuurder moet de achteruitkijkspiegels zo stellen dat hij van zijn zitplaats het verkeer achter en links kan gadeslaan en ondermeer een ander voertuig kan waarnemen dat begonnen is links in te halen.",
+  "content_md_ru": "Водитель должен отрегулировать зеркала заднего вида таким образом, чтобы иметь возможность наблюдать за движением сзади и слева с водительского места, в частности, чтобы видеть другой автомобиль, который начал обгон слева.",
+  "content_html_fr": "<p>Le conducteur doit régler les miroirs rétroviseurs de telle manière qu'il puisse, de son siège, surveiller la circulation vers l'arrière et sur la gauche et notamment apercevoir un autre véhicule ayant commencé un dépassement par la gauche.</p>",
+  "content_html_nl": "<p>De bestuurder moet de achteruitkijkspiegels zo stellen dat hij van zijn zitplaats het verkeer achter en links kan gadeslaan en ondermeer een ander voertuig kan waarnemen dat begonnen is links in te halen.</p>",
+  "full_text_fr": "Le conducteur doit régler les miroirs rétroviseurs de telle manière qu'il puisse, de son siège, surveiller la circulation vers l'arrière et sur la gauche et notamment apercevoir un autre véhicule ayant commencé un dépassement par la gauche.",
+  "full_text_nl": "De bestuurder moet de achteruitkijkspiegels zo stellen dat hij van zijn zitplaats het verkeer achter en links kan gadeslaan en ondermeer een ander voertuig kan waarnemen dat begonnen is links in te halen.",
+  "full_text_ru": "Водитель должен отрегулировать зеркала заднего вида таким образом, чтобы иметь возможность наблюдать за движением сзади и слева с водительского места, в частности, чтобы видеть другой автомобиль, который начал обгон слева.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "xj2itjih34",
+  "anchor_id_nl": "xryqlu2z33",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "e728ae546bdc",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

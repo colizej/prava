@@ -1,0 +1,46 @@
+{
+  "law_year": "1975",
+  "article_number": "22",
+  "slug": "art-22",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 22. Circulation sur les routes pour automobiles",
+  "title_nl": "Artikel 22. Verkeer op autowegen",
+  "title_ru": "Статья 22undecies. Движение по школьным улицам",
+  "content_md_fr": "**22.1.** La circulation sur les routes pour automobiles est réservée aux véhicules à moteur ainsi qu'à leurs remorques, à l'exception des cyclomoteurs, des véhicules agricoles et des trains de véhicules forains et les quadricycles sans habitacle.\n\n**22.2.** Les dispositions de l'article 21.4. et 21.6 sont applicables sur les routes pour automobiles.",
+  "content_md_nl": "**22.1.** Alleen de motorvoertuigen en hun aanhangwagens, met uitzondering van de bromfietsen, de landbouwvoertuigen en de slepen van kermisvoertuigen alsook de vierwielers zonder passagiersruimte, worden tot het verkeer op autowegen toegelaten.\n\n**22.2.** De bepalingen van [artikel 21.4](#art-21.4). en 21.6. gelden op de autowegen.",
+  "content_md_ru": "![C3](знак:C3) C3\n![Школьная улица](знак:Школьная улица)\n\nНа школьных улицах общественное шоссе предназначено для пешеходов и велосипедистов, а также для скоростных пепелацев.\n\n> ℹ️ Слова \"скоростные педели\" следует читать как \"скоростные педели\".\n\nНа школьную улицу допускаются только приоритетные транспортные средства, указанные в [статье 37] (#art-37), когда это оправдано характером их задач, а также транспортные средства, имеющие разрешение, выданное дорожным управляющим.\n\nВодители, пользующиеся школьной дорогой, должны соблюдать пешеходный режим, уступать дорогу пешеходам и велосипедистам, предоставлять им право проезда и, в случае необходимости, останавливаться. Водители не должны создавать опасности или препятствия для пешеходов и велосипедистов.",
+  "content_html_fr": "<p><strong><a name=\"22.1\"></a>22.1.</strong> La circulation sur les routes pour automobiles est réservée aux véhicules à moteur ainsi qu'à leurs remorques, à l'exception des cyclomoteurs, des véhicules agricoles et des trains de véhicules forains et les quadricycles sans habitacle.</p><p><strong>22.2.</strong> Les dispositions de l'article 21.4. et 21.6 sont applicables sur les routes pour automobiles.</p>",
+  "content_html_nl": "<p><strong><a name=\"22.1\"></a>22.1.</strong> Alleen de motorvoertuigen en hun aanhangwagens, met uitzondering van de bromfietsen, de landbouwvoertuigen en de slepen van kermisvoertuigen alsook de vierwielers zonder passagiersruimte, worden tot het verkeer op autowegen toegelaten.</p><p><strong><a name=\"22.2\"></a>22.2.</strong> De bepalingen van <a href=\"#art-21.4\">artikel 21.4</a>. en 21.6. gelden op de autowegen.</p>",
+  "full_text_fr": "22.1. La circulation sur les routes pour automobiles est réservée aux véhicules à moteur ainsi qu'à leurs remorques, à l'exception des cyclomoteurs, des véhicules agricoles et des trains de véhicules forains et les quadricycles sans habitacle.\n\n22.2. Les dispositions de l'article 21.4. et 21.6 sont applicables sur les routes pour automobiles.",
+  "full_text_nl": "22.1. Alleen de motorvoertuigen en hun aanhangwagens, met uitzondering van de bromfietsen, de landbouwvoertuigen en de slepen van kermisvoertuigen alsook de vierwielers zonder passagiersruimte, worden tot het verkeer op autowegen toegelaten.\n\n22.2. De bepalingen van artikel 21.4. en 21.6. gelden op de autowegen.",
+  "full_text_ru": "C3 C3\nШкольная улица\n\nНа школьных улицах общественное шоссе предназначено для пешеходов и велосипедистов, а также для скоростных пепелацев.\n\n️ Слова \"скоростные педели\" следует читать как \"скоростные педели\".\n\nНа школьную улицу допускаются только приоритетные транспортные средства, указанные в [статье 37] (#art-37), когда это оправдано характером их задач, а также транспортные средства, имеющие разрешение, выданное дорожным управляющим.\n\nВодители, пользующиеся школьной дорогой, должны соблюдать пешеходный режим, уступать дорогу пешеходам и велосипедистам, предоставлять им право проезда и, в случае необходимости, останавливаться. Водители не должны создавать опасности или препятствия для пешеходов и велосипедистов.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [
+    {
+      "type": "primary",
+      "text": "Слова \"speed pedelecs\" следует читать как \"скоростные педали\"."
+    }
+  ],
+  "cross_refs": [],
+  "anchor_id_fr": "th29jmkqia",
+  "anchor_id_nl": "mc3tvvucg3",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "bd6e2a09c77e",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "22novies",
+  "slug": "art-22novies",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 22novies. Circulation dans les zones cyclables",
+  "title_nl": "Artikel 22novies. Verkeer in fietszones",
+  "title_ru": "Статья 22новости. Движение в велосипедных зонах",
+  "content_md_fr": "Dans les zones cyclables, le cycliste peut utiliser toute la largeur de la chaussée lorsqu’elle n’est ouverte qu’à son sens de circulation et la moitié de la largeur située du côté droit lorsqu’elle est ouverte aux deux sens de circulation. Toute zone cyclable est accessible aux véhicules à moteur. Ils ne peuvent toutefois pas dépasser les cyclistes. La vitesse ne peut jamais y être supérieure à 30 km/h.\n\nPour l’application du présent article, sont assimilés aux cyclistes : les conducteurs de cycles ou de speed pedelecs.",
+  "content_md_nl": "In fietszones mogen de fietsers de ganse breedte van de rijbaan gebruiken voor zover deze slechts opengesteld is in hun rijrichting en de helft van de breedte langs de rechterzijde indien de rijbaan opengesteld is in beide rijrichtingen. Motorvoertuigen hebben toegang tot fietszones. Zij mogen de fietsers evenwel niet inhalen. De snelheid mag in een fietszone nooit hoger liggen dan 30 kilometer per uur.\n\nWorden voor de toepassing van dit artikel met fietsers gelijkgesteld: de bestuurders van rijwielen of speed pedelecs.",
+  "content_md_ru": "В велозонах велосипедисты могут использовать всю ширину проезжей части, если она открыта только для одного направления движения, и половину ширины с правой стороны, если она открыта для движения в обоих направлениях. Все велосипедные зоны доступны для автотранспорта. Однако они не имеют права обгонять велосипедистов. Ограничение скорости не должно превышать 30 км/ч.\n\nДля целей данной статьи велосипедистами считаются: водители велосипедов или скоростных педелей.",
+  "content_html_fr": "<p>Dans les zones cyclables, le cycliste peut utiliser toute la largeur de la chaussée lorsqu’elle n’est ouverte qu’à son sens de circulation et la moitié de la largeur située du côté droit lorsqu’elle est ouverte aux deux sens de circulation. Toute zone cyclable est accessible aux véhicules à moteur. Ils ne peuvent toutefois pas dépasser les cyclistes. La vitesse ne peut jamais y être supérieure à 30 km/h.</p><p>Pour l’application du présent article, sont assimilés aux cyclistes : les conducteurs de cycles ou de speed pedelecs.</p>",
+  "content_html_nl": "<p>In fietszones mogen de fietsers de ganse breedte van de rijbaan gebruiken voor zover deze slechts opengesteld is in hun rijrichting en de helft van de breedte langs de rechterzijde indien de rijbaan opengesteld is in beide rijrichtingen. Motorvoertuigen hebben toegang tot fietszones. Zij mogen de fietsers evenwel niet inhalen. De snelheid mag in een fietszone nooit hoger liggen dan 30 kilometer per uur.</p><p>Worden voor de toepassing van dit artikel met fietsers gelijkgesteld: de bestuurders van rijwielen of speed pedelecs.</p>",
+  "full_text_fr": "Dans les zones cyclables, le cycliste peut utiliser toute la largeur de la chaussée lorsqu’elle n’est ouverte qu’à son sens de circulation et la moitié de la largeur située du côté droit lorsqu’elle est ouverte aux deux sens de circulation. Toute zone cyclable est accessible aux véhicules à moteur. Ils ne peuvent toutefois pas dépasser les cyclistes. La vitesse ne peut jamais y être supérieure à 30 km/h.\n\nPour l’application du présent article, sont assimilés aux cyclistes : les conducteurs de cycles ou de speed pedelecs.",
+  "full_text_nl": "In fietszones mogen de fietsers de ganse breedte van de rijbaan gebruiken voor zover deze slechts opengesteld is in hun rijrichting en de helft van de breedte langs de rechterzijde indien de rijbaan opengesteld is in beide rijrichtingen. Motorvoertuigen hebben toegang tot fietszones. Zij mogen de fietsers evenwel niet inhalen. De snelheid mag in een fietszone nooit hoger liggen dan 30 kilometer per uur.\n\nWorden voor de toepassing van dit artikel met fietsers gelijkgesteld: de bestuurders van rijwielen of speed pedelecs.",
+  "full_text_ru": "В велозонах велосипедисты могут использовать всю ширину проезжей части, если она открыта только для одного направления движения, и половину ширины с правой стороны, если она открыта для движения в обоих направлениях. Все велосипедные зоны доступны для автотранспорта. Однако они не имеют права обгонять велосипедистов. Ограничение скорости не должно превышать 30 км/ч.\n\nДля целей данной статьи велосипедистами считаются: водители велосипедов или скоростных педелей.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "hah4d5gjlc",
+  "anchor_id_nl": "0qxtbauqtv",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "0af73a76810c",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "law_year": "1975",
+  "article_number": "74",
+  "slug": "art-74",
+  "structure": {
+    "titre": "III",
+    "chapitre": "III"
+  },
+  "title_fr": "Article 74. Marques longitudinales indiquant une piste cyclable",
+  "title_nl": "Artikel 74. Overlangse markeringen die een fietspad aanduiden",
+  "title_ru": "Статья 74. Продольная разметка, обозначающая велосипедную дорожку",
+  "content_md_fr": "La partie de la voie publique délimitée par deux lignes discontinues parallèles de couleur blanche et n'ayant pas une largeur suffisante pour permettre la circulation des véhicules automobiles, constitue une piste cyclable.\n\n![sign](/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg)",
+  "content_md_nl": "Het deel van de openbare weg dat afgebakend is door twee evenwijdige witte onderbroken strepen en dat niet breed genoeg is voor het autoverkeer, is een fietspad.\n\n![sign](/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg)",
+  "content_md_ru": "Часть дороги общего пользования, ограниченная двумя параллельными пунктирными белыми линиями, ширина которой недостаточна для движения по ней автотранспорта, является велосипедной дорожкой.\n\n![sign](/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg)",
+  "content_html_fr": "<p>La partie de la voie publique délimitée par deux lignes discontinues parallèles de couleur blanche et n'ayant pas une largeur suffisante pour permettre la circulation des véhicules automobiles, constitue une piste cyclable.</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg\"/></p>",
+  "content_html_nl": "<p>Het deel van de openbare weg dat afgebakend is door twee evenwijdige witte onderbroken strepen en dat niet breed genoeg is voor het autoverkeer, is een fietspad.</p><p style=\"padding-left: 30px;\"><img src=\"/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg\"/></p>",
+  "full_text_fr": "La partie de la voie publique délimitée par deux lignes discontinues parallèles de couleur blanche et n'ayant pas une largeur suffisante pour permettre la circulation des véhicules automobiles, constitue une piste cyclable.\n\nsign",
+  "full_text_nl": "Het deel van de openbare weg dat afgebakend is door twee evenwijdige witte onderbroken strepen en dat niet breed genoeg is voor het autoverkeer, is een fietspad.\n\nsign",
+  "full_text_ru": "Часть дороги общего пользования, ограниченная двумя параллельными пунктирными белыми линиями, ширина которой недостаточна для движения по ней автотранспорта, является велосипедной дорожкой.\n\nsign",
+  "images": [
+    {
+      "src": "/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg",
+      "alt": "",
+      "full_url": "https://www.codedelaroute.be/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg"
+    }
+  ],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "bogok2zg5p",
+  "anchor_id_nl": "rsmlbm9imo",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "8b001bc9be76",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

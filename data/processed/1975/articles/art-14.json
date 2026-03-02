@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "14",
+  "slug": "art-14",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 14. Dégagement des carrefours",
+  "title_nl": "Artikel 14. Vrijmaken van de kruispunten",
+  "title_ru": "Статья 14. Очистка перекрестков",
+  "content_md_fr": "**14.1.** Le conducteur engagé dans un carrefour où la circulation est réglée par un agent qualifié ou des signaux lumineux de circulation, peut dégager le carrefour sans attendre que la circulation soit ouverte dans le sens où il va s'engager, sauf si un feu rouge placé à sa droite sur la voie publique qu'il va emprunter le lui interdit.\n\n**14.2.** Même si des signaux lumineux de circulation l'y autorisent, un conducteur ne peut s'engager dans un carrefour si l'encombrement de la circulation est tel qu'il serait vraisemblablement immobilisé dans le carrefour, gênant ou empêchant ainsi la circulation dans les directions transversales.",
+  "content_md_nl": "**14.1.** De bestuurder die een kruispunt opgereden is waar het verkeer geregeld wordt door een bevoegd persoon of door verkeerslichten, mag dit kruispunt vrijmaken zonder te wachten tot het verkeer opengesteld is in de richting die hij gaat nemen, behalve indien op de weg die hij gaat volgen een aan zijn rechterzijde geplaatst rood licht hem zulks verbiedt.\n\n**14.2.** Zelfs indien verkeerslichten het toelaten, mag een bestuurder een kruispunt niet oprijden wanneer het verkeer zodanig belemmerd is dat hij waarschijnlijk op het kruispunt zou moeten stoppen en aldus het dwarsverkeer zou hinderen of beletten.",
+  "content_md_ru": "**14.1.** Водитель, въезжающий на перекресток, где движение регулируется квалифицированным должностным лицом или светофором, может покинуть перекресток, не дожидаясь, пока откроется движение в том направлении, в котором он собирается въехать, если только ему не запрещает это сделать красный сигнал светофора справа от него на дороге общего пользования, которой он собирается воспользоваться.\n\n**14.2.** Даже если это разрешено светофором, водитель не может въезжать на перекресток, если загруженность дороги такова, что он может застопорить движение на перекрестке, тем самым затрудняя или препятствуя движению в поперечном направлении.",
+  "content_html_fr": "<p><strong>14.1.</strong> Le conducteur engagé dans un carrefour où la circulation est réglée par un agent qualifié ou des signaux lumineux de circulation, peut dégager le carrefour sans attendre que la circulation soit ouverte dans le sens où il va s'engager, sauf si un feu rouge placé à sa droite sur la voie publique qu'il va emprunter le lui interdit.</p><p><strong>14.2.</strong> Même si des signaux lumineux de circulation l'y autorisent, un conducteur ne peut s'engager dans un carrefour si l'encombrement de la circulation est tel qu'il serait vraisemblablement immobilisé dans le carrefour, gênant ou empêchant ainsi la circulation dans les directions transversales.</p>",
+  "content_html_nl": "<p><strong>14.1.</strong> De bestuurder die een kruispunt opgereden is waar het verkeer geregeld wordt door een bevoegd persoon of door verkeerslichten, mag dit kruispunt vrijmaken zonder te wachten tot het verkeer opengesteld is in de richting die hij gaat nemen, behalve indien op de weg die hij gaat volgen een aan zijn rechterzijde geplaatst rood licht hem zulks verbiedt.</p><p><strong>14.2.</strong> Zelfs indien verkeerslichten het toelaten, mag een bestuurder een kruispunt niet oprijden wanneer het verkeer zodanig belemmerd is dat hij waarschijnlijk op het kruispunt zou moeten stoppen en aldus het dwarsverkeer zou hinderen of beletten.</p>",
+  "full_text_fr": "14.1. Le conducteur engagé dans un carrefour où la circulation est réglée par un agent qualifié ou des signaux lumineux de circulation, peut dégager le carrefour sans attendre que la circulation soit ouverte dans le sens où il va s'engager, sauf si un feu rouge placé à sa droite sur la voie publique qu'il va emprunter le lui interdit.\n\n14.2. Même si des signaux lumineux de circulation l'y autorisent, un conducteur ne peut s'engager dans un carrefour si l'encombrement de la circulation est tel qu'il serait vraisemblablement immobilisé dans le carrefour, gênant ou empêchant ainsi la circulation dans les directions transversales.",
+  "full_text_nl": "14.1. De bestuurder die een kruispunt opgereden is waar het verkeer geregeld wordt door een bevoegd persoon of door verkeerslichten, mag dit kruispunt vrijmaken zonder te wachten tot het verkeer opengesteld is in de richting die hij gaat nemen, behalve indien op de weg die hij gaat volgen een aan zijn rechterzijde geplaatst rood licht hem zulks verbiedt.\n\n14.2. Zelfs indien verkeerslichten het toelaten, mag een bestuurder een kruispunt niet oprijden wanneer het verkeer zodanig belemmerd is dat hij waarschijnlijk op het kruispunt zou moeten stoppen en aldus het dwarsverkeer zou hinderen of beletten.",
+  "full_text_ru": "14.1. Водитель, въезжающий на перекресток, где движение регулируется квалифицированным должностным лицом или светофором, может покинуть перекресток, не дожидаясь, пока откроется движение в том направлении, в котором он собирается въехать, если только ему не запрещает это сделать красный сигнал светофора справа от него на дороге общего пользования, которой он собирается воспользоваться.\n\n14.2. Даже если это разрешено светофором, водитель не может въезжать на перекресток, если загруженность дороги такова, что он может застопорить движение на перекрестке, тем самым затрудняя или препятствуя движению в поперечном направлении.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "3mttvee6hj",
+  "anchor_id_nl": "wpsxf8bvwr",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "0876d6aad377",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

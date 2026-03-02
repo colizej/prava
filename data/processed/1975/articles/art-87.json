@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "87",
+  "slug": "art-87",
+  "structure": {
+    "titre": "V",
+    "chapitre": null
+  },
+  "title_fr": "Article 87",
+  "title_nl": "Artikel 87",
+  "title_ru": "Статья 87",
+  "content_md_fr": "Notre Ministre des Communications est chargé de l'exécution du présent arrêté.",
+  "content_md_nl": "Onze Minister van Verkeerswezen is belast met de uitvoering van dit besluit.",
+  "content_md_ru": "За выполнение этого указа отвечает наш министр связи.",
+  "content_html_fr": "<p>Notre Ministre des Communications est chargé de l'exécution du présent arrêté.</p>",
+  "content_html_nl": "<p>Onze Minister van Verkeerswezen is belast met de uitvoering van dit besluit.</p>",
+  "full_text_fr": "Notre Ministre des Communications est chargé de l'exécution du présent arrêté.",
+  "full_text_nl": "Onze Minister van Verkeerswezen is belast met de uitvoering van dit besluit.",
+  "full_text_ru": "За выполнение этого указа отвечает наш министр связи.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "fbqvsxmejb",
+  "anchor_id_nl": "3rejs98bye",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "d6da3fc7138d",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

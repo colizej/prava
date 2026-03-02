@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "59/1",
+  "slug": "art-59-1",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 59/1. Essais",
+  "title_nl": "Artikel 59/1. Experimenten",
+  "title_ru": "Статья 59/1. Испытания",
+  "content_md_fr": "Le Ministre qui a la circulation routière dans ses attributions ou son délégué peut dans le cadre d’essais ou de projets pilotes, à titre exceptionnel, autoriser des dérogations aux dispositions du présent règlement, aux conditions et pour une durée limitée qu’il détermine.",
+  "content_md_nl": "De minister bevoegd voor het Wegverkeer of diens afgevaardigde kan in het kader van experimenten of pilootprojecten, bij wijze van uitzondering, onder de door hem vastgestelde voorwaarden en beperkt in de tijd, afwijkingen toestaan op de bepalingen van dit reglement.",
+  "content_md_ru": "Министр, отвечающий за дорожное движение, или его представитель могут в контексте испытаний или экспериментальных проектов в порядке исключения разрешить отступления от положений настоящего регламента на условиях и в течение ограниченного периода, определяемых министром.",
+  "content_html_fr": "<p>Le Ministre qui a la circulation routière dans ses attributions ou son délégué peut dans le cadre d’essais ou de projets pilotes, à titre exceptionnel, autoriser des dérogations aux dispositions du présent règlement, aux conditions et pour une durée limitée qu’il détermine.</p>",
+  "content_html_nl": "<p>De minister bevoegd voor het Wegverkeer of diens afgevaardigde kan in het kader van experimenten of pilootprojecten, bij wijze van uitzondering, onder de door hem vastgestelde voorwaarden en beperkt in de tijd, afwijkingen toestaan op de bepalingen van dit reglement.</p>",
+  "full_text_fr": "Le Ministre qui a la circulation routière dans ses attributions ou son délégué peut dans le cadre d’essais ou de projets pilotes, à titre exceptionnel, autoriser des dérogations aux dispositions du présent règlement, aux conditions et pour une durée limitée qu’il détermine.",
+  "full_text_nl": "De minister bevoegd voor het Wegverkeer of diens afgevaardigde kan in het kader van experimenten of pilootprojecten, bij wijze van uitzondering, onder de door hem vastgestelde voorwaarden en beperkt in de tijd, afwijkingen toestaan op de bepalingen van dit reglement.",
+  "full_text_ru": "Министр, отвечающий за дорожное движение, или его представитель могут в контексте испытаний или экспериментальных проектов в порядке исключения разрешить отступления от положений настоящего регламента на условиях и в течение ограниченного периода, определяемых министром.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "1qboiorkz8",
+  "anchor_id_nl": "wxc1bkjwjx",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "4a51c331c7bf",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

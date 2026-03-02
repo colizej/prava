@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "79",
+  "slug": "art-79",
+  "structure": {
+    "titre": "III",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 79. Balisage de la voie publique",
+  "title_nl": "Artikel 79. Afbakening van de openbare weg",
+  "title_ru": "Статья 79. Дорожная разметка",
+  "content_md_fr": "Les bords de la voie publique ou de la chaussée peuvent être signalés par des dispositifs rétroréfléchissants.\n\nCes dispositifs doivent être placés de manière que les usagers ne voient à leur droite que ceux de couleur rouge ou orange et à leur gauche que ceux de couleur blanche.",
+  "content_md_nl": "De randen van de openbare weg of van de rijbaan mogen gesignaleerd worden door reflectoren.\n\nDeze reflectoren moeten zodanig aangebracht zijn dat de weggebruikers aan hun rechterzijde slechts de rode of oranje en aan hun linkerzijde slechts de witte reflectoren zien.",
+  "content_md_ru": "Края дорог общего пользования или проезжей части могут быть обозначены светоотражающими устройствами.\n\nЭти устройства должны быть размещены таким образом, чтобы пользователи видели красные или оранжевые устройства только справа от себя, а белые - слева.",
+  "content_html_fr": "<p>Les bords de la voie publique ou de la chaussée peuvent être signalés par des dispositifs rétroréfléchissants.</p><p>Ces dispositifs doivent être placés de manière que les usagers ne voient à leur droite que ceux de couleur rouge ou orange et à leur gauche que ceux de couleur blanche.</p>",
+  "content_html_nl": "<p>De randen van de openbare weg of van de rijbaan mogen gesignaleerd worden door reflectoren.</p><p>Deze reflectoren moeten zodanig aangebracht zijn dat de weggebruikers aan hun rechterzijde slechts de rode of oranje en aan hun linkerzijde slechts de witte reflectoren zien.</p>",
+  "full_text_fr": "Les bords de la voie publique ou de la chaussée peuvent être signalés par des dispositifs rétroréfléchissants.\n\nCes dispositifs doivent être placés de manière que les usagers ne voient à leur droite que ceux de couleur rouge ou orange et à leur gauche que ceux de couleur blanche.",
+  "full_text_nl": "De randen van de openbare weg of van de rijbaan mogen gesignaleerd worden door reflectoren.\n\nDeze reflectoren moeten zodanig aangebracht zijn dat de weggebruikers aan hun rechterzijde slechts de rode of oranje en aan hun linkerzijde slechts de witte reflectoren zien.",
+  "full_text_ru": "Края дорог общего пользования или проезжей части могут быть обозначены светоотражающими устройствами.\n\nЭти устройства должны быть размещены таким образом, чтобы пользователи видели красные или оранжевые устройства только справа от себя, а белые - слева.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "qrrpwmcb3m",
+  "anchor_id_nl": "drp9bdyz2h",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "f63ae086f32b",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

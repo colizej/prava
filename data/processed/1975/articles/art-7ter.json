@@ -1,0 +1,41 @@
+{
+  "law_year": "1975",
+  "article_number": "7ter",
+  "slug": "art-7ter",
+  "structure": {
+    "titre": "II",
+    "chapitre": null
+  },
+  "title_fr": "Article 7ter. Conducteurs d’un cycle motorisé",
+  "title_nl": "Artikel 7ter. Bestuurders van een gemotoriseerd rijwiel",
+  "title_ru": "Статья 7ter. Водители моторизованных велосипедов",
+  "content_md_fr": "Les conducteurs de cycles motorisés à deux roues sont assimilés aux cyclistes.\n\nLes conducteurs de cycles motorisés à trois ou quatre roues sont assimilés aux conducteurs de cycles à trois ou quatre roues.\n\nLes prescriptions que les autres usagers doivent respecter à l'égard, des cyclistes et des conducteurs de cycles à trois ou quatre roues respectivement sont également applicables à l'égard des conducteurs de cycles motorisés.",
+  "content_md_nl": "De bestuurders van tweewielige gemotoriseerde rijwielen worden gelijkgesteld met fietsers.\n\nDe bestuurders van drie- of vierwielige gemotoriseerde rijwielen worden gelijkgesteld met de bestuurders van drie-of vierwielige rijwielen.\n\nDe voorschriften die de andere weggebruikers moeten naleven ten opzichte van respectievelijk fietsers en bestuurders van drie- of vierwielige rijwielen, gelden eveneens ten opzichte van bestuurders van gemotoriseerde rijwielen.",
+  "content_md_ru": "К водителям двухколесных мотоциклов относятся так же, как и к велосипедистам.\n\nК водителям трех- или четырехколесных мотоциклов относятся так же, как и к водителям трех- или четырехколесных велосипедов.\n\nПравила, которые другие участники дорожного движения должны соблюдать по отношению к велосипедистам и водителям трех- или четырехколесных велосипедов, соответственно, распространяются и на водителей моторизованных велосипедов.",
+  "content_html_fr": "<p>Les conducteurs de cycles motorisés à deux roues sont assimilés aux cyclistes.</p><p>Les conducteurs de cycles motorisés à trois ou quatre roues sont assimilés aux conducteurs de cycles à trois ou quatre roues.</p><p>Les prescriptions que les autres usagers doivent respecter à l'égard, des cyclistes et des conducteurs de cycles à trois ou quatre roues respectivement sont également applicables à l'égard des conducteurs de cycles motorisés.</p>",
+  "content_html_nl": "<p>De bestuurders van tweewielige gemotoriseerde rijwielen worden gelijkgesteld met fietsers.</p><p>De bestuurders van drie- of vierwielige gemotoriseerde rijwielen worden gelijkgesteld met de bestuurders van drie-of vierwielige rijwielen.</p><p>De voorschriften die de andere weggebruikers moeten naleven ten opzichte van respectievelijk fietsers en bestuurders van drie- of vierwielige rijwielen, gelden eveneens ten opzichte van bestuurders van gemotoriseerde rijwielen.</p>",
+  "full_text_fr": "Les conducteurs de cycles motorisés à deux roues sont assimilés aux cyclistes.\n\nLes conducteurs de cycles motorisés à trois ou quatre roues sont assimilés aux conducteurs de cycles à trois ou quatre roues.\n\nLes prescriptions que les autres usagers doivent respecter à l'égard, des cyclistes et des conducteurs de cycles à trois ou quatre roues respectivement sont également applicables à l'égard des conducteurs de cycles motorisés.",
+  "full_text_nl": "De bestuurders van tweewielige gemotoriseerde rijwielen worden gelijkgesteld met fietsers.\n\nDe bestuurders van drie- of vierwielige gemotoriseerde rijwielen worden gelijkgesteld met de bestuurders van drie-of vierwielige rijwielen.\n\nDe voorschriften die de andere weggebruikers moeten naleven ten opzichte van respectievelijk fietsers en bestuurders van drie- of vierwielige rijwielen, gelden eveneens ten opzichte van bestuurders van gemotoriseerde rijwielen.",
+  "full_text_ru": "К водителям двухколесных мотоциклов относятся так же, как и к велосипедистам.\n\nК водителям трех- или четырехколесных мотоциклов относятся так же, как и к водителям трех- или четырехколесных велосипедов.\n\nПравила, которые другие участники дорожного движения должны соблюдать по отношению к велосипедистам и водителям трех- или четырехколесных велосипедов, соответственно, распространяются и на водителей моторизованных велосипедов.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "8go3h9duzn",
+  "anchor_id_nl": "m4gxvd6fiz",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-02T12:48:16Z",
+    "content_hash": "a323213b9da4",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}
