@@ -1,256 +1,177 @@
-# PRAVA.be — Roadmap de développement
+# PRAVA — Roadmap de développement
 
-> Créé le 27 février 2026
-> Dernière mise à jour : 27 février 2026
-
----
-
-## État actuel du projet
-
-### Ce qui est fait ✅
-
-| Composant | Détails |
-|-----------|---------|
-| **Réglementation** | 122 articles du Code de la route importés, 520 images inline, 5 Titres (catégories) |
-| **Page d'accueil** | 5 cartes catégories + 9 cartes thèmes (2 internes, 7 externes) + bannière panneaux |
-| **CSS/UI** | Tailwind v4.2.1, notifications stylisées, galerie de panneaux, tables zebra |
-| **Liens internes** | 31 liens smart-routing dans les notifications d'articles |
-| **Examens app** | Models (Question, AnswerOption, TestAttempt, ExamCategory), views, quiz UI Alpine.js — **tout prêt** |
-| **Accounts app** | UserProfile, DailyQuota, auth views — **prêt** |
-| **Blog app** | Models, views, sitemaps — **1 article** |
-| **Infra** | Django 5.x, Python 3.14, SQLite3, Git sur GitHub |
-
-### Ce qui manque ❌
-
-| Composant | Problème |
-|-----------|----------|
-| **Examens** | **0 questions** dans la base → quiz est inutilisable |
-| **Panneaux** | **0 panneaux** dans TrafficSign (table vide) |
-| **Théorie** | Pas de section « cours » pédagogique |
-| **Blog** | Seulement 1 article → pas de SEO |
-| **Thèmes** | 7 des 9 thèmes pointent vers codedelaroute.be |
-| **Monétisation** | Pas de Stripe/Mollie, pas de paywall |
-
-### Données scrapées disponibles
-
-| Source | Contenu | Quantité |
-|--------|---------|----------|
-| **permisdeconduire-online.be** | Questions d'examen avec réponses et explications | **54 questions** (45 QCM, 7 oui/non, 2 numériques) |
-| **readytoroad.be** | Cours théoriques structurés | **13 catégories, 54 leçons**, 91 images |
-| **codedelaroute.be** | Code de la route complet (déjà importé) | 122 articles, 93 images |
-| **permis24.be** | Rien (paywall total) | 0 |
+> Dernière mise à jour : 2 mars 2026
 
 ---
 
-## Plan d'action par étapes
+## Légende statut
 
-### Étape 1 — Lancer le module Examens (PRIORITÉ HAUTE)
-
-**Objectif :** Passer de 0 à ~250+ questions → quiz fonctionnel.
-
-**Durée estimée :** 1-2 sessions de travail
-
-#### 1.1 Importer les 54 questions scrapées
-
-- **Source :** `data/sites/permisdeconduire-online.be/output/exam_questions_complete.json`
-- **Format :** 45 QCM (A/B/C) + 7 oui/non + 2 numériques, toutes avec explications
-- **Actions :**
-  - Écrire un script d'import `scripts/import_questions.py`
-  - Créer les ExamCategory correspondantes (catégoriser par thème)
-  - Mapper les questions aux catégories
-  - Télécharger les 54 images de questions depuis `examen.gratisrijbewijsonline.be`
-  - Vérifier la qualité des données
-
-#### 1.2 Générer des questions depuis le Code de la route
-
-- **Source :** 122 articles dans la DB + images de panneaux
-- **Méthode :** Script qui génère des questions basées sur les articles clés :
-  - Vitesse : « Quelle est la vitesse maximale en agglomération ? » → Art. 11
-  - Panneaux : « Que signifie ce panneau ? » → Art. 65-71
-  - Priorités : « Qui a la priorité dans cette situation ? » → Art. 12
-  - Stationnement : « Où est-il interdit de stationner ? » → Art. 24-25
-  - Dépassement : « Quand est-il interdit de dépasser ? » → Art. 16-17
-- **Objectif :** ~150-200 questions supplémentaires
-- **Qualité :** Chaque question liée à son code_article dans la DB
-
-#### 1.3 Créer les catégories d'examen
-
-Catégories proposées (alignées sur readytoroad.be + examens officiels) :
-
-| Catégorie | Icône | Thèmes couverts |
-|-----------|-------|-----------------|
-| Voie publique | 🛣️ | Définitions, usagers, types de voies |
-| Vitesse et freinage | ⚡ | Limitations, distances, zones 30 |
-| Priorités | 🔺 | Carrefours, ronds-points, trams |
-| Dépassement | ↔️ | Règles, interdictions, croisement |
-| Signalisation | 🚦 | Panneaux, feux, marquages |
-| Stationnement | 🅿️ | Arrêt, zones, disque bleu |
-| Obligations | 📋 | Ceinture, GSM, alcool, documents |
-| Situation de conduite | 🚗 | Autoroute, tunnel, météo, nuit |
+| Symbole | Signification |
+|---------|---------------|
+| ✅ | Terminé |
+| 🔄 | En cours |
+| 🔜 | Prochain |
+| ⬜ | Planifié |
+| 🔒 | Bloqué / dépend d'une autre tâche |
 
 ---
 
-### Étape 2 — Importer les cours théoriques
+## Phase 0 — Architecture & Nettoyage ✅
 
-**Objectif :** Section « Apprendre » avec contenu pédagogique (pas le texte de loi, mais des explications).
+> Durée : 1-2 jours | **Terminée : 2 mars 2026**
 
-**Durée estimée :** 1-2 sessions
-
-#### 2.1 Créer le modèle de données
-
-Options :
-- **Option A :** Nouvelle app `cours/` avec Lesson, LessonCategory
-- **Option B :** Réutiliser le blog avec une catégorie « Cours théorique »
-- **Recommandé :** Option A — app dédiée, plus propre
-
-#### 2.2 Importer les 54 leçons
-
-- **Source :** `data/sites/readytoroad.be/output/lessons_data_complete.json`
-- **13 catégories :**
-  1. La voie publique (7 leçons)
-  2. Usagers et conducteurs (3)
-  3. Les véhicules (8)
-  4. La vitesse et le freinage (2)
-  5. Dépassement et croisement (3)
-  6. Les priorités (6)
-  7. Obligations et interdictions (2)
-  8. Arrêt et stationnement (4)
-  9. Divers (4)
-  10. Fautes graves (1)
-  11. Les panneaux (7)
-  12. Moto (3)
-  13. Cyclomoteurs (4)
-- **91 images** déjà téléchargées dans `data/sites/readytoroad.be/output/images/`
-
-#### 2.3 Templates et navigation
-
-- Page index cours avec catégories
-- Page leçon avec contenu, images, navigation précédent/suivant
-- Lier les leçons aux questions d'examen correspondantes (cross-reference)
+- [x] Audit complet du code existant (scripts, data, docs)
+- [x] Nouvelle structure de dossiers (`data/laws/`, `data/processed/`, `data/sources/`)
+- [x] Archivage des anciens scripts (`scripts/archive/`)
+- [x] Archivage de l'ancienne documentation (`docs/archive/`)
+- [x] Création de la documentation vivante (README, ARCHITECTURE, ROADMAP, DATA_SCHEMA, SCRIPTS)
+- [x] Création de la structure `scripts/pipeline/` et `scripts/utils/`
 
 ---
 
-### Étape 3 — Enrichir le blog (SEO)
+## Phase 1 — Scraping FR + NL 🔜
 
-**Objectif :** Attirer du trafic organique via Google.
+> Durée estimée : 3-5 jours
 
-**Durée estimée :** progressive, 1 article par session
+### Scripts à implémenter
+- [ ] `scripts/pipeline/01_scrape.py` — scraper FR (codedelaroute.be) + NL (wegcode.be)
+  - [ ] Scraper le code de la route principal (Titres I–V, ~100 articles)
+  - [ ] Scraper les thèmes complémentaires (permis, assurance, amendes)
+  - [ ] Sauvegarder → `data/laws/1975/fr_reglementation.json` et `nl_reglementation.json`
+  - [ ] Détection de diff au 2ème lancement (afficher les changements)
+- [ ] `scripts/utils/http_client.py` — client HTTP avec retry, rate limiting
+- [ ] `scripts/utils/diff_checker.py` — comparaison JSON (détection modifications)
 
-#### Articles prioritaires :
+### Thèmes à scraper sur codedelaroute.be / wegcode.be
+- [ ] Code de la route (Titres I–V) — déjà disponible dans `data/laws/1975/fr_reglementation_raw.json`
+- [ ] Permis de conduire
+- [ ] Assurance
+- [ ] Infractions & amendes (Code pénal de la route)
 
-1. « Comment obtenir le permis de conduire en Belgique — Guide complet 2026 »
-2. « Examen théorique du permis de conduire : tout ce qu'il faut savoir »
-3. « 10 erreurs fréquentes à l'examen du permis de conduire »
-4. « Les panneaux de signalisation en Belgique — Guide illustré »
-5. « Permis de conduire provisoire en Belgique : modèle 3, 18 mois, 36 mois »
-6. « Vitesse maximale en Belgique : zones, amendes, tolérances »
-7. « Code de la route belge : les changements en 2026 »
-8. « Permis de conduire pour étrangers en Belgique »
-
-#### SEO technique :
-- Sitemaps déjà configurés (blog + réglementation)
-- Ajouter meta descriptions, Open Graph tags
-- Ajouter des liens internes vers réglementation et quiz
-
----
-
-### Étape 4 — Panneaux de signalisation (TrafficSign)
-
-**Objectif :** Catalogue interactif des panneaux belges.
-
-**Durée estimée :** 1-2 sessions
-
-- Les images sont déjà dans `media/signs/` et `media/reglementation/`
-- Écrire un script d'import pour peupler TrafficSign
-- Catégoriser : danger, interdiction, obligation, indication, priorité
-- Lier aux articles du Code de la route (Art. 65-71)
-- Ajouter un mode « quiz panneaux » (reconnaissance visuelle)
-
----
-
-### Étape 5 — Monétisation (Phase 2)
-
-**Objectif :** Modèle freemium — gratuit limité, premium illimité.
-
-**Durée estimée :** 2-3 sessions
-
-#### Modèle freemium :
-- **Gratuit :** 5 questions/jour, accès aux cours, accès au Code de la route
-- **Premium (€9.99/mois ou €29.99/an) :** Quiz illimité, mode examen, statistiques détaillées, pas de pub
-
-#### Technique :
-- DailyQuota existe déjà dans accounts
-- Intégrer Mollie (préféré en Belgique) ou Stripe
-- Pages pricing, checkout, confirmation
-- Webhooks pour activer/désactiver premium
-
----
-
-### Étape 6 — Contenu additionnel (Phase 3)
-
-**Objectif :** Importer d'autres lois belges pour couvrir les 9 thèmes.
-
-#### 6.1 Permis de conduire (AR 23 mars 1998)
-
-- **Taille :** ~92 articles, 20 annexes, 3 variantes régionales par article
-- **Complexité :** HAUTE — nécessite extension du modèle de données
-- **Prérequis :** Modèle `Regulation` parent (pour séparer Code de la route / Permis de conduire)
-- **Priorité :** Après que le produit principal fonctionne
-
-#### 6.2 Autres lois (Conditions techniques, Transport, Assurance...)
-
-- Scraping depuis codedelaroute.be/fr/reglementation/theme/*
-- 7 thèmes restants → 47 lois au total (Politique criminelle en a le plus)
-- Travail progressif, une loi à la fois
-
----
-
-## Ordre de priorité résumé
-
+### Données de sortie
 ```
-    ╔═══════════════════════════════════════════════════════════════╗
-    ║                                                               ║
-    ║  1. EXAMENS        ← le plus urgent, transforme le produit    ║
-    ║     Import 54 Q + Génération ~200 Q                          ║
-    ║                                                               ║
-    ║  2. COURS THÉORIE  ← contenu pédagogique, UX complète        ║
-    ║     Import 54 leçons + 91 images                             ║
-    ║                                                               ║
-    ║  3. BLOG SEO       ← trafic organique, progressif            ║
-    ║     8+ articles ciblés                                       ║
-    ║                                                               ║
-    ║  4. PANNEAUX       ← quiz visuel, valeur ajoutée             ║
-    ║     Import + catalogue + quiz                                ║
-    ║                                                               ║
-    ║  5. MONÉTISATION   ← quand le produit est complet            ║
-    ║     Mollie/Stripe, freemium                                  ║
-    ║                                                               ║
-    ║  6. LOIS EXTERNES  ← expansion du contenu                    ║
-    ║     Permis de conduire et autres arrêtés                     ║
-    ║                                                               ║
-    ╚═══════════════════════════════════════════════════════════════╝
+data/laws/1975/
+├── fr_reglementation.json     # Version nettoyée et structurée
+├── fr_reglementation_raw.json # Brut scrapé (déjà présent)
+└── nl_reglementation.json     # À créer
 ```
 
 ---
 
-## Métriques de succès
+## Phase 2 — Traduction RU 🔒
 
-| Étape | KPI | Cible |
-|-------|-----|-------|
-| 1 | Questions dans DB | 250+ |
-| 2 | Leçons importées | 54 |
-| 3 | Articles blog | 8+ |
-| 4 | Panneaux dans DB | 100+ |
-| 5 | Paiement fonctionnel | Oui/Non |
-| 6 | Lois importées | 2+ |
+> Durée estimée : 1-2 jours | Dépend de Phase 1
+
+- [ ] `scripts/pipeline/02_translate.py`
+  - [ ] Connexion DeepL Free API (clé dans `.env`)
+  - [ ] Traduction FR → RU article par article
+  - [ ] Gestion du quota (500k car/mois) — traduction progressive
+  - [ ] Sauvegarde → `data/laws/1975/ru_reglementation.json`
+- [ ] `scripts/utils/deepl_client.py` — client DeepL avec gestion quota
+
+### Stratégie quota DeepL Free
+- ~100 articles × ~3 000 car. = ~300 000 car. pour le code de la route
+- Budget restant (~200k) pour thèmes complémentaires et questions
+- Si quota dépassé : mise en file d'attente, reprise le mois suivant
 
 ---
 
-## Stack technique rappel
+## Phase 3 — Traitement & Découpage 🔒
 
-- **Backend :** Django 5.x, Python 3.14
-- **DB :** SQLite3 (dev) → PostgreSQL (prod)
-- **Frontend :** Django Templates + Tailwind CSS v4.2.1 + Alpine.js
-- **Build :** `make css` (Tailwind CLI)
-- **Git :** github.com:colizej/prava.git, branche main
-- **Commits :** `git commit -F /tmp/commit_msg.txt` (multiline)
+> Durée estimée : 2-3 jours | Dépend de Phase 1
+
+- [ ] `scripts/pipeline/03_process.py`
+  - [ ] Découper le JSON complet en fichiers par article (`data/processed/1975/articles/`)
+  - [ ] Grouper par thème (`data/processed/1975/themes/`)
+  - [ ] Extraire les définitions et termes clés
+  - [ ] Extraire les codes de panneaux (signes) pour liaison avec `TrafficSign`
+- [ ] `scripts/utils/json_helpers.py` — utilitaires de transformation JSON
+
+---
+
+## Phase 4 — Génération de questions 🔒
+
+> Durée estimée : 3-5 jours | Dépend de Phase 3
+
+- [ ] `scripts/pipeline/04_questions.py`
+  - [ ] Connexion Gemini 1.5 Flash API (clé dans `.env`)
+  - [ ] Générer 5 questions par article/définition :
+    - 2 questions théoriques ("Que signifie... ?")
+    - 3 questions pratiques (application du règle dans un scénario)
+  - [ ] Pour chaque question : texte (FR/NL/RU), 3 options (A/B/C), explication, prompt image
+  - [ ] Sauvegarder → `data/processed/questions/` (un JSON par article)
+  - [ ] Mode révision : régénérer seulement les questions manquantes
+- [ ] `scripts/utils/gemini_client.py` — client Gemini avec rate limiting
+
+### Stratégie Gemini Free
+- 15 req/min, 1M tokens/jour sur tier gratuit
+- ~100 articles × 1 requête = ~100 requêtes (~7 min à 15 req/min)
+- Résultat stocké en JSON → révision manuelle dans l'admin avant import
+
+---
+
+## Phase 5 — Import en base de données 🔒
+
+> Durée estimée : 2-3 jours | Dépend de Phase 3 + 4
+
+- [ ] `scripts/pipeline/05_import.py`
+  - [ ] Importer `RuleCategory`, `CodeArticle`, `TrafficSign` (from `data/processed/`)
+  - [ ] Importer les questions (`ExamQuestion`, `QuestionOption`)
+  - [ ] Gestion des doublons (update si slug existe, créer sinon)
+  - [ ] Rapport d'import (nb créés, mis à jour, erreurs)
+- [ ] Management command Django : `manage.py import_laws`
+
+---
+
+## Phase 6 — Admin Dashboard 🔒
+
+> Durée estimée : 3-5 jours | Dépend de Phase 5
+
+- [ ] Vue admin custom `PravaDashboard` (accès superuser uniquement)
+- [ ] 4 boutons-pipelines avec feedback en temps réel (HTMX + SSE ou polling)
+  1. **Scraper FR + NL** → déclenche `01_scrape.py`
+  2. **Traduire en RU** → déclenche `02_translate.py`
+  3. **Générer questions** → déclenche `03_process.py` + `04_questions.py`
+  4. **Importer en BDD** → déclenche `05_import.py`
+- [ ] Interface de révision des questions (liste + édition inline)
+- [ ] Affichage des diffs au re-scraping
+
+---
+
+## Phase 7 — Frontend utilisateur 🔒
+
+> Durée estimée : 5-7 jours | Dépend de Phase 5
+
+- [ ] Page liste des thèmes (`/reglementation/`)
+- [ ] Page article (`/reglementation/{slug}/`)
+- [ ] Page examen (`/examen/`)
+- [ ] Système de badges quotidiens (1 badge = 1 connexion)
+- [ ] Règle freemium :
+  - Illimité : lecture des règles
+  - Limité gratuit : N tests de base par jour (badge)
+  - Premium : simulations illimitées, examen complet 50 questions
+
+---
+
+## Phase 8 — SEO & Publication 2027 ⬜
+
+> Durée estimée : ongoing
+
+- [ ] Sitemap XML (articles, thèmes)
+- [ ] Meta tags dynamiques (Open Graph, Schema.org)
+- [ ] Rédaction articles blog (aide à l'indexation)
+- [ ] Préparation contenu loi 2027 (publication progressive)
+- [ ] Traductions RU restantes (au fur et à mesure du quota DeepL)
+
+---
+
+## Vue d'ensemble du calendrier
+
+```
+Mars 2026    : Phase 0 ✅ + Phase 1 🔄 (scraping FR/NL)
+Avril 2026   : Phase 2 (traduction RU) + Phase 3 (traitement)
+Mai 2026     : Phase 4 (questions) + Phase 5 (import BDD)
+Juin 2026    : Phase 6 (admin dashboard)
+Juil. 2026   : Phase 7 (frontend utilisateur) + lancement beta
+Août+ 2026   : Phase 8 (SEO, contenu 2027 progressif)
+```

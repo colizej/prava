@@ -1,0 +1,227 @@
+{
+  "category": {
+    "slug": "dispositions-preliminaires",
+    "name": "Titre I. Dispositions préliminaires",
+    "name_nl": "Titel I. Inleidende bepalingen",
+    "name_ru": "Раздел I. Предварительные положения",
+    "icon": "book-open",
+    "description": "Champ d'application, définitions, ...",
+    "description_nl": "Toepassingsgebied, definities, ...",
+    "description_ru": "Область применения, определения, ...",
+    "order": 1,
+    "meta": {
+      "last_updated": "2026-02-28",
+      "version": "1.0"
+    }
+  },
+  "article_number": "Art. 2",
+  "slug": "article-2-definitions",
+  "title": "Article 2. Définitions",
+  "title_nl": "Artikel 2. Definities",
+  "title_ru": "Статья 2. Определения",
+  "valid_from": "2024-01-01",
+  "valid_to": null,
+  "version": "2.1",
+  "seo": {
+    "title": "Article 2 — Définitions | Code de la route belge",
+    "title_nl": "Artikel 2 — Definities | Belgische wegcode",
+    "title_ru": "Статья 2 — Определения | ПДД Бельгии",
+    "meta_description": "Définitions officielles des 74 termes du code...",
+    "meta_description_nl": "Officiële definities van 74 termen...",
+    "meta_description_ru": "Официальные определения 74 терминов...",
+    "keywords": ["autoroute", "chaussée", "cyclomoteur"],
+    "keywords_nl": ["autosnelweg", "rijbaan", "bromfiets"],
+    "keywords_ru": ["автострада", "проезжая часть", "мопед"],
+    "canonical_url": "/dispositions-preliminaires/article-2-definitions",
+    "og_image": "/images/og/article-2.jpg"
+  },
+  "content_md": "# Article 2. Définitions\n\nPour l'application du présent code, on entend par...\n\n## 2.1. Véhicule à moteur\n\nTout véhicule pourvu d'un moteur de propulsion...",
+  "content_md_nl": "# Artikel 2. Definities\n\nVoor de toepassing van deze code wordt verstaan onder...",
+  "content_md_ru": "# Статья 2. Определения\n\nДля целей настоящего кодекса используются следующие термины...",
+  "content_html": "<h1>Article 2. Définitions</h1>\n<p>Pour l'application...</p>",
+  "content_html_nl": "<h1>Artikel 2. Definities</h1>\n<p>Voor de toepassing...</p>",
+  "content_html_ru": "<h1>Статья 2. Определения</h1>\n<p>Для целей...</p>",
+  "content_text": "Article 2. Définitions. Pour l'application du présent code...",
+  "content_text_nl": "Artikel 2. Definities. Voor de toepassing van deze code...",
+  "content_text_ru": "Статья 2. Определения. Для целей настоящего кодекса...",
+  "definitions": [
+    {
+      "id": "2.3",
+      "slug": "autoroute",
+      "term": "autoroute",
+      "term_nl": "autosnelweg",
+      "term_ru": "автострада",
+      "abbreviation": null,
+      "pronunciation_audio": {
+        "fr": "/audio/fr/autoroute.mp3",
+        "nl": "/audio/nl/autosnelweg.mp3",
+        "ru": "/audio/ru/avtostrada.mp3"
+      },
+      "definition_md": "La voie publique signalée par [F5](/signes/f5) et [F7](/signes/f7)",
+      "definition_md_nl": "De openbare weg aangeduid door [F5](/signes/f5) en [F7](/signes/f7)",
+      "definition_md_ru": "Дорога общего пользования, обозначенная знаками [F5](/signes/f5) и [F7](/signes/f7)",
+      "definition_html": "<p>La voie publique signalée par <a href=\"/signes/f5\">F5</a> et <a href=\"/signes/f7\">F7</a></p>",
+      "definition_html_nl": "<p>De openbare weg aangeduid door <a href=\"/signes/f5\">F5</a> en <a href=\"/signes/f7\">F7</a></p>",
+      "definition_html_ru": "<p>Дорога общего пользования, обозначенная знаками <a href=\"/signes/f5\">F5</a> и <a href=\"/signes/f7\">F7</a></p>",
+      "examples": [
+        {
+          "text": "Circuler sur l'autoroute à une vitesse inférieure à 60 km/h est interdit.",
+          "text_nl": "Op de autosnelweg rijden met een snelheid lager dan 60 km/u is verboden.",
+          "text_ru": "Движение по автостраде со скоростью менее 60 км/ч запрещено."
+        },
+        {
+          "text": "L'autoroute est accessible uniquement aux véhicules motorisés.",
+          "text_nl": "De autosnelweg is alleen toegankelijk voor motorvoertuigen.",
+          "text_ru": "Автострада доступна только для механических транспортных средств."
+        }
+      ],
+      "signs": ["F5", "F7"],
+      "cross_references": [
+        {
+          "target_type": "article",
+          "target_id": "21",
+          "target_slug": "article-21-signaux-autoroute",
+          "title": "Art. 21. Signaux d'autoroute",
+          "title_nl": "Art. 21. Autosnelweg signalen",
+          "title_ru": "Ст. 21. Знаки автострады"
+        },
+        {
+          "target_type": "definition",
+          "target_id": "2.17",
+          "target_slug": "chaussee",
+          "title": "Art. 2.17. Chaussée",
+          "title_nl": "Art. 2.17. Rijbaan",
+          "title_ru": "Ст. 2.17. Проезжая часть"
+        }
+      ],
+      "seo": {
+        "meta_description": "Définition légale de l'autoroute selon le code de la route belge.",
+        "meta_description_nl": "Wettelijke definitie van autosnelweg volgens de Belgische wegcode.",
+        "meta_description_ru": "Юридическое определение автострады по бельгийскому ПДД.",
+        "keywords": ["autoroute", "définition", "code de la route", "F5"],
+        "keywords_nl": ["autosnelweg", "definitie", "wegcode", "F5"],
+        "keywords_ru": ["автострада", "определение", "ПДД", "F5"]
+      },
+      "exam_questions": [
+        {
+          "id": "q_auto_001",
+          "text": "Qu'est-ce que désigne le terme «autoroute»?",
+          "text_nl": "Wat betekent de term «autosnelweg»?",
+          "text_ru": "Что обозначает термин «автострада»?",
+          "difficulty": 1,
+          "category": "definitions",
+          "points": 1,
+          "time_limit_seconds": 30,
+          "image": {
+            "url": "/images/questions/auto_f5.jpg",
+            "alt": "Panneau F5 début d'autoroute",
+            "alt_nl": "Verkeersbord F5 begin autosnelweg",
+            "alt_ru": "Дорожный знак F5 начало автострады",
+            "generation_prompt": "Belgian road sign F5: blue rectangle, white motorway symbol, EU standard, flat vector",
+            "source_url": "https://.../F5.png",
+            "license": "public_domain"
+          },
+          "options": [
+            {
+              "letter": "A", 
+              "text": "Une voie publique signalée par F5 et F7", 
+              "text_nl": "Een openbare weg aangeduid door F5 en F7", 
+              "text_ru": "Дорога общего пользования, обозначенная знаками F5 и F7", 
+              "is_correct": true,
+              "explanation": "C'est la définition exacte de l'article 2.3.",
+              "explanation_nl": "Dit is de exacte definitie van artikel 2.3.",
+              "explanation_ru": "Это точное определение из статьи 2.3."
+            },
+            {
+              "letter": "B", 
+              "text": "Toute route à plusieurs bandes", 
+              "text_nl": "Elke weg met meerdere rijstroken", 
+              "text_ru": "Любая дорога с несколькими полосами", 
+              "is_correct": false,
+              "explanation": "Une route à plusieurs bandes n'est pas nécessairement une autoroute.",
+              "explanation_nl": "Een weg met meerdere rijstroken is niet noodzakelijk een autosnelweg.",
+              "explanation_ru": "Дорога с несколькими полосами не обязательно является автострадой."
+            },
+            {
+              "letter": "C", 
+              "text": "Une route réservée aux véhicules lourds", 
+              "text_nl": "Een weg voorbehouden voor zware voertuigen", 
+              "text_ru": "Дорога, предназначенная для тяжёлых транспортных средств", 
+              "is_correct": false,
+              "explanation": "L'autoroute est accessible à tous les véhicules motorisés, pas seulement aux poids lourds.",
+              "explanation_nl": "De autosnelweg is toegankelijk voor alle motorvoertuigen, niet alleen voor vrachtwagens.",
+              "explanation_ru": "Автострада доступна для всех механических ТС, а не только для грузовиков."
+            }
+          ],
+          "explanation": "L'autoroute est définie par ses signaux F5 (début) et F7 (fin), indépendamment du nombre de bandes.",
+          "explanation_nl": "De autosnelweg wordt gedefinieerd door signalen F5 (begin) en F7 (einde), ongeacht het aantal rijstroken.",
+          "explanation_ru": "Автострада определяется знаками F5 (начало) и F7 (конец), независимо от числа полос.",
+          "hint": "Regardez les panneaux de signalisation.",
+          "hint_nl": "Kijk naar de verkeersborden.",
+          "hint_ru": "Посмотрите на дорожные знаки."
+        }
+      ],
+      "order": 1,
+      "valid_from": "2024-01-01",
+      "valid_to": null,
+      "version": "1.0"
+    }
+  ],
+  "images": [
+    {
+      "id": "img_f5_001",
+      "sign_code": "F5",
+      "url": "/images/signs/f5.svg",
+      "url_png": "/images/signs/f5.png",
+      "alt_text": "Signal F5 — début d'autoroute",
+      "alt_text_nl": "Signaal F5 — begin autosnelweg",
+      "alt_text_ru": "Знак F5 — начало автострады",
+      "caption": "F5 indique le début d'une autoroute",
+      "caption_nl": "F5 geeft het begin van een autosnelweg aan",
+      "caption_ru": "F5 обозначает начало автострады",
+      "source_url": "https://.../F5.svg",
+      "license": "public_domain",
+      "width": 400,
+      "height": 400,
+      "format": "svg",
+      "generation_prompt": "Belgian road sign F5: blue rectangular sign with white highway symbol, European style, vector graphics",
+      "order": 1,
+      "tags": ["autoroute", "debut", "signe"]
+    }
+  ],
+  "related_content": [
+    {
+      "type": "article",
+      "id": "21",
+      "slug": "article-21-signaux-autoroute",
+      "title": "Art. 21. Signaux d'autoroute",
+      "title_nl": "Art. 21. Autosnelweg signalen",
+      "title_ru": "Ст. 21. Знаки автострады",
+      "relationship": "complements"
+    },
+    {
+      "type": "sign_category",
+      "id": "signes-autoroute",
+      "slug": "signes-autoroute",
+      "title": "Signaux d'autoroute",
+      "title_nl": "Autosnelweg signalen",
+      "title_ru": "Знаки автострады",
+      "relationship": "contains"
+    }
+  ],
+  "order": 2,
+  "source_id": "rgppxd5uxd_2024_v2",
+  "source_url": "https://codedelaroute.be/...",
+  "_meta": {
+    "source_type": "pdf",
+    "import_version": "2.1",
+    "last_updated": "2026-02-28",
+    "last_reviewed": "2026-02-28",
+    "reviewed_by": "juriste_legal_team",
+    "validation_status": "approved",
+    "translated_by": "gpt-4o",
+    "translation_reviewed_by": "native_speaker_fr",
+    "schema_version": "2.0",
+    "content_hash": "sha256:a4b3c2d1e5f6..."
+  }
+}

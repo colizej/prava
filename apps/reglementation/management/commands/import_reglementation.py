@@ -1,7 +1,12 @@
 """
 import_reglementation — Import regulation JSON files into the database.
 
-Usage:
+DEPRECATED: This command uses the old v1 data schema (data/archive/reglementation_v1/).
+It is kept for reference only. The new pipeline uses:
+    scripts/pipeline/05_import.py  (reads from data/processed/1975/articles/)
+    OR: python manage.py import_laws  (to be implemented in Phase 5)
+
+Usage (legacy, v1 data):
     python manage.py import_reglementation                  # all files
     python manage.py import_reglementation 01_regles_circulation.json
     python manage.py import_reglementation --clear           # wipe + reimport
@@ -17,8 +22,10 @@ from django.utils.text import slugify
 from apps.reglementation.models import RuleCategory, CodeArticle, ArticleImage
 
 
-DATA_DIR = Path("data/reglementation")
-IMAGES_SRC = Path("data/sites/codedelaroute.be/output/images")
+# DEPRECATED path — v1 schema (5 thematic JSON files, old structure)
+# New pipeline writes to: data/processed/1975/articles/
+DATA_DIR = Path("data/archive/reglementation_v1")
+IMAGES_SRC = Path("data/sources/codedelaroute.be/images")
 IMAGES_DST = Path("media/reglementation")
 
 
@@ -38,6 +45,12 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
+        self.stdout.write(self.style.WARNING(
+            "\n⚠️  DEPRECATED: This command uses the old v1 data schema.\n"
+            "   New pipeline: python scripts/pipeline/05_import.py\n"
+            "   Data source: data/archive/reglementation_v1/ (read-only reference)\n"
+        ))
+
         if options["clear"]:
             n_img, _ = ArticleImage.objects.all().delete()
             n_art, _ = CodeArticle.objects.all().delete()

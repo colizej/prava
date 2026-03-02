@@ -1,0 +1,82 @@
+{
+  "code": "F5",
+  "slug": "f5-debut-autoroute",
+  "category": {
+    "slug": "signes-autoroute",
+    "name": "Signaux d'autoroute",
+    "name_nl": "Autosnelweg signalen",
+    "name_ru": "Знаки автострады",
+    "order": 3
+  },
+  "title": "F5 — Début d'autoroute",
+  "title_nl": "F5 — Begin autosnelweg",
+  "title_ru": "F5 — Начало автострады",
+  "description": "Signale le début d'une autoroute",
+  "description_nl": "Geeft het begin van een autosnelweg aan",
+  "description_ru": "Обозначает начало автострады",
+  "meaning": "À partir de ce panneau, les règles de circulation sur autoroute s'appliquent.",
+  "meaning_nl": "Vanaf dit bord gelden de verkeersregels voor autosnelwegen.",
+  "meaning_ru": "Начиная с этого знака, действуют правила движения по автостраде.",
+  "legislation_refs": [
+    {
+      "article": "2.3",
+      "article_slug": "article-2-definitions#autoroute",
+      "title": "Art. 2.3 - Définition de l'autoroute",
+      "title_nl": "Art. 2.3 - Definitie van autosnelweg",
+      "title_ru": "Ст. 2.3 - Определение автострады"
+    },
+    {
+      "article": "21.1",
+      "article_slug": "article-21-signaux-autoroute#debut",
+      "title": "Art. 21.1 - Signal F5",
+      "title_nl": "Art. 21.1 - Signaal F5",
+      "title_ru": "Ст. 21.1 - Знак F5"
+    }
+  ],
+  "related_terms": ["autoroute", "chaussee", "bande_darret_urgence"],
+  "related_signs": ["F7", "F9", "F11"],
+  "images": {
+    "primary": {
+      "url": "/images/signs/f5.svg",
+      "url_png": "/images/signs/f5.png",
+      "alt": "Panneau F5 début d'autoroute",
+      "alt_nl": "Verkeersbord F5 begin autosnelweg",
+      "alt_ru": "Дорожный знак F5 начало автострады",
+      "width": 400,
+      "height": 400,
+      "format": "svg"
+    },
+    "variants": [
+      {
+        "url": "/images/signs/f5-schema.svg",
+        "description": "Schéma explicatif",
+        "description_nl": "Uitleg schema",
+        "description_ru": "Пояснительная схема"
+      }
+    ]
+  },
+  "specifications": {
+    "shape": "rectangle",
+    "colors": ["blue", "white"],
+    "size": "standard",
+    "placement": "côté droit de la chaussée"
+  },
+  "seo": {
+    "title": "Panneau F5 - Début d'autoroute | Code de la route belge",
+    "title_nl": "Verkeersbord F5 - Begin autosnelweg | Belgische wegcode",
+    "title_ru": "Знак F5 - Начало автострады | ПДД Бельгии",
+    "meta_description": "Signification du panneau F5 (début d'autoroute) selon le code belge. Règles, exceptions, et sanctions.",
+    "meta_description_nl": "Betekenis van verkeersbord F5 (begin autosnelweg) volgens de Belgische wegcode. Regels, uitzonderingen en boetes.",
+    "meta_description_ru": "Значение знака F5 (начало автострады) по бельгийским ПДД. Правила, исключения и штрафы.",
+    "keywords": ["F5", "panneau", "début autoroute", "code de la route", "Belgique"]
+  },
+  "exam_questions": [/* ссылки на вопросы, где используется этот знак */],
+  "valid_from": "1975-01-01",
+  "valid_to": null,
+  "version": "1.0",
+  "_meta": {
+    "last_updated": "2026-02-28",
+    "validation_status": "approved",
+    "schema_version": "1.0"
+  }
+}

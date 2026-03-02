@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["category", "article_number", "title", "seo", "content_html", "content_text", "definitions", "images", "order", "source_id", "_meta"],
+  "properties": {
+    "category": {
+      "type": "object",
+      "required": ["slug", "name", "name_nl", "name_ru", "icon", "description", "description_nl", "description_ru"],
+      "properties": {
+        "slug": {"type": "string"},
+        "name": {"type": "string"},
+        "name_nl": {"type": "string"},
+        "name_ru": {"type": "string"},
+        "icon": {"type": "string"},
+        "description": {"type": "string"},
+        "description_nl": {"type": "string"},
+        "description_ru": {"type": "string"}
+      }
+    },
+    "article_number": {"type": "string"},
+    "title": {"type": "string"},
+    "title_nl": {"type": "string"},
+    "title_ru": {"type": "string"},
+    "seo": {
+      "type": "object",
+      "required": ["title", "title_nl", "title_ru", "meta_description", "meta_description_nl", "meta_description_ru", "keywords", "keywords_nl", "keywords_ru"],
+      "properties": {
+        "title": {"type": "string"},
+        "title_nl": {"type": "string"},
+        "title_ru": {"type": "string"},
+        "meta_description": {"type": "string"},
+        "meta_description_nl": {"type": "string"},
+        "meta_description_ru": {"type": "string"},
+        "keywords": {"type": "array", "items": {"type": "string"}},
+        "keywords_nl": {"type": "array", "items": {"type": "string"}},
+        "keywords_ru": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "content_html": {"type": "string"},
+    "content_html_nl": {"type": "string"},
+    "content_html_ru": {"type": "string"},
+    "content_text": {"type": "string"},
+    "content_text_nl": {"type": "string"},
+    "content_text_ru": {"type": "string"},
+    "definitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "term", "term_nl", "term_ru", "text", "text_nl", "text_ru", "signs", "cross_references", "seo", "exam_questions"],
+        "properties": {
+          "id": {"type": "string"},
+          "term": {"type": "string"},
+          "term_nl": {"type": "string"},
+          "term_ru": {"type": "string"},
+          "text": {"type": "string"},
+          "text_nl": {"type": "string"},
+          "text_ru": {"type": "string"},
+          "signs": {"type": "array", "items": {"type": "string"}},
+          "cross_references": {"type": "array", "items": {"type": "string"}},
+          "seo": {
+            "type": "object",
+            "required": ["meta_description", "meta_description_nl", "meta_description_ru"],
+            "properties": {
+              "meta_description": {"type": "string"},
+              "meta_description_nl": {"type": "string"},
+              "meta_description_ru": {"type": "string"}
+            }
+          },
+          "exam_questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text", "text_nl", "text_ru", "difficulty", "image", "options", "explanation", "explanation_nl", "explanation_ru"],
+              "properties": {
+                "text": {"type": "string"},
+                "text_nl": {"type": "string"},
+                "text_ru": {"type": "string"},
+                "difficulty": {"type": "integer", "minimum": 1, "maximum": 3},
+                "image": {
+                  "type": "object",
+                  "required": ["sign_code", "generation_prompt"],
+                  "properties": {
+                    "sign_code": {"type": "string"},
+                    "generation_prompt": {"type": "string"}
+                  }
+                },
+                "options": {
+                  "type": "array",
+                  "minItems": 3,
+                  "items": {
+                    "type": "object",
+                    "required": ["letter", "text", "text_nl", "text_ru", "is_correct"],
+                    "properties": {
+                      "letter": {"type": "string"},
+                      "text": {"type": "string"},
+                      "text_nl": {"type": "string"},
+                      "text_ru": {"type": "string"},
+                      "is_correct": {"type": "boolean"}
+                    }
+                  }
+                },
+                "explanation": {"type": "string"},
+                "explanation_nl": {"type": "string"},
+                "explanation_ru": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sign_code", "alt_text", "alt_text_nl", "alt_text_ru", "caption", "source_url", "generation_prompt", "order"],
+        "properties": {
+          "sign_code": {"type": "string"},
+          "alt_text": {"type": "string"},
+          "alt_text_nl": {"type": "string"},
+          "alt_text_ru": {"type": "string"},
+          "caption": {"type": "string"},
+          "source_url": {"type": "string"},
+          "generation_prompt": {"type": "string"},
+          "order": {"type": "integer"}
+        }
+      }
+    },
+    "order": {"type": "integer"},
+    "source_id": {"type": "string"},
+    "_meta": {
+      "type": "object",
+      "required": ["source_type", "source_url", "import_version", "last_updated", "validation_status", "translated_by"],
+      "properties": {
+        "source_type": {"type": "string"},
+        "source_url": {"type": "string"},
+        "import_version": {"type": "string"},
+        "last_updated": {"type": "string"},
+        "validation_status": {"type": "string"},
+        "translated_by": {"type": "string"}
+      }
+    }
+  }
+}

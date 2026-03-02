@@ -1,0 +1,51 @@
+{
+  "status_code": 200,
+  "theory_links": 0,
+  "question_links": 2,
+  "login_forms": 0,
+  "premium_indicators": 0,
+  "free_questions": 34,
+  "paid_questions": 0,
+  "sample_links": [
+    {
+      "text": "Permis De Conduire Online",
+      "url": "https://www.permisdeconduire-online.be/"
+    },
+    {
+      "text": "Theorie",
+      "url": "https://www.permisdeconduire-online.be/theorie/theorie"
+    },
+    {
+      "text": "Examens",
+      "url": "https://www.permisdeconduire-online.be/theorie/examens"
+    },
+    {
+      "text": "Reactions",
+      "url": "https://www.permisdeconduire-online.be/theorie/reactions"
+    },
+    {
+      "text": "Pratique",
+      "url": "https://www.permisdeconduire-online.be/theorie/pratique"
+    },
+    {
+      "text": "Gagnez",
+      "url": "https://www.permisdeconduire-online.be/theorie/gagnez"
+    },
+    {
+      "text": "Divers",
+      "url": "https://www.permisdeconduire-online.be/theorie/divers"
+    },
+    {
+      "text": "Comment apprendre la théorie",
+      "url": "https://www.permisdeconduire-online.be/theorie/theorie/methode-dapprentissage"
+    },
+    {
+      "text": "SYNTHESE B + LES PANNEAUX",
+      "url": "https://www.permisdeconduire-online.be/theorie/syntheseB.pdf"
+    },
+    {
+      "text": "Le permis de conduire",
+      "url": "https://www.permisdeconduire-online.be/theorie/theorie/theorie-permis-b/intro"
+    }
+  ]
+}

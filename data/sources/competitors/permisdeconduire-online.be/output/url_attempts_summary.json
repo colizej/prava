@@ -1,0 +1,116 @@
+[
+  {
+    "url": "https://www.permis24.be/preparation/",
+    "final_url": "https://www.permis24.be/se-connecter/",
+    "status": "redirect_to_login",
+    "accessible": false
+  },
+  {
+    "url": "https://www.permis24.be/preparation/?goto=simulations",
+    "final_url": "https://www.permis24.be/se-connecter/",
+    "status": "redirect_to_login",
+    "accessible": false
+  },
+  {
+    "url": "https://www.permis24.be/preparation/simulations/",
+    "final_url": "https://www.permis24.be/examen-theorique-permis-b/",
+    "status": "success",
+    "accessible": true,
+    "has_quiz_indicators": false,
+    "indicators": {
+      "title": "",
+      "quiz_scripts": 0,
+      "question_mentions": 0,
+      "quiz_divs": 0,
+      "quiz_css": false,
+      "data_attributes": 0
+    },
+    "quiz_links": [],
+    "html_saved": "/Users/colizej/Documents/webApp/permis-conduire/sites/permis24.be/output/attempt__preparation_simulations_.html"
+  },
+  {
+    "url": "https://www.permis24.be/test-gratuit/",
+    "final_url": "https://www.permis24.be/test-gratuit/",
+    "status": "success",
+    "accessible": true,
+    "has_quiz_indicators": false,
+    "indicators": {
+      "title": "",
+      "quiz_scripts": 0,
+      "question_mentions": 0,
+      "quiz_divs": 0,
+      "quiz_css": false,
+      "data_attributes": 0
+    },
+    "quiz_links": [],
+    "html_saved": "/Users/colizej/Documents/webApp/permis-conduire/sites/permis24.be/output/attempt__test-gratuit_.html"
+  },
+  {
+    "url": "https://www.permis24.be/demo/",
+    "final_url": "https://www.permis24.be/demo/",
+    "status": "success",
+    "accessible": true,
+    "has_quiz_indicators": false,
+    "indicators": {
+      "title": "",
+      "quiz_scripts": 0,
+      "question_mentions": 0,
+      "quiz_divs": 0,
+      "quiz_css": false,
+      "data_attributes": 0
+    },
+    "quiz_links": [],
+    "html_saved": "/Users/colizej/Documents/webApp/permis-conduire/sites/permis24.be/output/attempt__demo_.html"
+  },
+  {
+    "url": "https://www.permis24.be/essai-gratuit/",
+    "final_url": "https://www.permis24.be/essai-gratuit/",
+    "status": "success",
+    "accessible": true,
+    "has_quiz_indicators": false,
+    "indicators": {
+      "title": "",
+      "quiz_scripts": 0,
+      "question_mentions": 0,
+      "quiz_divs": 0,
+      "quiz_css": false,
+      "data_attributes": 0
+    },
+    "quiz_links": [],
+    "html_saved": "/Users/colizej/Documents/webApp/permis-conduire/sites/permis24.be/output/attempt__essai-gratuit_.html"
+  },
+  {
+    "url": "https://www.permis24.be/simulations/",
+    "final_url": "https://www.permis24.be/examen-theorique-permis-b/",
+    "status": "success",
+    "accessible": true,
+    "has_quiz_indicators": false,
+    "indicators": {
+      "title": "",
+      "quiz_scripts": 0,
+      "question_mentions": 0,
+      "quiz_divs": 0,
+      "quiz_css": false,
+      "data_attributes": 0
+    },
+    "quiz_links": [],
+    "html_saved": "/Users/colizej/Documents/webApp/permis-conduire/sites/permis24.be/output/attempt__simulations_.html"
+  },
+  {
+    "url": "https://www.permis24.be/",
+    "final_url": "https://www.permis24.be/",
+    "status": "success",
+    "accessible": true,
+    "has_quiz_indicators": false,
+    "indicators": {
+      "title": "",
+      "quiz_scripts": 0,
+      "question_mentions": 0,
+      "quiz_divs": 0,
+      "quiz_css": false,
+      "data_attributes": 0
+    },
+    "quiz_links": [],
+    "html_saved": "/Users/colizej/Documents/webApp/permis-conduire/sites/permis24.be/output/attempt__.html"
+  }
+]

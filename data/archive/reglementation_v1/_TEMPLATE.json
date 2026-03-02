@@ -1,0 +1,93 @@
+{
+  "category": {
+    "slug": "dispositions-preliminaires",
+    "name": "Titre I. Dispositions préliminaires",
+    "name_nl": "Titel I. Inleidende bepalingen",
+    "name_ru": "Раздел I. Предварительные положения",
+    "icon": "book-open",
+    "description": "Champ d'application, définitions, ...",
+    "description_nl": "Toepassingsgebied, definities, ...",
+    "description_ru": "Область применения, определения, ..."
+  },
+  "article_number": "Art. 2",
+  "title": "Article 2. Définitions",
+  "title_nl": "Artikel 2. Definities",
+  "title_ru": "Статья 2. Определения",
+  "seo": {
+    "title": "Article 2 — Définitions | Code de la route belge",
+    "title_nl": "Artikel 2 — Definities | Belgische wegcode",
+    "title_ru": "Статья 2 — Определения | ПДД Бельгии",
+    "meta_description": "Définitions officielles des 74 termes du code...",
+    "meta_description_nl": "Officiële definities van 74 termen...",
+    "meta_description_ru": "Официальные определения 74 терминов...",
+    "keywords": ["autoroute", "chaussée", "cyclomoteur"],
+    "keywords_nl": ["autosnelweg", "rijbaan", "bromfiets"],
+    "keywords_ru": ["автострада", "проезжая часть", "мопед"]
+  },
+  "content_html": "<p>…</p>",
+  "content_html_nl": "<p>…</p>",
+  "content_html_ru": "<p>…</p>",
+  "content_text": "…",
+  "content_text_nl": "…",
+  "content_text_ru": "…",
+  "definitions": [
+    {
+      "id": "2.3",
+      "term": "autoroute",
+      "term_nl": "autosnelweg",
+      "term_ru": "автострада",
+      "text": "La voie publique signalée par F5 et F7",
+      "text_nl": "De openbare weg aangeduid door F5 en F7",
+      "text_ru": "Дорога общего пользования, обозначенная знаками F5 и F7",
+      "signs": ["F5", "F7"],
+      "cross_references": ["Art. 21"],
+      "seo": {
+        "meta_description": "Définition légale de l'autoroute selon le code de la route belge.",
+        "meta_description_nl": "Wettelijke definitie van autosnelweg volgens de Belgische wegcode.",
+        "meta_description_ru": "Юридическое определение автострады по бельгийскому ПДД."
+      },
+      "exam_questions": [
+        {
+          "text": "Qu'est-ce que désigne le terme «autoroute»?",
+          "text_nl": "Wat betekent de term «autosnelweg»?",
+          "text_ru": "Что обозначает термин «автострада»?",
+          "difficulty": 1,
+          "image": {
+            "sign_code": "F5",
+            "generation_prompt": "Belgian road sign F5: blue rectangle, white motorway symbol, EU standard, flat vector"
+          },
+          "options": [
+            {"letter": "A", "text": "Une voie publique signalée par F5 et F7", "text_nl": "Een openbare weg aangeduid door F5 en F7", "text_ru": "Дорога общего пользования, обозначенная знаками F5 и F7", "is_correct": true},
+            {"letter": "B", "text": "Toute route à plusieurs bandes", "text_nl": "Elke weg met meerdere rijstroken", "text_ru": "Любая дорога с несколькими полосами", "is_correct": false},
+            {"letter": "C", "text": "Une route réservée aux véhicules lourds", "text_nl": "Een weg voorbehouden voor zware voertuigen", "text_ru": "Дорога, предназначенная для тяжёлых транспортных средств", "is_correct": false}
+          ],
+          "explanation": "L'autoroute est définie par ses signaux F5 (début) et F7 (fin), indépendamment du nombre de bandes.",
+          "explanation_nl": "De autosnelweg wordt gedefinieerd door signalen F5 (begin) en F7 (einde), ongeacht het aantal rijstroken.",
+          "explanation_ru": "Автострада определяется знаками F5 (начало) и F7 (конец), независимо от числа полос."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "sign_code": "F5",
+      "alt_text": "Signal F5 — début d'autoroute",
+      "alt_text_nl": "Signaal F5 — begin autosnelweg",
+      "alt_text_ru": "Знак F5 — начало автострады",
+      "caption": "F5 indique le début d'une autoroute",
+      "source_url": "https://…/F5.png",
+      "generation_prompt": "Belgian road sign F5: blue rectangular sign with white highway symbol, European style",
+      "order": 1
+    }
+  ],
+  "order": 2,
+  "source_id": "rgppxd5uxd",
+  "_meta": {
+    "source_type": "pdf|scrape|manual",
+    "source_url": "https://codedelaroute.be/…",
+    "import_version": "2.0",
+    "last_updated": "2026-02-28",
+    "validation_status": "draft|reviewed|approved",
+    "translated_by": "gpt-4o|human|deepl"
+  }
+}

@@ -1,96 +1,110 @@
-# 🚗 Permis de Conduire - Web Scraper Collection
+# PRAVA — Documentation du projet
 
-Коллекция скриптов для анализа и скачивания образовательных материалов по ПДД с различных сайтов.
-
-**⚠️ Для личного образовательного использования**
+> Application web Django de préparation à l'examen théorique du permis de conduire en Belgique.
+> Langues : FR · NL · RU
 
 ---
 
-## 📂 Структура проекта
+## Navigation de la documentation
+
+| Document | Description |
+|---|---|
+| **[ARCHITECTURE.md](ARCHITECTURE.md)** | Architecture technique : apps Django, data pipeline, admin dashboard |
+| **[ROADMAP.md](ROADMAP.md)** | Roadmap par phases et statut d'avancement |
+| **[DATA_SCHEMA.md](DATA_SCHEMA.md)** | Schéma JSON des données (lois, articles, questions) |
+| **[SCRIPTS.md](SCRIPTS.md)** | Documentation du pipeline de scripts |
+| `archive/` | Documents de recherche initiale (brainstorming, analyses concurrents) |
+
+---
+
+## Vue d'ensemble du projet
+
+**PRAVA** permet aux candidats au permis de conduire (catégorie B) de préparer l'examen théorique belge.
+
+### Sources légales
+
+| Loi | Référence | Dossier | Statut |
+|-----|-----------|---------|--------|
+| AR du 1er décembre 1975 | Code de la route — version actuelle | `data/laws/1975/` | ✅ En cours de traitement |
+| Nouveau code (prévu 2027) | Version révisée | `data/laws/2027/` | 🔜 Placeholder — publication progressive |
+
+> La migration vers 2027 se fera **progressivement**, en parallèle de l'indexation SEO du contenu 1975.
+
+### Langues
+
+| Langue | Source | Outil |
+|--------|--------|-------|
+| **FR** | Source primaire | `codedelaroute.be` |
+| **NL** | Source secondaire | `wegcode.be` (même structure HTML) |
+| **RU** | Traduction machine | DeepL Free API (500 000 car/mois) |
+
+### Stack technique
+
+- **Backend** : Django 4.x, Python 3.12
+- **Base de données** : SQLite (dev) → PostgreSQL (prod)
+- **Traduction** : DeepL Free API
+- **Génération de questions** : Gemini 1.5 Flash (tier gratuit — 15 req/min, 1M tokens/jour)
+- **Frontend** : Bootstrap 5 + HTMX (admin dashboard)
+
+---
+
+## Structure du projet
 
 ```
-permis-conduire/
-├── sites/
-│   ├── readytoroad.be/           # Сайт 1
-│   │   ├── scripts/              # Скрипты
-│   │   ├── output/               # Скачанные данные
-│   │   ├── README.md             # Документация
-│   │   └── requirements.txt      # Зависимости
-│   │
-│   └── permisdeconduire-online.be/  # Сайт 2
-│       ├── scripts/              # Скрипты
-│       ├── output/               # Скачанные данные
-│       └── README.md             # Документация
+prava/
+├── apps/
+│   ├── accounts/          # Utilisateurs, abonnements, badges quotidiens
+│   ├── blog/              # Articles de blog (SEO)
+│   ├── examens/           # Tests, questions, sessions d'examen
+│   ├── main/              # Pages principales (accueil, about...)
+│   └── reglementation/    # Articles du code de la route
 │
-└── README.md                     # Этот файл
+├── config/                # Settings Django, URLs racine, wsgi/asgi
+│
+├── data/                  # ← TOUTES les données (voir DATA_SCHEMA.md)
+│   ├── laws/
+│   │   ├── 1975/          # Loi actuelle (en production)
+│   │   └── 2027/          # Future loi (placeholder)
+│   ├── processed/         # Données traitées par les scripts
+│   │   ├── 1975/
+│   │   │   ├── articles/  # Un fichier JSON par article
+│   │   │   └── themes/    # Regroupés par thème (code, permis, assurance...)
+│   │   └── questions/     # Questions générées (avant import BDD)
+│   ├── sources/           # Données brutes scrapées (NE PAS MODIFIER)
+│   │   ├── codedelaroute.be/
+│   │   ├── wegcode.be/
+│   │   └── competitors/   # Analyses concurrentielles (référence uniquement)
+│   └── templates/         # Schémas et templates JSON de référence
+│
+├── docs/                  # ← CE DOSSIER — documentation vivante
+│
+├── scripts/
+│   ├── pipeline/          # Scripts numérotés 01 → 05 (pipeline principal)
+│   ├── utils/             # Clients DeepL, Gemini, helpers JSON/diff
+│   └── archive/           # Anciens scripts expérimentaux (NE PAS EXÉCUTER)
+│
+├── static/                # CSS, JS, images statiques
+├── media/                 # Fichiers uploadés (images, avatars)
+└── templates/             # Templates HTML Django
 ```
 
 ---
 
-## 🎯 Доступные сайты
+## Pipeline de données — ordre d'exécution
 
-### 1. [ReadyToRoad.be](sites/readytoroad.be/)
-- ✅ Теоретические уроки (13 категорий)
-- ✅ 54 урока, 566 секций контента
-- ✅ Платный контент защищен
-- 📊 Статус: **Скачано и протестировано**
-
-### 2. [PermisDeConduire-Online.be](sites/permisdeconduire-online.be/)
-- 🔍 Теория ПДД
-- ❓ Тестирование безопасности
-- 📊 Статус: **В процессе анализа**
-
----
-
-## 🚀 Быстрый старт
-
-### Для ReadyToRoad.be
 ```bash
-cd sites/readytoroad.be
-pip install -r requirements.txt
-python3 scripts/scraper.py
+python scripts/pipeline/01_scrape.py      # FR + NL → data/laws/1975/
+python scripts/pipeline/02_translate.py   # FR → RU via DeepL
+python scripts/pipeline/03_process.py     # → data/processed/1975/articles/
+python scripts/pipeline/04_questions.py   # → data/processed/questions/ (Gemini)
+python scripts/pipeline/05_import.py      # → Django DB
 ```
 
-### Для PermisDeConduire-Online.be
-```bash
-cd sites/permisdeconduire-online.be
-python3 scripts/test_security.py
-```
+> Ces scripts sont également déclenchables depuis le **Admin Dashboard** (voir ARCHITECTURE.md §4).
 
 ---
 
-## 🔐 Принципы безопасности
+## Statut — Dernière mise à jour
 
-✅ **Что разрешено:**
-- Скачивать бесплатный публичный контент
-- Использовать собственную платную подписку
-- Личное образовательное использование
-
-❌ **Что запрещено:**
-- Обход систем авторизации
-- Скачивание чужого платного контента
-- Публичное распространение
-- Коммерческое использование
-
----
-
-## 📊 Сравнение сайтов
-
-| Характеристика | ReadyToRoad.be | PermisDeConduire-Online.be |
-|----------------|----------------|----------------------------|
-| Теоретические уроки | ✅ Бесплатно | 🔍 Проверяется |
-| Упражнения | 🔒 Платно | 🔍 Проверяется |
-| Симуляции экзаменов | 🔒 Платно | 🔍 Проверяется |
-| Защита контента | ✅ Надежная | 🔍 Проверяется |
-
----
-
-## 📝 Лицензия
-
-Только для личного образовательного использования.
-
-Все права на контент принадлежат соответствующим владельцам сайтов.
-
----
-
-**Обновлено:** 21 février 2026
+**2 mars 2026** — Phase 0 complétée : restructuration de l'architecture (dossiers, docs).
+Prochaine étape : **Phase 1** — implémentation de `01_scrape.py` (FR + NL → JSON).

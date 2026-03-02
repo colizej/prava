@@ -1,0 +1,1476 @@
+{
+  "category": {
+    "slug": "dispositions-preliminaires",
+    "name": "Titre I. Dispositions préliminaires",
+    "name_nl": "Titel I. Inleidende bepalingen",
+    "name_ru": "Раздел I. Предварительные положения",
+    "icon": "book-open",
+    "description": "Champ d'application, définitions, ...",
+    "description_nl": "Toepassingsgebied, definities, ...",
+    "description_ru": "Область применения, определения, ..."
+  },
+  "article_number": "Art. 65.",
+  "title": "Dispositions générales",
+  "title_nl": "Algemene bepalingen",
+  "title_ru": "[RU] Dispositions générales",
+  "seo": {
+    "title": "Article 2 — Définitions | Code de la route belge",
+    "title_nl": "Artikel 2 — Definities | Belgische wegcode",
+    "title_ru": "Статья 2 — Определения | ПДД Бельгии",
+    "meta_description": "Définitions officielles des 74 termes du code...",
+    "meta_description_nl": "Officiële definities van 74 termen...",
+    "meta_description_ru": "Официальные определения 74 терминов...",
+    "keywords": [
+      "autoroute",
+      "chaussée",
+      "cyclomoteur"
+    ],
+    "keywords_nl": [
+      "autosnelweg",
+      "rijbaan",
+      "bromfiets"
+    ],
+    "keywords_ru": [
+      "автострада",
+      "проезжая часть",
+      "мопед"
+    ]
+  },
+  "content_html": "<p><strong>65.1.</strong> Les signaux routiers sont divisés en six catégories:</p>\n<p style=\"padding-left: 40px;\">- Signaux de danger;</p>\n<p style=\"padding-left: 40px;\">- Signaux relatifs à la priorité;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'interdiction;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'obligation;</p>\n<p style=\"padding-left: 40px;\">- Signaux relatifs à l'arrêt et au stationnement;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'indication.</p>\n<p><strong><a name=\"65.2\"></a>65.2.</strong> La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal.</p>\n<p>Toutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants:</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png\"/> M1  <img alt=\"\" src=\"/media/image/orig/772bc7265326a5fddc53d7ce37e97d0148cb9491.png\"/> M2  <img alt=\"\" src=\"/media/image/orig/4ca038f6935e8db364645c321fa08f8bca3d6dc8.png\"/> M3  <img alt=\"\" src=\"/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png\"/> M4  <img alt=\"\" src=\"/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png\"/> M5  <img alt=\"\" src=\"/media/image/orig/8f6f9fb8021583dec0cee041a245a4a96ef48545.png\"/> M6  <img alt=\"\" src=\"/media/image/orig/2cd4d297a4a4dbff6b26ff95878837f61ced401e.png\"/> M7  <img alt=\"\" src=\"/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png\"/> M8  <img alt=\"\" src=\"/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png\"/> M9  <img alt=\"\" src=\"/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png\"/> M10  <img alt=\"\" src=\"/media/image/orig/2d91637a66fe81b698b2b3afaeabb4be513cd7f9.png\"/> M11  <img alt=\"\" src=\"/media/image/orig/52005dc12ffbb763cb92d10a71fff09973f32101.png\"/> M12  <img alt=\"\" src=\"/media/image/orig/b8e11faeb24b3ff62a169ba1070df18c13030260.png\"/> M13  <img alt=\"\" src=\"/media/image/orig/17e9c5d419ebe661c77441822bf283c8a02748f7.png\"/> M14  <img alt=\"\" src=\"/media/image/orig/3cae0e9c260a53ec2da21ee4ba51ff8a89bf6ddf.png\"/> M15  <img alt=\"\" src=\"/media/image/orig/f590b17a5daf64865356cbd2bef12eb2658887d1.png\"/> M16  <img alt=\"\" src=\"/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png\"/> M17  <img alt=\"\" src=\"/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png\"/> M18  <img alt=\"\" src=\"/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png\"/> M19   <img alt=\"\" src=\"/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png\"/> M20</p>\n<p style=\"padding-left: 30px;\">M21 <img alt=\"M21\" height=\"60\" src=\"/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png\" width=\"120\"/> Engins de déplacement.</p>\n<p style=\"padding-left: 30px;\">M22 <img alt=\"M22\" height=\"61\" src=\"/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png\" width=\"120\"/> Engins de déplacement en libre-partage.</p>\n<p style=\"padding-left: 30px;\">M23 <img alt=\"M23\" height=\"61\" src=\"/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png\" width=\"120\"/> Bicyclettes en libre-partage.</p>\n<p style=\"padding-left: 30px;\">M24 <img alt=\"M24\" height=\"122\" src=\"/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png\" width=\"120\"/> Bicyclettes et engins de déplacement en libre-partage.</p>\n<p>Ces symboles peuvent être combinés sur un panneau additionnel unique du modèle M.</p>\n<p>Sauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19.</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png\"/>C1 <img alt=\"\" src=\"/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png\"/> F19</p>\n<p>Les panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png\"/></p>\n<p>Les panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :</p>\n<p style=\"padding-left: 30px;\"><img alt=\"7 19 wit\" height=\"48\" src=\"/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png\" width=\"160\"/></p>\n<p style=\"padding-left: 30px;\"><img alt=\"7 19 blauw\" height=\"48\" src=\"/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png\" width=\"160\"/></p>\n<p><strong><a name=\"65.3\"></a>65.3. Signalisation à message variable</strong></p>\n<p>Lorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre.</p>\n<p>La couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée.</p>\n<p>Les signaux gardent leur signification.</p>\n<p><strong><a name=\"65.4\"></a>65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique</strong></p>\n<p>Lorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée.</p>\n<p><strong><a name=\"65.5\"></a>65.5. Signalisation à validité zonale</strong></p>\n<p style=\"padding-left: 30px;\"><strong>1.</strong> La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement.</p>\n<p style=\"padding-left: 30px;\">Leur signification reste inchangée.</p>\n<p style=\"padding-left: 30px;\"><strong>2.</strong> Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale.</p>\n<div class=\"notification notification-primary\">En ce qui concerne la Région flamande, les mots « Le Ministre des Communications » sont remplacés par le membre de phrase « Le Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions ».</div>\n<div class=\"notification notification-primary\">Voir <a href=\"/fr/perma/j6siwtihko/regulation_regulation\">A.M. du 11 octobre 1976 fixant les dimensions minimales et les conditions particulières de placement de la signalisation routière</a>.</div>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.3\"></a>3.</strong> Ils sont inscrits dans un panneau à fond blanc.</p>\n<p style=\"padding-left: 30px;\">Exemples :</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse;\">\n<tbody>\n<tr style=\"padding-left: 90px;\">\n<td style=\"width: 15.9156%;\"><img alt=\"\" src=\"/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone de stationnement à durée limité (zone bleue).</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone de stationnement à durée limité.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone où la vitesse est limitée à la vitesse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone où la vitesse est limitée à la vitesse indiquée.</td>\n</tr>\n</tbody>\n</table>\n<p style=\"padding-left: 30px;\"><strong>4 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Le signal de début d'une zone où une interdiction ou une règle de stationnement particulière est applicable est placé à droite à chaque accès à ladite zone.</p>\n<p style=\"padding-left: 30px;\">Il peut être répété à gauche.</p>\n<p style=\"padding-left: 30px;\"><strong>5 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Le signal de fin d'une zone est placé à chaque sortie; il peut être apposé au verso du signal de début de la zone.</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.6\"></a>6.</strong> La réglementation a effet dans toute la zone ainsi délimitée, sauf en ce qui concerne le stationnement aux emplacements où une autre réglementation du stationnement est prévue par une signalisation routière.</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.7\"></a>7.</strong> Un signal de début de zone d'interdiction peut être annoncé par un signal identique complété par la mention de la distance approximative à laquelle commence la zone d'interdiction.</p>\n<p style=\"padding-left: 30px;\">Exemple :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png\"/></p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.8\"></a>8.</strong> La réglementation en vigueur dans la zone peut être rappelée par un signal identique à celui placé au début de la zone, complété par le mot \"Rappel\".</p>\n<p style=\"padding-left: 30px;\">Exemple :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/aa2e47b3bc8d35ea136c5abe4fb2749b2170f40e.png\"/></p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.9\"></a>9.</strong> La signification d'une signalisation à validité zonale peut être complétée, précisée ou limitée par une inscription ou un symbole en noir.</p>\n<p style=\"padding-left: 30px;\">Toutefois, s'agissant du signal E9a, l'inscription ou le symbole peut être apporté en blanc dans le fond bleu du signal.</p>\n<p style=\"padding-left: 30px;\">Exemples :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/a0a62a36b070d21bea31e38c3ec8418b9483a70b.png\"/> <img alt=\"\" src=\"/media/image/orig/0a3ca11013f10bfb505074f7b9aae06867108528.png\"/> <img alt=\"ZE1+M22\" height=\"120\" src=\"/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png\" width=\"80\"/></p>\n<p style=\"padding-left: 30px;\"><strong>10 (Région de Bruxelles-Capitale et Région flamande).</strong> Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point <a href=\"#65.5.3\">65.5.3</a>.</p>\n<p style=\"padding-left: 30px;\">A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">Le signal de zone est placé à droite à chaque accès à la zone de vitesse visée. Le signal peut être répété à gauche.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. Le signal de zone n'est pas répété.</p>\n<p style=\"padding-left: 30px;\">A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Le signal de zone n'est pas répété.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une agglomération est délimitée, le signal de zone doit toutefois être replacé à la fin de l'agglomération.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une autre zone de vitesse est délimitée, le signal de zone doit toutefois être replacé à la fin de l'autre zone de vitesse.</p>\n<p style=\"padding-left: 30px;\">Les points <a href=\"#65.5.6\">65.5.6. à 65.5.9.</a> ne sont pas d'application sur les zones de vitesse.</p>\n<p style=\"padding-left: 30px;\"><strong>10 (Région wallonne).</strong> Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point <a href=\"#65.5.3\">65.5.3</a>.</p>\n<p style=\"padding-left: 30px;\">A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant.</p>\n<p style=\"padding-left: 30px;\">A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école.</p>\n<p style=\"padding-left: 30px;\">Les points 65.5.6. à 65.5.9. ne sont pas d'application sur les zones de vitesse.</p>\n<p style=\"padding-left: 30px;\"><strong>11.</strong> A l'intérieur de la zone de vitesse, le gestionnaire de voirie peut apposer, aux poteaux d'éclairage et de signalisation, une vignette autocollante ou un signal de reconnaissance représentant le signal C43, qui rappelle la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">La vignette et le signal de reconnaissance sont des signes de reconnaissance et n'ont en eux-mêmes aucune conséquence obligatoire pour l'usager de la route.</p>\n<p style=\"padding-left: 30px;\">Le ministre compétent pour la circulation routière peut fixer les conditions de placement et les dimensions de la vignette et du signal de reconnaissance.</p>\n<div class=\"notification notification-primary\">Les mots « ministre compétent pour la circulation routière » sont remplacés par le membre de phrase « Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions » en ce qui concerne la Région flamande.</div>\n<p><strong><a name=\"65.6\"></a>65.6. Limitation de la portée des signaux routiers</strong></p>\n<p>Lorsqu'un signal routier ne concerne qu'une sortie située à droite d'une chaussée divisée en bandes de circulation, il est complété par un panneau additionnel du modèle suivant.</p>\n<p><img alt=\"\" src=\"/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png\"/></p>",
+  "content_html_nl": "<p><strong>65.1.</strong> De verkeersborden worden ingedeeld in zes categorieën:</p>\n<ol>\n<li>Gevaarsborden.</li>\n<li>Verkeersborden betreffende de voorrang.</li>\n<li>Verbodsborden.</li>\n<li>Gebodsborden.</li>\n<li>Verkeersborden betreffende het stilstaan en parkeren.</li>\n<li>Aanwijzingsborden.</li>\n</ol>\n<p><strong><a name=\"65.2\"></a>65.2.</strong> De betekenis van een verkeersbord kan worden aangevuld, nader bepaald of beperkt door een wit opschrift of symbool op een rechthoekig onderbord met blauwe achtergrond dat onder het teken bevestigd is.</p>\n<p>De onderborden betreffende de fietsen, de voortbewegingstoestellen en tweewielige bromfietsen hebben evenwel zwarte opschriften en symbolen op witte achtergronden en zijn van één van de volgende modellen :</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png\"/> M1  <img alt=\"\" src=\"/media/image/orig/11402621cc51432f1571adf6631e770970e36893.png\"/> M2  <img alt=\"\" src=\"/media/image/orig/e83dd89e36bf7c92481f5ac13b26e17e4ce51b42.png\"/> M3  <img alt=\"\" src=\"/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png\"/> M4  <img alt=\"\" src=\"/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png\"/> M5  <img alt=\"\" src=\"/media/image/orig/b3065a4f5a35188d1ef0caed59372671643d178b.png\"/> M6  <img alt=\"\" src=\"/media/image/orig/908818ba41be50746ab9171a6dda5ebbe9fb9077.png\"/> M7  <img alt=\"\" src=\"/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png\"/> M8  <img alt=\"\" src=\"/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png\"/> M9  <img alt=\"\" src=\"/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png\"/> M10  <img alt=\"\" src=\"/media/image/orig/1932d7e84db8e69d1d9226ce5631f78ef1c6869d.png\"/> M11  <img alt=\"\" src=\"/media/image/orig/40fd028cbd45e44a46abbf3d8d61edfdbcfc6116.png\"/> M12  <img alt=\"\" src=\"/media/image/orig/9fceb7391f245abcc5c8fa71ffca9b66adf621eb.png\"/> M13  <img alt=\"\" src=\"/media/image/orig/5d20dad4db299914cac730c027805f52e42cf9dc.png\"/> M14  <img alt=\"\" src=\"/media/image/orig/2635fccb38931fdfa39e3932547967d3a0e144d5.png\"/> M15  <img alt=\"\" src=\"/media/image/orig/8222d3737fbef4d9e2589740d888ee20e232d4d8.png\"/> M16  <img alt=\"\" src=\"/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png\"/> M17  <img alt=\"\" src=\"/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png\"/> M18  <img alt=\"\" src=\"/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png\"/> M19  <img alt=\"\" src=\"/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png\"/> M20</p>\n<p style=\"padding-left: 30px;\">M21 <img alt=\"M21\" height=\"60\" src=\"/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png\" width=\"120\"/> Voortbewegingstoestellen.</p>\n<p style=\"padding-left: 30px;\">M22 <img alt=\"M22\" height=\"61\" src=\"/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png\" width=\"120\"/> Deelvoortbewegingstoestellen.</p>\n<p style=\"padding-left: 30px;\">M23 <img alt=\"M23\" height=\"61\" src=\"/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png\" width=\"120\"/> Deelfietsen.</p>\n<p style=\"padding-left: 30px;\">M24 <img alt=\"M24\" height=\"122\" src=\"/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png\" width=\"120\"/> Deelfietsen en deelvoortbewegingstoestellen.</p>\n<p>Deze symbolen mogen gecombineerd worden op een enkel onderbord van het model M.</p>\n<p>Behoudens plaatselijke omstandigheden vullen de onderborden M2 tot M5 respectievelijk de borden C1 en F19 aan.</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png\"/>C1 <img alt=\"\" src=\"/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png\"/> F19</p>\n<p>De onderborden bij de verkeersborden C24a en D4 dragen de letters B, C, D of E in zwart opschrift op een witte ondergrond en zien eruit als volgt :</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png\"/></p>\n<p>De onderborden die een tijdsbeperking aanduiden, hebben zwarte opschriften op een witte achtergrond of witte opschriften op een blauwe achtergrond en zijn van het volgende model :</p>\n<p style=\"padding-left: 30px;\"><img alt=\"7 19 wit\" height=\"48\" src=\"/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png\" width=\"160\"/></p>\n<p style=\"padding-left: 30px;\"><img alt=\"7 19 blauw\" height=\"48\" src=\"/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png\" width=\"160\"/></p>\n<p><strong><a name=\"65.3\"></a>65.3. Signalisatie met veranderlijke informatie</strong></p>\n<p>Wanneer gevaarsborden, verkeersborden betreffende de voorrang, verbodsborden, gebodsborden of aanwijzingsborden in hetzelfde signaleringsbord kunnen verschijnen, mogen de symbolen en opschriften met een donkere kleur, weergegeven worden in een lichte kleur en de achtergronden met een lichte kleur worden vervangen door donkere achtergronden.</p>\n<p>De rode kleur van het symbool van een verkeersbord en van zijn rand wordt niet gewijzigd.</p>\n<p>De verkeersborden behouden hun betekenis.</p>\n<p><strong><a name=\"65.4\"></a>65.4. Rijstrooksignalisatie en signalisatie van toepassing op delen van de openbare weg</strong></p>\n<p>Wanneer een gevaarsbord, een verkeersbord betreffende de voorrang, een verbodsbord, een gebodsbord of een aanwijzingsbord geplaatst is boven een rijstrook of een ander deel van de openbare weg, of wanneer gebruik is gemaakt van verkeersborden F89 en F91, geldt de aanwijzing die door het bord gegeven wordt alleen voor die rijstrook of voor het betrokken gedeelte van de openbare weg.</p>\n<p><strong><a name=\"65.5\"></a>65.5. Signalisatie met zonale geldigheid</strong></p>\n<p style=\"padding-left: 30px;\"><strong>1.</strong> Aan de verbodsborden en de borden betreffende het parkeren kan de zonale geldigheid worden gegeven.</p>\n<p style=\"padding-left: 30px;\">Hun betekenis blijft ongewijzigd.</p>\n<p style=\"padding-left: 30px;\"><strong>2.</strong> De Minister van Verkeerswezen bepaalt de verkeersborden die voor signalisatie met zonale geldigheid gebruikt kunnen worden.</p>\n<div class=\"notification notification-primary\">Voor wat betreft het Vlaams Gewest, worden de woorden “Minister van Verkeerswezen” vervangen door de zinsnede “de Vlaamse minister, bevoegd voor het mobiliteitsbeleid, de openbare werken en het vervoer,”.</div>\n<div class=\"notification notification-primary\">Zie <a href=\"/nl/perma/j6siwtihko/regulation_regulation\">M.B. van 11 oktober 1976 houdende de minimum afmetingen en de bijzondere plaatsingsvoorwaarden van de verkeerstekens</a>.</div>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.3\"></a>3.</strong> Ze komen voor op een bord met witte achtergrond.</p>\n<p style=\"padding-left: 30px;\">Voorbeelden :</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" class=\"zebra\" style=\"width: 100%;\">\n<tbody>\n<tr style=\"padding-left: 90px;\">\n<td style=\"width: 9.95076%;\"><img alt=\"\" src=\"/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone waar het parkeren voorbehouden is voor voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone waar het parkeren voorbehouden is voor voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone met beperkte parkeertijd (blauwe zone).</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone met beperkte parkeertijd.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone waar het verboden is een gespan of een voertuig met meer dan twee wielen links in te halen.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone waar het verboden is een gespan of een voertuig met meer dan twee wielen links in te halen.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone waar de toegang verboden is voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan de aangeduide massa.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone waar de toegang verboden is voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan de aangeduide massa.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone waar de snelheid beperkt is tot de aangeduide snelheid.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone waar de snelheid beperkt is tot de aangeduide snelheid.</td>\n</tr>\n</tbody>\n</table>\n<p style=\"padding-left: 30px;\"><strong>4 (enkel Brussels Hoofdstedelijk Gewest en Vlaams Gewest).</strong> Het verkeersbord betreffende het begin van een zone waar een bijzonder verbod of een bijzondere regel inzake parkeren van toepassing is, wordt rechts geplaatst aan elke toegang tot deze zone.</p>\n<p style=\"padding-left: 30px;\">Het mag links herhaald worden.</p>\n<p style=\"padding-left: 30px;\"><strong>5 (enkel Brussels Hoofdstedelijk Gewest en Vlaams Gewest).</strong> Het verkeersbord betreffende het einde van een zone wordt geplaatst aan elke uitgang; het mag aan de achterzijde van het verkeersbord betreffende het begin van een zone bevestigd worden.</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.6\"></a>6.</strong> De reglementering geldt in gans de aldus afgebakende zone, behoudens, voor wat het parkeren betreft, op plaatsen waar door middel van verkeerstekens een andere parkeerregeling is voorzien.</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.7\"></a>7.</strong> Het verkeersbord dat het begin van een verbodszone aangeeft, mag aangekondigd worden door een gelijkaardig verkeersbord aangevuld met de vermelding van de afstand, bij benadering, waarop de verbodszone begint.</p>\n<p style=\"padding-left: 30px;\">Voorbeeld :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png\"/></p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.8\"></a>8.</strong> De reglementering die in de zone van toepassing is mag herhaald worden door een bord gelijkaardig aan dat geplaatst bij het begin van de zone, aangevuld met het woord \"Herhaling\".</p>\n<p style=\"padding-left: 30px;\">Voorbeeld :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/629ca9926e87b36cc8a4877a139ca96ee44f302d.png\"/></p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.9\"></a>9.</strong> De betekenis van een signalisatie met zonale geldigheid kan worden aangevuld, nader bepaald of beperkt door een zwart opschrift of symbool.</p>\n<p style=\"padding-left: 30px;\">Evenwel mag, voor wat betreft het verkeersbord E9a, het opschrift of het symbool in het wit op de blauwe achtergrond van het bord aangebracht worden.</p>\n<p style=\"padding-left: 30px;\">Voorbeelden :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/95b8e4c913a8680380a05daa8450b4d46cb4f2b7.png\"/> <img alt=\"\" src=\"/media/image/orig/77df5404a3fd27f55a0343520f2f03a97bd86ff5.png\"/> <img alt=\"ZE1+M22\" height=\"120\" src=\"/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png\" width=\"80\"/></p>\n<p style=\"padding-left: 30px;\"><strong>10 (Brussels Hoofdstedelijk Gewest en Vlaams Gewest).</strong> Snelheidszones worden aangeduid door het verkeersbord C43 waaraan overeenkomstig <a href=\"#65.5.3\">65.5.3</a>. zonale geldigheid wordt gegeven.</p>\n<p style=\"padding-left: 30px;\">Vanaf het zonebord tot het eindezonebord is het verboden te rijden met een hogere snelheid dan de zonale snelheid.</p>\n<p style=\"padding-left: 30px;\">Het zonebord wordt rechts geplaatst aan elke toegang tot de desbetreffende snelheidszone. Het bord mag links herhaald worden.</p>\n<p style=\"padding-left: 30px;\">Wanneer binnen de zone het bord C43 een andere snelheid aanduidt, dan geldt vanaf het volgende kruispunt opnieuw de zonale snelheid. Het zonebord wordt niet herhaald.</p>\n<p style=\"padding-left: 30px;\">Binnen de snelheidszone mag geen bord C43 worden geplaatst die een hogere snelheid aanduidt dan de zonale snelheid.</p>\n<p style=\"padding-left: 30px;\">Wanneer binnen de zone, een erf, woonerf, of schoolomgeving wordt afgebakend, dan geldt vanaf het einde van het erf, woonerf of schoolomgeving opnieuw de zonale snelheid. Het zonebord wordt niet herhaald.</p>\n<p style=\"padding-left: 30px;\">Wanneer binnen de zone een bebouwde kom wordt afgebakend, dan moet op het einde van de bebouwde kom het zonebord evenwel opnieuw geplaatst worden.</p>\n<p style=\"padding-left: 30px;\">Wanneer binnen de zone een andere snelheidszone wordt afgebakend, dan moet op het einde van de andere snelheidszone het zonebord opnieuw geplaatst worden.</p>\n<p style=\"padding-left: 30px;\">De punten <a href=\"#65.5.6\">65.5.6. tot en met 65.5.9</a>. zijn niet van toepassing op snelheidszones.</p>\n<p style=\"padding-left: 30px;\"><strong>10 (Waals Gewest).</strong> Snelheidszones worden aangeduid door het verkeersbord C43 waaraan overeenkomstig <a href=\"#65.5.3\">65.5.3</a>. zonale geldigheid wordt gegeven.</p>\n<p style=\"padding-left: 30px;\">Vanaf het zonebord tot het eindezonebord is het verboden te rijden met een hogere snelheid dan de zonale snelheid.</p>\n<p style=\"padding-left: 30px;\">Wanneer binnen de zone het bord C43 een andere snelheid aanduidt, dan geldt vanaf het volgende kruispunt opnieuw de zonale snelheid.</p>\n<p style=\"padding-left: 30px;\">Binnen de snelheidszone mag geen bord C43 worden geplaatst die een hogere snelheid aanduidt dan de zonale snelheid.</p>\n<p style=\"padding-left: 30px;\">Wanneer binnen de zone, een erf, woonerf, of schoolomgeving wordt afgebakend, dan geldt vanaf het einde van het erf, woonerf of schoolomgeving opnieuw de zonale snelheid.</p>\n<p style=\"padding-left: 30px;\">De punten 65.5.6. tot en met 65.5.9. zijn niet van toepassing op snelheidszones.</p>\n<p style=\"padding-left: 30px;\"><strong>11.</strong> De wegbeheerder mag binnen de snelheidszone aan verlichtingspalen en verkeerspalen een zelfklevend vignet of herkenningsbord bevestigen met een afbeelding van het verkeersbord C43 die zonale snelheid in herinnering brengt.</p>\n<p style=\"padding-left: 30px;\">Het vignet en het herkenningsbord dienen als herkenningsteken en hebben op zich geen bindende gevolgen voor de weggebruiker.</p>\n<p style=\"padding-left: 30px;\">De minister bevoegd voor het wegverkeer kan de plaatsingsvoorwaarden en de afmetingen van het vignet en het herkenningsbord bepalen.</p>\n<div class=\"notification notification-primary\">De woorden “minister bevoegd voor het wegverkeer” worden vervangen door de zinsnede “Vlaamse minister, bevoegd voor het mobiliteitsbeleid, de openbare werken en het vervoer” voor wat betreft het Vlaams Gewest.</div>\n<p><strong><a name=\"65.6\"></a>65.6. Beperking van de draagwijdte van de verkeersborden.</strong></p>\n<p>Wanneer een verkeersbord slechts betrekking heeft op een uitrit rechts van de rijbaan die in rijstroken is verdeeld, wordt het aangevuld met een onderbord van volgend model :</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png\"/></p>",
+  "content_html_ru": "[RU] <p><strong>65.1.</strong> Les signaux routiers sont divisés en six catégories:</p>\n<p style=\"padding-left: 40px;\">- Signaux de danger;</p>\n<p style=\"padding-left: 40px;\">- Signaux relatifs à la priorité;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'interdiction;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'obligation;</p>\n<p style=\"padding-left: 40px;\">- Signaux relatifs à l'arrêt et au stationnement;</p>\n<p style=\"padding-left: 40px;\">- Signaux d'indication.</p>\n<p><strong><a name=\"65.2\"></a>65.2.</strong> La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal.</p>\n<p>Toutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants:</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png\"/> M1  <img alt=\"\" src=\"/media/image/orig/772bc7265326a5fddc53d7ce37e97d0148cb9491.png\"/> M2  <img alt=\"\" src=\"/media/image/orig/4ca038f6935e8db364645c321fa08f8bca3d6dc8.png\"/> M3  <img alt=\"\" src=\"/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png\"/> M4  <img alt=\"\" src=\"/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png\"/> M5  <img alt=\"\" src=\"/media/image/orig/8f6f9fb8021583dec0cee041a245a4a96ef48545.png\"/> M6  <img alt=\"\" src=\"/media/image/orig/2cd4d297a4a4dbff6b26ff95878837f61ced401e.png\"/> M7  <img alt=\"\" src=\"/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png\"/> M8  <img alt=\"\" src=\"/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png\"/> M9  <img alt=\"\" src=\"/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png\"/> M10  <img alt=\"\" src=\"/media/image/orig/2d91637a66fe81b698b2b3afaeabb4be513cd7f9.png\"/> M11  <img alt=\"\" src=\"/media/image/orig/52005dc12ffbb763cb92d10a71fff09973f32101.png\"/> M12  <img alt=\"\" src=\"/media/image/orig/b8e11faeb24b3ff62a169ba1070df18c13030260.png\"/> M13  <img alt=\"\" src=\"/media/image/orig/17e9c5d419ebe661c77441822bf283c8a02748f7.png\"/> M14  <img alt=\"\" src=\"/media/image/orig/3cae0e9c260a53ec2da21ee4ba51ff8a89bf6ddf.png\"/> M15  <img alt=\"\" src=\"/media/image/orig/f590b17a5daf64865356cbd2bef12eb2658887d1.png\"/> M16  <img alt=\"\" src=\"/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png\"/> M17  <img alt=\"\" src=\"/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png\"/> M18  <img alt=\"\" src=\"/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png\"/> M19   <img alt=\"\" src=\"/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png\"/> M20</p>\n<p style=\"padding-left: 30px;\">M21 <img alt=\"M21\" height=\"60\" src=\"/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png\" width=\"120\"/> Engins de déplacement.</p>\n<p style=\"padding-left: 30px;\">M22 <img alt=\"M22\" height=\"61\" src=\"/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png\" width=\"120\"/> Engins de déplacement en libre-partage.</p>\n<p style=\"padding-left: 30px;\">M23 <img alt=\"M23\" height=\"61\" src=\"/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png\" width=\"120\"/> Bicyclettes en libre-partage.</p>\n<p style=\"padding-left: 30px;\">M24 <img alt=\"M24\" height=\"122\" src=\"/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png\" width=\"120\"/> Bicyclettes et engins de déplacement en libre-partage.</p>\n<p>Ces symboles peuvent être combinés sur un panneau additionnel unique du modèle M.</p>\n<p>Sauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19.</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png\"/>C1 <img alt=\"\" src=\"/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png\"/> F19</p>\n<p>Les panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :</p>\n<p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png\"/></p>\n<p>Les panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :</p>\n<p style=\"padding-left: 30px;\"><img alt=\"7 19 wit\" height=\"48\" src=\"/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png\" width=\"160\"/></p>\n<p style=\"padding-left: 30px;\"><img alt=\"7 19 blauw\" height=\"48\" src=\"/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png\" width=\"160\"/></p>\n<p><strong><a name=\"65.3\"></a>65.3. Signalisation à message variable</strong></p>\n<p>Lorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre.</p>\n<p>La couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée.</p>\n<p>Les signaux gardent leur signification.</p>\n<p><strong><a name=\"65.4\"></a>65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique</strong></p>\n<p>Lorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée.</p>\n<p><strong><a name=\"65.5\"></a>65.5. Signalisation à validité zonale</strong></p>\n<p style=\"padding-left: 30px;\"><strong>1.</strong> La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement.</p>\n<p style=\"padding-left: 30px;\">Leur signification reste inchangée.</p>\n<p style=\"padding-left: 30px;\"><strong>2.</strong> Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale.</p>\n<div class=\"notification notification-primary\">En ce qui concerne la Région flamande, les mots « Le Ministre des Communications » sont remplacés par le membre de phrase « Le Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions ».</div>\n<div class=\"notification notification-primary\">Voir <a href=\"/fr/perma/j6siwtihko/regulation_regulation\">A.M. du 11 octobre 1976 fixant les dimensions minimales et les conditions particulières de placement de la signalisation routière</a>.</div>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.3\"></a>3.</strong> Ils sont inscrits dans un panneau à fond blanc.</p>\n<p style=\"padding-left: 30px;\">Exemples :</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse;\">\n<tbody>\n<tr style=\"padding-left: 90px;\">\n<td style=\"width: 15.9156%;\"><img alt=\"\" src=\"/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone de stationnement à durée limité (zone bleue).</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone de stationnement à durée limité.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone où la vitesse est limitée à la vitesse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone où la vitesse est limitée à la vitesse indiquée.</td>\n</tr>\n</tbody>\n</table>\n<p style=\"padding-left: 30px;\"><strong>4 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Le signal de début d'une zone où une interdiction ou une règle de stationnement particulière est applicable est placé à droite à chaque accès à ladite zone.</p>\n<p style=\"padding-left: 30px;\">Il peut être répété à gauche.</p>\n<p style=\"padding-left: 30px;\"><strong>5 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Le signal de fin d'une zone est placé à chaque sortie; il peut être apposé au verso du signal de début de la zone.</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.6\"></a>6.</strong> La réglementation a effet dans toute la zone ainsi délimitée, sauf en ce qui concerne le stationnement aux emplacements où une autre réglementation du stationnement est prévue par une signalisation routière.</p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.7\"></a>7.</strong> Un signal de début de zone d'interdiction peut être annoncé par un signal identique complété par la mention de la distance approximative à laquelle commence la zone d'interdiction.</p>\n<p style=\"padding-left: 30px;\">Exemple :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png\"/></p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.8\"></a>8.</strong> La réglementation en vigueur dans la zone peut être rappelée par un signal identique à celui placé au début de la zone, complété par le mot \"Rappel\".</p>\n<p style=\"padding-left: 30px;\">Exemple :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/aa2e47b3bc8d35ea136c5abe4fb2749b2170f40e.png\"/></p>\n<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.9\"></a>9.</strong> La signification d'une signalisation à validité zonale peut être complétée, précisée ou limitée par une inscription ou un symbole en noir.</p>\n<p style=\"padding-left: 30px;\">Toutefois, s'agissant du signal E9a, l'inscription ou le symbole peut être apporté en blanc dans le fond bleu du signal.</p>\n<p style=\"padding-left: 30px;\">Exemples :</p>\n<p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/a0a62a36b070d21bea31e38c3ec8418b9483a70b.png\"/> <img alt=\"\" src=\"/media/image/orig/0a3ca11013f10bfb505074f7b9aae06867108528.png\"/> <img alt=\"ZE1+M22\" height=\"120\" src=\"/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png\" width=\"80\"/></p>\n<p style=\"padding-left: 30px;\"><strong>10 (Région de Bruxelles-Capitale et Région flamande).</strong> Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point <a href=\"#65.5.3\">65.5.3</a>.</p>\n<p style=\"padding-left: 30px;\">A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">Le signal de zone est placé à droite à chaque accès à la zone de vitesse visée. Le signal peut être répété à gauche.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. Le signal de zone n'est pas répété.</p>\n<p style=\"padding-left: 30px;\">A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Le signal de zone n'est pas répété.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une agglomération est délimitée, le signal de zone doit toutefois être replacé à la fin de l'agglomération.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une autre zone de vitesse est délimitée, le signal de zone doit toutefois être replacé à la fin de l'autre zone de vitesse.</p>\n<p style=\"padding-left: 30px;\">Les points <a href=\"#65.5.6\">65.5.6. à 65.5.9.</a> ne sont pas d'application sur les zones de vitesse.</p>\n<p style=\"padding-left: 30px;\"><strong>10 (Région wallonne).</strong> Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point <a href=\"#65.5.3\">65.5.3</a>.</p>\n<p style=\"padding-left: 30px;\">A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant.</p>\n<p style=\"padding-left: 30px;\">A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école.</p>\n<p style=\"padding-left: 30px;\">Les points 65.5.6. à 65.5.9. ne sont pas d'application sur les zones de vitesse.</p>\n<p style=\"padding-left: 30px;\"><strong>11.</strong> A l'intérieur de la zone de vitesse, le gestionnaire de voirie peut apposer, aux poteaux d'éclairage et de signalisation, une vignette autocollante ou un signal de reconnaissance représentant le signal C43, qui rappelle la vitesse de la zone.</p>\n<p style=\"padding-left: 30px;\">La vignette et le signal de reconnaissance sont des signes de reconnaissance et n'ont en eux-mêmes aucune conséquence obligatoire pour l'usager de la route.</p>\n<p style=\"padding-left: 30px;\">Le ministre compétent pour la circulation routière peut fixer les conditions de placement et les dimensions de la vignette et du signal de reconnaissance.</p>\n<div class=\"notification notification-primary\">Les mots « ministre compétent pour la circulation routière » sont remplacés par le membre de phrase « Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions » en ce qui concerne la Région flamande.</div>\n<p><strong><a name=\"65.6\"></a>65.6. Limitation de la portée des signaux routiers</strong></p>\n<p>Lorsqu'un signal routier ne concerne qu'une sortie située à droite d'une chaussée divisée en bandes de circulation, il est complété par un panneau additionnel du modèle suivant.</p>\n<p><img alt=\"\" src=\"/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png\"/></p>",
+  "content_text": "65.1.Les signaux routiers sont divisés en six catégories: - Signaux de danger; - Signaux relatifs à la priorité; - Signaux d'interdiction; - Signaux d'obligation; - Signaux relatifs à l'arrêt et au stationnement; - Signaux d'indication. 65.2.La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal. Toutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants: M1M2M3M4M5M6M7M8M9M10M11M12M13M14M15M16M17M18M19M20 M21Engins de déplacement. M22Engins de déplacement en libre-partage. M23Bicyclettes en libre-partage. M24Bicyclettes et engins de déplacement en libre-partage. Ces symboles peuvent être combinés sur un panneau additionnel unique du modèle M. Sauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19. C1F19 Les panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :  Les panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :   65.3. Signalisation à message variable Lorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre. La couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée. Les signaux gardent leur signification. 65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique Lorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée. 65.5. Signalisation à validité zonale 1.La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement. Leur signification reste inchangée. 2.Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale. En ce qui concerne la Région flamande, les mots « Le Ministre des Communications » sont remplacés par le membre de phrase « Le Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions ». VoirA.M. du 11 octobre 1976 fixant les dimensions minimales et les conditions particulières de placement de la signalisation routière. 3.Ils sont inscrits dans un panneau à fond blanc. Exemples : Début d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.Fin d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.Début d'une zone de stationnement à durée limité (zone bleue).Fin d'une zone de stationnement à durée limité.Début d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.Fin d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.Début d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.Fin d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.Début d'une zone où la vitesse est limitée à la vitesse indiquée.Fin d'une zone où la vitesse est limitée à la vitesse indiquée. 4 (uniquement Région de Bruxelles-Capitale et Région flamande).Le signal de début d'une zone où une interdiction ou une règle de stationnement particulière est applicable est placé à droite à chaque accès à ladite zone. Il peut être répété à gauche. 5 (uniquement Région de Bruxelles-Capitale et Région flamande).Le signal de fin d'une zone est placé à chaque sortie; il peut être apposé au verso du signal de début de la zone. 6.La réglementation a effet dans toute la zone ainsi délimitée, sauf en ce qui concerne le stationnement aux emplacements où une autre réglementation du stationnement est prévue par une signalisation routière. 7.Un signal de début de zone d'interdiction peut être annoncé par un signal identique complété par la mention de la distance approximative à laquelle commence la zone d'interdiction. Exemple :  8.La réglementation en vigueur dans la zone peut être rappelée par un signal identique à celui placé au début de la zone, complété par le mot \"Rappel\". Exemple :  9.La signification d'une signalisation à validité zonale peut être complétée, précisée ou limitée par une inscription ou un symbole en noir. Toutefois, s'agissant du signal E9a, l'inscription ou le symbole peut être apporté en blanc dans le fond bleu du signal. Exemples :  10 (Région de Bruxelles-Capitale et Région flamande).Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point65.5.3. A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone. Le signal de zone est placé à droite à chaque accès à la zone de vitesse visée. Le signal peut être répété à gauche. Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. Le signal de zone n'est pas répété. A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Le signal de zone n'est pas répété. Lorsqu'à l'intérieur de la zone, une agglomération est délimitée, le signal de zone doit toutefois être replacé à la fin de l'agglomération. Lorsqu'à l'intérieur de la zone, une autre zone de vitesse est délimitée, le signal de zone doit toutefois être replacé à la fin de l'autre zone de vitesse. Les points65.5.6. à 65.5.9.ne sont pas d'application sur les zones de vitesse. 10 (Région wallonne).Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point65.5.3. A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Les points 65.5.6. à 65.5.9. ne sont pas d'application sur les zones de vitesse. 11.A l'intérieur de la zone de vitesse, le gestionnaire de voirie peut apposer, aux poteaux d'éclairage et de signalisation, une vignette autocollante ou un signal de reconnaissance représentant le signal C43, qui rappelle la vitesse de la zone. La vignette et le signal de reconnaissance sont des signes de reconnaissance et n'ont en eux-mêmes aucune conséquence obligatoire pour l'usager de la route. Le ministre compétent pour la circulation routière peut fixer les conditions de placement et les dimensions de la vignette et du signal de reconnaissance. Les mots « ministre compétent pour la circulation routière » sont remplacés par le membre de phrase « Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions » en ce qui concerne la Région flamande. 65.6. Limitation de la portée des signaux routiers Lorsqu'un signal routier ne concerne qu'une sortie située à droite d'une chaussée divisée en bandes de circulation, il est complété par un panneau additionnel du modèle suivant. ",
+  "content_text_nl": "65.1.De verkeersborden worden ingedeeld in zes categorieën: Gevaarsborden.Verkeersborden betreffende de voorrang.Verbodsborden.Gebodsborden.Verkeersborden betreffende het stilstaan en parkeren.Aanwijzingsborden. 65.2.De betekenis van een verkeersbord kan worden aangevuld, nader bepaald of beperkt door een wit opschrift of symbool op een rechthoekig onderbord met blauwe achtergrond dat onder het teken bevestigd is. De onderborden betreffende de fietsen, de voortbewegingstoestellen en tweewielige bromfietsen hebben evenwel zwarte opschriften en symbolen op witte achtergronden en zijn van één van de volgende modellen : M1M2M3M4M5M6M7M8M9M10M11M12M13M14M15M16M17M18M19M20 M21Voortbewegingstoestellen. M22Deelvoortbewegingstoestellen. M23Deelfietsen. M24Deelfietsen en deelvoortbewegingstoestellen. Deze symbolen mogen gecombineerd worden op een enkel onderbord van het model M. Behoudens plaatselijke omstandigheden vullen de onderborden M2 tot M5 respectievelijk de borden C1 en F19 aan. C1F19 De onderborden bij de verkeersborden C24a en D4 dragen de letters B, C, D of E in zwart opschrift op een witte ondergrond en zien eruit als volgt :  De onderborden die een tijdsbeperking aanduiden, hebben zwarte opschriften op een witte achtergrond of witte opschriften op een blauwe achtergrond en zijn van het volgende model :   65.3. Signalisatie met veranderlijke informatie Wanneer gevaarsborden, verkeersborden betreffende de voorrang, verbodsborden, gebodsborden of aanwijzingsborden in hetzelfde signaleringsbord kunnen verschijnen, mogen de symbolen en opschriften met een donkere kleur, weergegeven worden in een lichte kleur en de achtergronden met een lichte kleur worden vervangen door donkere achtergronden. De rode kleur van het symbool van een verkeersbord en van zijn rand wordt niet gewijzigd. De verkeersborden behouden hun betekenis. 65.4. Rijstrooksignalisatie en signalisatie van toepassing op delen van de openbare weg Wanneer een gevaarsbord, een verkeersbord betreffende de voorrang, een verbodsbord, een gebodsbord of een aanwijzingsbord geplaatst is boven een rijstrook of een ander deel van de openbare weg, of wanneer gebruik is gemaakt van verkeersborden F89 en F91, geldt de aanwijzing die door het bord gegeven wordt alleen voor die rijstrook of voor het betrokken gedeelte van de openbare weg. 65.5. Signalisatie met zonale geldigheid 1.Aan de verbodsborden en de borden betreffende het parkeren kan de zonale geldigheid worden gegeven. Hun betekenis blijft ongewijzigd. 2.De Minister van Verkeerswezen bepaalt de verkeersborden die voor signalisatie met zonale geldigheid gebruikt kunnen worden. Voor wat betreft het Vlaams Gewest, worden de woorden “Minister van Verkeerswezen” vervangen door de zinsnede “de Vlaamse minister, bevoegd voor het mobiliteitsbeleid, de openbare werken en het vervoer,”. ZieM.B. van 11 oktober 1976 houdende de minimum afmetingen en de bijzondere plaatsingsvoorwaarden van de verkeerstekens. 3.Ze komen voor op een bord met witte achtergrond. Voorbeelden : Begin van een zone waar het parkeren voorbehouden is voor voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton.Einde van een zone waar het parkeren voorbehouden is voor voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton.Begin van een zone met beperkte parkeertijd (blauwe zone).Einde van een zone met beperkte parkeertijd.Begin van een zone waar het verboden is een gespan of een voertuig met meer dan twee wielen links in te halen.Einde van een zone waar het verboden is een gespan of een voertuig met meer dan twee wielen links in te halen.Begin van een zone waar de toegang verboden is voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan de aangeduide massa.Einde van een zone waar de toegang verboden is voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan de aangeduide massa.Begin van een zone waar de snelheid beperkt is tot de aangeduide snelheid.Einde van een zone waar de snelheid beperkt is tot de aangeduide snelheid. 4 (enkel Brussels Hoofdstedelijk Gewest en Vlaams Gewest).Het verkeersbord betreffende het begin van een zone waar een bijzonder verbod of een bijzondere regel inzake parkeren van toepassing is, wordt rechts geplaatst aan elke toegang tot deze zone. Het mag links herhaald worden. 5 (enkel Brussels Hoofdstedelijk Gewest en Vlaams Gewest).Het verkeersbord betreffende het einde van een zone wordt geplaatst aan elke uitgang; het mag aan de achterzijde van het verkeersbord betreffende het begin van een zone bevestigd worden. 6.De reglementering geldt in gans de aldus afgebakende zone, behoudens, voor wat het parkeren betreft, op plaatsen waar door middel van verkeerstekens een andere parkeerregeling is voorzien. 7.Het verkeersbord dat het begin van een verbodszone aangeeft, mag aangekondigd worden door een gelijkaardig verkeersbord aangevuld met de vermelding van de afstand, bij benadering, waarop de verbodszone begint. Voorbeeld :  8.De reglementering die in de zone van toepassing is mag herhaald worden door een bord gelijkaardig aan dat geplaatst bij het begin van de zone, aangevuld met het woord \"Herhaling\". Voorbeeld :  9.De betekenis van een signalisatie met zonale geldigheid kan worden aangevuld, nader bepaald of beperkt door een zwart opschrift of symbool. Evenwel mag, voor wat betreft het verkeersbord E9a, het opschrift of het symbool in het wit op de blauwe achtergrond van het bord aangebracht worden. Voorbeelden :  10 (Brussels Hoofdstedelijk Gewest en Vlaams Gewest).Snelheidszones worden aangeduid door het verkeersbord C43 waaraan overeenkomstig65.5.3. zonale geldigheid wordt gegeven. Vanaf het zonebord tot het eindezonebord is het verboden te rijden met een hogere snelheid dan de zonale snelheid. Het zonebord wordt rechts geplaatst aan elke toegang tot de desbetreffende snelheidszone. Het bord mag links herhaald worden. Wanneer binnen de zone het bord C43 een andere snelheid aanduidt, dan geldt vanaf het volgende kruispunt opnieuw de zonale snelheid. Het zonebord wordt niet herhaald. Binnen de snelheidszone mag geen bord C43 worden geplaatst die een hogere snelheid aanduidt dan de zonale snelheid. Wanneer binnen de zone, een erf, woonerf, of schoolomgeving wordt afgebakend, dan geldt vanaf het einde van het erf, woonerf of schoolomgeving opnieuw de zonale snelheid. Het zonebord wordt niet herhaald. Wanneer binnen de zone een bebouwde kom wordt afgebakend, dan moet op het einde van de bebouwde kom het zonebord evenwel opnieuw geplaatst worden. Wanneer binnen de zone een andere snelheidszone wordt afgebakend, dan moet op het einde van de andere snelheidszone het zonebord opnieuw geplaatst worden. De punten65.5.6. tot en met 65.5.9. zijn niet van toepassing op snelheidszones. 10 (Waals Gewest).Snelheidszones worden aangeduid door het verkeersbord C43 waaraan overeenkomstig65.5.3. zonale geldigheid wordt gegeven. Vanaf het zonebord tot het eindezonebord is het verboden te rijden met een hogere snelheid dan de zonale snelheid. Wanneer binnen de zone het bord C43 een andere snelheid aanduidt, dan geldt vanaf het volgende kruispunt opnieuw de zonale snelheid. Binnen de snelheidszone mag geen bord C43 worden geplaatst die een hogere snelheid aanduidt dan de zonale snelheid. Wanneer binnen de zone, een erf, woonerf, of schoolomgeving wordt afgebakend, dan geldt vanaf het einde van het erf, woonerf of schoolomgeving opnieuw de zonale snelheid. De punten 65.5.6. tot en met 65.5.9. zijn niet van toepassing op snelheidszones. 11.De wegbeheerder mag binnen de snelheidszone aan verlichtingspalen en verkeerspalen een zelfklevend vignet of herkenningsbord bevestigen met een afbeelding van het verkeersbord C43 die zonale snelheid in herinnering brengt. Het vignet en het herkenningsbord dienen als herkenningsteken en hebben op zich geen bindende gevolgen voor de weggebruiker. De minister bevoegd voor het wegverkeer kan de plaatsingsvoorwaarden en de afmetingen van het vignet en het herkenningsbord bepalen. De woorden “minister bevoegd voor het wegverkeer” worden vervangen door de zinsnede “Vlaamse minister, bevoegd voor het mobiliteitsbeleid, de openbare werken en het vervoer” voor wat betreft het Vlaams Gewest. 65.6. Beperking van de draagwijdte van de verkeersborden. Wanneer een verkeersbord slechts betrekking heeft op een uitrit rechts van de rijbaan die in rijstroken is verdeeld, wordt het aangevuld met een onderbord van volgend model : ",
+  "content_text_ru": "[RU] 65.1.Les signaux routiers sont divisés en six catégories: - Signaux de danger; - Signaux relatifs à la priorité; - Signaux d'interdiction; - Signaux d'obligation; - Signaux relatifs à l'arrêt et au stationnement; - Signaux d'indication. 65.2.La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal. Toutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants: M1M2M3M4M5M6M7M8M9M10M11M12M13M14M15M16M17M18M19M20 M21Engins de déplacement. M22Engins de déplacement en libre-partage. M23Bicyclettes en libre-partage. M24Bicyclettes et engins de déplacement en libre-partage. Ces symboles peuvent être combinés sur un panneau additionnel unique du modèle M. Sauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19. C1F19 Les panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :  Les panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :   65.3. Signalisation à message variable Lorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre. La couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée. Les signaux gardent leur signification. 65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique Lorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée. 65.5. Signalisation à validité zonale 1.La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement. Leur signification reste inchangée. 2.Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale. En ce qui concerne la Région flamande, les mots « Le Ministre des Communications » sont remplacés par le membre de phrase « Le Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions ». VoirA.M. du 11 octobre 1976 fixant les dimensions minimales et les conditions particulières de placement de la signalisation routière. 3.Ils sont inscrits dans un panneau à fond blanc. Exemples : Début d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.Fin d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.Début d'une zone de stationnement à durée limité (zone bleue).Fin d'une zone de stationnement à durée limité.Début d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.Fin d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.Début d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.Fin d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.Début d'une zone où la vitesse est limitée à la vitesse indiquée.Fin d'une zone où la vitesse est limitée à la vitesse indiquée. 4 (uniquement Région de Bruxelles-Capitale et Région flamande).Le signal de début d'une zone où une interdiction ou une règle de stationnement particulière est applicable est placé à droite à chaque accès à ladite zone. Il peut être répété à gauche. 5 (uniquement Région de Bruxelles-Capitale et Région flamande).Le signal de fin d'une zone est placé à chaque sortie; il peut être apposé au verso du signal de début de la zone. 6.La réglementation a effet dans toute la zone ainsi délimitée, sauf en ce qui concerne le stationnement aux emplacements où une autre réglementation du stationnement est prévue par une signalisation routière. 7.Un signal de début de zone d'interdiction peut être annoncé par un signal identique complété par la mention de la distance approximative à laquelle commence la zone d'interdiction. Exemple :  8.La réglementation en vigueur dans la zone peut être rappelée par un signal identique à celui placé au début de la zone, complété par le mot \"Rappel\". Exemple :  9.La signification d'une signalisation à validité zonale peut être complétée, précisée ou limitée par une inscription ou un symbole en noir. Toutefois, s'agissant du signal E9a, l'inscription ou le symbole peut être apporté en blanc dans le fond bleu du signal. Exemples :  10 (Région de Bruxelles-Capitale et Région flamande).Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point65.5.3. A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone. Le signal de zone est placé à droite à chaque accès à la zone de vitesse visée. Le signal peut être répété à gauche. Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. Le signal de zone n'est pas répété. A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Le signal de zone n'est pas répété. Lorsqu'à l'intérieur de la zone, une agglomération est délimitée, le signal de zone doit toutefois être replacé à la fin de l'agglomération. Lorsqu'à l'intérieur de la zone, une autre zone de vitesse est délimitée, le signal de zone doit toutefois être replacé à la fin de l'autre zone de vitesse. Les points65.5.6. à 65.5.9.ne sont pas d'application sur les zones de vitesse. 10 (Région wallonne).Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point65.5.3. A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Les points 65.5.6. à 65.5.9. ne sont pas d'application sur les zones de vitesse. 11.A l'intérieur de la zone de vitesse, le gestionnaire de voirie peut apposer, aux poteaux d'éclairage et de signalisation, une vignette autocollante ou un signal de reconnaissance représentant le signal C43, qui rappelle la vitesse de la zone. La vignette et le signal de reconnaissance sont des signes de reconnaissance et n'ont en eux-mêmes aucune conséquence obligatoire pour l'usager de la route. Le ministre compétent pour la circulation routière peut fixer les conditions de placement et les dimensions de la vignette et du signal de reconnaissance. Les mots « ministre compétent pour la circulation routière » sont remplacés par le membre de phrase « Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions » en ce qui concerne la Région flamande. 65.6. Limitation de la portée des signaux routiers Lorsqu'un signal routier ne concerne qu'une sortie située à droite d'une chaussée divisée en bandes de circulation, il est complété par un panneau additionnel du modèle suivant. ",
+  "definitions": [
+    {
+      "id": "2.3",
+      "term": "autoroute",
+      "term_nl": "autosnelweg",
+      "term_ru": "автострада",
+      "text": "La voie publique signalée par F5 et F7",
+      "text_nl": "De openbare weg aangeduid door F5 en F7",
+      "text_ru": "Дорога общего пользования, обозначенная знаками F5 и F7",
+      "signs": [
+        "F5",
+        "F7"
+      ],
+      "cross_references": [
+        "Art. 21"
+      ],
+      "seo": {
+        "meta_description": "Définition légale de l'autoroute selon le code de la route belge.",
+        "meta_description_nl": "Wettelijke definitie van autosnelweg volgens de Belgische wegcode.",
+        "meta_description_ru": "Юридическое определение автострады по бельгийскому ПДД."
+      },
+      "exam_questions": [
+        {
+          "text": "Qu'est-ce que désigne le terme «autoroute»?",
+          "text_nl": "Wat betekent de term «autosnelweg»?",
+          "text_ru": "Что обозначает термин «автострада»?",
+          "difficulty": 1,
+          "image": {
+            "sign_code": "F5",
+            "generation_prompt": "Belgian road sign F5: blue rectangle, white motorway symbol, EU standard, flat vector"
+          },
+          "options": [
+            {
+              "letter": "A",
+              "text": "Une voie publique signalée par F5 et F7",
+              "text_nl": "Een openbare weg aangeduid door F5 en F7",
+              "text_ru": "Дорога общего пользования, обозначенная знаками F5 и F7",
+              "is_correct": true
+            },
+            {
+              "letter": "B",
+              "text": "Toute route à plusieurs bandes",
+              "text_nl": "Elke weg met meerdere rijstroken",
+              "text_ru": "Любая дорога с несколькими полосами",
+              "is_correct": false
+            },
+            {
+              "letter": "C",
+              "text": "Une route réservée aux véhicules lourds",
+              "text_nl": "Een weg voorbehouden voor zware voertuigen",
+              "text_ru": "Дорога, предназначенная для тяжёлых транспортных средств",
+              "is_correct": false
+            }
+          ],
+          "explanation": "L'autoroute est définie par ses signaux F5 (début) et F7 (fin), indépendamment du nombre de bandes.",
+          "explanation_nl": "De autosnelweg wordt gedefinieerd door signalen F5 (begin) en F7 (einde), ongeacht het aantal rijstroken.",
+          "explanation_ru": "Автострада определяется знаками F5 (начало) и F7 (конец), независимо от числа полос."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source_url": "/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png",
+      "alt": "",
+      "sign_code": "M1",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/772bc7265326a5fddc53d7ce37e97d0148cb9491.png",
+      "alt": "",
+      "sign_code": "M2",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/4ca038f6935e8db364645c321fa08f8bca3d6dc8.png",
+      "alt": "",
+      "sign_code": "M3",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png",
+      "alt": "",
+      "sign_code": "M4",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png",
+      "alt": "",
+      "sign_code": "M5",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/8f6f9fb8021583dec0cee041a245a4a96ef48545.png",
+      "alt": "",
+      "sign_code": "M6",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/2cd4d297a4a4dbff6b26ff95878837f61ced401e.png",
+      "alt": "",
+      "sign_code": "M7",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png",
+      "alt": "",
+      "sign_code": "M8",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png",
+      "alt": "",
+      "sign_code": "M9",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png",
+      "alt": "",
+      "sign_code": "M10",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/2d91637a66fe81b698b2b3afaeabb4be513cd7f9.png",
+      "alt": "",
+      "sign_code": "M11",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/52005dc12ffbb763cb92d10a71fff09973f32101.png",
+      "alt": "",
+      "sign_code": "M12",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/b8e11faeb24b3ff62a169ba1070df18c13030260.png",
+      "alt": "",
+      "sign_code": "M13",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/17e9c5d419ebe661c77441822bf283c8a02748f7.png",
+      "alt": "",
+      "sign_code": "M14",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/3cae0e9c260a53ec2da21ee4ba51ff8a89bf6ddf.png",
+      "alt": "",
+      "sign_code": "M15",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/f590b17a5daf64865356cbd2bef12eb2658887d1.png",
+      "alt": "",
+      "sign_code": "M16",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png",
+      "alt": "",
+      "sign_code": "M17",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png",
+      "alt": "",
+      "sign_code": "M18",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png",
+      "alt": "",
+      "sign_code": "M19",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png",
+      "alt": "",
+      "sign_code": "M20",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png",
+      "alt": "M21",
+      "sign_code": "M21",
+      "caption": "M21",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png",
+      "alt": "M22",
+      "sign_code": "M22",
+      "caption": "M22",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png",
+      "alt": "M23",
+      "sign_code": "M23",
+      "caption": "M23",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png",
+      "alt": "M24",
+      "sign_code": "M24",
+      "caption": "M24",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png",
+      "alt": "",
+      "sign_code": "C1",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png",
+      "alt": "",
+      "sign_code": "F19",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png",
+      "alt": "7 19 wit",
+      "sign_code": null,
+      "caption": "7 19 wit",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png",
+      "alt": "7 19 blauw",
+      "sign_code": null,
+      "caption": "7 19 blauw",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "7."
+    },
+    {
+      "source_url": "/media/image/orig/aa2e47b3bc8d35ea136c5abe4fb2749b2170f40e.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "8."
+    },
+    {
+      "source_url": "/media/image/orig/a0a62a36b070d21bea31e38c3ec8418b9483a70b.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "9."
+    },
+    {
+      "source_url": "/media/image/orig/0a3ca11013f10bfb505074f7b9aae06867108528.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "9."
+    },
+    {
+      "source_url": "/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png",
+      "alt": "ZE1+M22",
+      "sign_code": "E1",
+      "caption": "ZE1+M22",
+      "section_id": "9."
+    },
+    {
+      "source_url": "/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "65.6."
+    },
+    {
+      "source_url": "/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png",
+      "alt": "",
+      "sign_code": "M1",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/11402621cc51432f1571adf6631e770970e36893.png",
+      "alt": "",
+      "sign_code": "M2",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/e83dd89e36bf7c92481f5ac13b26e17e4ce51b42.png",
+      "alt": "",
+      "sign_code": "M3",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png",
+      "alt": "",
+      "sign_code": "M4",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png",
+      "alt": "",
+      "sign_code": "M5",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/b3065a4f5a35188d1ef0caed59372671643d178b.png",
+      "alt": "",
+      "sign_code": "M6",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/908818ba41be50746ab9171a6dda5ebbe9fb9077.png",
+      "alt": "",
+      "sign_code": "M7",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png",
+      "alt": "",
+      "sign_code": "M8",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png",
+      "alt": "",
+      "sign_code": "M9",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png",
+      "alt": "",
+      "sign_code": "M10",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/1932d7e84db8e69d1d9226ce5631f78ef1c6869d.png",
+      "alt": "",
+      "sign_code": "M11",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/40fd028cbd45e44a46abbf3d8d61edfdbcfc6116.png",
+      "alt": "",
+      "sign_code": "M12",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/9fceb7391f245abcc5c8fa71ffca9b66adf621eb.png",
+      "alt": "",
+      "sign_code": "M13",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/5d20dad4db299914cac730c027805f52e42cf9dc.png",
+      "alt": "",
+      "sign_code": "M14",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/2635fccb38931fdfa39e3932547967d3a0e144d5.png",
+      "alt": "",
+      "sign_code": "M15",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/8222d3737fbef4d9e2589740d888ee20e232d4d8.png",
+      "alt": "",
+      "sign_code": "M16",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png",
+      "alt": "",
+      "sign_code": "M17",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png",
+      "alt": "",
+      "sign_code": "M18",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png",
+      "alt": "",
+      "sign_code": "M19",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png",
+      "alt": "",
+      "sign_code": "M20",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png",
+      "alt": "M21",
+      "sign_code": "M21",
+      "caption": "M21",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png",
+      "alt": "M22",
+      "sign_code": "M22",
+      "caption": "M22",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png",
+      "alt": "M23",
+      "sign_code": "M23",
+      "caption": "M23",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png",
+      "alt": "M24",
+      "sign_code": "M24",
+      "caption": "M24",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png",
+      "alt": "",
+      "sign_code": "C1",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png",
+      "alt": "",
+      "sign_code": "F19",
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png",
+      "alt": "7 19 wit",
+      "sign_code": null,
+      "caption": "7 19 wit",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png",
+      "alt": "7 19 blauw",
+      "sign_code": null,
+      "caption": "7 19 blauw",
+      "section_id": "65.2."
+    },
+    {
+      "source_url": "/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "3."
+    },
+    {
+      "source_url": "/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "7."
+    },
+    {
+      "source_url": "/media/image/orig/629ca9926e87b36cc8a4877a139ca96ee44f302d.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "8."
+    },
+    {
+      "source_url": "/media/image/orig/95b8e4c913a8680380a05daa8450b4d46cb4f2b7.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "9."
+    },
+    {
+      "source_url": "/media/image/orig/77df5404a3fd27f55a0343520f2f03a97bd86ff5.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "9."
+    },
+    {
+      "source_url": "/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png",
+      "alt": "ZE1+M22",
+      "sign_code": "E1",
+      "caption": "ZE1+M22",
+      "section_id": "9."
+    },
+    {
+      "source_url": "/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png",
+      "alt": "",
+      "sign_code": null,
+      "caption": "",
+      "section_id": "65.6."
+    }
+  ],
+  "order": 2,
+  "source_id": "rgppxd5uxd",
+  "_meta": {
+    "source_type": "pdf|scrape|manual",
+    "source_url": "https://codedelaroute.be/…",
+    "import_version": "2.0",
+    "last_updated": "2026-02-28",
+    "validation_status": "draft|reviewed|approved",
+    "translated_by": "gpt-4o|human|deepl"
+  },
+  "slug": "art65_",
+  "parsed_at": "2026-02-28T12:21:12.553385",
+  "sections": {
+    "fr": [
+      {
+        "id": "65.1.",
+        "html": "<p><strong>65.1.</strong> Les signaux routiers sont divisés en six catégories:</p><p style=\"padding-left: 40px;\">- Signaux de danger;</p><p style=\"padding-left: 40px;\">- Signaux relatifs à la priorité;</p><p style=\"padding-left: 40px;\">- Signaux d'interdiction;</p><p style=\"padding-left: 40px;\">- Signaux d'obligation;</p><p style=\"padding-left: 40px;\">- Signaux relatifs à l'arrêt et au stationnement;</p><p style=\"padding-left: 40px;\">- Signaux d'indication.</p>",
+        "text": "65.1. Les signaux routiers sont divisés en six catégories: - Signaux de danger; - Signaux relatifs à la priorité; - Signaux d'interdiction; - Signaux d'obligation; - Signaux relatifs à l'arrêt et au stationnement; - Signaux d'indication. ",
+        "images": []
+      },
+      {
+        "id": "65.2.",
+        "html": "<p><strong><a name=\"65.2\"></a>65.2.</strong> La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal.</p><p>Toutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants:</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png\"/> M1  <img alt=\"\" src=\"/media/image/orig/772bc7265326a5fddc53d7ce37e97d0148cb9491.png\"/> M2  <img alt=\"\" src=\"/media/image/orig/4ca038f6935e8db364645c321fa08f8bca3d6dc8.png\"/> M3  <img alt=\"\" src=\"/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png\"/> M4  <img alt=\"\" src=\"/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png\"/> M5  <img alt=\"\" src=\"/media/image/orig/8f6f9fb8021583dec0cee041a245a4a96ef48545.png\"/> M6  <img alt=\"\" src=\"/media/image/orig/2cd4d297a4a4dbff6b26ff95878837f61ced401e.png\"/> M7  <img alt=\"\" src=\"/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png\"/> M8  <img alt=\"\" src=\"/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png\"/> M9  <img alt=\"\" src=\"/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png\"/> M10  <img alt=\"\" src=\"/media/image/orig/2d91637a66fe81b698b2b3afaeabb4be513cd7f9.png\"/> M11  <img alt=\"\" src=\"/media/image/orig/52005dc12ffbb763cb92d10a71fff09973f32101.png\"/> M12  <img alt=\"\" src=\"/media/image/orig/b8e11faeb24b3ff62a169ba1070df18c13030260.png\"/> M13  <img alt=\"\" src=\"/media/image/orig/17e9c5d419ebe661c77441822bf283c8a02748f7.png\"/> M14  <img alt=\"\" src=\"/media/image/orig/3cae0e9c260a53ec2da21ee4ba51ff8a89bf6ddf.png\"/> M15  <img alt=\"\" src=\"/media/image/orig/f590b17a5daf64865356cbd2bef12eb2658887d1.png\"/> M16  <img alt=\"\" src=\"/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png\"/> M17  <img alt=\"\" src=\"/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png\"/> M18  <img alt=\"\" src=\"/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png\"/> M19   <img alt=\"\" src=\"/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png\"/> M20</p><p style=\"padding-left: 30px;\">M21 <img alt=\"M21\" height=\"60\" src=\"/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png\" width=\"120\"/> Engins de déplacement.</p><p style=\"padding-left: 30px;\">M22 <img alt=\"M22\" height=\"61\" src=\"/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png\" width=\"120\"/> Engins de déplacement en libre-partage.</p><p style=\"padding-left: 30px;\">M23 <img alt=\"M23\" height=\"61\" src=\"/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png\" width=\"120\"/> Bicyclettes en libre-partage.</p><p style=\"padding-left: 30px;\">M24 <img alt=\"M24\" height=\"122\" src=\"/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png\" width=\"120\"/> Bicyclettes et engins de déplacement en libre-partage.</p><p>Ces symboles peuvent être combinés sur un panneau additionnel unique du modèle M.</p><p>Sauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19.</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png\"/>C1 <img alt=\"\" src=\"/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png\"/> F19</p><p>Les panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png\"/></p><p>Les panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :</p><p style=\"padding-left: 30px;\"><img alt=\"7 19 wit\" height=\"48\" src=\"/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png\" width=\"160\"/></p><p style=\"padding-left: 30px;\"><img alt=\"7 19 blauw\" height=\"48\" src=\"/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png\" width=\"160\"/></p>",
+        "text": "65.2. La signification d'un signal routier peut être complétée, précisée ou limitée par une inscription ou un symbole en blanc figurant sur un panneau additionnel rectangulaire à fond bleu qui est fixé en dessous du signal. Toutefois, les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues portent des inscriptions et symboles en noir sur fond blanc et sont d'un des modèles suivants: M1 M2 M3 M4 M5 M6 M7 M8 M9 M10 M11 M12 M13 M14 M15 M16 M17 M18 M19 M20 M21 Engins de déplacement. M22 Engins de déplacement en libre-partage. M23 Bicyclettes en libre-partage. M24 Bicyclettes et engins de déplacement en libre-partage. Ces symboles peuvent être combinés sur un panneau additionnel unique du modèle M. Sauf circonstances locales, les panneaux M2 à M5 complètent respectivement les signaux C1 et F19. C1 F19 Les panneaux additionnels concernant les signaux routiers C24a et D4 portent les lettres B, C, D ou E en noir sur fond blanc et sont d'un des modèles suivants :  Les panneaux additionnels indiquant une période de validité, portent les inscriptions en noir sur fond blanc ou en blanc sur fond bleu et sont du modèle suivant :   ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png",
+            "alt": "",
+            "sign_code": "M1",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/772bc7265326a5fddc53d7ce37e97d0148cb9491.png",
+            "alt": "",
+            "sign_code": "M2",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/4ca038f6935e8db364645c321fa08f8bca3d6dc8.png",
+            "alt": "",
+            "sign_code": "M3",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png",
+            "alt": "",
+            "sign_code": "M4",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png",
+            "alt": "",
+            "sign_code": "M5",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/8f6f9fb8021583dec0cee041a245a4a96ef48545.png",
+            "alt": "",
+            "sign_code": "M6",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/2cd4d297a4a4dbff6b26ff95878837f61ced401e.png",
+            "alt": "",
+            "sign_code": "M7",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png",
+            "alt": "",
+            "sign_code": "M8",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png",
+            "alt": "",
+            "sign_code": "M9",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png",
+            "alt": "",
+            "sign_code": "M10",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/2d91637a66fe81b698b2b3afaeabb4be513cd7f9.png",
+            "alt": "",
+            "sign_code": "M11",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/52005dc12ffbb763cb92d10a71fff09973f32101.png",
+            "alt": "",
+            "sign_code": "M12",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/b8e11faeb24b3ff62a169ba1070df18c13030260.png",
+            "alt": "",
+            "sign_code": "M13",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/17e9c5d419ebe661c77441822bf283c8a02748f7.png",
+            "alt": "",
+            "sign_code": "M14",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/3cae0e9c260a53ec2da21ee4ba51ff8a89bf6ddf.png",
+            "alt": "",
+            "sign_code": "M15",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/f590b17a5daf64865356cbd2bef12eb2658887d1.png",
+            "alt": "",
+            "sign_code": "M16",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png",
+            "alt": "",
+            "sign_code": "M17",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png",
+            "alt": "",
+            "sign_code": "M18",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png",
+            "alt": "",
+            "sign_code": "M19",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png",
+            "alt": "",
+            "sign_code": "M20",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png",
+            "alt": "M21",
+            "sign_code": "M21",
+            "caption": "M21"
+          },
+          {
+            "source_url": "/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png",
+            "alt": "M22",
+            "sign_code": "M22",
+            "caption": "M22"
+          },
+          {
+            "source_url": "/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png",
+            "alt": "M23",
+            "sign_code": "M23",
+            "caption": "M23"
+          },
+          {
+            "source_url": "/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png",
+            "alt": "M24",
+            "sign_code": "M24",
+            "caption": "M24"
+          },
+          {
+            "source_url": "/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png",
+            "alt": "",
+            "sign_code": "C1",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png",
+            "alt": "",
+            "sign_code": "F19",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png",
+            "alt": "7 19 wit",
+            "sign_code": null,
+            "caption": "7 19 wit"
+          },
+          {
+            "source_url": "/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png",
+            "alt": "7 19 blauw",
+            "sign_code": null,
+            "caption": "7 19 blauw"
+          }
+        ]
+      },
+      {
+        "id": "65.3.",
+        "html": "<p><strong><a name=\"65.3\"></a>65.3. Signalisation à message variable</strong></p><p>Lorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre.</p><p>La couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée.</p><p>Les signaux gardent leur signification.</p>",
+        "text": "65.3. Signalisation à message variable Lorsque des signaux de danger, de priorité, d'interdiction, d'obligation ou d'indication peuvent apparaître dans le même panneau, les symboles et inscriptions de teinte sombre peuvent figurer en teinte claire, les fonds de teinte claire peuvent être remplacés par des fonds de teinte sombre. La couleur rouge du symbole d'un signal et de sa bordure ne sera pas modifiée. Les signaux gardent leur signification. ",
+        "images": []
+      },
+      {
+        "id": "65.4.",
+        "html": "<p><strong><a name=\"65.4\"></a>65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique</strong></p><p>Lorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée.</p>",
+        "text": "65.4. Signalisation par bande de circulation et signalisation d’application sur des parties de la voie publique Lorsqu'un signal de danger, de priorité, d'interdiction, d'obligation ou d'indication est placé au-dessus d'une bande de circulation ou d’une autre partie de la voie publique, ou lorsqu'il est fait usage de signaux F89 et F91, l'indication donnée par le signal ne vaut que pour la bande de circulation ou pour la partie de la voie publique concernée. ",
+        "images": []
+      },
+      {
+        "id": "65.5.",
+        "html": "<p><strong><a name=\"65.5\"></a>65.5. Signalisation à validité zonale</strong></p>",
+        "text": "65.5. Signalisation à validité zonale ",
+        "images": []
+      },
+      {
+        "id": "1.",
+        "html": "<p style=\"padding-left: 30px;\"><strong>1.</strong> La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement.</p><p style=\"padding-left: 30px;\">Leur signification reste inchangée.</p>",
+        "text": "1. La validité zonale peut être conférée aux signaux d’interdiction et aux signaux relatifs au stationnement. Leur signification reste inchangée. ",
+        "images": []
+      },
+      {
+        "id": "2.",
+        "html": "<p style=\"padding-left: 30px;\"><strong>2.</strong> Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale.</p><div class=\"notification notification-primary\">En ce qui concerne la Région flamande, les mots « Le Ministre des Communications » sont remplacés par le membre de phrase « Le Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions ».</div><div class=\"notification notification-primary\">Voir <a href=\"/fr/perma/j6siwtihko/regulation_regulation\">A.M. du 11 octobre 1976 fixant les dimensions minimales et les conditions particulières de placement de la signalisation routière</a>.</div>",
+        "text": "2. Le Ministre des Communications détermine les signaux qui peuvent être utilisés dans le cadre de la signalisation à validité zonale. En ce qui concerne la Région flamande, les mots « Le Ministre des Communications » sont remplacés par le membre de phrase « Le Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions ». Voir A.M. du 11 octobre 1976 fixant les dimensions minimales et les conditions particulières de placement de la signalisation routière . ",
+        "images": []
+      },
+      {
+        "id": "3.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.3\"></a>3.</strong> Ils sont inscrits dans un panneau à fond blanc.</p><p style=\"padding-left: 30px;\">Exemples :</p><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse;\">\n<tbody>\n<tr style=\"padding-left: 90px;\">\n<td style=\"width: 15.9156%;\"><img alt=\"\" src=\"/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone de stationnement à durée limité (zone bleue).</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone de stationnement à durée limité.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Début d'une zone où la vitesse est limitée à la vitesse indiquée.</td>\n</tr>\n<tr>\n<td style=\"width: 15.9156%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png\"/></td>\n<td style=\"width: 83.947%;\" valign=\"middle\">Fin d'une zone où la vitesse est limitée à la vitesse indiquée.</td>\n</tr>\n</tbody>\n</table><p style=\"padding-left: 30px;\"><strong>4 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Le signal de début d'une zone où une interdiction ou une règle de stationnement particulière est applicable est placé à droite à chaque accès à ladite zone.</p><p style=\"padding-left: 30px;\">Il peut être répété à gauche.</p><p style=\"padding-left: 30px;\"><strong>5 (uniquement Région de Bruxelles-Capitale et Région flamande).</strong> Le signal de fin d'une zone est placé à chaque sortie; il peut être apposé au verso du signal de début de la zone.</p>",
+        "text": "3. Ils sont inscrits dans un panneau à fond blanc. Exemples : Début d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes. Fin d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes. Début d'une zone de stationnement à durée limité (zone bleue). Fin d'une zone de stationnement à durée limité. Début d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues. Fin d'une zone d'interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues. Début d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée. Fin d'une zone dont l'accès est interdit aux conducteurs de véhicules dont la masse en charge dépasse la masse indiquée. Début d'une zone où la vitesse est limitée à la vitesse indiquée. Fin d'une zone où la vitesse est limitée à la vitesse indiquée. 4 (uniquement Région de Bruxelles-Capitale et Région flamande). Le signal de début d'une zone où une interdiction ou une règle de stationnement particulière est applicable est placé à droite à chaque accès à ladite zone. Il peut être répété à gauche. 5 (uniquement Région de Bruxelles-Capitale et Région flamande). Le signal de fin d'une zone est placé à chaque sortie; il peut être apposé au verso du signal de début de la zone. ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "6.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.6\"></a>6.</strong> La réglementation a effet dans toute la zone ainsi délimitée, sauf en ce qui concerne le stationnement aux emplacements où une autre réglementation du stationnement est prévue par une signalisation routière.</p>",
+        "text": "6. La réglementation a effet dans toute la zone ainsi délimitée, sauf en ce qui concerne le stationnement aux emplacements où une autre réglementation du stationnement est prévue par une signalisation routière. ",
+        "images": []
+      },
+      {
+        "id": "7.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.7\"></a>7.</strong> Un signal de début de zone d'interdiction peut être annoncé par un signal identique complété par la mention de la distance approximative à laquelle commence la zone d'interdiction.</p><p style=\"padding-left: 30px;\">Exemple :</p><p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png\"/></p>",
+        "text": "7. Un signal de début de zone d'interdiction peut être annoncé par un signal identique complété par la mention de la distance approximative à laquelle commence la zone d'interdiction. Exemple :  ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "8.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.8\"></a>8.</strong> La réglementation en vigueur dans la zone peut être rappelée par un signal identique à celui placé au début de la zone, complété par le mot \"Rappel\".</p><p style=\"padding-left: 30px;\">Exemple :</p><p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/aa2e47b3bc8d35ea136c5abe4fb2749b2170f40e.png\"/></p>",
+        "text": "8. La réglementation en vigueur dans la zone peut être rappelée par un signal identique à celui placé au début de la zone, complété par le mot \"Rappel\". Exemple :  ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/aa2e47b3bc8d35ea136c5abe4fb2749b2170f40e.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "9.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.9\"></a>9.</strong> La signification d'une signalisation à validité zonale peut être complétée, précisée ou limitée par une inscription ou un symbole en noir.</p><p style=\"padding-left: 30px;\">Toutefois, s'agissant du signal E9a, l'inscription ou le symbole peut être apporté en blanc dans le fond bleu du signal.</p><p style=\"padding-left: 30px;\">Exemples :</p><p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/a0a62a36b070d21bea31e38c3ec8418b9483a70b.png\"/> <img alt=\"\" src=\"/media/image/orig/0a3ca11013f10bfb505074f7b9aae06867108528.png\"/> <img alt=\"ZE1+M22\" height=\"120\" src=\"/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png\" width=\"80\"/></p><p style=\"padding-left: 30px;\"><strong>10 (Région de Bruxelles-Capitale et Région flamande).</strong> Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point <a href=\"#65.5.3\">65.5.3</a>.</p><p style=\"padding-left: 30px;\">A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone.</p><p style=\"padding-left: 30px;\">Le signal de zone est placé à droite à chaque accès à la zone de vitesse visée. Le signal peut être répété à gauche.</p><p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. Le signal de zone n'est pas répété.</p><p style=\"padding-left: 30px;\">A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone.</p><p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Le signal de zone n'est pas répété.</p><p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une agglomération est délimitée, le signal de zone doit toutefois être replacé à la fin de l'agglomération.</p><p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une autre zone de vitesse est délimitée, le signal de zone doit toutefois être replacé à la fin de l'autre zone de vitesse.</p><p style=\"padding-left: 30px;\">Les points <a href=\"#65.5.6\">65.5.6. à 65.5.9.</a> ne sont pas d'application sur les zones de vitesse.</p><p style=\"padding-left: 30px;\"><strong>10 (Région wallonne).</strong> Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point <a href=\"#65.5.3\">65.5.3</a>.</p><p style=\"padding-left: 30px;\">A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone.</p><p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant.</p><p style=\"padding-left: 30px;\">A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone.</p><p style=\"padding-left: 30px;\">Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école.</p><p style=\"padding-left: 30px;\">Les points 65.5.6. à 65.5.9. ne sont pas d'application sur les zones de vitesse.</p>",
+        "text": "9. La signification d'une signalisation à validité zonale peut être complétée, précisée ou limitée par une inscription ou un symbole en noir. Toutefois, s'agissant du signal E9a, l'inscription ou le symbole peut être apporté en blanc dans le fond bleu du signal. Exemples :  10 (Région de Bruxelles-Capitale et Région flamande). Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point 65.5.3 . A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone. Le signal de zone est placé à droite à chaque accès à la zone de vitesse visée. Le signal peut être répété à gauche. Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. Le signal de zone n'est pas répété. A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Le signal de zone n'est pas répété. Lorsqu'à l'intérieur de la zone, une agglomération est délimitée, le signal de zone doit toutefois être replacé à la fin de l'agglomération. Lorsqu'à l'intérieur de la zone, une autre zone de vitesse est délimitée, le signal de zone doit toutefois être replacé à la fin de l'autre zone de vitesse. Les points 65.5.6. à 65.5.9. ne sont pas d'application sur les zones de vitesse. 10 (Région wallonne). Les zones de vitesse sont indiquées par le signal C43 auquel la validité zonale est conférée conformément au point 65.5.3 . A partir du signal de zone jusqu'au signal de fin de zone, il est interdit de rouler à une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, le signal C43 indique une autre vitesse, la vitesse de la zone est de nouveau en vigueur à partir du carrefour suivant. A l'intérieur de la zone de vitesse, il ne peut être placé de signal C43 indiquant une vitesse supérieure à la vitesse de la zone. Lorsqu'à l'intérieur de la zone, une zone de rencontre, une zone résidentielle ou un abord d'école est délimité, la vitesse de la zone est de nouveau applicable à partir de la fin de la zone de rencontre, de la zone résidentielle ou de l'abord de l'école. Les points 65.5.6. à 65.5.9. ne sont pas d'application sur les zones de vitesse. ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/a0a62a36b070d21bea31e38c3ec8418b9483a70b.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/0a3ca11013f10bfb505074f7b9aae06867108528.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png",
+            "alt": "ZE1+M22",
+            "sign_code": "E1",
+            "caption": "ZE1+M22"
+          }
+        ]
+      },
+      {
+        "id": "11.",
+        "html": "<p style=\"padding-left: 30px;\"><strong>11.</strong> A l'intérieur de la zone de vitesse, le gestionnaire de voirie peut apposer, aux poteaux d'éclairage et de signalisation, une vignette autocollante ou un signal de reconnaissance représentant le signal C43, qui rappelle la vitesse de la zone.</p><p style=\"padding-left: 30px;\">La vignette et le signal de reconnaissance sont des signes de reconnaissance et n'ont en eux-mêmes aucune conséquence obligatoire pour l'usager de la route.</p><p style=\"padding-left: 30px;\">Le ministre compétent pour la circulation routière peut fixer les conditions de placement et les dimensions de la vignette et du signal de reconnaissance.</p><div class=\"notification notification-primary\">Les mots « ministre compétent pour la circulation routière » sont remplacés par le membre de phrase « Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions » en ce qui concerne la Région flamande.</div>",
+        "text": "11. A l'intérieur de la zone de vitesse, le gestionnaire de voirie peut apposer, aux poteaux d'éclairage et de signalisation, une vignette autocollante ou un signal de reconnaissance représentant le signal C43, qui rappelle la vitesse de la zone. La vignette et le signal de reconnaissance sont des signes de reconnaissance et n'ont en eux-mêmes aucune conséquence obligatoire pour l'usager de la route. Le ministre compétent pour la circulation routière peut fixer les conditions de placement et les dimensions de la vignette et du signal de reconnaissance. Les mots « ministre compétent pour la circulation routière » sont remplacés par le membre de phrase « Ministre flamand ayant la politique de la mobilité, les travaux publics et les transports dans ses attributions » en ce qui concerne la Région flamande. ",
+        "images": []
+      },
+      {
+        "id": "65.6.",
+        "html": "<p><strong><a name=\"65.6\"></a>65.6. Limitation de la portée des signaux routiers</strong></p><p>Lorsqu'un signal routier ne concerne qu'une sortie située à droite d'une chaussée divisée en bandes de circulation, il est complété par un panneau additionnel du modèle suivant.</p><p><img alt=\"\" src=\"/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png\"/></p>",
+        "text": "65.6. Limitation de la portée des signaux routiers Lorsqu'un signal routier ne concerne qu'une sortie située à droite d'une chaussée divisée en bandes de circulation, il est complété par un panneau additionnel du modèle suivant.  ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          }
+        ]
+      }
+    ],
+    "nl": [
+      {
+        "id": "65.1.",
+        "html": "<p><strong>65.1.</strong> De verkeersborden worden ingedeeld in zes categorieën:</p><ol>\n<li>Gevaarsborden.</li>\n<li>Verkeersborden betreffende de voorrang.</li>\n<li>Verbodsborden.</li>\n<li>Gebodsborden.</li>\n<li>Verkeersborden betreffende het stilstaan en parkeren.</li>\n<li>Aanwijzingsborden.</li>\n</ol>",
+        "text": "65.1. De verkeersborden worden ingedeeld in zes categorieën: Gevaarsborden. Verkeersborden betreffende de voorrang. Verbodsborden. Gebodsborden. Verkeersborden betreffende het stilstaan en parkeren. Aanwijzingsborden. ",
+        "images": []
+      },
+      {
+        "id": "65.2.",
+        "html": "<p><strong><a name=\"65.2\"></a>65.2.</strong> De betekenis van een verkeersbord kan worden aangevuld, nader bepaald of beperkt door een wit opschrift of symbool op een rechthoekig onderbord met blauwe achtergrond dat onder het teken bevestigd is.</p><p>De onderborden betreffende de fietsen, de voortbewegingstoestellen en tweewielige bromfietsen hebben evenwel zwarte opschriften en symbolen op witte achtergronden en zijn van één van de volgende modellen :</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png\"/> M1  <img alt=\"\" src=\"/media/image/orig/11402621cc51432f1571adf6631e770970e36893.png\"/> M2  <img alt=\"\" src=\"/media/image/orig/e83dd89e36bf7c92481f5ac13b26e17e4ce51b42.png\"/> M3  <img alt=\"\" src=\"/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png\"/> M4  <img alt=\"\" src=\"/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png\"/> M5  <img alt=\"\" src=\"/media/image/orig/b3065a4f5a35188d1ef0caed59372671643d178b.png\"/> M6  <img alt=\"\" src=\"/media/image/orig/908818ba41be50746ab9171a6dda5ebbe9fb9077.png\"/> M7  <img alt=\"\" src=\"/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png\"/> M8  <img alt=\"\" src=\"/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png\"/> M9  <img alt=\"\" src=\"/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png\"/> M10  <img alt=\"\" src=\"/media/image/orig/1932d7e84db8e69d1d9226ce5631f78ef1c6869d.png\"/> M11  <img alt=\"\" src=\"/media/image/orig/40fd028cbd45e44a46abbf3d8d61edfdbcfc6116.png\"/> M12  <img alt=\"\" src=\"/media/image/orig/9fceb7391f245abcc5c8fa71ffca9b66adf621eb.png\"/> M13  <img alt=\"\" src=\"/media/image/orig/5d20dad4db299914cac730c027805f52e42cf9dc.png\"/> M14  <img alt=\"\" src=\"/media/image/orig/2635fccb38931fdfa39e3932547967d3a0e144d5.png\"/> M15  <img alt=\"\" src=\"/media/image/orig/8222d3737fbef4d9e2589740d888ee20e232d4d8.png\"/> M16  <img alt=\"\" src=\"/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png\"/> M17  <img alt=\"\" src=\"/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png\"/> M18  <img alt=\"\" src=\"/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png\"/> M19  <img alt=\"\" src=\"/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png\"/> M20</p><p style=\"padding-left: 30px;\">M21 <img alt=\"M21\" height=\"60\" src=\"/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png\" width=\"120\"/> Voortbewegingstoestellen.</p><p style=\"padding-left: 30px;\">M22 <img alt=\"M22\" height=\"61\" src=\"/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png\" width=\"120\"/> Deelvoortbewegingstoestellen.</p><p style=\"padding-left: 30px;\">M23 <img alt=\"M23\" height=\"61\" src=\"/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png\" width=\"120\"/> Deelfietsen.</p><p style=\"padding-left: 30px;\">M24 <img alt=\"M24\" height=\"122\" src=\"/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png\" width=\"120\"/> Deelfietsen en deelvoortbewegingstoestellen.</p><p>Deze symbolen mogen gecombineerd worden op een enkel onderbord van het model M.</p><p>Behoudens plaatselijke omstandigheden vullen de onderborden M2 tot M5 respectievelijk de borden C1 en F19 aan.</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png\"/>C1 <img alt=\"\" src=\"/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png\"/> F19</p><p>De onderborden bij de verkeersborden C24a en D4 dragen de letters B, C, D of E in zwart opschrift op een witte ondergrond en zien eruit als volgt :</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png\"/></p><p>De onderborden die een tijdsbeperking aanduiden, hebben zwarte opschriften op een witte achtergrond of witte opschriften op een blauwe achtergrond en zijn van het volgende model :</p><p style=\"padding-left: 30px;\"><img alt=\"7 19 wit\" height=\"48\" src=\"/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png\" width=\"160\"/></p><p style=\"padding-left: 30px;\"><img alt=\"7 19 blauw\" height=\"48\" src=\"/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png\" width=\"160\"/></p>",
+        "text": "65.2. De betekenis van een verkeersbord kan worden aangevuld, nader bepaald of beperkt door een wit opschrift of symbool op een rechthoekig onderbord met blauwe achtergrond dat onder het teken bevestigd is. De onderborden betreffende de fietsen, de voortbewegingstoestellen en tweewielige bromfietsen hebben evenwel zwarte opschriften en symbolen op witte achtergronden en zijn van één van de volgende modellen : M1 M2 M3 M4 M5 M6 M7 M8 M9 M10 M11 M12 M13 M14 M15 M16 M17 M18 M19 M20 M21 Voortbewegingstoestellen. M22 Deelvoortbewegingstoestellen. M23 Deelfietsen. M24 Deelfietsen en deelvoortbewegingstoestellen. Deze symbolen mogen gecombineerd worden op een enkel onderbord van het model M. Behoudens plaatselijke omstandigheden vullen de onderborden M2 tot M5 respectievelijk de borden C1 en F19 aan. C1 F19 De onderborden bij de verkeersborden C24a en D4 dragen de letters B, C, D of E in zwart opschrift op een witte ondergrond en zien eruit als volgt :  De onderborden die een tijdsbeperking aanduiden, hebben zwarte opschriften op een witte achtergrond of witte opschriften op een blauwe achtergrond en zijn van het volgende model :   ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/209b9465de451a0e95bd915b9d205961d4926e41.png",
+            "alt": "",
+            "sign_code": "M1",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/11402621cc51432f1571adf6631e770970e36893.png",
+            "alt": "",
+            "sign_code": "M2",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/e83dd89e36bf7c92481f5ac13b26e17e4ce51b42.png",
+            "alt": "",
+            "sign_code": "M3",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/28b9a7100154462bd88ab8d15e92d69be13644ea.png",
+            "alt": "",
+            "sign_code": "M4",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/c56abeb32705cb37b5341c24f718bff809b59fe9.png",
+            "alt": "",
+            "sign_code": "M5",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/b3065a4f5a35188d1ef0caed59372671643d178b.png",
+            "alt": "",
+            "sign_code": "M6",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/908818ba41be50746ab9171a6dda5ebbe9fb9077.png",
+            "alt": "",
+            "sign_code": "M7",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/336256a8f7803381fcf26b547c6ea69098781b92.png",
+            "alt": "",
+            "sign_code": "M8",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/c9932c117571f112e6878e8bc612a6dbd13eb415.png",
+            "alt": "",
+            "sign_code": "M9",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/b4ed1d5e4ca8b2613db1a2fcd4ef9c63d6dc51cf.png",
+            "alt": "",
+            "sign_code": "M10",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/1932d7e84db8e69d1d9226ce5631f78ef1c6869d.png",
+            "alt": "",
+            "sign_code": "M11",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/40fd028cbd45e44a46abbf3d8d61edfdbcfc6116.png",
+            "alt": "",
+            "sign_code": "M12",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/9fceb7391f245abcc5c8fa71ffca9b66adf621eb.png",
+            "alt": "",
+            "sign_code": "M13",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/5d20dad4db299914cac730c027805f52e42cf9dc.png",
+            "alt": "",
+            "sign_code": "M14",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/2635fccb38931fdfa39e3932547967d3a0e144d5.png",
+            "alt": "",
+            "sign_code": "M15",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/8222d3737fbef4d9e2589740d888ee20e232d4d8.png",
+            "alt": "",
+            "sign_code": "M16",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/f80ae07badf297ab440fa4f79f45bd633a3e2bef.png",
+            "alt": "",
+            "sign_code": "M17",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/4d0869ebbc03a5fb65e3de6bbcd0ac784225d904.png",
+            "alt": "",
+            "sign_code": "M18",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/a12292abe89267c8e737a87770b614af91c79692.png",
+            "alt": "",
+            "sign_code": "M19",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/2d52aabc7ba1e4c40a26e1cc62842d6728b37577.png",
+            "alt": "",
+            "sign_code": "M20",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/665046352baf778de94be9ad831ae970aa894178.png",
+            "alt": "M21",
+            "sign_code": "M21",
+            "caption": "M21"
+          },
+          {
+            "source_url": "/media/image/orig/64474fdba64b80f24e245ce2fd731857f1883767.png",
+            "alt": "M22",
+            "sign_code": "M22",
+            "caption": "M22"
+          },
+          {
+            "source_url": "/media/image/orig/cd0cc699b0cb943609871890a162642ab78042c1.png",
+            "alt": "M23",
+            "sign_code": "M23",
+            "caption": "M23"
+          },
+          {
+            "source_url": "/media/image/orig/87d40d5df858a2072478c5c9d59639141872f044.png",
+            "alt": "M24",
+            "sign_code": "M24",
+            "caption": "M24"
+          },
+          {
+            "source_url": "/media/image/orig/c3228803f146a2f6c9f2a8c5641a40746a541c1c.png",
+            "alt": "",
+            "sign_code": "C1",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/5699d9d46c939f526876c7ced7ad7f7ff6ab71fe.png",
+            "alt": "",
+            "sign_code": "F19",
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/dadca6c431defc442b6940c7e26f3326e50f66b7.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/bc6e182e3030a8bac46eb14be7566ba95e0d49c4.png",
+            "alt": "7 19 wit",
+            "sign_code": null,
+            "caption": "7 19 wit"
+          },
+          {
+            "source_url": "/media/image/orig/7b476e41b587e8a97a59f9f9ecf75a9ba5996532.png",
+            "alt": "7 19 blauw",
+            "sign_code": null,
+            "caption": "7 19 blauw"
+          }
+        ]
+      },
+      {
+        "id": "65.3.",
+        "html": "<p><strong><a name=\"65.3\"></a>65.3. Signalisatie met veranderlijke informatie</strong></p><p>Wanneer gevaarsborden, verkeersborden betreffende de voorrang, verbodsborden, gebodsborden of aanwijzingsborden in hetzelfde signaleringsbord kunnen verschijnen, mogen de symbolen en opschriften met een donkere kleur, weergegeven worden in een lichte kleur en de achtergronden met een lichte kleur worden vervangen door donkere achtergronden.</p><p>De rode kleur van het symbool van een verkeersbord en van zijn rand wordt niet gewijzigd.</p><p>De verkeersborden behouden hun betekenis.</p>",
+        "text": "65.3. Signalisatie met veranderlijke informatie Wanneer gevaarsborden, verkeersborden betreffende de voorrang, verbodsborden, gebodsborden of aanwijzingsborden in hetzelfde signaleringsbord kunnen verschijnen, mogen de symbolen en opschriften met een donkere kleur, weergegeven worden in een lichte kleur en de achtergronden met een lichte kleur worden vervangen door donkere achtergronden. De rode kleur van het symbool van een verkeersbord en van zijn rand wordt niet gewijzigd. De verkeersborden behouden hun betekenis. ",
+        "images": []
+      },
+      {
+        "id": "65.4.",
+        "html": "<p><strong><a name=\"65.4\"></a>65.4. Rijstrooksignalisatie en signalisatie van toepassing op delen van de openbare weg</strong></p><p>Wanneer een gevaarsbord, een verkeersbord betreffende de voorrang, een verbodsbord, een gebodsbord of een aanwijzingsbord geplaatst is boven een rijstrook of een ander deel van de openbare weg, of wanneer gebruik is gemaakt van verkeersborden F89 en F91, geldt de aanwijzing die door het bord gegeven wordt alleen voor die rijstrook of voor het betrokken gedeelte van de openbare weg.</p>",
+        "text": "65.4. Rijstrooksignalisatie en signalisatie van toepassing op delen van de openbare weg Wanneer een gevaarsbord, een verkeersbord betreffende de voorrang, een verbodsbord, een gebodsbord of een aanwijzingsbord geplaatst is boven een rijstrook of een ander deel van de openbare weg, of wanneer gebruik is gemaakt van verkeersborden F89 en F91, geldt de aanwijzing die door het bord gegeven wordt alleen voor die rijstrook of voor het betrokken gedeelte van de openbare weg. ",
+        "images": []
+      },
+      {
+        "id": "65.5.",
+        "html": "<p><strong><a name=\"65.5\"></a>65.5. Signalisatie met zonale geldigheid</strong></p>",
+        "text": "65.5. Signalisatie met zonale geldigheid ",
+        "images": []
+      },
+      {
+        "id": "1.",
+        "html": "<p style=\"padding-left: 30px;\"><strong>1.</strong> Aan de verbodsborden en de borden betreffende het parkeren kan de zonale geldigheid worden gegeven.</p><p style=\"padding-left: 30px;\">Hun betekenis blijft ongewijzigd.</p>",
+        "text": "1. Aan de verbodsborden en de borden betreffende het parkeren kan de zonale geldigheid worden gegeven. Hun betekenis blijft ongewijzigd. ",
+        "images": []
+      },
+      {
+        "id": "2.",
+        "html": "<p style=\"padding-left: 30px;\"><strong>2.</strong> De Minister van Verkeerswezen bepaalt de verkeersborden die voor signalisatie met zonale geldigheid gebruikt kunnen worden.</p><div class=\"notification notification-primary\">Voor wat betreft het Vlaams Gewest, worden de woorden “Minister van Verkeerswezen” vervangen door de zinsnede “de Vlaamse minister, bevoegd voor het mobiliteitsbeleid, de openbare werken en het vervoer,”.</div><div class=\"notification notification-primary\">Zie <a href=\"/nl/perma/j6siwtihko/regulation_regulation\">M.B. van 11 oktober 1976 houdende de minimum afmetingen en de bijzondere plaatsingsvoorwaarden van de verkeerstekens</a>.</div>",
+        "text": "2. De Minister van Verkeerswezen bepaalt de verkeersborden die voor signalisatie met zonale geldigheid gebruikt kunnen worden. Voor wat betreft het Vlaams Gewest, worden de woorden “Minister van Verkeerswezen” vervangen door de zinsnede “de Vlaamse minister, bevoegd voor het mobiliteitsbeleid, de openbare werken en het vervoer,”. Zie M.B. van 11 oktober 1976 houdende de minimum afmetingen en de bijzondere plaatsingsvoorwaarden van de verkeerstekens . ",
+        "images": []
+      },
+      {
+        "id": "3.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.3\"></a>3.</strong> Ze komen voor op een bord met witte achtergrond.</p><p style=\"padding-left: 30px;\">Voorbeelden :</p><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" class=\"zebra\" style=\"width: 100%;\">\n<tbody>\n<tr style=\"padding-left: 90px;\">\n<td style=\"width: 9.95076%;\"><img alt=\"\" src=\"/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone waar het parkeren voorbehouden is voor voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone waar het parkeren voorbehouden is voor voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone met beperkte parkeertijd (blauwe zone).</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone met beperkte parkeertijd.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone waar het verboden is een gespan of een voertuig met meer dan twee wielen links in te halen.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone waar het verboden is een gespan of een voertuig met meer dan twee wielen links in te halen.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone waar de toegang verboden is voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan de aangeduide massa.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone waar de toegang verboden is voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan de aangeduide massa.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Begin van een zone waar de snelheid beperkt is tot de aangeduide snelheid.</td>\n</tr>\n<tr>\n<td style=\"width: 9.95076%;\" valign=\"top\"><img alt=\"\" src=\"/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png\"/></td>\n<td style=\"width: 89.8948%;\" valign=\"middle\">Einde van een zone waar de snelheid beperkt is tot de aangeduide snelheid.</td>\n</tr>\n</tbody>\n</table><p style=\"padding-left: 30px;\"><strong>4 (enkel Brussels Hoofdstedelijk Gewest en Vlaams Gewest).</strong> Het verkeersbord betreffende het begin van een zone waar een bijzonder verbod of een bijzondere regel inzake parkeren van toepassing is, wordt rechts geplaatst aan elke toegang tot deze zone.</p><p style=\"padding-left: 30px;\">Het mag links herhaald worden.</p><p style=\"padding-left: 30px;\"><strong>5 (enkel Brussels Hoofdstedelijk Gewest en Vlaams Gewest).</strong> Het verkeersbord betreffende het einde van een zone wordt geplaatst aan elke uitgang; het mag aan de achterzijde van het verkeersbord betreffende het begin van een zone bevestigd worden.</p>",
+        "text": "3. Ze komen voor op een bord met witte achtergrond. Voorbeelden : Begin van een zone waar het parkeren voorbehouden is voor voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton. Einde van een zone waar het parkeren voorbehouden is voor voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton. Begin van een zone met beperkte parkeertijd (blauwe zone). Einde van een zone met beperkte parkeertijd. Begin van een zone waar het verboden is een gespan of een voertuig met meer dan twee wielen links in te halen. Einde van een zone waar het verboden is een gespan of een voertuig met meer dan twee wielen links in te halen. Begin van een zone waar de toegang verboden is voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan de aangeduide massa. Einde van een zone waar de toegang verboden is voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan de aangeduide massa. Begin van een zone waar de snelheid beperkt is tot de aangeduide snelheid. Einde van een zone waar de snelheid beperkt is tot de aangeduide snelheid. 4 (enkel Brussels Hoofdstedelijk Gewest en Vlaams Gewest). Het verkeersbord betreffende het begin van een zone waar een bijzonder verbod of een bijzondere regel inzake parkeren van toepassing is, wordt rechts geplaatst aan elke toegang tot deze zone. Het mag links herhaald worden. 5 (enkel Brussels Hoofdstedelijk Gewest en Vlaams Gewest). Het verkeersbord betreffende het einde van een zone wordt geplaatst aan elke uitgang; het mag aan de achterzijde van het verkeersbord betreffende het begin van een zone bevestigd worden. ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/858d23376cb1c15e01dbcfb18ea41d5e24cefaf7.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/4cc05075552e57125ae44ced06116edd486e2d29.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/4edc899dea93f8478ce39fdc4db4f0ac809ce147.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/a63ff212debf3806210a6798bff6b6772afcaa02.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/f4e2a44e53bdd25f7b7349e4796c4bf03ecc2ae6.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/19df7370970cc0870990db3ef88e4bf3db9051ca.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/e8dbc4057b688749e9200a8a8a4c28bae93d6ae3.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/7bf8f6bdcc51b35519b580266118ad396ee14df3.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/d249b0813c464c7507f979b561e723ac08dfcf92.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/653aadddeab70faec6ea1344b54818c00934cc65.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "6.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.6\"></a>6.</strong> De reglementering geldt in gans de aldus afgebakende zone, behoudens, voor wat het parkeren betreft, op plaatsen waar door middel van verkeerstekens een andere parkeerregeling is voorzien.</p>",
+        "text": "6. De reglementering geldt in gans de aldus afgebakende zone, behoudens, voor wat het parkeren betreft, op plaatsen waar door middel van verkeerstekens een andere parkeerregeling is voorzien. ",
+        "images": []
+      },
+      {
+        "id": "7.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.7\"></a>7.</strong> Het verkeersbord dat het begin van een verbodszone aangeeft, mag aangekondigd worden door een gelijkaardig verkeersbord aangevuld met de vermelding van de afstand, bij benadering, waarop de verbodszone begint.</p><p style=\"padding-left: 30px;\">Voorbeeld :</p><p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png\"/></p>",
+        "text": "7. Het verkeersbord dat het begin van een verbodszone aangeeft, mag aangekondigd worden door een gelijkaardig verkeersbord aangevuld met de vermelding van de afstand, bij benadering, waarop de verbodszone begint. Voorbeeld :  ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/7f84536e9b59955ca221e59fa3a99bbefde4e5fe.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "8.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.8\"></a>8.</strong> De reglementering die in de zone van toepassing is mag herhaald worden door een bord gelijkaardig aan dat geplaatst bij het begin van de zone, aangevuld met het woord \"Herhaling\".</p><p style=\"padding-left: 30px;\">Voorbeeld :</p><p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/629ca9926e87b36cc8a4877a139ca96ee44f302d.png\"/></p>",
+        "text": "8. De reglementering die in de zone van toepassing is mag herhaald worden door een bord gelijkaardig aan dat geplaatst bij het begin van de zone, aangevuld met het woord \"Herhaling\". Voorbeeld :  ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/629ca9926e87b36cc8a4877a139ca96ee44f302d.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "9.",
+        "html": "<p style=\"padding-left: 30px;\"><strong><a name=\"65.5.9\"></a>9.</strong> De betekenis van een signalisatie met zonale geldigheid kan worden aangevuld, nader bepaald of beperkt door een zwart opschrift of symbool.</p><p style=\"padding-left: 30px;\">Evenwel mag, voor wat betreft het verkeersbord E9a, het opschrift of het symbool in het wit op de blauwe achtergrond van het bord aangebracht worden.</p><p style=\"padding-left: 30px;\">Voorbeelden :</p><p style=\"padding-left: 60px;\"><img alt=\"\" src=\"/media/image/orig/95b8e4c913a8680380a05daa8450b4d46cb4f2b7.png\"/> <img alt=\"\" src=\"/media/image/orig/77df5404a3fd27f55a0343520f2f03a97bd86ff5.png\"/> <img alt=\"ZE1+M22\" height=\"120\" src=\"/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png\" width=\"80\"/></p><p style=\"padding-left: 30px;\"><strong>10 (Brussels Hoofdstedelijk Gewest en Vlaams Gewest).</strong> Snelheidszones worden aangeduid door het verkeersbord C43 waaraan overeenkomstig <a href=\"#65.5.3\">65.5.3</a>. zonale geldigheid wordt gegeven.</p><p style=\"padding-left: 30px;\">Vanaf het zonebord tot het eindezonebord is het verboden te rijden met een hogere snelheid dan de zonale snelheid.</p><p style=\"padding-left: 30px;\">Het zonebord wordt rechts geplaatst aan elke toegang tot de desbetreffende snelheidszone. Het bord mag links herhaald worden.</p><p style=\"padding-left: 30px;\">Wanneer binnen de zone het bord C43 een andere snelheid aanduidt, dan geldt vanaf het volgende kruispunt opnieuw de zonale snelheid. Het zonebord wordt niet herhaald.</p><p style=\"padding-left: 30px;\">Binnen de snelheidszone mag geen bord C43 worden geplaatst die een hogere snelheid aanduidt dan de zonale snelheid.</p><p style=\"padding-left: 30px;\">Wanneer binnen de zone, een erf, woonerf, of schoolomgeving wordt afgebakend, dan geldt vanaf het einde van het erf, woonerf of schoolomgeving opnieuw de zonale snelheid. Het zonebord wordt niet herhaald.</p><p style=\"padding-left: 30px;\">Wanneer binnen de zone een bebouwde kom wordt afgebakend, dan moet op het einde van de bebouwde kom het zonebord evenwel opnieuw geplaatst worden.</p><p style=\"padding-left: 30px;\">Wanneer binnen de zone een andere snelheidszone wordt afgebakend, dan moet op het einde van de andere snelheidszone het zonebord opnieuw geplaatst worden.</p><p style=\"padding-left: 30px;\">De punten <a href=\"#65.5.6\">65.5.6. tot en met 65.5.9</a>. zijn niet van toepassing op snelheidszones.</p><p style=\"padding-left: 30px;\"><strong>10 (Waals Gewest).</strong> Snelheidszones worden aangeduid door het verkeersbord C43 waaraan overeenkomstig <a href=\"#65.5.3\">65.5.3</a>. zonale geldigheid wordt gegeven.</p><p style=\"padding-left: 30px;\">Vanaf het zonebord tot het eindezonebord is het verboden te rijden met een hogere snelheid dan de zonale snelheid.</p><p style=\"padding-left: 30px;\">Wanneer binnen de zone het bord C43 een andere snelheid aanduidt, dan geldt vanaf het volgende kruispunt opnieuw de zonale snelheid.</p><p style=\"padding-left: 30px;\">Binnen de snelheidszone mag geen bord C43 worden geplaatst die een hogere snelheid aanduidt dan de zonale snelheid.</p><p style=\"padding-left: 30px;\">Wanneer binnen de zone, een erf, woonerf, of schoolomgeving wordt afgebakend, dan geldt vanaf het einde van het erf, woonerf of schoolomgeving opnieuw de zonale snelheid.</p><p style=\"padding-left: 30px;\">De punten 65.5.6. tot en met 65.5.9. zijn niet van toepassing op snelheidszones.</p>",
+        "text": "9. De betekenis van een signalisatie met zonale geldigheid kan worden aangevuld, nader bepaald of beperkt door een zwart opschrift of symbool. Evenwel mag, voor wat betreft het verkeersbord E9a, het opschrift of het symbool in het wit op de blauwe achtergrond van het bord aangebracht worden. Voorbeelden :  10 (Brussels Hoofdstedelijk Gewest en Vlaams Gewest). Snelheidszones worden aangeduid door het verkeersbord C43 waaraan overeenkomstig 65.5.3 . zonale geldigheid wordt gegeven. Vanaf het zonebord tot het eindezonebord is het verboden te rijden met een hogere snelheid dan de zonale snelheid. Het zonebord wordt rechts geplaatst aan elke toegang tot de desbetreffende snelheidszone. Het bord mag links herhaald worden. Wanneer binnen de zone het bord C43 een andere snelheid aanduidt, dan geldt vanaf het volgende kruispunt opnieuw de zonale snelheid. Het zonebord wordt niet herhaald. Binnen de snelheidszone mag geen bord C43 worden geplaatst die een hogere snelheid aanduidt dan de zonale snelheid. Wanneer binnen de zone, een erf, woonerf, of schoolomgeving wordt afgebakend, dan geldt vanaf het einde van het erf, woonerf of schoolomgeving opnieuw de zonale snelheid. Het zonebord wordt niet herhaald. Wanneer binnen de zone een bebouwde kom wordt afgebakend, dan moet op het einde van de bebouwde kom het zonebord evenwel opnieuw geplaatst worden. Wanneer binnen de zone een andere snelheidszone wordt afgebakend, dan moet op het einde van de andere snelheidszone het zonebord opnieuw geplaatst worden. De punten 65.5.6. tot en met 65.5.9 . zijn niet van toepassing op snelheidszones. 10 (Waals Gewest). Snelheidszones worden aangeduid door het verkeersbord C43 waaraan overeenkomstig 65.5.3 . zonale geldigheid wordt gegeven. Vanaf het zonebord tot het eindezonebord is het verboden te rijden met een hogere snelheid dan de zonale snelheid. Wanneer binnen de zone het bord C43 een andere snelheid aanduidt, dan geldt vanaf het volgende kruispunt opnieuw de zonale snelheid. Binnen de snelheidszone mag geen bord C43 worden geplaatst die een hogere snelheid aanduidt dan de zonale snelheid. Wanneer binnen de zone, een erf, woonerf, of schoolomgeving wordt afgebakend, dan geldt vanaf het einde van het erf, woonerf of schoolomgeving opnieuw de zonale snelheid. De punten 65.5.6. tot en met 65.5.9. zijn niet van toepassing op snelheidszones. ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/95b8e4c913a8680380a05daa8450b4d46cb4f2b7.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/77df5404a3fd27f55a0343520f2f03a97bd86ff5.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          },
+          {
+            "source_url": "/media/image/orig/bca10e064e38b665c19f3707554c44e6372b9625.png",
+            "alt": "ZE1+M22",
+            "sign_code": "E1",
+            "caption": "ZE1+M22"
+          }
+        ]
+      },
+      {
+        "id": "11.",
+        "html": "<p style=\"padding-left: 30px;\"><strong>11.</strong> De wegbeheerder mag binnen de snelheidszone aan verlichtingspalen en verkeerspalen een zelfklevend vignet of herkenningsbord bevestigen met een afbeelding van het verkeersbord C43 die zonale snelheid in herinnering brengt.</p><p style=\"padding-left: 30px;\">Het vignet en het herkenningsbord dienen als herkenningsteken en hebben op zich geen bindende gevolgen voor de weggebruiker.</p><p style=\"padding-left: 30px;\">De minister bevoegd voor het wegverkeer kan de plaatsingsvoorwaarden en de afmetingen van het vignet en het herkenningsbord bepalen.</p><div class=\"notification notification-primary\">De woorden “minister bevoegd voor het wegverkeer” worden vervangen door de zinsnede “Vlaamse minister, bevoegd voor het mobiliteitsbeleid, de openbare werken en het vervoer” voor wat betreft het Vlaams Gewest.</div>",
+        "text": "11. De wegbeheerder mag binnen de snelheidszone aan verlichtingspalen en verkeerspalen een zelfklevend vignet of herkenningsbord bevestigen met een afbeelding van het verkeersbord C43 die zonale snelheid in herinnering brengt. Het vignet en het herkenningsbord dienen als herkenningsteken en hebben op zich geen bindende gevolgen voor de weggebruiker. De minister bevoegd voor het wegverkeer kan de plaatsingsvoorwaarden en de afmetingen van het vignet en het herkenningsbord bepalen. De woorden “minister bevoegd voor het wegverkeer” worden vervangen door de zinsnede “Vlaamse minister, bevoegd voor het mobiliteitsbeleid, de openbare werken en het vervoer” voor wat betreft het Vlaams Gewest. ",
+        "images": []
+      },
+      {
+        "id": "65.6.",
+        "html": "<p><strong><a name=\"65.6\"></a>65.6. Beperking van de draagwijdte van de verkeersborden.</strong></p><p>Wanneer een verkeersbord slechts betrekking heeft op een uitrit rechts van de rijbaan die in rijstroken is verdeeld, wordt het aangevuld met een onderbord van volgend model :</p><p style=\"padding-left: 30px;\"><img alt=\"\" src=\"/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png\"/></p>",
+        "text": "65.6. Beperking van de draagwijdte van de verkeersborden. Wanneer een verkeersbord slechts betrekking heeft op een uitrit rechts van de rijbaan die in rijstroken is verdeeld, wordt het aangevuld met een onderbord van volgend model :  ",
+        "images": [
+          {
+            "source_url": "/media/image/orig/114b2595de2e6dc56e7a997781db626cf5c3e1bc.png",
+            "alt": "",
+            "sign_code": null,
+            "caption": ""
+          }
+        ]
+      }
+    ]
+  }
+}

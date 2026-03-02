@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дорожные знаки - Code de la Route</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 15px;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .stats {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            display: block;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .article-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #667eea;
+        }
+        .article-title {
+            color: #667eea;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .article-rule {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            line-height: 1.6;
+            color: #555;
+            border: 1px solid #e0e0e0;
+        }
+        .signs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .sign-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid #e0e0e0;
+        }
+        .sign-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            border-color: #667eea;
+        }
+        .sign-card img {
+            max-width: 100%;
+            height: auto;
+            max-height: 120px;
+            margin: 10px 0;
+        }
+        .sign-code {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .sign-filename {
+            font-size: 0.75em;
+            color: #999;
+            word-break: break-all;
+        }
+        .search-box {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 12px;
+            font-size: 1em;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚦 Дорожные знаки - Code de la Route Belgique</h1>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number">91</span>
+                <span class="stat-label">Изображений</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">17</span>
+                <span class="stat-label">Типов знаков</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">27</span>
+                <span class="stat-label">Статей</span>
+            </div>
+        </div>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Поиск по коду знака, номеру статьи или тексту правила..." onkeyup="filterArticles()">
+        </div>
+        
+        <div id="articlesContainer">
+
+        <div class="article-section" data-article="3." data-title="Article 3. Agents qualifiés" data-rule="Les agents qualifiés pour veiller à l'exécution des lois relatives à la police de la circulation routière, ainsi que des règlements pris en exécution de celles-ci, sont:
+
+1°le personnel du cadre opérationnel de la police fédérale et de la police locale;
+
+1°/1le personnel du cadre administratif et lo...">
+            <div class="article-title">
+                📋 Article 3. Agents qualifiés
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                Les agents qualifiés pour veiller à l'exécution des lois relatives à la police de la circulation routière, ainsi que des règlements pris en exécution de celles-ci, sont:
+
+1°le personnel du cadre opérationnel de la police fédérale et de la police locale;
+
+1°/1le personnel du cadre administratif et lo...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="C5">
+                    <img src="art3_C5_1.png" alt="C5" loading="lazy">
+                    <div class="sign-code">C5</div>
+                    <div class="sign-filename">art3_C5_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="F17">
+                    <img src="art3_F17_2.png" alt="F17" loading="lazy">
+                    <div class="sign-code">F17</div>
+                    <div class="sign-filename">art3_F17_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="F18">
+                    <img src="art3_F18_3.png" alt="F18" loading="lazy">
+                    <div class="sign-code">F18</div>
+                    <div class="sign-filename">art3_F18_3.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img4">
+                    <img src="art3_img4_4.png" alt="img4" loading="lazy">
+                    <div class="sign-code">img4</div>
+                    <div class="sign-filename">art3_img4_4.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img5">
+                    <img src="art3_img5_5.png" alt="img5" loading="lazy">
+                    <div class="sign-code">img5</div>
+                    <div class="sign-filename">art3_img5_5.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="6." data-title="Article 6. Valeur des injonctions des agents qualifiés, de la signalisation routière et des règles de circulation" data-rule="6.1.Les injonctions des agents qualifiés prévalent sur la signalisation routière ainsi que sur les règles de circulation.
+
+6.2.La signalisation routière prévaut sur les règles de circulation.
+
+6.3.Le fonctionnement des signaux lumineux de circulation à un endroit déterminé y rend sans effet les sign...">
+            <div class="article-title">
+                📋 Article 6. Valeur des injonctions des agents qualifiés, de la signalisation routière et des règles de circulation
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                6.1.Les injonctions des agents qualifiés prévalent sur la signalisation routière ainsi que sur les règles de circulation.
+
+6.2.La signalisation routière prévaut sur les règles de circulation.
+
+6.3.Le fonctionnement des signaux lumineux de circulation à un endroit déterminé y rend sans effet les sign...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art6_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art6_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art6_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art6_img2_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="9." data-title="Article 9. Place des conducteurs sur la voie publique" data-rule="9.1.1.Quand la voie publique comporte une chaussée, les conducteurs doivent emprunter celle- ci.
+
+9.1.2.
+
+1°Lorsque la voie publique comporte une piste cyclable praticable, indiquée par des marques routières telles que prévues à l'article 74, les cyclistes et les conducteurs de cyclomoteurs à deux r...">
+            <div class="article-title">
+                📋 Article 9. Place des conducteurs sur la voie publique
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                9.1.1.Quand la voie publique comporte une chaussée, les conducteurs doivent emprunter celle- ci.
+
+9.1.2.
+
+1°Lorsque la voie publique comporte une piste cyclable praticable, indiquée par des marques routières telles que prévues à l'article 74, les cyclistes et les conducteurs de cyclomoteurs à deux r...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="D7">
+                    <img src="art9_D7_1.png" alt="D7" loading="lazy">
+                    <div class="sign-code">D7</div>
+                    <div class="sign-filename">art9_D7_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="D9">
+                    <img src="art9_D9_2.png" alt="D9" loading="lazy">
+                    <div class="sign-code">D9</div>
+                    <div class="sign-filename">art9_D9_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="D10">
+                    <img src="art9_D10_3.png" alt="D10" loading="lazy">
+                    <div class="sign-code">D10</div>
+                    <div class="sign-filename">art9_D10_3.png</div>
+                </div>
+
+                <div class="sign-card" data-code="F13">
+                    <img src="art9_F13_4.png" alt="F13" loading="lazy">
+                    <div class="sign-code">F13</div>
+                    <div class="sign-filename">art9_F13_4.png</div>
+                </div>
+
+                <div class="sign-card" data-code="F15">
+                    <img src="art9_F15_5.png" alt="F15" loading="lazy">
+                    <div class="sign-code">F15</div>
+                    <div class="sign-filename">art9_F15_5.png</div>
+                </div>
+
+                <div class="sign-card" data-code="D1">
+                    <img src="art9_D1_6.png" alt="D1" loading="lazy">
+                    <div class="sign-code">D1</div>
+                    <div class="sign-filename">art9_D1_6.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="12." data-title="Article 12. Obligations de céder le passage" data-rule="12.1.Tout usager doit céder le passage aux véhicules sur rails; à cette fin, il doit s'écarter de la voie ferrée dès que possible.
+
+12.2.Le conducteur abordant un carrefour doit redoubler de prudence pour éviter tout accident.
+
+12.3.1.Tout conducteur doit céder le passage à celui qui vient à sa droi...">
+            <div class="article-title">
+                📋 Article 12. Obligations de céder le passage
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                12.1.Tout usager doit céder le passage aux véhicules sur rails; à cette fin, il doit s'écarter de la voie ferrée dès que possible.
+
+12.2.Le conducteur abordant un carrefour doit redoubler de prudence pour éviter tout accident.
+
+12.3.1.Tout conducteur doit céder le passage à celui qui vient à sa droi...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art12_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art12_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art12_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art12_img2_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="16." data-title="Article 16. Dépassement" data-rule="16.1. Le dépassement n'est à considérer qu'à l'égard des conducteurs en mouvement.
+
+16.2.Lorsque les conducteurs se conforment aux indications des signaux F13 et F15 ou lorsque la circulation s'effectue conformément aux dispositions de l'article 9.4 ou 9.5, le fait que les véhicules d'une bande ou d...">
+            <div class="article-title">
+                📋 Article 16. Dépassement
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                16.1. Le dépassement n'est à considérer qu'à l'égard des conducteurs en mouvement.
+
+16.2.Lorsque les conducteurs se conforment aux indications des signaux F13 et F15 ou lorsque la circulation s'effectue conformément aux dispositions de l'article 9.4 ou 9.5, le fait que les véhicules d'une bande ou d...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art16_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art16_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art16_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art16_img2_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="17." data-title="Article 17. Interdiction de dépasser" data-rule="17.1.Le dépassement par la gauche est interdit lorsque le conducteur ne peut apercevoir les usagers venant en sens inverse à une distance suffisante pour effectuer le dépassement sans risque d'accident.
+
+17.2.Le dépassement par la gauche d'un véhicule attelé, d'un véhicule à moteur à deux roues ou d...">
+            <div class="article-title">
+                📋 Article 17. Interdiction de dépasser
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                17.1.Le dépassement par la gauche est interdit lorsque le conducteur ne peut apercevoir les usagers venant en sens inverse à une distance suffisante pour effectuer le dépassement sans risque d'accident.
+
+17.2.Le dépassement par la gauche d'un véhicule attelé, d'un véhicule à moteur à deux roues ou d...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art17_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art17_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art17_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art17_img2_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="22bis." data-title="Article 22bis. Circulation dans les zones résidentielles et dans les zones de rencontre" data-rule="Dans les zones résidentielles et dans les zones de rencontre:
+
+F12aF12b
+
+1°les piétons peuvent utiliser toute la largeur de la voie publique; les jeux y sont également autorisés;
+
+2°les conducteurs ne peuvent mettre les piétons en danger ni les gêner; au besoin, ils doivent s'arrêter. Ils doivent en...">
+            <div class="article-title">
+                📋 Article 22bis. Circulation dans les zones résidentielles et dans les zones de rencontre
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                Dans les zones résidentielles et dans les zones de rencontre:
+
+F12aF12b
+
+1°les piétons peuvent utiliser toute la largeur de la voie publique; les jeux y sont également autorisés;
+
+2°les conducteurs ne peuvent mettre les piétons en danger ni les gêner; au besoin, ils doivent s'arrêter. Ils doivent en...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art22bis_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art22bis_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art22bis_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art22bis_img2_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="22ter." data-title="Article 22ter. Circulation sur les voies publiques munies de dispositifs surélevés" data-rule="22ter.1.Sur les voies publiques munies de dispositifs surélevés, qui sont annoncés par les signaux A14 et F87, ou qui, aux carrefours sont seulement annoncés par un signal A14 ou qui sont situés dans une zone délimitée par les signaux F4a et F4b:
+
+1°les conducteurs doivent approcher ces dispositifs ...">
+            <div class="article-title">
+                📋 Article 22ter. Circulation sur les voies publiques munies de dispositifs surélevés
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                22ter.1.Sur les voies publiques munies de dispositifs surélevés, qui sont annoncés par les signaux A14 et F87, ou qui, aux carrefours sont seulement annoncés par un signal A14 ou qui sont situés dans une zone délimitée par les signaux F4a et F4b:
+
+1°les conducteurs doivent approcher ces dispositifs ...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art22ter_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art22ter_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art22ter_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art22ter_img2_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img3">
+                    <img src="art22ter_img3_3.png" alt="img3" loading="lazy">
+                    <div class="sign-code">img3</div>
+                    <div class="sign-filename">art22ter_img3_3.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img4">
+                    <img src="art22ter_img4_4.png" alt="img4" loading="lazy">
+                    <div class="sign-code">img4</div>
+                    <div class="sign-filename">art22ter_img4_4.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="22quinquies." data-title="Article 22quinquies. Circulation sur les chemins réservés aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs" data-rule="22quinquies.1.Ne peuvent circuler sur ces chemins que les catégories d'usagers dont le symbole est reproduit sur les signaux placés à leurs accès.
+
+Toutefois, peuvent également emprunter ces chemins:
+
+- (abrogé)
+
+- les véhicules prioritaires visés à l'article 37, lorsque la nature de leur mission le...">
+            <div class="article-title">
+                📋 Article 22quinquies. Circulation sur les chemins réservés aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                22quinquies.1.Ne peuvent circuler sur ces chemins que les catégories d'usagers dont le symbole est reproduit sur les signaux placés à leurs accès.
+
+Toutefois, peuvent également emprunter ces chemins:
+
+- (abrogé)
+
+- les véhicules prioritaires visés à l'article 37, lorsque la nature de leur mission le...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art22quinquies_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art22quinquies_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="F101A">
+                    <img src="art22quinquies_F101A_2.png" alt="F101A" loading="lazy">
+                    <div class="sign-code">F101A</div>
+                    <div class="sign-filename">art22quinquies_F101A_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img3">
+                    <img src="art22quinquies_img3_3.png" alt="img3" loading="lazy">
+                    <div class="sign-code">img3</div>
+                    <div class="sign-filename">art22quinquies_img3_3.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img4">
+                    <img src="art22quinquies_img4_4.png" alt="img4" loading="lazy">
+                    <div class="sign-code">img4</div>
+                    <div class="sign-filename">art22quinquies_img4_4.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="22sexies." data-title="Article 22sexies. Circulation dans les zones piétonnes" data-rule="F103F105
+
+22sexies.1.L'accès aux zones piétonnes est réservé aux piétons.
+
+Toutefois:
+
+1°peuvent accéder à ces zones:
+
+a)(abrogé)
+
+b)les véhicules de surveillance, de contrôle et d'entretien de cette zone et les véhicules affectés au ramassage des immondices;
+
+c)les véhicules prioritaires visés à l'...">
+            <div class="article-title">
+                📋 Article 22sexies. Circulation dans les zones piétonnes
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                F103F105
+
+22sexies.1.L'accès aux zones piétonnes est réservé aux piétons.
+
+Toutefois:
+
+1°peuvent accéder à ces zones:
+
+a)(abrogé)
+
+b)les véhicules de surveillance, de contrôle et d'entretien de cette zone et les véhicules affectés au ramassage des immondices;
+
+c)les véhicules prioritaires visés à l'...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art22sexies_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art22sexies_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art22sexies_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art22sexies_img2_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="22octies." data-title="Article 22octies. Circulation sur les chemins réservés aux véhicules agricoles, aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs" data-rule="22octies.1.Outre les catégories d'usagers dont le symbole est reproduit sur les signaux placés à leur accès, les catégories d'usagers suivantes peuvent circuler sur ces chemins:
+
+a)les véhicules se rendant ou venant des parcelles y afférant;
+
+b)les tricycles et quadricycles non motorisés;
+
+c)les véh...">
+            <div class="article-title">
+                📋 Article 22octies. Circulation sur les chemins réservés aux véhicules agricoles, aux piétons, cyclistes, cavaliers et conducteurs de speed pedelecs
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                22octies.1.Outre les catégories d'usagers dont le symbole est reproduit sur les signaux placés à leur accès, les catégories d'usagers suivantes peuvent circuler sur ces chemins:
+
+a)les véhicules se rendant ou venant des parcelles y afférant;
+
+b)les tricycles et quadricycles non motorisés;
+
+c)les véh...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art22octies_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art22octies_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art22octies_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art22octies_img2_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="25." data-title="Article 25. Interdiction de stationnement" data-rule="25.1.Il est interdit de mettre un véhicule en stationnement:
+
+1°à moins de 1 mètre tant devant que derrière un autre véhicule à l'arrêt ou en stationnement et à tout endroit où le véhicule empêcherait l'accès à un autre véhicule ou son dégagement;
+
+2°à moins de 15 mètres de part et d'autre d'un pann...">
+            <div class="article-title">
+                📋 Article 25. Interdiction de stationnement
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                25.1.Il est interdit de mettre un véhicule en stationnement:
+
+1°à moins de 1 mètre tant devant que derrière un autre véhicule à l'arrêt ou en stationnement et à tout endroit où le véhicule empêcherait l'accès à un autre véhicule ou son dégagement;
+
+2°à moins de 15 mètres de part et d'autre d'un pann...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art25_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art25_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art25_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art25_img2_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img3">
+                    <img src="art25_img3_3.png" alt="img3" loading="lazy">
+                    <div class="sign-code">img3</div>
+                    <div class="sign-filename">art25_img3_3.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="26." data-title="Article 26. Stationnement alterné semi-mensuel dans toute une agglomération" data-rule="26.1.Le stationnement alterné semi-mensuel est obligatoire sur toutes les chaussées d'une agglomération lorsque le signal E11 est placé au-dessus des signaux marquant le commencement de cette agglomération.
+
+E11
+
+Le stationnement sur la chaussée n'est alors autorisé du 1 au 15 mois que du côté des i...">
+            <div class="article-title">
+                📋 Article 26. Stationnement alterné semi-mensuel dans toute une agglomération
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                26.1.Le stationnement alterné semi-mensuel est obligatoire sur toutes les chaussées d'une agglomération lorsque le signal E11 est placé au-dessus des signaux marquant le commencement de cette agglomération.
+
+E11
+
+Le stationnement sur la chaussée n'est alors autorisé du 1 au 15 mois que du côté des i...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art26_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art26_img1_1.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="40bis." data-title="Article 40bis. Comportement à l'égard des groupes d'enfants, d'écoliers, de personnes handicapées ou âgées" data-rule="40bis.1.Il est interdit aux usagers de couper un groupe d'enfants, d'écoliers, de personnes handicapées ou âgées:
+
+1°soit en rangs, sous la conduite d'un guide;2°soit traversant la chaussée sous la conduite d'une patrouille scolaire, d'un guide ou d'un surveillant habilité;
+
+40bis.2.Les usagers doiv...">
+            <div class="article-title">
+                📋 Article 40bis. Comportement à l'égard des groupes d'enfants, d'écoliers, de personnes handicapées ou âgées
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                40bis.1.Il est interdit aux usagers de couper un groupe d'enfants, d'écoliers, de personnes handicapées ou âgées:
+
+1°soit en rangs, sous la conduite d'un guide;2°soit traversant la chaussée sous la conduite d'une patrouille scolaire, d'un guide ou d'un surveillant habilité;
+
+40bis.2.Les usagers doiv...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art40bis_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art40bis_img1_1.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="41." data-title="Article 41. Comportement à l'égard des colonnes militaires, des cortèges, groupes de piétons, processions, manifestations culturelles, sportives et touristiques, des courses cyclistes, des épreuves ou compétitions sportives non-motorisées, des groupes de cyclistes, groupes de motocyclistes, des groupes de cavaliers et du personnel des chantiers établis sur la voie publique" data-rule="41.1.Il est interdit aux usagers de couper:
+
+1°un élément de colonne militaire constitué par une troupe en marche ou par un convoi de véhicules dont le mouvement est réglé par des agents qualifiés ou des militaires habilités à cette fin;
+
+2°un cortège, un groupe de piétons, un rassemblement à l'occa...">
+            <div class="article-title">
+                📋 Article 41. Comportement à l'égard des colonnes militaires, des cortèges, groupes de piétons, processions, manifestations culturelles, sportives et touristiques, des courses cyclistes, des épreuves ou compétitions sportives non-motorisées, des groupes de cyclistes, groupes de motocyclistes, des groupes de cavaliers et du personnel des chantiers établis sur la voie publique
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                41.1.Il est interdit aux usagers de couper:
+
+1°un élément de colonne militaire constitué par une troupe en marche ou par un convoi de véhicules dont le mouvement est réglé par des agents qualifiés ou des militaires habilités à cette fin;
+
+2°un cortège, un groupe de piétons, un rassemblement à l'occa...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art41_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art41_img1_1.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="42." data-title="Article 42. Piétons" data-rule="42.1.Les piétons empruntent dans l’ordre, et dans la mesure où elles existent les parties accessibles et praticables de la voie publique suivantes :
+
+1° le trottoir ou la partie de la voie publique signalée par le signal D9, D10 ou D11;2° la partie de la voie publique signalée par le signal D13 ;3° ...">
+            <div class="article-title">
+                📋 Article 42. Piétons
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                42.1.Les piétons empruntent dans l’ordre, et dans la mesure où elles existent les parties accessibles et praticables de la voie publique suivantes :
+
+1° le trottoir ou la partie de la voie publique signalée par le signal D9, D10 ou D11;2° la partie de la voie publique signalée par le signal D13 ;3° ...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art42_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art42_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art42_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art42_img2_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="D11.png">
+                    <img src="art42_D11.png_3.png" alt="D11.png" loading="lazy">
+                    <div class="sign-code">D11.png</div>
+                    <div class="sign-filename">art42_D11.png_3.png</div>
+                </div>
+
+                <div class="sign-card" data-code="D13.png">
+                    <img src="art42_D13.png_4.png" alt="D13.png" loading="lazy">
+                    <div class="sign-code">D13.png</div>
+                    <div class="sign-filename">art42_D13.png_4.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="43bis." data-title="Article 43bis. Cyclistes en groupe" data-rule="43bis.1.Le présent article n'est applicable qu'aux cyclistes en groupe comptant de 15 à 150 participants. Les groupes de plus de 50 participants doivent être accompagnés de deux capitaines de route au minimum. Les groupes de 15 à 50 participants peuvent être accompagnés de deux capitaines de route a...">
+            <div class="article-title">
+                📋 Article 43bis. Cyclistes en groupe
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                43bis.1.Le présent article n'est applicable qu'aux cyclistes en groupe comptant de 15 à 150 participants. Les groupes de plus de 50 participants doivent être accompagnés de deux capitaines de route au minimum. Les groupes de 15 à 50 participants peuvent être accompagnés de deux capitaines de route a...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art43bis_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art43bis_img1_1.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="43ter." data-title="Article 43ter. Motocyclistes en groupe" data-rule="43ter1.Quand les motocyclistes roulent en groupe de deux minimum sur une voie publique divisée en bandes de circulation, ils ne doivent pas circuler en file indienne; ils peuvent être en deux rangs parallèles décalés, en respectant entre eux une distance de sécurité.
+
+Si la chaussée n'est pas divisé...">
+            <div class="article-title">
+                📋 Article 43ter. Motocyclistes en groupe
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                43ter1.Quand les motocyclistes roulent en groupe de deux minimum sur une voie publique divisée en bandes de circulation, ils ne doivent pas circuler en file indienne; ils peuvent être en deux rangs parallèles décalés, en respectant entre eux une distance de sécurité.
+
+Si la chaussée n'est pas divisé...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art43ter_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art43ter_img1_1.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="44." data-title="Article 44. Conducteurs et passagers des véhicules" data-rule="44.1.Le conducteur d'un véhicule automobile doit disposer d'un espace dont la largeur ne peut être inférieure à 0,55 mètre.
+
+Il ne peut laisser d'autres personnes prendre place à côté de lui que si chacune d'elles dispose d'un espace d'au moins 0,40 mètre de largeur.
+
+Le nombre d'occupants d'un véhi...">
+            <div class="article-title">
+                📋 Article 44. Conducteurs et passagers des véhicules
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                44.1.Le conducteur d'un véhicule automobile doit disposer d'un espace dont la largeur ne peut être inférieure à 0,55 mètre.
+
+Il ne peut laisser d'autres personnes prendre place à côté de lui que si chacune d'elles dispose d'un espace d'au moins 0,40 mètre de largeur.
+
+Le nombre d'occupants d'un véhi...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art44_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art44_img1_1.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="48bis." data-title="Article 48bis. Transport des marchandises dangereuses" data-rule="48bis1. Obligation d'emprunter les autoroutes.
+
+Doivent, sauf en cas de nécessité, emprunter les autoroutes, les véhicules transportant des marchandises dangereuses au sens de l'Accord européen relatif au transport international des marchandises dangereuses par route (A.D.R.) et ses annexes, signé à...">
+            <div class="article-title">
+                📋 Article 48bis. Transport des marchandises dangereuses
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                48bis1. Obligation d'emprunter les autoroutes.
+
+Doivent, sauf en cas de nécessité, emprunter les autoroutes, les véhicules transportant des marchandises dangereuses au sens de l'Accord européen relatif au transport international des marchandises dangereuses par route (A.D.R.) et ses annexes, signé à...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art48bis_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art48bis_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art48bis_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art48bis_img2_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img3">
+                    <img src="art48bis_img3_3.png" alt="img3" loading="lazy">
+                    <div class="sign-code">img3</div>
+                    <div class="sign-filename">art48bis_img3_3.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="61." data-title="Article 61. Signaux du système tricolore" data-rule="61.1.Les feux des signaux du système tricolore sont circulaires et ont la signification suivante:
+
+1°le feu rouge signifie interdiction de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt, le signal même;
+
+2°le feu jaune-orange fixe signifie interdiction de franchir la ligne d'arrêt ou, à déf...">
+            <div class="article-title">
+                📋 Article 61. Signaux du système tricolore
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                61.1.Les feux des signaux du système tricolore sont circulaires et ont la signification suivante:
+
+1°le feu rouge signifie interdiction de franchir la ligne d'arrêt ou, à défaut de ligne d'arrêt, le signal même;
+
+2°le feu jaune-orange fixe signifie interdiction de franchir la ligne d'arrêt ou, à déf...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art61_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art61_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art61_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art61_img2_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img3">
+                    <img src="art61_img3_3.png" alt="img3" loading="lazy">
+                    <div class="sign-code">img3</div>
+                    <div class="sign-filename">art61_img3_3.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img4">
+                    <img src="art61_img4_4.png" alt="img4" loading="lazy">
+                    <div class="sign-code">img4</div>
+                    <div class="sign-filename">art61_img4_4.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img5">
+                    <img src="art61_img5_5.png" alt="img5" loading="lazy">
+                    <div class="sign-code">img5</div>
+                    <div class="sign-filename">art61_img5_5.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="65." data-title="Article 65. Dispositions générales" data-rule="65.1.Les signaux routiers sont divisés en six catégories:
+
+- Signaux de danger;
+
+- Signaux relatifs à la priorité;
+
+- Signaux d'interdiction;
+
+- Signaux d'obligation;
+
+- Signaux relatifs à l'arrêt et au stationnement;
+
+- Signaux d'indication.
+
+65.2.La signification d'un signal routier peut être comp...">
+            <div class="article-title">
+                📋 Article 65. Dispositions générales
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                65.1.Les signaux routiers sont divisés en six catégories:
+
+- Signaux de danger;
+
+- Signaux relatifs à la priorité;
+
+- Signaux d'interdiction;
+
+- Signaux d'obligation;
+
+- Signaux relatifs à l'arrêt et au stationnement;
+
+- Signaux d'indication.
+
+65.2.La signification d'un signal routier peut être comp...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art65_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art65_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art65_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art65_img2_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img3">
+                    <img src="art65_img3_3.png" alt="img3" loading="lazy">
+                    <div class="sign-code">img3</div>
+                    <div class="sign-filename">art65_img3_3.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img4">
+                    <img src="art65_img4_4.png" alt="img4" loading="lazy">
+                    <div class="sign-code">img4</div>
+                    <div class="sign-filename">art65_img4_4.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img5">
+                    <img src="art65_img5_5.png" alt="img5" loading="lazy">
+                    <div class="sign-code">img5</div>
+                    <div class="sign-filename">art65_img5_5.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img6">
+                    <img src="art65_img6_6.png" alt="img6" loading="lazy">
+                    <div class="sign-code">img6</div>
+                    <div class="sign-filename">art65_img6_6.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img7">
+                    <img src="art65_img7_7.png" alt="img7" loading="lazy">
+                    <div class="sign-code">img7</div>
+                    <div class="sign-filename">art65_img7_7.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img8">
+                    <img src="art65_img8_8.png" alt="img8" loading="lazy">
+                    <div class="sign-code">img8</div>
+                    <div class="sign-filename">art65_img8_8.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img9">
+                    <img src="art65_img9_9.png" alt="img9" loading="lazy">
+                    <div class="sign-code">img9</div>
+                    <div class="sign-filename">art65_img9_9.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img10">
+                    <img src="art65_img10_10.png" alt="img10" loading="lazy">
+                    <div class="sign-code">img10</div>
+                    <div class="sign-filename">art65_img10_10.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img11">
+                    <img src="art65_img11_11.png" alt="img11" loading="lazy">
+                    <div class="sign-code">img11</div>
+                    <div class="sign-filename">art65_img11_11.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img12">
+                    <img src="art65_img12_12.png" alt="img12" loading="lazy">
+                    <div class="sign-code">img12</div>
+                    <div class="sign-filename">art65_img12_12.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img13">
+                    <img src="art65_img13_13.png" alt="img13" loading="lazy">
+                    <div class="sign-code">img13</div>
+                    <div class="sign-filename">art65_img13_13.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img14">
+                    <img src="art65_img14_14.png" alt="img14" loading="lazy">
+                    <div class="sign-code">img14</div>
+                    <div class="sign-filename">art65_img14_14.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img15">
+                    <img src="art65_img15_15.png" alt="img15" loading="lazy">
+                    <div class="sign-code">img15</div>
+                    <div class="sign-filename">art65_img15_15.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img16">
+                    <img src="art65_img16_16.png" alt="img16" loading="lazy">
+                    <div class="sign-code">img16</div>
+                    <div class="sign-filename">art65_img16_16.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img17">
+                    <img src="art65_img17_17.png" alt="img17" loading="lazy">
+                    <div class="sign-code">img17</div>
+                    <div class="sign-filename">art65_img17_17.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img18">
+                    <img src="art65_img18_18.png" alt="img18" loading="lazy">
+                    <div class="sign-code">img18</div>
+                    <div class="sign-filename">art65_img18_18.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img19">
+                    <img src="art65_img19_19.png" alt="img19" loading="lazy">
+                    <div class="sign-code">img19</div>
+                    <div class="sign-filename">art65_img19_19.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img20">
+                    <img src="art65_img20_20.png" alt="img20" loading="lazy">
+                    <div class="sign-code">img20</div>
+                    <div class="sign-filename">art65_img20_20.png</div>
+                </div>
+
+                <div class="sign-card" data-code="M21">
+                    <img src="art65_M21_21.png" alt="M21" loading="lazy">
+                    <div class="sign-code">M21</div>
+                    <div class="sign-filename">art65_M21_21.png</div>
+                </div>
+
+                <div class="sign-card" data-code="M22">
+                    <img src="art65_M22_22.png" alt="M22" loading="lazy">
+                    <div class="sign-code">M22</div>
+                    <div class="sign-filename">art65_M22_22.png</div>
+                </div>
+
+                <div class="sign-card" data-code="M23">
+                    <img src="art65_M23_23.png" alt="M23" loading="lazy">
+                    <div class="sign-code">M23</div>
+                    <div class="sign-filename">art65_M23_23.png</div>
+                </div>
+
+                <div class="sign-card" data-code="M24">
+                    <img src="art65_M24_24.png" alt="M24" loading="lazy">
+                    <div class="sign-code">M24</div>
+                    <div class="sign-filename">art65_M24_24.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img25">
+                    <img src="art65_img25_25.png" alt="img25" loading="lazy">
+                    <div class="sign-code">img25</div>
+                    <div class="sign-filename">art65_img25_25.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img26">
+                    <img src="art65_img26_26.png" alt="img26" loading="lazy">
+                    <div class="sign-code">img26</div>
+                    <div class="sign-filename">art65_img26_26.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="70." data-title="Article 70. Signaux relatifs à l'arrêt et au stationnement" data-rule="70.1.Les signaux relatifs à l'arrêt et au stationnement sont reproduits ci-après. Ils ne peuvent être complétés que par le symbole ou l'une des inscriptions prévus pour chaque catégorie de signaux.
+
+70.2.1.Signaux d'interdiction de stationnement et d'arrêt, signaux de stationnement alterné et signau...">
+            <div class="article-title">
+                📋 Article 70. Signaux relatifs à l'arrêt et au stationnement
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                70.1.Les signaux relatifs à l'arrêt et au stationnement sont reproduits ci-après. Ils ne peuvent être complétés que par le symbole ou l'une des inscriptions prévus pour chaque catégorie de signaux.
+
+70.2.1.Signaux d'interdiction de stationnement et d'arrêt, signaux de stationnement alterné et signau...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art70_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art70_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art70_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art70_img2_2.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img3">
+                    <img src="art70_img3_3.png" alt="img3" loading="lazy">
+                    <div class="sign-code">img3</div>
+                    <div class="sign-filename">art70_img3_3.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img4">
+                    <img src="art70_img4_4.png" alt="img4" loading="lazy">
+                    <div class="sign-code">img4</div>
+                    <div class="sign-filename">art70_img4_4.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="72." data-title="Article 72. Marques longitudinales indiquant les bandes de circulation" data-rule="72.1.Ces marques routières sont de couleur blanche et peuvent consister en:
+
+1°une ligne continue;2°une ligne discontinue;3°une ligne continue et une ligne discontinue juxtaposées.
+
+72.2.Une ligne continue signifie qu'il est interdit à tout conducteur de la franchir.
+
+En outre, il est interdit de ci...">
+            <div class="article-title">
+                📋 Article 72. Marques longitudinales indiquant les bandes de circulation
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                72.1.Ces marques routières sont de couleur blanche et peuvent consister en:
+
+1°une ligne continue;2°une ligne discontinue;3°une ligne continue et une ligne discontinue juxtaposées.
+
+72.2.Une ligne continue signifie qu'il est interdit à tout conducteur de la franchir.
+
+En outre, il est interdit de ci...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art72_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art72_img1_1.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="85." data-title="Article 85. Dispositions transitoires" data-rule="85.1.(Abrogé)
+
+85.2.Les signaux repris ci-après peuvent être maintenus jusqu'au 1erjuin 2015.
+
+Commencement d'une agglomération.
+
+Ce signal doit être placé à droite à chaque accès d'agglomération, il peut être répété à gauche.
+
+Fin d'agglomération.
+
+85.3.Les dispositifs de retenue pour enfants qui o...">
+            <div class="article-title">
+                📋 Article 85. Dispositions transitoires
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                85.1.(Abrogé)
+
+85.2.Les signaux repris ci-après peuvent être maintenus jusqu'au 1erjuin 2015.
+
+Commencement d'une agglomération.
+
+Ce signal doit être placé à droite à chaque accès d'agglomération, il peut être répété à gauche.
+
+Fin d'agglomération.
+
+85.3.Les dispositifs de retenue pour enfants qui o...
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="p begin">
+                    <img src="art85_p_begin_1.png" alt="p begin" loading="lazy">
+                    <div class="sign-code">p begin</div>
+                    <div class="sign-filename">art85_p_begin_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="p einde">
+                    <img src="art85_p_einde_2.png" alt="p einde" loading="lazy">
+                    <div class="sign-code">p einde</div>
+                    <div class="sign-filename">art85_p_einde_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="22quater." data-title="Article 22quater. Zones dans lesquelles la vitesse est limitée à 30 km à l'heure" data-rule="Dans les zones délimitées par les signaux routiers F4a et F4b, la vitesse est limitée à 30 km à l'heure.
+
+F4aF4b">
+            <div class="article-title">
+                📋 Article 22quater. Zones dans lesquelles la vitesse est limitée à 30 km à l'heure
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                Dans les zones délimitées par les signaux routiers F4a et F4b, la vitesse est limitée à 30 km à l'heure.
+
+F4aF4b
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="img1">
+                    <img src="art22quater_img1_1.png" alt="img1" loading="lazy">
+                    <div class="sign-code">img1</div>
+                    <div class="sign-filename">art22quater_img1_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="img2">
+                    <img src="art22quater_img2_2.png" alt="img2" loading="lazy">
+                    <div class="sign-code">img2</div>
+                    <div class="sign-filename">art22quater_img2_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="article-section" data-article="22un" data-title="Article 22undecies. Circulation dans les rues scolaires" data-rule="C3
+
+Dans les rues scolaires, la voie publique est réservée aux piétons et aux cycles ainsi qu’aux vélos électriques speed pedelecs.">
+            <div class="article-title">
+                📋 Article 22undecies. Circulation dans les rues scolaires
+            </div>
+            
+            <div class="article-rule">
+                <strong>Правило:</strong><br>
+                C3
+
+Dans les rues scolaires, la voie publique est réservée aux piétons et aux cycles ainsi qu’aux vélos électriques speed pedelecs.
+            </div>
+            
+            <div class="signs-grid">
+
+                <div class="sign-card" data-code="C3">
+                    <img src="art22un_C3_1.png" alt="C3" loading="lazy">
+                    <div class="sign-code">C3</div>
+                    <div class="sign-filename">art22un_C3_1.png</div>
+                </div>
+
+                <div class="sign-card" data-code="rue scolaire">
+                    <img src="art22un_rue_scolaire_2.png" alt="rue scolaire" loading="lazy">
+                    <div class="sign-code">rue scolaire</div>
+                    <div class="sign-filename">art22un_rue_scolaire_2.png</div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </div>
+    
+    <script>
+        function filterArticles() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const articles = document.querySelectorAll('.article-section');
+            let visibleCount = 0;
+            
+            articles.forEach(article => {
+                const articleNum = article.dataset.article.toLowerCase();
+                const title = article.dataset.title.toLowerCase();
+                const rule = article.dataset.rule.toLowerCase();
+                const signs = Array.from(article.querySelectorAll('.sign-card'))
+                    .map(sign => sign.dataset.code.toLowerCase())
+                    .join(' ');
+                
+                const matches = articleNum.includes(searchTerm) || 
+                               title.includes(searchTerm) || 
+                               rule.includes(searchTerm) ||
+                               signs.includes(searchTerm);
+                
+                if (matches || searchTerm === '') {
+                    article.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    article.style.display = 'none';
+                }
+            });
+            
+            // Показываем сообщение если ничего не найдено
+            const container = document.getElementById('articlesContainer');
+            let noResults = container.querySelector('.no-results');
+            
+            if (visibleCount === 0 && searchTerm !== '') {
+                if (!noResults) {
+                    noResults = document.createElement('div');
+                    noResults.className = 'no-results';
+                    noResults.textContent = '❌ Ничего не найдено';
+                    container.appendChild(noResults);
+                }
+            } else if (noResults) {
+                noResults.remove();
+            }
+        }
+    </script>
+</body>
+</html>
