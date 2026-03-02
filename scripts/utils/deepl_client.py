@@ -97,6 +97,7 @@ class DeepLClient:
         text: str,
         source_lang: str = "FR",
         target_lang: str = "RU",
+        tag_handling: str | None = None,
         check_quota_before: bool = True,
     ) -> str:
         """
@@ -106,6 +107,9 @@ class DeepLClient:
             text: Text to translate.
             source_lang: Source language code (default: "FR").
             target_lang: Target language code (default: "RU").
+            tag_handling: Optional tag handling mode. Use "html" for HTML,
+                          "markdown" for Markdown (requires deepl >= 1.17).
+                          None = plain text.
             check_quota_before: If True, check quota before translating.
 
         Returns:
@@ -122,30 +126,54 @@ class DeepLClient:
                     f"({usage['remaining']} chars)."
                 )
 
-        result = self.translator.translate_text(
-            text,
-            source_lang=source_lang,
-            target_lang=target_lang,
-        )
-        logger.debug(f"Translated {len(text)} chars {source_lang}→{target_lang}")
+        kwargs: dict = {
+            "source_lang": source_lang,
+            "target_lang": target_lang,
+        }
+        if tag_handling:
+            kwargs["tag_handling"] = tag_handling
+
+        result = self.translator.translate_text(text, **kwargs)
+        logger.debug(f"Translated {len(text)} chars {source_lang}→{target_lang} (tag={tag_handling})")
         return result.text
 
-    def translate_article_fields(self, article: dict, fields: list[str]) -> dict:
+    def translate_md(
+        self,
+        text: str,
+        source_lang: str = "FR",
+        target_lang: str = "RU",
+        check_quota_before: bool = True,
+    ) -> str:
         """
-        Translate specific fields in an article dict (FR → RU).
-        Creates new keys with `_ru` suffix.
+        Translate Markdown text, preserving formatting markers (**, >, -, etc.).
+
+        Uses DeepL's tag_handling="markdown" mode (deepl >= 1.17).
+        Falls back to plain text translation if not supported.
 
         Args:
-            article: Article dict containing fields to translate.
-            fields: List of field names to translate (e.g. ['title_fr', 'content_text_fr']).
+            text: Markdown text to translate.
+            source_lang: Source language code.
+            target_lang: Target language code.
 
         Returns:
-            Updated article dict with _ru fields added.
+            Translated Markdown string.
         """
-        result = dict(article)
-        for field in fields:
-            if field in article and article[field]:
-                ru_field = field.replace("_fr", "_ru")
-                result[ru_field] = self.translate(article[field])
-                logger.info(f"Translated field: {field} → {ru_field}")
-        return result
+        try:
+            return self.translate(
+                text,
+                source_lang=source_lang,
+                target_lang=target_lang,
+                tag_handling="markdown",
+                check_quota_before=check_quota_before,
+            )
+        except Exception as e:
+            # Fallback: plain text if this deepl version doesn't support markdown mode
+            if "tag_handling" in str(e).lower() or "markdown" in str(e).lower():
+                logger.warning("tag_handling=markdown not supported — falling back to plain text")
+                return self.translate(
+                    text,
+                    source_lang=source_lang,
+                    target_lang=target_lang,
+                    check_quota_before=False,
+                )
+            raise
