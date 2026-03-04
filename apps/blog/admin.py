@@ -35,7 +35,7 @@ class BlogPostAdmin(admin.ModelAdmin):
             'classes': ('collapse',),
         }),
         ('Média', {
-            'fields': ('featured_image', 'featured_image_alt'),
+            'fields': ('featured_image', 'featured_image_alt', 'featured_image_caption'),
         }),
         ('Publication', {
             'fields': ('author', 'category', 'is_published', 'published_at'),

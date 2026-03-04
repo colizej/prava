@@ -73,6 +73,10 @@ class Question(models.Model):
 
     # Image
     image = models.ImageField('Image', upload_to='questions/', blank=True)
+    image_alt = models.CharField('Alt image', max_length=200, blank=True,
+                                 help_text='Texte alternatif pour l\'image (SEO & accessibilité)')
+    image_caption = models.CharField('Légende image', max_length=300, blank=True,
+                                     help_text='Texte affiché sous l\'image')
     image_prompt = models.TextField('Prompt image', blank=True,
                                     help_text='Description pour génération d\'image (AI)')
     image_sign_code = models.CharField('Code panneau', max_length=20, blank=True,

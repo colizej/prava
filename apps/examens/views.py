@@ -19,6 +19,8 @@ def _serialize_question(q):
         'text_nl': q.text_nl or '',
         'text_ru': q.text_ru or '',
         'image': q.image.url if q.image else None,
+        'image_alt': q.image_alt or '',
+        'image_caption': q.image_caption or '',
         'options': [
             {
                 'letter': opt.letter,

@@ -62,6 +62,8 @@ class BlogPost(models.Model):
     # Media
     featured_image = models.ImageField('Image principale', upload_to='blog/', blank=True)
     featured_image_alt = models.CharField('Alt image', max_length=200, blank=True)
+    featured_image_caption = models.CharField('Légende image', max_length=300, blank=True,
+                                              help_text='Texte affiché sous l\'image (figcaption). Bon pour le SEO.')
 
     # Publishing
     is_published = models.BooleanField('Publié', default=False)

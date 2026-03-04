@@ -66,7 +66,7 @@ class QuestionAdmin(admin.ModelAdmin):
             'fields': ('card_preview',),
         }),
         ('Question FR', {
-            'fields': ('text', 'image', 'explanation'),
+            'fields': ('text', 'image', 'image_alt', 'image_caption', 'explanation'),
         }),
         ('Question NL', {
             'fields': ('text_nl', 'explanation_nl'),

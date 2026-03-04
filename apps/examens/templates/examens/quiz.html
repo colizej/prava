@@ -77,8 +77,14 @@
                     <div x-show="currentQuestion.image"
                          class="mb-4 md:mb-0 shrink-0 md:w-[38%] flex items-start justify-center"
                          style="display: none;">
-                        <img :src="currentQuestion.image || ''" alt="Question"
-                             class="w-full max-h-96 object-contain rounded-lg border border-gray-100 bg-gray-50 p-2">
+                        <figure>
+                            <img :src="currentQuestion.image || ''"
+                                 :alt="currentQuestion.image_alt || 'Illustration question'"
+                                 class="w-full max-h-96 object-contain rounded-lg border border-gray-100 bg-gray-50 p-2">
+                            <figcaption x-show="currentQuestion.image_caption"
+                                        x-text="currentQuestion.image_caption"
+                                        class="text-xs text-gray-400 text-center mt-1 italic"></figcaption>
+                        </figure>
                     </div>
 
                     {# RIGHT: Options + confirm — takes remaining width #}

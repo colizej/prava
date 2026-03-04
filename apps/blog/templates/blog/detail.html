@@ -53,8 +53,14 @@
 
     {# Image #}
     {% if post.featured_image %}
-    <img src="{{ post.featured_image.url }}" alt="{{ post.featured_image_alt }}"
-         class="w-full rounded-xl mb-8 max-h-96 object-cover">
+    <figure class="mb-8">
+        <img src="{{ post.featured_image.url }}"
+             alt="{{ post.featured_image_alt|default:post.title }}"
+             class="w-full rounded-xl max-h-96 object-cover">
+        {% if post.featured_image_caption %}
+        <figcaption class="text-sm text-gray-500 text-center mt-2 italic">{{ post.featured_image_caption }}</figcaption>
+        {% endif %}
+    </figure>
     {% endif %}
 
     {# Content — rendered from Markdown #}
