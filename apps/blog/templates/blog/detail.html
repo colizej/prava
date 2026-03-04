@@ -7,7 +7,6 @@
 {% block og_type %}article{% endblock %}
 {% if post.featured_image %}{% block og_image_url %}{{ post.featured_image.url }}{% endblock %}{% endif %}
 {% block meta_extra %}
-{% if post.keywords %}<meta name="keywords" content="{{ post.keywords }}">{% endif %}
 {% if post.no_index %}<meta name="robots" content="noindex">{% endif %}
 {% if post.canonical_url %}{% block canonical %}<link rel="canonical" href="{{ post.canonical_url }}">{% endblock %}{% endif %}
 <script type="application/ld+json">

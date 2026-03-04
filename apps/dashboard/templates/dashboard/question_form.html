@@ -98,7 +98,7 @@
     <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
       <h3 class="font-semibold text-gray-700 mb-4 text-sm">Métadonnées</h3>
       {% for field in form %}
-        {% if field.name in 'category,code_article,traffic_sign,difficulty,is_active,is_official,source,image' %}
+        {% if field.name in 'category,code_article,traffic_sign,difficulty,is_active,is_official,source,image,image_alt,image_caption' %}
         <div class="mb-3">
           <label class="block text-xs font-medium text-gray-600 mb-1">{{ field.label }}</label>
           {{ field }}

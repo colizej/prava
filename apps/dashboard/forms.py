@@ -79,7 +79,7 @@ class QuestionForm(forms.ModelForm):
             'category', 'code_article', 'traffic_sign',
             'text', 'text_nl', 'text_ru',
             'explanation', 'explanation_nl', 'explanation_ru',
-            'difficulty', 'is_active', 'is_official', 'source', 'image',
+            'difficulty', 'is_active', 'is_official', 'source', 'image', 'image_alt', 'image_caption',
         ]
         widgets = {
             'category': forms.Select(attrs={'class': FIELD_CLASS}),
@@ -93,6 +93,8 @@ class QuestionForm(forms.ModelForm):
             'explanation_ru': forms.Textarea(attrs={'class': TEXTAREA_CLASS, 'rows': 2}),
             'difficulty': forms.Select(attrs={'class': FIELD_CLASS}),
             'source': forms.TextInput(attrs={'class': FIELD_CLASS}),
+            'image_alt': forms.TextInput(attrs={'class': FIELD_CLASS, 'placeholder': 'Texte alternatif (SEO)'}),
+            'image_caption': forms.TextInput(attrs={'class': FIELD_CLASS, 'placeholder': 'Légende affichée sous l\'image'}),
         }
 
 
@@ -142,7 +144,7 @@ class BlogPostForm(forms.ModelForm):
             # Content RU
             'title_ru', 'content_ru', 'excerpt_ru',
             # Meta
-            'category', 'slug', 'featured_image', 'featured_image_alt',
+            'category', 'slug', 'featured_image', 'featured_image_alt', 'featured_image_caption',
             'is_published',
             # SEO
             'meta_title', 'meta_description', 'og_title', 'og_description',
@@ -161,6 +163,7 @@ class BlogPostForm(forms.ModelForm):
             'slug':        forms.TextInput(attrs={'class': INPUT_CLASS}),
             'category':    forms.Select(attrs={'class': INPUT_CLASS}),
             'featured_image_alt': forms.TextInput(attrs={'class': INPUT_CLASS}),
+            'featured_image_caption': forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'Légende affichée sous l\'image'}),
             'meta_title':  forms.TextInput(attrs={'class': INPUT_CLASS, 'maxlength': 70}),
             'meta_description': forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'maxlength': 160}),
             'keywords':    forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'mot1, mot2, mot3'}),
