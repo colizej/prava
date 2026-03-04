@@ -2,33 +2,84 @@
 {% block title %}Panneaux de signalisation — {{ SITE_NAME }}{% endblock %}
 {% block content %}
 <section class="max-w-6xl mx-auto px-4 py-12">
+
     <h1 class="text-3xl font-bold text-gray-900 mb-2">Panneaux de signalisation</h1>
-    <p class="text-gray-600 mb-8">Apprenez à reconnaître tous les panneaux routiers belges.</p>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
-        {% for type_code, type_label in sign_types %}
-        <a href="{% url 'reglementation:signs_by_type' type_code %}" class="bg-white rounded-xl border border-gray-200 p-6 text-center hover:shadow-md transition">
-            <span class="text-3xl block mb-2">
-                {% if type_code == 'danger' %}⚠️{% elif type_code == 'interdiction' %}🚫{% elif type_code == 'obligation' %}🔵{% elif type_code == 'indication' %}ℹ️{% elif type_code == 'priorite' %}🔶{% elif type_code == 'directionnel' %}➡️{% else %}➕{% endif %}
-            </span>
-            <span class="font-semibold text-gray-900">{{ type_label }}</span>
-        </a>
-        {% endfor %}
-    </div>
-    {% if signs %}
-    <h2 class="text-xl font-bold text-gray-900 mb-4">Tous les panneaux</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        {% for sign in signs %}
-        <div class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            {% if sign.image %}
-            <img src="{{ sign.image.url }}" alt="{{ sign.name }}" class="w-16 h-16 mx-auto mb-2 object-contain">
-            {% else %}
-            <div class="w-16 h-16 mx-auto mb-2 bg-gray-100 rounded-full flex items-center justify-center text-2xl">🪧</div>
-            {% endif %}
-            <p class="text-xs font-mono text-blue-600">{{ sign.code }}</p>
-            <p class="text-sm text-gray-900 font-medium mt-1">{{ sign.name }}</p>
+    <p class="text-gray-600 mb-10">Apprenez à reconnaître tous les panneaux routiers belges.</p>
+
+    {% for cat in categories %}
+    <div class="mb-14">
+
+        {# Category header #}
+        <div class="flex items-center justify-between mb-5">
+            <div class="flex items-center gap-3">
+                <span class="text-2xl">{{ cat.emoji }}</span>
+                <h2 class="text-xl font-bold text-gray-900">{{ cat.label }}</h2>
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-100">
+                    {{ cat.total }}
+                </span>
+            </div>
+            <a href="{% url 'reglementation:signs_by_type' cat.code %}"
+               class="text-sm text-blue-600 hover:text-blue-800 font-medium flex items-center gap-1">
+                Voir tous
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
+                </svg>
+            </a>
         </div>
-        {% endfor %}
+
+        {# Sign cards grid #}
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {% for sign in cat.signs %}
+            <div class="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-blue-200 transition group"
+                 {% if sign.description %}x-data="{open:false}"{% endif %}>
+
+                <div class="p-4 flex items-center justify-center h-28">
+                    {% if sign.image %}
+                    <img src="{{ sign.image.url }}" alt="{{ sign.name }}" class="max-h-20 max-w-full object-contain">
+                    {% else %}
+                    <div class="w-16 h-16 bg-gray-50 rounded-full flex items-center justify-center text-3xl">🪧</div>
+                    {% endif %}
+                </div>
+
+                <div class="px-3 pb-3 border-t border-gray-50 pt-2">
+                    <p class="text-xs font-mono font-bold text-blue-600 mb-0.5">{{ sign.code }}</p>
+                    <p class="text-sm font-semibold text-gray-900 leading-tight">{{ sign.name }}</p>
+
+                    {% if sign.description %}
+                    <button @click="open=!open"
+                            class="mt-1.5 text-xs text-gray-400 hover:text-blue-600 transition flex items-center gap-1">
+                        <svg class="w-3 h-3 transition-transform" :class="open ? 'rotate-180' : ''"
+                             fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+                        </svg>
+                        <span x-text="open ? 'Masquer' : 'Explication'"></span>
+                    </button>
+                    <div x-show="open"
+                         x-transition:enter="transition ease-out duration-150"
+                         x-transition:enter-start="opacity-0 -translate-y-1"
+                         x-transition:enter-end="opacity-100 translate-y-0"
+                         class="mt-2 text-xs text-gray-600 leading-relaxed border-t border-gray-100 pt-2">
+                        {{ sign.description }}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+
+            {# "See all" card if more signs exist #}
+            {% if cat.has_more %}
+            <a href="{% url 'reglementation:signs_by_type' cat.code %}"
+               class="bg-gray-50 rounded-xl border border-dashed border-gray-200 flex flex-col items-center justify-center h-full min-h-[8rem] hover:bg-blue-50 hover:border-blue-300 transition group">
+                <span class="text-2xl text-gray-300 group-hover:text-blue-400 transition mb-1">→</span>
+                <span class="text-xs font-medium text-gray-500 group-hover:text-blue-600">
+                    +{{ cat.total|add:"-10" }} autres
+                </span>
+            </a>
+            {% endif %}
+        </div>
+
     </div>
-    {% endif %}
+    {% endfor %}
+
 </section>
 {% endblock %}

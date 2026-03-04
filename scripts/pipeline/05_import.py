@@ -193,9 +193,9 @@ def import_article(article: dict, law_id: str, dry_run: bool = False) -> tuple[s
         "title": (article.get("title_fr") or art_number or db_slug).strip(),
         "title_nl": (article.get("title_nl") or "").strip(),
         "title_ru": (article.get("title_ru") or "").strip(),
-        "content": (article.get("content_html_fr") or article.get("content_md_fr") or "").strip(),
-        "content_nl": (article.get("content_html_nl") or article.get("content_md_nl") or "").strip(),
-        "content_ru": (article.get("content_md_ru") or "").strip(),
+        "content": (article.get("content_html_fr") or article.get("content_md_fr") or "").strip().replace('/media/image/orig/', 'https://www.codedelaroute.be/media/image/orig/'),
+        "content_nl": (article.get("content_html_nl") or article.get("content_md_nl") or "").strip().replace('/media/image/orig/', 'https://www.codedelaroute.be/media/image/orig/'),
+        "content_ru": (article.get("content_md_ru") or "").strip().replace('/media/image/orig/', 'https://www.codedelaroute.be/media/image/orig/'),
         "content_text": (article.get("full_text_fr") or "").strip(),
     }
     obj, created = CodeArticle.objects.get_or_create(slug=db_slug, defaults=defaults)

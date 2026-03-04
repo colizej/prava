@@ -84,21 +84,213 @@
                 </div>
             </div>
 
-            {# Related questions #}
+            {# Related questions — list + quiz mode #}
             {% if related_questions %}
-            <section class="mt-10">
-                <h2 class="flex items-center gap-2 text-lg font-bold text-gray-900 mb-4">
-                    <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"/></svg>
-                    Questions d'examen liées
-                </h2>
-                <div class="space-y-3">
+            <section class="mt-10"
+                x-data="articleQuiz()"
+                x-init="init()"
+            >
+                {# Header + mode toggle #}
+                <div class="flex items-center justify-between mb-4 flex-wrap gap-3">
+                    <h2 class="flex items-center gap-2 text-lg font-bold text-gray-900">
+                        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"/></svg>
+                        Questions d'examen
+                        <span class="text-sm font-normal text-gray-400">({{ related_questions|length }})</span>
+                    </h2>
+                    {# Mode switcher #}
+                    <div class="flex items-center gap-1 bg-gray-100 rounded-lg p-1">
+                        <button @click="mode='list'; resetAll()"
+                                :class="mode==='list' ? 'bg-white shadow text-gray-800' : 'text-gray-500 hover:text-gray-700'"
+                                class="px-3 py-1.5 text-xs font-medium rounded-md transition">
+                            📋 Liste
+                        </button>
+                        <button @click="mode='quiz'; resetAll()"
+                                :class="mode==='quiz' ? 'bg-white shadow text-blue-700' : 'text-gray-500 hover:text-gray-700'"
+                                class="px-3 py-1.5 text-xs font-medium rounded-md transition">
+                            🎯 Test
+                        </button>
+                    </div>
+                </div>
+
+                {# ── LIST MODE ── #}
+                <div x-show="mode==='list'" class="space-y-3">
                     {% for q in related_questions %}
-                    <div class="bg-white p-4 rounded-xl border border-gray-200 hover:border-blue-200 transition">
-                        <p class="text-gray-800">{{ q.text|truncatewords:30 }}</p>
+                    <div class="bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-100 transition group">
+                        <div class="flex items-start justify-between gap-3">
+                            <p class="text-gray-800 text-sm leading-relaxed flex-1">{{ q.text }}</p>
+                            <div class="flex items-center gap-2 shrink-0">
+                                {% if is_staff %}
+                                <a href="{% url 'dashboard:question_edit' q.pk %}"
+                                   title="Modifier Q#{{ q.pk }}"
+                                   class="opacity-0 group-hover:opacity-100 transition text-gray-400 hover:text-blue-600">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"/></svg>
+                                </a>
+                                {% endif %}
+                                <span class="text-xs px-2 py-0.5 rounded-full
+                                    {% if q.difficulty == 1 %}bg-green-50 text-green-600{% elif q.difficulty == 2 %}bg-yellow-50 text-yellow-600{% else %}bg-red-50 text-red-600{% endif %}">
+                                    {% if q.difficulty == 1 %}Facile{% elif q.difficulty == 2 %}Moyen{% else %}Difficile{% endif %}
+                                </span>
+                            </div>
+                        </div>
+                        {# Show options collapsed under each question in list mode #}
+                        <details class="mt-3">
+                            <summary class="text-xs text-blue-600 cursor-pointer hover:underline select-none">Voir les options</summary>
+                            <ul class="mt-2 space-y-1.5">
+                                {% for opt in q.options.all %}
+                                <li class="flex items-start gap-2 text-sm
+                                           {% if opt.is_correct %}text-green-700{% else %}text-gray-600{% endif %}">
+                                    <span class="font-mono font-bold w-5 shrink-0">{{ opt.letter }}.</span>
+                                    <span>{{ opt.text }}{% if opt.is_correct %} ✓{% endif %}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% if q.explanation %}
+                            <p class="mt-3 text-xs text-gray-500 italic border-l-2 border-blue-200 pl-3">{{ q.explanation }}</p>
+                            {% endif %}
+                        </details>
                     </div>
                     {% endfor %}
                 </div>
+
+                {# ── QUIZ MODE ── #}
+                <div x-show="mode==='quiz'">
+                    {# Progress bar #}
+                    <div class="mb-4">
+                        <div class="flex justify-between text-xs text-gray-500 mb-1">
+                            <span x-text="answered + ' / {{ related_questions|length }} répondues'"></span>
+                            <span x-text="score + ' correctes'"></span>
+                        </div>
+                        <div class="h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                            <div class="h-full bg-blue-500 rounded-full transition-all"
+                                 :style="'width:' + (answered / {{ related_questions|length }} * 100) + '%'"></div>
+                        </div>
+                    </div>
+
+                    {# All questions stacked, each with its own Alpine state #}
+                    {% for q in related_questions %}
+                    <div class="mb-4 bg-white rounded-xl border transition-all overflow-hidden"
+                         :class="states[{{ forloop.counter0 }}]?.revealed
+                             ? (states[{{ forloop.counter0 }}]?.correct ? 'border-green-300 bg-green-50/30' : 'border-red-300 bg-red-50/30')
+                             : 'border-gray-200 hover:border-blue-100'">
+
+                        {# Question header #}
+                        <div class="p-4 border-b border-gray-100">
+                            <div class="flex items-start justify-between gap-3">
+                                <div class="flex-1">
+                                    <span class="text-xs font-mono text-gray-400 mr-1">Q{{ forloop.counter }}.</span>
+                                    <span class="text-sm text-gray-800 leading-relaxed">{{ q.text }}</span>
+                                </div>
+                                <div class="flex items-center gap-2 shrink-0">
+                                    {% if is_staff %}
+                                    <a href="{% url 'dashboard:question_edit' q.pk %}"
+                                       title="Modifier Q#{{ q.pk }}"
+                                       class="text-gray-300 hover:text-blue-500 transition">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"/></svg>
+                                    </a>
+                                    {% endif %}
+                                    {# Status indicator #}
+                                    <span x-show="!states[{{ forloop.counter0 }}]?.revealed"
+                                          class="w-5 h-5 rounded-full border-2 border-gray-300 block shrink-0"></span>
+                                    <svg x-show="states[{{ forloop.counter0 }}]?.revealed && states[{{ forloop.counter0 }}]?.correct"
+                                         class="w-5 h-5 text-green-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/>
+                                    </svg>
+                                    <svg x-show="states[{{ forloop.counter0 }}]?.revealed && !states[{{ forloop.counter0 }}]?.correct"
+                                         class="w-5 h-5 text-red-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            {% if q.image %}
+                            <img src="{{ q.image.url }}" alt="" class="mt-3 max-h-40 rounded-lg object-contain" loading="lazy">
+                            {% endif %}
+                        </div>
+
+                        {# Options #}
+                        <div class="p-4 space-y-2">
+                            {% for opt in q.options.all %}
+                            <button
+                                @click="answer({{ forloop.parentloop.counter0 }}, '{{ opt.letter }}', {{ opt.is_correct|lower }})"
+                                :disabled="states[{{ forloop.parentloop.counter0 }}]?.revealed"
+                                :class="optionClass({{ forloop.parentloop.counter0 }}, '{{ opt.letter }}', {{ opt.is_correct|lower }})"
+                                class="w-full flex items-center gap-3 px-4 py-2.5 rounded-lg border text-sm text-left transition-all disabled:cursor-default">
+                                <span class="w-6 h-6 rounded-full border flex items-center justify-center text-xs font-bold shrink-0">{{ opt.letter }}</span>
+                                <span>{{ opt.text }}</span>
+                            </button>
+                            {% endfor %}
+                        </div>
+
+                        {# Explanation (shown after answer) #}
+                        {% if q.explanation %}
+                        <div x-show="states[{{ forloop.counter0 }}]?.revealed"
+                             x-transition:enter="transition ease-out duration-200"
+                             x-transition:enter-start="opacity-0 -translate-y-1"
+                             x-transition:enter-end="opacity-100 translate-y-0"
+                             class="px-4 pb-4">
+                            <p class="text-xs text-gray-600 italic border-l-2 border-blue-300 pl-3 bg-blue-50/50 py-2 rounded-r-lg">{{ q.explanation }}</p>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+
+                    {# Final score (when all answered) #}
+                    <div x-show="answered === {{ related_questions|length }}"
+                         x-transition
+                         class="mt-4 p-5 rounded-xl border text-center"
+                         :class="score === {{ related_questions|length }} ? 'bg-green-50 border-green-200' : 'bg-blue-50 border-blue-200'">
+                        <p class="text-2xl font-bold" :class="score===answered ? 'text-green-600' : 'text-blue-700'">
+                            <span x-text="score"></span> / {{ related_questions|length }}
+                        </p>
+                        <p class="text-sm text-gray-600 mt-1">questions correctes</p>
+                        <button @click="resetAll()"
+                                class="mt-3 px-4 py-2 bg-white border border-gray-300 text-gray-700 text-sm rounded-lg hover:bg-gray-50 transition">
+                            Recommencer
+                        </button>
+                    </div>
+                </div>
             </section>
+
+            <script>
+            function articleQuiz() {
+                return {
+                    mode: 'list',
+                    states: {},  // { index: { selected, correct, revealed } }
+                    answered: 0,
+                    score: 0,
+
+                    init() {
+                        // Listen for lang changes to re-render (future)
+                    },
+
+                    resetAll() {
+                        this.states = {};
+                        this.answered = 0;
+                        this.score = 0;
+                    },
+
+                    answer(idx, letter, isCorrect) {
+                        if (this.states[idx]?.revealed) return;
+                        this.states[idx] = { selected: letter, correct: isCorrect, revealed: true };
+                        this.answered++;
+                        if (isCorrect) this.score++;
+                    },
+
+                    optionClass(idx, letter, isCorrect) {
+                        const s = this.states[idx];
+                        if (!s?.revealed) {
+                            return 'border-gray-200 bg-white hover:border-blue-300 hover:bg-blue-50 text-gray-700';
+                        }
+                        if (isCorrect) {
+                            return 'border-green-400 bg-green-50 text-green-800';
+                        }
+                        if (s.selected === letter) {
+                            return 'border-red-400 bg-red-50 text-red-800';
+                        }
+                        return 'border-gray-100 bg-gray-50 text-gray-400';
+                    },
+                };
+            }
+            </script>
             {% endif %}
 
             {# Prev / Next navigation #}

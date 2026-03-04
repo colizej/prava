@@ -60,10 +60,15 @@ def article_detail(request, slug):
         if not request.user.profile.has_active_premium:
             return redirect('main:pricing')
 
-    # Related questions from examens
+    # Related questions from examens — all of them with options
     related_questions = []
     if hasattr(article, 'questions'):
-        related_questions = article.questions.filter(is_active=True)[:5]
+        related_questions = list(
+            article.questions
+            .filter(is_active=True)
+            .prefetch_related('options')
+            .order_by('difficulty', 'id')
+        )
 
     # Next/previous within same category
     next_article = CodeArticle.objects.filter(
@@ -84,18 +89,41 @@ def article_detail(request, slug):
         'next_article': next_article,
         'prev_article': prev_article,
         'siblings': siblings,
+        'is_staff': request.user.is_staff,
     }
     return render(request, 'reglementation/article.html', context)
 
 
 def signs_list(request):
-    """Liste de tous les panneaux de signalisation."""
-    sign_types = TrafficSign.SIGN_TYPES
-    signs = TrafficSign.objects.all()
+    """Liste de tous les panneaux de signalisation, organisés par catégorie."""
+    EMOJIS = {
+        'danger': '⚠️',
+        'interdiction': '🚫',
+        'obligation': '🔵',
+        'indication': 'ℹ️',
+        'priorite': '🔶',
+        'directionnel': '➡️',
+        'additionnel': '➕',
+    }
+    PREVIEW_LIMIT = 10
+
+    categories = []
+    for type_code, type_label in TrafficSign.SIGN_TYPES:
+        qs = TrafficSign.objects.filter(sign_type=type_code).order_by('order', 'code')
+        total = qs.count()
+        if total == 0:
+            continue
+        categories.append({
+            'code': type_code,
+            'label': type_label,
+            'emoji': EMOJIS.get(type_code, '🪧'),
+            'total': total,
+            'signs': qs[:PREVIEW_LIMIT],
+            'has_more': total > PREVIEW_LIMIT,
+        })
 
     context = {
-        'sign_types': sign_types,
-        'signs': signs,
+        'categories': categories,
     }
     return render(request, 'reglementation/signs.html', context)
 

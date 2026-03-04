@@ -1,5 +1,25 @@
 from django import forms
+import re
 from apps.examens.models import Question, AnswerOption, ExamCategory
+from apps.reglementation.models import CodeArticle
+
+
+def _article_group_choices():
+    """Build sorted choices of top-level article groups (e.g. '6' from '6.1.2', '22bis' from '22bis.1')."""
+    numbers = CodeArticle.objects.values_list('article_number', flat=True).distinct()
+    groups = set()
+    for n in numbers:
+        # '6.1.2'.split('.') → ['6', '1', '2'] → first part is group '6'
+        parts = n.split('.')
+        groups.add(parts[0].strip())
+
+    def _sort_key(g):
+        # Sort numerically by leading digits, then alphabetically for suffixes like '7bis'
+        m = re.match(r'^(\d+)', g)
+        return (int(m.group(1)) if m else float('inf'), g)
+
+    sorted_groups = sorted(groups, key=_sort_key)
+    return [('', 'Tous les articles')] + [(g, g) for g in sorted_groups]
 
 
 class QuestionFilterForm(forms.Form):
@@ -19,6 +39,13 @@ class QuestionFilterForm(forms.Form):
             'class': 'rounded-lg border-gray-300 shadow-sm text-sm focus:ring-blue-500',
         }),
     )
+    article_group = forms.ChoiceField(
+        choices=[],  # populated dynamically in __init__
+        required=False,
+        widget=forms.Select(attrs={
+            'class': 'rounded-lg border-gray-300 shadow-sm text-sm focus:ring-blue-500',
+        }),
+    )
     difficulty = forms.ChoiceField(
         choices=[('', 'Toutes difficultés'), ('1', 'Facile'), ('2', 'Moyen'), ('3', 'Difficile')],
         required=False,
@@ -33,6 +60,10 @@ class QuestionFilterForm(forms.Form):
             'class': 'rounded-lg border-gray-300 shadow-sm text-sm focus:ring-blue-500',
         }),
     )
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['article_group'].choices = _article_group_choices()
 
 
 FIELD_CLASS = 'w-full rounded-lg border-gray-300 shadow-sm text-sm focus:ring-blue-500 focus:border-blue-500'

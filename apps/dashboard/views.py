@@ -136,6 +136,7 @@ def questions_list(request):
     if form.is_valid():
         search = form.cleaned_data.get('search')
         category = form.cleaned_data.get('category')
+        article_group = form.cleaned_data.get('article_group')
         difficulty = form.cleaned_data.get('difficulty')
         is_active = form.cleaned_data.get('is_active')
 
@@ -145,8 +146,15 @@ def questions_list(request):
                 Q(text_nl__icontains=search) |
                 Q(text_ru__icontains=search)
             )
+
         if category:
             qs = qs.filter(category=category)
+        if article_group:
+            # Match exact article (e.g. 'Art. 6') OR sub-articles ('Art. 6.1', 'Art. 6.2' …)
+            qs = qs.filter(
+                Q(code_article__article_number=article_group) |
+                Q(code_article__article_number__startswith=article_group + '.')
+            )
         if difficulty:
             qs = qs.filter(difficulty=int(difficulty))
         if is_active == '1':
