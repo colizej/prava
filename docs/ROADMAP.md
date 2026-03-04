@@ -1,6 +1,6 @@
 # PRAVA — Roadmap de développement
 
-> Dernière mise à jour : 2 mars 2026
+> Dernière mise à jour : 4 mars 2026 (soir)
 
 ---
 
@@ -29,97 +29,135 @@
 
 ---
 
-## Phase 1 — Scraping FR + NL 🔜
+## Phase 1 — Scraping FR + NL ✅
 
-> Durée estimée : 3-5 jours
+> **Terminée : 2 mars 2026**
 
-### Scripts à implémenter
-- [ ] `scripts/pipeline/01_scrape.py` — scraper FR (codedelaroute.be) + NL (wegcode.be)
-  - [ ] Scraper le code de la route principal (Titres I–V, ~100 articles)
-  - [ ] Scraper les thèmes complémentaires (permis, assurance, amendes)
-  - [ ] Sauvegarder → `data/laws/1975/fr_reglementation.json` et `nl_reglementation.json`
-  - [ ] Détection de diff au 2ème lancement (afficher les changements)
-- [ ] `scripts/utils/http_client.py` — client HTTP avec retry, rate limiting
-- [ ] `scripts/utils/diff_checker.py` — comparaison JSON (détection modifications)
-
-### Thèmes à scraper sur codedelaroute.be / wegcode.be
-- [ ] Code de la route (Titres I–V) — déjà disponible dans `data/laws/1975/fr_reglementation_raw.json`
-- [ ] Permis de conduire
-- [ ] Assurance
-- [ ] Infractions & amendes (Code pénal de la route)
-
-### Données de sortie
-```
-data/laws/1975/
-├── fr_reglementation.json     # Version nettoyée et structurée
-├── fr_reglementation_raw.json # Brut scrapé (déjà présent)
-└── nl_reglementation.json     # À créer
-```
+- [x] `scripts/pipeline/01_scrape.py` — scraper FR (codedelaroute.be) + NL (wegcode.be)
+  - [x] Scraper AR 1975 — code de la route principal (122 articles)
+  - [x] Sauvegarder → `data/laws/1975/fr_reglementation.json` et `nl_reglementation.json`
+  - [x] Détection de diff au 2ème lancement
+- [x] `scripts/utils/http_client.py` — client HTTP avec retry, rate limiting
 
 ---
 
-## Phase 2 — Traduction RU 🔒
+## Phase 2 — Traduction RU ✅
 
-> Durée estimée : 1-2 jours | Dépend de Phase 1
+> **Terminée : 2 mars 2026**
 
-- [ ] `scripts/pipeline/02_translate.py`
-  - [ ] Connexion DeepL Free API (clé dans `.env`)
-  - [ ] Traduction FR → RU article par article
-  - [ ] Gestion du quota (500k car/mois) — traduction progressive
-  - [ ] Sauvegarde → `data/laws/1975/ru_reglementation.json`
-- [ ] `scripts/utils/deepl_client.py` — client DeepL avec gestion quota
-
-### Stratégie quota DeepL Free
-- ~100 articles × ~3 000 car. = ~300 000 car. pour le code de la route
-- Budget restant (~200k) pour thèmes complémentaires et questions
-- Si quota dépassé : mise en file d'attente, reprise le mois suivant
+- [x] `scripts/pipeline/02_translate.py` — traduction FR → RU via DeepL Free API
+- [x] `scripts/utils/deepl_client.py` — client DeepL avec gestion quota
+- [x] `data/laws/1975/ru_reglementation.json` — 122 articles traduits
 
 ---
 
-## Phase 3 — Traitement & Découpage 🔒
+## Phase 3 — Traitement & Découpage ✅
 
-> Durée estimée : 2-3 jours | Dépend de Phase 1
+> **Terminée : 3 mars 2026**
 
-- [ ] `scripts/pipeline/03_process.py`
-  - [ ] Découper le JSON complet en fichiers par article (`data/processed/1975/articles/`)
-  - [ ] Grouper par thème (`data/processed/1975/themes/`)
-  - [ ] Extraire les définitions et termes clés
-  - [ ] Extraire les codes de panneaux (signes) pour liaison avec `TrafficSign`
-- [ ] `scripts/utils/json_helpers.py` — utilitaires de transformation JSON
+- [x] `scripts/pipeline/03_process.py` — découpage en fichiers par article
+- [x] `data/processed/1975/articles/` — 122 fichiers `art-{slug}.json`
+- [x] `scripts/utils/json_helpers.py` — utilitaires JSON
 
 ---
 
-## Phase 4 — Génération de questions 🔒
+## Phase 4 — Génération de questions ✅ / 🔄
 
-> Durée estimée : 3-5 jours | Dépend de Phase 3
+> **En cours : 3–4 mars 2026** (limité par quota Gemini Free 500 RPD)
 
-- [ ] `scripts/pipeline/04_questions.py`
-  - [ ] Connexion Gemini 1.5 Flash API (clé dans `.env`)
-  - [ ] Générer 5 questions par article/définition :
-    - 2 questions théoriques ("Que signifie... ?")
-    - 3 questions pratiques (application du règle dans un scénario)
-  - [ ] Pour chaque question : texte (FR/NL/RU), 3 options (A/B/C), explication, prompt image
-  - [ ] Sauvegarder → `data/processed/questions/` (un JSON par article)
-  - [ ] Mode révision : régénérer seulement les questions manquantes
-- [ ] `scripts/utils/gemini_client.py` — client Gemini avec rate limiting
+- [x] `scripts/pipeline/04_questions.py` — génération via Gemini 2.5 Flash Lite
+- [x] `scripts/utils/gemini_client.py` — client Gemini avec rate limiting (10 RPM)
+- [x] Format : 5 questions/article × 3 langues (FR/NL/RU), 3 options A/B/C, explication
+- [x] 85 / 122 articles traités (au 4 mars 2026, 12h)
+- [ ] 37 articles restants — reprendre le **5 mars 2026**
+  - Art 59-1, 6, 61–70, 7, 70–82, 8–9… (articles non-séquentiels)
+  - Note : Art 62, 62bis, 62ter pris en compte mais réponse vide (limite atteinte milieu de script)
 
-### Stratégie Gemini Free
-- 15 req/min, 1M tokens/jour sur tier gratuit
-- ~100 articles × 1 requête = ~100 requêtes (~7 min à 15 req/min)
-- Résultat stocké en JSON → révision manuelle dans l'admin avant import
+### Quota Gemini Free (gemini-2.5-flash-lite)
+- Limite : **20 requêtes/jour** (pas 500 — limite plus stricte observée)
+- **Reprise : 5 mars 2026 matin** — `python3 scripts/pipeline/04_questions.py --law 1975`
 
 ---
 
-## Phase 5 — Import en base de données 🔒
+## Phase 5 — Import en base de données ⬜
 
-> Durée estimée : 2-3 jours | Dépend de Phase 3 + 4
+> Dépend de Phase 4 (complétion questions AR 1975)
 
 - [ ] `scripts/pipeline/05_import.py`
-  - [ ] Importer `RuleCategory`, `CodeArticle`, `TrafficSign` (from `data/processed/`)
+  - [ ] Importer `RuleCategory`, `CodeArticle` (from `data/processed/1975/`)
   - [ ] Importer les questions (`ExamQuestion`, `QuestionOption`)
   - [ ] Gestion des doublons (update si slug existe, créer sinon)
   - [ ] Rapport d'import (nb créés, mis à jour, erreurs)
 - [ ] Management command Django : `manage.py import_laws`
+
+---
+
+## Phase 5b — Lois complémentaires �
+
+> **En cours depuis le 4 mars 2026** | Durée estimée : 5–7 jours restants
+
+L'AR 1975 (règles de circulation) ne couvre qu'une partie du programme d'examen belge.
+Pour une préparation complète, il faut scraper, traduire et générer des questions
+pour les autres lois principales accessibles sur codedelaroute.be / wegcode.be.
+
+### Lois prioritaires (catégorie B)
+
+| Priorité | Loi | Thème site | Slug FR | Slug NL | Dossier |
+|----------|-----|-----------|---------|---------|---------|
+| ⭐⭐⭐ | Loi 16 mars 1968 — police de la circulation | Politique criminelle | `1968031601~invynqx4tj` | idem | `data/laws/1968/` |
+| ⭐⭐⭐ | AR 30 sept. 2005 — infractions par degré (1–4) | Politique criminelle | `2005014182~5yjza0ajqn` | idem | `data/laws/2005/` |
+| ⭐⭐⭐ | AR 23 mars 1998 — permis de conduire | Permis de conduire | `1998014078~w8ylf1lyws` | idem | `data/laws/1998/` |
+| ⭐⭐⭐ | AR 10 juillet 2006 — permis catégorie B | Permis de conduire | `2006014162~khugwmgcip` | idem | `data/laws/2006/` |
+| ⭐⭐ | AM 11 oct. 1976 — signalisation routière (dimensions) | Infrastructure | `1976101105~j6siwtihko` | idem | `data/laws/1976/` |
+| ⭐⭐ | AM 1 déc. 1975 — caractéristiques disques/plaques | Infrastructure | `1975120125~q1rrr4iaw7` | idem | `data/laws/1975b/` |
+| ⭐ | AR 15 mars 1968 — conditions techniques véhicules | Conditions techniques | `1968031501~fhniyzocos` | idem | `data/laws/1968b/` |
+| ⭐ | Loi 21 juin 1985 — conditions techniques | Conditions techniques | `1985014311~fcbcg8t4eq` | idem | `data/laws/1985/` |
+
+### Lois non prioritaires (hors cat. B standard)
+- Transport de marchandises, Transport de personnes, Aptitude professionnelle
+  → à ajouter ultérieurement si extension vers cat. C/D
+
+### Implémentation réalisée le 4 mars 2026
+
+- [x] `scripts/utils/laws_registry.py` — registre central de toutes les lois belges
+- [x] `01_scrape.py --law <id>` + `--list-laws` + fallback parser (`<p>Art. N.` sans `<h5>`)
+- [x] `02_translate.py --law <id>` — translate dynamique par loi
+- [x] `03_process.py --law <id>` — `law_id` passé en paramètre (plus de `LAW_YEAR` hardcodé)
+- [x] `04_questions.py --law <id>` — prêt, non testé sur nouvelles lois
+
+**Pipeline complet par loi :**
+```bash
+python3 scripts/pipeline/01_scrape.py --law 1968
+python3 scripts/pipeline/02_translate.py --law 1968
+python3 scripts/pipeline/03_process.py --law 1968
+python3 scripts/pipeline/04_questions.py --law 1968
+python3 scripts/pipeline/05_import.py --law 1968  # à mettre à jour
+```
+
+### Quota DeepL Free — plan de rotation
+
+> **Situation 4 mars 2026** : quota du compte principal épuisé (~37K restants sur 500K/mois)
+
+| Besoin | Loi | Chars estimés |
+|--------|-----|---------------|
+| ✅ Fait | 1968 (93 art.) | ~144K |
+| ✅ Fait | 2005 (8 art.) | ~3.5K |
+| 🔜 Prochain | 1976 (23 art.) | ~151K |
+| 🔜 | 2006 (60 art.) | ~60K |
+| 🔜 | 1998 (156 art.) | ~250K |
+| **Total restant** | | **~461K** |
+
+**Plan : rotation de 4 comptes DeepL Free** (4 × 500K = 2M chars disponibles)
+- Changer la clé `DEEPL_API_KEY` dans `.env` à chaque épuisement
+- Ordre recommandé : compte 2 → 1976 + 2006, compte 3 → 1998, comptes 4+ en réserve
+- **Abonnement payant non nécessaire** : 4 comptes gratuits couvrent amplement les ~461K chars restants
+
+```bash
+# Changer de compte dans .env :
+DEEPL_API_KEY=xxxxx-nouveau-compte
+# Puis reprendre :
+python3 scripts/pipeline/02_translate.py --law 1976
+```
 
 ---
 
@@ -168,10 +206,14 @@ data/laws/1975/
 ## Vue d'ensemble du calendrier
 
 ```
-Mars 2026    : Phase 0 ✅ + Phase 1 🔄 (scraping FR/NL)
-Avril 2026   : Phase 2 (traduction RU) + Phase 3 (traitement)
-Mai 2026     : Phase 4 (questions) + Phase 5 (import BDD)
-Juin 2026    : Phase 6 (admin dashboard)
-Juil. 2026   : Phase 7 (frontend utilisateur) + lancement beta
-Août+ 2026   : Phase 8 (SEO, contenu 2027 progressif)
+2 mars 2026   : Phase 0 ✅  Phase 1 ✅  Phase 2 ✅  Phase 3 ✅
+3-4 mars 2026 : Phase 4 🔄  AR 1975 questions : 85/122 (Gemini limite/jour)
+4 mars 2026   : Phase 5b 🔄 Pipeline multi-loi implémenté, 1968+2005 complets,
+               1998+2006+1976 scrapés, DeepL quota épuisé → rotation de compte
+5 mars 2026   : Phase 4 🔜  Reprendre AR 1975 (37 restants) + 1968+2005 questions
+               Phase 5b     Traduire 1976+2006+1998 (nouveau compte DeepL)
+6-10 mars     : Phase 5 🔜  Import AR 1975 + 1968 + 2005 en BDD
+Mars–Avril    : Phase 6     Admin dashboard
+Avril–Mai     : Phase 7     Frontend utilisateur + lancement beta
+Mai+          : Phase 8     SEO, contenu 2027 progressif
 ```

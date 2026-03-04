@@ -32,7 +32,178 @@
   "anchor_id_fr": "kmoyshplpb",
   "anchor_id_nl": "yyngjgqfva",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 44.1, quelle est la largeur minimale d'espace requise pour chaque passager assis à côté du conducteur d'un véhicule automobile ?",
+      "text_nl": "Volgens artikel 44.1, wat is de minimale breedte van ruimte die vereist is voor elke passagier die naast de bestuurder van een motorvoertuig zit?",
+      "text_ru": "Согласно статье 44.1, какова минимальная ширина пространства, необходимая для каждого пассажира, сидящего рядом с водителем автомобиля?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,55 mètre",
+          "text_nl": "0,55 meter",
+          "text_ru": "0,55 метра",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,40 mètre",
+          "text_nl": "0,40 meter",
+          "text_ru": "0,40 метра",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur décide",
+          "text_nl": "De bestuurder beslist",
+          "text_ru": "Решает водитель",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 44.1 stipule que le conducteur ne peut laisser d'autres personnes prendre place à côté de lui que si chacune d'elles dispose d'un espace d'au moins 0,40 mètre de largeur.",
+      "explanation_nl": "Artikel 44.1 stelt dat de bestuurder geen andere personen naast zich mag laten plaatsnemen, tenzij elk van deze personen over een ruimte van ten minste 0,40 meter breedte beschikt.",
+      "explanation_ru": "Статья 44.1 гласит, что водитель не может разрешать другим лицам садиться рядом с ним, если каждое из этих лиц не имеет пространства шириной не менее 0,40 метра."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "L'article 44.1 mentionne que les passagers de certains véhicules destinés au transport de personnes doivent être informés de l'obligation de porter la ceinture de sécurité. Quel type de véhicule est concerné par cette disposition ?",
+      "text_nl": "Artikel 44.1 vermeldt dat passagiers van bepaalde voertuigen bestemd voor personenvervoer geïnformeerd moeten worden over de verplichting om de veiligheidsgordel te dragen. Welk type voertuig valt onder deze bepaling?",
+      "text_ru": "Статья 44.1 упоминает, что пассажиры некоторых транспортных средств, предназначенных для перевозки людей, должны быть проинформированы об обязательном ношении ремня безопасности. Какой тип транспортного средства подпадает под это положение?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tous les véhicules automobiles.",
+          "text_nl": "Alle motorvoertuigen.",
+          "text_ru": "Все автомобили.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les véhicules destinés au transport de personnes comportant, outre le siège du conducteur, plus de huit places assises.",
+          "text_nl": "Voertuigen bestemd voor personenvervoer met, naast de bestuurderszetel, meer dan acht zitplaatsen.",
+          "text_ru": "Транспортные средства, предназначенные для перевозки людей, имеющие, помимо сиденья водителя, более восьми сидячих мест.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement les bus de transport en commun.",
+          "text_nl": "Enkel bussen voor openbaar vervoer.",
+          "text_ru": "Только автобусы общественного транспорта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 44.1, cette disposition s'applique aux passagers des véhicules destinés au transport de personnes et comportant, outre le siège du conducteur, plus de huit places assises.",
+      "explanation_nl": "Volgens artikel 44.1 is deze bepaling van toepassing op passagiers van voertuigen bestemd voor personenvervoer met, naast de bestuurderszetel, meer dan acht zitplaatsen.",
+      "explanation_ru": "Согласно статье 44.1, это положение применяется к пассажирам транспортных средств, предназначенных для перевозки людей, имеющих, помимо сиденья водителя, более восьми сидячих мест."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une camionnette de livraison avec deux places assises. Vous transportez un ami sur le siège passager. L'espace dont dispose votre ami est de 0,35 mètre de largeur. Est-ce conforme à l'article 44.1 ?",
+      "text_nl": "U bestuurt een bestelwagen met twee zitplaatsen. U vervoert een vriend op de passagierszetel. De ruimte die uw vriend heeft is 0,35 meter breed. Is dit conform artikel 44.1?",
+      "text_ru": "Вы управляете фургоном с двумя сиденьями. Вы перевозите друга на пассажирском сиденье. Ширина пространства, которое имеет ваш друг, составляет 0,35 метра. Соответствует ли это статье 44.1?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car la camionnette n'a que deux places.",
+          "text_nl": "Ja, want de bestelwagen heeft slechts twee plaatsen.",
+          "text_ru": "Да, потому что у фургона всего два места.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car l'espace pour le passager doit être d'au moins 0,40 mètre.",
+          "text_nl": "Nee, want de ruimte voor de passagier moet minstens 0,40 meter breed zijn.",
+          "text_ru": "Нет, потому что пространство для пассажира должно быть не менее 0,40 метра.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si le conducteur dispose de suffisamment d'espace.",
+          "text_nl": "Ja, als de bestuurder voldoende ruimte heeft.",
+          "text_ru": "Да, если у водителя достаточно места.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 44.1 stipule que le passager assis à côté du conducteur doit disposer d'un espace d'au moins 0,40 mètre de largeur. Une largeur de 0,35 mètre est donc insuffisante.",
+      "explanation_nl": "Artikel 44.1 stelt dat de passagier die naast de bestuurder zit, over een ruimte van ten minste 0,40 meter breedte moet beschikken. Een breedte van 0,35 meter is dus onvoldoende.",
+      "explanation_ru": "Статья 44.1 гласит, что пассажир, сидящий рядом с водителем, должен иметь пространство шириной не менее 0,40 метра. Таким образом, ширина 0,35 метра недостаточна."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez une voiture de tourisme avec 5 places assises, toutes équipées de ceintures de sécurité. Vous avez 4 passagers. L'un des passagers, qui est un enfant, n'a pas de siège auto homologué mais est correctement attaché avec la ceinture de sécurité du véhicule. Est-ce conforme à l'article 44.1 ?",
+      "text_nl": "U bestuurt een personenauto met 5 zitplaatsen, allemaal uitgerust met veiligheidsgordels. U heeft 4 passagiers. Een van de passagiers, een kind, heeft geen goedgekeurde kinderzitje maar is correct vastgemaakt met de veiligheidsgordel van het voertuig. Is dit conform artikel 44.1?",
+      "text_ru": "Вы управляете легковым автомобилем с 5 посадочными местами, все оборудованы ремнями безопасности. У вас 4 пассажира. Один из пассажиров, ребенок, не имеет одобренного детского автокресла, но правильно пристегнут ремнем безопасности автомобиля. Соответствует ли это статье 44.1?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car l'enfant est attaché avec la ceinture.",
+          "text_nl": "Ja, want het kind is vastgemaakt met de gordel.",
+          "text_ru": "Да, потому что ребенок пристегнут ремнем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car les enfants doivent impérativement utiliser un siège auto homologué.",
+          "text_nl": "Nee, want kinderen moeten verplicht een goedgekeurd kinderzitje gebruiken.",
+          "text_ru": "Нет, потому что дети обязаны использовать одобренное детское автокресло.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si le poids de l'enfant est inférieur à 20 kg.",
+          "text_nl": "Ja, als het gewicht van het kind minder dan 20 kg is.",
+          "text_ru": "Да, если вес ребенка менее 20 кг.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 44.1 stipule que les places équipées de ceintures de sécurité ou de dispositifs de retenue pour enfants doivent être occupées en priorité et que le nombre d'occupants ne peut excéder le nombre total de places équipées d'une ceinture ou d'un dispositif de retenue pour enfants homologué et de celles qui ne doivent pas en être équipées. L'usage d'un dispositif de retenue pour enfants homologué est donc obligatoire pour les enfants, même si la ceinture de sécurité standard est utilisée. L'article ne précise pas de poids minimum, mais l'usage d'un système homologué est la règle.",
+      "explanation_nl": "Artikel 44.1 stelt dat plaatsen uitgerust met veiligheidsgordels of kinderbeveiligingssystemen bij voorrang moeten worden ingenomen en dat het aantal inzittenden niet meer mag bedragen dan het aantal plaatsen uitgerust met een veiligheidsgordel of een goedgekeurd kinderbeveiligingssysteem en plaatsen die daarmee niet hoeven te zijn uitgerust. Het gebruik van een goedgekeurd kinderbeveiligingssysteem is dus verplicht voor kinderen, zelfs als de standaard veiligheidsgordel wordt gebruikt. Het artikel specificeert geen minimumgewicht, maar het gebruik van een goedgekeurd systeem is de regel.",
+      "explanation_ru": "Статья 44.1 гласит, что места, оборудованные ремнями безопасности или детскими удерживающими устройствами, должны использоваться в приоритетном порядке, и что количество пассажиров не должно превышать общего количества мест, оборудованных ремнем безопасности или одобренным детским удерживающим устройством, и мест, которые не должны быть оборудованы. Таким образом, использование одобренного детского удерживающего устройства является обязательным для детей, даже если используется стандартный ремень безопасности. Статья не указывает минимальный вес, но использование одобренной системы является правилом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous roulez à vélo et vous tractez une petite remorque dans laquelle votre enfant de 6 ans est assis. La remorque n'a pas de siège aménagé et votre enfant est assis sur le plancher. Est-ce conforme à l'article 44.4 ?",
+      "text_nl": "U fietst en trekt een kleine aanhanger waarin uw 6-jarige kind zit. De aanhanger heeft geen ingerichte zitplaats en uw kind zit op de vloer. Is dit conform artikel 44.4?",
+      "text_ru": "Вы едете на велосипеде и буксируете небольшой прицеп, в котором сидит ваш 6-летний ребенок. В прицепе нет оборудованного сиденья, и ваш ребенок сидит на полу. Соответствует ли это статье 44.4?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car l'enfant est dans une remorque attachée à un vélo.",
+          "text_nl": "Ja, want het kind zit in een aanhanger die aan een fiets is vastgemaakt.",
+          "text_ru": "Да, потому что ребенок находится в прицепе, прикрепленном к велосипеду.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car la remorque doit être équipée de sièges offrant une protection efficace des mains, des pieds et du dos.",
+          "text_nl": "Nee, want de aanhanger moet uitgerust zijn met zitplaatsen die een effectieve bescherming van handen, voeten en rug bieden.",
+          "text_ru": "Нет, потому что прицеп должен быть оборудован сиденьями, обеспечивающими эффективную защиту рук, ног и спины.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car l'enfant est le seul passager.",
+          "text_nl": "Ja, want het kind is de enige passagier.",
+          "text_ru": "Да, потому что ребенок является единственным пассажиром.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 44.4 précise que les remorques attelées aux cycles peuvent transporter des passagers, mais doivent être équipées de sièges qui offrent une protection efficace des mains, des pieds et du dos. Être assis sur le plancher sans siège aménagé n'est donc pas conforme.",
+      "explanation_nl": "Artikel 44.4 specificeert dat aanhangers die aan fietsen zijn gekoppeld passagiers mogen vervoeren, maar moeten zijn uitgerust met zitplaatsen die een effectieve bescherming van handen, voeten en rug bieden. Op de vloer zitten zonder ingerichte zitplaats is dus niet conform.",
+      "explanation_ru": "Статья 44.4 уточняет, что прицепы, прикрепленные к велосипедам, могут перевозить пассажиров, но должны быть оборудованы сиденьями, обеспечивающими эффективную защиту рук, ног и спины. Таким образом, сидение на полу без оборудованного сиденья не соответствует требованиям."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "45f265b045a6",
@@ -42,6 +213,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:56:52Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

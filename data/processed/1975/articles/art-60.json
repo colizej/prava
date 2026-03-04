@@ -53,7 +53,181 @@
   "anchor_id_fr": "or0hhmms4i",
   "anchor_id_nl": "jpp8ieluji",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 60.1, en quelle catégorie principale la signalisation routière est-elle divisée ?",
+      "text_nl": "Volgens artikel 60.1, in welke hoofdcategorie wordt verkeerssignalisatie ingedeeld?",
+      "text_ru": "Согласно статье 60.1, на какие основные категории делится дорожная сигнализация?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signaux lumineux, signaux routiers et marques routières.",
+          "text_nl": "Verkeerslichten, verkeersborden en wegmarkeringen.",
+          "text_ru": "Светофоры, дорожные знаки и дорожная разметка.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signaux de danger, signaux d'obligation et signaux d'interdiction.",
+          "text_nl": "Gevaarssignalen, gebodssignalen en verbodssignalen.",
+          "text_ru": "Знаки опасности, предписывающие знаки и запрещающие знаки.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Panneaux de priorité, panneaux d'indication et panneaux de prescription.",
+          "text_nl": "Voorrangsborden, aanduidingstekens en prescriptieve tekens.",
+          "text_ru": "Знаки приоритета, указательные знаки и предписывающие знаки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 60.1 stipule clairement que la signalisation routière est divisée en trois catégories : les signaux lumineux de circulation, les signaux routiers et les marques routières.",
+      "explanation_nl": "Artikel 60.1 stelt duidelijk dat de verkeerstekens in drie categorieën zijn ingedeeld: verkeerslichten, verkeersborden en wegmarkeringen.",
+      "explanation_ru": "Статья 60.1 четко указывает, что дорожная сигнализация делится на три категории: светофоры, дорожные знаки и дорожная разметка."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel type de signalisation n'est PAS explicitement mentionné dans l'article 60.1 comme une des trois catégories principales ?",
+      "text_nl": "Welk type van signalisatie wordt NIET expliciet vermeld in artikel 60.1 als een van de drie hoofdcategorieën?",
+      "text_ru": "Какой тип сигнализации НЕ упомянут явно в статье 60.1 как одна из трех основных категорий?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signaux lumineux de circulation.",
+          "text_nl": "Verkeerslichten.",
+          "text_ru": "Светофоры.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Marques routières.",
+          "text_nl": "Wegmarkeringen.",
+          "text_ru": "Дорожная разметка.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signaux sonores.",
+          "text_nl": "Geluidsignalen.",
+          "text_ru": "Звуковые сигналы.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 60.1 liste les signaux lumineux de circulation, les signaux routiers et les marques routières comme les trois catégories principales. Les signaux sonores ne font pas partie de cette liste.",
+      "explanation_nl": "Artikel 60.1 somt verkeerslichten, verkeersborden en wegmarkeringen op als de drie hoofdcategorieën. Geluidsignalen maken geen deel uit van deze lijst.",
+      "explanation_ru": "Статья 60.1 перечисляет светофоры, дорожные знаки и дорожную разметку как три основные категории. Звуковые сигналы не входят в этот список."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'une intersection où les feux de circulation sont éteints (panne de courant). Quelle catégorie de signalisation prendra le pas pour régler le trafic ?",
+      "text_nl": "U nadert een kruispunt waar de verkeerslichten uitgevallen zijn (stroompanne). Welke categorie van verkeerstekens zal de overhand krijgen om het verkeer te regelen?",
+      "text_ru": "Вы приближаетесь к перекрестку, где светофоры не работают (отсутствие электропитания). Какая категория дорожных знаков будет преобладать для регулирования движения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les marques routières, car elles définissent les voies.",
+          "text_nl": "De wegmarkeringen, omdat deze de rijstroken definiëren.",
+          "text_ru": "Дорожная разметка, так как она определяет полосы движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les signaux routiers (panneaux) et les règles de priorité habituelles.",
+          "text_nl": "De verkeersborden en de gebruikelijke voorrangsregels.",
+          "text_ru": "Дорожные знаки (указатели) и обычные правила приоритета.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le signal lumineux, même éteint, indique une situation particulière.",
+          "text_nl": "Het verkeerslicht, zelfs als het uit is, geeft een bijzondere situatie aan.",
+          "text_ru": "Светофор, даже выключенный, указывает на особую ситуацию.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de panne des feux de circulation, la priorité est donnée aux signaux routiers (panneaux) présents et, à défaut, aux règles de priorité générales du Code de la route, comme si l'intersection était non régulée par des feux.",
+      "explanation_nl": "In geval van een defect aan de verkeerslichten krijgt de prioriteit aan de aanwezige verkeersborden en, bij gebreke daarvan, aan de algemene voorrangsregels van het verkeersreglement, alsof het kruispunt niet door lichten geregeld wordt.",
+      "explanation_ru": "В случае неисправности светофоров приоритет отдается имеющимся дорожным знакам, а при их отсутствии – общим правилам приоритета Правил дорожного движения, как если бы перекресток не регулировался светофорами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes sur une route où des travaux sont en cours. La chaussée est délimitée par des cônes de signalisation orange et des panneaux temporaires. Quelle est la classification de cette signalisation selon l'article 60.1 ?",
+      "text_nl": "U bevindt zich op een weg waar werkzaamheden aan de gang zijn. De rijbaan is afgebakend met oranje verkeerskegels en tijdelijke borden. Wat is de classificatie van deze signalisatie volgens artikel 60.1?",
+      "text_ru": "Вы находитесь на дороге, где ведутся дорожные работы. Проезжая часть обозначена оранжевыми конусами и временными знаками. К какой категории относится эта сигнализация согласно статье 60.1?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ce sont des signaux lumineux de circulation, car ils sont temporaires.",
+          "text_nl": "Dit zijn verkeerslichten, omdat ze tijdelijk zijn.",
+          "text_ru": "Это светофоры, так как они временные.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ce sont des marques routières temporaires et des signaux routiers temporaires.",
+          "text_nl": "Dit zijn tijdelijke wegmarkeringen en tijdelijke verkeersborden.",
+          "text_ru": "Это временная дорожная разметка и временные дорожные знаки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il s'agit d'une catégorie spéciale de signalisation de chantier non couverte par l'article 60.1.",
+          "text_nl": "Dit is een speciale categorie werfsignalering die niet onder artikel 60.1 valt.",
+          "text_ru": "Это особая категория сигнализации строительных работ, не предусмотренная статьей 60.1.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les cônes et les panneaux temporaires utilisés pour signaler les chantiers sont considérés comme des signaux routiers temporaires et/ou des marques routières temporaires. Ils relèvent de la catégorie générale des 'signaux routiers' et des 'marques routières' mentionnées dans l'article 60.1, avec des conditions spécifiques mentionnées dans d'autres arrêtés ministériels.",
+      "explanation_nl": "De kegels en tijdelijke borden die worden gebruikt om werken te signaleren, worden beschouwd als tijdelijke verkeersborden en/of tijdelijke wegmarkeringen. Ze vallen onder de algemene categorie 'verkeersborden' en 'wegmarkeringen' vermeld in artikel 60.1, met specifieke voorwaarden vermeld in andere ministeriële besluiten.",
+      "explanation_ru": "Конусы и временные знаки, используемые для обозначения строительных работ, считаются временными дорожными знаками и/или временной дорожной разметкой. Они подпадают под общую категорию 'дорожные знаки' и 'дорожная разметка', упомянутых в статье 60.1, с особыми условиями, изложенными в других министерских постановлениях."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Sur votre droite, vous voyez un panneau de signalisation routière (par exemple, un panneau de limitation de vitesse). Dans quelle grande catégorie de signalisation ce panneau est-il classé selon l'article 60.1 ?",
+      "text_nl": "Aan uw rechterkant ziet u een verkeersbord (bijvoorbeeld een snelheidslimietbord). In welke hoofdcategorie van verkeerstekens is dit bord ingedeeld volgens artikel 60.1?",
+      "text_ru": "Справа вы видите дорожный знак (например, знак ограничения скорости). К какой основной категории дорожных знаков относится этот знак согласно статье 60.1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A standard Belgian road sign indicating a speed limit, for example, 'Vitesse limitée à 50 km/h'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signaux lumineux de circulation.",
+          "text_nl": "Verkeerslichten.",
+          "text_ru": "Светофоры.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signaux routiers.",
+          "text_nl": "Verkeersborden.",
+          "text_ru": "Дорожные знаки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Marques routières.",
+          "text_nl": "Wegmarkeringen.",
+          "text_ru": "Дорожная разметка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 60.1, les panneaux tels qu'un panneau de limitation de vitesse sont classés dans la catégorie des 'signaux routiers'.",
+      "explanation_nl": "Volgens artikel 60.1 worden borden zoals een snelheidslimietbord geclassificeerd onder de categorie 'verkeersborden'.",
+      "explanation_ru": "Согласно статье 60.1, знаки, такие как знак ограничения скорости, относятся к категории 'дорожные знаки'."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "101b23c0284a",
@@ -63,6 +237,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:46:45Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

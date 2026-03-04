@@ -47,14 +47,11 @@ except ImportError:
 
 from scripts.utils.gemini_client import GeminiClient  # noqa: E402
 from scripts.utils.json_helpers import load_json, save_json  # noqa: E402
+from scripts.utils.laws_registry import get_law  # noqa: E402
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-LAW_YEAR = "1975"
-ARTICLES_DIR = PROJECT_ROOT / "data" / "processed" / LAW_YEAR / "articles"
-
-# How many questions to generate per article
-QUESTIONS_PER_ARTICLE = 5
+_DEFAULT_LAW = "1975"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -164,6 +161,10 @@ def validate_questions(questions: list[dict]) -> tuple[list[dict], list[str]]:
 def main():
     parser = argparse.ArgumentParser(description="PRAVA — Generate exam questions via Gemini")
     parser.add_argument(
+        "--law", default=_DEFAULT_LAW, metavar="LAW_ID",
+        help=f"Law registry ID to generate questions for (default: {_DEFAULT_LAW})"
+    )
+    parser.add_argument(
         "--article", type=str, default=None, metavar="NUMBER",
         help="Process a single article by number (e.g. --article 21)"
     )
@@ -184,6 +185,18 @@ def main():
 
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
+
+    # ── Validate law ID ───────────────────────────────────────────────────
+    try:
+        law_meta = get_law(args.law)
+    except KeyError as e:
+        logger.error(str(e))
+        sys.exit(1)
+
+    law_id = args.law
+    ARTICLES_DIR = PROJECT_ROOT / "data" / "processed" / law_id / "articles"
+
+    logger.info(f"Law: {law_id} — {law_meta['title_fr']}")
 
     if not ARTICLES_DIR.exists():
         logger.error(f"Articles dir not found: {ARTICLES_DIR}")

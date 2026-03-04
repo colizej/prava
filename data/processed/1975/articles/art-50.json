@@ -41,7 +41,193 @@
   "anchor_id_fr": "ha2ik7vsgd",
   "anchor_id_nl": "ojuyotyipp",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 50, qu'est-il interdit de faire sur la voie publique sans autorisation spéciale de l'autorité compétente ?",
+      "text_nl": "Volgens artikel 50, wat is verboden te doen op de openbare weg zonder speciale toestemming van de bevoegde autoriteit?",
+      "text_ru": "Согласно статье 50, что запрещено делать на дороге без специального разрешения компетентного органа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A generic Belgian road sign indicating prohibition, perhaps a red circle with a diagonal line."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Stationner plus de 24 heures.",
+          "text_nl": "Meer dan 24 uur parkeren.",
+          "text_ru": "Парковаться более 24 часов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Se livrer à des luttes de vitesse ou à des épreuves sportives.",
+          "text_nl": "Snelheids- of sportwedstrijden houden.",
+          "text_ru": "Участвовать в скоростных или спортивных соревнованиях.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Organiser un marché.",
+          "text_nl": "Een markt organiseren.",
+          "text_ru": "Организовать рынок.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 50 stipule explicitement qu'il est interdit de se livrer sur la voie publique à des luttes de vitesse, ainsi qu'à des épreuves sportives, sans autorisation spéciale.",
+      "explanation_nl": "Artikel 50 bepaalt expliciet dat het verboden is om zich op de openbare weg in te laten met snelheids- of sportwedstrijden zonder speciale toestemming.",
+      "explanation_ru": "Статья 50 прямо предусматривает, что запрещено участвовать в скоростных или спортивных соревнованиях на дороге без специального разрешения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la signification principale de l'article 50 concernant les activités sur la voie publique ?",
+      "text_nl": "Wat is de hoofdinhoud van artikel 50 met betrekking tot activiteiten op de openbare weg?",
+      "text_ru": "Каково основное значение статьи 50 в отношении деятельности на дороге?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A graphic illustrating speed, like a speedometer, combined with a prohibition symbol."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il réglemente le stationnement des véhicules de compétition.",
+          "text_nl": "Het regelt de parkeergelegenheid voor wedstrijvoertuigen.",
+          "text_ru": "Он регулирует парковку гоночных автомобилей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il interdit toute forme de compétition ou de course sur la voie publique sans autorisation.",
+          "text_nl": "Het verbiedt elke vorm van competitie of race op de openbare weg zonder toestemming.",
+          "text_ru": "Он запрещает любую форму соревнований или гонок на дороге без разрешения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il autorise les courses de vitesse sous certaines conditions.",
+          "text_nl": "Het staat snelheidsraces onder bepaalde voorwaarden toe.",
+          "text_ru": "Он разрешает скоростные гонки при определенных условиях.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 50 interdit les luttes de vitesse et les épreuves sportives sur la voie publique, sauf autorisation spéciale. Cela inclut les courses, les concours de régularité ou d'adresse.",
+      "explanation_nl": "Artikel 50 verbiedt snelheids- en sportwedstrijden op de openbare weg, tenzij er speciale toestemming is. Dit omvat races, regelmatigheids- of behendigheidswedstrijden.",
+      "explanation_ru": "Статья 50 запрещает скоростные и спортивные соревнования на дороге, если нет специального разрешения. Это включает гонки, соревнования на регулярность или мастерство."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en voiture et vous voyez un groupe de personnes se préparant pour une course de voitures dans une rue résidentielle. Que devez-vous faire ?",
+      "text_nl": "U bent met de auto en ziet een groep mensen zich voorbereiden op een autorace in een woonstraat. Wat moet u doen?",
+      "text_ru": "Вы едете на машине и видите группу людей, готовящихся к автогонке на жилой улице. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A scene showing cars lined up on a residential street, with people around them, suggesting the start of a race."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer votre route normalement car cela ne vous concerne pas directement.",
+          "text_nl": "Uw weg normaal vervolgen, aangezien het u niet direct aangaat.",
+          "text_ru": "Продолжайте свой путь как обычно, так как это вас напрямую не касается.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signaler cet événement aux autorités compétentes (police) car il s'agit d'une infraction à l'article 50.",
+          "text_nl": "Meld dit evenement aan bij de bevoegde autoriteiten (politie), aangezien dit een overtreding is van artikel 50.",
+          "text_ru": "Сообщите об этом происшествии компетентным органам (полиции), так как это является нарушением статьи 50.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander aux organisateurs s'ils ont une autorisation.",
+          "text_nl": "Vraag de organisatoren of ze een vergunning hebben.",
+          "text_ru": "Спросите организаторов, есть ли у них разрешение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Organiser une course de voitures dans une rue résidentielle sans autorisation est interdit par l'article 50. Il est de votre responsabilité de signaler ce type d'activité illégale aux autorités.",
+      "explanation_nl": "Het organiseren van een autorace in een woonstraat zonder vergunning is verboden volgens artikel 50. Het is uw verantwoordelijkheid om dit soort illegale activiteit aan de autoriteiten te melden.",
+      "explanation_ru": "Организация автогонки на жилой улице без разрешения запрещена статьей 50. Вы обязаны сообщить о такой незаконной деятельности властям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes un organisateur d'événements et souhaitez organiser une course de voitures d'époque sur un circuit routier fermé temporairement. Quelle démarche est impérativement nécessaire selon l'article 50 ?",
+      "text_nl": "U bent een evenementenorganisator en wilt een race met oldtimers organiseren op een tijdelijk afgesloten circuit. Welke stap is absoluut noodzakelijk volgens artikel 50?",
+      "text_ru": "Вы организатор мероприятий и хотите провести гонку старинных автомобилей по временно закрытому кольцевому маршруту. Какая процедура абсолютно необходима согласно статье 50?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A graphic representing a permit or official authorization document for a sporting event."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Informez simplement les riverains de la date de l'événement.",
+          "text_nl": "Informeer de buurtbewoners simpelweg over de datum van het evenement.",
+          "text_ru": "Просто проинформируйте местных жителей о дате мероприятия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Obtenir une autorisation spéciale de l'autorité légalement habilitée.",
+          "text_nl": "Verkrijg speciale toestemming van de wettelijk gemachtigde overheid.",
+          "text_ru": "Получите специальное разрешение от уполномоченного органа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vérifier que tous les participants ont une assurance responsabilité civile.",
+          "text_nl": "Controleer of alle deelnemers een burgerlijke aansprakelijkheidsverzekering hebben.",
+          "text_ru": "Убедитесь, что у всех участников есть страхование гражданской ответственности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 50 stipule que sauf autorisation spéciale de l'autorité légalement habilitée, il est interdit de se livrer à des épreuves sportives sur la voie publique. L'obtention de cette autorisation est donc primordiale.",
+      "explanation_nl": "Artikel 50 bepaalt dat behoudens speciale toelating van de wettelijk gemachtigde overheid, het verboden is om sportwedstrijden op de openbare weg te houden. Het verkrijgen van deze toestemming is dus cruciaal.",
+      "explanation_ru": "Статья 50 гласит, что без специального разрешения уполномоченного органа запрещено проводить спортивные соревнования на дороге. Получение этого разрешения, следовательно, является первостепенным."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous participez à une randonnée cycliste organisée, qui utilise partiellement des routes ouvertes à la circulation. Comment devez-vous vous comporter face aux autres usagers ?",
+      "text_nl": "U neemt deel aan een georganiseerde fietstocht die deels gebruikmaakt van openbare wegen. Hoe moet u zich gedragen ten opzichte van andere weggebruikers?",
+      "text_ru": "Вы участвуете в организованном велопробеге, который частично использует дороги, открытые для движения. Как вы должны вести себя по отношению к другим участникам дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A group of cyclists on a road shared with cars, some cars are waiting behind the cyclists."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous avez la priorité absolue sur tous les autres usagers.",
+          "text_nl": "U heeft absolute voorrang op alle andere weggebruikers.",
+          "text_ru": "У вас есть абсолютный приоритет перед всеми другими участниками движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez respecter le code de la route et faire preuve de courtoisie envers les autres usagers, même si l'événement est autorisé.",
+          "text_nl": "U moet de verkeersregels respecteren en hoffelijk zijn tegenover andere weggebruikers, zelfs als het evenement is toegestaan.",
+          "text_ru": "Вы должны соблюдать правила дорожного движения и проявлять вежливость по отношению к другим участникам движения, даже если мероприятие разрешено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez ignorer les feux de signalisation car l'événement est sportif.",
+          "text_nl": "U mag verkeerslichten negeren omdat het een sportevenement is.",
+          "text_ru": "Вы можете игнорировать светофоры, потому что это спортивное мероприятие.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même si l'événement est autorisé (ce qui implique une autorisation spéciale de l'autorité), les participants doivent toujours respecter le code de la route belge et faire preuve de courtoisie envers les autres usagers. L'article 50 interdit les épreuves sportives sans autorisation, mais ne dispense pas du respect des règles générales de conduite.",
+      "explanation_nl": "Zelfs als het evenement is toegestaan (wat een speciale toestemming van de overheid impliceert), moeten deelnemers altijd de Belgische verkeersregels respecteren en hoffelijk zijn tegenover andere weggebruikers. Artikel 50 verbiedt sportwedstrijden zonder toestemming, maar ontslaat niet van de naleving van de algemene rijregels.",
+      "explanation_ru": "Даже если мероприятие разрешено (что подразумевает специальное разрешение властей), участники должны всегда соблюдать бельгийские правила дорожного движения и проявлять вежливость по отношению к другим участникам движения. Статья 50 запрещает спортивные соревнования без разрешения, но не освобождает от соблюдения общих правил вождения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "3b4ca1f839c1",
@@ -51,6 +237,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:38:32Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

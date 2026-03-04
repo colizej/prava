@@ -26,7 +26,178 @@
   "anchor_id_fr": "obmk16qstw",
   "anchor_id_nl": "kqepafbikv",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 33.2, dans quelles circonstances est-il autorisé d'utiliser un avertisseur sonore ?",
+      "text_nl": "Volgens artikel 33.2, onder welke omstandigheden is het toegestaan om een geluidssignaal te gebruiken?",
+      "text_ru": "Согласно статье 33.2, при каких обстоятельствах разрешено использовать звуковой сигнал?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour signaler sa présence en permanence",
+          "text_nl": "Om permanent aanwezigheid te signaleren",
+          "text_ru": "Для постоянного обозначения своего присутствия",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour éviter un accident et, hors agglomération, pour avertir d'un dépassement",
+          "text_nl": "Om een ongeval te voorkomen en, buiten de bebouwde kom, om te waarschuwen voor een inhaalmanoeuvre",
+          "text_ru": "Для предотвращения аварии и, вне населенного пункта, для предупреждения о намерении обогнать",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement pour saluer un autre conducteur",
+          "text_nl": "Enkel om een andere bestuurder te begroeten",
+          "text_ru": "Только для приветствия другого водителя",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 33.2 stipule que les avertissements sonores sont autorisés pour donner un avertissement nécessaire en vue d'éviter un accident et, en dehors des agglomérations, pour avertir un conducteur qu'on se propose de dépasser.",
+      "explanation_nl": "Artikel 33.2 stelt dat geluidssignalen zijn toegestaan om een noodzakelijke waarschuwing te geven teneinde een ongeval te voorkomen en, buiten de bebouwde kommen, om een bestuurder die men wil inhalen te waarschuwen.",
+      "explanation_ru": "Статья 33.2 гласит, что звуковые сигналы разрешены для подачи необходимого предупреждения с целью предотвращения аварии и, вне населенных пунктов, для предупреждения водителя о намерении обогнать."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la durée recommandée pour les avertissements sonores selon l'article 33.2 ?",
+      "text_nl": "Wat is de aanbevolen duur voor geluidssignalen volgens artikel 33.2?",
+      "text_ru": "Какова рекомендуемая продолжительность звуковых сигналов согласно статье 33.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aussi longs que nécessaire pour être entendu",
+          "text_nl": "Zolang als nodig is om gehoord te worden",
+          "text_ru": "Настолько долгими, насколько необходимо, чтобы быть услышанным",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Aussi brefs que possible",
+          "text_nl": "Zo kort mogelijk",
+          "text_ru": "Настолько короткими, насколько это возможно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Minimum de 3 secondes pour chaque avertissement",
+          "text_nl": "Een minimum van 3 seconden voor elke waarschuwing",
+          "text_ru": "Минимум 3 секунды для каждого предупреждения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 33.2 précise que les avertissements sonores doivent être aussi brefs que possible.",
+      "explanation_nl": "Artikel 33.2 specificeert dat geluidssignalen zo kort mogelijk moeten zijn.",
+      "explanation_ru": "Статья 33.2 уточняет, что звуковые сигналы должны быть настолько краткими, насколько это возможно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez de nuit dans une agglomération dense et vous apercevez un piéton qui s'apprête à traverser sans regarder. Que devez-vous faire selon l'article 33.3 en priorité ?",
+      "text_nl": "U rijdt 's nachts in een dichtbevolkte agglomeratie en u ziet een voetganger die zich klaarmaakt om over te steken zonder te kijken. Wat moet u volgens artikel 33.3 als eerste doen?",
+      "text_ru": "Вы едете ночью по густонаселенному городу и видите пешехода, который готовится перейти дорогу, не глядя. Что вы должны сделать в первую очередь согласно статье 33.3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Utiliser le klaxon pour l'alerter du danger",
+          "text_nl": "De claxon gebruiken om hem te waarschuwen voor het gevaar",
+          "text_ru": "Использовать звуковой сигнал, чтобы предупредить его об опасности",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire un bref et alterné usage des feux de route et des feux de croisement",
+          "text_nl": "Kort en afwisselend grootlicht en dimlicht gebruiken",
+          "text_ru": "Кратковременно и попеременно использовать дальний и ближний свет фар",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ralentir et attendre qu'il traverse",
+          "text_nl": "Vertragen en wachten tot hij is overgestoken",
+          "text_ru": "Замедлиться и подождать, пока он перейдет дорогу",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 33.3 stipule qu'entre la tombée et le lever du jour, sauf en cas de danger imminent, les avertissements sonores doivent être remplacés par l'emploi court et alterné des feux de route et des feux de croisement.",
+      "explanation_nl": "Artikel 33.3 bepaalt dat tussen het vallen van de avond en het aanbreken van de dag, behalve bij dreigend gevaar, de geluidssignalen vervangen moeten worden door het kortstondig en afwisselend aansteken van de grootlichten en de dimlichten.",
+      "explanation_ru": "Статья 33.3 гласит, что в период от заката до рассвета, за исключением случаев непосредственной опасности, звуковые сигналы должны быть заменены кратковременным и попеременным включением дальнего и ближнего света фар."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous arrivez à une intersection non signalisée dans une zone non urbaine la nuit. Vous apercevez une voiture arrivant en face qui semble ne pas vous avoir vu. Quelle est la meilleure réaction pour éviter un accident ?",
+      "text_nl": "U nadert een onbewaakt kruispunt buiten de bebouwde kom 's nachts. U ziet een tegemoetkomende auto die u niet lijkt te hebben gezien. Wat is de beste reactie om een ongeval te voorkomen?",
+      "text_ru": "Вы приближаетесь к нерегулируемому перекрестку вне населенного пункта ночью. Вы видите встречный автомобиль, который, кажется, вас не заметил. Какова наилучшая реакция, чтобы избежать аварии?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Klaxonner fort pour signaler votre présence",
+          "text_nl": "Luid claxonneren om uw aanwezigheid te signaleren",
+          "text_ru": "Громко посигналить, чтобы обозначить свое присутствие",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Utiliser alternativement et brièvement les feux de route et de croisement",
+          "text_nl": "Afwisselend en kortstondig grootlicht en dimlicht gebruiken",
+          "text_ru": "Попеременно и кратковременно использовать дальний и ближний свет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Émettre un long avertissement sonore pour attirer l'attention",
+          "text_nl": "Een lang geluidssignaal geven om de aandacht te trekken",
+          "text_ru": "Подать длинный звуковой сигнал, чтобы привлечь внимание",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 33.3 stipule que la nuit, les avertissements sonores doivent être remplacés par l'emploi court et alterné des feux de route et des feux de croisement, sauf en cas de danger imminent. L'usage des feux est plus approprié que le klaxon dans cette situation pour signaler sa présence sans surprendre excessivement.",
+      "explanation_nl": "Artikel 33.3 bepaalt dat 's nachts geluidssignalen vervangen moeten worden door het kortstondig en afwisselend aansteken van de grootlichten en de dimlichten, behalve bij dreigend gevaar. Het gebruik van lichten is in deze situatie geschikter dan de claxon om de aanwezigheid aan te geven zonder overmatig te verrassen.",
+      "explanation_ru": "Статья 33.3 гласит, что ночью звуковые сигналы должны быть заменены кратковременным и попеременным включением дальнего и ближнего света фар, за исключением случаев непосредственной опасности. Использование света в данной ситуации более уместно, чем звуковой сигнал, чтобы обозначить свое присутствие, не вызывая чрезмерного испуга."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en train de dépasser un cycliste sur une route de campagne à 10h du matin. Le cycliste est seul. Devez-vous utiliser votre avertisseur sonore ?",
+      "text_nl": "U haalt een fietser in op een landweg om 10 uur 's ochtends. De fietser is alleen. Moet u uw claxon gebruiken?",
+      "text_ru": "Вы обгоняете велосипедиста на проселочной дороге в 10 часов утра. Велосипедист один. Должны ли вы использовать звуковой сигнал?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, c'est obligatoire pour signaler un dépassement",
+          "text_nl": "Ja, het is verplicht om een inhaalmanoeuvre te signaleren",
+          "text_ru": "Да, это обязательно для обозначения обгона",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, sauf s'il y a un risque que le cycliste ne vous voie pas et que cela pourrait créer un danger",
+          "text_nl": "Nee, tenzij er een risico bestaat dat de fietser u niet ziet en dit gevaar kan opleveren",
+          "text_ru": "Нет, если только существует риск, что велосипедист вас не увидит и это может создать опасность",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car c'est une règle générale pour dépasser",
+          "text_nl": "Ja, omdat het een algemene regel is om in te halen",
+          "text_ru": "Да, потому что это общее правило для обгона",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 33.2 autorise l'usage de l'avertisseur sonore en dehors des agglomérations, s'il y a lieu d'avertir un conducteur qu'on se propose de dépasser. L'usage n'est pas systématique mais conditionné par la nécessité d'avertir pour éviter un danger.",
+      "explanation_nl": "Artikel 33.2 staat het gebruik van het geluidssignaal buiten de bebouwde kommen toe, wanneer men een bestuurder die men wil inhalen moet waarschuwen. Het gebruik is niet systematisch, maar afhankelijk van de noodzaak om te waarschuwen om gevaar te voorkomen.",
+      "explanation_ru": "Статья 33.2 разрешает использование звукового сигнала вне населенных пунктов, если необходимо предупредить водителя о намерении обогнать. Использование не является систематическим, а зависит от необходимости предупреждения для предотвращения опасности."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "0abe0ab07e6a",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:51:23Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

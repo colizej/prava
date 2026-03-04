@@ -41,7 +41,178 @@
   "anchor_id_fr": "7dinmdxcwg",
   "anchor_id_nl": "mpycwuqykm",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 48.3 (uniquement Région de Bruxelles-Capitale), que doit prescrire l'autorisation pour un transport exceptionnel concernant la voie publique et les propriétés riveraines ?",
+      "text_nl": "Volgens artikel 48.3 (enkel Brussels Hoofdstedelijk Gewest), wat moet de vergunning voorschrijven met betrekking tot de openbare weg en aangrenzende eigendommen voor uitzonderlijk vervoer?",
+      "text_ru": "Согласно статье 48.3 (только Брюссельский столичный регион), что должно быть указано в разрешении на исключительную перевозку в отношении дороги и прилегающих владений?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les itinéraires alternatifs à emprunter.",
+          "text_nl": "De alternatieve routes die gevolgd moeten worden.",
+          "text_ru": "Альтернативные маршруты, по которым следует двигаться.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les dispositions à prendre pour éviter tout dommage à la voie publique, ses dépendances, ses ouvrages et les propriétés riveraines.",
+          "text_nl": "De te nemen maatregelen om alle schade aan de openbare weg, de aanhorigheden daarvan, de erin liggende kunstwerken en de aanpalende eigendommen te voorkomen.",
+          "text_ru": "Меры, которые должны быть приняты для предотвращения любого ущерба дороге, ее прилегающим территориям, сооружениям и прилегающим владениям.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La vitesse maximale autorisée pendant le transport.",
+          "text_nl": "De maximale toegestane snelheid tijdens het transport.",
+          "text_ru": "Максимально разрешенная скорость во время перевозки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 48.3 stipule que l'autorisation prescrit les dispositions qui doivent être prises pour empêcher tout dégât à la voie publique, à ses dépendances, aux ouvrages qui y sont établis et aux propriétés riveraines.",
+      "explanation_nl": "Artikel 48.3 bepaalt dat de vergunning de te nemen maatregelen voorschrijft om alle schade aan de openbare weg, de aanhorigheden daarvan, de erin liggende kunstwerken en de aanpalende eigendommen te voorkomen.",
+      "explanation_ru": "Статья 48.3 гласит, что в разрешении должны быть указаны меры, которые должны быть приняты для предотвращения любого ущерба дороге, ее прилегающим территориям, сооружениям и прилегающим владениям."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'implique l'utilisation d'une autorisation de transport exceptionnel selon l'article 48.4 (uniquement Région de Bruxelles-Capitale) ?",
+      "text_nl": "Wat impliceert het gebruik van een vergunning voor uitzonderlijk vervoer volgens artikel 48.4 (enkel Brussels Hoofdstedelijk Gewest)?",
+      "text_ru": "Что подразумевает использование разрешения на исключительную перевозку согласно статье 48.4 (только Брюссельский столичный регион)?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'obligation de respecter les limitations de vitesse générales.",
+          "text_nl": "De verplichting om de algemene snelheidsbeperkingen te respecteren.",
+          "text_ru": "Обязанность соблюдать общие ограничения скорости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'engagement de supporter le paiement des dommages et des frais pouvant résulter du transport.",
+          "text_nl": "De verbintenis om de schade en de kosten te betalen die uit het vervoer kunnen voortvloeien.",
+          "text_ru": "Обязательство оплатить ущерб и расходы, которые могут возникнуть в результате перевозки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La nécessité d'obtenir une nouvelle autorisation pour chaque trajet.",
+          "text_nl": "De noodzaak om voor elke rit een nieuwe vergunning te verkrijgen.",
+          "text_ru": "Необходимость получения нового разрешения для каждой поездки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 48.4 précise que le fait de faire usage d'une autorisation implique que l'utilisateur s'engage à supporter le paiement des dommages et des frais pouvant résulter du transport.",
+      "explanation_nl": "Artikel 48.4 bepaalt dat door van een vergunning gebruik te maken, de gebruiker zich ertoe verbindt de schade en de kosten te betalen die uit het vervoer kunnen voortvloeien.",
+      "explanation_ru": "Статья 48.4 уточняет, что использование разрешения подразумевает обязательство пользователя оплатить ущерб и расходы, которые могут возникнуть в результате перевозки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes conducteur d'un véhicule exceptionnel circulant dans la Région de Bruxelles-Capitale et avez obtenu l'autorisation nécessaire. Que devez-vous faire si votre transport cause un dommage à un pont appartenant à la voie publique ?",
+      "text_nl": "U bent de bestuurder van een uitzonderlijk voertuig dat rijdt in het Brussels Hoofdstedelijk Gewest en u heeft de nodige vergunning verkregen. Wat moet u doen als uw transport schade veroorzaakt aan een brug die deel uitmaakt van de openbare weg?",
+      "text_ru": "Вы являетесь водителем исключительного транспортного средства, движущегося по Брюссельскому столичному региону, и получили необходимое разрешение. Что вы должны сделать, если ваша перевозка причинит ущерб мосту, принадлежащему к общественной дороге?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ignorer le dommage, car l'autorisation couvre tous les risques.",
+          "text_nl": "Het schade negeren, aangezien de vergunning alle risico's dekt.",
+          "text_ru": "Проигнорировать ущерб, так как разрешение покрывает все риски.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Notifier immédiatement les autorités compétentes et être prêt à assumer les coûts de réparation du dommage.",
+          "text_nl": "Onmiddellijk de bevoegde autoriteiten informeren en bereid zijn de reparatiekosten van de schade te dragen.",
+          "text_ru": "Немедленно уведомить компетентные органы и быть готовым нести расходы на ремонт ущерба.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander au propriétaire du pont de prouver que le dommage est bien dû à votre transport.",
+          "text_nl": "De eigenaar van de brug vragen om aan te tonen dat de schade inderdaad door uw transport is veroorzaakt.",
+          "text_ru": "Попросить владельца моста доказать, что ущерб действительно был вызван вашей перевозкой.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 48.4, l'utilisation d'une autorisation pour un transport exceptionnel implique que l'utilisateur s'engage à supporter le paiement des dommages et des frais pouvant résulter du transport. Il est donc responsable en cas de dommage causé, comme à un pont.",
+      "explanation_nl": "Volgens artikel 48.4 impliceert het gebruik van een vergunning voor uitzonderlijk vervoer dat de gebruiker zich ertoe verbindt de schade en de kosten te betalen die uit het vervoer kunnen voortvloeien. Hij is dus verantwoordelijk voor veroorzaakte schade, zoals aan een brug.",
+      "explanation_ru": "Согласно статье 48.4, использование разрешения на исключительную перевозку подразумевает обязательство пользователя оплатить ущерб и расходы, которые могут возникнуть в результате перевозки. Следовательно, он несет ответственность за причиненный ущерб, например, мосту."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous préparez un transport exceptionnel dans la Région de Bruxelles-Capitale. Le Ministre des Travaux publics peut-il vous demander de constituer une garantie financière avant de délivrer l'autorisation ?",
+      "text_nl": "U bereidt een uitzonderlijk vervoer voor in het Brussels Hoofdstedelijk Gewest. Kan de Minister van Openbare Werken u vragen om een financiële garantie te storten voordat de vergunning wordt afgeleverd?",
+      "text_ru": "Вы готовитесь к исключительной перевозке в Брюссельском столичном регионе. Может ли Министр общественных работ потребовать от вас внести финансовую гарантию до выдачи разрешения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, cette procédure n'est pas prévue par la loi.",
+          "text_nl": "Nee, deze procedure is niet wettelijk voorzien.",
+          "text_ru": "Нет, эта процедура не предусмотрена законом.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, le Ministre ou son délégué peut exiger le dépôt d'un cautionnement préalablement à la délivrance de l'autorisation.",
+          "text_nl": "Ja, de Minister of zijn gemachtigde kan voorafgaand aan de afgifte van de vergunning de storting van een borgsom eisen.",
+          "text_ru": "Да, Министр или его представитель может потребовать внесение залога до выдачи разрешения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le transport dépasse 50 tonnes.",
+          "text_nl": "Alleen als het transport meer dan 50 ton weegt.",
+          "text_ru": "Только если перевозка превышает 50 тонн.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 48.4 stipule explicitement que le Ministre des Travaux publics ou son délégué peut, préalablement à la délivrance de l'autorisation, exiger le dépôt d'un cautionnement.",
+      "explanation_nl": "Artikel 48.4 bepaalt expliciet dat de Minister van Openbare Werken of zijn gemachtigde voorafgaand aan de afgifte van de vergunning de storting van een borgsom kan eisen.",
+      "explanation_ru": "Статья 48.4 прямо гласит, что Министр общественных работ или его представитель может потребовать внесение залога до выдачи разрешения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule de transport exceptionnel dans la Région de Bruxelles-Capitale et une autorisation vous a été délivrée. Que devez-vous faire si, suite à votre passage, une partie de la chaussée est endommagée ?",
+      "text_nl": "U bestuurt een uitzonderlijk transportvoertuig in het Brussels Hoofdstedelijk Gewest en u heeft een vergunning verkregen. Wat moet u doen als, na uw passage, een deel van de rijbaan beschadigd is?",
+      "text_ru": "Вы управляете транспортным средством для исключительных перевозок в Брюссельском столичном регионе, и вам было выдано разрешение. Что вы должны сделать, если после вашего проезда часть дорожного полотна повреждена?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer votre route et signaler le dommage au bureau de voirie plus tard.",
+          "text_nl": "Uw weg vervolgen en de schade later melden aan de wegenwacht.",
+          "text_ru": "Продолжать движение и позже сообщить о повреждении дорожной службе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Prendre toutes les mesures nécessaires pour minimiser le danger causé par le dommage et vous conformer aux exigences de l'autorisation concernant les responsabilités financières.",
+          "text_nl": "Alle nodige maatregelen nemen om het gevaar veroorzaakt door de schade te minimaliseren en te voldoen aan de vereisten van de vergunning met betrekking tot financiële verantwoordelijkheden.",
+          "text_ru": "Принять все необходимые меры для минимизации опасности, вызванной повреждением, и соблюдать требования разрешения относительно финансовой ответственности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander aux autres usagers de la route de signaler le dommage à votre place.",
+          "text_nl": "Andere weggebruikers vragen om de schade in uw plaats te melden.",
+          "text_ru": "Попросить других участников дорожного движения сообщить о повреждении вместо вас.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 48.3 exige des dispositions pour empêcher les dégâts, et l'article 48.4 stipule que l'utilisation de l'autorisation implique l'engagement à supporter les dommages et les frais. Cela implique donc de gérer les conséquences d'un dommage, y compris la sécurité immédiate et la responsabilité financière.",
+      "explanation_nl": "Artikel 48.3 vereist maatregelen om schade te voorkomen, en artikel 48.4 stelt dat het gebruik van de vergunning de verbintenis inhoudt om de schade en de kosten te dragen. Dit impliceert dus het beheren van de gevolgen van schade, inclusief onmiddellijke veiligheid en financiële verantwoordelijkheid.",
+      "explanation_ru": "Статья 48.3 требует принятия мер для предотвращения ущерба, а статья 48.4 гласит, что использование разрешения подразумевает обязательство нести ущерб и расходы. Следовательно, это подразумевает управление последствиями ущерба, включая немедленную безопасность и финансовую ответственность."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "23fc2dd90878",
@@ -51,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:37:22Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

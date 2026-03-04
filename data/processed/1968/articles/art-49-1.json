@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "49/1",
+  "slug": "art-49-1",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 49/1",
+  "title_nl": "Artikel 49/1",
+  "title_ru": "Статья 49/1",
+  "content_md_fr": "Est puni d'une amende de **200 euros à 2.000 euros**, celui qui, après qu'une déchéance du droit de conduire a été prononcée contre lui, ne restitue pas son permis de conduire ou le titre qui en tient lieu dans les délais fixés par le Roi.\n\nEn cas de circonstances atténuantes, l'amende peut être réduite sans qu'elle puisse être inférieure à un euro.\n\nLes peines sont doublées s'il y a récidive dans les trois ans à dater d'un jugement antérieur portant condamnation et coulé en force de chose jugée.",
+  "content_md_nl": "Met geldboete van **200 euro tot 2000 euro** wordt gestraft hij die, nadat tegen hem een verval van het recht op sturen werd uitgesproken, zijn rijbewijs of het als zodanig geldend bewijs niet inlevert binnen de door de Koning bepaalde termijn.\n\nIn geval van verzachtende omstandigheden kan de geldboete verminderd worden, zonder dat ze minder dan één euro mag bedragen.\n\nDe straffen worden verdubbeld bij herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gegaan.",
+  "content_md_ru": "Штраф в размере от 200 до 2 000 евро** налагается на того, кто после лишения права управления транспортным средством не сдаст водительское удостоверение или документ, являющийся таковым, в установленный королем срок.\n\nПри смягчающих обстоятельствах размер штрафа может быть снижен до одного евро.\n\nШтрафные санкции удваиваются в случае повторного совершения преступления в течение трех лет после вынесения предыдущего приговора, осуждающего нарушителя и имеющего силу res judicata.",
+  "content_html_fr": "<p>Est puni d'une amende de <strong>200 euros à 2.000 euros</strong>, celui qui, après qu'une déchéance du droit de conduire a été prononcée contre lui, ne restitue pas son permis de conduire ou le titre qui en tient lieu dans les délais fixés par le Roi.</p><p>En cas de circonstances atténuantes, l'amende peut être réduite sans qu'elle puisse être inférieure à un euro.</p><p>Les peines sont doublées s'il y a récidive dans les trois ans à dater d'un jugement antérieur portant condamnation et coulé en force de chose jugée.</p>",
+  "content_html_nl": "<p>Met geldboete van <strong>200 euro tot 2000 euro</strong> wordt gestraft hij die, nadat tegen hem een verval van het recht op sturen werd uitgesproken, zijn rijbewijs of het als zodanig geldend bewijs niet inlevert binnen de door de Koning bepaalde termijn.</p><p>In geval van verzachtende omstandigheden kan de geldboete verminderd worden, zonder dat ze minder dan één euro mag bedragen.</p><p>De straffen worden verdubbeld bij herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gegaan.</p>",
+  "full_text_fr": "Est puni d'une amende de 200 euros à 2.000 euros, celui qui, après qu'une déchéance du droit de conduire a été prononcée contre lui, ne restitue pas son permis de conduire ou le titre qui en tient lieu dans les délais fixés par le Roi.\n\nEn cas de circonstances atténuantes, l'amende peut être réduite sans qu'elle puisse être inférieure à un euro.\n\nLes peines sont doublées s'il y a récidive dans les trois ans à dater d'un jugement antérieur portant condamnation et coulé en force de chose jugée.",
+  "full_text_nl": "Met geldboete van 200 euro tot 2000 euro wordt gestraft hij die, nadat tegen hem een verval van het recht op sturen werd uitgesproken, zijn rijbewijs of het als zodanig geldend bewijs niet inlevert binnen de door de Koning bepaalde termijn.\n\nIn geval van verzachtende omstandigheden kan de geldboete verminderd worden, zonder dat ze minder dan één euro mag bedragen.\n\nDe straffen worden verdubbeld bij herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gegaan.",
+  "full_text_ru": "Штраф в размере от 200 до 2 000 евро налагается на того, кто после лишения права управления транспортным средством не сдаст водительское удостоверение или документ, являющийся таковым, в установленный королем срок.\n\nПри смягчающих обстоятельствах размер штрафа может быть снижен до одного евро.\n\nШтрафные санкции удваиваются в случае повторного совершения преступления в течение трех лет после вынесения предыдущего приговора, осуждающего нарушителя и имеющего силу res judicata.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "r9t6ybftks",
+  "anchor_id_nl": "s5ay98ed1u",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "298a35ac4586",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

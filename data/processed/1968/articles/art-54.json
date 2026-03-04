@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "54",
+  "slug": "art-54",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 54",
+  "title_nl": "Artikel 54",
+  "title_ru": "Статья 54",
+  "content_md_fr": "Quiconque fait usage ou permet à un tiers de faire usage d'un véhicule dont il sait que l'immobilisation ou la confiscation est prononcée, est puni d'un emprisonnement de huit jours à six mois et d'une amende de** 100 euros à 1000 euros**, ou d'une de ces peines seulement.",
+  "content_md_nl": "Hij die gebruik maakt of aan een derde toelaat gebruik te maken van een voertuig waarvan hij weet dat de immobilisering of de verbeurdverklaring is uitgesproken, wordt gestraft met gevangenisstraf van acht dagen tot zes maanden en met geldboete van **100 euro tot 1 000 euro** of met een van die straffen alleen.",
+  "content_md_ru": "Любое лицо, использующее или позволяющее третьему лицу использовать автомобиль, который, как ему известно, был обездвижен или конфискован, подлежит тюремному заключению на срок от восьми дней до шести месяцев и штрафу в размере от** 100 до 1000 евро**, либо только одному из этих наказаний.",
+  "content_html_fr": "<p>Quiconque fait usage ou permet à un tiers de faire usage d'un véhicule dont il sait que l'immobilisation ou la confiscation est prononcée, est puni d'un emprisonnement de huit jours à six mois et d'une amende de<strong> 100 euros à 1000 euros</strong>, ou d'une de ces peines seulement.</p>",
+  "content_html_nl": "<p>Hij die gebruik maakt of aan een derde toelaat gebruik te maken van een voertuig waarvan hij weet dat de immobilisering of de verbeurdverklaring is uitgesproken, wordt gestraft met gevangenisstraf van acht dagen tot zes maanden en met geldboete van <strong>100 euro tot 1 000 euro</strong> of met een van die straffen alleen.</p>",
+  "full_text_fr": "Quiconque fait usage ou permet à un tiers de faire usage d'un véhicule dont il sait que l'immobilisation ou la confiscation est prononcée, est puni d'un emprisonnement de huit jours à six mois et d'une amende de 100 euros à 1000 euros, ou d'une de ces peines seulement.",
+  "full_text_nl": "Hij die gebruik maakt of aan een derde toelaat gebruik te maken van een voertuig waarvan hij weet dat de immobilisering of de verbeurdverklaring is uitgesproken, wordt gestraft met gevangenisstraf van acht dagen tot zes maanden en met geldboete van 100 euro tot 1 000 euro of met een van die straffen alleen.",
+  "full_text_ru": "Любое лицо, использующее или позволяющее третьему лицу использовать автомобиль, который, как ему известно, был обездвижен или конфискован, подлежит тюремному заключению на срок от восьми дней до шести месяцев и штрафу в размере от 100 до 1000 евро, либо только одному из этих наказаний.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "slj5aixont",
+  "anchor_id_nl": "bqwuvojekw",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "eb1b52afd611",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -26,7 +26,178 @@
   "anchor_id_fr": "jgbxcbf03n",
   "anchor_id_nl": "fqj4aoxx6b",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 45.1 du code de la route belge, quel aspect du chargement d'un véhicule NE doit PAS être compromis pour la sécurité des usagers et la préservation de la voie publique ?",
+      "text_nl": "Volgens artikel 45.1 van het Belgisch wegverkeersreglement, welk aspect van de lading van een voertuig mag NIET in het gedrang komen voor de veiligheid van weggebruikers en het behoud van de openbare weg?",
+      "text_ru": "Согласно статье 45.1 бельгийских правил дорожного движения, какой аспект загрузки транспортного средства НЕ должен быть поставлен под угрозу для безопасности участников движения и сохранности дороги?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La visibilité du conducteur et la stabilité du véhicule.",
+          "text_nl": "Het zicht van de bestuurder en de stabiliteit van het voertuig.",
+          "text_ru": "Обзор водителя и устойчивость транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les feux, les catadioptres et le numéro d'immatriculation.",
+          "text_nl": "De lichten, de reflectoren en het inschrijvingsnummer.",
+          "text_ru": "Огни, отражатели и регистрационный номер.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'esthétique générale du véhicule et le confort des passagers.",
+          "text_nl": "De algemene esthetiek van het voertuig en het comfort van de passagiers.",
+          "text_ru": "Общая эстетика транспортного средства и комфорт пассажиров.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 45.1 stipule que le chargement ne doit pas nuire à la visibilité, constituer un danger, occasionner des dommages, traîner ou tomber, compromettre la stabilité, ni masquer les feux, catadioptres et numéro d'immatriculation. L'esthétique et le confort des passagers ne sont pas des points mentionnés explicitement comme devant être préservés par la manière dont le chargement est disposé.",
+      "explanation_nl": "Artikel 45.1 stelt dat de lading het zicht niet mag hinderen, geen gevaar mag vormen, geen schade mag veroorzaken, niet mag slepen of vallen, de stabiliteit niet in het gedrang mag brengen, noch de lichten, reflectoren en het kenteken onzichtbaar mag maken. De esthetiek en het comfort van de passagiers worden niet expliciet genoemd als aspecten die behouden moeten blijven door de manier waarop de lading is aangebracht.",
+      "explanation_ru": "Статья 45.1 гласит, что груз не должен мешать обзору, представлять опасность, причинять ущерб, волочиться или падать, ставить под угрозу устойчивость, а также скрывать огни, отражатели и регистрационный номер. Эстетика и комфорт пассажиров явно не указаны как аспекты, которые должны быть сохранены способом размещения груза."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans la Région wallonne, qu'est-ce qui rend une bâche ou un filet NON obligatoire pour le transport de céréales en vrac ou en balles ?",
+      "text_nl": "In het Waals Gewest, wat maakt een dekzeil of een net NIET verplicht voor het vervoer van graangewassen in bulk of in balen?",
+      "text_ru": "В Валлонском регионе, что делает брезент или сетку НЕ обязательными для перевозки зерновых насыпью или в тюках?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le transport s'effectue sur une autoroute.",
+          "text_nl": "Het vervoer vindt plaats op een autosnelweg.",
+          "text_ru": "Перевозка осуществляется по автомагистрали.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le transport s'effectue dans un rayon de 50 km du lieu de chargement.",
+          "text_nl": "Het vervoer vindt plaats binnen een straal van 50 km van de laadplaats.",
+          "text_ru": "Перевозка осуществляется в радиусе 50 км от места погрузки.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le transport s'effectue dans un rayon de 25 km du lieu de chargement et le chargement ne dégage pas de poussière.",
+          "text_nl": "Het vervoer vindt plaats binnen een straal van 25 km van de laadplaats en de lading stof niet.",
+          "text_ru": "Перевозка осуществляется в радиусе 25 км от места погрузки, и груз не пылит.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 45.2 (Région wallonne) indique que la disposition de couvrir le chargement n'est pas applicable si le transport se fait dans un rayon de 25 km du lieu de chargement ET pour autant qu'il ne s'effectue pas sur une autoroute, OU si le transport concerne des chargements qui ne dégagent pas de poussière. La combinaison des deux conditions (distance et absence de poussière) rend la bâche ou le filet non obligatoire.",
+      "explanation_nl": "Artikel 45.2 (Waals Gewest) geeft aan dat de bepaling om de lading te bedekken niet van toepassing is indien het vervoer plaatsvindt binnen een straal van 25 km van de laadplaats EN voor zover het niet langs een autosnelweg geschiedt, OF indien het vervoer ladingen betreft die geen stof afgeven. De combinatie van beide voorwaarden (afstand en afwezigheid van stof) maakt het dekzeil of net niet verplicht.",
+      "explanation_ru": "Статья 45.2 (Валлонский регион) указывает, что требование накрывать груз не применяется, если перевозка осуществляется в радиусе 25 км от места погрузки И при условии, что она не осуществляется по автомагистрали, ИЛИ если перевозка касается грузов, которые не выделяют пыль. Сочетание обоих условий (расстояние и отсутствие пыли) делает брезент или сетку необязательными."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous transportez des poutres métalliques de 10 mètres de long sur une remorque. Que devez-vous faire pour respecter l'article 45.3 ?",
+      "text_nl": "U vervoert metalen balken van 10 meter lang op een aanhangwagen. Wat moet u doen om artikel 45.3 na te leven?",
+      "text_ru": "Вы перевозите металлические балки длиной 10 метров на прицепе. Что вы должны сделать, чтобы соблюсти статью 45.3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'assurer que les poutres dépassent légèrement de la remorque pour indiquer leur longueur.",
+          "text_nl": "Zorgen dat de balken lichtjes uit de aanhangwagen uitsteken om hun lengte aan te geven.",
+          "text_ru": "Убедиться, что балки слегка выступают из прицепа, чтобы обозначить их длину.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les arrimer solidement entre elles et au véhicule pour qu'elles ne dépassent pas le contour latéral extrême lors de leurs oscillations.",
+          "text_nl": "Ze stevig aan elkaar en aan het voertuig vastmaken zodat ze bij hun slingerbewegingen de uiterste zijdelingse omtrek niet overschrijden.",
+          "text_ru": "Надежно скрепить их между собой и с транспортным средством так, чтобы они не выходили за крайние боковые габариты при колебаниях.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les laisser libres sur la remorque pour qu'elles puissent bouger en cas de freinage brusque.",
+          "text_nl": "Ze vrij laten op de aanhangwagen zodat ze kunnen bewegen bij een plotselinge rembeweging.",
+          "text_ru": "Оставить их свободными на прицепе, чтобы они могли двигаться при резком торможении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 45.3 stipule que les pièces de grande longueur doivent être solidement arrimées entre elles et au véhicule, de manière à ne pas déborder le contour latéral extrême de celui-ci dans leurs oscillations. Cela signifie qu'elles doivent être bien fixées et ne pas présenter de danger de dépassement latéral même en mouvement.",
+      "explanation_nl": "Artikel 45.3 stelt dat lange onderdelen stevig aan elkaar en aan het voertuig moeten worden vastgemaakt, zodat ze bij hun slingerbewegingen de uiterste zijdelingse omtrek niet overschrijden. Dit betekent dat ze goed vastgemaakt moeten zijn en geen gevaar van zijdelingse overschrijding mogen vormen, zelfs niet in beweging.",
+      "explanation_ru": "Статья 45.3 гласит, что длинные детали должны быть надежно скреплены между собой и с транспортным средством так, чтобы они не выходили за крайние боковые габариты при колебаниях. Это означает, что они должны быть хорошо закреплены и не представлять опасности бокового выступа, даже в движении."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un camion chargé de balles de foin. Un filet est utilisé pour maintenir le chargement. Quelles sont les exigences concernant ce filet selon l'article 45.4 ?",
+      "text_nl": "U bestuurt een vrachtwagen geladen met hooibalen. Een net wordt gebruikt om de lading vast te houden. Wat zijn de vereisten voor dit net volgens artikel 45.4?",
+      "text_ru": "Вы управляете грузовиком, груженым тюками сена. Для удержания груза используется сетка. Каковы требования к этой сетке согласно статье 45.4?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le filet doit être suffisamment lâche pour permettre une bonne ventilation du chargement.",
+          "text_nl": "Het net moet voldoende los zijn om een goede ventilatie van de lading mogelijk te maken.",
+          "text_ru": "Сетка должна быть достаточно свободной, чтобы обеспечить хорошую вентиляцию груза.",
+          "is_correct": false
+        },
+        {
+          "letter": "A",
+          "text_fr": "Le filet doit être tendu de manière à bien entourer et maintenir le chargement sans excès.",
+          "text_nl": "Het net moet strak gespannen zijn om de lading goed te omringen en vast te houden zonder overschot.",
+          "text_ru": "Сетка должна быть натянута так, чтобы плотно окружать и удерживать груз без излишков.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le filet doit faire étroitement le tour du chargement.",
+          "text_nl": "Het net moet de lading nauw omsluiten.",
+          "text_ru": "Сетка должна плотно облегать груз.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 45.4 précise que les accessoires servant à fixer ou à protéger le chargement, tels qu'une bâche, un filet, etc., doivent faire étroitement le tour du chargement. Cela garantit que le chargement est bien maintenu et ne risque pas de se déplacer ou de tomber.",
+      "explanation_nl": "Artikel 45.4 specificeert dat accessoires die worden gebruikt om de lading vast te zetten of te beschermen, zoals een dekzeil, een net, enz., de lading nauw moeten omsluiten. Dit zorgt ervoor dat de lading goed wordt vastgehouden en niet het risico loopt te verschuiven of te vallen.",
+      "explanation_ru": "Статья 45.4 уточняет, что аксессуары, используемые для крепления или защиты груза, такие как брезент, сетка и т. д., должны плотно облегать груз. Это гарантирует, что груз надежно удерживается и не рискует сместиться или упасть."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre camion transporte un chargement qui génère beaucoup de bruit lors des déplacements. Que devez-vous faire, selon l'article 45.5 ?",
+      "text_nl": "Uw vrachtwagen vervoert een lading die veel lawaai veroorzaakt tijdens het rijden. Wat moet u doen, volgens artikel 45.5?",
+      "text_ru": "Ваш грузовик перевозит груз, который создает много шума во время движения. Что вы должны сделать, согласно статье 45.5?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer le trajet en ignorant le bruit, car il est inévitable.",
+          "text_nl": "Doorrijden en het geluid negeren, omdat het onvermijdelijk is.",
+          "text_ru": "Продолжать движение, игнорируя шум, так как он неизбежен.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Prendre les mesures nécessaires pour que le bruit ne gêne pas le conducteur, n'incommode pas le public ou n'effraie pas les animaux.",
+          "text_nl": "De nodige maatregelen nemen zodat het geluid de bestuurder niet hindert, het publiek niet stoort of dieren niet afschrikt.",
+          "text_ru": "Принять необходимые меры, чтобы шум не мешал водителю, не беспокоил общественность и не пугал животных.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Utiliser un klaxon plus fort pour masquer le bruit du chargement.",
+          "text_nl": "Een luidere claxon gebruiken om het geluid van de lading te maskeren.",
+          "text_ru": "Использовать более громкий гудок, чтобы заглушить шум груза.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 45.5 stipule que le conducteur doit prendre les mesures nécessaires pour que le chargement, ainsi que les accessoires servant à l'arrimer ou à le protéger, ne puissent par leur bruit, gêner le conducteur, incommoder le public ou effrayer les animaux. Il est donc de la responsabilité du conducteur de gérer le bruit généré par le chargement.",
+      "explanation_nl": "Artikel 45.5 stelt dat de bestuurder de nodige maatregelen moet nemen zodat de lading, evenals de accessoires die worden gebruikt om deze vast te zetten of te beschermen, door hun geluid de bestuurder niet mag hinderen, het publiek niet mag storen of dieren niet mag afschrikken. Het is dus de verantwoordelijkheid van de bestuurder om het door de lading veroorzaakte geluid te beheersen.",
+      "explanation_ru": "Статья 45.5 гласит, что водитель должен принять необходимые меры, чтобы груз, а также аксессуары, используемые для его крепления или защиты, своим шумом не мешали водителю, не беспокоили общественность и не пугали животных. Следовательно, водитель несет ответственность за управление шумом, создаваемым грузом."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "d4f5883ded46",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:35:53Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

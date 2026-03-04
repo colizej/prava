@@ -101,6 +101,8 @@ def run_script(request, script_id):
                 extra_args.append('--dry-run')
             if body.get('verbose'):
                 extra_args.append('--verbose')
+            if body.get('law'):
+                extra_args += ['--law', str(body['law'])]
         except (json.JSONDecodeError, AttributeError):
             pass
 

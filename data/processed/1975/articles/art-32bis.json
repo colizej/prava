@@ -26,7 +26,178 @@
   "anchor_id_fr": "9jvgikai9p",
   "anchor_id_nl": "erl6ra993y",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quels cas spécifiques le dispositif permettant de faire fonctionner simultanément tous les indicateurs de direction d'un véhicule peut-il être utilisé, selon l'article 32bis ?",
+      "text_nl": "In welke specifieke gevallen mag de inrichting die toelaat al de richtingsaanwijzers van een voertuig gelijktijdig te laten werken, worden gebruikt, volgens artikel 32bis ?",
+      "text_ru": "В каких конкретных случаях допускается использование устройства, позволяющего одновременно включать все указатели поворота транспортного средства, согласно статье 32bis ?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement pour signaler un stationnement difficile.",
+          "text_nl": "Enkel om een moeilijke parkeermanoeuvre aan te geven.",
+          "text_ru": "Только для обозначения сложной парковочной маневры.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour signaler un risque d'accident imminent ou dans les cas prévus aux articles 39bis.2 et 51.",
+          "text_nl": "Om een dreigend ongevalsgevaar aan te geven of in de gevallen voorzien in artikelen 39bis.2 en 51.",
+          "text_ru": "Для обозначения неминуемой опасности аварии или в случаях, предусмотренных статьями 39bis.2 и 51.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lors de dépassements en série.",
+          "text_nl": "Bij reeksdobbelingen.",
+          "text_ru": "При серийных обгонах.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 32bis stipule que le dispositif des feux de détresse (clignotants simultanés) ne peut être utilisé que pour signaler un risque d'accident imminent ou dans les cas spécifiques mentionnés dans les articles 39bis.2 et 51.",
+      "explanation_nl": "Artikel 32bis stelt dat de noodknipperlichtinstallatie (gelijktijdige richtingaanwijzers) enkel mag worden gebruikt om een dreigend ongevalsgevaar aan te geven of in de specifieke gevallen vermeld in de artikelen 39bis.2 en 51.",
+      "explanation_ru": "Статья 32bis гласит, что устройство аварийной сигнализации (одновременные указатели поворота) может использоваться только для обозначения неминуемой опасности аварии или в конкретных случаях, упомянутых в статьях 39bis.2 и 51."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie l'expression « signaler aux autres usagers de la route le risque d'un accident imminent » dans le contexte de l'utilisation des indicateurs de direction simultanés (feux de détresse) ?",
+      "text_nl": "Wat betekent de uitdrukking 'om de andere weggebruikers te wijzen op een dreigend gevaar voor ongeval' in de context van het gebruik van de gelijktijdige richtingaanwijzers (noodknipperlichten) ?",
+      "text_ru": "Что означает выражение «указать другим участникам дорожного движения на неминуемую опасность аварии» в контексте использования одновременных указателей поворота (аварийной сигнализации) ?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer que vous allez vous garer dans les prochaines minutes.",
+          "text_nl": "Aangeven dat u de komende minuten gaat parkeren.",
+          "text_ru": "Указать, что вы собираетесь припарковаться в ближайшие несколько минут.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Alerter les autres conducteurs d'une situation dangereuse sur la route qui pourrait entraîner un accident.",
+          "text_nl": "Andere bestuurders waarschuwen voor een gevaarlijke situatie op de weg die tot een ongeval zou kunnen leiden.",
+          "text_ru": "Предупредить других водителей об опасной ситуации на дороге, которая может привести к аварии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signaler une intention de changer de voie sans danger immédiat.",
+          "text_nl": "Een intentie om van rijstrook te veranderen zonder direct gevaar aan te geven.",
+          "text_ru": "Обозначить намерение сменить полосу движения без немедленной опасности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Signaler le risque d'un accident imminent signifie utiliser les feux de détresse pour avertir les autres usagers d'un danger réel et immédiat sur la chaussée, tel qu'un obstacle, un véhicule en panne dans une position dangereuse, ou une situation de trafic chaotique.",
+      "explanation_nl": "Het dreigend gevaar voor ongeval signaleren betekent het gebruiken van de noodknipperlichten om andere weggebruikers te waarschuwen voor een reëel en onmiddellijk gevaar op de weg, zoals een obstakel, een stilstaande auto in een gevaarlijke positie, of een chaotische verkeerssituatie.",
+      "explanation_ru": "Обозначение неминуемой опасности аварии означает использование аварийной сигнализации для предупреждения других участников движения о реальной и немедленной опасности на дороге, такой как препятствие, сломанный автомобиль в опасном положении или хаотичная дорожная ситуация."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une autoroute et soudainement, vous voyez un véhicule immobilisé sur la bande d'arrêt d'urgence, mais son conducteur semble vouloir redémarrer et s'insérer dans la circulation, ce qui représente un danger. Que devez-vous faire ?",
+      "text_nl": "U rijdt op de autosnelweg en plotseling ziet u een voertuig stilstaan op de pechstrook, maar de bestuurder lijkt te willen herstarten en zich in het verkeer te voegen, wat gevaar oplevert. Wat moet u doen ?",
+      "text_ru": "Вы едете по автомагистрали и внезапно видите, что автомобиль стоит на обочине, но водитель, кажется, хочет снова начать движение и встроиться в поток, что представляет опасность. Что вы должны сделать ?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous continuez votre route sans rien faire, car ce n'est pas votre problème.",
+          "text_nl": "U rijdt verder zonder iets te doen, want het is niet uw probleem.",
+          "text_ru": "Вы продолжаете движение, ничего не делая, потому что это не ваша проблема.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous actionnez vos feux de détresse pour avertir les autres conducteurs du danger potentiel.",
+          "text_nl": "U zet uw noodknipperlichten aan om andere bestuurders te waarschuwen voor het potentiële gevaar.",
+          "text_ru": "Вы включаете аварийную сигнализацию, чтобы предупредить других водителей о потенциальной опасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous klaxonnez de manière insistante pour alerter le conducteur en panne.",
+          "text_nl": "U toetert aanhoudend om de pechhebbende bestuurder te alarmeren.",
+          "text_ru": "Вы настойчиво сигналите, чтобы предупредить водителя, у которого поломка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 32bis, vous pouvez utiliser vos feux de détresse pour signaler aux autres usagers le risque d'un accident imminent. Dans cette situation, le redémarrage potentiellement dangereux du véhicule en panne constitue un tel risque.",
+      "explanation_nl": "Volgens artikel 32bis mag u uw noodknipperlichten gebruiken om andere weggebruikers te wijzen op een dreigend ongevalsgevaar. In deze situatie vormt het potentieel gevaarlijke herstarten van het stilstaande voertuig een dergelijk gevaar.",
+      "explanation_ru": "Согласно статье 32bis, вы можете использовать аварийную сигнализацию, чтобы указать другим участникам движения на неминуемую опасность аварии. В данной ситуации потенциально опасный повторный выезд сломавшегося автомобиля представляет собой такую опасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes le troisième véhicule dans une file qui s'arrête brusquement sur une route à deux voies dans chaque direction. Le véhicule devant vous a subitement freiné en raison d'un obstacle imprévu. Comment réagir au mieux pour assurer la sécurité de tous ?",
+      "text_nl": "U bent het derde voertuig in een file die plotseling stopt op een tweevoudige rijbaan in elke richting. Het voertuig voor u heeft plotseling geremd vanwege een onverwacht obstakel. Hoe reageert u het best om de veiligheid van iedereen te waarborgen ?",
+      "text_ru": "Вы - третье транспортное средство в колонне, которая внезапно останавливается на дороге с двумя полосами в каждом направлении. Транспортное средство перед вами резко затормозило из-за непредвиденного препятствия. Как лучше всего отреагировать, чтобы обеспечить безопасность всех ?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous freinez immédiatement et violemment pour éviter une collision.",
+          "text_nl": "U remt onmiddellijk en krachtig om een botsing te vermijden.",
+          "text_ru": "Вы немедленно и резко тормозите, чтобы избежать столкновения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous freinez progressivement tout en activant vos feux de détresse pour alerter les véhicules derrière vous du danger imminent.",
+          "text_nl": "U remt geleidelijk en activeert tegelijkertijd uw noodknipperlichten om de voertuigen achter u te waarschuwen voor het dreigende gevaar.",
+          "text_ru": "Вы плавно тормозите, одновременно включая аварийную сигнализацию, чтобы предупредить транспортные средства позади вас о неминуемой опасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous tentez de changer de voie pour éviter l'obstacle.",
+          "text_nl": "U probeert van rijstrook te wisselen om het obstakel te ontwijken.",
+          "text_ru": "Вы пытаетесь сменить полосу движения, чтобы объехать препятствие.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de freinage brusque due à un obstacle, il est crucial de freiner progressivement tout en activant simultanément les feux de détresse (conformément à l'article 32bis pour signaler un danger imminent) afin d'avertir les conducteurs en aval et de réduire le risque de collision en chaîne.",
+      "explanation_nl": "Bij plotseling remmen door een obstakel is het cruciaal om geleidelijk te remmen en tegelijkertijd de noodknipperlichten te activeren (conform artikel 32bis om een dreigend gevaar te signaleren) om bestuurders achteraan te waarschuwen en het risico op een kettingbotsing te verminderen.",
+      "explanation_ru": "В случае резкого торможения из-за препятствия крайне важно плавно тормозить, одновременно включая аварийную сигнализацию (согласно статье 32bis для обозначения неминуемой опасности), чтобы предупредить водителей позади и снизить риск цепной аварии."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes témoin d'un accident légèrement en amont de votre position sur une route à deux sens. Les véhicules impliqués ne bloquent pas la circulation mais créent une situation potentiellement dangereuse. Que devez-vous faire en premier lieu ?",
+      "text_nl": "U bent getuige van een ongeval iets verderop op een tweerichtingsweg. De betrokken voertuigen blokkeren de weg niet, maar creëren een potentieel gevaarlijke situatie. Wat moet u als eerste doen ?",
+      "text_ru": "Вы стали свидетелем аварии немного впереди по ходу движения на дороге с двусторонним движением. Участвовавшие в аварии транспортные средства не блокируют движение, но создают потенциально опасную ситуацию. Что вы должны сделать в первую очередь ?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer votre chemin car vous n'êtes pas impliqué.",
+          "text_nl": "Uw weg voortzetten omdat u niet betrokken bent.",
+          "text_ru": "Продолжить движение, так как вы не вовлечены.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Actionner vos feux de détresse pour signaler le danger aux autres conducteurs arrivant.",
+          "text_nl": "Uw noodknipperlichten aanzetten om het gevaar te signaleren aan andere naderende bestuurders.",
+          "text_ru": "Включить аварийную сигнализацию, чтобы обозначить опасность для других приближающихся водителей.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Arrêter votre véhicule sur la voie de circulation pour évaluer la situation.",
+          "text_nl": "Uw voertuig op de rijbaan stoppen om de situatie te beoordelen.",
+          "text_ru": "Остановить свой автомобиль на полосе движения, чтобы оценить ситуацию.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 32bis permet l'utilisation des feux de détresse pour signaler un risque d'accident imminent ou une situation dangereuse. Dans ce cas, avertir les autres conducteurs du danger créé par l'accident est une priorité avant d'intervenir ou de simplement continuer.",
+      "explanation_nl": "Artikel 32bis staat het gebruik van noodknipperlichten toe om een dreigend ongevalsgevaar of een gevaarlijke situatie te signaleren. In dit geval is het waarschuwen van andere bestuurders voor het door het ongeval gecreëerde gevaar een prioriteit voordat u ingrijpt of gewoon doorrijdt.",
+      "explanation_ru": "Статья 32bis разрешает использование аварийной сигнализации для обозначения неминуемой опасности аварии или опасной ситуации. В данном случае предупреждение других водителей об опасности, созданной аварией, является приоритетом, прежде чем вмешиваться или просто продолжать движение."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "366c2c6b7c81",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:51:07Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

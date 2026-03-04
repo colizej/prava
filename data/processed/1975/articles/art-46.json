@@ -26,7 +26,178 @@
   "anchor_id_fr": "r8axpqw8zp",
   "anchor_id_nl": "rc6egqahaf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 46.1 du Code de la route belge, quelle est la largeur maximale autorisée pour le chargement d'un véhicule automobile, d'un véhicule à traction animale ou de leur remorque, sauf exceptions ?",
+      "text_nl": "Volgens artikel 46.1 van de Belgische Wegcode, wat is de maximaal toegestane breedte voor de lading van een motorvoertuig, een door dieren getrokken voertuig of hun aanhangwagen, met uitzondering van de speciale gevallen?",
+      "text_ru": "Согласно статье 46.1 Бельгийских дорожных правил, какова максимально допустимая ширина груза для автомобиля, транспортного средства, запряженного животными, или их прицепа, за исключением особых случаев?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "2,50 mètres",
+          "text_nl": "2,50 meter",
+          "text_ru": "2,50 метра",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "2,55 mètres ou 2,6 mètres",
+          "text_nl": "2,55 meter of 2,6 meter",
+          "text_ru": "2,55 метра или 2,6 метра",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "2,75 mètres",
+          "text_nl": "2,75 meter",
+          "text_ru": "2,75 метра",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 46.1.1° stipule que la largeur d'un véhicule automobile, d'un véhicule à traction animale ou de leur remorque chargé, mesurée toutes saillies comprises, ne peut excéder 2,55 mètres ou 2,6 mètres.",
+      "explanation_nl": "Artikel 46.1.1° stelt dat de breedte van een beladen motorvoertuig, door dieren getrokken voertuig of hun aanhangwagen, met inbegrip van alle uitstekende delen, niet meer mag bedragen dan 2,55 meter of 2,6 meter.",
+      "explanation_ru": "Статья 46.1.1° гласит, что ширина груженого автомобиля, запряженного животными транспортного средства или их прицепа, включая все выступающие части, не должна превышать 2,55 метра или 2,6 метра."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles conditions spécifiques la largeur d'un véhicule chargé de céréales, lin, paille ou fourrage en vrac peut-elle atteindre 3 mètres selon l'article 46.1.1° b) ?",
+      "text_nl": "Onder welke specifieke voorwaarden mag de breedte van een voertuig beladen met graangewassen, vlas, stro, paarden- of veevoeder in bulk 3 meter bedragen volgens artikel 46.1.1° b)?",
+      "text_ru": "При каких конкретных условиях ширина транспортного средства, груженого зерном, льном, соломой, фуражом в насыпном виде, может достигать 3 метров согласно статье 46.1.1° b)?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si le chargement est transporté dans un rayon de 50 km de la frontière belge.",
+          "text_nl": "Indien de lading wordt vervoerd binnen een straal van 50 km van de Belgische grens.",
+          "text_ru": "Если груз перевозится в радиусе 50 км от бельгийской границы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si le chargement est transporté dans un rayon de 25 km du lieu de chargement ou dans une zone de 25 km de la frontière belge.",
+          "text_nl": "Indien de lading wordt vervoerd binnen een straal van 25 km van de laadplaats of binnen een zone van 25 km van de Belgische grens.",
+          "text_ru": "Если груз перевозится в радиусе 25 км от места погрузки или в зоне 25 км от бельгийской границы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le chargement est composé uniquement de balles comprimées.",
+          "text_nl": "Indien de lading uitsluitend uit geperste balen bestaat.",
+          "text_ru": "Если груз состоит исключительно из спрессованных тюков.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 46.1.1° b) précise que la largeur du véhicule chargé peut atteindre 3 mètres si le chargement est constitué de céréales, lin, paille ou fourrage en vrac et est transporté soit dans un rayon de 25 km du lieu de chargement, soit dans une zone de 25 km de la frontière belge.",
+      "explanation_nl": "Artikel 46.1.1° b) specificeert dat de breedte van het beladen voertuig 3 meter mag bedragen indien de lading bestaat uit graangewassen, vlas, stro, paarden- of veevoeder in bulk en wordt vervoerd binnen een straal van 25 km van de laadplaats of binnen een zone van 25 km van de Belgische grens.",
+      "explanation_ru": "Статья 46.1.1° b) уточняет, что ширина груженого транспортного средства может достигать 3 метров, если груз состоит из зерна, льна, соломы, фуража в насыпном виде и перевозится либо в радиусе 25 км от места погрузки, либо в зоне 25 км от бельгийской границы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une voiture avec une remorque chargée de matériel de construction. La largeur totale de votre remorque chargée est de 2,50 mètres. Le chargement dépasse de 0,40 mètre l'arrière de la remorque. Est-ce conforme à l'article 46.2.3 (Région wallonne) ?",
+      "text_nl": "U bestuurt een auto met een aanhangwagen beladen met bouwmaterialen. De totale breedte van uw beladen aanhangwagen is 2,50 meter. De lading steekt 0,40 meter uit achteraan de aanhangwagen. Voldoet dit aan artikel 46.2.3 (Waals Gewest)?",
+      "text_ru": "Вы управляете автомобилем с прицепом, груженым строительными материалами. Общая ширина вашего груженого прицепа составляет 2,50 метра. Груз выступает на 0,40 метра сзади прицепа. Соответствует ли это статье 46.2.3 (Валлонский регион)?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car la largeur du véhicule chargé n'est pas spécifiée et le dépassement arrière est inférieur à 1 mètre.",
+          "text_nl": "Ja, want de breedte van het beladen voertuig is niet gespecificeerd en de achteruitstekende lading is minder dan 1 meter.",
+          "text_ru": "Да, потому что ширина груженого транспортного средства не указана, а выступающая сзади часть менее 1 метра.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car le chargement dépasse l'extrémité arrière du véhicule de plus de 1 mètre.",
+          "text_nl": "Nee, want de lading steekt meer dan 1 meter uit achteraan het voertuig.",
+          "text_ru": "Нет, потому что груз выступает более чем на 1 метр с задней части транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, car selon l'article 46.2.3 (Région wallonne), le chargement ne peut dépasser l'extrémité arrière du véhicule de plus d'un mètre. Le dépassement de 0,40 mètre est donc conforme.",
+          "text_nl": "Nee, want volgens artikel 46.2.3 (Waals Gewest) mag de lading niet meer dan 1 meter uitsteken achteraan het voertuig. Een uitsteeksel van 0,40 meter is dus conform.",
+          "text_ru": "Нет, потому что согласно статье 46.2.3 (Валлонский регион) груз не должен выступать более чем на 1 метр с задней части транспортного средства. Выступ в 0,40 метра соответствует требованиям.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 46.2.3 (Région wallonne) stipule que le chargement des autres véhicules ne peut dépasser l'extrémité arrière du véhicule de plus d'un mètre. Un dépassement de 0,40 mètre est donc inférieur à la limite autorisée et est donc conforme.",
+      "explanation_nl": "Artikel 46.2.3 (Waals Gewest) stelt dat de lading van andere voertuigen niet meer dan 1 meter mag uitsteken achteraan het voertuig. Een uitsteeksel van 0,40 meter is dus minder dan de toegestane limiet en is daarom conform.",
+      "explanation_ru": "Статья 46.2.3 (Валлонский регион) гласит, что груз других транспортных средств не должен выступать более чем на 1 метр с задней части транспортного средства. Выступ в 0,40 метра находится ниже допустимого предела и, следовательно, соответствует требованиям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous transportez un tube très long de 10 mètres de long sur une camionnette dans la Région de Bruxelles-Capitale. Le tube dépasse de 3 mètres l'arrière de la camionnette. Est-ce autorisé par l'article 46.2.3 (Région de Bruxelles-Capitale et Région wallonne) ?",
+      "text_nl": "U vervoert een zeer lange buis van 10 meter lang op een bestelwagen in het Brussels Hoofdstedelijk Gewest. De buis steekt 3 meter uit achteraan de bestelwagen. Is dit toegestaan volgens artikel 46.2.3 (Brussels Hoofdstedelijk Gewest en Waals Gewest)?",
+      "text_ru": "Вы перевозите очень длинную трубу длиной 10 метров на фургоне в Брюссельском столичном регионе. Труба выступает на 3 метра сзади фургона. Разрешено ли это согласно статье 46.2.3 (Брюссельский столичный регион и Валлонский регион)?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car le chargement ne peut dépasser l'arrière du véhicule de plus d'un mètre.",
+          "text_nl": "Nee, want de lading mag niet meer dan 1 meter uitsteken achteraan het voertuig.",
+          "text_ru": "Нет, потому что груз не должен выступать более чем на 1 метр с задней части транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car il s'agit d'une pièce indivisible de grande longueur et le dépassement est de 3 mètres.",
+          "text_nl": "Ja, want het betreft een ondeelbaar stuk van grote lengte en de uitsteek is 3 meter.",
+          "text_ru": "Да, потому что это неделимый предмет большой длины, и выступ составляет 3 метра.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, car la longueur totale du chargement avec le dépassement excède la longueur du véhicule de plus de 50%.",
+          "text_nl": "Nee, want de totale lengte van de lading met de uitsteek overschrijdt de lengte van het voertuig met meer dan 50%.",
+          "text_ru": "Нет, потому что общая длина груза с выступом превышает длину транспортного средства более чем на 50%.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 46.2.3 (Région de Bruxelles-Capitale et Région wallonne) prévoit une exception : le dépassement peut atteindre 3 mètres lorsqu'un de ces véhicules est chargé de pièces indivisibles de grande longueur.",
+      "explanation_nl": "Artikel 46.2.3 (Brussels Hoofdstedelijk Gewest en Waals Gewest) voorziet in een uitzondering: de uitsteek kan 3 meter bedragen wanneer een van deze voertuigen beladen is met ondeelbare stukken van grote lengte.",
+      "explanation_ru": "Статья 46.2.3 (Брюссельский столичный регион и Валлонский регион) предусматривает исключение: выступ может достигать 3 метров, когда транспортное средство загружено неделимыми предметами большой длины."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une moto avec side-car. La largeur de votre moto non chargée est de 1,10 mètre. Vous transportez une valise qui dépasse de 0,25 mètre la largeur de la moto non chargée. Est-ce conforme à l'article 46.1.6° ?",
+      "text_nl": "U bestuurt een motorfiets met zijspan. De breedte van uw ongelaade motorfiets is 1,10 meter. U vervoert een koffer die 0,25 meter uitsteekt ten opzichte van de breedte van de ongelaade motorfiets. Voldoet dit aan artikel 46.1.6°?",
+      "text_ru": "Вы управляете мотоциклом с коляской. Ширина вашего незагруженного мотоцикла составляет 1,10 метра. Вы перевозите чемодан, который выступает на 0,25 метра по ширине незагруженного мотоцикла. Соответствует ли это статье 46.1.6°?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car le chargement ne doit pas dépasser la largeur du véhicule non chargé.",
+          "text_nl": "Nee, want de lading mag de breedte van het ongelaade voertuig niet overschrijden.",
+          "text_ru": "Нет, потому что груз не должен превышать ширину незагруженного транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car la largeur totale du chargement est de 1,35 mètre, ce qui est inférieur à 2,50 mètres.",
+          "text_nl": "Ja, want de totale breedte van de lading is 1,35 meter, wat minder is dan 2,50 meter.",
+          "text_ru": "Да, потому что общая ширина груза составляет 1,35 метра, что меньше 2,50 метра.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car la largeur du chargement ne peut excéder de plus de 0,30 mètre la largeur du véhicule non chargé, et 0,25 mètre est inférieur à 0,30 mètre.",
+          "text_nl": "Ja, want de breedte van de lading mag ten hoogste 0,30 meter meer bedragen dan de breedte van het ongelaade voertuig, en 0,25 meter is minder dan 0,30 meter.",
+          "text_ru": "Да, потому что ширина груза не должна превышать ширину незагруженного транспортного средства более чем на 0,30 метра, а 0,25 метра меньше 0,30 метра.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 46.1.6° stipule que pour une moto avec side-car, la largeur du chargement ne peut excéder de plus de 0,30 mètre la largeur du véhicule non chargé. Votre dépassement de 0,25 mètre respecte cette règle.",
+      "explanation_nl": "Artikel 46.1.6° stelt dat voor een motorfiets met zijspan de breedte van de lading ten hoogste 0,30 meter meer mag bedragen dan de breedte van het ongelaade voertuig. Uw uitsteeksel van 0,25 meter respecteert deze regel.",
+      "explanation_ru": "Статья 46.1.6° гласит, что для мотоцикла с коляской ширина груза не должна превышать ширину незагруженного транспортного средства более чем на 0,30 метра. Ваш выступ в 0,25 метра соответствует этому правилу."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "d24b46e5dcaf",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:36:31Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

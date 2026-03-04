@@ -36,7 +36,178 @@
   "anchor_id_fr": "pgpoqeioed",
   "anchor_id_nl": "erqrgxg892",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 43.1 du Code de la route belge, qu'est-il interdit aux conducteurs de bicyclettes et de cyclomoteurs de faire en matière de conduite ?",
+      "text_nl": "Volgens artikel 43.1 van het Belgisch Verkeersreglement, wat is fietsers en bromfietsers verboden te doen met betrekking tot het rijden?",
+      "text_ru": "Согласно статье 43.1 Бельгийских правил дорожного движения, что запрещено велосипедистам и мопедистам делать во время движения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Circuler sans avoir les mains sur le guidon, se faire remorquer ou tenir un animal en laisse.",
+          "text_nl": "Rijden zonder de handen aan het stuur, zich laten voorttrekken of een dier aan de leiband houden.",
+          "text_ru": "Двигаться без рук на руле, буксироваться или держать животное на поводке.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Circuler sur la chaussée à deux de front en agglomération.",
+          "text_nl": "In de bebouwde kom naast elkaar rijden.",
+          "text_ru": "Двигаться по проезжей части по двое в населенном пункте.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Utiliser une piste cyclable sans se gêner mutuellement.",
+          "text_nl": "Gebruik maken van een fietspad zonder elkaar te hinderen.",
+          "text_ru": "Пользоваться велосипедной дорожкой, не мешая друг другу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43.1 énumère explicitement plusieurs interdictions pour les conducteurs de bicyclettes et de cyclomoteurs, dont rouler sans tenir le guidon, se faire remorquer, et tenir un animal en laisse.",
+      "explanation_nl": "Artikel 43.1 somt expliciet verschillende verboden op voor fietsers en bromfietsers, waaronder rijden zonder het stuur vast te houden, zich laten voorttrekken en een dier aan de leiband houden.",
+      "explanation_ru": "Статья 43.1 явно перечисляет несколько запретов для велосипедистов и мопедистов, в том числе движение без рук на руле, буксировку и удержание животного на поводке."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que stipule l'article 43.2 concernant le comportement des cyclistes et conducteurs de speed pedelecs sur la chaussée en dehors de l'agglomération lorsqu'un véhicule approche de l'arrière ?",
+      "text_nl": "Wat stelt artikel 43.2 betreffende het gedrag van fietsers en bestuurders van speed pedelecs op de rijbaan buiten de bebouwde kom wanneer een voertuig van achteren nadert?",
+      "text_ru": "Что гласит статья 43.2 относительно поведения велосипедистов и водителей скоростных мопедов на проезжей части вне населенного пункта, когда приближается транспортное средство сзади?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils peuvent continuer à rouler à deux de front.",
+          "text_nl": "Ze mogen naast elkaar blijven rijden.",
+          "text_ru": "Они могут продолжать движение по двое.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent se mettre en file.",
+          "text_nl": "Ze moeten achter elkaar rijden.",
+          "text_ru": "Они должны выстроиться в затылок.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent céder le passage au véhicule venant de l'arrière.",
+          "text_nl": "Ze moeten het verkeer van achteren voor laten gaan.",
+          "text_ru": "Они должны уступить дорогу приближающемуся сзади транспортному средству.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43.2 précise qu'en dehors de l'agglomération, les cyclistes et conducteurs de speed pedelecs circulant sur la chaussée doivent se mettre en file à l'approche d'un véhicule venant de l'arrière.",
+      "explanation_nl": "Artikel 43.2 specificeert dat buiten de bebouwde kom fietsers en bestuurders van speed pedelecs die de rijbaan volgen, achter elkaar moeten rijden bij het naderen van een achteropkomend voertuig.",
+      "explanation_ru": "Статья 43.2 уточняет, что вне населенного пункта велосипедисты и водители скоростных мопедов, движущиеся по проезжей части, должны выстроиться в затылок при приближении транспортного средства сзади."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes cycliste et vous circulez sur la chaussée en agglomération. Vous êtes autorisé à rouler à deux de front, sauf dans quelle situation ?",
+      "text_nl": "U bent fietser en rijdt in de bebouwde kom op de rijbaan. U mag naast elkaar rijden, behalve in welke situatie?",
+      "text_ru": "Вы велосипедист и едете по проезжей части в населенном пункте. Вам разрешено ехать по двое, кроме какой ситуации?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque la piste cyclable est trop étroite.",
+          "text_nl": "Wanneer het fietspad te smal is.",
+          "text_ru": "Когда велосипедная дорожка слишком узкая.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque le croisement n'est pas possible.",
+          "text_nl": "Wanneer het kruisen niet mogelijk is.",
+          "text_ru": "Когда обгон невозможен.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsque vous arrivez à un feu rouge.",
+          "text_nl": "Wanneer u een rood licht nadert.",
+          "text_ru": "Когда вы приближаетесь к красному светофору.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43.2 autorise les cyclistes à rouler à deux de front sur la chaussée en agglomération, sauf lorsque le croisement (le dépassement par un autre véhicule) n'est pas possible, ce qui implique un risque pour la sécurité.",
+      "explanation_nl": "Artikel 43.2 staat fietsers toe om in de bebouwde kom naast elkaar op de rijbaan te rijden, behalve wanneer het kruisen (het inhalen door een ander voertuig) niet mogelijk is, wat een risico voor de veiligheid met zich meebrengt.",
+      "explanation_ru": "Статья 43.2 разрешает велосипедистам двигаться по двое по проезжей части в населенном пункте, за исключением случаев, когда обгон (опережение другим транспортным средством) невозможен, что создает риск для безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un cyclomoteur et vous arrivez à une intersection où il y a une piste cyclable et un passage pour cyclistes et conducteurs de cyclomoteurs à deux roues. Lequel devez-vous emprunter ?",
+      "text_nl": "U bestuurt een bromfiets en komt aan bij een kruispunt waar een fietspad en een oversteekplaats voor fietsers en bestuurders van tweewielige bromfietsen is. Welke moet u gebruiken?",
+      "text_ru": "Вы управляете мопедом и приближаетесь к перекрестку, где есть велосипедная дорожка и переход для велосипедистов и водителей двухколесных мопедов. Какой из них вы должны использовать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La piste cyclable, car elle est prévue pour les cyclistes et cyclomoteurs.",
+          "text_nl": "Het fietspad, omdat het bedoeld is voor fietsers en bromfietsers.",
+          "text_ru": "Велосипедную дорожку, так как она предназначена для велосипедистов и мопедистов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La chaussée, en respectant les autres véhicules.",
+          "text_nl": "De rijbaan, met respect voor de andere voertuigen.",
+          "text_ru": "Проезжую часть, уважая другие транспортные средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le passage pour cyclistes et conducteurs de cyclomoteurs à deux roues.",
+          "text_nl": "De oversteekplaats voor fietsers en bestuurders van tweewielige bromfietsen.",
+          "text_ru": "Переход для велосипедистов и водителей двухколесных мопедов.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 43.3 stipule que lorsqu'un passage pour cyclistes et conducteurs de cyclomoteurs à deux roues existe, les cyclistes et conducteurs de cyclomoteurs à deux roues se trouvant sur la piste cyclable sont tenus de l'emprunter.",
+      "explanation_nl": "Artikel 43.3 stelt dat wanneer er een oversteekplaats voor fietsers en bestuurders van tweewielige bromfietsen is, de fietsers en bestuurders van tweewielige bromfietsen die zich op het fietspad bevinden deze moeten gebruiken.",
+      "explanation_ru": "Статья 43.3 гласит, что при наличии перехода для велосипедистов и водителей двухколесных мопедов, велосипедисты и водители двухколесных мопедов, находящиеся на велосипедной дорожке, обязаны им воспользоваться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez à vélo avec une remorque attachée. Quelle règle de circulation devez-vous respecter selon l'article 43.2 ?",
+      "text_nl": "U fietst met een aanhangwagen eraan vastgemaakt. Welke verkeersregel moet u volgen volgens artikel 43.2?",
+      "text_ru": "Вы едете на велосипеде с прикрепленным прицепом. Какое правило дорожного движения вы должны соблюдать согласно статье 43.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je peux rouler à deux de front si la route est large.",
+          "text_nl": "Ik mag naast elkaar rijden als de weg breed is.",
+          "text_ru": "Я могу ехать по двое, если дорога широкая.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je dois rouler en file indienne.",
+          "text_nl": "Ik moet achter elkaar rijden.",
+          "text_ru": "Я должен ехать в затылок.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je dois utiliser la piste cyclable.",
+          "text_nl": "Ik moet het fietspad gebruiken.",
+          "text_ru": "Я должен использовать велосипедную дорожку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43.2 stipule clairement que lorsqu'une remorque est attelée à une bicyclette, les cyclistes doivent rouler en file (l'un derrière l'autre).",
+      "explanation_nl": "Artikel 43.2 stelt duidelijk dat wanneer een aanhangwagen aan een fiets is gekoppeld, fietsers achter elkaar moeten rijden.",
+      "explanation_ru": "Статья 43.2 четко гласит, что когда к велосипеду прицеплен прицеп, велосипедисты должны двигаться в затылок (друг за другом)."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "f05d5390e27a",
@@ -46,6 +217,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:56:06Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

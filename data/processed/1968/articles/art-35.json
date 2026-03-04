@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "35",
+  "slug": "art-35",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "V"
+  },
+  "title_fr": "Article 35",
+  "title_nl": "Artikel 35",
+  "title_ru": "Статья 35",
+  "content_md_fr": "Est puni d'une amende de **200 à 2 000 euros** et d'une déchéance du droit de conduire un véhicule à moteur d'une durée d'un mois au moins et cinq ans au plus ou à titre définitif quiconque dans un lieu public, conduit un véhicule ou une monture ou accompagne un conducteur en vue de l'apprentissage, alors qu'il se trouve en état d'ivresse ou dans un état analogue résultant notamment de l'emploi de drogues ou de médicaments.",
+  "content_md_nl": "Met geldboete van **200 euro tot 2 000 euro** en met het verval van het recht tot besturen van een motorvoertuig voor een duur van ten minste een maand en ten hoogste vijf jaar of voorgoed, wordt gestraft hij die op een openbare plaats een voertuig of een rijdier bestuurt of een bestuurder begeleidt met het oog op de scholing, terwijl hij in staat van dronkenschap verkeert of in een soortgelijke staat met name ten gevolge van het gebruik van drugs of van geneesmiddelen.",
+  "content_md_ru": "Лицо, которое в общественном месте управляет транспортным средством или монтировкой или сопровождает водителя в целях обучения, находясь в состоянии опьянения или в подобном состоянии, вызванном, в частности, употреблением наркотиков или лекарств, наказывается штрафом в размере от **200 до 2 000 евро** и лишением права управления транспортным средством на срок не менее одного месяца и не более пяти лет или навсегда.",
+  "content_html_fr": "<p>Est puni d'une amende de <strong>200 à 2 000 euros</strong> et d'une déchéance du droit de conduire un véhicule à moteur d'une durée d'un mois au moins et cinq ans au plus ou à titre définitif quiconque dans un lieu public, conduit un véhicule ou une monture ou accompagne un conducteur en vue de l'apprentissage, alors qu'il se trouve en état d'ivresse ou dans un état analogue résultant notamment de l'emploi de drogues ou de médicaments.</p>",
+  "content_html_nl": "<p>Met geldboete van <strong>200 euro tot 2 000 euro</strong> en met het verval van het recht tot besturen van een motorvoertuig voor een duur van ten minste een maand en ten hoogste vijf jaar of voorgoed, wordt gestraft hij die op een openbare plaats een voertuig of een rijdier bestuurt of een bestuurder begeleidt met het oog op de scholing, terwijl hij in staat van dronkenschap verkeert of in een soortgelijke staat met name ten gevolge van het gebruik van drugs of van geneesmiddelen.</p>",
+  "full_text_fr": "Est puni d'une amende de 200 à 2 000 euros et d'une déchéance du droit de conduire un véhicule à moteur d'une durée d'un mois au moins et cinq ans au plus ou à titre définitif quiconque dans un lieu public, conduit un véhicule ou une monture ou accompagne un conducteur en vue de l'apprentissage, alors qu'il se trouve en état d'ivresse ou dans un état analogue résultant notamment de l'emploi de drogues ou de médicaments.",
+  "full_text_nl": "Met geldboete van 200 euro tot 2 000 euro en met het verval van het recht tot besturen van een motorvoertuig voor een duur van ten minste een maand en ten hoogste vijf jaar of voorgoed, wordt gestraft hij die op een openbare plaats een voertuig of een rijdier bestuurt of een bestuurder begeleidt met het oog op de scholing, terwijl hij in staat van dronkenschap verkeert of in een soortgelijke staat met name ten gevolge van het gebruik van drugs of van geneesmiddelen.",
+  "full_text_ru": "Лицо, которое в общественном месте управляет транспортным средством или монтировкой или сопровождает водителя в целях обучения, находясь в состоянии опьянения или в подобном состоянии, вызванном, в частности, употреблением наркотиков или лекарств, наказывается штрафом в размере от 200 до 2 000 евро и лишением права управления транспортным средством на срок не менее одного месяца и не более пяти лет или навсегда.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "lhckqh8icy",
+  "anchor_id_nl": "evyogfl3oa",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "45d5522a1354",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

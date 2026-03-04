@@ -47,14 +47,11 @@ except ImportError:
 
 from scripts.utils.deepl_client import DeepLClient  # noqa: E402
 from scripts.utils.json_helpers import load_json, save_json  # noqa: E402
+from scripts.utils.laws_registry import get_law, law_ids  # noqa: E402
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-LAW_YEAR = "1975"
-LAWS_DIR = PROJECT_ROOT / "data" / "laws" / LAW_YEAR
-
-FR_FILE = LAWS_DIR / "fr_reglementation.json"
-RU_FILE = LAWS_DIR / "ru_reglementation.json"
+_DEFAULT_LAW = "1975"
 
 SOURCE_LANG = "FR"
 TARGET_LANG = "RU"
@@ -151,6 +148,10 @@ def estimate_chars(articles: list[dict]) -> int:
 def main():
     parser = argparse.ArgumentParser(description="PRAVA — Translate FR → RU via DeepL")
     parser.add_argument(
+        "--law", default=_DEFAULT_LAW, metavar="LAW_ID",
+        help=f"Law registry ID to translate (default: {_DEFAULT_LAW})"
+    )
+    parser.add_argument(
         "--quota-check", action="store_true",
         help="Only show current DeepL quota, don't translate"
     )
@@ -170,6 +171,20 @@ def main():
 
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
+
+    # ── Validate law ID ───────────────────────────────────────────────────
+    try:
+        law_meta = get_law(args.law)
+    except KeyError as e:
+        logger.error(str(e))
+        sys.exit(1)
+
+    law_id = args.law
+    laws_dir = PROJECT_ROOT / "data" / "laws" / law_id
+    FR_FILE = laws_dir / "fr_reglementation.json"
+    RU_FILE = laws_dir / "ru_reglementation.json"
+
+    logger.info(f"Law: {law_id} — {law_meta['title_fr']}")
 
     # ── Quota check (only flag that needs API before loading data) ───────────
     if args.quota_check:
@@ -250,7 +265,7 @@ def main():
             "metadata": {
                 "lang": "ru",
                 "source_lang": "fr",
-                "law_year": LAW_YEAR,
+                "law_id": law_id,
                 "title": client.translate(
                     fr_data["metadata"].get("title", ""), SOURCE_LANG, TARGET_LANG,
                     check_quota_before=False,

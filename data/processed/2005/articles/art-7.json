@@ -1,0 +1,41 @@
+{
+  "law_id": "2005",
+  "article_number": "7",
+  "slug": "art-7",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 7",
+  "title_nl": "Article 7",
+  "title_ru": "Статья 7",
+  "content_md_fr": "**Art. 7.** Cet arrêté entre en vigueur le 31 mars 2006.",
+  "content_md_nl": "**Art. 7.** Dit besluit treedt in werking op 31 maart 2006.",
+  "content_md_ru": "**Статья 7 Настоящий декрет вступает в силу 31 марта 2006 года.",
+  "content_html_fr": "<p id=\"gx4bsdl7uh\"><strong class=\"text-bold\">Art. 7.</strong> Cet arrêté entre en vigueur le 31 mars 2006.</p>",
+  "content_html_nl": "<p id=\"sv2ulzyjet\"><strong class=\"text-bold\">Art. 7.</strong> Dit besluit treedt in werking op 31 maart 2006.</p>",
+  "full_text_fr": "Art. 7. Cet arrêté entre en vigueur le 31 mars 2006.",
+  "full_text_nl": "Art. 7. Dit besluit treedt in werking op 31 maart 2006.",
+  "full_text_ru": "Статья 7 Настоящий декрет вступает в силу 31 марта 2006 года.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "gx4bsdl7uh",
+  "anchor_id_nl": "sv2ulzyjet",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:10:54Z",
+    "content_hash": "9bc0a8d3b6ba",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -26,7 +26,156 @@
   "anchor_id_fr": "xj2itjih34",
   "anchor_id_nl": "xryqlu2z33",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 34, quel est le but principal du réglage des rétroviseurs extérieurs ?",
+      "text_nl": "Volgens artikel 34, wat is het hoofddoel van het afstellen van de buitenspiegels?",
+      "text_ru": "Согласно статье 34, какова основная цель регулировки наружных зеркал заднего вида?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A simple illustration of a car interior showing a driver adjusting a rearview mirror."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Surveiller uniquement la circulation vers l'arrière.",
+          "text_nl": "Alleen het achterwaartse verkeer in de gaten houden.",
+          "text_ru": "Наблюдать только за движением сзади.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Surveiller la circulation vers l'arrière et sur la gauche.",
+          "text_nl": "Het verkeer achter en links in de gaten houden.",
+          "text_ru": "Наблюдать за движением сзади и слева.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement apercevoir les véhicules qui dépassent le conducteur.",
+          "text_nl": "Alleen voertuigen opmerken die de bestuurder inhalen.",
+          "text_ru": "Замечать только транспортные средства, обгоняющие водителя.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 34 stipule que le conducteur doit régler ses rétroviseurs pour pouvoir surveiller la circulation vers l'arrière ET sur la gauche.",
+      "explanation_nl": "Artikel 34 stelt dat de bestuurder zijn spiegels zo moet afstellen dat hij het verkeer achter en links kan gadeslaan.",
+      "explanation_ru": "Статья 34 гласит, что водитель должен отрегулировать свои зеркала так, чтобы он мог наблюдать за движением сзади И слева."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Pourquoi est-il spécifiquement mentionné dans l'article 34 d'apercevoir un véhicule ayant commencé un dépassement par la gauche ?",
+      "text_nl": "Waarom wordt in artikel 34 specifiek vermeld om een voertuig op te merken dat begonnen is met links in te halen?",
+      "text_ru": "Почему в статье 34 конкретно упоминается необходимость замечать транспортное средство, начавшее обгон слева?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A diagram illustrating the blind spot on the left side of a car during a lane change."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour vérifier si le véhicule a activé son clignotant.",
+          "text_nl": "Om te controleren of het voertuig zijn richtingaanwijzer heeft gebruikt.",
+          "text_ru": "Чтобы проверить, включил ли транспортное средство указатель поворота.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour anticiper un danger potentiel lors d'un changement de voie ou d'une manœuvre.",
+          "text_nl": "Om een potentieel gevaar te anticiperen bij een rijstrookwissel of manoeuvre.",
+          "text_ru": "Чтобы предвидеть потенциальную опасность при смене полосы движения или маневре.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour s'assurer que le dépassement se fait dans le respect des limitations de vitesse.",
+          "text_nl": "Om ervoor te zorgen dat de inhaalmanoeuvre binnen de snelheidslimieten blijft.",
+          "text_ru": "Чтобы убедиться, что обгон осуществляется в пределах скоростных ограничений.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La mention spécifique vise à souligner l'importance de vérifier le 'point mort' gauche, où un véhicule peut se trouver lorsqu'il initie un dépassement, afin d'éviter des collisions lors de changements de direction ou de voie.",
+      "explanation_nl": "De specifieke vermelding is bedoeld om het belang te benadrukken van het controleren van de linker 'dode hoek', waar een voertuig zich kan bevinden wanneer het een inhaalmanoeuvre begint, om botsingen bij het veranderen van richting of rijstrook te voorkomen.",
+      "explanation_ru": "Конкретное упоминание направлено на подчеркивание важности проверки левого 'слепого пятна', где может находиться транспортное средство, начинающее обгон, во избежание столкновений при смене направления или полосы движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur l'autoroute et vous souhaitez changer de la bande de droite vers la bande du milieu. Vous regardez dans vos rétroviseurs. Qu'est-ce que l'article 34 vous impose de vérifier spécifiquement en plus de la bande de droite ?",
+      "text_nl": "U rijdt op de autosnelweg en u wilt van de rechterbaan naar de middelste baan wisselen. U kijkt in uw spiegels. Wat verplicht artikel 34 u specifiek te controleren naast de rechterbaan?",
+      "text_ru": "Вы едете по автомагистрали и хотите перестроиться с правой полосы на среднюю. Вы смотрите в зеркала. Что, согласно статье 34, вы обязаны проверить, помимо правой полосы?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A view from inside a car on a highway, looking at the side mirror and the lane to the left."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le trafic sur la bande de gauche et la bande juste derrière vous.",
+          "text_nl": "Het verkeer op de linkerbaan en de baan vlak achter u.",
+          "text_ru": "Движение на левой полосе и полосе прямо позади вас.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le trafic sur la bande de gauche, car un véhicule pourrait avoir commencé à vous dépasser par la gauche.",
+          "text_nl": "Het verkeer op de linkerbaan, omdat een voertuig u links zou kunnen zijn begonnen in te halen.",
+          "text_ru": "Движение на левой полосе, так как транспортное средство могло начать обгон вас слева.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement le rétroviseur intérieur pour voir ce qui se passe derrière.",
+          "text_nl": "Alleen de binnenspiegel om te zien wat er achter gebeurt.",
+          "text_ru": "Только внутреннее зеркало заднего вида, чтобы видеть, что происходит сзади.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 34 stipule de surveiller la circulation vers l'arrière ET sur la gauche, et de spécifiquement apercevoir un véhicule ayant commencé un dépassement par la gauche. Cela est crucial pour un changement de voie vers la gauche.",
+      "explanation_nl": "Artikel 34 stelt dat u het verkeer achter en links moet observeren, en specifiek een voertuig moet opmerken dat begonnen is u links in te halen. Dit is cruciaal voor een rijstrookwissel naar links.",
+      "explanation_ru": "Статья 34 предписывает наблюдать за движением сзади И слева, и особенно замечать транспортное средство, начавшее обгон слева. Это крайне важно для смены полосы движения влево."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes sur une route à deux voies dans le même sens. Vous vous apprêtez à quitter l'autoroute par la bretelle de sortie située à votre droite. Quel usage des rétroviseurs est primordial selon l'article 34, même si la sortie est à droite ?",
+      "text_nl": "U rijdt op een weg met twee rijstroken in dezelfde richting. U staat op het punt de snelweg te verlaten via de afrit aan uw rechterhand. Welk gebruik van de spiegels is van cruciaal belang volgens artikel 34, zelfs als de afrit rechts is?",
+      "text_ru": "Вы находитесь на двухполосной дороге в одном направлении. Вы собираетесь съехать с автомагистрали по съезду справа. Какое использование зеркал имеет первостепенное значение согласно статье 34, даже если съезд находится справа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A satellite view of a highway with an upcoming exit ramp on the right side."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Utiliser uniquement le rétroviseur droit pour voir la voie de sortie.",
+          "text_nl": "Alleen de rechterspiegel gebruiken om de uitvoerstrook te zien.",
+          "text_ru": "Использовать только правое зеркало, чтобы видеть съезд.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vérifier le rétroviseur gauche pour s'assurer qu'aucun véhicule n'a commencé à vous dépasser par la gauche, ce qui pourrait être dangereusement interrompu par votre sortie.",
+          "text_nl": "De linkerspiegel controleren om er zeker van te zijn dat geen enkel voertuig u links is begonnen in te halen, wat gevaarlijk zou kunnen worden onderbroken door uw afrit.",
+          "text_ru": "Проверить левое зеркало, чтобы убедиться, что ни одно транспортное средство не начало обгон вас слева, что могло бы быть опасно прервано вашим съездом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Utiliser uniquement le rétroviseur intérieur pour voir les véhicules venant de loin.",
+          "text_nl": "Alleen de binnenspiegel gebruiken om voertuigen van ver te zien komen.",
+          "text_ru": "Использовать только внутреннее зеркало, чтобы видеть приближающиеся издалека транспортные средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Bien que la sortie soit à droite, l'article 34 insiste sur la surveillance de la gauche. Un véhicule qui vous dépasse par la gauche pourrait se retrouver dans votre 'angle mort' lorsque vous vous dirigez vers la sortie, créant une situation dangereuse.",
+      "explanation_nl": "Hoewel de afrit rechts is, benadrukt artikel 34 het observeren van links. Een voertuig dat u links inhaalt, kan zich in uw 'dode hoek' bevinden wanneer u naar de afrit stuurt, wat een gevaarlijke situatie creëert.",
+      "explanation_ru": "Хотя съезд находится справа, статья 34 настаивает на наблюдении за левой стороной. Транспортное средство, обгоняющее вас слева, может оказаться в вашей 'слепой зоне', когда вы направляетесь к съезду, создавая опасную ситуацию."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "e728ae546bdc",
@@ -36,6 +185,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:51:42Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 4
   }
 }

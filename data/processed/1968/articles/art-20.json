@@ -1,0 +1,56 @@
+{
+  "law_id": "1968",
+  "article_number": "20",
+  "slug": "art-20",
+  "structure": {
+    "titre": "II",
+    "chapitre": "III"
+  },
+  "title_fr": "Article 20",
+  "title_nl": "Artikel 20",
+  "title_ru": "Статья 20",
+  "content_md_fr": "> ℹ️ Abrogé en ce qui concerne la Région de Bruxelles-Capitale et la Région wallonne.\n\nLes dispositions du présent chapitre ne s'appliquent pas lorsque la signalisation incombe à l'État.",
+  "content_md_nl": "> ℹ️ Opgeheven voor wat betreft het Brussels Hoofdstedelijk Gewest en het Waals Gewest.\n\nDe bepalingen van dit hoofdstuk vinden geen toepassing wanneer de verkeerstekens door de Staat moeten aangebracht worden.",
+  "content_md_ru": "> ℹ️ Отменено для Брюссельского столичного региона и Валлонского региона.\n\nПоложения данной главы не применяются в тех случаях, когда за вывески отвечает государство.",
+  "content_html_fr": "<div class=\"notification notification-primary\">Abrogé en ce qui concerne la Région de Bruxelles-Capitale et la Région wallonne.</div><p>Les dispositions du présent chapitre ne s'appliquent pas lorsque la signalisation incombe à l'État.</p>",
+  "content_html_nl": "<div class=\"notification notification-primary\">Opgeheven voor wat betreft het Brussels Hoofdstedelijk Gewest en het Waals Gewest.</div><p>De bepalingen van dit hoofdstuk vinden geen toepassing wanneer de verkeerstekens door de Staat moeten aangebracht worden.</p>",
+  "full_text_fr": "️ Abrogé en ce qui concerne la Région de Bruxelles-Capitale et la Région wallonne.\n\nLes dispositions du présent chapitre ne s'appliquent pas lorsque la signalisation incombe à l'État.",
+  "full_text_nl": "️ Opgeheven voor wat betreft het Brussels Hoofdstedelijk Gewest en het Waals Gewest.\n\nDe bepalingen van dit hoofdstuk vinden geen toepassing wanneer de verkeerstekens door de Staat moeten aangebracht worden.",
+  "full_text_ru": "️ Отменено для Брюссельского столичного региона и Валлонского региона.\n\nПоложения данной главы не применяются в тех случаях, когда за вывески отвечает государство.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "Abrogé en ce qui concerne la Région de Bruxelles-Capitale et la Région wallonne."
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Opgeheven voor wat betreft het Brussels Hoofdstedelijk Gewest en het Waals Gewest."
+    }
+  ],
+  "notifications_ru": [
+    {
+      "type": "primary",
+      "text": "Отменен в отношении Брюссельского столичного региона и Валлонского региона."
+    }
+  ],
+  "cross_refs": [],
+  "anchor_id_fr": "zqiytuhequ",
+  "anchor_id_nl": "uehrqxekx3",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "5e73a8bc7891",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

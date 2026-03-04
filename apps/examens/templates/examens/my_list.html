@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% block title %}{% if study_list %}{{ study_list.icon }} {{ study_list.name }}{% else %}Mes révisions{% endif %} — {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-10">
+
+    {# Header #}
+    <div class="flex items-center gap-3 mb-8">
+        <a href="{% url 'examens:categories' %}" class="text-gray-400 hover:text-gray-600 transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5"/>
+            </svg>
+        </a>
+        <h1 class="text-2xl font-bold text-gray-900">
+            {% if study_list %}{{ study_list.icon }} {{ study_list.name }}{% else %}Mes révisions{% endif %}
+        </h1>
+    </div>
+
+    {# List tabs (if multiple lists) #}
+    {% if all_lists|length > 1 %}
+    <div class="flex gap-2 mb-6 overflow-x-auto pb-1">
+        {% for lst in all_lists %}
+        <a href="{{ lst.get_absolute_url }}"
+           class="shrink-0 px-4 py-2 rounded-full text-sm font-medium transition
+                  {% if lst.slug == study_list.slug %}bg-blue-600 text-white{% else %}bg-gray-100 text-gray-700 hover:bg-gray-200{% endif %}">
+            {{ lst.icon }} {{ lst.name }}
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if not study_list %}
+    {# No lists configured by admin #}
+    <div class="text-center py-20 text-gray-400">
+        <div class="text-5xl mb-4">📋</div>
+        <p class="text-lg font-medium">Aucune liste disponible pour le moment.</p>
+    </div>
+
+    {% elif saved_items %}
+    {# Actions bar #}
+    <div class="flex items-center justify-between mb-5">
+        <span class="text-sm text-gray-500">{{ saved_items|length }} question{{ saved_items|length|pluralize:"s" }} sauvegardée{{ saved_items|length|pluralize:"s" }}</span>
+        <a href="{% url 'examens:practice_saved_slug' study_list.slug %}"
+           class="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-xl hover:bg-blue-700 transition">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Pratiquer ce test
+        </a>
+    </div>
+
+    {# CSRF for remove buttons #}
+    <input type="hidden" id="csrfToken" value="{{ csrf_token }}">
+
+    <div class="space-y-3" id="saved-list">
+        {% for item in saved_items %}
+        <div class="bg-white rounded-lg border border-gray-100 shadow-sm p-4"
+             id="saved-item-{{ item.question_id }}"
+             x-data="{ removing: false, visible: true }"
+             x-show="visible"
+             x-transition:leave="transition ease-in duration-200"
+             x-transition:leave-start="opacity-100 scale-100"
+             x-transition:leave-end="opacity-0 scale-95">
+            <div class="flex items-start gap-3">
+                <div class="flex-1 min-w-0">
+                    <p class="font-medium text-gray-900 leading-snug">{{ item.question.text }}</p>
+                    {% if item.question.category %}
+                    <span class="inline-block mt-1 text-xs text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full">
+                        {{ item.question.category.name }}
+                    </span>
+                    {% endif %}
+                    {% if item.question.code_article %}
+                    <a href="{{ item.question.code_article.get_absolute_url }}"
+                       class="inline-block ml-1 mt-1 text-xs text-blue-500 hover:underline">
+                        📖 Art. {{ item.question.code_article.article_number }}
+                    </a>
+                    {% endif %}
+                    <p class="text-xs text-gray-300 mt-1">Ajouté {{ item.saved_at|date:"d/m/Y" }}</p>
+                </div>
+
+                {# Remove button #}
+                <button @click="
+                    if (removing) return;
+                    removing = true;
+                    fetch('{% url 'examens:api_toggle_saved' %}', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json', 'X-CSRFToken': document.getElementById('csrfToken').value},
+                        body: JSON.stringify({question_id: {{ item.question_id }}, list_slug: '{{ study_list.slug }}'}),
+                    })
+                    .then(r => r.json())
+                    .then(d => { if (!d.saved) { visible = false; } else { removing = false; } })
+                    .catch(() => { removing = false; });
+                "
+                :disabled="removing"
+                title="Retirer de la liste"
+                class="shrink-0 p-2 text-gray-300 hover:text-red-400 hover:bg-red-50 rounded-lg transition focus:outline-none">
+                    <svg x-show="!removing" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
+                    </svg>
+                    <svg x-show="removing" class="w-5 h-5 animate-spin text-gray-300" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% else %}
+    {# Empty state #}
+    <div class="text-center py-20 text-gray-400">
+        <div class="text-5xl mb-4">{{ study_list.icon }}</div>
+        <p class="text-lg font-medium text-gray-500 mb-2">Votre liste est vide</p>
+        <p class="text-sm mb-6">Après un test, cliquez sur 🔖 sur les questions difficiles pour les ajouter ici.</p>
+        <a href="{% url 'examens:practice' %}"
+           class="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition">
+            Commencer un entraînement
+        </a>
+    </div>
+    {% endif %}
+
+</div>
+{% endblock %}

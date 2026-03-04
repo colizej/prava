@@ -54,7 +54,178 @@
   "anchor_id_fr": "yxyiui6ybu",
   "anchor_id_nl": "sdbkxgkv0m",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 42.1, quel est le premier endroit que les piétons doivent utiliser, s'il existe et est praticable ?",
+      "text_nl": "Volgens artikel 42.1, wat is de eerste plaats die voetgangers moeten gebruiken, indien deze bestaat en begaanbaar is?",
+      "text_ru": "Согласно статье 42.1, какое первое место должны использовать пешеходы, если оно существует и проходимо?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La chaussée",
+          "text_nl": "De rijbaan",
+          "text_ru": "Проезжая часть",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'accotement",
+          "text_nl": "De berm",
+          "text_ru": "Обочина",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le trottoir ou la partie de la voie publique signalée par le signal D9, D10 ou D11",
+          "text_nl": "Het trottoir of het deel van de openbare weg gesignaleerd door het verkeersbord D9, D10 of D11",
+          "text_ru": "Тротуар или часть дороги, обозначенная знаком D9, D10 или D11",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 42.1 stipule que les piétons doivent utiliser, dans l'ordre et dans la mesure où elles existent, le trottoir ou la partie de la voie publique signalée par les signaux D9, D10 ou D11 comme première option.",
+      "explanation_nl": "Artikel 42.1 bepaalt dat voetgangers in volgorde en voor zover deze bestaan, het trottoir of het deel van de openbare weg dat is gesignaleerd met de verkeersborden D9, D10 of D11 als eerste optie moeten gebruiken.",
+      "explanation_ru": "Статья 42.1 гласит, что пешеходы должны использовать в первую очередь, в порядке и по мере их наличия, тротуар или часть дороги, обозначенную знаками D9, D10 или D11."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que doivent faire les piétons lorsqu'ils empruntent la piste cyclable, selon l'article 42.1 ?",
+      "text_nl": "Wat moeten voetgangers doen wanneer ze het fietspad gebruiken, volgens artikel 42.1?",
+      "text_ru": "Что должны делать пешеходы, когда они используют велосипедную дорожку, согласно статье 42.1?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent céder le passage aux cyclistes uniquement.",
+          "text_nl": "Ze moeten alleen voorrang verlenen aan fietsers.",
+          "text_ru": "Они должны уступать дорогу только велосипедистам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent circuler le plus à droite possible.",
+          "text_nl": "Ze moeten zo ver mogelijk naar rechts rijden.",
+          "text_ru": "Они должны двигаться как можно правее.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent céder le passage aux autres usagers qui s'y trouvent.",
+          "text_nl": "Ze moeten doorgang verlenen aan andere weggebruikers die zich daar bevinden.",
+          "text_ru": "Они должны уступать дорогу другим участникам дорожного движения, находящимся там.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 42.1 précise que lorsque les piétons empruntent la piste cyclable, ils doivent céder le passage aux autres usagers qui s'y trouvent.",
+      "explanation_nl": "Artikel 42.1 specificeert dat wanneer voetgangers het fietspad gebruiken, zij doorgang moeten verlenen aan andere weggebruikers die zich daar bevinden.",
+      "explanation_ru": "Статья 42.1 уточняет, что когда пешеходы используют велосипедную дорожку, они должны уступать дорогу другим участникам дорожного движения, находящимся там."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un piéton et vous devez traverser une route. Il n'y a pas de passage pour piétons à moins de 50 mètres. Où devez-vous marcher sur la chaussée ?",
+      "text_nl": "U bent een voetganger en u moet een weg oversteken. Er is geen zebrapad binnen 50 meter. Waar moet u lopen op de rijbaan?",
+      "text_ru": "Вы пешеход и вам нужно перейти дорогу. Зебры нет в пределах 50 метров. Где вам следует идти по проезжей части?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au milieu de la chaussée pour être le plus visible possible.",
+          "text_nl": "In het midden van de rijbaan om zo zichtbaar mogelijk te zijn.",
+          "text_ru": "Посередине проезжей части, чтобы быть максимально заметным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le plus près possible du bord de la chaussée.",
+          "text_nl": "Zo dicht mogelijk bij de rand van de rijbaan.",
+          "text_ru": "Как можно ближе к краю проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sur la bande de stationnement, s'il y en a une.",
+          "text_nl": "Op de parkeerstrook, indien aanwezig.",
+          "text_ru": "На полосе для парковки, если она есть.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 42.1 stipule que 'Lorsque les piétons empruntent la chaussée, ils doivent se tenir le plus près possible du bord de celle-ci.' L'article 42.4.1 mentionne qu'ils doivent traverser perpendiculairement et ne pas s'attarder, et que s'il y a un passage pour piétons à moins de 20 mètres, ils doivent l'utiliser (ici il est à plus de 20m).",
+      "explanation_nl": "Artikel 42.1 stelt dat 'Wanneer voetgangers de rijbaan volgen, houden ze zich zo dicht mogelijk bij de rand van de rijbaan.' Artikel 42.4.1 vermeldt dat ze loodrecht moeten oversteken en niet blijven hangen, en dat als er een zebrapad binnen 20 meter is, ze dat moeten gebruiken (hier is het meer dan 20m).",
+      "explanation_ru": "Статья 42.1 гласит: 'Когда пешеходы идут по проезжей части, они должны держаться как можно ближе к краю проезжей части.' Статья 42.4.1 упоминает, что они должны переходить перпендикулярно и не задерживаться, и что если зебра находится в пределах 20 метров, они должны ею воспользоваться (здесь она находится дальше 20 метров)."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un vélo et devez le pousser à la main car vous transportez un meuble encombrant. Vous arrivez sur une route étroite où plusieurs piétons marchent sur le trottoir, vous gêneraient-ils si vous marchiez avec eux ?",
+      "text_nl": "U leidt een fiets aan de hand en moet deze duwen omdat u een omvangrijk meubel vervoert. U komt op een smalle weg waar verschillende voetgangers op het trottoir lopen, zouden ze u hinderen als u met hen mee zou lopen?",
+      "text_ru": "Вы ведете велосипед вручную, так как перевозите громоздкую мебель. Вы выходите на узкую дорогу, где по тротуару идут несколько пешеходов; будут ли они вам мешать, если вы пойдете вместе с ними?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, je peux marcher sur le trottoir sans problème.",
+          "text_nl": "Nee, ik kan zonder problemen op het trottoir lopen.",
+          "text_ru": "Нет, я могу идти по тротуару без проблем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, je dois utiliser la chaussée car je cause une gêne importante.",
+          "text_nl": "Ja, ik moet de rijbaan gebruiken omdat ik aanzienlijke hinder veroorzaak.",
+          "text_ru": "Да, я должен идти по проезжей части, так как создаю значительные неудобства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la largeur du trottoir.",
+          "text_nl": "Het hangt af van de breedte van het trottoir.",
+          "text_ru": "Это зависит от ширины тротуара.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 42.2.1 stipule que les personnes qui conduisent à la main un cycle, un cyclomoteur ou qui transportent des objets encombrants doivent emprunter la chaussée si elles causent une gêne importante pour les autres piétons.",
+      "explanation_nl": "Artikel 42.2.1 bepaalt dat personen die een rijwiel, bromfiets aan de hand leiden of voorwerpen vervoeren die veel plaats innemen, de rijbaan moeten volgen indien zij in aanzienlijke mate de andere voetgangers hinderen.",
+      "explanation_ru": "Статья 42.2.1 гласит, что лица, ведущие велосипед, мопед вручную или перевозящие громоздкие предметы, должны идти по проезжей части, если они создают значительные неудобства для других пешеходов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes dans un groupe de 10 piétons accompagnés d'un guide. Vous devez traverser la chaussée à un endroit où il n'y a pas de feux de circulation ni d'agent qualifié. Quel côté de la chaussée devez-vous utiliser ?",
+      "text_nl": "U bent in een groep van 10 voetgangers, begeleid door een gids. U moet de rijbaan oversteken op een plek zonder verkeerslichten of gekwalificeerde agent. Welke kant van de rijbaan moet u gebruiken?",
+      "text_ru": "Вы находитесь в группе из 10 пешеходов, сопровождаемых гидом. Вам нужно перейти проезжую часть в месте без светофоров или квалифицированного регулировщика. Какую сторону проезжей части вы должны использовать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le côté gauche, en file indienne.",
+          "text_nl": "De linkerkant, in een enkel bestand.",
+          "text_ru": "Левую сторону, в одну шеренгу.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le côté droit, peu importe la formation.",
+          "text_nl": "De rechterkant, ongeacht de formatie.",
+          "text_ru": "Правую сторону, независимо от формации.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la circulation.",
+          "text_nl": "Het hangt af van het verkeer.",
+          "text_ru": "Это зависит от движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 42.3 stipule que les groupes de piétons composés de cinq personnes et plus, accompagnés d'un guide, peuvent emprunter le côté gauche de la voirie en marchant en file indienne. S'ils n'avaient pas de guide ou étaient moins de cinq, ils devraient emprunter le côté droit.",
+      "explanation_nl": "Artikel 42.3 bepaalt dat groepen voetgangers bestaande uit vijf of meer personen, begeleid door een leider, de linkerkant van de rijbaan mogen volgen, lopend in een enkel bestand. Als ze geen leider hadden of minder dan vijf waren, zouden ze de rechterkant moeten volgen.",
+      "explanation_ru": "Статья 42.3 гласит, что группы пешеходов, состоящие из пяти или более человек, сопровождаемые гидом, могут двигаться по левой стороне дороги, идя в одну шеренгу. Если бы у них не было гида или их было менее пяти, они должны были бы двигаться по правой стороне."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "a2a126eec9be",
@@ -64,6 +235,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:55:50Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

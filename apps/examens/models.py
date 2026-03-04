@@ -73,6 +73,10 @@ class Question(models.Model):
 
     # Image
     image = models.ImageField('Image', upload_to='questions/', blank=True)
+    image_prompt = models.TextField('Prompt image', blank=True,
+                                    help_text='Description pour génération d\'image (AI)')
+    image_sign_code = models.CharField('Code panneau', max_length=20, blank=True,
+                                       help_text='Ex: C43, F5 — panneau suggéré pour l\'image')
 
     # Explanation
     explanation = models.TextField('Explication (FR)', blank=True)
@@ -221,3 +225,50 @@ class TestAttempt(models.Model):
             self.time_spent = int(delta.total_seconds())
 
         self.save()
+
+
+# ─── Saved Questions (Révisions) ──────────────────────────────────────────────
+
+class StudyList(models.Model):
+    """Liste de révision gérée par l'admin (ex: 'À revoir', 'Difficile')."""
+    name = models.CharField('Nom', max_length=100)
+    slug = models.SlugField('Slug', unique=True)
+    icon = models.CharField('Icône (emoji)', max_length=10, default='📌')
+    description = models.CharField('Description', max_length=200, blank=True)
+    order = models.PositiveSmallIntegerField('Ordre', default=0)
+    is_active = models.BooleanField('Actif', default=True)
+
+    class Meta:
+        verbose_name = 'Liste de révision'
+        verbose_name_plural = 'Listes de révision'
+        ordering = ['order', 'name']
+
+    def __str__(self):
+        return f'{self.icon} {self.name}'
+
+    def get_absolute_url(self):
+        from django.urls import reverse
+        return reverse('examens:my_list_slug', kwargs={'list_slug': self.slug})
+
+
+class SavedQuestion(models.Model):
+    """Question sauvegardée par un utilisateur dans une liste de révision."""
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='saved_questions'
+    )
+    question = models.ForeignKey(
+        Question, on_delete=models.CASCADE, related_name='saved_by'
+    )
+    study_list = models.ForeignKey(
+        StudyList, on_delete=models.CASCADE, related_name='saved_questions'
+    )
+    saved_at = models.DateTimeField('Sauvegardé le', auto_now_add=True)
+
+    class Meta:
+        verbose_name = 'Question sauvegardée'
+        verbose_name_plural = 'Questions sauvegardées'
+        unique_together = ['user', 'question', 'study_list']
+        ordering = ['-saved_at']
+
+    def __str__(self):
+        return f'{self.user.username} → Q{self.question_id} [{self.study_list}]'

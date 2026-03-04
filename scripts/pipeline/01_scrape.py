@@ -2,7 +2,7 @@
 """
 PRAVA — Pipeline Step 01: Scrape FR + NL
 
-Scrapes the Belgian Highway Code from:
+Scrapes Belgian road law documents from:
   - codedelaroute.be  (FR)
   - wegcode.be        (NL)
 
@@ -11,16 +11,20 @@ Both sites use the same CMS and HTML structure:
   - Titles:    h2 → Titre, h3 → Chapitre, h5 → Article
   - Content:   p, ul/li, table, div.notification-primary, div.notification-secondary
 
-Law: AR 1er décembre 1975 (Code de la route / Verkeersreglement)
+Supports all laws registered in scripts/utils/laws_registry.py.
+Default: AR 1975 (Code de la route / Verkeersreglement)
 
 Output:
-  data/laws/1975/fr_reglementation.json
-  data/laws/1975/nl_reglementation.json
+  data/laws/{law_id}/fr_reglementation.json
+  data/laws/{law_id}/nl_reglementation.json
 
 On re-run: detects diffs vs previous version and reports changes.
 
 Usage:
-    python scripts/pipeline/01_scrape.py [--lang fr|nl|both] [--dry-run] [--verbose]
+    python scripts/pipeline/01_scrape.py [--law 1975] [--lang fr|nl|both] [--dry-run] [--verbose]
+    python scripts/pipeline/01_scrape.py --law 1968
+    python scripts/pipeline/01_scrape.py --law 2005
+    python scripts/pipeline/01_scrape.py --list-laws
 
 See: docs/SCRIPTS.md §01_scrape.py
 """
@@ -39,26 +43,36 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.utils.http_client import get_session, get_page  # noqa: E402
 from scripts.utils.json_helpers import load_json, save_json, diff_articles  # noqa: E402
+from scripts.utils.laws_registry import LAWS, get_law, fr_url, nl_url, law_ids  # noqa: E402
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-LAW_YEAR = "1975"
-OUTPUT_DIR = PROJECT_ROOT / "data" / "laws" / LAW_YEAR
+# Default law (overridden by --law argument in main())
+_DEFAULT_LAW = "1975"
 
-SITES = {
-    "fr": {
-        "base_url": "https://www.codedelaroute.be",
-        "regulation_url": "https://www.codedelaroute.be/fr/regelgeving/1975120109~hra8v386pu",
-        "output_file": OUTPUT_DIR / "fr_reglementation.json",
-        "lang_label": "FR",
-    },
-    "nl": {
-        "base_url": "https://www.wegcode.be",
-        "regulation_url": "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
-        "output_file": OUTPUT_DIR / "nl_reglementation.json",
-        "lang_label": "NL",
-    },
-}
+
+def build_sites(law_id: str) -> dict:
+    """
+    Build the SITES config dict for the given law ID.
+
+    Returns a dict with 'fr' and 'nl' keys, each containing:
+      base_url, regulation_url, output_file, lang_label
+    """
+    output_dir = PROJECT_ROOT / "data" / "laws" / law_id
+    return {
+        "fr": {
+            "base_url": "https://www.codedelaroute.be",
+            "regulation_url": fr_url(law_id),
+            "output_file": output_dir / "fr_reglementation.json",
+            "lang_label": "FR",
+        },
+        "nl": {
+            "base_url": "https://www.wegcode.be",
+            "regulation_url": nl_url(law_id),
+            "output_file": output_dir / "nl_reglementation.json",
+            "lang_label": "NL",
+        },
+    }
 
 # ─── Logging ──────────────────────────────────────────────────────────────────
 
@@ -235,7 +249,8 @@ def extract_notifications(content_html: str) -> list[dict]:
 
 # ─── HTML page parser ─────────────────────────────────────────────────────────
 
-def parse_regulation_page(html: str, lang: str, source_url: str, base_url: str) -> dict:
+def parse_regulation_page(html: str, lang: str, source_url: str, base_url: str,
+                           law_id: str = _DEFAULT_LAW) -> dict:
     """
     Parse the full regulation page HTML.
 
@@ -352,6 +367,60 @@ def parse_regulation_page(html: str, lang: str, source_url: str, base_url: str) 
 
     flush_article()  # final article
 
+    # ── Fallback: laws that use <p>"Art. N." as article headings (no <h5>) ───
+    if not articles:
+        ART_START = re.compile(r"^Art(?:icle|ikel)?\.?\s+(\d+\w*)\.", re.IGNORECASE)
+        fb_struct = {"titre": None, "chapitre": None}
+        fb_meta: dict | None = None
+        fb_els: list[Tag] = []
+
+        def flush_fb():
+            nonlocal fb_meta, fb_els
+            if fb_meta is None:
+                return
+            inner_html = "".join(str(el) for el in fb_els).strip()
+            articles.append({
+                "number": fb_meta["number"],
+                "title": fb_meta["title"],
+                "anchor_id": fb_meta.get("anchor_id", ""),
+                "structure": dict(fb_struct),
+                "content_html": inner_html,
+                "content_md": html_to_markdown(inner_html),
+                "images": extract_images(inner_html, base_url),
+                "notifications": extract_notifications(inner_html),
+                "cross_refs": extract_cross_refs(inner_html),
+                "full_text": BeautifulSoup(inner_html, "lxml").get_text(separator="\n", strip=True),
+            })
+            fb_meta = None
+            fb_els = []
+
+        for el in container.children:
+            if not isinstance(el, Tag):
+                continue
+            tag = el.name.lower()
+            if tag == "h2":
+                flush_fb()
+                m = re.search(r"(?:Titre|Titel)\s+(I{1,3}V?|VI{0,3}|[IVX]+)\.?", el.get_text(), re.I)
+                fb_struct = {"titre": m.group(1) if m else None, "chapitre": None}
+            elif tag == "h3":
+                flush_fb()
+                m = re.search(r"(?:Chapitre|Hoofdstuk)\s+(I{1,3}V?|VI{0,3}|[IVX]+)\.?", el.get_text(), re.I)
+                fb_struct = {**fb_struct, "chapitre": m.group(1) if m else None}
+            elif tag == "p":
+                p_text = el.get_text(strip=True)
+                m = ART_START.match(p_text)
+                if m:
+                    flush_fb()
+                    art_num = m.group(1)
+                    fb_meta = {"number": art_num, "title": f"Article {art_num}", "anchor_id": el.get("id", "")}
+                    fb_els.append(el)
+                elif fb_meta is not None:
+                    fb_els.append(el)
+            else:
+                if fb_meta is not None:
+                    fb_els.append(el)
+        flush_fb()
+
     scraped_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     return {
@@ -359,7 +428,7 @@ def parse_regulation_page(html: str, lang: str, source_url: str, base_url: str) 
             "lang": lang,
             "source_url": source_url,
             "scraped_at": scraped_at,
-            "law_year": LAW_YEAR,
+            "law_id": law_id,
             "title": page_title,
             "total_articles": len(articles),
             "total_structure_entries": len(structure),
@@ -371,7 +440,7 @@ def parse_regulation_page(html: str, lang: str, source_url: str, base_url: str) 
 
 # ─── Scraping functions ────────────────────────────────────────────────────────
 
-def scrape_lang(session, lang: str) -> dict:
+def scrape_lang(session, lang: str, law_id: str = _DEFAULT_LAW, sites: dict | None = None) -> dict:
     """
     Scrape a complete regulation page (FR or NL) and return parsed data.
 
@@ -380,11 +449,15 @@ def scrape_lang(session, lang: str) -> dict:
     Args:
         session: requests.Session with retry/rate-limiting.
         lang:    'fr' or 'nl'
+        law_id:  Law registry ID (e.g. '1975', '1968').
+        sites:   Pre-built sites config dict. If None, built from law_id.
 
     Returns:
         Full law data dict in the standard schema.
     """
-    config = SITES[lang]
+    if sites is None:
+        sites = build_sites(law_id)
+    config = sites[lang]
     url = config["regulation_url"]
     base_url = config["base_url"]
 
@@ -395,7 +468,7 @@ def scrape_lang(session, lang: str) -> dict:
         raise RuntimeError(f"[{lang.upper()}] Empty response from: {url}")
 
     logger.info(f"[{lang.upper()}] Page fetched ({len(html):,} bytes) — parsing…")
-    data = parse_regulation_page(html, lang, url, base_url)
+    data = parse_regulation_page(html, lang, url, base_url, law_id=law_id)
 
     logger.info(
         f"[{lang.upper()}] Parsed: {data['metadata']['total_articles']} articles, "
@@ -405,15 +478,15 @@ def scrape_lang(session, lang: str) -> dict:
 
 
 # Keep named aliases for backwards compatibility / direct calls
-def scrape_fr(session) -> dict:
-    return scrape_lang(session, "fr")
+def scrape_fr(session, law_id: str = _DEFAULT_LAW) -> dict:
+    return scrape_lang(session, "fr", law_id=law_id)
 
 
-def scrape_nl(session) -> dict:
-    return scrape_lang(session, "nl")
+def scrape_nl(session, law_id: str = _DEFAULT_LAW) -> dict:
+    return scrape_lang(session, "nl", law_id=law_id)
 
 
-def report_diff(lang: str, existing_file: Path, new_data: dict) -> None:
+def report_diff(lang: str, existing_file: Path, new_data: dict) -> None:  # noqa: D401
     """
     Load the existing JSON (if any) and report changes vs new_data.
 
@@ -455,6 +528,14 @@ def report_diff(lang: str, existing_file: Path, new_data: dict) -> None:
 def main():
     parser = argparse.ArgumentParser(description="PRAVA — Scrape FR + NL law data")
     parser.add_argument(
+        "--law", default=_DEFAULT_LAW, metavar="LAW_ID",
+        help=f"Law registry ID to scrape (default: {_DEFAULT_LAW}). Use --list-laws to see all."
+    )
+    parser.add_argument(
+        "--list-laws", action="store_true",
+        help="Show all available laws in the registry and exit"
+    )
+    parser.add_argument(
         "--lang", choices=["fr", "nl", "both"], default="both",
         help="Language(s) to scrape (default: both)"
     )
@@ -471,6 +552,29 @@ def main():
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
 
+    # ── List available laws ──────────────────────────────────────────────────
+    if args.list_laws:
+        print("Available laws in registry:")
+        print(f"  {'ID':<8} {'Priority':<10} {'Theme':<30} Title")
+        print("  " + "-" * 80)
+        for lid in law_ids():
+            meta = LAWS[lid]
+            print(f"  {lid:<8} {meta['priority']:<10} {meta['theme']:<30} {meta['title_fr'][:60]}")
+        return
+
+    # ── Validate law ID ──────────────────────────────────────────────────────
+    try:
+        law_meta = get_law(args.law)
+    except KeyError as e:
+        logger.error(str(e))
+        logger.error("Use --list-laws to see available law IDs.")
+        sys.exit(1)
+
+    law_id = args.law
+    sites = build_sites(law_id)
+
+    logger.info(f"Law: {law_id} — {law_meta['title_fr']}")
+
     if args.dry_run:
         logger.info("DRY RUN — no files will be written.")
 
@@ -478,10 +582,11 @@ def main():
     session = get_session()
 
     for lang in langs:
-        config = SITES[lang]
+        config = sites[lang]
         logger.info(f"[{lang.upper()}] Starting scrape from {config['base_url']}")
+        logger.info(f"[{lang.upper()}] URL: {config['regulation_url']}")
 
-        data = scrape_lang(session, lang)
+        data = scrape_lang(session, lang, law_id=law_id, sites=sites)
 
         if not args.dry_run:
             report_diff(lang, config["output_file"], data)

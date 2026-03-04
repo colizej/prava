@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "53",
+  "slug": "art-53",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 53",
+  "title_nl": "Artikel 53",
+  "title_ru": "Статья 53",
+  "content_md_fr": "En cas d'immobilisation temporaire, le véhicule est immobilisé aux frais et risques de l'auteur de l'infraction.",
+  "content_md_nl": "Bij tijdelijke immobilisering wordt het voertuig geïmmobiliseerd op kosten en risico van de dader van het misdrijf.",
+  "content_md_ru": "В случае временного обездвиживания автомобиль обездвиживается за счет и на риск нарушителя.",
+  "content_html_fr": "<p>En cas d'immobilisation temporaire, le véhicule est immobilisé aux frais et risques de l'auteur de l'infraction.</p>",
+  "content_html_nl": "<p>Bij tijdelijke immobilisering wordt het voertuig geïmmobiliseerd op kosten en risico van de dader van het misdrijf.</p>",
+  "full_text_fr": "En cas d'immobilisation temporaire, le véhicule est immobilisé aux frais et risques de l'auteur de l'infraction.",
+  "full_text_nl": "Bij tijdelijke immobilisering wordt het voertuig geïmmobiliseerd op kosten en risico van de dader van het misdrijf.",
+  "full_text_ru": "В случае временного обездвиживания автомобиль обездвиживается за счет и на риск нарушителя.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "hw6qxiyxki",
+  "anchor_id_nl": "mjxzc9cd5e",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "7a30663697b0",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

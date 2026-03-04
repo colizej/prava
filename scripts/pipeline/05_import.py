@@ -32,11 +32,12 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 import django  # noqa: E402
 django.setup()
 
-from scripts.utils.json_helpers import load_json  # noqa: E402
+from scripts.utils.json_helpers import load_json          # noqa: E402
+from scripts.utils.laws_registry import get_law, law_ids  # noqa: E402
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-LAW_YEAR = "1975"
+_DEFAULT_LAW = "1975"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -44,7 +45,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TITRE_NAMES = {
+# ── Structure label → RuleCategory name (AR 1975 titres) ──────────────────────
+_1975_TITRE_NAMES = {
     "I":    "Champ d'application et definitions",
     "II":   "Signalisation routiere",
     "III":  "Regles de circulation",
@@ -58,7 +60,18 @@ TITRE_NAMES = {
     "XI":   "Equipement des vehicules",
     "XII":  "Dispositions diverses",
 }
-TITRE_LIST = list(TITRE_NAMES.keys())
+
+# ── Default broad ExamCategory per law ────────────────────────────────────────
+_LAW_DEFAULT_EXAM_SLUG = {
+    "1968":  "situations",
+    "2005":  "situations",
+    "1998":  "obligations",
+    "2006":  "obligations",
+    "1976":  "signalisation",
+    "1975b": "signalisation",
+    "1968b": "obligations",
+    "1985":  "obligations",
+}
 
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -91,11 +104,17 @@ _TITRE_TO_EXAM_SLUG = {
 }
 
 
-def _get_exam_category(article: dict):
+def _get_exam_category(article: dict, law_id: str):
     """Return the broad topic ExamCategory for this article."""
     from apps.examens.models import ExamCategory
-    rule_cat = _get_rule_category(article)
-    exam_slug = _TITRE_TO_EXAM_SLUG.get(rule_cat.slug, "voie-publique")
+
+    if law_id == "1975":
+        rule_cat = _get_rule_category(article, law_id)
+        short_slug = rule_cat.slug.replace(f"{law_id}-", "", 1)
+        exam_slug = _TITRE_TO_EXAM_SLUG.get(short_slug, "voie-publique")
+    else:
+        exam_slug = _LAW_DEFAULT_EXAM_SLUG.get(law_id, "situations")
+
     try:
         return ExamCategory.objects.get(slug=exam_slug)
     except ExamCategory.DoesNotExist:
@@ -105,29 +124,73 @@ def _get_exam_category(article: dict):
         return cat
 
 
+# ─── Helpers — structure ──────────────────────────────────────────────
+
+def _structure_slug(article: dict, law_id: str) -> tuple[str, str, int]:
+    from django.utils.text import slugify
+    structure = article.get("structure") or {}
+    titre = str(structure.get("titre") or "")
+    chap = str(structure.get("chapitre") or "")
+
+    if law_id == "1975" and titre:
+        name = _1975_TITRE_NAMES.get(titre, f"Titre {titre}")
+        slug = slugify(f"{law_id}-titre-{titre}")
+        titre_list = list(_1975_TITRE_NAMES.keys())
+        order = titre_list.index(titre) + 1 if titre in titre_list else 99
+    elif chap:
+        slug = slugify(f"{law_id}-chapitre-{chap}")
+        name = f"Chapitre {chap}"
+        order = 0
+    elif titre:
+        slug = slugify(f"{law_id}-titre-{titre}")
+        name = f"Titre {titre}"
+        order = 0
+    else:
+        slug = slugify(f"{law_id}-general")
+        name = "Général"
+        order = 0
+    return slug, name, order
+
+
+def _get_rule_category(article: dict, law_id: str):
+    from apps.reglementation.models import RuleCategory
+    slug, name, order = _structure_slug(article, law_id)
+    cat, _ = RuleCategory.objects.get_or_create(
+        slug=slug,
+        defaults={"name": name, "order": order, "law_id": law_id},
+    )
+    return cat
+
+
 # ─── Import functions ─────────────────────────────────────────────────────────
 
-def import_article(article: dict, dry_run: bool = False) -> tuple[str, str]:
+def import_article(article: dict, law_id: str, dry_run: bool = False) -> tuple[str, str]:
     """
     Create or update a CodeArticle (and its RuleCategory).
 
+    DB slug = "{law_id}-{article_slug}" to avoid cross-law conflicts.
+
     Returns:
-        Tuple of (action, slug) where action is 'created', 'updated', or 'skipped'.
+        Tuple of (action, db_slug).
     """
     from apps.reglementation.models import CodeArticle
 
-    slug = (article.get("slug") or "").strip()
-    if not slug:
+    article_slug = (article.get("slug") or "").strip()
+    if not article_slug:
         return "skipped", ""
-    if dry_run:
-        return "skipped", slug
 
-    category = _get_rule_category(article)
+    db_slug = f"{law_id}-{article_slug}"
+
+    if dry_run:
+        return "skipped", db_slug
+
+    category = _get_rule_category(article, law_id)
     art_number = str(article.get("article_number", "")).strip()
     defaults = {
         "article_number": art_number,
         "category": category,
-        "title": (article.get("title_fr") or art_number or slug).strip(),
+        "law_id": law_id,
+        "title": (article.get("title_fr") or art_number or db_slug).strip(),
         "title_nl": (article.get("title_nl") or "").strip(),
         "title_ru": (article.get("title_ru") or "").strip(),
         "content": (article.get("content_html_fr") or article.get("content_md_fr") or "").strip(),
@@ -135,26 +198,27 @@ def import_article(article: dict, dry_run: bool = False) -> tuple[str, str]:
         "content_ru": (article.get("content_md_ru") or "").strip(),
         "content_text": (article.get("full_text_fr") or "").strip(),
     }
-    obj, created = CodeArticle.objects.get_or_create(slug=slug, defaults=defaults)
+    obj, created = CodeArticle.objects.get_or_create(slug=db_slug, defaults=defaults)
     if not created:
         for field, value in defaults.items():
             setattr(obj, field, value)
         obj.save()
-        return "updated", slug
-    return "created", slug
+        return "updated", db_slug
+    return "created", db_slug
 
 
-def import_questions(article: dict, dry_run: bool = False) -> int:
+def import_questions(article: dict, law_id: str, dry_run: bool = False) -> int:
     """
     Create/update Questions + AnswerOptions from article["exam_questions"].
 
     Returns:
         Number of questions upserted.
     """
-    from apps.reglementation.models import CodeArticle
+    from apps.reglementation.models import CodeArticle, TrafficSign
     from apps.examens.models import Question, AnswerOption
 
-    slug = article.get("slug") or ""
+    article_slug = article.get("slug") or ""
+    db_slug = f"{law_id}-{article_slug}" if article_slug else ""
     exam_questions = article.get("exam_questions") or []
     if not exam_questions:
         return 0
@@ -162,17 +226,28 @@ def import_questions(article: dict, dry_run: bool = False) -> int:
         return len(exam_questions)
 
     try:
-        code_article = CodeArticle.objects.get(slug=slug)
+        code_article = CodeArticle.objects.get(slug=db_slug)
     except CodeArticle.DoesNotExist:
         code_article = None
 
-    exam_category = _get_exam_category(article)
+    exam_category = _get_exam_category(article, law_id)
     count = 0
 
     for q_data in exam_questions:
         text_fr = (q_data.get("text_fr") or "").strip()
         if not text_fr:
             continue
+
+        # Parse image field (dict with sign_code + generation_prompt)
+        image_data = q_data.get("image") or {}
+        sign_code = (image_data.get("sign_code") or "").strip() if isinstance(image_data, dict) else ""
+        image_prompt = (image_data.get("generation_prompt") or "").strip() if isinstance(image_data, dict) else ""
+
+        # Resolve traffic sign FK
+        traffic_sign = None
+        if sign_code:
+            traffic_sign = TrafficSign.objects.filter(code=sign_code).first()
+
         q_obj, created = Question.objects.get_or_create(
             category=exam_category,
             text=text_fr,
@@ -181,6 +256,9 @@ def import_questions(article: dict, dry_run: bool = False) -> int:
                 "text_nl": (q_data.get("text_nl") or "").strip(),
                 "text_ru": (q_data.get("text_ru") or "").strip(),
                 "difficulty": int(q_data.get("difficulty") or 2),
+                "image_prompt": image_prompt,
+                "image_sign_code": sign_code,
+                "traffic_sign": traffic_sign,
                 "is_active": True,
             },
         )
@@ -189,7 +267,11 @@ def import_questions(article: dict, dry_run: bool = False) -> int:
             q_obj.text_nl = (q_data.get("text_nl") or "").strip()
             q_obj.text_ru = (q_data.get("text_ru") or "").strip()
             q_obj.difficulty = int(q_data.get("difficulty") or 2)
-            q_obj.save(update_fields=["code_article", "text_nl", "text_ru", "difficulty"])
+            q_obj.image_prompt = image_prompt
+            q_obj.image_sign_code = sign_code
+            q_obj.traffic_sign = traffic_sign
+            q_obj.save(update_fields=["code_article", "text_nl", "text_ru", "difficulty",
+                                      "image_prompt", "image_sign_code", "traffic_sign"])
 
         options = q_data.get("options") or []
         if options:
@@ -214,15 +296,37 @@ def import_questions(article: dict, dry_run: bool = False) -> int:
 
 def main():
     parser = argparse.ArgumentParser(description="PRAVA — Import data into Django DB")
-    parser.add_argument("--law-year", default=LAW_YEAR)
+    parser.add_argument("--law", default=_DEFAULT_LAW,
+                        help=f"Law ID to import (default: {_DEFAULT_LAW}). Use --list-laws to see all.")
+    parser.add_argument("--law-year", default=None,
+                        help="Alias for --law (legacy, deprecated)")
+    parser.add_argument("--list-laws", action="store_true", help="List available laws and exit")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
 
+    if args.list_laws:
+        for lid in law_ids():
+            info = get_law(lid)
+            print(f"  {lid:8}  {info['title_fr']}")
+        return
+
+    law_id = args.law_year or args.law
+    try:
+        law_info = get_law(law_id)
+    except KeyError:
+        logger.error(f"Unknown law ID: {law_id!r}. Use --list-laws to see valid IDs.")
+        sys.exit(1)
+
+    logger.info(f"Law: {law_id} — {law_info['title_fr']}")
+
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    articles_dir = PROJECT_ROOT / "data" / "processed" / args.law_year / "articles"
+    articles_dir = PROJECT_ROOT / "data" / "processed" / law_id / "articles"
+    if not articles_dir.exists():
+        logger.error(f"Articles directory not found: {articles_dir}")
+        sys.exit(1)
 
     if args.dry_run:
         logger.info("DRY RUN — no database changes will be made.")
@@ -243,19 +347,19 @@ def main():
             continue
 
         try:
-            action, slug = import_article(article, dry_run=args.dry_run)
+            action, db_slug = import_article(article, law_id, dry_run=args.dry_run)
             stats[f"articles_{action}"] += 1
-            logger.debug(f"{action.upper():8s} article: {slug}")
+            logger.debug(f"{action.upper():8s} article: {db_slug}")
         except Exception as exc:
             logger.error(f"Error importing article {article_file.name}: {exc}")
             stats["articles_errors"] += 1
             continue
 
         try:
-            n = import_questions(article, dry_run=args.dry_run)
+            n = import_questions(article, law_id, dry_run=args.dry_run)
             stats["questions_total"] += n
             if n:
-                logger.debug(f"  -> {n} questions for {slug}")
+                logger.debug(f"  -> {n} questions for {db_slug}")
         except Exception as exc:
             logger.error(f"Error importing questions from {article_file.name}: {exc}")
             stats["questions_errors"] += 1

@@ -26,7 +26,178 @@
   "anchor_id_fr": "t7fkzvhxcw",
   "anchor_id_nl": "v0815ttvhq",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 34bis, quel est l'usage général des dispositifs aérodynamiques non prescrits par le règlement technique ?",
+      "text_nl": "Volgens artikel 34bis, wat is het algemene gebruik van aerodynamische voorzieningen die niet door het technisch reglement zijn voorgeschreven?",
+      "text_ru": "Согласно статье 34bis, каковы общие правила использования аэродинамических устройств, не предписанных техническим регламентом?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils sont autorisés sur toutes les routes, à condition qu'ils ne gênent pas la visibilité.",
+          "text_nl": "Ze zijn toegestaan op alle wegen, op voorwaarde dat ze het zicht niet belemmeren.",
+          "text_ru": "Они разрешены на всех дорогах при условии, что они не мешают обзору.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Leur utilisation est interdite, sauf s'ils sont prescrits ou prévus par le règlement technique.",
+          "text_nl": "Het gebruik ervan is verboden, tenzij ze voorgeschreven of voorzien zijn door het technisch reglement.",
+          "text_ru": "Их использование запрещено, если они не предписаны или не предусмотрены техническим регламентом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils sont autorisés uniquement sur les routes de campagne.",
+          "text_nl": "Ze zijn alleen toegestaan op landelijke wegen.",
+          "text_ru": "Они разрешены только на проселочных дорогах.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 34bis stipule qu'il est interdit d'utiliser d'autres dispositifs aérodynamiques que ceux prescrits ou prévus par le règlement technique.",
+      "explanation_nl": "Artikel 34bis bepaalt dat het verboden is om andere aerodynamische voorzieningen te gebruiken dan die welke in het technisch reglement voorgeschreven of voorzien zijn.",
+      "explanation_ru": "Статья 34bis гласит, что запрещается использовать аэродинамические устройства, не предписанные или не предусмотренные техническим регламентом."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles catégories de voies les dispositifs aérodynamiques, s'ils sont autorisés, peuvent-ils être utilisés selon l'article 34bis ?",
+      "text_nl": "Op welke soorten wegen mogen aerodynamische voorzieningen, indien toegestaan, worden gebruikt volgens artikel 34bis?",
+      "text_ru": "На каких типах дорог разрешено использование аэродинамических устройств, если они разрешены, согласно статье 34bis?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement sur les routes de campagne et les routes locales.",
+          "text_nl": "Alleen op landelijke wegen en lokale wegen.",
+          "text_ru": "Только на проселочных и местных дорогах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur toutes les routes publiques, y compris les rues des villes.",
+          "text_nl": "Op alle openbare wegen, inclusief stadsstraten.",
+          "text_ru": "На всех общественных дорогах, включая городские улицы.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement sur les autoroutes et les routes pour automobiles.",
+          "text_nl": "Alleen op autosnelwegen en autowegen.",
+          "text_ru": "Только на автомагистралях и автострадах.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 34bis précise que ces dispositifs ne peuvent être utilisés que sur les autoroutes et les routes pour automobiles.",
+      "explanation_nl": "Artikel 34bis specificeert dat deze voorzieningen enkel op autosnelwegen en autowegen gebruikt mogen worden.",
+      "explanation_ru": "Статья 34bis уточняет, что эти устройства могут использоваться только на автомагистралях и автострадах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une autoroute avec un dispositif aérodynamique déployé. Soudain, une tempête de vent survient, rendant la conduite difficile. Que devez-vous faire conformément à l'article 34bis ?",
+      "text_nl": "U rijdt op een autosnelweg met een uitgeschoven aerodynamische voorziening. Plotseling ontstaat er een windstorm die het rijden bemoeilijkt. Wat moet u doen volgens artikel 34bis?",
+      "text_ru": "Вы едете по автомагистрали с выдвинутым аэродинамическим устройством. Внезапно возникает сильная буря, затрудняющая движение. Что вы должны сделать согласно статье 34bis?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler en adaptant votre vitesse aux conditions.",
+          "text_nl": "Blijf rijden en pas uw snelheid aan de omstandigheden aan.",
+          "text_ru": "Продолжайте движение, регулируя скорость в соответствии с условиями.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Replier, rétracter ou enlever le dispositif aérodynamique car il représente un risque pour la sécurité.",
+          "text_nl": "Klap, trek in of verwijder de aerodynamische voorziening omdat deze een veiligheidsrisico vormt.",
+          "text_ru": "Сверните, уберите или снимите аэродинамическое устройство, так как оно представляет опасность для безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sortir de l'autoroute dès que possible et démonter le dispositif.",
+          "text_nl": "Verlaat de autosnelweg zo snel mogelijk en demonteer de voorziening.",
+          "text_ru": "Покиньте автомагистраль как можно скорее и демонтируйте устройство.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 34bis stipule qu'en cas de risque pour la sécurité des autres usagers ou du conducteur, le dispositif aérodynamique doit être replié, rétracté ou enlevé.",
+      "explanation_nl": "Artikel 34bis bepaalt dat in omstandigheden waarin de veiligheid van andere weggebruikers of van de bestuurder in gevaar is, de aerodynamische voorziening ingeklapt, ingetrokken of verwijderd moet worden.",
+      "explanation_ru": "Статья 34bis гласит, что в условиях, когда безопасность других участников дорожного движения или водителя находится под угрозой, аэродинамическое устройство должно быть сложено, убрано или снято."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous préparez un long trajet sur des routes secondaires et vous avez installé un dispositif aérodynamique pour améliorer la stabilité de votre véhicule. Est-ce autorisé selon l'article 34bis ?",
+      "text_nl": "U bereidt een lange rit voor over secundaire wegen en u heeft een aerodynamische voorziening geïnstalleerd om de stabiliteit van uw voertuig te verbeteren. Is dit toegestaan volgens artikel 34bis?",
+      "text_ru": "Вы готовитесь к долгой поездке по второстепенным дорогам и установили аэродинамическое устройство для улучшения устойчивости вашего автомобиля. Разрешено ли это согласно статье 34bis?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si le dispositif améliore la stabilité et la sécurité du véhicule.",
+          "text_nl": "Ja, als de voorziening de stabiliteit en veiligheid van het voertuig verbetert.",
+          "text_ru": "Да, если устройство улучшает устойчивость и безопасность автомобиля.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car les dispositifs aérodynamiques non prescrits ne sont autorisés que sur les autoroutes et routes pour automobiles.",
+          "text_nl": "Nee, omdat niet-voorgeschreven aerodynamische voorzieningen enkel zijn toegestaan op autosnelwegen en autowegen.",
+          "text_ru": "Нет, потому что непредписанные аэродинамические устройства разрешены только на автомагистралях и автострадах.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si vous roulez à une vitesse réduite.",
+          "text_nl": "Ja, maar alleen als u met een lagere snelheid rijdt.",
+          "text_ru": "Да, но только если вы едете с пониженной скоростью.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 34bis interdit l'utilisation de dispositifs aérodynamiques non prescrits ou prévus par le règlement technique, et spécifie que ceux qui sont autorisés ne peuvent être utilisés que sur les autoroutes et les routes pour automobiles.",
+      "explanation_nl": "Artikel 34bis verbiedt het gebruik van aerodynamische voorzieningen die niet voorgeschreven of voorzien zijn door het technisch reglement, en specificeert dat degenen die wel toegestaan zijn, enkel op autosnelwegen en autowegen gebruikt mogen worden.",
+      "explanation_ru": "Статья 34bis запрещает использование аэродинамических устройств, не предписанных или не предусмотренных техническим регламентом, и уточняет, что разрешенные устройства могут использоваться только на автомагистралях и автострадах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur une route pour automobiles avec un dispositif aérodynamique fonctionnel. Vous croisez des cyclistes circulant sur une voie adjacente. Que devez-vous faire avec votre dispositif aérodynamique, si celui-ci présente un risque ?",
+      "text_nl": "U bevindt zich op een autoweg met een functionele aerodynamische voorziening. U kruist fietsers die op een aangrenzende baan rijden. Wat moet u doen met uw aerodynamische voorziening, indien deze een risico vormt?",
+      "text_ru": "Вы находитесь на автостраде с исправным аэродинамическим устройством. Вы пересекаете велосипедистов, движущихся по соседней полосе. Что вы должны сделать со своим аэродинамическим устройством, если оно представляет опасность?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien, car le dispositif est conçu pour être utilisé sur cette voie.",
+          "text_nl": "Niets, want de voorziening is ontworpen om op deze baan gebruikt te worden.",
+          "text_ru": "Ничего, так как устройство предназначено для использования на этой полосе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Repliez, rétractez ou enlevez le dispositif car il crée un risque pour les cyclistes.",
+          "text_nl": "Klap, trek in of verwijder de voorziening omdat deze een risico vormt voor de fietsers.",
+          "text_ru": "Сверните, уберите или снимите устройство, так как оно представляет опасность для велосипедистов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signalisez aux cyclistes de se tenir plus loin.",
+          "text_nl": "Signaliseer aan de fietsers dat ze verder weg moeten blijven.",
+          "text_ru": "Посигнальте велосипедистам, чтобы они держались подальше.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 34bis indique qu'en cas de risque pour la sécurité des autres usagers, le conducteur doit replier, rétracter ou enlever le dispositif aérodynamique.",
+      "explanation_nl": "Artikel 34bis geeft aan dat in geval van gevaar voor de veiligheid van andere weggebruikers, de bestuurder de aerodynamische voorziening moet inklappen, intrekken of verwijderen.",
+      "explanation_ru": "Статья 34bis указывает, что в случае опасности для безопасности других участников дорожного движения водитель должен сложить, убрать или снять аэродинамическое устройство."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "69636344e58a",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:51:58Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "10",
+  "slug": "art-10",
+  "structure": {
+    "titre": "I",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 10",
+  "title_nl": "Artikel 10",
+  "title_ru": "Статья 10",
+  "content_md_fr": "En tant qu'elle s'applique à des situations permanentes ou périodiques, la police de la circulation routière est soustraite aux dispositions de la nouvelle loi communale du 26 mai 1989.",
+  "content_md_nl": "Voor zover de politie over het wegverkeer betrekking heeft op blijvende of periodieke toestanden, valt zij niet onder de bepalingen van de nieuwe gemeentewet van 26 mei 1989.",
+  "content_md_ru": "На дорожную полицию не распространяются положения нового муниципального закона от 26 мая 1989 года в той мере, в какой это касается постоянных или периодических ситуаций.",
+  "content_html_fr": "<p>En tant qu'elle s'applique à des situations permanentes ou périodiques, la police de la circulation routière est soustraite aux dispositions de la nouvelle loi communale du 26 mai 1989.</p>",
+  "content_html_nl": "<p>Voor zover de politie over het wegverkeer betrekking heeft op blijvende of periodieke toestanden, valt zij niet onder de bepalingen van de nieuwe gemeentewet van 26 mei 1989.</p>",
+  "full_text_fr": "En tant qu'elle s'applique à des situations permanentes ou périodiques, la police de la circulation routière est soustraite aux dispositions de la nouvelle loi communale du 26 mai 1989.",
+  "full_text_nl": "Voor zover de politie over het wegverkeer betrekking heeft op blijvende of periodieke toestanden, valt zij niet onder de bepalingen van de nieuwe gemeentewet van 26 mei 1989.",
+  "full_text_ru": "На дорожную полицию не распространяются положения нового муниципального закона от 26 мая 1989 года в той мере, в какой это касается постоянных или периодических ситуаций.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "6tqvq8dlbo",
+  "anchor_id_nl": "flkbuole4x",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "9e3f06ba1cd4",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

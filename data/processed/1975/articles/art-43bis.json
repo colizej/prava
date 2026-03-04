@@ -47,7 +47,178 @@
   "anchor_id_fr": "avydbrpnhy",
   "anchor_id_nl": "bjoifthtrh",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la taille minimale et maximale d'un groupe de cyclistes pour que l'article 43bis soit applicable ?",
+      "text_nl": "Wat is de minimale en maximale grootte van een fietsgroep waarvoor artikel 43bis van toepassing is?",
+      "text_ru": "Каков минимальный и максимальный размер велосипедной группы, к которой применяется статья 43бис?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Entre 10 et 100 participants.",
+          "text_nl": "Tussen 10 en 100 deelnemers.",
+          "text_ru": "От 10 до 100 участников.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Entre 15 et 150 participants.",
+          "text_nl": "Tussen 15 en 150 deelnemers.",
+          "text_ru": "От 15 до 150 участников.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À partir de 20 participants.",
+          "text_nl": "Vanaf 20 deelnemers.",
+          "text_ru": "От 20 участников.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43bis.1 stipule que le présent article n'est applicable qu'aux cyclistes en groupe comptant de 15 à 150 participants.",
+      "explanation_nl": "Artikel 43bis.1 stelt dat dit artikel alleen van toepassing is op groepen fietsers van 15 tot 150 deelnemers.",
+      "explanation_ru": "Статья 43бис.1 гласит, что данная статья применяется только к велосипедным группам, насчитывающим от 15 до 150 участников."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que doit porter un capitaine de route pour être identifiable, selon l'article 43bis.3.3.1° ?",
+      "text_nl": "Wat moet een wegkapitein dragen om herkenbaar te zijn, volgens artikel 43bis.3.3.1°?",
+      "text_ru": "Что должен носить руководитель группы, чтобы быть узнаваемым, согласно статье 43бис.3.3.1°?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un gilet fluorescent avec la mention 'Capitaine'.",
+          "text_nl": "Een fluorescerend vest met de vermelding 'Kapitein'.",
+          "text_ru": "Флуоресцентный жилет с надписью 'Капитан'.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un brassard aux couleurs nationales sur le bras gauche avec la mention 'capitaine de route'.",
+          "text_nl": "Een band met de nationale kleuren om de linkerarm met de vermelding 'wegkapitein'.",
+          "text_ru": "Повязка национальных цветов на левой руке с надписью 'руководитель группы'.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une casquette avec le logo de la fédération cycliste.",
+          "text_nl": "Een pet met het logo van de wielerbond.",
+          "text_ru": "Кепка с логотипом велосипедной федерации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43bis.3.3.1° précise que les capitaines de route doivent porter au bras gauche un brassard aux couleurs nationales disposées horizontalement et indiquant en lettres noires dans la bande jaune la mention 'capitaine de route'.",
+      "explanation_nl": "Artikel 43bis.3.3.1° specificeert dat wegkapiteins om de linkerarm een band moeten dragen met, horizontaal, de nationale kleuren en, in zwarte letters op de gele band, de vermelding 'wegkapitein'.",
+      "explanation_ru": "Статья 43бис.3.3.1° уточняет, что руководители группы должны носить на левой руке браслет с горизонтально расположенными национальными цветами и надписью 'руководитель группы' черными буквами на желтой полосе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un groupe de 40 cyclistes. Vous approchez d'une intersection non régulée par des feux. Un capitaine de route est présent. Quelle action peut entreprendre le capitaine de route à cette intersection ?",
+      "text_nl": "U leidt een groep van 40 fietsers. U nadert een kruispunt dat niet door verkeerslichten wordt geregeld. Er is een wegkapitein aanwezig. Welke actie kan de wegkapitein op dit kruispunt ondernemen?",
+      "text_ru": "Вы ведете группу из 40 велосипедистов. Вы приближаетесь к перекрестку, не регулируемому светофорами. Присутствует руководитель группы. Какие действия может предпринять руководитель группы на этом перекрестке?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il peut demander aux automobilistes de céder le passage, mais sans immobiliser la circulation.",
+          "text_nl": "Hij kan automobilisten vragen voorrang te verlenen, maar zonder het verkeer stil te leggen.",
+          "text_ru": "Он может попросить водителей уступить дорогу, но не останавливая движение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il peut immobiliser la circulation dans les voies transversales pendant la traversée du groupe.",
+          "text_nl": "Hij kan het verkeer op de dwarsliggende wegen stilleggen tijdens de doortocht van de groep.",
+          "text_ru": "Он может остановить движение на поперечных полосах во время прохождения группы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit s'assurer que les cyclistes empruntent la piste cyclable si elle existe.",
+          "text_nl": "Hij moet ervoor zorgen dat de fietsers het fietspad nemen indien het aanwezig is.",
+          "text_ru": "Он должен убедиться, что велосипедисты используют велосипедную дорожку, если она существует.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 43bis.3.3.2°, un des capitaines de route peut immobiliser la circulation dans les voies transversales aux carrefours non réglés par des signaux lumineux, durant la traversée du groupe. Un groupe de 40 cyclistes est concerné par ces dispositions.",
+      "explanation_nl": "Volgens artikel 43bis.3.3.2° kan een van de wegkapiteins het verkeer op de dwarsliggende wegen stilleggen op kruispunten die niet door verkeerslichten worden geregeld, tijdens de doortocht van de groep. Een groep van 40 fietsers valt onder deze bepalingen.",
+      "explanation_ru": "Согласно статье 43бис.3.3.2°, один из руководителей группы может остановить движение на поперечных полосах на перекрестках, не регулируемых светофорами, во время прохождения группы. Группа из 40 велосипедистов подпадает под эти положения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous faites partie d'un groupe de 100 cyclistes circulant à deux de front sur une chaussée à trois bandes de circulation. De quelle(s) bande(s) de circulation pouvez-vous faire usage ?",
+      "text_nl": "U maakt deel uit van een groep van 100 fietsers die in tweevoud naast elkaar op een rijbaan met drie rijstroken rijden. Welke rijstrook/rijstroken mag u gebruiken?",
+      "text_ru": "Вы являетесь частью группы из 100 велосипедистов, движущихся в два ряда по проезжей части с тремя полосами движения. Какой полосой (полосами) движения вы можете пользоваться?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toutes les bandes de circulation sont autorisées.",
+          "text_nl": "Alle rijstroken zijn toegestaan.",
+          "text_ru": "Все полосы движения разрешены.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement la bande de circulation de droite.",
+          "text_nl": "Alleen de rechterrijstrook.",
+          "text_ru": "Только правая полоса движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les deux bandes de circulation les plus à droite.",
+          "text_nl": "De twee meest rechtse rijstroken.",
+          "text_ru": "Две крайние правые полосы движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43bis.4 stipule que les groupes de cyclistes circulant à deux de front ne peuvent utiliser que la bande de circulation de droite de la chaussée. Un groupe de 100 cyclistes est dans la tranche (51 à 150 participants) où ils peuvent rouler à deux de front.",
+      "explanation_nl": "Artikel 43bis.4 stelt dat groepen fietsers die in tweevoud naast elkaar rijden alleen de rechterrijstrook van de rijbaan mogen gebruiken. Een groep van 100 fietsers valt onder het bereik (51 tot 150 deelnemers) waarin ze in tweevoud naast elkaar mogen rijden.",
+      "explanation_ru": "Статья 43бис.4 гласит, что группы велосипедистов, движущиеся в два ряда, могут использовать только правую полосу движения проезжей части. Группа из 100 велосипедистов относится к категории (от 51 до 150 участников), где они могут двигаться в два ряда."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un groupe de 25 cyclistes est accompagné d'un seul véhicule d'escorte automobile. Quelle est la position correcte de ce véhicule d'escorte ?",
+      "text_nl": "Een groep van 25 fietsers wordt vergezeld door slechts één begeleidende auto. Wat is de correcte positie van dit begeleidende voertuig?",
+      "text_ru": "Группа из 25 велосипедистов сопровождается только одним автомобилем сопровождения. Каково правильное положение этого сопровождающего автомобиля?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule peut être placé à l'avant ou à l'arrière du groupe, à environ 30 mètres.",
+          "text_nl": "Het voertuig kan voor of achter de groep geplaatst worden, op ongeveer 30 meter afstand.",
+          "text_ru": "Автомобиль может быть размещен впереди или позади группы, примерно в 30 метрах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule doit suivre le groupe.",
+          "text_nl": "Het voertuig moet de groep volgen.",
+          "text_ru": "Автомобиль должен следовать за группой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule doit précéder le groupe.",
+          "text_nl": "Het voertuig moet de groep voorgaan.",
+          "text_ru": "Автомобиль должен предшествовать группе.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43bis.2.2. stipule que les cyclotouristes en groupe de 15 à 50 participants peuvent être précédés et suivis par un véhicule d'escorte, mais s'il n'y a qu'un seul véhicule, celui-ci doit suivre le groupe.",
+      "explanation_nl": "Artikel 43bis.2.2. stelt dat wielertoeristen in een groep van 15 tot 50 deelnemers voorafgegaan en gevolgd mogen worden door een begeleidende auto, maar als er slechts één voertuig is, moet dit de groep volgen.",
+      "explanation_ru": "Статья 43бис.2.2. гласит, что велосипедисты в группе от 15 до 50 участников могут сопровождаться автомобилем, но если имеется только один автомобиль, он должен следовать за группой."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "bc2552d881cf",
@@ -57,6 +228,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:56:19Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

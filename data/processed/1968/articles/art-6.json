@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "6",
+  "slug": "art-6",
+  "structure": {
+    "titre": "I",
+    "chapitre": "II"
+  },
+  "title_fr": "Article 6",
+  "title_nl": "Artikel 6",
+  "title_ru": "Статья 6",
+  "content_md_fr": "Les conseils provinciaux ne peuvent faire de règlements complémentaires ayant pour objet la police de la circulation routière.",
+  "content_md_nl": "De provincieraden mogen geen aanvullende reglementen met betrekking tot de politie over het wegverkeer vaststellen.",
+  "content_md_ru": "Провинциальные советы не могут издавать дополнительные правила, касающиеся дорожной полиции.",
+  "content_html_fr": "<p>Les conseils provinciaux ne peuvent faire de règlements complémentaires ayant pour objet la police de la circulation routière.</p>",
+  "content_html_nl": "<p>De provincieraden mogen geen aanvullende reglementen met betrekking tot de politie over het wegverkeer vaststellen.</p>",
+  "full_text_fr": "Les conseils provinciaux ne peuvent faire de règlements complémentaires ayant pour objet la police de la circulation routière.",
+  "full_text_nl": "De provincieraden mogen geen aanvullende reglementen met betrekking tot de politie over het wegverkeer vaststellen.",
+  "full_text_ru": "Провинциальные советы не могут издавать дополнительные правила, касающиеся дорожной полиции.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "rbwfbqfulv",
+  "anchor_id_nl": "vdhxmfhcub",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "c2e2b154ce66",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

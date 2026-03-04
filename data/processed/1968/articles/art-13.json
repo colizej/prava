@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "13",
+  "slug": "art-13",
+  "structure": {
+    "titre": "II",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 13",
+  "title_nl": "Artikel 13",
+  "title_ru": "Статья 13",
+  "content_md_fr": "(Abrogé)\n\n#### Section 2. Obstacles et chantiers",
+  "content_md_nl": "(Opgeheven)\n\n#### Afdeling 2. Verkeersbelemmeringen en werken",
+  "content_md_ru": "(Отменено)\n\n#### Раздел 2. Препятствия и строительные площадки",
+  "content_html_fr": "<p>(Abrogé)</p><h4 id=\"oijvshl5vl\"><strong>Section 2. Obstacles et chantiers</strong></h4>",
+  "content_html_nl": "<p>(Opgeheven)</p><h4 id=\"rmpfdo7wu4\"><strong>Afdeling 2. Verkeersbelemmeringen en werken</strong></h4>",
+  "full_text_fr": "(Abrogé)\n\nSection 2. Obstacles et chantiers",
+  "full_text_nl": "(Opgeheven)\n\nAfdeling 2. Verkeersbelemmeringen en werken",
+  "full_text_ru": "(Отменено)\n\nРаздел 2. Препятствия и строительные площадки",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "qks93lfsi5",
+  "anchor_id_nl": "ck4d74ntrv",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "b2facec6bbc1",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

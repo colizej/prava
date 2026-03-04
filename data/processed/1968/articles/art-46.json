@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "46",
+  "slug": "art-46",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 46",
+  "title_nl": "Artikel 46",
+  "title_ru": "Статья 46",
+  "content_md_fr": "Le Roi détermine les formalités qui doivent être accomplies en ce qui concerne l'exécution des déchéances du droit de conduire.",
+  "content_md_nl": "De Koning bepaalt de formaliteiten die moeten worden vervuld met betrekking tot de uitvoering van de vervallenverklaringen van het recht tot sturen.",
+  "content_md_ru": "Король определяет формальности, которые должны быть соблюдены в отношении принудительного лишения водительских прав.",
+  "content_html_fr": "<p>Le Roi détermine les formalités qui doivent être accomplies en ce qui concerne l'exécution des déchéances du droit de conduire.</p>",
+  "content_html_nl": "<p>De Koning bepaalt de formaliteiten die moeten worden vervuld met betrekking tot de uitvoering van de vervallenverklaringen van het recht tot sturen.</p>",
+  "full_text_fr": "Le Roi détermine les formalités qui doivent être accomplies en ce qui concerne l'exécution des déchéances du droit de conduire.",
+  "full_text_nl": "De Koning bepaalt de formaliteiten die moeten worden vervuld met betrekking tot de uitvoering van de vervallenverklaringen van het recht tot sturen.",
+  "full_text_ru": "Король определяет формальности, которые должны быть соблюдены в отношении принудительного лишения водительских прав.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "safxtybgsu",
+  "anchor_id_nl": "b4hh4k0krc",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "194b929e3991",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

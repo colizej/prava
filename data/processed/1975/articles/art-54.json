@@ -26,7 +26,193 @@
   "anchor_id_fr": "b9qahakvru",
   "anchor_id_nl": "1ca4k38q8v",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 54, dans quelle situation un conducteur doit-il tirer une charrette à bras ?",
+      "text_nl": "Volgens artikel 54, in welke situatie moet een bestuurder een handkar trekken?",
+      "text_ru": "Согласно статье 54, в какой ситуации водитель должен тянуть тележку?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person pulling a handcart because they cannot see forward."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque la charrette à bras est trop lourde.",
+          "text_nl": "Wanneer de handkar te zwaar is.",
+          "text_ru": "Когда тележка слишком тяжелая.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque la charrette à bras ou son chargement ne laisse pas une visibilité suffisante vers l'avant.",
+          "text_nl": "Wanneer de handkar of de lading hiervan niet voldoende zicht naar voren vrijlaat.",
+          "text_ru": "Когда тележка или ее груз не обеспечивают достаточный обзор вперед.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsque le conducteur rencontre une pente.",
+          "text_nl": "Wanneer de bestuurder een helling tegenkomt.",
+          "text_ru": "Когда водитель сталкивается с уклоном.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 54 stipule que le conducteur doit tirer sa charrette à bras si la visibilité vers l'avant est insuffisante en raison de la charrette elle-même ou de son chargement.",
+      "explanation_nl": "Artikel 54 stelt dat de bestuurder zijn handkar moet trekken als het zicht naar voren onvoldoende is vanwege de kar zelf of de lading ervan.",
+      "explanation_ru": "Статья 54 гласит, что водитель должен тянуть свою тележку, если обзор вперед недостаточен из-за самой тележки или ее груза."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la signification de 'visibilité suffisante vers l'avant' dans le contexte de l'article 54 concernant les charrettes à bras ?",
+      "text_nl": "Wat is de betekenis van 'voldoende zicht naar voren' in de context van artikel 54 betreffende handkarren?",
+      "text_ru": "Что означает «достаточный обзор вперед» в контексте статьи 54, касающейся тележек?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A driver's view forward is blocked by a large object in front of them."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pouvoir voir au moins 5 mètres devant soi.",
+          "text_nl": "Minstens 5 meter voor zich kunnen zien.",
+          "text_ru": "Возможность видеть как минимум на 5 метров впереди.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pouvoir anticiper les dangers potentiels et réagir à temps.",
+          "text_nl": "Potentiële gevaren kunnen anticiperen en tijdig reageren.",
+          "text_ru": "Возможность предвидеть потенциальные опасности и вовремя реагировать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Voir la fin de la rue.",
+          "text_nl": "Het einde van de straat kunnen zien.",
+          "text_ru": "Видеть конец улицы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La 'visibilité suffisante vers l'avant' implique la capacité d'anticiper les dangers potentiels sur la route et de réagir de manière appropriée, ce qui est essentiel pour la sécurité.",
+      "explanation_nl": "'Voldoende zicht naar voren' impliceert het vermogen om potentiële gevaren op de weg te anticiperen en adequaat te reageren, wat essentieel is voor de veiligheid.",
+      "explanation_ru": "«Достаточный обзор вперед» подразумевает способность предвидеть потенциальные опасности на дороге и адекватно реагировать, что является ключевым для безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous poussez une charrette à bras chargée de meubles dans une rue animée. Votre champ de vision est partiellement obstrué par un grand fauteuil. Que devez-vous faire pour respecter l'article 54 ?",
+      "text_nl": "U duwt een handkar beladen met meubels in een drukke straat. Uw zicht naar voren is gedeeltelijk belemmerd door een grote fauteuil. Wat moet u doen om artikel 54 na te leven?",
+      "text_ru": "Вы толкаете тележку, груженную мебелью, по оживленной улице. Ваш обзор вперед частично ограничен большим креслом. Что вы должны сделать, чтобы соблюсти статью 54?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person pushing a handcart with furniture, their view forward is blocked by a large armchair."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à pousser en essayant de regarder sur les côtés.",
+          "text_nl": "Blijven duwen terwijl u probeert opzij te kijken.",
+          "text_ru": "Продолжать толкать, пытаясь смотреть по сторонам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêter de pousser et tirer la charrette à bras pour améliorer votre visibilité.",
+          "text_nl": "Stoppen met duwen en de handkar trekken om uw zicht te verbeteren.",
+          "text_ru": "Прекратить толкать и тянуть тележку, чтобы улучшить обзор.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander à quelqu'un de vous guider verbalement.",
+          "text_nl": "Een beroep doen op iemand om u verbaal te begeleiden.",
+          "text_ru": "Попросить кого-нибудь направлять вас словесно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 54 exige de tirer la charrette à bras lorsque la visibilité vers l'avant est insuffisante. Tirer la charrette améliore directement votre champ de vision.",
+      "explanation_nl": "Artikel 54 vereist dat u de handkar trekt wanneer het zicht naar voren onvoldoende is. Het trekken van de kar verbetert direct uw zichtveld.",
+      "explanation_ru": "Статья 54 требует тянуть тележку, когда обзор вперед недостаточен. Тянуть тележку напрямую улучшает ваше поле зрения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes sur une voie cyclable et approchez d'une intersection. Vous poussez une charrette à bras dont le chargement dépasse légèrement sur le côté, rendant votre visibilité vers la droite précaire. Comment devez-vous procéder selon l'article 54 ?",
+      "text_nl": "U bevindt zich op een fietspad en nadert een kruispunt. U duwt een handkar waarvan de lading lichtjes aan de zijkant uitsteekt, waardoor uw zicht naar rechts precair is. Hoe moet u te werk gaan volgens artikel 54?",
+      "text_ru": "Вы находитесь на велосипедной дорожке и приближаетесь к перекрестку. Вы толкаете тележку, груз которой немного выступает сбоку, делая ваш обзор вправо затрудненным. Как вы должны поступить согласно статье 54?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person on a bike path pushing a handcart with an overhanging load, approaching an intersection, with limited visibility to the right."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à pousser et à essayer de voir en tournant la tête.",
+          "text_nl": "Blijven duwen en proberen te kijken door uw hoofd te draaien.",
+          "text_ru": "Продолжать толкать и пытаться смотреть, поворачивая голову.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter avant l'intersection, tirer la charrette pour dégager la visibilité, puis traverser prudemment.",
+          "text_nl": "Stoppen voor het kruispunt, de handkar trekken om het zicht vrij te maken, en dan voorzichtig oversteken.",
+          "text_ru": "Остановиться перед перекрестком, тянуть тележку, чтобы освободить обзор, затем осторожно пересечь.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pousser rapidement pour traverser avant que la situation ne s'aggrave.",
+          "text_nl": "Snel duwen om over te steken voordat de situatie verergert.",
+          "text_ru": "Толкнуть быстро, чтобы пересечь, прежде чем ситуация ухудшится.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 54 s'applique à toute situation où la visibilité est insuffisante, y compris pour les manœuvres d'intersection. Tirer la charrette est la seule façon de garantir une visibilité adéquate dans ce cas.",
+      "explanation_nl": "Artikel 54 is van toepassing op elke situatie waarin het zicht onvoldoende is, inclusief kruispuntmanoeuvres. Het trekken van de kar is de enige manier om in dit geval voldoende zicht te garanderen.",
+      "explanation_ru": "Статья 54 применяется ко всем ситуациям, когда обзор недостаточен, включая маневрирование на перекрестках. Тянуть тележку - единственный способ обеспечить адекватный обзор в данном случае."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous poussez une charrette à bras sur un trottoir large et dégagé. Votre visibilité vers l'avant est parfaite. Le conducteur de la charrette à bras doit-il tirer ou pousser le véhicule dans cette situation, selon l'article 54 ?",
+      "text_nl": "U duwt een handkar op een breed en vrij voetpad. Uw zicht naar voren is perfect. Moet de bestuurder van de handkar het voertuig in deze situatie trekken of duwen, volgens artikel 54?",
+      "text_ru": "Вы толкаете тележку по широкому и свободному тротуару. Ваш обзор вперед идеален. Должен ли водитель тележки тянуть или толкать транспортное средство в этой ситуации, согласно статье 54?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person pushing a handcart on a wide, clear sidewalk with perfect forward visibility."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tirer la charrette.",
+          "text_nl": "De handkar trekken.",
+          "text_ru": "Тянуть тележку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pousser la charrette.",
+          "text_nl": "De handkar duwen.",
+          "text_ru": "Толкать тележку.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend du poids de la charrette.",
+          "text_nl": "Het hangt af van het gewicht van de handkar.",
+          "text_ru": "Это зависит от веса тележки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 54 impose de tirer la charrette uniquement lorsque la visibilité vers l'avant est insuffisante. Si la visibilité est parfaite, la pousser est acceptable.",
+      "explanation_nl": "Artikel 54 vereist alleen het trekken van de handkar wanneer het zicht naar voren onvoldoende is. Als het zicht perfect is, is duwen acceptabel.",
+      "explanation_ru": "Статья 54 требует тянуть тележку только при недостаточной видимости вперед. Если видимость идеальна, толкать допустимо."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "ae09e8bbe8e6",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:39:39Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

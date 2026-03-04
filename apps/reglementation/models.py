@@ -18,6 +18,8 @@ class RuleCategory(models.Model):
 
     order = models.IntegerField('Ordre', default=0)
     is_active = models.BooleanField('Actif', default=True)
+    law_id = models.CharField('Loi', max_length=20, default='1975', db_index=True,
+                              help_text='ID de la loi source (ex: 1975, 1968, 2005)')
 
     class Meta:
         verbose_name = 'Catégorie règles'
@@ -63,6 +65,8 @@ class CodeArticle(models.Model):
     is_free = models.BooleanField('Gratuit', default=True,
                                   help_text='Visible sans abonnement premium.')
     order = models.IntegerField('Ordre', default=0)
+    law_id = models.CharField('Loi', max_length=20, default='1975', db_index=True,
+                              help_text='ID de la loi source (ex: 1975, 1968, 2005)')
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -71,6 +75,9 @@ class CodeArticle(models.Model):
         verbose_name = 'Article du code'
         verbose_name_plural = 'Articles du code'
         ordering = ['order', 'article_number']
+        indexes = [
+            models.Index(fields=['law_id', 'article_number']),
+        ]
 
     def __str__(self):
         return f'{self.article_number} — {self.title}'

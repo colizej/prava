@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "68",
+  "slug": "art-68",
+  "structure": {
+    "titre": "V",
+    "chapitre": "V"
+  },
+  "title_fr": "Article 68",
+  "title_nl": "Artikel 68",
+  "title_ru": "Статья 68",
+  "content_md_fr": "L'action publique résultant d'une infraction à la présente loi ainsi qu'aux arrêtés pris en exécution de celle-ci est prescrite après deux ans révolus à compter du jour où l'infraction a été commise; ce délai est toutefois de trois ans, à dater du jour où l'infraction a été commise, pour les infractions aux articles 30, § 1er et § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1er, 1° et 4° à 6°, et 48.",
+  "content_md_nl": "De strafvordering die het gevolg is van een overtreding van deze wet alsmede van de ter uitvoering ervan vastgestelde besluiten, verjaart door verloop van twee jaar te rekenen van de dag waarop de overtreding is begaan; deze termijn bedraagt evenwel drie jaar te rekenen van de dag waarop de overtreding is begaan voor overtredingen van [artikel 30](#art-30), § 1 en §3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° en 4° tot 6° en 48.",
+  "content_md_ru": "Публичный иск в связи с нарушением настоящего закона и постановлений, изданных во исполнение его, теряет силу по истечении двух лет со дня совершения нарушения; однако этот срок составляет три года со дня совершения нарушения в случае нарушения статей 30, § 1 и § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° и 4°-6°, и 48.",
+  "content_html_fr": "<p>L'action publique résultant d'une infraction à la présente loi ainsi qu'aux arrêtés pris en exécution de celle-ci est prescrite après deux ans révolus à compter du jour où l'infraction a été commise; ce délai est toutefois de trois ans, à dater du jour où l'infraction a été commise, pour les infractions aux articles 30, § 1<sup>er</sup> et § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1<sup>er</sup>, 1° et 4° à 6°, et 48.</p>",
+  "content_html_nl": "<p>De strafvordering die het gevolg is van een overtreding van deze wet alsmede van de ter uitvoering ervan vastgestelde besluiten, verjaart door verloop van twee jaar te rekenen van de dag waarop de overtreding is begaan; deze termijn bedraagt evenwel drie jaar te rekenen van de dag waarop de overtreding is begaan voor overtredingen van <a href=\"#art-30\">artikel 30</a>, § 1 en §3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° en 4° tot 6° en 48.</p>",
+  "full_text_fr": "L'action publique résultant d'une infraction à la présente loi ainsi qu'aux arrêtés pris en exécution de celle-ci est prescrite après deux ans révolus à compter du jour où l'infraction a été commise; ce délai est toutefois de trois ans, à dater du jour où l'infraction a été commise, pour les infractions aux articles 30, § 1er et § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1er, 1° et 4° à 6°, et 48.",
+  "full_text_nl": "De strafvordering die het gevolg is van een overtreding van deze wet alsmede van de ter uitvoering ervan vastgestelde besluiten, verjaart door verloop van twee jaar te rekenen van de dag waarop de overtreding is begaan; deze termijn bedraagt evenwel drie jaar te rekenen van de dag waarop de overtreding is begaan voor overtredingen van artikel 30, § 1 en §3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° en 4° tot 6° en 48.",
+  "full_text_ru": "Публичный иск в связи с нарушением настоящего закона и постановлений, изданных во исполнение его, теряет силу по истечении двух лет со дня совершения нарушения; однако этот срок составляет три года со дня совершения нарушения в случае нарушения статей 30, § 1 и § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° и 4°-6°, и 48.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "xlqd89thsr",
+  "anchor_id_nl": "8xq6jgs8ua",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "8e7566886f4b",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

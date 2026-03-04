@@ -28,7 +28,187 @@
   "anchor_id_fr": "hujdsldnvn",
   "anchor_id_nl": "xgtnpozgzw",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 39, dans quelles zones de circulation cette règle spécifique concernant les autobus et trolleybus s'applique-t-elle principalement ?",
+      "text_nl": "Volgens artikel 39, in welke verkeerszones is deze specifieke regel betreffende bussen en trolleybussen voornamelijk van toepassing?",
+      "text_ru": "Согласно статье 39, в каких зонах движения преимущественно применяется данное конкретное правило, касающееся автобусов и троллейбусов?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dans toutes les zones de circulation.",
+          "text_nl": "In alle verkeerszones.",
+          "text_ru": "Во всех зонах движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dans les agglomérations.",
+          "text_nl": "Binnen de bebouwde kommen.",
+          "text_ru": "В населенных пунктах.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sur les autoroutes uniquement.",
+          "text_nl": "Enkel op autosnelwegen.",
+          "text_ru": "Только на автомагистралях.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 39 stipule explicitement que le comportement décrit s'applique 'Dans les agglomérations' ou 'Binnen de bebouwde kommen'.",
+      "explanation_nl": "Artikel 39 stelt expliciet dat het beschreven gedrag van toepassing is 'Binnen de bebouwde kommen'.",
+      "explanation_ru": "Статья 39 явно указывает, что описанное поведение применяется «В населенных пунктах»."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que doit faire un conducteur qui suit un autobus ou un trolleybus dans une agglomération, lorsque celui-ci manifeste son intention de quitter son point d'arrêt ?",
+      "text_nl": "Wat moet een bestuurder doen die een bus of trolleybus volgt in een bebouwde kom, wanneer deze zijn intentie kenbaar maakt om zijn halteplaats te verlaten?",
+      "text_ru": "Что должен сделать водитель, следующий за автобусом или троллейбусом в населенном пункте, когда тот проявляет намерение покинуть свою остановку?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour dépasser l'autobus avant qu'il ne quitte la station.",
+          "text_nl": "Versnellen om de bus in te halen voordat deze het station verlaat.",
+          "text_ru": "Ускориться, чтобы обогнать автобус до того, как он покинет остановку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et, au besoin, s'arrêter pour laisser passer l'autobus.",
+          "text_nl": "Vertragen en, indien nodig, stoppen om de bus te laten passeren.",
+          "text_ru": "Замедлиться и, при необходимости, остановиться, чтобы пропустить автобус.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer sa route sans modifier sa vitesse.",
+          "text_nl": "Zijn weg vervolgen zonder zijn snelheid aan te passen.",
+          "text_ru": "Продолжать движение, не изменяя скорость.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 39 précise que le conducteur 'doit ralentir et, au besoin, s'arrêter' pour permettre au bus ou trolleybus de quitter son point d'arrêt.",
+      "explanation_nl": "Artikel 39 specificeert dat de bestuurder 'moet vertragen en, zo nodig, stoppen' om de bus of trolleybus zijn halteplaats te laten verlaten.",
+      "explanation_ru": "Статья 39 уточняет, что водитель «должен замедлиться и, при необходимости, остановиться», чтобы позволить автобусу или троллейбусу покинуть свою остановку."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez dans une agglomération, sur une route à deux voies dans la même direction. Un autobus devant vous active son clignotant gauche pour quitter sa station. Vous êtes dans la voie de droite. Quelle est votre réaction immédiate ?",
+      "text_nl": "U rijdt in een bebouwde kom, op een weg met twee rijstroken in dezelfde richting. Een bus voor u activeert zijn linker richtingaanwijzer om zijn halteplaats te verlaten. U bevindt zich op de rechter rijstrook. Wat is uw onmiddellijke reactie?",
+      "text_ru": "Вы едете в населенном пункте по двухполосной дороге в одном направлении. Автобус впереди вас включает левый поворотник, чтобы покинуть остановку. Вы находитесь в правом ряду. Какова ваша немедленная реакция?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road scene in a built-up area with two lanes going in the same direction. An autobus is in the left lane, stopped at a bus stop, and has its left turn signal flashing. A car is in the right lane, behind the autobus, approaching the bus stop."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous continuez à la même vitesse car l'autobus est dans une autre voie.",
+          "text_nl": "U gaat door met dezelfde snelheid omdat de bus op een andere rijstrook rijdt.",
+          "text_ru": "Вы продолжаете движение с той же скоростью, потому что автобус находится на другой полосе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ralentissez et vous préparez à vous arrêter si l'autobus s'engage dans votre voie.",
+          "text_nl": "U vertraagt en bereidt u voor om te stoppen als de bus uw rijstrook oprijdt.",
+          "text_ru": "Вы замедляетесь и готовитесь остановиться, если автобус выезжает на вашу полосу.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous ralentissez et, au besoin, vous vous arrêtez pour permettre à l'autobus de quitter sa station.",
+          "text_nl": "U vertraagt en stopt, indien nodig, om de bus zijn halteplaats te laten verlaten.",
+          "text_ru": "Вы замедляетесь и, при необходимости, останавливаетесь, чтобы позволить автобусу покинуть остановку.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Selon l'article 39, vous devez permettre à l'autobus de quitter son point d'arrêt en ralentissant et en vous arrêtant si nécessaire, même si vous êtes dans une voie adjacente.",
+      "explanation_nl": "Volgens artikel 39 moet u de bus toestaan zijn halteplaats te verlaten door te vertragen en indien nodig te stoppen, zelfs als u zich op een aangrenzende rijstrook bevindt.",
+      "explanation_ru": "Согласно статье 39, вы должны позволить автобусу покинуть свою остановку, замедлившись и, при необходимости, остановившись, даже если вы находитесь на соседней полосе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes le conducteur d'un autobus dans une agglomération. Vous êtes à l'arrêt et souhaitez reprendre la circulation. Vous avez activé vos feux indicateurs de direction. Que pouvez-vous attendre des autres usagers de la route qui vous suivent dans la même direction ?",
+      "text_nl": "U bent de bestuurder van een bus in een bebouwde kom. U staat aan de halte en wilt weer gaan rijden. U heeft uw richtingaanwijzers ingeschakeld. Wat mag u verwachten van andere weggebruikers die u in dezelfde richting volgen?",
+      "text_ru": "Вы водитель автобуса в населенном пункте. Вы находитесь на остановке и хотите возобновить движение. Вы включили указатели поворота. Чего вы можете ожидать от других участников дорожного движения, следующих за вами в том же направлении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A bus at a bus stop in a city street. The bus has its left turn signal on, indicating it intends to pull out into traffic. Another vehicle is visible behind the bus in the same lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent vous céder le passage même si l'article 12.4 s'applique normalement.",
+          "text_nl": "Zij moeten u voorrang verlenen, zelfs als artikel 12.4 normaal gesproken van toepassing is.",
+          "text_ru": "Они должны уступить вам дорогу, даже если обычно применяется статья 12.4.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent ralentir et s'arrêter si nécessaire pour vous laisser repartir.",
+          "text_nl": "Zij moeten vertragen en indien nodig stoppen om u te laten vertrekken.",
+          "text_ru": "Они должны замедлиться и, при необходимости, остановиться, чтобы дать вам возможность уехать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils peuvent continuer sans adapter leur vitesse, car vous devez leur céder le passage selon l'article 12.4.",
+          "text_nl": "Zij mogen hun snelheid niet aanpassen, omdat u hen voorrang moet verlenen volgens artikel 12.4.",
+          "text_ru": "Они могут продолжать движение без изменения скорости, так как вы должны уступить им дорогу согласно статье 12.4.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 39 indique que les conducteurs qui suivent doivent permettre au bus de quitter son arrêt. Il précise aussi que, par dérogation à l'article 12.4, le conducteur du bus n'a pas à céder le passage aux autres conducteurs le suivant.",
+      "explanation_nl": "Artikel 39 geeft aan dat de volgende bestuurders de bus moeten toelaten zijn halte te verlaten. Het specificeert ook dat, in afwijking van artikel 12.4, de buschauffeur geen voorrang hoeft te verlenen aan andere bestuurders die hem volgen.",
+      "explanation_ru": "Статья 39 указывает, что следующие водители должны позволить автобусу покинуть свою остановку. Также уточняется, что в отличие от статьи 12.4, водитель автобуса не должен уступать дорогу другим водителям, следующим за ним."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à un carrefour dans une agglomération. Vous voyez un trolleybus sur votre droite, dans la même direction, qui est arrêté à un arrêt de bus. Il actionne son clignotant droit pour s'engager. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt in een bebouwde kom. U ziet een trolleybus rechts van u, in dezelfde richting, die aan een bushalte staat. Hij activeert zijn rechter richtingaanwijzer om in te voegen. Wat moet u doen?",
+      "text_ru": "Вы подъезжаете к перекрестку в населенном пункте. Вы видите троллейбус справа от вас, в том же направлении, который стоит на автобусной остановке. Он включает правый указатель поворота, чтобы выехать. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An intersection in a built-up area. A trolleybus is stopped at a bus stop on the right side of the road, in the same direction of travel. The trolleybus has its right turn signal flashing, indicating it wants to merge into traffic. A car is approaching the intersection from behind the trolleybus."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer sans ralentir car le trolleybus doit vous céder le passage.",
+          "text_nl": "Doorgaan zonder te vertragen omdat de trolleybus u voorrang moet verlenen.",
+          "text_ru": "Продолжать движение без замедления, так как троллейбус должен уступить вам дорогу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et, au besoin, vous arrêter pour laisser le trolleybus reprendre sa route.",
+          "text_nl": "Vertragen en, indien nodig, stoppen om de trolleybus zijn weg te laten vervolgen.",
+          "text_ru": "Замедлиться и, при необходимости, остановиться, чтобы позволить троллейбусу продолжить движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour signaler votre présence et passer avant le trolleybus.",
+          "text_nl": "Claxonneren om uw aanwezigheid te signaleren en passeren voordat de trolleybus uitrijdt.",
+          "text_ru": "Посигналить, чтобы обозначить свое присутствие, и проехать перед троллейбусом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 39 oblige les conducteurs qui suivent un autobus ou un trolleybus à lui permettre de quitter son point d'arrêt en ralentissant et en s'arrêtant si nécessaire.",
+      "explanation_nl": "Artikel 39 verplicht bestuurders die een bus of trolleybus volgen om deze zijn halteplaats te laten verlaten door te vertragen en indien nodig te stoppen.",
+      "explanation_ru": "Статья 39 обязывает водителей, следующих за автобусом или троллейбусом, позволить ему покинуть свою остановку, замедлившись и, при необходимости, остановившись."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "12a2d2b8380e",
@@ -38,6 +218,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:53:26Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

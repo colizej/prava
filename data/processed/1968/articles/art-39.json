@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "39",
+  "slug": "art-39",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 39",
+  "title_nl": "Artikel 39",
+  "title_ru": "Статья 39",
+  "content_md_fr": "Si par suite de concours d'infractions, les peines privatives de liberté et les amendes prévues par les présentes lois coordonnées ne sont pas prononcées, la déchéance du droit de conduire l'est néanmoins dans les conditions qui y sont déterminées.",
+  "content_md_nl": "Indien ingevolge samenloop van misdrijven de bij deze gecoördineerde wetten bepaalde vrijheidsstraffen en geldboeten niet uitgesproken worden, is dit nochtans wel het geval voor het verval van het recht tot sturen onder de voorwaarden als bepaald in deze wetten.",
+  "content_md_ru": "Если в результате совокупности правонарушений не были назначены наказания в виде лишения свободы и штрафов, предусмотренные этими скоординированными законами, право на управление транспортным средством все же отнимается в соответствии с условиями, изложенными в настоящем документе.",
+  "content_html_fr": "<p>Si par suite de concours d'infractions, les peines privatives de liberté et les amendes prévues par les présentes lois coordonnées ne sont pas prononcées, la déchéance du droit de conduire l'est néanmoins dans les conditions qui y sont déterminées.</p>",
+  "content_html_nl": "<p>Indien ingevolge samenloop van misdrijven de bij deze gecoördineerde wetten bepaalde vrijheidsstraffen en geldboeten niet uitgesproken worden, is dit nochtans wel het geval voor het verval van het recht tot sturen onder de voorwaarden als bepaald in deze wetten.</p>",
+  "full_text_fr": "Si par suite de concours d'infractions, les peines privatives de liberté et les amendes prévues par les présentes lois coordonnées ne sont pas prononcées, la déchéance du droit de conduire l'est néanmoins dans les conditions qui y sont déterminées.",
+  "full_text_nl": "Indien ingevolge samenloop van misdrijven de bij deze gecoördineerde wetten bepaalde vrijheidsstraffen en geldboeten niet uitgesproken worden, is dit nochtans wel het geval voor het verval van het recht tot sturen onder de voorwaarden als bepaald in deze wetten.",
+  "full_text_ru": "Если в результате совокупности правонарушений не были назначены наказания в виде лишения свободы и штрафов, предусмотренные этими скоординированными законами, право на управление транспортным средством все же отнимается в соответствии с условиями, изложенными в настоящем документе.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "nmm122wnzv",
+  "anchor_id_nl": "dvtpbnhnj2",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "cc56dd6e61e7",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

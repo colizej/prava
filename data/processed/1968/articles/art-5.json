@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "5",
+  "slug": "art-5",
+  "structure": {
+    "titre": "I",
+    "chapitre": "II"
+  },
+  "title_fr": "Article 5",
+  "title_nl": "Artikel 5",
+  "title_ru": "Статья 5",
+  "content_md_fr": "Le Roi peut charger:\n\n**1°** les gouverneurs de province, de régler la circulation sur toutes les routes en temps de dégel;\n\n**2°** les députations permanentes, d'intervenir, en dehors du temps de dégel, dans l'application des tarifs de chargement et dans la détermination des conditions imposées à l'usage des locomotives routières.",
+  "content_md_nl": "Door de Koning kan opdracht worden gegeven :\n\n**1°** aan de provinciegouverneurs om het verkeer op alle wegen, in dooitijd, te regelen;\n\n**2°** aan de bestendige deputaties om buiten dooitijd op te treden bij de toepassing van de ladingstarieven en de vaststelling van de voorwaarden voor het gebruik van straatlocomotieven.",
+  "content_md_ru": "Король может предъявить обвинение:\n\n**1°** губернаторам провинций регулировать движение на всех дорогах в период оттепели;\n\n**2°** постоянным представительствам, вмешиваться в период оттепели в применение норм загрузки и в определение условий использования дорожных локомотивов.",
+  "content_html_fr": "<p>Le Roi peut charger:</p><p style=\"padding-left: 30px;\"><strong>1°</strong> les gouverneurs de province, de régler la circulation sur toutes les routes en temps de dégel;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> les députations permanentes, d'intervenir, en dehors du temps de dégel, dans l'application des tarifs de chargement et dans la détermination des conditions imposées à l'usage des locomotives routières.</p>",
+  "content_html_nl": "<p>Door de Koning kan opdracht worden gegeven :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> aan de provinciegouverneurs om het verkeer op alle wegen, in dooitijd, te regelen;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> aan de bestendige deputaties om buiten dooitijd op te treden bij de toepassing van de ladingstarieven en de vaststelling van de voorwaarden voor het gebruik van straatlocomotieven.</p>",
+  "full_text_fr": "Le Roi peut charger:\n\n1° les gouverneurs de province, de régler la circulation sur toutes les routes en temps de dégel;\n\n2° les députations permanentes, d'intervenir, en dehors du temps de dégel, dans l'application des tarifs de chargement et dans la détermination des conditions imposées à l'usage des locomotives routières.",
+  "full_text_nl": "Door de Koning kan opdracht worden gegeven :\n\n1° aan de provinciegouverneurs om het verkeer op alle wegen, in dooitijd, te regelen;\n\n2° aan de bestendige deputaties om buiten dooitijd op te treden bij de toepassing van de ladingstarieven en de vaststelling van de voorwaarden voor het gebruik van straatlocomotieven.",
+  "full_text_ru": "Король может предъявить обвинение:\n\n1° губернаторам провинций регулировать движение на всех дорогах в период оттепели;\n\n2° постоянным представительствам, вмешиваться в период оттепели в применение норм загрузки и в определение условий использования дорожных локомотивов.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "awvvahqdrq",
+  "anchor_id_nl": "z7jrw0foy1",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "f24d532dc365",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -26,7 +26,193 @@
   "anchor_id_fr": "li0ngbvll0",
   "anchor_id_nl": "9umg7limll",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 56bis, quelles conditions doivent être remplies pour que certains articles du code de la route ne soient pas applicables aux véhicules folkloriques ?",
+      "text_nl": "Volgens artikel 56bis, aan welke voorwaarden moeten folkloristische voertuigen voldoen om van bepaalde artikelen van het verkeersreglement te worden vrijgesteld?",
+      "text_ru": "Согласно статье 56bis, каким условиям должны соответствовать фольклорные транспортные средства, чтобы на них не распространялись некоторые статьи правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A simple illustration of a festive parade float with flags."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule doit être utilisé quotidiennement pour des manifestations folkloriques et ne jamais dépasser 30 km/h.",
+          "text_nl": "Het voertuig moet dagelijks voor folkloristische manifestaties worden gebruikt en mag nooit sneller dan 30 km/u rijden.",
+          "text_ru": "Транспортное средство должно ежедневно использоваться для фольклорных мероприятий и никогда не превышать 30 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule doit être destiné exclusivement aux manifestations folkloriques, ne circuler sur la voie publique qu'exceptionnellement pour ces manifestations (ou pour s'y rendre/en revenir, ou pour des essais) et ne pas dépasser 25 km/h.",
+          "text_nl": "Het voertuig moet uitsluitend bestemd zijn voor folkloristische manifestaties, slechts uitzonderlijk op de openbare weg komen voor deze manifestaties (of om ernaartoe te rijden of ervan terug te keren, of voor proefritten) en niet sneller dan 25 km/u rijden.",
+          "text_ru": "Транспортное средство должно быть предназначено исключительно для фольклорных мероприятий, выезжать на дороги общего пользования только в исключительных случаях для этих мероприятий (или для поездки туда/обратно, или для испытаний) и не превышать 25 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule doit avoir une autorisation spéciale de la police et ne jamais rouler la nuit.",
+          "text_nl": "Het voertuig moet een speciale toestemming van de politie hebben en mag nooit 's nachts rijden.",
+          "text_ru": "Транспортное средство должно иметь специальное разрешение полиции и никогда не ездить ночью.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 56bis stipule que les articles mentionnés ne s'appliquent pas aux véhicules folkloriques s'ils sont exclusivement destinés à ces manifestations, s'ils ne circulent sur la voie publique qu'exceptionnellement pour ces manifestations (ou pour s'y rendre/en revenir, ou pour des essais) et s'ils ne dépassent pas la vitesse de 25 km/h.",
+      "explanation_nl": "Artikel 56bis bepaalt dat de genoemde artikelen niet van toepassing zijn op folkloristische voertuigen indien deze uitsluitend bestemd zijn voor deze manifestaties, slechts uitzonderlijk op de openbare weg komen voor deze manifestaties (of om ernaartoe te rijden of ervan terug te keren, of voor proefritten) en niet sneller dan 25 km/u rijden.",
+      "explanation_ru": "Статья 56bis гласит, что упомянутые статьи не применяются к фольклорным транспортным средствам, если они предназначены исключительно для таких мероприятий, выезжают на дороги общего пользования только в исключительных случаях для этих мероприятий (или для поездки туда/обратно, или для испытаний) и не превышают скорость 25 км/ч."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la vitesse maximale autorisée pour un véhicule folklorique afin de bénéficier des dérogations prévues par l'article 56bis ?",
+      "text_nl": "Wat is de maximaal toegestane snelheid voor een folkloristisch voertuig om te kunnen genieten van de uitzonderingen voorzien in artikel 56bis?",
+      "text_ru": "Какова максимально допустимая скорость для фольклорного транспортного средства, чтобы воспользоваться исключениями, предусмотренными статьей 56bis?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An icon representing speed limit, possibly with a festive element."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "30 km/h",
+          "text_nl": "30 km/u",
+          "text_ru": "30 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "25 km/h",
+          "text_nl": "25 km/u",
+          "text_ru": "25 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune limite de vitesse spécifique n'est mentionnée, tant que la conduite est prudente.",
+          "text_nl": "Er is geen specifieke snelheidslimiet vermeld, zolang er voorzichtig wordt gereden.",
+          "text_ru": "Какого-либо конкретного ограничения скорости не указано, при условии осторожного вождения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 56bis précise explicitement que la vitesse ne doit pas dépasser 25 km à l'heure pour que les dérogations s'appliquent.",
+      "explanation_nl": "Artikel 56bis bepaalt expliciet dat de snelheid niet hoger mag zijn dan 25 km per uur om van de uitzonderingen te kunnen genieten.",
+      "explanation_ru": "Статья 56bis прямо указывает, что скорость не должна превышать 25 км в час, чтобы исключения применялись."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un char allégorique décoré pour une fête communale. Vous devez parcourir 2 km sur la voie publique pour rejoindre le début du cortège. Vous roulez à 20 km/h. Les articles 46, 48, 49.1, etc. s'appliquent-ils à votre véhicule dans cette situation ?",
+      "text_nl": "U bestuurt een praalwagen die versierd is voor een gemeentelijk feest. U moet 2 km over de openbare weg afleggen om aan het begin van de stoet te geraken. U rijdt 20 km/u. Zijn de artikelen 46, 48, 49.1, enz. van toepassing op uw voertuig in deze situatie?",
+      "text_ru": "Вы управляете платформой, украшенной для городского праздника. Вам нужно проехать 2 км по дороге общего пользования, чтобы добраться до начала шествия. Вы едете со скоростью 20 км/ч. Применяются ли к вашему транспортному средству в данной ситуации статьи 46, 48, 49.1 и т.д.?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A festive parade float driving on a paved road with a few spectators on the side."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car vous êtes sur la voie publique.",
+          "text_nl": "Ja, want u bent op de openbare weg.",
+          "text_ru": "Да, потому что вы находитесь на дороге общего пользования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car le véhicule est destiné à une manifestation folklorique, se rend sur le lieu de celle-ci et ne dépasse pas 25 km/h.",
+          "text_nl": "Nee, want het voertuig is bestemd voor een folkloristische manifestatie, is op weg ernaartoe en rijdt niet sneller dan 25 km/u.",
+          "text_ru": "Нет, потому что транспортное средство предназначено для фольклорного мероприятия, направляется к месту его проведения и не превышает 25 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si la commune a donné une autorisation écrite spécifique pour ce trajet.",
+          "text_nl": "Alleen als de gemeente een specifieke schriftelijke toestemming heeft gegeven voor deze rit.",
+          "text_ru": "Только если муниципалитет дал специальное письменное разрешение на эту поездку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 56bis, les dérogations s'appliquent aux véhicules folkloriques qui se rendent sur le lieu d'une manifestation autorisée, pour autant qu'ils ne dépassent pas 25 km/h. Votre situation remplit ces conditions.",
+      "explanation_nl": "Volgens artikel 56bis zijn de uitzonderingen van toepassing op folkloristische voertuigen die op weg zijn naar een toegelaten manifestatie, op voorwaarde dat ze niet sneller dan 25 km/u rijden. Uw situatie voldoet aan deze voorwaarden.",
+      "explanation_ru": "Согласно статье 56bis, исключения применяются к фольклорным транспортным средствам, направляющимся к месту проведения разрешенного мероприятия, при условии, что они не превышают 25 км/ч. Ваша ситуация соответствует этим условиям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes en train de tester un véhicule folklorique dans un champ privé, à une vitesse de 30 km/h, en vue d'une manifestation. Un policier vous arrête alors que vous venez de sortir brièvement sur la voie publique pour rejoindre un autre champ privé. Les articles 46, 48, 49.1, etc. sont-ils applicables ?",
+      "text_nl": "U bent een folkloristisch voertuig aan het testen in een privédomein, aan een snelheid van 30 km/u, met het oog op een manifestatie. Een politieagent houdt u tegen wanneer u even de openbare weg op bent gereden om een ander privédomein te bereiken. Zijn de artikelen 46, 48, 49.1, enz. van toepassing?",
+      "text_ru": "Вы тестируете фольклорное транспортное средство на частной территории со скоростью 30 км/ч в преддверии мероприятия. Полицейский останавливает вас, когда вы ненадолго выехали на дорогу общего пользования, чтобы добраться до другой частной территории. Применяются ли статьи 46, 48, 49.1 и т.д.?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A slightly unusual vehicle, perhaps a vintage tractor modified for a parade, being driven briefly onto a public road from a field."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car il s'agit d'essais en vue d'une manifestation.",
+          "text_nl": "Nee, want het gaat om proefritten met het oog op een manifestatie.",
+          "text_ru": "Нет, потому что это испытания в преддверии мероприятия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car vous avez roulé sur la voie publique et dépassé 25 km/h.",
+          "text_nl": "Ja, want u heeft op de openbare weg gereden en meer dan 25 km/u gereden.",
+          "text_ru": "Да, потому что вы ехали по дороге общего пользования и превысили 25 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, car les champs privés ne sont pas soumis au code de la route.",
+          "text_nl": "Nee, want privédomeinen vallen niet onder het verkeersreglement.",
+          "text_ru": "Нет, потому что частные территории не подпадают под действие правил дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Bien qu'il s'agisse d'essais en vue d'une manifestation, l'article 56bis exige que la vitesse ne dépasse pas 25 km/h et que la circulation sur la voie publique soit limitée aux trajets pour s'y rendre, en revenir ou pour des essais. Rouler à 30 km/h sur la voie publique, même brièvement, et ne pas être sur le trajet direct vers ou depuis la manifestation ou le lieu des essais, fait que les articles mentionnés s'appliquent.",
+      "explanation_nl": "Hoewel het proefritten met het oog op een manifestatie betreft, vereist artikel 56bis dat de snelheid niet hoger is dan 25 km/u en dat het verkeer op de openbare weg beperkt is tot de ritten ernaartoe, ervan terugkeren of voor proefritten. Rijden met 30 km/u op de openbare weg, zelfs kortstondig, en niet op het directe traject naar of van de manifestatie of de testlocatie, zorgt ervoor dat de genoemde artikelen van toepassing zijn.",
+      "explanation_ru": "Хотя это испытания в преддверии мероприятия, статья 56bis требует, чтобы скорость не превышала 25 км/ч, а движение по дорогам общего пользования было ограничено поездками туда, обратно или испытаниями. Движение со скоростью 30 км/ч по дороге общего пользования, даже кратковременное, и отсутствие на прямом пути к мероприятию или с него, или к месту испытаний, означает, что упомянутые статьи применяются."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un véhicule folklorique transportant des décorations pour une fête arrive sur la voie publique depuis un garage privé. Il doit se rendre à un endroit désigné pour le début du défilé, situé à 500 mètres. Le véhicule roule à 10 km/h. L'article 56bis s'applique-t-il ?",
+      "text_nl": "Een folkloristisch voertuig dat decoraties voor een feest vervoert, komt van een privégarage de openbare weg opgereden. Het moet naar een aangewezen plek voor het begin van de optocht, op 500 meter afstand. Het voertuig rijdt 10 km/u. Is artikel 56bis van toepassing?",
+      "text_ru": "Фольклорное транспортное средство, перевозящее декорации для праздника, выезжает на дорогу общего пользования из частного гаража. Оно должно добраться до назначенного места для начала парада, расположенного в 500 метрах. Транспортное средство движется со скоростью 10 км/ч. Применяется ли статья 56bis?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A decorated cart or float emerging from a gate onto a quiet street."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car il quitte un lieu privé.",
+          "text_nl": "Nee, want het verlaat een privéterrein.",
+          "text_ru": "Нет, потому что оно покидает частную территорию.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car le véhicule est destiné à une manifestation folklorique, se rend sur le lieu de celle-ci et ne dépasse pas 25 km/h.",
+          "text_nl": "Ja, want het voertuig is bestemd voor een folkloristische manifestatie, is op weg ernaartoe en rijdt niet sneller dan 25 km/u.",
+          "text_ru": "Да, потому что транспортное средство предназначено для фольклорного мероприятия, направляется к месту его проведения и не превышает 25 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le défilé est autorisé par la commune.",
+          "text_nl": "Alleen als de optocht is toegestaan door de gemeente.",
+          "text_ru": "Только если парад разрешен муниципалитетом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 56bis prévoit une dérogation pour les véhicules folkloriques se rendant sur le chemin d'une manifestation autorisée, à condition qu'ils ne dépassent pas 25 km/h. Le trajet décrit correspond à ces conditions.",
+      "explanation_nl": "Artikel 56bis voorziet in een uitzondering voor folkloristische voertuigen die zich op de weg naar een toegelaten manifestatie bevinden, op voorwaarde dat ze niet sneller dan 25 km/u rijden. De beschreven rit voldoet aan deze voorwaarden.",
+      "explanation_ru": "Статья 56bis предусматривает исключение для фольклорных транспортных средств, направляющихся к месту проведения разрешенного мероприятия, при условии, что они не превышают 25 км/ч. Описанная поездка соответствует этим условиям."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "7e12d8cc3da2",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:40:45Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

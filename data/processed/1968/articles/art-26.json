@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "26",
+  "slug": "art-26",
+  "structure": {
+    "titre": "III",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 26",
+  "title_nl": "Artikel 26",
+  "title_ru": "Статья 26",
+  "content_md_fr": "Le Roi fixe le modèle du permis de conduire belge et du titre qui en tient lieu, les catégories de véhicules pour lesquelles ils sont délivrés, ainsi que les prescriptions relatives à leur délivrance, leur validité, leur renouvellement, leur remplacement et leur restitution.",
+  "content_md_nl": "De Koning bepaalt het model van het Belgisch rijbewijs en van het als zodanig geldend bewijs, de categorieën van voertuigen waarvoor ze afgegeven worden, alsook de voorschriften betreffende de afgifte, de geldigheid, de vernieuwing, de vervanging en de teruggave ervan.",
+  "content_md_ru": "Король устанавливает образец бельгийского водительского удостоверения и удостоверения, которое служит таковым, категории транспортных средств, для которых они выдаются, а также требования, касающиеся их выдачи, срока действия, продления, замены и возврата.",
+  "content_html_fr": "<p>Le Roi fixe le modèle du permis de conduire belge et du titre qui en tient lieu, les catégories de véhicules pour lesquelles ils sont délivrés, ainsi que les prescriptions relatives à leur délivrance, leur validité, leur renouvellement, leur remplacement et leur restitution.</p>",
+  "content_html_nl": "<p>De Koning bepaalt het model van het Belgisch rijbewijs en van het als zodanig geldend bewijs, de categorieën van voertuigen waarvoor ze afgegeven worden, alsook de voorschriften betreffende de afgifte, de geldigheid, de vernieuwing, de vervanging en de teruggave ervan.</p>",
+  "full_text_fr": "Le Roi fixe le modèle du permis de conduire belge et du titre qui en tient lieu, les catégories de véhicules pour lesquelles ils sont délivrés, ainsi que les prescriptions relatives à leur délivrance, leur validité, leur renouvellement, leur remplacement et leur restitution.",
+  "full_text_nl": "De Koning bepaalt het model van het Belgisch rijbewijs en van het als zodanig geldend bewijs, de categorieën van voertuigen waarvoor ze afgegeven worden, alsook de voorschriften betreffende de afgifte, de geldigheid, de vernieuwing, de vervanging en de teruggave ervan.",
+  "full_text_ru": "Король устанавливает образец бельгийского водительского удостоверения и удостоверения, которое служит таковым, категории транспортных средств, для которых они выдаются, а также требования, касающиеся их выдачи, срока действия, продления, замены и возврата.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "pojdc2u7ie",
+  "anchor_id_nl": "00kmrdamcs",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "65febedbbd48",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

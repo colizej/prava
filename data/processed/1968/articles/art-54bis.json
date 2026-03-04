@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "54bis",
+  "slug": "art-54bis",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 54bis",
+  "title_nl": "Artikel 54bis",
+  "title_ru": "Статья 54a",
+  "content_md_fr": "Dans les cas d'infractions de stationnement déterminés par le Roi, il peut être fait usage d'un sabot destiné à immobiliser le véhicule.",
+  "content_md_nl": "In de door de Koning bepaalde gevallen van parkeerovertredingen kan het voertuig met een wielklem worden geïmmobiliseerd.",
+  "content_md_ru": "В случае нарушения правил парковки, установленных королем, для обездвиживания автомобиля может быть использован багажник.",
+  "content_html_fr": "<p>Dans les cas d'infractions de stationnement déterminés par le Roi, il peut être fait usage d'un sabot destiné à immobiliser le véhicule.</p>",
+  "content_html_nl": "<p>In de door de Koning bepaalde gevallen van parkeerovertredingen kan het voertuig met een wielklem worden geïmmobiliseerd.</p>",
+  "full_text_fr": "Dans les cas d'infractions de stationnement déterminés par le Roi, il peut être fait usage d'un sabot destiné à immobiliser le véhicule.",
+  "full_text_nl": "In de door de Koning bepaalde gevallen van parkeerovertredingen kan het voertuig met een wielklem worden geïmmobiliseerd.",
+  "full_text_ru": "В случае нарушения правил парковки, установленных королем, для обездвиживания автомобиля может быть использован багажник.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "oyqsbjfxbn",
+  "anchor_id_nl": "j6nyequsbn",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "3ce48f8856b9",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

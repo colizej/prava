@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{% if test_type == 'preview' %}Aperçu question{% elif test_type == 'exam' %}Examen simulé{% else %}Entraînement{% endif %}{% if category %} — {{ category.name }}{% endif %} — {{ SITE_NAME }}{% endblock %}
+{% block title %}{% if test_type == 'preview' %}Aperçu question{% elif test_type == 'exam' %}Examen simulé{% elif test_type == 'practice_saved' %}{% if study_list %}{{ study_list.icon }} {{ study_list.name }}{% else %}Mes révisions{% endif %}{% else %}Entraînement{% endif %}{% if category %} — {{ category.name }}{% endif %} — {{ SITE_NAME }}{% endblock %}
 {% block extra_css %}
 <style>
 [x-cloak] { display: none !important; }

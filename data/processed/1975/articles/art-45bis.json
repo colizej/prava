@@ -36,7 +36,178 @@
   "anchor_id_fr": "bsflrkzkv2",
   "anchor_id_nl": "isact7ayzt",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 45bis §2, que doit vérifier le conducteur concernant le chargement de son véhicule avant de prendre la route ?",
+      "text_nl": "Volgens artikel 45bis §2, wat moet de bestuurder controleren met betrekking tot de lading van zijn voertuig voordat hij vertrekt?",
+      "text_ru": "Согласно статье 45bis §2, что водитель должен проверить относительно груза своего транспортного средства перед выездом?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement la bonne répartition du poids du chargement.",
+          "text_nl": "Alleen de goede verdeling van het gewicht van de lading.",
+          "text_ru": "Только правильное распределение веса груза.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'arrimage des charges, l'absence de gêne pour la conduite et la fixation des équipements.",
+          "text_nl": "De zekering van de lading, de afwezigheid van hinder voor het rijden en de bevestiging van de uitrusting.",
+          "text_ru": "Крепление груза, отсутствие помех для вождения и фиксация оборудования.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La conformité du chargement avec les dimensions maximales autorisées.",
+          "text_nl": "De conformiteit van de lading met de maximaal toegestane afmetingen.",
+          "text_ru": "Соответствие груза максимально допустимым габаритам.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 45bis §2 stipule que le conducteur doit vérifier que le système d'arrimage des charges est conforme, que les portes arrière, le hayon élévateur, les portes, les bâches, la roue de secours et autres équipements sont bien fixés, et que le chargement ne gêne pas la conduite en toute sécurité.",
+      "explanation_nl": "Artikel 45bis §2 stelt dat de bestuurder moet controleren of het ladingzekeringssysteem van de lading voldoet, dat de achterdeuren, laadklep, deuren, dekzeilen, reservewiel en andere uitrustingen goed zijn vastgezet, en dat de lading het veilig rijden niet belemmert.",
+      "explanation_ru": "Статья 45bis §2 гласит, что водитель должен проверить, соответствует ли система крепления груза требованиям, надежно ли закреплены задние двери, подъемный борт, двери, тенты, запасное колесо и другое оборудование, и не мешает ли груз безопасному вождению."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'une 'unité de charge' selon l'article 45bis §3 ?",
+      "text_nl": "Wat is een 'laadeenheid' volgens artikel 45bis §3?",
+      "text_ru": "Что такое 'грузовая единица' согласно статье 45bis §3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toute marchandise transportée individuellement sans emballage.",
+          "text_nl": "Elke afzonderlijk vervoerde handelswaar zonder verpakking.",
+          "text_ru": "Любой товар, перевозимый индивидуально без упаковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un ensemble de marchandises groupées ou rassemblées pour former une seule unité de manipulation, gerbage et stockage.",
+          "text_nl": "Een verzameling van goederen die zijn gebundeld of op een andere manier zijn samengebracht om één eenheid voor behandeling, stapeling en opslag te vormen.",
+          "text_ru": "Набор товаров, сгруппированных или иным образом собранных для формирования единой единицы для обработки, штабелирования и хранения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conteneur ou la caisse mobile elle-même, indépendamment de son contenu.",
+          "text_nl": "De container of de wissellaadbak zelf, onafhankelijk van de inhoud ervan.",
+          "text_ru": "Сам контейнер или сменная рама, независимо от его содержимого.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 45bis §3 définit une unité de charge comme un ensemble de marchandises groupées ou autrement rassemblées de manière à en permettre le traitement, gerbage et stockage en une seule unité d'emballage.",
+      "explanation_nl": "Artikel 45bis §3 definieert een laadeenheid als een hoeveelheid goederen die zodanig is gebundeld of op een andere wijze bijeen is gebracht dat de behandeling, stapeling en opslag ervan als één verpakkingseenheid mogelijk is.",
+      "explanation_ru": "Статья 45bis §3 определяет грузовую единицу как совокупность товаров, сгруппированных или иным образом собранных таким образом, чтобы обеспечить их обработку, штабелирование и хранение как единицу упаковки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un camion de catégorie N3. Avant de prendre la route après avoir chargé des palettes de matériel, que devez-vous impérativement vérifier concernant l'arrimage ?",
+      "text_nl": "U bestuurt een vrachtwagen van categorie N3. Wat moet u absoluut controleren met betrekking tot de zekering na het laden van pallets met materiaal, voordat u vertrekt?",
+      "text_ru": "Вы управляете грузовиком категории N3. Перед выездом, после загрузки поддонов с материалами, что вы обязательно должны проверить относительно крепления груза?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement si les palettes sont bien empilées les unes sur les autres.",
+          "text_nl": "Alleen of de pallets goed op elkaar gestapeld zijn.",
+          "text_ru": "Только то, хорошо ли друг на друга уложены поддоны.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Que le système d'arrimage utilisé est conforme aux normes et que les charges sont solidement fixées pour éviter tout mouvement.",
+          "text_nl": "Dat het gebruikte zekering-systeem voldoet aan de normen en dat de ladingen stevig zijn vastgezet om beweging te voorkomen.",
+          "text_ru": "Что используемая система крепления соответствует стандартам и что грузы надежно закреплены во избежание перемещения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le poids total du chargement et s'il dépasse 5 tonnes.",
+          "text_nl": "Het totale gewicht van de lading en of dit 5 ton overschrijdt.",
+          "text_ru": "Общий вес груза и превышает ли он 5 тонн.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 45bis §2 impose au conducteur de s'assurer que le système d'arrimage des charges est conforme aux conditions et que les charges sont fixées. La conformité du système et la sécurité de l'arrimage sont primordiales.",
+      "explanation_nl": "Artikel 45bis §2 verplicht de bestuurder ervoor te zorgen dat het ladingzekeringssysteem voldoet aan de voorwaarden en dat de ladingen zijn vastgezet. De conformiteit van het systeem en de veiligheid van de zekering zijn van primair belang.",
+      "explanation_ru": "Статья 45bis §2 обязывает водителя убедиться, что система крепления груза соответствует требованиям и что грузы закреплены. Соответствие системы и безопасность крепления имеют первостепенное значение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes chargeur et vous confiez le transport de conteneurs à un transporteur. Quelle information essentielle devez-vous fournir au transporteur concernant ces conteneurs ?",
+      "text_nl": "U bent een lader en u geeft transport van containers aan een transporteur. Welke essentiële informatie moet u de transporteur verstrekken met betrekking tot deze containers?",
+      "text_ru": "Вы являетесь грузовладельцем и передаете перевозку контейнеров перевозчику. Какую существенную информацию вы должны предоставить перевозчику относительно этих контейнеров?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Leur couleur et leur marque.",
+          "text_nl": "Hun kleur en hun merk.",
+          "text_ru": "Их цвет и марка.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La masse des conteneurs transportés.",
+          "text_nl": "De massa van de vervoerde containers.",
+          "text_ru": "Масса перевозимых контейнеров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le nom du fabricant des conteneurs.",
+          "text_nl": "De naam van de fabrikant van de containers.",
+          "text_ru": "Имя производителя контейнеров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 45bis §3, alinéa 3, stipule que si le chargeur confie au transporteur la mission de transporter des conteneurs ou des caisses mobiles, le chargeur fournit au transporteur une déclaration précisant la masse des conteneurs ou des caisses mobiles transportés.",
+      "explanation_nl": "Artikel 45bis §3, derde alinea, stelt dat als de lader de opdracht geeft aan de transporteur om containers of wissellaadbakken te vervoeren, de lader de transporteur een verklaring verstrekt waarin de massa van de vervoerde containers of wissellaadbakken wordt gespecificeerd.",
+      "explanation_ru": "Статья 45bis §3, третий абзац, гласит, что если грузовладелец поручает перевозчику транспортировку контейнеров или сменных рам, грузовладелец предоставляет перевозчику заявление с указанием массы перевозимых контейнеров или сменных рам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "En tant que conducteur d'un véhicule de catégorie T dont la vitesse maximale est supérieure à 40 km/h, quelle est une des obligations concernant le chargement ?",
+      "text_nl": "Als bestuurder van een voertuig van categorie T met een maximale snelheid van meer dan 40 km/u, wat is een van de verplichtingen met betrekking tot de lading?",
+      "text_ru": "Будучи водителем транспортного средства категории Т, максимальная скорость которого превышает 40 км/ч, каково одно из обязательств, касающихся груза?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'assurer que le chargement est aussi léger que possible.",
+          "text_nl": "Zich ervan vergewissen dat de lading zo licht mogelijk is.",
+          "text_ru": "Убедиться, что груз как можно легче.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'assurer que le centre de gravité de la charge est autant que possible centré sur le véhicule.",
+          "text_nl": "Zich ervan vergewissen dat het zwaartepunt van de lading zoveel mogelijk gecentreerd wordt op het voertuig.",
+          "text_ru": "Убедиться, что центр тяжести груза максимально центрирован на транспортном средстве.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander une autorisation spéciale pour tout chargement excédant 1 tonne.",
+          "text_nl": "Een speciale vergunning aanvragen voor elke lading die 1 ton overschrijdt.",
+          "text_ru": "Запрашивать специальное разрешение для любого груза, превышающего 1 тонну.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 45bis §2 stipule que le conducteur doit s'assurer que le centre de gravité est, autant que possible, centré sur le véhicule. Ceci est une prescription générale pour les conducteurs de véhicules concernés, y compris ceux de catégorie T avec une vitesse > 40 km/h.",
+      "explanation_nl": "Artikel 45bis §2 stelt dat de bestuurder zich ervan moet vergewissen dat het zwaartepunt zoveel mogelijk gecentreerd wordt op het voertuig. Dit is een algemene voorschrift voor bestuurders van de betreffende voertuigen, inclusief die van categorie T met een snelheid > 40 km/u.",
+      "explanation_ru": "Статья 45bis §2 гласит, что водитель должен убедиться, что центр тяжести максимально центрирован на транспортном средстве. Это общее требование для водителей соответствующих транспортных средств, включая транспортные средства категории Т со скоростью > 40 км/ч."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "1155167765d2",
@@ -46,6 +217,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:36:11Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

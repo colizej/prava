@@ -26,7 +26,193 @@
   "anchor_id_fr": "bewsldghxd",
   "anchor_id_nl": "xahqbvh3my",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 40quater, quel signal annonce la fin d'une caravane de course ou publicitaire et autorise la reprise de la circulation normale ?",
+      "text_nl": "Volgens artikel 40quater, welk signaal kondigt het einde aan van een wedstrijd- of publiciteitskaravaan en staat het normale verkeer toe om te hervatten?",
+      "text_ru": "Согласно статье 40quater, какой сигнал обозначает конец гоночного или рекламного каравана и разрешает возобновление нормального движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A green flag indicating the end of a race caravan."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un drapeau rouge agité par un véhicule d'ouverture.",
+          "text_nl": "Een rode vlag gezwaaid door een openingsvoertuig.",
+          "text_ru": "Красный флаг, размахиваемый передним автомобилем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un drapeau vert agité par un véhicule de fermeture.",
+          "text_nl": "Een groene vlag gezwaaid door een sluitingsvoertuig.",
+          "text_ru": "Зеленый флаг, размахиваемый задним автомобилем.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un coureur cycliste seul.",
+          "text_nl": "Een enkele wielrenner.",
+          "text_ru": "Одиночный велогонщик.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40quater stipule que les conducteurs doivent rester à l'arrêt jusqu'à ce que le véhicule de fermeture, qui annonce la fin de la caravane de course ou de la caravane publicitaire au moyen d'un drapeau vert, soit passé. Cela autorise la reprise de la circulation normale.",
+      "explanation_nl": "Artikel 40quater bepaalt dat bestuurders moeten blijven staan tot dat het sluitingsvoertuig dat het einde van de wedstrijdkaravaan of de publiciteitskaravaan met een groene vlag aankondigt, gepasseerd is. Het normale verkeer is dan terug toegelaten.",
+      "explanation_ru": "Статья 40quater гласит, что водители должны оставаться на месте до тех пор, пока не проедет замыкающий автомобиль, который с помощью зеленого флага обозначает конец гоночного или рекламного каравана. После этого нормальное движение возобновляется."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans le contexte d'une course cycliste, que signifie le terme \"véhicule d'ouverture\" mentionné dans l'article 40quater ?",
+      "text_nl": "In de context van een wielerwedstrijd, wat betekent de term 'openingsvoertuig' vermeld in artikel 40quater?",
+      "text_ru": "В контексте велогонки, что означает термин «открывающий автомобиль», упомянутый в статье 40quater?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An illustration of a vehicle leading a bicycle race, possibly with a red flag."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule qui ferme la caravane.",
+          "text_nl": "Het voertuig dat de karavaan afsluit.",
+          "text_ru": "Автомобиль, который закрывает караван.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule qui précède et annonce le début de la caravane.",
+          "text_nl": "Het voertuig dat voorop rijdt en het begin van de karavaan aankondigt.",
+          "text_ru": "Автомобиль, который едет впереди и объявляет начало каравана.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule le plus rapide de la course.",
+          "text_nl": "Het snelste voertuig in de wedstrijd.",
+          "text_ru": "Самый быстрый автомобиль в гонке.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le véhicule d'ouverture, tel que décrit dans l'article 40quater, est le premier véhicule de la caravane (de course ou publicitaire) qui précède les participants et annonce leur approche, souvent avec un drapeau rouge.",
+      "explanation_nl": "Het openingsvoertuig, zoals beschreven in artikel 40quater, is het eerste voertuig van de karavaan (wedstrijd of publiciteit) dat de deelnemers voorafgaat en hun nadering aankondigt, vaak met een rode vlag.",
+      "explanation_ru": "Открывающий автомобиль, как описано в статье 40quater, — это первый автомобиль каравана (гоночного или рекламного), который предшествует участникам и объявляет об их приближении, часто с красным флагом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une route de campagne et vous voyez au loin un véhicule avec un drapeau rouge qui approche. Il annonce la caravane publicitaire d'une course cycliste. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een landweg en ziet in de verte een voertuig met een rode vlag naderen. Het kondigt de publiciteitskaravaan van een wielerwedstrijd aan. Wat moet u doen?",
+      "text_ru": "Вы едете по проселочной дороге и издалека видите приближающийся автомобиль с красным флагом. Он анонсирует рекламный караван велогонки. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car with a red flag approaching on a country road, with cyclists visible in the distance."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour dépasser le véhicule avant qu'il n'arrive.",
+          "text_nl": "Versnellen om het voertuig in te halen voordat het arriveert.",
+          "text_ru": "Ускориться, чтобы обогнать автомобиль до его прибытия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à rouler normalement, car il s'agit d'un véhicule publicitaire.",
+          "text_nl": "Normaal blijven rijden, aangezien het een publiciteitsvoertuig is.",
+          "text_ru": "Продолжать движение в обычном режиме, так как это рекламный автомобиль.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous écarter autant que possible, dégager la chaussée et vous arrêter.",
+          "text_nl": "Zo ver mogelijk uitwijken, de rijbaan vrijmaken en stoppen.",
+          "text_ru": "Прижаться как можно сильнее к обочине, освободить проезжую часть и остановиться.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 40quater, tout usager de la route doit immédiatement s'écarter, dégager la chaussée autant que possible et s'arrêter à l'approche d'un véhicule d'ouverture annonçant la caravane publicitaire au moyen d'un drapeau rouge.",
+      "explanation_nl": "Volgens artikel 40quater moet elke weggebruiker onmiddellijk uitwijken, de rijbaan zo ver als mogelijk vrijmaken en stoppen bij het naderen van een openingsvoertuig dat de publiciteitskaravaan met een rode vlag aankondigt.",
+      "explanation_ru": "В соответствии со статьей 40quater, каждый участник дорожного движения должен немедленно прижаться к обочине, освободить проезжую часть как можно больше и остановиться при приближении открывающего автомобиля, анонсирующего рекламный караван с помощью красного флага."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes arrêté car un groupe de cyclistes participe à une course. Le dernier coureur est passé et le véhicule de fermeture avec le drapeau vert s'en va. Pouvez-vous reprendre la circulation immédiatement ?",
+      "text_nl": "U bent gestopt omdat een groep wielrenners deelneemt aan een wedstrijd. De laatste renner is gepasseerd en het sluitingsvoertuig met de groene vlag rijdt weg. Kunt u onmiddellijk het verkeer hervatten?",
+      "text_ru": "Вы остановились, так как группа велосипедистов участвует в гонке. Последний гонщик проехал, и замыкающий автомобиль с зеленым флагом уезжает. Можете ли вы немедленно возобновить движение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road with a car displaying a green flag driving away, with cyclists no longer visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, dès que le dernier coureur est passé.",
+          "text_nl": "Ja, zodra de laatste renner gepasseerd is.",
+          "text_ru": "Да, как только последний гонщик проехал.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il faut attendre le passage du véhicule de fermeture avec le drapeau vert.",
+          "text_nl": "Nee, u moet wachten tot het sluitingsvoertuig met de groene vlag gepasseerd is.",
+          "text_ru": "Нет, нужно дождаться проезда замыкающего автомобиля с зеленым флагом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si la route est complètement dégagée.",
+          "text_nl": "Alleen als de weg volledig vrij is.",
+          "text_ru": "Только если дорога полностью свободна.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40quater précise que les conducteurs doivent rester à l'arrêt jusqu'à ce que le véhicule de fermeture, annonçant la fin de la caravane au moyen d'un drapeau vert, soit passé. Ce n'est qu'après le passage de ce véhicule que la circulation normale est autorisée.",
+      "explanation_nl": "Artikel 40quater specificeert dat bestuurders moeten blijven staan tot dat het sluitingsvoertuig dat het einde van de karavaan met een groene vlag aankondigt, gepasseerd is. Pas na het passeren van dit voertuig is normaal verkeer toegelaten.",
+      "explanation_ru": "Статья 40quater уточняет, что водители должны оставаться на месте до тех пор, пока не проедет замыкающий автомобиль, который с помощью зеленого флага обозначает конец каравана. Только после проезда этого автомобиля разрешено возобновление нормального движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes bloqué par un groupe de cyclistes qui participent à une course. L'un des cyclistes est en difficulté et ralentit considérablement, séparé du groupe principal. Comment devez-vous vous comporter ?",
+      "text_nl": "U wordt opgehouden door een groep wielrenners die aan een wedstrijd deelnemen. Een van de renners heeft het moeilijk en vertraagt aanzienlijk, gescheiden van de hoofdgroep. Hoe moet u zich gedragen?",
+      "text_ru": "Вы заблокированы группой велосипедистов, участвующих в гонке. Один из гонщиков испытывает трудности и значительно замедляется, отделенный от основной группы. Как вы должны себя вести?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A lone cyclist struggling behind a group of cyclists on a road, with a car stopped behind them."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez rester arrêté jusqu'à ce que tout le groupe, y compris le coureur en difficulté, ait passé et que le véhicule de fermeture soit passé.",
+          "text_nl": "U moet blijven staan totdat de hele groep, inclusief de renner in moeilijkheden, is gepasseerd en het sluitingsvoertuig is gepasseerd.",
+          "text_ru": "Вы должны оставаться на месте до тех пор, пока вся группа, включая гонщика, испытывающего трудности, не проедет, и замыкающий автомобиль не проедет.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez dépasser le coureur en difficulté dès qu'il est suffisamment éloigné du groupe principal.",
+          "text_nl": "U mag de renner in moeilijkheden inhalen zodra hij ver genoeg van de hoofdgroep is.",
+          "text_ru": "Вы можете обогнать гонщика, испытывающего трудности, как только он окажется достаточно далеко от основной группы.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez reprendre la circulation dès que le coureur en difficulté est hors de votre vue.",
+          "text_nl": "U kunt het verkeer hervatten zodra de renner in moeilijkheden buiten uw zicht is.",
+          "text_ru": "Вы можете возобновить движение, как только гонщик, испытывающий трудности, окажется вне поля зрения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40quater indique que tout usager doit s'arrêter à l'approche d'un coureur ou d'un groupe de coureurs participant à une course cycliste. Les conducteurs doivent rester à l'arrêt jusqu'à ce que le véhicule de fermeture soit passé, ce qui implique d'attendre la fin complète de l'événement, y compris les participants retardés.",
+      "explanation_nl": "Artikel 40quater geeft aan dat elke weggebruiker moet stoppen bij het naderen van een renner of een groep renners die aan een wielerwedstrijd deelnemen. Bestuurders moeten blijven staan totdat het sluitingsvoertuig is gepasseerd, wat impliceert dat het wachten is op het volledige einde van het evenement, inclusief vertraagde deelnemers.",
+      "explanation_ru": "Статья 40quater указывает, что любой участник дорожного движения должен остановиться при приближении гонщика или группы гонщиков, участвующих в велогонке. Водители должны оставаться на месте до проезда замыкающего автомобиля, что подразумевает ожидание полного окончания мероприятия, включая отстающих участников."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "a2b8d9f629e1",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:55:03Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

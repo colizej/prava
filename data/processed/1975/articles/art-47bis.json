@@ -26,7 +26,178 @@
   "anchor_id_fr": "xjcgui8bti",
   "anchor_id_nl": "x11cxm3tky",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 47bis1, quel dispositif doit être signalé au moins aux angles extérieurs lorsqu'un plateau élévateur est utilisé ?",
+      "text_nl": "Volgens artikel 47bis1, welk middel moet ten minste aan de buitenste hoeken worden gesignaleerd wanneer een hefplatform wordt gebruikt?",
+      "text_ru": "Согласно статье 47bis1, какое устройство должно быть обозначено как минимум по внешним углам при использовании подъемной платформы?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les feux jaune-orange clignotants.",
+          "text_nl": "Enkel de oranjegele knipperlichten.",
+          "text_ru": "Только оранжевые мигающие огни.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les angles extérieurs par des bandes rétroréfléchissantes, des cônes ou des feux clignotants.",
+          "text_nl": "De buitenste hoeken met retro-reflecterende stroken, kegels of knipperlichten.",
+          "text_ru": "Внешние углы с помощью светоотражающих полос, конусов или мигающих огней.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le plateau élévateur dans son intégralité.",
+          "text_nl": "Het hefplatform in zijn geheel.",
+          "text_ru": "Подъемная платформа целиком.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 47bis1 stipule qu'il faut signaler au moins les angles extérieurs à l'aide de bandes rétroréfléchissantes, de cônes rétroréfléchissants ou de feux jaune-orange clignotants.",
+      "explanation_nl": "Artikel 47bis1 bepaalt dat de buitenste hoeken ten minste moeten worden gesignaleerd met retro-reflecterende stroken, retro-reflecterende kegels of oranjegele knipperlichten.",
+      "explanation_ru": "Статья 47bis1 гласит, что как минимум внешние углы должны быть обозначены с помощью светоотражающих полос, светоотражающих конусов или оранжевых мигающих огней."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la hauteur minimale requise pour les cônes rétroréfléchissants utilisés pour signaler la zone d'activité des engins mobiles de manutention, selon l'article 47bis3 ?",
+      "text_nl": "Wat is de minimale vereiste hoogte voor de retro-reflecterende kegels die gebruikt worden om het werkgebied van beweegbare bedieningstoestellen te signaleren, volgens artikel 47bis3?",
+      "text_ru": "Какова минимальная требуемая высота светоотражающих конусов, используемых для обозначения рабочей зоны мобильных погрузочно-разгрузочных устройств, согласно статье 47bis3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,10 m",
+          "text_nl": "0,10 m",
+          "text_ru": "0,10 м",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,25 m",
+          "text_nl": "0,25 m",
+          "text_ru": "0,25 м",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "0,40 m",
+          "text_nl": "0,40 m",
+          "text_ru": "0,40 м",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 47bis3 précise que les cônes rétroréfléchissants doivent avoir une hauteur minimale de 0,40 m.",
+      "explanation_nl": "Artikel 47bis3 specificeert dat de retro-reflecterende kegels een minimale hoogte van 0,40 m moeten hebben.",
+      "explanation_ru": "Статья 47bis3 уточняет, что светоотражающие конусы должны иметь минимальную высоту 0,40 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous garez votre camion pour charger des marchandises à l'aide d'un plateau élévateur. La nuit tombe et la visibilité est réduite. Comment devez-vous signaler les angles extérieurs de votre plateau élévateur pour assurer la sécurité des autres usagers, conformément à l'article 47bis1 ?",
+      "text_nl": "U parkeert uw vrachtwagen om met behulp van een hefplatform goederen te laden. De nacht valt en het zicht is verminderd. Hoe moet u de buitenste hoeken van uw hefplatform signaleren om de veiligheid van andere weggebruikers te garanderen, in overeenstemming met artikel 47bis1?",
+      "text_ru": "Вы паркуете свой грузовик для погрузки товаров с помощью подъемной платформы. Наступает ночь, видимость снижается. Как вы должны обозначить внешние углы вашей подъемной платформы для обеспечения безопасности других участников дорожного движения, согласно статье 47bis1?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Utiliser uniquement des bandes rétroréfléchissantes sur les angles.",
+          "text_nl": "Alleen retro-reflecterende stroken op de hoeken gebruiken.",
+          "text_ru": "Использовать только светоотражающие полосы на углах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Fixer des bandes rétroréfléchissantes ou placer des cônes, et s'assurer qu'ils sont visibles en toutes circonstances.",
+          "text_nl": "Retro-reflecterende stroken bevestigen of kegels plaatsen, en ervoor zorgen dat ze in alle omstandigheden zichtbaar zijn.",
+          "text_ru": "Закрепить светоотражающие полосы или разместить конусы, и убедиться, что они видны при любых обстоятельствах.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Utiliser des bandes rétroréfléchissantes, des cônes ou des feux jaune-orange clignotants, en veillant à ce qu'ils soient visibles en toutes circonstances.",
+          "text_nl": "Retro-reflecterende stroken, kegels of oranjegele knipperlichten gebruiken, en ervoor zorgen dat ze in alle omstandigheden zichtbaar zijn.",
+          "text_ru": "Использовать светоотражающие полосы, конусы или оранжевые мигающие огни, убедившись, что они видны при любых обстоятельствах.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 47bis1 permet d'utiliser des bandes rétroréfléchissantes, des cônes rétroréfléchissants ou des feux jaune-orange clignotants, seuls ou conjointement, pour signaler les angles extérieurs. L'essentiel est qu'ils soient visibles en toutes circonstances, ce qui est particulièrement important de nuit ou par faible visibilité.",
+      "explanation_nl": "Artikel 47bis1 staat toe om retro-reflecterende stroken, retro-reflecterende kegels of oranjegele knipperlichten te gebruiken, alleen of samen, om de buitenste hoeken te signaleren. Het belangrijkste is dat ze in alle omstandigheden zichtbaar zijn, wat vooral 's nachts of bij slecht zicht belangrijk is.",
+      "explanation_ru": "Статья 47bis1 позволяет использовать светоотражающие полосы, светоотражающие конусы или оранжевые мигающие огни, по отдельности или совместно, для обозначения внешних углов. Главное, чтобы они были видны при любых обстоятельствах, что особенно важно ночью или в условиях плохой видимости."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous utilisez un chariot élévateur pour déplacer des palettes sur une voie de circulation temporairement fermée. Conformément à l'article 47bis2, comment devez-vous signaler la zone d'activité de votre engin mobile de manutention pour avertir les autres conducteurs ?",
+      "text_nl": "U gebruikt een vorkheftruck om paletten te verplaatsen op een tijdelijk afgesloten rijbaan. Volgens artikel 47bis2, hoe moet u het werkgebied van uw mobiel bedieningstoestel signaleren om andere bestuurders te waarschuwen?",
+      "text_ru": "Вы используете вилочный погрузчик для перемещения поддонов по временно закрытой полосе движения. Согласно статье 47bis2, как вы должны обозначить рабочую зону вашего мобильного погрузочно-разгрузочного устройства, чтобы предупредить других водителей?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Placer des cônes rétroréfléchissants de taille standard.",
+          "text_nl": "Standaardformaat retro-reflecterende kegels plaatsen.",
+          "text_ru": "Разместить стандартные светоотражающие конусы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Utiliser un seul feu jaune-orange clignotant portable.",
+          "text_nl": "Eén draagbaar oranjegeel knipperlicht gebruiken.",
+          "text_ru": "Использовать один портативный оранжевый мигающий фонарь.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Utiliser des cônes rétroréfléchissants ou un ou plusieurs feux jaune-orange clignotants portatifs, et s'assurer qu'ils sont visibles en toutes circonstances.",
+          "text_nl": "Retro-reflecterende kegels of één of meer draagbare oranjegele knipperlichten gebruiken, en ervoor zorgen dat ze in alle omstandigheden zichtbaar zijn.",
+          "text_ru": "Использовать светоотражающие конусы или один или несколько портативных оранжевых мигающих фонарей, и убедиться, что они видны при любых обстоятельствах.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 47bis2 stipule que la zone d'activité des engins mobiles de manutention doit être signalée par des cônes rétroréfléchissants ou un ou plusieurs feux jaune-orange clignotants portatifs. Ces moyens peuvent être utilisés conjointement et doivent être visibles en toutes circonstances.",
+      "explanation_nl": "Artikel 47bis2 bepaalt dat het werkgebied van mobiele bedieningstoestellen moet worden gesignaleerd met retro-reflecterende kegels of één of meer draagbare oranjegele knipperlichten. Deze middelen mogen samen worden gebruikt en moeten in alle omstandigheden zichtbaar zijn.",
+      "explanation_ru": "Статья 47bis2 гласит, что рабочая зона мобильных погрузочно-разгрузочных устройств должна быть обозначена светоотражающими конусами или одним или несколькими портативными оранжевыми мигающими фонарями. Эти средства могут использоваться совместно и должны быть видны при любых обстоятельствах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous devez installer des bandes rétroréfléchissantes à l'arrière d'un plateau élévateur. Quelle est la largeur minimale que doivent avoir ces bandes, selon l'article 47bis3 ?",
+      "text_nl": "U moet retro-reflecterende stroken aan de achterkant van een beweegbaar laadplatform installeren. Wat is de minimale breedte die deze stroken moeten hebben, volgens artikel 47bis3?",
+      "text_ru": "Вы должны установить светоотражающие полосы на задней части подъемной платформы. Какова минимальная ширина этих полос, согласно статье 47bis3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,10 m",
+          "text_nl": "0,10 m",
+          "text_ru": "0,10 м",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,120 m² (surface minimale), mais la largeur n'est pas spécifiée pour les bandes.",
+          "text_nl": "0,120 m² (minimale oppervlakte), maar de breedte is niet gespecificeerd voor de stroken.",
+          "text_ru": "0,120 м² (минимальная площадь), но ширина полос не указана.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "0,25 m",
+          "text_nl": "0,25 m",
+          "text_ru": "0,25 м",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 47bis3 stipule que les bandes rétroréfléchissantes doivent avoir une surface minimale de 0,120 m² et une largeur minimale de 0,25 m.",
+      "explanation_nl": "Artikel 47bis3 bepaalt dat de retro-reflecterende stroken een minimale oppervlakte van 0,120 m² en een minimale breedte van 0,25 m moeten hebben.",
+      "explanation_ru": "Статья 47bis3 уточняет, что светоотражающие полосы должны иметь минимальную площадь 0,120 м² и минимальную ширину 0,25 м."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "368d5123e70e",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:37:06Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

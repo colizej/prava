@@ -1,0 +1,43 @@
+{
+  "law_id": "1968",
+  "article_number": "15",
+  "slug": "art-15",
+  "structure": {
+    "titre": "II",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 15",
+  "title_nl": "Artikel 15",
+  "title_ru": "Статья 15",
+  "content_md_fr": "Par dérogation à l'[article 13](#art-13), la signalisation à hauteur des passages à niveau et traversées de chemins de fer incombe à l'exploitant de la voie ferrée.\n\nLa signalisation à distance incombe à l'autorité qui a la gestion de la voie publique.\n\n#### Section 4. Zones de douane",
+  "content_md_nl": "In afwijking van [artikel 13](#art13), worden de verkeerstekens ter hoogte van overwegen en kruisingen met spoorwegen geplaatst door de exploitant van de spoorweg.\n\nDe verkeerstekens op een afstand worden geplaatst door de overheid die het beheer over de openbare weg heeft.\n\n#### Afdeling 4. Douanestroken",
+  "content_md_ru": "В отступление от [статьи 13](#art-13) сигнализация на переездах и железнодорожных переездах является обязанностью оператора железной дороги.\n\nЗа сигнализацию на расстоянии отвечает орган, управляющий автомобильной дорогой общего пользования.\n\n#### Раздел 4. Таможенные зоны",
+  "content_html_fr": "<p>Par dérogation à l'<a href=\"#art-13\">article 13</a>, la signalisation à hauteur des passages à niveau et traversées de chemins de fer incombe à l'exploitant de la voie ferrée.</p><p>La signalisation à distance incombe à l'autorité qui a la gestion de la voie publique.</p><h4 id=\"pa9ybt6qgq\"><strong>Section 4. Zones de douane</strong></h4>",
+  "content_html_nl": "<p>In afwijking van <a href=\"#art13\">artikel 13</a>, worden de verkeerstekens ter hoogte van overwegen en kruisingen met spoorwegen geplaatst door de exploitant van de spoorweg.</p><p>De verkeerstekens op een afstand worden geplaatst door de overheid die het beheer over de openbare weg heeft.</p><h4 id=\"rd9hjkpdfb\"><strong>Afdeling 4. Douanestroken</strong></h4>",
+  "full_text_fr": "Par dérogation à l'article 13, la signalisation à hauteur des passages à niveau et traversées de chemins de fer incombe à l'exploitant de la voie ferrée.\n\nLa signalisation à distance incombe à l'autorité qui a la gestion de la voie publique.\n\nSection 4. Zones de douane",
+  "full_text_nl": "In afwijking van artikel 13, worden de verkeerstekens ter hoogte van overwegen en kruisingen met spoorwegen geplaatst door de exploitant van de spoorweg.\n\nDe verkeerstekens op een afstand worden geplaatst door de overheid die het beheer over de openbare weg heeft.\n\nAfdeling 4. Douanestroken",
+  "full_text_ru": "В отступление от статьи 13 сигнализация на переездах и железнодорожных переездах является обязанностью оператора железной дороги.\n\nЗа сигнализацию на расстоянии отвечает орган, управляющий автомобильной дорогой общего пользования.\n\nРаздел 4. Таможенные зоны",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-13"
+  ],
+  "anchor_id_fr": "5zcc65vntm",
+  "anchor_id_nl": "ah0bcxdiel",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "66beec3a4cdb",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

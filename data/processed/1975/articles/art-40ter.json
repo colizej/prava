@@ -26,7 +26,178 @@
   "anchor_id_fr": "4itjx2cb4l",
   "anchor_id_nl": "jshvxgxwqb",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la distance latérale minimale qu'un conducteur de voiture doit laisser avec un cycliste en agglomération ?",
+      "text_nl": "Wat is de minimale zijdelingse afstand die een autobestuurder moet laten ten opzichte van een fietser binnen de bebouwde kom?",
+      "text_ru": "Какое минимальное боковое расстояние должен соблюдать водитель автомобиля по отношению к велосипедисту в населенном пункте?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un demi-mètre",
+          "text_nl": "Een halve meter",
+          "text_ru": "Полметра",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un mètre",
+          "text_nl": "Eén meter",
+          "text_ru": "Один метр",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un mètre et demi",
+          "text_nl": "1,5 meter",
+          "text_ru": "Полтора метра",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40ter stipule que le conducteur doit laisser une distance latérale d'au moins un mètre entre son véhicule et le cycliste en agglomération.",
+      "explanation_nl": "Artikel 40ter bepaalt dat de bestuurder een zijdelingse afstand van ten minste één meter moet laten tussen zijn voertuig en de fietser binnen de bebouwde kom.",
+      "explanation_ru": "Статья 40тер гласит, что водитель должен соблюдать боковое расстояние не менее одного метра между своим транспортным средством и велосипедистом в населенном пункте."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles circonstances un conducteur doit-il faire preuve d'une prudence accrue envers les cyclistes ?",
+      "text_nl": "In welke omstandigheden moet een bestuurder extra voorzichtig zijn ten opzichte van fietsers?",
+      "text_ru": "При каких обстоятельствах водитель должен проявлять повышенную осторожность по отношению к велосипедистам?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement lorsqu'il pleut",
+          "text_nl": "Enkel bij regen",
+          "text_ru": "Только когда идет дождь",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En présence d'enfants et de personnes âgées cyclistes",
+          "text_nl": "Bij fietsende kinderen en bejaarden",
+          "text_ru": "В присутствии велосипедистов-детей и пожилых людей",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsqu'ils roulent en groupe",
+          "text_nl": "Wanneer zij in groep rijden",
+          "text_ru": "Когда они едут в группе",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40ter mentionne spécifiquement qu'il faut redoubler de prudence en présence d'enfants et de personnes âgées cyclistes.",
+      "explanation_nl": "Artikel 40ter vermeldt specifiek dat er dubbel voorzichtig moet worden gehandeld ten aanzien van fietsende kinderen en bejaarden.",
+      "explanation_ru": "Статья 40тер конкретно указывает, что следует проявлять повышенную осторожность в присутствии велосипедистов-детей и пожилых людей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en train de doubler un cycliste sur une route de campagne. Quelle distance latérale minimale devez-vous respecter ?",
+      "text_nl": "U haalt een fietser in op een landweg. Welke minimale zijdelingse afstand moet u in acht nemen?",
+      "text_ru": "Вы обгоняете велосипедиста на проселочной дороге. Какое минимальное боковое расстояние вы должны соблюдать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un mètre",
+          "text_nl": "Eén meter",
+          "text_ru": "Один метр",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un mètre et demi",
+          "text_nl": "1,5 meter",
+          "text_ru": "Полтора метра",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Deux mètres",
+          "text_nl": "Twee meter",
+          "text_ru": "Два метра",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 40ter, en dehors des agglomérations, la distance latérale à laisser avec un cycliste est d'au moins un mètre et demi.",
+      "explanation_nl": "Volgens artikel 40ter bedraagt de zijdelingse afstand ten opzichte van een fietser buiten de bebouwde kom ten minste 1,5 meter.",
+      "explanation_ru": "Согласно статье 40тер, за пределами населенных пунктов боковое расстояние до велосипедиста должно составлять не менее полутора метров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous approchez d'un passage pour cyclistes. Comment devez-vous vous comporter pour ne pas mettre en danger les cyclistes qui l'utilisent ?",
+      "text_nl": "U nadert een oversteekplaats voor fietsers. Hoe moet u zich gedragen om de fietsers die deze gebruiken niet in gevaar te brengen?",
+      "text_ru": "Вы приближаетесь к велосипедному переходу. Как вы должны вести себя, чтобы не подвергать опасности велосипедистов, которые им пользуются?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez continuer à allure normale s'il n'y a pas de cycliste qui traverse",
+          "text_nl": "U mag met normale snelheid doorrijden als er geen fietser oversteekt",
+          "text_ru": "Вы можете продолжать движение с обычной скоростью, если велосипедист не пересекает дорогу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez ralentir et, si nécessaire, vous arrêter pour laisser passer les cyclistes",
+          "text_nl": "U moet vertragen en indien nodig stoppen om fietsers te laten passeren",
+          "text_ru": "Вы должны замедлиться и, при необходимости, остановиться, чтобы пропустить велосипедистов",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez klaxonner pour signaler votre présence",
+          "text_nl": "U moet claxonneren om uw aanwezigheid aan te geven",
+          "text_ru": "Вы должны посигналить, чтобы обозначить свое присутствие",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40ter précise que l'on ne peut s'approcher d'un passage pour cyclistes qu'à allure modérée, et qu'il faut s'arrêter au besoin pour les laisser passer.",
+      "explanation_nl": "Artikel 40ter bepaalt dat men een oversteekplaats voor fietsers slechts met matige snelheid mag naderen en dat men zo nodig moet stoppen om ze te laten doorrijden.",
+      "explanation_ru": "Статья 40тер уточняет, что к велосипедному переходу следует приближаться только с умеренной скоростью, и при необходимости следует остановиться, чтобы пропустить велосипедистов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Une intersection est bloquée par un embouteillage. Vous voyez un passage pour cyclistes juste avant l'embouteillage. Pouvez-vous y entrer ?",
+      "text_nl": "Een kruispunt is geblokkeerd door een file. U ziet een oversteekplaats voor fietsers vlak voor de file. Mag u deze oprijden?",
+      "text_ru": "Перекресток заблокирован пробкой. Вы видите велосипедный переход прямо перед пробкой. Можете ли вы въехать на него?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si vous pouvez atteindre le passage pour cyclistes à allure modérée",
+          "text_nl": "Ja, als u de oversteekplaats voor fietsers met matige snelheid kunt bereiken",
+          "text_ru": "Да, если вы можете достичь велосипедного перехода с умеренной скоростью",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, si l'encombrement de la circulation est tel que vous pourriez être immobilisé sur le passage",
+          "text_nl": "Nee, als het verkeer zodanig belemmerd is dat u waarschijnlijk op de oversteekplaats zou moeten stoppen",
+          "text_ru": "Нет, если движение настолько затруднено, что вам, вероятно, придется остановиться на переходе",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car les cyclistes ont la priorité sur les passages",
+          "text_nl": "Ja, want fietsers hebben voorrang op oversteekplaatsen",
+          "text_ru": "Да, потому что велосипедисты имеют приоритет на переходах",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40ter stipule qu'il ne faut pas s'engager sur un passage pour cyclistes si l'encombrement de la circulation est tel qu'on pourrait être immobilisé sur ce passage.",
+      "explanation_nl": "Artikel 40ter bepaalt dat men een oversteekplaats voor fietsers niet mag oprijden wanneer het verkeer zodanig belemmerd is dat men waarschijnlijk op die oversteekplaats zou moeten stoppen.",
+      "explanation_ru": "Статья 40тер гласит, что нельзя въезжать на велосипедный переход, если дорожная обстановка настолько затруднена, что вы, вероятно, будете вынуждены остановиться на этом переходе."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "371f82b55b66",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:55:18Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

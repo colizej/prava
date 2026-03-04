@@ -1,0 +1,41 @@
+{
+  "law_id": "2005",
+  "article_number": "1",
+  "slug": "art-1",
+  "structure": {
+    "titre": null,
+    "chapitre": "I"
+  },
+  "title_fr": "Article 1",
+  "title_nl": "Article 1",
+  "title_ru": "Статья 1",
+  "content_md_fr": "**Article 1.** Lorsque les dispositions du présent arrêté s’écartent des articles de l'arrêté royal du 1er décembre 1975 portant règlement général sur la police de la circulation routière et de l’usage de la voie publique ou de l’arrêté royal du 8 janvier 1996 portant réglementation de l’immatriculation des plaques commerciales pour véhicules à moteur et remorques ou de l’arrêté royal du 20 juillet 2001 relatif à l’immatriculation des véhicules auxquels il est référé, les dispositions du présent arrêtés sont valables.",
+  "content_md_nl": "**Artikel 1.** Wanneer de bepalingen van dit besluit afwijken van de artikelen van het koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg of van het koninklijk besluit van 8 januari 1996 tot regeling van de inschrijving van de commerciële platen voor motorvoertuigen en aanhangwagens of van het koninklijk besluit van 20 juli 2001 betreffende de inschrijving van voertuigen waarnaar verwezen wordt, dan gelden de bepalingen van dit besluit.",
+  "content_md_ru": "**Статья 1. Если положения настоящего Приказа отличаются от статей Королевского декрета от 1 декабря 1975 года об общих положениях, регулирующих дорожную полицию и использование общественных дорог, или Королевского декрета от 8 января 1996 года, регулирующего регистрацию коммерческих номеров для автотранспортных средств и прицепов, или Королевского декрета от 20 июля 2001 года о регистрации транспортных средств, к которым он относится, то применяются положения настоящего Приказа.",
+  "content_html_fr": "<p id=\"54rmkcpyn9\"><a id=\"art-1\"></a><strong class=\"text-bold\">Article 1.</strong> Lorsque les dispositions du présent arrêté s’écartent des articles de l'arrêté royal du 1<sup>er</sup> décembre 1975 portant règlement général sur la police de la circulation routière et de l’usage de la voie publique ou de l’arrêté royal du 8 janvier 1996 portant réglementation de l’immatriculation des plaques commerciales pour véhicules à moteur et remorques ou de l’arrêté royal du 20 juillet 2001 relatif à l’immatriculation des véhicules auxquels il est référé, les dispositions du présent arrêtés sont valables.</p>",
+  "content_html_nl": "<p id=\"do4uefcbeq\"><a id=\"art-1\"></a><strong class=\"text-bold\">Artikel 1.</strong> Wanneer de bepalingen van dit besluit afwijken van de artikelen van het koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg of van het koninklijk besluit van 8 januari 1996 tot regeling van de inschrijving van de commerciële platen voor motorvoertuigen en aanhangwagens of van het koninklijk besluit van 20 juli 2001 betreffende de inschrijving van voertuigen waarnaar verwezen wordt, dan gelden de bepalingen van dit besluit.</p>",
+  "full_text_fr": "Article 1. Lorsque les dispositions du présent arrêté s’écartent des articles de l'arrêté royal du 1er décembre 1975 portant règlement général sur la police de la circulation routière et de l’usage de la voie publique ou de l’arrêté royal du 8 janvier 1996 portant réglementation de l’immatriculation des plaques commerciales pour véhicules à moteur et remorques ou de l’arrêté royal du 20 juillet 2001 relatif à l’immatriculation des véhicules auxquels il est référé, les dispositions du présent arrêtés sont valables.",
+  "full_text_nl": "Artikel 1. Wanneer de bepalingen van dit besluit afwijken van de artikelen van het koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg of van het koninklijk besluit van 8 januari 1996 tot regeling van de inschrijving van de commerciële platen voor motorvoertuigen en aanhangwagens of van het koninklijk besluit van 20 juli 2001 betreffende de inschrijving van voertuigen waarnaar verwezen wordt, dan gelden de bepalingen van dit besluit.",
+  "full_text_ru": "Статья 1. Если положения настоящего Приказа отличаются от статей Королевского декрета от 1 декабря 1975 года об общих положениях, регулирующих дорожную полицию и использование общественных дорог, или Королевского декрета от 8 января 1996 года, регулирующего регистрацию коммерческих номеров для автотранспортных средств и прицепов, или Королевского декрета от 20 июля 2001 года о регистрации транспортных средств, к которым он относится, то применяются положения настоящего Приказа.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "54rmkcpyn9",
+  "anchor_id_nl": "do4uefcbeq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:10:54Z",
+    "content_hash": "1c332540b192",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "2005",
+  "article_number": "6",
+  "slug": "art-6",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 6",
+  "title_nl": "Article 6",
+  "title_ru": "Статья 6",
+  "content_md_fr": "**Art. 6.** L'arrêté royal du 22 décembre 2003 désignant les infractions graves par degrés aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière, modifié par l'arrêté royal de 26 avril 2004 est abrogé.",
+  "content_md_nl": "**Art. 6.** Het koninklijk besluit van 22 december 2003 tot aanwijzing van de zware overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer, gewijzigd bij het koninklijk besluit van 26 april 2004 wordt opgeheven.",
+  "content_md_ru": "**Статья 6 Королевский указ от 22 декабря 2003 года о серьезных нарушениях общих правил, изданных во исполнение закона о дорожной полиции, с поправками, внесенными Королевским указом от 26 апреля 2004 года, отменяется.",
+  "content_html_fr": "<p id=\"8xttt138a0\"><strong class=\"text-bold\">Art. 6.</strong> L'arrêté royal du 22 décembre 2003 désignant les infractions graves par degrés aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière, modifié par l'arrêté royal de 26 avril 2004 est abrogé.</p>",
+  "content_html_nl": "<p id=\"tjijhu1gaj\"><strong class=\"text-bold\">Art. 6.</strong> Het koninklijk besluit van 22 december 2003 tot aanwijzing van de zware overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer, gewijzigd bij het koninklijk besluit van 26 april 2004 wordt opgeheven.</p>",
+  "full_text_fr": "Art. 6. L'arrêté royal du 22 décembre 2003 désignant les infractions graves par degrés aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière, modifié par l'arrêté royal de 26 avril 2004 est abrogé.",
+  "full_text_nl": "Art. 6. Het koninklijk besluit van 22 december 2003 tot aanwijzing van de zware overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer, gewijzigd bij het koninklijk besluit van 26 april 2004 wordt opgeheven.",
+  "full_text_ru": "Статья 6 Королевский указ от 22 декабря 2003 года о серьезных нарушениях общих правил, изданных во исполнение закона о дорожной полиции, с поправками, внесенными Королевским указом от 26 апреля 2004 года, отменяется.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "8xttt138a0",
+  "anchor_id_nl": "tjijhu1gaj",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:10:54Z",
+    "content_hash": "710a27755d97",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

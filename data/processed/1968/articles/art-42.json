@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "42",
+  "slug": "art-42",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 42",
+  "title_nl": "Artikel 42",
+  "title_ru": "Статья 42",
+  "content_md_fr": "La déchéance du droit de conduire doit être prononcée si, à l’occasion d’une condamnation ou d’une suspension de peine ou d’un internement pour infraction à la police de la circulation routière ou pour accident de roulage imputable au fait personnel de son auteur, le coupable est reconnu physiquement ou psychiquement incapable de conduire un véhicule à moteur.\n\nCette déchéance peut être prononcée à chaque degré de condamnation, quelle que soit la personne qui a introduit le recours.\n\nLa durée de la déchéance du droit de conduire dépend de la preuve que l’intéressé n’est plus inapte à conduire un véhicule à moteur.",
+  "content_md_nl": "Verval van het recht tot sturen moet uitgesproken worden wanneer, naar aanleiding van een veroordeling of opschorting van straf of internering wegens overtreding van de politie over het wegverkeer of wegens een verkeersongeval te wijten aan het persoonlijk toedoen van de dader, de schuldige lichamelijk of geestelijk ongeschikt wordt bevonden tot het besturen van een motorvoertuig.\n\nDe uitspraak van dit verval is mogelijk in elke graad van veroordeling, ongeacht wie het rechtsmiddel heeft ingesteld.\n\nDe duur van het verval van het recht tot sturen is afhankelijk van het bewijs dat betrokkene niet meer ongeschikt is om een motorvoertuig te besturen.",
+  "content_md_ru": "Лишение права управления транспортным средством должно быть назначено, если после осуждения, отсрочки приговора или передачи в суд за нарушение правил дорожного движения или дорожно-транспортное происшествие по собственной вине виновный признан физически или психически неспособным к управлению транспортным средством.\n\nРешение о лишении прав может быть вынесено на любой стадии осуждения, независимо от того, кто подал апелляцию.\n\nСрок лишения прав зависит от доказательств того, что данное лицо больше не является неспособным управлять транспортным средством.",
+  "content_html_fr": "<p>La déchéance du droit de conduire doit être prononcée si, à l’occasion d’une condamnation ou d’une suspension de peine ou d’un internement pour infraction à la police de la circulation routière ou pour accident de roulage imputable au fait personnel de son auteur, le coupable est reconnu physiquement ou psychiquement incapable de conduire un véhicule à moteur.</p><p>Cette déchéance peut être prononcée à chaque degré de condamnation, quelle que soit la personne qui a introduit le recours.</p><p>La durée de la déchéance du droit de conduire dépend de la preuve que l’intéressé n’est plus inapte à conduire un véhicule à moteur.</p>",
+  "content_html_nl": "<p>Verval van het recht tot sturen moet uitgesproken worden wanneer, naar aanleiding van een veroordeling of opschorting van straf of internering wegens overtreding van de politie over het wegverkeer of wegens een verkeersongeval te wijten aan het persoonlijk toedoen van de dader, de schuldige lichamelijk of geestelijk ongeschikt wordt bevonden tot het besturen van een motorvoertuig.</p><p>De uitspraak van dit verval is mogelijk in elke graad van veroordeling, ongeacht wie het rechtsmiddel heeft ingesteld.</p><p>De duur van het verval van het recht tot sturen is afhankelijk van het bewijs dat betrokkene niet meer ongeschikt is om een motorvoertuig te besturen.</p>",
+  "full_text_fr": "La déchéance du droit de conduire doit être prononcée si, à l’occasion d’une condamnation ou d’une suspension de peine ou d’un internement pour infraction à la police de la circulation routière ou pour accident de roulage imputable au fait personnel de son auteur, le coupable est reconnu physiquement ou psychiquement incapable de conduire un véhicule à moteur.\n\nCette déchéance peut être prononcée à chaque degré de condamnation, quelle que soit la personne qui a introduit le recours.\n\nLa durée de la déchéance du droit de conduire dépend de la preuve que l’intéressé n’est plus inapte à conduire un véhicule à moteur.",
+  "full_text_nl": "Verval van het recht tot sturen moet uitgesproken worden wanneer, naar aanleiding van een veroordeling of opschorting van straf of internering wegens overtreding van de politie over het wegverkeer of wegens een verkeersongeval te wijten aan het persoonlijk toedoen van de dader, de schuldige lichamelijk of geestelijk ongeschikt wordt bevonden tot het besturen van een motorvoertuig.\n\nDe uitspraak van dit verval is mogelijk in elke graad van veroordeling, ongeacht wie het rechtsmiddel heeft ingesteld.\n\nDe duur van het verval van het recht tot sturen is afhankelijk van het bewijs dat betrokkene niet meer ongeschikt is om een motorvoertuig te besturen.",
+  "full_text_ru": "Лишение права управления транспортным средством должно быть назначено, если после осуждения, отсрочки приговора или передачи в суд за нарушение правил дорожного движения или дорожно-транспортное происшествие по собственной вине виновный признан физически или психически неспособным к управлению транспортным средством.\n\nРешение о лишении прав может быть вынесено на любой стадии осуждения, независимо от того, кто подал апелляцию.\n\nСрок лишения прав зависит от доказательств того, что данное лицо больше не является неспособным управлять транспортным средством.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "fl5l44ox06",
+  "anchor_id_nl": "ypbqggvagq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "eba6ab880abb",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

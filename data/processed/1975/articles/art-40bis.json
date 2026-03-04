@@ -47,7 +47,181 @@
   "anchor_id_fr": "qfvzkldx1e",
   "anchor_id_nl": "6vmqe0fglf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie l'interdiction de 'couper' un groupe d'enfants, d'écoliers, de personnes handicapées ou âgées selon l'article 40bis du Code de la route belge ?",
+      "text_nl": "Wat betekent het verbod om een groep kinderen, scholieren, personen met een handicap of bejaarden te 'breken' volgens artikel 40bis van de Belgische Wegcode?",
+      "text_ru": "Что означает запрет «прорезать» группу детей, школьников, инвалидов или пожилых людей согласно статье 40bis Бельгийских дорожных правил?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Faire un dépassement dangereux de ce groupe.",
+          "text_nl": "Het gevaarlijk inhalen van deze groep.",
+          "text_ru": "Опасный обгон этой группы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'insérer ou passer à travers ce groupe lorsqu'il se déplace collectivement sur la chaussée.",
+          "text_nl": "Zich tussen of door deze groep in te voegen wanneer deze zich collectief op de rijbaan verplaatst.",
+          "text_ru": "Вклиниться или пройти сквозь эту группу, когда она коллективно перемещается по проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Gêner la visibilité du groupe.",
+          "text_nl": "De zichtbaarheid van de groep hinderen.",
+          "text_ru": "Затруднять видимость группы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40bis interdit de s'insérer ou de passer à travers un groupe d'enfants, d'écoliers, de personnes handicapées ou âgées qui se déplacent en groupe sur la chaussée, que ce soit en rangs ou traversant la chaussée sous surveillance.",
+      "explanation_nl": "Artikel 40bis verbiedt het zich in te voegen of door een groep kinderen, scholieren, personen met een handicap of bejaarden te gaan wanneer deze zich in groepsverband op de rijbaan verplaatst, hetzij in rijen, hetzij bij het oversteken van de rijbaan onder toezicht.",
+      "explanation_ru": "Статья 40bis запрещает вклиниваться или проходить сквозь группу детей, школьников, инвалидов или пожилых людей, которые перемещаются группой по проезжей части, будь то в рядах или при пересечении проезжей части под наблюдением."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel signal doivent utiliser les surveillants habilités pour arrêter la circulation afin d'assurer la sécurité d'un groupe d'enfants, d'écoliers, de personnes handicapées ou âgées ?",
+      "text_nl": "Welk signaal moeten gemachtigde opzichters gebruiken om het verkeer stil te leggen ter beveiliging van een groep kinderen, scholieren, personen met een handicap of bejaarden?",
+      "text_ru": "Какой сигнал должны использовать уполномоченные надзиратели для остановки движения для обеспечения безопасности группы детей, школьников, инвалидов или пожилых людей?",
+      "image": {
+        "sign_code": "C3",
+        "generation_prompt": "A red circular sign with a white horizontal bar in the middle, indicating 'Stop'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le signal C1 (Stop) avec une main tendue.",
+          "text_nl": "Het C1-signaal (Stop) met een uitgestoken hand.",
+          "text_ru": "Сигнал C1 (Стоп) с вытянутой рукой.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le signal C3 (Stop) en forme de disque.",
+          "text_nl": "Het C3-signaal (Stop) in schijfvorm.",
+          "text_ru": "Диск с сигналом C3 (Стоп).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un panneau jaune clignotant.",
+          "text_nl": "Een geel knipperend bord.",
+          "text_ru": "Желтый мигающий знак.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 40bis.3, pour arrêter la circulation, les surveillants habilités doivent faire usage d'un disque représentant le signal C3.",
+      "explanation_nl": "Volgens artikel 40bis.3 moeten gemachtigde opzichters, om het verkeer stil te leggen, gebruik maken van een schijf waarop het verkeersbord C3 is afgebeeld.",
+      "explanation_ru": "Согласно статье 40bis.3, для остановки движения уполномоченные надзиратели должны использовать диск, изображающий сигнал C3."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un passage piéton où un groupe d'écoliers traverse la rue sous la surveillance d'une adulte tenant un disque rouge. Que devez-vous faire ?",
+      "text_nl": "U nadert een zebrapad waar een groep schoolkinderen de straat oversteekt onder toezicht van een volwassene die een rode schijf vasthoudt. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к пешеходному переходу, где группа школьников переходит улицу под наблюдением взрослого, держащего красный диск. Что вы должны сделать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer votre route en klaxonnant pour les faire accélérer.",
+          "text_nl": "Doorrijden terwijl u toetert om hen sneller te laten gaan.",
+          "text_ru": "Продолжать движение, сигналя, чтобы они ускорились.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêter votre véhicule et attendre que le groupe ait entièrement traversé et que la surveillante ait baissé son signal.",
+          "text_nl": "Uw voertuig stoppen en wachten tot de groep volledig is overgestoken en de opzichter haar signaal heeft laten zakken.",
+          "text_ru": "Остановить свой автомобиль и подождать, пока группа полностью не перейдет дорогу и надзиратель не опустит свой знак.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Passer prudemment en longeant le groupe.",
+          "text_nl": "Voorzichtig passeren door langs de groep te rijden.",
+          "text_ru": "Осторожно проехать, объезжая группу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'adulte tenant un disque rouge signalant un arrêt (type C3) est un surveillant habilité. Conformément à l'article 40bis.2, vous devez obéir à ses indications et donc arrêter votre véhicule et attendre la fin de la traversée.",
+      "explanation_nl": "De volwassene die een rode schijf vasthoudt die een stop aangeeft (type C3) is een gemachtigd opzichter. Overeenkomstig artikel 40bis.2 moet u zijn aanwijzingen opvolgen en dus uw voertuig stoppen en wachten tot de oversteek voltooid is.",
+      "explanation_ru": "Взрослый, держащий красный диск, сигнализирующий об остановке (тип C3), является уполномоченным надзирателем. В соответствии со статьей 40bis.2, вы должны подчиняться его указаниям, то есть остановить свой автомобиль и дождаться окончания перехода."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez dans une zone résidentielle et voyez un groupe d'enfants jouant sur le trottoir, avec quelques-uns s'approchant dangereusement du bord de la chaussée, mais sans surveillant visible. Que devez-vous faire ?",
+      "text_nl": "U rijdt in een woonwijk en ziet een groep kinderen op de stoep spelen, waarbij sommigen gevaarlijk dicht bij de rand van de rijbaan komen, maar zonder zichtbare begeleider. Wat moet u doen?",
+      "text_ru": "Вы едете в жилом районе и видите группу детей, играющих на тротуаре, причем некоторые из них опасно приближаются к краю проезжей части, но без видимого сопровождения. Что вы должны делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à la vitesse normale car il n'y a pas de surveillant et l'article 40bis ne s'applique pas.",
+          "text_nl": "Doorrijden met normale snelheid omdat er geen opzichter is en artikel 40bis niet van toepassing is.",
+          "text_ru": "Продолжать движение с нормальной скоростью, потому что нет сопровождающего, и статья 40bis не применяется.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réduire votre vitesse et être prêt à vous arrêter, car il y a un risque potentiel d'entrée d'enfants sur la chaussée.",
+          "text_nl": "Uw snelheid verminderen en klaar zijn om te stoppen, omdat er een potentieel risico is dat kinderen de rijbaan op lopen.",
+          "text_ru": "Снизить скорость и быть готовым остановиться, так как существует потенциальный риск того, что дети выйдут на проезжую часть.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner doucement pour les avertir de votre présence.",
+          "text_nl": "Voorzichtig toeteren om hen te waarschuwen voor uw aanwezigheid.",
+          "text_ru": "Аккуратно посигналить, чтобы предупредить их о вашем присутствии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Bien que l'article 40bis mentionne spécifiquement les groupes sous conduite ou surveillance, le principe de prudence impose de réduire sa vitesse et d'être prêt à s'arrêter face à des enfants jouant près de la chaussée, car leur comportement est imprévisible.",
+      "explanation_nl": "Hoewel artikel 40bis specifiek groepen onder leiding of toezicht vermeldt, vereist het voorzichtigheidsprincipe dat u uw snelheid vermindert en klaar bent om te stoppen wanneer kinderen in de buurt van de rijbaan spelen, aangezien hun gedrag onvoorspelbaar is.",
+      "explanation_ru": "Хотя статья 40bis конкретно упоминает группы под руководством или наблюдением, принцип осторожности требует снизить скорость и быть готовым остановиться, когда дети играют рядом с проезжей частью, поскольку их поведение непредсказуемо."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un groupe d'aînés traversant lentement la chaussée, sans qu'il y ait de surveillant habilité ni de signal de circulation. Comment devez-vous réagir ?",
+      "text_nl": "U ziet een groep ouderen langzaam de rijbaan oversteken, zonder gemachtigde opzichter of verkeerssignaal. Hoe moet u reageren?",
+      "text_ru": "Вы видите группу пожилых людей, медленно переходящих проезжую часть, без уполномоченного надзирателя или дорожного знака. Как вы должны отреагировать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer rapidement pour ne pas les gêner.",
+          "text_nl": "Snel passeren om hen niet te hinderen.",
+          "text_ru": "Быстро проехать, чтобы не мешать им.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêter votre véhicule et attendre qu'ils aient terminé leur traversée.",
+          "text_nl": "Uw voertuig stoppen en wachten tot zij hun oversteek voltooid hebben.",
+          "text_ru": "Остановить свой автомобиль и дождаться, пока они закончат переход.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signaler votre présence avec le klaxon pour qu'ils se dépêchent.",
+          "text_nl": "Uw aanwezigheid signaleren met de claxon om hen te laten haasten.",
+          "text_ru": "Посигналить, чтобы они поторопились.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40bis.1 interdit de 'couper' un groupe de personnes âgées traversant la chaussée. Même en l'absence de surveillant, vous devez leur laisser la priorité et attendre qu'ils aient fini de traverser.",
+      "explanation_nl": "Artikel 40bis.1 verbiedt het 'breken' door een groep bejaarden die de rijbaan oversteken. Zelfs zonder opzichter moet u hen voorrang verlenen en wachten tot zij klaar zijn met oversteken.",
+      "explanation_ru": "Статья 40bis.1 запрещает «прорезать» группу пожилых людей, переходящих проезжую часть. Даже при отсутствии надзирателя вы должны уступить им дорогу и дождаться, пока они закончат переход."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "fc1d6b2901e6",
@@ -57,6 +231,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:54:45Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

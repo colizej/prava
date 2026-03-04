@@ -1,0 +1,43 @@
+{
+  "law_id": "1968",
+  "article_number": "68/1",
+  "slug": "art-68-1",
+  "structure": {
+    "titre": "V",
+    "chapitre": "V"
+  },
+  "title_fr": "Article 68/1",
+  "title_nl": "Artikel 68/1",
+  "title_ru": "Статья 68/1",
+  "content_md_fr": "Le recouvrement visé à [l’article 65/1](#art-65/1), § 3, est prescrit après cinq ans révolus à compter du jour où l’ordre de paiement est devenu exécutoire de plein droit.",
+  "content_md_nl": "De invordering bedoeld in [artikel 65/1](#art-65/1), § 3, verjaart door verloop van vijf jaar te rekenen van de dag waarop het bevel tot betalen van rechtswege uitvoerbaar is geworden.",
+  "content_md_ru": "Взыскание, о котором говорится в § 3 [статьи 65/1](#art-65/1), утрачивает силу по истечении пяти лет с даты, когда платежный приказ стал исполняться в силу закона.",
+  "content_html_fr": "<p>Le recouvrement visé à <a href=\"#art-65/1\">l’article 65/1</a>, § 3, est prescrit après cinq ans révolus à compter du jour où l’ordre de paiement est devenu exécutoire de plein droit.</p>",
+  "content_html_nl": "<p>De invordering bedoeld in <a href=\"#art-65/1\">artikel 65/1</a>, § 3, verjaart door verloop van vijf jaar te rekenen van de dag waarop het bevel tot betalen van rechtswege uitvoerbaar is geworden.</p>",
+  "full_text_fr": "Le recouvrement visé à l’article 65/1, § 3, est prescrit après cinq ans révolus à compter du jour où l’ordre de paiement est devenu exécutoire de plein droit.",
+  "full_text_nl": "De invordering bedoeld in artikel 65/1, § 3, verjaart door verloop van vijf jaar te rekenen van de dag waarop het bevel tot betalen van rechtswege uitvoerbaar is geworden.",
+  "full_text_ru": "Взыскание, о котором говорится в § 3 статьи 65/1, утрачивает силу по истечении пяти лет с даты, когда платежный приказ стал исполняться в силу закона.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-65/1"
+  ],
+  "anchor_id_fr": "ra9mgiivc7",
+  "anchor_id_nl": "e8gakbugie",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "a8311a3b9492",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

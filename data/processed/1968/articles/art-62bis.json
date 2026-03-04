@@ -1,0 +1,59 @@
+{
+  "law_id": "1968",
+  "article_number": "62bis",
+  "slug": "art-62bis",
+  "structure": {
+    "titre": "V",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 62bis",
+  "title_nl": "Artikel 62bis",
+  "title_ru": "Статья 62a",
+  "content_md_fr": "Sans préjudice des dispositions de la loi du 30 juillet 1979 relative aux radiocommunications, il est interdit de se munir de tout équipement ou de tout autre moyen entravant ou empêchant la constatation d'infractions à la présente loi et aux règlements sur la police de la circulation routière ou détectant les appareils fonctionnant automatiquement visés à [l'article 62](#art-62).\n\n> ℹ️ Voir aussi : article 29bis .\n\n#### Section 2. Analyse de salive – Prélèvement sanguin",
+  "content_md_nl": "Onverminderd de bepalingen van de wet van 30 juli 1979 betreffende de radioberichtgeving is het verboden elke uitrusting die of elk ander middel dat de vaststelling van overtredingen van deze wet en van de reglementen betreffende de politie over het wegverkeer, bemoeilijkt of verhindert of automatisch werkende toestellen bedoeld in [artikel 62](#art-62) opspoort, bij zich te hebben.\n\n> ℹ️ Voor de strafbepaling : zie artikel 29bis .\n\n#### Afdeling 2. Speekselanalyse - Bloedproef",
+  "content_md_ru": "Без ущерба для положений закона от 30 июля 1979 года о радиосвязи запрещается использовать любое оборудование или любые другие средства, затрудняющие или препятствующие выявлению правонарушений, противоречащих настоящему закону и правилам дорожной полиции, или обнаруживающие автоматически срабатывающие устройства, упомянутые в [статье 62] (#art-62).\n\n> ℹ️ См. также: статья 29bis.\n\n#### Раздел 2. Анализ слюны - Забор крови",
+  "content_html_fr": "<p>Sans préjudice des dispositions de la loi du 30 juillet 1979 relative aux radiocommunications, il est interdit de se munir de tout équipement ou de tout autre moyen entravant ou empêchant la constatation d'infractions à la présente loi et aux règlements sur la police de la circulation routière ou détectant les appareils fonctionnant automatiquement visés à <a href=\"#art-62\">l'article 62</a>.</p><div class=\"notification notification-primary\">Voir aussi : <a href=\"#art-29bis\">article 29bis</a>.</div><h4 id=\"lvyjtoha0j\">Section 2. Analyse de salive – Prélèvement sanguin</h4>",
+  "content_html_nl": "<p>Onverminderd de bepalingen van de wet van 30 juli 1979 betreffende de radioberichtgeving is het verboden elke uitrusting die of elk ander middel dat de vaststelling van overtredingen van deze wet en van de reglementen betreffende de politie over het wegverkeer, bemoeilijkt of verhindert of automatisch werkende toestellen bedoeld in <a href=\"#art-62\">artikel 62</a> opspoort, bij zich te hebben.</p><div class=\"notification notification-primary\">Voor de strafbepaling : zie <a href=\"#art-29bis\">artikel 29bis</a>.</div><h4 id=\"ogi9ay14s3\">Afdeling 2. Speekselanalyse - Bloedproef</h4>",
+  "full_text_fr": "Sans préjudice des dispositions de la loi du 30 juillet 1979 relative aux radiocommunications, il est interdit de se munir de tout équipement ou de tout autre moyen entravant ou empêchant la constatation d'infractions à la présente loi et aux règlements sur la police de la circulation routière ou détectant les appareils fonctionnant automatiquement visés à l'article 62.\n\n️ Voir aussi : article 29bis .\n\nSection 2. Analyse de salive – Prélèvement sanguin",
+  "full_text_nl": "Onverminderd de bepalingen van de wet van 30 juli 1979 betreffende de radioberichtgeving is het verboden elke uitrusting die of elk ander middel dat de vaststelling van overtredingen van deze wet en van de reglementen betreffende de politie over het wegverkeer, bemoeilijkt of verhindert of automatisch werkende toestellen bedoeld in artikel 62 opspoort, bij zich te hebben.\n\n️ Voor de strafbepaling : zie artikel 29bis .\n\nAfdeling 2. Speekselanalyse - Bloedproef",
+  "full_text_ru": "Без ущерба для положений закона от 30 июля 1979 года о радиосвязи запрещается использовать любое оборудование или любые другие средства, затрудняющие или препятствующие выявлению правонарушений, противоречащих настоящему закону и правилам дорожной полиции, или обнаруживающие автоматически срабатывающие устройства, упомянутые в [статье 62] (#art-62).\n\n️ См. также: статья 29bis.\n\nРаздел 2. Анализ слюны - Забор крови",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "Voir aussi : article 29bis ."
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Voor de strafbepaling : zie artikel 29bis ."
+    }
+  ],
+  "notifications_ru": [
+    {
+      "type": "primary",
+      "text": "См. также: статья 29bis ."
+    }
+  ],
+  "cross_refs": [
+    "#art-62",
+    "#art-29bis"
+  ],
+  "anchor_id_fr": "hv8qwuhvrq",
+  "anchor_id_nl": "ggzmmws7g4",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "e711dc402682",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

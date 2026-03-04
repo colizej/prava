@@ -10,7 +10,8 @@ class ArticleImageInline(admin.TabularInline):
 
 @admin.register(RuleCategory)
 class RuleCategoryAdmin(admin.ModelAdmin):
-    list_display = ('name', 'name_nl', 'name_ru', 'slug', 'order', 'is_active')
+    list_display = ('law_id', 'name', 'name_nl', 'name_ru', 'slug', 'order', 'is_active')
+    list_filter = ('law_id', 'is_active')
     prepopulated_fields = {'slug': ('name',)}
     list_editable = ('order', 'is_active')
     search_fields = ('name', 'name_nl', 'name_ru')
@@ -18,8 +19,8 @@ class RuleCategoryAdmin(admin.ModelAdmin):
 
 @admin.register(CodeArticle)
 class CodeArticleAdmin(admin.ModelAdmin):
-    list_display = ('article_number', 'title', 'category', 'is_free', 'order', 'image_count')
-    list_filter = ('category', 'is_free')
+    list_display = ('law_id', 'article_number', 'title', 'category', 'is_free', 'order', 'image_count')
+    list_filter = ('law_id', 'category', 'is_free')
     search_fields = ('article_number', 'title', 'content', 'content_text', 'title_nl', 'title_ru')
     prepopulated_fields = {'slug': ('article_number', 'title')}
     list_editable = ('is_free', 'order')
@@ -28,7 +29,7 @@ class CodeArticleAdmin(admin.ModelAdmin):
 
     fieldsets = (
         ('Identification', {
-            'fields': ('article_number', 'slug', 'category', 'is_free', 'order'),
+            'fields': ('law_id', 'article_number', 'slug', 'category', 'is_free', 'order'),
         }),
         ('Contenu FR', {
             'fields': ('title', 'content', 'content_text'),

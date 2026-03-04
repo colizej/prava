@@ -57,7 +57,190 @@
   "anchor_id_fr": "zmdrgtsa6f",
   "anchor_id_nl": "7ra5lh8sjw",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'article 48bis1, quels véhicules doivent impérativement emprunter les autoroutes, sauf en cas de nécessité ?",
+      "text_nl": "Volgens artikel 48bis1, welke voertuigen moeten, behalve in geval van noodzaak, verplicht de autosnelwegen volgen?",
+      "text_ru": "Согласно статье 48bis1, какие транспортные средства обязаны, кроме случаев необходимости, пользоваться автомагистралями?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tous les véhicules transportant des marchandises.",
+          "text_nl": "Alle voertuigen die goederen vervoeren.",
+          "text_ru": "Все транспортные средства, перевозящие грузы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les véhicules transportant des marchandises dangereuses équipées d'un panneau orange selon l'ADR.",
+          "text_nl": "Voertuigen die gevaarlijke goederen vervoeren die zijn uitgerust met een oranje bord volgens de ADR.",
+          "text_ru": "Транспортные средства, перевозящие опасные грузы, оборудованные оранжевой табличкой согласно ДОПОГ.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les véhicules de plus de 3,5 tonnes.",
+          "text_nl": "Voertuigen van meer dan 3,5 ton.",
+          "text_ru": "Транспортные средства весом более 3,5 тонн.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 48bis1 stipule que les véhicules transportant des marchandises dangereuses, telles que définies par l'ADR et qui doivent être munis d'un panneau orange, sont soumis à cette obligation.",
+      "explanation_nl": "Artikel 48bis1 stelt dat voertuigen die gevaarlijke goederen vervoeren, zoals gedefinieerd door de ADR en die moeten zijn uitgerust met een oranje bord, aan deze verplichting moeten voldoen.",
+      "explanation_ru": "Статья 48bis1 гласит, что транспортные средства, перевозящие опасные грузы, как определено ДОПОГ и которые должны быть оборудованы оранжевой табличкой, подпадают под это обязательство."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie le signal C24a, C24b ou C24c dans le contexte du transport de marchandises dangereuses ?",
+      "text_nl": "Wat betekent het verkeersbord C24a, C24b of C24c in de context van het vervoer van gevaarlijke goederen?",
+      "text_ru": "Что означает знак C24a, C24b или C24c в контексте перевозки опасных грузов?",
+      "image": {
+        "sign_code": "C24a",
+        "generation_prompt": "A prohibitory sign with a red circle and a white background. Inside the circle, there is a pictogram of a truck with a black outline. The truck is depicted with a trailer and is crossed by a red diagonal bar from top left to bottom right. This is sign C24a, indicating prohibition of entry for certain vehicles."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Obligation de suivre une voie spécifique.",
+          "text_nl": "Verplichting om een specifieke rijstrook te volgen.",
+          "text_ru": "Обязательство следовать по определенной полосе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Interdiction d'accès pour les véhicules transportant certaines marchandises dangereuses.",
+          "text_nl": "Toegang verboden voor voertuigen die bepaalde gevaarlijke goederen vervoeren.",
+          "text_ru": "Запрет въезда для транспортных средств, перевозящих определенные опасные грузы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Obligation de ralentir.",
+          "text_nl": "Verplichting om te vertragen.",
+          "text_ru": "Обязательство снизить скорость.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux C24a, C24b et C24c sont des signaux d'interdiction d'accès spécifiquement destinés aux conducteurs de véhicules transportant les marchandises dangereuses déterminées par les ministres compétents.",
+      "explanation_nl": "De verkeersborden C24a, C24b en C24c zijn toegangsborden die specifiek bedoeld zijn voor bestuurders van voertuigen die de gevaarlijke goederen vervoeren die door de bevoegde ministers zijn bepaald.",
+      "explanation_ru": "Знаки C24a, C24b и C24c являются знаками запрета въезда, специально предназначенными для водителей транспортных средств, перевозящих опасные грузы, определенные соответствующими министрами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un camion transportant des produits chimiques classés comme dangereux selon l'ADR, nécessitant un panneau orange. Vous arrivez à une intersection où le signal C24a est présent. Que devez-vous faire ?",
+      "text_nl": "U bestuurt een vrachtwagen die chemicaliën vervoert die volgens de ADR als gevaarlijk zijn geclassificeerd en een oranje bord vereisen. U nadert een kruispunt waar het verkeersbord C24a aanwezig is. Wat moet u doen?",
+      "text_ru": "Вы управляете грузовиком, перевозящим химикаты, классифицированные как опасные согласно ДОПОГ и требующие оранжевой таблички. Вы приближаетесь к перекрестку, где установлен знак C24a. Ваши действия?",
+      "image": {
+        "sign_code": "C24a",
+        "generation_prompt": "A prohibitory sign with a red circle and a white background. Inside the circle, there is a pictogram of a truck with a black outline. The truck is depicted with a trailer and is crossed by a red diagonal bar from top left to bottom right. This is sign C24a, indicating prohibition of entry for certain vehicles."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer prudemment, car le signal s'applique uniquement aux voitures.",
+          "text_nl": "Ga voorzichtig door, want het bord geldt alleen voor personenauto's.",
+          "text_ru": "Продолжайте движение осторожно, так как знак относится только к легковым автомобилям.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Céder le passage aux autres véhicules et chercher un itinéraire alternatif.",
+          "text_nl": "Verleen voorrang aan andere voertuigen en zoek een alternatieve route.",
+          "text_ru": "Уступите дорогу другим транспортным средствам и найдите альтернативный маршрут.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer le signal si vous êtes sûr de ne pas transporter de marchandises extrêmement dangereuses.",
+          "text_nl": "Negeer het bord als u er zeker van bent dat u geen extreem gevaarlijke goederen vervoert.",
+          "text_ru": "Проигнорируйте знак, если вы уверены, что не перевозите чрезвычайно опасные грузы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal C24a interdit l'accès aux véhicules transportant les marchandises dangereuses spécifiées. Étant donné que votre camion transporte des produits chimiques dangereux avec un panneau orange, vous devez respecter cette interdiction et trouver un autre chemin.",
+      "explanation_nl": "Het verkeersbord C24a verbiedt de toegang voor voertuigen die de gespecificeerde gevaarlijke goederen vervoeren. Aangezien uw vrachtwagen gevaarlijke chemicaliën met een oranje bord vervoert, moet u dit verbod respecteren en een andere weg zoeken.",
+      "explanation_ru": "Знак C24a запрещает въезд транспортным средствам, перевозящим указанные опасные грузы. Поскольку ваш грузовик перевозит опасные химикаты с оранжевой табличкой, вы должны соблюдать этот запрет и найти другой путь."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez une petite voiture sans chargement particulier. Vous voyez le signal C24b. Pouvez-vous continuer sur la voie indiquée par ce signal ?",
+      "text_nl": "U bestuurt een kleine personenauto zonder speciale lading. U ziet het verkeersbord C24b. Kunt u doorrijden op de rijbaan die door dit bord wordt aangegeven?",
+      "text_ru": "Вы управляете легковым автомобилем без специального груза. Вы видите знак C24b. Можете ли вы продолжить движение по полосе, обозначенной этим знаком?",
+      "image": {
+        "sign_code": "C24b",
+        "generation_prompt": "A prohibitory sign with a red circle and a white background. Inside the circle, there is a pictogram of a truck with a black outline. The truck is depicted with a trailer and is crossed by a red diagonal bar from top left to bottom right. This is sign C24b, indicating prohibition of entry for certain vehicles."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car le signal concerne uniquement les camions.",
+          "text_nl": "Ja, want het bord geldt alleen voor vrachtwagens.",
+          "text_ru": "Да, так как знак относится только к грузовикам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car le signal interdit l'accès aux véhicules transportant des marchandises dangereuses spécifiées, et je ne veux pas risquer une amende.",
+          "text_nl": "Nee, want het bord verbiedt de toegang voor voertuigen die specifieke gevaarlijke goederen vervoeren, en ik wil geen boete riskeren.",
+          "text_ru": "Нет, так как знак запрещает въезд транспортным средствам, перевозящим определенные опасные грузы, и я не хочу рисковать штрафом.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car le signal ne s'applique qu'aux véhicules transportant des marchandises dangereuses spécifiques.",
+          "text_nl": "Ja, want het bord is alleen van toepassing op voertuigen die specifieke gevaarlijke goederen vervoeren.",
+          "text_ru": "Да, так как знак применим только к транспортным средствам, перевозящим определенные опасные грузы.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le signal C24b, comme le C24a et le C24c, interdit l'accès aux véhicules transportant certaines marchandises dangereuses. Si votre véhicule ne transporte pas ces marchandises spécifiques, vous pouvez passer. Le signal ne vous concerne pas directement en tant que conducteur de voiture sans marchandises dangereuses.",
+      "explanation_nl": "Het verkeersbord C24b, net als C24a en C24c, verbiedt de toegang voor voertuigen die bepaalde gevaarlijke goederen vervoeren. Als uw voertuig deze specifieke goederen niet vervoert, kunt u doorrijden. Het bord is niet direct op u van toepassing als bestuurder van een auto zonder gevaarlijke goederen.",
+      "explanation_ru": "Знак C24b, как и C24a и C24c, запрещает въезд транспортным средствам, перевозящим определенные опасные грузы. Если ваше транспортное средство не перевозит эти конкретные грузы, вы можете проехать. Знак не относится непосредственно к вам как водителю легкового автомобиля без опасных грузов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes au volant d'un véhicule de tourisme. Vous vous apprêtez à entrer sur une voie publique signalée par le panneau C24c. Quelles informations cruciales devez-vous déduire de ce panneau pour votre propre conduite ?",
+      "text_nl": "U bestuurt een personenauto. U staat op het punt een openbare weg op te rijden die is aangegeven met het verkeersbord C24c. Welke cruciale informatie moet u uit dit bord halen voor uw eigen rijgedrag?",
+      "text_ru": "Вы за рулем легкового автомобиля. Вы собираетесь въехать на общественную дорогу, обозначенную знаком C24c. Какую важную информацию вы должны извлечь из этого знака для своего собственного вождения?",
+      "image": {
+        "sign_code": "C24c",
+        "generation_prompt": "A prohibitory sign with a red circle and a white background. Inside the circle, there is a pictogram of a truck with a black outline. The truck is depicted with a trailer and is crossed by a red diagonal bar from top left to bottom right. This is sign C24c, indicating prohibition of entry for certain vehicles."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que cette voie est réservée aux véhicules de transport de marchandises dangereuses.",
+          "text_nl": "Dat deze rijbaan is gereserveerd voor voertuigen die gevaarlijke goederen vervoeren.",
+          "text_ru": "Что эта полоса зарезервирована для транспортных средств, перевозящих опасные грузы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Que l'accès est interdit aux véhicules transportant certaines marchandises dangereuses, ce qui ne me concerne pas directement en tant que conducteur de voiture.",
+          "text_nl": "Dat de toegang verboden is voor voertuigen die bepaalde gevaarlijke goederen vervoeren, wat mij niet direct aangaat als bestuurder van een auto.",
+          "text_ru": "Что въезд запрещен для транспортных средств, перевозящих определенные опасные грузы, что меня, как водителя легкового автомобиля, напрямую не касается.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que je dois faire attention aux camions transportant des matières dangereuses.",
+          "text_nl": "Dat ik voorzichtig moet zijn met vrachtwagens die gevaarlijke stoffen vervoeren.",
+          "text_ru": "Что мне следует остерегаться грузовиков, перевозящих опасные материалы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau C24c, comme les autres variantes C24, indique une interdiction d'accès pour les conducteurs de véhicules transportant des marchandises dangereuses spécifiques. En tant que conducteur de véhicule de tourisme sans ce type de marchandise, ce panneau ne vous interdit pas l'accès. Il informe les conducteurs concernés de l'interdiction.",
+      "explanation_nl": "Het verkeersbord C24c, net als de andere C24-varianten, geeft een toegangsverbod aan voor bestuurders van voertuigen die specifieke gevaarlijke goederen vervoeren. Als bestuurder van een personenauto zonder dit soort goederen, verbiedt dit bord u de toegang niet. Het informeert de betreffende bestuurders over het verbod.",
+      "explanation_ru": "Знак C24c, как и другие варианты C24, указывает на запрет въезда для водителей транспортных средств, перевозящих определенные опасные грузы. Как водитель легкового автомобиля без такого типа груза, этот знак не запрещает вам въезд. Он информирует водителей, которых это касается, о запрете."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "2858a3b16237",
@@ -67,6 +250,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:37:39Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

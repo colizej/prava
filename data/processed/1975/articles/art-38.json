@@ -26,7 +26,178 @@
   "anchor_id_fr": "hraq64qavl",
   "anchor_id_nl": "hyhazhae8u",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie la mention \"véhicule prioritaire\" dans le contexte du code de la route belge ?",
+      "text_nl": "Wat betekent de vermelding \"prioritair voertuig\" in de context van de Belgische wegcode ?",
+      "text_ru": "Что означает упоминание «приоритетное транспортное средство» в контексте бельгийских правил дорожного движения ?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un véhicule transportant des personnalités importantes.",
+          "text_nl": "Een voertuig dat belangrijke personen vervoert.",
+          "text_ru": "Транспортное средство, перевозящее важных лиц.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un véhicule d'intérêt général (police, ambulance, pompier) utilisant ses avertisseurs spéciaux.",
+          "text_nl": "Een voertuig van algemeen belang (politie, ambulance, brandweer) dat zijn speciale waarschuwingssignalen gebruikt.",
+          "text_ru": "Транспортное средство общего назначения (полиция, скорая помощь, пожарные), использующее специальные звуковые сигналы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un véhicule de transport en commun prioritaire pour les passagers.",
+          "text_nl": "Een prioritaire openbaarvervoersvoertuig voor passagiers.",
+          "text_ru": "Приоритетное транспортное средство общественного транспорта для пассажиров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un véhicule prioritaire est un véhicule d'intérêt général, comme ceux de la police, des services médicaux d'urgence ou des pompiers, lorsqu'il utilise ses avertisseurs sonores et lumineux spéciaux pour signaler son urgence.",
+      "explanation_nl": "Een prioritair voertuig is een voertuig van algemeen belang, zoals dat van de politie, medische nooddiensten of brandweer, wanneer het zijn speciale geluids- en lichtsignalen gebruikt om zijn urgentie aan te geven.",
+      "explanation_ru": "Приоритетное транспортное средство — это транспортное средство общего назначения, такое как автомобили полиции, службы неотложной медицинской помощи или пожарной службы, когда оно использует специальные звуковые и световые сигналы для обозначения своей срочности."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est l'obligation principale d'un usager de la route lorsqu'il entend l'avertisseur sonore spécial d'un véhicule prioritaire ?",
+      "text_nl": "Wat is de belangrijkste verplichting van een weggebruiker wanneer hij de speciale geluidssignalen van een prioritair voertuig hoort ?",
+      "text_ru": "Какова основная обязанность участника дорожного движения при звуке специального звукового сигнала приоритетного транспортного средства?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer sa route mais ralentir.",
+          "text_nl": "Doorrijden maar langzamer.",
+          "text_ru": "Продолжать движение, но медленнее.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Immédiatement dégager et céder le passage, et s'arrêter si nécessaire.",
+          "text_nl": "Onmiddellijk de doorgang vrijmaken en voorrang verlenen, en stoppen indien nodig.",
+          "text_ru": "Немедленно освободить проезд и уступить дорогу, при необходимости остановиться.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Augmenter la vitesse pour s'éloigner rapidement.",
+          "text_nl": "De snelheid verhogen om snel weg te komen.",
+          "text_ru": "Увеличить скорость, чтобы быстро уехать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 38 stipule que tout usager doit immédiatement dégager et céder le passage dès que l'approche d'un véhicule prioritaire est signalée, et s'arrêter au besoin.",
+      "explanation_nl": "Artikel 38 bepaalt dat elke weggebruiker onmiddellijk de doorgang moet vrijmaken en voorrang moet verlenen zodra het naderen van een prioritair voertuig wordt aangekondigd, en indien nodig moet stoppen.",
+      "explanation_ru": "Статья 38 гласит, что каждый участник дорожного движения должен немедленно освободить проезд и уступить дорогу, как только будет объявлено приближение приоритетного транспортного средства, и при необходимости остановиться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une route à deux voies dans le même sens. Un véhicule de police, gyrophares allumés et sirène retentissant, arrive rapidement derrière vous. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een tweevaksbaan in dezelfde richting. Een politievoertuig, met zwaailichten aan en sirene loeiend, komt snel achter u aan. Wat moet u doen ?",
+      "text_ru": "Вы едете по двухполосной дороге в одном направлении. Полицейская машина с включенными проблесковыми маячками и звуковой сиреной быстро приближается сзади. Что вы должны делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Freiner brusquement pour laisser passer la police.",
+          "text_nl": "Plots remmen om de politie te laten passeren.",
+          "text_ru": "Резко затормозить, чтобы пропустить полицию.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer votre trajet normalement car vous n'êtes pas en faute.",
+          "text_nl": "Uw rit normaal voortzetten omdat u geen schuld heeft.",
+          "text_ru": "Продолжать движение как обычно, так как вы не виноваты.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Chercher à vous décaler sur la droite et ralentir, voire vous arrêter si nécessaire pour lui permettre de passer.",
+          "text_nl": "Proberen naar rechts uit te wijken en te vertragen, of zelfs te stoppen indien nodig om hem te laten passeren.",
+          "text_ru": "Постараться сместиться вправо и замедлиться, или даже остановиться при необходимости, чтобы позволить ему проехать.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 38, vous devez immédiatement dégager la voie et céder le passage au véhicule prioritaire. Cela implique de se décaler sur la droite si possible et de ralentir ou s'arrêter pour le laisser passer en toute sécurité.",
+      "explanation_nl": "Conform artikel 38 moet u onmiddellijk de doorgang vrijmaken en voorrang verlenen aan het prioritair voertuig. Dit houdt in dat u indien mogelijk naar rechts uitwijkt en vertraagt of stopt om het veilig te laten passeren.",
+      "explanation_ru": "В соответствии со статьей 38 вы должны немедленно освободить проезд и уступить дорогу приоритетному транспортному средству. Это включает смещение вправо, если это возможно, и замедление или остановку, чтобы позволить ему безопасно проехать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes engagé dans un carrefour et voyez au loin un véhicule d'incendie avec avertisseur sonore. Le carrefour est encombré et vous ne pouvez pas le dégager immédiatement. Quelle est la meilleure conduite à tenir ?",
+      "text_nl": "U bent op een kruispunt en ziet in de verte een brandweerwagen met geluidssignalen. Het kruispunt is druk en u kunt het niet onmiddellijk vrijmaken. Wat is de beste handelswijze ?",
+      "text_ru": "Вы находитесь на перекрестке и издалека видите пожарную машину со звуковым сигналом. Перекресток загружен, и вы не можете немедленно его освободить. Каковы ваши действия?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour traverser le carrefour le plus vite possible.",
+          "text_nl": "Versnellen om het kruispunt zo snel mogelijk over te steken.",
+          "text_ru": "Ускориться, чтобы как можно быстрее пересечь перекресток.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rester immobilisé sur le carrefour pour bloquer le véhicule prioritaire.",
+          "text_nl": "Op het kruispunt blijven staan om het prioritair voertuig te blokkeren.",
+          "text_ru": "Оставаться на перекрестке, чтобы заблокировать приоритетное транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ne pas s'engager dans le carrefour si on ne peut pas le dégager immédiatement, et si déjà engagé, tenter de le dégager en sécurité sans gêner le véhicule prioritaire.",
+          "text_nl": "Het kruispunt niet oprijden als u het niet onmiddellijk kunt vrijmaken, en als u het al bent opgereden, proberen het veilig vrij te maken zonder het prioritair voertuig te hinderen.",
+          "text_ru": "Не въезжать на перекресток, если вы не можете его немедленно освободить, и если вы уже на нем, постараться безопасно его освободить, не мешая приоритетному транспортному средству.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 38 impose de dégager la voie. Si le carrefour est encombré, il faut éviter de s'y engager. Si vous y êtes déjà, il faut tenter de le libérer en sécurité dès que possible, sans pour autant créer un danger ou bloquer le véhicule prioritaire.",
+      "explanation_nl": "Artikel 38 vereist dat de doorgang wordt vrijgemaakt. Als het kruispunt druk is, moet u vermijden erop te rijden. Als u er al op bent, moet u proberen het zo snel mogelijk veilig vrij te maken, zonder echter gevaar te veroorzaken of het prioritair voertuig te blokkeren.",
+      "explanation_ru": "Статья 38 требует освободить проезд. Если перекресток загружен, следует избегать въезда на него. Если вы уже там, следует постараться как можно скорее безопасно его освободить, не создавая при этом опасности и не блокируя приоритетное транспортное средство."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur une route de campagne à voie unique. Vous entendez une sirène approcher. Vous voyez un véhicule de secours qui semble vouloir vous dépasser. Que faites-vous ?",
+      "text_nl": "U bevindt zich op een landweg met één rijstrook. U hoort een sirene naderen. U ziet een hulpdienst die u lijkt te willen inhalen. Wat doet u ?",
+      "text_ru": "Вы находитесь на сельской дороге с одной полосой движения. Вы слышите приближающуюся сирену. Вы видите машину скорой помощи, которая, кажется, хочет вас обогнать. Что вы делаете?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour ne pas ralentir le véhicule de secours.",
+          "text_nl": "Versnellen om de hulpdienst niet te vertragen.",
+          "text_ru": "Ускориться, чтобы не замедлять машину скорой помощи.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Diriger votre véhicule le plus possible vers le bas-côté ou le bord de la chaussée pour lui céder le passage.",
+          "text_nl": "Uw voertuig zoveel mogelijk naar de berm of de rand van de weg sturen om het de doorgang te verlenen.",
+          "text_ru": "Максимально сместить ваш автомобиль к обочине или краю проезжей части, чтобы уступить дорогу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer votre chemin et attendre qu'il trouve un endroit pour vous dépasser.",
+          "text_nl": "Uw weg vervolgen en wachten tot hij een plek vindt om u in te halen.",
+          "text_ru": "Продолжать движение и ждать, пока он найдет место для обгона.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 38 demande de dégager et céder le passage. Sur une route étroite, cela implique de se ranger le plus possible sur le côté, voire de s'arrêter si nécessaire, pour permettre au véhicule prioritaire de passer.",
+      "explanation_nl": "Artikel 38 vraagt om de doorgang vrij te maken en voorrang te verlenen. Op een smalle weg betekent dit dat u zich zoveel mogelijk aan de zijkant moet plaatsen, of zelfs moet stoppen indien nodig, om het prioritair voertuig te laten passeren.",
+      "explanation_ru": "Статья 38 требует освободить проезд и уступить дорогу. На узкой дороге это означает максимально прижаться к обочине или даже остановиться при необходимости, чтобы позволить приоритетному транспортному средству проехать."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "e7f7aca60f16",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:53:08Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

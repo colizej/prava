@@ -63,7 +63,193 @@
   "anchor_id_fr": "meiuhapbyb",
   "anchor_id_nl": "rqiujcwfdn",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 59.1, quelle obligation a une personne de plus de 15 ans en cas d'infraction à la police de la circulation routière ou d'accident de la circulation ?",
+      "text_nl": "Volgens artikel 59.1, welke verplichting heeft een persoon ouder dan 15 jaar in geval van een overtreding van de verkeersregels of een verkeersongeval?",
+      "text_ru": "Согласно статье 59.1, какое обязательство несет лицо старше 15 лет в случае нарушения правил дорожного движения или дорожно-транспортного происшествия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Illustration d'un policier demandant une pièce d'identité à un conducteur."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Présenter son permis de conduire et la carte grise.",
+          "text_nl": "Toon zijn rijbewijs en het kentekenbewijs.",
+          "text_ru": "Предъявить водительские права и свидетельство о регистрации.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Présenter sa carte d'identité ou un titre en tenant lieu.",
+          "text_nl": "Toon zijn identiteitskaart of een als zodanig geldend bewijs.",
+          "text_ru": "Предъявить удостоверение личности или равнозначный документ.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Se présenter au poste de police le plus proche.",
+          "text_nl": "Meld zich aan bij het dichtstbijzijnde politiebureau.",
+          "text_ru": "Явиться в ближайшее отделение полиции.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 59.1 stipule que toute personne âgée de plus de 15 ans est tenue de présenter sa carte d'identité ou le titre qui en tient lieu à toute réquisition d'un agent qualifié faite à l'occasion d'une infraction ou d'un accident.",
+      "explanation_nl": "Artikel 59.1 stelt dat elke persoon ouder dan 15 jaar verplicht is zijn identiteitskaart of het als zodanig geldend bewijs te tonen op elk verzoek van een bevoegd persoon naar aanleiding van een overtreding of een ongeval.",
+      "explanation_ru": "Статья 59.1 гласит, что любое лицо старше 15 лет обязано предъявить свое удостоверение личности или равнозначный документ по требованию уполномоченного лица в связи с нарушением или несчастным случаем."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie l'article 59.3 concernant la plaque de vitesse apposée à l'arrière d'un véhicule ?",
+      "text_nl": "Wat betekent artikel 59.3 met betrekking tot de snelheidsplaat achter op een voertuig?",
+      "text_ru": "Что означает статья 59.3 в отношении знака скорости, размещенного на задней части транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Une plaque de vitesse carrée rouge avec le chiffre '90' au centre, montée sur la partie arrière droite d'un véhicule."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle indique la vitesse minimale autorisée sur la route.",
+          "text_nl": "Het geeft de minimaal toegestane snelheid op de weg aan.",
+          "text_ru": "Он указывает минимально допустимую скорость на дороге.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle indique la vitesse maximale autorisée par les articles 11.2 et 11.3.",
+          "text_nl": "Het geeft de door de artikelen 11.2 en 11.3 toegestane maximumsnelheid aan.",
+          "text_ru": "Он указывает максимально допустимую скорость, разрешенную статьями 11.2 и 11.3.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle indique le poids maximum autorisé du véhicule.",
+          "text_nl": "Het geeft het maximaal toegelaten gewicht van het voertuig aan.",
+          "text_ru": "Он указывает максимально допустимый вес транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 59.3 précise que la plaque de vitesse apposée à l'arrière du véhicule indique la vitesse maximale autorisée par les articles 11.2, 1°, a) et 11.3.1° à 3°.",
+      "explanation_nl": "Artikel 59.3 specificeert dat de snelheidsplaat achter op het voertuig de door de artikelen 11.2, 1°, a) en 11.3.1° tot 3° toegestane maximumsnelheid aangeeft.",
+      "explanation_ru": "Статья 59.3 уточняет, что знак скорости, размещенный на задней части транспортного средства, указывает максимально допустимую скорость, разрешенную статьями 11.2, 1°, a) и 11.3.1° по 3°."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes arrêté par un agent qualifié suite à un excès de vitesse. Quel document devez-vous obligatoirement présenter à cet agent ?",
+      "text_nl": "U wordt door een bevoegde agent staande gehouden na een snelheidsbekeuring. Welk document moet u verplicht aan deze agent tonen?",
+      "text_ru": "Вас остановил уполномоченный сотрудник полиции после превышения скорости. Какой документ вы обязаны предъявить этому сотруднику?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Un agent de police se tenant à côté d'une voiture de police, avec un automobiliste arrêtée sur le côté de la route."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La carte grise du véhicule.",
+          "text_nl": "Het kentekenbewijs van het voertuig.",
+          "text_ru": "Свидетельство о регистрации транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre permis de conduire.",
+          "text_nl": "Uw rijbewijs.",
+          "text_ru": "Ваши водительские права.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre carte d'identité ou un titre en tenant lieu.",
+          "text_nl": "Uw identiteitskaart of een als zodanig geldend bewijs.",
+          "text_ru": "Ваше удостоверение личности или равнозначный документ.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 59.1, toute personne de plus de 15 ans doit présenter sa carte d'identité ou un titre en tenant lieu à un agent qualifié lors d'une infraction ou d'un accident.",
+      "explanation_nl": "Volgens artikel 59.1 moet elke persoon ouder dan 15 jaar zijn identiteitskaart of een als zodanig geldend bewijs tonen aan een bevoegd agent bij een overtreding of ongeval.",
+      "explanation_ru": "В соответствии со статьей 59.1, любое лицо старше 15 лет должно предъявить свое удостоверение личности или равнозначный документ уполномоченному сотруднику полиции в случае нарушения или несчастного случая."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Votre véhicule ne respecte pas les règlements techniques concernant le poids maximal autorisé. Que risquez-vous selon l'article 59.7 ?",
+      "text_nl": "Uw voertuig voldoet niet aan de technische voorschriften betreffende het maximaal toegelaten gewicht. Wat riskeert u volgens artikel 59.7?",
+      "text_ru": "Ваше транспортное средство не соответствует техническим нормам, касающимся максимально допустимого веса. Чем вы рискуете согласно статье 59.7?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Une balance de pesage de camion avec un camion dessus, affichant un poids supérieur à la limite autorisée."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devrez simplement payer une amende.",
+          "text_nl": "U betaalt gewoon een boete.",
+          "text_ru": "Вы просто заплатите штраф.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devrez décharger le véhicule et celui-ci pourra être retenu.",
+          "text_nl": "U moet het voertuig uitladen en het kan worden ingehouden.",
+          "text_ru": "Вы должны разгрузить транспортное средство, и оно может быть задержано.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous serez interdit de circulation jusqu'à la mise en conformité.",
+          "text_nl": "U wordt verboden om te rijden totdat aan de voorschriften is voldaan.",
+          "text_ru": "Вам будет запрещено движение до тех пор, пока не будут соблюдены требования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 59.7 stipule qu'en cas d'infraction aux dispositions du règlement technique relatives au poids maximal autorisé, le conducteur est tenu de décharger, de dételer ou de garer son véhicule dans la localité la plus proche, à défaut de quoi le véhicule sera retenu.",
+      "explanation_nl": "Artikel 59.7 bepaalt dat bij overtreding van de bepalingen van het technisch reglement inzake het maximaal toegelaten gewicht, de bestuurder verplicht is zijn voertuig te ontladen, af te spannen of te parkeren in de dichtstbijzijnde plaats, bij gebreke waarvan het voertuig zal worden ingehouden.",
+      "explanation_ru": "Статья 59.7 гласит, что в случае нарушения положений технического регламента, касающихся максимально допустимого веса, водитель обязан разгрузить, отцепить или припарковать свое транспортное средство в ближайшем населенном пункте, в противном случае транспортное средство будет задержано."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes un fonctionnaire de police effectuant une surveillance sur autoroute. Pouvez-vous être soumis aux règles d'admission et de circulation de l'article 21, même si elles sont incompatibles avec votre mission ?",
+      "text_nl": "U bent een politiefunctionaris die toezicht houdt op de snelweg. Kunt u onderworpen zijn aan de toegangs- en verkeersregels van artikel 21, zelfs als deze onverenigbaar zijn met uw missie?",
+      "text_ru": "Вы являетесь сотрудником полиции, осуществляющим надзор на автомагистрали. Могут ли на вас распространяться правила въезда и движения, изложенные в статье 21, даже если они несовместимы с вашей миссией?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Un policier en uniforme à côté d'une voiture de police sur le côté d'une autoroute animée."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, les règles de l'autoroute s'appliquent à tous sans exception.",
+          "text_nl": "Ja, de snelwegregels gelden voor iedereen zonder uitzondering.",
+          "text_ru": "Да, правила автомагистрали применяются ко всем без исключения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, les règles d'admission et de circulation sur autoroute ne sont pas applicables si les nécessités du service le justifient.",
+          "text_nl": "Nee, de toegangs- en verkeersregels op de snelweg zijn niet van toepassing als de dienst noodzaakt.",
+          "text_ru": "Нет, правила въезда и движения по автомагистрали не применяются, если этого требует служебная необходимость.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si vous avez une autorisation spéciale du Ministre.",
+          "text_nl": "Alleen als u een speciale toestemming van de Minister heeft.",
+          "text_ru": "Только при наличии специального разрешения от Министра.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 59.10, les règles d'admission et de circulation sur autoroute prescrites par l'article 21 ne sont pas applicables aux fonctionnaires et agents investis d'une mission de police, de surveillance ou d'administration sur l'autoroute, pour autant que les nécessités du service le justifient.",
+      "explanation_nl": "Volgens artikel 59.10 zijn de toegangs- en verkeersregels op de snelweg, voorgeschreven door artikel 21, niet van toepassing op functionarissen en agenten belast met een politie-, toezichts- of administratieve missie op de snelweg, mits de dienstnoodzaak dit rechtvaardigt.",
+      "explanation_ru": "Согласно статье 59.10, правила въезда и движения по автомагистрали, предписанные статьей 21, не применяются к должностным лицам и агентам, выполняющим полицейские, надзорные или административные задачи на автомагистрали, при условии, что этого требует служебная необходимость."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "2418ee7620fb",
@@ -73,6 +259,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:44:02Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

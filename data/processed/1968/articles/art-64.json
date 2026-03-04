@@ -1,0 +1,43 @@
+{
+  "law_id": "1968",
+  "article_number": "64",
+  "slug": "art-64",
+  "structure": {
+    "titre": "V",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 64",
+  "title_nl": "Artikel 64",
+  "title_ru": "Статья 64",
+  "content_md_fr": "L'article 44bis, §§ 3 et 4, du Code d'instruction criminelle est applicable au prélèvement sanguin prévu à l'[article 63](#art-63).",
+  "content_md_nl": "Het artikel 44bis, § 3 en 4, van het Wetboek van Strafvordering is van toepassing op de in [artikel 63](#art-63) bedoelde bloedproef.",
+  "content_md_ru": "Статья 44bis, §§ 3 и 4, Уголовно-процессуального кодекса применима к образцу крови, предусмотренному в [статье 63](#art-63).",
+  "content_html_fr": "<p>L'article 44bis, §§ 3 et 4, du Code d'instruction criminelle est applicable au prélèvement sanguin prévu à l'<a href=\"#art-63\">article 63</a>.</p>",
+  "content_html_nl": "<p>Het artikel 44bis, § 3 en 4, van het Wetboek van Strafvordering is van toepassing op de in <a href=\"#art-63\">artikel 63</a> bedoelde bloedproef.</p>",
+  "full_text_fr": "L'article 44bis, §§ 3 et 4, du Code d'instruction criminelle est applicable au prélèvement sanguin prévu à l'article 63.",
+  "full_text_nl": "Het artikel 44bis, § 3 en 4, van het Wetboek van Strafvordering is van toepassing op de in artikel 63 bedoelde bloedproef.",
+  "full_text_ru": "Статья 44bis, §§ 3 и 4, Уголовно-процессуального кодекса применима к образцу крови, предусмотренному в статье 63.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-63"
+  ],
+  "anchor_id_fr": "vt51i6ywbr",
+  "anchor_id_nl": "kdlnlfnbsp",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "44295dde97dd",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

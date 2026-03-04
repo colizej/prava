@@ -3,11 +3,11 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
-from django.db.models import Avg, Count
+from django.db.models import Avg, Count, Q
 
 from .models import UserProfile, DailyQuota
 from .forms import CustomUserCreationForm, UserProfileForm
-from apps.examens.models import TestAttempt
+from apps.examens.models import TestAttempt, StudyList, SavedQuestion, Question
 
 
 def register(request):
@@ -75,12 +75,35 @@ def profile(request):
     # Daily quota
     can_answer, quota = DailyQuota.can_answer(request.user)
 
+    # Saved questions — per list with counts
+    study_lists = StudyList.objects.filter(is_active=True).annotate(
+        user_count=Count(
+            'saved_questions',
+            filter=Q(saved_questions__user=request.user)
+        )
+    ).order_by('order')
+    saved_total = SavedQuestion.objects.filter(user=request.user).count()
+
+    # Category breakdown for saved questions
+    saved_question_ids = SavedQuestion.objects.filter(
+        user=request.user
+    ).values_list('question_id', flat=True)
+    saved_by_category = (
+        Question.objects.filter(id__in=saved_question_ids)
+        .values('category__name', 'category__icon')
+        .annotate(cnt=Count('id'))
+        .order_by('-cnt')[:5]
+    )
+
     context = {
         'profile': profile,
         'recent_attempts': recent_attempts,
         'stats': stats,
         'can_answer': can_answer,
         'quota': quota,
+        'study_lists': study_lists,
+        'saved_total': saved_total,
+        'saved_by_category': saved_by_category,
     }
     return render(request, 'accounts/profile.html', context)
 

@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "8",
+  "slug": "art-8",
+  "structure": {
+    "titre": "I",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 8",
+  "title_nl": "Artikel 8",
+  "title_ru": "Статья 8",
+  "content_md_fr": "Les voies publiques classées par le Roi dans la catégorie des autoroutes restent soumises au régime institué par la loi du 12 juillet 1956 établissant le statut des autoroutes.",
+  "content_md_nl": "De openbare wegen die de Koning bij de categorie van de autosnelwegen indeelt blijven onderworpen aan de regeling ingevoerd bij de wet van 12 juli 1956 tot vaststelling van het statuut der autosnelwegen.",
+  "content_md_ru": "На дороги общего пользования, отнесенные королем к категории автомагистралей, распространяется режим, установленный законом от 12 июля 1956 года, определяющим статус автомагистралей.",
+  "content_html_fr": "<p>Les voies publiques classées par le Roi dans la catégorie des autoroutes restent soumises au régime institué par la loi du 12 juillet 1956 établissant le statut des autoroutes.</p>",
+  "content_html_nl": "<p>De openbare wegen die de Koning bij de categorie van de autosnelwegen indeelt blijven onderworpen aan de regeling ingevoerd bij de wet van 12 juli 1956 tot vaststelling van het statuut der autosnelwegen.</p>",
+  "full_text_fr": "Les voies publiques classées par le Roi dans la catégorie des autoroutes restent soumises au régime institué par la loi du 12 juillet 1956 établissant le statut des autoroutes.",
+  "full_text_nl": "De openbare wegen die de Koning bij de categorie van de autosnelwegen indeelt blijven onderworpen aan de regeling ingevoerd bij de wet van 12 juli 1956 tot vaststelling van het statuut der autosnelwegen.",
+  "full_text_ru": "На дороги общего пользования, отнесенные королем к категории автомагистралей, распространяется режим, установленный законом от 12 июля 1956 года, определяющим статус автомагистралей.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "cuug8pp5zh",
+  "anchor_id_nl": "qbbruywlno",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "5fcc155d7d50",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "21",
+  "slug": "art-21",
+  "structure": {
+    "titre": "III",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 21",
+  "title_nl": "Artikel 21",
+  "title_ru": "Статья 21",
+  "content_md_fr": "Nul ne peut conduire, sur la voie publique, un véhicule à moteur s'il n'est titulaire et porteur d'un permis de conduire régulièrement délivré en Belgique, ou d'un permis de conduire étranger, soit national soit international, dans les conditions fixées par les dispositions applicables en matière de circulation routière internationale. Le permis de conduire doit être valable pour la catégorie à laquelle appartient le véhicule.\n\nLe Roi peut, aux conditions générales qu'il détermine, dispenser de cette obligation notamment pour la conduite en vue de l'apprentissage.",
+  "content_md_nl": "Niemand mag op de openbare weg een motorvoertuig besturen, tenzij hij houder is van, en tevens bij zich heeft, een rijbewijs in België regelmatig afgegeven, of een buitenlands nationaal of internationaal rijbewijs onder de voorwaarden vastgesteld door de bepalingen die inzake internationaal wegverkeer van toepassing zijn. Het rijbewijs moet geldig zijn voor de categorie waartoe het voertuig behoort.\n\nDe Koning kan, onder de algemene voorwaarden die Hij stelt, vrijstelling verlenen van deze verplichting inzonderheid voor het besturen met het oog op de scholing.",
+  "content_md_ru": "Ни одно лицо не может управлять транспортным средством на дорогах общего пользования, если у него нет водительского удостоверения, должным образом выданного в Бельгии, или иностранного водительского удостоверения, национального или международного, в соответствии с условиями, предусмотренными положениями, применимыми к международному дорожному движению. Водительское удостоверение должно быть действительным для той категории, к которой относится транспортное средство.\n\nКороль может на общих условиях, которые он определит, отменить это требование, в частности, для управления транспортным средством с целью обучения.",
+  "content_html_fr": "<p>Nul ne peut conduire, sur la voie publique, un véhicule à moteur s'il n'est titulaire et porteur d'un permis de conduire régulièrement délivré en Belgique, ou d'un permis de conduire étranger, soit national soit international, dans les conditions fixées par les dispositions applicables en matière de circulation routière internationale. Le permis de conduire doit être valable pour la catégorie à laquelle appartient le véhicule.</p><p>Le Roi peut, aux conditions générales qu'il détermine, dispenser de cette obligation notamment pour la conduite en vue de l'apprentissage.</p>",
+  "content_html_nl": "<p>Niemand mag op de openbare weg een motorvoertuig besturen, tenzij hij houder is van, en tevens bij zich heeft, een rijbewijs in België regelmatig afgegeven, of een buitenlands nationaal of internationaal rijbewijs onder de voorwaarden vastgesteld door de bepalingen die inzake internationaal wegverkeer van toepassing zijn. Het rijbewijs moet geldig zijn voor de categorie waartoe het voertuig behoort.</p><p>De Koning kan, onder de algemene voorwaarden die Hij stelt, vrijstelling verlenen van deze verplichting inzonderheid voor het besturen met het oog op de scholing.</p>",
+  "full_text_fr": "Nul ne peut conduire, sur la voie publique, un véhicule à moteur s'il n'est titulaire et porteur d'un permis de conduire régulièrement délivré en Belgique, ou d'un permis de conduire étranger, soit national soit international, dans les conditions fixées par les dispositions applicables en matière de circulation routière internationale. Le permis de conduire doit être valable pour la catégorie à laquelle appartient le véhicule.\n\nLe Roi peut, aux conditions générales qu'il détermine, dispenser de cette obligation notamment pour la conduite en vue de l'apprentissage.",
+  "full_text_nl": "Niemand mag op de openbare weg een motorvoertuig besturen, tenzij hij houder is van, en tevens bij zich heeft, een rijbewijs in België regelmatig afgegeven, of een buitenlands nationaal of internationaal rijbewijs onder de voorwaarden vastgesteld door de bepalingen die inzake internationaal wegverkeer van toepassing zijn. Het rijbewijs moet geldig zijn voor de categorie waartoe het voertuig behoort.\n\nDe Koning kan, onder de algemene voorwaarden die Hij stelt, vrijstelling verlenen van deze verplichting inzonderheid voor het besturen met het oog op de scholing.",
+  "full_text_ru": "Ни одно лицо не может управлять транспортным средством на дорогах общего пользования, если у него нет водительского удостоверения, должным образом выданного в Бельгии, или иностранного водительского удостоверения, национального или международного, в соответствии с условиями, предусмотренными положениями, применимыми к международному дорожному движению. Водительское удостоверение должно быть действительным для той категории, к которой относится транспортное средство.\n\nКороль может на общих условиях, которые он определит, отменить это требование, в частности, для управления транспортным средством с целью обучения.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "3nmvvqkfkq",
+  "anchor_id_nl": "uuavwa3k8l",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "1ca84eff23c3",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

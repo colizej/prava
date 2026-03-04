@@ -26,7 +26,193 @@
   "anchor_id_fr": "dnpkhepoab",
   "anchor_id_nl": "apfhdbwjfs",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie un agent qualifié levant un bras verticalement ?",
+      "text_nl": "Wat betekent het als een bevoegde persoon een arm verticaal omhoog steekt?",
+      "text_ru": "Что означает, когда уполномоченный сотрудник поднимает руку вертикально?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An illustration of a traffic police officer with one arm raised vertically, signaling all traffic to stop."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer la route si vous êtes déjà engagé dans un carrefour.",
+          "text_nl": "Doorrijden als u zich al op een kruispunt bevindt.",
+          "text_ru": "Продолжать движение, если вы уже находитесь на перекрестке.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêt obligatoire pour tous les usagers, y compris ceux dans un carrefour.",
+          "text_nl": "Verplicht stoppen voor alle weggebruikers, inclusief die op een kruispunt.",
+          "text_ru": "Обязательная остановка для всех участников движения, включая тех, кто находится на перекрестке.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accélérer pour dégager le carrefour.",
+          "text_nl": "Versnellen om het kruispunt vrij te maken.",
+          "text_ru": "Ускориться, чтобы освободить перекресток.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 4.2, point 1°, le bras levé verticalement signifie arrêt pour tous les usagers, sauf pour ceux qui se trouvent à l'intérieur d'un carrefour, lesquels doivent évacuer celui-ci.",
+      "explanation_nl": "Volgens artikel 4.2, punt 1°, betekent een arm die verticaal omhoog wordt gestoken stoppen voor alle weggebruikers, behalve voor degenen die zich al op een kruispunt bevinden, die het kruispunt moeten vrijmaken.",
+      "explanation_ru": "Согласно статье 4.2, пункту 1°, поднятая вертикально рука означает остановку для всех участников движения, за исключением тех, кто уже находится на перекрестке, которые должны освободить его."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la condition principale pour que les injonctions des agents qualifiés adressées aux usagers en mouvement soient valides ?",
+      "text_nl": "Wat is de belangrijkste voorwaarde voor de geldigheid van de bevelen van bevoegde personen aan weggebruikers in beweging?",
+      "text_ru": "Каково основное условие для действительности предписаний уполномоченных лиц, адресованных движущимся участникам движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A close-up illustration of a police officer's badge or insignia, emphasizing its visibility."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'agent doit être muni d'un gyrophare bleu.",
+          "text_nl": "De agent moet voorzien zijn van een blauwe zwaailicht.",
+          "text_ru": "Сотрудник должен быть оснащен синим проблесковым маячком.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'agent doit porter des insignes de sa fonction, visibles de jour comme de nuit.",
+          "text_nl": "De agent moet de kentekens van zijn functie dragen, die zowel 's nachts als bij dag zichtbaar zijn.",
+          "text_ru": "Сотрудник должен носить знаки отличия своей должности, видимые днем и ночью.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'agent doit être placé sur une estrade pour être mieux vu.",
+          "text_nl": "De agent moet op een verhoogd platform staan om beter zichtbaar te zijn.",
+          "text_ru": "Сотрудник должен находиться на возвышении, чтобы быть лучше видимым.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 4.3 stipule que les injonctions adressées aux usagers en mouvement ne peuvent être données que par des agents portant les insignes de leur fonction, qui doivent être reconnaissables de nuit comme de jour.",
+      "explanation_nl": "Artikel 4.3 stelt dat bevelen gericht aan weggebruikers in beweging alleen gegeven mogen worden door personen die de kentekens van hun functie dragen, welke zowel 's nachts als bij dag te herkennen moeten zijn.",
+      "explanation_ru": "Статья 4.3 гласит, что предписания, адресованные движущимся участникам дорожного движения, могут даваться только сотрудниками, носящими знаки отличия своей должности, которые должны быть узнаваемыми как ночью, так и днем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour où un agent de police fait des gestes. L'agent tient un bras tendu horizontalement vers vous, tandis que son autre bras est levé verticalement.",
+      "text_nl": "U nadert een kruispunt waar een politieagent gebaren maakt. De agent houdt één arm horizontaal naar u uitgestrekt, terwijl zijn andere arm verticaal omhoog is.",
+      "text_ru": "Вы приближаетесь к перекрестку, где полицейский подает знаки. Полицейский держит одну руку горизонтально вытянутой в вашу сторону, а другую руку держит вертикально поднятой.",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road intersection scene. A police officer stands in the middle. One arm is extended horizontally towards the viewer (representing the driver). The other arm is raised vertically."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez vous arrêter car le bras levé verticalement signifie arrêt pour tout le monde.",
+          "text_nl": "U moet stoppen omdat de verticaal geheven arm voor iedereen stoppen betekent.",
+          "text_ru": "Вы должны остановиться, так как вертикально поднятая рука означает остановку для всех.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez vous arrêter car le bras tendu horizontalement vers vous indique un arrêt.",
+          "text_nl": "U moet stoppen omdat de horizontaal naar u uitgestrekte arm een stop aangeeft.",
+          "text_ru": "Вы должны остановиться, так как горизонтально вытянутая в вашу сторону рука указывает на остановку.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez continuer car vous n'êtes pas dans le carrefour et l'agent peut diriger le trafic.",
+          "text_nl": "U mag doorrijden omdat u zich niet op het kruispunt bevindt en de agent het verkeer kan regelen.",
+          "text_ru": "Вы можете продолжать движение, так как вы не находитесь на перекрестке, а сотрудник регулирует движение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 4.2, point 2°, le ou les bras tendus horizontalement signifient arrêt pour les usagers venant de directions coupant celles indiquées par le ou les bras tendus. Dans ce cas, le bras tendu vers vous implique un arrêt.",
+      "explanation_nl": "Volgens artikel 4.2, punt 2°, betekenen de horizontaal uitgestrekte arm of armen stoppen voor weggebruikers die naderen uit richtingen die deze aangewezen door de arm of armen, dwarsen. In dit geval impliceert de arm die naar u is uitgestrekt, een stop.",
+      "explanation_ru": "Согласно статье 4.2, пункту 2°, горизонтально вытянутая рука или руки означают остановку для участников движения, приближающихся с направлений, пересекающих указанные рукой или руками. В данном случае рука, вытянутая в вашу сторону, подразумевает остановку."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes arrêté à un feu rouge. Un agent qualifié se trouve à proximité et effectue un mouvement de balancement transversal avec un feu rouge portable, dirigé vers vous.",
+      "text_nl": "U staat voor een rood verkeerslicht. Een bevoegd persoon bevindt zich in de buurt en zwaait met een draagbaar rood licht, in uw richting gericht.",
+      "text_ru": "Вы стоите на красный свет. Рядом находится уполномоченный сотрудник и выполняет попеременное движение портативным красным светом, направленным на вас.",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Illustration showing a driver stopped at a red light. A police officer nearby is seen waving a portable red light in a transversal motion towards the driver."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez ignorer le geste de l'agent car le feu de signalisation est la seule autorité.",
+          "text_nl": "U mag het gebaar van de agent negeren omdat het verkeerslicht de enige autoriteit is.",
+          "text_ru": "Вы можете игнорировать жест сотрудника, так как светофор является единственным авторитетом.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez vous arrêter immédiatement, même si le feu est vert.",
+          "text_nl": "U moet onmiddellijk stoppen, zelfs als het licht groen is.",
+          "text_ru": "Вы должны немедленно остановиться, даже если свет зеленый.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter car le balancement transversal d'un feu rouge par un agent signifie arrêt pour les conducteurs vers lesquels il est dirigé.",
+          "text_nl": "U moet stoppen omdat het overdwars zwaaien met een rood licht door een agent stoppen betekent voor de bestuurders naar wie het gericht is.",
+          "text_ru": "Вы должны остановиться, так как попеременное движение красным светом сотрудником означает остановку для водителей, в направлении которых он направлен.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 4.2, point 3°, indique que le balancement transversal d'un feu rouge par un agent qualifié signifie arrêt pour les conducteurs vers lesquels le feu est dirigé. Cela prime sur le feu de signalisation.",
+      "explanation_nl": "Artikel 4.2, punt 3°, stelt dat het overdwars zwaaien met een rood licht door een bevoegd persoon stoppen betekent voor de bestuurders naar wie het licht gericht is. Dit heeft voorrang op het verkeerslicht.",
+      "explanation_ru": "Статья 4.2, пункт 3°, указывает, что попеременное движение красным светом уполномоченным сотрудником означает остановку для водителей, в направлении которых он направлен. Это имеет приоритет над светофором."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Votre véhicule est régulièrement garé dans une rue résidentielle. Un agent de police s'approche et vous demande de déplacer votre véhicule immédiatement. Vous refusez.",
+      "text_nl": "Uw voertuig is reglementair geparkeerd in een woonstraat. Een politieagent benadert u en vraagt u onmiddellijk uw voertuig te verplaatsen. U weigert.",
+      "text_ru": "Ваш автомобиль припаркован в жилом районе в соответствии с правилами. Сотрудник полиции подходит к вам и просит немедленно переместить ваш автомобиль. Вы отказываетесь.",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car legally parked on a residential street. A police officer is standing next to the driver's side window, speaking to the driver."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous avez le droit de refuser car votre stationnement est régulier.",
+          "text_nl": "U heeft het recht om te weigeren omdat uw parkeerplaats reglementair is.",
+          "text_ru": "Вы имеете право отказаться, так как ваша парковка соответствует правилам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'agent ne peut pas vous obliger à déplacer votre véhicule s'il est régulièrement garé.",
+          "text_nl": "De agent kan u niet dwingen uw voertuig te verplaatsen als het reglementair geparkeerd is.",
+          "text_ru": "Сотрудник не может заставить вас переместить автомобиль, если он припаркован в соответствии с правилами.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'agent peut faire déplacer votre véhicule d'office à vos frais, car vous avez refusé d'obtempérer.",
+          "text_nl": "De agent kan uw voertuig ambtshalve laten verplaatsen op uw kosten, omdat u geweigerd heeft gehoor te geven.",
+          "text_ru": "Сотрудник может принудительно переместить ваш автомобиль за ваш счет, поскольку вы отказались подчиниться.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 4.4, tout conducteur est tenu de déplacer son véhicule s'il en est requis par un agent qualifié. En cas de refus, l'agent peut pourvoir d'office au déplacement du véhicule aux risques et frais du conducteur.",
+      "explanation_nl": "Volgens artikel 4.4 is elke bestuurder verplicht zijn voertuig te verplaatsen indien daartoe door een bevoegd persoon aangespoord. In geval van weigering mag de bevoegde persoon ambtshalve voor de verplaatsing van het voertuig zorgen op risico en kosten van de bestuurder.",
+      "explanation_ru": "В соответствии со статьей 4.4, каждый водитель обязан переместить свой автомобиль, если этого требует уполномоченное лицо. В случае отказа, уполномоченное лицо может принудительно переместить автомобиль за счет водителя."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "40a4dde77cfe",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:54:03Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

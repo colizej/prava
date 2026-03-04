@@ -26,7 +26,156 @@
   "anchor_id_fr": "eky0pngruh",
   "anchor_id_nl": "h04z115apa",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 36, quels véhicules sont exemptés de l'obligation de porter un casque de protection, à l'exception des agriculteurs qui ne dépassent pas 40 km/h et qui n'utilisent pas de guidon de moto ?",
+      "text_nl": "Volgens artikel 36, welke voertuigen zijn vrijgesteld van de verplichting om een helm te dragen, met uitzondering van landbouwvoertuigen die niet sneller rijden dan 40 km/u en die geen motorfietsstuur gebruiken?",
+      "text_ru": "Согласно статье 36, какие транспортные средства освобождаются от обязательного ношения шлема, за исключением сельскохозяйственных транспортных средств, движущихся со скоростью не более 40 км/ч и не имеющих руля мотоциклетного типа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "No specific sign for this question."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les tricycles et quadricycles à moteur avec habitacle.",
+          "text_nl": "Motoren met drie en vier wielen met passagiersruimte.",
+          "text_ru": "Мотоциклетные трех- и четырехколесные транспортные средства с кабиной.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les motocyclettes équipées d'une ceinture de sécurité.",
+          "text_nl": "Motoren uitgerust met een veiligheidsgordel.",
+          "text_ru": "Мотоциклы, оборудованные ремнем безопасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les véhicules agricoles dont la vitesse maximale est limitée à 40 km/h et qui ne sont pas équipés d'un guidon de type motocyclette, et les cyclomoteurs sans habitacle.",
+          "text_nl": "Landbouwvoertuigen met een maximale snelheid van 40 km/u en die niet zijn uitgerust met een stuur als op een motorfiets, en bromfietsen zonder passagiersruimte.",
+          "text_ru": "Сельскохозяйственные транспортные средства с максимальной скоростью 40 км/ч, не оборудованные рулем мотоциклетного типа, и мопеды без кабины.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 36 spécifie que les conducteurs et passagers de tricycles et quadricycles à moteur, à l'exception des véhicules agricoles dont la vitesse maximale est limitée à 40 km/h et qui n'utilisent pas de guidon de type motocyclette, ainsi que les cyclomoteurs sans habitacle, doivent porter un casque. Les autres options mentionnent des exemptions qui ne sont pas prévues dans ce contexte pour l'obligation générale de port du casque.",
+      "explanation_nl": "Artikel 36 specificeert dat bestuurders en passagiers van motorfietsen met drie en vier wielen, met uitzondering van landbouwvoertuigen met een maximale snelheid van 40 km/u en die geen stuur van het motorfietstype gebruiken, evenals bromfietsen zonder passagiersruimte, een helm moeten dragen. De andere opties noemen vrijstellingen die in deze context niet zijn voorzien voor de algemene helmplicht.",
+      "explanation_ru": "Статья 36 уточняет, что водители и пассажиры трех- и четырехколесных мотоциклетных транспортных средств, за исключением сельскохозяйственных транспортных средств с максимальной скоростью 40 км/ч, не оборудованных рулем мотоциклетного типа, а также мопедов без кабины, должны носить шлем. Другие варианты упоминают исключения, которые не предусмотрены в данном контексте для общего обязательства ношения шлема."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles caractéristiques spécifiques le casque de vélo porté par les conducteurs et passagers de speed pedelecs doit-il posséder, selon l'article 36 ?",
+      "text_nl": "Welke specifieke kenmerken moet de fietshelm, gedragen door bestuurders en passagiers van speed pedelecs, volgens artikel 36 bezitten?",
+      "text_ru": "Какими специфическими характеристиками должен обладать велосипедный шлем, носимый водителями и пассажирами скоростных велосипедов (speed pedelecs), согласно статье 36?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Illustration of a bicycle helmet that covers the temples and the back of the head."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit être homologué selon les normes définies par le Ministre.",
+          "text_nl": "Het moet gehomologeerd zijn volgens de normen vastgesteld door de Minister.",
+          "text_ru": "Он должен быть сертифицирован по стандартам, установленным министром.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit offrir une protection aux tempes et à l'arrière de la tête.",
+          "text_nl": "Het moet bescherming bieden aan de slapen en het achterhoofd.",
+          "text_ru": "Он должен обеспечивать защиту висков и затылка.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit être équipé d'une mentonnière.",
+          "text_nl": "Het moet voorzien zijn van een kinband.",
+          "text_ru": "Он должен быть оснащен ремешком для подбородка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 36 stipule que le casque de vélo, porté par les conducteurs et passagers de speed pedelecs, doit offrir une protection aux tempes et à l'arrière de la tête. L'homologation concerne les casques où elle est requise, mais la caractéristique spécifique du casque de vélo pour speed pedelecs est la protection des tempes et de l'arrière de la tête.",
+      "explanation_nl": "Artikel 36 stelt dat de fietshelm, gedragen door bestuurders en passagiers van speed pedelecs, bescherming moet bieden aan de slapen en het achterhoofd. Homologatie is van toepassing op helmen waarvoor dit vereist is, maar het specifieke kenmerk van de fietshelm voor speed pedelecs is de bescherming van de slapen en het achterhoofd.",
+      "explanation_ru": "Статья 36 гласит, что велосипедный шлем, носимый водителями и пассажирами скоростных велосипедов (speed pedelecs), должен обеспечивать защиту висков и затылка. Сертификация требуется для шлемов, где это необходимо, но специфическая характеристика велосипедного шлема для скоростных велосипедов заключается в защите висков и затылка."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une motocyclette sans habitacle. Vous avez le choix entre porter un casque ou une ceinture de sécurité. Est-ce correct ?",
+      "text_nl": "U bestuurt een motorfiets zonder passagiersruimte. U kunt kiezen tussen het dragen van een helm of een veiligheidsgordel. Klopt dit?",
+      "text_ru": "Вы управляете мотоциклом без кабины. У вас есть выбор между ношением шлема или ремня безопасности. Это правильно?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a person riding a motorcycle without a cabin, with a seatbelt visible on the seat."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, l'article 36 permet cette alternative.",
+          "text_nl": "Ja, artikel 36 staat dit alternatief toe.",
+          "text_ru": "Да, статья 36 допускает эту альтернативу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, le port du casque est obligatoire sur une motocyclette sans habitacle.",
+          "text_nl": "Nee, het dragen van een helm is verplicht op een motorfiets zonder passagiersruimte.",
+          "text_ru": "Нет, ношение шлема обязательно на мотоцикле без кабины.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la vitesse à laquelle vous roulez.",
+          "text_nl": "Dit hangt af van de snelheid waarmee u rijdt.",
+          "text_ru": "Это зависит от скорости, с которой вы едете.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 36 précise que les conducteurs et passagers de motocyclettes doivent porter un casque de protection, SAUF s'ils portent la ceinture de sécurité ET que le véhicule a un habitacle. Pour une motocyclette SANS habitacle, le port du casque est donc obligatoire, indépendamment de la présence d'une ceinture de sécurité.",
+      "explanation_nl": "Artikel 36 specificeert dat bestuurders en passagiers van motorfietsen een helm moeten dragen, BEHALVE wanneer zij een veiligheidsgordel dragen EN het voertuig een passagiersruimte heeft. Voor een motorfiets ZONDER passagiersruimte is het dragen van een helm dus verplicht, ongeacht de aanwezigheid van een veiligheidsgordel.",
+      "explanation_ru": "Статья 36 уточняет, что водители и пассажиры мотоциклов должны носить шлем, ЗА ИСКЛЮЧЕНИЕМ случаев, когда они пристегнуты ремнем безопасности И транспортное средство имеет кабину. Для мотоцикла БЕЗ кабины ношение шлема поэтому обязательно, независимо от наличия ремня безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes passager d'un speed pedelec. Vous portez un casque de vélo standard. Quel aspect de votre casque doit impérativement être protégé pour être en conformité avec l'article 36 ?",
+      "text_nl": "U bent passagier van een speed pedelec. U draagt een standaard fietshelm. Welk aspect van uw helm moet absoluut beschermd zijn om aan artikel 36 te voldoen?",
+      "text_ru": "Вы являетесь пассажиром скоростного велосипеда (speed pedelec). Вы носите стандартный велосипедный шлем. Какая часть вашего шлема должна быть обязательно защищена, чтобы соответствовать статье 36?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Close-up of a bicycle helmet showing coverage of the temples and the back of the head."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le menton, car il est vulnérable en cas de chute.",
+          "text_nl": "De kin, omdat deze kwetsbaar is bij een val.",
+          "text_ru": "Подбородок, так как он уязвим при падении.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La partie supérieure de la tête.",
+          "text_nl": "Het bovenste deel van het hoofd.",
+          "text_ru": "Верхняя часть головы.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les tempes et l'arrière de la tête.",
+          "text_nl": "De slapen en het achterhoofd.",
+          "text_ru": "Виски и затылок.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 36 stipule explicitement que le casque de vélo porté par les conducteurs et passagers de speed pedelecs doit offrir une protection aux tempes et à l'arrière de la tête. Bien que le menton et le sommet de la tête soient également des zones à protéger, l'article met un accent particulier sur les tempes et l'arrière de la tête pour cette catégorie de véhicule.",
+      "explanation_nl": "Artikel 36 stelt expliciet dat de fietshelm gedragen door bestuurders en passagiers van speed pedelecs bescherming moet bieden aan de slapen en het achterhoofd. Hoewel de kin en de bovenkant van het hoofd ook beschermde gebieden zijn, legt het artikel een specifieke nadruk op de slapen en het achterhoofd voor deze voertuigcategorie.",
+      "explanation_ru": "Статья 36 прямо указывает, что велосипедный шлем, носимый водителями и пассажирами скоростных велосипедов (speed pedelecs), должен обеспечивать защиту висков и затылка. Хотя подбородок и верхняя часть головы также являются зонами, требующими защиты, статья уделяет особое внимание вискам и затылку для этой категории транспортных средств."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "dec7a59e845e",
@@ -36,6 +185,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:52:35Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 4
   }
 }

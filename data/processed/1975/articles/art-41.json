@@ -47,7 +47,181 @@
   "anchor_id_fr": "txq8hgdoav",
   "anchor_id_nl": "vjva6ywugg",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 41 du Code de la route belge, qu'est-il interdit aux usagers de faire concernant les colonnes militaires ?",
+      "text_nl": "Wat is volgens artikel 41 van de Belgische Wegcode weggebruikers verboden te doen met betrekking tot militaire colonnes?",
+      "text_ru": "Что, согласно статье 41 Бельгийских Правил дорожного движения, запрещается участникам дорожного движения в отношении военных колонн?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De dépasser une colonne militaire.",
+          "text_nl": "Een militaire colonne voorbijsteken.",
+          "text_ru": "Обгонять военную колонну.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De couper une colonne militaire.",
+          "text_nl": "Een militaire colonne doorkruisen.",
+          "text_ru": "Пересекать военную колонну.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "De suivre une colonne militaire de trop près.",
+          "text_nl": "Een militaire colonne te dicht volgen.",
+          "text_ru": "Слишком близко следовать за военной колонной.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 41.1.1° stipule qu'il est interdit aux usagers de couper un élément de colonne militaire.",
+      "explanation_nl": "Artikel 41.1.1° stelt dat het weggebruikers verboden is een deel van een militaire colonne door te kruisen.",
+      "explanation_ru": "Статья 41.1.1° гласит, что участникам дорожного движения запрещается пересекать часть военной колонны."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui est habilité à diriger la circulation pour assurer la sécurité des groupes de cyclistes selon l'article 41 ?",
+      "text_nl": "Wie is gemachtigd om het verkeer te leiden om de veiligheid van fietsersgroepen te waarborgen volgens artikel 41?",
+      "text_ru": "Кто имеет право руководить движением для обеспечения безопасности групп велосипедистов согласно статье 41?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les surveillants de chantiers.",
+          "text_nl": "De werftoezichters.",
+          "text_ru": "Надсмотрщики стройки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les capitaines de route.",
+          "text_nl": "De wegkapiteins.",
+          "text_ru": "Дорожные капитаны.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les chefs de groupe.",
+          "text_nl": "De groepsleiders.",
+          "text_ru": "Руководители групп.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 41.3.1.2°b précise que ce sont les capitaines de route qui sont habilités à assurer la sécurité des groupes de cyclistes.",
+      "explanation_nl": "Artikel 41.3.1.2°b specificeert dat wegkapiteins gemachtigd zijn om de veiligheid van fietsersgroepen te waarborgen.",
+      "explanation_ru": "Статья 41.3.1.2°b уточняет, что дорожные капитаны имеют право обеспечивать безопасность групп велосипедистов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'une intersection où un militaire habilité fait usage d'un disque C3 pour arrêter la circulation afin de faciliter le passage d'une colonne militaire. Quelle est votre conduite à tenir ?",
+      "text_nl": "U nadert een kruispunt waar een gemachtigde militair een C3-schijf gebruikt om het verkeer stil te leggen om het doortocht van een militaire kolonne te vergemakkelijken. Hoe moet u zich gedragen?",
+      "text_ru": "Вы приближаетесь к перекрестку, где уполномоченный военный использует диск C3 для остановки движения, чтобы облегчить прохождение военной колонны. Как вам следует поступить?",
+      "image": {
+        "sign_code": "C3",
+        "generation_prompt": "A red circular sign with a white horizontal bar in the center, indicating 'Stop' or 'Do not enter'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer prudemment en ralentissant.",
+          "text_nl": "Voorzichtig doorrijden met verminderde snelheid.",
+          "text_ru": "Осторожно продолжайте движение, замедляясь.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêter votre véhicule et attendre que la colonne soit passée et que le militaire vous autorise à repartir.",
+          "text_nl": "Uw voertuig stoppen en wachten tot de colonne voorbij is en de militair u toestaat verder te rijden.",
+          "text_ru": "Остановите свой автомобиль и ждите, пока колонна не пройдет и военный не разрешит вам продолжить движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tenter de couper la colonne rapidement avant qu'elle ne vous atteigne.",
+          "text_nl": "Proberen de colonne snel te doorkruisen voordat deze u bereikt.",
+          "text_ru": "Попытаться быстро пересечь колонну, прежде чем она достигнет вас.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 41.3.2, le signal C3 utilisé par le militaire signifie que la circulation doit être arrêtée. Il faut donc obéir à cette indication et attendre.",
+      "explanation_nl": "Volgens artikel 41.3.2 betekent het C3-bord dat door de militair wordt gebruikt dat het verkeer moet worden stilgelegd. U moet daarom gehoor geven aan deze aanwijzing en wachten.",
+      "explanation_ru": "В соответствии со статьей 41.3.2, сигнал C3, используемый военным, означает, что движение должно быть остановлено. Поэтому вы должны подчиниться этому указанию и ждать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes en voiture et vous voyez un groupe important de piétons traversant la route lors d'une manifestation culturelle, guidés par des signaleurs habilités. Quelle est la règle de conduite à adopter ?",
+      "text_nl": "U bent met de auto en ziet een grote groep voetgangers de weg oversteken tijdens een cultureel evenement, geleid door bevoegde seingevers. Wat is de te volgen gedragsregel?",
+      "text_ru": "Вы находитесь в машине и видите большую группу пешеходов, переходящих дорогу во время культурного мероприятия, под руководством уполномоченных сигнализаторов. Каково правило поведения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez attendre que le groupe de piétons ait entièrement traversé, comme indiqué par les signaleurs.",
+          "text_nl": "U moet wachten tot de groep voetgangers volledig is overgestoken, zoals aangegeven door de seingevers.",
+          "text_ru": "Вы должны подождать, пока группа пешеходов полностью не перейдет дорогу, как указано сигнализаторами.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez passer si vous voyez un espace suffisant pour ne pas gêner les piétons.",
+          "text_nl": "U mag passeren als u voldoende ruimte ziet om de voetgangers niet te hinderen.",
+          "text_ru": "Вы можете проехать, если видите достаточно места, чтобы не мешать пешеходам.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez klaxonner pour signaler votre présence et demander à traverser.",
+          "text_nl": "U mag claxonneren om uw aanwezigheid aan te geven en te vragen om door te laten.",
+          "text_ru": "Вы можете подать звуковой сигнал, чтобы обозначить свое присутствие и попросить проехать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 41.1.2 interdit de couper un groupe de piétons lors d'une manifestation culturelle. L'article 41.3.1.2a précise que les signaleurs sont habilités à assurer la sécurité de ces manifestations, ce qui implique qu'il faut obéir à leurs indications de s'arrêter.",
+      "explanation_nl": "Artikel 41.1.2 verbiedt het doorkruisen van een groep voetgangers tijdens een cultureel evenement. Artikel 41.3.1.2a specificeert dat seingevers gemachtigd zijn om de veiligheid van deze evenementen te waarborgen, wat impliceert dat hun aanwijzingen om te stoppen moeten worden opgevolgd.",
+      "explanation_ru": "Статья 41.1.2 запрещает пересекать группу пешеходов во время культурного мероприятия. Статья 41.3.1.2a уточняет, что сигнализаторы уполномочены обеспечивать безопасность этих мероприятий, что подразумевает необходимость подчиняться их указаниям остановиться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez derrière un groupe de motocyclistes qui sont guidés par des capitaines de route. Le capitaine de route vous fait signe de vous arrêter. Que devez-vous faire ?",
+      "text_nl": "U rijdt achter een groep motorrijders die worden geleid door wegkapiteins. De wegkapitein geeft u een teken om te stoppen. Wat moet u doen?",
+      "text_ru": "Вы едете за группой мотоциклистов, которых сопровождают дорожные капитаны. Дорожный капитан подает вам знак остановиться. Что вам следует делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ignorer le signe du capitaine de route et continuer.",
+          "text_nl": "Het teken van de wegkapitein negeren en doorrijden.",
+          "text_ru": "Проигнорировать знак дорожного капитана и продолжать движение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et vous ranger sur le côté, prêt à vous arrêter si nécessaire.",
+          "text_nl": "Vertragen en aan de kant gaan staan, klaar om indien nodig te stoppen.",
+          "text_ru": "Замедлиться и съехать на обочину, готовый остановиться при необходимости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter en toute sécurité et attendre les instructions.",
+          "text_nl": "Veilig stoppen en wachten op instructies.",
+          "text_ru": "Безопасно остановиться и ждать инструкций.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Selon l'article 41.3.1.2b, les capitaines de route sont habilités à assurer la sécurité des groupes de motocyclistes. Leurs indications doivent être suivies, ce qui implique de s'arrêter si demandé.",
+      "explanation_nl": "Volgens artikel 41.3.1.2b zijn wegkapiteins gemachtigd om de veiligheid van motorrijdersgroepen te waarborgen. Hun aanwijzingen moeten worden gevolgd, wat impliceert dat u moet stoppen als daarom wordt gevraagd.",
+      "explanation_ru": "Согласно статье 41.3.1.2b, дорожные капитаны уполномочены обеспечивать безопасность групп мотоциклистов. Их указания должны соблюдаться, что означает остановку по их просьбе."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "2250f562c0aa",
@@ -57,6 +231,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:55:33Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

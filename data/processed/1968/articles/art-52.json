@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "52",
+  "slug": "art-52",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 52",
+  "title_nl": "Artikel 52",
+  "title_ru": "Статья 52",
+  "content_md_fr": "Par dérogation à l'article 43, premier alinéa, du Code pénal, la confiscation du véhicule n'est prononcée pour infraction aux présentes lois coordonnées que dans les cas déterminés par le présent chapitre.",
+  "content_md_nl": "In afwijking van artikel 43, eerste lid, van het Strafwetboek wordt de verbeurdverklaring van het voertuig wegens overtreding van deze gecoördineerde wetten enkel uitgesproken in de gevallen bij dit hoofdstuk bepaald.",
+  "content_md_ru": "В отступление от первого параграфа статьи 43 Уголовного кодекса, конфискация транспортного средства за нарушение этих согласованных законов может быть назначена только в случаях, определенных настоящей главой.",
+  "content_html_fr": "<p>Par dérogation à l'article 43, premier alinéa, du Code pénal, la confiscation du véhicule n'est prononcée pour infraction aux présentes lois coordonnées que dans les cas déterminés par le présent chapitre.</p>",
+  "content_html_nl": "<p>In afwijking van artikel 43, eerste lid, van het Strafwetboek wordt de verbeurdverklaring van het voertuig wegens overtreding van deze gecoördineerde wetten enkel uitgesproken in de gevallen bij dit hoofdstuk bepaald.</p>",
+  "full_text_fr": "Par dérogation à l'article 43, premier alinéa, du Code pénal, la confiscation du véhicule n'est prononcée pour infraction aux présentes lois coordonnées que dans les cas déterminés par le présent chapitre.",
+  "full_text_nl": "In afwijking van artikel 43, eerste lid, van het Strafwetboek wordt de verbeurdverklaring van het voertuig wegens overtreding van deze gecoördineerde wetten enkel uitgesproken in de gevallen bij dit hoofdstuk bepaald.",
+  "full_text_ru": "В отступление от первого параграфа статьи 43 Уголовного кодекса, конфискация транспортного средства за нарушение этих согласованных законов может быть назначена только в случаях, определенных настоящей главой.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "wgblisahvc",
+  "anchor_id_nl": "hymonfyi7t",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "51fb90e8f91b",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -28,7 +28,144 @@
   "anchor_id_fr": "7obtsojju1",
   "anchor_id_nl": "boqrzvq2of",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 55bis, quel est le nombre minimum de cavaliers pour que cet article soit applicable ?",
+      "text_nl": "Volgens artikel 55bis, wat is het minimum aantal ruiters waarvoor dit artikel van toepassing is?",
+      "text_ru": "Согласно статье 55бис, каково минимальное количество всадников, для которых применяется данная статья?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Moins de 10 cavaliers",
+          "text_nl": "Minder dan 10 ruiters",
+          "text_ru": "Менее 10 всадников",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au moins 10 cavaliers",
+          "text_nl": "Ten minste 10 ruiters",
+          "text_ru": "Не менее 10 всадников",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Au moins 5 cavaliers",
+          "text_nl": "Ten minste 5 ruiters",
+          "text_ru": "Не менее 5 всадников",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 55bis1 stipule que le présent article n'est applicable qu'aux groupes d'au moins 10 cavaliers.",
+      "explanation_nl": "Artikel 55bis1 stelt dat dit artikel alleen van toepassing is op groepen van ten minste 10 ruiters.",
+      "explanation_ru": "Статья 55бис1 гласит, что данная статья применяется только к группам, состоящим как минимум из 10 всадников."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les conditions pour qu'un chef de groupe de cavaliers puisse agir selon l'article 55bis3 ?",
+      "text_nl": "Wat zijn de voorwaarden opdat een groepsleider van ruiters mag optreden volgens artikel 55bis3?",
+      "text_ru": "Каковы условия для того, чтобы руководитель группы всадников мог действовать согласно статье 55бис3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le chef de groupe doit avoir au moins 18 ans et porter un brassard rouge.",
+          "text_nl": "De groepsleider moet ten minste 18 jaar oud zijn en een rode band dragen.",
+          "text_ru": "Руководитель группы должен быть не моложе 18 лет и носить красный браслет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le chef de groupe doit avoir au moins 21 ans et porter un brassard avec les couleurs nationales et la mention 'chef de groupe'.",
+          "text_nl": "De groepsleider moet ten minste 21 jaar oud zijn en een band dragen met de nationale kleuren en de vermelding 'groepsleider'.",
+          "text_ru": "Руководитель группы должен быть не моложе 21 года и носить браслет с национальными цветами и надписью 'groepsleider'.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le chef de groupe doit avoir une autorisation spéciale de la police.",
+          "text_nl": "De groepsleider moet een speciale toestemming van de politie hebben.",
+          "text_ru": "Руководитель группы должен иметь специальное разрешение от полиции.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 55bis2 précise que le chef de groupe doit être âgé d'au moins 21 ans et porter un brassard aux couleurs nationales avec la mention 'chef de groupe'.",
+      "explanation_nl": "Artikel 55bis2 stelt dat de groepsleider ten minste 21 jaar oud moet zijn en een band moet dragen met de nationale kleuren en de vermelding 'groepsleider'.",
+      "explanation_ru": "Статья 55бис2 уточняет, что руководитель группы должен быть не моложе 21 года и носить браслет с национальными цветами и надписью 'groepsleider'."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route de campagne non réglementée par des feux. Vous approchez d'un carrefour. Un groupe d'environ 15 cavaliers s'engage dans le carrefour, dirigé par une personne portant un brassard conforme à l'article 55bis. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een landweg die niet geregeld wordt door lichten. U nadert een kruispunt. Een groep van ongeveer 15 ruiters gaat het kruispunt op, geleid door een persoon met een band die voldoet aan artikel 55bis. Wat moet u doen?",
+      "text_ru": "Вы едете по проселочной дороге, не регулируемой светофорами. Вы приближаетесь к перекрестку. Группа из примерно 15 всадников въезжает на перекресток, во главе с человеком, носящим браслет, соответствующий статье 55бис. Что вы должны делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous continuez votre route car les cavaliers doivent céder le passage.",
+          "text_nl": "U vervolgt uw weg, want de ruiters moeten voorrang verlenen.",
+          "text_ru": "Вы продолжаете движение, так как всадники должны уступить дорогу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous attendez que le chef de groupe vous fasse signe de passer.",
+          "text_nl": "U wacht tot de groepsleider u een teken geeft om door te rijden.",
+          "text_ru": "Вы ждете, пока руководитель группы даст вам знак проехать.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous vous arrêtez car le chef de groupe a le droit d'immobiliser la circulation dans les voies transversales pour permettre le passage du groupe.",
+          "text_nl": "U stopt, want de groepsleider heeft het recht om het verkeer op de dwarswegen stil te leggen om de doorgang van de groep mogelijk te maken.",
+          "text_ru": "Вы останавливаетесь, так как руководитель группы имеет право остановить движение на поперечных дорогах, чтобы пропустить группу.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 55bis3 autorise le chef de groupe, dans les carrefours non réglés par des feux, à immobiliser la circulation dans les voies transversales durant la traversée du groupe.",
+      "explanation_nl": "Artikel 55bis3 staat de groepsleider toe, op kruispunten die niet door lichten worden geregeld, om het verkeer op de dwarswegen stil te leggen tijdens de doortocht van de groep.",
+      "explanation_ru": "Статья 55бис3 разрешает руководителю группы на перекрестках, не регулируемых светофорами, останавливать движение на поперечных дорогах во время проезда группы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez en groupe de 8 cavaliers sur une départementale. Le chef de groupe, âgé de 25 ans et portant le brassard réglementaire, souhaite traverser une intersection où la circulation est régulée par feux tricolores. Peut-il immobiliser le trafic ?",
+      "text_nl": "U rijdt in een groep van 8 ruiters op een provinciale weg. De groepsleider, 25 jaar oud en met de voorgeschreven band, wil een kruispunt oversteken waar het verkeer geregeld wordt door verkeerslichten. Mag hij het verkeer stilleggen?",
+      "text_ru": "Вы едете в группе из 8 всадников по второстепенной дороге. Руководитель группы, 25 лет, с установленным браслетом, хочет пересечь перекресток, где движение регулируется светофорами. Может ли он остановить движение?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car il est le chef de groupe et a l'âge requis.",
+          "text_nl": "Ja, want hij is de groepsleider en heeft de vereiste leeftijd.",
+          "text_ru": "Да, потому что он руководитель группы и имеет требуемый возраст.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car le groupe n'a pas au moins 10 cavaliers et l'intersection est régulée par des feux.",
+          "text_nl": "Nee, want de groep heeft niet ten minste 10 ruiters en het kruispunt wordt geregeld door lichten.",
+          "text_ru": "Нет, потому что в группе менее 10 всадников, и перекресток регулируется светофорами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, car le groupe est trop petit pour justifier un tel arrêté.",
+          "text_nl": "Nee, want de groep is te klein om een dergelijke stilstand te rechtvaardigen.",
+          "text_ru": "Нет, потому что группа слишком мала, чтобы оправдать такую остановку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Deux conditions s'opposent ici : le groupe doit compter au moins 10 cavaliers (ils sont 8) et l'article 55bis3 ne s'applique qu'aux carrefours non réglés par des feux lumineux de circulation.",
+      "explanation_nl": "Hier zijn twee voorwaarden in het spel: de groep moet uit ten minste 10 ruiters bestaan (zij zijn met 8) en artikel 55bis3 is alleen van toepassing op kruispunten die niet door verkeerslichten worden geregeld.",
+      "explanation_ru": "Здесь действуют два условия: группа должна состоять как минимум из 10 всадников (их 8), и статья 55бис3 применяется только к перекресткам, не регулируемым светофорами."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "43790f274da3",
@@ -38,6 +175,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:40:09Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 4
   }
 }

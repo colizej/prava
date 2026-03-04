@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "28",
+  "slug": "art-28",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 28",
+  "title_nl": "Artikel 28",
+  "title_ru": "Статья 28",
+  "content_md_fr": "On entend dans les présentes lois coordonnées par \"lieu public\", la voie publique, les terrains ouverts au public et les terrains non publics mais ouverts à un certain nombre de personnes.",
+  "content_md_nl": "In deze gecoördineerde wetten worden onder \"openbare plaats\" verstaan de openbare weg, de terreinen toegankelijk voor het publiek en de niet-openbare terreinen die voor een zeker aantal personen toegankelijk zijn.",
+  "content_md_ru": "В этих скоординированных законах \"общественное место\" означает общественное шоссе, землю, открытую для публики, и землю, которая не является общественной, но открыта для определенного количества людей.",
+  "content_html_fr": "<p>On entend dans les présentes lois coordonnées par \"lieu public\", la voie publique, les terrains ouverts au public et les terrains non publics mais ouverts à un certain nombre de personnes.</p>",
+  "content_html_nl": "<p>In deze gecoördineerde wetten worden onder \"openbare plaats\" verstaan de openbare weg, de terreinen toegankelijk voor het publiek en de niet-openbare terreinen die voor een zeker aantal personen toegankelijk zijn.</p>",
+  "full_text_fr": "On entend dans les présentes lois coordonnées par \"lieu public\", la voie publique, les terrains ouverts au public et les terrains non publics mais ouverts à un certain nombre de personnes.",
+  "full_text_nl": "In deze gecoördineerde wetten worden onder \"openbare plaats\" verstaan de openbare weg, de terreinen toegankelijk voor het publiek en de niet-openbare terreinen die voor een zeker aantal personen toegankelijk zijn.",
+  "full_text_ru": "В этих скоординированных законах \"общественное место\" означает общественное шоссе, землю, открытую для публики, и землю, которая не является общественной, но открыта для определенного количества людей.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ttqskrx20e",
+  "anchor_id_nl": "he4wp4xjte",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "cc8603c5b621",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

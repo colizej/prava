@@ -1,0 +1,41 @@
+{
+  "law_id": "2005",
+  "article_number": "5",
+  "slug": "art-5",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 5",
+  "title_nl": "Article 5",
+  "title_ru": "Статья 5",
+  "content_md_fr": "**Art. 5.** A l'annexe 4 de l'arrêté royal du 23 mars 1998 relatif au permis de conduire la référence à l'arrêté royal du 22 décembre 2003 désignant les infractions graves par degré aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière est remplacé par la référence à l'arrêté royal du 30 septembre 2005 désignant les infractions par degré aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière.\n\nLes mots \"infractions graves\" sont remplacés par \"infractions\".",
+  "content_md_nl": "**Art. 5.** In bijlage 4 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs wordt de verwijzing naar het koninklijk besluit van 22 december 2003 tot aanwijzing van de zware overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer vervangen door de verwijzing naar het koninklijk besluit van 30 september 2005 tot aanwijzing van de overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer.\n\nDe woorden \"zware overtredingen\" worden vervangen door \"overtredingen\".",
+  "content_md_ru": "**Статья 5 В Приложении 4 к Королевскому указу от 23 марта 1998 года о водительских удостоверениях ссылка на Королевский указ от 22 декабря 2003 года о серьезных нарушениях по степени общих правил, изданных во исполнение закона о дорожной полиции, заменяется ссылкой на Королевский указ от 30 сентября 2005 года о нарушениях по степени общих правил, изданных во исполнение закона о дорожной полиции.\n\nСлова \"серьезные правонарушения\" заменены словом \"правонарушения\".",
+  "content_html_fr": "<p id=\"ryfknvwblg\"><a id=\"art-5\"></a><strong class=\"text-bold\">Art. 5.</strong> A l'annexe 4 de l'arrêté royal du 23 mars 1998 relatif au permis de conduire la référence à l'arrêté royal du 22 décembre 2003 désignant les infractions graves par degré aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière est remplacé par la référence à l'arrêté royal du 30 septembre 2005 désignant les infractions par degré aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière.</p><p>Les mots \"infractions graves\" sont remplacés par \"infractions\".</p>",
+  "content_html_nl": "<p id=\"p00eaa8xyn\"><a id=\"art-5\"></a><strong class=\"text-bold\">Art. 5.</strong> In bijlage 4 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs wordt de verwijzing naar het koninklijk besluit van 22 december 2003 tot aanwijzing van de zware overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer vervangen door de verwijzing naar het koninklijk besluit van 30 september 2005 tot aanwijzing van de overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer.</p><p>De woorden \"zware overtredingen\" worden vervangen door \"overtredingen\".</p>",
+  "full_text_fr": "Art. 5. A l'annexe 4 de l'arrêté royal du 23 mars 1998 relatif au permis de conduire la référence à l'arrêté royal du 22 décembre 2003 désignant les infractions graves par degré aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière est remplacé par la référence à l'arrêté royal du 30 septembre 2005 désignant les infractions par degré aux règlements généraux pris en exécution de la loi relative à la police de la circulation routière.\n\nLes mots \"infractions graves\" sont remplacés par \"infractions\".",
+  "full_text_nl": "Art. 5. In bijlage 4 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs wordt de verwijzing naar het koninklijk besluit van 22 december 2003 tot aanwijzing van de zware overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer vervangen door de verwijzing naar het koninklijk besluit van 30 september 2005 tot aanwijzing van de overtredingen per graad van de algemene reglementen genomen in uitvoering van de wet betreffende de politie over het wegverkeer.\n\nDe woorden \"zware overtredingen\" worden vervangen door \"overtredingen\".",
+  "full_text_ru": "Статья 5 В Приложении 4 к Королевскому указу от 23 марта 1998 года о водительских удостоверениях ссылка на Королевский указ от 22 декабря 2003 года о серьезных нарушениях по степени общих правил, изданных во исполнение закона о дорожной полиции, заменяется ссылкой на Королевский указ от 30 сентября 2005 года о нарушениях по степени общих правил, изданных во исполнение закона о дорожной полиции.\n\nСлова \"серьезные правонарушения\" заменены словом \"правонарушения\".",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ryfknvwblg",
+  "anchor_id_nl": "p00eaa8xyn",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:10:54Z",
+    "content_hash": "81c3f2878e3a",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

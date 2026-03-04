@@ -26,7 +26,193 @@
   "anchor_id_fr": "lcpx84u5ey",
   "anchor_id_nl": "ucq1ialpgq",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 5, quelles sont les trois conditions pour que les usagers soient tenus de se conformer aux signaux routiers ?",
+      "text_nl": "Volgens artikel 5, wat zijn de drie voorwaarden waaraan verkeersborden moeten voldoen om door weggebruikers in acht te worden genomen?",
+      "text_ru": "Согласно статье 5, каковы три условия, которым должны соответствовать дорожные знаки, чтобы водители обязаны были их соблюдать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "None"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Être électroniques, visibles de loin et placés sur le côté droit.",
+          "text_nl": "Elektronisch zijn, van ver zichtbaar zijn en aan de rechterkant geplaatst zijn.",
+          "text_ru": "Быть электронными, хорошо видимыми издалека и расположенными справа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Être réguliers en forme, suffisamment visibles et placés conformément au règlement.",
+          "text_nl": "Regelmatig zijn naar de vorm, voldoende zichtbaar zijn en overeenkomstig het reglement geplaatst zijn.",
+          "text_ru": "Быть правильной формы, достаточно видимыми и установленными в соответствии с правилами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Être grands, propres et à jour.",
+          "text_nl": "Groot zijn, schoon zijn en actueel zijn.",
+          "text_ru": "Быть большими, чистыми и актуальными.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 5 stipule que les usagers doivent se conformer aux signaux routiers s'ils sont réguliers en forme, suffisamment visibles et placés conformément au règlement.",
+      "explanation_nl": "Artikel 5 stelt dat weggebruikers verkeersborden in acht moeten nemen indien deze regelmatig zijn naar de vorm, voldoende zichtbaar zijn en overeenkomstig het reglement zijn aangebracht.",
+      "explanation_ru": "Статья 5 гласит, что водители обязаны соблюдать дорожные знаки, если они имеют правильную форму, достаточно видимы и установлены в соответствии с правилами."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie l'expression \"réguliers en la forme\" en ce qui concerne les signaux routiers selon l'article 5 ?",
+      "text_nl": "Wat betekent de uitdrukking \"regelmatig naar de vorm\" met betrekking tot verkeersborden volgens artikel 5?",
+      "text_ru": "Что означает выражение \"правильной формы\" в отношении дорожных знаков согласно статье 5?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "None"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le signal doit être de forme standardisée et conforme aux modèles définis par la loi.",
+          "text_nl": "Het bord moet een gestandaardiseerde vorm hebben en voldoen aan de door de wet gedefinieerde modellen.",
+          "text_ru": "Знак должен иметь стандартизированную форму и соответствовать моделям, определенным законом.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le signal doit être placé de manière symétrique par rapport à la route.",
+          "text_nl": "Het bord moet symmetrisch ten opzichte van de weg worden geplaatst.",
+          "text_ru": "Знак должен быть установлен симметрично относительно дороги.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le signal doit avoir des coins arrondis pour éviter les blessures.",
+          "text_nl": "Het bord moet afgeronde hoeken hebben om verwondingen te voorkomen.",
+          "text_ru": "Знак должен иметь закругленные углы, чтобы избежать травм.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'expression \"réguliers en la forme\" fait référence à la conformité du signal à son modèle officiel, tel que défini dans la réglementation du code de la route.",
+      "explanation_nl": "De uitdrukking \"regelmatig naar de vorm\" verwijst naar de conformiteit van het bord met zijn officiële model, zoals gedefinieerd in de verkeersreglementen.",
+      "explanation_ru": "Выражение \"правильной формы\" относится к соответствию знака его официальному образцу, как это определено в правилах дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'une intersection. Un feu de circulation est présent mais il clignote en orange. Un panneau F5 (cédez le passage) est également visible. Comment devez-vous réagir ?",
+      "text_nl": "U nadert een kruispunt. Er is een verkeerslicht aanwezig, maar het knippert oranje. Er is ook een F5-bord (geef voorrang) zichtbaar. Hoe moet u reageren?",
+      "text_ru": "Вы приближаетесь к перекрестку. Присутствует светофор, но он мигает оранжевым. Также виден знак F5 (уступите дорогу). Как вы должны действовать?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A white triangular sign with a red border and the text 'GEEF MEER VOORRANG' inside, meaning 'Give way'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez vous arrêter car le feu est orange, même s'il clignote.",
+          "text_nl": "U moet stoppen omdat het licht oranje is, ook al knippert het.",
+          "text_ru": "Вы должны остановиться, потому что свет оранжевый, даже если он мигает.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez céder le passage aux autres usagers conformément au panneau F5, car un feu clignotant orange a la même valeur qu'un panneau cédez le passage.",
+          "text_nl": "U moet voorrang verlenen aan andere weggebruikers volgens het F5-bord, omdat een knipperend oranje licht dezelfde waarde heeft als een voorrangsbord.",
+          "text_ru": "Вы должны уступить дорогу другим участникам движения в соответствии со знаком F5, поскольку мигающий оранжевый свет имеет ту же силу, что и знак уступи дорогу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez passer sans tenir compte du panneau F5, car le feu orange clignotant indique que vous avez la priorité.",
+          "text_nl": "U mag doorrijden zonder rekening te houden met het F5-bord, omdat het knipperende oranje licht aangeeft dat u voorrang heeft.",
+          "text_ru": "Вы можете проехать, не обращая внимания на знак F5, так как мигающий оранжевый свет означает, что вы имеете приоритет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 5, vous devez vous conformer aux signaux routiers s'ils sont réguliers, visibles et placés conformément au règlement. Un feu orange clignotant a la même valeur qu'un panneau cédez le passage (F5). Par conséquent, vous devez céder le passage aux autres usagers.",
+      "explanation_nl": "Volgens artikel 5 moet u verkeersborden in acht nemen indien deze regelmatig, zichtbaar en conform het reglement zijn geplaatst. Een knipperend oranje licht heeft dezelfde waarde als een voorrangsbord (F5). Daarom moet u voorrang verlenen aan andere weggebruikers.",
+      "explanation_ru": "Согласно статье 5, вы должны соблюдать дорожные знаки, если они имеют правильную форму, видимы и установлены в соответствии с правилами. Мигающий оранжевый свет имеет ту же силу, что и знак уступи дорогу (F5). Следовательно, вы должны уступить дорогу другим участникам движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez sur une route de campagne. Vous voyez un panneau de limitation de vitesse standard mais il est partiellement caché par la végétation. Un peu plus loin, vous remarquez des marques au sol indiquant une limite de vitesse plus basse. Quelle limite de vitesse devez-vous respecter ?",
+      "text_nl": "U rijdt op een landweg. U ziet een standaard snelheidslimietbord, maar het is gedeeltelijk verborgen door de begroeiing. Iets verderop merkt u wegmarkeringen op die een lagere snelheidslimiet aangeven. Welke snelheidslimiet moet u respecteren?",
+      "text_ru": "Вы едете по проселочной дороге. Вы видите стандартный знак ограничения скорости, но он частично скрыт растительностью. Немного дальше вы замечаете дорожную разметку, указывающую на более низкий скоростной лимит. Какой скоростной лимит вы должны соблюдать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A standard circular speed limit sign (e.g., 50 km/h) with a portion obscured by green leaves and branches. Also, a faint but visible white line on the road indicating a speed limit, perhaps with numbers."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La limite indiquée par le panneau, car le panneau prime sur la signalisation au sol.",
+          "text_nl": "De door het bord aangegeven limiet, omdat het bord voorrang heeft op de wegmarkering.",
+          "text_ru": "Лимит, указанный знаком, так как знак имеет приоритет над дорожной разметкой.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La limite indiquée par les marques au sol, car le panneau n'est pas suffisamment visible.",
+          "text_nl": "De door de wegmarkeringen aangegeven limiet, omdat het bord niet voldoende zichtbaar is.",
+          "text_ru": "Лимит, указанный дорожной разметкой, так как знак недостаточно видим.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La limite la plus élevée des deux indications pour être sûr.",
+          "text_nl": "De hoogste van de twee indicaties om zeker te zijn.",
+          "text_ru": "Самый высокий из двух указаний, чтобы быть уверенным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 5 stipule que les usagers doivent se conformer aux signaux routiers lorsqu'ils sont \"suffisamment visibles\". Si le panneau de limitation de vitesse est partiellement caché par la végétation, il n'est pas suffisamment visible. Dans ce cas, les marques au sol indiquant une limite de vitesse plus basse ont la priorité.",
+      "explanation_nl": "Artikel 5 stelt dat weggebruikers verkeersborden in acht moeten nemen wanneer deze \"voldoende zichtbaar\" zijn. Als het snelheidslimietbord gedeeltelijk verborgen is door de begroeiing, is het niet voldoende zichtbaar. In dit geval heeft de wegmarkering die een lagere snelheidslimiet aangeeft voorrang.",
+      "explanation_ru": "Статья 5 гласит, что водители должны соблюдать дорожные знаки, когда они \"достаточно видимы\". Если знак ограничения скорости частично скрыт растительностью, он недостаточно видим. В этом случае дорожная разметка, указывающая на более низкий скоростной лимит, имеет приоритет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous arrivez à un carrefour où les feux de circulation sont éteints et aucun panneau de signalisation n'est visible. Comment devez-vous vous comporter ?",
+      "text_nl": "U komt aan bij een kruispunt waar de verkeerslichten uitgeschakeld zijn en geen verkeersborden zichtbaar zijn. Hoe moet u zich gedragen?",
+      "text_ru": "Вы подъезжаете к перекрестку, где светофоры выключены и не видно никаких дорожных знаков. Как вы должны себя вести?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A dark and empty intersection with no visible traffic lights or signs."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez passer car l'absence de signalisation implique que vous avez la priorité.",
+          "text_nl": "U mag doorrijden omdat de afwezigheid van signalisatie betekent dat u voorrang heeft.",
+          "text_ru": "Вы можете проехать, потому что отсутствие знаков означает, что вы имеете приоритет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez appliquer les règles de priorité comme s'il s'agissait d'un carrefour sans signalisation.",
+          "text_nl": "U moet de voorrangsregels toepassen alsof het een kruispunt zonder signalisatie is.",
+          "text_ru": "Вы должны применять правила приоритета, как если бы это был перекресток без знаков.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez attendre qu'un autre véhicule passe pour savoir comment réagir.",
+          "text_nl": "U moet wachten tot een ander voertuig passeert om te weten hoe u moet reageren.",
+          "text_ru": "Вы должны дождаться, пока проедет другое транспортное средство, чтобы понять, как действовать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 5 stipule que les usagers doivent se conformer aux signaux lorsqu'ils sont présents et réguliers. Si les feux sont éteints et qu'aucun panneau n'est visible, cela signifie que l'intersection n'est pas réglementée par une signalisation spécifique. Il faut alors appliquer les règles générales de priorité, c'est-à-dire céder le passage à droite.",
+      "explanation_nl": "Artikel 5 stelt dat weggebruikers verkeerssignalen moeten in acht nemen wanneer deze aanwezig en regelmatig zijn. Als de lichten uit zijn en er geen borden zichtbaar zijn, betekent dit dat de kruising niet geregeld is door specifieke signalisatie. In dat geval moeten de algemene voorrangsregels worden toegepast, namelijk voorrang verlenen aan rechts.",
+      "explanation_ru": "Статья 5 гласит, что водители должны соблюдать дорожные знаки, когда они присутствуют и имеют правильную форму. Если светофоры выключены и не видно никаких знаков, это означает, что перекресток не регулируется специальными знаками. В этом случае следует применять общие правила приоритета, то есть уступить дорогу справа."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "48f1cbbceb92",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:38:16Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

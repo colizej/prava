@@ -28,7 +28,178 @@
   "anchor_id_fr": "mcm74cm6ef",
   "anchor_id_nl": "sysdpckoc3",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quelles circonstances un véhicule prioritaire peut-il utiliser ses feux bleus clignotants ?",
+      "text_nl": "Wanneer mag een prioritair voertuig zijn blauwe knipperlichten gebruiken?",
+      "text_ru": "При каких обстоятельствах приоритетное транспортное средство может использовать свои синие проблесковые маячки?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement lorsqu'il accomplit une mission urgente.",
+          "text_nl": "Enkel wanneer het een dringende opdracht uitvoert.",
+          "text_ru": "Только когда оно выполняет срочное задание.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsqu'il accomplit une mission urgente, ou pour une autre mission si sa nature le justifie.",
+          "text_nl": "Wanneer het een dringende opdracht uitvoert, of voor een andere opdracht indien de aard ervan dit rechtvaardigt.",
+          "text_ru": "Когда оно выполняет срочное задание, или для другого задания, если его характер это оправдывает.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Exclusivement pour des raisons de sécurité lors des déplacements de personnalités.",
+          "text_nl": "Uitsluitend om veiligheidsredenen bij de verplaatsing van VIP's.",
+          "text_ru": "Исключительно в целях безопасности при перемещении VIP-персон.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 37.2, les feux bleus clignotants doivent être utilisés lorsque le véhicule prioritaire accomplit une mission urgente. Ils peuvent également être utilisés pour l'exécution d'une autre mission, uniquement lorsque la nature de cette mission le justifie.",
+      "explanation_nl": "Volgens artikel 37.2 moeten de blauwe knipperlichten gebruikt worden wanneer het prioritaire voertuig een dringende opdracht uitvoert. Ze mogen ook gebruikt worden voor de uitvoering van een andere opdracht, alleen wanneer de aard van die opdracht dit rechtvaardigt.",
+      "explanation_ru": "Согласно статье 37.2, синие проблесковые маячки должны использоваться, когда приоритетное транспортное средство выполняет срочное задание. Они также могут использоваться для выполнения другого задания, только если характер этого задания это оправдывает."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quand est-il permis à un conducteur de véhicule prioritaire d'utiliser l'avertisseur sonore spécial ?",
+      "text_nl": "Wanneer mag een bestuurder van een prioritair voertuig het speciaal geluidstoestel gebruiken?",
+      "text_ru": "Когда водителю приоритетного транспортного средства разрешено использовать специальный звуковой сигнал?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À chaque fois qu'il accomplit une mission urgente ou non urgente.",
+          "text_nl": "Telkens wanneer het een dringende of niet-dringende opdracht uitvoert.",
+          "text_ru": "Каждый раз, когда оно выполняет срочное или несрочное задание.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Seulement lorsque le véhicule prioritaire accomplit une mission urgente.",
+          "text_nl": "Enkel wanneer het prioritaire voertuig een dringende opdracht uitvoert.",
+          "text_ru": "Только когда приоритетное транспортное средство выполняет срочное задание.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement lorsque le véhicule prioritaire utilise également ses feux bleus clignotants.",
+          "text_nl": "Enkel wanneer het prioritaire voertuig ook zijn blauwe knipperlichten gebruikt.",
+          "text_ru": "Только когда приоритетное транспортное средство также использует свои синие проблесковые маячки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 37.3, l'avertisseur sonore spécial ne peut être utilisé que lorsque le véhicule prioritaire accomplit une mission urgente.",
+      "explanation_nl": "Volgens artikel 37.3 mag het speciaal geluidstoestel slechts gebruikt worden wanneer het prioritaire voertuig een dringende opdracht uitvoert.",
+      "explanation_ru": "Согласно статье 37.3, специальный звуковой сигнал может использоваться только тогда, когда приоритетное транспортное средство выполняет срочное задание."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule prioritaire effectuant une mission urgente. Vous approchez d'un feu rouge où la circulation est dense. Vous actionnez l'avertisseur sonore spécial. Quelle est la procédure correcte ?",
+      "text_nl": "U bestuurt een prioritair voertuig dat een dringende opdracht uitvoert. U nadert een rood licht waar het verkeer druk is. U activeert het speciale geluidstoestel. Wat is de juiste procedure?",
+      "text_ru": "Вы управляете приоритетным транспортным средством, выполняющим срочное задание. Вы приближаетесь к красному светофору, где движение плотное. Вы включаете специальный звуковой сигнал. Какова правильная процедура?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez impérativement vous arrêter au feu rouge et attendre qu'il passe au vert.",
+          "text_nl": "U moet absoluut stoppen voor het rode licht en wachten tot het groen wordt.",
+          "text_ru": "Вы должны обязательно остановиться на красный свет и дождаться зеленого.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez franchir le feu rouge à vitesse modérée, à condition de ne créer aucun danger pour les autres usagers.",
+          "text_nl": "U mag het rode licht voorbijrijden met een gematigde snelheid, op voorwaarde dat u geen gevaar voor andere weggebruikers creëert.",
+          "text_ru": "Вы можете проехать на красный свет с умеренной скоростью, при условии, что вы не создадите опасности для других участников движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez attendre que tous les autres véhicules soient passés avant de franchir le feu rouge.",
+          "text_nl": "U moet wachten tot alle andere voertuigen zijn gepasseerd voordat u het rode licht negeert.",
+          "text_ru": "Вы должны дождаться, пока все остальные транспортные средства проедут, прежде чем проигнорировать красный свет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 37.4 stipule que lorsqu'un véhicule prioritaire utilise l'avertisseur sonore spécial, il peut franchir le feu rouge à vitesse modérée, à condition qu'il n'en résulte pas de danger pour les autres usagers.",
+      "explanation_nl": "Artikel 37.4 stelt dat wanneer een prioritair voertuig het speciaal geluidstoestel gebruikt, het het rode licht mag voorbijrijden met een gematigde snelheid, op voorwaarde dat dit geen gevaar oplevert voor de andere weggebruikers.",
+      "explanation_ru": "Статья 37.4 гласит, что когда приоритетное транспортное средство использует специальный звуковой сигнал, оно может проехать на красный свет с умеренной скоростью, при условии, что это не создает опасности для других участников движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes conducteur d'un véhicule d'intervention médicale urgente. Vous effectuez une mission urgente et utilisez les feux bleus clignotants et l'avertisseur sonore spécial. Quel article du présent règlement n'êtes-vous PAS tenu de respecter ?",
+      "text_nl": "U bent bestuurder van een voertuig voor dringende medische hulpverlening. U voert een dringende opdracht uit en gebruikt de blauwe knipperlichten en het speciale geluidstoestel. Welk artikel van dit reglement hoeft u NIET na te leven?",
+      "text_ru": "Вы водитель транспортного средства экстренной медицинской помощи. Вы выполняете срочное задание и используете синие проблесковые маячки и специальный звуковой сигнал. Какую статью настоящего постановления вы НЕ обязаны соблюдать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'article 4 (Règles de priorité).",
+          "text_nl": "Artikel 4 (Voorrangsregels).",
+          "text_ru": "Статья 4 (Правила приоритета).",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'article 37 (Véhicules prioritaires).",
+          "text_nl": "Artikel 37 (Prioritaire voertuigen).",
+          "text_ru": "Статья 37 (Приоритетные транспортные средства).",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'article 8.4 (Arrêt et stationnement).",
+          "text_nl": "Artikel 8.4 (Stopzetten en parkeren).",
+          "text_ru": "Статья 8.4 (Остановка и парковка).",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 37.5 liste les articles que le conducteur d'un véhicule prioritaire en mission urgente n'est pas tenu de respecter. Parmi les options proposées, l'article 8.4 (Arrêt et stationnement) n'est pas explicitement mentionné comme une exception dans la liste des articles auxquels le conducteur doit se conformer, contrairement aux articles 4 et 37 qui sont mentionnés comme faisant partie des exceptions ou étant l'article lui-même.",
+      "explanation_nl": "Artikel 37.5 somt de artikelen op die de bestuurder van een prioritair voertuig in dringende opdracht niet hoeft na te leven. Van de voorgestelde opties is artikel 8.4 (Stopzetten en parkeren) niet expliciet vermeld als een uitzondering in de lijst van artikelen waaraan de bestuurder zich moet houden, in tegenstelling tot artikelen 4 en 37 die vermeld zijn als deel van de uitzonderingen of het artikel zelf.",
+      "explanation_ru": "Статья 37.5 перечисляет статьи, которые водитель приоритетного транспортного средства, выполняющий срочное задание, не обязан соблюдать. Среди предложенных вариантов статья 8.4 (Остановка и парковка) явно не указана как исключение в списке статей, которым водитель должен следовать, в отличие от статей 4 и 37, которые указаны как часть исключений или как сама статья."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes témoin d'un véhicule de police avec les feux bleus clignotants activés, mais sans sirène. Qu'est-ce que cela signifie généralement ?",
+      "text_nl": "U ziet een politievoertuig met de blauwe knipperlichten aan, maar zonder sirene. Wat betekent dit gewoonlijk?",
+      "text_ru": "Вы видите полицейскую машину с включенными синими проблесковыми маячками, но без сирены. Что это обычно означает?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule est en mission urgente et doit être laissé passer immédiatement.",
+          "text_nl": "Het voertuig is op een dringende opdracht en moet onmiddellijk voorrang krijgen.",
+          "text_ru": "Транспортное средство выполняет срочное задание и должно быть немедленно пропущено.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule peut être en mission urgente, ou en mission non urgente dont la nature le justifie.",
+          "text_nl": "Het voertuig kan op een dringende, of op een niet-dringende opdracht zijn waarvan de aard dit rechtvaardigt.",
+          "text_ru": "Транспортное средство может выполнять срочное или несрочное задание, если его характер это оправдывает.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule est en service normal et ne bénéficie d'aucune priorité particulière.",
+          "text_nl": "Het voertuig is in normale dienst en geniet geen bijzondere voorrang.",
+          "text_ru": "Транспортное средство находится на обычной службе и не имеет особого приоритета.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 37.2, les feux bleus clignotants peuvent être utilisés lorsque le véhicule prioritaire accomplit une mission urgente, mais aussi pour l'exécution d'une autre mission, uniquement lorsque la nature de la mission le justifie. L'absence de sirène indique que la situation n'est peut-être pas une urgence absolue, mais justifie quand même l'usage des feux bleus.",
+      "explanation_nl": "Volgens artikel 37.2 mogen de blauwe knipperlichten gebruikt worden wanneer het prioritaire voertuig een dringende opdracht uitvoert, maar ook voor de uitvoering van een andere opdracht, alleen wanneer de aard van de opdracht dit rechtvaardigt. De afwezigheid van de sirene geeft aan dat de situatie misschien geen absolute urgentie is, maar toch het gebruik van de blauwe lichten rechtvaardigt.",
+      "explanation_ru": "Согласно статье 37.2, синие проблесковые маячки могут использоваться, когда приоритетное транспортное средство выполняет срочное задание, а также для выполнения другого задания, только если характер этого задания это оправдывает. Отсутствие сирены указывает на то, что ситуация, возможно, не является абсолютной срочностью, но все же оправдывает использование синих огней."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "93cdd3bf042a",
@@ -38,6 +209,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:52:53Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

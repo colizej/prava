@@ -41,13 +41,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.utils.json_helpers import load_json, save_json  # noqa: E402
+from scripts.utils.laws_registry import get_law  # noqa: E402
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
-LAW_YEAR = "1975"
-LAWS_DIR = PROJECT_ROOT / "data" / "laws" / LAW_YEAR
-PROCESSED_DIR = PROJECT_ROOT / "data" / "processed" / LAW_YEAR
-ARTICLES_DIR = PROCESSED_DIR / "articles"
+_DEFAULT_LAW = "1975"
 
 SOURCES = {
     "fr": "codedelaroute.be",
@@ -240,6 +238,7 @@ def build_processed_article(
     art_nl: dict | None,
     art_ru: dict | None,
     processed_at: str,
+    law_id: str = _DEFAULT_LAW,
 ) -> dict:
     """
     Merge trilingual article data into a single processed article dict.
@@ -271,7 +270,7 @@ def build_processed_article(
     notif_ru = (art_ru.get("notifications", []) if art_ru else [])
 
     article = {
-        "law_year": LAW_YEAR,
+        "law_id": law_id,
         "article_number": number,
         "slug": slug,
         "structure": art_fr.get("structure", {}),
@@ -338,7 +337,7 @@ def build_processed_article(
 def validate_processed(article: dict) -> list[str]:
     """Return list of validation errors (empty = valid)."""
     errors = []
-    required = ["law_year", "article_number", "slug", "title_fr", "content_md_fr", "_meta"]
+    required = ["law_id", "article_number", "slug", "title_fr", "content_md_fr", "_meta"]
     for f in required:
         if not article.get(f):
             errors.append(f"Missing or empty: '{f}'")
@@ -347,7 +346,7 @@ def validate_processed(article: dict) -> list[str]:
 
 # ─── Index builder ────────────────────────────────────────────────────────────
 
-def build_index(articles: list[dict], structure: list[dict]) -> dict:
+def build_index(articles: list[dict], structure: list[dict], law_id: str = _DEFAULT_LAW) -> dict:
     """
     Build a lightweight navigation index (all articles + structure).
 
@@ -368,7 +367,7 @@ def build_index(articles: list[dict], structure: list[dict]) -> dict:
         })
 
     return {
-        "law_year": LAW_YEAR,
+        "law_id": law_id,
         "built_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total_articles": len(index_articles),
         "structure": structure,
@@ -380,7 +379,11 @@ def build_index(articles: list[dict], structure: list[dict]) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description="PRAVA — Merge and process trilingual law data")
-    parser.add_argument("--law-year", default=LAW_YEAR, help="Law year (default: 1975)")
+    parser.add_argument(
+        "--law", default=_DEFAULT_LAW, metavar="LAW_ID",
+        help=f"Law registry ID to process (default: {_DEFAULT_LAW}). Alias: --law-year",
+    )
+    parser.add_argument("--law-year", default=None, help="Alias for --law (legacy, for backwards compat)")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be written, don't save")
     parser.add_argument("--article", type=str, default=None, metavar="NUMBER",
                         help="Process a single article by number (e.g. --article 21)")
@@ -392,9 +395,18 @@ def main():
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    law_year = args.law_year
-    laws_dir = PROJECT_ROOT / "data" / "laws" / law_year
-    processed_dir = PROJECT_ROOT / "data" / "processed" / law_year
+    # --law-year is a legacy alias for --law
+    law_id = args.law_year or args.law
+
+    try:
+        law_meta = get_law(law_id)
+        logger.info(f"Law: {law_id} — {law_meta['title_fr']}")
+    except KeyError as e:
+        logger.error(str(e))
+        sys.exit(1)
+
+    laws_dir = PROJECT_ROOT / "data" / "laws" / law_id
+    processed_dir = PROJECT_ROOT / "data" / "processed" / law_id
     articles_dir = processed_dir / "articles"
 
     # ── Load source files ────────────────────────────────────────────────────
@@ -437,7 +449,7 @@ def main():
         art_nl = nl_map.get(number)
         art_ru = ru_map.get(number)
 
-        article = build_processed_article(art_fr, art_nl, art_ru, processed_at)
+        article = build_processed_article(art_fr, art_nl, art_ru, processed_at, law_id=law_id)
 
         # Validate
         errs = validate_processed(article)
@@ -472,7 +484,7 @@ def main():
 
     # ── Build and save index ─────────────────────────────────────────────────
     if not args.article:
-        index = build_index(processed_articles, structure)
+        index = build_index(processed_articles, structure, law_id=law_id)
         if not args.dry_run:
             save_json(index, processed_dir / "index.json")
             logger.info(f"Index saved → {processed_dir / 'index.json'}")

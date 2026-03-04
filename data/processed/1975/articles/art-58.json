@@ -26,7 +26,178 @@
   "anchor_id_fr": "7iav3lijz2",
   "anchor_id_nl": "nnhqbahp7r",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est habilité à fixer les limitations de la circulation en période de dégel en Belgique ?",
+      "text_nl": "Wie is bevoegd om de verkeersbeperkingen bij dooiweder in België vast te leggen?",
+      "text_ru": "Кто уполномочен устанавливать ограничения движения во время оттепели в Бельгии?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le ministre de la Mobilité.",
+          "text_nl": "De minister van Mobiliteit.",
+          "text_ru": "Министр транспорта.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le bourgmestre de chaque commune.",
+          "text_nl": "De burgemeester van elke gemeente.",
+          "text_ru": "Мэр каждого муниципалитета.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les gouverneurs de province.",
+          "text_nl": "De provinciegouverneurs.",
+          "text_ru": "Провинциальные губернаторы.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 58 stipule que les gouverneurs fixent par arrêté les limitations de la circulation en période de dégel.",
+      "explanation_nl": "Artikel 58 bepaalt dat de gouverneurs bij besluit de verkeersbeperkingen bij dooiweder vaststellen.",
+      "explanation_ru": "Статья 58 гласит, что губернаторы устанавливают ограничения движения во время оттепели посредством постановления."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Comment les limitations de circulation en période de dégel sont-elles portées à la connaissance du public ?",
+      "text_nl": "Hoe worden de verkeersbeperkingen bij dooiweder bekendgemaakt aan het publiek?",
+      "text_ru": "Как ограничения движения во время оттепели доводятся до сведения общественности?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Par une annonce télévisée nationale.",
+          "text_nl": "Via een nationale televisie-uitzending.",
+          "text_ru": "Через национальное телевизионное объявление.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Par voie d'affiches dans toutes les communes concernées.",
+          "text_nl": "Door middel van aanplakbiljetten in alle betrokken gemeenten.",
+          "text_ru": "Путем размещения плакатов во всех затронутых муниципалитетах.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Par une publication dans le Moniteur Belge.",
+          "text_nl": "Door publicatie in het Belgisch Staatsblad.",
+          "text_ru": "Путем публикации в Бельгийском государственном вестнике.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 58 précise que ces arrêtés sont publiés d'urgence par voie d'affiches dans toutes les communes qu'ils concernent.",
+      "explanation_nl": "Artikel 58 specificeert dat deze besluiten met spoed bekendgemaakt worden door middel van aanplakbiljetten in alle betrokken gemeenten.",
+      "explanation_ru": "Статья 58 уточняет, что эти постановления срочно публикуются посредством плакатов во всех затронутых муниципалитетах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous circulez sur une route provinciale lorsqu'un arrêté de limitation de circulation en période de dégel est soudainement publié par affichage dans le village où vous venez d'entrer. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een provinciale weg wanneer plotseling een besluit tot verkeersbeperking bij dooiweder wordt bekendgemaakt door aanplakking in het dorp waar u net bent aangekomen. Wat moet u doen?",
+      "text_ru": "Вы едете по проселочной дороге, когда внезапно в деревне, в которую вы только что въехали, вывешивается объявление об ограничении движения во время оттепели. Что вы должны делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Immédiatement vous arrêter et attendre la fin des limitations.",
+          "text_nl": "Onmiddellijk stoppen en wachten tot de beperkingen voorbij zijn.",
+          "text_ru": "Немедленно остановиться и дождаться окончания ограничений.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer votre route jusqu'au centre du village le plus proche.",
+          "text_nl": "Uw weg vervolgen tot in het centrum van de dichtstbijgelegen gemeente.",
+          "text_ru": "Продолжить движение до центра ближайшего населенного пункта.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Faire demi-tour et quitter la zone concernée.",
+          "text_nl": "Omkeren en het getroffen gebied verlaten.",
+          "text_ru": "Развернуться и покинуть затронутую зону.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 58 autorise les conducteurs déjà en route au moment de la publication de l'arrêté à continuer jusqu'au centre de la commune la plus proche ou jusqu'à l'endroit indiqué par un agent qualifié.",
+      "explanation_nl": "Artikel 58 staat bestuurders die al onderweg waren op het ogenblik van de bekendmaking van het besluit toe om door te rijden tot in het centrum van de dichtstbijgelegen gemeente of tot op een door een bevoegd persoon aangegeven plaats.",
+      "explanation_ru": "Статья 58 разрешает водителям, которые уже находились в пути в момент публикации постановления, продолжать движение до центра ближайшего населенного пункта или до места, указанного уполномоченным лицом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes dans une voiture et l'arrêté de limitation de circulation en période de dégel vient d'être publié. Un agent qualifié vous fait signe de vous arrêter. Que devez-vous faire ?",
+      "text_nl": "U bent onderweg met de auto en het besluit tot verkeersbeperking bij dooiweder is zojuist bekendgemaakt. Een bevoegd persoon geeft u een teken om te stoppen. Wat moet u doen?",
+      "text_ru": "Вы находитесь в машине, и только что было опубликовано постановление об ограничении движения во время оттепели. Уполномоченный сотрудник дает вам знак остановиться. Что вы должны делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ignorer le signe de l'agent et continuer jusqu'à la prochaine sortie.",
+          "text_nl": "Het teken van de bevoegde persoon negeren en doorrijden tot de volgende afrit.",
+          "text_ru": "Проигнорировать знак сотрудника и продолжить движение до следующего съезда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous conformer à l'indication de l'agent et vous arrêter.",
+          "text_nl": "Voldoen aan de aanwijzing van de bevoegde persoon en stoppen.",
+          "text_ru": "Подчиниться указанию сотрудника и остановиться.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer jusqu'au centre du village le plus proche malgré le signe.",
+          "text_nl": "Ondanks het teken doorrijden tot in het centrum van de dichtstbijgelegen gemeente.",
+          "text_ru": "Несмотря на знак, продолжить движение до центра ближайшего населенного пункта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 58 permet aux conducteurs en route au moment de la publication de continuer jusqu'au centre de la commune la plus proche OU jusqu'à l'endroit indiqué par un agent qualifié. L'indication de l'agent prime.",
+      "explanation_nl": "Artikel 58 staat bestuurders die op het ogenblik van de bekendmaking onderweg zijn toe om door te rijden tot in het centrum van de dichtstbijgelegen gemeente OF tot op de door een bevoegd persoon aangegeven plaats. De aanwijzing van de bevoegde persoon heeft voorrang.",
+      "explanation_ru": "Статья 58 позволяет водителям, находящимся в пути в момент публикации, продолжать движение до центра ближайшего населенного пункта ИЛИ до места, указанного уполномоченным лицом. Указание сотрудника имеет преимущество."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un arrêté provincial limite la circulation des véhicules lourds sur certaines routes en raison du dégel. Vous conduisez un camion. L'arrêté précise explicitement que la route sur laquelle vous vous trouvez n'est PAS visée par cette limitation. Pouvez-vous continuer ?",
+      "text_nl": "Een provinciaal besluit beperkt het verkeer van zware voertuigen op bepaalde wegen wegens dooiweder. U bestuurt een vrachtwagen. Het besluit vermeldt uitdrukkelijk dat de weg waarop u zich bevindt NIET onder deze beperking valt. Kunt u doorrijden?",
+      "text_ru": "Провинциальное постановление ограничивает движение тяжелых транспортных средств по некоторым дорогам из-за оттепели. Вы управляете грузовиком. В постановлении явно указано, что дорога, по которой вы едете, НЕ подпадает под это ограничение. Можете ли вы продолжать движение?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car il y a une limitation générale en période de dégel.",
+          "text_nl": "Nee, omdat er een algemene beperking geldt bij dooiweder.",
+          "text_ru": "Нет, потому что действует общее ограничение во время оттепели.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car l'arrêté indique expressément que cette route n'est pas concernée.",
+          "text_nl": "Ja, omdat het besluit uitdrukkelijk vermeldt dat deze weg niet getroffen wordt.",
+          "text_ru": "Да, потому что в постановлении явно указано, что эта дорога не затронута.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si j'obtiens une autorisation spéciale.",
+          "text_nl": "Alleen als ik een speciale vergunning verkrijg.",
+          "text_ru": "Только если я получу специальное разрешение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 58 stipule que les arrêtés précisent expressément les voies publiques qui ne sont pas visées par ces limitations. Si la route n'est pas concernée, vous pouvez y circuler.",
+      "explanation_nl": "Artikel 58 bepaalt dat de besluiten uitdrukkelijk de openbare wegen vermelden waarop de beperkingen niet van toepassing zijn. Als de weg niet getroffen wordt, mag u erop rijden.",
+      "explanation_ru": "Статья 58 гласит, что в постановлениях явно указываются дороги общего пользования, на которые ограничения не распространяются. Если дорога не затронута, вы можете по ней ехать."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "079fd4e4be3d",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:41:18Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

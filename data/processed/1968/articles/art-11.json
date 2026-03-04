@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "11",
+  "slug": "art-11",
+  "structure": {
+    "titre": "I",
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 11",
+  "title_nl": "Artikel 11",
+  "title_ru": "Статья 11",
+  "content_md_fr": "Les agents qualifiés, portant les insignes de leurs fonctions, peuvent régler la circulation par des injonctions qui prévalent sur les dispositions des règlements généraux et des règlements complémentaires.",
+  "content_md_nl": "De bevoegde personen die de kentekens van hun ambt dragen, kunnen het verkeer regelen door aanwijzingen; deze gaan boven de bepalingen van de algemene reglementen en de aanvullende reglementen.",
+  "content_md_ru": "Квалифицированные сотрудники со знаками отличия могут регулировать дорожное движение, издавая предписания, которые имеют преимущественную силу перед положениями общих и дополнительных правил.",
+  "content_html_fr": "<p>Les agents qualifiés, portant les insignes de leurs fonctions, peuvent régler la circulation par des injonctions qui prévalent sur les dispositions des règlements généraux et des règlements complémentaires.</p>",
+  "content_html_nl": "<p>De bevoegde personen die de kentekens van hun ambt dragen, kunnen het verkeer regelen door aanwijzingen; deze gaan boven de bepalingen van de algemene reglementen en de aanvullende reglementen.</p>",
+  "full_text_fr": "Les agents qualifiés, portant les insignes de leurs fonctions, peuvent régler la circulation par des injonctions qui prévalent sur les dispositions des règlements généraux et des règlements complémentaires.",
+  "full_text_nl": "De bevoegde personen die de kentekens van hun ambt dragen, kunnen het verkeer regelen door aanwijzingen; deze gaan boven de bepalingen van de algemene reglementen en de aanvullende reglementen.",
+  "full_text_ru": "Квалифицированные сотрудники со знаками отличия могут регулировать дорожное движение, издавая предписания, которые имеют преимущественную силу перед положениями общих и дополнительных правил.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "0htafa6vyp",
+  "anchor_id_nl": "xc81qkbaw7",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "817abb9aa5bb",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "32",
+  "slug": "art-32",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "III"
+  },
+  "title_fr": "Article 32",
+  "title_nl": "Artikel 32",
+  "title_ru": "Статья 32",
+  "content_md_fr": "Est puni d'une amende de **100 euros à 1000 euros** quiconque a, sciemment, confié un véhicule à moteur à une personne non munie du permis de conduire ou du titre qui en tient lieu exigé pour la conduite de ce véhicule.",
+  "content_md_nl": "Met geldboete van **100 euro tot 1000 euro** wordt gestraft hij die wetens een motorvoertuig toevertrouwt aan een persoon, die niet voorzien is van het rijbewijs of het als zodanig geldend bewijs vereist voor het besturen van dit voertuig.",
+  "content_md_ru": "Лицо, сознательно передающее транспортное средство лицу, не имеющему водительского удостоверения или эквивалентного документа, необходимого для управления транспортным средством, наказывается штрафом в размере от 100 до 1000 евро**.",
+  "content_html_fr": "<p>Est puni d'une amende de <strong>100 euros à 1000 euros</strong> quiconque a, sciemment, confié un véhicule à moteur à une personne non munie du permis de conduire ou du titre qui en tient lieu exigé pour la conduite de ce véhicule.</p>",
+  "content_html_nl": "<p>Met geldboete van <strong>100 euro tot 1000 euro</strong> wordt gestraft hij die wetens een motorvoertuig toevertrouwt aan een persoon, die niet voorzien is van het rijbewijs of het als zodanig geldend bewijs vereist voor het besturen van dit voertuig.</p>",
+  "full_text_fr": "Est puni d'une amende de 100 euros à 1000 euros quiconque a, sciemment, confié un véhicule à moteur à une personne non munie du permis de conduire ou du titre qui en tient lieu exigé pour la conduite de ce véhicule.",
+  "full_text_nl": "Met geldboete van 100 euro tot 1000 euro wordt gestraft hij die wetens een motorvoertuig toevertrouwt aan een persoon, die niet voorzien is van het rijbewijs of het als zodanig geldend bewijs vereist voor het besturen van dit voertuig.",
+  "full_text_ru": "Лицо, сознательно передающее транспортное средство лицу, не имеющему водительского удостоверения или эквивалентного документа, необходимого для управления транспортным средством, наказывается штрафом в размере от 100 до 1000 евро.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "n7l6ugeruo",
+  "anchor_id_nl": "rx3wtwfmud",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "33c54a429e46",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

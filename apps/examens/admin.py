@@ -1,7 +1,32 @@
 from django.contrib import admin
 from django.utils.html import format_html, escape
 from django.utils.safestring import mark_safe
-from .models import ExamCategory, Question, AnswerOption, TestAttempt
+from .models import ExamCategory, Question, AnswerOption, TestAttempt, StudyList, SavedQuestion
+
+
+@admin.register(StudyList)
+class StudyListAdmin(admin.ModelAdmin):
+    list_display = ('icon', 'name', 'slug', 'saved_count', 'order', 'is_active')
+    list_editable = ('order', 'is_active')
+    prepopulated_fields = {'slug': ('name',)}
+    search_fields = ('name',)
+
+    @admin.display(description='Questions sauv.')
+    def saved_count(self, obj):
+        return obj.saved_questions.count()
+
+
+@admin.register(SavedQuestion)
+class SavedQuestionAdmin(admin.ModelAdmin):
+    list_display = ('user', 'question_short', 'study_list', 'saved_at')
+    list_filter = ('study_list', 'saved_at')
+    search_fields = ('user__username', 'question__text')
+    readonly_fields = ('saved_at',)
+    raw_id_fields = ('question',)
+
+    @admin.display(description='Question')
+    def question_short(self, obj):
+        return f'Q{obj.question_id}: {obj.question.text[:60]}'
 
 
 class AnswerOptionInline(admin.TabularInline):

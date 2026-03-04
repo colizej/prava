@@ -1,0 +1,43 @@
+{
+  "law_id": "1968",
+  "article_number": "58",
+  "slug": "art-58",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VIII"
+  },
+  "title_fr": "Article 58",
+  "title_nl": "Artikel 58",
+  "title_ru": "Статья 58",
+  "content_md_fr": "Les infractions aux dispositions de [l'article 55](#art-55), § 3 alinéa 1er, sont punies d'un emprisonnement d'un jour à un mois et d'une amende de 10 euros à 500 euros, ou d'une de ces peines seulement.\n\nEn cas de circonstances atténuantes, l'amende peut être réduite, sans qu'elle puisse être inférieure à 1 euro.\n\nLes peines sont doublées s'il y a récidive dans les trois ans à dater d'un jugement antérieur portant condamnation et coulé en force de chose jugée.",
+  "content_md_nl": "Overtreding van de bepalingen van [artikel 55](#art-55), § 3, eerste lid, wordt gestraft met gevangenisstraf van een dag tot een maand en met geldboete van 10 euro tot 500 euro of met een van die straffen alleen.\n\nIn geval van verzachtende omstandigheden kan de geldboete verminderd worden, zonder dat ze minder dan 1 euro mag bedragen.\n\nDe straffen worden verdubbeld bij herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gedaan.",
+  "content_md_ru": "Нарушение положений [статьи 55](#art-55), § 3 абзац 1, наказывается лишением свободы на срок от одного дня до одного месяца и штрафом в размере от 10 евро до 500 евро, либо только одним из этих наказаний.\n\nПри наличии смягчающих обстоятельств размер штрафа может быть уменьшен, но не может быть менее 1 евро.\n\nШтрафные санкции удваиваются в случае повторного совершения преступления в течение трех лет после вынесения предыдущего судебного решения, признавшего нарушителя виновным и имеющего силу res judicata.",
+  "content_html_fr": "<p>Les infractions aux dispositions de <a href=\"#art-55\">l'article 55</a>, § 3 alinéa 1<sup>er</sup>, sont punies d'un emprisonnement d'un jour à un mois et d'une amende de 10 euros à 500 euros, ou d'une de ces peines seulement.</p><p>En cas de circonstances atténuantes, l'amende peut être réduite, sans qu'elle puisse être inférieure à 1 euro.</p><p>Les peines sont doublées s'il y a récidive dans les trois ans à dater d'un jugement antérieur portant condamnation et coulé en force de chose jugée.</p>",
+  "content_html_nl": "<p>Overtreding van de bepalingen van <a href=\"#art-55\">artikel 55</a>, § 3, eerste lid, wordt gestraft met gevangenisstraf van een dag tot een maand en met geldboete van 10 euro tot 500 euro of met een van die straffen alleen.</p><p>In geval van verzachtende omstandigheden kan de geldboete verminderd worden, zonder dat ze minder dan 1 euro mag bedragen.</p><p>De straffen worden verdubbeld bij herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gedaan.</p>",
+  "full_text_fr": "Les infractions aux dispositions de l'article 55, § 3 alinéa 1er, sont punies d'un emprisonnement d'un jour à un mois et d'une amende de 10 euros à 500 euros, ou d'une de ces peines seulement.\n\nEn cas de circonstances atténuantes, l'amende peut être réduite, sans qu'elle puisse être inférieure à 1 euro.\n\nLes peines sont doublées s'il y a récidive dans les trois ans à dater d'un jugement antérieur portant condamnation et coulé en force de chose jugée.",
+  "full_text_nl": "Overtreding van de bepalingen van artikel 55, § 3, eerste lid, wordt gestraft met gevangenisstraf van een dag tot een maand en met geldboete van 10 euro tot 500 euro of met een van die straffen alleen.\n\nIn geval van verzachtende omstandigheden kan de geldboete verminderd worden, zonder dat ze minder dan 1 euro mag bedragen.\n\nDe straffen worden verdubbeld bij herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gedaan.",
+  "full_text_ru": "Нарушение положений статьи 55, § 3 абзац 1, наказывается лишением свободы на срок от одного дня до одного месяца и штрафом в размере от 10 евро до 500 евро, либо только одним из этих наказаний.\n\nПри наличии смягчающих обстоятельств размер штрафа может быть уменьшен, но не может быть менее 1 евро.\n\nШтрафные санкции удваиваются в случае повторного совершения преступления в течение трех лет после вынесения предыдущего судебного решения, признавшего нарушителя виновным и имеющего силу res judicata.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-55"
+  ],
+  "anchor_id_fr": "x9pobirvv0",
+  "anchor_id_nl": "ajvzbvrcab",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "163f531584bc",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

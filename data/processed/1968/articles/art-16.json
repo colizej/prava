@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "16",
+  "slug": "art-16",
+  "structure": {
+    "titre": "II",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 16",
+  "title_nl": "Artikel 16",
+  "title_ru": "Статья 16",
+  "content_md_fr": "Le Ministre des finances est autorisé à placer sur les voies publiques des signaux d'indication relatifs aux dispositions légales et réglementaires que l'Administration des douanes et accises est chargée de faire respecter.",
+  "content_md_nl": "De Minister van Financiën mag op de openbare wegen aanwijzingstekens plaatsen betreffende de bepalingen van wetten en verordeningen die het bestuur der douane en der accijnzen moet doen in acht nemen.",
+  "content_md_ru": "Министр финансов уполномочен устанавливать на дорогах общего пользования знаки, указывающие на законодательные и нормативные положения, за соблюдение которых отвечает Таможенно-акцизное управление.",
+  "content_html_fr": "<p>Le Ministre des finances est autorisé à placer sur les voies publiques des signaux d'indication relatifs aux dispositions légales et réglementaires que l'Administration des douanes et accises est chargée de faire respecter.</p>",
+  "content_html_nl": "<p>De Minister van Financiën mag op de openbare wegen aanwijzingstekens plaatsen betreffende de bepalingen van wetten en verordeningen die het bestuur der douane en der accijnzen moet doen in acht nemen.</p>",
+  "full_text_fr": "Le Ministre des finances est autorisé à placer sur les voies publiques des signaux d'indication relatifs aux dispositions légales et réglementaires que l'Administration des douanes et accises est chargée de faire respecter.",
+  "full_text_nl": "De Minister van Financiën mag op de openbare wegen aanwijzingstekens plaatsen betreffende de bepalingen van wetten en verordeningen die het bestuur der douane en der accijnzen moet doen in acht nemen.",
+  "full_text_ru": "Министр финансов уполномочен устанавливать на дорогах общего пользования знаки, указывающие на законодательные и нормативные положения, за соблюдение которых отвечает Таможенно-акцизное управление.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "x9wubrgukg",
+  "anchor_id_nl": "dcexod6pop",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "7164e56dc66d",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

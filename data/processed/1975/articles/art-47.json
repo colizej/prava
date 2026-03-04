@@ -44,7 +44,190 @@
   "anchor_id_fr": "abu6gufshs",
   "anchor_id_nl": "bw2ay3xkts",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 47.1, comment les chargements dépassant de plus d'un mètre l'arrière d'un véhicule doivent-ils être signalés lorsque l'éclairage du véhicule n'est pas requis ?",
+      "text_nl": "Volgens artikel 47.1, hoe moeten ladingen die meer dan één meter buiten het achtereinde van een voertuig uitsteken, worden gesignaleerd wanneer de verlichting van het voertuig niet vereist is?",
+      "text_ru": "Согласно статье 47.1, как следует сигнализировать грузы, выступающие более чем на метр за заднюю часть транспортного средства, когда освещение транспортного средства не требуется?",
+      "image": {
+        "sign_code": "Lading",
+        "generation_prompt": "A square warning sign with alternating red and white diagonal stripes. The sign has a red diagonal line. Each stripe is approximately 75mm wide. The red stripes should be retroreflective."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avec un panneau triangulaire rouge et un feu clignotant.",
+          "text_nl": "Met een rood driehoekig bord en een knipperlicht.",
+          "text_ru": "С красным треугольным знаком и мигающим светом.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Avec un panneau carré de 0,50 mètre de côté, peint en bandes alternées rouges et blanches, dont les bandes rouges sont retroréfléchissantes.",
+          "text_nl": "Met een vierkant bord van 0,50 meter zijde, geschilderd in afwisselende rode en witte strepen, waarvan de rode strepen retroreflecterend zijn.",
+          "text_ru": "С квадратным знаком со стороной 0,50 метра, окрашенным в чередующиеся красные и белые полосы, причем красные полосы должны быть светоотражающими.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avec des rubalises rouges et blanches.",
+          "text_nl": "Met rode en witte linten.",
+          "text_ru": "С красными и белыми лентами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 47.1 stipule que lorsque l'éclairage n'est pas requis, les chargements dépassant de plus d'un mètre l'extrémité arrière du véhicule sont signalés par un panneau carré de 0,50 mètre de côté, peint en bandes alternées rouges et blanches, avec les bandes rouges étant retroréfléchissantes.",
+      "explanation_nl": "Artikel 47.1 stelt dat wanneer verlichting niet vereist is, ladingen die meer dan één meter buiten het achtereinde van het voertuig uitsteken, worden gesignaleerd door een vierkant bord van 0,50 meter zijde, geschilderd in afwisselende rode en witte strepen, waarbij de rode strepen retroreflecterend zijn.",
+      "explanation_ru": "Статья 47.1 гласит, что когда освещение не требуется, грузы, выступающие более чем на метр за заднюю часть транспортного средства, должны сигнализироваться квадратным знаком со стороной 0,50 метра, окрашенным в чередующиеся красные и белые полосы, причем красные полосы должны быть светоотражающими."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles conditions un chargement dépassant de plus d'un mètre l'arrière d'un véhicule nécessite-t-il l'ajout d'un feu rouge et de catadioptres oranges, en plus du panneau de signalisation standard (selon l'article 47.2) ?",
+      "text_nl": "Onder welke voorwaarden vereist een lading die meer dan één meter buiten het achtereinde van een voertuig uitsteekt de toevoeging van een rood licht en oranje reflectoren, naast het standaard signalisatiebord (volgens artikel 47.2)?",
+      "text_ru": "При каких условиях груз, выступающий более чем на метр за заднюю часть транспортного средства, требует добавления красного света и оранжевых отражателей, в дополнение к стандартному сигнальному знаку (согласно статье 47.2)?",
+      "image": {
+        "sign_code": "Lading",
+        "generation_prompt": "A square warning sign with alternating red and white diagonal stripes. The sign has a red diagonal line. Each stripe is approximately 75mm wide. The red stripes should be retroreflective."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement si le chargement dépasse sur les côtés.",
+          "text_nl": "Alleen als de lading aan de zijkanten uitsteekt.",
+          "text_ru": "Только если груз выступает по бокам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque l'éclairage des véhicules est requis.",
+          "text_nl": "Wanneer de verlichting van de voertuigen vereist is.",
+          "text_ru": "Когда требуется освещение транспортных средств.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le chargement est particulièrement lourd.",
+          "text_nl": "Als de lading bijzonder zwaar is.",
+          "text_ru": "Если груз особенно тяжелый.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 47.2, lorsque l'éclairage des véhicules est requis, les chargements dépassant de plus d'un mètre l'extrémité arrière du véhicule doivent être signalés par le panneau carré, complété par un feu rouge orienté vers l'arrière et un catadioptre orange de chaque côté latéral.",
+      "explanation_nl": "Volgens artikel 47.2, wanneer de verlichting van de voertuigen vereist is, moeten ladingen die meer dan één meter buiten het achtereinde van het voertuig uitsteken, worden gesignaleerd door het vierkante bord, aangevuld met een naar achteren gericht rood licht en een oranje reflector aan elke zijkant.",
+      "explanation_ru": "Согласно статье 47.2, когда требуется освещение транспортных средств, грузы, выступающие более чем на метр за заднюю часть транспортного средства, должны сигнализироваться квадратным знаком, дополненным красным задним светом и оранжевым отражателем с каждой боковой стороны."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous transportez une charge qui dépasse de 1,20 mètre l'arrière de votre camionnette. Il fait nuit et l'éclairage de votre véhicule est donc requis. Quelle est la signalisation appropriée pour l'arrière de votre chargement ?",
+      "text_nl": "U vervoert een lading die 1,20 meter buiten het achtereinde van uw bestelwagen uitsteekt. Het is nacht en de verlichting van uw voertuig is daarom vereist. Wat is de juiste signalisatie voor het achtereinde van uw lading?",
+      "text_ru": "Вы перевозите груз, который выступает на 1,20 метра за заднюю часть вашего фургона. Сейчас ночь, и поэтому требуется освещение вашего транспортного средства. Какая соответствующая сигнализация необходима для задней части вашего груза?",
+      "image": {
+        "sign_code": "Lading",
+        "generation_prompt": "A square warning sign with alternating red and white diagonal stripes. The sign has a red diagonal line. Each stripe is approximately 75mm wide. The red stripes should be retroreflective."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement le panneau carré rouge et blanc.",
+          "text_nl": "Alleen het vierkante rode en witte bord.",
+          "text_ru": "Только квадратный красно-белый знак.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le panneau carré rouge et blanc, un feu rouge arrière et un catadioptre orange latéral.",
+          "text_nl": "Het vierkante rode en witte bord, een rood achterlicht en een oranje zijreflector.",
+          "text_ru": "Квадратный красно-белый знак, красный задний фонарь и оранжевый боковой отражатель.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement un feu rouge arrière.",
+          "text_nl": "Alleen een rood achterlicht.",
+          "text_ru": "Только красный задний фонарь.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 47.2, lorsque l'éclairage est requis, le chargement dépassant de plus d'un mètre doit être signalé par le panneau carré (0,50m x 0,50m, bandes alternées rouge/blanc), complété par un feu rouge orienté vers l'arrière et un catadioptre orange de chaque côté latéral.",
+      "explanation_nl": "Volgens artikel 47.2 moet, wanneer verlichting vereist is, de lading die meer dan één meter uitsteekt, worden gesignaleerd door het vierkante bord (0,50m x 0,50m, afwisselende rode/witte strepen), aangevuld met een naar achteren gericht rood licht en een oranje reflector aan elke zijkant.",
+      "explanation_ru": "Согласно статье 47.2, когда требуется освещение, груз, выступающий более чем на метр, должен сигнализироваться квадратным знаком (0,50м x 0,50м, чередующиеся красно-белые полосы), дополненным красным задним светом и оранжевым отражателем с каждой боковой стороны."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule équipé de catadioptres latéraux. Vous chargez des matériaux qui dépassent de 1,10 mètre à l'arrière de votre véhicule. La distance entre le bord extérieur du catadioptre de signalisation de la charge et le bord extérieur du catadioptre arrière de votre véhicule est de 4 mètres. Quel type de signalisation supplémentaire est requis sur la charge ?",
+      "text_nl": "U bestuurt een voertuig dat is uitgerust met zijreflectoren. U laadt materialen die 1,10 meter achter uw voertuig uitsteken. De afstand tussen de buitenrand van de signaalreflector van de lading en de buitenrand van de achterste reflector van uw voertuig is 4 meter. Welk type aanvullende signalisatie is vereist op de lading?",
+      "text_ru": "Вы управляете транспортным средством, оснащенным боковыми отражателями. Вы загружаете материалы, которые выступают на 1,10 метра сзади вашего транспортного средства. Расстояние между внешним краем сигнального отражателя груза и внешним краем заднего отражателя вашего транспортного средства составляет 4 метра. Какой тип дополнительной сигнализации требуется на грузе?",
+      "image": {
+        "sign_code": "Lading",
+        "generation_prompt": "A square warning sign with alternating red and white diagonal stripes. The sign has a red diagonal line. Each stripe is approximately 75mm wide. The red stripes should be retroreflective."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un catadioptre orange supplémentaire.",
+          "text_nl": "Een extra oranje reflector.",
+          "text_ru": "Дополнительный оранжевый отражатель.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un feu rouge clignotant.",
+          "text_nl": "Een rood knipperlicht.",
+          "text_ru": "Красный мигающий свет.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune signalisation supplémentaire n'est requise.",
+          "text_nl": "Er is geen aanvullende signalisatie vereist.",
+          "text_ru": "Дополнительная сигнализация не требуется.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 47.2, point 1°, pour les véhicules qui doivent être munis de catadioptres latéraux, un ou plusieurs catadioptres latéraux supplémentaires de couleur orange doivent être placés sur le chargement lorsque la distance entre le bord extérieur du catadioptre signalant la plus forte saillie du chargement et le bord extérieur du catadioptre le plus en arrière du véhicule est supérieure à 3 mètres. Ici, cette distance est de 4 mètres.",
+      "explanation_nl": "Volgens artikel 47.2, punt 1°, moeten bij voertuigen die moeten zijn uitgerust met zijreflectoren, één of meerdere supplementaire oranje zijreflectoren op de lading worden aangebracht wanneer de afstand tussen de buitenrand van de reflector die de grootste uitsteek van de lading signaleert en de buitenrand van de achterste reflector van het voertuig groter is dan 3 meter. Hier is deze afstand 4 meter.",
+      "explanation_ru": "Согласно статье 47.2, пункт 1°, для транспортных средств, которые должны быть оснащены боковыми отражателями, один или несколько дополнительных оранжевых боковых отражателей должны быть размещены на грузе, когда расстояние между внешним краем отражателя, сигнализирующего наибольший выступ груза, и внешним краем заднего отражателя транспортного средства превышает 3 метра. Здесь это расстояние составляет 4 метра."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre chargement dépasse latéralement du véhicule de telle sorte que son extrémité latérale se trouve à 0,50 mètre du bord extérieur de la plage éclairante du feu de position. L'éclairage du véhicule est requis. Quelle signalisation est nécessaire pour cet excès latéral ?",
+      "text_nl": "Uw lading steekt zijdelings uit het voertuig uit zodanig dat de zijdelingse rand zich op 0,50 meter van de buitenrand van het verlichte gedeelte van het parkeerlicht bevindt. De verlichting van het voertuig is vereist. Welke signalisatie is noodzakelijk voor deze zijdelingse uitsteek?",
+      "text_ru": "Ваш груз выступает сбоку от транспортного средства таким образом, что его боковой край находится на расстоянии 0,50 метра от внешнего края освещенной зоны габаритного огня. Освещение транспортного средства требуется. Какая сигнализация необходима для этого бокового выступа?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un feu blanc à l'avant et un feu rouge à l'arrière du chargement.",
+          "text_nl": "Een wit licht aan de voorzijde en een rood licht aan de achterzijde van de lading.",
+          "text_ru": "Белый свет спереди и красный свет сзади груза.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des feux d'encombrement et des catadioptres (blancs à l'avant, rouges à l'arrière).",
+          "text_nl": "Verkeringslichten en reflectoren (wit aan de voorkant, rood aan de achterkant).",
+          "text_ru": "Габаритные огни и отражатели (белые спереди, красные сзади).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement un panneau carré rouge et blanc.",
+          "text_nl": "Alleen een vierkant rood en wit bord.",
+          "text_ru": "Только квадратный красно-белый знак.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 47.3 stipule que les chargements dépassant latéralement le gabarit extérieur de telle sorte que leur extrémité latérale se trouve à plus de 0,40 mètre du bord extérieur de la plage éclairante du feu de position doivent être signalés par des feux d'encombrement et des catadioptres. Les feux et catadioptres visibles de l'avant doivent être blancs, ceux visibles de l'arrière doivent être rouges. Ici, l'extrémité latérale se trouve à 0,50 mètre, ce qui est supérieur à 0,40 mètre.",
+      "explanation_nl": "Artikel 47.3 stelt dat ladingen die zijdelings de buitenafmetingen overschrijden zodanig dat de zijdelingse rand zich op meer dan 0,40 meter van de buitenrand van het verlichte gedeelte van het parkeerlicht bevindt, moeten worden gesignaleerd door verkeringslichten en reflectoren. De van voren zichtbare lichten en reflectoren moeten wit zijn, die van achteren zichtbaar rood. Hier bevindt de zijdelingse rand zich op 0,50 meter, wat meer is dan 0,40 meter.",
+      "explanation_ru": "Статья 47.3 гласит, что грузы, выступающие сбоку за внешние габариты таким образом, что их боковой край находится на расстоянии более 0,40 метра от внешнего края освещенной зоны габаритного огня, должны сигнализироваться габаритными огнями и отражателями. Огни и отражатели, видимые спереди, должны быть белыми, а видимые сзади - красными. Здесь боковой край находится на расстоянии 0,50 метра, что превышает 0,40 метра."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "7d2a6b64591e",
@@ -54,6 +237,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:36:50Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

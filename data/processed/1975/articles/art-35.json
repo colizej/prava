@@ -56,7 +56,110 @@
   "anchor_id_fr": "cvd1rs4jws",
   "anchor_id_nl": "a9lfy5egqj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 35.1.1, jusqu'à quelle taille un enfant doit-il être transporté dans un dispositif de retenue pour enfants adapté ?",
+      "text_nl": "Volgens artikel 35.1.1, tot welke lengte moet een kind vervoerd worden in een geschikt kinderbeveiligingssysteem?",
+      "text_ru": "Согласно статье 35.1.1, до какого роста ребенок должен перевозиться в соответствующем детском удерживающем устройстве?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jusqu'à 100 cm",
+          "text_nl": "Tot 100 cm",
+          "text_ru": "До 100 см",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Jusqu'à 135 cm",
+          "text_nl": "Tot 135 cm",
+          "text_ru": "До 135 см",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Jusqu'à 150 cm",
+          "text_nl": "Tot 150 cm",
+          "text_ru": "До 150 см",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 35.1.1 stipule que les enfants de moins de 18 ans et dont la taille est inférieure à 135 cm doivent être transportés dans un dispositif de retenue pour enfants qui leur est adapté.",
+      "explanation_nl": "Artikel 35.1.1 stelt dat kinderen van minder dan 18 jaar en kleiner dan 135 cm vervoerd moeten worden in een voor hen geschikt kinderbeveiligingssysteem.",
+      "explanation_ru": "Статья 35.1.1 гласит, что дети младше 18 лет ростом менее 135 см должны перевозиться в соответствующем детском удерживающем устройстве."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles conditions un enfant de moins de 18 ans ne doit-il pas être transporté dans un dispositif de retenue pour enfants dos à la route sur un siège passager protégé par un coussin de sécurité frontal ?",
+      "text_nl": "Onder welke voorwaarden mag een kind van minder dan 18 jaar niet worden vervoerd in een naar achteren gericht kinderbeveiligingssysteem op een passagierszitplaats met een frontale airbag?",
+      "text_ru": "При каких условиях ребенок младше 18 лет не должен перевозиться в детском удерживающем устройстве, установленном против хода движения, на пассажирском сиденье, оборудованном фронтальной подушкой безопасности?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si la portière latérale est fermée.",
+          "text_nl": "Als de portier aan de zijkant gesloten is.",
+          "text_ru": "Если боковая дверь закрыта.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À moins que le coussin de sécurité frontal ait été désactivé ou soit automatiquement désactivé de manière satisfaisante.",
+          "text_nl": "Tenzij de frontale airbag is uitgeschakeld of op bevredigende wijze automatisch wordt uitgeschakeld.",
+          "text_ru": "Если только фронтальная подушка безопасности не была деактивирована или не деактивируется автоматически удовлетворительным образом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le siège est chauffant.",
+          "text_nl": "Als de stoel verwarmd is.",
+          "text_ru": "Если сиденье с подогревом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 35.1.1 précise que les enfants de moins de 18 ans ne sont pas transportés dans un dispositif de retenue pour enfants dos à la route sur un siège passager protégé par un coussin de sécurité frontal, à moins que ce coussin ait été désactivé ou qu'il soit automatiquement désactivé de manière satisfaisante.",
+      "explanation_nl": "Artikel 35.1.1 specificeert dat kinderen van minder dan 18 jaar niet mogen worden vervoerd in een naar achteren gericht kinderbeveiligingssysteem op een passagierszitplaats met een frontale airbag, tenzij deze airbag is uitgeschakeld of op bevredigende wijze automatisch wordt uitgeschakeld.",
+      "explanation_ru": "Статья 35.1.1 уточняет, что дети младше 18 лет не должны перевозиться в детском удерживающем устройстве, установленном против хода движения, на пассажирском сиденье, оборудованном фронтальной подушкой безопасности, если только эта подушка безопасности не была деактивирована или не деактивируется автоматически удовлетворительным образом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez une voiture et vous transportez votre enfant de 4 ans, qui mesure 100 cm. Le siège passager avant est équipé d'un coussin de sécurité frontal qui ne peut pas être désactivé. Où devez-vous installer votre enfant ?",
+      "text_nl": "U rijdt met de auto en vervoert uw 4-jarige kind, dat 100 cm lang is. De passagiersstoel voorin is uitgerust met een frontale airbag die niet kan worden uitgeschakeld. Waar moet u uw kind plaatsen?",
+      "text_ru": "Вы управляете автомобилем и перевозите своего 4-летнего ребенка ростом 100 см. Переднее пассажирское сиденье оборудовано фронтальной подушкой безопасности, которую нельзя отключить. Где вы должны разместить своего ребенка?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Sur le siège passager avant, car le coussin de sécurité frontal peut être désactivé.",
+          "text_nl": "Op de passagiersstoel voorin, omdat de frontale airbag kan worden uitgeschakeld.",
+          "text_ru": "На переднем пассажирском сиденье, так как фронтальную подушку безопасности можно отключить.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur le siège passager avant, car l'enfant est attaché.",
+          "text_nl": "Op de passagiersstoel voorin, omdat het kind vastzit.",
+          "text_ru": "На переднем пассажирском сиденье, так как ребенок пристегнут.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "À l'arrière du véhicule, dans un dispositif de retenue adapté, car le coussin de sécurité frontal ne peut pas être désactivé.",
+          "text_nl": "Achterin het voertuig, in een geschikt kinderbeveiligingssysteem, omdat de frontale airbag niet kan worden uitgeschakeld.",
+          "text_ru": "На заднем сиденье, в подходящем удерживающем устройстве, так как фронтальную подушку безопасности нельзя отключить.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 35.1.1 stipule que les enfants de moins de 18 ans ne sont pas transportés dans un dispositif de retenue pour enfants dos à la route sur un siège passager protégé par un coussin de sécurité frontal, à moins que ce coussin ait été désactivé ou qu'il soit automatiquement désactivé de manière satisfaisante. Comme le coussin ne peut pas être désactivé, l'enfant doit être placé à l'arrière.",
+      "explanation_nl": "Artikel 35.1.1 stelt dat kinderen van minder dan 18 jaar niet mogen worden vervoerd in een naar achteren gericht kinderbeveiligingssysteem op een passagierszitplaats met een frontale airbag, tenzij deze airbag is uitgeschakeld of op bevredigende wijze automatisch wordt uitgeschakeld. Aangezien de airbag niet kan worden uitgeschakeld, moet het kind achterin worden geplaatst.",
+      "explanation_ru": "Статья 35.1.1 гласит, что дети младше 18 лет не должны перевозиться в детском удерживающем устройстве, установленном против хода движения, на пассажирском сиденье, оборудованном фронтальной подушкой безопасности, если только эта подушка безопасности не была деактивирована или не деактивируется автоматически удовлетворительным образом. Поскольку подушку безопасности нельзя отключить, ребенка следует разместить сзади."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "aef858000df4",
@@ -66,6 +169,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:52:17Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 3
   }
 }

@@ -26,7 +26,178 @@
   "anchor_id_fr": "obtsuzmbao",
   "anchor_id_nl": "pygoamwi5u",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 53.1, combien d'animaux au maximum peuvent être attelés en file sur un véhicule ?",
+      "text_nl": "Volgens artikel 53.1, hoeveel dieren mogen er maximaal achter elkaar gespannen zijn voor een voertuig?",
+      "text_ru": "Согласно статье 53.1, сколько животных максимум может быть запряжено в ряд на транспортном средстве?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Trois",
+          "text_nl": "Drie",
+          "text_ru": "Три",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Quatre",
+          "text_nl": "Vier",
+          "text_ru": "Четыре",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cinq",
+          "text_nl": "Vijf",
+          "text_ru": "Пять",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 53.1 stipule qu'un attelage ne peut comporter plus de quatre animaux en file.",
+      "explanation_nl": "Artikel 53.1 stelt dat een span niet meer dan vier dieren achter elkaar mag bevatten.",
+      "explanation_ru": "Статья 53.1 гласит, что в упряжке может быть не более четырех животных в ряд."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la condition mentionnée dans l'article 53.3 pour qu'un convoyeur supplémentaire soit obligatoire, en plus du conducteur, pour un véhicule attelé ?",
+      "text_nl": "Wat is de voorwaarde genoemd in artikel 53.3 waaronder een extra begeleider verplicht is, naast de bestuurder, voor een gespan?",
+      "text_ru": "Каково условие, упомянутое в статье 53.3, при котором дополнительный сопровождающий становится обязательным, помимо водителя, для запряженного транспортного средства?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque le véhicule remorque un autre véhicule de plus de 16 mètres.",
+          "text_nl": "Wanneer het voertuig meer dan 16 meter sleept.",
+          "text_ru": "Когда транспортное средство буксирует более 16 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque la longueur du chargement dépasse 12 mètres.",
+          "text_nl": "Wanneer de lading langer is dan 12 meter.",
+          "text_ru": "Когда длина груза превышает 12 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dès que le nombre d'animaux est supérieur à cinq.",
+          "text_nl": "Zodra het aantal dieren groter is dan vijf.",
+          "text_ru": "Как только количество животных превышает пять.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 53.3 stipule qu'un convoyeur supplémentaire doit être adjoint au conducteur dès que le nombre des animaux est supérieur à cinq.",
+      "explanation_nl": "Artikel 53.3 stelt dat een extra begeleider aan de bestuurder moet worden toegevoegd zodra het aantal dieren groter is dan vijf.",
+      "explanation_ru": "Статья 53.3 гласит, что дополнительный сопровождающий должен быть прикреплен к водителю, как только количество животных превысит пять."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule attelé avec 6 chevaux. Le train de véhicules mesure 10 mètres de long. Combien de convoyeurs devez-vous avoir avec vous, en plus du conducteur ?",
+      "text_nl": "U bestuurt een gespan met 6 paarden. De trein van voertuigen is 10 meter lang. Hoeveel begeleiders moet u bij u hebben, naast de bestuurder?",
+      "text_ru": "Вы управляете запряженным транспортным средством с 6 лошадьми. Длина транспортного состава составляет 10 метров. Сколько сопровождающих вы должны иметь при себе, помимо водителя?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un seul convoyeur, car la longueur ne dépasse pas 16 mètres.",
+          "text_nl": "Slechts één begeleider, aangezien de lengte niet meer dan 16 meter bedraagt.",
+          "text_ru": "Только один сопровождающий, так как длина не превышает 16 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Deux convoyeurs : un pour le nombre d'animaux et un pour la longueur.",
+          "text_nl": "Twee begeleiders: één voor het aantal dieren en één voor de lengte.",
+          "text_ru": "Два сопровождающих: один для количества животных и один для длины.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Deux convoyeurs : un obligatoire car il y a plus de 5 animaux, et un supplémentaire si le train dépasse 16m (ce qui n'est pas le cas ici, mais le premier reste obligatoire).",
+          "text_nl": "Twee begeleiders: één verplicht omdat er meer dan 5 dieren zijn, en één extra als de trein langer is dan 16 meter (wat hier niet het geval is, maar de eerste blijft verplicht).",
+          "text_ru": "Два сопровождающих: один обязателен, так как имеется более 5 животных, и один дополнительный, если состав превышает 16 метров (чего здесь нет, но первый остается обязательным).",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Selon l'article 53.3, un convoyeur supplémentaire est requis dès que le nombre d'animaux dépasse cinq. Ici, il y a 6 chevaux, donc un convoyeur est obligatoire. L'article 53.4 stipule qu'un convoyeur doit accompagner le second véhicule si le train dépasse 16 mètres, ce qui n'est pas le cas ici. Donc, seul un convoyeur est nécessaire en plus du conducteur.",
+      "explanation_nl": "Volgens artikel 53.3 is een extra begeleider vereist zodra het aantal dieren vijf overschrijdt. Hier zijn er 6 paarden, dus een begeleider is verplicht. Artikel 53.4 stelt dat een begeleider het tweede voertuig moet vergezellen als de trein langer is dan 16 meter, wat hier niet het geval is. Dus is slechts één begeleider nodig naast de bestuurder.",
+      "explanation_ru": "Согласно статье 53.3, дополнительный сопровождающий требуется, как только количество животных превысит пять. Здесь 6 лошадей, поэтому один сопровождающий обязателен. Статья 53.4 гласит, что сопровождающий должен сопровождать второе транспортное средство, если состав превышает 16 метров, чего здесь нет. Таким образом, помимо водителя необходим только один сопровождающий."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule attelé qui remorque un autre véhicule. La longueur totale du train, timon non compris, est de 18 mètres. De combien de convoyeurs avez-vous besoin au minimum, en plus du conducteur ?",
+      "text_nl": "U bestuurt een gespan dat een ander voertuig sleept. De totale lengte van de trein, de dissel niet meegerekend, is 18 meter. Hoeveel begeleiders heeft u minimaal nodig, naast de bestuurder?",
+      "text_ru": "Вы управляете запряженным транспортным средством, которое буксирует другое транспортное средство. Общая длина состава, не считая дышла, составляет 18 метров. Сколько сопровождающих вам понадобится минимум, помимо водителя?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un seul convoyeur, car il s'agit du premier véhicule qui remorque.",
+          "text_nl": "Slechts één begeleider, aangezien dit het eerste trekkende voertuig is.",
+          "text_ru": "Только один сопровождающий, так как это первое буксирующее транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Deux convoyeurs : un pour le nombre d'animaux (si plus de 5) et un pour la longueur du train.",
+          "text_nl": "Twee begeleiders: één voor het aantal dieren (indien meer dan 5) en één voor de lengte van de trein.",
+          "text_ru": "Два сопровождающих: один для количества животных (если более 5) и один для длины состава.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Deux convoyeurs : un est obligatoire car le train dépasse 16 mètres (article 53.4), et un autre pourrait être nécessaire selon le nombre d'animaux (article 53.3).",
+          "text_nl": "Twee begeleiders: één is verplicht omdat de trein langer is dan 16 meter (artikel 53.4), en een andere kan nodig zijn afhankelijk van het aantal dieren (artikel 53.3).",
+          "text_ru": "Два сопровождающих: один обязателен, так как состав превышает 16 метров (статья 53.4), и другой может потребоваться в зависимости от количества животных (статья 53.3).",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 53.4 stipule que si la longueur du train dépasse 16 mètres (timon non compris), un convoyeur doit accompagner le second véhicule. De plus, l'article 53.3 mentionne qu'un convoyeur est requis si le nombre d'animaux est supérieur à cinq. Sans connaître le nombre d'animaux, on peut affirmer qu'au moins un convoyeur est nécessaire en raison de la longueur. S'il y a plus de 5 animaux, un deuxième serait aussi nécessaire. La question demande le minimum, donc au moins 1 convoyeur pour la longueur. Cependant, si on considère les deux articles, il pourrait être nécessaire d'en avoir deux. L'option C est la plus prudente et couvre les deux possibilités requérant un convoyeur.",
+      "explanation_nl": "Artikel 53.4 stelt dat als de lengte van de trein meer dan 16 meter is (dissel niet meegerekend), een begeleider het tweede voertuig moet vergezellen. Bovendien vermeldt artikel 53.3 dat een begeleider vereist is als het aantal dieren groter is dan vijf. Zonder het aantal dieren te kennen, kan men stellen dat ten minste één begeleider nodig is vanwege de lengte. Als er meer dan 5 dieren zijn, zou een tweede ook nodig zijn. De vraag vraagt naar het minimum, dus ten minste 1 begeleider voor de lengte. Echter, als we beide artikelen overwegen, kan het nodig zijn er twee te hebben. Optie C is het meest voorzichtig en dekt beide mogelijkheden die een begeleider vereisen.",
+      "explanation_ru": "Статья 53.4 гласит, что если длина состава превышает 16 метров (не считая дышла), сопровождающий должен сопровождать второе транспортное средство. Кроме того, статья 53.3 упоминает, что сопровождающий требуется, если количество животных превышает пять. Не зная количества животных, можно утверждать, что по крайней мере один сопровождающий необходим из-за длины. Если животных более 5, потребуется и второй. Вопрос спрашивает о минимуме, поэтому по крайней мере 1 сопровождающий для длины. Однако, если рассматривать обе статьи, может потребоваться два. Вариант C является наиболее осторожным и охватывает обе возможности, требующие сопровождающего."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un triqueballe dont le chargement mesure 14 mètres de long. Devez-vous avoir un convoyeur supplémentaire qui suit le chargement à pied ?",
+      "text_nl": "U bestuurt een mallejan waarvan de lading 14 meter lang is. Moet u een extra begeleider hebben die te voet achter de lading volgt?",
+      "text_ru": "Вы управляете телегой (triqueballe), длина груза которой составляет 14 метров. Должен ли у вас быть дополнительный сопровождающий, который следует за грузом пешком?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car la longueur ne dépasse que de 2 mètres la limite autorisée.",
+          "text_nl": "Nee, want de lengte overschrijdt de toegestane limiet slechts met 2 meter.",
+          "text_ru": "Нет, так как длина превышает разрешенный предел всего на 2 метра.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car l'article 53.5 stipule qu'un convoyeur doit suivre à pied si la longueur du chargement dépasse 12 mètres.",
+          "text_nl": "Ja, want artikel 53.5 stelt dat een begeleider te voet moet volgen als de lading langer is dan 12 meter.",
+          "text_ru": "Да, так как статья 53.5 гласит, что сопровождающий должен следовать пешком, если длина груза превышает 12 метров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend du nombre d'animaux attelés.",
+          "text_nl": "Dit hangt af van het aantal aangespannen dieren.",
+          "text_ru": "Это зависит от количества запряженных животных.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 53.5 stipule explicitement que lorsque la longueur du chargement d'un triqueballe dépasse 12 mètres, un convoyeur doit suivre à pied le chargement. Ici, la longueur est de 14 mètres, donc un convoyeur est nécessaire.",
+      "explanation_nl": "Artikel 53.5 stelt expliciet dat wanneer de lading van een mallejan langer is dan 12 meter, een begeleider te voet de lading moet volgen. Hier is de lengte 14 meter, dus een begeleider is noodzakelijk.",
+      "explanation_ru": "Статья 53.5 явно гласит, что когда длина груза телеги (triqueballe) превышает 12 метров, сопровождающий должен следовать за грузом пешком. Здесь длина составляет 14 метров, поэтому сопровождающий необходим."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "071d58b40a7b",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:39:22Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

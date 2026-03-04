@@ -35,7 +35,7 @@
 
         {# Stats #}
         <div class="md:col-span-2 space-y-6">
-            <div class="grid grid-cols-3 gap-4">
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
                 <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 text-center">
                     <div class="text-2xl font-bold text-blue-600">{{ stats.total_tests|default:0 }}</div>
                     <div class="text-xs text-gray-500">Tests</div>
@@ -48,6 +48,11 @@
                     <div class="text-2xl font-bold text-purple-600">{{ profile.total_questions_answered }}</div>
                     <div class="text-xs text-gray-500">Questions</div>
                 </div>
+                <a href="{% url 'examens:my_list' %}"
+                   class="bg-orange-50 border border-orange-100 p-4 rounded-xl shadow-sm text-center hover:bg-orange-100 transition">
+                    <div class="text-2xl font-bold text-orange-500">{{ saved_total|default:0 }}</div>
+                    <div class="text-xs text-orange-600 font-medium">À revoir</div>
+                </a>
             </div>
 
             {# Quota #}
@@ -86,6 +91,70 @@
                 </div>
             </div>
             {% endif %}
+
+            {# ── Mes révisions ── #}
+            {% if study_lists %}
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="flex items-center justify-between p-4 border-b">
+                    <h3 class="font-semibold text-sm text-gray-700">
+                        📌 Mes révisions
+                        {% if saved_total %}
+                        <span class="ml-2 text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">{{ saved_total }} question{{ saved_total|pluralize:"s" }}</span>
+                        {% endif %}
+                    </h3>
+                    <a href="{% url 'examens:my_list' %}" class="text-xs text-blue-600 hover:underline">Voir tout →</a>
+                </div>
+
+                {# Per-list rows #}
+                <div class="divide-y">
+                    {% for lst in study_lists %}
+                    <div class="flex items-center gap-3 px-4 py-3">
+                        <span class="text-xl shrink-0">{{ lst.icon }}</span>
+                        <div class="flex-1 min-w-0">
+                            <p class="text-sm font-medium text-gray-800">{{ lst.name }}</p>
+                            {% if lst.description %}<p class="text-xs text-gray-400">{{ lst.description }}</p>{% endif %}
+                        </div>
+                        <span class="text-sm font-bold text-gray-700 shrink-0">{{ lst.user_count }}</span>
+                        <div class="flex gap-1.5 shrink-0">
+                            <a href="{% url 'examens:my_list_slug' lst.slug %}"
+                               class="px-3 py-1.5 text-xs font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-lg transition">
+                                Liste
+                            </a>
+                            {% if lst.user_count %}
+                            <a href="{% url 'examens:practice_saved_slug' lst.slug %}"
+                               class="px-3 py-1.5 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition">
+                                ▶ Pratiquer
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                {# Category breakdown #}
+                {% if saved_by_category %}
+                <div class="px-4 py-3 bg-gray-50 border-t">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Thèmes sauvegardés</p>
+                    <div class="flex flex-wrap gap-2">
+                        {% for row in saved_by_category %}
+                        <span class="inline-flex items-center gap-1 text-xs bg-white border border-gray-200 text-gray-700 px-2.5 py-1 rounded-full shadow-sm">
+                            {% if row.category__icon %}{{ row.category__icon }}{% endif %}
+                            {{ row.category__name|default:"Sans catégorie" }}
+                            <span class="font-bold text-blue-600">{{ row.cnt }}</span>
+                        </span>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if not saved_total %}
+                <div class="px-4 py-5 text-center text-gray-400 text-sm">
+                    Aucune question sauvegardée. Après un test, utilisez 🔖 pour marquer les questions difficiles.
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+
         </div>
     </div>
 </div>

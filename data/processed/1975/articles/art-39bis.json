@@ -32,7 +32,193 @@
   "anchor_id_fr": "nkvw7bn1rs",
   "anchor_id_nl": "vds1t7fcyr",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel panneau signale un véhicule affecté au transport scolaire selon l'article 39bis1 ?",
+      "text_nl": "Welk bord signaleert een voertuig dat bestemd is voor schoolvervoer volgens artikel 39bis1?",
+      "text_ru": "Какой знак обозначает транспортное средство, предназначенное для школьных перевозок, согласно статье 39bis1?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A yellow square sign with a black border, depicting a silhouette of a school bus."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un panneau triangulaire de danger.",
+          "text_nl": "Een driehoekig gevaarteken.",
+          "text_ru": "Треугольный знак опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un panneau carré jaune avec un bord noir et la silhouette d'un bus scolaire.",
+          "text_nl": "Een geel vierkant bord met een zwarte rand en de silhouet van een schoolbus.",
+          "text_ru": "Желтый квадратный знак с черной каймой и силуэтом школьного автобуса.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un panneau rond bleu avec un symbole blanc.",
+          "text_nl": "Een rond blauw bord met een wit symbool.",
+          "text_ru": "Круглый синий знак с белым символом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 39bis1 spécifie que les véhicules affectés au transport scolaire sont signalés par un panneau carré jaune avec un bord noir, représentant la silhouette d'un bus scolaire.",
+      "explanation_nl": "Artikel 39bis1 specificeert dat voertuigen voor schoolvervoer worden gesignaleerd door een geel vierkant bord met een zwarte rand, waarop de silhouet van een schoolbus staat.",
+      "explanation_ru": "Статья 39bis1 уточняет, что транспортные средства, предназначенные для школьных перевозок, обозначаются желтым квадратным знаком с черной каймой, изображающим силуэт школьного автобуса."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'article 39bis1, quand le panneau signalant un véhicule de transport scolaire doit-il être enlevé ou masqué ?",
+      "text_nl": "Volgens artikel 39bis1, wanneer moet het bord dat een schoolvervoersvoertuig signaleert, verwijderd of afgedekt worden?",
+      "text_ru": "Согласно статье 39bis1, когда должен быть снят или закрыт знак, обозначающий школьный автобус?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A yellow square sign with a black border, depicting a silhouette of a school bus."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement pendant la nuit.",
+          "text_nl": "Enkel 's nachts.",
+          "text_ru": "Только ночью.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque le véhicule n'est pas affecté aux transports scolaires.",
+          "text_nl": "Wanneer het voertuig niet gebruikt wordt voor schoolvervoer.",
+          "text_ru": "Когда транспортное средство не используется для школьных перевозок.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsqu'il pleut.",
+          "text_nl": "Wanneer het regent.",
+          "text_ru": "Когда идет дождь.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 39bis1 stipule que le panneau doit être enlevé ou masqué lorsque le véhicule n'est pas utilisé pour le transport scolaire.",
+      "explanation_nl": "Artikel 39bis1 bepaalt dat het bord moet worden verwijderd of afgedekt wanneer het voertuig niet wordt gebruikt voor schoolvervoer.",
+      "explanation_ru": "Статья 39bis1 гласит, что знак должен быть снят или закрыт, когда транспортное средство не используется для школьных перевозок."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un véhicule signalé comme transport scolaire. Le conducteur de ce véhicule actionne tous ses feux indicateurs de direction simultanément. Que devez-vous faire ?",
+      "text_nl": "U nadert een voertuig dat als schoolvervoer is gesignaleerd. De bestuurder van dit voertuig activeert al zijn richtingaanwijzers tegelijkertijd. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к транспортному средству, обозначенному как школьный автобус. Водитель этого транспортного средства одновременно включает все свои указатели поворота. Что вы должны сделать?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A yellow square sign with a black border, depicting a silhouette of a school bus."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour le dépasser rapidement.",
+          "text_nl": "Versnellen om het snel in te halen.",
+          "text_ru": "Ускориться, чтобы быстро обогнать его.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir fortement et, si nécessaire, vous arrêter.",
+          "text_nl": "Sterk vertragen en indien nodig stoppen.",
+          "text_ru": "Сильно замедлиться и, при необходимости, остановиться.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer à allure normale car les feux indiquent seulement une intention.",
+          "text_nl": "Doorrijden met normale snelheid, omdat de lichten slechts een intentie aangeven.",
+          "text_ru": "Продолжать движение с обычной скоростью, так как огни только указывают на намерение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 39bis2 stipule que les conducteurs doivent ralentir fortement et, au besoin, s'arrêter lorsque le conducteur du véhicule de transport scolaire fait fonctionner tous ses feux indicateurs de direction, signifiant que les enfants vont embarquer ou débarquer.",
+      "explanation_nl": "Artikel 39bis2 bepaalt dat bestuurders sterk moeten vertragen en, indien nodig, moeten stoppen wanneer de bestuurder van het schoolvervoersvoertuig al zijn richtingaanwijzers laat werken, wat betekent dat kinderen gaan in- of uitstappen.",
+      "explanation_ru": "Статья 39bis2 гласит, что водители должны сильно замедлиться и, при необходимости, остановиться, когда водитель школьного автобуса включает все свои указатели поворота, что означает, что дети собираются садиться или выходить."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes dans une zone résidentielle et voyez un bus jaune avec le panneau F5 (transport scolaire) à l'arrêt. Vous ne voyez pas d'enfants autour. Le conducteur n'a pas ses feux de détresse allumés. Devez-vous vous arrêter ?",
+      "text_nl": "U bevindt zich in een woonwijk en ziet een gele bus met het F5-bord (schoolvervoer) aan de kant staan. U ziet geen kinderen in de buurt. De bestuurder heeft zijn alarmlichten niet aan. Moet u stoppen?",
+      "text_ru": "Вы находитесь в жилом районе и видите желтый автобус со знаком F5 (школьный автобус), стоящий на остановке. Вы не видите рядом детей. Водитель не включает аварийные огни. Должны ли вы остановиться?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A yellow square sign with a black border, depicting a silhouette of a school bus."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, toujours, par mesure de sécurité.",
+          "text_nl": "Ja, altijd, uit voorzorg.",
+          "text_ru": "Да, всегда, в качестве меры предосторожности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, seulement si les feux indicateurs de direction sont activés.",
+          "text_nl": "Nee, alleen als de richtingaanwijzers zijn geactiveerd.",
+          "text_ru": "Нет, только если включены указатели поворота.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car il y a un risque potentiel d'enfants traversant la rue.",
+          "text_nl": "Ja, omdat er een potentieel risico is op overstekende kinderen.",
+          "text_ru": "Да, потому что существует потенциальный риск перехода улицы детьми.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 39bis2, l'obligation de ralentir fortement et de s'arrêter s'applique spécifiquement lorsque le conducteur du véhicule de transport scolaire actionne tous ses feux indicateurs de direction pour signaler l'embarquement ou le débarquement des enfants. Si ces feux ne sont pas activés et qu'aucun enfant n'est visible, la prudence reste de mise, mais l'arrêt n'est pas une obligation stricte dans cette situation précise.",
+      "explanation_nl": "Volgens artikel 39bis2 geldt de verplichting om sterk te vertragen en te stoppen specifiek wanneer de bestuurder van het schoolvervoersvoertuig al zijn richtingaanwijzers laat werken om het in- of uitstappen van kinderen te signaleren. Als deze lichten niet zijn geactiveerd en er zijn geen kinderen zichtbaar, blijft voorzichtigheid geboden, maar stoppen is in deze specifieke situatie geen strikte verplichting.",
+      "explanation_ru": "Согласно статье 39bis2, обязанность сильно замедлиться и остановиться применяется конкретно, когда водитель школьного автобуса включает все свои указатели поворота, чтобы сигнализировать о посадке или высадке детей. Если эти огни не включены и детей не видно, осторожность по-прежнему необходима, но остановка не является строгим обязательством в этой конкретной ситуации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous doublez un bus scolaire qui vient de déposer des enfants. Son panneau signalétique est en place. Le conducteur allume subitement ses feux de détresse en même temps que ses indicateurs de direction pour tourner à droite. Quelle est votre réaction appropriée ?",
+      "text_nl": "U haalt een schoolbus in die net kinderen heeft afgezet. Het signaleringsbord is aanwezig. De bestuurder schakelt plotseling zijn alarmlichten in, samen met zijn richtingaanwijzers om naar rechts af te slaan. Wat is uw passende reactie?",
+      "text_ru": "Вы обгоняете школьный автобус, который только что высадил детей. Его сигнальный знак установлен. Водитель внезапно включает аварийные огни одновременно с указателями поворота, чтобы повернуть направо. Какова ваша соответствующая реакция?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A yellow square sign with a black border, depicting a silhouette of a school bus."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer le dépassement car le bus signale une intention de tourner, pas un arrêt pour embarquer/débarquer.",
+          "text_nl": "Ga door met de inhaalmanoeuvre, omdat de bus een afslagintentie signaleert, geen stop voor in-/uitstappen.",
+          "text_ru": "Продолжать обгон, так как автобус сигнализирует о намерении повернуть, а не об остановке для посадки/высадки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter immédiatement car le conducteur active ses feux indicateurs de direction.",
+          "text_nl": "Onmiddellijk stoppen, omdat de bestuurder zijn richtingaanwijzers activeert.",
+          "text_ru": "Немедленно остановиться, так как водитель включает указатели поворота.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour signaler votre présence.",
+          "text_nl": "Claxonneren om uw aanwezigheid te signaleren.",
+          "text_ru": "Посигналить, чтобы обозначить свое присутствие.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 39bis2 demande de ralentir fortement et, si nécessaire, de s'arrêter lorsque le conducteur du véhicule signalé fait fonctionner tous les feux indicateurs de direction, signifiant que les enfants vont embarquer ou débarquer. Même si le bus tourne, l'activation simultanée des indicateurs de direction, surtout après un arrêt pour déposer des enfants, implique une prudence extrême et potentiellement un arrêt pour laisser passer les enfants ou pour se conformer à la règle générale de prudence accrue près d'un transport scolaire.",
+      "explanation_nl": "Artikel 39bis2 vraagt om sterk te vertragen en, indien nodig, te stoppen wanneer de bestuurder van het gesignaleerde voertuig alle richtingaanwijzers laat werken, wat betekent dat kinderen gaan in- of uitstappen. Zelfs als de bus afslaat, impliceert de gelijktijdige activering van de richtingaanwijzers, vooral na een stop om kinderen af te zetten, extreme voorzichtigheid en potentieel een stop om kinderen te laten passeren of om te voldoen aan de algemene regel van verhoogde voorzichtigheid in de buurt van schoolvervoer.",
+      "explanation_ru": "Статья 39bis2 требует сильного замедления и, при необходимости, остановки, когда водитель обозначенного транспортного средства включает все указатели поворота, сигнализируя о посадке или высадке детей. Даже если автобус поворачивает, одновременное включение указателей поворота, особенно после остановки для высадки детей, подразумевает крайнюю осторожность и потенциально остановку, чтобы пропустить детей или соблюсти общее правило повышенной осторожности вблизи школьного транспорта."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "64e1a5f8877e",
@@ -42,6 +228,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:53:44Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

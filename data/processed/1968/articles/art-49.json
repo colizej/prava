@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "49",
+  "slug": "art-49",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 49",
+  "title_nl": "Artikel 49",
+  "title_ru": "Статья 49",
+  "content_md_fr": "Celui qui a sciemment confié un véhicule à moteur, en vue de la conduite ou en vue de l'accompagnement pour l'apprentissage, à une personne déchue du droit de conduire, est puni d'une amende de **100 euros à 1000 euros**.\n\nCette disposition ne s'applique pas au membre du personnel d'une école de conduite agréée qui accompagne un élève régulièrement inscrit qui se prépare à l'examen pratique imposé en vertu des articles 23, 2°, ou 38.",
+  "content_md_nl": "Hij die wetens een motorvoertuig voor het besturen of voor de begeleiding met het oog op de scholing, toevertrouwt aan een persoon die van het recht tot sturen vervallen is verklaard, wordt gestraft met een geldboete van **100 euro tot 1 000 euro**.\n\nDeze bepaling is niet van toepassing op het personeelslid van een erkende rijschool die een regelmatig ingeschreven leerling begeleidt die zich voorbereidt op het praktisch examen opgelegd krachtens de artikelen 23, 2°, of 38.",
+  "content_md_ru": "Любое лицо, сознательно передающее транспортное средство лицу, лишенному права управления, с целью управления или сопровождения его на стажировке, наказывается штрафом в размере от 100 до 1 000 евро**.\n\nЭто положение не распространяется на сотрудника утвержденной автошколы, который сопровождает регулярно обучающегося ученика, готовящегося к сдаче практического экзамена, предусмотренного статьями 23, 2° или 38.",
+  "content_html_fr": "<p>Celui qui a sciemment confié un véhicule à moteur, en vue de la conduite ou en vue de l'accompagnement pour l'apprentissage, à une personne déchue du droit de conduire, est puni d'une amende de <strong>100 euros à 1000 euros</strong>.</p><p>Cette disposition ne s'applique pas au membre du personnel d'une école de conduite agréée qui accompagne un élève régulièrement inscrit qui se prépare à l'examen pratique imposé en vertu des articles 23, 2°, ou 38.</p>",
+  "content_html_nl": "<p>Hij die wetens een motorvoertuig voor het besturen of voor de begeleiding met het oog op de scholing, toevertrouwt aan een persoon die van het recht tot sturen vervallen is verklaard, wordt gestraft met een geldboete van <strong>100 euro tot 1 000 euro</strong>.</p><p>Deze bepaling is niet van toepassing op het personeelslid van een erkende rijschool die een regelmatig ingeschreven leerling begeleidt die zich voorbereidt op het praktisch examen opgelegd krachtens de artikelen 23, 2°, of 38.</p>",
+  "full_text_fr": "Celui qui a sciemment confié un véhicule à moteur, en vue de la conduite ou en vue de l'accompagnement pour l'apprentissage, à une personne déchue du droit de conduire, est puni d'une amende de 100 euros à 1000 euros.\n\nCette disposition ne s'applique pas au membre du personnel d'une école de conduite agréée qui accompagne un élève régulièrement inscrit qui se prépare à l'examen pratique imposé en vertu des articles 23, 2°, ou 38.",
+  "full_text_nl": "Hij die wetens een motorvoertuig voor het besturen of voor de begeleiding met het oog op de scholing, toevertrouwt aan een persoon die van het recht tot sturen vervallen is verklaard, wordt gestraft met een geldboete van 100 euro tot 1 000 euro.\n\nDeze bepaling is niet van toepassing op het personeelslid van een erkende rijschool die een regelmatig ingeschreven leerling begeleidt die zich voorbereidt op het praktisch examen opgelegd krachtens de artikelen 23, 2°, of 38.",
+  "full_text_ru": "Любое лицо, сознательно передающее транспортное средство лицу, лишенному права управления, с целью управления или сопровождения его на стажировке, наказывается штрафом в размере от 100 до 1 000 евро.\n\nЭто положение не распространяется на сотрудника утвержденной автошколы, который сопровождает регулярно обучающегося ученика, готовящегося к сдаче практического экзамена, предусмотренного статьями 23, 2° или 38.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "z7snz4iocn",
+  "anchor_id_nl": "uai4fcmd87",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "41972701cdbd",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

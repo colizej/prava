@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "2",
+  "slug": "art-2",
+  "structure": {
+    "titre": "I",
+    "chapitre": "II"
+  },
+  "title_fr": "Article 2",
+  "title_nl": "Artikel 2",
+  "title_ru": "Статья 2",
+  "content_md_fr": "(Abrogé)",
+  "content_md_nl": "(Opgeheven)",
+  "content_md_ru": "(Отменено)",
+  "content_html_fr": "<p>(Abrogé)</p>",
+  "content_html_nl": "<p>(Opgeheven)</p>",
+  "full_text_fr": "(Abrogé)",
+  "full_text_nl": "(Opgeheven)",
+  "full_text_ru": "(Отменено)",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "hbhtu0mftq",
+  "anchor_id_nl": "awtsyipz49",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "e8d06fee56b6",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

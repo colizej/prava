@@ -49,6 +49,7 @@
           <th class="px-4 py-3 text-left">Question (FR)</th>
           <th class="px-4 py-3 text-left">Catégorie</th>
           <th class="px-4 py-3 text-left">Article</th>
+          <th class="px-4 py-3 text-center" title="Image / panneau">🖼</th>
           <th class="px-4 py-3 text-center">Diff.</th>
           <th class="px-4 py-3 text-center">Options</th>
           <th class="px-4 py-3 text-center">Actif</th>
@@ -71,6 +72,13 @@
           <td class="px-4 py-3 text-gray-400 text-xs font-mono">
             {% if q.code_article %}{{ q.code_article.article_number }}{% else %}—{% endif %}
           </td>
+          <td class="px-4 py-3 text-center text-base leading-none">
+            {% if q.traffic_sign %}<span title="Panneau {{ q.traffic_sign.code }}">🚦</span>
+            {% elif q.image_sign_code %}<span title="Panneau {{ q.image_sign_code }}">🚦</span>
+            {% elif q.image_prompt %}<span title="{{ q.image_prompt|truncatechars:60 }}">🖼️</span>
+            {% elif q.image %}<span title="Image uploadée">📷</span>
+            {% else %}<span class="text-gray-200">—</span>{% endif %}
+          </td>
           <td class="px-4 py-3 text-center">
             {% if q.difficulty == 1 %}<span class="text-green-500 font-bold text-xs">Facile</span>
             {% elif q.difficulty == 2 %}<span class="text-yellow-500 font-bold text-xs">Moyen</span>
@@ -87,7 +95,7 @@
             </button>
           </td>
           <td class="px-4 py-3 text-right">
-            <div class="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="flex items-center justify-end gap-2">
               <a href="{% url 'dashboard:question_edit' q.pk %}"
                  class="text-xs text-blue-600 hover:underline">Modifier</a>
               <a href="{% url 'dashboard:question_delete' q.pk %}"
@@ -98,7 +106,7 @@
         </tr>
         {% empty %}
         <tr>
-          <td colspan="8" class="px-4 py-12 text-center text-gray-400">
+          <td colspan="9" class="px-4 py-12 text-center text-gray-400">
             Aucune question trouvée.
             {% if not form.search.value and not form.category.value %}
               <a href="{% url 'dashboard:index' %}" class="text-blue-600 hover:underline">Lancer l'import ?</a>

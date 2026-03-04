@@ -34,7 +34,178 @@
   "anchor_id_fr": "papeerxoaw",
   "anchor_id_nl": "gvxzlg65fx",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 43ter, quelle est la largeur maximale qu'un groupe de motocyclistes peut occuper sur une chaussée non divisée en bandes de circulation, si le croisement est possible ?",
+      "text_nl": "Volgens artikel 43ter, wat is de maximale breedte die een groep motorrijders mag innemen op een rijbaan die niet in rijstroken is verdeeld, als het kruisen mogelijk is?",
+      "text_ru": "Согласно статье 43тер, какова максимальная ширина, которую может занимать группа мотоциклистов на дороге, не разделенной на полосы движения, если обгон возможен?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La moitié de la chaussée.",
+          "text_nl": "De helft van de rijbaan.",
+          "text_ru": "Половина проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La largeur d'une seule file indienne.",
+          "text_nl": "De breedte van een enkele rij.",
+          "text_ru": "Ширина одного ряда.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Trois quarts de la chaussée.",
+          "text_nl": "Driekwart van de rijbaan.",
+          "text_ru": "Три четверти проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43ter.1 stipule que si la chaussée n'est pas divisée en bandes de circulation, les motocyclistes ne peuvent en aucun cas dépasser une largeur égale à la moitié de la chaussée.",
+      "explanation_nl": "Artikel 43ter.1 stelt dat wanneer de rijbaan niet verdeeld is in rijstroken, de motorrijders niet meer dan de helft van de rijbaan in beslag mogen nemen.",
+      "explanation_ru": "Статья 43тер.1 гласит, что если дорога не разделена на полосы движения, мотоциклисты ни в коем случае не должны занимать ширину, превышающую половину дороги."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelles sont les conditions requises pour qu'un 'capitaine de route' puisse immobiliser la circulation dans les voies transversales ?",
+      "text_nl": "Wat zijn de vereisten om een 'wegkapitein' het verkeer in de dwarswegen te laten stilleggen?",
+      "text_ru": "Каковы условия для того, чтобы «дорожный капитан» мог остановить движение на поперечных дорогах?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit être âgé de 18 ans au moins et porter un gilet fluo.",
+          "text_nl": "Hij moet minstens 18 jaar oud zijn en een fluo vest dragen.",
+          "text_ru": "Он должен быть не моложе 18 лет и носить флуоресцентный жилет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit être âgé de 25 ans au moins et porter un vêtement rétro-réfléchissant avec la mention 'capitaine de route'.",
+          "text_nl": "Hij moet minstens 25 jaar oud zijn en een retro-reflecterend kledingstuk dragen met de vermelding 'wegkapitein'.",
+          "text_ru": "Он должен быть не моложе 25 лет и носить светоотражающую одежду с надписью «дорожный капитан».",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit avoir le signal C3 en sa possession et la circulation doit être réglée par des feux de circulation.",
+          "text_nl": "Hij moet het C3-signaal bij zich hebben en het verkeer moet geregeld worden door verkeerslichten.",
+          "text_ru": "Он должен иметь при себе знак C3, и движение должно регулироваться светофорами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43ter.3.1° précise que les capitaines de route doivent être âgés de 25 ans au moins et porter un vêtement rétro-réfléchissant indiquant 'capitaine de route'. L'immobilisation est permise lorsque la circulation n'est pas réglée par des signaux lumineux (43ter.3.2°).",
+      "explanation_nl": "Artikel 43ter.3.1° specificeert dat wegkapiteins minstens 25 jaar oud moeten zijn en een retro-reflecterend kledingstuk moeten dragen met de vermelding 'wegkapitein'. Het stilleggen is toegestaan wanneer het verkeer niet geregeld wordt door verkeerslichten (43ter.3.2°).",
+      "explanation_ru": "Статья 43тер.3.1° уточняет, что дорожные капитаны должны быть не моложе 25 лет и носить светоотражающую одежду с надписью «дорожный капитан». Остановка разрешена, когда движение не регулируется светофорами (43тер.3.2°)."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez en groupe de motards sur une route à deux voies (une voie dans chaque sens) sans marquage au sol. Comment pouvez-vous vous positionner au mieux pour respecter la loi et assurer la sécurité ?",
+      "text_nl": "U rijdt in een groep motorrijders op een tweevaksbaan (één rijstrook per richting) zonder wegmarkeringen. Hoe kunt u zich het beste positioneren om de wet te respecteren en de veiligheid te waarborgen?",
+      "text_ru": "Вы едете в группе мотоциклистов по двухполосной дороге (по одной полосе в каждом направлении) без разметки. Как лучше всего расположиться, чтобы соблюдать закон и обеспечить безопасность?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "En deux rangs parallèles, occupant la moitié de la chaussée, en veillant à ne pas gêner le trafic en sens inverse.",
+          "text_nl": "In twee evenwijdige rijen, de helft van de rijbaan innemend, en ervoor zorgen dat het tegemoetkomende verkeer niet gehinderd wordt.",
+          "text_ru": "В двух параллельных рядах, занимая половину проезжей части, следя за тем, чтобы не мешать встречному движению.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "En colonne indienne pour laisser le plus de place possible.",
+          "text_nl": "In een enkele rij om zoveel mogelijk ruimte te laten.",
+          "text_ru": "В колонне по одному, чтобы оставить как можно больше места.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "En occupant toute la largeur de la chaussée si le groupe est nombreux.",
+          "text_nl": "De volledige breedte van de rijbaan innemen als de groep groot is.",
+          "text_ru": "Занимать всю ширину проезжей части, если группа большая.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43ter.1 indique que si la chaussée n'est pas divisée en bandes de circulation, les motocyclistes ne peuvent dépasser la moitié de la largeur de la chaussée. Rouler en deux rangs parallèles décalés permet de respecter cette règle tout en maintenant une certaine compacité du groupe, à condition que le croisement soit possible et la sécurité assurée.",
+      "explanation_nl": "Artikel 43ter.1 stelt dat wanneer de rijbaan niet verdeeld is in rijstroken, motorrijders niet meer dan de helft van de breedte van de rijbaan mogen innemen. Rijden in twee evenwijdige, geschrankte rijen maakt het mogelijk om aan deze regel te voldoen en toch een zekere compactheid van de groep te behouden, op voorwaarde dat het kruisen mogelijk is en de veiligheid is gewaarborgd.",
+      "explanation_ru": "Статья 43тер.1 указывает, что когда дорога не разделена на полосы движения, мотоциклисты не должны занимать ширину, превышающую половину дороги. Движение в двух параллельных смещенных рядах позволяет соблюдать это правило, сохраняя некоторую компактность группы, при условии, что обгон возможен и безопасность обеспечена."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes un capitaine de route accompagnant un groupe de 30 motards. Vous arrivez à un carrefour non réglementé par des feux. Que pouvez-vous faire pour faciliter le passage du groupe ?",
+      "text_nl": "U bent een wegkapitein die een groep van 30 motorrijders begeleidt. U nadert een kruispunt dat niet geregeld wordt door verkeerslichten. Wat kunt u doen om de doorgang van de groep te vergemaklijken?",
+      "text_ru": "Вы являетесь дорожным капитаном, сопровождающим группу из 30 мотоциклистов. Вы приближаетесь к перекрестку, не регулируемому светофорами. Что вы можете сделать, чтобы облегчить прохождение группы?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander aux autres conducteurs de céder le passage en faisant des signes.",
+          "text_nl": "Andere bestuurders vragen om voorrang te verlenen door gebaren te maken.",
+          "text_ru": "Попросить других водителей уступить дорогу, делая жесты.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Immobiliser la circulation dans les voies transversales en utilisant la procédure décrite à l'article 41.3.2.",
+          "text_nl": "Het verkeer in de dwarswegen stilleggen met de procedure beschreven in artikel 41.3.2.",
+          "text_ru": "Остановить движение на поперечных дорогах, используя процедуру, описанную в статье 41.3.2.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer sans interruption, le groupe étant de taille raisonnable.",
+          "text_nl": "Ononderbroken doorrijden, aangezien de groep van redelijke omvang is.",
+          "text_ru": "Продолжать движение без остановки, так как группа разумного размера.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43ter.3.2° autorise un capitaine de route à immobiliser la circulation dans les voies transversales, aux carrefours non réglés par des feux, durant la traversée du groupe, en suivant la procédure de l'article 41.3.2. La taille du groupe (30 participants) rend cette mesure pertinente.",
+      "explanation_nl": "Artikel 43ter.3.2° staat een wegkapitein toe om het verkeer in de dwarswegen op kruispunten die niet door verkeerslichten geregeld worden, stil te leggen tijdens het passeren van de groep, volgens de procedure van artikel 41.3.2. De grootte van de groep (30 deelnemers) maakt deze maatregel relevant.",
+      "explanation_ru": "Статья 43тер.3.2° разрешает дорожному капитану останавливать движение на поперечных дорогах на перекрестках, не регулируемых светофорами, во время прохождения группы, следуя процедуре статьи 41.3.2. Размер группы (30 участников) делает эту меру актуальной."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous faites partie d'un groupe de motards de 60 participants. Comment devez-vous être encadré pour ce déplacement ?",
+      "text_nl": "U maakt deel uit van een groep van 60 motorrijders. Hoe moet deze groep begeleid worden?",
+      "text_ru": "Вы являетесь частью группы из 60 мотоциклистов. Как должна сопровождаться эта группа?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le groupe doit être encadré par au moins deux capitaines de route.",
+          "text_nl": "De groep moet begeleid worden door minstens twee wegkapiteins.",
+          "text_ru": "Группу должны сопровождать как минимум два дорожных капитана.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Aucun capitaine de route n'est obligatoire pour un groupe de cette taille.",
+          "text_nl": "Er is geen wegkapitein verplicht voor een groep van deze grootte.",
+          "text_ru": "Для группы такого размера дорожный капитан не обязателен.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un seul capitaine de route est suffisant s'il est expérimenté.",
+          "text_nl": "Eén wegkapitein is voldoende als hij ervaren is.",
+          "text_ru": "Одного дорожного капитана достаточно, если он опытен.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 43ter.2 stipule que les groupes de motocyclistes de plus de 50 participants doivent être accompagnés de deux capitaines de route au minimum. Un groupe de 60 participants rentre dans cette catégorie.",
+      "explanation_nl": "Artikel 43ter.2 stelt dat groepen motorrijders van meer dan 50 deelnemers vergezeld moeten worden door ten minste twee wegkapiteins. Een groep van 60 deelnemers valt in deze categorie.",
+      "explanation_ru": "Статья 43тер.2 гласит, что группы мотоциклистов численностью более 50 человек должны сопровождаться как минимум двумя дорожными капитанами. Группа из 60 человек подпадает под эту категорию."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "32c8a8412c46",
@@ -44,6 +215,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:56:37Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

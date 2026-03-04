@@ -1,0 +1,45 @@
+{
+  "law_id": "1968",
+  "article_number": "36",
+  "slug": "art-36",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "V"
+  },
+  "title_fr": "Article 36",
+  "title_nl": "Artikel 36",
+  "title_ru": "Статья 36",
+  "content_md_fr": "Est puni d'un emprisonnement d'un mois à deux ans et d'une amende de **400 euros à 5000 euros**, ou d'une de ces peines seulement, quiconque, après une condamnation par application de l'[article 34, §2](#34p2), de l'[article 35](#art-35) ou de [l'article 37bis](#art-37bis), § 1er, commet dans les trois années à dater d'un jugement antérieur portant condamnation et passé en force de chose jugée, une nouvelle infraction à une de ces dispositions.\n\nEn cas de nouvelle récidive dans les trois années depuis la deuxième condamnation, les peines d'emprisonnement et d'amende prévues ci-dessus peuvent être doublées.",
+  "content_md_nl": "Met gevangenisstraf van een maand tot twee jaar en met geldboete van **400 euro tot 5 000 euro** of met een van die straffen alleen, wordt gestraft hij die, na een veroordeling met toepassing van [artikel 34, §2](#34p2) of [artikel 35](#art35) of [artikel 37bis](#art-37bis), § 1, een van deze bepalingen binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gegaan opnieuw overtreedt.\n\nIn geval van nieuwe herhaling binnen drie jaar na de tweede veroordeling, kunnen de hierboven bepaalde gevangenisstraffen en geldboeten worden verdubbeld.",
+  "content_md_ru": "Любое лицо, которое после осуждения по [Статья 34, § 2](#34p2), Статья 35](#art-35) или [Статья 37bis](#art-37bis), § 1, совершает новое преступление против одного из этих положений в течение трех лет с даты предыдущего осуждения, ставшего окончательным.\n\nВ случае нового повторного преступления в течение трех лет после второго осуждения сроки тюремного заключения и штрафы, предусмотренные выше, могут быть удвоены.",
+  "content_html_fr": "<p>Est puni d'un emprisonnement d'un mois à deux ans et d'une amende de <strong>400 euros à 5000 euros</strong>, ou d'une de ces peines seulement, quiconque, après une condamnation par application de l'<a href=\"#34p2\">article 34, §2</a>, de l'<a href=\"#art-35\">article 35</a> ou de <a href=\"#art-37bis\">l'article 37bis</a>, § 1<sup>er</sup>, commet dans les trois années à dater d'un jugement antérieur portant condamnation et passé en force de chose jugée, une nouvelle infraction à une de ces dispositions.</p><p>En cas de nouvelle récidive dans les trois années depuis la deuxième condamnation, les peines d'emprisonnement et d'amende prévues ci-dessus peuvent être doublées.</p>",
+  "content_html_nl": "<p>Met gevangenisstraf van een maand tot twee jaar en met geldboete van <strong>400 euro tot 5 000 euro</strong> of met een van die straffen alleen, wordt gestraft hij die, na een veroordeling met toepassing van <a href=\"#34p2\">artikel 34, §2</a> of <a href=\"#art35\">artikel 35</a> of <a href=\"#art-37bis\">artikel 37bis</a>, § 1, een van deze bepalingen binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gegaan opnieuw overtreedt.</p><p>In geval van nieuwe herhaling binnen drie jaar na de tweede veroordeling, kunnen de hierboven bepaalde gevangenisstraffen en geldboeten worden verdubbeld.</p>",
+  "full_text_fr": "Est puni d'un emprisonnement d'un mois à deux ans et d'une amende de 400 euros à 5000 euros, ou d'une de ces peines seulement, quiconque, après une condamnation par application de l'article 34, §2, de l'article 35 ou de l'article 37bis, § 1er, commet dans les trois années à dater d'un jugement antérieur portant condamnation et passé en force de chose jugée, une nouvelle infraction à une de ces dispositions.\n\nEn cas de nouvelle récidive dans les trois années depuis la deuxième condamnation, les peines d'emprisonnement et d'amende prévues ci-dessus peuvent être doublées.",
+  "full_text_nl": "Met gevangenisstraf van een maand tot twee jaar en met geldboete van 400 euro tot 5 000 euro of met een van die straffen alleen, wordt gestraft hij die, na een veroordeling met toepassing van artikel 34, §2 of artikel 35 of artikel 37bis, § 1, een van deze bepalingen binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gegaan opnieuw overtreedt.\n\nIn geval van nieuwe herhaling binnen drie jaar na de tweede veroordeling, kunnen de hierboven bepaalde gevangenisstraffen en geldboeten worden verdubbeld.",
+  "full_text_ru": "Любое лицо, которое после осуждения по Статья 34, § 2, Статья 35](#art-35) или Статья 37bis, § 1, совершает новое преступление против одного из этих положений в течение трех лет с даты предыдущего осуждения, ставшего окончательным.\n\nВ случае нового повторного преступления в течение трех лет после второго осуждения сроки тюремного заключения и штрафы, предусмотренные выше, могут быть удвоены.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#34p2",
+    "#art-35",
+    "#art-37bis"
+  ],
+  "anchor_id_fr": "un5tazxb3s",
+  "anchor_id_nl": "8ugtrowftk",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "cccb436d4a0d",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

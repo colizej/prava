@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "22",
+  "slug": "art-22",
+  "structure": {
+    "titre": "III",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 22",
+  "title_nl": "Artikel 22",
+  "title_ru": "Статья 22",
+  "content_md_fr": "Le conducteur est tenu de présenter le permis de conduire ou le titre qui en tient lieu, délivré en vue de l'apprentissage, à toute réquisition d'un fonctionnaire ou agent qualifié pour surveiller l'exécution de la présente loi et des règlements pris en vertu de celle-ci.",
+  "content_md_nl": "De bestuurder is gehouden het rijbewijs of het als zodanig geldend bewijs, afgegeven met het oog op de scholing, te vertonen op iedere vordering van een ambtenaar of beambte bevoegd om toezicht te houden op de uitvoering van deze wet en de krachtens deze laatste uitgevaardigde reglementen.",
+  "content_md_ru": "Водитель обязан предъявить водительское удостоверение или заменяющее его свидетельство, выданное для прохождения ученичества, когда этого потребует должностное лицо или агент, уполномоченный следить за соблюдением настоящего закона и принятых в соответствии с ним правил.",
+  "content_html_fr": "<p>Le conducteur est tenu de présenter le permis de conduire ou le titre qui en tient lieu, délivré en vue de l'apprentissage, à toute réquisition d'un fonctionnaire ou agent qualifié pour surveiller l'exécution de la présente loi et des règlements pris en vertu de celle-ci.</p>",
+  "content_html_nl": "<p>De bestuurder is gehouden het rijbewijs of het als zodanig geldend bewijs, afgegeven met het oog op de scholing, te vertonen op iedere vordering van een ambtenaar of beambte bevoegd om toezicht te houden op de uitvoering van deze wet en de krachtens deze laatste uitgevaardigde reglementen.</p>",
+  "full_text_fr": "Le conducteur est tenu de présenter le permis de conduire ou le titre qui en tient lieu, délivré en vue de l'apprentissage, à toute réquisition d'un fonctionnaire ou agent qualifié pour surveiller l'exécution de la présente loi et des règlements pris en vertu de celle-ci.",
+  "full_text_nl": "De bestuurder is gehouden het rijbewijs of het als zodanig geldend bewijs, afgegeven met het oog op de scholing, te vertonen op iedere vordering van een ambtenaar of beambte bevoegd om toezicht te houden op de uitvoering van deze wet en de krachtens deze laatste uitgevaardigde reglementen.",
+  "full_text_ru": "Водитель обязан предъявить водительское удостоверение или заменяющее его свидетельство, выданное для прохождения ученичества, когда этого потребует должностное лицо или агент, уполномоченный следить за соблюдением настоящего закона и принятых в соответствии с ним правил.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "zuj1gcmzsu",
+  "anchor_id_nl": "fc7ilxc20u",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "ed95e6b81778",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

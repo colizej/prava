@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "43",
+  "slug": "art-43",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 43",
+  "title_nl": "Artikel 43",
+  "title_ru": "Статья 43",
+  "content_md_fr": "La déchéance du droit de conduire pour incapacité physique ou psychique du conducteur prend cours dès le prononcé de la décision si celle-ci est contradictoire et dès sa signification, si elle a été rendue par défaut, nonobstant tout recours.",
+  "content_md_nl": "Het verval van het recht tot sturen wegens lichamelijke of geestelijke ongeschiktheid van de bestuurder gaat in bij de uitspraak van de beslissing wanneer deze op tegenspraak is gewezen en bij de betekening wanneer zij bij verstek is gewezen, niettegenstaande voorziening.",
+  "content_md_ru": "Лишение права управления транспортным средством на основании физической или психической недееспособности вступает в силу с момента вынесения решения, если оно является состязательным, и с момента его вручения, если оно вынесено заочно, независимо от подачи апелляции.",
+  "content_html_fr": "<p>La déchéance du droit de conduire pour incapacité physique ou psychique du conducteur prend cours dès le prononcé de la décision si celle-ci est contradictoire et dès sa signification, si elle a été rendue par défaut, nonobstant tout recours.</p>",
+  "content_html_nl": "<p>Het verval van het recht tot sturen wegens lichamelijke of geestelijke ongeschiktheid van de bestuurder gaat in bij de uitspraak van de beslissing wanneer deze op tegenspraak is gewezen en bij de betekening wanneer zij bij verstek is gewezen, niettegenstaande voorziening.</p>",
+  "full_text_fr": "La déchéance du droit de conduire pour incapacité physique ou psychique du conducteur prend cours dès le prononcé de la décision si celle-ci est contradictoire et dès sa signification, si elle a été rendue par défaut, nonobstant tout recours.",
+  "full_text_nl": "Het verval van het recht tot sturen wegens lichamelijke of geestelijke ongeschiktheid van de bestuurder gaat in bij de uitspraak van de beslissing wanneer deze op tegenspraak is gewezen en bij de betekening wanneer zij bij verstek is gewezen, niettegenstaande voorziening.",
+  "full_text_ru": "Лишение права управления транспортным средством на основании физической или психической недееспособности вступает в силу с момента вынесения решения, если оно является состязательным, и с момента его вручения, если оно вынесено заочно, независимо от подачи апелляции.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "z9ow6b5mxb",
+  "anchor_id_nl": "rycqz85yho",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "40a23fa3a7d6",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

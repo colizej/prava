@@ -1,0 +1,58 @@
+{
+  "law_id": "1968",
+  "article_number": "61sexies",
+  "slug": "art-61sexies",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "X"
+  },
+  "title_fr": "Article 61sexies",
+  "title_nl": "Artikel 61sexies",
+  "title_ru": "Статья 61секси",
+  "content_md_fr": "Le Roi définit les conditions applicables au système visé à l'[article 61quinquies](#art-61quinquies).\n\n> ℹ️ Voir A.R. de 26 novembre 2010 relatif aux spécifications techniques des éthylotests antidémarrage visés à l'article 61sexies de la loi du 16 mars 1968 relative à la police de la circulation routière. [M.B. 09-12-2010]",
+  "content_md_nl": "De Koning bepaalt de voorwaarden waaraan het systeem bedoeld in [artikel 61quinquies](#art-61quinquies) voldoet.\n\n> ℹ️ Zie K.B. van 26 november 2010 betreffende de technische specificaties van de alcoholsloten bedoeld in artikel 61sexies van de wet van 16 maart 1968 betreffende de politie over het wegverkeer. [B.S. 09-12-2010]",
+  "content_md_ru": "Король определяет условия, применимые к системе, упомянутой в [статье 61quinquies](#art-61quinquies).\n\n> ℹ️ См. R.D. от 26 ноября 2010 г. о технических спецификациях устройств блокировки зажигания, упомянутых в статье 61sexies закона от 16 марта 1968 г. о дорожной полиции. [М.Б. 09-12-2010].",
+  "content_html_fr": "<p>Le Roi définit les conditions applicables au système visé à l'<a href=\"#art-61quinquies\">article 61quinquies</a>.</p><div class=\"notification notification-primary\">Voir <a href=\"/fr/perma/7tz6gcyidp/regulation_regulation\">A.R. de 26 novembre 2010</a> relatif aux spécifications techniques des éthylotests antidémarrage visés à l'article 61sexies de la loi du 16 mars 1968 relative à la police de la circulation routière. [M.B. 09-12-2010]</div>",
+  "content_html_nl": "<p>De Koning bepaalt de voorwaarden waaraan het systeem bedoeld in <a href=\"#art-61quinquies\">artikel 61quinquies</a> voldoet.</p><div class=\"notification notification-primary\">Zie <a href=\"/nl/perma/7tz6gcyidp/regulation_regulation\">K.B. van 26 november 2010</a> betreffende de technische specificaties van de alcoholsloten bedoeld in artikel 61sexies van de wet van 16 maart 1968 betreffende de politie over het wegverkeer. [B.S. 09-12-2010]</div>",
+  "full_text_fr": "Le Roi définit les conditions applicables au système visé à l'article 61quinquies.\n\n️ Voir A.R. de 26 novembre 2010 relatif aux spécifications techniques des éthylotests antidémarrage visés à l'article 61sexies de la loi du 16 mars 1968 relative à la police de la circulation routière. [M.B. 09-12-2010]",
+  "full_text_nl": "De Koning bepaalt de voorwaarden waaraan het systeem bedoeld in artikel 61quinquies voldoet.\n\n️ Zie K.B. van 26 november 2010 betreffende de technische specificaties van de alcoholsloten bedoeld in artikel 61sexies van de wet van 16 maart 1968 betreffende de politie over het wegverkeer. [B.S. 09-12-2010]",
+  "full_text_ru": "Король определяет условия, применимые к системе, упомянутой в статье 61quinquies.\n\n️ См. R.D. от 26 ноября 2010 г. о технических спецификациях устройств блокировки зажигания, упомянутых в статье 61sexies закона от 16 марта 1968 г. о дорожной полиции. [М.Б. 09-12-2010].",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "Voir A.R. de 26 novembre 2010 relatif aux spécifications techniques des éthylotests antidémarrage visés à l'article 61sexies de la loi du 16 mars 1968 relative à la police de la circulation routière. [M.B. 09-12-2010]"
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Zie K.B. van 26 november 2010 betreffende de technische specificaties van de alcoholsloten bedoeld in artikel 61sexies van de wet van 16 maart 1968 betreffende de politie over het wegverkeer. [B.S. 09-12-2010]"
+    }
+  ],
+  "notifications_ru": [
+    {
+      "type": "primary",
+      "text": "См. Р.Д. от 26 ноября 2010 г. о технических характеристиках устройств блокировки зажигания, указанных в статье 61sexies закона от 16 марта 1968 г. о дорожной полиции. [М.Б. 09-12-2010]."
+    }
+  ],
+  "cross_refs": [
+    "#art-61quinquies"
+  ],
+  "anchor_id_fr": "hwgaef2hxy",
+  "anchor_id_nl": "aycbexl9l8",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "ccc67c500d6a",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -28,7 +28,193 @@
   "anchor_id_fr": "zdy5m6w6af",
   "anchor_id_nl": "w2tlmktd1a",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 52 du Code de la route belge, quelle est la principale obligation de toute personne impliquée dans un accident de la circulation, quel qu'en soit le type de dommage ?",
+      "text_nl": "Volgens artikel 52 van het Belgische Verkeersreglement, wat is de belangrijkste verplichting van elke persoon die bij een verkeersongeval betrokken is, ongeacht het soort schade?",
+      "text_ru": "Согласно статье 52 Бельгийских правил дорожного движения, каково основное обязательство любого лица, участвовавшего в дорожно-транспортном происшествии, независимо от типа ущерба?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A symbolic representation of a car accident with emergency services arriving."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dresser immédiatement un constat amiable.",
+          "text_nl": "Onmiddellijk een aanrijdingsformulier invullen.",
+          "text_ru": "Немедленно составить совместный протокол о ДТП.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Prendre les mesures nécessaires pour garantir la sécurité et la fluidité de la circulation.",
+          "text_nl": "De nodige maatregelen nemen om de veiligheid en vlotheid van het verkeer te verzekeren.",
+          "text_ru": "Принять необходимые меры для обеспечения безопасности и бесперебойности движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Contacter immédiatement son assurance.",
+          "text_nl": "Onmiddellijk zijn verzekering contacteren.",
+          "text_ru": "Немедленно связаться со своей страховой компанией.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 52.1 stipule que toute personne impliquée dans un accident doit prendre les mesures nécessaires pour garantir la sécurité et la fluidité de la circulation.",
+      "explanation_nl": "Artikel 52.1 stelt dat elke persoon die bij een ongeval betrokken is, de nodige maatregelen moet nemen om de veiligheid en vlotheid van het verkeer te verzekeren.",
+      "explanation_ru": "Статья 52.1 гласит, что любое лицо, участвовавшее в дорожно-транспортном происшествии, должно принять необходимые меры для обеспечения безопасности и бесперебойности движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans le cas d'un accident ayant causé uniquement des dommages matériels, quelle est la procédure à suivre si une partie impliquée n'est pas présente sur les lieux ?",
+      "text_nl": "In geval van een ongeval met uitsluitend stoffelijke schade, wat is de procedure als een betrokken partij niet ter plaatse aanwezig is?",
+      "text_ru": "В случае аварии, повлекшей только материальный ущерб, какова процедура, если одна из сторон, участвующих в аварии, отсутствует на месте происшествия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A diagram showing two cars involved in a minor fender bender, with one car leaving the scene and the other driver looking confused."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Quitter les lieux et attendre que la police contacte les parties.",
+          "text_nl": "De plaats verlaten en wachten tot de politie contact opneemt met de betrokkenen.",
+          "text_ru": "Покинуть место происшествия и ждать, пока полиция свяжется со сторонами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Laisser ses coordonnées sur le véhicule absent et partir.",
+          "text_nl": "Zijn contactgegevens achterlaten op het afwezige voertuig en vertrekken.",
+          "text_ru": "Оставить свои контактные данные на отсутствующем автомобиле и уехать.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Fournir ses nom et adresse sur place autant que possible, et en tout cas les communiquer au plus tôt, directement ou via la police.",
+          "text_nl": "Zijn naam en adres zoveel mogelijk ter plaatse opgeven, en in elk geval zo snel mogelijk meedelen, rechtstreeks of via de politie.",
+          "text_ru": "Предоставить свои имя и адрес на месте, насколько это возможно, и в любом случае сообщить их как можно скорее, напрямую или через полицию.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 52.2, alinéa 2, stipule que si une partie qui a subi un dommage n'est pas présente, les personnes impliquées dans l'accident doivent, autant que possible, fournir sur place, l'indication de leurs nom et adresse, et en tout cas, produire ces renseignements au plus tôt, directement ou par l'intermédiaire de la police ou de la gendarmerie.",
+      "explanation_nl": "Artikel 52.2, tweede lid, stelt dat als een partij die schade heeft geleden niet aanwezig is, de bij het ongeval betrokken personen zoveel mogelijk ter plaatse hun naam en adres moeten opgeven, en in elk geval deze inlichtingen zo spoedig mogelijk rechtstreeks of via de politie of rijkswacht moeten verstrekken.",
+      "explanation_ru": "Статья 52.2, второй абзац, гласит, что если сторона, понесшая ущерб, отсутствует, стороны, участвовавшие в дорожно-транспортном происшествии, должны, насколько это возможно, предоставить на месте свои имя и адрес, и в любом случае как можно скорее сообщить эту информацию напрямую или через полицию."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes impliqué dans un accident causant des blessures légères à un autre conducteur. Vous devez quitter les lieux pour appeler une ambulance. Quelle est la procédure correcte selon l'article 52 ?",
+      "text_nl": "U bent betrokken bij een ongeval waarbij een andere bestuurder lichtgewond raakt. U moet de plaats verlaten om een ambulance te bellen. Wat is de juiste procedure volgens artikel 52?",
+      "text_ru": "Вы попали в аварию, в результате которой другой водитель получил легкие травмы. Вам нужно покинуть место происшествия, чтобы вызвать скорую помощь. Какова правильная процедура согласно статье 52?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A driver using a mobile phone next to a damaged car, looking concerned towards another person on the ground."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Quitter immédiatement les lieux sans informer personne.",
+          "text_nl": "De plaats onmiddellijk verlaten zonder iemand te informeren.",
+          "text_ru": "Немедленно покинуть место происшествия, никого не уведомив.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Laisser ses coordonnées à un témoin et partir chercher de l'aide.",
+          "text_nl": "Zijn contactgegevens achterlaten bij een getuige en hulp gaan halen.",
+          "text_ru": "Оставить свои контактные данные свидетелю и пойти за помощью.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Porter secours aux blessés et si nécessaire s'éloigner momentanément après avoir donné ses nom et adresse à une personne présente.",
+          "text_nl": "Hulp bieden aan de gewonden en indien nodig tijdelijk weggaan nadat men zijn naam en adres aan een aanwezige persoon heeft meegedeeld.",
+          "text_ru": "Оказать помощь раненым и, при необходимости, временно удалиться, сообщив свое имя и адрес присутствующему лицу.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 52.3 permet de s'éloigner momentanément du lieu de l'accident pour porter secours aux blessés ou faire appel à un agent qualifié, à condition d'avoir préalablement communiqué ses nom et adresse à une personne présente sur les lieux.",
+      "explanation_nl": "Artikel 52.3 staat toe om tijdelijk weg te gaan van de plaats van het ongeval om hulp te bieden aan de gewonden of een bevoegde persoon te roepen, op voorwaarde dat men vooraf zijn naam en adres heeft meegedeeld aan een aanwezige persoon.",
+      "explanation_ru": "Статья 52.3 разрешает временно покинуть место происшествия для оказания помощи раненым или вызова компетентного сотрудника, при условии предварительного сообщения своего имени и адреса присутствующему лицу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes impliqué dans un accident matériel sans blessés. Vous et l'autre conducteur êtes en désaccord sur les circonstances. Quelle est la meilleure marche à suivre pour les constatations ?",
+      "text_nl": "U bent betrokken bij een materiële schadeongeval zonder gewonden. U en de andere bestuurder zijn het oneens over de omstandigheden. Wat is de beste aanpak voor de vaststellingen?",
+      "text_ru": "Вы попали в аварию с материальным ущербом без пострадавших. Вы и другой водитель не можете договориться об обстоятельствах. Каков наилучший порядок действий для составления протокола?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Two drivers arguing at the scene of a minor car accident, with a police officer arriving to mediate."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Échanger uniquement les informations d'assurance et quitter les lieux.",
+          "text_nl": "Alleen de verzekeringsgegevens uitwisselen en de plaats verlaten.",
+          "text_ru": "Обменяться только страховыми данными и покинуть место происшествия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Tenter de trouver un accord pour faire les constatations ensemble, sinon contacter un agent qualifié.",
+          "text_nl": "Proberen een akkoord te vinden om samen de vaststellingen te doen, anders een bevoegd persoon contacteren.",
+          "text_ru": "Попытаться достичь соглашения для совместного составления протокола, в противном случае связаться с компетентным сотрудником.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre des photos et envoyer les parties à des bureaux de police différents.",
+          "text_nl": "Foto's nemen en de partijen naar verschillende politiebureaus sturen.",
+          "text_ru": "Сделать фотографии и отправить стороны в разные полицейские участки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 52.2 stipule qu'en cas de désaccord entre les parties sur les constatations d'un accident matériel, il faut permettre à un agent qualifié de procéder à ces constatations. Si aucun agent n'est joignable dans un délai raisonnable, les parties peuvent faire la déclaration dès que possible.",
+      "explanation_nl": "Artikel 52.2 stelt dat bij onenigheid tussen de partijen over de vaststellingen van een materiële schadeongeval, een bevoegd persoon moet worden toegelaten die vaststellingen te doen. Indien geen bevoegd persoon binnen een redelijke termijn kan worden bereikt, mogen de partijen zo spoedig mogelijk aangifte doen.",
+      "explanation_ru": "Статья 52.2 гласит, что в случае разногласий между сторонами относительно констатации материального ущерба, необходимо позволить компетентному сотруднику провести эти констатации. Если в разумные сроки связаться с компетентным сотрудником не удается, стороны могут как можно скорее подать заявление."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes impliqué dans un accident qui a causé des blessures corporelles. Un policier arrive sur les lieux. Que devez-vous faire immédiatement après avoir porté secours aux blessés et présenté vos papiers si demandés ?",
+      "text_nl": "U bent betrokken bij een ongeval met lichamelijk letsel. Een politieagent komt ter plaatse. Wat moet u doen nadat u hulp heeft verleend aan de gewonden en uw papieren heeft getoond indien gevraagd?",
+      "text_ru": "Вы попали в аварию с телесными повреждениями. На место происшествия прибывает полицейский. Что вы должны сделать сразу после оказания помощи раненым и предъявления документов по требованию?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer talking to a driver at the scene of a car accident where paramedics are attending to an injured person."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Quitter les lieux pour faire la déclaration à votre domicile.",
+          "text_nl": "De plaats verlaten om aangifte te doen bij u thuis.",
+          "text_ru": "Покинуть место происшествия, чтобы заявить о нем у себя дома.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rester sur place pour permettre à l'agent qualifié de procéder aux constations nécessaires.",
+          "text_nl": "Ter plaatse blijven om de bevoegde persoon toe te laten de nodige vaststellingen te doen.",
+          "text_ru": "Остаться на месте, чтобы компетентный сотрудник мог провести необходимые констатации.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement échanger les informations avec les autres conducteurs.",
+          "text_nl": "Alleen informatie uitwisselen met de andere bestuurders.",
+          "text_ru": "Только обменяться информацией с другими водителями.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 52.3 stipule qu'en cas d'accident avec dommages corporels, la personne impliquée doit rester sur place pour permettre à un agent qualifié de procéder aux constations nécessaires, après avoir porté secours aux blessés et présenté ses papiers si demandé.",
+      "explanation_nl": "Artikel 52.3 stelt dat bij een ongeval met lichamelijk letsel, de betrokken persoon ter plaatse moet blijven om de bevoegde persoon toe te laten de nodige vaststellingen te doen, nadat hulp is verleend aan de gewonden en de papieren indien gevraagd zijn getoond.",
+      "explanation_ru": "Статья 52.3 гласит, что в случае аварии с телесными повреждениями, вовлеченное лицо должно оставаться на месте, чтобы компетентный сотрудник мог провести необходимые констатации, после оказания помощи раненым и предъявления документов по требованию."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "537d110315f1",
@@ -38,6 +224,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:39:05Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "4",
+  "slug": "art-4",
+  "structure": {
+    "titre": "I",
+    "chapitre": "II"
+  },
+  "title_fr": "Article 4",
+  "title_nl": "Artikel 4",
+  "title_ru": "Статья 4",
+  "content_md_fr": "Le Ministre des finances et le Ministre ayant la circulation routière dans ses attributions peuvent arrêter, de commun accord, des règlements complémentaires relatifs à la signalisation routière des bureaux des douanes, des succursales des bureaux des douanes et des autres offices de perception situés à la frontière ainsi que des postes de contrôle établis dans la zone de surveillance douanière le long de la frontière.",
+  "content_md_nl": "De Minister van Financiën en de Minister tot wiens bevoegdheid het wegverkeer behoort kunnen in onderlinge overeenstemming aanvullende reglementen vaststellen betreffende het aanbrengen van verkeerstekens voor de douanekantoren, de hulpdouanekantoren en andere aan de grens gelegen inningskantoren, alsmede voor de controleposten die in de douanetoezichtstroken langs de grens gevestigd zijn.",
+  "content_md_ru": "Министр финансов и министр, ответственный за дорожное движение, могут по взаимному согласию принять дополнительные правила, касающиеся дорожных знаков для таможенных пунктов, филиалов таможенных пунктов и других пунктов сбора, расположенных на границе, а также контрольных пунктов, установленных в зоне таможенного наблюдения вдоль границы.",
+  "content_html_fr": "<p>Le Ministre des finances et le Ministre ayant la circulation routière dans ses attributions peuvent arrêter, de commun accord, des règlements complémentaires relatifs à la signalisation routière des bureaux des douanes, des succursales des bureaux des douanes et des autres offices de perception situés à la frontière ainsi que des postes de contrôle établis dans la zone de surveillance douanière le long de la frontière.</p>",
+  "content_html_nl": "<p>De Minister van Financiën en de Minister tot wiens bevoegdheid het wegverkeer behoort kunnen in onderlinge overeenstemming aanvullende reglementen vaststellen betreffende het aanbrengen van verkeerstekens voor de douanekantoren, de hulpdouanekantoren en andere aan de grens gelegen inningskantoren, alsmede voor de controleposten die in de douanetoezichtstroken langs de grens gevestigd zijn.</p>",
+  "full_text_fr": "Le Ministre des finances et le Ministre ayant la circulation routière dans ses attributions peuvent arrêter, de commun accord, des règlements complémentaires relatifs à la signalisation routière des bureaux des douanes, des succursales des bureaux des douanes et des autres offices de perception situés à la frontière ainsi que des postes de contrôle établis dans la zone de surveillance douanière le long de la frontière.",
+  "full_text_nl": "De Minister van Financiën en de Minister tot wiens bevoegdheid het wegverkeer behoort kunnen in onderlinge overeenstemming aanvullende reglementen vaststellen betreffende het aanbrengen van verkeerstekens voor de douanekantoren, de hulpdouanekantoren en andere aan de grens gelegen inningskantoren, alsmede voor de controleposten die in de douanetoezichtstroken langs de grens gevestigd zijn.",
+  "full_text_ru": "Министр финансов и министр, ответственный за дорожное движение, могут по взаимному согласию принять дополнительные правила, касающиеся дорожных знаков для таможенных пунктов, филиалов таможенных пунктов и других пунктов сбора, расположенных на границе, а также контрольных пунктов, установленных в зоне таможенного наблюдения вдоль границы.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "vq8kxlxxtb",
+  "anchor_id_nl": "d1x4xltoyt",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "9a8c9f98168e",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

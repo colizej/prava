@@ -28,7 +28,178 @@
   "anchor_id_fr": "eie5yu93vl",
   "anchor_id_nl": "f9yec5fnwk",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 51.1, quel type de lumière peut-on utiliser comme moyen de signalisation supplémentaire pour un véhicule en panne, en plus du triangle de danger ?",
+      "text_nl": "Volgens artikel 51.1, welk type licht kan men gebruiken als extra signalisatiemiddel voor een pechvoertuig, naast de gevarendriehoek?",
+      "text_ru": "Согласно статье 51.1, какой тип света можно использовать в качестве дополнительного средства сигнализации для сломанного транспортного средства, помимо знака аварийной остановки?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un phare à LED blanc.",
+          "text_nl": "Een witte LED-koplamp.",
+          "text_ru": "Белый светодиодный прожектор.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un feu portatif clignotant de couleur jaune-orange.",
+          "text_nl": "Een draagbaar oranjegeel knipperlicht.",
+          "text_ru": "Портативный оранжево-желтый мигающий фонарь.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un gyrophare bleu.",
+          "text_nl": "Een blauwe zwaailamp.",
+          "text_ru": "Синий проблесковый маячок.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 51.1 mentionne explicitement que le conducteur peut faire usage d'autres moyens de signalisation, notamment en plaçant un feu portatif clignotant de couleur jaune-orange.",
+      "explanation_nl": "Artikel 51.1 vermeldt expliciet dat de bestuurder gebruik kan maken van andere signalisatiemiddelen, met name door een draagbaar oranjegeel knipperlicht te plaatsen.",
+      "explanation_ru": "Статья 51.1 прямо указывает, что водитель может использовать другие средства сигнализации, в частности, устанавливая портативный оранжево-желтый мигающий фонарь."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la distance minimale à laquelle le triangle de danger doit être placé sur une autoroute, selon l'article 51.2 ?",
+      "text_nl": "Op welke minimale afstand moet de gevarendriehoek op een autosnelweg worden geplaatst, volgens artikel 51.2?",
+      "text_ru": "На каком минимальном расстоянии, согласно статье 51.2, должен быть установлен знак аварийной остановки на автомагистрали?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "30 mètres.",
+          "text_nl": "30 meter.",
+          "text_ru": "30 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "50 mètres.",
+          "text_nl": "50 meter.",
+          "text_ru": "50 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "100 mètres.",
+          "text_nl": "100 meter.",
+          "text_ru": "100 метров.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 51.2 stipule que le triangle de danger doit être placé à une distance minimale de 100 mètres sur les autoroutes.",
+      "explanation_nl": "Artikel 51.2 bepaalt dat de gevarendriehoek op autosnelwegen op een afstand van ten minste 100 meter moet worden geplaatst.",
+      "explanation_ru": "Статья 51.2 гласит, что знак аварийной остановки должен быть установлен на автомагистралях на расстоянии не менее 100 метров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une autoroute et votre véhicule tombe en panne. Il ne peut pas être déplacé et se trouve sur la bande d'arrêt d'urgence. Que devez-vous faire dès que vous sortez de votre véhicule pour signaler la panne ?",
+      "text_nl": "U rijdt op de autosnelweg en uw voertuig krijgt pech. Het kan niet worden verplaatst en staat op de pechstrook. Wat moet u doen zodra u uw voertuig verlaat om de pech te signaleren?",
+      "text_ru": "Вы едете по автомагистрали, и ваш автомобиль сломался. Его нельзя сдвинуть, и он находится на обочине. Что вы должны сделать, как только выйдете из машины, чтобы сообщить о поломке?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Placer immédiatement le triangle de danger à 50 mètres derrière le véhicule.",
+          "text_nl": "Onmiddellijk de gevarendriehoek 50 meter achter het voertuig plaatsen.",
+          "text_ru": "Немедленно установить знак аварийной остановки в 50 метрах позади автомобиля.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Mettre la veste de sécurité rétroréfléchissante.",
+          "text_nl": "De reflecterende veiligheidsvest aantrekken.",
+          "text_ru": "Надеть светоотражающий жилет безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Allumer tous les feux de détresse et attendre les secours sans sortir du véhicule.",
+          "text_nl": "Alle alarmlichten aanzetten en wachten op hulp zonder het voertuig te verlaten.",
+          "text_ru": "Включить все аварийные огни и ждать помощи, не выходя из машины.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 51.4, sur les autoroutes, le conducteur d'un véhicule en panne qui est rangé à un endroit où l'arrêt et le stationnement sont interdits doit porter une veste de sécurité rétroréfléchissante dès qu'il sort de son véhicule.",
+      "explanation_nl": "Volgens artikel 51.4 moet de bestuurder van een pechvoertuig op autosnelwegen, dat op een plaats staat waar stilstaan en parkeren verboden is, een reflecterende veiligheidsvest dragen zodra hij zijn voertuig verlaat.",
+      "explanation_ru": "Согласно статье 51.4, на автомагистралях водитель сломанного транспортного средства, припаркованного в месте, где остановка и стоянка запрещены, должен надеть светоотражающий жилет безопасности, как только он выйдет из машины."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez en ville et votre voiture tombe en panne dans une intersection où l'arrêt et le stationnement sont interdits. Vous ne pouvez pas déplacer le véhicule. Comment devez-vous signaler ce véhicule ?",
+      "text_nl": "U rijdt in de stad en uw auto krijgt pech in een kruispunt waar stilstaan en parkeren verboden zijn. U kunt het voertuig niet verplaatsen. Hoe moet u dit voertuig signaleren?",
+      "text_ru": "Вы едете по городу, и ваш автомобиль ломается на перекрестке, где остановка и стоянка запрещены. Вы не можете сдвинуть автомобиль. Как вы должны сигнализировать об этом автомобиле?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Placer le triangle de danger à 30 mètres derrière le véhicule, même si cela gêne la circulation.",
+          "text_nl": "De gevarendriehoek 30 meter achter het voertuig plaatsen, zelfs als dit het verkeer hindert.",
+          "text_ru": "Установить знак аварийной остановки в 30 метрах позади автомобиля, даже если это мешает движению.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signaler le véhicule avec le triangle de danger à une distance réduite, éventuellement sur le véhicule, et faire fonctionner simultanément tous les indicateurs de direction.",
+          "text_nl": "Het voertuig signaleren met de gevarendriehoek op een kleinere afstand, eventueel op het voertuig, en tegelijkertijd alle richtingaanwijzers laten werken.",
+          "text_ru": "Сигнализировать о транспортном средстве с помощью знака аварийной остановки на меньшем расстоянии, возможно, на самом транспортном средстве, и одновременно включить все указатели поворота.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Laisser le véhicule tel quel, car il est interdit de s'arrêter, et attendre l'intervention des autorités.",
+          "text_nl": "Het voertuig laten staan zoals het is, omdat stoppen verboden is, en wachten op interventie van de autoriteiten.",
+          "text_ru": "Оставить автомобиль как есть, так как останавливаться запрещено, и ждать вмешательства властей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 51.2 précise que dans les agglomérations, aux endroits où la distance de 30 mètres ne peut être respectée, le triangle de danger peut être placé à une distance moindre et éventuellement sur le véhicule. L'article 51.1 suggère également d'utiliser les indicateurs de direction simultanément comme moyen de signalisation supplémentaire.",
+      "explanation_nl": "Artikel 51.2 specificeert dat in bebouwde kommen, op plaatsen waar de afstand van 30 meter niet kan worden gerespecteerd, de gevarendriehoek op een kleinere afstand en eventueel op het voertuig geplaatst mag worden. Artikel 51.1 suggereert ook om de richtingaanwijzers gelijktijdig te gebruiken als extra signalisatiemiddel.",
+      "explanation_ru": "Статья 51.2 уточняет, что в населенных пунктах, в местах, где расстояние в 30 метров не может быть соблюдено, знак аварийной остановки может быть размещен на меньшем расстоянии и, возможно, на самом транспортном средстве. Статья 51.1 также предлагает использовать указатели поворота одновременно в качестве дополнительного средства сигнализации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un chargement est tombé sur la voie publique et vous ne pouvez pas le relever immédiatement. Quelle est votre première responsabilité en tant que conducteur, selon l'article 51.3 ?",
+      "text_nl": "Een lading is op de openbare weg gevallen en u kunt deze niet onmiddellijk oprapen. Wat is uw eerste verantwoordelijkheid als bestuurder, volgens artikel 51.3?",
+      "text_ru": "Часть груза упала на проезжую часть, и вы не можете немедленно его убрать. Какова ваша первая ответственность как водителя, согласно статье 51.3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Contacter immédiatement les services de dépannage.",
+          "text_nl": "Onmiddellijk pechhulpdiensten contacteren.",
+          "text_ru": "Немедленно связаться со службами эвакуации.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Prendre les mesures nécessaires pour garantir la sécurité et la fluidité de la circulation et signaler l'obstacle.",
+          "text_nl": "De nodige maatregelen nemen om de veiligheid en vlotheid van het verkeer te verzekeren en het obstakel te signaleren.",
+          "text_ru": "Принять необходимые меры для обеспечения безопасности и беспрепятственного движения и обозначить препятствие.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre que d'autres conducteurs vous aident à dégager la voie.",
+          "text_nl": "Wachten tot andere bestuurders u helpen de weg vrij te maken.",
+          "text_ru": "Ждать, пока другие водители помогут вам расчистить дорогу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 51.3 stipule que lorsque tout ou partie d'un chargement tombe sur la voie publique sans pouvoir être immédiatement relevé, le conducteur doit prendre les mesures nécessaires pour garantir la sécurité et la fluidité de la circulation et signaler l'obstacle comme prévu à l'article 51.1 et 51.2.",
+      "explanation_nl": "Artikel 51.3 bepaalt dat wanneer een deel of de gehele lading op de openbare weg valt zonder dat deze onmiddellijk kan worden opgeraapt, de bestuurder de nodige maatregelen moet nemen om de veiligheid en vlotheid van het verkeer te verzekeren en het obstakel moet signaleren zoals voorzien in artikel 51.1 en 51.2.",
+      "explanation_ru": "Статья 51.3 гласит, что когда часть груза упала на проезжую часть, и его нельзя немедленно убрать, водитель должен принять необходимые меры для обеспечения безопасности и беспрепятственного движения и обозначить препятствие, как предусмотрено статьями 51.1 и 51.2."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "ed9bfec6d329",
@@ -38,6 +209,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:38:47Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

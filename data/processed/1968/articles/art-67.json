@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "67",
+  "slug": "art-67",
+  "structure": {
+    "titre": "V",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 67",
+  "title_nl": "Artikel 67",
+  "title_ru": "Статья 67",
+  "content_md_fr": "Les personnes civilement responsables, aux termes des articles 6.12, 6.13 et 6.14 du Code civil, des dommages-intérêts et frais, le sont également de l'amende. Le tuteur leur est assimilé quant aux infractions commises par ses pupilles non mariés demeurant avec lui.",
+  "content_md_nl": "Zij die overeenkomstig de artikelen 6.12, 6.13 en 6.14 van het Burgerlijk Wetboek burgerrechtelijk aansprakelijk zijn voor schadevergoeding en kosten, zijn insgelijks aansprakelijk voor de geldboete. Met die personen wordt gelijkgesteld de voogd, wat betreft de misdrijven begaan door zijn ongehuwde, bij hem inwonende pupillen.",
+  "content_md_ru": "Лица, несущие гражданско-правовую ответственность за ущерб и расходы в соответствии со статьями 6.12, 6.13 и 6.14 Гражданского кодекса, также несут ответственность в виде штрафа. Опекуны несут аналогичную ответственность за правонарушения, совершенные их подопечными, не состоящими в браке и проживающими с ними.",
+  "content_html_fr": "<p>Les personnes civilement responsables, aux termes des articles 6.12, 6.13 et 6.14 du Code civil, des dommages-intérêts et frais, le sont également de l'amende. Le tuteur leur est assimilé quant aux infractions commises par ses pupilles non mariés demeurant avec lui.</p>",
+  "content_html_nl": "<p>Zij die overeenkomstig de artikelen 6.12, 6.13 en 6.14 van het Burgerlijk Wetboek burgerrechtelijk aansprakelijk zijn voor schadevergoeding en kosten, zijn insgelijks aansprakelijk voor de geldboete. Met die personen wordt gelijkgesteld de voogd, wat betreft de misdrijven begaan door zijn ongehuwde, bij hem inwonende pupillen.</p>",
+  "full_text_fr": "Les personnes civilement responsables, aux termes des articles 6.12, 6.13 et 6.14 du Code civil, des dommages-intérêts et frais, le sont également de l'amende. Le tuteur leur est assimilé quant aux infractions commises par ses pupilles non mariés demeurant avec lui.",
+  "full_text_nl": "Zij die overeenkomstig de artikelen 6.12, 6.13 en 6.14 van het Burgerlijk Wetboek burgerrechtelijk aansprakelijk zijn voor schadevergoeding en kosten, zijn insgelijks aansprakelijk voor de geldboete. Met die personen wordt gelijkgesteld de voogd, wat betreft de misdrijven begaan door zijn ongehuwde, bij hem inwonende pupillen.",
+  "full_text_ru": "Лица, несущие гражданско-правовую ответственность за ущерб и расходы в соответствии со статьями 6.12, 6.13 и 6.14 Гражданского кодекса, также несут ответственность в виде штрафа. Опекуны несут аналогичную ответственность за правонарушения, совершенные их подопечными, не состоящими в браке и проживающими с ними.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "qhxmlmbdnh",
+  "anchor_id_nl": "buztwgdaa4",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "e3e80486b620",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

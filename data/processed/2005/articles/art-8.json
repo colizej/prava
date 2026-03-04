@@ -1,0 +1,41 @@
+{
+  "law_id": "2005",
+  "article_number": "8",
+  "slug": "art-8",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 8",
+  "title_nl": "Article 8",
+  "title_ru": "Статья 8",
+  "content_md_fr": "**Art. 8.** Notre Ministre de la Justice, Notre Ministre de l'Intérieur et Notre Ministre de la Mobilité sont chargés chacun en ce qui le concerne de l'exécution du présent arrêté.",
+  "content_md_nl": "**Art. 8.** Onze Minister van Justitie, Onze Minister van Binnenlandse Zaken en Onze Minister van Mobiliteit zijn, ieder wat hem betreft, belast met de uitvoering van dit besluit.",
+  "content_md_ru": "**Статья 8 Наш министр юстиции, наш министр внутренних дел и наш министр мобильности отвечают за выполнение этого указа.",
+  "content_html_fr": "<p id=\"bpegabfecz\"><strong class=\"text-bold\">Art. 8.</strong> Notre Ministre de la Justice, Notre Ministre de l'Intérieur et Notre Ministre de la Mobilité sont chargés chacun en ce qui le concerne de l'exécution du présent arrêté.</p>",
+  "content_html_nl": "<p id=\"gf4hfkfgnk\"><strong class=\"text-bold\">Art. 8.</strong> Onze Minister van Justitie, Onze Minister van Binnenlandse Zaken en Onze Minister van Mobiliteit zijn, ieder wat hem betreft, belast met de uitvoering van dit besluit.</p>",
+  "full_text_fr": "Art. 8. Notre Ministre de la Justice, Notre Ministre de l'Intérieur et Notre Ministre de la Mobilité sont chargés chacun en ce qui le concerne de l'exécution du présent arrêté.",
+  "full_text_nl": "Art. 8. Onze Minister van Justitie, Onze Minister van Binnenlandse Zaken en Onze Minister van Mobiliteit zijn, ieder wat hem betreft, belast met de uitvoering van dit besluit.",
+  "full_text_ru": "Статья 8 Наш министр юстиции, наш министр внутренних дел и наш министр мобильности отвечают за выполнение этого указа.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "bpegabfecz",
+  "anchor_id_nl": "gf4hfkfgnk",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:10:54Z",
+    "content_hash": "1aa0671b91a7",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

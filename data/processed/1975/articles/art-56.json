@@ -29,7 +29,178 @@
   "anchor_id_fr": "ix2dpliksg",
   "anchor_id_nl": "zg514nc6gm",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que dit l'article 56.1 concernant les véhicules et animaux halant des bateaux par rapport aux articles 9, 12, 15, 16 et 17 du règlement?",
+      "text_nl": "Wat stelt artikel 56.1 met betrekking tot voertuigen en dieren die boten trekken, in verhouding tot de artikelen 9, 12, 15, 16 en 17 van het reglement?",
+      "text_ru": "Что гласит статья 56.1 в отношении транспортных средств и животных, тянущих лодки, по сравнению со статьями 9, 12, 15, 16 и 17 правил дорожного движения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils ne sont pas d'application.",
+          "text_nl": "Ze zijn niet van toepassing.",
+          "text_ru": "Они не применяются.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils s'appliquent uniquement sur la droite.",
+          "text_nl": "Ze zijn alleen van toepassing aan de rechterkant.",
+          "text_ru": "Они применяются только справа.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils s'appliquent avec des exceptions spécifiques.",
+          "text_nl": "Ze zijn van toepassing met specifieke uitzonderingen.",
+          "text_ru": "Они применяются с особыми исключениями.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 56.1 stipule que les dispositions des articles 9, 12, 15, 16 et 17 du présent règlement ne sont pas d'application en ce qui concerne les véhicules et les animaux qui, pour haler des bateaux, circulent sur la gauche de la voie empruntée.",
+      "explanation_nl": "Artikel 56.1 bepaalt dat de bepalingen van de artikelen 9, 12, 15, 16 en 17 van dit reglement niet van toepassing zijn op de voertuigen en dieren die, om vaartuigen te trekken, zich aan de linkerkant van de gevolgde weg voortbewegen.",
+      "explanation_ru": "Статья 56.1 гласит, что положения статей 9, 12, 15, 16 и 17 данного регламента не применяются к транспортным средствам и животным, которые, для буксировки лодок, движутся по левой стороне дороги."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'article 56.3, quel type de feu doit remplacer les feux blancs à l'avant et les feux rouges à l'arrière pour les véhicules halant des bateaux sur la gauche, et à quelle distance doit-il être clairement visible?",
+      "text_nl": "Volgens artikel 56.3, welk type licht moet de witte lichten aan de voorkant en rode lichten aan de achterkant vervangen voor voertuigen die boten trekken aan de linkerkant, en op welke afstand moet het duidelijk zichtbaar zijn?",
+      "text_ru": "Согласно статье 56.3, какой тип освещения должен заменить белые огни спереди и красные огни сзади для транспортных средств, буксирующих лодки слева, и на каком расстоянии он должен быть хорошо виден?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un feu jaune clignotant, visible à 50 mètres.",
+          "text_nl": "Een knipperend geel licht, zichtbaar op 50 meter.",
+          "text_ru": "Мигающий желтый свет, видимый на расстоянии 50 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un feu jaune-orange éclairant dans tous les sens, visible à 100 mètres.",
+          "text_nl": "Een in alle richtingen uitstralend oranjegeel licht, zichtbaar op 100 meter.",
+          "text_ru": "Всенаправленный желто-оранжевый свет, видимый на расстоянии 100 метров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un feu bleu fixe, visible à 200 mètres.",
+          "text_nl": "Een vast blauw licht, zichtbaar op 200 meter.",
+          "text_ru": "Стационарный синий свет, видимый на расстоянии 200 метров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 56.3 précise que dans les circonstances déterminées par l'article 30, les feux blancs à l'avant et les feux rouges à l'arrière doivent être remplacés par un feu jaune-orange éclairant dans tous les sens et ayant une intensité lumineuse telle qu'il soit nettement perçu à une distance d'au moins 100 mètres.",
+      "explanation_nl": "Artikel 56.3 bepaalt dat onder de omstandigheden zoals bepaald in artikel 30, de witte lichten aan de voorkant en de rode lichten aan de achterkant vervangen moeten worden door een in alle richtingen uitstralend oranjegeel licht van een zodanige lichtsterkte dat het op ten minste 100 meter afstand duidelijk zichtbaar is.",
+      "explanation_ru": "Статья 56.3 уточняет, что при обстоятельствах, определенных статьей 30, белые огни спереди и красные огни сзади должны быть заменены всенаправленным желто-оранжевым светом такой яркости, чтобы он был четко виден на расстоянии не менее 100 метров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous circulez sur une route étroite où des péniches sont halées par des animaux sur la gauche. Vous approchez d'un de ces attelages par l'arrière. Comment devez-vous le dépasser selon l'article 56.2?",
+      "text_nl": "U rijdt op een smalle weg waar schepen aan de linkerkant door dieren worden getrokken. U nadert zo'n colonne van achteren. Hoe moet u deze inhalen volgens artikel 56.2?",
+      "text_ru": "Вы едете по узкой дороге, где баржи буксируются животными слева. Вы приближаетесь к такой колонне сзади. Как вы должны обогнать ее согласно статье 56.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À gauche, en respectant les règles générales de dépassement.",
+          "text_nl": "Links, met inachtneming van de algemene inhaalregels.",
+          "text_ru": "Слева, соблюдая общие правила обгона.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À droite, car il s'agit d'un véhicule lent occupant la gauche.",
+          "text_nl": "Rechts, aangezien het een langzaam rijdend voertuig is dat zich aan de linkerkant bevindt.",
+          "text_ru": "Справа, поскольку это медленное транспортное средство, занимающее левую сторону.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous ne pouvez pas dépasser cet attelage.",
+          "text_nl": "U mag deze colonne niet inhalen.",
+          "text_ru": "Обгонять эту колонну запрещено.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 56.2 stipule que par dérogation à l'article 15, le dépassement des véhicules et animaux qui, pour haler des bateaux, circulent sur la gauche de la voie empruntée, s'effectue à droite.",
+      "explanation_nl": "Artikel 56.2 bepaalt dat, in afwijking van artikel 15, het inhalen van voertuigen en dieren die, om vaartuigen te trekken, zich aan de linkerkant van de gevolgde weg voortbewegen, aan de rechterkant geschiedt.",
+      "explanation_ru": "Статья 56.2 гласит, что в отступление от статьи 15, обгон транспортных средств и животных, которые, для буксировки лодок, движутся по левой стороне дороги, осуществляется справа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez de nuit sur une voie de halage le long d'un canal. Vous voyez au loin un véhicule circulant sur la gauche, tirant une barge. Il est équipé d'un feu jaune-orange clignotant. Quelle est votre conduite à tenir?",
+      "text_nl": "U rijdt 's nachts op een jaagpad langs een kanaal. U ziet in de verte een voertuig dat zich aan de linkerkant voortbeweegt en een schuit trekt. Het is uitgerust met een knipperend oranjegeel licht. Wat moet u doen?",
+      "text_ru": "Вы едете ночью по буксирной дорожке вдоль канала. Вдалеке вы видите транспортное средство, движущееся слева и тянущее баржу. Оно оснащено мигающим желто-оранжевым светом. Каковы ваши действия?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous continuez votre route normalement, car le feu indique la présence d'un obstacle.",
+          "text_nl": "U rijdt normaal door, want het licht geeft de aanwezigheid van een obstakel aan.",
+          "text_ru": "Вы продолжаете движение как обычно, так как свет указывает на наличие препятствия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ralentissez et vous vous déportez sur la droite pour le croiser, en tenant compte de la spécificité de sa circulation.",
+          "text_nl": "U vertraagt en wijkt naar rechts uit om het te kruisen, rekening houdend met de specifieke manier van voortbewegen.",
+          "text_ru": "Вы замедляетесь и смещаетесь вправо, чтобы проехать мимо, учитывая специфику его движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous lui faites signe de s'arrêter car sa présence de nuit est dangereuse.",
+          "text_nl": "U geeft het een teken om te stoppen omdat de aanwezigheid ervan 's nachts gevaarlijk is.",
+          "text_ru": "Вы подаете ему знак остановиться, так как его присутствие ночью опасно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 56.3 impose l'utilisation d'un feu jaune-orange pour les véhicules halant des bateaux sur la gauche, visible à 100m. Ce feu signale un véhicule lent circulant à contresens potentiel de la circulation normale. Il faut donc ralentir et se préparer à un croisement par la droite, en restant prudent.",
+      "explanation_nl": "Artikel 56.3 eist het gebruik van een oranjegeel licht voor voertuigen die boten trekken aan de linkerkant, zichtbaar op 100 meter. Dit licht signaleert een langzaam rijdend voertuig dat mogelijk tegen het normale verkeer in rijdt. U moet dus vertragen en u voorbereiden op een kruising aan de rechterkant, terwijl u voorzichtig blijft.",
+      "explanation_ru": "Статья 56.3 предписывает использование желто-оранжевого света для транспортных средств, буксирующих лодки слева, видимого на расстоянии 100 м. Этот свет сигнализирует о медленно движущемся транспортном средстве, которое потенциально движется против обычного потока. Поэтому необходимо замедлиться и подготовиться к обгону справа, сохраняя осторожность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez un véhicule et vous croisez un véhicule tirant une barge sur la gauche. Selon l'article 56.2, comment ce croisement doit-il s'effectuer?",
+      "text_nl": "U bestuurt een voertuig en kruist een voertuig dat aan de linkerkant een schuit trekt. Volgens artikel 56.2, hoe moet deze kruising gebeuren?",
+      "text_ru": "Вы управляете транспортным средством и встречаете транспортное средство, тянущее баржу слева. Согласно статье 56.2, как должно произойти это пересечение?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le croisement s'effectue à droite.",
+          "text_nl": "De kruising geschiedt rechts.",
+          "text_ru": "Пересечение происходит справа.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le croisement s'effectue à gauche.",
+          "text_nl": "De kruising geschiedt links.",
+          "text_ru": "Пересечение происходит слева.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il n'y a pas de règle spécifique pour le croisement.",
+          "text_nl": "Er is geen specifieke regel voor het kruisen.",
+          "text_ru": "Нет конкретного правила для пересечения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 56.2 déroge à l'article 15. Il stipule que le croisement des véhicules et animaux qui, pour haler des bateaux, circulent sur la gauche de la voie empruntée, s'effectue à gauche. Par conséquent, votre véhicule doit se déporter sur la gauche pour croiser ce véhicule spécial qui circule sur la gauche.",
+      "explanation_nl": "Artikel 56.2 wijkt af van artikel 15. Het stelt dat het kruisen van voertuigen en dieren die, om vaartuigen te trekken, zich aan de linkerkant van de gevolgde weg voortbewegen, aan de linkerkant geschiedt. Daarom moet uw voertuig naar links uitwijken om dit speciale voertuig te kruisen dat aan de linkerkant rijdt.",
+      "explanation_ru": "Статья 56.2 отступает от статьи 15. Она гласит, что пересечение транспортных средств и животных, которые, для буксировки лодок, движутся по левой стороне дороги, осуществляется слева. Следовательно, ваше транспортное средство должно сместиться влево, чтобы пересечь это специальное транспортное средство, движущееся по левой стороне."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "355d43c0805b",
@@ -39,6 +210,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:40:27Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

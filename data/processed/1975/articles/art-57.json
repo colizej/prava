@@ -41,7 +41,178 @@
   "anchor_id_fr": "omdrusfanb",
   "anchor_id_nl": "o2hygsawob",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 57, quelles dispositions ne peuvent pas s'appliquer ou être modifiées pour le trafic dans les zones portuaires et aéroportuaires ?",
+      "text_nl": "Volgens artikel 57, welke bepalingen zijn niet van toepassing of mogen niet gewijzigd worden voor het verkeer binnen haven- en luchthavengebieden?",
+      "text_ru": "Согласно статье 57, какие положения не могут применяться или быть изменены для движения в портовых и аэропортовых зонах?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les dispositions du Code de la route relatives à la priorité.",
+          "text_nl": "De verkeersregels met betrekking tot voorrang.",
+          "text_ru": "Положения Правил дорожного движения, касающиеся приоритета.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les dispositions du présent règlement général.",
+          "text_nl": "De bepalingen van dit algemeen reglement.",
+          "text_ru": "Положения данного общего регламента.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les dispositions relatives aux limitations de vitesse.",
+          "text_nl": "De bepalingen met betrekking tot snelheidslimieten.",
+          "text_ru": "Положения, касающиеся ограничений скорости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 57 stipule explicitement que les dispositions du présent règlement général ne peuvent pas s'appliquer ou être modifiées pour le trafic spécifique entre les quais, les dépôts, les hangars et les magasins dans les zones portuaires et aéroportuaires.",
+      "explanation_nl": "Artikel 57 stelt expliciet dat de bepalingen van dit algemeen reglement niet van toepassing zijn of gewijzigd mogen worden voor het specifieke verkeer tussen laad- en loskaaien, opslagplaatsen, hangars en magazijnen binnen haven- en luchthavengebieden.",
+      "explanation_ru": "Статья 57 прямо гласит, что положения данного общего регламента не могут применяться или быть изменены для специфического движения между причалами, складами, ангарами и магазинами в портовых и аэропортовых зонах."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles zones les dispositions du règlement général de la circulation peuvent être adaptées ou ne pas s'appliquer, selon l'article 57 ?",
+      "text_nl": "In welke gebieden kunnen de bepalingen van het algemeen verkeersreglement aangepast worden of niet van toepassing zijn, volgens artikel 57?",
+      "text_ru": "В каких зонах положения общего регламента дорожного движения могут быть адаптированы или не применяться, согласно статье 57?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dans les zones résidentielles et commerciales.",
+          "text_nl": "In woon- en commerciële gebieden.",
+          "text_ru": "В жилых и коммерческих зонах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dans les zones portuaires et aéroportuaires, spécifiquement entre les quais, dépôts, hangars et magasins.",
+          "text_nl": "In haven- en luchthavengebieden, specifiek tussen de kaaien, opslagplaatsen, hangars en magazijnen.",
+          "text_ru": "В портовых и аэропортовых зонах, конкретно между причалами, складами, ангарами и магазинами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dans les zones industrielles uniquement.",
+          "text_nl": "Enkel in industriële gebieden.",
+          "text_ru": "Только в промышленных зонах.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 57 précise que cette exception concerne le trafic entre les quais d’embarquement et de débarquement, les dépôts, les hangars et les magasins établis dans les zones portuaires et aéroportuaires.",
+      "explanation_nl": "Artikel 57 specificeert dat deze uitzondering betrekking heeft op het verkeer tussen de laad- en loskaaien, de opslagplaatsen, de hangars en de magazijnen gelegen binnen de haven- en luchthavengebieden.",
+      "explanation_ru": "Статья 57 уточняет, что это исключение касается движения между погрузочно-разгрузочными причалами, складами, ангарами и магазинами, расположенными в портовых и аэропортовых зонах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule utilitaire dans un port. Vous devez vous rendre d'un quai de débarquement à un hangar de stockage. Le trafic est dense et il n'y a pas de signalisation spécifique. Selon l'article 57, quelles règles de circulation devez-vous principalement suivre ?",
+      "text_nl": "U bestuurt een bedrijfsvoertuig in een haven. U moet van een loskade naar een opslagloods rijden. Het verkeer is druk en er is geen specifieke signalisatie. Volgens artikel 57, welke verkeersregels moet u voornamelijk volgen?",
+      "text_ru": "Вы управляете служебным автомобилем в порту. Вам нужно проехать от разгрузочной пристани до склада. Движение плотное, и нет специальной дорожной разметки. Согласно статье 57, каких правил дорожного движения вы должны в первую очередь придерживаться?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les règles générales du Code de la route concernant la priorité, car elles s'appliquent partout.",
+          "text_nl": "De algemene regels van het verkeersreglement betreffende voorrang, omdat deze overal van toepassing zijn.",
+          "text_ru": "Общие правила Правил дорожного движения, касающиеся приоритета, так как они применяются везде.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les règlements spécifiques de la zone portuaire, qui peuvent différer du règlement général.",
+          "text_nl": "De specifieke reglementen van het havengebied, die kunnen afwijken van het algemeen reglement.",
+          "text_ru": "Специфические правила портовой зоны, которые могут отличаться от общего регламента.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les règles les plus simples pour fluidifier le trafic, même si elles ne sont pas explicitement signalées.",
+          "text_nl": "De eenvoudigste regels om het verkeer vlot te laten verlopen, zelfs als ze niet expliciet zijn aangegeven.",
+          "text_ru": "Самые простые правила для обеспечения плавного движения, даже если они не указаны явно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 57 indique que les dispositions du règlement général ne s'appliquent pas ou peuvent être modifiées dans les zones portuaires pour le trafic entre les quais et les dépôts. Il faut donc se référer aux règlements spécifiques de la zone portuaire.",
+      "explanation_nl": "Artikel 57 geeft aan dat de bepalingen van het algemeen reglement niet van toepassing zijn of gewijzigd kunnen worden in havengebieden voor het verkeer tussen de kaaien en opslagplaatsen. Daarom moet men zich baseren op de specifieke reglementen van het havengebied.",
+      "explanation_ru": "Статья 57 указывает, что положения общего регламента не применяются или могут быть изменены в портовых зонах для движения между причалами и складами. Следовательно, необходимо руководствоваться специфическими правилами портовой зоны."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes dans une zone aéroportuaire et vous devez déplacer une cargaison entre deux hangars. Vous croisez un véhicule de service interne qui semble vouloir passer en premier. Sachant que les dispositions du règlement général peuvent ne pas s'appliquer, quelle est la conduite à tenir ?",
+      "text_nl": "U bevindt zich in een luchthavengebied en moet een lading verplaatsen tussen twee hangars. U kruist een intern dienstvoertuig dat lijkt voorrang te willen. Wetende dat de bepalingen van het algemeen reglement niet van toepassing kunnen zijn, wat is dan de te volgen gedrag?",
+      "text_ru": "Вы находитесь в аэропортовой зоне и должны переместить груз между двумя ангарами. Вы встречаете внутреннее служебное транспортное средство, которое, кажется, хочет проехать первым. Зная, что положения общего регламента могут не применяться, как следует себя вести?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Appliquer les règles de priorité du Code de la route général, car elles priment toujours.",
+          "text_nl": "Pas de algemene verkeersregels inzake voorrang toe, omdat deze altijd primeren.",
+          "text_ru": "Применяйте общие правила приоритета Правил дорожного движения, так как они всегда имеют преимущество.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Laisser passer le véhicule de service interne et observer attentivement les pratiques locales et les éventuels panneaux de signalisation internes.",
+          "text_nl": "Laat het interne dienstvoertuig passeren en observeer aandachtig de lokale praktijken en eventuele interne signalisatie.",
+          "text_ru": "Пропустите внутреннее служебное транспортное средство и внимательно наблюдайте за местными порядками и возможными внутренними знаками.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer votre route en supposant que le véhicule de service vous cédera le passage.",
+          "text_nl": "Rijd verder in de veronderstelling dat het dienstvoertuig u voorrang zal verlenen.",
+          "text_ru": "Продолжайте движение, предполагая, что служебное транспортное средство уступит вам дорогу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Dans les zones où les dispositions du règlement général ne s'appliquent pas ou sont modifiées (comme les zones portuaires et aéroportuaires mentionnées dans l'article 57), il est crucial de s'adapter aux règles et usages locaux. Le laisser passer et observer les pratiques est la démarche la plus prudente.",
+      "explanation_nl": "In gebieden waar de bepalingen van het algemeen reglement niet van toepassing zijn of gewijzigd zijn (zoals de haven- en luchthavengebieden vermeld in artikel 57), is het cruciaal om zich aan te passen aan de lokale regels en gebruiken. Het laten passeren en observeren van de praktijken is de meest voorzichtige aanpak.",
+      "explanation_ru": "В зонах, где положения общего регламента не применяются или изменены (например, в портовых и аэропортовых зонах, упомянутых в статье 57), крайне важно адаптироваться к местным правилам и обычаям. Пропустить транспортное средство и наблюдать за практикой — самый осторожный подход."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes un conducteur de camion dans une zone portuaire et vous devez charger des marchandises sur un quai. Une autre camionnette est déjà en train de manœuvrer. Vous avez un doute sur la priorité. Que devez-vous faire selon le principe de l'article 57 ?",
+      "text_nl": "U bent vrachtwagenchauffeur in een havengebied en moet goederen laden op een kade. Een andere bestelwagen is al aan het manoeuvreren. U twijfelt over de voorrang. Wat moet u doen volgens het principe van artikel 57?",
+      "text_ru": "Вы водитель грузовика в портовой зоне и вам нужно загрузить товар на причал. Другой фургон уже маневрирует. Вы сомневаетесь в приоритете. Что вы должны делать согласно принципу статьи 57?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ignorer la camionnette et aller charger, car vous êtes plus grand.",
+          "text_nl": "Negeer de bestelwagen en ga laden, want u bent groter.",
+          "text_ru": "Проигнорируйте фургон и идите загружаться, так как вы крупнее.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Attendre et observer les indications de la camionnette ou du personnel portuaire, car les règles générales peuvent ne pas s'appliquer.",
+          "text_nl": "Wacht en observeer de aanwijzingen van de bestelwagen of het havenpersoneel, aangezien de algemene regels mogelijk niet van toepassing zijn.",
+          "text_ru": "Подождите и наблюдайте за указаниями фургона или портового персонала, так как общие правила могут не применяться.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Utiliser le klaxon pour signaler votre présence et votre intention de passer.",
+          "text_nl": "Gebruik de claxon om uw aanwezigheid en uw intentie om te passeren aan te geven.",
+          "text_ru": "Используйте клаксон, чтобы обозначить свое присутствие и намерение проехать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 57 stipule que les dispositions du règlement général peuvent ne pas s'appliquer dans les zones portuaires. Il est donc préférable d'être prudent, d'observer les manœuvres des autres véhicules et de suivre les directives locales ou le personnel présent, plutôt que de se fier aux règles générales de priorité.",
+      "explanation_nl": "Artikel 57 stelt dat de bepalingen van het algemeen reglement mogelijk niet van toepassing zijn in havengebieden. Het is daarom beter om voorzichtig te zijn, de manoeuvres van andere voertuigen te observeren en lokale richtlijnen of aanwezig personeel te volgen, in plaats van te vertrouwen op algemene voorrangsregels.",
+      "explanation_ru": "Статья 57 гласит, что положения общего регламента могут не применяться в портовых зонах. Поэтому лучше быть осторожным, наблюдать за маневрами других транспортных средств и следовать местным указаниям или указаниям присутствующего персонала, а не полагаться на общие правила приоритета."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "6591af56fd38",
@@ -51,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:41:02Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

@@ -26,7 +26,178 @@
   "anchor_id_fr": "k7mo3kpio8",
   "anchor_id_nl": "vzza2hb4si",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 49.3, dans quelles circonstances est-il permis de remorquer un véhicule à moteur ?",
+      "text_nl": "Onder welke omstandigheden is het toegestaan om een motorvoertuig te slepen, volgens artikel 49.3?",
+      "text_ru": "При каких обстоятельствах разрешено буксировать моторное транспортное средство согласно статье 49.3?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement lorsqu'il s'agit d'un véhicule de collection.",
+          "text_nl": "Alleen wanneer het een oldtimer betreft.",
+          "text_ru": "Только когда речь идет о ретро-автомобиле.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque le véhicule ne peut plus se déplacer par ses propres moyens ou ne présente plus toute garantie de sécurité.",
+          "text_nl": "Wanneer het voertuig zich niet meer zelfstandig kan verplaatsen of niet meer alle veiligheidsgaranties biedt.",
+          "text_ru": "Когда транспортное средство больше не может двигаться своим ходом или не обеспечивает всех гарантий безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsqu'il est tracté par un véhicule de dépannage autorisé.",
+          "text_nl": "Wanneer het wordt gesleept door een erkende takelwagen.",
+          "text_ru": "Когда его буксирует разрешенная эвакуационная машина.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 49.3 stipule qu'il est interdit de remorquer un véhicule à moteur sauf si celui-ci ne peut plus se déplacer par ses propres moyens ou ne présente plus toute garantie de sécurité.",
+      "explanation_nl": "Artikel 49.3 stelt dat het verboden is een motorvoertuig te slepen, behalve indien het zich niet meer zelfstandig kan verplaatsen of niet meer alle veiligheidsgaranties biedt.",
+      "explanation_ru": "Статья 49.3 гласит, что запрещено буксировать моторное транспортное средство, за исключением случаев, когда оно больше не может двигаться своим ходом или не обеспечивает всех гарантий безопасности."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que doit-on faire si la distance entre la face avant d'une remorque et la face arrière du véhicule qui la tire dépasse 3 mètres, lorsque l'éclairage du véhicule n'est pas requis ?",
+      "text_nl": "Wat moet er gebeuren als de afstand tussen de voorkant van een aanhangwagen en de achterkant van het trekkende voertuig meer dan 3 meter bedraagt, wanneer de verlichting van het voertuig niet vereist is?",
+      "text_ru": "Что нужно сделать, если расстояние между передней частью прицепа и задней частью буксирующего транспортного средства превышает 3 метра, когда освещение транспортного средства не требуется?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le dispositif d'attelage doit être peint en rouge.",
+          "text_nl": "Het koppelingstoestel moet rood worden geverfd.",
+          "text_ru": "Сцепное устройство должно быть окрашено в красный цвет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un feu de couleur orange visible latéralement doit être utilisé.",
+          "text_nl": "Er moet een zijdelings zichtbaar oranje licht worden gebruikt.",
+          "text_ru": "Должен использоваться боковой оранжевый фонарь.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un morceau d'étoffe de couleur rouge doit être utilisé.",
+          "text_nl": "Er moet een stuk rode stof worden gebruikt.",
+          "text_ru": "Должен использоваться кусок красной ткани.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Selon l'article 49.4.2, si la distance entre la remorque et le véhicule tracteur dépasse 3 mètres et que l'éclairage n'est pas requis, l'attache doit être signalée par un morceau d'étoffe de couleur rouge.",
+      "explanation_nl": "Volgens artikel 49.4.2, als de afstand tussen de aanhangwagen en het trekkende voertuig meer dan 3 meter bedraagt en de verlichting niet vereist is, moet de koppeling gesignaleerd worden met een stuk rode stof.",
+      "explanation_ru": "Согласно статье 49.4.2, если расстояние между прицепом и буксирующим транспортным средством превышает 3 метра, а освещение не требуется, сцепное устройство должно быть обозначено куском красной ткани."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une moto avec side-car. Vous souhaitez attacher une petite remorque pour transporter du matériel de camping. Est-ce autorisé et sous quelle condition ?",
+      "text_nl": "U bestuurt een motorfiets met zijspan. U wilt een kleine aanhangwagen bevestigen om kampeermateriaal te vervoeren. Is dit toegestaan en onder welke voorwaarde?",
+      "text_ru": "Вы управляете мотоциклом с коляской. Вы хотите прицепить небольшой прицеп для перевозки туристического снаряжения. Разрешено ли это и при каком условии?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans aucune condition spécifique.",
+          "text_nl": "Ja, zonder specifieke voorwaarden.",
+          "text_ru": "Да, без каких-либо особых условий.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il est interdit de tracter une remorque avec une moto.",
+          "text_nl": "Nee, het is verboden om een aanhangwagen te trekken met een motorfiets.",
+          "text_ru": "Нет, запрещено буксировать прицеп мотоциклом.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, à condition que la roue du side-car soit munie d'un frein.",
+          "text_nl": "Ja, op voorwaarde dat het zijspanwiel uitgerust is met een rem.",
+          "text_ru": "Да, при условии, что колесо коляски оборудовано тормозом.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 49.1, une motocyclette avec side-car ne peut tirer une remorque qu'à la condition que la roue du side-car soit munie d'un frein.",
+      "explanation_nl": "Volgens artikel 49.1 mag een motorfiets met zijspan alleen een aanhangwagen trekken indien het zijspanwiel uitgerust is met een rem.",
+      "explanation_ru": "Согласно статье 49.1, мотоцикл с коляской может буксировать прицеп только при условии, что колесо коляски оборудовано тормозом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes conducteur d'un véhicule agricole et vous devez déplacer un train de véhicules (incluant le tracteur et deux remorques chargées de matériel) sur une distance de 30 km pour rejoindre un autre champ. La longueur totale du train est de 22 mètres. La vitesse maximale sera de 20 km/h. Cette circulation est-elle autorisée selon l'article 49 ?",
+      "text_nl": "U bent een bestuurder van een landbouwvoertuig en u moet een slep van voertuigen (inclusief tractor en twee beladen aanhangwagens) over een afstand van 30 km verplaatsen om naar een ander veld te gaan. De totale lengte van de slep is 22 meter. De maximale snelheid zal 20 km/u zijn. Is deze verkeerssituatie toegestaan volgens artikel 49?",
+      "text_ru": "Вы водитель сельскохозяйственного транспортного средства и вам необходимо переместить состав транспортных средств (включая трактор и два груженых прицепа) на расстояние 30 км, чтобы добраться до другого поля. Общая длина состава составляет 22 метра. Максимальная скорость будет 20 км/ч. Разрешено ли это движение согласно статье 49?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car la distance est supérieure à 25 km.",
+          "text_nl": "Nee, omdat de afstand groter is dan 25 km.",
+          "text_ru": "Нет, так как расстояние превышает 25 км.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car un véhicule agricole ne peut pas tracter deux remorques.",
+          "text_nl": "Nee, omdat een landbouwvoertuig geen twee aanhangwagens mag trekken.",
+          "text_ru": "Нет, так как сельскохозяйственное транспортное средство не может буксировать два прицепа.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car le train de véhicules agricoles circule à moins de 25 km/h, que sa longueur est inférieure à 25 mètres et qu'il reste dans un rayon de 25 km de la ferme (implicitement).",
+          "text_nl": "Ja, omdat de slep van landbouwvoertuigen rijdt met minder dan 25 km/u, de lengte ervan minder dan 25 meter is en het binnen een straal van 25 km van de hoeve blijft (impliciet).",
+          "text_ru": "Да, так как состав сельскохозяйственных транспортных средств движется со скоростью менее 25 км/ч, его длина менее 25 метров, и он остается в радиусе 25 км от фермы (подразумевается).",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 49.2, alinéa 3°, stipule que la disposition sur le nombre de véhicules tractés n'est pas applicable aux trains de véhicules agricoles circulant dans un rayon de 25 km de la ferme, pour autant qu'ils ne dépassent pas 25 km/h. Bien que la distance de déplacement soit de 30 km, l'article mentionne \"circulant dans un rayon de 25 km de la ferme\", ce qui peut s'interpréter comme la destination finale ou le point de départ. La vitesse (20 km/h) et la longueur (22 m) respectent les limites fixées pour ces exceptions.",
+      "explanation_nl": "Artikel 49.2, lid 3°, stelt dat de bepaling over het aantal gesleepte voertuigen niet van toepassing is op slepen van landbouwvoertuigen die rijden binnen een straal van 25 km van de hoeve, zolang zij niet meer dan 25 km/u rijden. Hoewel de verplaatsingsafstand 30 km is, vermeldt het artikel 'rijden binnen een straal van 25 km van de hoeve', wat kan worden geïnterpreteerd als de eindbestemming of het startpunt. De snelheid (20 km/u) en de lengte (22 m) voldoen aan de limieten voor deze uitzonderingen.",
+      "explanation_ru": "Статья 49.2, пункт 3°, гласит, что положение о количестве буксируемых транспортных средств не применяется к составам сельскохозяйственных транспортных средств, движущимся в радиусе 25 км от фермы, при условии, что их скорость не превышает 25 км/ч. Хотя расстояние перемещения составляет 30 км, в статье упоминается «движение в радиусе 25 км от фермы», что можно интерпретировать как конечный пункт назначения или отправную точку. Скорость (20 км/ч) и длина (22 м) соответствуют установленным лимитам для этих исключений."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous remorquez une vieille voiture de collection avec votre camionnette. La distance entre votre camionnette et la voiture remorquée est de 4 mètres. Vous roulez de nuit, il fait donc noir. Comment devez-vous signaler cette connexion ?",
+      "text_nl": "U sleept een oude oldtimer met uw bestelwagen. De afstand tussen uw bestelwagen en de gesleepte auto is 4 meter. U rijdt 's nachts, dus het is donker. Hoe moet u deze koppeling signaleren?",
+      "text_ru": "Вы буксируете старый ретро-автомобиль своим фургоном. Расстояние между вашим фургоном и буксируемым автомобилем составляет 4 метра. Вы едете ночью, поэтому темно. Как вы должны обозначить это сцепное устройство?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avec un morceau d'étoffe de couleur rouge.",
+          "text_nl": "Met een stuk rode stof.",
+          "text_ru": "С куском красной ткани.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Avec un feu de couleur orange visible latéralement, car l'attache est éclairée par votre camionnette.",
+          "text_nl": "Met een zijdelings zichtbaar oranje licht, omdat de koppeling door uw bestelwagen wordt verlicht.",
+          "text_ru": "С боковым оранжевым фонарем, так как сцепное устройство освещается вашим фургоном.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avec un feu de couleur orange visible latéralement, car l'attache n'est pas éclairée.",
+          "text_nl": "Met een zijdelings zichtbaar oranje licht, omdat de koppeling niet wordt verlicht.",
+          "text_ru": "С боковым оранжевым фонарем, так как сцепное устройство не освещается.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Selon l'article 49.4.2, lorsque la distance entre le véhicule tracteur et la remorque dépasse 3 mètres et que l'éclairage du véhicule est requis (comme la nuit), l'attache doit être signalée par un feu de couleur orange visible latéralement, à moins que l'attache ne soit éclairée. Ici, l'attache n'est pas éclairée.",
+      "explanation_nl": "Volgens artikel 49.4.2, wanneer de afstand tussen het trekkende voertuig en de aanhangwagen meer dan 3 meter bedraagt en de verlichting van het voertuig vereist is (zoals 's nachts), moet de koppeling gesignaleerd worden met een zijdelings zichtbaar oranje licht, tenzij de koppeling wordt verlicht. Hier wordt de koppeling niet verlicht.",
+      "explanation_ru": "Согласно статье 49.4.2, когда расстояние между буксирующим транспортным средством и прицепом превышает 3 метра, и освещение транспортного средства требуется (например, ночью), сцепное устройство должно быть обозначено боковым оранжевым фонарем, если только сцепное устройство не освещено. Здесь сцепное устройство не освещено."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "19a23f36d14c",
@@ -36,6 +207,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:37:57Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

@@ -67,7 +67,181 @@
   "anchor_id_fr": "camovihlqs",
   "anchor_id_nl": "gnnwyuy7m1",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 40.1, dans quelles zones spécifiques un conducteur ne doit-il jamais mettre en danger les piétons qui s'y trouvent ?",
+      "text_nl": "Volgens artikel 40.1, in welke specifieke zones mag een bestuurder voetgangers die zich daar bevinden nooit in gevaar brengen?",
+      "text_ru": "Согласно статье 40.1, в каких конкретных зонах водитель никогда не должен подвергать опасности находящихся там пешеходов?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement sur les passages pour piétons signalés par le code de la route.",
+          "text_nl": "Alleen op zebrapaden die zijn aangegeven door de verkeersregels.",
+          "text_ru": "Только на пешеходных переходах, обозначенных правилами дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur un trottoir, une zone réservée aux piétons (signal D9/D10), un accotement, un refuge, une rue réservée au jeu (F99a/F99b), une zone F12a/F12b ou F103/F105, ou sur la chaussée si les conditions le permettent.",
+          "text_nl": "Op een trottoir, een voor voetgangers gereserveerd gebied (bord D9/D10), een berm, een vluchtheuvel, een speelstraat (F99a/F99b), een zone F12a/F12b of F103/F105, of op de rijbaan indien de omstandigheden dit toelaten.",
+          "text_ru": "На тротуаре, зоне, отведенной для пешеходов (знак D9/D10), обочине, островке безопасности, игровой улице (F99a/F99b), зоне F12a/F12b или F103/F105, или на проезжей части, если позволяют условия.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement dans les zones délimitées par les signaux F12a et F12b.",
+          "text_nl": "Alleen in de zones afgebakend door de verkeersborden F12a en F12b.",
+          "text_ru": "Только в зонах, обозначенных знаками F12a и F12b.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40.1 du code de la route belge stipule explicitement que le conducteur ne doit pas mettre en danger les piétons se trouvant sur un trottoir, une partie de la voie publique réservée aux piétons par le signal D9 ou D10, un accotement, un refuge, une voie publique signalée par F99a ou F99b (rue réservée au jeu), ou dans une zone délimitée par F12a/F12b ou F103/F105. Cela inclut également les piétons circulant sur la chaussée dans les conditions prévues.",
+      "explanation_nl": "Artikel 40.1 van de Belgische wegcode stelt expliciet dat de bestuurder geen gevaar mag opleveren voor voetgangers die zich bevinden op een trottoir, een deel van de openbare weg voorbehouden voor voetgangers door het verkeersbord D9 of D10, een berm, een vluchtheuvel, een openbare weg gesignaleerd door F99a of F99b (speelstraat), of in een zone afgebakend door F12a/F12b of F103/F105. Dit omvat ook voetgangers die op de rijbaan gaan onder de voorziene voorwaarden.",
+      "explanation_ru": "Статья 40.1 Бельгийского дорожного кодекса прямо указывает, что водитель не должен подвергать опасности пешеходов, находящихся на тротуаре, части дороги, отведенной для пешеходов (знак D9/D10), обочине, островке безопасности, дороге, обозначенной F99a или F99b (игровая улица), или в зоне, ограниченной F12a/F12b или F103/F105. Это также включает пешеходов, движущихся по проезжей части при соблюдении установленных условий."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon l'article 40.2, en présence de quels groupes de personnes un conducteur doit-il faire preuve d'une prudence accrue, voire ralentir ou s'arrêter ?",
+      "text_nl": "Volgens artikel 40.2, bij de aanwezigheid van welke groepen personen moet een bestuurder extra voorzichtig zijn, en zo nodig vertragen of stoppen?",
+      "text_ru": "Согласно статье 40.2, при присутствии каких групп лиц водитель должен проявлять повышенную осторожность, а при необходимости замедлиться или остановиться?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement en présence d'enfants.",
+          "text_nl": "Alleen in aanwezigheid van kinderen.",
+          "text_ru": "Только в присутствии детей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En présence d'enfants, de personnes âgées, de personnes handicapées (notamment les aveugles avec canne blanche/jaune et les personnes en fauteuil roulant manuel ou électrique ne dépassant pas l'allure du pas).",
+          "text_nl": "In aanwezigheid van kinderen, bejaarden, personen met een handicap (in het bijzonder blinden met een witte/gele stok en personen in een handmatige of elektrische rolstoel die niet sneller dan stapvoets rijden).",
+          "text_ru": "В присутствии детей, пожилых людей, инвалидов (в частности, слепых с белой/желтой тростью и лиц на ручной или электрической коляске, движущихся не быстрее шага).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement en présence de personnes âgées.",
+          "text_nl": "Alleen in aanwezigheid van bejaarden.",
+          "text_ru": "Только в присутствии пожилых людей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40.2 stipule clairement que le conducteur doit redoubler de prudence en présence d'enfants, de personnes âgées ou de personnes handicapées. Il précise également que cela inclut les aveugles munis d'une canne blanche ou jaune et les personnes handicapées conduisant une voiturette manuelle ou électrique ne dépassant pas l'allure du pas. Dans ces situations, le conducteur doit ralentir et, au besoin, s'arrêter.",
+      "explanation_nl": "Artikel 40.2 stelt duidelijk dat de bestuurder dubbel voorzichtig moet zijn in aanwezigheid van kinderen, bejaarden of personen met een handicap. Het specificeert ook dat dit blinden met een witte of gele stok en personen met een handicap die een voertuig besturen dat zij zelf voortbewegen of dat uitgerust is met een elektrische motor waarmee niet sneller dan stapvoets kan gereden worden, omvat. In deze situaties moet de bestuurder vertragen en, indien nodig, stoppen.",
+      "explanation_ru": "Статья 40.2 четко гласит, что водитель должен проявлять повышенную осторожность при присутствии детей, пожилых людей или инвалидов. Она также уточняет, что это включает слепых с белой или желтой тростью и инвалидов, управляющих ручной или электрической коляской, движущейся не быстрее шага. В этих ситуациях водитель должен замедлиться и, при необходимости, остановиться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un passage pour piétons où la circulation n'est pas réglée par un agent ou des feux de circulation. Quelle est la première action que vous devez entreprendre en tant que conducteur selon l'article 40.4.2 ?",
+      "text_nl": "U nadert een zebrapad waar het verkeer niet geregeld wordt door een agent of verkeerslichten. Welke eerste actie moet u als bestuurder ondernemen volgens artikel 40.4.2?",
+      "text_ru": "Вы приближаетесь к пешеходному переходу, где движение не регулируется сотрудником или светофором. Какое первое действие вы должны предпринять как водитель согласно статье 40.4.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour traverser rapidement avant que des piétons n'arrivent.",
+          "text_nl": "Versnellen om snel over te steken voordat er voetgangers aankomen.",
+          "text_ru": "Ускориться, чтобы быстро пересечь переход, пока не появились пешеходы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter immédiatement, même si aucun piéton n'est visible.",
+          "text_nl": "Onmiddellijk stoppen, zelfs als er geen voetganger zichtbaar is.",
+          "text_ru": "Немедленно остановиться, даже если пешеход не виден.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Modérer votre vitesse et vous préparer à vous arrêter si nécessaire.",
+          "text_nl": "Uw snelheid matigen en u voorbereiden om indien nodig te stoppen.",
+          "text_ru": "Снизить скорость и подготовиться к остановке при необходимости.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 40.4.2 précise qu'aux endroits où la circulation n'est pas réglée par un agent qualifié ou par des signaux lumineux de circulation, le conducteur ne peut s'approcher d'un passage pour piétons qu'à allure modérée. Cela implique de réduire sa vitesse et d'être prêt à s'arrêter pour céder le passage aux piétons.",
+      "explanation_nl": "Artikel 40.4.2 specificeert dat op plaatsen waar het verkeer niet geregeld wordt door een bevoegd agent of verkeerslichten, de bestuurder een zebrapad slechts met matige snelheid mag naderen. Dit houdt in dat de snelheid moet worden verminderd en men klaar moet zijn om te stoppen om voetgangers voor te laten gaan.",
+      "explanation_ru": "Статья 40.4.2 уточняет, что в местах, где движение не регулируется уполномоченным сотрудником или светофорами, водитель может приближаться к пешеходному переходу только на умеренной скорости. Это подразумевает снижение скорости и готовность остановиться, чтобы уступить дорогу пешеходам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez dans une rue où des enfants jouent. Le signal F99a (rue réservée au jeu) est présent. Selon l'article 40.1, quelle règle devez-vous impérativement respecter ?",
+      "text_nl": "U rijdt in een straat waar kinderen spelen. Het bord F99a (speelstraat) is aanwezig. Welke regel moet u volgens artikel 40.1 absoluut respecteren?",
+      "text_ru": "Вы едете по улице, где играют дети. Присутствует знак F99a (игровая улица). Какое правило вы должны обязательно соблюдать согласно статье 40.1?",
+      "image": {
+        "sign_code": "F99a",
+        "generation_prompt": "Belgian road sign F99a indicating a play street."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez circuler à vitesse normale tant qu'il n'y a pas de danger immédiat.",
+          "text_nl": "U mag met normale snelheid rijden zolang er geen onmiddellijk gevaar is.",
+          "text_ru": "Вы можете двигаться с нормальной скоростью, пока нет непосредственной опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ne devez pas mettre en danger les piétons qui se trouvent dans cette rue réservée au jeu.",
+          "text_nl": "U mag de voetgangers die zich in deze speelstraat bevinden niet in gevaar brengen.",
+          "text_ru": "Вы не должны подвергать опасности пешеходов, находящихся на этой игровой улице.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter et attendre que les enfants aient fini de jouer.",
+          "text_nl": "U moet stoppen en wachten tot de kinderen klaar zijn met spelen.",
+          "text_ru": "Вы должны остановиться и ждать, пока дети не закончат играть.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40.1 interdit au conducteur de mettre en danger les piétons. Le signal F99a indique une 'rue réservée au jeu', ce qui signifie que les piétons, y compris les enfants qui jouent, ont la priorité et ne doivent pas être mis en danger. Cela implique une vigilance accrue et une adaptation de la vitesse.",
+      "explanation_nl": "Artikel 40.1 verbiedt de bestuurder om voetgangers in gevaar te brengen. Het verkeersbord F99a geeft een 'speelstraat' aan, wat betekent dat voetgangers, inclusief spelende kinderen, prioriteit hebben en geen gevaar mogen lopen. Dit vereist verhoogde waakzaamheid en snelheidsaanpassing.",
+      "explanation_ru": "Статья 40.1 запрещает водителю подвергать опасности пешеходов. Знак F99a обозначает 'игровую улицу', что означает, что пешеходы, включая играющих детей, имеют приоритет и не должны подвергаться опасности. Это требует повышенной бдительности и адаптации скорости."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un autobus scolaire s'est arrêté pour faire descendre des passagers. Il n'y a pas de refuge à cet arrêt. Vous circulez derrière l'autobus. Quelle est votre obligation selon l'article 40.3.2 ?",
+      "text_nl": "Een schoolbus is gestopt om passagiers uit te laten stappen. Er is geen vluchtheuvel bij deze halte. U rijdt achter de bus. Wat is uw verplichting volgens artikel 40.3.2?",
+      "text_ru": "Школьный автобус остановился, чтобы высадить пассажиров. На этой остановке нет островка безопасности. Вы едете позади автобуса. Какова ваша обязанность согласно статье 40.3.2?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez dépasser l'autobus à allure normale s'il n'y a pas de circulation en sens inverse.",
+          "text_nl": "U mag de bus inhalen met normale snelheid als er geen tegemoetkomend verkeer is.",
+          "text_ru": "Вы можете обогнать автобус с нормальной скоростью, если нет встречного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez ralentir et, si nécessaire, vous arrêter pour permettre aux voyageurs de descendre en toute sécurité vers le trottoir ou l'accotement.",
+          "text_nl": "U moet vertragen en, indien nodig, stoppen om de reizigers veilig naar het trottoir of de berm te laten gaan.",
+          "text_ru": "Вы должны замедлиться и, при необходимости, остановиться, чтобы позволить пассажирам безопасно пройти к тротуару или обочине.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez continuer à rouler mais sans gêner les voyageurs.",
+          "text_nl": "U mag blijven rijden, maar zonder de reizigers te hinderen.",
+          "text_ru": "Вы можете продолжать движение, но не мешая пассажирам.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 40.3.2 stipule que lorsqu'il n'y a pas de refuge à un point d'arrêt d'un véhicule de transport en commun, le conducteur circulant du côté où s'effectue l'embarquement ou le débarquement doit permettre aux voyageurs d'accéder au véhicule ou de rejoindre le trottoir/accotement en toute sécurité. Pour cela, il doit s'arrêter et ne peut se remettre en mouvement qu'à allure modérée.",
+      "explanation_nl": "Artikel 40.3.2 stelt dat wanneer er geen vluchtheuvel is bij een halte van een openbaarvervoersmiddel, de bestuurder die rijdt aan de kant waar het in- of uitstappen plaatsvindt, de reizigers veilig moet laten instappen of het trottoir/de berm moet laten bereiken. Hiervoor moet hij stoppen en mag hij pas met matige snelheid verder rijden.",
+      "explanation_ru": "Статья 40.3.2 гласит, что при отсутствии островка безопасности на остановке общественного транспорта водитель, движущийся со стороны посадки или высадки, должен позволить пассажирам безопасно сесть в транспортное средство или добраться до тротуара/обочины. Для этого он должен остановиться и может возобновить движение только на умеренной скорости."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "27e63722f8c3",
@@ -77,6 +251,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-03T10:54:25Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

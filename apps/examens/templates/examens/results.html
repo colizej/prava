@@ -2,6 +2,7 @@
 {% block title %}Résultats — {{ SITE_NAME }}{% endblock %}
 {% block content %}
 <div class="max-w-3xl mx-auto px-4 py-12">
+
     {# Score card #}
     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 text-center mb-8">
         <div class="text-6xl mb-4">{% if attempt.passed %}🎉{% else %}💪{% endif %}</div>
@@ -13,22 +14,86 @@
         </div>
         <p class="text-gray-500">{{ attempt.score }} / {{ attempt.total_questions }} bonnes réponses</p>
         {% if attempt.time_spent %}
-        <p class="text-sm text-gray-400 mt-2">Temps: {{ attempt.time_spent|floatformat:0 }}s</p>
+        <p class="text-sm text-gray-400 mt-2">Temps : {{ attempt.time_spent|floatformat:0 }}s</p>
         {% endif %}
     </div>
 
     {# Detailed results #}
     {% if detailed_results %}
-    <h2 class="text-xl font-bold text-gray-900 mb-4">Détail des réponses</h2>
+    <div class="flex items-center justify-between mb-4">
+        <h2 class="text-xl font-bold text-gray-900">Détail des réponses</h2>
+        {% if default_list %}
+        <span class="text-xs text-gray-400">{{ default_list.icon }} Cliquez sur le signet pour sauvegarder</span>
+        {% endif %}
+    </div>
+
+    {# JS: initial set of already-saved ids #}
+    <script>
+        const _savedQuestionsSet = new Set({{ saved_ids_json }});
+        const _toggleSavedUrl = '{% url "examens:api_toggle_saved" %}';
+        const _csrfToken = '{{ csrf_token }}';
+        {% if default_list %}const _defaultListSlug = '{{ default_list.slug }}';{% else %}const _defaultListSlug = null;{% endif %}
+    </script>
+
     <div class="space-y-4">
         {% for result in detailed_results %}
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-white rounded-lg shadow-sm border {% if result.is_correct %}border-green-100{% else %}border-red-100{% endif %} p-4"
+             x-data="{
+                saved: _savedQuestionsSet.has({{ result.question.id }}),
+                loading: false,
+                toggle() {
+                    if (!_defaultListSlug || this.loading) return;
+                    this.loading = true;
+                    const self = this;
+                    fetch(_toggleSavedUrl, {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json', 'X-CSRFToken': _csrfToken},
+                        body: JSON.stringify({question_id: {{ result.question.id }}, list_slug: _defaultListSlug}),
+                    })
+                    .then(r => r.json())
+                    .then(d => { self.saved = d.saved; self.loading = false; })
+                    .catch(() => { self.loading = false; });
+                }
+             }">
             <div class="flex items-start gap-3">
-                <span class="text-lg">{% if result.is_correct %}✅{% else %}❌{% endif %}</span>
-                <div class="flex-1">
+                <span class="text-lg mt-0.5 shrink-0">{% if result.is_correct %}✅{% else %}❌{% endif %}</span>
+                <div class="flex-1 min-w-0">
                     <p class="font-medium text-gray-900">{{ result.question.text }}</p>
-                    <p class="text-sm text-gray-500 mt-1">Votre réponse: {{ result.selected }}</p>
+                    <p class="text-sm text-gray-500 mt-1">Votre réponse : <span class="font-medium">{{ result.selected }}</span></p>
+                    {% if not result.is_correct %}
+                        {% with correct=result.question.correct_option %}
+                        {% if correct %}
+                        <p class="text-sm text-green-700 mt-0.5">Bonne réponse : <span class="font-medium">{{ correct.letter }}. {{ correct.text }}</span></p>
+                        {% endif %}
+                        {% endwith %}
+                    {% endif %}
+                    {% if result.question.explanation %}
+                    <p class="text-xs text-gray-400 mt-1 italic">{{ result.question.explanation }}</p>
+                    {% endif %}
+                    {% if result.question.code_article %}
+                    <a href="{{ result.question.code_article.get_absolute_url }}"
+                       class="inline-block mt-1 text-xs text-blue-500 hover:underline">
+                        📖 Art. {{ result.question.code_article.article_number }}
+                    </a>
+                    {% endif %}
                 </div>
+
+                {# Bookmark / save button #}
+                {% if default_list %}
+                <button @click="toggle()"
+                        :disabled="loading"
+                        :title="saved ? 'Retirer de « {{ default_list.name }} »' : 'Ajouter à « {{ default_list.name }} »'"
+                        class="shrink-0 p-2 rounded-lg transition-all duration-150 hover:scale-110 focus:outline-none"
+                        :class="saved ? 'text-orange-500 bg-orange-50 hover:bg-orange-100' : 'text-gray-300 bg-gray-50 hover:bg-gray-100 hover:text-gray-500'">
+                    <svg x-show="!loading" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M5 4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v18l-7-3.5L5 22V4z"/>
+                    </svg>
+                    <svg x-show="loading" class="w-5 h-5 animate-spin text-gray-400" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
+                    </svg>
+                </button>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
@@ -36,13 +101,22 @@
     {% endif %}
 
     {# Actions #}
-    <div class="flex gap-4 mt-8">
-        <a href="{% url 'examens:practice' %}" class="flex-1 bg-blue-600 text-white py-3 rounded-lg font-semibold text-center hover:bg-blue-700 transition">
-            Recommencer
+    <div class="flex flex-wrap gap-3 mt-8">
+        <a href="{% url 'examens:practice' %}"
+           class="flex-1 min-w-[140px] bg-blue-600 text-white py-3 rounded-lg font-semibold text-center hover:bg-blue-700 transition">
+            🔄 Recommencer
         </a>
-        <a href="{% url 'examens:categories' %}" class="flex-1 bg-gray-100 text-gray-700 py-3 rounded-lg font-semibold text-center hover:bg-gray-200 transition">
+        {% if default_list %}
+        <a href="{% url 'examens:my_list_slug' default_list.slug %}"
+           class="flex-1 min-w-[140px] bg-orange-50 text-orange-700 border border-orange-200 py-3 rounded-lg font-semibold text-center hover:bg-orange-100 transition">
+            {{ default_list.icon }} Mes révisions
+        </a>
+        {% endif %}
+        <a href="{% url 'examens:categories' %}"
+           class="flex-1 min-w-[140px] bg-gray-100 text-gray-700 py-3 rounded-lg font-semibold text-center hover:bg-gray-200 transition">
             Catégories
         </a>
     </div>
+
 </div>
 {% endblock %}

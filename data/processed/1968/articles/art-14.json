@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "14",
+  "slug": "art-14",
+  "structure": {
+    "titre": "II",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 14",
+  "title_nl": "Artikel 14",
+  "title_ru": "Статья 14",
+  "content_md_fr": "(Abrogé)\n\n#### Section 3. Passages à niveau et traversées de chemins de fer",
+  "content_md_nl": "(Opgeheven)\n\n#### Afdeling 3. Overwegen en kruisingen met spoorwegen",
+  "content_md_ru": "(Отменено)\n\n#### Раздел 3. Уровневые и железнодорожные переезды",
+  "content_html_fr": "<p>(Abrogé)</p><h4 id=\"ofbkzipiaj\"><strong>Section 3. Passages à niveau et traversées de chemins de fer</strong></h4>",
+  "content_html_nl": "<p>(Opgeheven)</p><h4 id=\"4imjrbl8tn\"><strong>Afdeling 3. Overwegen en kruisingen met spoorwegen</strong></h4>",
+  "full_text_fr": "(Abrogé)\n\nSection 3. Passages à niveau et traversées de chemins de fer",
+  "full_text_nl": "(Opgeheven)\n\nAfdeling 3. Overwegen en kruisingen met spoorwegen",
+  "full_text_ru": "(Отменено)\n\nРаздел 3. Уровневые и железнодорожные переезды",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "tnu4hyr4ur",
+  "anchor_id_nl": "f67meseoku",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "834bb21a7d03",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

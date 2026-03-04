@@ -26,7 +26,193 @@
   "anchor_id_fr": "fyzfygp2y7",
   "anchor_id_nl": "gfvqglunut",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon l'article 55.3, qu'est-il interdit de faire avec des animaux attelés ou montés dans les agglomérations ?",
+      "text_nl": "Volgens artikel 55.3, wat is verboden te doen met aangespannen of bereden dieren binnen de bebouwde kommen?",
+      "text_ru": "Согласно статье 55.3, что запрещено делать с запряженными или верховыми животными в населенных пунктах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An illustration showing horses galloping within a city street, symbolizing a prohibited action."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les laisser galoper",
+          "text_nl": "Ze te laten galopperen",
+          "text_ru": "Позволять им скакать",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les faire marcher au pas",
+          "text_nl": "Ze te laten draven",
+          "text_ru": "Заставлять их идти шагом",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les faire traverser la chaussée",
+          "text_nl": "Ze het rijdek te laten oversteken",
+          "text_ru": "Заставлять их пересекать проезжую часть",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 55.3 stipule explicitement qu'il est interdit de laisser galoper les animaux attelés ou montés dans les agglomérations.",
+      "explanation_nl": "Artikel 55.3 stelt uitdrukkelijk dat het verboden is om aangespannen of bereden dieren te laten galopperen binnen de bebouwde kommen.",
+      "explanation_ru": "Статья 55.3 прямо указывает, что в населенных пунктах запрещено позволять запряженным или верховым животным скакать."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que doivent pouvoir faire le conducteur et les convoyeurs d'animaux selon l'article 55.2 ?",
+      "text_nl": "Wat moeten de bestuurder en de begeleiders van dieren kunnen doen volgens artikel 55.2?",
+      "text_ru": "Что должны уметь делать водитель и сопровождающие животных согласно статье 55.2?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An illustration depicting a person controlling a herd of animals, emphasizing control and safety."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Se tenir loin des animaux pour ne pas les effrayer",
+          "text_nl": "Ver van de dieren blijven om ze niet bang te maken",
+          "text_ru": "Держаться подальше от животных, чтобы не напугать их",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Être en état de les maîtriser et d'empêcher qu'ils n'entravent la circulation",
+          "text_nl": "Ze kunnen in bedwang houden en beletten dat zij het verkeer belemmeren",
+          "text_ru": "Быть в состоянии контролировать их и предотвращать препятствия движению",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Se concentrer uniquement sur la conduite des animaux sans se soucier de la circulation",
+          "text_nl": "Zich uitsluitend concentreren op het leiden van de dieren zonder zich zorgen te maken over het verkeer",
+          "text_ru": "Сосредоточиться только на управлении животными, не беспокоясь о движении",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 55.2 précise que le conducteur et les convoyeurs doivent constamment se tenir à proximité des animaux et être en état de les maîtriser et d'empêcher qu'ils n'entravent la circulation et ne provoquent d'accident.",
+      "explanation_nl": "Artikel 55.2 specificeert dat de bestuurders en begeleiders voortdurend in de nabijheid van de dieren moeten blijven, ze kunnen in bedwang houden en beletten dat zij het verkeer belemmeren en ongevallen veroorzaken.",
+      "explanation_ru": "Статья 55.2 уточняет, что водители и сопровождающие должны постоянно находиться рядом с животными, быть в состоянии контролировать их и предотвращать препятствия движению и несчастные случаи."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route de campagne et apercevez au loin un groupe de chevaux avec un cavalier. Ils se rapprochent de votre voie. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een landweg en ziet in de verte een groep paarden met een ruiter. Ze naderen uw rijstrook. Wat moet u doen?",
+      "text_ru": "Вы едете по проселочной дороге и издалека видите группу лошадей с всадником. Они приближаются к вашей полосе. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A driver's view of a rural road ahead, with a rider and horses approaching from a distance on the same road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à la même vitesse et klaxonner pour signaler votre présence.",
+          "text_nl": "Doorrijden met dezelfde snelheid en claxonneren om uw aanwezigheid te signaleren.",
+          "text_ru": "Продолжать движение с той же скоростью и посигналить, чтобы обозначить свое присутствие.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et, si nécessaire, vous arrêter pour laisser passer les animaux en toute sécurité.",
+          "text_nl": "Vertragen en, indien nodig, stoppen om de dieren veilig te laten passeren.",
+          "text_ru": "Замедлиться и, при необходимости, остановиться, чтобы животные могли безопасно пройти.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accélérer pour passer avant qu'ils n'arrivent sur votre voie.",
+          "text_nl": "Versnellen om erlangs te gaan voordat ze op uw rijstrook komen.",
+          "text_ru": "Ускориться, чтобы проехать до того, как они окажутся на вашей полосе.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément à l'article 55.2, il faut empêcher que les animaux n'entravent la circulation et ne provoquent d'accident. Ralentir et s'arrêter si nécessaire est la meilleure façon d'assurer la sécurité.",
+      "explanation_nl": "Volgens artikel 55.2 moet worden voorkomen dat dieren het verkeer belemmeren en ongevallen veroorzaken. Vertragen en indien nodig stoppen is de beste manier om de veiligheid te waarborgen.",
+      "explanation_ru": "В соответствии со статьей 55.2 необходимо предотвращать препятствия движению и несчастные случаи, вызванные животными. Замедление и, при необходимости, остановка - лучший способ обеспечить безопасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous approchez d'un passage clouté où un groupe d'enfants conduit un petit troupeau de moutons pour traverser la route. Que devez-vous faire ?",
+      "text_nl": "U nadert een zebrapad waar een groep kinderen een kleine kudde schapen over de weg leidt. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к пешеходному переходу, где группа детей ведет небольшое стадо овец через дорогу. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car approaching a pedestrian crossing where children are guiding a flock of sheep across the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer rapidement pour ne pas les gêner.",
+          "text_nl": "Snel passeren om ze niet te hinderen.",
+          "text_ru": "Быстро проехать, чтобы не мешать им.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Attendre que les enfants et les moutons aient entièrement traversé, même si cela prend du temps.",
+          "text_nl": "Wachten tot de kinderen en de schapen volledig zijn overgestoken, zelfs als het enige tijd duurt.",
+          "text_ru": "Подождать, пока дети и овцы полностью перейдут дорогу, даже если это займет некоторое время.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour les encourager à se dépêcher.",
+          "text_nl": "Claxonneren om hen aan te moedigen zich te haasten.",
+          "text_ru": "Посигналить, чтобы побудить их поторопиться.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 55.1 et 55.2 impliquent que les conducteurs doivent faire preuve de prudence et s'assurer que les animaux (et les personnes qui les conduisent) puissent traverser en toute sécurité, sans entraver la circulation de manière dangereuse. Donner la priorité aux animaux et aux enfants est essentiel.",
+      "explanation_nl": "Artikel 55.1 en 55.2 impliceren dat bestuurders voorzichtig moeten zijn en ervoor moeten zorgen dat dieren (en de mensen die ze leiden) veilig kunnen oversteken, zonder het verkeer gevaarlijk te belemmeren. Prioriteit geven aan dieren en kinderen is essentieel.",
+      "explanation_ru": "Статьи 55.1 и 55.2 подразумевают, что водители должны проявлять осторожность и обеспечивать безопасное пересечение дороги животными (и людьми, которые их ведут), не создавая опасных препятствий движению. Приоритет для животных и детей имеет решающее значение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous roulez sur une route en dehors d'une agglomération et voyez deux cavaliers côte à côte sur la chaussée devant vous. Quelle est la règle concernant leur positionnement ?",
+      "text_nl": "U rijdt op een weg buiten een bebouwde kom en ziet twee ruiters naast elkaar op de rijbaan voor u. Wat is de regel betreffende hun positionering?",
+      "text_ru": "Вы едете по дороге за пределами населенного пункта и видите двух всадников, едущих рядом по проезжей части перед вами. Каково правило относительно их расположения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A view from a car behind two horse riders who are riding side-by-side on a road outside of a town."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent rouler l'un derrière l'autre.",
+          "text_nl": "Ze moeten achter elkaar rijden.",
+          "text_ru": "Они должны ехать друг за другом.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils peuvent circuler à deux de front.",
+          "text_nl": "Ze mogen met tweeën naast elkaar rijden.",
+          "text_ru": "Они могут ехать вдвоем в ряд.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent rouler sur le bas-côté.",
+          "text_nl": "Ze moeten op de pechstrook rijden.",
+          "text_ru": "Они должны ехать по обочине.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 55.4 stipule que les cavaliers qui empruntent la chaussée peuvent circuler à deux de front.",
+      "explanation_nl": "Artikel 55.4 stelt dat ruiters die de rijbaan volgen, met tweeën naast elkaar mogen rijden.",
+      "explanation_ru": "Статья 55.4 гласит, что всадники, движущиеся по проезжей части, могут ехать вдвоем в ряд."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "9cdad0600ff0",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-04T10:39:52Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

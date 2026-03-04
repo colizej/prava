@@ -1,0 +1,1522 @@
+{
+  "law_id": "1968",
+  "built_at": "2026-03-04T11:07:49Z",
+  "total_articles": 97,
+  "structure": [
+    {
+      "type": "titre",
+      "number": "I",
+      "text": "Titre I. Réglementation",
+      "id": "n6zb53ysbm"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Règlements généraux",
+      "id": "kadgh4ayxl"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Règlements complémentaires",
+      "id": "tu32ep0adp"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Commissions consultatives",
+      "id": "7bnvab5hdu"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. Régime propre aux autoroutes",
+      "id": "xqofafvm47"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "Chapitre V. Épreuves et compétitions sportives",
+      "id": "pz6evtttsj"
+    },
+    {
+      "type": "chapitre",
+      "number": "VI",
+      "text": "Chapitre VI. Règlements de police communaux",
+      "id": "zulq8nmn2n"
+    },
+    {
+      "type": "chapitre",
+      "number": "VII",
+      "text": "Chapitre VII. Injonctions des agents qualifiés",
+      "id": "nne1pjxtei"
+    },
+    {
+      "type": "chapitre",
+      "number": "VIII",
+      "text": "Chapitre VIII. Publication",
+      "id": "mvew4vbkm0"
+    },
+    {
+      "type": "titre",
+      "number": "II",
+      "text": "Titre II. Signalisation",
+      "id": "p4zzxdmbbn"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Placement de la signalisation",
+      "id": "exnnv2f1pl"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Charges de la signalisation",
+      "id": "jf9rsuhamh"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Contrôle de la signalisation et exécution d'office",
+      "id": "pezizpkee0"
+    },
+    {
+      "type": "titre",
+      "number": "III",
+      "text": "Titre III. Permis de conduire",
+      "id": "llgvxbaobn"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Règles générales",
+      "id": "rzbcxj6d20"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Conditions d'obtention",
+      "id": "02beijzp2w"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. (Abrogé)",
+      "id": "seqm8ejxcv"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. Règles particulières",
+      "id": "rc37llquyc"
+    },
+    {
+      "type": "titre",
+      "number": "IV",
+      "text": "Titre IV. Dispositions pénales et mesures de sûreté",
+      "id": "bnrjlmddec"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Définition",
+      "id": "hmu7fmz1nu"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Infractions aux règlements",
+      "id": "na6e5mfp1q"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Infractions relatives au permis de conduire et à la licence d'apprentissage",
+      "id": "jj5tkgg3ib"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. Délit de fuite",
+      "id": "cxtcbwxocv"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "Chapitre V. Imprégnation alcoolique et ivresse",
+      "id": "hbvzg6930d"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "Chapitre Vbis. Autres substances qui influencent la capacité de conduite",
+      "id": "8hzsld1a41"
+    },
+    {
+      "type": "chapitre",
+      "number": "VI",
+      "text": "Chapitre VI. Déchéance du droit de conduire",
+      "id": "txasggyiy9"
+    },
+    {
+      "type": "chapitre",
+      "number": "VII",
+      "text": "Chapitre VII. Immobilisation et confiscation des véhicules",
+      "id": "wmzmmmruuf"
+    },
+    {
+      "type": "chapitre",
+      "number": "VIII",
+      "text": "Chapitre VIII. Retrait immédiat du permis de conduire ou de la licence d'apprentissage",
+      "id": "jomaxuuq7f"
+    },
+    {
+      "type": "chapitre",
+      "number": "VIII",
+      "text": "Chapitre VIIIbis. L'immobilisation du véhicule comme mesure de sûreté",
+      "id": "kunafekjzy"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre IX. Imprégnation alcoolique: test de l'haleine, analyse de l'haleine et interdiction temporaire de conduire",
+      "id": "pentzohbup"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre IXbis. Autres substances qui influencent la capacité de conduite: test et interdiction temporaire de conduire",
+      "id": "ebdmtdsywi"
+    },
+    {
+      "type": "chapitre",
+      "number": "X",
+      "text": "Chapitre X. Véhicules équipés d'un éthylotest antidémarrage en cas de condamnation",
+      "id": "lqywlfefg9"
+    },
+    {
+      "type": "titre",
+      "number": "V",
+      "text": "Titre V. Procédure pénale, ordre de paiement et procédure judiciaire civile",
+      "id": "7fwes9a9iu"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Recherche et constatation des infractions",
+      "id": "ged8y7zisq"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Extinction éventuelle de l'action publique moyennant le paiement d'une somme ou après le suivi d’une formation",
+      "id": "uizwjho7bl"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II/1. Ordre de paiement",
+      "id": "ocnpndmkxh"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Dommages-intérêts",
+      "id": "1kawswmtin"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. Personnes civilement responsables de l'amende",
+      "id": "osgb825mhh"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IVbis. Identification du contrevenant",
+      "id": "emwgxvuu6r"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "Chapitre V. Prescription",
+      "id": "gwotnz4cjc"
+    },
+    {
+      "type": "titre",
+      "number": "VI",
+      "text": "Titre VI. Dispositions diverses",
+      "id": "9mhkbcawaa"
+    },
+    {
+      "type": "titre",
+      "number": "VII",
+      "text": "Titre VII. Disposition transitoire",
+      "id": "v9rosdamwo"
+    }
+  ],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "I",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 1",
+      "title_nl": "Artikel 1",
+      "title_ru": "Статья 1",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": "I",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 2",
+      "title_nl": "Artikel 2",
+      "title_ru": "Статья 2",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2bis",
+      "slug": "art-2bis",
+      "structure": {
+        "titre": "I",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 2bis",
+      "title_nl": "Artikel 2bis",
+      "title_ru": "Статья 2a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": "I",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 3 (Uniquement Région wallonne)",
+      "title_nl": "Artikel 3 (Enkel Waals Gewest)",
+      "title_ru": "Статья 3 (только для Валлонского региона)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": "I",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4",
+      "title_nl": "Artikel 4",
+      "title_ru": "Статья 4",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": "I",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 5",
+      "title_nl": "Artikel 5",
+      "title_ru": "Статья 5",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": "I",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 6",
+      "title_nl": "Artikel 6",
+      "title_ru": "Статья 6",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": "I",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 7",
+      "title_nl": "Artikel 7",
+      "title_ru": "Статья 7",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": "I",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 8",
+      "title_nl": "Artikel 8",
+      "title_ru": "Статья 8",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": "I",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 9",
+      "title_nl": "Artikel 9",
+      "title_ru": "Статья 9",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": "I",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 10",
+      "title_nl": "Artikel 10",
+      "title_ru": "Статья 10",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": "I",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 11",
+      "title_nl": "Artikel 11",
+      "title_ru": "Статья 11",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "12",
+      "slug": "art-12",
+      "structure": {
+        "titre": "I",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 12 (Région de Bruxelles-Capitale et Région wallonne)",
+      "title_nl": "Artikel 12 (Vlaams Gewest)",
+      "title_ru": "Статья 12 (Фламандский регион)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "12",
+      "slug": "art-12",
+      "structure": {
+        "titre": "I",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 12 (Région flamande)",
+      "title_nl": "Artikel 12 (Vlaams Gewest)",
+      "title_ru": "Статья 12 (Фламандский регион)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "13",
+      "slug": "art-13",
+      "structure": {
+        "titre": "II",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 13",
+      "title_nl": "Artikel 13",
+      "title_ru": "Статья 13",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": "II",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 14",
+      "title_nl": "Artikel 14",
+      "title_ru": "Статья 14",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": "II",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 15",
+      "title_nl": "Artikel 15",
+      "title_ru": "Статья 15",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": "II",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 16",
+      "title_nl": "Artikel 16",
+      "title_ru": "Статья 16",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": "II",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 17",
+      "title_nl": "Artikel 17",
+      "title_ru": "Статья 17",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": "II",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 18",
+      "title_nl": "Artikel 18",
+      "title_ru": "Статья 18",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": "II",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 19",
+      "title_nl": "Artikel 19",
+      "title_ru": "Статья 19",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": "II",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 20",
+      "title_nl": "Artikel 20",
+      "title_ru": "Статья 20",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 21",
+      "title_nl": "Artikel 21",
+      "title_ru": "Статья 21",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22",
+      "slug": "art-22",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 22",
+      "title_nl": "Artikel 22",
+      "title_ru": "Статья 22",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 23 (Région de Bruxelles-Capitale et Région wallonne)",
+      "title_nl": "Artikel 23 (Vlaams Gewest)",
+      "title_ru": "Статья 23 (Фламандский регион)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 23 (Région flamande)",
+      "title_nl": "Artikel 23 (Vlaams Gewest)",
+      "title_ru": "Статья 23 (Фламандский регион)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "24",
+      "slug": "art-24",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 24",
+      "title_nl": "Artikel 24",
+      "title_ru": "Статья 24",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 25",
+      "title_nl": "Artikel 25",
+      "title_ru": "Статья 25",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26",
+      "title_nl": "Artikel 26",
+      "title_ru": "Статья 26",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27",
+      "slug": "art-27",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 27 (Région de Bruxelles-Capitale et Région wallonne)",
+      "title_nl": "Artikel 27 (Vlaams Gewest)",
+      "title_ru": "Статья 27 (Фламандский регион)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27",
+      "slug": "art-27",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 27 (Région flamande)",
+      "title_nl": "Artikel 27 (Vlaams Gewest)",
+      "title_ru": "Статья 27 (Фламандский регион)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27/1",
+      "slug": "art-27-1",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 27/1 (uniquement Région flamande)",
+      "title_nl": "Artikel 27/1 (enkel Vlaams Gewest)",
+      "title_ru": "Статья 27/1 (только для Фламандского региона)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "28",
+      "slug": "art-28",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 28",
+      "title_nl": "Artikel 28",
+      "title_ru": "Статья 28",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29",
+      "slug": "art-29",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 29",
+      "title_nl": "Artikel 29",
+      "title_ru": "Статья 29",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29bis",
+      "slug": "art-29bis",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 29bis",
+      "title_nl": "Artikel 29bis",
+      "title_ru": "Статья 29a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29ter",
+      "slug": "art-29ter",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 29ter",
+      "title_nl": "Artikel 29ter",
+      "title_ru": "Статья 29ter",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29quater",
+      "slug": "art-29quater",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 29quater (uniquement Région flamande)",
+      "title_nl": "Artikel 29quater (enkel Vlaams Gewest)",
+      "title_ru": "Статья 29c (только для Фламандского региона)",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30",
+      "slug": "art-30",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 30",
+      "title_nl": "Artikel 30",
+      "title_ru": "Статья 30",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "31",
+      "slug": "art-31",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 31",
+      "title_nl": "Artikel 31",
+      "title_ru": "Статья 31",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 32",
+      "title_nl": "Artikel 32",
+      "title_ru": "Статья 32",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33",
+      "slug": "art-33",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 33",
+      "title_nl": "Artikel 33",
+      "title_ru": "Статья 33",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 34",
+      "title_nl": "Artikel 34",
+      "title_ru": "Статья 34",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 35",
+      "title_nl": "Artikel 35",
+      "title_ru": "Статья 35",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 36",
+      "title_nl": "Artikel 36",
+      "title_ru": "Статья 36",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 37",
+      "title_nl": "Artikel 37",
+      "title_ru": "Статья 37",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37/1",
+      "slug": "art-37-1",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 37/1",
+      "title_nl": "Artikel 37/1",
+      "title_ru": "Статья 37/1",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37bis",
+      "slug": "art-37bis",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 37bis",
+      "title_nl": "Artikel 37bis",
+      "title_ru": "Статья 37a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "38",
+      "slug": "art-38",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 38",
+      "title_nl": "Artikel 38",
+      "title_ru": "Статья 38",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 39",
+      "title_nl": "Artikel 39",
+      "title_ru": "Статья 39",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "40",
+      "slug": "art-40",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 40",
+      "title_nl": "Artikel 40",
+      "title_ru": "Статья 40",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "41",
+      "slug": "art-41",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 41",
+      "title_nl": "Artikel 41",
+      "title_ru": "Статья 41",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "42",
+      "slug": "art-42",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 42",
+      "title_nl": "Artikel 42",
+      "title_ru": "Статья 42",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "43",
+      "slug": "art-43",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 43",
+      "title_nl": "Artikel 43",
+      "title_ru": "Статья 43",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "44",
+      "slug": "art-44",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 44",
+      "title_nl": "Artikel 44",
+      "title_ru": "Статья 44",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "45",
+      "slug": "art-45",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 45",
+      "title_nl": "Artikel 45",
+      "title_ru": "Статья 45",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "46",
+      "slug": "art-46",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 46",
+      "title_nl": "Artikel 46",
+      "title_ru": "Статья 46",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "47",
+      "slug": "art-47",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 47",
+      "title_nl": "Artikel 47",
+      "title_ru": "Статья 47",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "48",
+      "slug": "art-48",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 48",
+      "title_nl": "Artikel 48",
+      "title_ru": "Статья 48",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "49",
+      "slug": "art-49",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 49",
+      "title_nl": "Artikel 49",
+      "title_ru": "Статья 49",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "49/1",
+      "slug": "art-49-1",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 49/1",
+      "title_nl": "Artikel 49/1",
+      "title_ru": "Статья 49/1",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "50",
+      "slug": "art-50",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 50",
+      "title_nl": "Artikel 50",
+      "title_ru": "Статья 50",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "51",
+      "slug": "art-51",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 51",
+      "title_nl": "Artikel 51",
+      "title_ru": "Статья 51",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "52",
+      "slug": "art-52",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 52",
+      "title_nl": "Artikel 52",
+      "title_ru": "Статья 52",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "53",
+      "slug": "art-53",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 53",
+      "title_nl": "Artikel 53",
+      "title_ru": "Статья 53",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "54",
+      "slug": "art-54",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 54",
+      "title_nl": "Artikel 54",
+      "title_ru": "Статья 54",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "54bis",
+      "slug": "art-54bis",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 54bis",
+      "title_nl": "Artikel 54bis",
+      "title_ru": "Статья 54a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "55",
+      "slug": "art-55",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 55",
+      "title_nl": "Artikel 55",
+      "title_ru": "Статья 55",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "55bis",
+      "slug": "art-55bis",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 55bis",
+      "title_nl": "Artikel 55bis",
+      "title_ru": "Статья 55a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "56",
+      "slug": "art-56",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 56",
+      "title_nl": "Artikel 56",
+      "title_ru": "Статья 56",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "57",
+      "slug": "art-57",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 57",
+      "title_nl": "Artikel 57",
+      "title_ru": "Статья 57",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "58",
+      "slug": "art-58",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 58",
+      "title_nl": "Artikel 58",
+      "title_ru": "Статья 58",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "58bis",
+      "slug": "art-58bis",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 58bis",
+      "title_nl": "Artikel 58bis",
+      "title_ru": "Статья 58a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "59",
+      "slug": "art-59",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 59",
+      "title_nl": "Artikel 59",
+      "title_ru": "Статья 59",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "60",
+      "slug": "art-60",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 60",
+      "title_nl": "Artikel 60",
+      "title_ru": "Статья 60",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61",
+      "slug": "art-61",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 61",
+      "title_nl": "Artikel 61",
+      "title_ru": "Статья 61",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61bis",
+      "slug": "art-61bis",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 61bis",
+      "title_nl": "Artikel 61bis",
+      "title_ru": "Статья 61a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61ter",
+      "slug": "art-61ter",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 61ter",
+      "title_nl": "Artikel 61ter/1",
+      "title_ru": "Статья 61ter/1",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61ter",
+      "slug": "art-61ter",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 61ter/1",
+      "title_nl": "Artikel 61ter/1",
+      "title_ru": "Статья 61ter/1",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61quater",
+      "slug": "art-61quater",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 61quater",
+      "title_nl": "Artikel 61quater",
+      "title_ru": "Статья 61c",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61quinquies",
+      "slug": "art-61quinquies",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "X"
+      },
+      "title_fr": "Article 61quinquies",
+      "title_nl": "Artikel 61quinquies",
+      "title_ru": "Статья 61quinquies",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61sexies",
+      "slug": "art-61sexies",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "X"
+      },
+      "title_fr": "Article 61sexies",
+      "title_nl": "Artikel 61sexies",
+      "title_ru": "Статья 61секси",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "62",
+      "slug": "art-62",
+      "structure": {
+        "titre": "V",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 62",
+      "title_nl": "Artikel 62",
+      "title_ru": "Статья 62",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "62bis",
+      "slug": "art-62bis",
+      "structure": {
+        "titre": "V",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 62bis",
+      "title_nl": "Artikel 62bis",
+      "title_ru": "Статья 62a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "62ter",
+      "slug": "art-62ter",
+      "structure": {
+        "titre": "V",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 62ter",
+      "title_nl": "Artikel 62ter",
+      "title_ru": "Статья 62ter",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "63",
+      "slug": "art-63",
+      "structure": {
+        "titre": "V",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 63",
+      "title_nl": "Artikel 63",
+      "title_ru": "Статья 63",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "64",
+      "slug": "art-64",
+      "structure": {
+        "titre": "V",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 64",
+      "title_nl": "Artikel 64",
+      "title_ru": "Статья 64",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "65",
+      "slug": "art-65",
+      "structure": {
+        "titre": "V",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 65",
+      "title_nl": "Artikel 65",
+      "title_ru": "Статья 65",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "65/1",
+      "slug": "art-65-1",
+      "structure": {
+        "titre": "V",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 65/1",
+      "title_nl": "Artikel 65/1",
+      "title_ru": "Статья 65/1",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "66",
+      "slug": "art-66",
+      "structure": {
+        "titre": "V",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 66",
+      "title_nl": "Artikel 66",
+      "title_ru": "Статья 66",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "67",
+      "slug": "art-67",
+      "structure": {
+        "titre": "V",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 67",
+      "title_nl": "Artikel 67",
+      "title_ru": "Статья 67",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "67bis",
+      "slug": "art-67bis",
+      "structure": {
+        "titre": "V",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 67bis",
+      "title_nl": "Artikel 67bis",
+      "title_ru": "Статья 67a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "67ter",
+      "slug": "art-67ter",
+      "structure": {
+        "titre": "V",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 67ter",
+      "title_nl": "Artikel 67ter",
+      "title_ru": "Статья 67ter",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "68",
+      "slug": "art-68",
+      "structure": {
+        "titre": "V",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 68",
+      "title_nl": "Artikel 68",
+      "title_ru": "Статья 68",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "68/1",
+      "slug": "art-68-1",
+      "structure": {
+        "titre": "V",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 68/1",
+      "title_nl": "Artikel 68/1",
+      "title_ru": "Статья 68/1",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "69",
+      "slug": "art-69",
+      "structure": {
+        "titre": "VI",
+        "chapitre": null
+      },
+      "title_fr": "Article 69",
+      "title_nl": "Artikel 69",
+      "title_ru": "Статья 69",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "69bis",
+      "slug": "art-69bis",
+      "structure": {
+        "titre": "VI",
+        "chapitre": null
+      },
+      "title_fr": "Article 69bis",
+      "title_nl": "Artikel 69bis",
+      "title_ru": "Статья 69a",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "70",
+      "slug": "art-70",
+      "structure": {
+        "titre": "VII",
+        "chapitre": null
+      },
+      "title_fr": "Article 70",
+      "title_nl": "Artikel 70",
+      "title_ru": "Статья 70",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}

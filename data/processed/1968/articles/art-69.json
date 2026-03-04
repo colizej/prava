@@ -1,0 +1,41 @@
+{
+  "law_id": "1968",
+  "article_number": "69",
+  "slug": "art-69",
+  "structure": {
+    "titre": "VI",
+    "chapitre": null
+  },
+  "title_fr": "Article 69",
+  "title_nl": "Artikel 69",
+  "title_ru": "Статья 69",
+  "content_md_fr": "Le Roi règle les modalités de radiation des mentions relatives aux déchéances du droit de conduire qui, en vertu de dispositions légales antérieures, figurent sur les cartes d'identité, les titres qui en tiennent lieu ainsi que les permis de conduire.",
+  "content_md_nl": "De Koning bepaalt de nadere regels inzake schrapping van de vermeldingen betreffende de vervallenverklaringen van het recht tot sturen die, krachtens vroegere wettelijke bepalingen, voorkomen op de identiteitskaarten, op de als zodanig geldende bewijzen alsook op de rijbewijzen.",
+  "content_md_ru": "Король регулирует порядок удаления информации, касающейся лишения права управления транспортными средствами, которая в силу предыдущих законодательных положений содержится в удостоверениях личности, документах, служащих таковыми, и водительских удостоверениях.",
+  "content_html_fr": "<p>Le Roi règle les modalités de radiation des mentions relatives aux déchéances du droit de conduire qui, en vertu de dispositions légales antérieures, figurent sur les cartes d'identité, les titres qui en tiennent lieu ainsi que les permis de conduire.</p>",
+  "content_html_nl": "<p>De Koning bepaalt de nadere regels inzake schrapping van de vermeldingen betreffende de vervallenverklaringen van het recht tot sturen die, krachtens vroegere wettelijke bepalingen, voorkomen op de identiteitskaarten, op de als zodanig geldende bewijzen alsook op de rijbewijzen.</p>",
+  "full_text_fr": "Le Roi règle les modalités de radiation des mentions relatives aux déchéances du droit de conduire qui, en vertu de dispositions légales antérieures, figurent sur les cartes d'identité, les titres qui en tiennent lieu ainsi que les permis de conduire.",
+  "full_text_nl": "De Koning bepaalt de nadere regels inzake schrapping van de vermeldingen betreffende de vervallenverklaringen van het recht tot sturen die, krachtens vroegere wettelijke bepalingen, voorkomen op de identiteitskaarten, op de als zodanig geldende bewijzen alsook op de rijbewijzen.",
+  "full_text_ru": "Король регулирует порядок удаления информации, касающейся лишения права управления транспортными средствами, которая в силу предыдущих законодательных положений содержится в удостоверениях личности, документах, служащих таковыми, и водительских удостоверениях.",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ljvvhhyql2",
+  "anchor_id_nl": "hz9lywakxj",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-04T11:07:49Z",
+    "content_hash": "f5b115ddbb0b",
+    "has_nl": true,
+    "has_ru": true,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

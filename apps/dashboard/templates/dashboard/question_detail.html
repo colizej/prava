@@ -99,6 +99,31 @@
       <img src="{{ question.image.url }}" alt="Question image" class="rounded-lg max-w-full">
     </div>
     {% endif %}
+    {% if question.image_prompt or question.traffic_sign or question.image_sign_code %}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5 text-sm space-y-3">
+      <h3 class="font-semibold text-gray-600">Visuel suggéré</h3>
+      {% if question.traffic_sign %}
+        <div>
+          <p class="text-xs text-gray-400 mb-1">Panneau</p>
+          <span class="font-mono text-blue-700 bg-blue-50 px-2 py-0.5 rounded text-xs">{{ question.traffic_sign.code }}</span>
+          {% if question.traffic_sign.image %}
+            <img src="{{ question.traffic_sign.image.url }}" alt="{{ question.traffic_sign.code }}" class="mt-2 h-16 rounded">
+          {% endif %}
+        </div>
+      {% elif question.image_sign_code %}
+        <div>
+          <p class="text-xs text-gray-400 mb-1">Panneau</p>
+          <span class="font-mono text-blue-700 bg-blue-50 px-2 py-0.5 rounded text-xs">{{ question.image_sign_code }}</span>
+        </div>
+      {% endif %}
+      {% if question.image_prompt %}
+        <div>
+          <p class="text-xs text-gray-400 mb-1">Prompt IA</p>
+          <p class="text-gray-600 text-xs italic leading-relaxed">{{ question.image_prompt }}</p>
+        </div>
+      {% endif %}
+    </div>
+    {% endif %}
   </div>
 </div>
 
