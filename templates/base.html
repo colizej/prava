@@ -42,6 +42,62 @@
     {# Tailwind CSS (built locally) #}
     <link rel="stylesheet" href="/static/css/output.css">
 
+    {# Language switcher — plain vanilla JS, no Alpine dependency #}
+    <script>
+    window.LANG = (function () {
+        function _text(obj, lang) {
+            if (!obj) return '';
+            if (lang === 'nl') return obj.text_nl || obj.text || '';
+            if (lang === 'ru') return obj.text_ru || obj.text || '';
+            return obj.text || '';
+        }
+        var langs = (function () {
+            try {
+                var s = JSON.parse(localStorage.getItem('prava_langs'));
+                if (Array.isArray(s) && s.length > 0) return s;
+            } catch (e) {}
+            var nav = (navigator.language || 'fr').toLowerCase();
+            if (nav.indexOf('nl') === 0) return ['nl'];
+            if (nav.indexOf('ru') === 0) return ['ru'];
+            return ['fr'];
+        })();
+        return {
+            get langs() { return langs; },
+            isPrimary: function (l) { return langs.length > 0 && langs[0] === l; },
+            isActive:  function (l) { return langs.indexOf(l) !== -1; },
+            toggle: function (l) {
+                var idx = langs.indexOf(l);
+                if (idx === -1) { langs = langs.concat([l]); }
+                else if (langs.length > 1) { langs = langs.filter(function(x){ return x !== l; }); }
+                try { localStorage.setItem('prava_langs', JSON.stringify(langs)); } catch (e) {}
+                updateLangUI();
+                window.dispatchEvent(new CustomEvent('langchange', { detail: langs.slice() }));
+            },
+            primaryText: function (obj) { return _text(obj, langs[0] || 'fr'); },
+            secondaryText: function (obj) { return langs.length > 1 ? _text(obj, langs[1]) : ''; },
+            hasSecondary: function (obj) {
+                if (langs.length < 2 || !obj) return false;
+                var t = _text(obj, langs[1]);
+                return !!(t && t !== _text(obj, langs[0]));
+            }
+        };
+    })();
+
+    function updateLangUI() {
+        ['fr', 'nl', 'ru'].forEach(function (l) {
+            ['lang-desk-' + l, 'lang-mob-' + l].forEach(function (id) {
+                var btn = document.getElementById(id);
+                if (!btn) return;
+                btn.classList.remove('bg-blue-600', 'text-white', 'shadow-sm', 'bg-blue-100', 'text-blue-600', 'text-gray-300');
+                if (LANG.isPrimary(l))      { btn.classList.add('bg-blue-600', 'text-white', 'shadow-sm'); }
+                else if (LANG.isActive(l))  { btn.classList.add('bg-blue-100', 'text-blue-600'); }
+                else                        { btn.classList.add('text-gray-300'); }
+            });
+        });
+    }
+    document.addEventListener('DOMContentLoaded', updateLangUI);
+    </script>
+
     {# Alpine.js #}
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 

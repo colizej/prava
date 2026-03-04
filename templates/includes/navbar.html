@@ -1,48 +1,50 @@
 {# Navigation Bar #}
 <nav class="bg-white shadow-sm border-b border-gray-200" x-data="{ mobileOpen: false }">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
-            {# Logo #}
-            <div class="flex items-center">
+        <div class="flex items-center h-16 gap-4">
+
+            {# Left: Logo #}
+            <div class="flex-1 flex items-center">
                 <a href="{% url 'main:home' %}" class="flex items-center space-x-2">
                     <img src="/media/logo.png" alt="{{ SITE_NAME }}" class="h-8 w-auto">
                     <span class="text-xl font-bold text-blue-600">{{ SITE_NAME }}</span>
                 </a>
             </div>
 
-            {# Desktop Menu #}
-            <div class="hidden md:flex items-center space-x-6">
-                <a href="{% url 'examens:categories' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
-                    Examens
-                </a>
-                <a href="{% url 'reglementation:index' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
-                    Réglementation
-                </a>
-                <a href="{% url 'blog:list' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
-                    Blog
-                </a>
-                <a href="{% url 'main:pricing' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
-                    Tarifs
-                </a>
-
-                {% if user.is_authenticated %}
-                    <a href="{% url 'accounts:profile' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
-                        {{ user.username }}
-                    </a>
-
-                {% else %}
-                    <a href="{% url 'accounts:login' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
-                        Connexion
-                    </a>
-                    <a href="{% url 'accounts:register' %}" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
-                        Inscription
-                    </a>
-                {% endif %}
+            {# Center: Language switcher (desktop only) #}
+            <div class="hidden md:flex items-center gap-1">
+                <button id="lang-desk-fr" onclick="LANG.toggle('fr')"
+                        class="text-xs font-bold px-2.5 py-1 rounded-md transition-all cursor-pointer select-none">FR</button>
+                <span class="text-gray-300 text-xs select-none">|</span>
+                <button id="lang-desk-nl" onclick="LANG.toggle('nl')"
+                        class="text-xs font-bold px-2.5 py-1 rounded-md transition-all cursor-pointer select-none">NL</button>
+                <span class="text-gray-300 text-xs select-none">|</span>
+                <button id="lang-desk-ru" onclick="LANG.toggle('ru')"
+                        class="text-xs font-bold px-2.5 py-1 rounded-md transition-all cursor-pointer select-none">RU</button>
             </div>
 
-            {# Mobile menu button #}
-            <div class="md:hidden flex items-center">
-                <button @click="mobileOpen = !mobileOpen" class="text-gray-700 hover:text-blue-600">
+            {# Right: Desktop nav links + mobile burger #}
+            <div class="flex-1 flex items-center justify-end">
+
+                {# Desktop links #}
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="{% url 'examens:categories' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Examens</a>
+                    <a href="{% url 'reglementation:index' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Réglementation</a>
+                    <a href="{% url 'blog:list' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Blog</a>
+                    <a href="{% url 'main:pricing' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Tarifs</a>
+
+                    {% if user.is_authenticated %}
+                        <a href="{% url 'accounts:profile' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
+                            {{ user.username }}
+                        </a>
+                    {% else %}
+                        <a href="{% url 'accounts:login' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Connexion</a>
+                        <a href="{% url 'accounts:register' %}" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Inscription</a>
+                    {% endif %}
+                </div>
+
+                {# Mobile burger #}
+                <button @click="mobileOpen = !mobileOpen" class="md:hidden text-gray-700 hover:text-blue-600">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path x-show="!mobileOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                               d="M4 6h16M4 12h16M4 18h16"/>
@@ -51,6 +53,7 @@
                     </svg>
                 </button>
             </div>
+
         </div>
     </div>
 
@@ -61,6 +64,13 @@
             <a href="{% url 'reglementation:index' %}" class="block py-2 text-gray-700 hover:text-blue-600">Réglementation</a>
             <a href="{% url 'blog:list' %}" class="block py-2 text-gray-700 hover:text-blue-600">Blog</a>
             <a href="{% url 'main:pricing' %}" class="block py-2 text-gray-700 hover:text-blue-600">Tarifs</a>
+            {# Language switcher mobile #}
+            <div class="flex items-center gap-1 py-2">
+                <span class="text-xs text-gray-400 mr-1">Langue :</span>
+                <button id="lang-mob-fr" onclick="LANG.toggle('fr')" class="text-xs font-bold px-2 py-1 rounded transition">FR</button>
+                <button id="lang-mob-nl" onclick="LANG.toggle('nl')" class="text-xs font-bold px-2 py-1 rounded transition">NL</button>
+                <button id="lang-mob-ru" onclick="LANG.toggle('ru')" class="text-xs font-bold px-2 py-1 rounded transition">RU</button>
+            </div>
             <hr class="my-2">
             {% if user.is_authenticated %}
                 <a href="{% url 'accounts:profile' %}" class="block py-2 text-gray-700 hover:text-blue-600">Mon profil</a>

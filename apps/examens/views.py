@@ -10,6 +10,35 @@ from .models import ExamCategory, Question, TestAttempt, StudyList, SavedQuestio
 from apps.accounts.models import DailyQuota
 
 
+# ─── Language-aware question serializer ──────────────────────────────────────
+def _serialize_question(q):
+    """Serialize a Question with all language variants for Alpine.js."""
+    return {
+        'id': q.id,
+        'text': q.text,
+        'text_nl': q.text_nl or '',
+        'text_ru': q.text_ru or '',
+        'image': q.image.url if q.image else None,
+        'options': [
+            {
+                'letter': opt.letter,
+                'text': opt.text,
+                'text_nl': opt.text_nl or '',
+                'text_ru': opt.text_ru or '',
+                'is_correct': opt.is_correct,
+            }
+            for opt in q.options.all()
+        ],
+        'explanation': q.explanation or '',
+        'explanation_nl': q.explanation_nl or '',
+        'explanation_ru': q.explanation_ru or '',
+        'code_reference': {
+            'article': q.code_article.article_number,
+            'url': q.code_article.get_absolute_url(),
+        } if q.code_article else None,
+    }
+
+
 def categories(request):
     """Liste des catégories d'examen."""
     cats = ExamCategory.objects.filter(is_active=True).annotate(
@@ -54,26 +83,7 @@ def practice(request, category_slug=None):
     questions = questions.order_by('?')[:20]
 
     # Serialize for Alpine.js
-    questions_data = []
-    for q in questions:
-        questions_data.append({
-            'id': q.id,
-            'text': q.text,
-            'image': q.image.url if q.image else None,
-            'options': [
-                {
-                    'letter': opt.letter,
-                    'text': opt.text,
-                    'is_correct': opt.is_correct,
-                }
-                for opt in q.options.all()
-            ],
-            'explanation': q.explanation,
-            'code_reference': {
-                'article': q.code_article.article_number,
-                'url': q.code_article.get_absolute_url(),
-            } if q.code_article else None,
-        })
+    questions_data = [_serialize_question(q) for q in questions]
 
     # Store test type in session
     request.session['test_type'] = 'practice'
@@ -99,26 +109,7 @@ def exam_mode(request):
         is_active=True
     ).prefetch_related('options').order_by('?')[:50]
 
-    questions_data = []
-    for q in questions:
-        questions_data.append({
-            'id': q.id,
-            'text': q.text,
-            'image': q.image.url if q.image else None,
-            'options': [
-                {
-                    'letter': opt.letter,
-                    'text': opt.text,
-                    'is_correct': opt.is_correct,
-                }
-                for opt in q.options.all()
-            ],
-            'explanation': q.explanation,
-            'code_reference': {
-                'article': q.code_article.article_number,
-                'url': q.code_article.get_absolute_url(),
-            } if q.code_article else None,
-        })
+    questions_data = [_serialize_question(q) for q in questions]
 
     request.session['test_type'] = 'exam'
     request.session['category_id'] = None
@@ -393,22 +384,7 @@ def practice_saved(request, list_slug=None):
         messages.warning(request, 'Votre liste de révision est vide.')
         return redirect('examens:my_list')
 
-    questions_data = []
-    for q in questions:
-        questions_data.append({
-            'id': q.id,
-            'text': q.text,
-            'image': q.image.url if q.image else None,
-            'options': [
-                {'letter': opt.letter, 'text': opt.text, 'is_correct': opt.is_correct}
-                for opt in q.options.all()
-            ],
-            'explanation': q.explanation,
-            'code_reference': {
-                'article': q.code_article.article_number,
-                'url': q.code_article.get_absolute_url(),
-            } if q.code_article else None,
-        })
+    questions_data = [_serialize_question(q) for q in questions]
 
     request.session['test_type'] = 'practice'
     request.session['category_id'] = None

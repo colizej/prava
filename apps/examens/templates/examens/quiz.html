@@ -67,7 +67,8 @@
         <div>
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
                 {# Question text — full width #}
-                <h2 class="text-lg font-semibold text-gray-900 mb-6" x-text="currentQuestion.text"></h2>
+                <h2 class="text-lg font-semibold text-gray-900 mb-1" x-text="primaryText(currentQuestion)"></h2>
+                <p class="text-sm text-gray-400 italic mb-4" x-show="hasSecondary(currentQuestion)" x-text="secondaryText(currentQuestion)"></p>
 
                 {# Two columns: image LEFT, options RIGHT #}
                 <div class="flex flex-col md:flex-row md:gap-8">
@@ -103,7 +104,10 @@
                                                   'border-red-500 bg-red-500 text-white': answered && selectedOption?.letter === option.letter && !option.is_correct,
                                               }"
                                               x-text="option.letter"></span>
-                                        <span class="text-gray-900" x-text="option.text"></span>
+                                        <div class="flex-1 min-w-0">
+                                            <span class="text-gray-900" x-text="primaryText(option)"></span>
+                                            <span class="text-xs text-gray-400 block mt-0.5" x-show="hasSecondary(option)" x-text="secondaryText(option)"></span>
+                                        </div>
                                     </div>
                                 </button>
                             </template>
@@ -131,7 +135,8 @@
                     <div class="p-4 rounded-lg" :class="isCorrect ? 'bg-green-50 border border-green-200' : 'bg-yellow-50 border border-yellow-200'">
                         <p class="font-semibold mb-1" :class="isCorrect ? 'text-green-800' : 'text-yellow-800'"
                            x-text="isCorrect ? '✅ Bonne réponse !' : '❌ Mauvaise réponse'"></p>
-                        <p class="text-sm text-gray-700" x-text="currentQuestion.explanation" x-show="currentQuestion.explanation"></p>
+                        <p class="text-sm text-gray-700" x-show="currentQuestion.explanation" x-text="primaryText({text: currentQuestion.explanation, text_nl: currentQuestion.explanation_nl, text_ru: currentQuestion.explanation_ru})"></p>
+                        <p class="text-xs text-gray-400 mt-1" x-show="langs.length > 1 && currentQuestion['explanation_' + langs[1]]" x-text="secondaryText({text: currentQuestion.explanation, text_nl: currentQuestion.explanation_nl, text_ru: currentQuestion.explanation_ru})"></p>
                         <template x-if="currentQuestion && currentQuestion.code_reference">
                             <a :href="currentQuestion.code_reference.url"
                                class="inline-block mt-2 text-sm text-blue-600 hover:text-blue-700"
@@ -174,9 +179,36 @@ function quizEngine() {
             return this.questions[this.currentIndex] || null;
         },
 
+        langs: window.LANG.langs.slice(),
+
+        primaryText(obj) {
+            if (!obj) return '';
+            var l = this.langs[0] || 'fr';
+            if (l === 'nl') return obj.text_nl || obj.text || '';
+            if (l === 'ru') return obj.text_ru || obj.text || '';
+            return obj.text || '';
+        },
+        secondaryText(obj) {
+            if (!obj || this.langs.length < 2) return '';
+            var l = this.langs[1];
+            if (l === 'nl') return obj.text_nl || obj.text || '';
+            if (l === 'ru') return obj.text_ru || obj.text || '';
+            return obj.text || '';
+        },
+        hasSecondary(obj) {
+            if (!obj || this.langs.length < 2) return false;
+            var l1 = this.langs[0] || 'fr';
+            var l2 = this.langs[1];
+            function t(o, l) { if (l === 'nl') return o.text_nl || o.text || ''; if (l === 'ru') return o.text_ru || o.text || ''; return o.text || ''; }
+            var sec = t(obj, l2);
+            return !!(sec && sec !== t(obj, l1));
+        },
+
         init() {
             if (this.timeLimit > 0) this.startTimer();
             if (this.questionTimer > 0) this.startQuestionTimer();
+            var self = this;
+            window.addEventListener('langchange', function (e) { self.langs = e.detail.slice(); });
         },
 
         toggleTimer() {

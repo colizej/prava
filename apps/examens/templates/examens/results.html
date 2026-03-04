@@ -57,8 +57,18 @@
              }">
             <div class="flex items-start gap-3">
                 <span class="text-lg mt-0.5 shrink-0">{% if result.is_correct %}✅{% else %}❌{% endif %}</span>
-                <div class="flex-1 min-w-0">
-                    <p class="font-medium text-gray-900">{{ result.question.text }}</p>
+                <div class="flex-1 min-w-0"
+                     x-data="{
+                         q: {text: '{{ result.question.text|escapejs }}', text_nl: '{{ result.question.text_nl|escapejs }}', text_ru: '{{ result.question.text_ru|escapejs }}'},
+                         expl: {text: '{{ result.question.explanation|escapejs }}', text_nl: '{{ result.question.explanation_nl|escapejs }}', text_ru: '{{ result.question.explanation_ru|escapejs }}'},
+                         langs: window.LANG.langs.slice(),
+                         init() { var s = this; window.addEventListener('langchange', function(e){ s.langs = e.detail.slice(); }); },
+                         pt(obj) { var l=this.langs[0]||'fr'; if(l==='nl')return obj.text_nl||obj.text||''; if(l==='ru')return obj.text_ru||obj.text||''; return obj.text||''; },
+                         st(obj) { if(this.langs.length<2)return ''; var l=this.langs[1]; if(l==='nl')return obj.text_nl||obj.text||''; if(l==='ru')return obj.text_ru||obj.text||''; return obj.text||''; },
+                         hs(obj) { if(this.langs.length<2||!obj)return false; return !!(this.st(obj)&&this.st(obj)!==this.pt(obj)); }
+                     }">
+                    <p class="font-medium text-gray-900" x-text="pt(q)"></p>
+                    <p class="text-sm text-gray-400 italic" x-show="hs(q)" x-text="st(q)"></p>
                     <p class="text-sm text-gray-500 mt-1">Votre réponse : <span class="font-medium">{{ result.selected }}</span></p>
                     {% if not result.is_correct %}
                         {% with correct=result.question.correct_option %}
@@ -68,7 +78,7 @@
                         {% endwith %}
                     {% endif %}
                     {% if result.question.explanation %}
-                    <p class="text-xs text-gray-400 mt-1 italic">{{ result.question.explanation }}</p>
+                    <p class="text-xs text-gray-400 mt-1 italic" x-text="pt(expl)"></p>
                     {% endif %}
                     {% if result.question.code_article %}
                     <a href="{{ result.question.code_article.get_absolute_url }}"
