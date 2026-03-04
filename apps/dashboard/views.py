@@ -39,6 +39,8 @@ def index(request):
             'questions_active': Question.objects.filter(is_active=True).count(),
             'exam_categories': ExamCategory.objects.count(),
             'attempts': TestAttempt.objects.count(),
+            'blog_posts': BlogPost.objects.count(),
+            'blog_published': BlogPost.objects.filter(is_published=True).count(),
         },
         'recent_questions': Question.objects.select_related('category').order_by('-created_at')[:10],
         'scripts': [
@@ -262,3 +264,79 @@ def question_toggle_active(request, pk):
     question.is_active = not question.is_active
     question.save(update_fields=['is_active'])
     return JsonResponse({'is_active': question.is_active, 'pk': pk})
+
+
+# ─── Blog ─────────────────────────────────────────────────────────────────────
+
+from apps.blog.models import BlogPost, BlogCategory
+from .forms import BlogPostForm
+
+
+@dashboard_view
+def blog_list(request):
+    q = request.GET.get('q', '').strip()
+    posts = BlogPost.objects.select_related('author', 'category').order_by('-created_at')
+    if q:
+        posts = posts.filter(
+            Q(title__icontains=q) | Q(title_ru__icontains=q) | Q(title_nl__icontains=q)
+        )
+    paginator = Paginator(posts, 20)
+    page = request.GET.get('page')
+    return render(request, 'dashboard/blog_list.html', {
+        'title': 'Articles blog',
+        'posts': paginator.get_page(page),
+        'total': posts.count(),
+        'q': q,
+    })
+
+
+@dashboard_view
+def blog_create(request):
+    if request.method == 'POST':
+        form = BlogPostForm(request.POST, request.FILES)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.author = request.user
+            post.save()
+            messages.success(request, f'Article « {post.title} » créé.')
+            return redirect('dashboard:blog_edit', pk=post.pk)
+    else:
+        form = BlogPostForm()
+    return render(request, 'dashboard/blog_form.html', {
+        'title': 'Nouvel article',
+        'form': form,
+        'action': 'create',
+    })
+
+
+@dashboard_view
+def blog_edit(request, pk):
+    post = get_object_or_404(BlogPost, pk=pk)
+    if request.method == 'POST':
+        form = BlogPostForm(request.POST, request.FILES, instance=post)
+        if form.is_valid():
+            form.save()
+            messages.success(request, f'Article « {post.title} » mis à jour.')
+            return redirect('dashboard:blog_edit', pk=post.pk)
+    else:
+        form = BlogPostForm(instance=post)
+    return render(request, 'dashboard/blog_form.html', {
+        'title': f'Modifier — {post.title}',
+        'form': form,
+        'post': post,
+        'action': 'edit',
+    })
+
+
+@dashboard_view
+def blog_delete(request, pk):
+    post = get_object_or_404(BlogPost, pk=pk)
+    if request.method == 'POST':
+        title = post.title
+        post.delete()
+        messages.success(request, f'Article « {title} » supprimé.')
+        return redirect('dashboard:blog_list')
+    return render(request, 'dashboard/blog_confirm_delete.html', {
+        'title': f'Supprimer « {post.title} » ?',
+        'post': post,
+    })

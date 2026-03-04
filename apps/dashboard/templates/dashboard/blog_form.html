@@ -1,0 +1,176 @@
+{% extends "dashboard/base.html" %}
+
+{% block dashboard_content %}
+
+<div class="flex items-center gap-3 mb-6">
+  <a href="{% url 'dashboard:blog_list' %}" class="text-sm text-gray-500 hover:text-gray-700">← Articles</a>
+  {% if action == 'edit' %}
+    <span class="text-gray-300">/</span>
+    <span class="text-sm text-gray-500">{{ post.title|truncatechars:50 }}</span>
+  {% endif %}
+  <span class="text-gray-300">/</span>
+  <span class="text-sm text-gray-700 font-medium">{{ title }}</span>
+</div>
+
+<form method="post" enctype="multipart/form-data" class="grid lg:grid-cols-3 gap-6">
+  {% csrf_token %}
+
+  {# ── Left column: content ── #}
+  <div class="lg:col-span-2 space-y-5">
+
+    {# ── Section: Contenu FR ── #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+      <h3 class="font-semibold text-gray-700 mb-4 flex items-center gap-2">
+        <span class="w-5 h-5 text-xs flex items-center justify-center bg-blue-100 text-blue-600 rounded font-bold">FR</span>
+        Contenu français <span class="text-red-400 text-xs ml-1">*</span>
+      </h3>
+
+      <div class="mb-4">
+        <label class="block text-xs font-medium text-gray-600 mb-1">Titre</label>
+        {{ form.title }}
+        {% if form.title.errors %}<p class="text-xs text-red-600 mt-1">{{ form.title.errors|join:', ' }}</p>{% endif %}
+      </div>
+      <div class="mb-4">
+        <label class="block text-xs font-medium text-gray-600 mb-1">
+          Contenu
+          <span class="text-gray-400 font-normal ml-1">— Markdown. FAQ : <code class="text-xs bg-gray-100 px-1 rounded">#### Q : question</code> puis <code class="text-xs bg-gray-100 px-1 rounded">R : réponse</code></span>
+        </label>
+        {{ form.content }}
+        {% if form.content.errors %}<p class="text-xs text-red-600 mt-1">{{ form.content.errors|join:', ' }}</p>{% endif %}
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-gray-600 mb-1">Extrait (max 300 car.)</label>
+        {{ form.excerpt }}
+        {% if form.excerpt.errors %}<p class="text-xs text-red-600 mt-1">{{ form.excerpt.errors|join:', ' }}</p>{% endif %}
+      </div>
+    </div>
+
+    {# ── Section: Contenu NL ── #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+      <h3 class="font-semibold text-gray-700 mb-4 flex items-center gap-2">
+        <span class="w-5 h-5 text-xs flex items-center justify-center bg-yellow-100 text-yellow-700 rounded font-bold">NL</span>
+        Contenu néerlandais
+      </h3>
+      <div class="mb-4">
+        <label class="block text-xs font-medium text-gray-600 mb-1">Titel</label>
+        {{ form.title_nl }}
+      </div>
+      <div class="mb-4">
+        <label class="block text-xs font-medium text-gray-600 mb-1">Inhoud (Markdown)</label>
+        {{ form.content_nl }}
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-gray-600 mb-1">Uittreksel</label>
+        {{ form.excerpt_nl }}
+      </div>
+    </div>
+
+    {# ── Section: Contenu RU ── #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+      <h3 class="font-semibold text-gray-700 mb-4 flex items-center gap-2">
+        <span class="w-5 h-5 text-xs flex items-center justify-center bg-red-100 text-red-600 rounded font-bold">RU</span>
+        Contenu russe
+      </h3>
+      <div class="mb-4">
+        <label class="block text-xs font-medium text-gray-600 mb-1">Заголовок</label>
+        {{ form.title_ru }}
+      </div>
+      <div class="mb-4">
+        <label class="block text-xs font-medium text-gray-600 mb-1">Содержание (Markdown)</label>
+        {{ form.content_ru }}
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-gray-600 mb-1">Отрывок</label>
+        {{ form.excerpt_ru }}
+      </div>
+    </div>
+
+    {# ── Section: SEO ── #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
+      <h3 class="font-semibold text-gray-700 mb-4">SEO</h3>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs font-medium text-gray-600 mb-1">Meta title (max 70)</label>
+          {{ form.meta_title }}
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-600 mb-1">Mots-clés</label>
+          {{ form.keywords }}
+        </div>
+        <div class="sm:col-span-2">
+          <label class="block text-xs font-medium text-gray-600 mb-1">Meta description (max 160)</label>
+          {{ form.meta_description }}
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-600 mb-1">URL canonique</label>
+          {{ form.canonical_url }}
+        </div>
+        <div class="flex items-center gap-2 pt-5">
+          {{ form.no_index }}
+          <label class="text-xs font-medium text-gray-600">No index (masquer des moteurs)</label>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  {# ── Right sidebar ── #}
+  <div class="space-y-5">
+
+    {# ── Submit card ── #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5 sticky top-4">
+      <h3 class="font-semibold text-gray-700 text-sm mb-4">Publication</h3>
+
+      <div class="mb-4">
+        <label class="block text-xs font-medium text-gray-600 mb-1">Slug</label>
+        {{ form.slug }}
+        {% if form.slug.errors %}<p class="text-xs text-red-600 mt-1">{{ form.slug.errors|join:', ' }}</p>{% endif %}
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-xs font-medium text-gray-600 mb-1">Catégorie</label>
+        {{ form.category }}
+      </div>
+
+      <div class="flex items-center gap-2 mb-5">
+        {{ form.is_published }}
+        <label class="text-sm font-medium text-gray-700">Publier</label>
+      </div>
+
+      {% if form.non_field_errors %}
+      <div class="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-xs text-red-600">
+        {{ form.non_field_errors }}
+      </div>
+      {% endif %}
+
+      <button type="submit"
+              class="w-full py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700">
+        {% if action == 'edit' %}Enregistrer{% else %}Créer l'article{% endif %}
+      </button>
+      <a href="{% url 'dashboard:blog_list' %}"
+         class="block text-center mt-2 text-sm text-gray-500 hover:underline">Annuler</a>
+    </div>
+
+    {# ── Image card ── #}
+    <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
+      <h3 class="font-semibold text-gray-700 text-sm mb-3">Image principale</h3>
+
+      {% if action == 'edit' and post.featured_image %}
+      <img src="{{ post.featured_image.url }}" alt="{{ post.featured_image_alt }}"
+           class="w-full h-32 object-cover rounded-lg mb-3">
+      {% endif %}
+
+      <div class="mb-3">
+        {{ form.featured_image }}
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-gray-600 mb-1">Texte alternatif</label>
+        {{ form.featured_image_alt }}
+      </div>
+    </div>
+
+  </div>
+
+</form>
+
+{% endblock %}

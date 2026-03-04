@@ -141,3 +141,59 @@ class BlogPost(models.Model):
     def increment_views(self):
         self.views_count += 1
         self.save(update_fields=['views_count'])
+
+    @property
+    def faq_structured_data(self):
+        """Return FAQ JSON-LD string if content contains Q/R FAQ blocks.
+
+        Format in Markdown:
+            #### Q : Question text
+            R : Answer text (can span multiple lines)
+            #
+        """
+        import json as _json
+        import re as _re
+        try:
+            import markdown as _md
+            from django.utils.html import strip_tags
+        except ImportError:
+            return ''
+
+        text = self.content or ''
+        items = []
+        m = _re.search(r'(####\s*Q\s*:.*?)(?:\n\s*#\s*\n|\n\s*#\s*$)', text, flags=_re.S | _re.I)
+        if not m:
+            m = _re.search(r'####\s*Q\s*:\s*(.*)$', text, flags=_re.S | _re.I)
+        if not m:
+            return ''
+
+        block = m.group(0)
+        cur_q, cur_a = None, []
+        for ln in block.splitlines():
+            qm = _re.match(r'^\s*####\s*Q\s*:\s*(.*)$', ln)
+            if qm:
+                if cur_q:
+                    a_text = strip_tags(_md.markdown('\n'.join(cur_a).strip()))
+                    items.append({'@type': 'Question', 'name': cur_q,
+                                  'acceptedAnswer': {'@type': 'Answer', 'text': a_text}})
+                cur_q = qm.group(1).strip()
+                cur_a = []
+                continue
+            rm = _re.match(r'^\s*R\s*:\s*(.*)$', ln)
+            if rm:
+                cur_a.append(rm.group(1))
+                continue
+            if _re.match(r'^\s*#\s*$', ln):
+                break
+            if cur_q:
+                cur_a.append(ln)
+        if cur_q:
+            a_text = strip_tags(_md.markdown('\n'.join(cur_a).strip()))
+            items.append({'@type': 'Question', 'name': cur_q,
+                          'acceptedAnswer': {'@type': 'Answer', 'text': a_text}})
+        if not items:
+            return ''
+        return _json.dumps(
+            {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': items},
+            ensure_ascii=False,
+        )

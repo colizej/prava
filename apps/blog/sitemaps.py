@@ -10,7 +10,12 @@ class BlogSitemap(Sitemap):
         return BlogPost.objects.filter(is_published=True)
 
     def lastmod(self, obj):
-        return obj.updated_at
+        """Smart lastmod: minor edits within 7 days of publish don't count."""
+        if obj.published_at and obj.updated_at:
+            if (obj.updated_at - obj.published_at).days <= 7:
+                return obj.published_at
+            return obj.updated_at
+        return obj.updated_at or obj.published_at
 
     def location(self, obj):
         return obj.get_absolute_url()

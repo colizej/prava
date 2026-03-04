@@ -1,0 +1,104 @@
+from django import template
+from django.utils.safestring import mark_safe
+import re
+
+try:
+    import markdown as md_lib
+except ImportError:
+    md_lib = None
+
+register = template.Library()
+
+
+@register.filter(name='markdown')
+def markdown_to_html(value):
+    """Convert Markdown to HTML. Strips YAML front matter and first H1.
+
+    Usage: {{ post.content|markdown }}
+    """
+    if not value:
+        return ''
+    if not md_lib:
+        return mark_safe(value.replace('\n', '<br>'))
+
+    try:
+        text = str(value)
+
+        # Remove YAML front matter (--- ... ---)
+        text = re.sub(r'^---\s*\n.*?\n---\s*\n?', '', text, flags=re.DOTALL)
+
+        # Remove first H1 heading (already in <h1> in template)
+        text = re.sub(r'^\s*#\s+.+?\n', '', text, count=1)
+
+        # Remove standalone '#' used as FAQ block terminator
+        text = re.sub(r'\n\s*#\s*\n', '\n', text)
+        text = re.sub(r'\n\s*#\s*$', '', text)
+
+        # Pre-process blockquotes with attribution: > quote \n>> attribution
+        quote_blocks = []
+
+        def replace_quote(match):
+            q = match.group(1).strip()
+            a = match.group(2).strip()
+            html = (
+                f'<blockquote class="border-l-4 border-blue-400 pl-4 my-4 italic text-gray-700">'
+                f'<p>{q}</p>'
+                f'<footer class="text-sm text-gray-500 mt-1">— {a}</footer>'
+                f'</blockquote>'
+            )
+            quote_blocks.append(html)
+            return f'\n___QUOTE_{len(quote_blocks) - 1}___\n'
+
+        text = re.sub(
+            r'^>\s*(.+?)\s*\n>>\s*(.+?)$',
+            replace_quote,
+            text,
+            flags=re.MULTILINE,
+        )
+
+        html = md_lib.markdown(
+            text,
+            extensions=['fenced_code', 'nl2br', 'tables', 'sane_lists'],
+        )
+
+        # Restore blockquotes
+        for idx, quote_html in enumerate(quote_blocks):
+            ph = f'___QUOTE_{idx}___'
+            html = html.replace(f'<p>{ph}</p>', quote_html)
+            html = html.replace(ph, quote_html)
+
+        # External links → open in new tab
+        def add_target(m):
+            attrs = m.group(1) or ''
+            href_m = re.search(r'href=["\']([^"\']+)["\']', attrs)
+            if not href_m:
+                return m.group(0)
+            href = href_m.group(1).strip()
+            if not re.match(r'^https?://', href, flags=re.I):
+                return m.group(0)
+            if re.search(r'\btarget\s*=', attrs, flags=re.I):
+                return m.group(0)
+            return f'<a{attrs} target="_blank" rel="noopener noreferrer">'
+
+        html = re.sub(r'<a([^>]*)>', add_target, html, flags=re.I | re.S)
+
+        # Wrap tables for mobile scroll
+        html = re.sub(
+            r'(<table[^>]*>.*?</table>)',
+            r'<div class="overflow-x-auto my-4">\1</div>',
+            html,
+            flags=re.DOTALL | re.I,
+        )
+
+        return mark_safe(html)
+
+    except Exception:
+        return mark_safe(str(value).replace('\n', '<br>'))
+
+
+@register.filter
+def split(value, sep=','):
+    """Split string by sep. Usage: {{ post.keywords|split:',' }}"""
+    if not value:
+        return []
+    return [p.strip() for p in str(value).split(sep) if p.strip()]

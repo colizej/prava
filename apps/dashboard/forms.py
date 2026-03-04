@@ -118,3 +118,50 @@ AnswerOptionFormSet = forms.inlineformset_factory(
     min_num=2,
     validate_min=True,
 )
+
+
+# ─── Blog ──────────────────────────────────────────────────────────────────────
+
+TEXTAREA_MD = 'w-full rounded-lg border-gray-300 text-sm font-mono h-64 p-3 focus:ring-2 focus:ring-blue-400'
+INPUT_CLASS = 'w-full rounded-lg border-gray-300 text-sm px-3 py-2 focus:ring-2 focus:ring-blue-400'
+TEXTAREA_SHORT = 'w-full rounded-lg border-gray-300 text-sm h-20 p-3 focus:ring-2 focus:ring-blue-400'
+
+
+class BlogPostForm(forms.ModelForm):
+    from apps.blog.models import BlogPost
+
+    class Meta:
+        from apps.blog.models import BlogPost
+        model = BlogPost
+        fields = [
+            # Content FR
+            'title', 'content', 'excerpt',
+            # Content NL
+            'title_nl', 'content_nl', 'excerpt_nl',
+            # Content RU
+            'title_ru', 'content_ru', 'excerpt_ru',
+            # Meta
+            'category', 'slug', 'featured_image', 'featured_image_alt',
+            'is_published',
+            # SEO
+            'meta_title', 'meta_description', 'keywords', 'canonical_url', 'no_index',
+        ]
+        widgets = {
+            'title':       forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'Titre (FR)'}),
+            'title_nl':    forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'Titel (NL)'}),
+            'title_ru':    forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'Заголовок (RU)'}),
+            'content':     forms.Textarea(attrs={'class': TEXTAREA_MD, 'placeholder': 'Contenu Markdown (FR)'}),
+            'content_nl':  forms.Textarea(attrs={'class': TEXTAREA_MD, 'placeholder': 'Inhoud Markdown (NL)'}),
+            'content_ru':  forms.Textarea(attrs={'class': TEXTAREA_MD, 'placeholder': 'Содержание Markdown (RU)'}),
+            'excerpt':     forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'placeholder': 'Extrait (FR, max 300 car.)'}),
+            'excerpt_nl':  forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'placeholder': 'Uittreksel (NL)'}),
+            'excerpt_ru':  forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'placeholder': 'Отрывок (RU)'}),
+            'slug':        forms.TextInput(attrs={'class': INPUT_CLASS}),
+            'featured_image_alt': forms.TextInput(attrs={'class': INPUT_CLASS}),
+            'meta_title':  forms.TextInput(attrs={'class': INPUT_CLASS, 'maxlength': 70}),
+            'meta_description': forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'maxlength': 160}),
+            'keywords':    forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'mot1, mot2, mot3'}),
+            'canonical_url': forms.URLInput(attrs={'class': INPUT_CLASS}),
+            'is_published': forms.CheckboxInput(attrs={'class': 'rounded border-gray-300 text-blue-600'}),
+            'no_index':    forms.CheckboxInput(attrs={'class': 'rounded border-gray-300 text-red-500'}),
+        }

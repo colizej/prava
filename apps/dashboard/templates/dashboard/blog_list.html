@@ -1,0 +1,123 @@
+{% extends "dashboard/base.html" %}
+
+{% block dashboard_content %}
+
+<div class="flex items-center justify-between mb-6">
+  <div>
+    <h2 class="text-xl font-bold text-gray-800">Articles blog</h2>
+    <p class="text-sm text-gray-500 mt-0.5">{{ total }} article{{ total|pluralize }}</p>
+  </div>
+  <a href="{% url 'dashboard:blog_create' %}"
+     class="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700">
+    + Nouvel article
+  </a>
+</div>
+
+{# ── Search ── #}
+<form method="get" class="bg-white rounded-xl border border-gray-200 shadow-sm p-4 mb-6 flex flex-wrap gap-3 items-end">
+  <div class="flex-1 min-w-[200px]">
+    <label class="block text-xs font-medium text-gray-500 mb-1">Recherche (titre)</label>
+    <input type="text" name="q" value="{{ request.GET.q }}"
+           placeholder="Titre FR, NL ou RU…"
+           class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-300">
+  </div>
+  <button type="submit"
+          class="px-4 py-2 bg-gray-800 text-white text-sm rounded-lg hover:bg-gray-700">
+    Filtrer
+  </button>
+  <a href="{% url 'dashboard:blog_list' %}"
+     class="px-4 py-2 text-gray-600 text-sm hover:underline">
+    Réinitialiser
+  </a>
+</form>
+
+{# ── Table ── #}
+<div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead class="bg-gray-50 text-gray-500 text-xs uppercase border-b border-gray-100">
+        <tr>
+          <th class="px-4 py-3 text-left w-12">#</th>
+          <th class="px-4 py-3 text-left">Titre (FR)</th>
+          <th class="px-4 py-3 text-left">Catégorie</th>
+          <th class="px-4 py-3 text-center">Publié</th>
+          <th class="px-4 py-3 text-left">Auteur</th>
+          <th class="px-4 py-3 text-right">Vues</th>
+          <th class="px-4 py-3 text-left">Date</th>
+          <th class="px-4 py-3 text-right">Actions</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-50">
+        {% for post in page_obj %}
+        <tr class="hover:bg-gray-50 group">
+          <td class="px-4 py-3 font-mono text-gray-400 text-xs">{{ post.pk }}</td>
+          <td class="px-4 py-3 text-gray-700 max-w-xs">
+            <span class="line-clamp-2 font-medium">{{ post.title }}</span>
+            {% if not post.title_nl %}<span class="text-xs text-orange-400">pas de NL</span>{% endif %}
+          </td>
+          <td class="px-4 py-3 text-gray-500 text-xs whitespace-nowrap">
+            {{ post.category.name|default:'—' }}
+          </td>
+          <td class="px-4 py-3 text-center">
+            {% if post.is_published %}
+              <span class="inline-block w-2 h-2 rounded-full bg-green-500" title="Publié"></span>
+            {% else %}
+              <span class="inline-block w-2 h-2 rounded-full bg-gray-300" title="Brouillon"></span>
+            {% endif %}
+          </td>
+          <td class="px-4 py-3 text-gray-500 text-xs">{{ post.author.username }}</td>
+          <td class="px-4 py-3 text-right text-gray-400 text-xs">{{ post.views_count }}</td>
+          <td class="px-4 py-3 text-gray-400 text-xs whitespace-nowrap">
+            {{ post.published_at|date:"d/m/Y"|default:"—" }}
+          </td>
+          <td class="px-4 py-3 text-right whitespace-nowrap">
+            <div class="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+              {% if post.is_published %}
+              <a href="{% url 'blog:detail' post.slug %}" target="_blank"
+                 class="text-xs px-2 py-1 border border-gray-200 rounded text-gray-500 hover:text-blue-600 hover:border-blue-300"
+                 title="Voir en ligne">↗</a>
+              {% endif %}
+              <a href="{% url 'dashboard:blog_edit' post.pk %}"
+                 class="text-xs px-2 py-1 border border-gray-200 rounded text-gray-600 hover:text-blue-600 hover:border-blue-300">
+                Éditer
+              </a>
+              <a href="{% url 'dashboard:blog_delete' post.pk %}"
+                 class="text-xs px-2 py-1 border border-red-100 rounded text-red-400 hover:text-red-600 hover:border-red-300">
+                Suppr.
+              </a>
+            </div>
+          </td>
+        </tr>
+        {% empty %}
+        <tr>
+          <td colspan="8" class="px-4 py-12 text-center text-gray-400 text-sm">
+            Aucun article trouvé.
+            <a href="{% url 'dashboard:blog_create' %}" class="text-blue-600 hover:underline ml-1">
+              Créer le premier →
+            </a>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  {# ── Pagination ── #}
+  {% if page_obj.has_other_pages %}
+  <div class="flex items-center justify-between px-4 py-3 border-t border-gray-100 text-sm text-gray-500">
+    <span>{{ page_obj.start_index }}–{{ page_obj.end_index }} sur {{ total }}</span>
+    <div class="flex gap-2">
+      {% if page_obj.has_previous %}
+        <a href="?page={{ page_obj.previous_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}"
+           class="px-3 py-1 border border-gray-200 rounded hover:bg-gray-50">←</a>
+      {% endif %}
+      {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}"
+           class="px-3 py-1 border border-gray-200 rounded hover:bg-gray-50">→</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+{% endblock %}
