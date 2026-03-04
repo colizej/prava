@@ -284,7 +284,7 @@ def blog_list(request):
     page = request.GET.get('page')
     return render(request, 'dashboard/blog_list.html', {
         'title': 'Articles blog',
-        'posts': paginator.get_page(page),
+        'page_obj': paginator.get_page(page),
         'total': posts.count(),
         'q': q,
     })

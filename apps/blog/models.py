@@ -76,6 +76,10 @@ class BlogPost(models.Model):
                                   help_text='Max 70 caractères. Vide = titre de l\'article.')
     meta_description = models.CharField('Meta description', max_length=160, blank=True,
                                         help_text='Max 160 caractères. Vide = extrait.')
+    og_title = models.CharField('OG title', max_length=200, blank=True,
+                                help_text='Open Graph title (Facebook/LinkedIn). Vide = meta_title.')
+    og_description = models.CharField('OG description', max_length=300, blank=True,
+                                      help_text='Open Graph description. Vide = meta_description.')
     keywords = models.CharField('Mots-clés', max_length=300, blank=True,
                                 help_text='Séparés par des virgules.')
     canonical_url = models.URLField('URL canonique', blank=True,
@@ -95,7 +99,24 @@ class BlogPost(models.Model):
     def __str__(self):
         return self.title
 
+    @staticmethod
+    def _parse_yaml_frontmatter(content):
+        """Extract YAML front matter from Markdown content."""
+        import re
+        try:
+            import yaml
+        except ImportError:
+            return {}
+        m = re.match(r'^---\s*\n(.*?)\n---\s*\n?', content or '', re.DOTALL)
+        if not m:
+            return {}
+        try:
+            return yaml.safe_load(m.group(1)) or {}
+        except Exception:
+            return {}
+
     def save(self, *args, **kwargs):
+        # Auto-slug from FR title
         if not self.slug:
             self.slug = slugify(self.title)
         if self.is_published and not self.published_at:
@@ -104,6 +125,14 @@ class BlogPost(models.Model):
         if self.content:
             word_count = len(self.content.split())
             self.read_time = max(1, round(word_count / 200))
+        # Populate SEO fields from YAML front matter if not set manually
+        fm = self._parse_yaml_frontmatter(self.content)
+        if fm:
+            for field in ('meta_title', 'meta_description', 'og_title', 'og_description', 'keywords', 'canonical_url'):
+                if not getattr(self, field) and fm.get(field):
+                    setattr(self, field, str(fm[field])[:self._meta.get_field(field).max_length or 999])
+            if 'no_index' in fm and not self.no_index:
+                self.no_index = bool(fm['no_index'])
         super().save(*args, **kwargs)
 
     def get_absolute_url(self):

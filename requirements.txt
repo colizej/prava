@@ -4,6 +4,7 @@ django-environ>=0.13
 gunicorn>=25.0
 whitenoise>=6.0
 markdown>=3.6      # Blog content rendering + FAQ schema
+pyyaml>=6.0        # YAML front matter parsing for SEO fields
 
 # Pipeline dependencies
 deepl>=1.17          # DeepL Free API (FR→RU translation, Markdown support)

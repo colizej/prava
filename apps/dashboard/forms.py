@@ -122,9 +122,9 @@ AnswerOptionFormSet = forms.inlineformset_factory(
 
 # ─── Blog ──────────────────────────────────────────────────────────────────────
 
-TEXTAREA_MD = 'w-full rounded-lg border-gray-300 text-sm font-mono h-64 p-3 focus:ring-2 focus:ring-blue-400'
-INPUT_CLASS = 'w-full rounded-lg border-gray-300 text-sm px-3 py-2 focus:ring-2 focus:ring-blue-400'
-TEXTAREA_SHORT = 'w-full rounded-lg border-gray-300 text-sm h-20 p-3 focus:ring-2 focus:ring-blue-400'
+TEXTAREA_MD = 'w-full rounded-lg border border-gray-300 text-sm font-mono h-64 p-3 focus:outline-none focus:ring-2 focus:ring-blue-400'
+INPUT_CLASS = 'w-full rounded-lg border border-gray-300 text-sm px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400'
+TEXTAREA_SHORT = 'w-full rounded-lg border border-gray-300 text-sm h-20 p-3 focus:outline-none focus:ring-2 focus:ring-blue-400'
 
 
 class BlogPostForm(forms.ModelForm):
@@ -134,6 +134,7 @@ class BlogPostForm(forms.ModelForm):
         from apps.blog.models import BlogPost
         model = BlogPost
         fields = [
+
             # Content FR
             'title', 'content', 'excerpt',
             # Content NL
@@ -144,7 +145,8 @@ class BlogPostForm(forms.ModelForm):
             'category', 'slug', 'featured_image', 'featured_image_alt',
             'is_published',
             # SEO
-            'meta_title', 'meta_description', 'keywords', 'canonical_url', 'no_index',
+            'meta_title', 'meta_description', 'og_title', 'og_description',
+            'keywords', 'canonical_url', 'no_index',
         ]
         widgets = {
             'title':       forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'Titre (FR)'}),
@@ -157,11 +159,21 @@ class BlogPostForm(forms.ModelForm):
             'excerpt_nl':  forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'placeholder': 'Uittreksel (NL)'}),
             'excerpt_ru':  forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'placeholder': 'Отрывок (RU)'}),
             'slug':        forms.TextInput(attrs={'class': INPUT_CLASS}),
+            'category':    forms.Select(attrs={'class': INPUT_CLASS}),
             'featured_image_alt': forms.TextInput(attrs={'class': INPUT_CLASS}),
             'meta_title':  forms.TextInput(attrs={'class': INPUT_CLASS, 'maxlength': 70}),
             'meta_description': forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'maxlength': 160}),
             'keywords':    forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'mot1, mot2, mot3'}),
             'canonical_url': forms.URLInput(attrs={'class': INPUT_CLASS}),
-            'is_published': forms.CheckboxInput(attrs={'class': 'rounded border-gray-300 text-blue-600'}),
-            'no_index':    forms.CheckboxInput(attrs={'class': 'rounded border-gray-300 text-red-500'}),
+            'og_title':    forms.TextInput(attrs={'class': INPUT_CLASS, 'placeholder': 'Open Graph title (FB/LinkedIn)'}),
+            'og_description': forms.Textarea(attrs={'class': TEXTAREA_SHORT, 'placeholder': 'Open Graph description'}),
+            'is_published': forms.CheckboxInput(attrs={'class': 'rounded border border-gray-300 text-blue-600'}),
+            'no_index':    forms.CheckboxInput(attrs={'class': 'rounded border border-gray-300 text-red-500'}),
         }
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        # Slug auto-generated from title — make optional
+        self.fields['slug'].required = False
+        self.fields['slug'].widget.attrs.update({'id': 'id_slug', 'placeholder': 'auto-généré depuis le titre FR'})
+        self.fields['title'].widget.attrs.update({'id': 'id_title'})
