@@ -1,6 +1,6 @@
 # PRAVA — Roadmap de développement
 
-> Dernière mise à jour : 4 mars 2026 (soir)
+> Dernière mise à jour : 4 mars 2026 (soir — ajout Phase 9 i18n + Phase 9b signes)
 
 ---
 
@@ -203,6 +203,99 @@ python3 scripts/pipeline/02_translate.py --law 1976
 
 ---
 
+## Phase 9 — Internationalisation complète (i18n) FR/NL/RU ⬜
+
+> Durée estimée : 1–2 semaines | Dépend de Phase 7 | **Variante choisie : B (Full Django i18n)**
+
+### Contexte — État actuel (4 mars 2026)
+
+| Élément | État |
+|---------|------|
+| `USE_I18N = True` + `LocaleMiddleware` | ✅ Configuré |
+| 3 langues déclarées : fr, nl, ru | ✅ Configuré |
+| Champ `User.language` (préférence utilisateur) | ✅ Existant |
+| `{% trans %}` dans templates | ⚠️ Partiellement ajouté |
+| Fichiers `.po` / `.mo` dans `locale/` | ❌ Vides — aucune traduction |
+| Switcher de langue dans navbar | ❌ Absent |
+| URL `set_language` | ❌ Non déclaré |
+| Contenu traduit affiché (articles, signes) | ❌ Non connecté aux templates |
+
+### Niveau 1 — Interface utilisateur (UI strings)
+
+- [ ] Auditer tous les templates — ajouter les `{% trans %}` manquants
+  - `templates/base.html`, `templates/includes/navbar.html`, `templates/includes/footer.html`
+  - `apps/main/templates/main/` — home, pricing, contact, glossary
+  - `apps/accounts/templates/accounts/` — login, register, profile
+  - `apps/examens/templates/examens/` — quiz, results, categories, history
+  - `apps/reglementation/templates/reglementation/` — index, article, signs, category
+  - `apps/blog/templates/blog/` — list, detail, search
+- [ ] `python manage.py makemessages -l ru -l nl` — générer les `.po`
+- [ ] Remplir `locale/ru/LC_MESSAGES/django.po` (~200–300 chaînes UI)
+- [ ] Remplir `locale/nl/LC_MESSAGES/django.po` (~200–300 chaînes UI)
+- [ ] `python manage.py compilemessages` — compiler les `.mo`
+- [ ] Switcher de langue dans la navbar (cookie + `set_language` Django)
+- [ ] Brancher `User.language` → appliquer automatiquement à la connexion
+
+### Niveau 2 — Contenu (données en BDD)
+
+- [ ] **Articles de loi** — templates `article.html` affichent `content_md_fr` / `content_md_nl` / `content_md_ru` selon langue active
+- [ ] **Signes routiers** — `signs.html` affiche `name` (FR) / `name_nl` / `name_ru` selon langue (ajouter champs au modèle si nécessaire)
+- [ ] **Questions d'examen** — déjà sur 3 langues dans les données, vérifier rendu dans `quiz.html`
+- [ ] **Options de réponse** — `text` / `text_nl` / `text_ru` selon langue active
+- [ ] **Titres et slugs** — gérer les URLs multilingues (slug FR reste canonique)
+
+### Niveau 3 — Emails et messages système
+
+- [ ] `accounts/` — emails d'inscription/confirmation traduits
+- [ ] Messages flash Django (`messages.success/error`) avec `{% trans %}`
+- [ ] Formulaires — labels et messages d'erreur traduits
+
+### Niveau 4 (optionnel) — URLs préfixées par langue
+
+> Non prioritaire, peut être fait en Phase 8b
+
+- [ ] `i18n_patterns()` dans `config/urls.py` → URLs `/fr/`, `/nl/`, `/ru/`
+- [ ] Avantage SEO : pages indexées séparément par langue
+- [ ] Redirection par défaut selon langue du navigateur
+
+### Dépendances techniques
+
+```bash
+# Workflow i18n complet :
+python manage.py makemessages -l ru -l nl -l fr  # extraire les chaînes
+# → éditer locale/ru/LC_MESSAGES/django.po
+# → éditer locale/nl/LC_MESSAGES/django.po
+python manage.py compilemessages                  # compiler
+# Ajouter dans config/urls.py :
+# path('i18n/', include('django.conf.urls.i18n')),  # pour set_language
+```
+
+---
+
+## Phase 9b — Signes routiers — Import complet depuis PDF officiel ⬜
+
+> Durée estimée : 2–3 jours | Indépendant
+
+### Contexte
+
+- PDF officiel téléchargé : `https://www.codedelaroute.be/media/file/72d09b827e4aa70f33ab0664371b3741cb823a9f.pdf`
+  - Code de la voie publique 2027 — **200+ signes** avec codes FR/NL
+  - PDF analysé avec `pypdf` : structure lisible (code + nom FR/NL par ligne)
+- BDD actuelle : seulement **~27 signes** — incomplet
+
+### À faire
+
+- [ ] Script `scripts/parse_signs_pdf.py` — parser le PDF → JSON `{code, name_fr, name_nl}`
+- [ ] Remplir le `SIGN_REGISTRY` dans `import_signs.py` avec les **200+ entrées** du PDF
+- [ ] Ajouter champ `name_nl` au modèle `TrafficSign` (migration)
+- [ ] Re-downloader les images depuis Wikimedia pour tous les nouveaux signes
+  - Gérer le rate-limiting (429) avec délais appropriés
+  - Fallback : SVG direct depuis Wikimedia CDN (thumbnail steps valides : 120, 240, 320, 480px)
+- [ ] Corriger les images toujours mauvaises : F43, F47, F50, F51
+  - F51 absent de Wikimedia → chercher source alternative (codedelaroute.be, Wikipedia)
+
+---
+
 ## Vue d'ensemble du calendrier
 
 ```
@@ -215,5 +308,7 @@ python3 scripts/pipeline/02_translate.py --law 1976
 6-10 mars     : Phase 5 🔜  Import AR 1975 + 1968 + 2005 en BDD
 Mars–Avril    : Phase 6     Admin dashboard
 Avril–Mai     : Phase 7     Frontend utilisateur + lancement beta
-Mai+          : Phase 8     SEO, contenu 2027 progressif
+Mai           : Phase 9b    Signes routiers — import complet PDF (200+ signes)
+Mai–Juin      : Phase 9     i18n complète FR/NL/RU (UI + contenu)
+Juin+         : Phase 8     SEO, contenu 2027 progressif
 ```
