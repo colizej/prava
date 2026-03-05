@@ -45,3 +45,24 @@ def keys_widget(context):
         'avatar_url': avatar_url,
         'initial': initial,
     }
+
+
+@register.inclusion_tag('rewards/widget_mobile.html', takes_context=True)
+def keys_widget_mobile(context):
+    """Minimal inline fuel balance row for the mobile nav menu."""
+    request = context.get('request')
+    if request is None or not request.user.is_authenticated:
+        return {'show': False}
+
+    user = request.user
+    ks     = get_settings()
+    wallet = get_or_create_wallet(user)
+    pct = min(100, int((wallet.balance / ks.tank_capacity) * 100)) if ks.tank_capacity else 0
+
+    return {
+        'show': True,
+        'icon': ks.icon,
+        'balance': wallet.balance,
+        'tank_capacity': ks.tank_capacity,
+        'balance_pct': pct,
+    }
