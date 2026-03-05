@@ -11,7 +11,7 @@
     <nav class="flex items-center gap-2 text-sm text-gray-400 mb-6 flex-wrap">
         <a href="{% url 'reglementation:index' %}" class="hover:text-blue-600 transition">{% trans "Réglementation" %}</a>
         <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
-        <a href="{{ article.category.get_absolute_url }}" class="hover:text-blue-600 transition">{{ article.category.name }}</a>
+        <a href="{{ article.category.get_absolute_url }}" class="hover:text-blue-600 transition">{{ article.category.trans_name }}</a>
         <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
         <span class="text-gray-600">{{ article.article_number }}</span>
     </nav>
@@ -21,14 +21,14 @@
         {# Sidebar — Table of Contents (desktop) #}
         <aside class="hidden lg:block lg:w-60 shrink-0">
             <div class="sticky top-6 max-h-[calc(100vh-3rem)] overflow-y-auto">
-                <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">{{ article.category.name }}</h3>
+                <h3 class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-3">{{ article.category.trans_name }}</h3>
                 <nav class="space-y-0.5 border-l-2 border-gray-100 pl-3">
-                    {% for num, title, sib_slug in siblings %}
-                    <a href="{% url 'reglementation:article' slug=sib_slug %}"
+                    {% for sib in siblings %}
+                    <a href="{% url 'reglementation:article' slug=sib.slug %}"
                        class="block text-xs py-1.5 transition rounded-r-md -ml-[calc(0.75rem+2px)] pl-[calc(0.75rem+2px)]
-                              {% if sib_slug == article.slug %}border-l-2 border-blue-500 !-ml-[calc(0.75rem+2px)] text-blue-700 font-semibold bg-blue-50/60{% else %}text-gray-500 hover:text-gray-800 hover:bg-gray-50{% endif %}">
-                        <span class="font-mono text-[10px] text-gray-400 mr-1">{{ num }}</span>
-                        <span class="line-clamp-1">{{ title }}</span>
+                              {% if sib.slug == article.slug %}border-l-2 border-blue-500 !-ml-[calc(0.75rem+2px)] text-blue-700 font-semibold bg-blue-50/60{% else %}text-gray-500 hover:text-gray-800 hover:bg-gray-50{% endif %}">
+                        <span class="font-mono text-[10px] text-gray-400 mr-1">{{ sib.article_number }}</span>
+                        <span class="line-clamp-1">{{ sib.trans_title }}</span>
                     </a>
                     {% endfor %}
                 </nav>
@@ -49,7 +49,7 @@
                     Premium
                 </span>
                 {% endif %}
-                <h1 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight mt-2">{{ article.title }}</h1>
+                <h1 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight mt-2">{{ article.trans_title }}</h1>
             </header>
 
             {# Sign / illustration images #}
@@ -81,7 +81,7 @@
                             prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline
                             prose-table:text-sm
                             prose-img:rounded-lg prose-img:shadow-sm">
-                    {{ article.content|safe }}
+                    {{ article.trans_content|safe }}
                 </div>
             </div>
 

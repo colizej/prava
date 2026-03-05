@@ -22,9 +22,9 @@
                 {% include "reglementation/_icon.html" with icon=cat.icon %}
             </div>
             {# Content #}
-            <h2 class="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition leading-snug">{{ cat.name }}</h2>
-            {% if cat.description %}
-            <p class="mt-1 text-xs text-gray-500 line-clamp-2">{{ cat.description }}</p>
+            <h2 class="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition leading-snug">{{ cat.trans_name }}</h2>
+            {% if cat.trans_description %}
+            <p class="mt-1 text-xs text-gray-500 line-clamp-2">{{ cat.trans_description }}</p>
             {% endif %}
             {# Badge #}
             <span class="mt-auto pt-3 inline-flex items-center gap-1 text-xs font-medium text-gray-400">
@@ -81,7 +81,7 @@
                 <a href="{{ cat.get_absolute_url }}"
                    class="group flex items-center gap-3 bg-white px-5 py-3.5 hover:bg-gray-50 transition-colors">
                     <div class="flex-1 min-w-0">
-                        <span class="text-sm font-medium text-gray-800 group-hover:text-indigo-600 transition truncate block">{{ cat.name }}</span>
+                        <span class="text-sm font-medium text-gray-800 group-hover:text-indigo-600 transition truncate block">{{ cat.trans_name }}</span>
                     </div>
                     <span class="shrink-0 text-xs text-gray-400 tabular-nums">{{ cat.articles_count }} art.</span>
                     <svg class="w-3.5 h-3.5 text-gray-300 group-hover:text-indigo-400 shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>

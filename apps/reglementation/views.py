@@ -154,7 +154,7 @@ def article_detail(request, slug):
     # Table of contents for long articles
     siblings = CodeArticle.objects.filter(
         category=article.category
-    ).values_list('article_number', 'title', 'slug').order_by('order')[:30]
+    ).order_by('order')[:30]
 
     context = {
         'article': article,

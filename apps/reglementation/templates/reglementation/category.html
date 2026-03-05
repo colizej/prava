@@ -10,7 +10,7 @@
     <nav class="flex items-center gap-2 text-sm text-gray-400 mb-6">
         <a href="{% url 'reglementation:index' %}" class="hover:text-blue-600 transition">{% trans "Réglementation" %}</a>
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
-        <span class="text-gray-600">{{ category.name }}</span>
+        <span class="text-gray-600">{{ category.trans_name }}</span>
     </nav>
 
     <div class="lg:flex lg:gap-10">
@@ -39,7 +39,7 @@
                         <span class="w-5 h-5 shrink-0 {% if cat.slug == category.slug %}text-blue-500{% else %}text-gray-400{% endif %}">
                             {% include "reglementation/_icon.html" with icon=cat.icon %}
                         </span>
-                        <span class="truncate">{{ cat.name }}</span>
+                        <span class="truncate">{{ cat.trans_name }}</span>
                         <span class="ml-auto text-xs text-gray-400">{{ cat.articles_count }}</span>
                     </a>
                     {% endfor %}
@@ -55,10 +55,10 @@
                     <div class="flex items-center justify-center w-10 h-10 rounded-xl bg-blue-50 text-blue-600">
                         {% include "reglementation/_icon.html" with icon=category.icon %}
                     </div>
-                    <h1 class="text-2xl font-extrabold text-gray-900 tracking-tight">{{ category.name }}</h1>
+                    <h1 class="text-2xl font-extrabold text-gray-900 tracking-tight">{{ category.trans_name }}</h1>
                 </div>
-                {% if category.description %}
-                <p class="text-gray-500 ml-13">{{ category.description }}</p>
+                {% if category.trans_description %}
+                <p class="text-gray-500 ml-13">{{ category.trans_description }}</p>
                 {% endif %}
             </div>
 
@@ -76,7 +76,7 @@
                     {# Content #}
                     <div class="flex-1 min-w-0">
                         <h2 class="font-semibold text-gray-900 group-hover:text-blue-600 transition truncate">
-                            {{ article.title }}
+                            {{ article.trans_title }}
                         </h2>
                         {% if article.content_text %}
                         <p class="mt-1 text-sm text-gray-400 line-clamp-1">{{ article.content_text|truncatewords:20 }}</p>

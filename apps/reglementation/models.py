@@ -39,6 +39,22 @@ class RuleCategory(models.Model):
             return self.name_ru
         return self.name
 
+    @property
+    def trans_name(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        return self.get_name(lang)
+
+    @property
+    def trans_description(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        if lang == 'nl' and self.description_nl:
+            return self.description_nl
+        if lang == 'ru' and self.description_ru:
+            return self.description_ru
+        return self.description
+
 
 class CodeArticle(models.Model):
     """Article du code de la route."""
@@ -105,6 +121,18 @@ class CodeArticle(models.Model):
             return self.content_ru
         return self.content
 
+    @property
+    def trans_title(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        return self.get_title(lang)
+
+    @property
+    def trans_content(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        return self.get_content(lang)
+
 
 class TrafficSign(models.Model):
     """Panneau de signalisation."""
@@ -151,6 +179,22 @@ class TrafficSign(models.Model):
         if lang == 'ru' and self.name_ru:
             return self.name_ru
         return self.name
+
+    @property
+    def trans_name(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        return self.get_name(lang)
+
+    @property
+    def trans_description(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        if lang == 'nl' and self.description_nl:
+            return self.description_nl
+        if lang == 'ru' and self.description_ru:
+            return self.description_ru
+        return self.description
 
 
 class ArticleImage(models.Model):

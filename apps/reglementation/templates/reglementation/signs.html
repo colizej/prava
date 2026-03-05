@@ -36,7 +36,7 @@
 
                 <div class="p-4 flex items-center justify-center h-28">
                     {% if sign.image %}
-                    <img src="{{ sign.image.url }}" alt="{{ sign.name }}" class="max-h-20 max-w-full object-contain">
+                    <img src="{{ sign.image.url }}" alt="{{ sign.trans_name }}" class="max-h-20 max-w-full object-contain">
                     {% else %}
                     <div class="w-16 h-16 bg-gray-50 rounded-full flex items-center justify-center text-3xl">🪧</div>
                     {% endif %}
@@ -44,7 +44,7 @@
 
                 <div class="px-3 pb-3 border-t border-gray-50 pt-2">
                     <p class="text-xs font-mono font-bold text-blue-600 mb-0.5">{{ sign.code }}</p>
-                    <p class="text-sm font-semibold text-gray-900 leading-tight">{{ sign.name }}</p>
+                    <p class="text-sm font-semibold text-gray-900 leading-tight">{{ sign.trans_name }}</p>
 
                     {% if sign.description %}
                     <button @click="open=!open"
@@ -60,7 +60,7 @@
                          x-transition:enter-start="opacity-0 -translate-y-1"
                          x-transition:enter-end="opacity-100 translate-y-0"
                          class="mt-2 text-xs text-gray-600 leading-relaxed border-t border-gray-100 pt-2">
-                        {{ sign.description }}
+                        {{ sign.trans_description }}
                     </div>
                     {% endif %}
                 </div>
