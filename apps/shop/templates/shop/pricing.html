@@ -60,6 +60,10 @@
             <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
             {% trans "Catégories de base" %}
           </li>
+          <li class="flex items-center gap-2">
+            <span class="flex-shrink-0 text-base leading-none">⛽</span>
+            {% trans "Réservoir : échangez vos litres contre des questions bonus" %}
+          </li>
         {% else %}
           <li class="flex items-center gap-2">
             <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
@@ -76,6 +80,10 @@
           <li class="flex items-center gap-2">
             <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
             {% trans "Sans publicité" %}
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="flex-shrink-0 text-base leading-none">⛽</span>
+            {% trans "Bonus litres de carburant offerts à l'achat" %}
           </li>
           {% if plan.duration_days >= 7 %}
           <li class="flex items-center gap-2">

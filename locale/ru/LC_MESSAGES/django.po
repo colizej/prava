@@ -210,7 +210,7 @@ msgstr "Поиск"
 #, fuzzy, python-format
 #| msgid "Recherche"
 msgid "Recherche : \"%(q)s\""
-msgstr "Поиск: \"%(q)s\""%(q)s\""
+msgstr "Поиск: \"%(q)s\""
 
 #: apps/blog/templates/blog/search.html:8
 msgid "Rechercher..."
@@ -1016,3 +1016,19 @@ msgstr "Все права защищены."
 #: templates/includes/navbar.html:73
 msgid "Langue :"
 msgstr "Язык:"
+
+#: apps/main/templates/main/home.html
+msgid "Réservoir de carburant — questions gratuites"
+msgstr "Топливный бак — бесплатные вопросы"
+
+#: apps/main/templates/main/home.html
+msgid "Chaque visite et chaque test réussi vous rapportent des litres de carburant. Échangez-les contre des questions supplémentaires gratuites. 20 L → 10 questions, 40 L → 30 questions, plein (60 L) → 50 questions !"
+msgstr "Каждый визит и пройденный тест приносит литры топлива. Обменивайте их на дополнительные вопросы. 20 л → 10 вопросов, 40 л → 30 вопросов, полный бак (60 л) → 50 вопросов!"
+
+#: apps/shop/templates/shop/pricing.html
+msgid "Réservoir : échangez vos litres contre des questions bonus"
+msgstr "Бак: обменивайте литры на бонусные вопросы"
+
+#: apps/shop/templates/shop/pricing.html
+msgid "Bonus litres de carburant offerts à l'achat"
+msgstr "Бонусные литры топлива при покупке"

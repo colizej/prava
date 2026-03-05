@@ -207,7 +207,7 @@ msgstr "Zoeken"
 #, fuzzy, python-format
 #| msgid "Recherche"
 msgid "Recherche : \"%(q)s\""
-msgstr "Zoeken: \"%(q)s\""%(q)s\""
+msgstr "Zoeken: \"%(q)s\""
 
 #: apps/blog/templates/blog/search.html:8
 msgid "Rechercher..."
@@ -1016,3 +1016,19 @@ msgstr "Alle rechten voorbehouden."
 #: templates/includes/navbar.html:73
 msgid "Langue :"
 msgstr "Taal:"
+
+#: apps/main/templates/main/home.html
+msgid "Réservoir de carburant — questions gratuites"
+msgstr "Brandstoftank — gratis vragen"
+
+#: apps/main/templates/main/home.html
+msgid "Chaque visite et chaque test réussi vous rapportent des litres de carburant. Échangez-les contre des questions supplémentaires gratuites. 20 L → 10 questions, 40 L → 30 questions, plein (60 L) → 50 questions !"
+msgstr "Elke bezoek en elke geslaagde test levert brandstofliters op. Ruil ze in voor extra gratis vragen. 20 L → 10 vragen, 40 L → 30 vragen, volle tank (60 L) → 50 vragen!"
+
+#: apps/shop/templates/shop/pricing.html
+msgid "Réservoir : échangez vos litres contre des questions bonus"
+msgstr "Tank: ruil liters in voor bonusvragen"
+
+#: apps/shop/templates/shop/pricing.html
+msgid "Bonus litres de carburant offerts à l'achat"
+msgstr "Bonus brandstofliters bij aankoop"
