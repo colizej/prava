@@ -10,7 +10,7 @@
     <div class="flex flex-wrap gap-2 mb-8">
         <a href="{% url 'blog:list' %}" class="px-4 py-2 rounded-full text-sm bg-blue-600 text-white">{% trans "Tous" %}</a>
         {% for cat in categories %}
-        <a href="{% url 'blog:category' cat.slug %}" class="px-4 py-2 rounded-full text-sm bg-gray-100 text-gray-700 hover:bg-gray-200">{{ cat.name }}</a>
+        <a href="{% url 'blog:category' cat.slug %}" class="px-4 py-2 rounded-full text-sm bg-gray-100 text-gray-700 hover:bg-gray-200">{{ cat.trans_name }}</a>
         {% endfor %}
     </div>
     {% endif %}
@@ -24,9 +24,9 @@
             <div class="w-full h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center"><span class="text-4xl">📝</span></div>
             {% endif %}
             <div class="p-5">
-                {% if post.category %}<span class="text-xs text-blue-600 font-medium">{{ post.category.name }}</span>{% endif %}
-                <h2 class="font-semibold text-gray-900 mt-1">{{ post.title }}</h2>
-                <p class="text-sm text-gray-500 mt-2">{{ post.get_excerpt|truncatewords:20 }}</p>
+                {% if post.category %}<span class="text-xs text-blue-600 font-medium">{{ post.category.trans_name }}</span>{% endif %}
+                <h2 class="font-semibold text-gray-900 mt-1">{{ post.trans_title }}</h2>
+                <p class="text-sm text-gray-500 mt-2">{{ post.trans_excerpt|truncatewords:20 }}</p>
                 <div class="flex items-center justify-between mt-4 text-xs text-gray-400">
                     <span>{{ post.published_at|date:"d M Y" }}</span>
                     <span>{{ post.read_time }} min</span>

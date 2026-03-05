@@ -11,8 +11,8 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         {% for post in posts %}
         <a href="{{ post.get_absolute_url }}" class="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100">
-            <h2 class="font-semibold text-gray-900">{{ post.title }}</h2>
-            <p class="text-sm text-gray-500 mt-2">{{ post.get_excerpt|truncatewords:20 }}</p>
+            <h2 class="font-semibold text-gray-900">{{ post.trans_title }}</h2>
+            <p class="text-sm text-gray-500 mt-2">{{ post.trans_excerpt|truncatewords:20 }}</p>
         </a>
         {% empty %}
         <p class="text-gray-500 col-span-3 text-center py-8">{% trans "Aucun résultat trouvé." %}</p>

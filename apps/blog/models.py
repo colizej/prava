@@ -33,6 +33,12 @@ class BlogCategory(models.Model):
             return self.name_ru
         return self.name
 
+    @property
+    def trans_name(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        return self.get_name(lang)
+
 
 class BlogPost(models.Model):
     """Article de blog avec SEO complet."""
@@ -168,6 +174,24 @@ class BlogPost(models.Model):
     @property
     def seo_description(self):
         return self.meta_description or self.excerpt or self.content[:160]
+
+    @property
+    def trans_title(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        return self.get_title(lang)
+
+    @property
+    def trans_excerpt(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        return self.get_excerpt(lang)
+
+    @property
+    def trans_content(self):
+        from django.utils.translation import get_language
+        lang = (get_language() or 'fr')[:2]
+        return self.get_content(lang)
 
     def increment_views(self):
         self.views_count += 1
