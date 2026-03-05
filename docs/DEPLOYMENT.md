@@ -12,7 +12,7 @@
 | Node.js | 18+ (pour build Tailwind) |
 | PostgreSQL | 15+ |
 | Gunicorn | ≥25.0 |
-| Nginx (recommandé) | pour proxy + HTTPS |
+| Caddy 2 | proxy inverse + HTTPS automatique |
 
 ---
 
@@ -129,37 +129,34 @@ WantedBy=multi-user.target
 
 ---
 
-## 7. Configuration Nginx
+## 7. Configuration Caddy
 
-```nginx
-server {
-    listen 80;
-    server_name prava.be www.prava.be;
-    return 301 https://$host$request_uri;
-}
+Caddy gère HTTPS automatiquement (Let's Encrypt). Pas besoin de configurer les certificats.
 
-server {
-    listen 443 ssl;
-    server_name prava.be www.prava.be;
+`/etc/caddy/Caddyfile` :
 
-    ssl_certificate     /etc/letsencrypt/live/prava.be/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/prava.be/privkey.pem;
-
-    location /media/ {
-        alias /var/www/prava/media/;
+```caddy
+prava.be, www.prava.be {
+    # Fichiers media (uploads utilisateurs)
+    handle /media/* {
+        root * /var/www/prava
+        file_server
     }
 
-    location / {
-        proxy_pass http://127.0.0.1:8000;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
+    # Tout le reste → Gunicorn
+    reverse_proxy localhost:8000 {
+        header_up Host {host}
+        header_up X-Real-IP {remote_host}
+        header_up X-Forwarded-Proto {scheme}
     }
 }
 ```
 
-> **Note :** les fichiers statiques (`/static/`) sont servis directement par WhiteNoise via Gunicorn — pas de configuration Nginx nécessaire pour les statics.
+```bash
+sudo systemctl reload caddy
+```
+
+> **Note :** les fichiers statiques (`/static/`) sont servis directement par WhiteNoise via Gunicorn — Caddy ne les touche pas. Seul `/media/` (avatars, images) est servi directement par Caddy.
 
 ---
 
@@ -214,3 +211,71 @@ python manage.py migrate
 python manage.py compilemessages
 sudo systemctl restart prava
 ```
+
+---
+
+## 11. Workflow — Ajout de contenu (questions, articles)
+
+### Principe général
+
+```
+PC local                           Serveur production
+─────────────────────              ──────────────────────────────
+① Générer questions                
+   04_questions.py --law X         
+   (Gemini API, vos clés)
+   ↓
+② Vérifier / corriger
+   data/processed/X/articles/
+   ↓
+③ Importer en BDD locale
+   05_import.py --law X
+   ↓
+④ git add data/processed/  
+   git push                   →   ⑤ git pull
+                                      05_import.py --law X
+                                      (importe dans PostgreSQL)
+                                      sudo systemctl restart prava  ← optionnel
+```
+
+### Pourquoi générer localement (pas sur le serveur)
+
+- ✅ Clés API Gemini/DeepL sur votre machine — pas besoin de les mettre sur le serveur
+- ✅ Facile à débuguer et corriger avant publication
+- ✅ `data/processed/` est suivi par git (603 fichiers JSON) — synchronisation naturelle
+- ✅ Zéro risque de planter le serveur pendant la génération (rate limiting, erreurs API)
+
+### Commandes types
+
+```bash
+# --- LOCAL : générer et importer ---
+python3 scripts/pipeline/04_questions.py --law 1968 --limit 10
+python3 scripts/pipeline/05_import.py --law 1968
+git add data/processed/1968/
+git commit -m "feat: questions loi 1968 (93 articles)"
+git push
+
+# --- SERVEUR : synchroniser ---
+git pull
+source venv/bin/activate
+python3 scripts/pipeline/05_import.py --law 1968
+# pas besoin de restart sauf si nouvelle migration
+```
+
+### Images des questions
+
+Les images sont dans `media/questions/` — **non versionnées** (gitignore).
+Deux options :
+- **Option A (simple)** : uploader via Django admin (`/admin/`) directement sur le serveur
+- **Option B (script)** : `rsync -avz media/questions/ user@server:/var/www/prava/media/questions/`
+
+### Calendrier recommandé
+
+| Étape | Quand | Où |
+|-------|-------|----|
+| Déploiement initial | Maintenant | — |
+| Publication articles (SEO) | J+0 | Serveur via admin |
+| Génération questions 1975 (486 restants) | J+1 à J+7 | Local |
+| Import questions 1975 | Au fil de l'eau | Serveur (git pull + import) |
+| Ajout images questions | Parallèle | Via admin serveur |
+| Ouverture tests aux utilisateurs | Quand 1975 complet | — |
