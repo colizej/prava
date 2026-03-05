@@ -1,4 +1,5 @@
 {# Navigation Bar #}
+{% load i18n %}
 <nav class="bg-white shadow-sm border-b border-gray-200" x-data="{ mobileOpen: false }">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center h-16 gap-4">
@@ -28,18 +29,18 @@
 
                 {# Desktop links #}
                 <div class="hidden md:flex items-center space-x-6">
-                    <a href="{% url 'examens:categories' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Examens</a>
-                    <a href="{% url 'reglementation:index' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Réglementation</a>
-                    <a href="{% url 'blog:list' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Blog</a>
-                    <a href="{% url 'main:pricing' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Tarifs</a>
+                    <a href="{% url 'examens:categories' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">{% trans "Examens" %}</a>
+                    <a href="{% url 'reglementation:index' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">{% trans "Réglementation" %}</a>
+                    <a href="{% url 'blog:list' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">{% trans "Blog" %}</a>
+                    <a href="{% url 'main:pricing' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">{% trans "Tarifs" %}</a>
 
                     {% if user.is_authenticated %}
                         <a href="{% url 'accounts:profile' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
                             {{ user.username }}
                         </a>
                     {% else %}
-                        <a href="{% url 'accounts:login' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">Connexion</a>
-                        <a href="{% url 'accounts:register' %}" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Inscription</a>
+                        <a href="{% url 'accounts:login' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">{% trans "Connexion" %}</a>
+                        <a href="{% url 'accounts:register' %}" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">{% trans "Inscription" %}</a>
                     {% endif %}
                 </div>
 
@@ -60,24 +61,24 @@
     {# Mobile Menu #}
     <div x-show="mobileOpen" x-transition class="md:hidden bg-white border-t">
         <div class="px-4 py-3 space-y-2">
-            <a href="{% url 'examens:categories' %}" class="block py-2 text-gray-700 hover:text-blue-600">Examens</a>
-            <a href="{% url 'reglementation:index' %}" class="block py-2 text-gray-700 hover:text-blue-600">Réglementation</a>
-            <a href="{% url 'blog:list' %}" class="block py-2 text-gray-700 hover:text-blue-600">Blog</a>
-            <a href="{% url 'main:pricing' %}" class="block py-2 text-gray-700 hover:text-blue-600">Tarifs</a>
+            <a href="{% url 'examens:categories' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Examens" %}</a>
+            <a href="{% url 'reglementation:index' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Réglementation" %}</a>
+            <a href="{% url 'blog:list' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Blog" %}</a>
+            <a href="{% url 'main:pricing' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Tarifs" %}</a>
             {# Language switcher mobile #}
             <div class="flex items-center gap-1 py-2">
-                <span class="text-xs text-gray-400 mr-1">Langue :</span>
+                <span class="text-xs text-gray-400 mr-1">{% trans "Langue :" %}</span>
                 <button id="lang-mob-fr" onclick="LANG.toggle('fr')" class="text-xs font-bold px-2 py-1 rounded transition">FR</button>
                 <button id="lang-mob-nl" onclick="LANG.toggle('nl')" class="text-xs font-bold px-2 py-1 rounded transition">NL</button>
                 <button id="lang-mob-ru" onclick="LANG.toggle('ru')" class="text-xs font-bold px-2 py-1 rounded transition">RU</button>
             </div>
             <hr class="my-2">
             {% if user.is_authenticated %}
-                <a href="{% url 'accounts:profile' %}" class="block py-2 text-gray-700 hover:text-blue-600">Mon profil</a>
+                <a href="{% url 'accounts:profile' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Mon profil" %}</a>
 
             {% else %}
-                <a href="{% url 'accounts:login' %}" class="block py-2 text-gray-700 hover:text-blue-600">Connexion</a>
-                <a href="{% url 'accounts:register' %}" class="block py-2 bg-blue-600 text-white rounded-lg text-center hover:bg-blue-700">Inscription</a>
+                <a href="{% url 'accounts:login' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Connexion" %}</a>
+                <a href="{% url 'accounts:register' %}" class="block py-2 bg-blue-600 text-white rounded-lg text-center hover:bg-blue-700">{% trans "Inscription" %}</a>
             {% endif %}
         </div>
     </div>

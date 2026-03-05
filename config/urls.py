@@ -18,6 +18,9 @@ urlpatterns = [
     # Admin
     path('admin/', admin.site.urls),
 
+    # i18n language switching
+    path('i18n/', include('django.conf.urls.i18n')),
+
     # Apps
     path('', include('apps.main.urls')),
     path('accounts/', include('apps.accounts.urls')),

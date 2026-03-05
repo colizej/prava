@@ -1,4 +1,5 @@
 {# Footer #}
+{% load i18n %}
 <footer class="bg-gray-800 text-gray-300 mt-auto">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -9,45 +10,65 @@
                     {{ SITE_NAME }}
                 </h3>
                 <p class="text-sm">
-                    Préparation à l'examen théorique du permis de conduire en Belgique.
-                    Plus de 1000 questions pour réussir votre examen.
+                    {% trans "Préparation à l'examen théorique du permis de conduire en Belgique. Plus de 1000 questions pour réussir votre examen." %}
                 </p>
             </div>
 
             {# Navigation #}
             <div>
-                <h4 class="text-white font-semibold mb-4">Navigation</h4>
+                <h4 class="text-white font-semibold mb-4">{% trans "Navigation" %}</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="{% url 'examens:categories' %}" class="hover:text-white transition">Examens</a></li>
-                    <li><a href="{% url 'reglementation:index' %}" class="hover:text-white transition">Réglementation</a></li>
-                    <li><a href="{% url 'blog:list' %}" class="hover:text-white transition">Blog</a></li>
-                    <li><a href="{% url 'main:glossary' %}" class="hover:text-white transition">Glossaire</a></li>
+                    <li><a href="{% url 'examens:categories' %}" class="hover:text-white transition">{% trans "Examens" %}</a></li>
+                    <li><a href="{% url 'reglementation:index' %}" class="hover:text-white transition">{% trans "Réglementation" %}</a></li>
+                    <li><a href="{% url 'blog:list' %}" class="hover:text-white transition">{% trans "Blog" %}</a></li>
+                    <li><a href="{% url 'main:glossary' %}" class="hover:text-white transition">{% trans "Glossaire" %}</a></li>
                 </ul>
             </div>
 
             {# Informations #}
             <div>
-                <h4 class="text-white font-semibold mb-4">Informations</h4>
+                <h4 class="text-white font-semibold mb-4">{% trans "Informations" %}</h4>
                 <ul class="space-y-2 text-sm">
                     <li><a href="{% url 'main:about' %}" class="hover:text-white transition">À propos</a></li>
                     <li><a href="{% url 'main:contact' %}" class="hover:text-white transition">Contact</a></li>
-                    <li><a href="{% url 'main:pricing' %}" class="hover:text-white transition">Tarifs</a></li>
+                    <li><a href="{% url 'main:pricing' %}" class="hover:text-white transition">{% trans "Tarifs" %}</a></li>
                 </ul>
             </div>
 
             {# Languages #}
             <div>
-                <h4 class="text-white font-semibold mb-4">Langues</h4>
+                <h4 class="text-white font-semibold mb-4">{% trans "Langues" %}</h4>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="?lang=fr" class="hover:text-white transition">🇫🇷 Français</a></li>
-                    <li><a href="?lang=nl" class="hover:text-white transition">🇳🇱 Nederlands</a></li>
-                    <li><a href="?lang=ru" class="hover:text-white transition">🇷🇺 Русский</a></li>
+                    <li>
+                        <form method="post" action="{% url 'set_language' %}" class="inline">
+                            {% csrf_token %}
+                            <input type="hidden" name="language" value="fr">
+                            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+                            <button type="submit" class="hover:text-white transition text-left">🇫🇷 Français</button>
+                        </form>
+                    </li>
+                    <li>
+                        <form method="post" action="{% url 'set_language' %}" class="inline">
+                            {% csrf_token %}
+                            <input type="hidden" name="language" value="nl">
+                            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+                            <button type="submit" class="hover:text-white transition text-left">🇳🇱 Nederlands</button>
+                        </form>
+                    </li>
+                    <li>
+                        <form method="post" action="{% url 'set_language' %}" class="inline">
+                            {% csrf_token %}
+                            <input type="hidden" name="language" value="ru">
+                            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+                            <button type="submit" class="hover:text-white transition text-left">🇷🇺 Русский</button>
+                        </form>
+                    </li>
                 </ul>
             </div>
         </div>
 
         <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
-            <p>&copy; 2026 {{ SITE_NAME }}. Tous droits réservés.</p>
+            <p>&copy; 2026 {{ SITE_NAME }}. {% trans "Tous droits réservés." %}</p>
         </div>
     </div>
 </footer>

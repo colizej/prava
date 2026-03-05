@@ -1,8 +1,9 @@
 {% extends "base.html" %}
-{% block title %}Historique — {{ SITE_NAME }}{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Historique" %} — {{ SITE_NAME }}{% endblock %}
 {% block content %}
 <div class="max-w-4xl mx-auto px-4 py-12">
-    <h1 class="text-2xl font-bold text-gray-900 mb-8">Historique des tests</h1>
+    <h1 class="text-2xl font-bold text-gray-900 mb-8">{% trans "Historique des tests" %}</h1>
     {% if attempts %}
     <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
         <div class="divide-y">
@@ -24,7 +25,7 @@
         </div>
     </div>
     {% else %}
-    <p class="text-gray-500 text-center py-12">Aucun test effectué. <a href="{% url 'examens:practice' %}" class="text-blue-600">Commencez maintenant!</a></p>
+    <p class="text-gray-500 text-center py-12">{% trans "Aucun test effectué." %} <a href="{% url 'examens:practice' %}" class="text-blue-600">{% trans "Commencez maintenant!" %}</a></p>
     {% endif %}
 </div>
 {% endblock %}

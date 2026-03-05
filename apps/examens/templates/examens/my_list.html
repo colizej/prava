@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{% if study_list %}{{ study_list.icon }} {{ study_list.name }}{% else %}Mes révisions{% endif %} — {{ SITE_NAME }}{% endblock %}
+{% load i18n %}
+{% block title %}{% if study_list %}{{ study_list.icon }} {{ study_list.name }}{% else %}{% trans "Mes révisions" %}{% endif %} — {{ SITE_NAME }}{% endblock %}
 {% block content %}
 <div class="max-w-3xl mx-auto px-4 py-10">
 
@@ -11,7 +12,7 @@
             </svg>
         </a>
         <h1 class="text-2xl font-bold text-gray-900">
-            {% if study_list %}{{ study_list.icon }} {{ study_list.name }}{% else %}Mes révisions{% endif %}
+            {% if study_list %}{{ study_list.icon }} {{ study_list.name }}{% else %}{% trans "Mes révisions" %}{% endif %}
         </h1>
     </div>
 
@@ -32,7 +33,7 @@
     {# No lists configured by admin #}
     <div class="text-center py-20 text-gray-400">
         <div class="text-5xl mb-4">📋</div>
-        <p class="text-lg font-medium">Aucune liste disponible pour le moment.</p>
+        <p class="text-lg font-medium">{% trans "Aucune liste disponible pour le moment." %}</p>
     </div>
 
     {% elif saved_items %}
@@ -42,7 +43,7 @@
         <a href="{% url 'examens:practice_saved_slug' study_list.slug %}"
            class="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-xl hover:bg-blue-700 transition">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-            Pratiquer ce test
+            {% trans "Pratiquer ce test" %}
         </a>
     </div>
 
@@ -89,7 +90,7 @@
                     .catch(() => { removing = false; });
                 "
                 :disabled="removing"
-                title="Retirer de la liste"
+                title="{% trans "Retirer de la liste" %}"
                 class="shrink-0 p-2 text-gray-300 hover:text-red-400 hover:bg-red-50 rounded-lg transition focus:outline-none">
                     <svg x-show="!removing" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
@@ -108,11 +109,11 @@
     {# Empty state #}
     <div class="text-center py-20 text-gray-400">
         <div class="text-5xl mb-4">{{ study_list.icon }}</div>
-        <p class="text-lg font-medium text-gray-500 mb-2">Votre liste est vide</p>
-        <p class="text-sm mb-6">Après un test, cliquez sur 🔖 sur les questions difficiles pour les ajouter ici.</p>
+        <p class="text-lg font-medium text-gray-500 mb-2">{% trans "Votre liste est vide" %}</p>
+        <p class="text-sm mb-6">{% trans "Après un test, cliquez sur 🔖 sur les questions difficiles pour les ajouter ici." %}</p>
         <a href="{% url 'examens:practice' %}"
            class="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition">
-            Commencer un entraînement
+            {% trans "Commencer un entraînement" %}
         </a>
     </div>
     {% endif %}

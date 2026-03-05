@@ -1,8 +1,9 @@
 {% extends "base.html" %}
-{% block title %}Inscription — {{ SITE_NAME }}{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Inscription" %} — {{ SITE_NAME }}{% endblock %}
 {% block content %}
 <div class="max-w-md mx-auto px-4 py-16">
-    <h1 class="text-2xl font-bold text-gray-900 mb-6 text-center">Créer un compte</h1>
+    <h1 class="text-2xl font-bold text-gray-900 mb-6 text-center">{% trans "Créer un compte" %}</h1>
     <form method="post" class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
         {% csrf_token %}
         {% for field in form %}
@@ -22,12 +23,12 @@
         </div>
         {% endfor %}
         <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition mt-4">
-            S'inscrire
+            {% trans "S'inscrire" %}
         </button>
     </form>
     <p class="text-center mt-6 text-sm text-gray-600">
-        Déjà un compte ?
-        <a href="{% url 'accounts:login' %}" class="text-blue-600 hover:text-blue-700 font-medium">Se connecter</a>
+        {% trans "Déjà un compte ?" %}
+        <a href="{% url 'accounts:login' %}" class="text-blue-600 hover:text-blue-700 font-medium">{% trans "Se connecter" %}</a>
     </p>
 </div>
 {% endblock %}

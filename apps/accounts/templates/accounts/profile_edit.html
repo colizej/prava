@@ -1,8 +1,9 @@
 {% extends "base.html" %}
-{% block title %}Modifier le profil — {{ SITE_NAME }}{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Modifier le profil" %} — {{ SITE_NAME }}{% endblock %}
 {% block content %}
 <div class="max-w-md mx-auto px-4 py-16">
-    <h1 class="text-2xl font-bold text-gray-900 mb-6">Modifier le profil</h1>
+    <h1 class="text-2xl font-bold text-gray-900 mb-6">{% trans "Modifier le profil" %}</h1>
     <form method="post" enctype="multipart/form-data" class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 space-y-4">
         {% csrf_token %}
         {% for field in form %}
@@ -13,7 +14,7 @@
         </div>
         {% endfor %}
         <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
-            Enregistrer
+            {% trans "Enregistrer" %}
         </button>
     </form>
 </div>

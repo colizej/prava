@@ -1,11 +1,12 @@
 {% extends "base.html" %}
-{% block title %}Glossaire — {{ SITE_NAME }}{% endblock %}
+{% load i18n %}
+{% block title %}{% trans "Glossaire" %} — {{ SITE_NAME }}{% endblock %}
 {% block content %}
 <div class="max-w-4xl mx-auto px-4 py-16">
-    <h1 class="text-3xl font-bold text-gray-900 mb-8">Glossaire des termes</h1>
+    <h1 class="text-3xl font-bold text-gray-900 mb-8">{% trans "Glossaire des termes" %}</h1>
     {# Search #}
     <form method="get" class="mb-8">
-        <input type="text" name="q" value="{{ search_query }}" placeholder="Rechercher un terme..."
+        <input type="text" name="q" value="{{ search_query }}" placeholder="{% trans "Rechercher un terme..." %}"
                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
     </form>
     {# Categories filter #}
@@ -33,7 +34,7 @@
             <p class="mt-2 text-gray-700">{{ term.definition }}</p>
         </div>
         {% empty %}
-        <p class="text-gray-500 text-center py-8">Aucun terme trouvé.</p>
+        <p class="text-gray-500 text-center py-8">{% trans "Aucun terme trouvé." %}</p>
         {% endfor %}
     </div>
 </div>
