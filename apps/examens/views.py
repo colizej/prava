@@ -96,6 +96,7 @@ def practice(request, category_slug=None):
         'questions_json': json.dumps(questions_data),
         'time_limit': 0,  # No time limit
         'test_type': 'practice',
+        'show_lang_switcher': True,
     }
     return render(request, 'examens/quiz.html', context)
 
@@ -120,6 +121,7 @@ def exam_mode(request):
         'questions_json': json.dumps(questions_data),
         'time_limit': 1800,  # 30 minutes
         'test_type': 'exam',
+        'show_lang_switcher': True,
     }
     return render(request, 'examens/quiz.html', context)
 
@@ -165,6 +167,7 @@ def results(request, uuid):
         'detailed_results': detailed_results,
         'default_list': default_list,
         'saved_ids_json': json.dumps(list(saved_ids)),
+        'show_lang_switcher': True,
     }
     return render(request, 'examens/results.html', context)
 
@@ -248,6 +251,7 @@ def question_preview(request, pk):
         'is_preview': True,
         'preview_question_id': question.pk,
         'question_timer': 0,
+        'show_lang_switcher': True,
     }
     return render(request, 'examens/quiz.html', context)
 
@@ -397,5 +401,6 @@ def practice_saved(request, list_slug=None):
         'time_limit': 0,
         'test_type': 'practice_saved',
         'category': None,
+        'show_lang_switcher': True,
     }
     return render(request, 'examens/quiz.html', context)

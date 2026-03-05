@@ -12,7 +12,8 @@
                 </a>
             </div>
 
-            {# Center: Language switcher (desktop only) #}
+            {# Center: Language switcher (desktop only) — visible on quiz/exam pages only #}
+            {% if show_lang_switcher %}
             <div class="hidden md:flex items-center gap-1">
                 <button id="lang-desk-fr" onclick="LANG.toggle('fr')"
                         class="text-xs font-bold px-2.5 py-1 rounded-md transition-all cursor-pointer select-none">FR</button>
@@ -23,6 +24,7 @@
                 <button id="lang-desk-ru" onclick="LANG.toggle('ru')"
                         class="text-xs font-bold px-2.5 py-1 rounded-md transition-all cursor-pointer select-none">RU</button>
             </div>
+            {% endif %}
 
             {# Right: Desktop nav links + mobile burger #}
             <div class="flex-1 flex items-center justify-end">
@@ -65,13 +67,15 @@
             <a href="{% url 'reglementation:index' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Réglementation" %}</a>
             <a href="{% url 'blog:list' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Blog" %}</a>
             <a href="{% url 'main:pricing' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Tarifs" %}</a>
-            {# Language switcher mobile #}
+            {# Language switcher mobile — visible on quiz/exam pages only #}
+            {% if show_lang_switcher %}
             <div class="flex items-center gap-1 py-2">
                 <span class="text-xs text-gray-400 mr-1">{% trans "Langue :" %}</span>
                 <button id="lang-mob-fr" onclick="LANG.toggle('fr')" class="text-xs font-bold px-2 py-1 rounded transition">FR</button>
                 <button id="lang-mob-nl" onclick="LANG.toggle('nl')" class="text-xs font-bold px-2 py-1 rounded transition">NL</button>
                 <button id="lang-mob-ru" onclick="LANG.toggle('ru')" class="text-xs font-bold px-2 py-1 rounded transition">RU</button>
             </div>
+            {% endif %}
             <hr class="my-2">
             {% if user.is_authenticated %}
                 <a href="{% url 'accounts:profile' %}" class="block py-2 text-gray-700 hover:text-blue-600">{% trans "Mon profil" %}</a>
