@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load blog_extras %}
+{% load i18n %}
 {% block title %}{{ post.seo_title }} — {{ SITE_NAME }}{% endblock %}
 {% block meta_description %}{{ post.seo_description }}{% endblock %}
 {% block og_title %}{{ post.seo_title }}{% endblock %}
@@ -43,11 +44,11 @@
     {# Header #}
     <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{{ post.title }}</h1>
     <div class="flex items-center gap-4 text-sm text-gray-500 mb-8">
-        <span>Par {{ post.author.username }}</span>
+        <span>{% blocktrans with author=post.author.username %}Par {{ author }}{% endblocktrans %}</span>
         <span>•</span>
         <span>{{ post.published_at|date:"d M Y" }}</span>
         <span>•</span>
-        <span>{{ post.read_time }} min de lecture</span>
+        <span>{% blocktrans with t=post.read_time %}{{ t }} min de lecture{% endblocktrans %}</span>
     </div>
 
     {# Image #}
@@ -70,7 +71,7 @@
     {# Related posts #}
     {% if related_posts %}
     <hr class="my-12">
-    <h2 class="text-xl font-bold text-gray-900 mb-6">Articles similaires</h2>
+    <h2 class="text-xl font-bold text-gray-900 mb-6">{% trans "Articles similaires" %}</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         {% for rp in related_posts %}
         <a href="{{ rp.get_absolute_url }}" class="bg-white p-4 rounded-lg border border-gray-100 hover:shadow-sm transition">

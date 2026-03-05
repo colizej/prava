@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load i18n %}
 {% block title %}{{ article.article_number }} {{ article.title }} — {{ SITE_NAME }}{% endblock %}
 {% block meta_description %}{{ article.content_text|truncatewords:30 }}{% endblock %}
 
@@ -8,7 +9,7 @@
 
     {# Breadcrumb #}
     <nav class="flex items-center gap-2 text-sm text-gray-400 mb-6 flex-wrap">
-        <a href="{% url 'reglementation:index' %}" class="hover:text-blue-600 transition">Réglementation</a>
+        <a href="{% url 'reglementation:index' %}" class="hover:text-blue-600 transition">{% trans "Réglementation" %}</a>
         <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
         <a href="{{ article.category.get_absolute_url }}" class="hover:text-blue-600 transition">{{ article.category.name }}</a>
         <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
@@ -94,7 +95,7 @@
                 <div class="flex items-center justify-between mb-4 flex-wrap gap-3">
                     <h2 class="flex items-center gap-2 text-lg font-bold text-gray-900">
                         <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"/></svg>
-                        Questions d'examen
+                        {% trans "Questions d'examen" %}
                         <span class="text-sm font-normal text-gray-400">({{ related_questions|length }})</span>
                     </h2>
                     {# Mode switcher #}
@@ -102,12 +103,12 @@
                         <button @click="mode='list'; resetAll()"
                                 :class="mode==='list' ? 'bg-white shadow text-gray-800' : 'text-gray-500 hover:text-gray-700'"
                                 class="px-3 py-1.5 text-xs font-medium rounded-md transition">
-                            📋 Liste
+                            📋 {% trans "Liste" %}
                         </button>
                         <button @click="mode='quiz'; resetAll()"
                                 :class="mode==='quiz' ? 'bg-white shadow text-blue-700' : 'text-gray-500 hover:text-gray-700'"
                                 class="px-3 py-1.5 text-xs font-medium rounded-md transition">
-                            🎯 Test
+                            🎯 {% trans "Test" %}
                         </button>
                     </div>
                 </div>
@@ -128,13 +129,13 @@
                                 {% endif %}
                                 <span class="text-xs px-2 py-0.5 rounded-full
                                     {% if q.difficulty == 1 %}bg-green-50 text-green-600{% elif q.difficulty == 2 %}bg-yellow-50 text-yellow-600{% else %}bg-red-50 text-red-600{% endif %}">
-                                    {% if q.difficulty == 1 %}Facile{% elif q.difficulty == 2 %}Moyen{% else %}Difficile{% endif %}
+                                    {% if q.difficulty == 1 %}{% trans "Facile" %}{% elif q.difficulty == 2 %}{% trans "Moyen" %}{% else %}{% trans "Difficile" %}{% endif %}
                                 </span>
                             </div>
                         </div>
                         {# Show options collapsed under each question in list mode #}
                         <details class="mt-3">
-                            <summary class="text-xs text-blue-600 cursor-pointer hover:underline select-none">Voir les options</summary>
+                            <summary class="text-xs text-blue-600 cursor-pointer hover:underline select-none">{% trans "Voir les options" %}</summary>
                             <ul class="mt-2 space-y-1.5">
                                 {% for opt in q.options.all %}
                                 <li class="flex items-start gap-2 text-sm
@@ -157,8 +158,8 @@
                     {# Progress bar #}
                     <div class="mb-4">
                         <div class="flex justify-between text-xs text-gray-500 mb-1">
-                            <span x-text="answered + ' / {{ related_questions|length }} répondues'"></span>
-                            <span x-text="score + ' correctes'"></span>
+                            <span x-text="answered + ' / {{ related_questions|length }} {% trans "répondues" %}'"></span>
+                            <span x-text="score + ' {% trans "correctes" %}'"></span>
                         </div>
                         <div class="h-1.5 bg-gray-200 rounded-full overflow-hidden">
                             <div class="h-full bg-blue-500 rounded-full transition-all"
@@ -241,10 +242,10 @@
                         <p class="text-2xl font-bold" :class="score===answered ? 'text-green-600' : 'text-blue-700'">
                             <span x-text="score"></span> / {{ related_questions|length }}
                         </p>
-                        <p class="text-sm text-gray-600 mt-1">questions correctes</p>
+                        <p class="text-sm text-gray-600 mt-1">{% trans "questions correctes" %}</p>
                         <button @click="resetAll()"
                                 class="mt-3 px-4 py-2 bg-white border border-gray-300 text-gray-700 text-sm rounded-lg hover:bg-gray-50 transition">
-                            Recommencer
+                            {% trans "Recommencer" %}
                         </button>
                     </div>
                 </div>
@@ -300,7 +301,7 @@
                    class="group flex items-center gap-3 bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-200 hover:shadow-md transition-all">
                     <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-500 transition shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
                     <div class="min-w-0">
-                        <span class="text-xs text-gray-400">Article précédent</span>
+                        <span class="text-xs text-gray-400">{% trans "Article précédent" %}</span>
                         <p class="text-sm font-semibold text-gray-700 group-hover:text-blue-600 truncate transition">
                             {{ prev_article.article_number }} — {{ prev_article.title }}
                         </p>
@@ -314,7 +315,7 @@
                 <a href="{{ next_article.get_absolute_url }}"
                    class="group flex items-center justify-end gap-3 bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-200 hover:shadow-md transition-all text-right">
                     <div class="min-w-0">
-                        <span class="text-xs text-gray-400">Article suivant</span>
+                        <span class="text-xs text-gray-400">{% trans "Article suivant" %}</span>
                         <p class="text-sm font-semibold text-gray-700 group-hover:text-blue-600 truncate transition">
                             {{ next_article.article_number }} — {{ next_article.title }}
                         </p>
@@ -327,7 +328,7 @@
             {# Mobile TOC toggle #}
             <details class="lg:hidden mt-10 bg-white rounded-xl border border-gray-200 overflow-hidden">
                 <summary class="px-5 py-3 font-semibold text-gray-800 cursor-pointer hover:bg-gray-50 transition">
-                    Sommaire — {{ article.category.name }}
+                    {% blocktrans with name=article.category.name %}Sommaire — {{ name }}{% endblocktrans %}
                 </summary>
                 <nav class="px-5 pb-4 space-y-1 max-h-64 overflow-y-auto">
                     {% for num, title, sib_slug in siblings %}

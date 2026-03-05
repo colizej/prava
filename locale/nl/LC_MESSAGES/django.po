@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 11:18+0100\n"
+"POT-Creation-Date: 2026-03-05 11:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,7 @@ msgid "Répondez à des questions par catégorie"
 msgstr "Beantwoord vragen per categorie"
 
 #: apps/accounts/templates/accounts/dashboard.html:31
+#: apps/examens/templates/examens/results.html:125
 msgid "Catégories"
 msgstr "Categorieën"
 
@@ -120,6 +121,7 @@ msgstr "Recente tests"
 #: apps/examens/templates/examens/categories.html:48
 #: apps/examens/templates/examens/my_list.html:3
 #: apps/examens/templates/examens/my_list.html:15
+#: apps/examens/templates/examens/results.html:120
 msgid "Mes révisions"
 msgstr "Mijn herzieningen"
 
@@ -157,6 +159,21 @@ msgstr "Account aanmaken"
 #: apps/accounts/templates/accounts/register.html:30
 msgid "Déjà un compte ?"
 msgstr "Al een account?"
+
+#: apps/blog/templates/blog/detail.html:47
+#, python-format
+msgid "Par %(author)s"
+msgstr "Door %(author)s"
+
+#: apps/blog/templates/blog/detail.html:51
+#: apps/main/templates/main/home.html:118
+#, python-format
+msgid "%(t)s min de lecture"
+msgstr "%(t)s min lezen"
+
+#: apps/blog/templates/blog/detail.html:74
+msgid "Articles similaires"
+msgstr "Gerelateerde artikelen"
 
 #: apps/blog/templates/blog/list.html:3 templates/includes/footer.html:23
 #: templates/includes/navbar.html:34 templates/includes/navbar.html:66
@@ -299,6 +316,103 @@ msgstr "Na een test, klik op 🔖 bij moeilijke vragen om ze hier toe te voegen.
 msgid "Commencer un entraînement"
 msgstr "Een oefening starten"
 
+#: apps/examens/templates/examens/quiz.html:18
+#, python-format
+msgid "Aperçu admin — Question #%(id)s"
+msgstr "Admin preview — Vraag #%(id)s"
+
+#: apps/examens/templates/examens/quiz.html:19
+#, fuzzy
+#| msgid "Retour à l'accueil"
+msgid "← Retour à l'admin"
+msgstr "Terug naar de startpagina"
+
+#: apps/examens/templates/examens/quiz.html:38
+#, fuzzy
+#| msgid "Questions"
+msgid "Question"
+msgstr "Vragen"
+
+#: apps/examens/templates/examens/quiz.html:50
+msgid "pause"
+msgstr "pauze"
+
+#: apps/examens/templates/examens/quiz.html:127
+msgid "Confirmer"
+msgstr "Bevestigen"
+
+#: apps/examens/templates/examens/quiz.html:133
+msgid "Temps écoulé !"
+msgstr "Tijd verstreken!"
+
+#: apps/examens/templates/examens/quiz.html:144
+msgid "Bonne réponse !"
+msgstr "Goed antwoord!"
+
+#: apps/examens/templates/examens/quiz.html:144
+msgid "Mauvaise réponse"
+msgstr "Fout antwoord"
+
+#: apps/examens/templates/examens/quiz.html:155
+#, fuzzy
+#| msgid "Questions"
+msgid "Question suivante →"
+msgstr "Volgende vraag →"
+
+#: apps/examens/templates/examens/quiz.html:155
+msgid "Aperçu terminé"
+msgstr "Preview klaar"
+
+#: apps/examens/templates/examens/quiz.html:155
+#, fuzzy
+#| msgid "Voir les tarifs"
+msgid "Voir les résultats"
+msgstr "Resultaten bekijken"
+
+#: apps/examens/templates/examens/results.html:3
+#, fuzzy
+#| msgid "Résultats détaillés"
+msgid "Résultats"
+msgstr "Gedetailleerde resultaten"
+
+#: apps/examens/templates/examens/results.html:11
+msgid "Félicitations !"
+msgstr "Gefeliciteerd!"
+
+#: apps/examens/templates/examens/results.html:11
+msgid "Continuez à vous entraîner"
+msgstr "Blijf oefenen"
+
+#: apps/examens/templates/examens/results.html:16
+#, python-format
+msgid "%(s)s / %(t)s bonnes réponses"
+msgstr "%(s)s / %(t)s goede antwoorden"
+
+#: apps/examens/templates/examens/results.html:18
+msgid "Temps :"
+msgstr "Tijd:"
+
+#: apps/examens/templates/examens/results.html:25
+msgid "Détail des réponses"
+msgstr "Detail van de antwoorden"
+
+#: apps/examens/templates/examens/results.html:27
+msgid "Cliquez sur le signet pour sauvegarder"
+msgstr "Klik op de bladwijzer om op te slaan"
+
+#: apps/examens/templates/examens/results.html:70
+msgid "Votre réponse :"
+msgstr "Uw antwoord:"
+
+#: apps/examens/templates/examens/results.html:74
+msgid "Bonne réponse :"
+msgstr "Goed antwoord:"
+
+#: apps/examens/templates/examens/results.html:115
+#: apps/reglementation/templates/reglementation/article.html:248
+msgid "Recommencer"
+msgstr "Opnieuw beginnen"
+
 #: apps/main/templates/main/about.html:3
 msgid "À propos"
 msgstr "Over ons"
@@ -435,11 +549,6 @@ msgstr "Beschikbaar in het Frans, Nederlands en Russisch voor expats."
 msgid "Derniers articles"
 msgstr "Laatste artikelen"
 
-#: apps/main/templates/main/home.html:118
-#, python-format
-msgid "%(t)s min de lecture"
-msgstr "%(t)s min lezen"
-
 #: apps/main/templates/main/home.html:125
 msgid "Voir tous les articles →"
 msgstr "Alle artikelen zien →"
@@ -481,12 +590,89 @@ msgstr "Kies het plan dat bij u past. Begin gratis en upgrade naar Premium wanne
 msgid "Populaire"
 msgstr "Populair"
 
+#: apps/reglementation/templates/reglementation/article.html:12
+#: apps/reglementation/templates/reglementation/category.html:11
 #: apps/reglementation/templates/reglementation/index.html:3
 #: apps/reglementation/templates/reglementation/index.html:11
 #: templates/includes/footer.html:22 templates/includes/navbar.html:33
 #: templates/includes/navbar.html:65
 msgid "Réglementation"
 msgstr "Verkeersregels"
+
+#: apps/reglementation/templates/reglementation/article.html:98
+#, fuzzy
+#| msgid "Simulation d'examen"
+msgid "Questions d'examen"
+msgstr "Examensimulatie"
+
+#: apps/reglementation/templates/reglementation/article.html:106
+msgid "Liste"
+msgstr "Lijst"
+
+#: apps/reglementation/templates/reglementation/article.html:111
+msgid "Test"
+msgstr "Test"
+
+#: apps/reglementation/templates/reglementation/article.html:132
+msgid "Facile"
+msgstr "Eenvoudig"
+
+#: apps/reglementation/templates/reglementation/article.html:132
+msgid "Moyen"
+msgstr "Gemiddeld"
+
+#: apps/reglementation/templates/reglementation/article.html:132
+msgid "Difficile"
+msgstr "Moeilijk"
+
+#: apps/reglementation/templates/reglementation/article.html:138
+#, fuzzy
+#| msgid "Voir les tarifs"
+msgid "Voir les options"
+msgstr "Opties bekijken"
+
+#: apps/reglementation/templates/reglementation/article.html:161
+msgid "répondues"
+msgstr "beantwoord"
+
+#: apps/reglementation/templates/reglementation/article.html:162
+#, fuzzy
+#| msgid "questions"
+msgid "correctes"
+msgstr "correct"
+
+#: apps/reglementation/templates/reglementation/article.html:245
+#, fuzzy
+#| msgid "questions"
+msgid "questions correctes"
+msgstr "correcte vragen"
+
+#: apps/reglementation/templates/reglementation/article.html:304
+msgid "Article précédent"
+msgstr "Vorig artikel"
+
+#: apps/reglementation/templates/reglementation/article.html:318
+msgid "Article suivant"
+msgstr "Volgend artikel"
+
+#: apps/reglementation/templates/reglementation/article.html:331
+#, python-format
+msgid "Sommaire — %(name)s"
+msgstr "Inhoudsopgave — %(name)s"
+
+#: apps/reglementation/templates/reglementation/category.html:106
+#, fuzzy
+#| msgid "Aucune catégorie disponible pour le moment."
+msgid "Aucun article disponible dans cette catégorie."
+msgstr "Geen artikel beschikbaar in deze categorie."
+
+#: apps/reglementation/templates/reglementation/category.html:116
+msgid "← Précédent"
+msgstr "← Vorige"
+
+#: apps/reglementation/templates/reglementation/category.html:126
+msgid "Suivant →"
+msgstr "Volgende →"
 
 #: apps/reglementation/templates/reglementation/index.html:4
 msgid "Code de la route belge complet par thème. Règles de circulation, signalisation, permis de conduire et plus encore."
@@ -517,6 +703,8 @@ msgid "Toute la réglementation routière belge classée par domaine"
 msgstr "Alle Belgische verkeersregels geclassificeerd per domein"
 
 #: apps/reglementation/templates/reglementation/index.html:226
+#: apps/reglementation/templates/reglementation/signs.html:3
+#: apps/reglementation/templates/reglementation/signs.html:7
 msgid "Panneaux de signalisation"
 msgstr "Verkeersborden"
 
@@ -527,6 +715,47 @@ msgstr "Bekijk alle Belgische verkeersborden, gerangschikt per type."
 #: apps/reglementation/templates/reglementation/index.html:230
 msgid "Voir les panneaux"
 msgstr "Borden bekijken"
+
+#: apps/reglementation/templates/reglementation/signs.html:8
+msgid "Apprenez à reconnaître tous les panneaux routiers belges."
+msgstr "Leer alle Belgische verkeersborden herkennen."
+
+#: apps/reglementation/templates/reglementation/signs.html:24
+#, fuzzy
+#| msgid "Voir tout →"
+msgid "Voir tous"
+msgstr "Alle bekijken"
+
+#: apps/reglementation/templates/reglementation/signs.html:56
+#: apps/reglementation/templates/reglementation/signs_type.html:40
+#, fuzzy
+#| msgid "Pratiquer"
+msgid "Masquer"
+msgstr "Verbergen"
+
+#: apps/reglementation/templates/reglementation/signs.html:56
+#: apps/reglementation/templates/reglementation/signs_type.html:40
+msgid "Explication"
+msgstr "Uitleg"
+
+#: apps/reglementation/templates/reglementation/signs.html:76
+msgid "autres"
+msgstr "andere"
+
+#: apps/reglementation/templates/reglementation/signs_type.html:3
+#: apps/reglementation/templates/reglementation/signs_type.html:7
+msgid "Panneaux"
+msgstr "Verkeersborden"
+
+#: apps/reglementation/templates/reglementation/signs_type.html:57
+#, fuzzy
+#| msgid "Aucune catégorie disponible pour le moment."
+msgid "Aucun panneau dans cette catégorie pour le moment."
+msgstr "Nog geen categorieën beschikbaar."
+
+#: apps/reglementation/templates/reglementation/signs_type.html:58
+msgid "Les panneaux seront disponibles après l'import des données."
+msgstr "De verkeersborden zijn beschikbaar na het importeren van de gegevens."
 
 #: templates/errors/404.html:3
 msgid "Page non trouvée"

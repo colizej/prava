@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 11:18+0100\n"
+"POT-Creation-Date: 2026-03-05 11:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,7 @@ msgid "Répondez à des questions par catégorie"
 msgstr "Отвечайте на вопросы по категориям"
 
 #: apps/accounts/templates/accounts/dashboard.html:31
+#: apps/examens/templates/examens/results.html:125
 msgid "Catégories"
 msgstr "Категории"
 
@@ -120,6 +121,7 @@ msgstr "Последние тесты"
 #: apps/examens/templates/examens/categories.html:48
 #: apps/examens/templates/examens/my_list.html:3
 #: apps/examens/templates/examens/my_list.html:15
+#: apps/examens/templates/examens/results.html:120
 msgid "Mes révisions"
 msgstr "Мои повторения"
 
@@ -157,6 +159,21 @@ msgstr "Создать аккаунт"
 #: apps/accounts/templates/accounts/register.html:30
 msgid "Déjà un compte ?"
 msgstr "Уже есть аккаунт?"
+
+#: apps/blog/templates/blog/detail.html:47
+#, python-format
+msgid "Par %(author)s"
+msgstr "Автор: %(author)s"
+
+#: apps/blog/templates/blog/detail.html:51
+#: apps/main/templates/main/home.html:118
+#, python-format
+msgid "%(t)s min de lecture"
+msgstr "%(t)s мин чтения"
+
+#: apps/blog/templates/blog/detail.html:74
+msgid "Articles similaires"
+msgstr "Похожие статьи"
 
 #: apps/blog/templates/blog/list.html:3 templates/includes/footer.html:23
 #: templates/includes/navbar.html:34 templates/includes/navbar.html:66
@@ -299,6 +316,103 @@ msgstr "После теста нажмите 🔖 на сложных вопро
 msgid "Commencer un entraînement"
 msgstr "Начать тренировку"
 
+#: apps/examens/templates/examens/quiz.html:18
+#, python-format
+msgid "Aperçu admin — Question #%(id)s"
+msgstr "Предпросмотр — Вопрос #%(id)s"
+
+#: apps/examens/templates/examens/quiz.html:19
+#, fuzzy
+#| msgid "Retour à l'accueil"
+msgid "← Retour à l'admin"
+msgstr "На главную"
+
+#: apps/examens/templates/examens/quiz.html:38
+#, fuzzy
+#| msgid "Questions"
+msgid "Question"
+msgstr "Вопросы"
+
+#: apps/examens/templates/examens/quiz.html:50
+msgid "pause"
+msgstr "пауза"
+
+#: apps/examens/templates/examens/quiz.html:127
+msgid "Confirmer"
+msgstr "Подтвердить"
+
+#: apps/examens/templates/examens/quiz.html:133
+msgid "Temps écoulé !"
+msgstr "Время истекло!"
+
+#: apps/examens/templates/examens/quiz.html:144
+msgid "Bonne réponse !"
+msgstr "Правильный ответ!"
+
+#: apps/examens/templates/examens/quiz.html:144
+msgid "Mauvaise réponse"
+msgstr "Неправильный ответ"
+
+#: apps/examens/templates/examens/quiz.html:155
+#, fuzzy
+#| msgid "Questions"
+msgid "Question suivante →"
+msgstr "Следующий вопрос →"
+
+#: apps/examens/templates/examens/quiz.html:155
+msgid "Aperçu terminé"
+msgstr "Предпросмотр завершён"
+
+#: apps/examens/templates/examens/quiz.html:155
+#, fuzzy
+#| msgid "Voir les tarifs"
+msgid "Voir les résultats"
+msgstr "Посмотреть результаты"
+
+#: apps/examens/templates/examens/results.html:3
+#, fuzzy
+#| msgid "Résultats détaillés"
+msgid "Résultats"
+msgstr "Подробные результаты"
+
+#: apps/examens/templates/examens/results.html:11
+msgid "Félicitations !"
+msgstr "Поздравляем!"
+
+#: apps/examens/templates/examens/results.html:11
+msgid "Continuez à vous entraîner"
+msgstr "Продолжайте тренироваться"
+
+#: apps/examens/templates/examens/results.html:16
+#, python-format
+msgid "%(s)s / %(t)s bonnes réponses"
+msgstr "%(s)s / %(t)s правильных ответов"
+
+#: apps/examens/templates/examens/results.html:18
+msgid "Temps :"
+msgstr "Время:"
+
+#: apps/examens/templates/examens/results.html:25
+msgid "Détail des réponses"
+msgstr "Детали ответов"
+
+#: apps/examens/templates/examens/results.html:27
+msgid "Cliquez sur le signet pour sauvegarder"
+msgstr "Нажмите на закладку для сохранения"
+
+#: apps/examens/templates/examens/results.html:70
+msgid "Votre réponse :"
+msgstr "Ваш ответ:"
+
+#: apps/examens/templates/examens/results.html:74
+msgid "Bonne réponse :"
+msgstr "Правильный ответ:"
+
+#: apps/examens/templates/examens/results.html:115
+#: apps/reglementation/templates/reglementation/article.html:248
+msgid "Recommencer"
+msgstr "Начать заново"
+
 #: apps/main/templates/main/about.html:3
 msgid "À propos"
 msgstr "О нас"
@@ -435,11 +549,6 @@ msgstr "Доступно на французском, нидерландском
 msgid "Derniers articles"
 msgstr "Последние статьи"
 
-#: apps/main/templates/main/home.html:118
-#, python-format
-msgid "%(t)s min de lecture"
-msgstr "%(t)s мин чтения"
-
 #: apps/main/templates/main/home.html:125
 msgid "Voir tous les articles →"
 msgstr "Все статьи →"
@@ -481,12 +590,89 @@ msgstr "Выберите подходящий план. Начните бесп�
 msgid "Populaire"
 msgstr "Популярный"
 
+#: apps/reglementation/templates/reglementation/article.html:12
+#: apps/reglementation/templates/reglementation/category.html:11
 #: apps/reglementation/templates/reglementation/index.html:3
 #: apps/reglementation/templates/reglementation/index.html:11
 #: templates/includes/footer.html:22 templates/includes/navbar.html:33
 #: templates/includes/navbar.html:65
 msgid "Réglementation"
 msgstr "ПДД"
+
+#: apps/reglementation/templates/reglementation/article.html:98
+#, fuzzy
+#| msgid "Simulation d'examen"
+msgid "Questions d'examen"
+msgstr "Симуляция экзамена"
+
+#: apps/reglementation/templates/reglementation/article.html:106
+msgid "Liste"
+msgstr "Список"
+
+#: apps/reglementation/templates/reglementation/article.html:111
+msgid "Test"
+msgstr "Тест"
+
+#: apps/reglementation/templates/reglementation/article.html:132
+msgid "Facile"
+msgstr "Лёгкий"
+
+#: apps/reglementation/templates/reglementation/article.html:132
+msgid "Moyen"
+msgstr "Средний"
+
+#: apps/reglementation/templates/reglementation/article.html:132
+msgid "Difficile"
+msgstr "Сложный"
+
+#: apps/reglementation/templates/reglementation/article.html:138
+#, fuzzy
+#| msgid "Voir les tarifs"
+msgid "Voir les options"
+msgstr "Смотреть варианты"
+
+#: apps/reglementation/templates/reglementation/article.html:161
+msgid "répondues"
+msgstr "отвечено"
+
+#: apps/reglementation/templates/reglementation/article.html:162
+#, fuzzy
+#| msgid "questions"
+msgid "correctes"
+msgstr "правильных"
+
+#: apps/reglementation/templates/reglementation/article.html:245
+#, fuzzy
+#| msgid "questions"
+msgid "questions correctes"
+msgstr "правильных ответов"
+
+#: apps/reglementation/templates/reglementation/article.html:304
+msgid "Article précédent"
+msgstr "Предыдущая статья"
+
+#: apps/reglementation/templates/reglementation/article.html:318
+msgid "Article suivant"
+msgstr "Следующая статья"
+
+#: apps/reglementation/templates/reglementation/article.html:331
+#, python-format
+msgid "Sommaire — %(name)s"
+msgstr "Содержание — %(name)s"
+
+#: apps/reglementation/templates/reglementation/category.html:106
+#, fuzzy
+#| msgid "Aucune catégorie disponible pour le moment."
+msgid "Aucun article disponible dans cette catégorie."
+msgstr "Нет статей в этой категории."
+
+#: apps/reglementation/templates/reglementation/category.html:116
+msgid "← Précédent"
+msgstr "← Назад"
+
+#: apps/reglementation/templates/reglementation/category.html:126
+msgid "Suivant →"
+msgstr "Вперёд →"
 
 #: apps/reglementation/templates/reglementation/index.html:4
 msgid "Code de la route belge complet par thème. Règles de circulation, signalisation, permis de conduire et plus encore."
@@ -517,6 +703,8 @@ msgid "Toute la réglementation routière belge classée par domaine"
 msgstr "Весь Бельгийский ПДД, классифицированный по областям"
 
 #: apps/reglementation/templates/reglementation/index.html:226
+#: apps/reglementation/templates/reglementation/signs.html:3
+#: apps/reglementation/templates/reglementation/signs.html:7
 msgid "Panneaux de signalisation"
 msgstr "Дорожные знаки"
 
@@ -527,6 +715,47 @@ msgstr "Просмотрите все Бельгийские дорожные з
 #: apps/reglementation/templates/reglementation/index.html:230
 msgid "Voir les panneaux"
 msgstr "Смотреть знаки"
+
+#: apps/reglementation/templates/reglementation/signs.html:8
+msgid "Apprenez à reconnaître tous les panneaux routiers belges."
+msgstr "Научитесь распознавать все бельгийские дорожные знаки."
+
+#: apps/reglementation/templates/reglementation/signs.html:24
+#, fuzzy
+#| msgid "Voir tout →"
+msgid "Voir tous"
+msgstr "Все"
+
+#: apps/reglementation/templates/reglementation/signs.html:56
+#: apps/reglementation/templates/reglementation/signs_type.html:40
+#, fuzzy
+#| msgid "Pratiquer"
+msgid "Masquer"
+msgstr "Скрыть"
+
+#: apps/reglementation/templates/reglementation/signs.html:56
+#: apps/reglementation/templates/reglementation/signs_type.html:40
+msgid "Explication"
+msgstr "Объяснение"
+
+#: apps/reglementation/templates/reglementation/signs.html:76
+msgid "autres"
+msgstr "других"
+
+#: apps/reglementation/templates/reglementation/signs_type.html:3
+#: apps/reglementation/templates/reglementation/signs_type.html:7
+msgid "Panneaux"
+msgstr "Знаки"
+
+#: apps/reglementation/templates/reglementation/signs_type.html:57
+#, fuzzy
+#| msgid "Aucune catégorie disponible pour le moment."
+msgid "Aucun panneau dans cette catégorie pour le moment."
+msgstr "Категорий пока нет."
+
+#: apps/reglementation/templates/reglementation/signs_type.html:58
+msgid "Les panneaux seront disponibles après l'import des données."
+msgstr "Знаки будут доступны после импорта данных."
 
 #: templates/errors/404.html:3
 msgid "Page non trouvée"
