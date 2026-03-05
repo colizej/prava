@@ -192,6 +192,24 @@ FREE_DAILY_QUESTIONS = 15  # Questions par jour pour les utilisateurs gratuits
 MOLLIE_API_KEY = env('MOLLIE_API_KEY', default='')
 
 # ==============================================================================
+# EMAIL — Mailjet SMTP
+# ==============================================================================
+
+if DEBUG:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+else:
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_HOST = 'in-smtp.mailjet.com'
+    EMAIL_PORT = 587
+    EMAIL_USE_TLS = True
+    EMAIL_HOST_USER = env('MAILJET_API_KEY', default='')
+    EMAIL_HOST_PASSWORD = env('MAILJET_SECRET_KEY', default='')
+
+DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL', default='noreply@prava.be')
+SERVER_EMAIL = DEFAULT_FROM_EMAIL
+ADMINS = [('PRAVA Admin', env('ADMIN_EMAIL', default='admin@prava.be'))]
+
+# ==============================================================================
 # SENTRY — Error tracking & performance monitoring
 # ==============================================================================
 

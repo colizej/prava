@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.db.models import Count, Q
 from django.contrib import messages
+from django.core.mail import send_mail
+from django.conf import settings
 
 from .models import Glossary, ContactMessage
 from apps.examens.models import ExamCategory, Question
@@ -48,6 +50,16 @@ def contact(request):
                 subject=subject,
                 message=message_text,
             )
+            # Notify admin
+            admin_email = settings.ADMINS[0][1] if settings.ADMINS else None
+            if admin_email:
+                send_mail(
+                    subject=f'[PRAVA Contact] {subject}',
+                    message=f'De : {name} <{email}>\n\n{message_text}',
+                    from_email=settings.DEFAULT_FROM_EMAIL,
+                    recipient_list=[admin_email],
+                    fail_silently=True,
+                )
             messages.success(request, 'Votre message a été envoyé avec succès!')
             return redirect('main:contact')
         else:
