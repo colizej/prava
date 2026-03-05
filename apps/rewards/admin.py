@@ -17,8 +17,17 @@ class KeySettingsAdmin(admin.ModelAdmin):
         ('Gains', {
             'fields': ('daily_visit_award', 'min_visit_minutes', 'test_pass_award'),
         }),
-        ('Dépenses', {
-            'fields': ('keys_per_pack', 'questions_per_pack'),
+        ('Réservoir & Paliers d\'échange', {
+            'fields': (
+                'tank_capacity',
+                'tier1_fuel', 'tier1_questions',
+                'tier2_fuel', 'tier2_questions',
+                'tier3_fuel', 'tier3_questions',
+            ),
+            'description': (
+                'Le réservoir est plein à tank_capacity litres. '
+                'Chaque palier définit le coût en litres et les questions accordées.'
+            ),
         }),
         ('Pénalité d\'inactivité', {
             'fields': ('inactivity_grace_days', 'decay_per_day'),

@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from django.views.decorators.http import require_POST
 
-from .service import get_or_create_wallet, get_settings, heartbeat, spend
+from .service import get_or_create_wallet, get_settings, heartbeat, spend_for_questions
 
 
 @login_required
@@ -12,9 +12,10 @@ from .service import get_or_create_wallet, get_settings, heartbeat, spend
 def heartbeat_view(request):
     """
     Called by the JS widget every 60 seconds.
-    Tracks active minutes and awards daily keys when threshold is reached.
+    Tracks active minutes and awards daily fuel when threshold is reached.
     """
-    result = heartbeat(request.user)
+    from .service import heartbeat as _heartbeat
+    result = _heartbeat(request.user)
     return JsonResponse(result)
 
 
@@ -22,38 +23,37 @@ def heartbeat_view(request):
 @require_POST
 def spend_keys(request):
     """
-    Spend `keys_per_pack` keys to add `questions_per_pack` extra questions
-    to today's DailyQuota.
+    Spend fuel (litres) from the tank to add bonus questions to today's DailyQuota.
+    Expects JSON body: {"fuel": <int>}  where fuel must match one of the 3 exchange tiers.
     """
-    from apps.accounts.models import DailyQuota
+    try:
+        body = json.loads(request.body)
+        fuel = int(body.get('fuel', 0))
+    except (ValueError, TypeError, json.JSONDecodeError):
+        return JsonResponse({'ok': False, 'reason': 'bad_request'}, status=400)
 
+    ok, new_balance, questions = spend_for_questions(request.user, fuel)
     settings = get_settings()
-    wallet = get_or_create_wallet(request.user)
 
-    if wallet.balance < settings.keys_per_pack:
-        return JsonResponse({
-            'ok': False,
-            'reason': 'insufficient',
-            'balance': wallet.balance,
-            'icon': settings.icon,
-        })
-
-    success, new_balance = spend(
-        request.user,
-        settings.keys_per_pack,
-        'spend_questions',
-        f'+{settings.questions_per_pack} questions échangées',
-    )
-
-    if success:
-        quota = DailyQuota.get_or_create_today(request.user)
-        quota.max_questions += settings.questions_per_pack
-        quota.save(update_fields=['max_questions'])
+    if ok:
         return JsonResponse({
             'ok': True,
             'balance': new_balance,
-            'added_questions': settings.questions_per_pack,
+            'added_questions': questions,
             'icon': settings.icon,
         })
 
-    return JsonResponse({'ok': False, 'reason': 'unexpected', 'balance': new_balance})
+    if new_balance < fuel:
+        return JsonResponse({
+            'ok': False,
+            'reason': 'insufficient',
+            'balance': new_balance,
+            'icon': settings.icon,
+        })
+
+    return JsonResponse({
+        'ok': False,
+        'reason': 'invalid_tier',
+        'balance': new_balance,
+        'icon': settings.icon,
+    })

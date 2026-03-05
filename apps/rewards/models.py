@@ -1,5 +1,5 @@
 """
-Rewards models — Clés (🔑) gamification system.
+Rewards models — Réservoir (⛽) gamification system.
 
 KeySettings  — singleton, all parameters editable in admin
 KeyWallet    — one per user, tracks balance + daily visit state
@@ -24,34 +24,57 @@ class KeySettings(models.Model):
 
     # ── Appearance ──────────────────────────────────────────────────────────
     icon = models.CharField(
-        'Icône', max_length=10, default='🔑',
+        'Icône', max_length=10, default='⛽',
         help_text='Emoji ou caractère affiché comme monnaie',
     )
     currency_plural = models.CharField(
-        'Nom (pluriel)', max_length=30, default='clés',
+        'Nom (pluriel)', max_length=30, default='litres',
     )
     currency_singular = models.CharField(
-        'Nom (singulier)', max_length=30, default='clé',
+        'Nom (singulier)', max_length=30, default='litre',
     )
 
     # ── Earning ─────────────────────────────────────────────────────────────
     daily_visit_award = models.PositiveIntegerField(
-        'Clés / visite quotidienne', default=10,
-        help_text='Accordées après min_visit_minutes minutes passées sur le site',
+        'Litres / visite quotidienne', default=10,
+        help_text='Accordés après min_visit_minutes minutes passées sur le site',
     )
     min_visit_minutes = models.PositiveIntegerField(
         'Durée minimale de visite (min)', default=5,
     )
     test_pass_award = models.PositiveIntegerField(
-        'Clés / test réussi', default=1,
+        'Litres / test réussi', default=5,
     )
 
-    # ── Spending ────────────────────────────────────────────────────────────
+    # ── Tank & Exchange tiers ───────────────────────────────────────────────
+    tank_capacity = models.PositiveIntegerField(
+        'Capacité du réservoir (L)', default=60,
+    )
+    tier1_fuel = models.PositiveIntegerField(
+        'Palier 1 — carburant (L)', default=20,
+    )
+    tier1_questions = models.PositiveIntegerField(
+        'Palier 1 — questions ajoutées', default=10,
+    )
+    tier2_fuel = models.PositiveIntegerField(
+        'Palier 2 — carburant (L)', default=40,
+    )
+    tier2_questions = models.PositiveIntegerField(
+        'Palier 2 — questions ajoutées', default=30,
+    )
+    tier3_fuel = models.PositiveIntegerField(
+        'Palier 3 — carburant (L, plein)', default=60,
+    )
+    tier3_questions = models.PositiveIntegerField(
+        'Palier 3 — questions ajoutées', default=50,
+    )
+
+    # ── Legacy (kept for backward compat) ───────────────────────────────────
     keys_per_pack = models.PositiveIntegerField(
-        'Coût en clés / pack de questions', default=10,
+        'Coût / pack (legacy)', default=20, editable=False,
     )
     questions_per_pack = models.PositiveIntegerField(
-        'Questions ajoutées / pack', default=10,
+        'Questions / pack (legacy)', default=10, editable=False,
     )
 
     # ── Decay ───────────────────────────────────────────────────────────────
@@ -63,11 +86,11 @@ class KeySettings(models.Model):
     )
 
     class Meta:
-        verbose_name = 'Paramètres des clés'
-        verbose_name_plural = 'Paramètres des clés'
+        verbose_name = 'Paramètres du réservoir'
+        verbose_name_plural = 'Paramètres du réservoir'
 
     def __str__(self):
-        return f'Paramètres clés — {self.icon} {self.currency_plural}'
+        return f'Paramètres réservoir — {self.icon} {self.currency_plural} (capacité {self.tank_capacity} L)'
 
     def save(self, *args, **kwargs):
         self.pk = 1  # enforce singleton
@@ -84,7 +107,7 @@ class KeySettings(models.Model):
 # ---------------------------------------------------------------------------
 
 class KeyWallet(models.Model):
-    """One wallet per user — balance + daily tracking."""
+    """One wallet per user — fuel balance + daily tracking."""
 
     user = models.OneToOneField(
         User, on_delete=models.CASCADE, related_name='key_wallet',

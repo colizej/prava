@@ -1,6 +1,8 @@
+import json
+
 from django import template
 
-from apps.rewards.service import get_or_create_wallet, get_settings
+from apps.rewards.service import get_exchange_tiers, get_or_create_wallet, get_settings
 
 register = template.Library()
 
@@ -8,7 +10,7 @@ register = template.Library()
 @register.inclusion_tag('rewards/widget.html', takes_context=True)
 def keys_widget(context):
     """
-    Renders the combined avatar + 🔑 Clés widget for the navbar.
+    Renders the fuel-tank (⛽) widget for the navbar.
     Safe to call even for anonymous users — returns empty context in that case.
     """
     request = context.get('request')
@@ -16,8 +18,9 @@ def keys_widget(context):
         return {'show': False}
 
     user = request.user
-    ks = get_settings()
+    ks     = get_settings()
     wallet = get_or_create_wallet(user)
+    tiers  = get_exchange_tiers(ks)
 
     # Avatar
     avatar_url = None
@@ -33,12 +36,12 @@ def keys_widget(context):
         'show': True,
         'icon': ks.icon,
         'balance': wallet.balance,
+        'tank_capacity': ks.tank_capacity,
         'today_minutes': wallet.today_minutes,
         'min_minutes': ks.min_visit_minutes,
         'awarded_today': wallet.awarded_today,
         'award_amount': ks.daily_visit_award,
-        'keys_per_pack': ks.keys_per_pack,
-        'questions_per_pack': ks.questions_per_pack,
+        'tiers_json': json.dumps(tiers),
         'avatar_url': avatar_url,
         'initial': initial,
     }

@@ -1,20 +1,48 @@
 {% if show %}
-<div id="keys-widget"
+<style>
+  @keyframes fuelPulseYellow {
+    0%,100% { opacity:1; box-shadow:0 0 0 0 rgba(245,158,11,.5); }
+    50%      { opacity:.7; box-shadow:0 0 0 5px rgba(245,158,11,0); }
+  }
+  @keyframes fuelPulseRed {
+    0%,100% { opacity:1; box-shadow:0 0 0 0 rgba(239,68,68,.6); }
+    50%      { opacity:.6; box-shadow:0 0 0 6px rgba(239,68,68,0); }
+  }
+  @keyframes fuelBounce {
+    0%   { transform:translateY(0); }
+    30%  { transform:translateY(-5px); }
+    60%  { transform:translateY(2px); }
+    100% { transform:translateY(0); }
+  }
+  @keyframes fuelPump {
+    0%,100% { transform:scaleY(1); }
+    40%     { transform:scaleY(1.08); }
+  }
+  #fuel-warning-dot.warn-yellow { animation:fuelPulseYellow 1.2s ease-in-out infinite; background:#f59e0b; }
+  #fuel-warning-dot.warn-red    { animation:fuelPulseRed .75s ease-in-out infinite; background:#ef4444; }
+  .fuel-tier-btn { transition:background .15s,transform .15s,box-shadow .15s; }
+  .fuel-tier-btn:not([disabled]):hover { background:#eff6ff !important; transform:translateY(-1px); box-shadow:0 2px 8px rgba(59,130,246,.15); }
+  .fuel-tier-btn[disabled] { opacity:.4; cursor:not-allowed; }
+  #fuel-panel { animation:none; }
+  #fuel-panel.open { display:block !important; }
+</style>
+
+<div id="fuel-widget"
      data-balance="{{ balance }}"
-     data-today-minutes="{{ today_minutes }}"
-     data-min-minutes="{{ min_minutes }}"
-     data-awarded="{{ awarded_today|yesno:'true,false' }}"
-     data-award-amount="{{ award_amount }}"
-     data-keys-cost="{{ keys_per_pack }}"
-     data-questions-reward="{{ questions_per_pack }}"
+     data-capacity="{{ tank_capacity }}"
      data-icon="{{ icon }}"
+     data-award-amount="{{ award_amount }}"
+     data-min-minutes="{{ min_minutes }}"
+     data-today-minutes="{{ today_minutes }}"
+     data-awarded="{{ awarded_today|yesno:'true,false' }}"
+     data-tiers="{{ tiers_json }}"
      data-heartbeat-url="{% url 'rewards:heartbeat' %}"
      data-spend-url="{% url 'rewards:spend' %}"
      class="flex items-center gap-2 select-none">
 
+  {# ── Avatar ────────────────────────────────────────────────────────── #}
   <a href="{% url 'accounts:profile' %}"
-     class="relative flex-shrink-0 flex items-center gap-2 group no-underline">
-
+     class="relative flex-shrink-0 no-underline group">
     {% if avatar_url %}
       <img src="{{ avatar_url }}"
            class="w-8 h-8 rounded-full object-cover ring-2 ring-transparent group-hover:ring-blue-400 transition"
@@ -25,96 +53,405 @@
         {{ initial }}
       </div>
     {% endif %}
-
-    <span id="keys-badge"
-          class="flex items-center gap-0.5 text-sm font-semibold text-amber-600
-                 group-hover:text-amber-700 transition">
-      {{ icon }}<span id="keys-count">{{ balance }}</span>
-    </span>
-
   </a>
 
+  {# ── Fuel gauge button ─────────────────────────────────────────────── #}
+  <button id="fuel-gauge-btn"
+          type="button"
+          class="flex items-center gap-1.5 rounded-lg px-2 py-1 hover:bg-gray-50 transition-colors focus:outline-none"
+          title="Réservoir — cliquez pour échanger">
+
+    {# Mini vertical tank #}
+    <div style="position:relative;width:14px;height:26px;flex-shrink:0">
+      {# cap nozzle #}
+      <div style="position:absolute;top:0;left:4px;width:6px;height:4px;
+                  background:#9ca3af;border-radius:2px 2px 0 0"></div>
+      {# tank body #}
+      <div style="position:absolute;top:3px;left:0;right:0;bottom:0;
+                  border:1.5px solid #9ca3af;border-radius:2px;
+                  overflow:hidden;background:#f3f4f6">
+        <div id="fuel-fill-bar"
+             style="position:absolute;bottom:0;left:0;right:0;
+                    transition:height 1.3s cubic-bezier(.43,1.15,.47,1.0)">
+        </div>
+      </div>
+    </div>
+
+    {# Warning light dot #}
+    <div id="fuel-warning-dot"
+         style="width:8px;height:8px;border-radius:50%;flex-shrink:0;display:none"></div>
+
+    {# Balance text — pre-rendered by server, updated by JS #}
+    <span id="fuel-balance-text"
+          class="text-sm font-semibold tabular-nums"
+          style="min-width:2.6rem">{{ balance }} L</span>
+
+    {# Dropdown arrow #}
+    <svg id="fuel-arrow-icon"
+         style="width:10px;height:10px;flex-shrink:0;color:#9ca3af;transition:transform .2s"
+         viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd"
+            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0
+               111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+            clip-rule="evenodd"/>
+    </svg>
+  </button>
+
+  {# ── Progress dots (before daily award) ───────────────────────────── #}
   {% if not awarded_today %}
-  <div id="keys-progress-row"
-       title="+{{ award_amount }} {{ icon }} après {{ min_minutes }} min d'activité"
-       class="flex items-center gap-px transition-opacity duration-500">
-    <span id="keys-dots" class="tracking-tighter text-xs text-gray-300"></span>
+  <div id="fuel-progress-row"
+       class="flex items-center gap-px transition-opacity duration-500"
+       title="+{{ award_amount }} {{ icon }} après {{ min_minutes }} min d'activité">
+    <span id="fuel-dots" class="tracking-tighter text-xs text-gray-300"></span>
   </div>
   {% endif %}
+
+  {# ── Exchange dropdown panel ───────────────────────────────────────── #}
+  <div id="fuel-panel"
+       style="display:none;position:fixed;width:290px;z-index:99999"
+       class="bg-white border border-gray-200 rounded-2xl shadow-2xl p-4">
+
+    {# Header #}
+    <div class="flex items-center justify-between mb-3">
+      <div class="flex items-center gap-2">
+        <span class="text-base">⛽</span>
+        <span class="text-xs font-bold text-gray-600 uppercase tracking-wider">Mon réservoir</span>
+      </div>
+      <button id="fuel-panel-close" type="button"
+              class="text-gray-400 hover:text-gray-600 focus:outline-none transition-colors">
+        <svg style="width:14px;height:14px" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    {# Horizontal fuel bar #}
+    <div class="mb-1" style="position:relative;height:18px;background:#f3f4f6;border-radius:99px;overflow:hidden">
+      <div id="fuel-bar-panel"
+           style="position:absolute;top:0;left:0;height:100%;
+                  transition:width 1.3s cubic-bezier(.43,1.15,.47,1.0);
+                  border-radius:99px">
+      </div>
+    </div>
+    <div class="flex justify-between mb-4">
+      <span class="text-xs text-gray-400">0 L</span>
+      <span id="fuel-panel-label" class="text-xs font-bold text-gray-700"></span>
+      <span id="fuel-capacity-label" class="text-xs text-gray-400"></span>
+    </div>
+
+    {# Tier buttons — rendered by JS #}
+    <div id="fuel-tiers-container" class="space-y-2"></div>
+
+    {# Warning / success messages #}
+    <div id="fuel-warn-msg"
+         style="display:none"
+         class="mt-3 text-xs text-center rounded-lg py-2 px-3 font-medium text-amber-800 bg-amber-50 border border-amber-200">
+    </div>
+    <div id="fuel-ok-msg"
+         style="display:none"
+         class="mt-3 text-xs text-center rounded-lg py-2 px-3 font-medium text-green-700 bg-green-50 border border-green-200">
+    </div>
+  </div>
 
 </div>
 
 <script>
 (function () {
-  'use strict';
-  const widget = document.getElementById('keys-widget');
-  if (!widget) return;
+'use strict';
 
-  let balance       = parseInt(widget.dataset.balance, 10);
-  let todayMinutes  = parseInt(widget.dataset.todayMinutes, 10);
-  const minMinutes  = parseInt(widget.dataset.minMinutes, 10);
-  let awardedToday  = widget.dataset.awarded === 'true';
-  const heartbeatUrl = widget.dataset.heartbeatUrl;
+const widget = document.getElementById('fuel-widget');
+if (!widget) return;
 
-  const countEl    = document.getElementById('keys-count');
-  const dotsEl     = document.getElementById('keys-dots');
-  const progressRow = document.getElementById('keys-progress-row');
+// ── Config ──────────────────────────────────────────────────────────────────
+let   balance      = parseInt(widget.dataset.balance, 10);
+const capacity     = parseInt(widget.dataset.capacity, 10);
+const icon         = widget.dataset.icon;
+const awardAmount  = parseInt(widget.dataset.awardAmount, 10);
+let   todayMinutes = parseInt(widget.dataset.todayMinutes, 10);
+const minMinutes   = parseInt(widget.dataset.minMinutes, 10);
+let   awardedToday = widget.dataset.awarded === 'true';
+const heartbeatUrl = widget.dataset.heartbeatUrl;
+const spendUrl     = widget.dataset.spendUrl;
+let   tiers        = [];
+try { tiers = JSON.parse(widget.dataset.tiers); } catch(e) { console.error('fuel widget: bad tiers JSON', e); }
 
-  function getCsrf() {
-    const m = document.cookie.match(/csrftoken=([^;]+)/);
-    return m ? m[1] : '';
+// ── DOM refs ──────────────────────────────────────────────────────────────
+const fillBar         = document.getElementById('fuel-fill-bar');
+const barPanel        = document.getElementById('fuel-bar-panel');
+const warningDot      = document.getElementById('fuel-warning-dot');
+const balanceText     = document.getElementById('fuel-balance-text');
+const panelLabelEl    = document.getElementById('fuel-panel-label');
+const capacityLblEl   = document.getElementById('fuel-capacity-label');
+const panel           = document.getElementById('fuel-panel');
+const arrowIcon       = document.getElementById('fuel-arrow-icon');
+const progressRow     = document.getElementById('fuel-progress-row');
+const dotsEl          = document.getElementById('fuel-dots');
+const tiersContainer  = document.getElementById('fuel-tiers-container');
+const warnMsg         = document.getElementById('fuel-warn-msg');
+const okMsg           = document.getElementById('fuel-ok-msg');
+const gaugeBtn        = document.getElementById('fuel-gauge-btn');
+
+let panelOpen = false;
+
+// ── Helpers ───────────────────────────────────────────────────────────────
+function getCsrf() {
+  const m = document.cookie.match(/csrftoken=([^;]+)/);
+  return m ? m[1] : '';
+}
+
+function pct(val) {
+  return Math.min(100, Math.max(0, (val / capacity) * 100));
+}
+
+function fillColor(bal) {
+  if (bal === 0)  return '#ef4444';  // red   — empty
+  if (bal <= 10)  return '#f59e0b';  // amber — critical
+  if (bal <= 25)  return '#fb923c';  // orange — low
+  return '#22c55e';                  // green  — ok
+}
+
+// ── Warning light ─────────────────────────────────────────────────────────
+function renderWarningLight() {
+  if (!warningDot) return;
+  if (balance === 0) {
+    warningDot.style.display = 'block';
+    warningDot.className = 'warn-red';
+  } else if (balance <= 10) {
+    warningDot.style.display = 'block';
+    warningDot.className = 'warn-yellow';
+  } else {
+    warningDot.style.display = 'none';
+    warningDot.className = '';
   }
+}
 
-  function renderDots() {
-    if (!dotsEl) return;
-    const filled = Math.min(todayMinutes, minMinutes);
-    let s = '';
-    for (let i = 0; i < minMinutes; i++) s += i < filled ? '●' : '○';
-    dotsEl.textContent = s;
+// ── Fill bars ─────────────────────────────────────────────────────────────
+function renderFill() {
+  const p   = pct(balance);
+  const col = fillColor(balance);
+
+  if (fillBar) {
+    fillBar.style.height     = p + '%';
+    fillBar.style.background = 'linear-gradient(to top,' + col + ',' + col + 'cc)';
   }
-
-  function hideProgress() {
-    if (!progressRow) return;
-    progressRow.style.opacity = '0';
-    setTimeout(() => progressRow.remove(), 500);
+  if (barPanel) {
+    barPanel.style.width      = p + '%';
+    barPanel.style.background = 'linear-gradient(to right,' + col + ',' + col + 'bb)';
   }
+  if (balanceText) {
+    balanceText.textContent = balance + ' L';
+    balanceText.style.color =
+      balance === 0 ? '#ef4444' : balance <= 10 ? '#f59e0b' : '#374151';
+  }
+  if (panelLabelEl)  panelLabelEl.textContent  = balance + ' L';
+  if (capacityLblEl) capacityLblEl.textContent = capacity + ' L';
+}
 
-  function updateUI() {
-    if (countEl) countEl.textContent = balance;
-    if (awardedToday) {
-      hideProgress();
-    } else {
-      renderDots();
+// ── Tier buttons ──────────────────────────────────────────────────────────
+function renderTiers() {
+  if (!tiersContainer) return;
+  tiersContainer.innerHTML = '';
+
+  tiers.forEach(function (tier) {
+    const canAfford  = balance >= tier.fuel;
+    const isFullTank = tier.fuel >= capacity;
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'fuel-tier-btn w-full flex items-center justify-between rounded-xl border px-3 py-2.5 text-sm font-medium';
+    btn.style.cssText = canAfford
+      ? 'border-color:#3b82f6;background:#f0f7ff;color:#1d4ed8'
+      : 'border-color:#e5e7eb;background:#fafafa;color:#9ca3af';
+    btn.disabled = !canAfford;
+
+    const badge = isFullTank
+      ? '<span style="font-size:.6rem;background:#16a34a;color:#fff;padding:1px 6px;border-radius:99px;margin-left:4px">PLEIN ⭐</span>'
+      : '';
+    const questionColor = canAfford ? '#059669' : '#9ca3af';
+    const costColor     = canAfford ? '#1d4ed8' : '#9ca3af';
+    btn.innerHTML =
+      '<span style="display:flex;align-items:center;gap:4px">' +
+        '<span>' + icon + '</span>' +
+        '<span style="color:' + costColor + '">' + tier.fuel + ' L</span>' +
+        badge +
+      '</span>' +
+      '<span style="color:#d1d5db;font-size:.8rem">▶</span>' +
+      '<span style="color:' + questionColor + '">+' + tier.questions + ' questions</span>';
+
+    if (canAfford) {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        doExchange(tier.fuel, tier.questions, btn);
+      });
     }
-  }
+    tiersContainer.appendChild(btn);
+  });
+}
 
-  function sendHeartbeat() {
-    fetch(heartbeatUrl, {
-      method: 'POST',
-      headers: { 'X-CSRFToken': getCsrf(), 'X-Requested-With': 'XMLHttpRequest' },
-      credentials: 'same-origin',
-    })
-    .then(r => r.ok ? r.json() : null)
-    .then(data => {
-      if (!data) return;
-      balance      = data.balance;
-      todayMinutes = data.today_minutes;
-      awardedToday = data.awarded_today;
-      if (data.awarded_now) {
-        const badge = document.getElementById('keys-badge');
-        if (badge) {
-          badge.classList.add('scale-125');
-          setTimeout(() => badge.classList.remove('scale-125'), 600);
-        }
-      }
+// ── Progress dots ─────────────────────────────────────────────────────────
+function renderDots() {
+  if (!dotsEl) return;
+  const filled = Math.min(todayMinutes, minMinutes);
+  let s = '';
+  for (let i = 0; i < minMinutes; i++) s += i < filled ? '●' : '○';
+  dotsEl.textContent = s;
+}
+
+function hideProgress() {
+  if (!progressRow) return;
+  progressRow.style.opacity = '0';
+  setTimeout(function () { if (progressRow.parentNode) progressRow.remove(); }, 500);
+}
+
+// ── Full UI update ────────────────────────────────────────────────────────
+function updateUI() {
+  renderFill();
+  renderWarningLight();
+  renderTiers();
+  if (awardedToday) hideProgress();
+  else renderDots();
+}
+
+// ── Panel toggle ─────────────────────────────────────────────────────────
+// Move panel to <body> once so it's never clipped by navbar overflow
+(function () {
+  if (panel && panel.parentNode !== document.body) {
+    document.body.appendChild(panel);
+  }
+})();
+
+function positionPanel() {
+  if (!panel || !gaugeBtn) return;
+  var rect = gaugeBtn.getBoundingClientRect();
+  var panelW = 290;
+  var top  = rect.bottom + 8;
+  var left = rect.right - panelW;
+  if (left < 8) left = 8;
+  panel.style.top  = top + 'px';
+  panel.style.left = left + 'px';
+}
+
+function openPanel() {
+  panelOpen = true;
+  positionPanel();
+  if (panel) panel.style.display = 'block';
+  if (arrowIcon) arrowIcon.style.transform = 'rotate(180deg)';
+  if (warnMsg) warnMsg.style.display = 'none';
+  if (okMsg)   okMsg.style.display   = 'none';
+  renderTiers();
+}
+
+function closePanel() {
+  panelOpen = false;
+  if (panel)     panel.style.display      = 'none';
+  if (arrowIcon) arrowIcon.style.transform = 'rotate(0deg)';
+}
+
+// Wire toggle button
+if (gaugeBtn) {
+  gaugeBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    if (panelOpen) closePanel(); else openPanel();
+  });
+}
+
+// Wire close (×) button
+var closeBtn = document.getElementById('fuel-panel-close');
+if (closeBtn) {
+  closeBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    closePanel();
+  });
+}
+
+// Close on outside click
+document.addEventListener('click', function (e) {
+  if (!panelOpen) return;
+  var inWidget = widget && widget.contains(e.target);
+  var inPanel  = panel  && panel.contains(e.target);
+  if (!inWidget && !inPanel) closePanel();
+});
+
+// ── Exchange ──────────────────────────────────────────────────────────────
+function showFlash(el, msg, type) {
+  // type: 'ok' | 'warn'
+  if (!el) return;
+  el.textContent    = msg;
+  el.style.display  = 'block';
+  setTimeout(function () { el.style.display = 'none'; }, 3500);
+}
+
+function doExchange(fuel, questions, btn) {
+  if (btn) { btn.disabled = true; btn.style.opacity = '.55'; }
+
+  fetch(spendUrl, {
+    method: 'POST',
+    headers: {
+      'X-CSRFToken': getCsrf(),
+      'X-Requested-With': 'XMLHttpRequest',
+      'Content-Type': 'application/json',
+    },
+    credentials: 'same-origin',
+    body: JSON.stringify({ fuel: fuel }),
+  })
+  .then(function (r) { return r.ok ? r.json() : null; })
+  .then(function (data) {
+    if (!data) return;
+
+    if (data.ok) {
+      balance = data.balance;
       updateUI();
-    })
-    .catch(() => {});
-  }
 
-  updateUI();
-  setInterval(sendHeartbeat, 60000);
-  sendHeartbeat();
+      // Pump animation
+      if (gaugeBtn) {
+        gaugeBtn.style.animation = 'fuelBounce .55s ease-out';
+        setTimeout(function () { gaugeBtn.style.animation = ''; }, 600);
+      }
+
+      showFlash(okMsg, '✅ +' + data.added_questions + ' questions ajoutées !', 'ok');
+    } else {
+      const reason = data.reason === 'insufficient'
+        ? '⚠️ Pas assez de carburant (' + data.balance + ' L disponible)'
+        : '⚠️ Palier invalide';
+      showFlash(warnMsg, reason, 'warn');
+      if (btn) { btn.disabled = false; btn.style.opacity = '1'; }
+    }
+  })
+  .catch(function () {
+    if (btn) { btn.disabled = false; btn.style.opacity = '1'; }
+  });
+}
+
+// ── Heartbeat ─────────────────────────────────────────────────────────────
+function sendHeartbeat() {
+  fetch(heartbeatUrl, {
+    method: 'POST',
+    headers: { 'X-CSRFToken': getCsrf(), 'X-Requested-With': 'XMLHttpRequest' },
+    credentials: 'same-origin',
+  })
+  .then(function (r) { return r.ok ? r.json() : null; })
+  .then(function (data) {
+    if (!data) return;
+    balance      = data.balance;
+    todayMinutes = data.today_minutes;
+    awardedToday = data.awarded_today;
+
+    if (data.awarded_now && gaugeBtn) {
+      // "tank filling" celebratory animation
+      gaugeBtn.style.animation = 'fuelPump .8s ease-out';
+      setTimeout(function () { gaugeBtn.style.animation = ''; }, 800);
+    }
+    updateUI();
+  })
+  .catch(function () {});
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────
+// Defer first render by one frame so the CSS transition fires on the fill bar
+setTimeout(updateUI, 60);
+setInterval(sendHeartbeat, 60000);
+sendHeartbeat();
+
 })();
 </script>
 {% endif %}

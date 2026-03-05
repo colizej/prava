@@ -1,17 +1,19 @@
 """
-Service layer for the rewards (Clés) app.
+Service layer for the rewards (Réservoir ⛽) app.
 
 All business logic lives here — views and signals just call these functions.
 
 Public API:
-    get_settings()           → KeySettings singleton
-    get_or_create_wallet(u)  → KeyWallet
+    get_settings()                  → KeySettings singleton
+    get_or_create_wallet(u)         → KeyWallet
+    get_exchange_tiers(settings)    → list of {fuel, questions} dicts
     award(user, amount, reason, note) → int (new balance)
     spend(user, amount, reason, note) → (bool, int)
-    apply_decay(user)        → void (called internally on new day)
-    heartbeat(user)          → dict (called by AJAX every minute)
-    award_test_pass(user)    → int (new balance)
+    apply_decay(user)               → void (called internally on new day)
+    heartbeat(user)                 → dict (called by AJAX every minute)
+    award_test_pass(user)           → int (new balance)
     award_purchase_bonus(user, plan) → int (new balance) — plan has .key_bonus
+    spend_for_questions(user, fuel) → (ok: bool, new_balance: int, questions: int)
 """
 from django.utils import timezone
 
@@ -211,3 +213,53 @@ def award_purchase_bonus(user, plan) -> int:
         KeyTransaction.REASON_PURCHASE_BONUS,
         f'+{plan.key_bonus} {settings.icon} — bonus achat {plan.name}',
     )
+
+
+# ---------------------------------------------------------------------------
+# Exchange tiers
+# ---------------------------------------------------------------------------
+
+def get_exchange_tiers(settings=None) -> list:
+    """Return the 3 exchange tiers as a list of dicts."""
+    if settings is None:
+        settings = get_settings()
+    return [
+        {'fuel': settings.tier1_fuel, 'questions': settings.tier1_questions},
+        {'fuel': settings.tier2_fuel, 'questions': settings.tier2_questions},
+        {'fuel': settings.tier3_fuel, 'questions': settings.tier3_questions},
+    ]
+
+
+def spend_for_questions(user, fuel: int) -> tuple:
+    """
+    Spend `fuel` litres for bonus questions based on the configured tiers.
+
+    Returns (ok: bool, new_balance: int, questions_added: int).
+    - ok=False + questions=0 if insufficient fuel or invalid tier.
+    """
+    settings = get_settings()
+    tiers = get_exchange_tiers(settings)
+
+    tier = next((t for t in tiers if t['fuel'] == fuel), None)
+    if not tier:
+        return False, get_or_create_wallet(user).balance, 0
+
+    wallet = get_or_create_wallet(user)
+    if wallet.balance < tier['fuel']:
+        return False, wallet.balance, 0
+
+    success, new_balance = spend(
+        user,
+        tier['fuel'],
+        KeyTransaction.REASON_SPEND_QUESTIONS,
+        f'+{tier["questions"]} questions — {tier["fuel"]} L échangés',
+    )
+
+    if success:
+        from apps.accounts.models import DailyQuota
+        quota = DailyQuota.get_or_create_today(user)
+        quota.max_questions += tier['questions']
+        quota.save(update_fields=['max_questions'])
+        return True, new_balance, tier['questions']
+
+    return False, new_balance, 0
