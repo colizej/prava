@@ -1,54 +1,55 @@
 from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator
 from django.db.models import Count, Prefetch
+from django.utils.translation import gettext_lazy as _
 
 from .models import RuleCategory, CodeArticle, TrafficSign, ArticleImage
 
 # Metadata for non-1975 laws used in index grouping
 _LAW_META = {
     '1968': {
-        'title': 'Loi du 16 mars 1968 — Police de la circulation routière',
-        'short': 'Infractions, peines et déchéance du droit de conduire',
+        'title': _('Loi du 16 mars 1968 — Police de la circulation routière'),
+        'short': _('Infractions, peines et déchéance du droit de conduire'),
         'color': 'purple',
     },
     '1976': {
-        'title': 'AM du 11 octobre 1976 — Dimensions, masse et signalisation',
-        'short': 'Dimensions, poids des véhicules et prescriptions de signalisation',
+        'title': _('AM du 11 octobre 1976 — Dimensions, masse et signalisation'),
+        'short': _('Dimensions, poids des véhicules et prescriptions de signalisation'),
         'color': 'sky',
     },
     '1998': {
-        'title': 'AR du 23 mars 1998 — Permis de conduire',
-        'short': 'Catégories, conditions médicales, échange et retrait du permis',
+        'title': _('AR du 23 mars 1998 — Permis de conduire'),
+        'short': _('Catégories, conditions médicales, échange et retrait du permis'),
         'color': 'green',
     },
     '2005': {
-        'title': 'AR du 30 septembre 2005 — Infractions par degré',
-        'short': 'Classement des infractions routières en degrés 1 à 4',
+        'title': _('AR du 30 septembre 2005 — Infractions par degré'),
+        'short': _('Classement des infractions routières en degrés 1 à 4'),
         'color': 'orange',
     },
     '2006': {
-        'title': 'AR du 10 juillet 2006 — Permis catégorie B',
-        'short': 'Formation, examen théorique et pratique, conduite accompagnée',
+        'title': _('AR du 10 juillet 2006 — Permis catégorie B'),
+        'short': _('Formation, examen théorique et pratique, conduite accompagnée'),
         'color': 'emerald',
     },
     '1968b': {
-        'title': 'AR du 15 mars 1968 — Conditions techniques des véhicules',
-        'short': 'Exigences techniques pour voitures, camions et remorques',
+        'title': _('AR du 15 mars 1968 — Conditions techniques des véhicules'),
+        'short': _('Exigences techniques pour voitures, camions et remorques'),
         'color': 'slate',
     },
     '1985': {
-        'title': 'Loi du 21 juin 1985 — Conditions techniques (loi-cadre)',
-        'short': 'Loi-cadre sur les conditions techniques des véhicules de transport',
+        'title': _('Loi du 21 juin 1985 — Conditions techniques (loi-cadre)'),
+        'short': _('Loi-cadre sur les conditions techniques des véhicules de transport'),
         'color': 'slate',
     },
     '1989': {
-        'title': 'Loi du 21 novembre 1989 — Assurance RC obligatoire',
-        'short': 'Assurance obligatoire de la responsabilité des véhicules automoteurs',
+        'title': _('Loi du 21 novembre 1989 — Assurance RC obligatoire'),
+        'short': _('Assurance obligatoire de la responsabilité des véhicules automoteurs'),
         'color': 'amber',
     },
     '2001': {
-        'title': 'AR du 20 juillet 2001 — Immatriculation des véhicules',
-        'short': 'Conditions et procédures d\'immatriculation, plaques minéralogiques',
+        'title': _('AR du 20 juillet 2001 — Immatriculation des véhicules'),
+        'short': _('Conditions et procédures d\'immatriculation, plaques minéralogiques'),
         'color': 'amber',
     },
 }
