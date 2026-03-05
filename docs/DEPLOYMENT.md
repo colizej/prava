@@ -10,9 +10,9 @@
 |--------|---------|
 | Python | 3.14+ |
 | Node.js | 18+ (pour build Tailwind) |
-| PostgreSQL | 15+ |
 | Gunicorn | ≥25.0 |
 | Caddy 2 | proxy inverse + HTTPS automatique |
+| SQLite | intégré (WAL mode activé, suffisant pour 1000+ users) |
 
 ---
 
@@ -32,7 +32,6 @@ DEBUG=False
 SECRET_KEY=<générer avec: python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())">
 ALLOWED_HOSTS=prava.be,www.prava.be
 SITE_URL=https://prava.be
-DATABASE_URL=postgres://user:password@localhost:5432/prava
 
 # Mollie live (pas test_)
 MOLLIE_API_KEY=live_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -185,14 +184,13 @@ print('Email envoyé')
 - [ ] `DEBUG=False` dans `.env`
 - [ ] `SECRET_KEY` fort et unique
 - [ ] `ALLOWED_HOSTS` contient le domaine réel
-- [ ] `DATABASE_URL` pointe vers PostgreSQL
 - [ ] `MOLLIE_API_KEY` commence par `live_` (pas `test_`)
 - [ ] `MAILJET_API_KEY` et `MAILJET_SECRET_KEY` renseignés
 - [ ] `make css` exécuté (Tailwind build)
 - [ ] `python manage.py collectstatic --noinput` exécuté
 - [ ] `python manage.py migrate` exécuté
 - [ ] `python manage.py compilemessages` exécuté
-- [ ] HTTPS configuré (Let's Encrypt / Nginx)
+- [ ] HTTPS configuré (Caddy — automatique)
 - [ ] Webhook Mollie configuré sur `https://prava.be/shop/webhook/`
 - [ ] `python manage.py check --deploy` sans erreurs critiques
 - [ ] Sentry DSN configuré et testé
@@ -221,8 +219,8 @@ sudo systemctl restart prava
 ```
 PC local                           Serveur production
 ─────────────────────              ──────────────────────────────
-① Générer questions                
-   04_questions.py --law X         
+① Générer questions
+   04_questions.py --law X
    (Gemini API, vos clés)
    ↓
 ② Vérifier / corriger
@@ -231,7 +229,7 @@ PC local                           Serveur production
 ③ Importer en BDD locale
    05_import.py --law X
    ↓
-④ git add data/processed/  
+④ git add data/processed/
    git push                   →   ⑤ git pull
                                       05_import.py --law X
                                       (importe dans PostgreSQL)
