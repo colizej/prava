@@ -29,10 +29,10 @@
                     </span>
                 </div>
                 <h3 class="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition leading-snug">
-                    {{ cat.name }}
+                    {{ cat.trans_name }}
                 </h3>
-                {% if cat.description %}
-                <p class="text-xs text-gray-400 mt-1">{{ cat.description|truncatewords:10 }}</p>
+                {% if cat.trans_description %}
+                <p class="text-xs text-gray-400 mt-1">{{ cat.trans_description|truncatewords:10 }}</p>
                 {% endif %}
             </a>
             {% empty %}

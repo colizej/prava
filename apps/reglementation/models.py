@@ -2,8 +2,10 @@ from django.db import models
 from django.urls import reverse
 from django.utils.text import slugify
 
+from apps.translatable import TranslatableFieldsMixin
 
-class RuleCategory(models.Model):
+
+class RuleCategory(TranslatableFieldsMixin, models.Model):
     """Catégorie de réglementation (ex: Signalisation, Priorité, etc.)."""
     name = models.CharField('Nom (FR)', max_length=150)
     name_nl = models.CharField('Naam (NL)', max_length=150, blank=True)
@@ -32,31 +34,9 @@ class RuleCategory(models.Model):
     def get_absolute_url(self):
         return reverse('reglementation:category', kwargs={'slug': self.slug})
 
-    def get_name(self, lang='fr'):
-        if lang == 'nl' and self.name_nl:
-            return self.name_nl
-        if lang == 'ru' and self.name_ru:
-            return self.name_ru
-        return self.name
-
-    @property
-    def trans_name(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        return self.get_name(lang)
-
-    @property
-    def trans_description(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        if lang == 'nl' and self.description_nl:
-            return self.description_nl
-        if lang == 'ru' and self.description_ru:
-            return self.description_ru
-        return self.description
 
 
-class CodeArticle(models.Model):
+class CodeArticle(TranslatableFieldsMixin, models.Model):
     """Article du code de la route."""
     article_number = models.CharField('Numéro d\'article', max_length=30,
                                       help_text='Ex: Art. 12.1.1')
@@ -107,34 +87,9 @@ class CodeArticle(models.Model):
     def get_absolute_url(self):
         return reverse('reglementation:article', kwargs={'slug': self.slug})
 
-    def get_title(self, lang='fr'):
-        if lang == 'nl' and self.title_nl:
-            return self.title_nl
-        if lang == 'ru' and self.title_ru:
-            return self.title_ru
-        return self.title
-
-    def get_content(self, lang='fr'):
-        if lang == 'nl' and self.content_nl:
-            return self.content_nl
-        if lang == 'ru' and self.content_ru:
-            return self.content_ru
-        return self.content
-
-    @property
-    def trans_title(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        return self.get_title(lang)
-
-    @property
-    def trans_content(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        return self.get_content(lang)
 
 
-class TrafficSign(models.Model):
+class TrafficSign(TranslatableFieldsMixin, models.Model):
     """Panneau de signalisation."""
     SIGN_TYPES = [
         ('danger', 'Danger'),
@@ -173,28 +128,6 @@ class TrafficSign(models.Model):
     def __str__(self):
         return f'{self.code} — {self.name}'
 
-    def get_name(self, lang='fr'):
-        if lang == 'nl' and self.name_nl:
-            return self.name_nl
-        if lang == 'ru' and self.name_ru:
-            return self.name_ru
-        return self.name
-
-    @property
-    def trans_name(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        return self.get_name(lang)
-
-    @property
-    def trans_description(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        if lang == 'nl' and self.description_nl:
-            return self.description_nl
-        if lang == 'ru' and self.description_ru:
-            return self.description_ru
-        return self.description
 
 
 class ArticleImage(models.Model):

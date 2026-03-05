@@ -59,7 +59,7 @@
             <a href="{% url 'examens:practice_category' cat.slug %}"
                class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition border border-gray-100 group">
                 <div class="text-3xl mb-3">{{ cat.icon|default:"📝" }}</div>
-                <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition">{{ cat.name }}</h3>
+                <h3 class="font-semibold text-gray-900 group-hover:text-blue-600 transition">{{ cat.trans_name }}</h3>
                 <p class="text-sm text-gray-500 mt-1">{{ cat.question_count }} {% trans "questions" %}</p>
             </a>
             {% endfor %}

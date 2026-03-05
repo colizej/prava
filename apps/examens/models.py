@@ -4,8 +4,10 @@ from django.contrib.auth.models import User
 from django.urls import reverse
 from django.utils import timezone
 
+from apps.translatable import TranslatableFieldsMixin
 
-class ExamCategory(models.Model):
+
+class ExamCategory(TranslatableFieldsMixin, models.Model):
     """Catégorie de questions d'examen."""
     name = models.CharField('Nom (FR)', max_length=150)
     name_nl = models.CharField('Naam (NL)', max_length=150, blank=True)
@@ -30,13 +32,6 @@ class ExamCategory(models.Model):
 
     def get_absolute_url(self):
         return reverse('examens:category', kwargs={'slug': self.slug})
-
-    def get_name(self, lang='fr'):
-        if lang == 'nl' and self.name_nl:
-            return self.name_nl
-        if lang == 'ru' and self.name_ru:
-            return self.name_ru
-        return self.name
 
     @property
     def active_questions_count(self):

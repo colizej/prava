@@ -4,8 +4,10 @@ from django.urls import reverse
 from django.utils import timezone
 from django.utils.text import slugify
 
+from apps.translatable import TranslatableFieldsMixin
 
-class BlogCategory(models.Model):
+
+class BlogCategory(TranslatableFieldsMixin, models.Model):
     """Catégorie de blog."""
     name = models.CharField('Nom (FR)', max_length=100)
     name_nl = models.CharField('Naam (NL)', max_length=100, blank=True)
@@ -26,21 +28,9 @@ class BlogCategory(models.Model):
     def get_absolute_url(self):
         return reverse('blog:category', kwargs={'slug': self.slug})
 
-    def get_name(self, lang='fr'):
-        if lang == 'nl' and self.name_nl:
-            return self.name_nl
-        if lang == 'ru' and self.name_ru:
-            return self.name_ru
-        return self.name
-
-    @property
-    def trans_name(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        return self.get_name(lang)
 
 
-class BlogPost(models.Model):
+class BlogPost(TranslatableFieldsMixin, models.Model):
     """Article de blog avec SEO complet."""
     # Content FR (principal)
     title = models.CharField('Titre (FR)', max_length=200)
@@ -146,27 +136,6 @@ class BlogPost(models.Model):
     def get_absolute_url(self):
         return reverse('blog:detail', kwargs={'slug': self.slug})
 
-    def get_title(self, lang='fr'):
-        if lang == 'nl' and self.title_nl:
-            return self.title_nl
-        if lang == 'ru' and self.title_ru:
-            return self.title_ru
-        return self.title
-
-    def get_content(self, lang='fr'):
-        if lang == 'nl' and self.content_nl:
-            return self.content_nl
-        if lang == 'ru' and self.content_ru:
-            return self.content_ru
-        return self.content
-
-    def get_excerpt(self, lang='fr'):
-        if lang == 'nl' and self.excerpt_nl:
-            return self.excerpt_nl
-        if lang == 'ru' and self.excerpt_ru:
-            return self.excerpt_ru
-        return self.excerpt or self.content[:200]
-
     @property
     def seo_title(self):
         return self.meta_title or self.title
@@ -174,24 +143,6 @@ class BlogPost(models.Model):
     @property
     def seo_description(self):
         return self.meta_description or self.excerpt or self.content[:160]
-
-    @property
-    def trans_title(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        return self.get_title(lang)
-
-    @property
-    def trans_excerpt(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        return self.get_excerpt(lang)
-
-    @property
-    def trans_content(self):
-        from django.utils.translation import get_language
-        lang = (get_language() or 'fr')[:2]
-        return self.get_content(lang)
 
     def increment_views(self):
         self.views_count += 1
