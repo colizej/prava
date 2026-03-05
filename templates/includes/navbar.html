@@ -1,5 +1,6 @@
 {# Navigation Bar #}
 {% load i18n %}
+{% load rewards_tags %}
 <nav class="bg-white shadow-sm border-b border-gray-200" x-data="{ mobileOpen: false }">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center h-16 gap-4">
@@ -37,6 +38,7 @@
                     <a href="{% url 'main:pricing' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">{% trans "Tarifs" %}</a>
 
                     {% if user.is_authenticated %}
+                        {% keys_widget %}
                         <a href="{% url 'accounts:profile' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
                             {{ user.username }}
                         </a>

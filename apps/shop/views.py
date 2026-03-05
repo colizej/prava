@@ -249,3 +249,10 @@ def _activate_premium(order: Order) -> None:
     profile.premium_until = current_until + timezone.timedelta(days=order.plan.duration_days)
     profile.is_premium = True
     profile.save(update_fields=['is_premium', 'premium_until'])
+
+    # Award purchase key bonus (non-critical)
+    try:
+        from apps.rewards.service import award_purchase_bonus
+        award_purchase_bonus(order.user, order.plan)
+    except Exception:
+        pass

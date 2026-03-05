@@ -19,6 +19,10 @@ class Plan(models.Model):
     is_active = models.BooleanField('Actif', default=True)
     is_highlighted = models.BooleanField('Mis en avant', default=False)
     sort_order = models.PositiveSmallIntegerField('Ordre', default=0)
+    key_bonus = models.PositiveIntegerField(
+        'Bonus clés 🔑', default=0,
+        help_text='Clés accordées à l\'achat de ce forfait (0 = aucun bonus)',
+    )
 
     class Meta:
         verbose_name = 'Forfait'

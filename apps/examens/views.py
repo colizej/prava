@@ -278,6 +278,14 @@ def api_finish_quiz(request):
     )
     attempt.calculate_results()
 
+    # Award keys for passing
+    if attempt.passed:
+        try:
+            from apps.rewards.service import award_test_pass
+            award_test_pass(request.user)
+        except Exception:
+            pass  # non-critical — never break the quiz flow
+
     return JsonResponse({
         'uuid': str(attempt.uuid),
         'score': attempt.score,

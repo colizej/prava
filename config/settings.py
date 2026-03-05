@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'apps.examens',
     'apps.dashboard',
     'apps.shop',
+    'apps.rewards',
 ]
 
 # ==============================================================================
