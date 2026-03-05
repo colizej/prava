@@ -1,9 +1,4 @@
 {% if show %}
-{# --------------------------------------------------------------------------
-   🔑 Clés widget — shown in navbar for authenticated users
-   Heartbeat pings /rewards/heartbeat/ every 60 s.
-   Countdown dots: ●●●○○  /  label: "+10 dans 2 min" → "✓ +10 aujourd'hui"
-   -------------------------------------------------------------------------- #}
 <div id="keys-widget"
      class="flex items-center gap-2 text-sm select-none"
      data-balance="{{ balance }}"
@@ -24,12 +19,12 @@
   </span>
 
   {# Progress / countdown (hidden once awarded today) #}
-  <span id="keys-progress" class="flex items-center gap-1 text-xs text-gray-400">
+  <span id="keys-progress" class="flex items-center gap-1 text-xs">
     {% if not awarded_today %}
-      <span id="keys-dots"></span>
-      <span id="keys-label" class="whitespace-nowrap"></span>
+      <span id="keys-dots" class="text-gray-400 tracking-tight"></span>
+      <span id="keys-label" class="text-gray-400 whitespace-nowrap hidden sm:inline"></span>
     {% else %}
-      <span class="text-green-500 font-medium">✓ +{{ award_amount }} aujourd'hui</span>
+      <span class="text-green-500">✓</span>
     {% endif %}
   </span>
 
