@@ -15,6 +15,7 @@ from decimal import Decimal
 from django.conf import settings
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.core.mail import send_mail
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
@@ -256,3 +257,29 @@ def _activate_premium(order: Order) -> None:
         award_purchase_bonus(order.user, order.plan)
     except Exception:
         pass
+
+    # Send purchase confirmation email (non-critical)
+    try:
+        user = order.user
+        plan = order.plan
+        until_str = profile.premium_until.strftime('%d/%m/%Y') if profile.premium_until else '—'
+        bonus_line = f'\nBonus carburant : +{plan.key_bonus} L offerts ⛽' if plan.key_bonus else ''
+        body = (
+            f'Bonjour {user.get_full_name() or user.username},\n\n'
+            f'Merci pour votre achat ! Votre accès premium est maintenant actif.\n\n'
+            f'Forfait    : {plan.name}\n'
+            f'Montant    : {order.amount} \u20ac\n'
+            f"Valable jusqu'au : {until_str}"
+            f'{bonus_line}\n\n'
+            f'Connectez-vous sur https://prava.be pour commencer.\n\n'
+            f'— L\'équipe Prava'
+        )
+        send_mail(
+            subject=f'✅ Confirmation d\'achat — {plan.name}',
+            message=body,
+            from_email=settings.DEFAULT_FROM_EMAIL,
+            recipient_list=[user.email],
+            fail_silently=True,
+        )
+    except Exception:
+        logger.exception('Failed to send purchase confirmation email for order %s', order.id)
