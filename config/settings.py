@@ -5,6 +5,7 @@ PRAVA.be — Django settings
 import os
 from pathlib import Path
 import environ
+import sentry_sdk
 
 # ==============================================================================
 # PATHS
@@ -189,4 +190,22 @@ FREE_DAILY_QUESTIONS = 15  # Questions par jour pour les utilisateurs gratuits
 # ==============================================================================
 
 MOLLIE_API_KEY = env('MOLLIE_API_KEY', default='')
+
+# ==============================================================================
+# SENTRY — Error tracking & performance monitoring
+# ==============================================================================
+
+SENTRY_DSN = env('SENTRY_DSN', default='')
+
+if SENTRY_DSN:
+    sentry_sdk.init(
+        dsn=SENTRY_DSN,
+        # Captures 100% of transactions in production; lower in high-traffic env
+        traces_sample_rate=1.0,
+        # Captures 10% of profiling sessions
+        profiles_sample_rate=0.1,
+        # Don't report errors in DEBUG mode
+        environment='development' if DEBUG else 'production',
+        send_default_pii=False,  # GDPR: no personal data in payloads
+    )
 
