@@ -1,6 +1,6 @@
 # PRAVA — Roadmap de développement
 
-> Dernière mise à jour : 5 mars 2026 (soir — Phase 4 cont. + Phase 5 cont. + Phase 5b terminée)
+> Dernière mise à jour : 5 mars 2026 (soir — Phase 7 terminée, email confirmation, HTTPS prod)
 
 ---
 
@@ -194,9 +194,39 @@ python3 scripts/pipeline/02_translate.py --law 1976
 
 ---
 
-## Phase 7 — Frontend utilisateur 🔄
+## Phase 7 — Frontend utilisateur ✅
 
-> Durée estimée : 5-7 jours | Dépend de Phase 5
+> **Terminée : 5 mars 2026**
+
+- [x] Page d'accueil — hero, stats bar 4 colonnes, section "Pourquoi PRAVA?" avant catégories
+- [x] Barre stats enrichie : icônes, descriptions, +50, FR·NL·RU
+- [x] Page tarifs (`/shop/`) avec plans + mention ⛽ carburant gratuit
+- [x] Page profil — carte portefeuille ⛽, tests récents avec badge score (vert/rouge)
+- [x] Page historique tests (`/examens/history/`) — design amélioré
+- [x] Navbar desktop : widget ⛽ interactif avec jauge animée et échange
+- [x] Navbar mobile : widget ⛽ lecture seule (balance + barre de remplissage)
+- [x] Système de réservoir ⛽ complet (`apps/rewards/`) :
+  - Heartbeat toutes les 60s (accumulation carburant en ligne)
+  - Échange : 20L→+10q, 40L→+30q, 60L→+50q
+  - `KeySettings` singleton, `KeyWallet` par user, `KeyTransaction` journal
+  - Admin panel complet
+- [x] Email confirmation achat (Mailjet, déclenché par `_activate_premium()`)
+- [x] Sécurité HTTPS production : `SECURE_SSL_REDIRECT`, HSTS 1 an, cookies sécurisés
+- [x] i18n : corrections .po ru + nl, 4 nouvelles chaînes ⛽ par langue
+- [x] Tailwind CSS dividers : `divide-gray-100` (était noir par défaut)
+
+---
+
+## Phase 7b — Intégration Mollie ✅
+
+> **Terminée : 5 mars 2026**
+
+- [x] Checkout → Mollie → webhook → `_activate_premium()`
+- [x] Email confirmation achat (plan, montant, date expiration, bonus ⛽)
+- [x] Dev fallback sans Mollie (simulation paiement en DEBUG)
+- [x] Ordre `Status` : pending → paid / failed / expired / canceled
+
+---
 
 - [x] Page liste des thèmes (`/reglementation/`) — **terminée le 5 mars 2026**
   - Grille principale AR 1975, section "Textes législatifs de référence" avec cartes colorées par thème
@@ -204,11 +234,12 @@ python3 scripts/pipeline/02_translate.py --law 1976
 - [x] Page catégorie (`/reglementation/category/<slug>/`) — sidebar filtrée par loi
 - [ ] Page article individuel (`/reglementation/{slug}/`)
 - [ ] Page examen (`/examen/`)
-- [ ] Système de badges quotidiens (1 badge = 1 connexion)
-- [ ] Règle freemium :
+- [ ] Système de badges quotidiens → remplacé par système ⛽ carburant (Phase 7)
+- [x] Règle freemium :
   - Illimité : lecture des règles
-  - Limité gratuit : N tests de base par jour (badge)
-  - Premium : simulations illimitées, examen complet 50 questions
+  - Gratuit : 15 questions/jour (`FREE_DAILY_QUESTIONS`)
+  - Premium : accès illimité via abonnement (Mollie)
+  - Bonus ⛽ : échange litres contre questions supplémentaires
 
 ---
 

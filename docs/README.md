@@ -9,7 +9,8 @@
 
 | Document | Description |
 |---|---|
-| **[ARCHITECTURE.md](ARCHITECTURE.md)** | Architecture technique : apps Django, data pipeline, admin dashboard |
+| **[ARCHITECTURE.md](ARCHITECTURE.md)** | Architecture technique : stack, apps Django, sécurité, Tailwind, i18n |
+| **[DEPLOYMENT.md](DEPLOYMENT.md)** | Guide de déploiement production (Gunicorn, Nginx, checklist) |
 | **[ROADMAP.md](ROADMAP.md)** | Roadmap par phases et statut d'avancement |
 | **[DATA_SCHEMA.md](DATA_SCHEMA.md)** | Schéma JSON des données (lois, articles, questions) |
 | **[SCRIPTS.md](SCRIPTS.md)** | Documentation du pipeline de scripts |
@@ -40,11 +41,14 @@
 
 ### Stack technique
 
-- **Backend** : Django 4.x, Python 3.12
+- **Backend** : Django 6.0.2, Python 3.14
 - **Base de données** : SQLite (dev) → PostgreSQL (prod)
+- **Frontend** : Tailwind CSS v4.2.1 + Alpine.js
+- **Paiement** : Mollie (Bancontact, Visa, iDEAL)
+- **Email** : Mailjet SMTP
 - **Traduction** : DeepL Free API
-- **Génération de questions** : Gemini 1.5 Flash (tier gratuit — 15 req/min, 1M tokens/jour)
-- **Frontend** : Bootstrap 5 + HTMX (admin dashboard)
+- **Génération de questions** : Gemini 2.5 Flash (Google AI)
+- **Erreurs / monitoring** : Sentry SDK
 
 ---
 
