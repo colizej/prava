@@ -18,7 +18,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {% for post in posts %}
         <a href="{{ post.get_absolute_url }}" class="bg-white rounded-xl shadow-sm hover:shadow-md transition overflow-hidden border border-gray-100">
-            {% if post.featured_image %}
+            {% if post.featured_image.name %}
             <img src="{{ post.featured_image.url }}" alt="{{ post.featured_image_alt }}" class="w-full h-48 object-cover">
             {% else %}
             <div class="w-full h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center"><span class="text-4xl">📝</span></div>

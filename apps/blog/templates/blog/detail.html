@@ -6,7 +6,7 @@
 {% block og_title %}{{ post.seo_title }}{% endblock %}
 {% block og_description %}{{ post.seo_description }}{% endblock %}
 {% block og_type %}article{% endblock %}
-{% if post.featured_image %}{% block og_image_url %}{{ post.featured_image.url }}{% endblock %}{% endif %}
+{% block og_image_url %}{% if post.featured_image.name %}{{ post.featured_image.url }}{% else %}/static/img/og-default.png{% endif %}{% endblock %}
 {% block meta_extra %}
 {% if post.no_index %}<meta name="robots" content="noindex">{% endif %}
 {% if post.canonical_url %}{% block canonical %}<link rel="canonical" href="{{ post.canonical_url }}">{% endblock %}{% endif %}
@@ -19,7 +19,7 @@
     "datePublished": "{{ post.published_at|date:'c' }}",
     "dateModified": "{{ post.updated_at|date:'c' }}",
     "description": "{{ post.seo_description|escapejs }}"
-    {% if post.featured_image %},"image": "{{ post.featured_image.url }}"{% endif %},
+    {% if post.featured_image.name %},"image": "{{ post.featured_image.url }}"{% endif %},
     "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ request.build_absolute_uri }}"},
     "wordCount": {{ post.content|length }}
     {% if post.keywords %},"keywords": "{{ post.keywords|escapejs }}"{% endif %}
@@ -52,7 +52,7 @@
     </div>
 
     {# Image #}
-    {% if post.featured_image %}
+    {% if post.featured_image.name %}
     <figure class="mb-8">
         <img src="{{ post.featured_image.url }}"
              alt="{{ post.featured_image_alt|default:post.title }}"

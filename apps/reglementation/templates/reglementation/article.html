@@ -331,10 +331,10 @@
                     {% blocktrans with name=article.category.name %}Sommaire — {{ name }}{% endblocktrans %}
                 </summary>
                 <nav class="px-5 pb-4 space-y-1 max-h-64 overflow-y-auto">
-                    {% for num, title, sib_slug in siblings %}
-                    <a href="{% url 'reglementation:article' slug=sib_slug %}"
-                       class="block text-sm py-1 {% if sib_slug == article.slug %}text-blue-700 font-semibold{% else %}text-gray-500 hover:text-gray-800{% endif %} transition">
-                        <span class="font-mono text-xs text-gray-400 mr-1">{{ num }}</span> {{ title }}
+                    {% for sib in siblings %}
+                    <a href="{% url 'reglementation:article' slug=sib.slug %}"
+                       class="block text-sm py-1 {% if sib.slug == article.slug %}text-blue-700 font-semibold{% else %}text-gray-500 hover:text-gray-800{% endif %} transition">
+                        <span class="font-mono text-xs text-gray-400 mr-1">{{ sib.article_number }}</span> {{ sib.trans_title }}
                     </a>
                     {% endfor %}
                 </nav>

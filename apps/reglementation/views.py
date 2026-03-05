@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.core.paginator import Paginator
 from django.db.models import Count, Prefetch
 from django.utils.translation import gettext_lazy as _
@@ -129,7 +129,6 @@ def article_detail(request, slug):
     # Premium check
     if not article.is_free:
         if not request.user.is_authenticated:
-            from django.shortcuts import redirect
             return redirect('accounts:login')
         if not request.user.profile.has_active_premium:
             return redirect('main:pricing')
