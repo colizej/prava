@@ -198,6 +198,8 @@ NL = {
     "Panneaux": "Verkeersborden",
     "Les panneaux seront disponibles après l'import des données.": "De verkeersborden zijn beschikbaar na het importeren van de gegevens.",
     "Aucun article disponible dans cette catégorie.": "Geen artikel beschikbaar in deze categorie.",
+    # Blog new strings
+    "Recherche : \"%(q)s\"": "Zoeken: \"%(q)s\"",
 }
 
 RU = {
@@ -391,6 +393,8 @@ RU = {
     "Panneaux": "Знаки",
     "Les panneaux seront disponibles après l'import des données.": "Знаки будут доступны после импорта данных.",
     "Aucun article disponible dans cette catégorie.": "Нет статей в этой категории.",
+    # Blog new strings
+    "Recherche : \"%(q)s\"": "Поиск: \"%(q)s\"",
 }
 
 # Also add blocktrans strings (with placeholders)
