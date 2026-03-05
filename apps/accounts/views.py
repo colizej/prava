@@ -101,6 +101,12 @@ def profile(request):
         user=request.user
     ).select_related('plan').order_by('-created_at')[:20]
 
+    # Keys wallet
+    from apps.rewards.service import get_or_create_wallet, get_settings as get_key_settings
+    wallet = get_or_create_wallet(request.user)
+    key_settings = get_key_settings()
+    recent_transactions = wallet.transactions.order_by('-created_at')[:5]
+
     context = {
         'profile': profile,
         'recent_attempts': recent_attempts,
@@ -111,6 +117,9 @@ def profile(request):
         'saved_total': saved_total,
         'saved_by_category': saved_by_category,
         'orders': orders,
+        'wallet': wallet,
+        'key_settings': key_settings,
+        'recent_transactions': recent_transactions,
     }
     return render(request, 'accounts/profile.html', context)
 
