@@ -135,6 +135,15 @@ class Question(models.Model):
             self.times_correct += 1
         self.save(update_fields=['times_answered', 'times_correct'])
 
+    def save(self, *args, **kwargs):
+        # Track original image name to detect new uploads
+        _original = self.__class__.objects.filter(pk=self.pk).values_list('image', flat=True).first() if self.pk else None
+        super().save(*args, **kwargs)
+        if self.image and self.image.name and self.image.name != _original:
+            from apps.main.image_utils import convert_field_to_webp
+            if convert_field_to_webp(self.image):
+                self.__class__.objects.filter(pk=self.pk).update(image=self.image.name)
+
 
 class AnswerOption(models.Model):
     """Option de réponse pour une question."""

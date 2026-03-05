@@ -149,3 +149,11 @@ class ArticleImage(models.Model):
 
     def __str__(self):
         return f'{self.sign_code or self.alt_text} — {self.article.article_number}'
+
+    def save(self, *args, **kwargs):
+        _original = self.__class__.objects.filter(pk=self.pk).values_list('image', flat=True).first() if self.pk else None
+        super().save(*args, **kwargs)
+        if self.image and self.image.name and self.image.name != _original:
+            from apps.main.image_utils import convert_field_to_webp
+            if convert_field_to_webp(self.image):
+                self.__class__.objects.filter(pk=self.pk).update(image=self.image.name)

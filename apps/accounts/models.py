@@ -62,6 +62,14 @@ class UserProfile(models.Model):
             self.correct_answers += 1
         self.save(update_fields=['total_questions_answered', 'correct_answers'])
 
+    def save(self, *args, **kwargs):
+        _original = self.__class__.objects.filter(pk=self.pk).values_list('avatar', flat=True).first() if self.pk else None
+        super().save(*args, **kwargs)
+        if self.avatar and self.avatar.name and self.avatar.name != _original:
+            from apps.main.image_utils import convert_field_to_webp
+            if convert_field_to_webp(self.avatar):
+                self.__class__.objects.filter(pk=self.pk).update(avatar=self.avatar.name)
+
 
 class DailyQuota(models.Model):
     """Quota quotidien de questions pour les utilisateurs gratuits."""

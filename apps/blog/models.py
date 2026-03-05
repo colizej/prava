@@ -131,7 +131,14 @@ class BlogPost(TranslatableFieldsMixin, models.Model):
                     setattr(self, field, str(fm[field])[:self._meta.get_field(field).max_length or 999])
             if 'no_index' in fm and not self.no_index:
                 self.no_index = bool(fm['no_index'])
+        _original = self.__class__.objects.filter(pk=self.pk).values_list('featured_image', flat=True).first() if self.pk else None
         super().save(*args, **kwargs)
+
+        # Convert newly uploaded image to WebP
+        if self.featured_image and self.featured_image.name and self.featured_image.name != _original:
+            from apps.main.image_utils import convert_field_to_webp
+            if convert_field_to_webp(self.featured_image):
+                self.__class__.objects.filter(pk=self.pk).update(featured_image=self.featured_image.name)
 
     def get_absolute_url(self):
         return reverse('blog:detail', kwargs={'slug': self.slug})
