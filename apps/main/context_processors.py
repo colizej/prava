@@ -6,6 +6,7 @@ def site_context(request):
     return {
         'SITE_NAME': getattr(settings, 'SITE_NAME', 'PRAVA.be'),
         'SITE_DESCRIPTION': getattr(settings, 'SITE_DESCRIPTION', ''),
+        'SITE_URL': getattr(settings, 'SITE_URL', 'https://prava.be'),
         'LANGUAGES': getattr(settings, 'LANGUAGES', []),
         'current_language': getattr(request, 'LANGUAGE_CODE', 'fr'),
     }

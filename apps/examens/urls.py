@@ -11,6 +11,9 @@ urlpatterns = [
     path('results/<uuid:uuid>/', views.results, name='results'),
     path('history/', views.history, name='history'),
 
+    # Public question detail (SEO)
+    path('q/<int:pk>/', views.question_detail, name='question_detail'),
+
     # Admin preview
     path('preview/<int:pk>/', views.question_preview, name='question_preview'),
 

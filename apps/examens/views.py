@@ -65,6 +65,21 @@ def categories(request):
     return render(request, 'examens/categories.html', context)
 
 
+def question_detail(request, pk):
+    """Public question page for SEO — no login required."""
+    question = get_object_or_404(
+        Question.objects.prefetch_related('options').select_related('category', 'article'),
+        pk=pk, is_active=True,
+    )
+    options = question.options.all().order_by('order', 'letter')
+    correct_option = next((o for o in options if o.is_correct), None)
+    return render(request, 'examens/question_detail.html', {
+        'question': question,
+        'options': options,
+        'correct_option': correct_option,
+    })
+
+
 @login_required
 def practice(request, category_slug=None):
     """Mode entraînement."""

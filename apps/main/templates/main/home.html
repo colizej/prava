@@ -4,6 +4,40 @@
 {% block title %}{{ SITE_NAME }} — {% trans "Préparation Permis de Conduire Belgique" %}{% endblock %}
 {% block meta_description %}{% trans "Préparez votre examen théorique du permis de conduire en Belgique avec plus de 1000 questions. Entraînement gratuit, mode examen, réglementation complète." %}{% endblock %}
 
+{% block meta_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ SITE_NAME }}",
+  "url": "{{ SITE_URL }}",
+  "description": "{% trans 'Préparation à l\'examen théorique du permis de conduire en Belgique. FR / NL / RU.' %}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ SITE_URL }}/blog/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "{{ SITE_NAME }}",
+  "url": "{{ SITE_URL }}",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "description": "{% trans 'Accès gratuit à 15 questions par jour' %}"
+  },
+  "inLanguage": ["fr", "nl", "ru"]
+}
+</script>
+{% endblock %}
+
 {% block content %}
 {# Hero Section #}
 <section class="bg-gradient-to-br from-blue-600 to-blue-800 text-white">

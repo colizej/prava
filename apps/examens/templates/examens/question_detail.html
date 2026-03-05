@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{{ question.text|truncatewords:12 }} — {% trans "Question Permis de Conduire" %} — {{ SITE_NAME }}{% endblock %}
+{% block meta_description %}{{ question.text|truncatewords:30 }} {% trans "Réponse et explication complète pour votre préparation à l'examen théorique du permis de conduire en Belgique." %}{% endblock %}
+{% block og_title %}{{ question.text|truncatewords:12 }} — {{ SITE_NAME }}{% endblock %}
+{% block og_description %}{{ question.text|truncatewords:30 }}{% endblock %}
+
+{% block meta_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "QAPage",
+  "mainEntity": {
+    "@type": "Question",
+    "name": "{{ question.text|escapejs }}",
+    "text": "{{ question.text|escapejs }}",
+    "answerCount": 1,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "{{ correct_option.letter }}. {{ correct_option.text|escapejs }}{% if question.explanation %} — {{ question.explanation|escapejs }}{% endif %}"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{% trans 'Examens' %}",
+      "item": "{{ request.scheme }}://{{ request.get_host }}{% url 'examens:categories' %}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ question.category.trans_name|escapejs }}",
+      "item": "{{ request.scheme }}://{{ request.get_host }}{{ question.category.get_absolute_url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ question.text|truncatewords:10|escapejs }}"
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+  {# Breadcrumb #}
+  <nav class="flex items-center gap-2 text-sm text-gray-400 mb-6 flex-wrap">
+    <a href="{% url 'examens:categories' %}" class="hover:text-blue-600 transition">{% trans "Questions" %}</a>
+    <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+    <a href="{{ question.category.get_absolute_url }}" class="hover:text-blue-600 transition">{{ question.category.trans_name }}</a>
+  </nav>
+
+  {# Question card #}
+  <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 mb-6">
+    <div class="flex items-start gap-3 mb-6">
+      <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-700 font-bold text-sm shrink-0 mt-0.5">?</span>
+      <h1 class="text-lg sm:text-xl font-semibold text-gray-900 leading-snug">{{ question.text }}</h1>
+    </div>
+
+    {% if question.image %}
+    <div class="mb-6">
+      <img src="{{ question.image.url }}" alt="{{ question.image_alt|default:question.text|truncatewords:10 }}" class="rounded-xl max-h-64 mx-auto object-contain">
+      {% if question.image_caption %}<p class="text-xs text-gray-400 text-center mt-2">{{ question.image_caption }}</p>{% endif %}
+    </div>
+    {% endif %}
+
+    {# Options #}
+    <ol class="space-y-3 mb-6" type="A">
+      {% for opt in options %}
+      <li class="flex items-start gap-3 p-3 rounded-xl border
+                 {% if opt.is_correct %}bg-green-50 border-green-200{% else %}bg-gray-50 border-gray-100{% endif %}">
+        <span class="inline-flex items-center justify-center w-7 h-7 rounded-full text-sm font-bold shrink-0
+                     {% if opt.is_correct %}bg-green-500 text-white{% else %}bg-gray-200 text-gray-600{% endif %}">
+          {{ opt.letter }}
+        </span>
+        <span class="text-sm text-gray-800 pt-0.5 {% if opt.is_correct %}font-medium{% endif %}">
+          {{ opt.text }}
+          {% if opt.is_correct %}<span class="ml-2 text-green-600 font-semibold">✓</span>{% endif %}
+        </span>
+      </li>
+      {% endfor %}
+    </ol>
+
+    {# Explanation #}
+    {% if question.explanation %}
+    <div class="bg-blue-50 border border-blue-100 rounded-xl p-4">
+      <p class="text-xs font-bold uppercase tracking-wider text-blue-500 mb-1">{% trans "Explication" %}</p>
+      <p class="text-sm text-gray-700">{{ question.explanation }}</p>
+    </div>
+    {% endif %}
+  </div>
+
+  {# Related article #}
+  {% if question.article %}
+  <div class="bg-gray-50 rounded-xl border border-gray-100 p-4 mb-6 flex items-center gap-3">
+    <svg class="w-5 h-5 text-gray-400 shrink-0" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.966 8.966 0 0 0-6 2.292m0-14.25v14.25"/></svg>
+    <div>
+      <p class="text-xs text-gray-400">{% trans "Article lié" %}</p>
+      <a href="{{ question.article.get_absolute_url }}" class="text-sm font-medium text-blue-600 hover:underline">
+        {{ question.article.article_number }} — {{ question.article.title }}
+      </a>
+    </div>
+  </div>
+  {% endif %}
+
+  {# CTA #}
+  <div class="rounded-2xl bg-gradient-to-br from-blue-600 to-blue-700 text-white p-6 text-center">
+    <p class="font-semibold mb-1">{% trans "Entraînez-vous avec des centaines de questions" %}</p>
+    <p class="text-blue-100 text-sm mb-4">{% trans "Mode examen, entraînement par thème, correction immédiate." %}</p>
+    <a href="{% url 'examens:categories' %}"
+       class="inline-block bg-white text-blue-600 font-semibold px-6 py-2.5 rounded-xl text-sm hover:bg-blue-50 transition shadow">
+      {% trans "Commencer l'entraînement" %} →
+    </a>
+  </div>
+
+</div>
+{% endblock %}

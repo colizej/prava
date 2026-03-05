@@ -119,6 +119,9 @@ class Question(models.Model):
             return self.explanation_ru
         return self.explanation
 
+    def get_absolute_url(self):
+        return reverse('examens:question_detail', kwargs={'pk': self.pk})
+
     @property
     def success_rate(self):
         if self.times_answered == 0:

@@ -7,11 +7,17 @@ from django.contrib.sitemaps.views import sitemap
 
 from apps.blog.sitemaps import BlogSitemap, BlogCategorySitemap
 from apps.main.sitemaps import StaticViewSitemap
+from apps.reglementation.sitemaps import ArticleSitemap, ReglCategorySitemap
+from apps.examens.sitemaps import ExamCategorySitemap, QuestionSitemap
 
 sitemaps = {
     'static': StaticViewSitemap,
     'blog': BlogSitemap,
     'blog-categories': BlogCategorySitemap,
+    'articles': ArticleSitemap,
+    'regl-categories': ReglCategorySitemap,
+    'exam-categories': ExamCategorySitemap,
+    'questions': QuestionSitemap,
 }
 
 urlpatterns = [

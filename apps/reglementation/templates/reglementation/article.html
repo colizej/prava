@@ -3,6 +3,39 @@
 {% load i18n %}
 {% block title %}{{ article.article_number }} {{ article.title }} — {{ SITE_NAME }}{% endblock %}
 {% block meta_description %}{{ article.content_text|truncatewords:30 }}{% endblock %}
+{% block og_title %}{{ article.article_number }} — {{ article.title }}{% endblock %}
+{% block og_description %}{{ article.content_text|truncatewords:30 }}{% endblock %}
+
+{% block meta_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ article.article_number }} — {{ article.title|escapejs }}",
+  "description": "{{ article.content_text|truncatewords:30|escapejs }}",
+  "dateModified": "{{ article.updated_at|date:'c' }}",
+  "url": "{{ request.build_absolute_uri }}",
+  "author": {"@type": "Organization", "name": "PRAVA.be", "url": "https://prava.be"},
+  "publisher": {"@type": "Organization", "name": "PRAVA.be", "url": "https://prava.be"},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "PRAVA.be",
+    "url": "https://prava.be"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Réglementation", "item": "{{ request.scheme }}://{{ request.get_host }}{% url 'reglementation:index' %}"},
+    {"@type": "ListItem", "position": 2, "name": "{{ article.category.trans_name|escapejs }}", "item": "{{ request.scheme }}://{{ request.get_host }}{{ article.category.get_absolute_url }}"},
+    {"@type": "ListItem", "position": 3, "name": "{{ article.article_number }} — {{ article.title|escapejs }}"}
+  ]
+}
+</script>
+{% endblock %}
 
 {% block content %}
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">

@@ -181,10 +181,14 @@ def glossary(request):
 
 def robots_txt(request):
     """robots.txt pour SEO."""
+    site_url = settings.SITE_URL.rstrip('/')
     lines = [
         'User-agent: *',
         'Allow: /',
+        'Disallow: /admin/',
+        'Disallow: /accounts/password/',
+        'Disallow: /rewards/',
         '',
-        'Sitemap: https://permisready.be/sitemap.xml',
+        f'Sitemap: {site_url}/sitemap.xml',
     ]
     return HttpResponse('\n'.join(lines), content_type='text/plain')
