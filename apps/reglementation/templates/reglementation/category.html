@@ -133,3 +133,32 @@
     </div>
 </div>
 {% endblock %}
+
+{% block meta_extra %}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Réglementation","item":"{{ SITE_URL }}{% url 'reglementation:index' %}"},
+      {"@type":"ListItem","position":2,"name":"{{ category.trans_name|escapejs }}","item":"{{ SITE_URL }}{{ category.get_absolute_url }}"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{ category.trans_name|escapejs }}",
+    "url": "{{ SITE_URL }}{{ category.get_absolute_url }}",
+    "itemListElement": [{% for article in articles %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.counter }},
+        "name": "{{ article.article_number|escapejs }} — {{ article.trans_title|escapejs }}",
+        "url": "{{ SITE_URL }}{{ article.get_absolute_url }}"
+      }{% if not forloop.last %},{% endif %}{% endfor %}
+    ]
+  }
+]
+</script>
+{% endblock %}

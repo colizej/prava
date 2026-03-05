@@ -133,3 +133,28 @@
 
 </div>
 {% endblock %}
+
+{% block meta_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forfaits {{ SITE_NAME }}",
+  "url": "{{ SITE_URL }}{% url 'shop:pricing' %}",
+  "itemListElement": [{% for plan in plans %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.counter }},
+      "item": {
+        "@type": "Offer",
+        "name": "{{ plan.name|escapejs }}",
+        "price": "{{ plan.price }}",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "{{ SITE_URL }}{% if plan.is_free %}{% url 'accounts:register' %}{% else %}{% url 'shop:checkout' plan.key %}{% endif %}"
+      }
+    }{% if not forloop.last %},{% endif %}{% endfor %}
+  ]
+}
+</script>
+{% endblock %}
