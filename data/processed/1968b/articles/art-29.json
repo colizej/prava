@@ -1,0 +1,67 @@
+{
+  "law_id": "1968b",
+  "article_number": "29",
+  "slug": "art-29",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 29. Système de numérotation des fiches de réception CE / petite série (PS) ou individuelles (RI)",
+  "title_nl": "Bijlage 29. Nummeringssysteem voor EG- of kleine reeks- of typegoedkeuringscertificaten of individuele goedkeuringen",
+  "title_ru": "",
+  "content_md_fr": "> 📎 PDF\n\n> ℹ️ En ce qui concerne la Région de Bruxelles-Capitale et la Région flamande, les mots « le Service Véhicules » sont remplacés par les mots « autorité compétente en matière de réception ».\n\n> ℹ️ En ce qui concerne la Région wallonne, les mots « le Service Véhicules » sont remplacés par les mots « l’autorité compétente en matière de réception ».",
+  "content_md_nl": "> 📎 PDF\n\n> ℹ️ Voor wat betreft het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, worden de woorden “Dienst Voertuigen” vervangen door het woord “goedkeuringsinstantie”.\n\n> ℹ️ Voor wat betreft het Waals Gewest, worden de woorden ″de Dienst Voertuigen″ vervangen door de woorden ″de instantie bevoegd voor de goedkeuring″.",
+  "content_md_ru": "",
+  "content_html_fr": "<div class=\"notification notification-secondary\"><a href=\"/media/file/23b62bc804a9cf7b6b679e60a0f24239ac6c807f.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div><div class=\"notification notification-primary\">En ce qui concerne la Région de Bruxelles-Capitale et la Région flamande, les mots « le Service Véhicules » sont remplacés par les mots « autorité compétente en matière de réception ».</div><div class=\"notification notification-primary\">En ce qui concerne la Région wallonne, les mots « le Service Véhicules » sont remplacés par les mots « l’autorité compétente en matière de réception ».</div>",
+  "content_html_nl": "<div class=\"notification notification-secondary\"><a href=\"/media/file/bdd37bf51483789f5aa2540052a5bca67619f8c6.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div><div class=\"notification notification-primary\">Voor wat betreft het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, worden de woorden “Dienst Voertuigen” vervangen door het woord “goedkeuringsinstantie”.</div><div class=\"notification notification-primary\">Voor wat betreft het Waals Gewest, worden de woorden ″de Dienst Voertuigen″ vervangen door de woorden ″de instantie bevoegd voor de goedkeuring″.</div>",
+  "full_text_fr": "PDF\n\n️ En ce qui concerne la Région de Bruxelles-Capitale et la Région flamande, les mots « le Service Véhicules » sont remplacés par les mots « autorité compétente en matière de réception ».\n\n️ En ce qui concerne la Région wallonne, les mots « le Service Véhicules » sont remplacés par les mots « l’autorité compétente en matière de réception ».",
+  "full_text_nl": "PDF\n\n️ Voor wat betreft het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, worden de woorden “Dienst Voertuigen” vervangen door het woord “goedkeuringsinstantie”.\n\n️ Voor wat betreft het Waals Gewest, worden de woorden ″de Dienst Voertuigen″ vervangen door de woorden ″de instantie bevoegd voor de goedkeuring″.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    },
+    {
+      "type": "primary",
+      "text": "En ce qui concerne la Région de Bruxelles-Capitale et la Région flamande, les mots « le Service Véhicules » sont remplacés par les mots « autorité compétente en matière de réception »."
+    },
+    {
+      "type": "primary",
+      "text": "En ce qui concerne la Région wallonne, les mots « le Service Véhicules » sont remplacés par les mots « l’autorité compétente en matière de réception »."
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    },
+    {
+      "type": "primary",
+      "text": "Voor wat betreft het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, worden de woorden “Dienst Voertuigen” vervangen door het woord “goedkeuringsinstantie”."
+    },
+    {
+      "type": "primary",
+      "text": "Voor wat betreft het Waals Gewest, worden de woorden ″de Dienst Voertuigen″ vervangen door de woorden ″de instantie bevoegd voor de goedkeuring″."
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "wetys3hjkg",
+  "anchor_id_nl": "oidlqenwet",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "605ca72c70d6",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

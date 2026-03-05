@@ -1,0 +1,47 @@
+{
+  "law_id": "1968b",
+  "article_number": "4",
+  "slug": "art-4",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 4. Places assises pour voyageurs. Dimensions.",
+  "title_nl": "Bijlage 4. Zitplaatsen voor reizigers. Afmetingen.",
+  "title_ru": "",
+  "content_md_fr": "![sign](/media/image/orig/b93c89e1e6c5df49650755ce4a331a3b3038dbbb.gif)",
+  "content_md_nl": "![sign](/media/image/orig/b93c89e1e6c5df49650755ce4a331a3b3038dbbb.gif)",
+  "content_md_ru": "",
+  "content_html_fr": "<p><img src=\"/media/image/orig/b93c89e1e6c5df49650755ce4a331a3b3038dbbb.gif\"/></p>",
+  "content_html_nl": "<p><img src=\"/media/image/orig/b93c89e1e6c5df49650755ce4a331a3b3038dbbb.gif\"/></p>",
+  "full_text_fr": "sign",
+  "full_text_nl": "sign",
+  "full_text_ru": "",
+  "images": [
+    {
+      "src": "/media/image/orig/b93c89e1e6c5df49650755ce4a331a3b3038dbbb.gif",
+      "alt": "",
+      "full_url": "https://www.codedelaroute.be/media/image/orig/b93c89e1e6c5df49650755ce4a331a3b3038dbbb.gif"
+    }
+  ],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "jg5bfv7p2r",
+  "anchor_id_nl": "13g6peoqel",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "2578bd4b695e",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

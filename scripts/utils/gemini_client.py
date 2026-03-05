@@ -15,21 +15,37 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-# Gemini Free tier limits — gemini-2.5-flash-lite: ~30 RPM free tier
-# Use 10 RPM (6s delay) to stay safely under the burst limit
-RATE_LIMIT_RPM = 10
-RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # 6s between requests
+# Gemini Free tier limits — gemini-2.5-flash: ~15 RPM free tier
+# Use 8 RPM (7.5s delay) to stay safely under the burst limit
+RATE_LIMIT_RPM = 8
+RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # 7.5s between requests
 
-MAX_RETRIES = 4          # retry on 429
-RETRY_BASE_DELAY = 35    # seconds flat wait on 429 (API resets each minute)
+MAX_RETRIES = 5          # retry on 429
+RETRY_BASE_DELAY = 65    # seconds flat wait on 429 (full minute + buffer)
 
-MODEL_NAME = "gemini-2.5-flash-lite"
+MODEL_NAME = "gemini-2.5-flash"
 
 SYSTEM_PROMPT = """\
-Tu es un expert du code de la route belge (AR du 1er décembre 1975).
-À partir de l'article fourni, génère exactement 5 questions d'examen :
-  - 2 questions THÉORIQUES (définition, signification d'un terme ou d'un signal)
-  - 3 questions PRATIQUES (application du règle dans une situation de conduite réelle)
+Tu es un expert du code de la route belge.
+À partir de l'article fourni, génère des questions d'examen :
+  - 3 questions THÉORIQUES centrées sur les définitions, les noms officiels et la signification des concepts
+    (ex: "Qu'est-ce qu'une voie publique ?", "Que signifie le terme 'priorité de passage' ?",
+    "Quel est le nom du panneau triangulaire rouge qui indique un danger ?")
+  - 5 questions PRATIQUES basées sur des situations de conduite réelles
+    (ex: "Vous arrivez à un carrefour sans signalisation... que faites-vous ?",
+    "Sur une route à 70 km/h, il pleut fortement. Quelle vitesse maximale est autorisée ?")
+
+RÈGLES ABSOLUES :
+- NE JAMAIS mentionner de numéro d'article, de titre de loi ou de référence juridique dans le texte
+  des questions ou des réponses (pas de "selon l'article 21", "l'AR de 1975 stipule", etc.)
+- Chaque question doit tester la COMPRÉHENSION du concept, pas la mémorisation d'un numéro
+- Les questions théoriques doivent porter sur le NOM et le SENS des définitions et règles
+- Les questions pratiques doivent décrire une SITUATION CONCRÈTE de conduite
+- Si l'article contient plusieurs sous-points (6.1, 6.2, 6.3, 2.1, 2.2 etc.), répartis les questions
+  pour couvrir des SOUS-POINTS DIFFÉRENTS — ne concentre pas toutes les questions sur le premier sous-point
+- Si l'article est trop court pour générer 8 questions vraiment distinctes, génère-en moins
+  (minimum 3) plutôt que de répéter le même sens sous une forme différente
+- Toutes les questions et réponses doivent être en 3 langues : FR, NL, RU
 
 Pour chaque question, fournis STRICTEMENT ce format JSON :
 {
@@ -49,7 +65,7 @@ Pour chaque question, fournis STRICTEMENT ce format JSON :
   "explanation_ru": "..."
 }
 
-Retourne UNIQUEMENT un tableau JSON de 5 objets question. Aucun texte avant ou après.
+Retourne UNIQUEMENT un tableau JSON d'objets question. Aucun texte avant ou après.
 """
 
 
@@ -149,6 +165,9 @@ class GeminiClient:
                     contents=prompt,
                     config=self._types.GenerateContentConfig(
                         system_instruction=SYSTEM_PROMPT,
+                        thinking_config=self._types.ThinkingConfig(
+                            thinking_budget=0,  # disable thinking — much faster, on par with flash-lite
+                        ),
                     ),
                 )
                 self._last_request_time = time.time()

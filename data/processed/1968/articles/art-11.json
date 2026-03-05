@@ -26,7 +26,230 @@
   "anchor_id_fr": "0htafa6vyp",
   "anchor_id_nl": "xc81qkbaw7",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le principe fondamental concernant les injonctions données par des agents qualifiés par rapport aux autres règles de circulation ?",
+      "text_nl": "Wat is het fundamentele principe met betrekking tot de aanwijzingen die door bevoegde personen worden gegeven ten opzichte van andere verkeersregels?",
+      "text_ru": "Каков основной принцип, касающийся указаний, даваемых уполномоченными сотрудниками, по сравнению с другими правилами дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An agent with insignia directing traffic"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont complémentaires aux règlements généraux.",
+          "text_nl": "Ze zijn aanvullend op de algemene reglementen.",
+          "text_ru": "Они дополняют общие правила.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles prévalent sur toutes les autres règles de circulation.",
+          "text_nl": "Ze gaan boven alle andere verkeersregels.",
+          "text_ru": "Они преобладают над всеми другими правилами дорожного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles s'appliquent uniquement en l'absence de signalisation.",
+          "text_nl": "Ze zijn alleen van toepassing bij afwezigheid van signalisatie.",
+          "text_ru": "Они применяются только при отсутствии дорожных знаков.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les injonctions des agents qualifiés priment sur toutes les autres règles, qu'il s'agisse des règlements généraux ou complémentaires.",
+      "explanation_nl": "De aanwijzingen van bevoegde personen gaan boven alle andere regels, zowel de algemene als de aanvullende reglementen.",
+      "explanation_ru": "Указания уполномоченных сотрудников имеют приоритет над всеми остальными правилами, будь то общие или дополнительные правила."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le terme 'agents qualifiés portant les insignes de leurs fonctions' dans le contexte de la régulation de la circulation ?",
+      "text_nl": "Wat betekent de term 'bevoegde personen die de kentekens van hun ambt dragen' in de context van verkeersregeling?",
+      "text_ru": "Что означает термин «уполномоченные сотрудники, носящие знаки своего отличия» в контексте регулирования дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer in uniform directing traffic"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toute personne qui décide de gérer le trafic en cas d'urgence.",
+          "text_nl": "Iedereen die besluit het verkeer te regelen in geval van nood.",
+          "text_ru": "Любой человек, который решает управлять дорожным движением в экстренной ситуации.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un représentant officiel (ex: policier) clairement identifiable par son uniforme ou son équipement, habilité à diriger le trafic.",
+          "text_nl": "Een officiële vertegenwoordiger (bv. politieagent) duidelijk herkenbaar aan zijn uniform of uitrusting, bevoegd om het verkeer te regelen.",
+          "text_ru": "Официальный представитель (например, полицейский), четко идентифицируемый по форме или снаряжению, уполномоченный регулировать движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un bénévole signalant un danger sur la route.",
+          "text_nl": "Een vrijwilliger die gevaar op de weg aangeeft.",
+          "text_ru": "Волонтер, сообщающий об опасности на дороге.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les 'agents qualifiés' désignent des personnes ayant une autorité légale, comme les policiers, clairement identifiables par leurs insignes ou leur uniforme, pour réguler la circulation.",
+      "explanation_nl": "De 'bevoegde personen' zijn personen met wettelijke autoriteit, zoals politieagenten, duidelijk herkenbaar aan hun kentekens of uniform, om het verkeer te regelen.",
+      "explanation_ru": "«Уполномоченные сотрудники» — это лица, обладающие законными полномочиями, такие как полицейские, четко идентифицируемые по знакам отличия или форме, для регулирования дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'une 'injonction' dans le contexte de la régulation de la circulation par un agent ?",
+      "text_nl": "Wat is een 'aanwijzing' in de context van verkeersregeling door een bevoegde persoon?",
+      "text_ru": "Что такое «указание» в контексте регулирования дорожного движения сотрудником?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer giving hand signals to stop traffic"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un conseil général sur la prudence à adopter.",
+          "text_nl": "Een algemeen advies over voorzichtigheid.",
+          "text_ru": "Общий совет по соблюдению осторожности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une instruction spécifique, verbale ou gestuelle, donnée pour diriger les usagers de la route.",
+          "text_nl": "Een specifieke instructie, verbaal of via gebaren, gegeven om weggebruikers te leiden.",
+          "text_ru": "Конкретная инструкция, устная или жестовая, данная для управления участниками дорожного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une recommandation facultative pour améliorer la fluidité.",
+          "text_nl": "Een facultatieve aanbeveling om de doorstroming te verbeteren.",
+          "text_ru": "Дополнительная рекомендация для улучшения потока движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une injonction est une instruction claire et obligatoire, souvent par gestes ou verbalement, donnée par un agent pour diriger le trafic, et qui doit être suivie impérativement.",
+      "explanation_nl": "Een aanwijzing is een duidelijke en verplichte instructie, vaak via gebaren of verbaal, gegeven door een agent om het verkeer te regelen, en die absoluut moet worden opgevolgd.",
+      "explanation_ru": "Указание — это четкая и обязательная инструкция, часто с помощью жестов или устно, данная сотрудником для управления дорожным движением, и которая должна быть обязательно выполнена."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous arrivez à un carrefour avec un feu de signalisation rouge, mais un policier en uniforme vous fait signe d'avancer. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt met een rood verkeerslicht, maar een geüniformeerde politieagent geeft u een teken om door te rijden. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрестку с красным сигналом светофора, но полицейский в форме жестом приказывает вам двигаться вперед. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car at a red light, with a police officer waving it through the intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Attendre que le feu passe au vert, car les feux sont prioritaires.",
+          "text_nl": "Wachten tot het licht groen wordt, want verkeerslichten hebben voorrang.",
+          "text_ru": "Ждать, пока свет не станет зеленым, потому что светофоры имеют приоритет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre l'injonction du policier et avancer.",
+          "text_nl": "De aanwijzing van de politieagent volgen en doorrijden.",
+          "text_ru": "Следовать указанию полицейского и ехать вперед.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour attirer son attention et demander confirmation.",
+          "text_nl": "Toeteren om zijn aandacht te trekken en om bevestiging te vragen.",
+          "text_ru": "Посигналить, чтобы привлечь его внимание и попросить подтверждения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les injonctions d'un agent qualifié prévalent sur toute autre signalisation, y compris les feux de circulation. Vous devez donc suivre ses indications.",
+      "explanation_nl": "De aanwijzingen van een bevoegde persoon gaan boven alle andere signalisatie, inclusief verkeerslichten. U moet dus zijn aanwijzingen volgen.",
+      "explanation_ru": "Указания уполномоченного сотрудника имеют приоритет над всеми другими знаками, включая светофоры. Поэтому вы должны следовать его указаниям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes engagé sur une route où la vitesse est limitée à 50 km/h. Un agent vous fait signe de ralentir et de rouler à 30 km/h pour une raison de sécurité. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een weg waar de snelheid beperkt is tot 50 km/u. Een agent geeft u een teken om te vertragen en 30 km/u te rijden om veiligheidsredenen. Wat moet u doen?",
+      "text_ru": "Вы движетесь по дороге, где скорость ограничена до 50 км/ч. Сотрудник дорожной полиции жестом указывает вам снизить скорость до 30 км/ч из соображений безопасности. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving, with a police officer signaling to slow down, visible speed limit sign 50 km/h in background"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à 50 km/h, car c'est la limite officielle affichée.",
+          "text_nl": "Blijven rijden aan 50 km/u, want dat is de officiële snelheidslimiet.",
+          "text_ru": "Продолжать движение со скоростью 50 км/ч, так как это официальный указанный лимит.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir immédiatement à 30 km/h, même si cela contredit la limitation de vitesse habituelle.",
+          "text_nl": "Onmiddellijk vertragen tot 30 km/u, zelfs als dit in strijd is met de gebruikelijke snelheidsbeperking.",
+          "text_ru": "Немедленно снизить скорость до 30 км/ч, даже если это противоречит обычному ограничению скорости.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ralentir légèrement mais maintenir une vitesse supérieure à 30 km/h pour ne pas gêner le trafic.",
+          "text_nl": "Licht vertragen maar een snelheid hoger dan 30 km/u aanhouden om het verkeer niet te hinderen.",
+          "text_ru": "Слегка замедлиться, но поддерживать скорость выше 30 км/ч, чтобы не мешать движению.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les injonctions d'un agent prévalent sur les limitations de vitesse indiquées. Il est impératif de suivre ses indications pour la sécurité.",
+      "explanation_nl": "De aanwijzingen van een agent gaan boven de aangegeven snelheidsbeperkingen. Het is absoluut noodzakelijk om zijn aanwijzingen te volgen voor de veiligheid.",
+      "explanation_ru": "Указания сотрудника имеют приоритет над указанными ограничениями скорости. Крайне важно следовать его указаниям для обеспечения безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous vous trouvez sur une autoroute où les panneaux indiquent une sortie à droite, mais un agent de la police fédérale vous dirige vers une sortie à gauche. Quelle est votre réaction correcte ?",
+      "text_nl": "U bevindt zich op een autosnelweg waar de borden een afslag naar rechts aangeven, maar een federale politieagent leidt u naar een afslag naar links. Wat is uw correcte reactie?",
+      "text_ru": "Вы находитесь на автомагистрали, где знаки указывают съезд направо, но сотрудник федеральной полиции направляет вас на съезд налево. Какова ваша правильная реакция?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car on a highway, road signs for right exit, police officer redirecting to left exit"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les panneaux car l'autoroute a des règles spécifiques.",
+          "text_nl": "De borden volgen, want de autosnelweg heeft specifieke regels.",
+          "text_ru": "Следовать указаниям знаков, так как на автомагистрали действуют особые правила.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Obéir à l'agent, car ses injonctions priment sur la signalisation routière, même sur autoroute.",
+          "text_nl": "De agent gehoorzamen, want zijn aanwijzingen gaan boven de verkeerssignalisatie, zelfs op de autosnelweg.",
+          "text_ru": "Подчиняться сотруднику, потому что его указания имеют приоритет над дорожными знаками, даже на автомагистрали.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous arrêter sur la bande d'arrêt d'urgence pour demander des explications à l'agent.",
+          "text_nl": "Stoppen op de pechstrook om de agent om uitleg te vragen.",
+          "text_ru": "Остановиться на обочине, чтобы попросить объяснений у сотрудника.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les injonctions des agents qualifiés prévalent sur toutes les autres règles, y compris la signalisation sur autoroute. Il faut toujours suivre leurs instructions.",
+      "explanation_nl": "De aanwijzingen van bevoegde personen gaan boven alle andere regels, inclusief de signalisatie op de autosnelweg. U moet altijd hun instructies volgen.",
+      "explanation_ru": "Указания уполномоченных сотрудников имеют приоритет над всеми остальными правилами, включая знаки на автомагистралях. Вы всегда должны следовать их инструкциям."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "817abb9aa5bb",
@@ -36,6 +259,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:47:06Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 6
   }
 }

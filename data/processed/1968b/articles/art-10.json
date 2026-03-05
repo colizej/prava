@@ -1,0 +1,51 @@
+{
+  "law_id": "1968b",
+  "article_number": "10",
+  "slug": "art-10",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 10. Prescriptions uniformes relatives à l'homologation du vitrage de sécurité et des matériaux pour vitrages destinés à être montés sur les véhicules à moteur et leurs remorques",
+  "title_nl": "Bijlage 10. Gelijkvormige voorschriften betreffende de homologatie van veiligheidsbeglazing en van de materialen voor de beglazing die bestemd zijn om in motorvoertuigen en hun aanhangwagens te worden geplaatst",
+  "title_ru": "",
+  "content_md_fr": "> 📎 PDF",
+  "content_md_nl": "> 📎 PDF",
+  "content_md_ru": "",
+  "content_html_fr": "<div class=\"notification notification-secondary\"><a href=\"/media/file/a3f34034fc8bc94efb1afe1f1ec65ba8e07ccb1e.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "content_html_nl": "<div class=\"notification notification-secondary\"><a href=\"/media/file/11985e2dc1d3a85c1811def0d3acbf68b0eb3ba0.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "full_text_fr": "PDF",
+  "full_text_nl": "PDF",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "smgnktjvgj",
+  "anchor_id_nl": "uulm7b7bjk",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "4fd1e8c2aaaf",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

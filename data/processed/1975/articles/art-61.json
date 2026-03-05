@@ -54,7 +54,280 @@
   "anchor_id_fr": "mg2xcgfomk",
   "anchor_id_nl": "vjosgzptl4",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie un feu jaune-orange fixe dans le système tricolore, si vous ne pouvez pas vous arrêter en toute sécurité lorsque celui-ci s'allume ?",
+      "text_nl": "Wat betekent een vast oranjegeel licht in het driekleurige systeem als u niet veilig kunt stoppen wanneer het oplicht?",
+      "text_ru": "Что означает постоянный желто-оранжевый свет в трехцветной системе, если вы не можете безопасно остановиться, когда он загорается?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez vous arrêter immédiatement avant la ligne d'arrêt ou le feu.",
+          "text_nl": "U moet onmiddellijk stoppen voor de stopstreep of het verkeerslicht.",
+          "text_ru": "Вы должны немедленно остановиться перед стоп-линией или светофором.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes autorisé à franchir la ligne d'arrêt ou le feu, mais vous ne devez pas mettre en danger les autres usagers.",
+          "text_nl": "U mag de stopstreep of het verkeerslicht voorbijrijden, maar u mag andere weggebruikers niet in gevaar brengen.",
+          "text_ru": "Вам разрешено пересечь стоп-линию или светофор, но вы не должны подвергать опасности других участников движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez accélérer pour passer le feu avant qu'il ne devienne rouge.",
+          "text_nl": "U moet versnellen om voor het licht te passeren voordat het rood wordt.",
+          "text_ru": "Вы должны ускориться, чтобы проехать на разрешающий сигнал до того, как он станет красным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu jaune-orange fixe signifie qu'il est interdit de franchir la ligne d'arrêt ou le signal, à moins que le conducteur ne soit si près qu'il ne puisse plus s'arrêter en toute sécurité. Dans ce cas, il peut continuer, mais doit s'assurer de ne pas mettre en danger les autres usagers, surtout à un carrefour.",
+      "explanation_nl": "Een vast oranjegeel licht betekent dat het verboden is de stopstreep of het verkeerslicht voorbij te rijden, tenzij de bestuurder zo dichtbij is dat hij niet meer veilig kan stoppen. In dat geval mag hij doorrijden, maar moet hij ervoor zorgen dat hij andere weggebruikers niet in gevaar brengt, vooral op een kruispunt.",
+      "explanation_ru": "Постоянный желто-оранжевый свет означает запрет на пересечение стоп-линии или светофора, если только водитель не находится так близко, что не может безопасно остановиться. В этом случае он может продолжить движение, но должен убедиться, что не подвергает опасности других участников движения, особенно на перекрестке."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la signification d'un feu de circulation avec une flèche verte, allumé en même temps qu'un feu rouge ?",
+      "text_nl": "Wat betekent een verkeerslicht met een groene pijl, die tegelijk met een rood licht brandt?",
+      "text_ru": "Что означает светофор с зеленой стрелкой, горящей одновременно с красным светом?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est interdit de circuler dans la direction indiquée par la flèche.",
+          "text_nl": "Het is verboden om in de richting van de pijl te rijden.",
+          "text_ru": "Запрещено движение в направлении, указанном стрелкой.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes autorisé à circuler dans la direction indiquée par la flèche, mais vous devez céder le passage aux autres usagers.",
+          "text_nl": "U mag in de richting van de pijl rijden, maar u moet voorrang verlenen aan andere weggebruikers.",
+          "text_ru": "Вам разрешено движение в направлении, указанном стрелкой, но вы должны уступить дорогу другим участникам движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le feu rouge est annule et vous pouvez circuler librement.",
+          "text_nl": "Het rode licht is genegeerd en u kunt vrij rijden.",
+          "text_ru": "Красный свет отменен, и вы можете двигаться свободно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'un feu rouge est allumé conjointement avec une ou plusieurs flèches vertes, cela signifie que vous êtes autorisé à continuer dans la direction indiquée par la flèche. Cependant, vous devez céder le passage aux conducteurs venant d'autres directions qui ont la priorité, ainsi qu'aux piétons.",
+      "explanation_nl": "Wanneer een rood licht tegelijkertijd met één of meer groene pijlen brandt, betekent dit dat u in de richting van de pijl mag doorrijden. U moet echter voorrang verlenen aan bestuurders die uit andere richtingen komen en voorrang hebben, evenals aan voetgangers.",
+      "explanation_ru": "Когда красный свет горит одновременно с одной или несколькими зелеными стрелками, это означает, что вам разрешено продолжить движение в направлении, указанном стрелкой. Однако вы должны уступить дорогу водителям, двигающимся с других направлений, имеющим преимущество, а также пешеходам."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie la silhouette d'une bicyclette sur un feu de circulation ?",
+      "text_nl": "Wat betekent het silhouet van een fiets op een verkeerslicht?",
+      "text_ru": "Что означает силуэт велосипеда на светофоре?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ce feu concerne tous les usagers de la route.",
+          "text_nl": "Dit licht geldt voor alle weggebruikers.",
+          "text_ru": "Этот сигнал относится ко всем участникам дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ce feu concerne uniquement les cyclistes et les conducteurs de cyclomoteurs à deux roues.",
+          "text_nl": "Dit licht geldt alleen voor fietsers en bestuurders van tweewielige bromfietsen.",
+          "text_ru": "Этот сигнал относится только к велосипедистам и водителям двухколесных мопедов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ce feu indique une piste cyclable obligatoire.",
+          "text_nl": "Dit licht geeft een verplichte fietsstrook aan.",
+          "text_ru": "Этот сигнал указывает на обязательную велосипедную дорожку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque les feux du système tricolore présentent la silhouette éclairée d'une bicyclette, ils s'appliquent exclusivement aux conducteurs de bicyclettes et de cyclomoteurs à deux roues.",
+      "explanation_nl": "Wanneer de lichten van het driekleurige systeem de verlichte silhouet van een fiets weergeven, zijn ze uitsluitend van toepassing op fietsers en bestuurders van tweewielige bromfietsen.",
+      "explanation_ru": "Когда на светофорах трехцветной системы отображается освещенный силуэт велосипеда, он относится исключительно к велосипедистам и водителям двухколесных мопедов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour équipé de feux tricolores. Le feu est rouge. Que devez-vous faire lorsque le feu passe au vert ?",
+      "text_nl": "U nadert een kruispunt met verkeerslichten. Het licht is rood. Wat moet u doen wanneer het licht op groen springt?",
+      "text_ru": "Вы приближаетесь к перекрестку со светофорами. Горит красный свет. Что вы должны сделать, когда загорится зеленый свет?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Traverser immédiatement le carrefour sans regarder.",
+          "text_nl": "Steek onmiddellijk de kruising over zonder te kijken.",
+          "text_ru": "Немедленно пересеките перекресток, не глядя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous assurer que le carrefour est libre avant de le traverser.",
+          "text_nl": "Zorg ervoor dat de kruising vrij is voordat u deze oversteekt.",
+          "text_ru": "Убедитесь, что перекресток свободен, прежде чем пересекать его.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre qu'un autre véhicule passe en premier.",
+          "text_nl": "Wacht tot een ander voertuig eerst passeert.",
+          "text_ru": "Дождитесь, пока другое транспортное средство проедет первым.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même lorsque le feu passe au vert, il est essentiel de vérifier que le carrefour est dégagé avant de le traverser pour éviter tout danger, notamment avec d'éventuels véhicules d'urgence ou des conducteurs qui auraient franchi le feu au rouge.",
+      "explanation_nl": "Zelfs wanneer het licht op groen springt, is het essentieel om te controleren of de kruising vrij is voordat u deze oversteekt om gevaar te voorkomen, met name met mogelijke hulpdiensten of bestuurders die door het rode licht zijn gereden.",
+      "explanation_ru": "Даже когда загорается зеленый свет, важно убедиться, что перекресток свободен, прежде чем пересекать его, чтобы избежать любой опасности, особенно с возможными экстренными транспортными средствами или водителями, проехавшими на красный свет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes cycliste et vous approchez d'un feu tricolore. Le feu présente une silhouette de bicyclette avec une flèche jaune-orange clignotante, et le feu principal est rouge. Que faites-vous ?",
+      "text_nl": "U bent fietser en nadert een verkeerslicht. Het licht toont een fiets silhouet met een knipperende oranjegele pijl, en het hoofdlicht is rood. Wat doet u?",
+      "text_ru": "Вы велосипедист и приближаетесь к светофору. На светофоре отображается силуэт велосипеда с мигающей желто-оранжевой стрелкой, а основной свет красный. Что вы делаете?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez vous arrêter car le feu principal est rouge.",
+          "text_nl": "U moet stoppen omdat het hoofdlicht rood is.",
+          "text_ru": "Вы должны остановиться, потому что основной свет красный.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez continuer dans la direction de la flèche, à condition de céder le passage aux autres usagers.",
+          "text_nl": "U mag doorrijden in de richting van de pijl, op voorwaarde dat u voorrang verleent aan andere weggebruikers.",
+          "text_ru": "Вам разрешено продолжить движение в направлении стрелки, при условии уступки дороги другим участникам движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez attendre que le feu principal passe au vert.",
+          "text_nl": "U moet wachten tot het hoofdlicht op groen springt.",
+          "text_ru": "Вы должны дождаться, пока основной свет загорится зеленым.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu clignotant jaune-orange avec une flèche jaune-orange et une silhouette de bicyclette, conjointement avec un feu rouge principal, autorise les cyclistes à poursuivre dans la direction de la flèche, mais ils doivent céder le passage aux autres usagers et aux piétons.",
+      "explanation_nl": "Een knipperend oranjegeel licht met een oranjegele pijl en een fiets silhouet, samen met een rood hoofdlicht, staat fietsers toe om in de richting van de pijl door te rijden, maar ze moeten voorrang verlenen aan andere weggebruikers en voetgangers.",
+      "explanation_ru": "Мигающий желто-оранжевый свет со стрелкой желто-оранжевого цвета и силуэтом велосипеда, вместе с основным красным светом, разрешает велосипедистам продолжить движение в направлении стрелки, но они должны уступить дорогу другим участникам движения и пешеходам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes sur une voie où le signal B9 (STOP) est présent. Au carrefour, il y a des feux tricolores pour la circulation transversale. Dans quelle situation spécifique les feux tricolores sur la voie transversale peuvent-ils être remplacés par un signal B5 (STOP) ?",
+      "text_nl": "U bevindt zich op een weg met een B9 (STOP) bord. Op het kruispunt staan verkeerslichten voor dwarsverkeer. In welke specifieke situatie kunnen de verkeerslichten op de dwarsweg vervangen worden door een B5 (STOP) bord?",
+      "text_ru": "Вы находитесь на дороге с дорожным знаком B9 (СТОП). На перекрестке есть светофоры для поперечного движения. В какой конкретной ситуации светофоры на поперечной дороге могут быть заменены знаком B5 (СТОП)?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement lorsque la visibilité est très réduite.",
+          "text_nl": "Alleen wanneer het zicht zeer beperkt is.",
+          "text_ru": "Только когда видимость очень ограничена.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour protéger un passage pour piétons à l'approche du carrefour, ou si le carrefour est très proche d'un autre carrefour déjà équipé de feux.",
+          "text_nl": "Ter bescherming van een voetgangersoversteekplaats in de buurt van het kruispunt, of als het kruispunt zeer dicht bij een ander kruispunt met verkeerslichten ligt.",
+          "text_ru": "Для защиты пешеходного перехода вблизи перекрестка, или если перекресток находится очень близко к другому перекрестку, оборудованному светофорами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsque la circulation est particulièrement dense.",
+          "text_nl": "Wanneer het verkeer bijzonder druk is.",
+          "text_ru": "Когда движение особенно интенсивно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les feux tricolores sur les voies transversales peuvent exceptionnellement être remplacés par un signal STOP (B5) lorsqu'ils sont destinés à protéger un passage pour piétons avant un carrefour, ou lorsque le carrefour est situé à proximité immédiate d'un autre carrefour déjà équipé de feux tricolores.",
+      "explanation_nl": "Verkeerslichten op dwarswegen kunnen uitzonderlijk vervangen worden door een STOP-bord (B5) wanneer ze bedoeld zijn om een voetgangersoversteekplaats voor een kruispunt te beschermen, of wanneer het kruispunt zich in de directe nabijheid van een ander kruispunt met verkeerslichten bevindt.",
+      "explanation_ru": "Светофоры на поперечных дорогах могут в исключительных случаях быть заменены знаком СТОП (B5), когда они предназначены для защиты пешеходного перехода перед перекрестком, или когда перекресток находится в непосредственной близости от другого перекрестка, уже оборудованного светофорами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes au feu rouge et voyez un feu vert clignotant avec une silhouette de bicyclette et une flèche verte. Vous conduisez une voiture. Que devez-vous faire ?",
+      "text_nl": "U staat voor rood licht en ziet een groen knipperend licht met een fiets silhouet en een groene pijl. U rijdt een auto. Wat moet u doen?",
+      "text_ru": "Вы стоите на красный свет и видите мигающий зеленый свет с силуэтом велосипеда и зеленой стрелкой. Вы управляете автомобилем. Что вы должны делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez avancer dans la direction de la flèche, car le feu est vert.",
+          "text_nl": "U mag doorrijden in de richting van de pijl, omdat het licht groen is.",
+          "text_ru": "Вы можете двигаться в направлении стрелки, потому что свет зеленый.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez attendre que le feu principal passe au vert, car ce feu spécial ne vous concerne pas.",
+          "text_nl": "U moet wachten tot het hoofdlicht op groen springt, omdat dit speciale licht niet voor u geldt.",
+          "text_ru": "Вы должны дождаться, пока основной свет загорится зеленым, так как этот специальный сигнал вас не касается.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez avancer en faisant attention aux cyclistes.",
+          "text_nl": "U mag doorrijden, maar voorzichtig zijn voor fietsers.",
+          "text_ru": "Вы можете двигаться вперед, обращая внимание на велосипедистов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les feux avec des silhouettes de bicyclettes sont spécifiquement destinés aux cyclistes et aux conducteurs de cyclomoteurs à deux roues. En tant que conducteur de voiture, vous devez ignorer ces signaux spéciaux et respecter le feu principal.",
+      "explanation_nl": "Verkeerslichten met fietssilhouetten zijn specifiek bedoeld voor fietsers en bestuurders van tweewielige bromfietsen. Als autobestuurder moet u deze speciale signalen negeren en het hoofdlicht volgen.",
+      "explanation_ru": "Светофоры с силуэтами велосипедов предназначены специально для велосипедистов и водителей двухколесных мопедов. Как водитель автомобиля, вы должны игнорировать эти специальные сигналы и следовать основному свету."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un cyclomoteur à deux roues et vous arrivez à un carrefour avec un feu tricolore. Le feu montre une silhouette de bicyclette et un piéton éclairés. Vous êtes autorisé à circuler sur la piste cyclable. Que signifie ce feu pour vous ?",
+      "text_nl": "U bestuurt een tweewielige bromfiets en nadert een kruispunt met een verkeerslicht. Het licht toont een verlichte fiets en voetganger silhouet. U mag op het fietspad rijden. Wat betekent dit licht voor u?",
+      "text_ru": "Вы управляете двухколесным мопедом и приближаетесь к перекрестку со светофором. На светофоре отображается освещенный силуэт велосипеда и пешехода. Вам разрешено движение по велосипедной дорожке. Что означает этот сигнал для вас?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le feu est vert pour les cyclistes et les piétons, vous pouvez donc passer sans précautions.",
+          "text_nl": "Het licht is groen voor fietsers en voetgangers, dus u kunt zonder voorzorgsmaatregelen passeren.",
+          "text_ru": "Сигнал светофора зеленый для велосипедистов и пешеходов, поэтому вы можете проехать без предосторожностей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ce feu s'applique à vous, mais vous devez faire attention à la fois aux autres cyclistes et aux piétons.",
+          "text_nl": "Dit licht geldt voor u, maar u moet zowel op andere fietsers als op voetgangers letten.",
+          "text_ru": "Этот сигнал относится к вам, но вы должны быть внимательны как к другим велосипедистам, так и к пешеходам.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ce feu ne vous concerne pas, car vous conduisez un cyclomoteur et non un vélo.",
+          "text_nl": "Dit licht geldt niet voor u, omdat u een bromfiets bestuurt en geen fiets.",
+          "text_ru": "Этот сигнал вас не касается, потому что вы управляете мопедом, а не велосипедом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu affichant la silhouette d'une bicyclette et d'un piéton s'applique aux cyclistes, aux conducteurs de cyclomoteurs à deux roues (s'ils sont autorisés sur la piste cyclable) et aux piétons. Cela signifie que vous devez être attentif à tous ces usagers.",
+      "explanation_nl": "Een licht dat een silhouet van een fiets en een voetganger toont, geldt voor fietsers, bestuurders van tweewielige bromfietsen (indien toegestaan op het fietspad) en voetgangers. Dit betekent dat u attent moet zijn op al deze weggebruikers.",
+      "explanation_ru": "Светофор, отображающий силуэт велосипеда и пешехода, относится к велосипедистам, водителям двухколесных мопедов (если им разрешено движение по велосипедной дорожке) и пешеходам. Это означает, что вы должны быть внимательны ко всем этим участникам дорожного движения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "d19c733d3f29",
@@ -64,6 +337,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:20:54Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

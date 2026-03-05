@@ -1,0 +1,41 @@
+{
+  "law_id": "2001",
+  "article_number": "38",
+  "slug": "art-38",
+  "structure": {
+    "titre": null,
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 38",
+  "title_nl": "Artikel 38",
+  "title_ru": "",
+  "content_md_fr": "L'arrêté royal du 31 décembre 1953 portant réglementation de l'immatriculation des véhicules à moteur et des remorques, modifié par les arrêtés royaux des 10 septembre 1954, 15 janvier 1955, 16 avril 1956, 31 décembre 1956, 10 janvier 1961, 26 octobre 1962, 28 décembre 1964, 18 juin 1971, 21 décembre 1973, 25 novembre 1974, 2 mars 1979, 28 février 1980, 31 juillet 1980, 28 septembre 1981, 11 janvier 1990, 6 juin 1990, 10 octobre 1991, 19 juillet 1993, 19 novembre 1993, 27 décembre 1993, 7 avril 1995, 8 janvier 1996 et 20 juillet 2000 est abrogé.",
+  "content_md_nl": "Het koninklijk besluit van 31 december 1953 houdende reglementering van de inschrijving van de motorvoertuigen en de aanhangwagens, gewijzigd bij de koninklijke besluiten van 10 september 1954, 15 januari 1955, 16 april 1956, 31 december 1956, 10 januari 1961, 26 oktober 1962, 28 december 1964, 18 juni 1971, 21 december 1973, 25 november 1974, 2 maart 1979, 28 februari 1980, 31 juli 1980, 28 september 1981, 11 januari 1990, 6 juni 1990, 10 oktober 1991, 19 juli 1993, 19 november 1993, 27 december 1993, 7 april 1995, 8 januari 1996 en 20 juli 2000 wordt opgeheven.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'arrêté royal du 31 décembre 1953 portant réglementation de l'immatriculation des véhicules à moteur et des remorques, modifié par les arrêtés royaux des 10 septembre 1954, 15 janvier 1955, 16 avril 1956, 31 décembre 1956, 10 janvier 1961, 26 octobre 1962, 28 décembre 1964, 18 juin 1971, 21 décembre 1973, 25 novembre 1974, 2 mars 1979, 28 février 1980, 31 juillet 1980, 28 septembre 1981, 11 janvier 1990, 6 juin 1990, 10 octobre 1991, 19 juillet 1993, 19 novembre 1993, 27 décembre 1993, 7 avril 1995, 8 janvier 1996 et 20 juillet 2000 est abrogé.</p>",
+  "content_html_nl": "<p>Het koninklijk besluit van 31 december 1953 houdende reglementering van de inschrijving van de motorvoertuigen en de aanhangwagens, gewijzigd bij de koninklijke besluiten van 10 september 1954, 15 januari 1955, 16 april 1956, 31 december 1956, 10 januari 1961, 26 oktober 1962, 28 december 1964, 18 juni 1971, 21 december 1973, 25 november 1974, 2 maart 1979, 28 februari 1980, 31 juli 1980, 28 september 1981, 11 januari 1990, 6 juni 1990, 10 oktober 1991, 19 juli 1993, 19 november 1993, 27 december 1993, 7 april 1995, 8 januari 1996 en 20 juli 2000 wordt opgeheven.</p>",
+  "full_text_fr": "L'arrêté royal du 31 décembre 1953 portant réglementation de l'immatriculation des véhicules à moteur et des remorques, modifié par les arrêtés royaux des 10 septembre 1954, 15 janvier 1955, 16 avril 1956, 31 décembre 1956, 10 janvier 1961, 26 octobre 1962, 28 décembre 1964, 18 juin 1971, 21 décembre 1973, 25 novembre 1974, 2 mars 1979, 28 février 1980, 31 juillet 1980, 28 septembre 1981, 11 janvier 1990, 6 juin 1990, 10 octobre 1991, 19 juillet 1993, 19 novembre 1993, 27 décembre 1993, 7 avril 1995, 8 janvier 1996 et 20 juillet 2000 est abrogé.",
+  "full_text_nl": "Het koninklijk besluit van 31 december 1953 houdende reglementering van de inschrijving van de motorvoertuigen en de aanhangwagens, gewijzigd bij de koninklijke besluiten van 10 september 1954, 15 januari 1955, 16 april 1956, 31 december 1956, 10 januari 1961, 26 oktober 1962, 28 december 1964, 18 juni 1971, 21 december 1973, 25 november 1974, 2 maart 1979, 28 februari 1980, 31 juli 1980, 28 september 1981, 11 januari 1990, 6 juni 1990, 10 oktober 1991, 19 juli 1993, 19 november 1993, 27 december 1993, 7 april 1995, 8 januari 1996 en 20 juli 2000 wordt opgeheven.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "jgyojvefyb",
+  "anchor_id_nl": "p6lb8yf9wa",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "4983bfb7f54b",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

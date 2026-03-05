@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "79",
+  "slug": "art-79",
+  "structure": {
+    "titre": null,
+    "chapitre": "I"
+  },
+  "title_fr": "Article 79. Mise en vigueur",
+  "title_nl": "Artikel 79. Inwerkingtreding",
+  "title_ru": "",
+  "content_md_fr": "A moins qu'il n'en soit autrement disposé dans les articles qui précèdent, l'entrée en vigueur du présent arrêté est fixée au 15 juin 1968.",
+  "content_md_nl": "Tenzij het anders bepaald is in voorgaande artikelen, treedt dit besluit in werking op 15 juni 1968.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A moins qu'il n'en soit autrement disposé dans les articles qui précèdent, l'entrée en vigueur du présent arrêté est fixée au 15 juin 1968.</p>",
+  "content_html_nl": "<p>Tenzij het anders bepaald is in voorgaande artikelen, treedt dit besluit in werking op 15 juni 1968.</p>",
+  "full_text_fr": "A moins qu'il n'en soit autrement disposé dans les articles qui précèdent, l'entrée en vigueur du présent arrêté est fixée au 15 juin 1968.",
+  "full_text_nl": "Tenzij het anders bepaald is in voorgaande artikelen, treedt dit besluit in werking op 15 juni 1968.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "41fhvb98bi",
+  "anchor_id_nl": "iydqldi1ou",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "34a8be32ed5d",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

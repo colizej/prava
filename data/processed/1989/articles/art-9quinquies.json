@@ -1,0 +1,43 @@
+{
+  "law_id": "1989",
+  "article_number": "9quinquies",
+  "slug": "art-9quinquies",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 9quinquies",
+  "title_nl": "Artikel 9quinquies",
+  "title_ru": "",
+  "content_md_fr": "**§ 1er.** Le Bureau de tarification confie la gestion des risques tarifés par lui à une ou plusieurs entreprises d'assurances membres du Fonds commun de garantie institué par [l'article 19bis-2](#art-19bis-2).\n\n§ 2. Le résultat de la gestion des sinistres relatifs aux risques tarifés par le Bureau de tarification est intégré aux comptes du Fonds.\n\n§ 3. Le Roi peut fixer des règles propres à répartir ce résultat entre les entreprises d'assurances membres du fonds.",
+  "content_md_nl": "§ 1. Het Tariferingsbureau vertrouwt het beheer van de door hem getarifeerde risico's toe aan een of meer verzekeringsondernemingen die lid zijn van het Gemeenschappelijk Waarborgfonds dat is ingesteld door [artikel 19bis-2](#art-19bis-2).\n\n§ 2. Het resultaat van het schadegevallenbeheer betreffende de door het Tariferingsbureau getarifeerde risico's wordt opgenomen in de rekening van het Fonds.\n\n§ 3. De Koning kan regels bepalen om dit resultaat te verdelen over de verzekeringsondememingen die lid zijn van het fonds.",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>§ 1<sup>er</sup>.</strong> Le Bureau de tarification confie la gestion des risques tarifés par lui à une ou plusieurs entreprises d'assurances membres du Fonds commun de garantie institué par <a href=\"#art-19bis-2\">l'article 19bis-2</a>.</p><p>§ 2. Le résultat de la gestion des sinistres relatifs aux risques tarifés par le Bureau de tarification est intégré aux comptes du Fonds.</p><p>§ 3. Le Roi peut fixer des règles propres à répartir ce résultat entre les entreprises d'assurances membres du fonds.</p>",
+  "content_html_nl": "<p>§ 1. Het Tariferingsbureau vertrouwt het beheer van de door hem getarifeerde risico's toe aan een of meer verzekeringsondernemingen die lid zijn van het Gemeenschappelijk Waarborgfonds dat is ingesteld door <a href=\"#art-19bis-2\">artikel 19bis-2</a>.</p><p>§ 2. Het resultaat van het schadegevallenbeheer betreffende de door het Tariferingsbureau getarifeerde risico's wordt opgenomen in de rekening van het Fonds.</p><p>§ 3. De Koning kan regels bepalen om dit resultaat te verdelen over de verzekeringsondememingen die lid zijn van het fonds.</p>",
+  "full_text_fr": "§ 1er. Le Bureau de tarification confie la gestion des risques tarifés par lui à une ou plusieurs entreprises d'assurances membres du Fonds commun de garantie institué par l'article 19bis-2.\n\n§ 2. Le résultat de la gestion des sinistres relatifs aux risques tarifés par le Bureau de tarification est intégré aux comptes du Fonds.\n\n§ 3. Le Roi peut fixer des règles propres à répartir ce résultat entre les entreprises d'assurances membres du fonds.",
+  "full_text_nl": "§ 1. Het Tariferingsbureau vertrouwt het beheer van de door hem getarifeerde risico's toe aan een of meer verzekeringsondernemingen die lid zijn van het Gemeenschappelijk Waarborgfonds dat is ingesteld door artikel 19bis-2.\n\n§ 2. Het resultaat van het schadegevallenbeheer betreffende de door het Tariferingsbureau getarifeerde risico's wordt opgenomen in de rekening van het Fonds.\n\n§ 3. De Koning kan regels bepalen om dit resultaat te verdelen over de verzekeringsondememingen die lid zijn van het fonds.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-19bis-2"
+  ],
+  "anchor_id_fr": "emv0wjoj2y",
+  "anchor_id_nl": "njnv9rmxlx",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "15a603afad8e",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

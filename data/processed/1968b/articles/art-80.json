@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "80",
+  "slug": "art-80",
+  "structure": {
+    "titre": null,
+    "chapitre": "I"
+  },
+  "title_fr": "Article 80. Surveillance (Région flamande)",
+  "title_nl": "Artikel 80. Toezicht (Vlaams Gewest)",
+  "title_ru": "",
+  "content_md_fr": "Sont qualifiés pour veiller à l'exécution du présent règlement général, les agents qualifiés visés à l'article 3 de l'arrêté royal du 1er décembre 1975 portant règlement général sur la police de la circulation routière.\n\nDans l'exercice de leur mission, ces agents ont les pouvoirs qui leur sont attribués par la loi du 21 juin 1985 relative aux conditions techniques auxquelles doivent répondre tout véhicule de transport par terre, ses éléments ainsi que les accessoires de sécurité.\n\nSans préjudice de la compétence d’autres personnes, les inspecteurs des routes visés à l’article 16 du décret du 3 mai 2013 relatif à la protection de l’infrastructure routière en cas de transport routier exceptionnel et les membres du personnel du Département désignés par le Ministre flamand assurent le contrôle du respect du présent règlement général.",
+  "content_md_nl": "Zijn bevoegd om toezicht uit te oefenen op de naleving van dit algemeen reglement, de bevoegde personen bedoeld in artikel 3 van het koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer.\n\nTijdens de uitoefening van hun opdracht genieten deze beambten van de bevoegdheden die hun toegekend zijn door de wet van 21 juni 1985 betreffende de technische eisen waaraan elk voertuig te land, de onderdelen ervan, evenals het veiligheidstoebehoren moeten voldoen.\n\nOnverminderd de bevoegdheid van andere personen, houden de wegeninspecteurs vermeld in artikel 16 van het decreet van 3 mei 2013 betreffende de bescherming van de verkeersinfrastructuur in geval van bijzonder wegtransport en de door de Vlaamse minister aangewezen personeelsleden van het Departement, toezicht op de naleving van dit algemeen reglement.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Sont qualifiés pour veiller à l'exécution du présent règlement général, les agents qualifiés visés à l'article 3 de l'arrêté royal du 1<sup>er</sup> décembre 1975 portant règlement général sur la police de la circulation routière.</p><p>Dans l'exercice de leur mission, ces agents ont les pouvoirs qui leur sont attribués par la loi du 21 juin 1985 relative aux conditions techniques auxquelles doivent répondre tout véhicule de transport par terre, ses éléments ainsi que les accessoires de sécurité.</p><p>Sans préjudice de la compétence d’autres personnes, les inspecteurs des routes visés à l’article 16 du décret du 3 mai 2013 relatif à la protection de l’infrastructure routière en cas de transport routier exceptionnel et les membres du personnel du Département désignés par le Ministre flamand assurent le contrôle du respect du présent règlement général.</p>",
+  "content_html_nl": "<p>Zijn bevoegd om toezicht uit te oefenen op de naleving van dit algemeen reglement, de bevoegde personen bedoeld in artikel 3 van het koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer.</p><p>Tijdens de uitoefening van hun opdracht genieten deze beambten van de bevoegdheden die hun toegekend zijn door de wet van 21 juni 1985 betreffende de technische eisen waaraan elk voertuig te land, de onderdelen ervan, evenals het veiligheidstoebehoren moeten voldoen.</p><p>Onverminderd de bevoegdheid van andere personen, houden de wegeninspecteurs vermeld in artikel 16 van het decreet van 3 mei 2013 betreffende de bescherming van de verkeersinfrastructuur in geval van bijzonder wegtransport en de door de Vlaamse minister aangewezen personeelsleden van het Departement, toezicht op de naleving van dit algemeen reglement.</p>",
+  "full_text_fr": "Sont qualifiés pour veiller à l'exécution du présent règlement général, les agents qualifiés visés à l'article 3 de l'arrêté royal du 1er décembre 1975 portant règlement général sur la police de la circulation routière.\n\nDans l'exercice de leur mission, ces agents ont les pouvoirs qui leur sont attribués par la loi du 21 juin 1985 relative aux conditions techniques auxquelles doivent répondre tout véhicule de transport par terre, ses éléments ainsi que les accessoires de sécurité.\n\nSans préjudice de la compétence d’autres personnes, les inspecteurs des routes visés à l’article 16 du décret du 3 mai 2013 relatif à la protection de l’infrastructure routière en cas de transport routier exceptionnel et les membres du personnel du Département désignés par le Ministre flamand assurent le contrôle du respect du présent règlement général.",
+  "full_text_nl": "Zijn bevoegd om toezicht uit te oefenen op de naleving van dit algemeen reglement, de bevoegde personen bedoeld in artikel 3 van het koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer.\n\nTijdens de uitoefening van hun opdracht genieten deze beambten van de bevoegdheden die hun toegekend zijn door de wet van 21 juni 1985 betreffende de technische eisen waaraan elk voertuig te land, de onderdelen ervan, evenals het veiligheidstoebehoren moeten voldoen.\n\nOnverminderd de bevoegdheid van andere personen, houden de wegeninspecteurs vermeld in artikel 16 van het decreet van 3 mei 2013 betreffende de bescherming van de verkeersinfrastructuur in geval van bijzonder wegtransport en de door de Vlaamse minister aangewezen personeelsleden van het Departement, toezicht op de naleving van dit algemeen reglement.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "4vvv3qluae",
+  "anchor_id_nl": "w4cr6mmupl",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "70e0d3d40a89",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

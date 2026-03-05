@@ -1,6 +1,6 @@
 # PRAVA — Roadmap de développement
 
-> Dernière mise à jour : 4 mars 2026 (soir — ajout Phase 9 i18n + Phase 9b signes)
+> Dernière mise à jour : 5 mars 2026 (soir — Phase 4 cont. + Phase 5 cont. + Phase 5b terminée)
 
 ---
 
@@ -61,21 +61,33 @@
 
 ---
 
-## Phase 4 — Génération de questions ✅ / 🔄
+## Phase 4 — Génération de questions 🔄
 
-> **En cours : 3–4 mars 2026** (limité par quota Gemini Free 500 RPD)
+> **En cours : 3–5 mars 2026** (limité par quota Gemini Free)
 
-- [x] `scripts/pipeline/04_questions.py` — génération via Gemini 2.5 Flash Lite
-- [x] `scripts/utils/gemini_client.py` — client Gemini avec rate limiting (10 RPM)
-- [x] Format : 5 questions/article × 3 langues (FR/NL/RU), 3 options A/B/C, explication
-- [x] 85 / 122 articles traités (au 4 mars 2026, 12h)
-- [ ] 37 articles restants — reprendre le **5 mars 2026**
-  - Art 59-1, 6, 61–70, 7, 70–82, 8–9… (articles non-séquentiels)
-  - Note : Art 62, 62bis, 62ter pris en compte mais réponse vide (limite atteinte milieu de script)
+- [x] `scripts/pipeline/04_questions.py` — génération avec flag `--law`, `--article`, `--limit`, `--regenerate`
+- [x] `scripts/utils/gemini_client.py` — client Gemini avec rate limiting
+- [x] Format : 3 théoriques + 5 pratiques × 3 langues (FR/NL/RU), 3 options A/B/C, explication
+- [x] Prompt amélioré le 5 mars 2026 :
+  - JAMAIS de référence à un article/loi dans les questions
+  - Accent sur les définitions, noms officiels, situations concrètes
+  - Questions réparties sur les sous-points (6.1, 6.2, 6.3.1…)
+  - Articles trop courts → minimum 3 questions
+- [x] `build_prompt()` : cap FR 8000 chars (était 3000) — couvre les grands articles avec 50+ sous-points
+- [x] **Modèle migré vers `gemini-2.5-flash`** (5 mars) — `gemini-2.5-flash-lite` quota épuisé (20 req/jour)
+  - `thinking_budget=0` configuré — désactive le mode "thinking" (vitesse ×4 ~12s vs 56s)
+- [x] `scripts/run_questions.sh` — script de lancement de toute la chaîne
+- [x] **107 / 593 articles traités** (18 % — au 5 mars 2026 soir)
+  - 1975 : 102/122, 1968 : 3/93, 2006 : 1/51, 1968b : 1/101
+- [ ] ~486 articles restants — reprendre le **6 mars 2026**
+  ```bash
+  nohup bash scripts/run_questions.sh > logs/questions_$(date +%Y%m%d).log 2>&1 &
+  ```
 
-### Quota Gemini Free (gemini-2.5-flash-lite)
-- Limite : **20 requêtes/jour** (pas 500 — limite plus stricte observée)
-- **Reprise : 5 mars 2026 matin** — `python3 scripts/pipeline/04_questions.py --law 1975`
+### Quota Gemini Free
+- `gemini-2.5-flash-lite` : **20 req/jour** (épuisé le 5 mars)
+- `gemini-2.5-flash` : quota disponible, ~10–15 RPM free tier
+- `gemini-2.0-flash` et `gemini-2.0-flash-lite` : quota `limit: 0` sur ce projet (bloqués)
 
 ---
 
@@ -92,9 +104,9 @@
 
 ---
 
-## Phase 5b — Lois complémentaires �
+## Phase 5b — Lois complémentaires ✅
 
-> **En cours depuis le 4 mars 2026** | Durée estimée : 5–7 jours restants
+> **Terminée : 5 mars 2026** | Pipeline complet pour 10 lois
 
 L'AR 1975 (règles de circulation) ne couvre qu'une partie du programme d'examen belge.
 Pour une préparation complète, il faut scraper, traduire et générer des questions
@@ -117,26 +129,32 @@ pour les autres lois principales accessibles sur codedelaroute.be / wegcode.be.
 - Transport de marchandises, Transport de personnes, Aptitude professionnelle
   → à ajouter ultérieurement si extension vers cat. C/D
 
-### Implémentation réalisée le 4 mars 2026
+### Implémentation réalisée (4–5 mars 2026)
 
-- [x] `scripts/utils/laws_registry.py` — registre central de toutes les lois belges
-- [x] `01_scrape.py --law <id>` + `--list-laws` + fallback parser (`<p>Art. N.` sans `<h5>`)
-- [x] `02_translate.py --law <id>` — translate dynamique par loi
-- [x] `03_process.py --law <id>` — `law_id` passé en paramètre (plus de `LAW_YEAR` hardcodé)
-- [x] `04_questions.py --law <id>` — prêt, non testé sur nouvelles lois
+- [x] `scripts/utils/laws_registry.py` — registre central de toutes les lois (ajout 1989, 2001 le 5 mars)
+- [x] `01_scrape.py --law <id>` + `--list-laws` + fallback parser
+- [x] `02_translate.py --law <id>` — traduction dynamique par loi
+- [x] `03_process.py --law <id>` — `slugify_number()` corrigé le 5 mars :
+  - Problème : slugs avec espaces/accents/points (`1998-art-i. cette annexe…`) → `NoReverseMatch`
+  - Fix : `unicodedata.normalize("NFKD")` + regex `[^a-z0-9-]` → slugs propres
+  - 17 lignes DB réparées + 17 fichiers JSON mis à jour
+- [x] `04_questions.py --law <id>` — fonctionnel sur toutes les lois
+- [x] `05_import.py --law <id>` — `_LAW_DEFAULT_EXAM_SLUG` étendu à 1989 et 2001
+- [x] `apps/reglementation/views.py` — `_LAW_META` couvre les 9 lois non-1975 avec titres/couleurs
+- [x] Templates `/reglementation/` connectés à toutes les lois (index + category sidebar)
 
 **Pipeline complet par loi :**
 ```bash
-python3 scripts/pipeline/01_scrape.py --law 1968
-python3 scripts/pipeline/02_translate.py --law 1968
-python3 scripts/pipeline/03_process.py --law 1968
-python3 scripts/pipeline/04_questions.py --law 1968
-python3 scripts/pipeline/05_import.py --law 1968  # à mettre à jour
+python3 scripts/pipeline/01_scrape.py --law 1989
+python3 scripts/pipeline/02_translate.py --law 1989
+python3 scripts/pipeline/03_process.py --law 1989
+python3 scripts/pipeline/04_questions.py --law 1989
+python3 scripts/pipeline/05_import.py --law 1989
 ```
 
 ### Quota DeepL Free — plan de rotation
 
-> **Situation 4 mars 2026** : quota du compte principal épuisé (~37K restants sur 500K/mois)
+> **Situation 5 mars 2026** : toutes les lois traduites — quota utilisé sur plusieurs comptes
 
 | Besoin | Loi | Chars estimés |
 |--------|-----|---------------|
@@ -176,12 +194,15 @@ python3 scripts/pipeline/02_translate.py --law 1976
 
 ---
 
-## Phase 7 — Frontend utilisateur 🔒
+## Phase 7 — Frontend utilisateur 🔄
 
 > Durée estimée : 5-7 jours | Dépend de Phase 5
 
-- [ ] Page liste des thèmes (`/reglementation/`)
-- [ ] Page article (`/reglementation/{slug}/`)
+- [x] Page liste des thèmes (`/reglementation/`) — **terminée le 5 mars 2026**
+  - Grille principale AR 1975, section "Textes législatifs de référence" avec cartes colorées par thème
+  - Thèmes connectés : Politique criminelle (1968), Permis (1998), Assurance (1989), Conditions techniques (1968b)
+- [x] Page catégorie (`/reglementation/category/<slug>/`) — sidebar filtrée par loi
+- [ ] Page article individuel (`/reglementation/{slug}/`)
 - [ ] Page examen (`/examen/`)
 - [ ] Système de badges quotidiens (1 badge = 1 connexion)
 - [ ] Règle freemium :
@@ -303,9 +324,14 @@ python manage.py compilemessages                  # compiler
 3-4 mars 2026 : Phase 4 🔄  AR 1975 questions : 85/122 (Gemini limite/jour)
 4 mars 2026   : Phase 5b 🔄 Pipeline multi-loi implémenté, 1968+2005 complets,
                1998+2006+1976 scrapés, DeepL quota épuisé → rotation de compte
-5 mars 2026   : Phase 4 🔜  Reprendre AR 1975 (37 restants) + 1968+2005 questions
-               Phase 5b     Traduire 1976+2006+1998 (nouveau compte DeepL)
-6-10 mars     : Phase 5 🔜  Import AR 1975 + 1968 + 2005 en BDD
+5 mars 2026   : Phase 5b ✅  10 lois importées (593 articles) — 1968b, 1985, 1989, 2001 ajoutés
+               Phase 4  🔄  Prompt amélioré (3 théo + 5 prat, sous-points, no refs)
+                             gemini-2.5-flash, thinking_budget=0, 107/593 (18%)
+               Phase 7  🔄  /reglementation/ connecté aux 10 lois (templates + views)
+               Phase 3  ✅  slugify_number() corrigé (NoReverseMatch 1998 réparé)
+6 mars 2026   : Phase 4 🔜  Reprendre génération (~486 articles restants)
+                             nohup bash scripts/run_questions.sh > logs/questions_$(date +%Y%m%d).log 2>&1 &
+7-10 mars     : Phase 5 🔜  Import toutes les lois en BDD (05_import.py par loi)
 Mars–Avril    : Phase 6     Admin dashboard
 Avril–Mai     : Phase 7     Frontend utilisateur + lancement beta
 Mai           : Phase 9b    Signes routiers — import complet PDF (200+ signes)

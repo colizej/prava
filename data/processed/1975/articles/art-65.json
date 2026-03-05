@@ -302,7 +302,323 @@
   "anchor_id_fr": "d8quazowfa",
   "anchor_id_nl": "yhm2tnd9wa",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quelle catégorie principale de signaux routiers trouve-t-on le panneau d'intersection dangereuse, qui indique un danger ?\n\nDans quelle catégorie principale de panneaux routiers se trouve le panneau de danger d'intersection, qui indique un danger ?",
+      "text_nl": "In welke hoofdcategorie van verkeersborden vinden we het gevaarsbord voor een gevaarlijke kruising, dat een gevaar aangeeft?\n\nIn welke hoofdcategorie van verkeersborden bevindt zich het waarschuwingsbord voor een gevaarlijke kruising, dat een gevaar aangeeft?",
+      "text_ru": "К какой основной категории дорожных знаков относится знак опасного перекрестка, указывающий на опасность?\n\nК какой основной категории дорожных знаков относится знак опасного перекрестка, указывающий на опасность?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signaux d'obligation",
+          "text_nl": "Verplichtingsborden",
+          "text_ru": "Знаки предписания",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signaux de danger",
+          "text_nl": "Gevaarsborden",
+          "text_ru": "Знаки опасности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signaux d'interdiction",
+          "text_nl": "Verbodsborden",
+          "text_ru": "Запрещающие знаки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau d'intersection dangereuse est un signal qui avertit d'un danger potentiel. Il appartient donc à la catégorie des signaux de danger.",
+      "explanation_nl": "Het gevaarlijke kruispuntbord is een teken dat waarschuwt voor een potentieel gevaar. Het behoort daarom tot de categorie van gevaarsborden.",
+      "explanation_ru": "Знак опасного перекрестка — это знак, предупреждающий о потенциальной опасности. Следовательно, он относится к категории знаков опасности."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie un panneau additionnel rectangulaire à fond bleu, placé sous un signal routier ?\n\nWat betekent een rechthoekig onderbord met een blauwe achtergrond, geplaatst onder een verkeersbord?",
+      "text_nl": "Wat betekent een rechthoekig onderbord met een blauwe achtergrond, geplaatst onder een verkeersbord?\n\nWat betekent een rechthoekig onderbord met een blauwe achtergrond, geplaatst onder een verkeersbord?",
+      "text_ru": "Что означает дополнительная прямоугольная табличка с синим фоном, расположенная под дорожным знаком?\n\nЧто означает дополнительная прямоугольная табличка с синим фоном, расположенная под дорожным знаком?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il indique une interdiction supplémentaire.",
+          "text_nl": "Het geeft een bijkomend verbod aan.",
+          "text_ru": "Он указывает на дополнительный запрет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il précise ou complète la signification du signal principal.",
+          "text_nl": "Het bepaalt of vult de betekenis van het hoofdsignaal aan.",
+          "text_ru": "Он уточняет или дополняет значение основного знака.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il indique une obligation spécifique pour les cyclistes.",
+          "text_nl": "Het geeft een specifieke verplichting voor fietsers aan.",
+          "text_ru": "Он указывает на конкретное обязательство для велосипедистов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les panneaux additionnels à fond bleu sont utilisés pour compléter, préciser ou limiter la signification du signal routier principal.",
+      "explanation_nl": "Onderborden met een blauwe achtergrond worden gebruikt om de betekenis van het hoofdverkeersbord aan te vullen, nader te bepalen of te beperken.",
+      "explanation_ru": "Дополнительные таблички с синим фоном используются для дополнения, уточнения или ограничения значения основного дорожного знака."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quel cas les symboles et inscriptions sur les panneaux additionnels concernant les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues sont-ils de couleur noire sur fond blanc ?\n\nIn welk geval zijn de symbolen en opschriften op de onderborden betreffende fietsen, voortbewegingstoestellen en tweewielige bromfietsen zwart op een witte achtergrond?",
+      "text_nl": "In welk geval zijn de symbolen en opschriften op de onderborden betreffende fietsen, voortbewegingstoestellen en tweewielige bromfietsen zwart op een witte achtergrond?\n\nIn welk geval zijn de symbolen en opschriften op de onderborden betreffende fietsen, voortbewegingstoestellen en tweewielige bromfietsen zwart op een witte achtergrond?",
+      "text_ru": "В каком случае символы и надписи на дополнительных табличках, касающихся велосипедов, средств индивидуальной мобильности и двухколесных мопедов, имеют черный цвет на белом фоне?\n\nВ каком случае символы и надписи на дополнительных табличках, касающихся велосипедов, средств индивидуальной мобильности и двухколесных мопедов, имеют черный цвет на белом фоне?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toujours, indépendamment du signal principal.",
+          "text_nl": "Altijd, ongeacht het hoofdsignaal.",
+          "text_ru": "Всегда, независимо от основного знака.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement lorsqu'ils complètent un signal de danger.",
+          "text_nl": "Alleen wanneer ze een gevaarsbord aanvullen.",
+          "text_ru": "Только когда они дополняют знак опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues.",
+          "text_nl": "Voor fietsen, voortbewegingstoestellen en tweewielige bromfietsen.",
+          "text_ru": "Для велосипедов, средств индивидуальной мобильности и двухколесных мопедов.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les panneaux additionnels concernant spécifiquement les bicyclettes, les engins de déplacement et les cyclomoteurs à deux roues utilisent des inscriptions et symboles noirs sur fond blanc.",
+      "explanation_nl": "Onderborden die specifiek betrekking hebben op fietsen, voortbewegingstoestellen en tweewielige bromfietsen gebruiken zwarte opschriften en symbolen op een witte achtergrond.",
+      "explanation_ru": "Дополнительные таблички, касающиеся велосипедов, средств индивидуальной мобильности и двухколесных мопедов, используют черные надписи и символы на белом фоне."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à une intersection où un panneau C1 (Priorité à droite) est présent. Vous voyez un panneau additionnel M2 en dessous. Que signifie cette combinaison ?\n\nU nadert een kruispunt waar een bord C1 (Voorrang aan rechts) staat. U ziet eronder een onderbord M2. Wat betekent deze combinatie?",
+      "text_nl": "U nadert een kruispunt waar een bord C1 (Voorrang aan rechts) staat. U ziet eronder een onderbord M2. Wat betekent deze combinatie?\n\nU nadert een kruispunt waar een bord C1 (Voorrang aan rechts) staat. U ziet eronder een onderbord M2. Wat betekent deze combinatie?",
+      "text_ru": "Вы приближаетесь к перекрестку, где установлен знак C1 (Уступи дорогу справа). Под ним вы видите дополнительную табличку M2. Что означает эта комбинация?\n\nВы приближаетесь к перекрестку, где установлен знак C1 (Уступи дорогу справа). Под ним вы видите дополнительную табличку M2. Что означает эта комбинация?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road sign showing a C1 (priority to the right) sign with an M2 supplementary plate below it, which indicates a crossing street."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La priorité à droite s'applique uniquement aux cyclistes.",
+          "text_nl": "Voorrang aan rechts geldt alleen voor fietsers.",
+          "text_ru": "Приоритет справа применяется только к велосипедистам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indique une intersection avec une rue transversale.",
+          "text_nl": "Geeft een kruising met een dwarsstraat aan.",
+          "text_ru": "Указывает на пересечение с поперечной улицей.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La règle de priorité à droite est annulée.",
+          "text_nl": "De voorrangsregel aan rechts wordt opgeheven.",
+          "text_ru": "Правило приоритета справа отменяется.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau M2 est un panneau additionnel qui indique une rue transversale, ce qui signifie que la règle de priorité à droite, indiquée par le panneau C1, s'applique à l'intersection avec cette rue.",
+      "explanation_nl": "Onderbord M2 geeft een dwarsstraat aan, wat betekent dat de voorrangsregel aan rechts, aangegeven door bord C1, van toepassing is op de kruising met deze straat.",
+      "explanation_ru": "Дополнительная табличка M2 указывает на поперечную улицу, что означает, что правило приоритета справа, обозначенное знаком C1, применяется на пересечении с этой улицей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route où un panneau signale le début d'une zone où le stationnement est limité à 3,5 tonnes de masse maximale autorisée. Vous arrivez plus loin à un endroit où le stationnement est autorisé pour tous les véhicules. Que devez-vous conclure ?\n\nU rijdt op een weg waar een bord het begin van een zone aangeeft waar parkeren beperkt is tot 3,5 ton maximale toegelaten massa. U komt verder aan op een plaats waar parkeren voor alle voertuigen is toegestaan. Wat moet u concluderen?",
+      "text_nl": "U rijdt op een weg waar een bord het begin van een zone aangeeft waar parkeren beperkt is tot 3,5 ton maximale toegelaten massa. U komt verder aan op een plaats waar parkeren voor alle voertuigen is toegestaan. Wat moet u concluderen?\n\nU rijdt op een weg waar een bord het begin van een zone aangeeft waar parkeren beperkt is tot 3,5 ton maximale toegelaten massa. U komt verder aan op een plaats waar parkeren voor alle voertuigen is toegestaan. Wat moet u concluderen?",
+      "text_ru": "Вы едете по дороге, где знак обозначает начало зоны, в которой парковка ограничена максимальной разрешенной массой 3,5 тонны. Позже вы подъезжаете к месту, где парковка разрешена для всех транспортных средств. Какой вывод вы должны сделать?\n\nВы едете по дороге, где знак обозначает начало зоны, в которой парковка ограничена максимальной разрешенной массой 3,5 тонны. Позже вы подъезжаете к месту, где парковка разрешена для всех транспортных средств. Какой вывод вы должны сделать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous êtes toujours dans la zone limitée.",
+          "text_nl": "U bevindt zich nog steeds in de beperkte zone.",
+          "text_ru": "Вы все еще находитесь в ограниченной зоне.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La zone limitée est terminée.",
+          "text_nl": "De beperkte zone is beëindigd.",
+          "text_ru": "Ограниченная зона закончилась.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le panneau initial était incorrect.",
+          "text_nl": "Het oorspronkelijke bord was incorrect.",
+          "text_ru": "Первоначальный знак был некорректным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si vous arrivez à un endroit où le stationnement est autorisé pour tous les véhicules, cela signifie que vous avez dépassé la fin de la zone où le stationnement était limité par la masse.",
+      "explanation_nl": "Als u een plek bereikt waar parkeren voor alle voertuigen is toegestaan, betekent dit dat u het einde van de zone waar parkeren door de massa werd beperkt, bent gepasseerd.",
+      "explanation_ru": "Если вы подъезжаете к месту, где парковка разрешена для всех транспортных средств, это означает, что вы проехали конец зоны, где парковка была ограничена по массе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes sur une route où un panneau indique le début d'une zone où la vitesse est limitée à 50 km/h. Vous traversez ensuite une intersection et voyez le même panneau, mais complété par le mot \"Rappel\". Que devez-vous comprendre ?\n\nU bent op een weg waar een bord het begin van een zone aangeeft waar de snelheid beperkt is tot 50 km/u. U kruist vervolgens een kruispunt en ziet hetzelfde bord, maar aangevuld met het woord 'Rappel'. Wat moet u begrijpen?",
+      "text_nl": "U bent op een weg waar een bord het begin van een zone aangeeft waar de snelheid beperkt is tot 50 km/u. U kruist vervolgens een kruispunt en ziet hetzelfde bord, maar aangevuld met het woord 'Rappel'. Wat moet u begrijpen?\n\nU bent op een weg waar een bord het begin van een zone aangeeft waar de snelheid beperkt is tot 50 km/u. U kruist vervolgens een kruispunt en ziet hetzelfde bord, maar aangevuld met het woord 'Rappel'. Wat moet u begrijpen?",
+      "text_ru": "Вы находитесь на дороге, где знак обозначает начало зоны с ограничением скорости 50 км/ч. Затем вы пересекаете перекресток и видите тот же знак, но с добавленным словом \"Rappel\" (Напоминание). Какой вывод вы должны сделать?\n\nВы находитесь на дороге, где знак обозначает начало зоны с ограничением скорости 50 км/ч. Затем вы пересекаете перекресток и видите тот же знак, но с добавленным словом \"Rappel\" (Напоминание). Какой вывод вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road sign indicating the start of a 50 km/h speed limit zone, followed by a sign at an intersection with the same speed limit but with the word 'Rappel' (Reminder) underneath."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La zone de limitation de vitesse est terminée.",
+          "text_nl": "De snelheidsbeperkingszone is beëindigd.",
+          "text_ru": "Зона ограничения скорости закончилась.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le rappel de la limitation de vitesse s'applique à la zone que vous venez de traverser.",
+          "text_nl": "De herinnering aan de snelheidsbeperking geldt voor de zone die u net bent gepasseerd.",
+          "text_ru": "Напоминание об ограничении скорости относится к зоне, которую вы только что проехали.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La limitation de vitesse de 50 km/h est toujours d'application dans la zone.",
+          "text_nl": "De snelheidsbeperking van 50 km/u is nog steeds van kracht in de zone.",
+          "text_ru": "Ограничение скорости 50 км/ч все еще действует в зоне.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un panneau avec le mot \"Rappel\" indique que la réglementation en vigueur dans la zone est toujours d'application. Ici, cela signifie que la limitation de vitesse à 50 km/h continue de s'appliquer.",
+      "explanation_nl": "Een bord met het woord 'Rappel' geeft aan dat de geldende regelgeving in de zone nog steeds van kracht is. Hier betekent dit dat de snelheidsbeperking van 50 km/u van kracht blijft.",
+      "explanation_ru": "Знак со словом \"Rappel\" (Напоминание) указывает на то, что действующее в зоне правило все еще применяется. Здесь это означает, что ограничение скорости 50 км/ч продолжает действовать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous voyez un signal routier au-dessus d'une bande de circulation spécifique. Que devez-vous comprendre concernant la portée de ce signal ?\n\nU ziet een verkeersbord boven een specifieke rijstrook. Wat moet u begrijpen over de reikwijdte van dit bord?",
+      "text_nl": "U ziet een verkeersbord boven een specifieke rijstrook. Wat moet u begrijpen over de reikwijdte van dit bord?\n\nU ziet een verkeersbord boven een specifieke rijstrook. Wat moet u begrijpen over de reikwijdte van dit bord?",
+      "text_ru": "Вы видите дорожный знак над определенной полосой движения. Что вы должны понять относительно сферы действия этого знака?\n\nВы видите дорожный знак над определенной полосой движения. Что вы должны понять относительно сферы действия этого знака?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le signal s'applique à toutes les bandes de circulation.",
+          "text_nl": "Het signaal is van toepassing op alle rijstroken.",
+          "text_ru": "Знак применяется ко всем полосам движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le signal ne vaut que pour la bande de circulation concernée.",
+          "text_nl": "Het signaal geldt alleen voor de betreffende rijstrook.",
+          "text_ru": "Знак действует только для соответствующей полосы движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le signal ne s'applique que si vous quittez la bande de circulation.",
+          "text_nl": "Het signaal is alleen van toepassing als u de rijstrook verlaat.",
+          "text_ru": "Знак применяется только если вы покидаете полосу движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'un signal est placé au-dessus d'une bande de circulation, son indication ne s'applique qu'à cette bande de circulation spécifique.",
+      "explanation_nl": "Wanneer een signaal boven een rijstrook wordt geplaatst, geldt de aangegeven informatie alleen voor die specifieke rijstrook.",
+      "explanation_ru": "Когда знак размещен над полосой движения, его указание применяется только к этой конкретной полосе движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez en ville et voyez un panneau qui indique le début d'une zone où le stationnement est réservé aux véhicules d'une masse maximale autorisée n'excédant pas 3,5 tonnes. Plus loin, vous voyez un panneau identique mais avec le mot \"Fin\" en dessous. Où le stationnement redevient-il autorisé pour tous les véhicules ?\n\nU rijdt in de stad en ziet een bord dat het begin aangeeft van een zone waar parkeren is voorbehouden aan voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton. Verderop ziet u hetzelfde bord, maar met het woord 'Fin' eronder. Waar wordt parkeren weer toegestaan voor alle voertuigen?",
+      "text_nl": "U rijdt in de stad en ziet een bord dat het begin aangeeft van een zone waar parkeren is voorbehouden aan voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton. Verderop ziet u hetzelfde bord, maar met het woord 'Fin' eronder. Waar wordt parkeren weer toegestaan voor alle voertuigen?\n\nU rijdt in de stad en ziet een bord dat het begin aangeeft van een zone waar parkeren is voorbehouden aan voertuigen met een maximale toegelaten massa van niet meer dan 3,5 ton. Verderop ziet u hetzelfde bord, maar met het woord 'Fin' eronder. Waar wordt parkeren weer toegestaan voor alle voertuigen?",
+      "text_ru": "Вы едете по городу и видите знак, обозначающий начало зоны, где парковка зарезервирована для транспортных средств с максимальной разрешенной массой не более 3,5 тонн. Дальше вы видите тот же знак, но с подписью \"Fin\" (Конец) внизу. Где парковка снова становится разрешенной для всех транспортных средств?\n\nВы едете по городу и видите знак, обозначающий начало зоны, где парковка зарезервирована для транспортных средств с максимальной разрешенной массой не более 3,5 тонн. Дальше вы видите тот же знак, но с подписью \"Fin\" (Конец) внизу. Где парковка снова становится разрешенной для всех транспортных средств?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au prochain carrefour.",
+          "text_nl": "Bij de volgende kruising.",
+          "text_ru": "На следующем перекрестке.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À l'endroit où le panneau de fin de zone est placé.",
+          "text_nl": "Op de plaats waar het einde-zonbord is geplaatst.",
+          "text_ru": "В месте, где установлен знак конца зоны.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Immédiatement après le panneau de début de zone.",
+          "text_nl": "Onmiddellijk na het begin-zonbord.",
+          "text_ru": "Сразу после знака начала зоны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau indiquant la fin d'une zone zonale marque la fin de la réglementation spécifique à cette zone. Par conséquent, le stationnement redevient autorisé pour tous les véhicules à cet endroit.",
+      "explanation_nl": "Het bord dat het einde van een zone aangeeft, markeert het einde van de specifieke regelgeving voor die zone. Daarom wordt parkeren op die locatie weer toegestaan voor alle voertuigen.",
+      "explanation_ru": "Знак, обозначающий конец зонального режима, отмечает прекращение действия специфических правил для этой зоны. Следовательно, парковка снова становится разрешенной для всех транспортных средств в этом месте."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous rencontrez un panneau C43 indiquant une limite de vitesse zonale. Vous conduisez ensuite dans cette zone et voyez un panneau M22 en dessous. Qu'est-ce que cela implique pour votre conduite ?\n\nU komt een bord C43 tegen dat een zonesnelheidslimiet aangeeft. U rijdt vervolgens in die zone en ziet eronder een onderbord M22. Wat impliceert dit voor uw rijgedrag?",
+      "text_nl": "U komt een bord C43 tegen dat een zonesnelheidslimiet aangeeft. U rijdt vervolgens in die zone en ziet eronder een onderbord M22. Wat impliceert dit voor uw rijgedrag?\n\nU komt een bord C43 tegen dat een zonesnelheidslimiet aangeeft. U rijdt vervolgens in die zone en ziet eronder een onderbord M22. Wat impliceert dit voor uw rijgedrag?",
+      "text_ru": "Вы встречаете знак C43, указывающий на зонное ограничение скорости. Затем вы въезжаете в эту зону и видите под ним дополнительную табличку M22. Что это означает для вашего вождения?\n\nВы встречаете знак C43, указывающий на зонное ограничение скорости. Затем вы въезжаете в эту зону и видите под ним дополнительную табличку M22. Что это означает для вашего вождения?",
+      "image": {
+        "sign_code": "C43",
+        "generation_prompt": "A C43 sign (zone speed limit) with an M22 supplementary plate below it (shared e-scooters)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La limite de vitesse s'applique uniquement aux engins de déplacement en libre-partage.",
+          "text_nl": "De snelheidslimiet geldt alleen voor deelvoortbewegingstoestellen.",
+          "text_ru": "Ограничение скорости применяется только к общим электросамокатам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez respecter la limite de vitesse zonale et tenir compte des engins de déplacement en libre-partage.",
+          "text_nl": "U moet de zonesnelheidslimiet respecteren en rekening houden met deelvoortbewegingstoestellen.",
+          "text_ru": "Вы должны соблюдать зонное ограничение скорости и учитывать общие электросамокаты.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les engins de déplacement en libre-partage sont interdits dans cette zone.",
+          "text_nl": "Deelvoortbewegingstoestellen zijn verboden in deze zone.",
+          "text_ru": "Общие электросамокаты запрещены в этой зоне.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau C43 établit une limite de vitesse pour toute la zone. Le panneau M22 indique la présence d'engins de déplacement en libre-partage, ce qui signifie que vous devez non seulement respecter la limite de vitesse, mais aussi être attentif à ces engins.",
+      "explanation_nl": "Bord C43 stelt een snelheidslimiet in voor de gehele zone. Onderbord M22 geeft de aanwezigheid van deelvoortbewegingstoestellen aan, wat betekent dat u niet alleen de snelheidslimiet moet respecteren, maar ook attent moet zijn op deze toestellen.",
+      "explanation_ru": "Знак C43 устанавливает ограничение скорости для всей зоны. Дополнительная табличка M22 указывает на наличие общих электросамокатов, что означает, что вы должны не только соблюдать ограничение скорости, но и быть внимательными к этим средствам передвижения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "610350e49e55",
@@ -312,6 +628,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:23:02Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 9
   }
 }

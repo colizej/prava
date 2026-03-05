@@ -1,0 +1,41 @@
+{
+  "law_id": "1985",
+  "article_number": "7",
+  "slug": "art-7",
+  "structure": {
+    "titre": null,
+    "chapitre": null
+  },
+  "title_fr": "Article 7",
+  "title_nl": "Artikel 7",
+  "title_ru": "",
+  "content_md_fr": "L'arrêté-loi du 24 février 1947 étendant l'obligation du contrôle technique aux véhicules automobiles servant au transport de choses pour le compte propre de leur propriétaire, est abrogé.",
+  "content_md_nl": "De besluitwet van 24 februari 1947 waarbij de verplichting van de technische controle uitgebreid wordt tot de automobielen dienende tot het vervoer van zaken voor rekening van hun eigenaar, wordt opgeheven.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'arrêté-loi du 24 février 1947 étendant l'obligation du contrôle technique aux véhicules automobiles servant au transport de choses pour le compte propre de leur propriétaire, est abrogé.</p>",
+  "content_html_nl": "<p>De besluitwet van 24 februari 1947 waarbij de verplichting van de technische controle uitgebreid wordt tot de automobielen dienende tot het vervoer van zaken voor rekening van hun eigenaar, wordt opgeheven.</p>",
+  "full_text_fr": "L'arrêté-loi du 24 février 1947 étendant l'obligation du contrôle technique aux véhicules automobiles servant au transport de choses pour le compte propre de leur propriétaire, est abrogé.",
+  "full_text_nl": "De besluitwet van 24 februari 1947 waarbij de verplichting van de technische controle uitgebreid wordt tot de automobielen dienende tot het vervoer van zaken voor rekening van hun eigenaar, wordt opgeheven.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "i3seoni4qi",
+  "anchor_id_nl": "lnz7kmxboc",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:33Z",
+    "content_hash": "06b2666a10f2",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

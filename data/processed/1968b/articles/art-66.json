@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "66",
+  "slug": "art-66",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 66. Éclairage du compartiment réservé aux voyageurs",
+  "title_nl": "Artikel 66. Verlichting van de reizigersruimte",
+  "title_ru": "",
+  "content_md_fr": "Dans les véhicules automobiles affectés à des transports rémunérés de personnes ou à des transports gratuits assimilés à ces derniers, le compartiment réservé aux voyageurs doit pouvoir être convenablement éclairé.\n\nL'habitacle des autres véhicules automobiles doit comporter un éclairage intérieur.",
+  "content_md_nl": "In de auto's gebruikt voor autobusdiensten tegen betaling of de kosteloze vervoerdiensten hiermede gelijkgesteld moet de reizigersruimte behoorlijk kunnen worden verlicht.\n\nIn de bestuurskabine van de andere auto's moet een inwendige verlichting aanwezig zijn.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Dans les véhicules automobiles affectés à des transports rémunérés de personnes ou à des transports gratuits assimilés à ces derniers, le compartiment réservé aux voyageurs doit pouvoir être convenablement éclairé.</p><p>L'habitacle des autres véhicules automobiles doit comporter un éclairage intérieur.</p>",
+  "content_html_nl": "<p>In de auto's gebruikt voor autobusdiensten tegen betaling of de kosteloze vervoerdiensten hiermede gelijkgesteld moet de reizigersruimte behoorlijk kunnen worden verlicht.</p><p>In de bestuurskabine van de andere auto's moet een inwendige verlichting aanwezig zijn.</p>",
+  "full_text_fr": "Dans les véhicules automobiles affectés à des transports rémunérés de personnes ou à des transports gratuits assimilés à ces derniers, le compartiment réservé aux voyageurs doit pouvoir être convenablement éclairé.\n\nL'habitacle des autres véhicules automobiles doit comporter un éclairage intérieur.",
+  "full_text_nl": "In de auto's gebruikt voor autobusdiensten tegen betaling of de kosteloze vervoerdiensten hiermede gelijkgesteld moet de reizigersruimte behoorlijk kunnen worden verlicht.\n\nIn de bestuurskabine van de andere auto's moet een inwendige verlichting aanwezig zijn.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "zhilcynftz",
+  "anchor_id_nl": "yzstcykbvl",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "45c255dd5e66",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

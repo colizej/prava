@@ -28,7 +28,230 @@
   "anchor_id_fr": "tgnxjqh7tz",
   "anchor_id_nl": "ak9bsocer3",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie un feu rouge en forme de croix placé au-dessus d'une bande de circulation ?",
+      "text_nl": "Wat betekent een rood licht in de vorm van een kruis dat boven een rijstrook is geplaatst?",
+      "text_ru": "Что означает красный свет в виде креста, расположенный над полосой движения?",
+      "image": {
+        "sign_code": "X_RED_LIGHT",
+        "generation_prompt": "A traffic light above a lane showing a red cross."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La bande de circulation est autorisée.",
+          "text_nl": "De rijstrook is toegestaan.",
+          "text_ru": "Полоса движения разрешена.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est interdit de circuler sur cette bande de circulation.",
+          "text_nl": "Het is verboden op deze rijstrook te rijden.",
+          "text_ru": "Движение по этой полосе запрещено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut ralentir car un danger approche.",
+          "text_nl": "U moet vertragen omdat er gevaar nadert.",
+          "text_ru": "Нужно замедлиться, так как приближается опасность.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu rouge en forme de croix indique que la circulation est interdite sur la bande de circulation concernée.",
+      "explanation_nl": "Een rood licht in de vorm van een kruis geeft aan dat het verboden is om op de betreffende rijstrook te rijden.",
+      "explanation_ru": "Красный свет в виде креста указывает на запрет движения по данной полосе."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la signification d'un feu vert en forme de flèche pointant vers le bas, au-dessus d'une bande de circulation ?",
+      "text_nl": "Wat betekent een groen licht in de vorm van een naar beneden gerichte pijl boven een rijstrook?",
+      "text_ru": "Что означает зеленый свет в виде стрелки, направленной вниз, над полосой движения?",
+      "image": {
+        "sign_code": "ARROW_DOWN_GREEN_LIGHT",
+        "generation_prompt": "A traffic light above a lane showing a green arrow pointing downwards."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il faut quitter la bande de circulation.",
+          "text_nl": "U moet de rijstrook verlaten.",
+          "text_ru": "Вы должны покинуть полосу движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La circulation est autorisée sur cette bande de circulation.",
+          "text_nl": "Rijden op deze rijstrook is toegestaan.",
+          "text_ru": "Движение по этой полосе разрешено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut être prêt à s'arrêter.",
+          "text_nl": "U moet klaar zijn om te stoppen.",
+          "text_ru": "Вы должны быть готовы остановиться.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu vert en forme de flèche vers le bas indique que la circulation est autorisée sur cette bande de circulation.",
+      "explanation_nl": "Een groen licht in de vorm van een naar beneden gerichte pijl geeft aan dat rijden op deze rijstrook is toegestaan.",
+      "explanation_ru": "Зеленый свет в виде стрелки вниз указывает на то, что движение по этой полосе разрешено."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'indique un feu orange, potentiellement clignotant, en forme de flèche oblique vers le bas, placé au-dessus d'une bande de circulation ?",
+      "text_nl": "Wat geeft een oranje licht, eventueel knipperend, in de vorm van een schuine naar beneden gerichte pijl, boven een rijstrook, aan?",
+      "text_ru": "Что означает оранжевый свет, возможно мигающий, в виде наклонной стрелки, направленной вниз, расположенный над полосой движения?",
+      "image": {
+        "sign_code": "OBLIQUE_ARROW_ORANGE_LIGHT",
+        "generation_prompt": "A traffic light above a lane showing an orange oblique arrow pointing downwards."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La circulation est autorisée uniquement dans la direction indiquée par la flèche.",
+          "text_nl": "Rijden is alleen toegestaan in de richting die door de pijl wordt aangegeven.",
+          "text_ru": "Движение разрешено только в направлении, указанном стрелкой.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est interdit de circuler sur cette bande, sauf pour la quitter en suivant la direction de la flèche.",
+          "text_nl": "Het is verboden op deze rijstrook te rijden, behalve om deze te verlaten in de richting van de pijl.",
+          "text_ru": "Движение по этой полосе запрещено, кроме как для съезда с нее в направлении, указанном стрелкой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut s'arrêter immédiatement devant le feu.",
+          "text_nl": "U moet onmiddellijk stoppen voor het licht.",
+          "text_ru": "Вы должны немедленно остановиться перед светофором.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu orange en forme de flèche oblique vers le bas signale une interdiction de circuler, sauf pour sortir de la bande dans la direction indiquée par la flèche.",
+      "explanation_nl": "Een oranje licht in de vorm van een schuine naar beneden gerichte pijl geeft een rijverbod aan, behalve om de rijstrook te verlaten in de richting die door de pijl wordt aangegeven.",
+      "explanation_ru": "Оранжевый свет в виде наклонной стрелки вниз указывает на запрет движения, за исключением съезда с полосы в направлении, указанном стрелкой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une voie rapide où il y a trois bandes de circulation. Les panneaux lumineux au-dessus des bandes indiquent une croix rouge sur la bande de gauche et une flèche verte vers le bas sur la bande du milieu. Quelle bande de circulation devez-vous utiliser ?",
+      "text_nl": "U rijdt op een snelweg met drie rijstroken. Boven de rijstroken staan verkeerslichten die een rood kruis aangeven boven de linkerrijstrook en een groene pijl naar beneden boven de middelste rijstrook. Welke rijstrook moet u gebruiken?",
+      "text_ru": "Вы едете по скоростной дороге с тремя полосами движения. Над полосами расположены светофоры: над левой полосой — красный крест, над средней — зеленая стрелка вниз. Какую полосу движения вы должны использовать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A highway with three lanes. Above the left lane is a red cross traffic light. Above the middle lane is a green downward arrow traffic light. The right lane has no signal visible above it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La bande de gauche, car elle est la plus rapide.",
+          "text_nl": "De linkerrijstrook, omdat deze de snelste is.",
+          "text_ru": "Левую полосу, так как она самая быстрая.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La bande du milieu.",
+          "text_nl": "De middelste rijstrook.",
+          "text_ru": "Среднюю полосу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La bande de gauche ou du milieu, selon votre préférence.",
+          "text_nl": "De linker- of middelste rijstrook, naar keuze.",
+          "text_ru": "Левую или среднюю полосу, по вашему выбору.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le feu rouge en forme de croix sur la bande de gauche indique qu'elle est fermée à la circulation. La flèche verte vers le bas sur la bande du milieu signifie qu'elle est autorisée. Vous devez donc utiliser la bande du milieu.",
+      "explanation_nl": "Het rode kruis op de linkerrijstrook geeft aan dat deze gesloten is voor verkeer. De groene pijl naar beneden op de middelste rijstrook betekent dat deze is toegestaan. U moet dus de middelste rijstrook gebruiken.",
+      "explanation_ru": "Красный крест на левой полосе означает, что она закрыта для движения. Зеленая стрелка вниз на средней полосе означает, что движение по ней разрешено. Следовательно, вы должны использовать среднюю полосу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur une route avec une bande de circulation où un feu orange en forme de flèche oblique vers le bas s'allume. La flèche indique de vous déporter vers la droite. Que devez-vous faire ?",
+      "text_nl": "U bevindt zich op een weg met een rijstrook waar een oranje schuine pijl naar beneden oplicht. De pijl geeft aan dat u naar rechts moet uitwijken. Wat moet u doen?",
+      "text_ru": "Вы находитесь на дороге с полосой движения, на которой загорелся оранжевый наклонный указатель направления вниз. Стрелка указывает на необходимость перестроиться вправо. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A single lane road with an overhead traffic light showing an orange oblique arrow pointing downwards and to the right, indicating a lane change is required."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer tout droit, car le feu orange clignote.",
+          "text_nl": "Rijd rechtdoor, omdat het oranje licht knippert.",
+          "text_ru": "Продолжайте движение прямо, так как оранжевый сигнал мигает.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Quitter immédiatement la bande de circulation en vous déportant vers la droite.",
+          "text_nl": "Verlaat onmiddellijk de rijstrook door naar rechts uit te wijken.",
+          "text_ru": "Немедленно покиньте полосу движения, перестроившись вправо.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Arrêter votre véhicule sur la bande de circulation.",
+          "text_nl": "Stop uw voertuig op de rijstrook.",
+          "text_ru": "Остановите ваш автомобиль на полосе движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu orange oblique vers le bas, même clignotant, signifie que vous devez quitter la bande de circulation dans la direction indiquée par la flèche. Il faut donc vous déporter vers la droite.",
+      "explanation_nl": "Een oranje schuine pijl naar beneden, zelfs knipperend, betekent dat u de rijstrook moet verlaten in de richting die door de pijl wordt aangegeven. U moet dus naar rechts uitwijken.",
+      "explanation_ru": "Оранжевый наклонный указатель направления вниз, даже мигающий, означает, что вы должны покинуть полосу движения в направлении, указанном стрелкой. Следовательно, вы должны перестроиться вправо."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous approchez d'un carrefour où les feux de circulation au-dessus des bandes de circulation indiquent une croix rouge sur la voie de gauche et une flèche verte vers le bas sur la voie du milieu. Vous souhaitez aller tout droit. Quelle bande de circulation pouvez-vous emprunter en toute sécurité ?",
+      "text_nl": "U nadert een kruispunt waar de verkeerslichten boven de rijstroken een rood kruis aangeven op de linkerbaan en een groene pijl naar beneden op de middelste baan. U wilt rechtdoor. Welke rijstrook kunt u veilig gebruiken?",
+      "text_ru": "Вы приближаетесь к перекрестку, где светофоры над полосами движения показывают красный крест над левой полосой и зеленую стрелку вниз над средней полосой. Вы хотите ехать прямо. Какую полосу движения вы можете безопасно использовать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An intersection viewed from above. Traffic lights above the lanes show a red cross on the left lane and a green downward arrow on the middle lane. The right lane is not visible or has no signal."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement la bande du milieu.",
+          "text_nl": "Alleen de middelste rijstrook.",
+          "text_ru": "Только среднюю полосу.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La bande de gauche, car elle permet d'aller tout droit.",
+          "text_nl": "De linkerrijstrook, omdat deze rechtdoor mogelijk maakt.",
+          "text_ru": "Левую полосу, так как она позволяет ехать прямо.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La bande de gauche ou du milieu, car les deux indiquent une direction.",
+          "text_nl": "De linker- of middelste rijstrook, omdat beide een richting aangeven.",
+          "text_ru": "Левую или среднюю полосу, так как обе указывают направление.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal de croix rouge sur la bande de gauche interdit d'y circuler. La flèche verte vers le bas sur la bande du milieu autorise la circulation sur cette bande, et elle permet d'aller tout droit. Par conséquent, vous ne pouvez utiliser que la bande du milieu pour aller tout droit.",
+      "explanation_nl": "Het rode kruis op de linkerrijstrook verbiedt het rijden erop. De groene pijl naar beneden op de middelste rijstrook staat toe dat op deze strook gereden wordt, en maakt het mogelijk om rechtdoor te rijden. U kunt dus alleen de middelste rijstrook gebruiken om rechtdoor te rijden.",
+      "explanation_ru": "Сигнал красного креста на левой полосе запрещает движение по ней. Зеленая стрелка вниз на средней полосе разрешает движение по этой полосе и позволяет ехать прямо. Следовательно, вы можете использовать только среднюю полосу для движения прямо."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "8c6185da3503",
@@ -38,6 +261,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:21:31Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 6
   }
 }

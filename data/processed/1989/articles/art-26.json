@@ -1,0 +1,43 @@
+{
+  "law_id": "1989",
+  "article_number": "26",
+  "slug": "art-26",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 26",
+  "title_nl": "Artikel 26",
+  "title_ru": "",
+  "content_md_fr": "Est puni des peines prévues par l'article 29, §2, des lois relatives à la police de la circulation routière, coordonnées par arrêté royal du 16 mars 1968, le titulaire de la marque d'immatriculation qui, après l'expiration du délai fixé par le Roi, reste en défaut de satisfaire à l'obligation imposée en vertu de [l'article 6,](#art-6,) § 1er, alinéa 2.\n\nLes mêmes peines sont applicables au propriétaire, au détenteur ou au conducteur en cas d'infraction aux dispositions de [l'article 6,](#art-6,) § 2.\n\nLe détenteur et le conducteur du véhicule ne sont punissables que s'ils savent que les conditions auxquelles [l'article 6,](#art-6,) § 2, subordonne la mise en circulation d'un véhicule automoteur ne sont pas remplies.",
+  "content_md_nl": "Met de straffen gesteld in artikel 29, §2, van de bij koninklijk besluit van 16 maart 1968 gecoördineerde wetten betreffende de politie over het wegverkeer, wordt gestraft de houder van de kentekenplaat die, na verloop van de door de Koning bepaalde tijd, niet voldoet aan de verplichting opgelegd krachtens [artikel 6](#art-6), § 1, tweede lid.\n\nDezelfde straffen zijn toepasselijk op de eigenaar, op de houder of op de bestuurder in geval van overtreding van de bepalingen van [artikel 6](#art-6), § 2.\n\nDe houder en de bestuurder van het motorrijtuig zijn slechts strafbaar indien zij weten dat de voorwaarden waaraan [artikel 6](#art-6), § 2, het in het verkeer brengen van een motorrijtuig op de openbare weg heeft verbonden, niet vervuld zijn.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Est puni des peines prévues par l'article 29, §2, des lois relatives à la police de la circulation routière, coordonnées par arrêté royal du 16 mars 1968, le titulaire de la marque d'immatriculation qui, après l'expiration du délai fixé par le Roi, reste en défaut de satisfaire à l'obligation imposée en vertu de <a href=\"#art-6,\">l'article 6,</a> § 1<sup>er</sup>, alinéa 2.</p><p>Les mêmes peines sont applicables au propriétaire, au détenteur ou au conducteur en cas d'infraction aux dispositions de <a href=\"#art-6,\">l'article 6,</a> § 2.</p><p>Le détenteur et le conducteur du véhicule ne sont punissables que s'ils savent que les conditions auxquelles <a href=\"#art-6,\">l'article 6,</a> § 2, subordonne la mise en circulation d'un véhicule automoteur ne sont pas remplies.</p>",
+  "content_html_nl": "<p>Met de straffen gesteld in artikel 29, §2, van de bij koninklijk besluit van 16 maart 1968 gecoördineerde wetten betreffende de politie over het wegverkeer, wordt gestraft de houder van de kentekenplaat die, na verloop van de door de Koning bepaalde tijd, niet voldoet aan de verplichting opgelegd krachtens <a href=\"#art-6\">artikel 6</a>, § 1, tweede lid.</p><p>Dezelfde straffen zijn toepasselijk op de eigenaar, op de houder of op de bestuurder in geval van overtreding van de bepalingen van <a href=\"#art-6\">artikel 6</a>, § 2.</p><p>De houder en de bestuurder van het motorrijtuig zijn slechts strafbaar indien zij weten dat de voorwaarden waaraan <a href=\"#art-6\">artikel 6</a>, § 2, het in het verkeer brengen van een motorrijtuig op de openbare weg heeft verbonden, niet vervuld zijn.</p>",
+  "full_text_fr": "Est puni des peines prévues par l'article 29, §2, des lois relatives à la police de la circulation routière, coordonnées par arrêté royal du 16 mars 1968, le titulaire de la marque d'immatriculation qui, après l'expiration du délai fixé par le Roi, reste en défaut de satisfaire à l'obligation imposée en vertu de l'article 6, § 1er, alinéa 2.\n\nLes mêmes peines sont applicables au propriétaire, au détenteur ou au conducteur en cas d'infraction aux dispositions de l'article 6, § 2.\n\nLe détenteur et le conducteur du véhicule ne sont punissables que s'ils savent que les conditions auxquelles l'article 6, § 2, subordonne la mise en circulation d'un véhicule automoteur ne sont pas remplies.",
+  "full_text_nl": "Met de straffen gesteld in artikel 29, §2, van de bij koninklijk besluit van 16 maart 1968 gecoördineerde wetten betreffende de politie over het wegverkeer, wordt gestraft de houder van de kentekenplaat die, na verloop van de door de Koning bepaalde tijd, niet voldoet aan de verplichting opgelegd krachtens artikel 6, § 1, tweede lid.\n\nDezelfde straffen zijn toepasselijk op de eigenaar, op de houder of op de bestuurder in geval van overtreding van de bepalingen van artikel 6, § 2.\n\nDe houder en de bestuurder van het motorrijtuig zijn slechts strafbaar indien zij weten dat de voorwaarden waaraan artikel 6, § 2, het in het verkeer brengen van een motorrijtuig op de openbare weg heeft verbonden, niet vervuld zijn.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-6,"
+  ],
+  "anchor_id_fr": "2sxh0gnl5c",
+  "anchor_id_nl": "3byhl17mhi",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "9a8eb3e22d4a",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

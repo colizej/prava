@@ -1,0 +1,43 @@
+{
+  "law_id": "1989",
+  "article_number": "18",
+  "slug": "art-18",
+  "structure": {
+    "titre": null,
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 18",
+  "title_nl": "Artikel 18",
+  "title_ru": "",
+  "content_md_fr": "L'[article 17, § 2, alinéa 2](#art17p2), n'est pas applicable aux véhicules automoteurs non soumis à l’immatriculation.",
+  "content_md_nl": "[Artikel 17, § 2, tweede lid](#art17p2), is niet toepasselijk op niet aan inschrijving onderworpen motorrijtuigen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'<a href=\"#art17p2\">article 17, § 2, alinéa 2</a>, n'est pas applicable aux véhicules automoteurs non soumis à l’immatriculation.</p>",
+  "content_html_nl": "<p><a href=\"#art17p2\">Artikel 17, § 2, tweede lid</a>, is niet toepasselijk op niet aan inschrijving onderworpen motorrijtuigen.</p>",
+  "full_text_fr": "L'article 17, § 2, alinéa 2, n'est pas applicable aux véhicules automoteurs non soumis à l’immatriculation.",
+  "full_text_nl": "Artikel 17, § 2, tweede lid, is niet toepasselijk op niet aan inschrijving onderworpen motorrijtuigen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art17p2"
+  ],
+  "anchor_id_fr": "pjxzk4jl18",
+  "anchor_id_nl": "oanimxapqh",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "26db815ee265",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

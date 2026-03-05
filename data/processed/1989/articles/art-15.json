@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "15",
+  "slug": "art-15",
+  "structure": {
+    "titre": null,
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 15",
+  "title_nl": "Artikel 15",
+  "title_ru": "",
+  "content_md_fr": "Pour l'application des dispositions de la présente loi, la personne lésée peut citer l'assureur en Belgique, soit devant le juge du lieu où s'est produit le fait générateur du dommage, soit devant le juge de son propre domicile, soit devant le juge du siège de l'assureur.",
+  "content_md_nl": "Voor de toepassing van de bepalingen van deze wet kan de verzekeraar in België door de benadeelde worden gedagvaard, hetzij voor de rechter van de plaats van het feit waaruit de schade is ontstaan, hetzij voor de rechter van de woonplaats van de benadeelde, hetzij voor de rechter van de zetel van de verzekeraar.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Pour l'application des dispositions de la présente loi, la personne lésée peut citer l'assureur en Belgique, soit devant le juge du lieu où s'est produit le fait générateur du dommage, soit devant le juge de son propre domicile, soit devant le juge du siège de l'assureur.</p>",
+  "content_html_nl": "<p>Voor de toepassing van de bepalingen van deze wet kan de verzekeraar in België door de benadeelde worden gedagvaard, hetzij voor de rechter van de plaats van het feit waaruit de schade is ontstaan, hetzij voor de rechter van de woonplaats van de benadeelde, hetzij voor de rechter van de zetel van de verzekeraar.</p>",
+  "full_text_fr": "Pour l'application des dispositions de la présente loi, la personne lésée peut citer l'assureur en Belgique, soit devant le juge du lieu où s'est produit le fait générateur du dommage, soit devant le juge de son propre domicile, soit devant le juge du siège de l'assureur.",
+  "full_text_nl": "Voor de toepassing van de bepalingen van deze wet kan de verzekeraar in België door de benadeelde worden gedagvaard, hetzij voor de rechter van de plaats van het feit waaruit de schade is ontstaan, hetzij voor de rechter van de woonplaats van de benadeelde, hetzij voor de rechter van de zetel van de verzekeraar.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "badumbdbcd",
+  "anchor_id_nl": "aqfmlcmlrk",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "9fe043351faa",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

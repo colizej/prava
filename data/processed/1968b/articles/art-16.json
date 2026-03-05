@@ -1,0 +1,59 @@
+{
+  "law_id": "1968b",
+  "article_number": "16",
+  "slug": "art-16",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 16bis. Prescriptions pour des dispositifs de vision indirecte",
+  "title_nl": "Bijlage 16bis. Voorschriften voor inrichtingen voor indirect zicht",
+  "title_ru": "",
+  "content_md_fr": "> 📎 PDF\n\n> ℹ️ Au chapitre III de l’annexe 16bis, à la quatrième ligne « M3 » du tableau figurant sous le point 2 intitulé « nombre », la cinquième colonne « Rétroviseurs grand angle Classe IV » : Facultatif 1 du côté du conducteur Obligatoire 1 du côté passager est remplacée par la colonne suivante : Facultatifs 1 du côté du conducteur et/ou 1 du côté du passager",
+  "content_md_nl": "> 📎 PDF\n\n> ℹ️ In hoofdstuk III van bijlage 16bis, in de vierde kolom van de tabel vermeld in het punt 2 met als titel “aantal”, wordt de vijfde kolom : Facultatief 1 aan de bestuurderszijde en Verplicht 1 aan de passagierszijde door de volgende kolom vervangen : Facultatief 1 aan de bestuurderszijde en/of 1 aan de passagierszijde",
+  "content_md_ru": "",
+  "content_html_fr": "<div class=\"notification notification-secondary\"><a href=\"/media/file/dbac2bd73ea7b8b2c41544e1ebf454c185161ed3.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div><div class=\"notification notification-primary\">Au chapitre III de l’annexe 16bis, à la quatrième ligne « M3 » du tableau figurant sous le point 2 intitulé « nombre », la cinquième colonne « Rétroviseurs grand angle Classe IV » :<br/>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>Facultatif<br/>1 du côté du conducteur<br/>Obligatoire<br/>1 du côté passager</td>\n</tr>\n</tbody>\n</table>\nest remplacée par la colonne suivante :<br/>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>Facultatifs<br/>1 du côté du conducteur et/ou<br/>1 du côté du passager</td>\n</tr>\n</tbody>\n</table>\n</div>",
+  "content_html_nl": "<div class=\"notification notification-secondary\"><a href=\"/media/file/dbac2bd73ea7b8b2c41544e1ebf454c185161ed3.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div><div class=\"notification notification-primary\">In hoofdstuk III van bijlage 16bis, in de vierde kolom van de tabel vermeld in het punt 2 met als titel “aantal”, wordt de vijfde kolom :<br/>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>Facultatief<br/>1 aan de bestuurderszijde en<br/>Verplicht<br/>1 aan de passagierszijde</td>\n</tr>\n</tbody>\n</table>\ndoor de volgende kolom vervangen :<br/>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>Facultatief<br/>1 aan de bestuurderszijde en/of<br/>1 aan de passagierszijde</td>\n</tr>\n</tbody>\n</table>\n</div>",
+  "full_text_fr": "PDF\n\n️ Au chapitre III de l’annexe 16bis, à la quatrième ligne « M3 » du tableau figurant sous le point 2 intitulé « nombre », la cinquième colonne « Rétroviseurs grand angle Classe IV » : Facultatif 1 du côté du conducteur Obligatoire 1 du côté passager est remplacée par la colonne suivante : Facultatifs 1 du côté du conducteur et/ou 1 du côté du passager",
+  "full_text_nl": "PDF\n\n️ In hoofdstuk III van bijlage 16bis, in de vierde kolom van de tabel vermeld in het punt 2 met als titel “aantal”, wordt de vijfde kolom : Facultatief 1 aan de bestuurderszijde en Verplicht 1 aan de passagierszijde door de volgende kolom vervangen : Facultatief 1 aan de bestuurderszijde en/of 1 aan de passagierszijde",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    },
+    {
+      "type": "primary",
+      "text": "Au chapitre III de l’annexe 16bis, à la quatrième ligne « M3 » du tableau figurant sous le point 2 intitulé « nombre », la cinquième colonne « Rétroviseurs grand angle Classe IV » : Facultatif 1 du côté du conducteur Obligatoire 1 du côté passager est remplacée par la colonne suivante : Facultatifs 1 du côté du conducteur et/ou 1 du côté du passager"
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    },
+    {
+      "type": "primary",
+      "text": "In hoofdstuk III van bijlage 16bis, in de vierde kolom van de tabel vermeld in het punt 2 met als titel “aantal”, wordt de vijfde kolom : Facultatief 1 aan de bestuurderszijde en Verplicht 1 aan de passagierszijde door de volgende kolom vervangen : Facultatief 1 aan de bestuurderszijde en/of 1 aan de passagierszijde"
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "bkmpuyo0kq",
+  "anchor_id_nl": "gbsde8lytr",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "9922a4a776bc",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

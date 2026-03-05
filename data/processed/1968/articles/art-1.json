@@ -41,7 +41,119 @@
   "anchor_id_fr": "basrwibbif",
   "anchor_id_nl": "5q8maw45zv",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est responsable de l'établissement des règlements généraux de police de la circulation routière en Belgique ?",
+      "text_nl": "Wie is verantwoordelijk voor het vaststellen van de algemene reglementen betreffende de politie over het wegverkeer in België?",
+      "text_ru": "Кто отвечает за установление общих правил дорожного движения в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Parlement",
+          "text_nl": "Het Parlement",
+          "text_ru": "Парламент",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi",
+          "text_nl": "De Koning",
+          "text_ru": "Король",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre de la Mobilité",
+          "text_nl": "De Minister van Mobiliteit",
+          "text_ru": "Министр мобильности",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les règles, l'autorité en charge de l'établissement des règlements généraux de police de la circulation routière est le Roi.",
+      "explanation_nl": "Volgens de regels is de bevoegde autoriteit voor het vaststellen van de algemene reglementen betreffende de politie over het wegverkeer de Koning.",
+      "explanation_ru": "Согласно правилам, органом, ответственным за установление общих правил дорожного движения, является Король."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quels types d'usagers et de moyens de transport sont couverts par les règlements généraux de la circulation routière établis par l'autorité compétente ?",
+      "text_nl": "Welke soorten weggebruikers en vervoermiddelen vallen onder de algemene reglementen inzake wegverkeer, vastgesteld door de bevoegde autoriteit?",
+      "text_ru": "Какие виды участников дорожного движения и транспортных средств охватываются общими правилами дорожного движения, устанавливаемыми компетентным органом?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement la circulation des véhicules motorisés et des piétons.",
+          "text_nl": "Alleen het verkeer van motorvoertuigen en voetgangers.",
+          "text_ru": "Только движение моторизованных транспортных средств и пешеходов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les piétons, les moyens de transport terrestres, les animaux et les moyens de transport ferroviaires empruntant la voie publique.",
+          "text_nl": "Voetgangers, middelen van vervoer te land, dieren en middelen van vervoer per spoor die de openbare weg gebruiken.",
+          "text_ru": "Пешеходы, наземные транспортные средства, животные и железнодорожный транспорт, использующий общественные дороги.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seuls les véhicules à moteur et les animaux.",
+          "text_nl": "Alleen motorvoertuigen en dieren.",
+          "text_ru": "Только моторизованные транспортные средства и животные.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règlements généraux couvrent un large éventail, incluant les piétons, les moyens de transport par terre et les animaux, ainsi que les moyens de transport par fer empruntant la voie publique.",
+      "explanation_nl": "De algemene reglementen bestrijken een breed scala, waaronder voetgangers, middelen van vervoer te land en dieren, alsmede middelen van vervoer per spoor die de openbare weg gebruiken.",
+      "explanation_ru": "Общие правила охватывают широкий спектр, включая пешеходов, наземный транспорт и животных, а также железнодорожный транспорт, использующий общественные дороги."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Les règlements généraux de la circulation routière peuvent-ils prévoir la perception de redevances ?",
+      "text_nl": "Kunnen de algemene reglementen inzake wegverkeer voorzien in het heffen van vergoedingen?",
+      "text_ru": "Могут ли общие правила дорожного движения предусматривать взимание сборов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les redevances sont toujours déterminées par des lois distinctes.",
+          "text_nl": "Nee, vergoedingen worden altijd vastgesteld door afzonderlijke wetten.",
+          "text_ru": "Нет, сборы всегда определяются отдельными законами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, pour couvrir en tout ou en partie les frais d'administration, de contrôle ou de surveillance.",
+          "text_nl": "Ja, ter gehele of gedeeltelijke dekking van de kosten van bestuur, controle of toezicht.",
+          "text_ru": "Да, для полного или частичного покрытия административных расходов, расходов на контроль или надзор.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement pour les services d'urgence liés à la circulation.",
+          "text_nl": "Ja, maar alleen voor hulpdiensten die verband houden met het verkeer.",
+          "text_ru": "Да, но только для экстренных служб, связанных с дорожным движением.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règlements peuvent en effet prévoir la perception de redevances, notamment pour couvrir les frais d'administration, de contrôle ou de surveillance.",
+      "explanation_nl": "De reglementen kunnen inderdaad voorzien in het heffen van vergoedingen, met name ter dekking van de kosten van bestuur, controle of toezicht.",
+      "explanation_ru": "Правила могут предусматривать взимание сборов, в частности, для покрытия расходов на администрирование, контроль или надзор."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "6357f97fb1d9",
@@ -51,6 +163,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:41:25Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 3
   }
 }

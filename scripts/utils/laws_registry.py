@@ -125,6 +125,30 @@ LAWS: dict[str, dict] = {
         "priority": 5,
         "notes": "Loi-cadre sur les conditions techniques",
     },
+
+    # ── Assurance et immatriculation ───────────────────────────────────────────
+    "1989": {
+        "slug": "1989011371~e9i0a75brp",
+        "title_fr": "Loi du 21 novembre 1989 — Assurance obligatoire de la responsabilité en matière de véhicules automoteurs",
+        "title_nl": "Wet van 21 november 1989 — Verplichte aansprakelijkheidsverzekering inzake motorrijtuigen",
+        "theme": "assurance-et-immatriculation",
+        "theme_ru": "Страхование и регистрация транспортных средств",
+        "type": "Loi",
+        "scope": "Belgique",
+        "priority": 6,
+        "notes": "Loi-cadre sur l'assurance RC obligatoire des véhicules automoteurs",
+    },
+    "2001": {
+        "slug": "2001014153~fr97gmfasr",
+        "title_fr": "AR du 20 juillet 2001 — Immatriculation des véhicules",
+        "title_nl": "KB van 20 juli 2001 — Inschrijving van voertuigen",
+        "theme": "assurance-et-immatriculation",
+        "theme_ru": "Страхование и регистрация транспортных средств",
+        "type": "Arrêté royal",
+        "scope": "Belgique",
+        "priority": 6,
+        "notes": "Conditions et procédures d'immatriculation, plaques d'immatriculation",
+    },
 }
 
 

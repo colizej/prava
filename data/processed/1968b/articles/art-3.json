@@ -1,0 +1,47 @@
+{
+  "law_id": "1968b",
+  "article_number": "3",
+  "slug": "art-3",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 3.",
+  "title_nl": "Bijlage 3.",
+  "title_ru": "",
+  "content_md_fr": "![sign](/media/image/orig/aed33fc664b739366692f7564613bdb2048b4635.gif)",
+  "content_md_nl": "![sign](/media/image/orig/aed33fc664b739366692f7564613bdb2048b4635.gif)",
+  "content_md_ru": "",
+  "content_html_fr": "<p><img src=\"/media/image/orig/aed33fc664b739366692f7564613bdb2048b4635.gif\"/></p>",
+  "content_html_nl": "<p><img src=\"/media/image/orig/aed33fc664b739366692f7564613bdb2048b4635.gif\"/></p>",
+  "full_text_fr": "sign",
+  "full_text_nl": "sign",
+  "full_text_ru": "",
+  "images": [
+    {
+      "src": "/media/image/orig/aed33fc664b739366692f7564613bdb2048b4635.gif",
+      "alt": "",
+      "full_url": "https://www.codedelaroute.be/media/image/orig/aed33fc664b739366692f7564613bdb2048b4635.gif"
+    }
+  ],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "o2krozewa8",
+  "anchor_id_nl": "b0hzd2pmne",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "1f50f67f80ba",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "16",
+  "slug": "art-16",
+  "structure": {
+    "titre": null,
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 16",
+  "title_nl": "Artikel 16",
+  "title_ru": "",
+  "content_md_fr": "Sans préjudice des dispositions de la section 3 du présent chapitre, aucune nullité, aucune exception, franchise ou déchéance dérivant de la loi ou du contrat d'assurance ne peut être opposée par l'assureur à la personne lésée.\n\nTout contrat d'assurance conclu en vue de l'exécution de la présente loi est réputé couvrir de plein droit, à l'égard de la personne lésée, tous les risques qui doivent obligatoirement être assurés.",
+  "content_md_nl": "Onverminderd het bepaalde in afdeling 3 van dit hoofdstuk kan geen uit de wet of uit de verzekeringsovereenkomst voortvloeiende nietigheid, verweer, vrijstelling of verval door een verzekeraar aan een benadeelde worden tegengeworpen.\n\nElke verzekeringsovereenkomst met het oog op de uitvoering van deze wet gesloten, wordt, ten opzichte van de benadeelde, van rechtswege geacht elk risico te dekken dat verplicht verzekerd moet zijn.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Sans préjudice des dispositions de la section 3 du présent chapitre, aucune nullité, aucune exception, franchise ou déchéance dérivant de la loi ou du contrat d'assurance ne peut être opposée par l'assureur à la personne lésée.</p><p>Tout contrat d'assurance conclu en vue de l'exécution de la présente loi est réputé couvrir de plein droit, à l'égard de la personne lésée, tous les risques qui doivent obligatoirement être assurés.</p>",
+  "content_html_nl": "<p>Onverminderd het bepaalde in afdeling 3 van dit hoofdstuk kan geen uit de wet of uit de verzekeringsovereenkomst voortvloeiende nietigheid, verweer, vrijstelling of verval door een verzekeraar aan een benadeelde worden tegengeworpen.</p><p>Elke verzekeringsovereenkomst met het oog op de uitvoering van deze wet gesloten, wordt, ten opzichte van de benadeelde, van rechtswege geacht elk risico te dekken dat verplicht verzekerd moet zijn.</p>",
+  "full_text_fr": "Sans préjudice des dispositions de la section 3 du présent chapitre, aucune nullité, aucune exception, franchise ou déchéance dérivant de la loi ou du contrat d'assurance ne peut être opposée par l'assureur à la personne lésée.\n\nTout contrat d'assurance conclu en vue de l'exécution de la présente loi est réputé couvrir de plein droit, à l'égard de la personne lésée, tous les risques qui doivent obligatoirement être assurés.",
+  "full_text_nl": "Onverminderd het bepaalde in afdeling 3 van dit hoofdstuk kan geen uit de wet of uit de verzekeringsovereenkomst voortvloeiende nietigheid, verweer, vrijstelling of verval door een verzekeraar aan een benadeelde worden tegengeworpen.\n\nElke verzekeringsovereenkomst met het oog op de uitvoering van deze wet gesloten, wordt, ten opzichte van de benadeelde, van rechtswege geacht elk risico te dekken dat verplicht verzekerd moet zijn.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "odjchfvong",
+  "anchor_id_nl": "cbz49yps4u",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "06c2bf2e88c1",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

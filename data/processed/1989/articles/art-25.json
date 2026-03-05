@@ -1,0 +1,45 @@
+{
+  "law_id": "1989",
+  "article_number": "25",
+  "slug": "art-25",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 25",
+  "title_nl": "Artikel 25",
+  "title_ru": "",
+  "content_md_fr": "En condamnant le propriétaire du véhicule automoteur pour infraction à l'[article 22](#art22), les tribunaux peuvent ordonner que la somme d'argent visée à l'[article 21, § 2, alinéa 2](#21p2), ou le produit de l'aliénation visée à l'[article 21, § 3](#21p3), soit, après déduction des frais de saisie et de conservation du véhicule automoteur, affecté à la réparation des dommages causés par celui-ci par préférence à toute autre créance.",
+  "content_md_nl": "Bij veroordeling van de eigenaar van het motorrijtuig wegens overtreding van [artikel 22](#art22) kunnen de rechtbanken bevelen dat de geldsom bedoeld in [artikel 21, § 2, tweede lid](#21p2), of de opbrengst van de vervreemding bedoeld in [artikel 21, § 3](#21p3), na aftrek van de beslag- en bewaringskosten voor het motorrijtuig, bestemd wordt voor de vergoeding van de door dat rijtuig veroorzaakte schade, met voorrang boven iedere andere schuldvordering.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>En condamnant le propriétaire du véhicule automoteur pour infraction à l'<a href=\"#art22\">article 22</a>, les tribunaux peuvent ordonner que la somme d'argent visée à l'<a href=\"#21p2\">article 21, § 2, alinéa 2</a>, ou le produit de l'aliénation visée à l'<a href=\"#21p3\">article 21, § 3</a>, soit, après déduction des frais de saisie et de conservation du véhicule automoteur, affecté à la réparation des dommages causés par celui-ci par préférence à toute autre créance.</p>",
+  "content_html_nl": "<p>Bij veroordeling van de eigenaar van het motorrijtuig wegens overtreding van <a href=\"#art22\">artikel 22</a> kunnen de rechtbanken bevelen dat de geldsom bedoeld in <a href=\"#21p2\">artikel 21, § 2, tweede lid</a>, of de opbrengst van de vervreemding bedoeld in <a href=\"#21p3\">artikel 21, § 3</a>, na aftrek van de beslag- en bewaringskosten voor het motorrijtuig, bestemd wordt voor de vergoeding van de door dat rijtuig veroorzaakte schade, met voorrang boven iedere andere schuldvordering.</p>",
+  "full_text_fr": "En condamnant le propriétaire du véhicule automoteur pour infraction à l'article 22, les tribunaux peuvent ordonner que la somme d'argent visée à l'article 21, § 2, alinéa 2, ou le produit de l'aliénation visée à l'article 21, § 3, soit, après déduction des frais de saisie et de conservation du véhicule automoteur, affecté à la réparation des dommages causés par celui-ci par préférence à toute autre créance.",
+  "full_text_nl": "Bij veroordeling van de eigenaar van het motorrijtuig wegens overtreding van artikel 22 kunnen de rechtbanken bevelen dat de geldsom bedoeld in artikel 21, § 2, tweede lid, of de opbrengst van de vervreemding bedoeld in artikel 21, § 3, na aftrek van de beslag- en bewaringskosten voor het motorrijtuig, bestemd wordt voor de vergoeding van de door dat rijtuig veroorzaakte schade, met voorrang boven iedere andere schuldvordering.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art22",
+    "#21p2",
+    "#21p3"
+  ],
+  "anchor_id_fr": "uekb8fvezg",
+  "anchor_id_nl": "ldkuxtc36o",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "bd9695b05f8b",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

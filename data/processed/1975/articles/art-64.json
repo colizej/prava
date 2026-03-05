@@ -26,7 +26,246 @@
   "anchor_id_fr": "pjeuapwtrv",
   "anchor_id_nl": "4qe2bxm9as",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie un feu jaune-orange clignotant seul ou deux feux jaune-orange s'allumant alternativement, s'ils ne sont pas liés à un système tricolore complet ?",
+      "text_nl": "Wat betekent een alleenstaand knipperend oranjegeel licht of twee afwisselend knipperende oranjegele lichten, als ze niet verbonden zijn met een volledig driekleurig systeem?",
+      "text_ru": "Что означает одиночный мигающий желто-оранжевый сигнал или два попеременно мигающих желто-оранжевых сигнала, если они не связаны с полной трехцветной системой?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Arrêt obligatoire jusqu'à ce que le feu passe au vert.",
+          "text_nl": "Verplichte stop tot het licht groen wordt.",
+          "text_ru": "Обязательная остановка до тех пор, пока сигнал не станет зеленым.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal autorise le passage en redoublant de prudence, sans modifier les règles de priorité.",
+          "text_nl": "Signaal staat toe door te rijden met dubbele voorzichtigheid, zonder de voorrangsregels te wijzigen.",
+          "text_ru": "Сигнал разрешает проезд с повышенной осторожностью, не изменяя правил приоритета.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indique un danger immédiat nécessitant un arrêt complet.",
+          "text_nl": "Geeft onmiddellijk gevaar aan dat een volledige stop vereist.",
+          "text_ru": "Указывает на немедленную опасность, требующую полной остановки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu jaune-orange clignotant, qu'il soit seul, en double alternance, ou utilisé comme substitut du feu vert dans un système tricolore, autorise le franchissement sous réserve de redoubler de prudence. Il est important de noter qu'il ne modifie pas les règles de priorité existantes.",
+      "explanation_nl": "Een knipperend oranjegeel licht, of het nu alleen staat, afwisselend brandt, of als vervanging voor het groene licht in een driekleurig systeem wordt gebruikt, staat doorgang toe op voorwaarde van dubbele voorzichtigheid. Het is belangrijk op te merken dat het de bestaande voorrangsregels niet wijzigt.",
+      "explanation_ru": "Мигающий желто-оранжевый сигнал, будь то одиночный, попеременно горящий или используемый в качестве замены зеленого сигнала в трехцветной системе, разрешает проезд при условии повышенной осторожности. Важно отметить, что он не изменяет существующие правила приоритета."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la signification de deux feux rouges clignotant alternativement placés à un passage à niveau ?",
+      "text_nl": "Wat betekent het wanneer twee afwisselend knipperende rode lichten aan een overweg geplaatst zijn?",
+      "text_ru": "Что означает, когда два попеременно мигающих красных огня расположены на железнодорожном переезде?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Autorisation de traverser prudemment si aucun train n'est visible.",
+          "text_nl": "Toestemming om voorzichtig over te steken als er geen trein zichtbaar is.",
+          "text_ru": "Разрешение осторожно пересечь переезд, если поезд не виден.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Interdiction de franchir la ligne d'arrêt ou le signal lui-même s'il n'y a pas de ligne d'arrêt.",
+          "text_nl": "Verbod om de stopstreep voorbij te rijden, of het signaal zelf als er geen stopstreep is.",
+          "text_ru": "Запрет на пересечение стоп-линии или самого сигнала, если стоп-линия отсутствует.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indique que le passage à niveau est temporairement fermé pour entretien.",
+          "text_nl": "Geeft aan dat de overweg tijdelijk gesloten is voor onderhoud.",
+          "text_ru": "Указывает на то, что переезд временно закрыт для обслуживания.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Deux feux rouges clignotant alternativement à un passage à niveau signifient une interdiction formelle de le franchir. Les usagers doivent s'arrêter avant la ligne d'arrêt, ou au niveau du signal s'il n'y a pas de ligne d'arrêt.",
+      "explanation_nl": "Twee afwisselend knipperende rode lichten aan een overweg betekenen een formeel verbod om deze over te steken. Weggebruikers moeten stoppen voor de stopstreep, of op het niveau van het signaal als er geen stopstreep is.",
+      "explanation_ru": "Два попеременно мигающих красных огня на железнодорожном переезде означают формальный запрет на его пересечение. Пользователи должны остановиться перед стоп-линией или на уровне сигнала, если стоп-линия отсутствует."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel contexte un feu jaune-orange du système tricolore peut-il clignoter seul ?",
+      "text_nl": "In welke context kan het oranjegele licht van het driekleurige systeem alleen knipperen?",
+      "text_ru": "В каком контексте желто-оранжевый свет трехцветной системы может мигать отдельно?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsqu'il est utilisé pour indiquer un virage dangereux.",
+          "text_nl": "Wanneer het wordt gebruikt om een gevaarlijke bocht aan te geven.",
+          "text_ru": "Когда он используется для указания опасного поворота.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque l'ensemble du système tricolore ne fonctionne pas.",
+          "text_nl": "Wanneer het gehele driekleurige systeem niet in werking is.",
+          "text_ru": "Когда трехцветная система в целом не работает.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pendant les heures de pointe pour réguler le trafic.",
+          "text_nl": "Tijdens de spitsuren om het verkeer te reguleren.",
+          "text_ru": "В часы пик для регулирования движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le feu jaune-orange d'un système tricolore clignote seul lorsque l'ensemble du système est hors service, signalant ainsi que les règles de priorité habituelles sont toujours en vigueur mais que la prudence est de mise.",
+      "explanation_nl": "Het oranjegele licht van een driekleurig systeem knippert alleen wanneer het gehele systeem buiten werking is, wat aangeeft dat de gebruikelijke voorrangsregels nog steeds van kracht zijn, maar voorzichtigheid geboden is.",
+      "explanation_ru": "Желто-оранжевый свет трехцветной системы мигает отдельно, когда вся система неисправна, сигнализируя о том, что обычные правила приоритета все еще действуют, но требуется осторожность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un passage à niveau. Vous voyez deux feux rouges clignotant alternativement. Quelle est votre conduite à tenir ?",
+      "text_nl": "U nadert een overweg. U ziet twee afwisselend knipperende rode lichten. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к железнодорожному переезду. Вы видите два попеременно мигающих красных огня. Что вы должны сделать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Réduire ma vitesse et traverser prudemment si la voie est libre.",
+          "text_nl": "Mijn snelheid verminderen en voorzichtig oversteken als de baan vrij is.",
+          "text_ru": "Снизить скорость и осторожно пересечь, если путь свободен.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "M'arrêter avant la ligne d'arrêt et attendre que les feux cessent de clignoter.",
+          "text_nl": "Stoppen voor de stopstreep en wachten tot de lichten stoppen met knipperen.",
+          "text_ru": "Остановиться перед стоп-линией и ждать, пока огни перестанут мигать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer ma route car cela indique seulement une potentielle approche de train.",
+          "text_nl": "Doorrijden, want dit wijst alleen op de mogelijke nadering van een trein.",
+          "text_ru": "Продолжать движение, так как это лишь указывает на возможное приближение поезда.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque deux feux rouges clignotent alternativement à un passage à niveau, cela signifie une interdiction de passer. Il faut impérativement s'arrêter avant la ligne d'arrêt ou le signal, et attendre l'extinction des feux.",
+      "explanation_nl": "Wanneer twee rode lichten afwisselend knipperen aan een overweg, betekent dit een verbod om door te gaan. Het is absoluut noodzakelijk om te stoppen voor de stopstreep of het signaal en te wachten tot de lichten doven.",
+      "explanation_ru": "Когда два красных огня попеременно мигают на железнодорожном переезде, это означает запрет на проезд. Необходимо обязательно остановиться перед стоп-линией или сигналом и дождаться выключения огней."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes sur une route de campagne et vous voyez un feu jaune-orange clignotant seul au-dessus d'une intersection. Que devez-vous faire ?",
+      "text_nl": "U bent op een landweg en ziet een enkel knipperend oranjegeel licht boven een kruispunt. Wat moet u doen?",
+      "text_ru": "Вы находитесь на проселочной дороге и видите одиночный мигающий желто-оранжевый сигнал над перекрестком. Что вы должны сделать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Arrêter complètement le véhicule et attendre le feu vert.",
+          "text_nl": "Het voertuig volledig stoppen en wachten op groen licht.",
+          "text_ru": "Полностью остановить транспортное средство и ждать зеленого света.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Passer en faisant preuve d'une grande prudence, en respectant les règles de priorité habituelles.",
+          "text_nl": "Voorzichtig passeren, met inachtneming van de gebruikelijke voorrangsregels.",
+          "text_ru": "Проехать с большой осторожностью, соблюдая обычные правила приоритета.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer le signal car il n'est pas fonctionnel.",
+          "text_nl": "Het signaal negeren omdat het niet functioneel is.",
+          "text_ru": "Игнорировать сигнал, так как он не работает.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu jaune-orange clignotant autorise le passage, mais exige une prudence accrue. Les règles de priorité, comme celles s'appliquant à une intersection non signalisée, demeurent inchangées.",
+      "explanation_nl": "Een knipperend oranjegeel licht staat doorgang toe, maar vereist verhoogde voorzichtigheid. De voorrangsregels, zoals die van toepassing zijn op een ongesignaleerd kruispunt, blijven ongewijzigd.",
+      "explanation_ru": "Мигающий желто-оранжевый сигнал разрешает проезд, но требует повышенной осторожности. Правила приоритета, как и на нерегулируемом перекрестке, остаются неизменными."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez de nuit et approchez d'un feu tricolore qui ne fonctionne pas. Seul le feu jaune-orange clignote. Que devez-vous faire ?",
+      "text_nl": "U rijdt 's nachts en nadert een verkeerslicht dat niet werkt. Alleen het oranjegele licht knippert. Wat moet u doen?",
+      "text_ru": "Вы едете ночью и приближаетесь к неработающему светофору. Мигает только желто-оранжевый сигнал. Что вы должны делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous arrêter et attendre que le système se réactive.",
+          "text_nl": "Stoppen en wachten tot het systeem opnieuw wordt geactiveerd.",
+          "text_ru": "Остановиться и ждать, пока система снова активируется.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à une vitesse réduite et avec une grande prudence, en appliquant les règles de priorité.",
+          "text_nl": "Doorrijden met verminderde snelheid en grote voorzichtigheid, met toepassing van de voorrangsregels.",
+          "text_ru": "Продолжать движение с уменьшенной скоростью и большой осторожностью, применяя правила приоритета.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous considérer comme étant sur une route prioritaire.",
+          "text_nl": "Beschouwen dat u op een voorrangsweg bent.",
+          "text_ru": "Считать, что вы находитесь на главной дороге.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'un feu tricolore est hors service et que seul le feu jaune-orange clignote, cela signifie que vous pouvez passer en faisant preuve de prudence, sans que les règles de priorité ne soient modifiées. La prudence est d'autant plus de mise la nuit.",
+      "explanation_nl": "Wanneer een driekleurig verkeerslicht buiten werking is en alleen het oranjegele licht knippert, betekent dit dat u voorzichtig kunt passeren, zonder dat de voorrangsregels worden gewijzigd. Voorzichtigheid is 's nachts des te meer geboden.",
+      "explanation_ru": "Когда трехцветный светофор не работает и мигает только желто-оранжевый сигнал, это означает, что вы можете проехать с осторожностью, при этом правила приоритета не изменяются. Ночью осторожность особенно важна."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes au volant et un feu blanc lunaire clignote à un passage à niveau. Quelle est votre obligation en tant que conducteur ?",
+      "text_nl": "U bent aan het rijden en een maanwit knipperlicht knippert aan een overweg. Wat is uw verplichting als bestuurder?",
+      "text_ru": "Вы за рулем, и на железнодорожном переезде мигает лунно-белый сигнал. Какова ваша обязанность как водителя?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Arrêt obligatoire car il signale un danger potentiel.",
+          "text_nl": "Verplichte stop omdat het een potentieel gevaar signaleert.",
+          "text_ru": "Обязательная остановка, так как он сигнализирует о потенциальной опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez vous arrêter pour laisser passer d'éventuels piétons.",
+          "text_nl": "U moet stoppen om eventuele voetgangers te laten passeren.",
+          "text_ru": "Вы должны остановиться, чтобы пропустить возможных пешеходов.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous êtes autorisé à franchir le signal.",
+          "text_nl": "U mag het signaal voorbijrijden.",
+          "text_ru": "Вам разрешено проехать сигнал.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un feu blanc lunaire clignotant placé à un passage à niveau signifie que le passage est libre et que vous êtes autorisé à le franchir.",
+      "explanation_nl": "Een knipperend maanwit licht geplaatst aan een overweg betekent dat de doorgang vrij is en dat u deze mag passeren.",
+      "explanation_ru": "Мигающий лунно-белый сигнал, расположенный на железнодорожном переезде, означает, что проезд свободен и вам разрешено его пересечь."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "48423f5de118",
@@ -36,6 +275,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:22:36Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 7
   }
 }

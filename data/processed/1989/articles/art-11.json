@@ -1,0 +1,43 @@
+{
+  "law_id": "1989",
+  "article_number": "11",
+  "slug": "art-11",
+  "structure": {
+    "titre": null,
+    "chapitre": "III"
+  },
+  "title_fr": "Article 11",
+  "title_nl": "Artikel 11",
+  "title_ru": "",
+  "content_md_fr": "**§ 1er.** Les véhicules automoteurs ayant leur stationnement habituel en dehors du territoire de la Belgique seront dispensés, en Belgique, de l'application de [l'article 2](#art-2) lorsqu'ils seront munis d'une attestation du gouvernement d'un autre État constatant que le véhicule appartient à cet État ou, s'il s'agit d'un État fédéral, à celui-ci ou à un de ses pays membres; dans ce dernier cas, l'attestation sera délivrée par le gouvernement fédéral.\n\n§ 2. Cette attestation désignera l'autorité ou l'organisme qui sera chargé de réparer le dommage conformément à la loi belge et qui sera susceptible d'être cité devant les juridictions compétentes selon cette loi. L'État ou le pays auquel appartient ce véhicule se portera garant dudit règlement.",
+  "content_md_nl": "§ 1. De motorrijtuigen die gewoonlijk gestald zijn buiten het grondgebied van België, zijn in België vrijgesteld van de toepassing van [artikel 2](#art-2) wanneer zij in het bezit zijn van een verklaring afgegeven door de regering van een andere Staat, waaruit blijkt dat het rijtuig aan die Staat toebehoort of, indien het een federale Staat betreft, dat het aan die Staat of aan een van zijn deelstaten toebehoort; in dit laatste geval wordt de verklaring afgegeven door de federale regering.\n\n§ 2. In die verklaring wordt de autoriteit of de instelling aangewezen die belast is met de vergoeding van de schade overeenkomstig de Belgische wet, en volgens die wet gedagvaard kan worden voor de bevoegde rechter. De Staat of het land waaraan dat rijtuig toebehoort staat in voor de afdoening ervan.",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>§ 1<sup>er</sup>.</strong> Les véhicules automoteurs ayant leur stationnement habituel en dehors du territoire de la Belgique seront dispensés, en Belgique, de l'application de <a href=\"#art-2\">l'article 2</a> lorsqu'ils seront munis d'une attestation du gouvernement d'un autre État constatant que le véhicule appartient à cet État ou, s'il s'agit d'un État fédéral, à celui-ci ou à un de ses pays membres; dans ce dernier cas, l'attestation sera délivrée par le gouvernement fédéral.</p><p>§ 2. Cette attestation désignera l'autorité ou l'organisme qui sera chargé de réparer le dommage conformément à la loi belge et qui sera susceptible d'être cité devant les juridictions compétentes selon cette loi. L'État ou le pays auquel appartient ce véhicule se portera garant dudit règlement.</p>",
+  "content_html_nl": "<p>§ 1. De motorrijtuigen die gewoonlijk gestald zijn buiten het grondgebied van België, zijn in België vrijgesteld van de toepassing van <a href=\"#art-2\">artikel 2</a> wanneer zij in het bezit zijn van een verklaring afgegeven door de regering van een andere Staat, waaruit blijkt dat het rijtuig aan die Staat toebehoort of, indien het een federale Staat betreft, dat het aan die Staat of aan een van zijn deelstaten toebehoort; in dit laatste geval wordt de verklaring afgegeven door de federale regering.</p><p>§ 2. In die verklaring wordt de autoriteit of de instelling aangewezen die belast is met de vergoeding van de schade overeenkomstig de Belgische wet, en volgens die wet gedagvaard kan worden voor de bevoegde rechter. De Staat of het land waaraan dat rijtuig toebehoort staat in voor de afdoening ervan.</p>",
+  "full_text_fr": "§ 1er. Les véhicules automoteurs ayant leur stationnement habituel en dehors du territoire de la Belgique seront dispensés, en Belgique, de l'application de l'article 2 lorsqu'ils seront munis d'une attestation du gouvernement d'un autre État constatant que le véhicule appartient à cet État ou, s'il s'agit d'un État fédéral, à celui-ci ou à un de ses pays membres; dans ce dernier cas, l'attestation sera délivrée par le gouvernement fédéral.\n\n§ 2. Cette attestation désignera l'autorité ou l'organisme qui sera chargé de réparer le dommage conformément à la loi belge et qui sera susceptible d'être cité devant les juridictions compétentes selon cette loi. L'État ou le pays auquel appartient ce véhicule se portera garant dudit règlement.",
+  "full_text_nl": "§ 1. De motorrijtuigen die gewoonlijk gestald zijn buiten het grondgebied van België, zijn in België vrijgesteld van de toepassing van artikel 2 wanneer zij in het bezit zijn van een verklaring afgegeven door de regering van een andere Staat, waaruit blijkt dat het rijtuig aan die Staat toebehoort of, indien het een federale Staat betreft, dat het aan die Staat of aan een van zijn deelstaten toebehoort; in dit laatste geval wordt de verklaring afgegeven door de federale regering.\n\n§ 2. In die verklaring wordt de autoriteit of de instelling aangewezen die belast is met de vergoeding van de schade overeenkomstig de Belgische wet, en volgens die wet gedagvaard kan worden voor de bevoegde rechter. De Staat of het land waaraan dat rijtuig toebehoort staat in voor de afdoening ervan.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-2"
+  ],
+  "anchor_id_fr": "gplniin80d",
+  "anchor_id_nl": "xffedrg6jw",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "8e3ae5de201a",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

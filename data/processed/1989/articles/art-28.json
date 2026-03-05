@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "28",
+  "slug": "art-28",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 28",
+  "title_nl": "Artikel 28",
+  "title_ru": "",
+  "content_md_fr": "Les dispositions du livre Ier du Code pénal, y compris le chapitre VII et l'article 85, mais à l'exception de l'article 43, alinéa 1er, sont applicables aux infractions prévues par la présente loi.",
+  "content_md_nl": "De bepalingen van boek I van het Strafwetboek, met inbegrip van hoofdstuk VII en artikel 85, doch met uitzondering van artikel 43, eerste lid, zijn toepasselijk op de misdrijven bedoeld door deze wet.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Les dispositions du livre Ier du Code pénal, y compris le chapitre VII et l'article 85, mais à l'exception de l'article 43, alinéa 1<sup>er</sup>, sont applicables aux infractions prévues par la présente loi.</p>",
+  "content_html_nl": "<p>De bepalingen van boek I van het Strafwetboek, met inbegrip van hoofdstuk VII en artikel 85, doch met uitzondering van artikel 43, eerste lid, zijn toepasselijk op de misdrijven bedoeld door deze wet.</p>",
+  "full_text_fr": "Les dispositions du livre Ier du Code pénal, y compris le chapitre VII et l'article 85, mais à l'exception de l'article 43, alinéa 1er, sont applicables aux infractions prévues par la présente loi.",
+  "full_text_nl": "De bepalingen van boek I van het Strafwetboek, met inbegrip van hoofdstuk VII en artikel 85, doch met uitzondering van artikel 43, eerste lid, zijn toepasselijk op de misdrijven bedoeld door deze wet.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "2vo1w5waf6",
+  "anchor_id_nl": "1y6rmhiosf",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "c069025d0022",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

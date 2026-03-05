@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "37",
+  "slug": "art-37",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 37. Liste des actes réglementaires pour lesquels un constructeur peut être désigné en tant que service technique",
+  "title_nl": "Bijlage 37. Lijst van de regelgevingen waarvoor een fabrikant als technische dienst kan worden aangewezen",
+  "title_ru": "",
+  "content_md_fr": "|  | Objet | Référence de l'acte réglementaire |\n| --- | --- | --- |\n| Directive ou règlement | Règlement CEE-ONU équivalent (*) |\n| 46. | Pneumatiques | Directive 92/23/EEG | 30, 54, 117 |\n| 61. | Système de climatisation | Directive 2006/40/EEG | - |\n\n(*) Voir annexe 26, partie II.",
+  "content_md_nl": "|  | Onderwerp | Regelgeving |\n| --- | --- | --- |\n| Richtlijn of verordening | Gelijkwaardig VN/ECE-reglement (*) |\n| 46. | Banden | Richtlijn 92/23/EEG | 30, 54, 117 |\n| 61. | Klimaatregelingsapparatuur | Richtlijn 2006/40/EEG | - |\n\n(*) Zie bijlage 26, deel II.",
+  "content_md_ru": "",
+  "content_html_fr": "<table border=\"1\">\n<tbody>\n<tr>\n<td rowspan=\"2\"> </td>\n<td rowspan=\"2\">Objet</td>\n<td align=\"center\" colspan=\"2\">Référence de l'acte réglementaire</td>\n</tr>\n<tr>\n<td align=\"center\">Directive ou règlement</td>\n<td align=\"center\">Règlement CEE-ONU équivalent (*)</td>\n</tr>\n<tr>\n<td>46.</td>\n<td>Pneumatiques</td>\n<td align=\"center\">Directive 92/23/EEG</td>\n<td align=\"center\">30, 54, 117</td>\n</tr>\n<tr>\n<td>61.</td>\n<td>Système de climatisation</td>\n<td align=\"center\">Directive 2006/40/EEG</td>\n<td align=\"center\">-</td>\n</tr>\n</tbody>\n</table><p>(*) Voir annexe 26, partie II.</p>",
+  "content_html_nl": "<table border=\"1\">\n<tbody>\n<tr>\n<td rowspan=\"2\"> </td>\n<td rowspan=\"2\">Onderwerp</td>\n<td align=\"center\" colspan=\"2\">Regelgeving</td>\n</tr>\n<tr>\n<td align=\"center\">Richtlijn of verordening</td>\n<td align=\"center\">Gelijkwaardig VN/ECE-reglement (*)</td>\n</tr>\n<tr>\n<td>46.</td>\n<td>Banden</td>\n<td align=\"center\">Richtlijn 92/23/EEG</td>\n<td align=\"center\">30, 54, 117</td>\n</tr>\n<tr>\n<td>61.</td>\n<td>Klimaatregelingsapparatuur</td>\n<td align=\"center\">Richtlijn 2006/40/EEG</td>\n<td align=\"center\">-</td>\n</tr>\n</tbody>\n</table><p>(*) Zie bijlage 26, deel II.</p>",
+  "full_text_fr": "|  | Objet | Référence de l'acte réglementaire |\n| Directive ou règlement | Règlement CEE-ONU équivalent () |\n| 46. | Pneumatiques | Directive 92/23/EEG | 30, 54, 117 |\n| 61. | Système de climatisation | Directive 2006/40/EEG | - |\n\n() Voir annexe 26, partie II.",
+  "full_text_nl": "|  | Onderwerp | Regelgeving |\n| Richtlijn of verordening | Gelijkwaardig VN/ECE-reglement () |\n| 46. | Banden | Richtlijn 92/23/EEG | 30, 54, 117 |\n| 61. | Klimaatregelingsapparatuur | Richtlijn 2006/40/EEG | - |\n\n() Zie bijlage 26, deel II.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "r2jnwqbdij",
+  "anchor_id_nl": "dwbusjyhfq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "8d63eda107df",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

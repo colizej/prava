@@ -1,0 +1,41 @@
+{
+  "law_id": "2001",
+  "article_number": "18",
+  "slug": "art-18",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 18",
+  "title_nl": "Artikel 18",
+  "title_ru": "",
+  "content_md_fr": "Le ministre fixe les dimensions, la forme, la couleur et le contenu du certificat d'immatriculation.",
+  "content_md_nl": "De minister stelt de afmetingen, de vorm, de kleur en de inhoud van het kentekenbewijs vast.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le ministre fixe les dimensions, la forme, la couleur et le contenu du certificat d'immatriculation.</p>",
+  "content_html_nl": "<p>De minister stelt de afmetingen, de vorm, de kleur en de inhoud van het kentekenbewijs vast.</p>",
+  "full_text_fr": "Le ministre fixe les dimensions, la forme, la couleur et le contenu du certificat d'immatriculation.",
+  "full_text_nl": "De minister stelt de afmetingen, de vorm, de kleur en de inhoud van het kentekenbewijs vast.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "gs0movpeif",
+  "anchor_id_nl": "10lpj8agwn",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "f272ff15d96b",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

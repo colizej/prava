@@ -28,7 +28,267 @@
   "anchor_id_fr": "lw8ttdtedl",
   "anchor_id_nl": "fwlaympahs",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la signification du feu rouge sur un signal lumineux de circulation pour piétons ?",
+      "text_nl": "Wat betekent het rode licht op een verkeerslicht voor voetgangers?",
+      "text_ru": "Что означает красный свет на пешеходном светофоре?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A traffic light signal for pedestrians with a red pedestrian silhouette illuminated."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Autorisation de s'engager sur la chaussée.",
+          "text_nl": "Toelating om zich op de rijbaan te begeven.",
+          "text_ru": "Разрешение выхода на проезжую часть.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Interdiction de s'engager sur la chaussée.",
+          "text_nl": "Verboden om zich op de rijbaan te begeven.",
+          "text_ru": "Запрет выхода на проезжую часть.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le feu est également vert dans la direction transversale.",
+          "text_nl": "Het licht is ook groen in de dwarsrichting.",
+          "text_ru": "Свет также зеленый в поперечном направлении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le feu rouge sur un signal lumineux pour piétons signifie qu'il est interdit de s'engager sur la chaussée.",
+      "explanation_nl": "Het rode licht op een voetgangerslicht betekent dat het verboden is zich op de rijbaan te begeven.",
+      "explanation_ru": "Красный свет на пешеходном светофоре означает запрет выхода на проезжую часть."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie la présence de flèches entourant la silhouette d'un piéton sur un feu de circulation ?",
+      "text_nl": "Wat betekent de aanwezigheid van pijlen rond de silhouet van een voetganger op een verkeerslicht?",
+      "text_ru": "Что означает наличие стрелок, окружающих силуэт пешехода на светофоре?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A traffic light signal for pedestrians with a green pedestrian silhouette surrounded by arrows."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les piétons doivent se diriger dans la direction indiquée par les flèches.",
+          "text_nl": "Voetgangers moeten zich in de richting van de pijlen begeven.",
+          "text_ru": "Пешеходы должны двигаться в направлении, указанном стрелками.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le feu est vert pour les piétons et rouge pour les véhicules venant de la direction des flèches.",
+          "text_nl": "Het licht is groen voor voetgangers en rood voor voertuigen uit de richting van de pijlen.",
+          "text_ru": "Свет зеленый для пешеходов и красный для транспортных средств, движущихся со стороны стрелок.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le feu est simultanément au vert ou au rouge dans la direction transversale, et s'applique uniquement aux piétons.",
+          "text_nl": "Het licht is tegelijkertijd groen of rood in de dwarsrichting en geldt alleen voor voetgangers.",
+          "text_ru": "Свет одновременно зеленый или красный в поперечном направлении и применяется только к пешеходам.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque la silhouette d'un piéton est entourée de flèches, cela indique que le feu est simultanément vert ou rouge dans la direction transversale, et ces signaux ne s'appliquent qu'aux piétons.",
+      "explanation_nl": "Als het voetgangerssilhouet omringd is door pijltjes, betekent dit dat het licht tegelijkertijd groen of rood geldt in de dwarsrichting, en deze lichten gelden alleen voor voetgangers.",
+      "explanation_ru": "Когда силуэт пешехода окружен стрелками, это указывает на то, что свет одновременно зеленый или красный в поперечном направлении, и эти сигналы применяются только к пешеходам."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la différence visuelle entre le feu rouge et le feu vert d'un signal lumineux pour piétons ?",
+      "text_nl": "Wat is het visuele verschil tussen het rode en groene licht van een voetgangerslicht?",
+      "text_ru": "Какова визуальная разница между красным и зеленым светом пешеходного светофора?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Comparison of pedestrian traffic light signals: red light shows a static pedestrian silhouette, green light shows a walking pedestrian silhouette."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le feu rouge montre un piéton marchant, le feu vert montre un piéton immobile.",
+          "text_nl": "Het rode licht toont een lopende voetganger, het groene licht toont een stilstaande voetganger.",
+          "text_ru": "Красный свет показывает идущего пешехода, зеленый свет показывает неподвижного пешехода.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le feu rouge montre un piéton immobile, le feu vert montre un piéton en marche.",
+          "text_nl": "Het rode licht toont een stilstaande voetganger, het groene licht toont een lopende voetganger.",
+          "text_ru": "Красный свет показывает неподвижного пешехода, зеленый свет показывает идущего пешехода.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il n'y a pas de différence visuelle, seuls les changements de couleur indiquent la signification.",
+          "text_nl": "Er is geen visueel verschil, alleen kleurveranderingen geven de betekenis aan.",
+          "text_ru": "Визуальной разницы нет, только изменение цвета указывает на значение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le feu rouge présente la silhouette d'un piéton immobile, tandis que le feu vert présente la silhouette d'un piéton en marche.",
+      "explanation_nl": "Het rode licht stelt de silhouet van een stilstaande voetganger voor, terwijl het groene licht de silhouet van een lopende voetganger voorstelt.",
+      "explanation_ru": "Красный свет изображает силуэт неподвижного пешехода, в то время как зеленый свет изображает силуэт идущего пешехода."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un piéton et vous vous apprêtez à traverser une rue. Le signal lumineux pour piétons affiche un feu vert avec un piéton en marche. Que pouvez-vous faire ?",
+      "text_nl": "U bent een voetganger en staat op het punt een straat over te steken. Het voetgangerslicht toont een groen licht met een lopende voetganger. Wat kunt u doen?",
+      "text_ru": "Вы пешеход и собираетесь перейти улицу. Пешеходный светофор показывает зеленый свет с идущим пешеходом. Что вы можете сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian is standing at a crosswalk, facing a green pedestrian traffic light showing a walking figure. The street is clear."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Attendre que le feu passe au rouge pour s'assurer que c'est sûr.",
+          "text_nl": "Wachten tot het licht rood wordt om zeker te zijn van de veiligheid.",
+          "text_ru": "Подождать, пока свет не станет красным, чтобы убедиться в безопасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'engager sur la chaussée en faisant attention à la circulation.",
+          "text_nl": "De rijbaan opgaan en op het verkeer letten.",
+          "text_ru": "Выйти на проезжую часть, обращая внимание на движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander la permission aux automobilistes avant de traverser.",
+          "text_nl": "De toestemming van automobilisten vragen voordat u oversteekt.",
+          "text_ru": "Спросить разрешения у водителей перед переходом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu vert pour piétons signifie autorisation de s'engager sur la chaussée. Il est toujours conseillé de vérifier la circulation, même avec un feu vert.",
+      "explanation_nl": "Een groen licht voor voetgangers betekent toestemming om de rijbaan op te gaan. Het is altijd aan te raden om het verkeer te controleren, zelfs met groen licht.",
+      "explanation_ru": "Зеленый свет для пешеходов означает разрешение выхода на проезжую часть. Всегда рекомендуется проверять дорожную обстановку, даже при зеленом свете."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes à un carrefour avec un feu de circulation combiné pour piétons et cyclistes. Le feu montre la silhouette d'un piéton et d'une bicyclette, et il est vert. Qui est autorisé à utiliser la traversée ?",
+      "text_nl": "U staat op een kruispunt met een gecombineerd voetgangers-fietserslicht. Het licht toont het silhouet van een voetganger en een fiets, en het is groen. Wie mag de oversteekplaats gebruiken?",
+      "text_ru": "Вы находитесь на перекрестке с комбинированным светофором для пешеходов и велосипедистов. Свет показывает силуэт пешехода и велосипеда, и он зеленый. Кто имеет право пользоваться переходом?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A combined pedestrian and cyclist traffic light showing a green silhouette of both a pedestrian and a bicycle."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement les piétons.",
+          "text_nl": "Alleen voetgangers.",
+          "text_ru": "Только пешеходы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Seulement les cyclistes.",
+          "text_nl": "Alleen fietsers.",
+          "text_ru": "Только велосипедисты.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les piétons, les cyclistes et les conducteurs de cyclomoteurs à deux roues autorisés sur la piste cyclable.",
+          "text_nl": "Voetgangers, fietsers en bestuurders van tweewielige bromfietsen die op het fietspad mogen rijden.",
+          "text_ru": "Пешеходы, велосипедисты и водители двухколесных мопедов, которым разрешено движение по велодорожке.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les feux combinés pour piétons et cyclistes s'appliquent aux piétons, aux cyclistes et aux conducteurs de cyclomoteurs à deux roues s'ils sont autorisés à circuler sur la piste cyclable.",
+      "explanation_nl": "Gecombineerde voetgangers-fietserslichten gelden voor voetgangers, fietsers en bestuurders van tweewielige bromfietsen indien ze op het fietspad mogen rijden.",
+      "explanation_ru": "Комбинированные светофоры для пешеходов и велосипедистов применяются к пешеходам, велосипедистам и водителям двухколесных мопедов, если им разрешено движение по велодорожке."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes un piéton sur le point de traverser. Le feu de circulation pour piétons affiche un feu rouge avec un piéton immobile. Que devez-vous faire ?",
+      "text_nl": "U bent een voetganger die op het punt staat over te steken. Het voetgangerslicht toont een rood licht met een stilstaande voetganger. Wat moet u doen?",
+      "text_ru": "Вы пешеход, собирающийся перейти дорогу. Пешеходный светофор показывает красный свет с неподвижным пешеходом. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian is standing at a crosswalk, facing a red pedestrian traffic light showing a static figure. The street is clear."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Traverser rapidement avant que le feu ne change.",
+          "text_nl": "Snel oversteken voordat het licht verandert.",
+          "text_ru": "Быстро перейти, пока свет не изменится.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Attendre sur le trottoir.",
+          "text_nl": "Wachten op de stoep.",
+          "text_ru": "Ждать на тротуаре.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander aux autres piétons s'ils pensent qu'il est sûr de traverser.",
+          "text_nl": "Andere voetgangers vragen of zij denken dat het veilig is om over te steken.",
+          "text_ru": "Спросить других пешеходов, безопасно ли переходить.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le feu rouge pour piétons signifie qu'il est interdit de s'engager sur la chaussée. Vous devez attendre sur le trottoir jusqu'à ce que le feu passe au vert.",
+      "explanation_nl": "Het rode licht voor voetgangers betekent dat het verboden is de rijbaan op te gaan. U moet op de stoep wachten totdat het licht groen wordt.",
+      "explanation_ru": "Красный свет для пешеходов означает запрет выхода на проезжую часть. Вы должны ждать на тротуаре, пока свет не станет зеленым."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes sur le point de traverser une rue avec un feu piéton vert. Le feu vert commence soudainement à clignoter. Que signifie ce clignotement ?",
+      "text_nl": "U staat op het punt een straat over te steken met een groen voetgangerslicht. Het groene licht begint plotseling te knipperen. Wat betekent dit knipperen?",
+      "text_ru": "Вы собираетесь перейти улицу на зеленый пешеходный свет. Зеленый свет внезапно начинает мигать. Что означает это мигание?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian traffic light showing a blinking green pedestrian silhouette."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le feu va bientôt passer au rouge.",
+          "text_nl": "Het licht wordt binnenkort rood.",
+          "text_ru": "Свет скоро станет красным.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le feu va rester vert plus longtemps.",
+          "text_nl": "Het licht blijft langer groen.",
+          "text_ru": "Свет останется зеленым дольше.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est maintenant permis de traverser dans toutes les directions.",
+          "text_nl": "Het is nu toegestaan om in alle richtingen over te steken.",
+          "text_ru": "Теперь разрешено переходить во всех направлениях.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le clignotement du feu vert pour piétons annonce la fin de l'autorisation de s'engager sur la chaussée. Cela signifie que le feu va bientôt passer au rouge et qu'il faut être prudent.",
+      "explanation_nl": "Het knipperen van het groene voetgangerslicht kondigt het einde van de toelating aan om de rijbaan op te gaan. Dit betekent dat het licht binnenkort rood wordt en dat men voorzichtig moet zijn.",
+      "explanation_ru": "Мигание зеленого пешеходного света сигнализирует об окончании разрешения выходить на проезжую часть. Это означает, что свет скоро станет красным, и нужно быть осторожным."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "c64d671ef08a",
@@ -38,6 +298,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:22:15Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 7
   }
 }

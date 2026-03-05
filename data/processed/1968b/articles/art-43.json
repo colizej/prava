@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "43",
+  "slug": "art-43",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 43. (uniquement Région flamande)",
+  "title_nl": "Bijlage 43. (enkel Vlaams Gewest)",
+  "title_ru": "",
+  "content_md_fr": "[PDF](/media/file/ccb9d2d884704f1aad30f6605c84eedab6d4d9df.pdf)",
+  "content_md_nl": "[PDF](/media/file/ccb9d2d884704f1aad30f6605c84eedab6d4d9df.pdf)",
+  "content_md_ru": "",
+  "content_html_fr": "<p><a href=\"/media/file/ccb9d2d884704f1aad30f6605c84eedab6d4d9df.pdf\">PDF</a></p>",
+  "content_html_nl": "<p><a href=\"/media/file/ccb9d2d884704f1aad30f6605c84eedab6d4d9df.pdf\">PDF</a></p>",
+  "full_text_fr": "PDF",
+  "full_text_nl": "PDF",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ydovoaa2sr",
+  "anchor_id_nl": "aourleokbi",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "e052605b5e04",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

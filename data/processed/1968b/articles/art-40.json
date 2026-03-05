@@ -1,0 +1,51 @@
+{
+  "law_id": "1968b",
+  "article_number": "40",
+  "slug": "art-40",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 40. Certificat d'origine du véhicule",
+  "title_nl": "Bijlage 40. Certificaat van oorsprong van het voertuig",
+  "title_ru": "",
+  "content_md_fr": "> 📎 PDF",
+  "content_md_nl": "> 📎 PDF",
+  "content_md_ru": "",
+  "content_html_fr": "<div class=\"notification notification-secondary\"><a href=\"/media/file/c27ece560e0a308081d33149f1bfbbcb0015cddb.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "content_html_nl": "<div class=\"notification notification-secondary\"><a href=\"/media/file/24d0474a85fd8e4fe9711d24320e051971ad41fd.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "full_text_fr": "PDF",
+  "full_text_nl": "PDF",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ksu175me9w",
+  "anchor_id_nl": "iomvrgw3ex",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "4fd1e8c2aaaf",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "law_id": "1968b",
+  "article_number": "38",
+  "slug": "art-38",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 38. Liste des actes réglementaires pour lesquels un constructeur ou un service technique est autorisé à utiliser des méthodes virtuelles d'essai",
+  "title_nl": "Bijlage 38. Lijst van regelgevingen waarvoor virtuele testmethodes mogen worden gebruikt door een fabrikant of een technische dienst",
+  "title_ru": "",
+  "content_md_fr": "> 📎 PDF",
+  "content_md_nl": "> 📎 PDF",
+  "content_md_ru": "",
+  "content_html_fr": "<div class=\"notification notification-secondary\"><a href=\"/media/file/e3080b2f34a171387e530c348c5aa319a0e7a67c.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "content_html_nl": "<div class=\"notification notification-secondary\"><a href=\"/media/file/9a6e9248b350160f1db2149091bcd4ac3c38216b.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "full_text_fr": "PDF",
+  "full_text_nl": "PDF",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "l71kb8bbxa",
+  "anchor_id_nl": "axpi5nbgb4",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "4fd1e8c2aaaf",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

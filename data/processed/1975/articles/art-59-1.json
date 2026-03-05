@@ -26,7 +26,110 @@
   "anchor_id_fr": "1qboiorkz8",
   "anchor_id_nl": "wxc1bkjwjx",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quelles circonstances des dérogations exceptionnelles aux règles de circulation peuvent-elles être autorisées pour des périodes limitées ?",
+      "text_nl": "In welke omstandigheden kunnen uitzonderlijke afwijkingen van de verkeersregels voor beperkte periodes worden toegestaan?",
+      "text_ru": "При каких обстоятельствах могут быть разрешены исключительные отклонения от правил дорожного движения на ограниченный период времени?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lors de compétitions sportives autorisées sur la voie publique.",
+          "text_nl": "Tijdens sportwedstrijden die op de openbare weg zijn toegestaan.",
+          "text_ru": "Во время спортивных соревнований, разрешенных на дорогах общего пользования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dans le cadre d'essais ou de projets pilotes, sous conditions spécifiques.",
+          "text_nl": "In het kader van experimenten of pilootprojecten, onder specifieke voorwaarden.",
+          "text_ru": "В рамках испытаний или пилотных проектов при соблюдении особых условий.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour des raisons de sécurité en cas de forte affluence.",
+          "text_nl": "Om veiligheidsredenen bij grote drukte.",
+          "text_ru": "По соображениям безопасности при большом скоплении людей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Des dérogations exceptionnelles aux règles de circulation peuvent être autorisées pour des périodes limitées dans le cadre d'essais ou de projets pilotes, sous des conditions déterminées par l'autorité compétente.",
+      "explanation_nl": "Uitzonderlijke afwijkingen van de verkeersregels kunnen voor beperkte periodes worden toegestaan in het kader van experimenten of pilootprojecten, onder door de bevoegde autoriteit bepaalde voorwaarden.",
+      "explanation_ru": "Исключительные отклонения от правил дорожного движения могут быть разрешены на ограниченный период времени в рамках испытаний или пилотных проектов при соблюдении условий, определенных компетентным органом."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui a le pouvoir d'autoriser des dérogations temporaires aux règlements de circulation dans le cadre de projets expérimentaux ?",
+      "text_nl": "Wie heeft de bevoegdheid om tijdelijke afwijkingen van de verkeersreglementen toe te staan in het kader van experimentele projecten?",
+      "text_ru": "Кто имеет право разрешать временные отступления от правил дорожного движения в рамках экспериментальных проектов?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le chef de la police locale.",
+          "text_nl": "De lokale politiechef.",
+          "text_ru": "Начальник местной полиции.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le bourgmestre de la commune.",
+          "text_nl": "De burgemeester van de gemeente.",
+          "text_ru": "Мэр муниципалитета.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le ministre compétent pour la circulation routière ou son délégué.",
+          "text_nl": "De minister bevoegd voor het wegverkeer of diens afgevaardigde.",
+          "text_ru": "Министр, ответственный за дорожное движение, или его уполномоченный.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'autorité compétente pour autoriser ces dérogations exceptionnelles est le ministre qui a la circulation routière dans ses attributions ou son délégué.",
+      "explanation_nl": "De bevoegde autoriteit om deze uitzonderlijke afwijkingen toe te staan is de minister bevoegd voor het wegverkeer of diens afgevaardigde.",
+      "explanation_ru": "Компетентным органом для разрешения таких исключительных отклонений является министр, ответственный за дорожное движение, или его уполномоченный."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la nature des dérogations autorisées dans le cadre d'essais ou de projets pilotes ?",
+      "text_nl": "Wat is de aard van de afwijkingen die zijn toegestaan in het kader van experimenten of pilootprojecten?",
+      "text_ru": "Каков характер отклонений, разрешенных в рамках испытаний или пилотных проектов?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont permanentes et s'appliquent à tous les usagers.",
+          "text_nl": "Ze zijn permanent en van toepassing op alle weggebruikers.",
+          "text_ru": "Они являются постоянными и применяются ко всем участникам дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles sont exceptionnelles, limitées dans le temps et sous conditions.",
+          "text_nl": "Ze zijn uitzonderlijk, beperkt in de tijd en onder voorwaarden.",
+          "text_ru": "Они являются исключительными, ограниченными во времени и обусловленными.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles sont décidées par les conducteurs en fonction de la situation.",
+          "text_nl": "Ze worden door de bestuurders beslist afhankelijk van de situatie.",
+          "text_ru": "Они решаются водителями в зависимости от ситуации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dérogations autorisées dans le cadre d'essais ou de projets pilotes sont exceptionnelles, à durée limitée et soumises aux conditions fixées par l'autorité compétente.",
+      "explanation_nl": "De afwijkingen die zijn toegestaan in het kader van experimenten of pilootprojecten zijn uitzonderlijk, voor een beperkte duur en onderworpen aan de door de bevoegde autoriteit vastgestelde voorwaarden.",
+      "explanation_ru": "Отклонения, разрешенные в рамках испытаний или пилотных проектов, являются исключительными, ограниченными по времени и подлежат условиям, установленным компетентным органом."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "4a51c331c7bf",
@@ -36,6 +139,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:12:37Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 3
   }
 }

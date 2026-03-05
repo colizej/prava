@@ -26,7 +26,82 @@
   "anchor_id_fr": "p9cuz77gbo",
   "anchor_id_nl": "hv3g93eklg",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie une flèche verte pointant vers la gauche, placée seule à la sortie d'un carrefour ?",
+      "text_nl": "Wat betekent een naar links gerichte groene pijl, die alleen aan het einde van een kruispunt is geplaatst ?",
+      "text_ru": "Что означает зеленая стрелка, направленная влево, расположенная отдельно в конце перекрестка?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A green arrow pointing left, placed alone at the exit of an intersection, indicating traffic coming from the opposite direction on the road the left-turning drivers are about to leave is stopped by a red light to facilitate the clearing of the intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le trafic venant en sens inverse est également autorisé à passer.",
+          "text_nl": "Het tegemoetkomende verkeer mag ook doorrijden.",
+          "text_ru": "Встречный транспорт также может проезжать.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le trafic venant en sens inverse est arrêté par un feu rouge pour faciliter votre manœuvre.",
+          "text_nl": "Het tegemoetkomende verkeer wordt door een rood licht tegengehouden om uw manoeuvre te vergemakkelijken.",
+          "text_ru": "Встречный транспорт остановлен красным светом, чтобы облегчить ваш маневр.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez céder le passage à tous les véhicules.",
+          "text_nl": "U moet voorrang verlenen aan alle voertuigen.",
+          "text_ru": "Вы должны уступить дорогу всем транспортным средствам.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Cette flèche signifie que le trafic venant en sens inverse est à l'arrêt (feu rouge) pour permettre aux conducteurs tournant à gauche de quitter le carrefour en toute sécurité.",
+      "explanation_nl": "Deze pijl betekent dat het tegemoetkomende verkeer stilstaat (rood licht) om bestuurders die links afslaan veilig te laten uitrijden.",
+      "explanation_ru": "Эта стрелка означает, что встречный транспорт стоит (красный свет), чтобы водители, поворачивающие налево, могли безопасно покинуть перекресток."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour avec une flèche verte orientée vers la gauche, placée seule à la sortie. Vous souhaitez tourner à gauche. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt met een groene pijl naar links, alleen geplaatst aan het einde van het kruispunt. U wilt links afslaan. Wat moet u doen ?",
+      "text_ru": "Вы приближаетесь к перекрестку с зеленой стрелкой влево, расположенной отдельно в конце перекрестка. Вы хотите повернуть налево. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A green arrow pointing left, placed alone at the exit of an intersection. The driver intends to turn left."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Attendre que le feu rouge pour le trafic venant en sens inverse s'éteigne.",
+          "text_nl": "Wachten tot het rode licht voor het tegemoetkomende verkeer uitgaat.",
+          "text_ru": "Подождать, пока погаснет красный свет для встречного транспорта.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Tourner à gauche car la flèche indique que le trafic en sens inverse est arrêté.",
+          "text_nl": "Links afslaan, aangezien de pijl aangeeft dat het tegemoetkomende verkeer stilstaat.",
+          "text_ru": "Повернуть налево, так как стрелка указывает, что встречный транспорт остановлен.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Céder le passage au trafic venant en sens inverse avant de tourner.",
+          "text_nl": "Voorrang verlenen aan het tegemoetkomende verkeer alvorens af te slaan.",
+          "text_ru": "Уступить дорогу встречному транспорту перед поворотом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La présence de cette flèche verte isolée indique que le trafic venant en sens inverse est bloqué par un feu rouge, vous autorisant à tourner à gauche en toute sécurité.",
+      "explanation_nl": "De aanwezigheid van deze geïsoleerde groene pijl geeft aan dat het tegemoetkomende verkeer wordt tegengehouden door een rood licht, waardoor u veilig links kunt afslaan.",
+      "explanation_ru": "Наличие этой отдельной зеленой стрелки означает, что встречный транспорт остановлен красным светом, что позволяет вам безопасно повернуть налево."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "2de54975fbfb",
@@ -36,6 +111,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:21:04Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 2
   }
 }

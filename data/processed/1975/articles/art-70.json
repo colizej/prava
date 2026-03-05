@@ -260,7 +260,304 @@
   "anchor_id_fr": "eilcifaa1y",
   "anchor_id_nl": "ny15pdic8z",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom officiel du panneau de signalisation représenté par une barre oblique rouge sur fond bleu qui interdit spécifiquement de garer un véhicule ?",
+      "text_nl": "Wat is de officiële naam van het verkeersbord, weergegeven door een rode schuine streep op een blauwe achtergrond, dat specifiek het parkeren van een voertuig verbiedt?",
+      "text_ru": "Каково официальное название дорожного знака, изображенного красной косой чертой на синем фоне, который конкретно запрещает парковку транспортного средства?",
+      "image": {
+        "sign_code": "E1",
+        "generation_prompt": "Belgian road sign E1, parking forbidden, blue circle with red border and red diagonal line"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signal d'arrêt interdit",
+          "text_nl": "Verbodsteken voor stilstaan",
+          "text_ru": "Знак запрета остановки",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal de stationnement interdit",
+          "text_nl": "Parkeerverbodsbord",
+          "text_ru": "Знак запрета парковки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signal d'accès interdit",
+          "text_nl": "Verbodsteken voor toegang",
+          "text_ru": "Знак запрета въезда",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau avec une seule barre oblique rouge (E1) signifie 'Stationnement interdit'.",
+      "explanation_nl": "Het bord met één rode diagonale streep (E1) betekent 'Parkeerverbod'.",
+      "explanation_ru": "Знак с одной красной диагональной линией (E1) означает 'Парковка запрещена'."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la principale différence de signification entre un panneau 'Stationnement interdit' et un panneau 'Arrêt et stationnement interdits' ?",
+      "text_nl": "Wat is het belangrijkste verschil in betekenis tussen een 'Parkeerverbod'-bord en een 'Stilstaan en parkeren verboden'-bord?",
+      "text_ru": "В чем основное различие в значении между знаком 'Парковка запрещена' и знаком 'Остановка и стоянка запрещены'?",
+      "image": {
+        "sign_code": "E1",
+        "generation_prompt": "Belgian road sign E1, parking forbidden, blue circle with red border and red diagonal line; Belgian road sign E3, stopping and parking forbidden, blue circle with red border and red cross"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le panneau 'Stationnement interdit' n'autorise aucun arrêt, tandis que l'autre panneau autorise les arrêts de courte durée.",
+          "text_nl": "Het 'Parkeerverbod'-bord laat geen enkele stop toe, terwijl het andere bord korte stops toelaat.",
+          "text_ru": "Знак 'Парковка запрещена' не допускает никаких остановок, в то время как другой знак допускает короткие остановки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le panneau 'Arrêt et stationnement interdits' est plus restrictif, interdisant à la fois l'arrêt (même bref) et le stationnement, alors que le panneau 'Stationnement interdit' autorise un arrêt de courte durée.",
+          "text_nl": "Het 'Stilstaan en parkeren verboden'-bord is restrictiever en verbiedt zowel stilstaan (zelfs kort) als parkeren, terwijl het 'Parkeerverbod'-bord een korte stop toelaat.",
+          "text_ru": "Знак 'Остановка и стоянка запрещены' более строг, запрещая как остановку (даже краткую), так и стоянку, в то время как знак 'Парковка запрещена' допускает краткую остановку.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le panneau 'Stationnement interdit' s'applique uniquement aux camions, tandis que l'autre s'applique à tous les véhicules.",
+          "text_nl": "Het 'Parkeerverbod'-bord geldt enkel voor vrachtwagens, terwijl het andere voor alle voertuigen geldt.",
+          "text_ru": "Знак 'Парковка запрещена' применяется только к грузовикам, в то время как другой знак применяется ко всем транспортным средствам.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau 'Stationnement interdit' (E1) autorise un arrêt de courte durée pour faire monter ou descendre des passagers ou charger/décharger des marchandises. Le panneau 'Arrêt et stationnement interdits' (E3) interdit tout arrêt, même bref, et tout stationnement.",
+      "explanation_nl": "Het bord 'Parkeerverbod' (E1) laat een korte stop toe om passagiers in of uit te laten stappen of om goederen te laden/lossen. Het bord 'Stilstaan en parkeren verboden' (E3) verbiedt elke stop, zelfs kort, en elk parkeren.",
+      "explanation_ru": "Знак 'Парковка запрещена' (E1) разрешает кратковременную остановку для посадки или высадки пассажиров или погрузки/разгрузки товаров. Знак 'Остановка и стоянка запрещены' (E3) запрещает любую остановку, даже краткую, и любую стоянку."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie un panneau additionnel avec le symbole d'un disque de stationnement sous un signal de stationnement autorisé ou réglementé ?",
+      "text_nl": "Wat betekent een onderbord met het symbool van een parkeerschijf onder een bord dat parkeren toelaat of regelt?",
+      "text_ru": "Что означает дополнительная табличка с символом парковочного диска под знаком, разрешающим или регулирующим парковку?",
+      "image": {
+        "sign_code": "E9a_FR",
+        "generation_prompt": "Belgian road sign E9a (blue square with white P for parking) with an additional panel showing a blue parking disc symbol and '30 min'"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le stationnement est gratuit et sans limite de durée.",
+          "text_nl": "Parkeren is gratis en zonder tijdslimiet.",
+          "text_ru": "Парковка бесплатна и без ограничений по времени.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La durée du stationnement est limitée et l'utilisation du disque de stationnement est obligatoire.",
+          "text_nl": "De parkeertijd is beperkt en het gebruik van de parkeerschijf is verplicht.",
+          "text_ru": "Время стоянки ограничено, и использование парковочного диска обязательно.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le stationnement est payant et nécessite l'achat d'un ticket.",
+          "text_nl": "Parkeren is betalend en vereist de aankoop van een ticket.",
+          "text_ru": "Парковка платная и требует покупки билета.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un panneau additionnel avec un disque de stationnement indique que la durée du stationnement est limitée et que le disque doit être utilisé pour indiquer l'heure d'arrivée.",
+      "explanation_nl": "Een onderbord met een parkeerschijf duidt aan dat de parkeertijd beperkt is en dat de schijf moet worden gebruikt om de aankomsttijd aan te geven.",
+      "explanation_ru": "Дополнительная табличка с парковочным диском указывает, что время стоянки ограничено и диск должен быть использован для указания времени прибытия."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez et vous voyez ce panneau de signalisation. Que vous indique-t-il concernant votre véhicule ?",
+      "text_nl": "U rijdt en ziet dit verkeersbord. Wat vertelt het u over uw voertuig?",
+      "text_ru": "Вы едете и видите этот дорожный знак. Что он вам говорит о вашем транспортном средстве?",
+      "image": {
+        "sign_code": "E3",
+        "generation_prompt": "Belgian road sign E3, stopping and parking forbidden, blue circle with red border and red cross"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez vous arrêter brièvement pour déposer quelqu'un, mais pas stationner.",
+          "text_nl": "U mag even stoppen om iemand af te zetten, maar niet parkeren.",
+          "text_ru": "Вы можете ненадолго остановиться, чтобы высадить кого-то, но не парковаться.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez stationner ici à condition d'utiliser un disque de stationnement.",
+          "text_nl": "U mag hier parkeren mits gebruik van een parkeerschijf.",
+          "text_ru": "Вы можете парковаться здесь при условии использования парковочного диска.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il vous est interdit de vous arrêter ou de stationner à cet endroit, même pour un court instant.",
+          "text_nl": "U mag hier niet stilstaan of parkeren, zelfs niet voor een korte tijd.",
+          "text_ru": "Вам запрещено останавливаться или парковаться в этом месте, даже на короткое время.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le panneau 'Arrêt et stationnement interdits' (E3) est le plus restrictif et interdit toute forme d'arrêt ou de stationnement.",
+      "explanation_nl": "Het bord 'Stilstaan en parkeren verboden' (E3) is het meest restrictief en verbiedt elke vorm van stilstaan of parkeren.",
+      "explanation_ru": "Знак 'Остановка и стоянка запрещены' (E3) является наиболее строгим и запрещает любую форму остановки или стоянки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous apercevez ce panneau 'Stationnement interdit' complété par la mention 'de 7 à 19 h' et 'du lundi au vendredi'. Il est samedi, 10h00. Que pouvez-vous faire ?",
+      "text_nl": "U ziet dit 'Parkeerverbod'-bord aangevuld met de vermelding 'van 7 tot 19 u' en 'van maandag tot vrijdag'. Het is zaterdag, 10:00 uur. Wat mag u doen?",
+      "text_ru": "Вы видите этот знак 'Парковка запрещена', дополненный надписью 'с 7 до 19 ч' и 'с понедельника по пятницу'. Сейчас суббота, 10:00. Что вы можете сделать?",
+      "image": {
+        "sign_code": "E1",
+        "generation_prompt": "Belgian road sign E1, parking forbidden, blue circle with red border and red diagonal line, with an additional panel saying 'de 7 à 19 h' and another panel saying 'du lundi au vendredi'"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez stationner sans restriction, car l'interdiction ne s'applique pas le week-end.",
+          "text_nl": "U mag zonder beperking parkeren, aangezien het verbod niet geldt in het weekend.",
+          "text_ru": "Вы можете парковаться без ограничений, так как запрет не действует в выходные.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ne pouvez ni vous arrêter ni stationner, car ce type de panneau s'applique toujours.",
+          "text_nl": "U mag niet stilstaan of parkeren, want dit type bord geldt altijd.",
+          "text_ru": "Вы не можете ни останавливаться, ни парковаться, так как этот тип знака действует всегда.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez vous arrêter pour un court instant, mais pas stationner pour une longue durée.",
+          "text_nl": "U mag even stoppen, maar niet lang parkeren.",
+          "text_ru": "Вы можете ненадолго остановиться, но не парковаться надолго.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les panneaux d'interdiction de stationnement ou d'arrêt complétés par des inscriptions de période ne sont valables que pendant ces périodes. En dehors des heures et jours spécifiés (ici, du lundi au vendredi de 7h à 19h), l'interdiction n'est pas en vigueur. Le samedi à 10h, vous pouvez donc stationner.",
+      "explanation_nl": "Verbodsborden voor stilstaan of parkeren die zijn aangevuld met tijdsindicaties, zijn alleen geldig tijdens die periodes. Buiten de aangegeven uren en dagen (hier: maandag tot vrijdag van 7u tot 19u) is het verbod niet van kracht. Op zaterdag om 10u mag u dus parkeren.",
+      "explanation_ru": "Знаки запрета стоянки или остановки, дополненные указанием периода действия, действительны только в эти периоды. Вне указанных часов и дней (здесь: с понедельника по пятницу с 7:00 до 19:00) запрет не действует. В субботу в 10:00 вы можете парковаться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes garé sur une chaussée où le stationnement alterné est en vigueur, indiqué par un panneau 'Stationnement interdit du 1er au 15 du mois'. Nous sommes le 15 du mois, à 19h35. Que devez-vous faire ?",
+      "text_nl": "U staat geparkeerd op een rijbaan waar beurtelings parkeren van kracht is, aangegeven door een bord 'Parkeerverbod van de 1e tot de 15e van de maand'. Het is de 15e van de maand, om 19:35 uur. Wat moet u doen?",
+      "text_ru": "Вы припаркованы на проезжей части, где действует попеременная парковка, обозначенная знаком 'Парковка запрещена с 1 по 15 число месяца'. Сегодня 15 число месяца, 19:35. Что вы должны сделать?",
+      "image": {
+        "sign_code": "E5",
+        "generation_prompt": "Belgian road sign E5, parking forbidden from 1st to 15th of the month, blue circle with red border and red diagonal line with number 1-15 in white"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez déplacer votre véhicule de côté entre 19h30 et 20h00 pour la nouvelle période.",
+          "text_nl": "U moet uw voertuig tussen 19:30 en 20:00 uur naar de andere kant verplaatsen voor de nieuwe periode.",
+          "text_ru": "Вы должны переместить свой автомобиль на другую сторону между 19:30 и 20:00 для нового периода.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez attendre le lendemain matin pour changer de côté.",
+          "text_nl": "U moet wachten tot morgenochtend om van kant te wisselen.",
+          "text_ru": "Вы должны дождаться следующего утра, чтобы сменить сторону.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous n'avez pas besoin de bouger votre véhicule, car l'interdiction ne change qu'à minuit.",
+          "text_nl": "U hoeft uw voertuig niet te verplaatsen, want het verbod verandert pas om middernacht.",
+          "text_ru": "Вам не нужно перемещать свой автомобиль, так как запрет меняется только в полночь.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Dans le cas du stationnement alterné, le changement de côté doit être effectué le dernier jour de chaque période (le 15 ou le dernier jour du mois) entre 19h30 et 20h00.",
+      "explanation_nl": "Bij beurtelings parkeren moet de kantwissel gebeuren op de laatste dag van elke periode (de 15e of de laatste dag van de maand) tussen 19:30 en 20:00 uur.",
+      "explanation_ru": "В случае попеременной парковки смена стороны должна происходить в последний день каждого периода (15-го или в последний день месяца) между 19:30 и 20:00."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voulez stationner à un endroit où vous voyez ce panneau de signalisation. Votre véhicule est une voiture électrique et il y a une borne de recharge. Que devez-vous faire pour être en règle ?",
+      "text_nl": "U wilt parkeren op een plaats waar u dit verkeersbord ziet. Uw voertuig is een elektrische auto en er is een oplaadpunt. Wat moet u doen om reglementair te zijn?",
+      "text_ru": "Вы хотите припарковаться в месте, где видите этот дорожный знак. Ваш автомобиль электрический, и есть зарядная станция. Что вы должны сделать, чтобы соблюсти правила?",
+      "image": {
+        "sign_code": "E9",
+        "generation_prompt": "Belgian road sign E9 (blue square with white P for parking) with an additional panel showing an electric car charging symbol"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez stationner ici, mais seulement si vous êtes en train de charger votre véhicule, en le connectant à l'infrastructure.",
+          "text_nl": "U mag hier parkeren, maar alleen als u uw voertuig oplaadt, door het aan te sluiten op de infrastructuur.",
+          "text_ru": "Вы можете парковаться здесь, но только если вы заряжаете свой автомобиль, подключив его к инфраструктуре.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez stationner ici avec votre véhicule électrique, même si vous ne le connectez pas à la borne de recharge.",
+          "text_nl": "U mag hier parkeren met uw elektrische voertuig, zelfs als u het niet aansluit op de oplaadpaal.",
+          "text_ru": "Вы можете парковаться здесь со своим электромобилем, даже если не подключаете его к зарядной станции.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ce type d'emplacement est réservé uniquement aux véhicules hybrides, pas aux véhicules purement électriques.",
+          "text_nl": "Dit type parkeerplaats is alleen gereserveerd voor hybride voertuigen, niet voor puur elektrische voertuigen.",
+          "text_ru": "Этот тип парковки предназначен только для гибридных автомобилей, а не для полностью электрических.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Aux emplacements munis d'une infrastructure publique de recharge et signalés pour les véhicules électriques ou hybrides électriques, ces véhicules doivent être connectés à cette infrastructure pour être en règle.",
+      "explanation_nl": "Op parkeerplaatsen met een openbare oplaadinfrastructuur en aangegeven voor elektrische of hybride elektrische voertuigen, moeten deze voertuigen aangesloten zijn op die infrastructuur om reglementair te zijn.",
+      "explanation_ru": "На парковочных местах, оборудованных общественной зарядной инфраструктурой и обозначенных для электромобилей или гибридных электромобилей, эти транспортные средства должны быть подключены к этой инфраструктуре, чтобы соответствовать правилам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez ce panneau de signalisation 'Stationnement autorisé' avec le panneau additionnel 'LADEN EN LOSSEN'. Que signifie cette combinaison pour vous en tant que conducteur d'un véhicule de livraison ?",
+      "text_nl": "U ziet dit verkeersbord 'Parkeren toegestaan' met het onderbord 'LADEN EN LOSSEN'. Wat betekent deze combinatie voor u als bestuurder van een bestelwagen?",
+      "text_ru": "Вы видите этот дорожный знак 'Разрешена парковка' с дополнительной табличкой 'LADEN EN LOSSEN'. Что означает эта комбинация для вас как водителя доставочного фургона?",
+      "image": {
+        "sign_code": "E9a_FR",
+        "generation_prompt": "Belgian road sign E9a (blue square with white P for parking) with an additional panel saying 'LADEN EN LOSSEN'"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'emplacement est réservé au stationnement de longue durée pour les véhicules de livraison.",
+          "text_nl": "De plaats is gereserveerd voor langdurig parkeren van bestelwagens.",
+          "text_ru": "Место зарезервировано для длительной стоянки доставочных фургонов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'emplacement est exclusivement réservé au chargement et déchargement de marchandises.",
+          "text_nl": "De plaats is uitsluitend gereserveerd voor het laden en lossen van goederen.",
+          "text_ru": "Место исключительно зарезервировано для погрузки и разгрузки товаров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tout véhicule peut stationner ici, mais les opérations de chargement/déchargement sont prioritaires.",
+          "text_nl": "Elk voertuig mag hier parkeren, maar laad-/losoperaties hebben voorrang.",
+          "text_ru": "Любое транспортное средство может парковаться здесь, но операции погрузки/разгрузки имеют приоритет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un panneau additionnel portant l'inscription 'LADEN EN LOSSEN' (chargement et déchargement) indique que l'emplacement est réservé spécifiquement à ces opérations.",
+      "explanation_nl": "Een onderbord met de vermelding 'LADEN EN LOSSEN' duidt aan dat de plaats specifiek is gereserveerd voor deze handelingen.",
+      "explanation_ru": "Дополнительная табличка с надписью 'LADEN EN LOSSEN' (погрузка и разгрузка) указывает, что это место специально зарезервировано для таких операций."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "5b6e26b57266",
@@ -270,6 +567,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:44:15Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

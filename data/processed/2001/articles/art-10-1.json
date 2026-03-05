@@ -1,0 +1,41 @@
+{
+  "law_id": "2001",
+  "article_number": "10/1",
+  "slug": "art-10-1",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 10/1",
+  "title_nl": "Artikel 10/1",
+  "title_ru": "",
+  "content_md_fr": "Les véhicules visés à l’article 1, 6°, b qui sont déjà immatriculés en Belgique et qui ne sont pas soumis au contrôle technique avant immatriculation au nom d’un autre titulaire, sont soumis à une procédure administrative préalablement à leur immatriculation.\n\nCette procédure administrative s’effectue auprès du concessionnaire et porte sur la vérification du certificat d’immatriculation ou de l’attestation visée à l’article 32.\n\nLors de cette procédure administrative, le certificat d’immatriculation ou l’attestation visée à l’article 32 sera, le cas échéant, invalidé et un transfert électronique des données vers la Direction Immatriculation des Véhicules aura lieu. Le concessionnaire délivre également un formulaire de demande d’immatriculation du véhicule.",
+  "content_md_nl": "De in artikel 1, 6°, b, bedoelde voertuigen die reeds in België zijn ingeschreven en die niet zijn onderworpen aan een technische keuring vóór de inschrijving op naam van een andere titularis, zijn onderworpen aan een administratieve procedure voorafgaand aan hun inschrijving.\n\nDeze administratieve procedure wordt uitgevoerd bij de concessionaris en heeft betrekking op het nazicht van het kentekenbewijs of het attest vermeld in artikel 32.\n\nTijdens deze administratieve procedure wordt het kentekenbewijs of het attest vermeld in artikel 32 desgevallend ongeldig gemaakt en vindt een elektronische overdracht van gegevens aan de Directie Inschrijvingen Voertuigen plaats. Tevens reikt de concessionaris een aanvraagformulier tot inschrijving van het voertuig uit.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Les véhicules visés à l’article 1, 6°, b qui sont déjà immatriculés en Belgique et qui ne sont pas soumis au contrôle technique avant immatriculation au nom d’un autre titulaire, sont soumis à une procédure administrative préalablement à leur immatriculation.</p><p>Cette procédure administrative s’effectue auprès du concessionnaire et porte sur la vérification du certificat d’immatriculation ou de l’attestation visée à l’article 32.</p><p>Lors de cette procédure administrative, le certificat d’immatriculation ou l’attestation visée à l’article 32 sera, le cas échéant, invalidé et un transfert électronique des données vers la Direction Immatriculation des Véhicules aura lieu. Le concessionnaire délivre également un formulaire de demande d’immatriculation du véhicule.</p>",
+  "content_html_nl": "<p>De in artikel 1, 6°, b, bedoelde voertuigen die reeds in België zijn ingeschreven en die niet zijn onderworpen aan een technische keuring vóór de inschrijving op naam van een andere titularis, zijn onderworpen aan een administratieve procedure voorafgaand aan hun inschrijving.</p><p>Deze administratieve procedure wordt uitgevoerd bij de concessionaris en heeft betrekking op het nazicht van het kentekenbewijs of het attest vermeld in artikel 32.</p><p>Tijdens deze administratieve procedure wordt het kentekenbewijs of het attest vermeld in artikel 32 desgevallend ongeldig gemaakt en vindt een elektronische overdracht van gegevens aan de Directie Inschrijvingen Voertuigen plaats. Tevens reikt de concessionaris een aanvraagformulier tot inschrijving van het voertuig uit.</p>",
+  "full_text_fr": "Les véhicules visés à l’article 1, 6°, b qui sont déjà immatriculés en Belgique et qui ne sont pas soumis au contrôle technique avant immatriculation au nom d’un autre titulaire, sont soumis à une procédure administrative préalablement à leur immatriculation.\n\nCette procédure administrative s’effectue auprès du concessionnaire et porte sur la vérification du certificat d’immatriculation ou de l’attestation visée à l’article 32.\n\nLors de cette procédure administrative, le certificat d’immatriculation ou l’attestation visée à l’article 32 sera, le cas échéant, invalidé et un transfert électronique des données vers la Direction Immatriculation des Véhicules aura lieu. Le concessionnaire délivre également un formulaire de demande d’immatriculation du véhicule.",
+  "full_text_nl": "De in artikel 1, 6°, b, bedoelde voertuigen die reeds in België zijn ingeschreven en die niet zijn onderworpen aan een technische keuring vóór de inschrijving op naam van een andere titularis, zijn onderworpen aan een administratieve procedure voorafgaand aan hun inschrijving.\n\nDeze administratieve procedure wordt uitgevoerd bij de concessionaris en heeft betrekking op het nazicht van het kentekenbewijs of het attest vermeld in artikel 32.\n\nTijdens deze administratieve procedure wordt het kentekenbewijs of het attest vermeld in artikel 32 desgevallend ongeldig gemaakt en vindt een elektronische overdracht van gegevens aan de Directie Inschrijvingen Voertuigen plaats. Tevens reikt de concessionaris een aanvraagformulier tot inschrijving van het voertuig uit.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "vtg0jeua3w",
+  "anchor_id_nl": "rz7zmhreqk",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "13238db13be2",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

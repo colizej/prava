@@ -1,0 +1,41 @@
+{
+  "law_id": "1985",
+  "article_number": "10",
+  "slug": "art-10",
+  "structure": {
+    "titre": null,
+    "chapitre": null
+  },
+  "title_fr": "Article 10",
+  "title_nl": "Artikel 10",
+  "title_ru": "",
+  "content_md_fr": "L'article 1er de la loi du 18 février 1969 relative aux mesures d'exécution des traités et actes internationaux en matière de transport par route, par chemin de fer ou par voie navigable, est complété par un deuxième alinéa, rédigé comme suit:\n\n(...)",
+  "content_md_nl": "(Wijzigingsbepaling)",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'article 1<sup>er</sup> de la loi du 18 février 1969 relative aux mesures d'exécution des traités et actes internationaux en matière de transport par route, par chemin de fer ou par voie navigable, est complété par un deuxième alinéa, rédigé comme suit:</p><p>(...)</p>",
+  "content_html_nl": "<p>(Wijzigingsbepaling)</p>",
+  "full_text_fr": "L'article 1er de la loi du 18 février 1969 relative aux mesures d'exécution des traités et actes internationaux en matière de transport par route, par chemin de fer ou par voie navigable, est complété par un deuxième alinéa, rédigé comme suit:\n\n(...)",
+  "full_text_nl": "(Wijzigingsbepaling)",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "nqb7ut5cee",
+  "anchor_id_nl": "etxbirhqss",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:33Z",
+    "content_hash": "08b4043679f8",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

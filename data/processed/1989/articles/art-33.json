@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "33",
+  "slug": "art-33",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 33",
+  "title_nl": "Artikel 33",
+  "title_ru": "",
+  "content_md_fr": "Les dispositions de la présente loi entreront en vigueur aux dates fixées par le Roi.",
+  "content_md_nl": "De bepalingen van deze wet treden in werking op de door de Koning te bepalen tijdstippen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Les dispositions de la présente loi entreront en vigueur aux dates fixées par le Roi.</p>",
+  "content_html_nl": "<p>De bepalingen van deze wet treden in werking op de door de Koning te bepalen tijdstippen.</p>",
+  "full_text_fr": "Les dispositions de la présente loi entreront en vigueur aux dates fixées par le Roi.",
+  "full_text_nl": "De bepalingen van deze wet treden in werking op de door de Koning te bepalen tijdstippen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "dfrizoaynq",
+  "anchor_id_nl": "zbbqbpv2mp",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "4157f8289cc1",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

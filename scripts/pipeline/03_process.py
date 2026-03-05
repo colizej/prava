@@ -127,12 +127,28 @@ def slugify_number(number: str) -> str:
     Convert article number to URL slug.
 
     Examples:
-      '21'          → 'art-21'
-      '22quinquies' → 'art-22quinquies'
-      '59/1'        → 'art-59-1'
+      '21'                  → 'art-21'
+      '22quinquies'         → 'art-22quinquies'
+      '59/1'                → 'art-59-1'
+      'B. MODE DE COTATION' → 'art-b-mode-de-cotation'
     """
-    slug = number.lower().replace("/", "-")
-    return f"art-{slug}"
+    import re
+    import unicodedata
+
+    # Normalize unicode (decompose accented chars) then drop combining marks
+    s = unicodedata.normalize("NFKD", number)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+
+    # Lowercase, replace slashes/dots/spaces/apostrophes with hyphens
+    s = s.lower()
+    s = re.sub(r"[/. ']+", "-", s)
+    # Remove anything not alphanumeric or hyphen
+    s = re.sub(r"[^a-z0-9-]", "", s)
+    # Collapse multiple hyphens and strip leading/trailing
+    s = re.sub(r"-{2,}", "-", s).strip("-")
+    # Truncate to 80 chars to keep URLs sane
+    s = s[:80].rstrip("-")
+    return f"art-{s}"
 
 
 def content_hash(article_fr: dict, article_nl: dict | None, article_ru: dict | None) -> str:

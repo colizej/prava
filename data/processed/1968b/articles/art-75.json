@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "75",
+  "slug": "art-75",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 75. Publicité (Région wallonne)",
+  "title_nl": "Artikel 75. Publiciteit (Waals Gewest)",
+  "title_ru": "",
+  "content_md_fr": "Aucune publicité ne peut être faite sur le vitrage extérieur des véhicules automobiles affectés à des transports rémunérés de personnes ou à des transports gratuits assimilés à ces derniers. [Cette disposition n'est pas applicable aux vitrages du toit ou de son arrondi.\n\nLes informations de service qui figurent sur le vitrage extérieur de ces véhicules ne peuvent gêner la vue des voyageurs vers l'extérieur.",
+  "content_md_nl": "Geen publiciteit mag worden gevoerd op de buitenste ruiten van de voor het bezoldigd vervoer van personen of voor hiermede gelijkgesteld gratis vervoer gebezigde auto's. Deze bepaling geldt niet voor de dakvensters of de rondingen ervan.\n\nDe dienstaankondigingen die op de buitenste ruiten van die voertuigen voorkomen mogen het uitzicht naar buiten van de reizigers niet belemmeren.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Aucune publicité ne peut être faite sur le vitrage extérieur des véhicules automobiles affectés à des transports rémunérés de personnes ou à des transports gratuits assimilés à ces derniers. [Cette disposition n'est pas applicable aux vitrages du toit ou de son arrondi.</p><p>Les informations de service qui figurent sur le vitrage extérieur de ces véhicules ne peuvent gêner la vue des voyageurs vers l'extérieur.</p>",
+  "content_html_nl": "<p>Geen publiciteit mag worden gevoerd op de buitenste ruiten van de voor het bezoldigd vervoer van personen of voor hiermede gelijkgesteld gratis vervoer gebezigde auto's. Deze bepaling geldt niet voor de dakvensters of de rondingen ervan.</p><p>De dienstaankondigingen die op de buitenste ruiten van die voertuigen voorkomen mogen het uitzicht naar buiten van de reizigers niet belemmeren.</p>",
+  "full_text_fr": "Aucune publicité ne peut être faite sur le vitrage extérieur des véhicules automobiles affectés à des transports rémunérés de personnes ou à des transports gratuits assimilés à ces derniers. [Cette disposition n'est pas applicable aux vitrages du toit ou de son arrondi.\n\nLes informations de service qui figurent sur le vitrage extérieur de ces véhicules ne peuvent gêner la vue des voyageurs vers l'extérieur.",
+  "full_text_nl": "Geen publiciteit mag worden gevoerd op de buitenste ruiten van de voor het bezoldigd vervoer van personen of voor hiermede gelijkgesteld gratis vervoer gebezigde auto's. Deze bepaling geldt niet voor de dakvensters of de rondingen ervan.\n\nDe dienstaankondigingen die op de buitenste ruiten van die voertuigen voorkomen mogen het uitzicht naar buiten van de reizigers niet belemmeren.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "en7zm6my1g",
+  "anchor_id_nl": "hxhlrgvnla",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "f428e25edd62",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,2350 @@
+{
+  "law_id": "1968b",
+  "built_at": "2026-03-05T08:59:05Z",
+  "total_articles": 175,
+  "structure": [
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Définitions et champ d'application",
+      "id": "bmmrzatmqb"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Réception",
+      "id": "mbfdjkgqi5"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Affectation et chargement",
+      "id": "khv4z65ned"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. Contrôle technique",
+      "id": "ec4s2rjx7f"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IVbis. Contrôle technique des véhicules ancêtres",
+      "id": "jcgaw1bq5q"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "Chapitre V. Utilisation",
+      "id": "ibwzikr6z8"
+    },
+    {
+      "type": "chapitre",
+      "number": "VI",
+      "text": "Chapitre VI. Construction",
+      "id": "q41rdfpsyr"
+    },
+    {
+      "type": "chapitre",
+      "number": "VII",
+      "text": "Chapitre VII. Aménagement",
+      "id": "a2xfxxeovf"
+    },
+    {
+      "type": "chapitre",
+      "number": "VIII",
+      "text": "Chapitre VIII. Dispositions spéciales",
+      "id": "bqxqi0w2z0"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre IX. Mise en vigueur et dispositions finales",
+      "id": "dpjpur8tzn"
+    },
+    {
+      "type": "chapitre",
+      "number": "11",
+      "text": "ANNEXES.",
+      "id": "qqur6djhfv"
+    }
+  ],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 1. Définitions",
+      "title_nl": "Bijlage 1. Gelijkvormigheidsattest",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 2. Champ d'application",
+      "title_nl": "Bijlage 2.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 3. Champ d'application (Région de Bruxelles-Capitale et Région wallonne)",
+      "title_nl": "Bijlage 3.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 3. Champ d'application (Région flamande)",
+      "title_nl": "Bijlage 3.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3bis",
+      "slug": "art-3bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 3bis. Réception des tracteurs agricoles et forestiers",
+      "title_nl": "Artikel 3bis. Goedkeuring van landbouw- en bosbouwtrekkers",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4. Procédures de contrôle de conformité",
+      "title_nl": "Bijlage 4. Zitplaatsen voor reizigers. Afmetingen.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4bis",
+      "slug": "art-4bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4bis Région de Bruxelles-Capitale. Frais",
+      "title_nl": "Artikel 4bis Waals Gewest. Kosten",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4bis",
+      "slug": "art-4bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4bis Région flamande. Frais",
+      "title_nl": "Artikel 4bis Waals Gewest. Kosten",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4bis",
+      "slug": "art-4bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4bis Région wallonne. Frais",
+      "title_nl": "Artikel 4bis Waals Gewest. Kosten",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4ter",
+      "slug": "art-4ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4ter Région de Bruxelles-Capitale. Examen du prototype",
+      "title_nl": "Artikel 4ter Waals Gewest. Onderzoek van het prototype",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4ter",
+      "slug": "art-4ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4ter Région flamande. Examen du prototype",
+      "title_nl": "Artikel 4ter Waals Gewest. Onderzoek van het prototype",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4ter",
+      "slug": "art-4ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4ter Région wallonne. Examen du prototype",
+      "title_nl": "Artikel 4ter Waals Gewest. Onderzoek van het prototype",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 5. Introduction de la demande de réception",
+      "title_nl": "Bijlage 5. Zitplaatsen voor reizigers. Afmetingen.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 6. Responsabilité des constructeurs",
+      "title_nl": "Bijlage 6. Verplichte lichten en reflectoren, andere dan richtingaanwijzers, voor auto's en hun aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7. Déroulement des procédures de réception par type",
+      "title_nl": "Bijlage 7. Niet verplichte lichten en reflectoren voor auto's en hun aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 8. Modification d'une réception",
+      "title_nl": "Bijlage 8.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9. Validité d'une réception par type",
+      "title_nl": "Bijlage 9.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 10. Fiche de réception, certificat de conformité et marquage",
+      "title_nl": "Bijlage 10. Gelijkvormige voorschriften betreffende de homologatie van veiligheidsbeglazing en van de materialen voor de beglazing die bestemd zijn om in motorvoertuigen en hun aanhangwagens te worden geplaatst",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 11. Dérogations pour des technologies ou des concepts nouveaux",
+      "title_nl": "Bijlage 11. Bijkomende inrichtingen voor de achterwaartse signalisatie",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "12",
+      "slug": "art-12",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 12. Véhicules produits en petites séries",
+      "title_nl": "Bijlage 12. Toegang tot de nooddeuren",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "13",
+      "slug": "art-13",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 13. Réceptions individuelles",
+      "title_nl": "Bijlage 13. Opspatafschermingssystemen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 14. Immatriculation, vente et mise en service",
+      "title_nl": "Bijlage 14. Ophanging",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 15. Clauses de sauvegarde",
+      "title_nl": "Bijlage 15. Autokeuring: Verplichte controlepunten",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 16. Communication d'informations techniques",
+      "title_nl": "Bijlage 16bis. Voorschriften voor inrichtingen voor indirect zicht",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16bis",
+      "slug": "art-16bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 16bis. Notification des décisions et des voies de recours",
+      "title_nl": "Artikel 16bis. Kennisgeving van besluiten en beschikbare rechtsmiddelen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16ter",
+      "slug": "art-16ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 16ter. Services techniques (Région de Bruxelles-Capitale)",
+      "title_nl": "Artikel 16ter. Technische diensten (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16ter",
+      "slug": "art-16ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 16ter. (Région flamande)",
+      "title_nl": "Artikel 16ter. Technische diensten (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16ter",
+      "slug": "art-16ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 16ter. Services techniques (Région wallonne)",
+      "title_nl": "Artikel 16ter. Technische diensten (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 17. Usage des véhicules",
+      "title_nl": "Bijlage 17. EG-Certificaat van overeenstemming voor volledige of voltooide voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 18. Chargement des véhicules",
+      "title_nl": "Bijlage 18bis. Andere voorschriften van toepassing op opvallende markeringen (*)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 19. Chargement des véhicules construits pour le transport de choses",
+      "title_nl": "Bijlage 19. Eenvormige voorschriften betreffende de goedkeuring van de fabricatie van verzoolde luchtbanden voor personenwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 20. Chargement des véhicules construits pour le transport de personnes (Région de Bruxelles-Capitale)",
+      "title_nl": "Bijlage 20. Eenvormige voorschriften betreffende de goedkeuring van de fabricatie van verzoolde luchtbanden voor bedrijfsvoertuigen en hun aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 20. Chargement des véhicules construits pour le transport de personnes (Région flamande)",
+      "title_nl": "Bijlage 20. Eenvormige voorschriften betreffende de goedkeuring van de fabricatie van verzoolde luchtbanden voor bedrijfsvoertuigen en hun aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 20. Chargement des véhicules construits pour le transport de personnes (Région wallonne)",
+      "title_nl": "Bijlage 20. Eenvormige voorschriften betreffende de goedkeuring van de fabricatie van verzoolde luchtbanden voor bedrijfsvoertuigen en hun aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 21. Poids maximal autorisé (M.M.A.) des trains de véhicules",
+      "title_nl": "Bijlage 21. Erkenningsvoorwaarden voor de controle-instellingen van de erkende werkplaatsen voor het installeren van snelheidsbegrenzers.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22",
+      "slug": "art-22",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 22. Obligation des detenteurs",
+      "title_nl": "Artikel 22. Plicht van de bezitters",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23. Inspection automobile",
+      "title_nl": "Bijlage 23. Volledige lijst van gegevens ten behoeve van de EG-typegoedkeuring en kleine reeks van voertuigen, alsook voor de individuele goedkeuringen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23bis",
+      "slug": "art-23bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23bis. Contrôles, répartition",
+      "title_nl": "Artikel 23bis. Keuringen, onderverdelingen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23ter",
+      "slug": "art-23ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23ter. Contrôles périodiques (Région de Bruxelles-Capitale)",
+      "title_nl": "Artikel 23ter. Periodieke keuringen (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23ter",
+      "slug": "art-23ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23ter. Contrôles périodiques (Région flamande)",
+      "title_nl": "Artikel 23ter. Periodieke keuringen (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23ter",
+      "slug": "art-23ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23ter. Contrôles périodiques (Région wallonne)",
+      "title_nl": "Artikel 23ter. Periodieke keuringen (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23quater",
+      "slug": "art-23quater",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23quater. Contrôles périodiques, termes",
+      "title_nl": "Artikel 23quater. Periodieke keuringen, termijnen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23quinquies",
+      "slug": "art-23quinquies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23quinquies. Contrôles périodiques, exceptions",
+      "title_nl": "Artikel 23quinquies. Periodieke keuringen, uitzonderingen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23sexies",
+      "slug": "art-23sexies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23sexies. Contrôles non periodiques (Région de Bruxelles-Capitale)",
+      "title_nl": "Bijlage 41. Niet-periodieke keuring bedoeld in artikel 23sexies, paragraaf 1, 3°",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23sexies",
+      "slug": "art-23sexies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23sexies. Contrôles non periodiques (Région flamande)",
+      "title_nl": "Bijlage 41. Niet-periodieke keuring bedoeld in artikel 23sexies, paragraaf 1, 3°",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23sexies",
+      "slug": "art-23sexies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23sexies. Contrôles non periodiques (Région wallonne)",
+      "title_nl": "Bijlage 41. Niet-periodieke keuring bedoeld in artikel 23sexies, paragraaf 1, 3°",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23septies",
+      "slug": "art-23septies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23septies. Contrôles partiels (Région de Bruxelles-Capitale et Région flamande)",
+      "title_nl": "Artikel 23septies. Gedeeltelijke keuringen (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23septies",
+      "slug": "art-23septies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23septies. Contrôles partiels (Région wallonne)",
+      "title_nl": "Artikel 23septies. Gedeeltelijke keuringen (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23octies",
+      "slug": "art-23octies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23octies. Exemptions et régime particulier",
+      "title_nl": "Artikel 23octies. Vrijstellingen en bijzonder regime",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23novies",
+      "slug": "art-23novies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23novies. Rapport d'identification et/ou certificat de visite et/ou rapport d'occasion (Région de Bruxelles-Capitale)",
+      "title_nl": "Artikel 23novies. Identificatieverslag en/of keuringsbewijs (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23novies",
+      "slug": "art-23novies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23novies. Rapport d'identification et/ou certificat de visite et/ou rapport d'occasion (Région flamande)",
+      "title_nl": "Artikel 23novies. Identificatieverslag en/of keuringsbewijs (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23novies",
+      "slug": "art-23novies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23novies. Rapport d'identification et/ou certificat de visite et/ou rapport d'occasion (Région wallonne)",
+      "title_nl": "Artikel 23novies. Identificatieverslag en/of keuringsbewijs (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23decies",
+      "slug": "art-23decies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23decies Région de Bruxelles-Capitale. Validité",
+      "title_nl": "Artikel 23decies. Geldigheid (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23decies",
+      "slug": "art-23decies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23decies Région flamande. Validité",
+      "title_nl": "Artikel 23decies. Geldigheid (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23decies",
+      "slug": "art-23decies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23decies Région wallonne. Validité",
+      "title_nl": "Artikel 23decies. Geldigheid (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23undecies",
+      "slug": "art-23undecies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23undecies. Montants des redevances (Région de Bruxelles-Capitale)",
+      "title_nl": "Artikel 23undecies. Keuringskosten (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23undecies",
+      "slug": "art-23undecies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23undecies. Montants des redevances (Région flamande)",
+      "title_nl": "Artikel 23undecies. Keuringskosten (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23undecies",
+      "slug": "art-23undecies",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 23undecies. Montants des redevances (Région wallonne)",
+      "title_nl": "Artikel 23undecies. Keuringskosten (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "24",
+      "slug": "art-24",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 24. Certificat de visite",
+      "title_nl": "Bijlage 24. Definitie van voertuigcategorieën en voertuigtypes – Koetswerkopbouw",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 25. Véhicules détériorés",
+      "title_nl": "Bijlage 25. Inlichtingenformulier voor de EG-typegoedkeuring van voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 26. Usage des véhicules",
+      "title_nl": "Bijlage 26. Lijst van de regelgevingen tot vaststelling van de voorschriften voor de EG-typegoedkeuring alsook voor kleine reeksen en individuele goedkeuringen van voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27",
+      "slug": "art-27",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 27. Construction des véhicules",
+      "title_nl": "Bijlage 27. Procedures voor de EG-typegoedkeuring van voertuigen of \"kleine reeks\" typegoedkeuring",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "28",
+      "slug": "art-28",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 28. Feux et catadioptres",
+      "title_nl": "Bijlage 28. Modellen van het typegoedkeuringscertificaat",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30",
+      "slug": "art-30",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 30. Ceintures de sécurité et leurs ancrages, ainsi que dispositifs de retenue pour enfants à bord des véhicules à moteur",
+      "title_nl": "Bijlage 30. Testresultaten",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "31",
+      "slug": "art-31",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 31. Dimensions des vehicules dont la demande d'agrément est antérieure au 1erjanvier 1986",
+      "title_nl": "Bijlage 31. EG- of (EG of nationale) kleine reeks- certificaat van overeenstemming voor complete/voltooide voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 32. Masses maximales autorisées et masses sous les essieux des vehicules dont la demande d'agrément ou de reconnaissance comme matériel de construction spéciale est antérieure au 1erjanvier 1986",
+      "title_nl": "Bijlage 32. Procedures met betrekking tot de overeenstemming van de productie",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32bis",
+      "slug": "art-32bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 32bis. Dimensions et masses des véhicules dont la demande d'agrément est introduite à partir du 1erjanvier 1985",
+      "title_nl": "Artikel 32bis. Afmetingen en massa's van voertuigen waarvan de aanvraag tot goedkeuring ingediend is vanaf 1 januari 1985",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "33",
+      "slug": "art-33",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 33. Suspension",
+      "title_nl": "Bijlage 33. Lijst van regelgevingen tot vaststelling van de voorschriften voor de EG-typegoedkeuring van voertuigen voor speciale doeleinden",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 34. Bandages pneumatiques et semi-pneumatiques",
+      "title_nl": "Bijlage 34. Beperkingen voor kleine series en restantvoorraden",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 35. Systèmes anti-projections",
+      "title_nl": "Bijlage 35. Lijst van onderdelen of uitrustingsstukken die een aanzienlijk risico kunnen vormen voor de correcte werking van systemen die essentieel zijn voor de veiligheid van het voertuig of voor zijn milieuprestaties, de prestatie-eisen ervan, de passende testprocedures, en de voorschriften inzake het merken en het verpakken",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 36. Le moteur des véhicules",
+      "title_nl": "Bijlage 36. Lijst van op grond van regelgevingen afgegeven EG-typegoedkeuringen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 37. Canalisations et reservoir de combustible",
+      "title_nl": "Bijlage 37. Lijst van de regelgevingen waarvoor een fabrikant als technische dienst kan worden aangewezen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "38",
+      "slug": "art-38",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 38. Batteries d'accumulateurs",
+      "title_nl": "Bijlage 38. Lijst van regelgevingen waarvoor virtuele testmethodes mogen worden gebruikt door een fabrikant of een technische dienst",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 39. Échappement",
+      "title_nl": "Bijlage 39. Procedures voor de EG-/ (EG of nationale) kleine reeks meerfasentypegoedkeuring",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "40",
+      "slug": "art-40",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 40. Bruit émis par les véhicules automobiles en service",
+      "title_nl": "Bijlage 40. Certificaat van oorsprong van het voertuig",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "41",
+      "slug": "art-41",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 41. Embrayage, boîte de vitesses",
+      "title_nl": "Artikel 41. Koppeling - versnellingsbak",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "42",
+      "slug": "art-42",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 42. Direction",
+      "title_nl": "Bijlage 42. (enkel Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "43",
+      "slug": "art-43",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 43. Tableau de bord - Avertisseur sonore - Dispositif de vision indirecte",
+      "title_nl": "Bijlage 43. (enkel Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "44",
+      "slug": "art-44",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 44. Essuie-glace - Dégivreur - Lave-glace",
+      "title_nl": "Bijlage 44. (enkel Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "45",
+      "slug": "art-45",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 45. Dispositifs de freinage des véhicules automobiles - Généralités",
+      "title_nl": "Artikel 45. Reminrichtingen van de auto's - Algemene bepalingen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "46",
+      "slug": "art-46",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 46. Efficacité de freinage des véhicules automobiles",
+      "title_nl": "Artikel 46. Remdoelmatigheid van de auto's",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "47",
+      "slug": "art-47",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 47. Dispositions de freinage des remorques",
+      "title_nl": "Artikel 47. Reminrichtingen van de aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "48",
+      "slug": "art-48",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 48. Efficacité de freinage des remorques",
+      "title_nl": "Artikel 48. Remdoelmatigheid van de aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "49",
+      "slug": "art-49",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 49. Dispositifs de freinage des trains de véhicules",
+      "title_nl": "Artikel 49. Reminrichtingen van de slepen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "49bis",
+      "slug": "art-49bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 49bis. Dispositifs de freinage des trains de véhicules plus longs et plus lourds circulant dans les conditions déterminées par les autorités compétentes en matière d’infrastructure",
+      "title_nl": "Artikel 49bis. Reminrichtingen van langere en zwaardere slepen die onder de voorwaarden bepaald door de overheden bevoegd voor de infrastructuur aan het verkeer deelnemen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "50",
+      "slug": "art-50",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 50. Efficacité de freinage des trains de véhicules",
+      "title_nl": "Artikel 50. Remdoelmatigheid van de slepen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "51",
+      "slug": "art-51",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 51. Caractéristiques générales de construction des dispositifs de freinage",
+      "title_nl": "Artikel 51. Algemene constructievoorschriften met betrekking tot de reminrichtingen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "52",
+      "slug": "art-52",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 52. Caractéristiques particulières de construction des dispositifs de freinage des véhicules.",
+      "title_nl": "Artikel 52. Bijzondere constructievoorschriften met betrekking tot de reminrichtingen van voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "53",
+      "slug": "art-53",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 53. Caractéristiques complémentaires de construction des dispositifs de freinage.",
+      "title_nl": "Artikel 53. Aanvullende constructievoorschriften met betrekking tot de reminrichtingen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "54",
+      "slug": "art-54",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 54. Dispositifs de liaison entre le véhicule tracteur et les remorques.",
+      "title_nl": "Artikel 54. Verbindingen van het trekkend voertuig met de aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "55",
+      "slug": "art-55",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 55. Protection arrière et protection latérale",
+      "title_nl": "Artikel 55. Bescherming aan de achterzijde en zijdelingse bescherming",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "56",
+      "slug": "art-56",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 56. Dispositif de protection contre une utilisation non autorisée de véhicules automobiles (antivol).",
+      "title_nl": "Artikel 56. Inrichting ter beveiliging tegen het gebruik van auto's door onbevoegden (anti-diefstal)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "57",
+      "slug": "art-57",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 57. Compartiment avant, siège du conducteur, aménagement intérieur et extérieur",
+      "title_nl": "Artikel 57. Bestuurdersruimte, bestuurderszitplaats, binnen- en buiteninrichting",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "58",
+      "slug": "art-58",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 58. Pare-brise et autres panneaux transparents",
+      "title_nl": "Artikel 58. Voorruit en andere doorzichtige panelen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "59",
+      "slug": "art-59",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 59. Entrées et sorties des véhicules automobiles",
+      "title_nl": "Artikel 59. In- en uitgangen van de auto's",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "60",
+      "slug": "art-60",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 60. Prescriptions applicables aux entrées et sorties des autobus en autocars mis en circulation à l'état neuf à partir du 1erjuin 1987 et dont le nombre de places est supérieur à 16 non compris le conducteur",
+      "title_nl": "Artikel 60. Voorschriften toepasselijk op in- en uitgangen van autobussen en autocars in nieuwe staat in het verkeer gebracht vanaf 1 juni 1987 en waarvan het aantal plaatsen meer bedraagt dan 16, bestuurder niet inbegrepen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61",
+      "slug": "art-61",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 61. Marches d'entrée ou de sortie des autobus et autocars",
+      "title_nl": "Artikel 61. Treden voor in- en uitgangen van autobussen en autocars",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "62",
+      "slug": "art-62",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 62. Plancher",
+      "title_nl": "Artikel 62. Vloer",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "63",
+      "slug": "art-63",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 63. Couloir",
+      "title_nl": "Artikel 63. Gangen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "64",
+      "slug": "art-64",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 64. Places assises pour voyageurs",
+      "title_nl": "Artikel 64. Reizigerszitplaatsen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "65",
+      "slug": "art-65",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 65. Places pour voyageurs debout",
+      "title_nl": "Artikel 65. Staanplaatsen voor reizigers",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "66",
+      "slug": "art-66",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 66. Éclairage du compartiment réservé aux voyageurs",
+      "title_nl": "Artikel 66. Verlichting van de reizigersruimte",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "67",
+      "slug": "art-67",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 67. Chauffage",
+      "title_nl": "Artikel 67. Verwarming",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "68",
+      "slug": "art-68",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 68. Aération",
+      "title_nl": "Artikel 68. Ventilatie",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "68bis",
+      "slug": "art-68bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 68bis. Caractéristiques de construction de l'habitacle des autobus et autocars visant à éviter les risques d'incendie",
+      "title_nl": "Artikel 68bis. Constructiekenmerken van de reizigersruimte van autobussen en autocars met het oog op de voorkoming van brandgevaar",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "69",
+      "slug": "art-69",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 69. Avertisseurs à l'usage des voyageurs",
+      "title_nl": "Artikel 69. Waarschuwingstoestellen voor de reizigers",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "70",
+      "slug": "art-70",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 70. Extincteurs et triangles de danger",
+      "title_nl": "Artikel 70. Blustoestellen en gevaarsdriehoeken",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "70bis",
+      "slug": "art-70bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 70bis. Veste de sécurité rétroréfléchissante",
+      "title_nl": "Artikel 70bis. Retro-reflecterende veiligheidsvest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "71",
+      "slug": "art-71",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 71. Coffret de secours",
+      "title_nl": "Artikel 71. Verbandkist",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "72",
+      "slug": "art-72",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 72 Région de Bruxelles-Capitale. Couleur",
+      "title_nl": "Artikel 72 Waals Gewest. Kleur",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "72",
+      "slug": "art-72",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 72 Région flamande. Couleur",
+      "title_nl": "Artikel 72 Waals Gewest. Kleur",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "72",
+      "slug": "art-72",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 72 Région wallonne. Couleur",
+      "title_nl": "Artikel 72 Waals Gewest. Kleur",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "75",
+      "slug": "art-75",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 75. Publicité (Région de Bruxelles-Capitale)",
+      "title_nl": "Artikel 75. Publiciteit (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "75",
+      "slug": "art-75",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 75. Publicité (Région flamande)",
+      "title_nl": "Artikel 75. Publiciteit (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "75",
+      "slug": "art-75",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 75. Publicité (Région wallonne)",
+      "title_nl": "Artikel 75. Publiciteit (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "76",
+      "slug": "art-76",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 76. Dispositif d'alerte",
+      "title_nl": "Artikel 76. Alarmtoestel",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "77",
+      "slug": "art-77",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 77. Limiteur de vitesse",
+      "title_nl": "Art. 77ter. (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "77bis",
+      "slug": "art-77bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 77bis. Transformation d’un véhicule à motorisation thermique en un véhicule à motorisation électrique",
+      "title_nl": "Artikel 77bis. Ombouw van een voertuig met een verbrandingsmotor naar een voertuig met een elektrische motor",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "77",
+      "slug": "art-77",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Art. 77ter. (Région de Bruxelles-Capitale)",
+      "title_nl": "Art. 77ter. (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "77",
+      "slug": "art-77",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Art. 77ter. (Région flamande)",
+      "title_nl": "Art. 77ter. (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "77",
+      "slug": "art-77",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Art. 77ter. (Région wallonne)",
+      "title_nl": "Art. 77ter. (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "78",
+      "slug": "art-78",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 78. Dérogations",
+      "title_nl": "Artikel 78. Afwijkingen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "78bis",
+      "slug": "art-78bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 78bis Région de Bruxelles-Capitale.",
+      "title_nl": "Artikel 78bis Waals Gewest.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "78bis",
+      "slug": "art-78bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 78bis Région flamande.",
+      "title_nl": "Artikel 78bis Waals Gewest.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "78bis",
+      "slug": "art-78bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 78bis Région wallonne.",
+      "title_nl": "Artikel 78bis Waals Gewest.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "79",
+      "slug": "art-79",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 79. Mise en vigueur",
+      "title_nl": "Artikel 79. Inwerkingtreding",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "80",
+      "slug": "art-80",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 80. Surveillance (Région de Bruxelles-Capitale et Région wallonne)",
+      "title_nl": "Artikel 80. Toezicht (Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "80",
+      "slug": "art-80",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 80. Surveillance (Région flamande)",
+      "title_nl": "Artikel 80. Toezicht (Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "81",
+      "slug": "art-81",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 81. Peines (Région de Bruxelles-Capitale et Région wallonne)",
+      "title_nl": "Artikel 81. Straffen (Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "81",
+      "slug": "art-81",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 81. Peines (Région flamande)",
+      "title_nl": "Artikel 81. Straffen (Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "82",
+      "slug": "art-82",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 82. Abrogatoire",
+      "title_nl": "Artikel 82. Intrekking",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 1. Certificat de conformité",
+      "title_nl": "Bijlage 1. Gelijkvormigheidsattest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 3.",
+      "title_nl": "Bijlage 3.",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 4. Places assises pour voyageurs. Dimensions.",
+      "title_nl": "Bijlage 4. Zitplaatsen voor reizigers. Afmetingen.",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 5. Places assises pour voyageurs. Dimensions.",
+      "title_nl": "Bijlage 5. Zitplaatsen voor reizigers. Afmetingen.",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 6. Feux et catadioptres obligatoires autres que les feux indicateurs de direction, pour véhicules à moteur et leurs remorques",
+      "title_nl": "Bijlage 6. Verplichte lichten en reflectoren, andere dan richtingaanwijzers, voor auto's en hun aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 7. Feux et catadioptres facultatifs pour véhicules et leurs remorques",
+      "title_nl": "Bijlage 7. Niet verplichte lichten en reflectoren voor auto's en hun aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 8.",
+      "title_nl": "Bijlage 8.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 9.",
+      "title_nl": "Bijlage 9.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 10. Prescriptions uniformes relatives à l'homologation du vitrage de sécurité et des matériaux pour vitrages destinés à être montés sur les véhicules à moteur et leurs remorques",
+      "title_nl": "Bijlage 10. Gelijkvormige voorschriften betreffende de homologatie van veiligheidsbeglazing en van de materialen voor de beglazing die bestemd zijn om in motorvoertuigen en hun aanhangwagens te worden geplaatst",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 11. Dispositifs complémentaires de signalisation arrière",
+      "title_nl": "Bijlage 11. Bijkomende inrichtingen voor de achterwaartse signalisatie",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "13",
+      "slug": "art-13",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 13. Systèmes anti-projections",
+      "title_nl": "Bijlage 13. Opspatafschermingssystemen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 14. Suspension",
+      "title_nl": "Bijlage 14. Ophanging",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 15. Inspection automobile : Points de contrôle obligatoires",
+      "title_nl": "Bijlage 15. Autokeuring: Verplichte controlepunten",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 16. Prescriptions pour des dispositifs de vision indirecte",
+      "title_nl": "Bijlage 16bis. Voorschriften voor inrichtingen voor indirect zicht",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 16bis. Prescriptions pour des dispositifs de vision indirecte",
+      "title_nl": "Bijlage 16bis. Voorschriften voor inrichtingen voor indirect zicht",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 17. Certificat de conformité CE véhicules complets/complétés",
+      "title_nl": "Bijlage 17. EG-Certificaat van overeenstemming voor volledige of voltooide voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 18. Prescriptions uniformes relatives à l'homologation des marquages à grande visibilité pour véhicules des catégories M, N et O",
+      "title_nl": "Bijlage 18bis. Andere voorschriften van toepassing op opvallende markeringen (*)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 18bis. Autres prescriptions applicables aux marquages à grandes visibilité (*)",
+      "title_nl": "Bijlage 18bis. Andere voorschriften van toepassing op opvallende markeringen (*)",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 19. Préscriptions uniformes relatives a l'homologation de la fabrication de pneumatiques rechapes pour les véhicules automobiles",
+      "title_nl": "Bijlage 19. Eenvormige voorschriften betreffende de goedkeuring van de fabricatie van verzoolde luchtbanden voor personenwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 20. Préscriptions uniformes relatives a l'homologation de la fabrication de pneumatiques rechapes pour les véhicules utilitaires et leurs remorques",
+      "title_nl": "Bijlage 20. Eenvormige voorschriften betreffende de goedkeuring van de fabricatie van verzoolde luchtbanden voor bedrijfsvoertuigen en hun aanhangwagens",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 21. Conditions d'agrement des organismes de controle des ateliers agrees pour l'installation des limiteurs de vitesse",
+      "title_nl": "Bijlage 21. Erkenningsvoorwaarden voor de controle-instellingen van de erkende werkplaatsen voor het installeren van snelheidsbegrenzers.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23sexies",
+      "slug": "art-23sexies",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 22. Contrôle non-périodique mentionné à l'article 23sexies, § 1er, 3° contrôle supplémentaire",
+      "title_nl": "Bijlage 41. Niet-periodieke keuring bedoeld in artikel 23sexies, paragraaf 1, 3°",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 23. Liste exhaustive de renseignements aux fins de la réception ce et petite série par type de véhicules, ainsi que pour les réceptions individuelles",
+      "title_nl": "Bijlage 23. Volledige lijst van gegevens ten behoeve van de EG-typegoedkeuring en kleine reeks van voertuigen, alsook voor de individuele goedkeuringen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "24",
+      "slug": "art-24",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 24. Définitions des catégories de véhicules et des types de véhicules – Carrosserie",
+      "title_nl": "Bijlage 24. Definitie van voertuigcategorieën en voertuigtypes – Koetswerkopbouw",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 25. Fiche de renseignements aux fins de la réception CE par type de véhicules",
+      "title_nl": "Bijlage 25. Inlichtingenformulier voor de EG-typegoedkeuring van voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 26. Liste des actes réglementaires établissant les exigences applicables aux fins d'une réception ce par type de véhicules, de réception en petite série de véhicules et de réception individuelle d'un véhicule",
+      "title_nl": "Bijlage 26. Lijst van de regelgevingen tot vaststelling van de voorschriften voor de EG-typegoedkeuring alsook voor kleine reeksen en individuele goedkeuringen van voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27",
+      "slug": "art-27",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 27. Procédures à appliquer au cours du processus de réception ce par type de véhicules ou de réception \"petite série\" (PS) de véhicules",
+      "title_nl": "Bijlage 27. Procedures voor de EG-typegoedkeuring van voertuigen of \"kleine reeks\" typegoedkeuring",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "28",
+      "slug": "art-28",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 28. Modèles de fiche de réception par type",
+      "title_nl": "Bijlage 28. Modellen van het typegoedkeuringscertificaat",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29",
+      "slug": "art-29",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 29. Système de numérotation des fiches de réception CE / petite série (PS) ou individuelles (RI)",
+      "title_nl": "Bijlage 29. Nummeringssysteem voor EG- of kleine reeks- of typegoedkeuringscertificaten of individuele goedkeuringen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30",
+      "slug": "art-30",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 30. Résultats des essais",
+      "title_nl": "Bijlage 30. Testresultaten",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "31",
+      "slug": "art-31",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 31. Certificat de conformité CE / petite série (PS) CE et nationale Véhicules complets/complétés",
+      "title_nl": "Bijlage 31. EG- of (EG of nationale) kleine reeks- certificaat van overeenstemming voor complete/voltooide voertuigen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 32. Procédures de conformité de la production",
+      "title_nl": "Bijlage 32. Procedures met betrekking tot de overeenstemming van de productie",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33",
+      "slug": "art-33",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 33. Liste des actes réglementaires établissant les exigences applicables aux fins d'une réception CE par type de véhicules à usage spécial",
+      "title_nl": "Bijlage 33. Lijst van regelgevingen tot vaststelling van de voorschriften voor de EG-typegoedkeuring van voertuigen voor speciale doeleinden",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 34. Limites applicables aux petites séries et aux véhicules de fin de série",
+      "title_nl": "Bijlage 34. Beperkingen voor kleine series en restantvoorraden",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 35. Liste des pièces ou des équipements susceptibles de représenter un risque important pour le bon fonctionnement de systèmes essentiels pour la sécurité du véhicule ou sa performance environnementale, exigences relatives à leurs performances, procédures d'essai appropriées et dispositions en matière de marquage et d'emballage",
+      "title_nl": "Bijlage 35. Lijst van onderdelen of uitrustingsstukken die een aanzienlijk risico kunnen vormen voor de correcte werking van systemen die essentieel zijn voor de veiligheid van het voertuig of voor zijn milieuprestaties, de prestatie-eisen ervan, de passende testprocedures, en de voorschriften inzake het merken en het verpakken",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 36. Liste des réceptions CE octroyées au titre d'actes réglementaires",
+      "title_nl": "Bijlage 36. Lijst van op grond van regelgevingen afgegeven EG-typegoedkeuringen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 37. Liste des actes réglementaires pour lesquels un constructeur peut être désigné en tant que service technique",
+      "title_nl": "Bijlage 37. Lijst van de regelgevingen waarvoor een fabrikant als technische dienst kan worden aangewezen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "38",
+      "slug": "art-38",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 38. Liste des actes réglementaires pour lesquels un constructeur ou un service technique est autorisé à utiliser des méthodes virtuelles d'essai",
+      "title_nl": "Bijlage 38. Lijst van regelgevingen waarvoor virtuele testmethodes mogen worden gebruikt door een fabrikant of een technische dienst",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 39. Procédures à suivre au cours de la réception CE / petite série (CE ou nationale) multiétape",
+      "title_nl": "Bijlage 39. Procedures voor de EG-/ (EG of nationale) kleine reeks meerfasentypegoedkeuring",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "40",
+      "slug": "art-40",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 40. Certificat d'origine du véhicule",
+      "title_nl": "Bijlage 40. Certificaat van oorsprong van het voertuig",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23sexies",
+      "slug": "art-23sexies",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 41. Contrôle non périodique mentionné à l'article 23sexies paragraphe 1erpoint 3°",
+      "title_nl": "Bijlage 41. Niet-periodieke keuring bedoeld in artikel 23sexies, paragraaf 1, 3°",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "42",
+      "slug": "art-42",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 42. (uniquement Région flamande)",
+      "title_nl": "Bijlage 42. (enkel Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "43",
+      "slug": "art-43",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 43. (uniquement Région flamande)",
+      "title_nl": "Bijlage 43. (enkel Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "44",
+      "slug": "art-44",
+      "structure": {
+        "titre": null,
+        "chapitre": "11"
+      },
+      "title_fr": "Annexe 44. (uniquement Région flamande)",
+      "title_nl": "Bijlage 44. (enkel Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}

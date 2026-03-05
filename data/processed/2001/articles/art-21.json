@@ -1,0 +1,51 @@
+{
+  "law_id": "2001",
+  "article_number": "21",
+  "slug": "art-21",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 21",
+  "title_nl": "Artikel 21",
+  "title_ru": "",
+  "content_md_fr": "Le ministre détermine les dimensions, la forme, la couleur, l'inscription et le graphisme des marques d'immatriculation et des reproductions ainsi que les conditions techniques auxquelles les reproductions doivent répondre. Le ministre peut instaurer une procédure de certification, dont il détermine les modalités.\n\n> ℹ️ Voir A.M. du 23 juillet 2001 relatif à l'immatriculation de véhicules .",
+  "content_md_nl": "De minister bepaalt afmetingen, vorm, kleur, opschrift en grafie van de kentekenplaten en de reproducties evenals de technische vereisten waaraan de reproducties dienen te voldoen. De minister kan een certificatieprocedure instellen waarvan hij de modaliteiten bepaalt.\n\n> ℹ️ Zie M.B. 23 juli 2001 betreffende de inschrijving van voertuigen .",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le ministre détermine les dimensions, la forme, la couleur, l'inscription et le graphisme des marques d'immatriculation et des reproductions ainsi que les conditions techniques auxquelles les reproductions doivent répondre. Le ministre peut instaurer une procédure de certification, dont il détermine les modalités.</p><div class=\"notification notification-primary\">Voir <a href=\"/fr/perma/8uoz2qh7si/regulation_regulation\">A.M. du 23 juillet 2001 relatif à l'immatriculation de véhicules</a>.</div>",
+  "content_html_nl": "<p>De minister bepaalt afmetingen, vorm, kleur, opschrift en grafie van de kentekenplaten en de reproducties evenals de technische vereisten waaraan de reproducties dienen te voldoen. De minister kan een certificatieprocedure instellen waarvan hij de modaliteiten bepaalt.</p><div class=\"notification notification-primary\">Zie <a href=\"/nl/perma/8uoz2qh7si/regulation_regulation\">M.B. 23 juli 2001 betreffende de inschrijving van voertuigen</a>.</div>",
+  "full_text_fr": "Le ministre détermine les dimensions, la forme, la couleur, l'inscription et le graphisme des marques d'immatriculation et des reproductions ainsi que les conditions techniques auxquelles les reproductions doivent répondre. Le ministre peut instaurer une procédure de certification, dont il détermine les modalités.\n\n️ Voir A.M. du 23 juillet 2001 relatif à l'immatriculation de véhicules .",
+  "full_text_nl": "De minister bepaalt afmetingen, vorm, kleur, opschrift en grafie van de kentekenplaten en de reproducties evenals de technische vereisten waaraan de reproducties dienen te voldoen. De minister kan een certificatieprocedure instellen waarvan hij de modaliteiten bepaalt.\n\n️ Zie M.B. 23 juli 2001 betreffende de inschrijving van voertuigen .",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "Voir A.M. du 23 juillet 2001 relatif à l'immatriculation de véhicules ."
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Zie M.B. 23 juli 2001 betreffende de inschrijving van voertuigen ."
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "atqhizeswd",
+  "anchor_id_nl": "blp4pz4vog",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "cf2138545a69",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

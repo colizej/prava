@@ -81,7 +81,298 @@
   "anchor_id_fr": "bqkj7289ow",
   "anchor_id_nl": "j17jb4qjb4",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que désigne le terme \"signaux d'obligation\" dans le code de la route ?",
+      "text_nl": "Wat betekent de term \"gebodsborden\" in het verkeersreglement?",
+      "text_ru": "Что означает термин \"обязательные знаки\" в правилах дорожного движения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les signaux qui avertissent d'un danger.",
+          "text_nl": "Borden die waarschuwen voor gevaar.",
+          "text_ru": "Знаки, предупреждающие об опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les signaux qui imposent un comportement spécifique au conducteur.",
+          "text_nl": "Borden die een specifieke gedraging van de bestuurder opleggen.",
+          "text_ru": "Знаки, предписывающие водителю определенное поведение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les signaux qui indiquent une interdiction de stationner.",
+          "text_nl": "Borden die een parkeerverbod aangeven.",
+          "text_ru": "Знаки, указывающие на запрет парковки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux d'obligation sont ceux qui imposent une règle de conduite, comme l'obligation de suivre une direction ou d'utiliser une piste cyclable.",
+      "explanation_nl": "Gebodsborden zijn borden die een gedragsregel opleggen, zoals de verplichting om een bepaalde richting te volgen of een fietspad te gebruiken.",
+      "explanation_ru": "Обязательные знаки — это знаки, предписывающие правило поведения, например, обязательство следовать в определенном направлении или использовать велосипедную дорожку."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie la combinaison d'un signal D1 et d'un panneau additionnel du modèle M2 ?",
+      "text_nl": "Wat betekent de combinatie van een D1-bord met een onderbord van model M2?",
+      "text_ru": "Что означает сочетание знака D1 с дополнительной табличкой модели M2?",
+      "image": {
+        "sign_code": "D1",
+        "generation_prompt": "A circular blue sign with a white arrow pointing upwards. Below it, a rectangular supplementary plate with a pictogram of a bicycle crossed out."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'obligation s'applique uniquement aux cyclistes.",
+          "text_nl": "Het gebod geldt alleen voor fietsers.",
+          "text_ru": "Требование относится только к велосипедистам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'obligation ne s'applique pas aux cyclistes.",
+          "text_nl": "Het gebod geldt niet voor fietsers.",
+          "text_ru": "Требование не относится к велосипедистам.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'obligation s'applique aux cyclistes et aux cyclomoteurs classe A.",
+          "text_nl": "Het gebod geldt voor fietsers en bromfietsen klasse A.",
+          "text_ru": "Требование относится к велосипедистам и мопедам класса А.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal D1 impose une obligation, et le panneau M2 indique que cette obligation n'est pas applicable aux cyclistes.",
+      "explanation_nl": "Het D1-bord legt een verplichting op, en het M2-onderbord geeft aan dat deze verplichting niet geldt voor fietsers.",
+      "explanation_ru": "Знак D1 устанавливает обязательство, а дополнительная табличка M2 указывает, что это обязательство не распространяется на велосипедистов."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le rôle d'un signal identique à un signal d'obligation, mais complété par un panneau additionnel indiquant une distance ?",
+      "text_nl": "Wat is de rol van een bord dat identiek is aan een gebodsbord, maar aangevuld is met een onderbord dat een afstand aangeeft?",
+      "text_ru": "Какова роль знака, идентичного знаку обязательства, но дополненного дополнительной табличкой, указывающей расстояние?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il indique la fin de l'obligation.",
+          "text_nl": "Het geeft het einde van het gebod aan.",
+          "text_ru": "Он указывает на окончание обязательства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il annonce que l'obligation commence à la distance indiquée.",
+          "text_nl": "Het kondigt aan dat het gebod begint op de aangegeven afstand.",
+          "text_ru": "Он анонсирует, что обязательство начинается на указанном расстоянии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il spécifie la durée pendant laquelle l'obligation est en vigueur.",
+          "text_nl": "Het specificeert de duur waarvoor het gebod van kracht is.",
+          "text_ru": "Он определяет продолжительность действия обязательства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ce panneau additionnel sert d'annonce pour avertir les conducteurs que l'obligation imposée par le signal principal débutera après avoir parcouru la distance spécifiée.",
+      "explanation_nl": "Dit onderbord dient als aankondiging om bestuurders te waarschuwen dat het gebod dat door het hoofdverkeersbord wordt opgelegd, zal beginnen na het afleggen van de aangegeven afstand.",
+      "explanation_ru": "Эта дополнительная табличка служит для оповещения водителей о том, что обязательство, налагаемое основным знаком, начнется после преодоления указанного расстояния."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un panneau de signalisation D1 (direction obligatoire vers la droite) avec un panneau additionnel M11. Que faites-vous en tant que conducteur de speed-pedelec ?",
+      "text_nl": "U ziet een D1-verkeersbord (verplichte rijrichting naar rechts) met een M11-onderbord. Wat doet u als bestuurder van een speed pedelec?",
+      "text_ru": "Вы видите дорожный знак D1 (обязательное направление направо) с дополнительной табличкой M11. Что вы будете делать как водитель скоростного велосипеда (speed pedelec)?",
+      "image": {
+        "sign_code": "D1",
+        "generation_prompt": "A circular blue sign with a white arrow pointing right. Below it, a rectangular supplementary plate with a pictogram of a speed pedelec crossed out."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je dois obligatoirement aller à droite.",
+          "text_nl": "Ik moet verplicht naar rechts rijden.",
+          "text_ru": "Я обязан повернуть направо.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je ne suis pas concerné par cette obligation et je peux choisir ma direction.",
+          "text_nl": "Ik ben niet gebonden aan dit gebod en kan mijn richting kiezen.",
+          "text_ru": "На меня не распространяется это обязательство, и я могу выбрать направление.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je dois aller à droite, mais je peux être accompagné par des cyclomoteurs classe A.",
+          "text_nl": "Ik moet naar rechts rijden, maar mag vergezeld worden door bromfietsen klasse A.",
+          "text_ru": "Я должен повернуть направо, но могу ехать вместе с мопедами класса А.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau M11 spécifie que l'obligation imposée par le signal D1 (ici, direction obligatoire) ne s'applique pas aux conducteurs de speed pedelecs.",
+      "explanation_nl": "Het M11-onderbord specificeert dat het gebod van het D1-bord (hier, verplichte rijrichting) niet van toepassing is op bestuurders van speed pedelecs.",
+      "explanation_ru": "Дополнительная табличка M11 уточняет, что обязательство, налагаемое знаком D1 (здесь, обязательное направление), не распространяется на водителей скоростных велосипедов (speed pedelec)."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur une piste cyclable signalée par un panneau D7 et un panneau additionnel indiquant que les cyclomoteurs classe B ne peuvent pas l'emprunter. Que devez-vous faire en tant que conducteur de cyclomoteur classe B ?",
+      "text_nl": "U bevindt zich op een fietspad, aangegeven met een D7-bord en een onderbord dat aangeeft dat bromfietsen klasse B dit niet mogen gebruiken. Wat moet u doen als bestuurder van een bromfiets klasse B?",
+      "text_ru": "Вы находитесь на велосипедной дорожке, обозначенной знаком D7 и дополнительной табличкой, указывающей, что мопеды класса B не могут ее использовать. Что вам следует делать как водителю мопеда класса B?",
+      "image": {
+        "sign_code": "D7",
+        "generation_prompt": "A circular blue sign with a white pictogram of a bicycle. Below it, a rectangular supplementary plate with a pictogram of a moped (class B) crossed out."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je peux emprunter la piste cyclable avec mon cyclomoteur.",
+          "text_nl": "Ik mag het fietspad met mijn bromfiets gebruiken.",
+          "text_ru": "Я могу использовать велосипедную дорожку на своем мопеде.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je ne peux pas emprunter cette piste cyclable et dois utiliser la chaussée.",
+          "text_nl": "Ik mag dit fietspad niet gebruiken en moet de rijbaan gebruiken.",
+          "text_ru": "Я не могу использовать эту велосипедную дорожку и должен использовать проезжую часть.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je peux emprunter la piste cyclable uniquement si je suis accompagné par des cyclistes.",
+          "text_nl": "Ik mag het fietspad alleen gebruiken als ik vergezeld word door fietsers.",
+          "text_ru": "Я могу использовать велосипедную дорожку только в сопровождении велосипедистов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau D7 indique une piste cyclable obligatoire. Le panneau additionnel (modèle M7) précise que les conducteurs de cyclomoteurs classe B ne sont pas autorisés à l'utiliser. Ils doivent donc circuler sur la chaussée.",
+      "explanation_nl": "Het D7-bord geeft een verplicht fietspad aan. Het onderbord (model M7) specificeert dat bestuurders van bromfietsen klasse B dit niet mogen gebruiken. Ze moeten dus op de rijbaan rijden.",
+      "explanation_ru": "Знак D7 указывает на обязательную велосипедную дорожку. Дополнительная табличка (модель M7) уточняет, что водителям мопедов класса B запрещено ее использовать. Поэтому они должны ехать по проезжей части."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous arrivez à une intersection où un panneau D7 est combiné avec un panneau additionnel M13. En tant que cycliste, quelle est votre obligation ?",
+      "text_nl": "U komt aan bij een kruispunt waar een D7-bord gecombineerd wordt met een M13-onderbord. Wat is uw verplichting als fietser?",
+      "text_ru": "Вы подъезжаете к перекрестку, где знак D7 комбинируется с дополнительной табличкой M13. Каково ваше обязательство как велосипедиста?",
+      "image": {
+        "sign_code": "D7",
+        "generation_prompt": "A circular blue sign with a white pictogram of a bicycle. Below it, a rectangular supplementary plate with a pictogram of a speed pedelec."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je ne suis pas concerné par ce panneau et je peux aller dans toutes les directions.",
+          "text_nl": "Dit bord is niet op mij van toepassing en ik mag alle richtingen uit.",
+          "text_ru": "Этот знак меня не касается, и я могу ехать во всех направлениях.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je dois emprunter cette piste cyclable qui est réservée aux speed pedelecs.",
+          "text_nl": "Ik moet dit fietspad gebruiken, dat gereserveerd is voor speed pedelecs.",
+          "text_ru": "Я должен использовать эту велосипедную дорожку, которая зарезервирована для скоростных велосипедов (speed pedelec).",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cette piste cyclable doit être empruntée par les speed pedelecs, mais pas nécessairement par les vélos classiques.",
+          "text_nl": "Dit fietspad moet gevolgd worden door speed pedelecs, maar niet noodzakelijk door gewone fietsen.",
+          "text_ru": "По этой велосипедной дорожке должны ехать скоростные велосипеды (speed pedelec), но не обязательно обычные велосипеды.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le panneau D7 indique une piste cyclable. Le panneau additionnel M13 spécifie que cette piste doit être empruntée par les conducteurs de speed pedelecs. Bien que les cyclistes classiques puissent utiliser les pistes cyclables, cette signalisation met l'accent sur l'obligation pour les speed pedelecs.",
+      "explanation_nl": "Het D7-bord geeft een fietspad aan. Het M13-onderbord specificeert dat dit fietspad gevolgd moet worden door bestuurders van speed pedelecs. Hoewel gewone fietsers fietspaden mogen gebruiken, legt deze signalisatie de nadruk op de verplichting voor speed pedelecs.",
+      "explanation_ru": "Знак D7 указывает на велосипедную дорожку. Дополнительная табличка M13 уточняет, что по этой дорожке должны ехать водители скоростных велосипедов (speed pedelec). Хотя обычные велосипедисты могут пользоваться велосипедными дорожками, эта сигнализация подчеркивает обязательство для скоростных велосипедов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous voyez un panneau bleu rond avec une flèche blanche pointant vers la gauche. Comment devez-vous réagir ?",
+      "text_nl": "U ziet een rond blauw bord met een witte pijl die naar links wijst. Hoe moet u reageren?",
+      "text_ru": "Вы видите круглое синее табло со стрелкой белого цвета, указывающей налево. Как вам следует реагировать?",
+      "image": {
+        "sign_code": "D1",
+        "generation_prompt": "A circular blue sign with a white arrow pointing left."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez continuer tout droit ou tourner à gauche.",
+          "text_nl": "U mag rechtdoor rijden of naar links afslaan.",
+          "text_ru": "Вы можете ехать прямо или повернуть налево.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes obligé de suivre la direction indiquée par la flèche (tourner à gauche).",
+          "text_nl": "U bent verplicht de richting te volgen die de pijl aangeeft (naar links afslaan).",
+          "text_ru": "Вы обязаны следовать направлению, указанному стрелкой (повернуть налево).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez céder le passage aux véhicules venant de gauche.",
+          "text_nl": "U moet voorrang verlenen aan voertuigen die van links komen.",
+          "text_ru": "Вы должны уступить дорогу транспортным средствам, приближающимся слева.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ce panneau de signalisation est un signal d'obligation de direction. Il impose aux conducteurs de suivre la direction indiquée par la flèche.",
+      "explanation_nl": "Dit verkeersbord is een gebodsbord van de rijrichting. Het verplicht bestuurders om de richting te volgen die de pijl aangeeft.",
+      "explanation_ru": "Этот дорожный знак является знаком обязательного направления. Он предписывает водителям следовать направлению, указанному стрелкой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes au volant et voyez un signal D7 avec un panneau additionnel M16. Qu'est-ce que cela signifie pour vous si vous conduisez un speed-pedelec ?",
+      "text_nl": "U rijdt met uw voertuig en ziet een D7-bord met een M16-onderbord. Wat betekent dit voor u als u een speed pedelec bestuurt?",
+      "text_ru": "Вы за рулем и видите знак D7 с дополнительной табличкой M16. Что это означает для вас, если вы управляете скоростным велосипедом (speed pedelec)?",
+      "image": {
+        "sign_code": "D7",
+        "generation_prompt": "A circular blue sign with a white pictogram of a bicycle. Below it, a rectangular supplementary plate with pictograms of a moped (class B) and a speed pedelec crossed out."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je dois emprunter cette piste cyclable.",
+          "text_nl": "Ik moet dit fietspad gebruiken.",
+          "text_ru": "Я должен использовать эту велосипедную дорожку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je ne peux pas emprunter cette piste cyclable.",
+          "text_nl": "Ik mag dit fietspad niet gebruiken.",
+          "text_ru": "Я не могу использовать эту велосипедную дорожку.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je peux emprunter cette piste cyclable seulement si je suis avec un cyclomoteur classe B.",
+          "text_nl": "Ik mag dit fietspad alleen gebruiken als ik samen ben met een bromfiets klasse B.",
+          "text_ru": "Я могу использовать эту велосипедную дорожку только если я вместе с мопедом класса B.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal D7 indique une piste cyclable. Le panneau additionnel M16 spécifie que ni les cyclomoteurs classe B ni les speed pedelecs ne peuvent emprunter cette piste. Vous devez donc utiliser la chaussée.",
+      "explanation_nl": "Het D7-bord geeft een fietspad aan. Het M16-onderbord specificeert dat noch bromfietsen klasse B noch speed pedelecs dit pad mogen gebruiken. U moet dus de rijbaan gebruiken.",
+      "explanation_ru": "Знак D7 указывает на велосипедную дорожку. Дополнительная табличка M16 уточняет, что ни мопеды класса B, ни скоростные велосипеды (speed pedelec) не могут использовать эту дорожку. Поэтому вы должны использовать проезжую часть."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "d8cb97d02cc1",
@@ -91,6 +382,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:23:08Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

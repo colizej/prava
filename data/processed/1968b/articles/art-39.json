@@ -1,0 +1,51 @@
+{
+  "law_id": "1968b",
+  "article_number": "39",
+  "slug": "art-39",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 39. Procédures à suivre au cours de la réception CE / petite série (CE ou nationale) multiétape",
+  "title_nl": "Bijlage 39. Procedures voor de EG-/ (EG of nationale) kleine reeks meerfasentypegoedkeuring",
+  "title_ru": "",
+  "content_md_fr": "> 📎 PDF",
+  "content_md_nl": "> 📎 PDF",
+  "content_md_ru": "",
+  "content_html_fr": "<div class=\"notification notification-secondary\"><a href=\"/media/file/122754f90790bfd57ac9911fa578a89347d9bb89.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "content_html_nl": "<div class=\"notification notification-secondary\"><a href=\"/media/file/fddc49815ebca1eee457de49879dd0b9f36ee4f6.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "full_text_fr": "PDF",
+  "full_text_nl": "PDF",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "yktygjrj5x",
+  "anchor_id_nl": "3l3b2itsfv",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "4fd1e8c2aaaf",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

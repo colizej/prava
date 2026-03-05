@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "49",
+  "slug": "art-49",
+  "structure": {
+    "titre": null,
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 49. Dispositifs de freinage des trains de véhicules",
+  "title_nl": "Artikel 49. Reminrichtingen van de slepen",
+  "title_ru": "",
+  "content_md_fr": "L'action des freins de service des véhicules devant être équipés d'un dispositif de freinage doit être judicieusement répartie et synchronisée entre le véhicule tracteur et la ou les remorques.",
+  "content_md_nl": "De werking van de bedrijfsremmen van de voertuigen die met een reminrichting moeten uitgerust zijn, moet oordeelkundig zijn verdeeld en gesynchroniseerd over het trekkend voertuig en de aanhangwagen(s).",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'action des freins de service des véhicules devant être équipés d'un dispositif de freinage doit être judicieusement répartie et synchronisée entre le véhicule tracteur et la ou les remorques.</p>",
+  "content_html_nl": "<p>De werking van de bedrijfsremmen van de voertuigen die met een reminrichting moeten uitgerust zijn, moet oordeelkundig zijn verdeeld en gesynchroniseerd over het trekkend voertuig en de aanhangwagen(s).</p>",
+  "full_text_fr": "L'action des freins de service des véhicules devant être équipés d'un dispositif de freinage doit être judicieusement répartie et synchronisée entre le véhicule tracteur et la ou les remorques.",
+  "full_text_nl": "De werking van de bedrijfsremmen van de voertuigen die met een reminrichting moeten uitgerust zijn, moet oordeelkundig zijn verdeeld en gesynchroniseerd over het trekkend voertuig en de aanhangwagen(s).",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "yngyd44xdo",
+  "anchor_id_nl": "ucwh1s5gfp",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "68d20f384521",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "33bis",
+  "slug": "art-33bis",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 33bis",
+  "title_nl": "Artikel 33bis",
+  "title_ru": "",
+  "content_md_fr": "Les modifications à la présente loi sont applicables aux accidents de la circulation qui sont survenus à partir de l’entrée en vigueur de ces modifications.",
+  "content_md_nl": "De wijzigingen aan deze wet zijn van toepassing op de verkeersongevallen die hebben plaatsgevonden vanaf de inwerkingtreding van deze wijzigingen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Les modifications à la présente loi sont applicables aux accidents de la circulation qui sont survenus à partir de l’entrée en vigueur de ces modifications.</p>",
+  "content_html_nl": "<p>De wijzigingen aan deze wet zijn van toepassing op de verkeersongevallen die hebben plaatsgevonden vanaf de inwerkingtreding van deze wijzigingen.</p>",
+  "full_text_fr": "Les modifications à la présente loi sont applicables aux accidents de la circulation qui sont survenus à partir de l’entrée en vigueur de ces modifications.",
+  "full_text_nl": "De wijzigingen aan deze wet zijn van toepassing op de verkeersongevallen die hebben plaatsgevonden vanaf de inwerkingtreding van deze wijzigingen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "yhugkhlv3h",
+  "anchor_id_nl": "alo9n2miwu",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "2e63f6c1300a",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

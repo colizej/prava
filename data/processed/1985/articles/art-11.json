@@ -1,0 +1,41 @@
+{
+  "law_id": "1985",
+  "article_number": "11",
+  "slug": "art-11",
+  "structure": {
+    "titre": null,
+    "chapitre": null
+  },
+  "title_fr": "Article 11",
+  "title_nl": "Artikel 11",
+  "title_ru": "",
+  "content_md_fr": "Le présente loi entre en vigueur le jour de sa publication au Moniteur belge.",
+  "content_md_nl": "Deze wet treedt in werking de dag waarop zij in het Belgisch Staatsblad is bekend gemaakt.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le présente loi entre en vigueur le jour de sa publication au Moniteur belge.</p>",
+  "content_html_nl": "<p>Deze wet treedt in werking de dag waarop zij in het Belgisch Staatsblad is bekend gemaakt.</p>",
+  "full_text_fr": "Le présente loi entre en vigueur le jour de sa publication au Moniteur belge.",
+  "full_text_nl": "Deze wet treedt in werking de dag waarop zij in het Belgisch Staatsblad is bekend gemaakt.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "hz4w20kxkr",
+  "anchor_id_nl": "1aimbjatj2",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:33Z",
+    "content_hash": "4733ea058905",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

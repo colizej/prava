@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "78bis",
+  "slug": "art-78bis",
+  "structure": {
+    "titre": null,
+    "chapitre": "VIII"
+  },
+  "title_fr": "Article 78bis Région wallonne.",
+  "title_nl": "Artikel 78bis Waals Gewest.",
+  "title_ru": "",
+  "content_md_fr": "Le Ministre compétent pour la circulation routière et le Ministre wallon sont habilités, chacun en ce qui le concerne, à adapter les annexes afin de les mettre en conformité avec les directives européennes à caractère technique.",
+  "content_md_nl": "De Minister bevoegd voor het wegverkeer en de Waalse Minister zijn, ieder wat hem betreft, gemachtigd om de bijlagen aan te passen om ze in overeenstemming te brengen met de Europese richtlijnen van technische aard.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le Ministre compétent pour la circulation routière et le Ministre wallon sont habilités, chacun en ce qui le concerne, à adapter les annexes afin de les mettre en conformité avec les directives européennes à caractère technique.</p>",
+  "content_html_nl": "<p>De Minister bevoegd voor het wegverkeer en de Waalse Minister zijn, ieder wat hem betreft, gemachtigd om de bijlagen aan te passen om ze in overeenstemming te brengen met de Europese richtlijnen van technische aard.</p>",
+  "full_text_fr": "Le Ministre compétent pour la circulation routière et le Ministre wallon sont habilités, chacun en ce qui le concerne, à adapter les annexes afin de les mettre en conformité avec les directives européennes à caractère technique.",
+  "full_text_nl": "De Minister bevoegd voor het wegverkeer en de Waalse Minister zijn, ieder wat hem betreft, gemachtigd om de bijlagen aan te passen om ze in overeenstemming te brengen met de Europese richtlijnen van technische aard.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "qhsbmeuofa",
+  "anchor_id_nl": "bnafjicwha",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "bab4099450bd",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

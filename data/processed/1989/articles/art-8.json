@@ -1,0 +1,43 @@
+{
+  "law_id": "1989",
+  "article_number": "8",
+  "slug": "art-8",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 8",
+  "title_nl": "Artikel 8",
+  "title_ru": "",
+  "content_md_fr": "L'organisation de courses ou de concours de vitesse, de régularité ou d'adresse au moyen de véhicules automoteurs est soumise à une autorisation délivrée par une autorité, désignée par le Roi, qui a pour mission de constater qu'une assurance spéciale répondant aux dispositions de la présente loi, couvre la responsabilité civile des organisateurs et des personnes visées à [l'article 3,](#art-3,) § 1er.\n\nCette autorisation ne dispense pas de celles qui sont requises par d'autres dispositions légales ou réglementaires.\n\nLe Roi peut préciser les conditions de l’assurance, visée à l’alinéa 1er.",
+  "content_md_nl": "Geen snelheids-, regelmatigheids- of behendigheidsrit of -wedstrijd voor motorrijtuigen mag worden georganiseerd dan met schriftelijke toestemming van een door de Koning aan te wijzen overheid, die moet vaststellen of de burgerrechtelijke aansprakelijkheid van de organisatoren en van de in [artikel 3](#art-3), § 1 bedoelde personen gedekt is door een bijzondere verzekering die aan de bepalingen van deze wet voldoet.\n\nDie toestemming vervangt niet de toestemming die krachtens andere wetten en verordeningen moet worden verkregen.\n\nDe Koning kan de voorwaarden van de verzekering, bedoeld in het eerste lid, nader bepalen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'organisation de courses ou de concours de vitesse, de régularité ou d'adresse au moyen de véhicules automoteurs est soumise à une autorisation délivrée par une autorité, désignée par le Roi, qui a pour mission de constater qu'une assurance spéciale répondant aux dispositions de la présente loi, couvre la responsabilité civile des organisateurs et des personnes visées à <a href=\"#art-3,\">l'article 3,</a> § 1<sup>er</sup>.</p><p>Cette autorisation ne dispense pas de celles qui sont requises par d'autres dispositions légales ou réglementaires.</p><p>Le Roi peut préciser les conditions de l’assurance, visée à l’alinéa 1<sup>er</sup>.</p>",
+  "content_html_nl": "<p>Geen snelheids-, regelmatigheids- of behendigheidsrit of -wedstrijd voor motorrijtuigen mag worden georganiseerd dan met schriftelijke toestemming van een door de Koning aan te wijzen overheid, die moet vaststellen of de burgerrechtelijke aansprakelijkheid van de organisatoren en van de in <a href=\"#art-3\">artikel 3</a>, § 1 bedoelde personen gedekt is door een bijzondere verzekering die aan de bepalingen van deze wet voldoet.</p><p>Die toestemming vervangt niet de toestemming die krachtens andere wetten en verordeningen moet worden verkregen.</p><p>De Koning kan de voorwaarden van de verzekering, bedoeld in het eerste lid, nader bepalen.</p>",
+  "full_text_fr": "L'organisation de courses ou de concours de vitesse, de régularité ou d'adresse au moyen de véhicules automoteurs est soumise à une autorisation délivrée par une autorité, désignée par le Roi, qui a pour mission de constater qu'une assurance spéciale répondant aux dispositions de la présente loi, couvre la responsabilité civile des organisateurs et des personnes visées à l'article 3, § 1er.\n\nCette autorisation ne dispense pas de celles qui sont requises par d'autres dispositions légales ou réglementaires.\n\nLe Roi peut préciser les conditions de l’assurance, visée à l’alinéa 1er.",
+  "full_text_nl": "Geen snelheids-, regelmatigheids- of behendigheidsrit of -wedstrijd voor motorrijtuigen mag worden georganiseerd dan met schriftelijke toestemming van een door de Koning aan te wijzen overheid, die moet vaststellen of de burgerrechtelijke aansprakelijkheid van de organisatoren en van de in artikel 3, § 1 bedoelde personen gedekt is door een bijzondere verzekering die aan de bepalingen van deze wet voldoet.\n\nDie toestemming vervangt niet de toestemming die krachtens andere wetten en verordeningen moet worden verkregen.\n\nDe Koning kan de voorwaarden van de verzekering, bedoeld in het eerste lid, nader bepalen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-3,"
+  ],
+  "anchor_id_fr": "zrbiedodnf",
+  "anchor_id_nl": "saon9plwty",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "098135728b6c",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

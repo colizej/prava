@@ -1,0 +1,569 @@
+{
+  "law_id": "2001",
+  "built_at": "2026-03-05T09:01:37Z",
+  "total_articles": 41,
+  "structure": [
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Dispositions générales",
+      "id": "snj2skeatm"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Procédures et documents d'immatriculation",
+      "id": "bhuoaj9pde"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Dispositions particulières",
+      "id": "z4mn3azmm3"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. Dispositions finales",
+      "id": "adojkty6cs"
+    }
+  ],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 1",
+      "title_nl": "Artikel 1",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 2",
+      "title_nl": "Artikel 2",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 3",
+      "title_nl": "Artikel 3",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 4",
+      "title_nl": "Artikel 4",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 5",
+      "title_nl": "Artikel 5",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 6",
+      "title_nl": "Artikel 6",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7",
+      "title_nl": "Artikel 7",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 8",
+      "title_nl": "Artikel 8",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9",
+      "title_nl": "Artikel 9",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 10",
+      "title_nl": "Artikel 10",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10/1",
+      "slug": "art-10-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 10/1",
+      "title_nl": "Artikel 10/1",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 11",
+      "title_nl": "Artikel 11",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "12",
+      "slug": "art-12",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 12",
+      "title_nl": "Artikel 12",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "13",
+      "slug": "art-13",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 13",
+      "title_nl": "Artikel 13",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 14",
+      "title_nl": "Artikel 14",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 15",
+      "title_nl": "Artikel 15",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 16",
+      "title_nl": "Artikel 16",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 17",
+      "title_nl": "Artikel 17",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 18",
+      "title_nl": "Artikel 18",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 19",
+      "title_nl": "Artikel 19",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 20",
+      "title_nl": "Artikel 20",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": [
+        "WAr",
+        "XAr"
+      ]
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 21",
+      "title_nl": "Artikel 21",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22",
+      "slug": "art-22",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 22",
+      "title_nl": "Artikel 22",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 23",
+      "title_nl": "Artikel 23",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "24",
+      "slug": "art-24",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 24",
+      "title_nl": "Artikel 24",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 25",
+      "title_nl": "Artikel 25",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 26",
+      "title_nl": "Artikel 26",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29",
+      "slug": "art-29",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 29",
+      "title_nl": "Artikel 29",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30",
+      "slug": "art-30",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 30",
+      "title_nl": "Artikel 30",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "31",
+      "slug": "art-31",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 31",
+      "title_nl": "Artikel 31",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 32",
+      "title_nl": "Artikel 32",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33",
+      "slug": "art-33",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 33",
+      "title_nl": "Artikel 33",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 34",
+      "title_nl": "Artikel 34",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 35",
+      "title_nl": "Artikel 35",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 36",
+      "title_nl": "Artikel 36",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 37",
+      "title_nl": "Artikel 37",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "38",
+      "slug": "art-38",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 38",
+      "title_nl": "Artikel 38",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 39",
+      "title_nl": "Artikel 39",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "40",
+      "slug": "art-40",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 40",
+      "title_nl": "Artikel 40",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "41",
+      "slug": "art-41",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 41",
+      "title_nl": "Artikel 41",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "42",
+      "slug": "art-42",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 42",
+      "title_nl": "Artikel 42",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}

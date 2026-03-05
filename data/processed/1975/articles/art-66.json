@@ -204,7 +204,261 @@
   "anchor_id_fr": "pkpwiowbbk",
   "anchor_id_nl": "yvsbatrbkc",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Où sont généralement placés les signaux de danger ?",
+      "text_nl": "Waar worden gevaarsborden over het algemeen geplaatst?",
+      "text_ru": "Где обычно размещаются знаки опасности?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement au-dessus de la chaussée.",
+          "text_nl": "Enkel boven de rijbaan.",
+          "text_ru": "Только над проезжей частью.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À droite de la chaussée, ou au-dessus si la disposition des lieux ne le permet pas.",
+          "text_nl": "Rechts van de rijbaan, of erboven indien de plaatsgesteldheid het niet toelaat.",
+          "text_ru": "Справа от проезжей части, или над ней, если это не позволяет расположение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement à gauche de la chaussée.",
+          "text_nl": "Enkel links van de rijbaan.",
+          "text_ru": "Только слева от проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux de danger sont placés à droite de la chaussée. Si la disposition des lieux ne le permet pas, ils peuvent être placés au-dessus de la chaussée.",
+      "explanation_nl": "Gevaarsborden worden rechts van de rijbaan geplaatst. Indien de plaatsgesteldheid het niet toelaat, mogen zij boven de rijbaan geplaatst worden.",
+      "explanation_ru": "Знаки опасности размещаются справа от проезжей части. Если это не позволяет расположение, они могут быть размещены над проезжей частью."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la distance approximative habituelle entre un signal de danger et l'endroit dangereux qu'il signale, sauf exceptions ?",
+      "text_nl": "Wat is de gebruikelijke geschatte afstand tussen een gevaarsbord en de gevaarlijke plaats die het aangeeft, behalve in uitzonderingsgevallen?",
+      "text_ru": "Каково обычное примерное расстояние между знаком опасности и опасным местом, которое он обозначает, за исключением особых случаев?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "50 mètres.",
+          "text_nl": "50 meter.",
+          "text_ru": "50 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "100 mètres.",
+          "text_nl": "100 meter.",
+          "text_ru": "100 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "150 mètres.",
+          "text_nl": "150 meter.",
+          "text_ru": "150 метров.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "En règle générale, les signaux de danger sont placés à une distance approximative de 150 mètres de l'endroit dangereux qu'ils signalent.",
+      "explanation_nl": "In principe worden gevaarsborden op ongeveer 150 meter afstand van de gevaarlijke plaats die zij aangeven geplaatst.",
+      "explanation_ru": "Как правило, знаки опасности размещаются на примерном расстоянии 150 метров от опасного места, которое они обозначают."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Comment peut-on indiquer la longueur d'une section dangereuse de la voie publique ?",
+      "text_nl": "Hoe kan de lengte van een gevaarlijk gedeelte van de openbare weg worden aangegeven?",
+      "text_ru": "Как можно обозначить длину опасного участка дороги?",
+      "image": {
+        "sign_code": "A50",
+        "generation_prompt": "A yellow triangular warning sign with a black border and a horizontal black bar indicating length, as per Belgian road sign A50."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avec un panneau additionnel spécifique indiquant la distance.",
+          "text_nl": "Met een specifiek onderbord dat de afstand aangeeft.",
+          "text_ru": "С помощью специальной дополнительной таблички, указывающей расстояние.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "En répétant le signal de danger plusieurs fois.",
+          "text_nl": "Door het gevaarsbord meerdere keren te herhalen.",
+          "text_ru": "Повторяя знак опасности несколько раз.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avec une ligne continue sur la chaussée.",
+          "text_nl": "Met een doorlopende lijn op de rijbaan.",
+          "text_ru": "Сплошной линией на проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un panneau additionnel peut être utilisé pour indiquer la longueur d'une section dangereuse de la voie publique.",
+      "explanation_nl": "Een onderbord kan worden gebruikt om de lengte van een gevaarlijk gedeelte van de openbare weg aan te duiden.",
+      "explanation_ru": "Дополнительная табличка может использоваться для указания длины опасного участка дороги."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un passage à niveau sans barrières. À quelle distance approximative du passage à niveau vous attendez-vous à voir un panneau de danger vous avertissant de sa présence ?",
+      "text_nl": "U nadert een overweg zonder slagbomen. Op welke geschatte afstand van de overweg verwacht u een gevaarsbord te zien dat u waarschuwt voor de aanwezigheid ervan?",
+      "text_ru": "Вы приближаетесь к железнодорожному переезду без шлагбаумов. На каком примерном расстоянии от переезда вы ожидаете увидеть предупреждающий знак опасности?",
+      "image": {
+        "sign_code": "A45",
+        "generation_prompt": "A Belgian road sign A45, a white triangle with a black border and a black locomotive symbol, indicating a level crossing."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À environ 150 mètres.",
+          "text_nl": "Op ongeveer 150 meter.",
+          "text_ru": "Примерно в 150 метрах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À proximité immédiate ou à l'endroit même.",
+          "text_nl": "In de onmiddellijke nabijheid of ter plaatse.",
+          "text_ru": "В непосредственной близости или непосредственно на месте.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La distance varie et n'est pas standardisée.",
+          "text_nl": "De afstand varieert en is niet gestandaardiseerd.",
+          "text_ru": "Расстояние варьируется и не стандартизировано.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux de danger spécifiques aux passages à niveau (comme A45 et A47) sont placés au droit ou à proximité immédiate du passage à niveau, contrairement aux autres signaux de danger qui sont généralement placés à 150m.",
+      "explanation_nl": "Specifieke gevaarsborden voor overwegen (zoals A45 en A47) worden aan of in de onmiddellijke nabijheid van de overweg geplaatst, in tegenstelling tot andere gevaarsborden die doorgaans op 150m worden geplaatst.",
+      "explanation_ru": "Специфические знаки опасности для железнодорожных переездов (такие как A45 и A47) размещаются непосредственно у переезда или в непосредственной близости от него, в отличие от других знаков опасности, которые обычно размещаются на расстоянии 150 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous voyez un panneau de danger triangulaire avec un symbole de serpentin à 150 mètres sur votre droite. Un panneau additionnel en dessous indique '500 m'. Qu'est-ce que cela signifie pour votre conduite ?",
+      "text_nl": "U ziet een driehoekig gevaarsbord met een kronkelsymbool op 150 meter rechts van u. Een onderbord eronder geeft '500 m' aan. Wat betekent dit voor uw rijgedrag?",
+      "text_ru": "Вы видите треугольный знак опасности с символом извилин в 150 метрах справа от вас. Дополнительная табличка под ним указывает '500 м'. Что это означает для вашего вождения?",
+      "image": {
+        "sign_code": "A50",
+        "generation_prompt": "A yellow triangular warning sign with a black border and a black winding road symbol, indicating curves ahead, with an additional rectangular sign below indicating '500 m'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La route sera dangereuse sur une distance de 150 mètres.",
+          "text_nl": "De weg zal gevaarlijk zijn over een afstand van 150 meter.",
+          "text_ru": "Дорога будет опасной на расстоянии 150 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le danger signalé par le panneau de base (courbes) s'étend sur une longueur de 500 mètres.",
+          "text_nl": "Het gevaar aangegeven door het basissignaal (bochten) strekt zich uit over een lengte van 500 meter.",
+          "text_ru": "Опасность, обозначенная основным знаком (повороты), распространяется на длину 500 метров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter dans 500 mètres.",
+          "text_nl": "U moet stoppen over 500 meter.",
+          "text_ru": "Вы должны остановиться через 500 метров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau additionnel indiquant '500 m' précise la longueur de la section dangereuse (ici, une route sinueuse) qui commence à 150m du signal.",
+      "explanation_nl": "Het onderbord dat '500 m' aangeeft, specificeert de lengte van het gevaarlijke gedeelte (hier: een bochtige weg) dat begint op 150m van het signaal.",
+      "explanation_ru": "Дополнительная табличка с указанием '500 м' уточняет длину опасного участка (здесь: извилистая дорога), который начинается в 150 метрах от знака."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une route de campagne limitée à 90 km/h. Vous apercevez un panneau de danger triangulaire sur votre droite. Que devez-vous faire en général, même sans connaître le danger exact signalé ?",
+      "text_nl": "U rijdt op een landweg met een snelheidslimiet van 90 km/u. U ziet rechts een driehoekig gevaarsbord. Wat moet u over het algemeen doen, zelfs zonder het exacte gevaar te kennen?",
+      "text_ru": "Вы едете по проселочной дороге с ограничением скорости 90 км/ч. Вы видите справа треугольный знак опасности. Что вам следует делать в общем случае, даже не зная точной обозначенной опасности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A generic yellow triangular warning sign with a black border, representing an unspecified danger on a road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à la même vitesse, le panneau est juste informatif.",
+          "text_nl": "Doorgaan met dezelfde snelheid, het bord is l enkel informatief.",
+          "text_ru": "Продолжать движение с той же скоростью, знак носит лишь информационный характер.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Augmenter votre vitesse pour dépasser rapidement la zone potentiellement dangereuse.",
+          "text_nl": "Verhoog uw snelheid om het potentieel gevaarlijke gebied snel te passeren.",
+          "text_ru": "Увеличьте скорость, чтобы быстро проехать потенциально опасный участок.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Être vigilant et potentiellement réduire votre vitesse.",
+          "text_nl": "Wees waakzaam en verlaag eventueel uw snelheid.",
+          "text_ru": "Будьте бдительны и, возможно, снизьте скорость.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les panneaux de danger signalent une situation potentiellement risquée. Il est donc conseillé d'être particulièrement vigilant et d'adapter sa vitesse en fonction du danger signalé et des conditions.",
+      "explanation_nl": "Gevaarsborden signaleren een potentieel risicovolle situatie. Het is daarom raadzaam om extra waakzaam te zijn en uw snelheid aan te passen aan het gemelde gevaar en de omstandigheden.",
+      "explanation_ru": "Знаки опасности сигнализируют о потенциально рискованной ситуации. Поэтому рекомендуется проявлять особую бдительность и корректировать скорость в зависимости от обозначенной опасности и условий."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez dépassé un panneau de danger à 150m de l'endroit signalé. Ce danger est un virage très serré. Le panneau de danger est répété 100 mètres plus loin. Que cela indique-t-il ?",
+      "text_nl": "U bent een gevaarsbord gepasseerd op 150 meter van de gemelde plaats. Dit gevaar is een zeer scherpe bocht. Het gevaarsbord wordt 100 meter verder herhaald. Wat geeft dit aan?",
+      "text_ru": "Вы проехали знак опасности в 150 метрах от обозначенного места. Эта опасность - очень крутой поворот. Знак опасности повторяется через 100 метров. Что это означает?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A sequence of two Belgian triangular warning signs indicating curves, placed at intervals on a road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le virage est encore plus dangereux après le deuxième panneau.",
+          "text_nl": "De bocht is nog gevaarlijker na het tweede bord.",
+          "text_ru": "Поворот становится еще опаснее после второго знака.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le danger (le virage) est répété ou persiste sur une certaine distance, justifiant un avertissement supplémentaire.",
+          "text_nl": "Het gevaar (de bocht) wordt herhaald of blijft bestaan over een bepaalde afstand, wat een aanvullende waarschuwing rechtvaardigt.",
+          "text_ru": "Опасность (поворот) повторяется или сохраняется на определенном расстоянии, что оправдывает дополнительное предупреждение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le premier panneau était mal placé et le deuxième est le bon.",
+          "text_nl": "Het eerste bord was verkeerd geplaatst en het tweede is correct.",
+          "text_ru": "Первый знак был размещен неправильно, а второй - правильно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux de danger peuvent être répétés si la disposition des lieux ou la nature du danger le justifie, afin de rappeler l'avertissement au conducteur.",
+      "explanation_nl": "Gevaarsborden mogen herhaald worden indien de plaatsgesteldheid of de aard van het gevaar dit rechtvaardigt, om de bestuurder aan de waarschuwing te herinneren.",
+      "explanation_ru": "Знаки опасности могут повторяться, если это оправдано расположением или характером опасности, чтобы напомнить водителю о предупреждении."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "622b4b441763",
@@ -214,6 +468,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:23:24Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 7
   }
 }

@@ -1,0 +1,41 @@
+{
+  "law_id": "1985",
+  "article_number": "8",
+  "slug": "art-8",
+  "structure": {
+    "titre": null,
+    "chapitre": null
+  },
+  "title_fr": "Article 8",
+  "title_nl": "Artikel 8",
+  "title_ru": "",
+  "content_md_fr": "A l'article 7 de la loi du 1er août 1960 relative aux transport rémunéré de choses par véhicule automobile, le premier alinéa, 1°, est abrogé.",
+  "content_md_nl": "Artikel 7, eerste lid, 1°, van de wet van 1 augustus 1960 betreffende het vervoer van zaken met motorvoertuigen tegen vergoeding wordt opgeheven.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 7 de la loi du 1<sup>er</sup> août 1960 relative aux transport rémunéré de choses par véhicule automobile, le premier alinéa, 1°, est abrogé.</p>",
+  "content_html_nl": "<p>Artikel 7, eerste lid, 1°, van de wet van 1 augustus 1960 betreffende het vervoer van zaken met motorvoertuigen tegen vergoeding wordt opgeheven.</p>",
+  "full_text_fr": "A l'article 7 de la loi du 1er août 1960 relative aux transport rémunéré de choses par véhicule automobile, le premier alinéa, 1°, est abrogé.",
+  "full_text_nl": "Artikel 7, eerste lid, 1°, van de wet van 1 augustus 1960 betreffende het vervoer van zaken met motorvoertuigen tegen vergoeding wordt opgeheven.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "dr1omd7esn",
+  "anchor_id_nl": "7nknceb8ux",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:33Z",
+    "content_hash": "fe9c1b9fabba",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "34",
+  "slug": "art-34",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 34",
+  "title_nl": "Artikel 34",
+  "title_ru": "",
+  "content_md_fr": "Le Roi peut, par arrêté délibéré en Conseil des Ministres, adapter les dispositions de la présente loi aux obligations découlant pour la Belgique d'accords et de traités internationaux.",
+  "content_md_nl": "De Koning kan, bij een in Ministerraad overlegd besluit, de bepalingen van deze wet aanpassen aan de verplichtingen die voor België voortvloeien uit internationale overeenkomsten en verdragen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le Roi peut, par arrêté délibéré en Conseil des Ministres, adapter les dispositions de la présente loi aux obligations découlant pour la Belgique d'accords et de traités internationaux.</p>",
+  "content_html_nl": "<p>De Koning kan, bij een in Ministerraad overlegd besluit, de bepalingen van deze wet aanpassen aan de verplichtingen die voor België voortvloeien uit internationale overeenkomsten en verdragen.</p>",
+  "full_text_fr": "Le Roi peut, par arrêté délibéré en Conseil des Ministres, adapter les dispositions de la présente loi aux obligations découlant pour la Belgique d'accords et de traités internationaux.",
+  "full_text_nl": "De Koning kan, bij een in Ministerraad overlegd besluit, de bepalingen van deze wet aanpassen aan de verplichtingen die voor België voortvloeien uit internationale overeenkomsten en verdragen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "d9uiexkya6",
+  "anchor_id_nl": "rdzguowb6a",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "f9cf0e3c777a",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

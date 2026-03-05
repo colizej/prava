@@ -1,0 +1,203 @@
+{
+  "law_id": "1985",
+  "built_at": "2026-03-05T08:59:33Z",
+  "total_articles": 15,
+  "structure": [],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 1 (Région de Bruxelles-Capitale)",
+      "title_nl": "Artikel 1 (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 1 (Région flamande)",
+      "title_nl": "Artikel 1 (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 1 (Région wallonne)",
+      "title_nl": "Artikel 1 (Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 2 (Région de Bruxelles-Capitale et Région wallonne)",
+      "title_nl": "Artikel 2 (Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 2 (Région flamande)",
+      "title_nl": "Artikel 2 (Vlaams Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 3",
+      "title_nl": "Artikel 3",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 4",
+      "title_nl": "Artikel 4",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4bis",
+      "slug": "art-4bis",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 4bis",
+      "title_nl": "Artikel 4bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 5",
+      "title_nl": "Artikel 5",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 6",
+      "title_nl": "Artikel 6",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 7",
+      "title_nl": "Artikel 7",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 8",
+      "title_nl": "Artikel 8",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 9",
+      "title_nl": "Artikel 9",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 10",
+      "title_nl": "Artikel 10",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 11",
+      "title_nl": "Artikel 11",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}

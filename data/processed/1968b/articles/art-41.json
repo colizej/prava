@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "41",
+  "slug": "art-41",
+  "structure": {
+    "titre": null,
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 41. Embrayage, boîte de vitesses",
+  "title_nl": "Artikel 41. Koppeling - versnellingsbak",
+  "title_ru": "",
+  "content_md_fr": "L'embrayage doit être progressif et pouvoir être facilement réglé.\n\nLe dispositif de changement de vitesse doit être facile à manier et se trouver à portée immédiate du conducteur.\n\nPour toute boîte de vitesse à commande manuelle directe, le verrouillage automatique de chaque vitesse doit être assuré.\n\nPour les autobus et les autocars, la poignée du levier de changement de vitesse ne peut, dans la position la plus défavorable, se trouver ni à plus de 65 cm latéralement du centre du volant de direction, ni à plus de 80 cm en arrière de ce centre, étant entendu qu'en aucun cas la poignée du levier ne peut se trouver derrière le siège du conducteur.",
+  "content_md_nl": "Het inkoppelen moet geleidelijk geschieden en gemakkelijk geregeld kunnen worden\n\nDe versnellingshefboom moet gemakkelijk zijn te bedienen en in het onmiddellijk bereik van de bestuurder zijn gelegen.\n\nBij een versnellingsbak die rechtstreeks met de hand bediend wordt, moet de versnellingshefboom zich in elke stand automatisch vastzetten.\n\nBij autobussen en autocars. mag de bedieningsknop van de versnellingshefboom zich in de ongunstige stand niet verder dan 65 cm zijwaarts en niet verder dan 80 cm achterwaarts van het hart van het stuurwiel bevinden, met dien verstande dat deze bedieningsknop zich nimmer achter de bestuurderszitplaats mag bevinden.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'embrayage doit être progressif et pouvoir être facilement réglé.</p><p>Le dispositif de changement de vitesse doit être facile à manier et se trouver à portée immédiate du conducteur.</p><p>Pour toute boîte de vitesse à commande manuelle directe, le verrouillage automatique de chaque vitesse doit être assuré.</p><p>Pour les autobus et les autocars, la poignée du levier de changement de vitesse ne peut, dans la position la plus défavorable, se trouver ni à plus de 65 cm latéralement du centre du volant de direction, ni à plus de 80 cm en arrière de ce centre, étant entendu qu'en aucun cas la poignée du levier ne peut se trouver derrière le siège du conducteur.</p>",
+  "content_html_nl": "<p>Het inkoppelen moet geleidelijk geschieden en gemakkelijk geregeld kunnen worden</p><p>De versnellingshefboom moet gemakkelijk zijn te bedienen en in het onmiddellijk bereik van de bestuurder zijn gelegen.</p><p>Bij een versnellingsbak die rechtstreeks met de hand bediend wordt, moet de versnellingshefboom zich in elke stand automatisch vastzetten.</p><p>Bij autobussen en autocars. mag de bedieningsknop van de versnellingshefboom zich in de ongunstige stand niet verder dan 65 cm zijwaarts en niet verder dan 80 cm achterwaarts van het hart van het stuurwiel bevinden, met dien verstande dat deze bedieningsknop zich nimmer achter de bestuurderszitplaats mag bevinden.</p>",
+  "full_text_fr": "L'embrayage doit être progressif et pouvoir être facilement réglé.\n\nLe dispositif de changement de vitesse doit être facile à manier et se trouver à portée immédiate du conducteur.\n\nPour toute boîte de vitesse à commande manuelle directe, le verrouillage automatique de chaque vitesse doit être assuré.\n\nPour les autobus et les autocars, la poignée du levier de changement de vitesse ne peut, dans la position la plus défavorable, se trouver ni à plus de 65 cm latéralement du centre du volant de direction, ni à plus de 80 cm en arrière de ce centre, étant entendu qu'en aucun cas la poignée du levier ne peut se trouver derrière le siège du conducteur.",
+  "full_text_nl": "Het inkoppelen moet geleidelijk geschieden en gemakkelijk geregeld kunnen worden\n\nDe versnellingshefboom moet gemakkelijk zijn te bedienen en in het onmiddellijk bereik van de bestuurder zijn gelegen.\n\nBij een versnellingsbak die rechtstreeks met de hand bediend wordt, moet de versnellingshefboom zich in elke stand automatisch vastzetten.\n\nBij autobussen en autocars. mag de bedieningsknop van de versnellingshefboom zich in de ongunstige stand niet verder dan 65 cm zijwaarts en niet verder dan 80 cm achterwaarts van het hart van het stuurwiel bevinden, met dien verstande dat deze bedieningsknop zich nimmer achter de bestuurderszitplaats mag bevinden.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ugxirdj373",
+  "anchor_id_nl": "w6qbji8ikg",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "4b7338ddbac1",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

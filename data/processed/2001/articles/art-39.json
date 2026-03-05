@@ -1,0 +1,41 @@
+{
+  "law_id": "2001",
+  "article_number": "39",
+  "slug": "art-39",
+  "structure": {
+    "titre": null,
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 39",
+  "title_nl": "Artikel 39",
+  "title_ru": "",
+  "content_md_fr": "**§ 1er.** Un véhicule immatriculé, qui est utilisé par la police communale, la police judiciaire auprès des parquets ou la gendarmerie peut, avec l'accord du titulaire de cette immatriculation et avec maintien de sa marque d'immatriculation, être immatriculé à nouveau soit au nom d'une zone de police pluricommunale ou d'une commune, soit au nom de la police fédérale.\n\n**§ 2.** Un véhicule immatriculé et qui est utilisé par la police fédérale peut, avec l'accord du titulaire de cette immatriculation et avec maintien de sa marque d'immatriculation, être immatriculé au nom d'une zone de police pluricommunale ou d'une commune.\n\n**§ 3.** Aucune redevance n'est perçue pour l'immatriculation des véhicules visés aux §§ 1er et 2.",
+  "content_md_nl": "**§ 1.** Een ingeschreven voertuig dat wordt gebruikt door de gemeentepolitie, de gerechtelijke politie bij de parketten of de rijkswacht mag, met instemming van de tenaamgestelde van de inschrijving en met behoud van zijn kentekenplaat, opnieuw worden ingeschreven op naam van hetzij een meergemeentezone of een gemeente, hetzij de federale politie.\n\n**§ 2.** Een ingeschreven voertuig dat wordt gebruikt door de federale politie mag met instemming van de tenaamgestelde van de inschrijving en met behoud van de kentekenplaat worden ingeschreven op naam van een meergemeentezone of een gemeente.\n\n**§ 3.** Er wordt geen retributie geheven voor de inschrijving van de voertuigen bedoeld in §§ 1 en 2.",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>§ 1<sup>er</sup>.</strong> Un véhicule immatriculé, qui est utilisé par la police communale, la police judiciaire auprès des parquets ou la gendarmerie peut, avec l'accord du titulaire de cette immatriculation et avec maintien de sa marque d'immatriculation, être immatriculé à nouveau soit au nom d'une zone de police pluricommunale ou d'une commune, soit au nom de la police fédérale.</p><p><strong>§ 2.</strong> Un véhicule immatriculé et qui est utilisé par la police fédérale peut, avec l'accord du titulaire de cette immatriculation et avec maintien de sa marque d'immatriculation, être immatriculé au nom d'une zone de police pluricommunale ou d'une commune.</p><p><strong>§ 3.</strong> Aucune redevance n'est perçue pour l'immatriculation des véhicules visés aux §§ 1<sup>er</sup> et 2.</p>",
+  "content_html_nl": "<p><strong>§ 1.</strong> Een ingeschreven voertuig dat wordt gebruikt door de gemeentepolitie, de gerechtelijke politie bij de parketten of de rijkswacht mag, met instemming van de tenaamgestelde van de inschrijving en met behoud van zijn kentekenplaat, opnieuw worden ingeschreven op naam van hetzij een meergemeentezone of een gemeente, hetzij de federale politie.</p><p><strong>§ 2.</strong> Een ingeschreven voertuig dat wordt gebruikt door de federale politie mag met instemming van de tenaamgestelde van de inschrijving en met behoud van de kentekenplaat worden ingeschreven op naam van een meergemeentezone of een gemeente.</p><p><strong>§ 3.</strong> Er wordt geen retributie geheven voor de inschrijving van de voertuigen bedoeld in §§ 1 en 2.</p>",
+  "full_text_fr": "§ 1er. Un véhicule immatriculé, qui est utilisé par la police communale, la police judiciaire auprès des parquets ou la gendarmerie peut, avec l'accord du titulaire de cette immatriculation et avec maintien de sa marque d'immatriculation, être immatriculé à nouveau soit au nom d'une zone de police pluricommunale ou d'une commune, soit au nom de la police fédérale.\n\n§ 2. Un véhicule immatriculé et qui est utilisé par la police fédérale peut, avec l'accord du titulaire de cette immatriculation et avec maintien de sa marque d'immatriculation, être immatriculé au nom d'une zone de police pluricommunale ou d'une commune.\n\n§ 3. Aucune redevance n'est perçue pour l'immatriculation des véhicules visés aux §§ 1er et 2.",
+  "full_text_nl": "§ 1. Een ingeschreven voertuig dat wordt gebruikt door de gemeentepolitie, de gerechtelijke politie bij de parketten of de rijkswacht mag, met instemming van de tenaamgestelde van de inschrijving en met behoud van zijn kentekenplaat, opnieuw worden ingeschreven op naam van hetzij een meergemeentezone of een gemeente, hetzij de federale politie.\n\n§ 2. Een ingeschreven voertuig dat wordt gebruikt door de federale politie mag met instemming van de tenaamgestelde van de inschrijving en met behoud van de kentekenplaat worden ingeschreven op naam van een meergemeentezone of een gemeente.\n\n§ 3. Er wordt geen retributie geheven voor de inschrijving van de voertuigen bedoeld in §§ 1 en 2.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "xut1bdfwb4",
+  "anchor_id_nl": "g2cusw10wd",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "ef0420b55a05",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

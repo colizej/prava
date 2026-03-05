@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "72",
+  "slug": "art-72",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 72 Région wallonne. Couleur",
+  "title_nl": "Artikel 72 Waals Gewest. Kleur",
+  "title_ru": "",
+  "content_md_fr": "Le Ministre des Communications ou son délégué peut interdire l'utilisation de certaines couleurs ou combinaisons de couleurs pour la peinture extérieure des véhicules.\n\nLa couleur de la peinture extérieure des véhicules affectés au transport rémunéré de personnes peut être imposée par le Ministre wallon.",
+  "content_md_nl": "De Minister van Verkeerswezen of zijn gemachtigde kan het gebruik van bepaalde kleuren of kleurencombinatie's voor het schilderen van de buitenkant van de voertuigen verbieden.\n\nDe kleur waarin de voor het bezoldigd vervoer van personen aangewende voertuigen aan de besluitwet moeten geschilderd worden door de Waalse Minister kan worden opgelegd.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le Ministre des Communications ou son délégué peut interdire l'utilisation de certaines couleurs ou combinaisons de couleurs pour la peinture extérieure des véhicules.</p><p>La couleur de la peinture extérieure des véhicules affectés au transport rémunéré de personnes peut être imposée par le Ministre wallon.</p>",
+  "content_html_nl": "<p>De Minister van Verkeerswezen of zijn gemachtigde kan het gebruik van bepaalde kleuren of kleurencombinatie's voor het schilderen van de buitenkant van de voertuigen verbieden.</p><p>De kleur waarin de voor het bezoldigd vervoer van personen aangewende voertuigen aan de besluitwet moeten geschilderd worden door de Waalse Minister kan worden opgelegd.</p>",
+  "full_text_fr": "Le Ministre des Communications ou son délégué peut interdire l'utilisation de certaines couleurs ou combinaisons de couleurs pour la peinture extérieure des véhicules.\n\nLa couleur de la peinture extérieure des véhicules affectés au transport rémunéré de personnes peut être imposée par le Ministre wallon.",
+  "full_text_nl": "De Minister van Verkeerswezen of zijn gemachtigde kan het gebruik van bepaalde kleuren of kleurencombinatie's voor het schilderen van de buitenkant van de voertuigen verbieden.\n\nDe kleur waarin de voor het bezoldigd vervoer van personen aangewende voertuigen aan de besluitwet moeten geschilderd worden door de Waalse Minister kan worden opgelegd.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "18reec9a87",
+  "anchor_id_nl": "zoyv1928ue",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "aff8198c8646",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

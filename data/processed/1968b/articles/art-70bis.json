@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "70bis",
+  "slug": "art-70bis",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 70bis. Veste de sécurité rétroréfléchissante",
+  "title_nl": "Artikel 70bis. Retro-reflecterende veiligheidsvest",
+  "title_ru": "",
+  "content_md_fr": "A bord de tous les véhicules automobiles doit se trouver une veste de sécurité rétroréfléchissante.",
+  "content_md_nl": "Een retro-reflecterende veiligheidsvest moet zich aan boord van elke auto bevinden.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A bord de tous les véhicules automobiles doit se trouver une veste de sécurité rétroréfléchissante.</p>",
+  "content_html_nl": "<p>Een retro-reflecterende veiligheidsvest moet zich aan boord van elke auto bevinden.</p>",
+  "full_text_fr": "A bord de tous les véhicules automobiles doit se trouver une veste de sécurité rétroréfléchissante.",
+  "full_text_nl": "Een retro-reflecterende veiligheidsvest moet zich aan boord van elke auto bevinden.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "kftrrlekkj",
+  "anchor_id_nl": "w7jhkbb7nu",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "007fd274f3fd",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

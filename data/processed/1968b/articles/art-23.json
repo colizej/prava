@@ -1,0 +1,51 @@
+{
+  "law_id": "1968b",
+  "article_number": "23",
+  "slug": "art-23",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 23. Liste exhaustive de renseignements aux fins de la réception ce et petite série par type de véhicules, ainsi que pour les réceptions individuelles",
+  "title_nl": "Bijlage 23. Volledige lijst van gegevens ten behoeve van de EG-typegoedkeuring en kleine reeks van voertuigen, alsook voor de individuele goedkeuringen",
+  "title_ru": "",
+  "content_md_fr": "> 📎 PDF",
+  "content_md_nl": "> 📎 PDF",
+  "content_md_ru": "",
+  "content_html_fr": "<div class=\"notification notification-secondary\"><a href=\"/media/file/7eaee8d4c2f908ab9db1d1380af1ae3cc980b8e0.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "content_html_nl": "<div class=\"notification notification-secondary\"><a href=\"/media/file/81ac679efe2fd45d38c58aab721171cdd2cea873.pdf\" rel=\"noopener\" target=\"_blank\">PDF</a></div>",
+  "full_text_fr": "PDF",
+  "full_text_nl": "PDF",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "secondary",
+      "text": "PDF"
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "fg1czacnfw",
+  "anchor_id_nl": "sycp2qwmad",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "4fd1e8c2aaaf",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -186,7 +186,295 @@
   "anchor_id_fr": "twlfl0bocy",
   "anchor_id_nl": "f1nsbatkaz",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Où sont généralement placés les signaux d'interdiction ?",
+      "text_nl": "Waar worden verbodsborden over het algemeen geplaatst?",
+      "text_ru": "Где обычно размещаются запрещающие знаки?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À gauche de la chaussée",
+          "text_nl": "Links van de rijbaan",
+          "text_ru": "Слева от проезжей части",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À droite de la chaussée ou au-dessus",
+          "text_nl": "Rechts van de rijbaan of erboven",
+          "text_ru": "Справа от проезжей части или над ней",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement au-dessus de la chaussée",
+          "text_nl": "Enkel boven de rijbaan",
+          "text_ru": "Только над проезжей частью",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux d'interdiction sont généralement placés à droite de la chaussée. Si la configuration des lieux ne le permet pas, ils peuvent être placés au-dessus de la chaussée.",
+      "explanation_nl": "Verbodsborden worden over het algemeen rechts van de rijbaan geplaatst. Als de plaatsgesteldheid dit niet toelaat, mogen ze boven de rijbaan worden geplaatst.",
+      "explanation_ru": "Запрещающие знаки обычно размещаются справа от проезжей части. Если это невозможно из-за конфигурации местности, их можно разместить над проезжей частью."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie un signal d'interdiction complété par un panneau additionnel indiquant une distance ?",
+      "text_nl": "Wat betekent een verbodsbord aangevuld met een onderbord dat een afstand aangeeft?",
+      "text_ru": "Что означает запрещающий знак, дополненный дополнительной табличкой, указывающей расстояние?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que l'interdiction s'applique à cette distance",
+          "text_nl": "Dat het verbod op die afstand geldt",
+          "text_ru": "Что запрет действует на этом расстоянии",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Que l'interdiction commence approximativement à la distance indiquée",
+          "text_nl": "Dat het verbod bij benadering op de aangegeven afstand begint",
+          "text_ru": "Что запрет начинается примерно на указанном расстоянии",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que l'interdiction se termine à la distance indiquée",
+          "text_nl": "Dat het verbod op de aangegeven afstand eindigt",
+          "text_ru": "Что запрет заканчивается на указанном расстоянии",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un panneau additionnel indiquant une distance sert à annoncer le signal d'interdiction et indique la distance approximative à laquelle l'interdiction commence.",
+      "explanation_nl": "Een onderbord dat een afstand aangeeft, dient om het verbodsbord aan te kondigen en geeft bij benadering de afstand aan waarop het verbod begint.",
+      "explanation_ru": "Дополнительная табличка, указывающая расстояние, служит для анонса запрещающего знака и указывает примерное расстояние, на котором начинается запрет."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'indique un signal C1 complété par un panneau additionnel du modèle M2 ?",
+      "text_nl": "Wat geeft een verkeersbord C1 aan, aangevuld met een onderbord model M2?",
+      "text_ru": "Что означает знак C1, дополненный дополнительной табличкой модели M2?",
+      "image": {
+        "sign_code": "C1",
+        "generation_prompt": "A red circle with a white horizontal bar in the middle (sign C1), with a rectangular supplementary sign below it that says 'M2'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que l'interdiction s'applique uniquement aux cyclistes.",
+          "text_nl": "Dat het verbod enkel geldt voor fietsers.",
+          "text_ru": "Что запрет распространяется только на велосипедистов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Que l'interdiction n'est pas applicable aux cyclistes.",
+          "text_nl": "Dat het verbod niet geldt voor fietsers.",
+          "text_ru": "Что запрет не распространяется на велосипедистов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que l'interdiction est annoncée par un autre panneau.",
+          "text_nl": "Dat het verbod wordt aangekondigd door een ander bord.",
+          "text_ru": "Что запрет анонсируется другим знаком.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un signal C1 complété par un panneau M2 signifie que l'interdiction signalée par le C1 n'est pas applicable aux cyclistes.",
+      "explanation_nl": "Een verkeersbord C1 aangevuld met een onderbord M2 betekent dat het verbod aangegeven door C1 niet geldt voor fietsers.",
+      "explanation_ru": "Знак C1, дополненный дополнительной табличкой M2, означает, что запрет, обозначенный знаком C1, не распространяется на велосипедистов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un panneau d'interdiction de dépasser (C.7) sur la droite. La signalisation est standard. Comment devez-vous interpréter ce panneau ?",
+      "text_nl": "U ziet rechts een bord 'Verboden te overhalen' (C.7). De signalisatie is standaard. Hoe moet u dit bord interpreteren?",
+      "text_ru": "Вы видите справа знак 'Обгон запрещен' (C.7). Сигнализация стандартная. Как вы должны интерпретировать этот знак?",
+      "image": {
+        "sign_code": "C7",
+        "generation_prompt": "A red circle with a horizontal white bar and a black car silhouette above it, and a black bicycle silhouette below it (sign C7, indicating 'no overtaking')."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que je ne peux pas dépasser les autres véhicules, sauf les cyclistes.",
+          "text_nl": "Dat ik andere voertuigen niet mag inhalen, behalve fietsers.",
+          "text_ru": "Что я не могу обгонять другие транспортные средства, кроме велосипедистов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Que je ne peux pas dépasser les autres véhicules.",
+          "text_nl": "Dat ik andere voertuigen niet mag inhalen.",
+          "text_ru": "Что я не могу обгонять другие транспортные средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que je ne peux dépasser que les cyclistes.",
+          "text_nl": "Dat ik enkel fietsers mag inhalen.",
+          "text_ru": "Что я могу обгонять только велосипедистов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau d'interdiction de dépasser (C.7) s'applique généralement à tous les véhicules, sauf indication contraire via un panneau additionnel. Par défaut, il interdit le dépassement de tous les autres véhicules.",
+      "explanation_nl": "Het bord 'Verboden te overhalen' (C.7) geldt over het algemeen voor alle voertuigen, tenzij anders aangegeven met een onderbord. Standaard verbiedt het de inhaalmanoeuvre van alle andere voertuigen.",
+      "explanation_ru": "Знак 'Обгон запрещен' (C.7) обычно применяется ко всем транспортным средствам, если иное не указано на дополнительной табличке. По умолчанию он запрещает обгон всех других транспортных средств."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous circulez dans la Région de Bruxelles-Capitale et vous voyez un panneau d'interdiction de stationner placé sur la droite. Que devez-vous faire si la disposition des lieux ne permettait pas de le placer sur la droite ?",
+      "text_nl": "U rijdt in het Brussels Hoofdstedelijk Gewest en u ziet een parkeerverbodsbord aan de rechterkant. Wat moet u doen als de plaatsgesteldheid het niet toelaat om het aan de rechterkant te plaatsen?",
+      "text_ru": "Вы едете по Брюссельскому столичному региону и видите знак, запрещающий парковку, размещенный справа. Что нужно сделать, если расположение места не позволяет разместить его справа?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le panneau doit alors être placé à gauche.",
+          "text_nl": "Het bord moet dan links geplaatst worden.",
+          "text_ru": "Тогда знак должен быть размещен слева.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le panneau peut être placé au-dessus de la chaussée.",
+          "text_nl": "Het bord mag boven de rijbaan geplaatst worden.",
+          "text_ru": "Знак может быть размещен над проезжей частью.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le panneau n'est alors pas valable.",
+          "text_nl": "Het bord is dan niet geldig.",
+          "text_ru": "Тогда знак недействителен.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas d'impossibilité de placer le signal d'interdiction à droite, celui-ci peut être placé au-dessus de la chaussée.",
+      "explanation_nl": "Wanneer het niet mogelijk is het verbodsbord rechts te plaatsen, mag het boven de rijbaan geplaatst worden.",
+      "explanation_ru": "Если невозможно разместить запрещающий знак справа, его можно разместить над проезжей частью."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à un panneau C.3 (sens interdit) auquel est ajouté un panneau additionnel M2. Que signifie cette combinaison ?",
+      "text_nl": "U nadert een bord C.3 (verboden toegang in beide richtingen) waaraan een onderbord M2 is toegevoegd. Wat betekent deze combinatie?",
+      "text_ru": "Вы приближаетесь к знаку C.3 (въезд запрещен в обоих направлениях), к которому добавлена дополнительная табличка M2. Что означает эта комбинация?",
+      "image": {
+        "sign_code": "C3",
+        "generation_prompt": "A red circle with a white horizontal bar (sign C3, indicating 'no entry'). A rectangular supplementary sign below it says 'M2'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'interdiction n'est pas applicable aux cyclistes.",
+          "text_nl": "Het verbod geldt niet voor fietsers.",
+          "text_ru": "Запрет не распространяется на велосипедистов.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'interdiction est annoncée 50 mètres avant.",
+          "text_nl": "Het verbod wordt 50 meter van tevoren aangekondigd.",
+          "text_ru": "Запрет анонсируется за 50 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'interdiction ne concerne que les cyclomoteurs classe A.",
+          "text_nl": "Het verbod betreft enkel bromfietsen klasse A.",
+          "text_ru": "Запрет касается только мопедов класса А.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau C.3 signifiant 'sens interdit' peut être complété par un panneau M2 pour indiquer que l'interdiction ne s'applique pas aux cyclistes.",
+      "explanation_nl": "Het bord C.3 ('verboden toegang in beide richtingen') kan worden aangevuld met een onderbord M2 om aan te geven dat het verbod niet geldt voor fietsers.",
+      "explanation_ru": "Знак C.3 ('въезд запрещен в обоих направлениях') может быть дополнен дополнительной табличкой M2, чтобы указать, что запрет не распространяется на велосипедистов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un panneau C.1 (stop) suivi d'un panneau additionnel indiquant '200m'. Que devez-vous comprendre ?",
+      "text_nl": "U ziet een bord C.1 (stop) gevolgd door een onderbord met '200m'. Wat moet u begrijpen?",
+      "text_ru": "Вы видите знак C.1 (стоп), за которым следует дополнительная табличка с указанием '200м'. Что вы должны понять?",
+      "image": {
+        "sign_code": "C1",
+        "generation_prompt": "A red circle with a white horizontal bar (sign C1, indicating 'no entry'). A rectangular supplementary sign below it says '200m'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que le stop se termine à 200 mètres.",
+          "text_nl": "Dat de stop op 200 meter eindigt.",
+          "text_ru": "Что знак 'стоп' заканчивается через 200 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Que l'interdiction de passage commence à 200 mètres.",
+          "text_nl": "Dat het verbod op doorgang op 200 meter begint.",
+          "text_ru": "Что запрет проезда начинается через 200 метров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que vous devez vous arrêter dans 200 mètres.",
+          "text_nl": "Dat u over 200 meter moet stoppen.",
+          "text_ru": "Что вы должны остановиться через 200 метров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un panneau additionnel indiquant une distance à côté d'un signal d'interdiction annonce le début de l'interdiction à cette distance approximative.",
+      "explanation_nl": "Een onderbord dat een afstand aangeeft naast een verbodsbord kondigt het begin van het verbod aan op die geschatte afstand.",
+      "explanation_ru": "Дополнительная табличка, указывающая расстояние рядом с запрещающим знаком, анонсирует начало запрета на этом приблизительном расстоянии."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un speed pedelec et vous voyez un panneau C.31 (accès interdit à tous les véhicules) complété par un panneau additionnel M11. Quelle est votre situation ?",
+      "text_nl": "U bestuurt een speed pedelec en u ziet een bord C.31 (toegang verboden voor ieder bestuurder) aangevuld met een onderbord M11. Wat is uw situatie?",
+      "text_ru": "Вы управляете спид-пелеком и видите знак C.31 (въезд запрещен всем транспортным средствам), дополненный дополнительной табличкой M11. Какова ваша ситуация?",
+      "image": {
+        "sign_code": "C31",
+        "generation_prompt": "A red circle with a white horizontal bar (sign C31, indicating 'no entry for all vehicles'). A rectangular supplementary sign below it says 'M11'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je suis autorisé à circuler car le panneau M11 exclut les speed pedelecs de l'interdiction.",
+          "text_nl": "Ik mag doorrijden omdat het onderbord M11 speed pedelecs uitsluit van het verbod.",
+          "text_ru": "Мне разрешено проезжать, потому что табличка M11 исключает спид-пелеки из запрета.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je suis soumis à l'interdiction comme tous les autres véhicules.",
+          "text_nl": "Ik ben onderworpen aan het verbod zoals alle andere voertuigen.",
+          "text_ru": "Я подпадаю под запрет, как и все другие транспортные средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je dois vérifier la présence d'un panneau M2 ou M3.",
+          "text_nl": "Ik moet controleren of er een onderbord M2 of M3 aanwezig is.",
+          "text_ru": "Я должен проверить наличие таблички M2 или M3.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La combinaison du panneau C.31 avec un panneau additionnel M11 signifie que l'interdiction n'est pas applicable aux conducteurs de speed pedelecs.",
+      "explanation_nl": "De combinatie van het bord C.31 met een onderbord M11 betekent dat het verbod niet geldt voor bestuurders van speed pedelecs.",
+      "explanation_ru": "Комбинация знака C.31 с дополнительной табличкой M11 означает, что запрет не распространяется на водителей спид-пелеков."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "4d8c46723db9",
@@ -196,6 +484,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:22:47Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

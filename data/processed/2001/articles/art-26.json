@@ -1,0 +1,41 @@
+{
+  "law_id": "2001",
+  "article_number": "26",
+  "slug": "art-26",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 26",
+  "title_nl": "Artikel 26",
+  "title_ru": "",
+  "content_md_fr": "Lorsque la Direction Immatriculation des véhicules est informé que le contrôle technique périodique a révélé que l’autorisation d’utiliser un véhicule particulier sur la voie publique avait fait l’objet d’une suspension conformément à l’article 9, point 3, de la directive 2014/45/UE, cette suspension est enregistrée électroniquement.\n\nLa suspension est en vigueur jusqu’à ce que le véhicule satisfasse de nouveau aux exigences du contrôle technique. Lorsque les exigences du contrôle technique sont de nouveau satisfaites, le véhicule est à nouveau autorisé à circuler sur la voie publique, la suspension est levée sans devoir passer par une nouvelle procédure d’immatriculation.",
+  "content_md_nl": "Wanneer de Directie Inschrijvingen Voertuigen een kennisgeving van een periodieke technische controle ontvangt waaruit blijkt dat de toelating om een bepaald voertuig in het wegverkeer te gebruiken opgeschort is overeenkomstig artikel 9, punt 3, van Richtlijn 2014/45/EU, wordt de opschorting elektronisch geregistreerd.\n\nDe opschorting geldt tot het voertuig met goed gevolg een nieuwe technische controle heeft ondergaan. Wanneer uit de technische controle blijkt dat het voertuig opnieuw geschikt is om deel te nemen aan het wegverkeer, wordt de opschorting opgeheven, zonder dat hiervoor een nieuwe inschrijvingsprocedure dient te worden doorlopen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Lorsque la Direction Immatriculation des véhicules est informé que le contrôle technique périodique a révélé que l’autorisation d’utiliser un véhicule particulier sur la voie publique avait fait l’objet d’une suspension conformément à l’article 9, point 3, de la directive 2014/45/UE, cette suspension est enregistrée électroniquement.</p><p>La suspension est en vigueur jusqu’à ce que le véhicule satisfasse de nouveau aux exigences du contrôle technique. Lorsque les exigences du contrôle technique sont de nouveau satisfaites, le véhicule est à nouveau autorisé à circuler sur la voie publique, la suspension est levée sans devoir passer par une nouvelle procédure d’immatriculation.</p>",
+  "content_html_nl": "<p>Wanneer de Directie Inschrijvingen Voertuigen een kennisgeving van een periodieke technische controle ontvangt waaruit blijkt dat de toelating om een bepaald voertuig in het wegverkeer te gebruiken opgeschort is overeenkomstig artikel 9, punt 3, van Richtlijn 2014/45/EU, wordt de opschorting elektronisch geregistreerd.</p><p>De opschorting geldt tot het voertuig met goed gevolg een nieuwe technische controle heeft ondergaan. Wanneer uit de technische controle blijkt dat het voertuig opnieuw geschikt is om deel te nemen aan het wegverkeer, wordt de opschorting opgeheven, zonder dat hiervoor een nieuwe inschrijvingsprocedure dient te worden doorlopen.</p>",
+  "full_text_fr": "Lorsque la Direction Immatriculation des véhicules est informé que le contrôle technique périodique a révélé que l’autorisation d’utiliser un véhicule particulier sur la voie publique avait fait l’objet d’une suspension conformément à l’article 9, point 3, de la directive 2014/45/UE, cette suspension est enregistrée électroniquement.\n\nLa suspension est en vigueur jusqu’à ce que le véhicule satisfasse de nouveau aux exigences du contrôle technique. Lorsque les exigences du contrôle technique sont de nouveau satisfaites, le véhicule est à nouveau autorisé à circuler sur la voie publique, la suspension est levée sans devoir passer par une nouvelle procédure d’immatriculation.",
+  "full_text_nl": "Wanneer de Directie Inschrijvingen Voertuigen een kennisgeving van een periodieke technische controle ontvangt waaruit blijkt dat de toelating om een bepaald voertuig in het wegverkeer te gebruiken opgeschort is overeenkomstig artikel 9, punt 3, van Richtlijn 2014/45/EU, wordt de opschorting elektronisch geregistreerd.\n\nDe opschorting geldt tot het voertuig met goed gevolg een nieuwe technische controle heeft ondergaan. Wanneer uit de technische controle blijkt dat het voertuig opnieuw geschikt is om deel te nemen aan het wegverkeer, wordt de opschorting opgeheven, zonder dat hiervoor een nieuwe inschrijvingsprocedure dient te worden doorlopen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "oaznjuxdro",
+  "anchor_id_nl": "9v5tlusyyq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "8aded48f3170",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

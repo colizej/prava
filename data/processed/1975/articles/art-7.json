@@ -26,7 +26,304 @@
   "anchor_id_fr": "yumrhkxhul",
   "anchor_id_nl": "riwe9jv769",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est l'obligation principale d'un conducteur concernant les usagers les plus vulnérables (cyclistes, piétons, enfants, personnes âgées ou handicapées) ?",
+      "text_nl": "Wat is de belangrijkste verplichting van een bestuurder ten opzichte van de kwetsbaarste weggebruikers (fietsers, voetgangers, kinderen, ouderen of gehandicapten)?",
+      "text_ru": "Какова основная обязанность водителя по отношению к наиболее уязвимым участникам дорожного движения (велосипедистам, пешеходам, детям, пожилым людям или инвалидам)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Klaxonner pour signaler sa présence.",
+          "text_nl": "Claxonneren om zijn aanwezigheid te signaleren.",
+          "text_ru": "Сигналить, чтобы обозначить свое присутствие.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Redoubler de prudence et s'assurer de ne pas les mettre en danger.",
+          "text_nl": "Dubbel voorzichtig zijn en ervoor zorgen dat hij hen niet in gevaar brengt.",
+          "text_ru": "Проявлять повышенную осторожность и убедиться, что он не создает для них опасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Leur laisser toujours la priorité absolue, même en dehors des passages protégés.",
+          "text_nl": "Hen altijd de absolute voorrang geven, zelfs buiten beveiligde oversteekplaatsen.",
+          "text_ru": "Всегда уступать им дорогу, даже вне обозначенных пешеходных переходов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Tout conducteur est tenu de redoubler de prudence en présence d'usagers vulnérables pour ne pas les mettre en danger.",
+      "explanation_nl": "Elke bestuurder moet dubbel voorzichtig zijn bij aanwezigheid van kwetsbare weggebruikers om hen niet in gevaar te brengen.",
+      "explanation_ru": "Каждый водитель обязан проявлять повышенную осторожность в присутствии уязвимых участников дорожного движения, чтобы не создавать для них опасности."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le principe fondamental que tout usager doit respecter concernant son comportement sur la voie publique ?",
+      "text_nl": "Wat is het fundamentele principe dat elke weggebruiker moet respecteren betreffende zijn gedrag op de openbare weg?",
+      "text_ru": "Каков основной принцип, который должен соблюдать каждый участник дорожного движения относительно своего поведения на дороге общего пользования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Se comporter de manière à privilégier sa propre fluidité de circulation.",
+          "text_nl": "Zich gedragen op een manier die zijn eigen doorstroming van het verkeer bevoordeelt.",
+          "text_ru": "Вести себя таким образом, чтобы отдавать предпочтение собственному свободному движению.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ne causer aucune gêne ni danger pour les autres usagers.",
+          "text_nl": "Geen hinder of gevaar veroorzaken voor de andere weggebruikers.",
+          "text_ru": "Не создавать никаких помех или опасностей для других участников движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Toujours avoir raison dans toute situation.",
+          "text_nl": "Altijd gelijk hebben in elke situatie.",
+          "text_ru": "Всегда быть правым в любой ситуации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les usagers doivent se comporter de manière à ne causer aucune gêne ou danger pour les autres usagers, y compris le personnel d'entretien ou les services de surveillance.",
+      "explanation_nl": "De weggebruikers moeten zich zo gedragen dat ze geen hinder of gevaar veroorzaken voor de andere weggebruikers, hierin begrepen het onderhoudspersoneel of de toezichtsdiensten.",
+      "explanation_ru": "Участники дорожного движения должны вести себя таким образом, чтобы не создавать никаких помех или опасностей для других участников движения, включая обслуживающий персонал или службы надзора."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles actions sont explicitement interdites sur la voie publique car elles peuvent gêner ou rendre la circulation dangereuse ?",
+      "text_nl": "Welke handelingen zijn uitdrukkelijk verboden op de openbare weg omdat ze het verkeer kunnen hinderen of gevaarlijk maken?",
+      "text_ru": "Какие действия прямо запрещены на дорогах общего пользования, так как они могут затруднить или сделать движение опасным?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jeter des déchets, répandre de la fumée ou créer un obstacle.",
+          "text_nl": "Afval werpen, rook verspreiden of een belemmering aanbrengen.",
+          "text_ru": "Выбрасывать мусор, распространять дым или создавать препятствие.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Utiliser son téléphone portable au volant.",
+          "text_nl": "Zijn mobiele telefoon gebruiken tijdens het rijden.",
+          "text_ru": "Использовать мобильный телефон за рулем.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Se stationner en double file pour une courte durée.",
+          "text_nl": "Kortstondig dubbel parkeren.",
+          "text_ru": "Парковаться в два ряда на короткое время.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est interdit de gêner ou de rendre dangereuse la circulation en jetant des objets, en répandant de la fumée ou en créant des obstacles sur la voie publique.",
+      "explanation_nl": "Het is verboden het verkeer te hinderen of onveilig te maken door voorwerpen te werpen, rook te verspreiden of belemmeringen aan te brengen op de openbare weg.",
+      "explanation_ru": "Запрещается затруднять или делать движение опасным, выбрасывая предметы, распространяя дым или создавая препятствия на дороге общего пользования."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez dans une zone résidentielle où des enfants jouent fréquemment sur le trottoir et parfois près de la chaussée. Comment devez-vous adapter votre conduite ?",
+      "text_nl": "U rijdt in een woonwijk waar kinderen vaak op het voetpad en soms dicht bij de rijbaan spelen. Hoe moet u uw rijgedrag aanpassen?",
+      "text_ru": "Вы едете по жилому району, где дети часто играют на тротуаре и иногда близко к проезжей части. Как вы должны изменить свое вождение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à la vitesse maximale autorisée, en supposant que les enfants feront attention.",
+          "text_nl": "Doorrijden met de maximaal toegelaten snelheid, ervan uitgaande dat de kinderen voorzichtig zullen zijn.",
+          "text_ru": "Продолжать движение с максимально разрешенной скоростью, предполагая, что дети будут осторожны.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Redoubler de prudence, ralentir et être prêt à freiner.",
+          "text_nl": "Dubbel voorzichtig zijn, vertragen en klaar zijn om te remmen.",
+          "text_ru": "Проявлять повышенную осторожность, снизить скорость и быть готовым к торможению.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner régulièrement pour les avertir de votre présence.",
+          "text_nl": "Regelmatig claxonneren om hen te waarschuwen voor uw aanwezigheid.",
+          "text_ru": "Регулярно сигналить, чтобы предупредить их о своем присутствии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La présence prévisible d'enfants, usagers vulnérables, exige de redoubler de prudence, de ralentir et d'être prêt à réagir à tout imprévu.",
+      "explanation_nl": "De voorziene aanwezigheid van kinderen, kwetsbare weggebruikers, vereist dubbele voorzichtigheid, vertragen en klaar zijn om te reageren op onverwachte gebeurtenissen.",
+      "explanation_ru": "Предполагаемое присутствие детей, уязвимых участников дорожного движения, требует повышенной осторожности, снижения скорости и готовности реагировать на любые неожиданности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un tronçon de route où du personnel travaille pour l'entretien de la voirie. Quelle attitude devez-vous adopter ?",
+      "text_nl": "U nadert een weggedeelte waar personeel bezig is met het onderhoud van de weg. Welke houding moet u aannemen?",
+      "text_ru": "Вы приближаетесь к участку дороги, где персонал работает по обслуживанию дорожного полотна. Какое поведение вы должны принять?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer la zone de travaux le plus rapidement possible.",
+          "text_nl": "Versnellen om zo snel mogelijk door de werkzone te rijden.",
+          "text_ru": "Ускориться, чтобы как можно быстрее проехать зону работ.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réduire votre vitesse et être vigilant pour ne pas gêner ou mettre en danger le personnel.",
+          "text_nl": "Uw snelheid verminderen en alert zijn om het personeel niet te hinderen of in gevaar te brengen.",
+          "text_ru": "Снизить скорость и быть бдительным, чтобы не мешать и не создавать опасности для персонала.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Utiliser les avertisseurs sonores pour les faire se ranger.",
+          "text_nl": "De geluidsignalen gebruiken om hen te laten opzij gaan.",
+          "text_ru": "Использовать звуковые сигналы, чтобы заставить их отойти в сторону.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le personnel d'entretien fait partie des usagers pour lesquels vous ne devez pas causer de gêne ou de danger. Une vitesse réduite et une vigilance accrue sont de mise.",
+      "explanation_nl": "Onderhoudspersoneel behoort tot de weggebruikers voor wie u geen hinder of gevaar mag veroorzaken. Een lagere snelheid en verhoogde waakzaamheid zijn op hun plaats.",
+      "explanation_ru": "Обслуживающий персонал является одним из участников дорожного движения, которым вы не должны создавать помех или опасностей. Сниженная скорость и повышенная бдительность обязательны."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "En conduisant, un objet tombe accidentellement de votre véhicule sur la chaussée. Quelle est votre responsabilité immédiate ?",
+      "text_nl": "Tijdens het rijden valt er per ongeluk een voorwerp van uw voertuig op de rijbaan. Wat is uw onmiddellijke verantwoordelijkheid?",
+      "text_ru": "Во время движения предмет случайно падает из вашего автомобиля на проезжую часть. Какова ваша немедленная ответственность?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer votre route, car d'autres usagers l'éviteront.",
+          "text_nl": "Uw weg vervolgen, want andere weggebruikers zullen het vermijden.",
+          "text_ru": "Продолжать движение, так как другие участники движения объедут его.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter en toute sécurité dès que possible pour enlever l'objet si cela est sans danger.",
+          "text_nl": "Veilig zo snel mogelijk stoppen om het voorwerp te verwijderen, indien dit zonder gevaar kan.",
+          "text_ru": "Как можно скорее безопасно остановиться, чтобы убрать предмет, если это безопасно.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prévenir les autorités après être arrivé à votre destination.",
+          "text_nl": "De autoriteiten verwittigen nadat u op uw bestemming bent aangekomen.",
+          "text_ru": "Уведомить власти после прибытия в пункт назначения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est interdit de laisser des objets qui gênent ou rendent la circulation dangereuse. Vous devez prendre des mesures pour remédier à la situation si cela est possible en toute sécurité.",
+      "explanation_nl": "Het is verboden voorwerpen achter te laten die het verkeer hinderen of gevaarlijk maken. U moet maatregelen nemen om de situatie te verhelpen indien dit veilig mogelijk is.",
+      "explanation_ru": "Запрещено оставлять предметы, которые мешают или делают движение опасным. Вы должны принять меры для устранения ситуации, если это возможно безопасно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un camion lourdement chargé sur une petite route de campagne qui semble fragile et potentiellement endommagée. Que devriez-vous faire pour éviter de causer des dégâts à la voirie ?",
+      "text_nl": "U rijdt met een zwaarbeladen vrachtwagen op een smalle landweg die er kwetsbaar en mogelijk beschadigd uitziet. Wat moet u doen om schade aan de weg te voorkomen?",
+      "text_ru": "Вы едете на тяжело груженом грузовике по небольшой сельской дороге, которая выглядит хрупкой и потенциально поврежденной. Что вы должны сделать, чтобы избежать повреждения дорожного полотна?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Maintenir votre vitesse habituelle, car le problème est la responsabilité des gestionnaires de voirie.",
+          "text_nl": "Uw gebruikelijke snelheid aanhouden, want het probleem is de verantwoordelijkheid van de wegbeheerders.",
+          "text_ru": "Поддерживать обычную скорость, так как это проблема ответственности дорожных служб.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Modérer votre allure ou, si possible, emprunter un autre itinéraire moins endommageant.",
+          "text_nl": "Uw snelheid matigen of, indien mogelijk, een andere, minder schadelijke route nemen.",
+          "text_ru": "Снизить скорость или, если возможно, выбрать другой, менее повреждающий маршрут.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Augmenter votre vitesse pour passer rapidement les zones fragiles.",
+          "text_nl": "Uw snelheid verhogen om snel door de kwetsbare zones te rijden.",
+          "text_ru": "Увеличить скорость, чтобы быстро проехать хрупкие участки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'usager est tenu de prendre toute mesure de nature à éviter de causer des dégâts à la voirie, ce qui inclut de modérer l'allure ou de changer d'itinéraire si le véhicule est lourdement chargé.",
+      "explanation_nl": "De weggebruiker moet alle maatregelen treffen om schade aan de weg te voorkomen, waaronder het matigen van de snelheid of het kiezen van een andere route indien het voertuig zwaarbeladen is.",
+      "explanation_ru": "Участник дорожного движения обязан принимать все меры для предотвращения повреждения дорожного полотна, что включает снижение скорости или изменение маршрута, если транспортное средство сильно загружено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un passage pour piétons et voyez une personne âgée avec une canne s'apprêter à traverser. Quelle est votre réaction appropriée ?",
+      "text_nl": "U nadert een voetgangersoversteekplaats en ziet een oudere persoon met een stok zich klaarmaken om over te steken. Wat is uw gepaste reactie?",
+      "text_ru": "Вы приближаетесь к пешеходному переходу и видите пожилого человека с тростью, готовящегося перейти дорогу. Какова ваша надлежащая реакция?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer si elle n'est pas encore sur la chaussée.",
+          "text_nl": "Doorrijden als zij nog niet op de rijbaan is.",
+          "text_ru": "Продолжать движение, если она еще не вышла на проезжую часть.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et vous arrêter pour la laisser traverser en toute sécurité.",
+          "text_nl": "Vertragen en stoppen om haar veilig te laten oversteken.",
+          "text_ru": "Замедлиться и остановиться, чтобы дать ей безопасно перейти дорогу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Faire un appel de phares pour lui indiquer que vous l'avez vue.",
+          "text_nl": "Knipperen met de koplampen om aan te geven dat u haar hebt gezien.",
+          "text_ru": "Моргнуть фарами, чтобы показать, что вы ее заметили.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes âgées sont des usagers vulnérables. Un conducteur doit redoubler de prudence et s'arrêter pour leur permettre de traverser en toute sécurité lorsqu'elles s'apprêtent à le faire, même avant qu'elles ne soient physiquement sur la chaussée.",
+      "explanation_nl": "Oudere personen zijn kwetsbare weggebruikers. Een bestuurder moet dubbel voorzichtig zijn en stoppen om hen veilig te laten oversteken wanneer zij zich klaarmaken om dit te doen, zelfs voordat zij fysiek op de rijbaan zijn.",
+      "explanation_ru": "Пожилые люди являются уязвимыми участниками дорожного движения. Водитель должен проявлять повышенную осторожность и остановиться, чтобы позволить им безопасно перейти дорогу, когда они готовятся это сделать, даже до того, как они физически выйдут на проезжую часть."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "2a0ced5af2cb",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:43:36Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

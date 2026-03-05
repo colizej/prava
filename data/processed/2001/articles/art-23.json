@@ -1,0 +1,41 @@
+{
+  "law_id": "2001",
+  "article_number": "23",
+  "slug": "art-23",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 23",
+  "title_nl": "Artikel 23",
+  "title_ru": "",
+  "content_md_fr": "En ce qui concerne les marques d’immatriculation ordinaires, le fonctionnaire dirigeant ou son délégué accepte ou refuse la réservation du numéro d’immatriculation déterminé par la personne qui en fait préalablement la demande.\n\nLa réservation a lieu dès paiement de la redevance prévue à cet effet. La redevance est due pour chaque réservation d’un nouveau numéro d’immatriculation. Le demandeur présente la demande d’immatriculation ou de réimmatriculation de son véhicule sous cette inscription personnalisée dans les cinq mois suivant la réservation. Après ce délai la réservation est annulée.",
+  "content_md_nl": "Voor wat de gewone kentekenplaten betreft, aanvaardt of verwerpt de leidende ambtenaar of zijn gemachtigde de reservatie van het inschrijvingsnummer, dat is bepaald door de persoon die er voorafgaandelijk de aanvraag voor heeft ingediend.\n\nHet inschrijvingsnummer wordt gereserveerd zodra de daartoe bepaalde retributie betaald is. Voor elke reservering van een nieuw inschrijvingsnummer is een retributie verschuldigd. De aanvrager dient binnen vijf maanden na de reservering de aanvraag in tot inschrijving of herinschrijving van zijn voertuig onder dit gepersonaliseerd opschrift. Na deze termijn vervalt de reservering.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>En ce qui concerne les marques d’immatriculation ordinaires, le fonctionnaire dirigeant ou son délégué accepte ou refuse la réservation du numéro d’immatriculation déterminé par la personne qui en fait préalablement la demande.</p><p>La réservation a lieu dès paiement de la redevance prévue à cet effet. La redevance est due pour chaque réservation d’un nouveau numéro d’immatriculation. Le demandeur présente la demande d’immatriculation ou de réimmatriculation de son véhicule sous cette inscription personnalisée dans les cinq mois suivant la réservation. Après ce délai la réservation est annulée.</p>",
+  "content_html_nl": "<p>Voor wat de gewone kentekenplaten betreft, aanvaardt of verwerpt de leidende ambtenaar of zijn gemachtigde de reservatie van het inschrijvingsnummer, dat is bepaald door de persoon die er voorafgaandelijk de aanvraag voor heeft ingediend.</p><p>Het inschrijvingsnummer wordt gereserveerd zodra de daartoe bepaalde retributie betaald is. Voor elke reservering van een nieuw inschrijvingsnummer is een retributie verschuldigd. De aanvrager dient binnen vijf maanden na de reservering de aanvraag in tot inschrijving of herinschrijving van zijn voertuig onder dit gepersonaliseerd opschrift. Na deze termijn vervalt de reservering.</p>",
+  "full_text_fr": "En ce qui concerne les marques d’immatriculation ordinaires, le fonctionnaire dirigeant ou son délégué accepte ou refuse la réservation du numéro d’immatriculation déterminé par la personne qui en fait préalablement la demande.\n\nLa réservation a lieu dès paiement de la redevance prévue à cet effet. La redevance est due pour chaque réservation d’un nouveau numéro d’immatriculation. Le demandeur présente la demande d’immatriculation ou de réimmatriculation de son véhicule sous cette inscription personnalisée dans les cinq mois suivant la réservation. Après ce délai la réservation est annulée.",
+  "full_text_nl": "Voor wat de gewone kentekenplaten betreft, aanvaardt of verwerpt de leidende ambtenaar of zijn gemachtigde de reservatie van het inschrijvingsnummer, dat is bepaald door de persoon die er voorafgaandelijk de aanvraag voor heeft ingediend.\n\nHet inschrijvingsnummer wordt gereserveerd zodra de daartoe bepaalde retributie betaald is. Voor elke reservering van een nieuw inschrijvingsnummer is een retributie verschuldigd. De aanvrager dient binnen vijf maanden na de reservering de aanvraag in tot inschrijving of herinschrijving van zijn voertuig onder dit gepersonaliseerd opschrift. Na deze termijn vervalt de reservering.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "dnbbsbcvfh",
+  "anchor_id_nl": "fpetr6sroq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "3d7a26ae761f",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

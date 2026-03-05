@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "30",
+  "slug": "art-30",
+  "structure": {
+    "titre": null,
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 30",
+  "title_nl": "Artikel 30",
+  "title_ru": "",
+  "content_md_fr": "(Abrogé)",
+  "content_md_nl": "(Opgeheven)",
+  "content_md_ru": "",
+  "content_html_fr": "<p>(Abrogé)</p>",
+  "content_html_nl": "<p>(Opgeheven)</p>",
+  "full_text_fr": "(Abrogé)",
+  "full_text_nl": "(Opgeheven)",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "2lqfzwhcgr",
+  "anchor_id_nl": "i7zdxfoeqk",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "d646fbe5fa92",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

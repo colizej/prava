@@ -1,0 +1,43 @@
+{
+  "law_id": "2001",
+  "article_number": "33",
+  "slug": "art-33",
+  "structure": {
+    "titre": null,
+    "chapitre": "III"
+  },
+  "title_fr": "Article 33",
+  "title_nl": "Artikel 33",
+  "title_ru": "",
+  "content_md_fr": "Quiconque trouve un certificat d'immatriculation, une partie d'un certificat ou une marque d'immatriculation, le remet au service de police la plus proche. Celle-ci envoie l'objet trouvé le plus vite possible à la Direction Immatriculation des Véhicules, indépendamment des dispositions de [l'article 36](#art-36).\n\nSi le titulaire d'un certificat d'immatriculation, d'une partie d'un certificat ou d'une marque d'immatriculation perdu ou volé le retrouve après réception d'un nouvel exemplaire, ou après radiation du numéro d'immatriculation de sa marque d'immatriculation, il renvoie immédiatement l'exemplaire retrouvé à la Direction Immatriculation des Véhicules.\n\n#### Section 3. Transfert ou cession du certificat d'immatriculation",
+  "content_md_nl": "Wie een kentekenbewijs, een deel ervan of een kentekenplaat vindt, geeft die af bij de dichtst bijgelegen politiedienst. Deze stuurt het gevonden voorwerp zo snel mogelijk terug aan de Directie Inschrijvingen Voertuigen, onverminderd de bepalingen van [artikel 36](#art-36).\n\nIndien de tenaamgestelde van een verloren gegaan of gestolen kentekenbewijs, deel van een kentekenbewijs of kentekenplaat terug in het bezit ervan komt nadat hij een nieuw exemplaar heeft bekomen of nadat het inschrijvingsnummer van de kentekenplaat ondertussen geschrapt werd, bezorgt hij het teruggevonden exemplaar onmiddellijk terug aan de Directie Inschrijvingen Voertuigen.\n\n#### Afdeling 3. Overdracht of afstand van het kentekenbewijs",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Quiconque trouve un certificat d'immatriculation, une partie d'un certificat ou une marque d'immatriculation, le remet au service de police la plus proche. Celle-ci envoie l'objet trouvé le plus vite possible à la Direction Immatriculation des Véhicules, indépendamment des dispositions de <a href=\"#art-36\">l'article 36</a>.</p><p>Si le titulaire d'un certificat d'immatriculation, d'une partie d'un certificat ou d'une marque d'immatriculation perdu ou volé le retrouve après réception d'un nouvel exemplaire, ou après radiation du numéro d'immatriculation de sa marque d'immatriculation, il renvoie immédiatement l'exemplaire retrouvé à la Direction Immatriculation des Véhicules.</p><h4 id=\"agturyw9uh\">Section 3. Transfert ou cession du certificat d'immatriculation</h4>",
+  "content_html_nl": "<p>Wie een kentekenbewijs, een deel ervan of een kentekenplaat vindt, geeft die af bij de dichtst bijgelegen politiedienst. Deze stuurt het gevonden voorwerp zo snel mogelijk terug aan de Directie Inschrijvingen Voertuigen, onverminderd de bepalingen van <a href=\"#art-36\">artikel 36</a>.</p><p>Indien de tenaamgestelde van een verloren gegaan of gestolen kentekenbewijs, deel van een kentekenbewijs of kentekenplaat terug in het bezit ervan komt nadat hij een nieuw exemplaar heeft bekomen of nadat het inschrijvingsnummer van de kentekenplaat ondertussen geschrapt werd, bezorgt hij het teruggevonden exemplaar onmiddellijk terug aan de Directie Inschrijvingen Voertuigen.</p><h4 id=\"1cochjd4fq\">Afdeling 3. Overdracht of afstand van het kentekenbewijs</h4>",
+  "full_text_fr": "Quiconque trouve un certificat d'immatriculation, une partie d'un certificat ou une marque d'immatriculation, le remet au service de police la plus proche. Celle-ci envoie l'objet trouvé le plus vite possible à la Direction Immatriculation des Véhicules, indépendamment des dispositions de l'article 36.\n\nSi le titulaire d'un certificat d'immatriculation, d'une partie d'un certificat ou d'une marque d'immatriculation perdu ou volé le retrouve après réception d'un nouvel exemplaire, ou après radiation du numéro d'immatriculation de sa marque d'immatriculation, il renvoie immédiatement l'exemplaire retrouvé à la Direction Immatriculation des Véhicules.\n\nSection 3. Transfert ou cession du certificat d'immatriculation",
+  "full_text_nl": "Wie een kentekenbewijs, een deel ervan of een kentekenplaat vindt, geeft die af bij de dichtst bijgelegen politiedienst. Deze stuurt het gevonden voorwerp zo snel mogelijk terug aan de Directie Inschrijvingen Voertuigen, onverminderd de bepalingen van artikel 36.\n\nIndien de tenaamgestelde van een verloren gegaan of gestolen kentekenbewijs, deel van een kentekenbewijs of kentekenplaat terug in het bezit ervan komt nadat hij een nieuw exemplaar heeft bekomen of nadat het inschrijvingsnummer van de kentekenplaat ondertussen geschrapt werd, bezorgt hij het teruggevonden exemplaar onmiddellijk terug aan de Directie Inschrijvingen Voertuigen.\n\nAfdeling 3. Overdracht of afstand van het kentekenbewijs",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-36"
+  ],
+  "anchor_id_fr": "wwebffo1rt",
+  "anchor_id_nl": "bdv8e93cv0",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "6663259f0999",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

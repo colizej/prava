@@ -1,0 +1,156 @@
+{
+  "law_id": "1968b",
+  "article_number": "1",
+  "slug": "art-1",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 1. Certificat de conformité",
+  "title_nl": "Bijlage 1. Gelijkvormigheidsattest",
+  "title_ru": "",
+  "content_md_fr": "> 📋 *[Tableau de signalisation — voir version HTML]*",
+  "content_md_nl": "> 📋 *[Tableau de signalisation — voir version HTML]*\n\n> ℹ️ Voor wat betreft het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, worden de woorden “het Ministerie van Verkeerswezen” vervangen door de woorden “de goedkeuringsinstantie”.\n\n> ℹ️ Voor wat betreft het Waals Gewest, worden de woorden ″het Ministerie van Verkeerswezen″ vervangen door de woorden ″de instantie bevoegd voor de goedkeuring″.",
+  "content_md_ru": "",
+  "content_html_fr": "<table align=\"center\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" class=\"zebra\">\n<tbody>\n<tr align=\"left\">\n<td align=\"left\">\n<div><strong>Raison sociale de la firme</strong></div>\n<div><strong><br/>CERTIFICAT DE CONFORMITE</strong></div>\n<p> </p>\n<p>Je soussigné (1)...............................................(nom, prénom et fonction), atteste que le véhicule:</p>\n<p style=\"padding-left: 30px;\">1. Genre:...........................................................................<br/>2. Marque:..........................................................................<br/>3. Type:..........................................................................<br/>4. Numéro de chassis:.........................................................</p>\n<p>est entièrement conforme au type décrit dans la notice descriptive figurant dans la demande d'agréation, identifié par l’autorité compétente en matière de réception et faisant l'objet du procès-verbal d'agréation numéro ................................................................................</p>\n<p>Fait à ............................................le.......................</p>\n<p>....................<br/>(Signature)</p>\n<p>(1) Seules les personnes autorisées par le constructeur ou son mandataire sont habilitées à signer le présent document.)</p>\n</td>\n</tr>\n</tbody>\n</table>",
+  "content_html_nl": "<table align=\"center\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" class=\"zebra\">\n<tbody>\n<tr align=\"left\">\n<td align=\"left\">\n<div><strong>Handelsnaam van de firma</strong></div>\n<div><strong><br/>GELIJKVORMIGHEIDSATTEST</strong></div>\n<p> </p>\n<p>De ondergetekende (1)...............................................(naam, voornamen en functie), bevestigt dat het voertuig:</p>\n<p style=\"padding-left: 30px;\">1. Aard:...........................................................................<br/>2. Merk:..........................................................................<br/>3. Type:..........................................................................<br/>4. Chassisnummer:.........................................................</p>\n<p>volledig overeenstemt met het type beschreven in de in de aanvraag om goedkeuring voorkomende beschrijving, geïdentificeerd door het Ministerie van Verkeerswezen en opgenomen in proces-verbaal van goedkeuring nummer................................................................................</p>\n<p>Gedaan te............................................op.......................</p>\n<p>....................<br/>(Handtekening)</p>\n<p>(1) Slechts de personen gemachtigd door de constructeur of zijn mandataris zijn bevoegd om dit attest te ondertekenen.)</p>\n</td>\n</tr>\n</tbody>\n</table><div class=\"notification notification-primary\">Voor wat betreft het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, worden de woorden “het Ministerie van Verkeerswezen” vervangen door de woorden “de goedkeuringsinstantie”.</div><div class=\"notification notification-primary\">Voor wat betreft het Waals Gewest, worden de woorden ″het Ministerie van Verkeerswezen″ vervangen door de woorden ″de instantie bevoegd voor de goedkeuring″.</div>",
+  "full_text_fr": "[Tableau de signalisation — voir version HTML]",
+  "full_text_nl": "[Tableau de signalisation — voir version HTML]\n\n️ Voor wat betreft het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, worden de woorden “het Ministerie van Verkeerswezen” vervangen door de woorden “de goedkeuringsinstantie”.\n\n️ Voor wat betreft het Waals Gewest, worden de woorden ″het Ministerie van Verkeerswezen″ vervangen door de woorden ″de instantie bevoegd voor de goedkeuring″.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Voor wat betreft het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, worden de woorden “het Ministerie van Verkeerswezen” vervangen door de woorden “de goedkeuringsinstantie”."
+    },
+    {
+      "type": "primary",
+      "text": "Voor wat betreft het Waals Gewest, worden de woorden ″het Ministerie van Verkeerswezen″ vervangen door de woorden ″de instantie bevoegd voor de goedkeuring″."
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ber1d1pzsq",
+  "anchor_id_nl": "yh0gzecp6l",
+  "definitions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom officiel de la référence technique qui atteste que votre véhicule respecte les normes en vigueur ?",
+      "text_nl": "Wat is de officiële naam van het technische document dat bevestigt dat uw voertuig voldoet aan de geldende normen?",
+      "text_ru": "Каково официальное название технического документа, подтверждающего, что ваш автомобиль соответствует действующим нормам?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La carte grise",
+          "text_nl": "Het inschrijvingsbewijs",
+          "text_ru": "Регистрационная карта",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le certificat de conformité",
+          "text_nl": "Het conformiteitscertificaat",
+          "text_ru": "Сертификат соответствия",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le contrôle technique",
+          "text_nl": "De technische controle",
+          "text_ru": "Технический осмотр",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le certificat de conformité est le document officiel qui prouve qu'un véhicule répond aux exigences techniques et réglementaires.",
+      "explanation_nl": "Het conformiteitscertificaat is het officiële document dat bewijst dat een voertuig voldoet aan de technische en regelgevende vereisten.",
+      "explanation_ru": "Сертификат соответствия — это официальный документ, подтверждающий, что транспортное средство соответствует техническим и нормативным требованиям."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans le contexte du certificat de conformité, par quelle expression le mot \"Ministerie van Verkeerswezen\" est-il remplacé en Région de Bruxelles-Capitale et en Région flamande ?",
+      "text_nl": "Door welke uitdrukking wordt het woord \"Ministerie van Verkeerswezen\" vervangen in het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest, in de context van het conformiteitscertificaat?",
+      "text_ru": "Каким выражением заменяется слово \"Ministerie van Verkeerswezen\" (Министерство транспорта) в Брюссельском столичном регионе и Фламандском регионе в контексте сертификата соответствия?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'administration communale",
+          "text_nl": "De gemeentelijke administratie",
+          "text_ru": "Муниципальная администрация",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'organisme d'agrément",
+          "text_nl": "De goedkeuringsinstantie",
+          "text_ru": "Орган по аккредитации",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le ministère de l'Intérieur",
+          "text_nl": "Het ministerie van Binnenlandse Zaken",
+          "text_ru": "Министерство внутренних дел",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour les Régions de Bruxelles-Capitale et flamande, l'expression \"l'organisme d'agrément\" remplace \"le Ministère de la Mobilité\" dans le contexte des certificats de conformité.",
+      "explanation_nl": "Voor het Brussels Hoofdstedelijk Gewest en het Vlaams Gewest vervangt de uitdrukking \"de goedkeuringsinstantie\" \"het Ministerie van Verkeerswezen\" in de context van conformiteitscertificaten.",
+      "explanation_ru": "Для Брюссельского столичного региона и Фламандского региона выражение «орган по аккредитации» заменяет «Министерство транспорта» в контексте сертификатов соответствия."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans le contexte des certificats de conformité, qu'est-ce qui remplace l'expression \"het Ministerie van Verkeerswezen\" en Wallonie ?",
+      "text_nl": "Wat vervangt in Wallonië de uitdrukking \"het Ministerie van Verkeerswezen\" in de context van conformiteitscertificaten?",
+      "text_ru": "Что заменяет выражение \"Ministerie van Verkeerswezen\" (Министерство транспорта) в Валлонском регионе в контексте сертификатов соответствия?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'autorité d'homologation",
+          "text_nl": "De bevoegde autoriteit voor homologatie",
+          "text_ru": "Орган, ответственный за утверждение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'instance compétente pour l'homologation",
+          "text_nl": "De instantie bevoegd voor de goedkeuring",
+          "text_ru": "Компетентный орган для утверждения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le service des immatriculations",
+          "text_nl": "De dienst inschrijvingen",
+          "text_ru": "Служба регистрации",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En Wallonie, l'expression \"l'instance compétente pour l'homologation\" est utilisée à la place de \"le Ministère de la Mobilité\" concernant les certificats de conformité.",
+      "explanation_nl": "In Wallonië wordt de uitdrukking \"de instantie bevoegd voor de goedkeuring\" gebruikt in plaats van \"het Ministerie van Verkeerswezen\" met betrekking tot conformiteitscertificaten.",
+      "explanation_ru": "В Валлонском регионе выражение «компетентный орган для утверждения» используется вместо «Министерство транспорта» в отношении сертификатов соответствия."
+    }
+  ],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "b76de241986e",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    },
+    "questions_generated_at": "2026-03-05T09:32:51Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 3
+  }
+}

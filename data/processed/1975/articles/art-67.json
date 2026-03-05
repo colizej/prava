@@ -121,7 +121,304 @@
   "anchor_id_fr": "lqk1sji5wn",
   "anchor_id_nl": "5pneo4uul7",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon la réglementation standard, où les signaux de priorité doivent-ils être principalement placés sur la voie publique ?",
+      "text_nl": "Waar moeten, volgens de standaardregels, voorrangsborden voornamelijk worden geplaatst op de openbare weg?",
+      "text_ru": "Согласно стандартным правилам, где в первую очередь должны располагаться знаки приоритета на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A general road scene with a priority sign typically placed on the right side."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À gauche de la chaussée.",
+          "text_nl": "Links van de rijbaan.",
+          "text_ru": "Слева от проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au-dessus de la chaussée.",
+          "text_nl": "Boven de rijbaan.",
+          "text_ru": "Над проезжей частью.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "À droite de la chaussée.",
+          "text_nl": "Rechts van de rijbaan.",
+          "text_ru": "Справа от проезжей части.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les signaux de priorité sont principalement placés à droite de la chaussée. Ils peuvent être répétés au-dessus ou à gauche pour une meilleure visibilité dans certaines régions.",
+      "explanation_nl": "Voorrangsborden worden voornamelijk rechts van de rijbaan geplaatst. Ze mogen boven of links herhaald worden voor een betere zichtbaarheid in bepaalde regio's.",
+      "explanation_ru": "Знаки приоритета преимущественно размещаются справа от проезжей части. В некоторых регионах они могут быть продублированы сверху или слева для лучшей видимости."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le rôle d'un panneau additionnel qui montre un tracé de route en gras complétant un signal de priorité ?",
+      "text_nl": "Wat is de functie van een onderbord met een vetgedrukt wegtracé, dat een voorrangsbord aanvult?",
+      "text_ru": "Какова роль дополнительной таблички, показывающей жирную линию дороги и дополняющей знак приоритета?",
+      "image": {
+        "sign_code": "B3",
+        "generation_prompt": "Priority road sign (B3) with additional panel showing priority road path curving left."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il indique une déviation de la route principale.",
+          "text_nl": "Het duidt een omleiding van de hoofdweg aan.",
+          "text_ru": "Оно указывает на объезд главной дороги.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il signale un danger lié à la configuration spécifique du carrefour.",
+          "text_nl": "Het signaleert een gevaar in verband met de specifieke configuratie van het kruispunt.",
+          "text_ru": "Оно указывает на опасность, связанную со специфической конфигурацией перекрестка.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il précise le tracé de la voie sur laquelle les conducteurs ont priorité de passage au carrefour suivant.",
+          "text_nl": "Het geeft het tracé aan van de weg waarop bestuurders voorrang hebben op het volgende kruispunt.",
+          "text_ru": "Оно уточняет траекторию движения, на которой водители имеют приоритет проезда на следующем перекрестке.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Ce panneau additionnel est utilisé pour montrer clairement aux conducteurs quelle branche de l'intersection constitue la route prioritaire, en particulier lorsque celle-ci ne suit pas un tracé rectiligne.",
+      "explanation_nl": "Dit onderbord wordt gebruikt om bestuurders duidelijk te maken welke tak van het kruispunt de voorrangsweg is, vooral wanneer deze geen rechte lijn volgt.",
+      "explanation_ru": "Эта дополнительная табличка используется для того, чтобы ясно показать водителям, какая ветвь перекрестка является главной дорогой, особенно если она не идет прямо."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Dans quelles circonstances est-il permis d'utiliser un signal de priorité B23, qui donne la priorité aux cyclistes ?",
+      "text_nl": "Onder welke omstandigheden is het toegestaan om een voorrangsbord B23 te gebruiken, dat voorrang geeft aan fietsers?",
+      "text_ru": "При каких обстоятельствах разрешается использовать знак приоритета B23, предоставляющий приоритет велосипедистам?",
+      "image": {
+        "sign_code": "B23",
+        "generation_prompt": "Priority for cyclists sign (B23)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement lorsque les cyclistes empruntent une piste cyclable séparée.",
+          "text_nl": "Alleen wanneer fietsers een afzonderlijk fietspad gebruiken.",
+          "text_ru": "Только когда велосипедисты используют отдельную велосипедную дорожку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement si les cyclistes ne doivent pas couper un flux de circulation pour bénéficier de cette priorité.",
+          "text_nl": "Alleen als fietsers geen verkeersstroom moeten dwarsen om van deze voorrang te genieten.",
+          "text_ru": "Только если велосипедистам не нужно пересекать транспортный поток, чтобы воспользоваться этим приоритетом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si la vitesse maximale autorisée pour les autres véhicules est inférieure à 30 km/h.",
+          "text_nl": "Alleen als de maximumsnelheid voor andere voertuigen lager is dan 30 km/u.",
+          "text_ru": "Только если максимально разрешенная скорость для других транспортных средств составляет менее 30 км/ч.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal B23 a pour objectif de faciliter la circulation des cyclistes en leur accordant la priorité, mais cette disposition est conditionnée par l'absence de nécessité pour eux de traverser ou de couper un flux de circulation existant.",
+      "explanation_nl": "Het bord B23 is bedoeld om de doorstroming voor fietsers te vergemakkelijken door hen voorrang te verlenen, maar deze bepaling is afhankelijk van het feit dat zij geen bestaande verkeersstroom hoeven te doorkruisen of te doorsnijden.",
+      "explanation_ru": "Знак B23 предназначен для облегчения движения велосипедистов путем предоставления им приоритета, но это положение обусловлено отсутствием необходимости для них пересекать или прерывать существующий транспортный поток."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous arrivez à une intersection dans une région où les signaux de priorité peuvent être répétés. Vous voyez un signal de priorité B5 (vous avez priorité) sur votre droite. Plus loin, un signal identique est visible au-dessus de la chaussée. Que signifie cette deuxième signalisation ?",
+      "text_nl": "U nadert een kruispunt in een regio waar voorrangsborden mogen worden herhaald. U ziet een voorrangsbord B5 (u heeft voorrang) aan uw rechterkant. Verderop is een identiek bord boven de rijbaan zichtbaar. Wat betekent deze tweede signalisatie?",
+      "text_ru": "Вы приближаетесь к перекрестку в регионе, где знаки приоритета могут дублироваться. Вы видите знак приоритета B5 (у вас приоритет) справа от вас. Дальше такой же знак виден над проезжей частью. Что означает это второе обозначение?",
+      "image": {
+        "sign_code": "B5",
+        "generation_prompt": "Road with B5 sign on the right, and the same B5 sign repeated above the road for enhanced visibility."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le premier signal est incorrect, vous devez uniquement vous fier au signal au-dessus.",
+          "text_nl": "Het eerste bord is incorrect, u moet alleen vertrouwen op het bord boven de weg.",
+          "text_ru": "Первый знак неверен, вы должны полагаться только на знак сверху.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le signal de priorité est confirmé et sa visibilité est renforcée pour tous les usagers.",
+          "text_nl": "Het voorrangsbord wordt bevestigd en de zichtbaarheid ervan wordt voor alle weggebruikers versterkt.",
+          "text_ru": "Знак приоритета подтвержден, и его видимость усилена для всех участников движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La priorité s'applique uniquement aux véhicules hauts ou aux camions.",
+          "text_nl": "De voorrang geldt alleen voor hoge voertuigen of vrachtwagens.",
+          "text_ru": "Приоритет распространяется только на высокие транспортные средства или грузовики.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La répétition des signaux de priorité, comme au-dessus de la chaussée ou à gauche, est une pratique autorisée dans certaines régions pour améliorer la clarté et la visibilité de l'information pour tous les conducteurs.",
+      "explanation_nl": "De herhaling van voorrangsborden, zoals boven de rijbaan of links, is in bepaalde regio's toegestaan om de duidelijkheid en zichtbaarheid van de informatie voor alle bestuurders te verbeteren.",
+      "explanation_ru": "Повторение знаков приоритета, например, над проезжей частью или слева, разрешено в некоторых регионах для улучшения ясности и видимости информации для всех водителей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous abordez un carrefour avec un signal B1 (cédez le passage) complété par un panneau additionnel montrant que la voie prioritaire tourne à gauche. Vous souhaitez tourner à droite. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt met een bord B1 (voorrang verlenen) aangevuld met een onderbord dat aangeeft dat de voorrangsweg naar links afbuigt. U wilt rechtsaf slaan. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрестку со знаком B1 (уступи дорогу), дополненным табличкой, показывающей, что главная дорога поворачивает налево. Вы хотите повернуть направо. Что вы должны сделать?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": "Give way sign (B1) with an additional panel showing the priority road curving left, while the driver intends to turn right from the non-priority road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous avez la priorité car vous quittez le carrefour sur la droite.",
+          "text_nl": "U heeft voorrang omdat u het kruispunt aan de rechterkant verlaat.",
+          "text_ru": "У вас приоритет, так как вы покидаете перекресток направо.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez céder le passage à tous les usagers circulant sur le tracé de la voie prioritaire (celle qui tourne à gauche).",
+          "text_nl": "U moet voorrang verlenen aan alle weggebruikers die het tracé van de voorrangsweg volgen (die naar links afbuigt).",
+          "text_ru": "Вы должны уступить дорогу всем участникам движения, движущимся по главной дороге (которая поворачивает налево).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez uniquement céder le passage aux véhicules venant de votre droite.",
+          "text_nl": "U moet alleen voorrang verlenen aan voertuigen die van rechts komen.",
+          "text_ru": "Вы должны уступить дорогу только транспортным средствам, приближающимся справа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau additionnel modifie la règle de priorité standard en indiquant le tracé de la voie prioritaire. Si vous quittez cette voie prioritaire (ou ne la suivez pas), vous devez céder le passage à ceux qui la suivent, peu importe leur direction initiale.",
+      "explanation_nl": "Het onderbord wijzigt de standaard voorrangsregel door het tracé van de voorrangsweg aan te geven. Als u deze voorrangsweg verlaat (of niet volgt), moet u voorrang verlenen aan degenen die deze wel volgen, ongeacht hun oorspronkelijke richting.",
+      "explanation_ru": "Дополнительная табличка изменяет стандартное правило приоритета, указывая траекторию главной дороги. Если вы покидаете эту главную дорогу (или не следуете по ней), вы должны уступить дорогу тем, кто следует по ней, независимо от их первоначального направления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un signal B1 (cédez le passage) accompagné d'un panneau additionnel M9 ou M10 qui indique la présence de cyclistes et de conducteurs de cyclomoteurs à deux roues circulant dans les deux sens sur la voie transversale que vous allez aborder. Quelle est votre principale préoccupation en tournant ?",
+      "text_nl": "U nadert een bord B1 (voorrang verlenen) dat wordt aangevuld met een onderbord M9 of M10 dat de aanwezigheid van fietsers en bestuurders van tweewielige bromfietsen aangeeft die in twee richtingen rijden op de dwarslopende weg die u gaat oprijden. Wat is uw belangrijkste zorg bij het afslaan?",
+      "text_ru": "Вы приближаетесь к знаку B1 (уступи дорогу), сопровождаемому дополнительной табличкой M9 или M10, указывающей на присутствие велосипедистов и водителей двухколесных мопедов, движущихся в обоих направлениях по пересекаемой дороге, на которую вы собираетесь выехать. Какова ваша главная задача при повороте?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": "Give way sign (B1) with an additional panel M9 indicating two-way cyclist traffic on the transverse road. Driver turning."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez uniquement vous préoccuper des véhicules motorisés venant de gauche.",
+          "text_nl": "U hoeft zich alleen zorgen te maken over gemotoriseerde voertuigen die van links komen.",
+          "text_ru": "Вам следует беспокоиться только о моторизованных транспортных средствах, приближающихся слева.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez être particulièrement vigilant aux cyclistes et cyclomoteurs venant des deux directions de la voie transversale.",
+          "text_nl": "U moet bijzonder alert zijn op fietsers en bromfietsers die uit beide richtingen van de dwarsweg komen.",
+          "text_ru": "Вы должны быть особенно внимательны к велосипедистам и мопедистам, приближающимся с обоих направлений пересекаемой дороги.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous avez la priorité sur les cyclistes et cyclomoteurs dans tous les cas de figure.",
+          "text_nl": "U heeft in alle gevallen voorrang op fietsers en bromfietsers.",
+          "text_ru": "Вы имеете приоритет перед велосипедистами и мопедистами во всех случаях.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces panneaux additionnels (M9 ou M10) sont cruciaux pour avertir les conducteurs de la présence de circulation à contresens pour les modes doux, ce qui exige une vigilance accrue pour éviter les collisions, surtout lors des manœuvres de virage.",
+      "explanation_nl": "Deze onderborden (M9 of M10) zijn cruciaal om bestuurders te waarschuwen voor tegenverkeer van zachte weggebruikers, wat extra alertheid vereist om botsingen te voorkomen, vooral bij het afslaan.",
+      "explanation_ru": "Эти дополнительные таблички (M9 или M10) крайне важны для предупреждения водителей о встречном движении для легкорельсового транспорта, что требует повышенной бдительности во избежание столкновений, особенно при поворотах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes conducteur de voiture et vous voyez un signal B5 (vous avez priorité) avec un panneau additionnel M1 ou M8 indiquant qu'il concerne 'uniquement les cyclistes'. Quelle est l'implication de cette signalisation pour vous ?",
+      "text_nl": "U bent automobilist en u ziet een bord B5 (u heeft voorrang) met een onderbord M1 of M8 dat aangeeft dat het 'alleen fietsers' betreft. Wat is de implicatie van deze signalisatie voor u?",
+      "text_ru": "Вы водитель автомобиля и видите знак B5 (у вас приоритет) с дополнительной табличкой M1 или M8, указывающей, что он касается 'только велосипедистов'. Каково значение этого обозначения для вас?",
+      "image": {
+        "sign_code": "B5",
+        "generation_prompt": "Priority road sign (B5) with an additional panel M1 or M8 showing a bicycle and the text 'Cyclists only'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous avez la priorité sur tous les usagers du carrefour, y compris les cyclistes.",
+          "text_nl": "U heeft voorrang op alle weggebruikers op het kruispunt, inclusief fietsers.",
+          "text_ru": "У вас приоритет перед всеми участниками движения на перекрестке, включая велосипедистов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le signal B5 s'applique aux cyclistes pour leur donner la priorité, mais pour vous en tant que conducteur de voiture, les règles générales de priorité s'appliquent (ex: priorité de droite, si aucune autre signalisation).",
+          "text_nl": "Het bord B5 geldt voor fietsers om hen voorrang te verlenen, maar voor u als automobilist gelden de algemene voorrangsregels (bijv. voorrang van rechts, als er geen andere signalisatie is).",
+          "text_ru": "Знак B5 применяется к велосипедистам для предоставления им приоритета, но для вас как водителя автомобиля применяются общие правила приоритета (например, приоритет справа, если нет других знаков).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez céder le passage à tous les cyclistes, car le signal les favorise spécifiquement.",
+          "text_nl": "U moet voorrang verlenen aan alle fietsers, omdat het bord hen specifiek bevoordeelt.",
+          "text_ru": "Вы должны уступить дорогу всем велосипедистам, так как знак специально их поддерживает.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'un panneau additionnel M1 ou M8 indique que le signal de priorité (B1 ou B5) ne concerne que les cyclistes (ou cyclistes et cyclomoteurs à deux roues), il ne modifie pas les règles de priorité pour les autres catégories de véhicules. En tant que conducteur de voiture, vous devez vous référer aux autres signalisations ou aux règles générales de priorité.",
+      "explanation_nl": "Wanneer een onderbord M1 of M8 aangeeft dat het voorrangsbord (B1 of B5) alleen betrekking heeft op fietsers (of fietsers en tweewielige bromfietsers), verandert dit de voorrangsregels niet voor andere voertuigcategorieën. Als automobilist moet u zich houden aan andere signalisatie of de algemene voorrangsregels.",
+      "explanation_ru": "Когда дополнительная табличка M1 или M8 указывает, что знак приоритета (B1 или B5) касается только велосипедистов (или велосипедистов и двухколесных мопедов), это не изменяет правила приоритета для других категорий транспортных средств. Как водитель автомобиля, вы должны руководствоваться другими знаками или общими правилами приоритета."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "En tant que cycliste, vous voyez un signal B23 (priorité pour cyclistes) à l'approche d'un carrefour. Cependant, l'aménagement du carrefour vous oblige à traverser une voie où circulent de nombreux véhicules motorisés pour continuer votre chemin. Comment devriez-vous réagir face à cette situation ?",
+      "text_nl": "Als fietser ziet u een bord B23 (voorrang voor fietsers) bij het naderen van een kruispunt. De indeling van het kruispunt dwingt u echter om een rijbaan over te steken waar veel gemotoriseerde voertuigen rijden om uw weg te vervolgen. Hoe moet u in deze situatie reageren?",
+      "text_ru": "Будучи велосипедистом, вы видите знак B23 (приоритет для велосипедистов) при приближении к перекрестку. Однако планировка перекрестка заставляет вас пересекать полосу, по которой движется много моторизованных транспортных средств, чтобы продолжить путь. Как вы должны отреагировать на эту ситуацию?",
+      "image": {
+        "sign_code": "B23",
+        "generation_prompt": "A cyclist approaching an intersection with a B23 sign, but the layout clearly shows they would need to cross a busy traffic lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous bénéficiez de la priorité absolue et pouvez traverser sans regarder.",
+          "text_nl": "U geniet absolute voorrang en kunt oversteken zonder te kijken.",
+          "text_ru": "Вы пользуетесь абсолютным приоритетом и можете пересекать дорогу, не оглядываясь.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le signal B23 ne devrait pas être présent dans cette configuration; vous devez être extrêmement prudent et céder le passage si nécessaire pour votre sécurité.",
+          "text_nl": "Het bord B23 zou in deze configuratie niet aanwezig mogen zijn; u moet uiterst voorzichtig zijn en voorrang verlenen indien nodig voor uw veiligheid.",
+          "text_ru": "Знак B23 не должен присутствовать в данной конфигурации; вы должны быть предельно осторожны и уступить дорогу при необходимости для вашей безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous avez priorité, mais uniquement sur les piétons, pas sur les véhicules motorisés.",
+          "text_nl": "U heeft voorrang, maar alleen op voetgangers, niet op gemotoriseerde voertuigen.",
+          "text_ru": "У вас приоритет, но только перед пешеходами, а не перед моторизованными транспортными средствами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal B23 est spécifiquement réservé aux situations où les cyclistes n'ont pas à couper un flux de circulation. Si l'aménagement du carrefour contredit cette condition, le signal est potentiellement mal placé, et vous devez faire preuve de prudence et de bon sens pour assurer votre sécurité.",
+      "explanation_nl": "Het bord B23 is specifiek bedoeld voor situaties waarin fietsers geen verkeersstroom hoeven te dwarsen. Als de indeling van het kruispunt deze voorwaarde tegenspreekt, is het bord mogelijk verkeerd geplaatst en moet u voorzichtig en verstandig handelen om uw veiligheid te waarborgen.",
+      "explanation_ru": "Знак B23 предназначен исключительно для ситуаций, когда велосипедистам не нужно пересекать транспортный поток. Если планировка перекрестка противоречит этому условию, знак потенциально установлен неправильно, и вы должны проявлять осторожность и здравый смысл для обеспечения своей безопасности."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "72b57c6bd4ac",
@@ -131,6 +428,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:42:36Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

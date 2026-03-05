@@ -86,11 +86,11 @@ def build_prompt(article: dict) -> str:
         f"=== Article {number}: {title_fr} ===",
         "",
         "[FR]",
-        content_fr[:3000],  # cap at 3000 chars to stay within token limits
+        content_fr[:8000],  # cap at 8000 chars — covers large multi-section articles
     ]
 
     if content_nl:
-        lines += ["", "[NL]", content_nl[:1500]]
+        lines += ["", "[NL]", content_nl[:3000]]
 
     if sign_codes:
         lines += ["", f"Panneaux de signalisation mentionnés: {', '.join(sign_codes)}"]

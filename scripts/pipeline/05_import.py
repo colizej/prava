@@ -71,6 +71,8 @@ _LAW_DEFAULT_EXAM_SLUG = {
     "1975b": "signalisation",
     "1968b": "obligations",
     "1985":  "obligations",
+    "1989":  "obligations",
+    "2001":  "obligations",
 }
 
 

@@ -1,0 +1,43 @@
+{
+  "law_id": "1989",
+  "article_number": "19",
+  "slug": "art-19",
+  "structure": {
+    "titre": null,
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 19",
+  "title_nl": "Artikel 19",
+  "title_ru": "",
+  "content_md_fr": "Lorsqu'un véhicule automoteur fait l'objet d'une mesure de réquisition civile ou militaire en propriété ou en location, la personne publique au nom de laquelle la réquisition a eu lieu couvre seule, par ce fait et pour la durée de la prise en charge, selon les règles de [l'article 10,](#art-10,) § 1er, la responsabilité à laquelle le véhicule réquisitionné peut donner lieu.",
+  "content_md_nl": "Wanneer een motorrijtuig door een burgerlijke of militaire autoriteit in eigendom of in huur wordt opgevorderd, dekt de publiekrechtelijke persoon in wiens naam de opvordering is geschied, door dat feit zelf en voor de duur van de ingebruikneming, alleen en volgens de regels van [artikel 10](#art-10), § 1, de aansprakelijkheid waartoe het opgevorderde rijtuig aanleiding kan geven.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Lorsqu'un véhicule automoteur fait l'objet d'une mesure de réquisition civile ou militaire en propriété ou en location, la personne publique au nom de laquelle la réquisition a eu lieu couvre seule, par ce fait et pour la durée de la prise en charge, selon les règles de <a href=\"#art-10,\">l'article 10,</a> § 1<sup>er</sup>, la responsabilité à laquelle le véhicule réquisitionné peut donner lieu.</p>",
+  "content_html_nl": "<p>Wanneer een motorrijtuig door een burgerlijke of militaire autoriteit in eigendom of in huur wordt opgevorderd, dekt de publiekrechtelijke persoon in wiens naam de opvordering is geschied, door dat feit zelf en voor de duur van de ingebruikneming, alleen en volgens de regels van <a href=\"#art-10\">artikel 10</a>, § 1, de aansprakelijkheid waartoe het opgevorderde rijtuig aanleiding kan geven.</p>",
+  "full_text_fr": "Lorsqu'un véhicule automoteur fait l'objet d'une mesure de réquisition civile ou militaire en propriété ou en location, la personne publique au nom de laquelle la réquisition a eu lieu couvre seule, par ce fait et pour la durée de la prise en charge, selon les règles de l'article 10, § 1er, la responsabilité à laquelle le véhicule réquisitionné peut donner lieu.",
+  "full_text_nl": "Wanneer een motorrijtuig door een burgerlijke of militaire autoriteit in eigendom of in huur wordt opgevorderd, dekt de publiekrechtelijke persoon in wiens naam de opvordering is geschied, door dat feit zelf en voor de duur van de ingebruikneming, alleen en volgens de regels van artikel 10, § 1, de aansprakelijkheid waartoe het opgevorderde rijtuig aanleiding kan geven.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-10,"
+  ],
+  "anchor_id_fr": "rqrk0oba56",
+  "anchor_id_nl": "anmmc0iet2",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "579798163a0b",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

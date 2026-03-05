@@ -26,7 +26,283 @@
   "anchor_id_fr": "hrw3tvh8mg",
   "anchor_id_nl": "beupy2frqq",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que désigne le terme \"permis de conduire provisoire B\" dans le contexte de la conduite automobile en Région wallonne ?",
+      "text_nl": "Wat wordt bedoeld met de term \"voorlopig rijbewijs B\" in de context van het autorijden in het Waals Gewest?",
+      "text_ru": "Что означает термин «временное водительское удостоверение B» в контексте вождения автомобиля в Валлонском регионе?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un permis de conduire international pour les véhicules de catégorie B.",
+          "text_nl": "Een internationaal rijbewijs voor voertuigen van categorie B.",
+          "text_ru": "Международное водительское удостоверение для транспортных средств категории B.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un permis de conduire temporaire permettant d'apprendre à conduire un véhicule de catégorie B.",
+          "text_nl": "Een tijdelijk rijbewijs dat het leren besturen van een voertuig van categorie B mogelijk maakt.",
+          "text_ru": "Временное водительское удостоверение, позволяющее учиться управлять транспортным средством категории B.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un permis de conduire spécial pour les conducteurs novices de moins de 18 ans.",
+          "text_nl": "Een speciaal rijbewijs voor beginnende bestuurders onder de 18 jaar.",
+          "text_ru": "Специальное водительское удостоверение для начинающих водителей младше 18 лет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le \"permis de conduire provisoire B\" est un permis temporaire destiné aux personnes qui apprennent à conduire des véhicules de la catégorie B.",
+      "explanation_nl": "Het \"voorlopig rijbewijs B\" is een tijdelijk rijbewijs bedoeld voor personen die leren rijden met voertuigen van categorie B.",
+      "explanation_ru": "«Временное водительское удостоверение B» — это временное удостоверение, предназначенное для лиц, обучающихся вождению транспортных средств категории B."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom officiel de l'épreuve qui valide les connaissances théoriques nécessaires à l'obtention du permis de conduire ?",
+      "text_nl": "Wat is de officiële naam van het examen dat de theoretische kennis valideert die nodig is voor het verkrijgen van het rijbewijs?",
+      "text_ru": "Каково официальное название экзамена, подтверждающего теоретические знания, необходимые для получения водительского удостоверения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'évaluation des connaissances routières.",
+          "text_nl": "De wegkennisbeoordeling.",
+          "text_ru": "Оценка знаний ПДД.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le contrôle théorique de conduite.",
+          "text_nl": "De theoretische rijcontrole.",
+          "text_ru": "Теоретический контроль вождения.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'examen théorique.",
+          "text_nl": "Het theoretisch examen.",
+          "text_ru": "Теоретический экзамен.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'épreuve qui permet de vérifier les connaissances théoriques pour obtenir le permis de conduire s'appelle officiellement l'examen théorique.",
+      "explanation_nl": "Het examen dat de theoretische kennis voor het verkrijgen van het rijbewijs verifieert, heet officieel het theoretisch examen.",
+      "explanation_ru": "Экзамен, позволяющий проверить теоретические знания для получения водительского удостоверения, официально называется теоретическим экзаменом."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un 'instructeur de conduite breveté' ?",
+      "text_nl": "Wat is een 'gebrevetteerd rij-instructeur'?",
+      "text_ru": "Что такое «дипломированный инструктор по вождению»?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toute personne qui a suivi une formation de base pour enseigner la conduite.",
+          "text_nl": "Iedereen die een basisopleiding tot rijlesgever heeft gevolgd.",
+          "text_ru": "Любой, кто прошел базовую подготовку для обучения вождению.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un professionnel titulaire d'un diplôme spécifique lui permettant d'enseigner la conduite pratique des véhicules de catégorie B.",
+          "text_nl": "Een professional met een specifiek diploma dat hem toestaat het praktisch onderricht voor voertuigen van categorie B te geven.",
+          "text_ru": "Профессионал, имеющий специальный диплом, позволяющий ему преподавать практическое вождение транспортных средств категории B.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un conducteur expérimenté qui accompagne un apprenti conducteur sans rémunération.",
+          "text_nl": "Een ervaren bestuurder die een leerling-bestuurder zonder vergoeding begeleidt.",
+          "text_ru": "Опытный водитель, который сопровождает ученика-водителя без вознаграждения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un instructeur de conduite breveté est un professionnel qui détient un brevet de qualification professionnelle l'autorisant à enseigner la conduite pratique des véhicules de catégorie B.",
+      "explanation_nl": "Een gebrevetteerd rij-instructeur is een professional die een brevet van beroepsbekwaamheid bezit dat hem machtigt om het praktisch onderricht voor voertuigen van categorie B te geven.",
+      "explanation_ru": "Дипломированный инструктор по вождению — это профессионал, имеющий диплом о профессиональной квалификации, который позволяет ему преподавать практическое вождение транспортных средств категории B."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous vous apprêtez à dépasser un cycliste sur une route où la vitesse maximale autorisée est de 70 km/h. Vous n'avez pas d'autres usagers en vue. Quelle distance latérale latérale minimale devez-vous respecter pour le dépasser ?",
+      "text_nl": "U staat op het punt een fietser in te halen op een weg waar de maximaal toegestane snelheid 70 km/u is. U ziet geen andere weggebruikers. Welke minimale zijdelingse afstand moet u respecteren om hem in te halen?",
+      "text_ru": "Вы собираетесь обогнать велосипедиста на дороге, где максимальная разрешенная скорость составляет 70 км/ч. Других участников движения не видно. Какое минимальное боковое расстояние вы должны соблюдать, чтобы обогнать его?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "1 mètre",
+          "text_nl": "1 meter",
+          "text_ru": "1 метр",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "1,5 mètre",
+          "text_nl": "1,5 meter",
+          "text_ru": "1,5 метра",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "2 mètres",
+          "text_nl": "2 meter",
+          "text_ru": "2 метра",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lors du dépassement d'un cycliste, il est obligatoire de laisser une distance latérale minimale de 1 mètre.",
+      "explanation_nl": "Bij het inhalen van een fietser is het verplicht om een minimale zijdelingse afstand van 1 meter te houden.",
+      "explanation_ru": "При обгоне велосипедиста обязательно соблюдать минимальное боковое расстояние 1 метр."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes au volant et approchez d'une intersection où la signalisation est absente. Un véhicule arrive de votre droite. Qui doit passer en premier ?",
+      "text_nl": "U rijdt en nadert een kruispunt zonder verkeersborden. Een voertuig nadert van rechts. Wie moet er eerst passeren?",
+      "text_ru": "Вы за рулем и приближаетесь к перекрестку без дорожных знаков. Транспортное средство приближается справа. Кто должен проехать первым?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous, car vous êtes déjà engagé sur l'intersection.",
+          "text_nl": "U, omdat u al op het kruispunt bent.",
+          "text_ru": "Вы, потому что вы уже на перекрестке.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule venant de votre droite, car il a la priorité.",
+          "text_nl": "Het voertuig van rechts, omdat het voorrang heeft.",
+          "text_ru": "Транспортное средство справа, так как оно имеет приоритет.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous décidez en fonction du trafic.",
+          "text_nl": "U beslist op basis van het verkeer.",
+          "text_ru": "Вы решаете в зависимости от трафика.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En l'absence de signalisation, le véhicule venant de droite est prioritaire. Vous devez donc lui céder le passage.",
+      "explanation_nl": "Bij afwezigheid van verkeerstekens heeft het voertuig van rechts voorrang. U moet dus voorrang verlenen.",
+      "explanation_ru": "При отсутствии дорожных знаков транспортное средство, приближающееся справа, имеет приоритет. Поэтому вы должны уступить ему дорогу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route à 90 km/h, et il commence à pleuvoir fortement. Quelle est la vitesse maximale autorisée dans ces conditions ?",
+      "text_nl": "U rijdt op een weg met 90 km/u en het begint hevig te regenen. Wat is de maximaal toegestane snelheid onder deze omstandigheden?",
+      "text_ru": "Вы едете по дороге со скоростью 90 км/ч, и начинается сильный дождь. Какова максимально разрешенная скорость в таких условиях?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "90 km/h",
+          "text_nl": "90 km/u",
+          "text_ru": "90 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "70 km/h",
+          "text_nl": "70 km/u",
+          "text_ru": "70 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "50 km/h",
+          "text_nl": "50 km/u",
+          "text_ru": "50 км/ч",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de forte pluie, la vitesse maximale autorisée sur une route où la limite est normalement de 90 km/h est réduite à 70 km/h pour des raisons de sécurité.",
+      "explanation_nl": "Bij hevige regen wordt de maximaal toegestane snelheid op een weg waar de limiet normaal 90 km/u is, om veiligheidsredenen teruggebracht tot 70 km/u.",
+      "explanation_ru": "В случае сильного дождя максимально разрешенная скорость на дороге, где лимит обычно составляет 90 км/ч, снижается до 70 км/ч из соображений безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez derrière un véhicule qui transporte une charge débordant nettement sur l'arrière. Le chargement est bien visible mais pas de manière à gêner la circulation. Quel panneau de signalisation devriez-vous vous attendre à voir sur ce véhicule ?",
+      "text_nl": "U rijdt achter een voertuig dat een lading vervoert die duidelijk naar achteren uitsteekt. De lading is goed zichtbaar maar niet op een manier die het verkeer hindert. Welk verkeersbord zou u verwachten te zien op dit voertuig?",
+      "text_ru": "Вы едете позади транспортного средства, перевозящего груз, который явно выступает сзади. Груз хорошо виден, но не так, чтобы мешать движению. Какой дорожный знак вы должны ожидать увидеть на этом транспортном средстве?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "Belgian traffic sign F5: square plate with diagonal red stripes on white, indicating an overhanging load."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un panneau triangulaire d'avertissement de danger.",
+          "text_nl": "Een driehoekig gevarenbord.",
+          "text_ru": "Треугольный знак предупреждения об опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un panneau carré avec des bandes rouges diagonales sur fond blanc.",
+          "text_nl": "Een vierkant bord met diagonale rode strepen op een witte achtergrond.",
+          "text_ru": "Квадратная табличка с диагональными красными полосами на белом фоне.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un panneau rond avec une bordure rouge indiquant une interdiction.",
+          "text_nl": "Een rond bord met een rode rand dat een verbod aangeeft.",
+          "text_ru": "Круглый знак с красной каймой, указывающий на запрет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau carré avec des bandes rouges diagonales sur fond blanc est utilisé pour signaler une charge qui dépasse du véhicule, afin d'alerter les autres usagers.",
+      "explanation_nl": "Het vierkante bord met diagonale rode strepen op een witte achtergrond wordt gebruikt om een uitstekende lading aan te geven, om andere weggebruikers te waarschuwen.",
+      "explanation_ru": "Квадратная табличка с диагональными красными полосами на белом фоне используется для обозначения груза, выступающего из транспортного средства, чтобы предупредить других участников движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous circulez sur une route normale et vous croisez un véhicule d'urgence (pompiers, police, ambulance) avec gyrophares bleus allumés et sirène en marche. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een normale weg en kruist een hulpdienstvoertuig (brandweer, politie, ambulance) met blauwe zwaailichten en sirene aan. Wat moet u doen?",
+      "text_ru": "Вы едете по обычной дороге и встречаете служебный транспорт (пожарная машина, полиция, скорая помощь) с включенными синими проблесковыми маячками и сиреной. Что вы должны делать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler normalement, le véhicule d'urgence vous évitera.",
+          "text_nl": "Blijf normaal rijden, het hulpdienstvoertuig zal u ontwijken.",
+          "text_ru": "Продолжайте ехать как обычно, служебный транспорт объедет вас.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Immédiatement céder le passage en vous rangeant sur le côté droit de la chaussée et en vous arrêtant si nécessaire.",
+          "text_nl": "Verleen onmiddellijk voorrang door naar de rechterkant van de weg te gaan en indien nodig te stoppen.",
+          "text_ru": "Немедленно уступите дорогу, прижавшись к правой стороне проезжей части и остановившись при необходимости.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accélérer pour vous dégager rapidement de sa trajectoire.",
+          "text_nl": "Versnel om snel uit zijn baan te komen.",
+          "text_ru": "Ускорьтесь, чтобы быстро освободить ему путь.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous rencontrez un véhicule d'urgence avec avertisseurs lumineux et sonores, vous devez immédiatement céder le passage. Cela implique généralement de se ranger sur le côté droit et de s'arrêter.",
+      "explanation_nl": "Wanneer u een hulpdienstvoertuig met optische en geluidssignalen tegenkomt, moet u onmiddellijk voorrang verlenen. Dit houdt meestal in dat u naar de rechterkant van de weg gaat en stopt.",
+      "explanation_ru": "При встрече со служебным транспортным средством, оснащенным световыми и звуковыми сигналами, вы должны немедленно уступить дорогу. Обычно это означает прижаться к правой стороне дороги и остановиться."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "60c9aeaf38f2",
@@ -36,6 +312,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:30:40Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "76",
+  "slug": "art-76",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 76. Dispositif d'alerte",
+  "title_nl": "Artikel 76. Alarmtoestel",
+  "title_ru": "",
+  "content_md_fr": "Les véhicules affectés à un service de taxis doivent être équipés d'un dispositif d'alerte pouvant être actionné par le conducteur.",
+  "content_md_nl": "De voertuigen die worden gebezigd voor taxidiensten moeten uitgerust zijn met een alarmtoestel dat door de bestuurder kan worden bediend.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Les véhicules affectés à un service de taxis doivent être équipés d'un dispositif d'alerte pouvant être actionné par le conducteur.</p>",
+  "content_html_nl": "<p>De voertuigen die worden gebezigd voor taxidiensten moeten uitgerust zijn met een alarmtoestel dat door de bestuurder kan worden bediend.</p>",
+  "full_text_fr": "Les véhicules affectés à un service de taxis doivent être équipés d'un dispositif d'alerte pouvant être actionné par le conducteur.",
+  "full_text_nl": "De voertuigen die worden gebezigd voor taxidiensten moeten uitgerust zijn met een alarmtoestel dat door de bestuurder kan worden bediend.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "kaoslrl7bp",
+  "anchor_id_nl": "b3fvvx92uf",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "34211d390372",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

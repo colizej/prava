@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "35",
+  "slug": "art-35",
+  "structure": {
+    "titre": null,
+    "chapitre": "11"
+  },
+  "title_fr": "Annexe 35. Liste des pièces ou des équipements susceptibles de représenter un risque important pour le bon fonctionnement de systèmes essentiels pour la sécurité du véhicule ou sa performance environnementale, exigences relatives à leurs performances, procédures d'essai appropriées et dispositions en matière de marquage et d'emballage",
+  "title_nl": "Bijlage 35. Lijst van onderdelen of uitrustingsstukken die een aanzienlijk risico kunnen vormen voor de correcte werking van systemen die essentieel zijn voor de veiligheid van het voertuig of voor zijn milieuprestaties, de prestatie-eisen ervan, de passende testprocedures, en de voorschriften inzake het merken en het verpakken",
+  "title_ru": "",
+  "content_md_fr": "I. Pièces ou équipements jouant un rôle important dans la sécurité du véhicule\n\n| Numéro de l'élément | Description de l'élément | Performance exigée | Procédure d'essai | Exigence en matière de marquage | Exigences en matière d'emballage |\n| --- | --- | --- | --- | --- | --- |\n| 1 | [...] |  |  |  |  |\n| 2 |  |  |  |  |  |\n| 3 |  |  |  |  |  |\n\nII. Pieces ou équipements iouant un rôle important dans la performance environnementale du véhicule\n\n| Numéro de l'élément | Description de l'élément | Performance exigée | Procédure d'essai | Exigence en matière de marquage | Exigences en matière d'emballage |\n| --- | --- | --- | --- | --- | --- |\n| 1 | [...] |  |  |  |  |\n| 2 |  |  |  |  |  |\n| 3 |  |  |  |  |  |",
+  "content_md_nl": "I. Onderdelen of uitrustingsstukken die grote invloed hebben op de veiligheid van het voertuig\n\n| Voorwerp nr. | Beschrijving voorwerp | Prestatie-eis | Testprocedure | Voorschriften voor het merken | Verpakkingsvoorschriften |\n| --- | --- | --- | --- | --- | --- |\n| 1 | [...] |  |  |  |  |\n| 2 |  |  |  |  |  |\n| 3 |  |  |  |  |  |\n\nII. Onderdelen of uitrustingsstukken die grote invloed hebben op de milieuprestaties van het voertuig\n\n| Voorwerp nr. | Beschrijving voorwerp | Prestatie-eis | Testprocedure | Voorschriften voor het merken | Verpakkingsvoorschriften |\n| --- | --- | --- | --- | --- | --- |\n| 1 | [...] |  |  |  |  |\n| 2 |  |  |  |  |  |\n| 3 |  |  |  |  |  |",
+  "content_md_ru": "",
+  "content_html_fr": "<p>I. Pièces ou équipements jouant un rôle important dans la sécurité du véhicule</p><table border=\"1\">\n<tbody>\n<tr>\n<td>Numéro de l'élément</td>\n<td>Description de l'élément</td>\n<td>Performance exigée</td>\n<td>Procédure d'essai</td>\n<td>Exigence en matière de marquage</td>\n<td>Exigences en matière d'emballage</td>\n</tr>\n<tr>\n<td>1</td>\n<td>[...]</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>2</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>3</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table><p>II. Pieces ou équipements iouant un rôle important dans la performance environnementale du véhicule</p><table border=\"1\">\n<tbody>\n<tr>\n<td>Numéro de l'élément</td>\n<td>Description de l'élément</td>\n<td>Performance exigée</td>\n<td>Procédure d'essai</td>\n<td>Exigence en matière de marquage</td>\n<td>Exigences en matière d'emballage</td>\n</tr>\n<tr>\n<td>1</td>\n<td>[...]</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>2</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>3</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>",
+  "content_html_nl": "<p>I. Onderdelen of uitrustingsstukken die grote invloed hebben op de veiligheid van het voertuig</p><table border=\"1\">\n<tbody>\n<tr>\n<td>Voorwerp nr.</td>\n<td>Beschrijving voorwerp</td>\n<td>Prestatie-eis</td>\n<td>Testprocedure</td>\n<td>Voorschriften voor het merken</td>\n<td>Verpakkingsvoorschriften</td>\n</tr>\n<tr>\n<td>1</td>\n<td>[...]</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>2</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>3</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table><p>II. Onderdelen of uitrustingsstukken die grote invloed hebben op de milieuprestaties van het voertuig</p><table border=\"1\">\n<tbody>\n<tr>\n<td>Voorwerp nr.</td>\n<td>Beschrijving voorwerp</td>\n<td>Prestatie-eis</td>\n<td>Testprocedure</td>\n<td>Voorschriften voor het merken</td>\n<td>Verpakkingsvoorschriften</td>\n</tr>\n<tr>\n<td>1</td>\n<td>[...]</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>2</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>3</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>",
+  "full_text_fr": "I. Pièces ou équipements jouant un rôle important dans la sécurité du véhicule\n\n| Numéro de l'élément | Description de l'élément | Performance exigée | Procédure d'essai | Exigence en matière de marquage | Exigences en matière d'emballage |\n| 1 | [...] |  |  |  |  |\n| 2 |  |  |  |  |  |\n| 3 |  |  |  |  |  |\n\nII. Pieces ou équipements iouant un rôle important dans la performance environnementale du véhicule\n\n| Numéro de l'élément | Description de l'élément | Performance exigée | Procédure d'essai | Exigence en matière de marquage | Exigences en matière d'emballage |\n| 1 | [...] |  |  |  |  |\n| 2 |  |  |  |  |  |\n| 3 |  |  |  |  |  |",
+  "full_text_nl": "I. Onderdelen of uitrustingsstukken die grote invloed hebben op de veiligheid van het voertuig\n\n| Voorwerp nr. | Beschrijving voorwerp | Prestatie-eis | Testprocedure | Voorschriften voor het merken | Verpakkingsvoorschriften |\n| 1 | [...] |  |  |  |  |\n| 2 |  |  |  |  |  |\n| 3 |  |  |  |  |  |\n\nII. Onderdelen of uitrustingsstukken die grote invloed hebben op de milieuprestaties van het voertuig\n\n| Voorwerp nr. | Beschrijving voorwerp | Prestatie-eis | Testprocedure | Voorschriften voor het merken | Verpakkingsvoorschriften |\n| 1 | [...] |  |  |  |  |\n| 2 |  |  |  |  |  |\n| 3 |  |  |  |  |  |",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "jmhe6u5tma",
+  "anchor_id_nl": "bxwe9jnqmo",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "4464500ef163",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

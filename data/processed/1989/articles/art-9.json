@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "9",
+  "slug": "art-9",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 9",
+  "title_nl": "Artikel 9",
+  "title_ru": "",
+  "content_md_fr": "Le Roi peut fixer des règles concernant la constatation de l'accident par les assurés, la forme et les modalités de la déclaration à l'assureur, et le modèle des documents qui doivent être utilisés à ces fins et dont l'assuré doit être porteur.\n\nLe Roi peut également fixer des règles concernant la constatation de l'accident par les agents qualifiés à cet effet. Il peut notamment établir le modèle du constat à utiliser par ceux-ci et déterminer les renseignements qui doivent être transmis sans délai aux parties intéressées et à leurs assureurs.",
+  "content_md_nl": "De Koning kan ook regels stellen betreffende de vaststelling van het ongeval door de verzekerden, de vorm en de wijze van aangifte aan de verzekeraar en het model van de daartoe aan te wenden bescheiden die de verzekerde bij zich moet hebben.\n\nDe Koning kan regels stellen betreffende de vaststelling van het ongeval door de ambtenaren die daartoe bevoegd zijn. Hij kan onder meer het model van het formulier bepalen dat door dezen moet worden gebruikt en voorschrijven welke inlichtingen onverwijld aan de betrokken partijen en hun verzekeraars moeten worden gezonden.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le Roi peut fixer des règles concernant la constatation de l'accident par les assurés, la forme et les modalités de la déclaration à l'assureur, et le modèle des documents qui doivent être utilisés à ces fins et dont l'assuré doit être porteur.</p><p>Le Roi peut également fixer des règles concernant la constatation de l'accident par les agents qualifiés à cet effet. Il peut notamment établir le modèle du constat à utiliser par ceux-ci et déterminer les renseignements qui doivent être transmis sans délai aux parties intéressées et à leurs assureurs.</p>",
+  "content_html_nl": "<p>De Koning kan ook regels stellen betreffende de vaststelling van het ongeval door de verzekerden, de vorm en de wijze van aangifte aan de verzekeraar en het model van de daartoe aan te wenden bescheiden die de verzekerde bij zich moet hebben.</p><p>De Koning kan regels stellen betreffende de vaststelling van het ongeval door de ambtenaren die daartoe bevoegd zijn. Hij kan onder meer het model van het formulier bepalen dat door dezen moet worden gebruikt en voorschrijven welke inlichtingen onverwijld aan de betrokken partijen en hun verzekeraars moeten worden gezonden.</p>",
+  "full_text_fr": "Le Roi peut fixer des règles concernant la constatation de l'accident par les assurés, la forme et les modalités de la déclaration à l'assureur, et le modèle des documents qui doivent être utilisés à ces fins et dont l'assuré doit être porteur.\n\nLe Roi peut également fixer des règles concernant la constatation de l'accident par les agents qualifiés à cet effet. Il peut notamment établir le modèle du constat à utiliser par ceux-ci et déterminer les renseignements qui doivent être transmis sans délai aux parties intéressées et à leurs assureurs.",
+  "full_text_nl": "De Koning kan ook regels stellen betreffende de vaststelling van het ongeval door de verzekerden, de vorm en de wijze van aangifte aan de verzekeraar en het model van de daartoe aan te wenden bescheiden die de verzekerde bij zich moet hebben.\n\nDe Koning kan regels stellen betreffende de vaststelling van het ongeval door de ambtenaren die daartoe bevoegd zijn. Hij kan onder meer het model van het formulier bepalen dat door dezen moet worden gebruikt en voorschrijven welke inlichtingen onverwijld aan de betrokken partijen en hun verzekeraars moeten worden gezonden.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "jcu6cguwkp",
+  "anchor_id_nl": "bctfnkn8mb",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "43ecb90058cb",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

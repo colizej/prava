@@ -63,7 +63,304 @@
   "anchor_id_fr": "ohee2y9mbi",
   "anchor_id_nl": "evynvtudkk",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le signal lumineux spécial représentant une barre horizontale blanche sur fond noir, destiné à régler la circulation des transports en commun ?",
+      "text_nl": "Wat betekent het speciale verkeerslicht dat een horizontale witte balk op een zwarte achtergrond voorstelt, bedoeld om het verkeer van openbaar vervoer te regelen?",
+      "text_ru": "Что означает специальный светофор, представляющий собой горизонтальную белую полосу на черном фоне, предназначенный для регулирования движения общественного транспорта?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A white horizontal bar on a black background, representing a traffic signal for public transport."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il autorise la poursuite de la route.",
+          "text_nl": "Het staat toe om verder te rijden.",
+          "text_ru": "Он разрешает продолжение движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il a la même signification qu'un feu rouge.",
+          "text_nl": "Het heeft dezelfde betekenis als een rood licht.",
+          "text_ru": "Он имеет то же значение, что и красный свет.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il autorise à tourner uniquement à droite.",
+          "text_nl": "Het staat alleen toe om rechtsaf te slaan.",
+          "text_ru": "Он разрешает поворот только направо.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une barre horizontale dans ce type de signalisation lumineuse spéciale a la même signification qu'un feu rouge classique, imposant l'arrêt.",
+      "explanation_nl": "Een horizontale balk in dit type speciale verkeerslicht heeft dezelfde betekenis als een klassiek rood licht, wat een stop oplegt.",
+      "explanation_ru": "Горизонтальная полоса в таком типе специального светофора имеет то же значение, что и обычный красный свет, требуя остановки."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans le contexte des signaux lumineux spéciaux pour les transports en commun, quelle est la signification d'un triangle sur pointe blanc sur fond noir ?",
+      "text_nl": "Wat betekent een witte driehoek met de punt naar boven op een zwarte achtergrond in de context van speciale verkeerslichten voor openbaar vervoer?",
+      "text_ru": "В контексте специальных светофоров для общественного транспорта, что означает белый треугольник, направленный вершиной вверх, на черном фоне?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A white triangle with its point facing upwards on a black background, representing a traffic signal for public transport."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il a la même signification qu'un feu jaune-orange fixe.",
+          "text_nl": "Het heeft dezelfde betekenis als een vast oranjegeel licht.",
+          "text_ru": "Он имеет то же значение, что и постоянный желто-оранжевый свет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il autorise la poursuite de la route uniquement tout droit.",
+          "text_nl": "Het staat alleen toe om rechtdoor te rijden.",
+          "text_ru": "Он разрешает движение только прямо.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il a la même signification qu'un feu vert.",
+          "text_nl": "Het heeft dezelfde betekenis als een groen licht.",
+          "text_ru": "Он имеет то же значение, что и зеленый свет.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un triangle sur pointe blanc sur fond noir utilisé pour les transports en commun est équivalent à un feu vert, autorisant le passage.",
+      "explanation_nl": "Een witte driehoek met de punt naar boven op een zwarte achtergrond die gebruikt wordt voor openbaar vervoer, is gelijkwaardig aan een groen licht, wat doorgang toestaat.",
+      "explanation_ru": "Белый треугольник, направленный вершиной вверх на черном фоне, используемый для общественного транспорта, эквивалентен зеленому свету, разрешающему проезд."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans le système de signalisation lumineuse spéciale pour les transports en commun, qu'indique une barre inclinée à 45° (à gauche ou à droite) ?",
+      "text_nl": "Wat geeft een 45° schuine balk (naar links of rechts) aan in het systeem van speciale verkeerslichten voor openbaar vervoer?",
+      "text_ru": "Что обозначает наклонная под углом 45° (влево или вправо) полоса в системе специальных светофоров для общественного транспорта?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A white bar tilted at 45 degrees to the left on a black background, representing a traffic signal for public transport."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'autorisation de continuer uniquement tout droit.",
+          "text_nl": "De toestemming om alleen rechtdoor te gaan.",
+          "text_ru": "Разрешение продолжать движение только прямо.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'autorisation de poursuivre sa marche uniquement dans la direction indiquée par la barre.",
+          "text_nl": "De toestemming om alleen verder te rijden in de richting die door de balk wordt aangegeven.",
+          "text_ru": "Разрешение продолжать движение только в направлении, указанном полосой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un avertissement de danger imminent.",
+          "text_nl": "Een waarschuwing voor naderend gevaar.",
+          "text_ru": "Предупреждение о неминуемой опасности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une barre inclinée à 45° indique que le conducteur du véhicule de transport en commun est autorisé à continuer sa route uniquement dans la direction pointée par cette barre.",
+      "explanation_nl": "Een 45° schuine balk geeft aan dat de bestuurder van het openbaarvervoersvoertuig alleen mag doorrijden in de richting die door deze balk wordt aangegeven.",
+      "explanation_ru": "Наклонная под углом 45° полоса указывает на то, что водителю транспортного средства общественного транспорта разрешено продолжать движение только в направлении, указываемом этой полосой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un tramway et approchez d'une intersection. Le signal lumineux spécial pour les transports en commun affiche une barre verticale blanche. Pouvez-vous tourner à gauche ?",
+      "text_nl": "U bestuurt een tram en nadert een kruispunt. Het speciale verkeerslicht voor openbaar vervoer toont een verticale witte balk. Mag u linksaf slaan?",
+      "text_ru": "Вы управляете трамваем и приближаетесь к перекрестку. Специальный светофор для общественного транспорта показывает вертикальную белую полосу. Можете ли вы повернуть налево?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A white vertical bar on a black background, representing a traffic signal for public transport at an intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si la voie le permet.",
+          "text_nl": "Ja, als de rijstrook het toelaat.",
+          "text_ru": "Да, если полоса это позволяет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, la barre verticale autorise uniquement à aller tout droit.",
+          "text_nl": "Nee, de verticale balk staat alleen toe om rechtdoor te gaan.",
+          "text_ru": "Нет, вертикальная полоса разрешает движение только прямо.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si aucun autre véhicule ne vient en sens inverse.",
+          "text_nl": "Ja, als er geen ander verkeer van de tegenovergestelde richting komt.",
+          "text_ru": "Да, если нет встречного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une barre verticale blanche sur fond noir signifie que la poursuite de la route est autorisée uniquement tout droit. Les virages sont interdits.",
+      "explanation_nl": "Een verticale witte balk op een zwarte achtergrond betekent dat het verder rijden alleen rechtdoor is toegestaan. Afslaan is verboden.",
+      "explanation_ru": "Вертикальная белая полоса на черном фоне означает, что движение разрешено только прямо. Повороты запрещены."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes au volant d'un bus et voyez un signal lumineux spécial pour les transports en commun affichant un cercle blanc sur fond noir. Quelle action devez-vous entreprendre ?",
+      "text_nl": "U rijdt met een bus en ziet een speciaal verkeerslicht voor openbaar vervoer met een witte cirkel op een zwarte achtergrond. Welke actie moet u ondernemen?",
+      "text_ru": "Вы управляете автобусом и видите специальный светофор для общественного транспорта, отображающий белый круг на черном фоне. Какое действие вы должны предпринять?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A white circle on a black background, representing a traffic signal for public transport."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez vous arrêter, car cela équivaut à un feu rouge.",
+          "text_nl": "U moet stoppen, want dit is gelijk aan een rood licht.",
+          "text_ru": "Вы должны остановиться, так как это эквивалентно красному свету.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez continuer votre route, car cela signifie le passage libre.",
+          "text_nl": "U mag doorrijden, want dit betekent vrije doorgang.",
+          "text_ru": "Вы можете продолжать движение, так как это означает свободный проезд.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous préparer à vous arrêter, car cela a la même signification qu'un feu jaune-orange fixe.",
+          "text_nl": "U moet zich voorbereiden om te stoppen, want dit heeft dezelfde betekenis als een vast oranjegeel licht.",
+          "text_ru": "Вы должны подготовиться к остановке, так как это имеет то же значение, что и постоянный желто-оранжевый свет.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un cercle blanc sur fond noir, dans le cadre de la signalisation des transports en commun, a la même signification qu'un feu jaune-orange fixe : il faut se préparer à s'arrêter ou s'arrêter si la sécurité le permet.",
+      "explanation_nl": "Een witte cirkel op een zwarte achtergrond, in het kader van de signalisatie voor openbaar vervoer, heeft dezelfde betekenis als een vast oranjegeel licht: men moet zich voorbereiden om te stoppen of stoppen indien de veiligheid dit toelaat.",
+      "explanation_ru": "Белый круг на черном фоне в рамках сигнализации общественного транспорта имеет то же значение, что и постоянный желто-оранжевый свет: необходимо подготовиться к остановке или остановиться, если это безопасно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un bus et approchez d'une intersection où le signal lumineux spécial pour les transports en commun affiche une barre inclinée vers la droite. Vous souhaitez aller tout droit. Que devez-vous faire ?",
+      "text_nl": "U rijdt met een bus en nadert een kruispunt waar het speciale verkeerslicht voor openbaar vervoer een naar rechts schuine balk toont. U wilt rechtdoor. Wat moet u doen?",
+      "text_ru": "Вы управляете автобусом и приближаетесь к перекрестку, где специальный светофор для общественного транспорта показывает наклонную вправо полосу. Вы хотите ехать прямо. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A white bar tilted at 45 degrees to the right on a black background, representing a traffic signal for public transport at an intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer tout droit car le signal indique la poursuite de la route.",
+          "text_nl": "Rechtdoor rijden, want het signaal geeft aan dat u mag doorrijden.",
+          "text_ru": "Продолжать движение прямо, так как сигнал указывает на разрешение проезда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ne pouvez pas aller tout droit ; vous devez tourner à droite ou attendre un autre signal.",
+          "text_nl": "U mag niet rechtdoor; u moet rechtsaf slaan of wachten op een ander signaal.",
+          "text_ru": "Вы не можете ехать прямо; вы должны повернуть направо или дождаться другого сигнала.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter car la barre inclinée indique un danger.",
+          "text_nl": "U moet stoppen, want de schuine balk wijst op gevaar.",
+          "text_ru": "Вы должны остановиться, так как наклонная полоса указывает на опасность.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une barre inclinée à 45° signifie que la circulation n'est autorisée que dans la direction indiquée par la barre. Aller tout droit n'est donc pas permis dans cette situation.",
+      "explanation_nl": "Een 45° schuine balk betekent dat het verkeer alleen is toegestaan in de richting die door de balk wordt aangegeven. Rechtdoor rijden is in deze situatie dus niet toegestaan.",
+      "explanation_ru": "Наклонная под углом 45° полоса означает, что движение разрешено только в направлении, указанном полосой. Поэтому движение прямо в этой ситуации не разрешено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "En tant que conducteur d'un bus de ville, vous voyez un cercle clignotant blanc sur fond noir. Quelle est la signification de ce signal ?",
+      "text_nl": "Als bestuurder van een stadsbus ziet u een knipperende witte cirkel op een zwarte achtergrond. Wat betekent dit signaal?",
+      "text_ru": "Как водитель городского автобуса, вы видите мигающий белый круг на черном фоне. Что означает этот сигнал?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A flashing white circle on a black background, representing a traffic signal for public transport."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Cela signifie l'autorisation de continuer uniquement tout droit.",
+          "text_nl": "Dit betekent dat u alleen rechtdoor mag rijden.",
+          "text_ru": "Это означает разрешение продолжать движение только прямо.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Cela a la même signification qu'un feu orange clignotant.",
+          "text_nl": "Dit heeft dezelfde betekenis als een oranjegeel knipperlicht.",
+          "text_ru": "Это имеет то же значение, что и мигающий оранжевый свет.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela équivaut à un feu vert, autorisant le passage.",
+          "text_nl": "Dit is gelijk aan een groen licht, wat doorgang toestaat.",
+          "text_ru": "Это эквивалентно зеленому свету, разрешающему проезд.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un cercle clignotant blanc sur fond noir est équivalent à un feu orange clignotant, qui signale généralement une prudence accrue ou une situation où la priorité doit être donnée.",
+      "explanation_nl": "Een knipperende witte cirkel op een zwarte achtergrond is gelijkwaardig aan een oranjegeel knipperlicht, wat doorgaans verhoogde voorzichtigheid of een situatie aangeeft waarbij voorrang verleend moet worden.",
+      "explanation_ru": "Мигающий белый круг на черном фоне эквивалентен мигающему оранжевому свету, который обычно указывает на повышенную осторожность или ситуацию, когда следует уступить дорогу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule de transport en commun et arrivez à un carrefour où le signal spécial affiche une barre inclinée vers la gauche. Vous avez l'intention de tourner à gauche. Pouvez-vous le faire ?",
+      "text_nl": "U bestuurt een openbaarvervoersvoertuig en nadert een kruispunt waar het speciale signaal een naar links schuine balk toont. U bent van plan linksaf te slaan. Mag u dat doen?",
+      "text_ru": "Вы управляете транспортным средством общественного транспорта и приближаетесь к перекрестку, где специальный сигнал показывает наклонную влево полосу. Вы намерены повернуть налево. Можете ли вы это сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A white bar tilted at 45 degrees to the left on a black background, representing a traffic signal for public transport at an intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car la barre inclinée indique qu'il faut aller tout droit.",
+          "text_nl": "Nee, want de schuine balk geeft aan dat u rechtdoor moet.",
+          "text_ru": "Нет, потому что наклонная полоса указывает на необходимость движения прямо.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car la barre indique explicitement l'autorisation de tourner à gauche.",
+          "text_nl": "Ja, want de balk geeft expliciet toestemming om linksaf te slaan.",
+          "text_ru": "Да, потому что полоса явно разрешает поворот налево.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, car une barre inclinée signifie qu'il faut s'arrêter.",
+          "text_nl": "Nee, want een schuine balk betekent dat u moet stoppen.",
+          "text_ru": "Нет, потому что наклонная полоса означает, что нужно остановиться.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une barre inclinée à 45° vers la gauche ou la droite signifie l'autorisation de poursuivre sa marche uniquement dans la direction indiquée par la barre. Si la barre est inclinée vers la gauche, tourner à gauche est autorisé.",
+      "explanation_nl": "Een 45° schuine balk naar links of rechts betekent dat het rijden alleen is toegestaan in de richting die door de balk wordt aangegeven. Als de balk naar links schuin staat, is linksaf slaan toegestaan.",
+      "explanation_ru": "Наклонная под углом 45° полоса влево или вправо означает разрешение продолжать движение только в направлении, указанном полосой. Если полоса наклонена влево, поворот налево разрешен."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "36615962d048",
@@ -73,6 +370,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:21:55Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

@@ -1,0 +1,43 @@
+{
+  "law_id": "2001",
+  "article_number": "9",
+  "slug": "art-9",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 9",
+  "title_nl": "Artikel 9",
+  "title_ru": "",
+  "content_md_fr": "Si le demandeur de l'immatriculation est une personne morale, le répertoire matricule mentionne en outre:\n\n**1°** sa dénomination sociale;\n\n**2°** sa forme juridique;\n\n**3°** l'adresse de son siège social ou l'adresse de l'utilisateur du véhicule dans le cas visé par [l'article 10,](#art-10,) alinéa 2;\n\n**4°** s'il n'y a pas de siège social en Belgique mais que la personne morale y a un établissement, l'adresse de cet établissement si le véhicule y est géré ou utilisé;\n\n**5°** le cas échéant, son numéro d'entreprise.\n\n#### Section 2. La demande d'immatriculation",
+  "content_md_nl": "Het repertorium vermeldt bovendien voor de aanvrager van de inschrijving die een rechtspersoon is :\n\n**1°** de benaming van zijn maatschappij;\n\n**2°** zijn rechtsvorm;\n\n**3°** het adres van de zetel van zijn maatschappij of het adres van de gebruiker van het voertuig in het geval voorzien in het [artikel 10](#art-10), tweede lid;\n\n**4°** als de zetel van de maatschappij niet in België is gelegen maar de rechtspersoon er wel een vestiging heeft, het adres van die vestiging indien het voertuig er beheerd of gebruikt wordt;\n\n**5°** in voorkomend geval, zijn ondernemingsnummer.\n\n#### Afdeling 2. De aanvraag tot inschrijving",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Si le demandeur de l'immatriculation est une personne morale, le répertoire matricule mentionne en outre:</p><p style=\"padding-left: 30px;\"><strong>1°</strong> sa dénomination sociale;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> sa forme juridique;</p><p style=\"padding-left: 30px;\"><strong>3°</strong> l'adresse de son siège social ou l'adresse de l'utilisateur du véhicule dans le cas visé par <a href=\"#art-10,\">l'article 10,</a> alinéa 2;</p><p style=\"padding-left: 30px;\"><strong>4°</strong> s'il n'y a pas de siège social en Belgique mais que la personne morale y a un établissement, l'adresse de cet établissement si le véhicule y est géré ou utilisé;</p><p style=\"padding-left: 30px;\"><strong>5°</strong> le cas échéant, son numéro d'entreprise.</p><h4 id=\"idalibzmpt\">Section 2. La demande d'immatriculation</h4>",
+  "content_html_nl": "<p>Het repertorium vermeldt bovendien voor de aanvrager van de inschrijving die een rechtspersoon is :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> de benaming van zijn maatschappij;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> zijn rechtsvorm;</p><p style=\"padding-left: 30px;\"><strong>3°</strong> het adres van de zetel van zijn maatschappij of het adres van de gebruiker van het voertuig in het geval voorzien in het <a href=\"#art-10\">artikel 10</a>, tweede lid;</p><p style=\"padding-left: 30px;\"><strong>4°</strong> als de zetel van de maatschappij niet in België is gelegen maar de rechtspersoon er wel een vestiging heeft, het adres van die vestiging indien het voertuig er beheerd of gebruikt wordt;</p><p style=\"padding-left: 30px;\"><strong>5°</strong> in voorkomend geval, zijn ondernemingsnummer.</p><h4 id=\"tasra3tmmv\">Afdeling 2. De aanvraag tot inschrijving</h4>",
+  "full_text_fr": "Si le demandeur de l'immatriculation est une personne morale, le répertoire matricule mentionne en outre:\n\n1° sa dénomination sociale;\n\n2° sa forme juridique;\n\n3° l'adresse de son siège social ou l'adresse de l'utilisateur du véhicule dans le cas visé par l'article 10, alinéa 2;\n\n4° s'il n'y a pas de siège social en Belgique mais que la personne morale y a un établissement, l'adresse de cet établissement si le véhicule y est géré ou utilisé;\n\n5° le cas échéant, son numéro d'entreprise.\n\nSection 2. La demande d'immatriculation",
+  "full_text_nl": "Het repertorium vermeldt bovendien voor de aanvrager van de inschrijving die een rechtspersoon is :\n\n1° de benaming van zijn maatschappij;\n\n2° zijn rechtsvorm;\n\n3° het adres van de zetel van zijn maatschappij of het adres van de gebruiker van het voertuig in het geval voorzien in het artikel 10, tweede lid;\n\n4° als de zetel van de maatschappij niet in België is gelegen maar de rechtspersoon er wel een vestiging heeft, het adres van die vestiging indien het voertuig er beheerd of gebruikt wordt;\n\n5° in voorkomend geval, zijn ondernemingsnummer.\n\nAfdeling 2. De aanvraag tot inschrijving",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-10,"
+  ],
+  "anchor_id_fr": "4yswf121et",
+  "anchor_id_nl": "derj4msuox",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "2727a1d32c31",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

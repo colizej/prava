@@ -1,0 +1,43 @@
+{
+  "law_id": "1989",
+  "article_number": "4",
+  "slug": "art-4",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 4",
+  "title_nl": "Artikel 4",
+  "title_ru": "",
+  "content_md_fr": "**§ 1er.** (abrogé)\n\n§ 2. Peuvent être exclus de l'assurance, les dommages qui découlent de la participation du véhicule à des courses ou concours de vitesse, de régularité ou d'adresse autorisés conformément à l'[article 8](#art8).",
+  "content_md_nl": "§ 1. (opgeheven)\n\n§ 2. Van de verzekering kan worden uitgesloten de schade die voortvloeit uit het deelnemen van het motorrijtuig aan snelheids-, regelmatigheids- of behendigheidsritten of -wedstrijden, waartoe van overheidswege verlof is verleend overeenkomstig [artikel 8](#art8).",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>§ 1<sup>er</sup>.</strong> (abrogé)</p><p>§ 2. Peuvent être exclus de l'assurance, les dommages qui découlent de la participation du véhicule à des courses ou concours de vitesse, de régularité ou d'adresse autorisés conformément à l'<a href=\"#art8\">article 8</a>.</p>",
+  "content_html_nl": "<p>§ 1. (opgeheven)</p><p>§ 2. Van de verzekering kan worden uitgesloten de schade die voortvloeit uit het deelnemen van het motorrijtuig aan snelheids-, regelmatigheids- of behendigheidsritten of -wedstrijden, waartoe van overheidswege verlof is verleend overeenkomstig <a href=\"#art8\">artikel 8</a>.</p>",
+  "full_text_fr": "§ 1er. (abrogé)\n\n§ 2. Peuvent être exclus de l'assurance, les dommages qui découlent de la participation du véhicule à des courses ou concours de vitesse, de régularité ou d'adresse autorisés conformément à l'article 8.",
+  "full_text_nl": "§ 1. (opgeheven)\n\n§ 2. Van de verzekering kan worden uitgesloten de schade die voortvloeit uit het deelnemen van het motorrijtuig aan snelheids-, regelmatigheids- of behendigheidsritten of -wedstrijden, waartoe van overheidswege verlof is verleend overeenkomstig artikel 8.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art8"
+  ],
+  "anchor_id_fr": "9er3mgaw7h",
+  "anchor_id_nl": "bijjre0gmj",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "e4c2d9dad49d",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

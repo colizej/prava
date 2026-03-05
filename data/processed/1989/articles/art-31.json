@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "31",
+  "slug": "art-31",
+  "structure": {
+    "titre": null,
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 31",
+  "title_nl": "Artikel 31",
+  "title_ru": "",
+  "content_md_fr": "Il ne peut être dérogé aux dispositions de la présente loi par des conventions particulières qui porteraient atteinte aux droits des personnes lésées.",
+  "content_md_nl": "Van de bepalingen van deze wet mag niet worden afgeweken door bijzondere overeenkomsten die aan de rechten van benadeelden afbreuk zouden kunnen doen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Il ne peut être dérogé aux dispositions de la présente loi par des conventions particulières qui porteraient atteinte aux droits des personnes lésées.</p>",
+  "content_html_nl": "<p>Van de bepalingen van deze wet mag niet worden afgeweken door bijzondere overeenkomsten die aan de rechten van benadeelden afbreuk zouden kunnen doen.</p>",
+  "full_text_fr": "Il ne peut être dérogé aux dispositions de la présente loi par des conventions particulières qui porteraient atteinte aux droits des personnes lésées.",
+  "full_text_nl": "Van de bepalingen van deze wet mag niet worden afgeweken door bijzondere overeenkomsten die aan de rechten van benadeelden afbreuk zouden kunnen doen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "tbthmlktgh",
+  "anchor_id_nl": "cd8afznwsr",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "e5d72ec61722",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -37,7 +37,283 @@
   "anchor_id_fr": "c5dt5pkwaz",
   "anchor_id_nl": "9ktogbby2i",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quel ordre de priorité les injonctions et les règles suivantes s'appliquent-elles en cas de conflit : injonctions d'un agent qualifié, signalisation routière et règles de circulation ?",
+      "text_nl": "In welke volgorde van prioriteit gelden de volgende bevelen en regels bij een conflict: bevelen van bevoegde personen, verkeerstekens en verkeersregels?",
+      "text_ru": "В каком порядке приоритета применяются следующие предписания и правила в случае конфликта: предписания уполномоченного лица, дорожные знаки и правила дорожного движения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Règles de circulation, puis signalisation routière, puis injonctions d'un agent qualifié.",
+          "text_nl": "Verkeersregels, dan verkeerstekens, dan bevelen van een bevoegd persoon.",
+          "text_ru": "Правила дорожного движения, затем дорожные знаки, затем предписания уполномоченного лица.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signalisation routière, puis règles de circulation, puis injonctions d'un agent qualifié.",
+          "text_nl": "Verkeerstekens, dan verkeersregels, dan bevelen van een bevoegd persoon.",
+          "text_ru": "Дорожные знаки, затем правила дорожного движения, затем предписания уполномоченного лица.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les injonctions d'un agent qualifié priment sur la signalisation routière et les règles de circulation, qui priment elles-mêmes sur les règles de circulation.",
+          "text_nl": "De bevelen van een bevoegd persoon gaan boven de verkeerstekens en de verkeersregels, die op hun beurt weer boven de verkeersregels gaan.",
+          "text_ru": "Предписания уполномоченного лица превалируют над дорожными знаками и правилами дорожного движения, которые, в свою очередь, превалируют над правилами дорожного движения.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les injonctions d'un agent qualifié ont la plus haute priorité, suivies par la signalisation routière, et enfin les règles de circulation générales.",
+      "explanation_nl": "De bevelen van een bevoegd persoon hebben de hoogste prioriteit, gevolgd door de verkeerstekens, en ten slotte de algemene verkeersregels.",
+      "explanation_ru": "Предписания уполномоченного лица имеют наивысший приоритет, за которыми следуют дорожные знаки, и, наконец, общие правила дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le principe selon lequel la signalisation routière prévaut sur les règles de circulation ?",
+      "text_nl": "Wat betekent het principe dat verkeerstekens voorrang hebben op verkeersregels?",
+      "text_ru": "Что означает принцип, согласно которому дорожные знаки имеют приоритет над правилами дорожного движения?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si un panneau indique une limite de vitesse de 50 km/h, mais que les règles générales permettent 70 km/h, on doit rouler à 70 km/h.",
+          "text_nl": "Als een bord een snelheidslimiet van 50 km/u aangeeft, maar de algemene regels 70 km/u toestaan, moet men 70 km/u rijden.",
+          "text_ru": "Если знак указывает ограничение скорости 50 км/ч, но общие правила допускают 70 км/ч, нужно ехать 70 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si un panneau indique une limite de vitesse de 50 km/h, mais que les règles générales permettent 70 km/h, on doit rouler à 50 km/h.",
+          "text_nl": "Als een bord een snelheidslimiet van 50 km/u aangeeft, maar de algemene regels 70 km/u toestaan, moet men 50 km/u rijden.",
+          "text_ru": "Если знак указывает ограничение скорости 50 км/ч, но общие правила допускают 70 км/ч, нужно ехать 50 км/ч.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les règles de circulation s'appliquent toujours, sauf indication contraire d'un agent.",
+          "text_nl": "De verkeersregels gelden altijd, tenzij een bevoegd persoon anders aangeeft.",
+          "text_ru": "Правила дорожного движения всегда применяются, если уполномоченное лицо не указывает иное.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation routière, comme un panneau de limite de vitesse, a une priorité sur les règles de circulation générales qui pourraient autoriser une vitesse plus élevée.",
+      "explanation_nl": "Verkeerstekens, zoals een snelheidslimietbord, hebben voorrang op algemene verkeersregels die een hogere snelheid zouden toestaan.",
+      "explanation_ru": "Дорожные знаки, такие как знак ограничения скорости, имеют приоритет над общими правилами дорожного движения, которые могут разрешать более высокую скорость."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles situations les signaux lumineux de circulation ne rendent-ils pas sans effet les signaux routiers relatifs à la priorité sur la même voie ?",
+      "text_nl": "In welke situaties maken de verkeerslichten de verkeersborden betreffende de voorrang op dezelfde weg niet ongeldig?",
+      "text_ru": "В каких ситуациях светофоры не отменяют действие знаков приоритета на той же дороге?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement lorsque le feu est orange-jaune clignotant.",
+          "text_nl": "Alleen wanneer het licht oranje-geel knippert.",
+          "text_ru": "Только когда мигает желто-оранжевый свет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le feu jaune-orange clignotant, les feux au-dessus des bandes de circulation et les panneaux de priorité B22 et B23.",
+          "text_nl": "Het oranjegeel knipperlicht, de lichten boven de rijstroken en de voorrangsborden B22 en B23.",
+          "text_ru": "Мигающий желто-оранжевый свет, огни над полосами движения и знаки приоритета B22 и B23.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les feux au-dessus des bandes de circulation et les panneaux de priorité B22 et B23.",
+          "text_nl": "De lichten boven de rijstroken en de voorrangsborden B22 en B23.",
+          "text_ru": "Огни над полосами движения и знаки приоритета B22 и B23.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le fonctionnement normal des feux de circulation rend inefficaces les panneaux de priorité classiques sur la même voie. Cependant, le feu jaune-orange clignotant, les feux de gestion de voie et les panneaux B22/B23 continuent de s'appliquer.",
+      "explanation_nl": "De normale werking van verkeerslichten maakt klassieke voorrangsborden op dezelfde weg ongeldig. Echter, het oranjegeel knipperlicht, rijstrooksignalering en de B22/B23 borden blijven van kracht.",
+      "explanation_ru": "Нормальное функционирование светофоров делает недействительными обычные знаки приоритета на той же полосе. Однако мигающий желто-оранжевый свет, сигналы управления полосой и знаки B22/B23 продолжают действовать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour où un agent de police fait des gestes pour diriger la circulation. Comment devez-vous réagir ?",
+      "text_nl": "U nadert een kruispunt waar een politieagent gebaren maakt om het verkeer te regelen. Hoe moet u reageren?",
+      "text_ru": "Вы приближаетесь к перекрестку, где регулировщик жестами управляет движением. Как вам следует поступить?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les règles de circulation normales, car les panneaux de signalisation ont la priorité.",
+          "text_nl": "Volg de normale verkeersregels, omdat verkeersborden prioriteit hebben.",
+          "text_ru": "Следуйте обычным правилам дорожного движения, так как дорожные знаки имеют приоритет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ignorer l'agent et suivre les indications des feux de circulation s'il y en a.",
+          "text_nl": "Negeer de agent en volg de aanwijzingen van de verkeerslichten, indien aanwezig.",
+          "text_ru": "Игнорируйте регулировщика и следуйте указаниям светофоров, если они есть.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Obéir aux injonctions de l'agent, même si elles contredisent la signalisation routière.",
+          "text_nl": "Gehoorzaam de bevelen van de agent, zelfs als deze in strijd zijn met de verkeerstekens.",
+          "text_ru": "Подчиняйтесь предписаниям регулировщика, даже если они противоречат дорожным знакам.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les injonctions des agents qualifiés ont toujours la priorité sur toute autre forme de signalisation ou de règles.",
+      "explanation_nl": "De bevelen van bevoegde personen hebben altijd voorrang op elke andere vorm van signalisatie of regels.",
+      "explanation_ru": "Предписания уполномоченных лиц всегда имеют приоритет над любой другой формой сигнализации или правил."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur une route où la limite de vitesse est de 90 km/h. Il y a un panneau 'Stop' au prochain carrefour. Vous voyez également un panneau 'Cédez le passage' juste avant le panneau 'Stop'. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een weg waar de snelheidslimiet 90 km/u is. Bij het volgende kruispunt staat een 'Stop'-bord. Net voor het 'Stop'-bord ziet u een 'Geef voorrang'-bord. Wat moet u doen?",
+      "text_ru": "Вы едете по дороге с ограничением скорости 90 км/ч. На следующем перекрестке стоит знак 'Стоп'. Непосредственно перед знаком 'Стоп' вы видите знак 'Уступи дорогу'. Что вам следует сделать?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Respecter le panneau 'Stop', car il est plus restrictif.",
+          "text_nl": "Respecteer het 'Stop'-bord, omdat dit restrictiever is.",
+          "text_ru": "Соблюдайте знак 'Стоп', так как он более ограничительный.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Respecter le panneau 'Cédez le passage' et ignorer le panneau 'Stop'.",
+          "text_nl": "Geef voorrang volgens het bord 'Geef voorrang' en negeer het 'Stop'-bord.",
+          "text_ru": "Уступите дорогу согласно знаку 'Уступи дорогу' и проигнорируйте знак 'Стоп'.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Respecter le panneau 'Stop', car la signalisation routière prime sur les règles de circulation.",
+          "text_nl": "Respecteer het 'Stop'-bord, omdat verkeerstekens voorrang hebben op verkeersregels.",
+          "text_ru": "Соблюдайте знак 'Стоп', так как дорожные знаки имеют приоритет над правилами дорожного движения.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Dans ce cas, le panneau 'Stop' est plus restrictif que le panneau 'Cédez le passage'. Puisque la signalisation routière prime sur les règles de circulation et que le 'Stop' est le dernier panneau indiquant une priorité à respecter, vous devez vous y conformer.",
+      "explanation_nl": "In dit geval is het 'Stop'-bord restrictiever dan het 'Geef voorrang'-bord. Aangezien verkeerstekens voorrang hebben op verkeersregels en het 'Stop'-bord het laatste teken is dat een te respecteren voorrang aangeeft, moet u zich daaraan houden.",
+      "explanation_ru": "В данном случае знак 'Стоп' более ограничительный, чем знак 'Уступи дорогу'. Поскольку дорожные знаки имеют приоритет над правилами дорожного движения, а знак 'Стоп' является последним знаком, указывающим приоритет, который необходимо соблюдать, вы должны ему подчиниться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous arrivez à une intersection où les feux de circulation sont en fonctionnement normal. Il y a également des panneaux 'Stop' sur toutes les approches. Comment réagissez-vous ?",
+      "text_nl": "U komt aan bij een kruispunt waar de verkeerslichten normaal werken. Er staan ook 'Stop'-borden op alle naderingen. Hoe reageert u?",
+      "text_ru": "Вы подъезжаете к перекрестку, где светофоры работают в обычном режиме. На всех подъездах также установлены знаки 'Стоп'. Как вы действуете?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous respectez les panneaux 'Stop', car ils indiquent une priorité claire.",
+          "text_nl": "U respecteert de 'Stop'-borden, omdat deze een duidelijke prioriteit aangeven.",
+          "text_ru": "Вы соблюдаете знаки 'Стоп', так как они указывают на явный приоритет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous suivez les instructions des feux de circulation et ignorez les panneaux 'Stop'.",
+          "text_nl": "U volgt de instructies van de verkeerslichten en negeert de 'Stop'-borden.",
+          "text_ru": "Вы следуете указаниям светофоров и игнорируете знаки 'Стоп'.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous attendez un geste de la part d'un agent de police avant de décider.",
+          "text_nl": "U wacht op een gebaar van een politieagent voordat u beslist.",
+          "text_ru": "Вы ждете жеста от полицейского, прежде чем принять решение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque les feux de circulation fonctionnent normalement, ils prévalent sur les signaux routiers relatifs à la priorité, tels que les panneaux 'Stop'.",
+      "explanation_nl": "Wanneer verkeerslichten normaal werken, hebben ze voorrang op verkeerstekens met betrekking tot prioriteit, zoals 'Stop'-borden.",
+      "explanation_ru": "Когда светофоры работают в обычном режиме, они имеют приоритет над дорожными знаками, касающимися приоритета, такими как знаки 'Стоп'."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes à une intersection avec des feux de circulation. Les feux au-dessus des bandes de circulation indiquent que votre bande est fermée, tandis que le feu principal est vert. Que faites-vous ?",
+      "text_nl": "U bevindt zich op een kruispunt met verkeerslichten. De lichten boven de rijstroken geven aan dat uw rijstrook gesloten is, terwijl het hoofdverkeerslicht groen is. Wat doet u?",
+      "text_ru": "Вы находитесь на перекрестке со светофорами. Огни над полосами движения указывают, что ваша полоса закрыта, в то время как основной светофор горит зеленым. Ваши действия?",
+      "image": null,
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous continuez sur votre bande car le feu principal est vert.",
+          "text_nl": "U rijdt door op uw rijstrook omdat het hoofdverkeerslicht groen is.",
+          "text_ru": "Вы продолжаете движение по своей полосе, так как основной светофор горит зеленым.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous changez de bande prudemment pour une bande adjacente ouverte, en suivant les indications des feux de voie.",
+          "text_nl": "U wisselt voorzichtig van rijstrook naar een openliggende naastgelegen rijstrook, volgens de aanwijzingen van de rijstrooklichten.",
+          "text_ru": "Вы осторожно перестраиваетесь на соседнюю открытую полосу, следуя указаниям светофоров для полос.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous vous arrêtez et attendez que le feu principal devienne rouge.",
+          "text_nl": "U stopt en wacht tot het hoofdverkeerslicht rood wordt.",
+          "text_ru": "Вы останавливаетесь и ждете, пока основной светофор не станет красным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux lumineux au-dessus des bandes de circulation sont des signaux routiers spécifiques qui prévalent sur les signaux lumineux généraux lorsqu'ils concernent la gestion des voies. Un signal indiquant la fermeture d'une voie doit être respecté.",
+      "explanation_nl": "De lichten boven de rijstroken zijn specifieke verkeerstekens die voorrang hebben op algemene verkeerslichten wanneer ze betrekking hebben op rijstrookbeheer. Een signaal dat een gesloten rijstrook aangeeft, moet worden gerespecteerd.",
+      "explanation_ru": "Светофоры над полосами движения являются специфическими дорожными знаками, которые имеют приоритет над общими светофорами, когда они касаются управления полосой. Сигнал, указывающий на закрытие полосы, должен быть соблюден."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur le point de dépasser un véhicule. Vous apercevez un panneau B22 ('Passage pour piétons') indiquant un passage pour piétons juste après le véhicule que vous dépassez. Les feux de circulation à cet endroit sont éteints et le feu clignote en orange-jaune. Que devez-vous faire ?",
+      "text_nl": "U staat op het punt een voertuig in te halen. U ziet een B22-bord ('Voetgangersoversteekplaats') net na het voertuig dat u inhaalt. De verkeerslichten op deze locatie zijn uitgeschakeld en het licht knippert oranje-geel. Wat moet u doen?",
+      "text_ru": "Вы собираетесь обогнать транспортное средство. Вы видите знак B22 ('Пешеходный переход'), указывающий на пешеходный переход сразу за обгоняемым вами транспортным средством. Светофоры в этом месте выключены, а свет мигает желто-оранжевым. Ваши действия?",
+      "image": {
+        "sign_code": "B22",
+        "generation_prompt": "Belgian road sign B22, indicating a pedestrian crossing."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous terminez votre dépassement et continuez, car les feux sont éteints.",
+          "text_nl": "U voltooit uw inhaalmanoeuvre en gaat door, omdat de lichten uit zijn.",
+          "text_ru": "Вы завершаете обгон и продолжаете движение, так как огни выключены.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ralentissez considérablement et vous préparez à vous arrêter si nécessaire, en donnant la priorité aux piétons.",
+          "text_nl": "U vertraagt aanzienlijk en bereidt u voor om indien nodig te stoppen, met voorrang voor voetgangers.",
+          "text_ru": "Вы значительно снижаете скорость и готовитесь остановиться при необходимости, уступая дорогу пешеходам.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous ignorez le panneau B22 car les feux clignotants orange-jaune annulent les panneaux de priorité.",
+          "text_nl": "U negeert het B22-bord omdat de oranjegele knipperende lichten voorrangsborden annuleren.",
+          "text_ru": "Вы игнорируете знак B22, так как мигающие желто-оранжевые огни отменяют знаки приоритета.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu jaune-orange clignotant n'annule pas les signaux routiers relatifs à la priorité. De plus, le panneau B22 impose une vigilance particulière et la priorité aux piétons. Il faut donc ralentir et être prêt à s'arrêter.",
+      "explanation_nl": "Een oranjegeel knipperlicht annuleert geen verkeerstekens met betrekking tot prioriteit. Bovendien vereist het B22-bord bijzondere voorzichtigheid en voorrang voor voetgangers. U moet dus vertragen en klaar zijn om te stoppen.",
+      "explanation_ru": "Мигающий желто-оранжевый свет не отменяет дорожные знаки, касающиеся приоритета. Кроме того, знак B22 требует особой бдительности и уступки дороги пешеходам. Следовательно, вам следует замедлиться и быть готовым остановиться."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "a4259cba63c6",
@@ -47,6 +323,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:20:28Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

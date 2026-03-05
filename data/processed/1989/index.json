@@ -1,0 +1,940 @@
+{
+  "law_id": "1989",
+  "built_at": "2026-03-05T09:01:37Z",
+  "total_articles": 67,
+  "structure": [
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre Ier. Dispositions préliminaires",
+      "id": "ukxmdsxgta"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. De l'assurance obligatoire",
+      "id": "seyhnnjo8m"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre IIbis. Bureau de tarification",
+      "id": "ydp5neea4h"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Des véhicules appartenant à l'État ou à certains organismes publics",
+      "id": "dy4krvxbtx"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. De l'action de la personne lésée contre l'assureur et le représentant chargé du règlement des sinistres",
+      "id": "7rwldcyfz2"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IVbis. Des règles relatives à la réparation de certains dommages causés par des véhicules automoteurs",
+      "id": "6zbjyntqaw"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "Chapitre V. Dispositions pénales",
+      "id": "im60o6gjsk"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "Chapitre Vbis. De l'indemnisation de certaines victimes d'accidents de la circulation",
+      "id": "kftcl8fwrp"
+    },
+    {
+      "type": "chapitre",
+      "number": "VI",
+      "text": "Chapitre VI. Dispositions transitoires (abrogé)",
+      "id": "u2fxlp0bd1"
+    },
+    {
+      "type": "chapitre",
+      "number": "VII",
+      "text": "Chapitre VII. Dispositions finales",
+      "id": "fzl6fb3vxp"
+    }
+  ],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 1er",
+      "title_nl": "Artikel 1",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 2",
+      "title_nl": "Artikel 2",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2bis",
+      "slug": "art-2bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 2bis",
+      "title_nl": "Artikel 2bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 3",
+      "title_nl": "Artikel 3",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4",
+      "title_nl": "Artikel 4",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 5",
+      "title_nl": "Artikel 5",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 6",
+      "title_nl": "Artikel 6",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7",
+      "title_nl": "Artikel 7",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 8",
+      "title_nl": "Artikel 8",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9",
+      "title_nl": "Artikel 9",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9bis",
+      "slug": "art-9bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9bis",
+      "title_nl": "Artikel 9bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9ter",
+      "slug": "art-9ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9ter",
+      "title_nl": "Artikel 9ter",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9quater",
+      "slug": "art-9quater",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9quater",
+      "title_nl": "Artikel 9quater",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9quinquies",
+      "slug": "art-9quinquies",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9quinquies",
+      "title_nl": "Artikel 9quinquies",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 10",
+      "title_nl": "Artikel 10",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 11",
+      "title_nl": "Artikel 11",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "12",
+      "slug": "art-12",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 12",
+      "title_nl": "Artikel 12",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "13",
+      "slug": "art-13",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 13",
+      "title_nl": "Artikel 13",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 14",
+      "title_nl": "Artikel 14",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 15",
+      "title_nl": "Artikel 15",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 16",
+      "title_nl": "Artikel 16",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16bis",
+      "slug": "art-16bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 16bis",
+      "title_nl": "Artikel 16bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 17",
+      "title_nl": "Artikel 17",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 18",
+      "title_nl": "Artikel 18",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19",
+      "title_nl": "Artikel 19",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 1",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 2",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 3",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 4",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 5",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 6",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 7",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 8",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 9",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 10",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 11",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 12",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 13",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 13/1",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 13/2",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 13/3",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 14",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 15",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 16",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 17",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 19bis - 18",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19bis",
+      "slug": "art-19bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 19bis",
+      "title_nl": "Artikel 19bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 20",
+      "title_nl": "Artikel 20",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 21",
+      "title_nl": "Artikel 21",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22",
+      "slug": "art-22",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 22",
+      "title_nl": "Artikel 22",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 23",
+      "title_nl": "Artikel 23",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "24",
+      "slug": "art-24",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 24",
+      "title_nl": "Artikel 24",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 25",
+      "title_nl": "Artikel 25",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 26",
+      "title_nl": "Artikel 26",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27",
+      "slug": "art-27",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 27",
+      "title_nl": "Artikel 27",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "28",
+      "slug": "art-28",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 28",
+      "title_nl": "Artikel 28",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29",
+      "slug": "art-29",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 29",
+      "title_nl": "Artikel 29",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29bis",
+      "slug": "art-29bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 29bis",
+      "title_nl": "Artikel 29bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29ter",
+      "slug": "art-29ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 29ter",
+      "title_nl": "Artikel 29ter",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30",
+      "slug": "art-30",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 30",
+      "title_nl": "Artikel 30",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "31",
+      "slug": "art-31",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 31",
+      "title_nl": "Artikel 31",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 32",
+      "title_nl": "Artikel 32",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33",
+      "slug": "art-33",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 33",
+      "title_nl": "Artikel 33",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33bis",
+      "slug": "art-33bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 33bis",
+      "title_nl": "Artikel 33bis",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33ter",
+      "slug": "art-33ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 33ter",
+      "title_nl": "Artikel 33ter",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 34",
+      "title_nl": "Artikel 34",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": null,
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 35",
+      "title_nl": "Artikel 35",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}

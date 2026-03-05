@@ -1,0 +1,41 @@
+{
+  "law_id": "1968b",
+  "article_number": "16bis",
+  "slug": "art-16bis",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 16bis. Notification des décisions et des voies de recours",
+  "title_nl": "Artikel 16bis. Kennisgeving van besluiten en beschikbare rechtsmiddelen",
+  "title_ru": "",
+  "content_md_fr": "Toute décision prise en vertu des dispositions du présent chapitre et toute décision portant refus ou retrait d'une réception CE par type, refus d'une immatriculation ou interdiction de vente est dûment motivée. Une telle décision est notifée à l'intéressé avec indication des voies de recours qui lui sont ouvertes et des délais dans lesquels il peut en faire usage.",
+  "content_md_nl": "Elk besluit dat op grond van de bepalingen van dit hoofdstuk wordt genomen en elk besluit tot weigering of intrekking van een EG-typegoedkeuring, tot weigering van registratie of tot verbod van de verkoop wordt uitvoerig met redenen omkleed. Het besluit wordt ter kennis gebracht van de belanghebbende onder vermelding van de rechtsmiddelen waarover hij beschikt en van de termijnen waarbinnen hij deze kan aanwenden.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Toute décision prise en vertu des dispositions du présent chapitre et toute décision portant refus ou retrait d'une réception CE par type, refus d'une immatriculation ou interdiction de vente est dûment motivée. Une telle décision est notifée à l'intéressé avec indication des voies de recours qui lui sont ouvertes et des délais dans lesquels il peut en faire usage.</p>",
+  "content_html_nl": "<p>Elk besluit dat op grond van de bepalingen van dit hoofdstuk wordt genomen en elk besluit tot weigering of intrekking van een EG-typegoedkeuring, tot weigering van registratie of tot verbod van de verkoop wordt uitvoerig met redenen omkleed. Het besluit wordt ter kennis gebracht van de belanghebbende onder vermelding van de rechtsmiddelen waarover hij beschikt en van de termijnen waarbinnen hij deze kan aanwenden.</p>",
+  "full_text_fr": "Toute décision prise en vertu des dispositions du présent chapitre et toute décision portant refus ou retrait d'une réception CE par type, refus d'une immatriculation ou interdiction de vente est dûment motivée. Une telle décision est notifée à l'intéressé avec indication des voies de recours qui lui sont ouvertes et des délais dans lesquels il peut en faire usage.",
+  "full_text_nl": "Elk besluit dat op grond van de bepalingen van dit hoofdstuk wordt genomen en elk besluit tot weigering of intrekking van een EG-typegoedkeuring, tot weigering van registratie of tot verbod van de verkoop wordt uitvoerig met redenen omkleed. Het besluit wordt ter kennis gebracht van de belanghebbende onder vermelding van de rechtsmiddelen waarover hij beschikt en van de termijnen waarbinnen hij deze kan aanwenden.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "tqqsguvvfz",
+  "anchor_id_nl": "qzrsdpptcn",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:05Z",
+    "content_hash": "a3ae99b5e5d1",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

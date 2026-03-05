@@ -680,7 +680,304 @@
   "anchor_id_fr": "q9a8xnjft5",
   "anchor_id_nl": "caqphna8rl",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la règle concernant l'affichage des noms de destinations étrangères sur les panneaux de direction autoroutiers en Belgique ?",
+      "text_nl": "Wat is de regel betreffende de weergave van namen van buitenlandse bestemmingen op snelwegbewegwijzering in België?",
+      "text_ru": "Каково правило относительно отображения названий иностранных пунктов назначения на указателях автомагистралей в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils sont toujours indiqués en français ou en néerlandais, selon la région où se trouve le panneau.",
+          "text_nl": "Ze worden altijd in het Frans of Nederlands aangegeven, afhankelijk van de regio waar het bord zich bevindt.",
+          "text_ru": "Они всегда указываются на французском или нидерландском языке, в зависимости от региона, где расположен знак.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils sont indiqués dans la langue du pays où se trouve la destination, éventuellement complétés par une traduction locale entre parenthèses si non déjà présente.",
+          "text_nl": "Ze worden vermeld in de taal van het land waar de bestemming zich bevindt, eventueel aangevuld met een lokale vertaling tussen haakjes indien deze er nog niet is.",
+          "text_ru": "Они указываются на языке страны, где находится пункт назначения, возможно, с дополнением местного перевода в скобках, если его еще нет.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils sont uniquement indiqués dans la langue principale de la Belgique.",
+          "text_nl": "Ze worden uitsluitend in de hoofdaal van België aangegeven.",
+          "text_ru": "Они указываются только на основном языке Бельгии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règles de signalisation en Belgique stipulent que les noms des destinations étrangères sur les panneaux autoroutiers doivent être indiqués dans la langue du pays où se trouve la destination. Si ce nom ne figure pas déjà sur la signalisation, il est ajouté après ou en-dessous, dans un autre caractère et entre parenthèses.",
+      "explanation_nl": "De Belgische signalisatieregels bepalen dat de namen van buitenlandse bestemmingen op snelwegborden worden vermeld in de taal van het land waar die bestemming zich bevindt. Indien deze naam niet reeds op de signalisatie voorkomt, wordt hij ernaast of eronder toegevoegd in een ander lettertype en tussen haakjes.",
+      "explanation_ru": "Правила дорожного движения Бельгии предусматривают, что названия иностранных пунктов назначения на указателях автомагистралей должны быть указаны на языке страны назначения. Если это название уже не присутствует, оно добавляется после или под названием на другом шрифте и в скобках для ясности."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est l'exigence spécifique pour les signaux d'indication provisoires relatifs aux travaux de voirie, concernant le nombre de flèches ?",
+      "text_nl": "Wat is de specifieke eis voor tijdelijke aanwijzingsborden bij wegenwerken, betreffende het aantal pijlen?",
+      "text_ru": "Каково специфическое требование к временным указательным знакам дорожных работ относительно количества стрелок?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le nombre de flèches doit être supérieur au nombre réel de bandes de circulation pour anticiper un éventuel embouteillage.",
+          "text_nl": "Het aantal pijlen moet groter zijn dan het werkelijk aantal rijstroken om een mogelijke file te anticiperen.",
+          "text_ru": "Количество стрелок должно быть больше фактического количества полос движения, чтобы предвидеть возможный затор.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le nombre de flèches doit correspondre exactement au nombre réel de bandes de circulation.",
+          "text_nl": "Het aantal pijlen moet exact overeenstemmen met het werkelijk aantal rijstroken.",
+          "text_ru": "Количество стрелок должно точно соответствовать фактическому количеству полос движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le nombre de flèches peut varier, l'important est que la direction indiquée soit claire.",
+          "text_nl": "Het aantal pijlen kan variëren, het belangrijkste is dat de aangegeven richting duidelijk is.",
+          "text_ru": "Количество стрелок может варьироваться, главное — чтобы указанное направление было ясным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux provisoires d'indication pour les travaux de voirie doivent être précis. Le nombre de flèches représentées sur ces signaux doit correspondre au nombre réel de bandes de circulation.",
+      "explanation_nl": "Tijdelijke aanwijzingsborden voor wegenwerken moeten nauwkeurig zijn. Het aantal pijlen op deze borden moet overeenstemmen met het werkelijk aantal rijstroken.",
+      "explanation_ru": "Временные указательные знаки для дорожных работ должны быть точными. Количество стрелок, изображенных на этих знаках, должно соответствовать фактическому количеству полос движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Outre les principaux signaux d'indication, quel autre type de signal peut être utilisé dans des cas particuliers pour donner des indications ?",
+      "text_nl": "Naast de belangrijkste aanwijzingsborden, welk ander type bord mag in bijzondere gevallen gebruikt worden om aanwijzingen te geven?",
+      "text_ru": "Помимо основных указательных знаков, какой еще тип знаков может использоваться в особых случаях для предоставления указаний?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des signaux triangulaires avec un symbole noir sur fond jaune.",
+          "text_nl": "Driehoekige borden met een zwart symbool op een gele achtergrond.",
+          "text_ru": "Треугольные знаки с черным символом на желтом фоне.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des signaux ronds avec un symbole rouge sur fond blanc.",
+          "text_nl": "Ronde borden met een rood symbool op een witte achtergrond.",
+          "text_ru": "Круглые знаки с красным символом на белом фоне.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des signaux rectangulaires avec une inscription ou un symbole en blanc sur fond bleu.",
+          "text_nl": "Rechthoekige borden met een wit opschrift of symbool op een blauwe achtergrond.",
+          "text_ru": "Прямоугольные знаки с белой надписью или символом на синем фоне.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le code de la route prévoit que d'autres signaux d'indication, de forme rectangulaire et portant une inscription ou un symbole en blanc sur fond bleu, peuvent être utilisés dans des cas particuliers.",
+      "explanation_nl": "De wegcode bepaalt dat andere rechthoekige aanwijzingsborden met een wit opschrift of symbool op blauwe achtergrond in bijzondere gevallen gebruikt mogen worden.",
+      "explanation_ru": "Дорожный кодекс предусматривает, что другие прямоугольные указательные знаки с белой надписью или символом на синем фоне могут использоваться в особых случаях."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un cycliste et vous voyez un signal de piste cyclable (F19) combiné à un panneau additionnel M4. Que signifie cette signalisation pour vous ?",
+      "text_nl": "U bent een fietser en ziet een verkeersbord voor een fietspad (F19) gecombineerd met een onderbord M4. Wat betekent deze signalisatie voor u?",
+      "text_ru": "Вы велосипедист и видите знак велосипедной дорожки (F19) в сочетании с дополнительной табличкой M4. Что означает эта сигнализация для вас?",
+      "image": {
+        "sign_code": "F19_M4",
+        "generation_prompt": "Road sign F19 (blue square with white bicycle) with an additional panel M4 (text '2 sens' or 'tweerichtingsverkeer' or similar icon)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez obligatoirement rouler dans le même sens que les véhicules motorisés.",
+          "text_nl": "U moet verplicht in dezelfde richting rijden als gemotoriseerde voertuigen.",
+          "text_ru": "Вы обязаны ехать в том же направлении, что и моторизованные транспортные средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes autorisé à circuler sur cette piste cyclable dans les deux sens.",
+          "text_nl": "U bent toegestaan om op dit fietspad in beide richtingen te rijden.",
+          "text_ru": "Вам разрешено двигаться по этой велосипедной дорожке в обоих направлениях.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La piste cyclable est temporairement fermée à la circulation dans un sens.",
+          "text_nl": "Het fietspad is tijdelijk in één richting afgesloten voor verkeer.",
+          "text_ru": "Велосипедная дорожка временно закрыта для движения в одном направлении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal F19 indique une piste cyclable. L'ajout du panneau M4 au signal F19 signifie que les cyclistes sont autorisés à circuler dans les deux sens sur cette piste.",
+      "explanation_nl": "Het verkeersbord F19 duidt een fietspad aan. De combinatie van het bord F19 met het onderbord M4 betekent dat fietsers in de twee richtingen op dit fietspad mogen rijden.",
+      "explanation_ru": "Знак F19 указывает на велосипедную дорожку. Дополнительная табличка M4, прикрепленная к F19, прямо разрешает велосипедистам использовать эту дорожку в обоих направлениях, даже если она обычно односторонняя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une autoroute belge et apercevez un panneau de direction pour 'Köln (Duitsland)'. Pourquoi le nom du pays 'Duitsland' est-il ajouté entre parenthèses ?",
+      "text_nl": "U rijdt op een Belgische autosnelweg en ziet een bewegwijzering naar 'Köln (Duitsland)'. Waarom is de naam van het land 'Duitsland' tussen haakjes toegevoegd?",
+      "text_ru": "Вы едете по бельгийской автомагистрали и видите указатель на 'Кёльн (Duitsland)'. Почему название страны 'Duitsland' добавлено в скобках?",
+      "image": {
+        "sign_code": "F_Direction_Foreign",
+        "generation_prompt": "Direction sign on a Belgian motorway, blue background, white text, showing 'Köln (Duitsland)'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour indiquer que Köln est une ville allemande très éloignée.",
+          "text_nl": "Om aan te geven dat Keulen een zeer afgelegen Duitse stad is.",
+          "text_ru": "Чтобы указать, что Кёльн — это очень отдаленный немецкий город.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Car le nom de la destination étrangère doit être dans la langue du pays où elle se trouve, et une traduction locale est ajoutée si non déjà présente.",
+          "text_nl": "Omdat de naam van de buitenlandse bestemming in de taal van het land moet zijn waar deze zich bevindt, en een lokale vertaling wordt toegevoegd indien deze er nog niet is.",
+          "text_ru": "Поскольку название иностранного пункта назначения должно быть на языке страны, где он находится, и местный перевод добавляется, если он еще не присутствует.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour prévenir les conducteurs que la ville de Köln est située en dehors de la Belgique.",
+          "text_nl": "Om bestuurders te waarschuwen dat de stad Keulen buiten België ligt.",
+          "text_ru": "Чтобы предупредить водителей о том, что город Кёльн находится за пределами Бельгии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le code de la route belge exige que les noms de destinations étrangères sur les panneaux autoroutiers soient indiqués dans la langue du pays de destination. Si cette désignation n'est pas déjà présente, elle est ajoutée en caractères différents et entre parenthèses, comme c'est le cas pour 'Duitsland' (Allemagne) ici.",
+      "explanation_nl": "De Belgische wegcode vereist dat namen van buitenlandse bestemmingen op autosnelwegborden worden vermeld in de taal van het land van bestemming. Indien deze aanduiding nog niet aanwezig is, wordt ze in een ander lettertype en tussen haakjes toegevoegd, zoals 'Duitsland' hier.",
+      "explanation_ru": "Согласно правилам, названия иностранных пунктов назначения на бельгийских автомагистралях должны быть указаны на языке страны, где находится пункт назначения. Если это название не присутствует в оригинальном виде, оно добавляется после или под названием на другом шрифте и в скобках для ясности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous approchez d'une zone de travaux routiers. Un signal provisoire indique une réduction de voie avec deux flèches fusionnant en une seule, mais vous constatez qu'il y a trois bandes de circulation actives avant le point de fusion. Qu'est-ce qui est incorrect concernant ce signal ?",
+      "text_nl": "U nadert een zone met wegenwerken. Een tijdelijk bord toont een rijstrookvermindering met twee pijlen die in één samenvloeien, maar u merkt dat er drie actieve rijstroken zijn vóór het samenvloeipunt. Wat is er incorrect aan dit tijdelijke bord?",
+      "text_ru": "Вы приближаетесь к зоне дорожных работ. Временный знак указывает на сужение полосы движения с двумя стрелками, сливающимися в одну, но вы видите, что до точки слияния есть три активные полосы движения. Что неверно в этом временном знаке?",
+      "image": {
+        "sign_code": "F_Roadworks_Lanes",
+        "generation_prompt": "A temporary roadworks sign (blue with white arrows) showing two lanes merging into one, while the actual road has three lanes."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le symbole des flèches doit être rouge pour indiquer un danger.",
+          "text_nl": "Het symbool van de pijlen moet rood zijn om gevaar aan te duiden.",
+          "text_ru": "Символ стрелок должен быть красным, чтобы указывать на опасность.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le signal doit comporter un nombre de flèches correspondant au nombre réel de bandes de circulation.",
+          "text_nl": "Het bord moet een aantal pijlen hebben dat overeenstemt met het werkelijk aantal rijstroken.",
+          "text_ru": "Знак должен содержать количество стрелок, соответствующее фактическому количеству полос движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La couleur du fond du signal devrait être jaune pour les travaux.",
+          "text_nl": "De achtergrondkleur van het bord zou geel moeten zijn voor werken.",
+          "text_ru": "Цвет фона знака должен быть желтым для дорожных работ.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux d'indication provisoires pour les travaux doivent refléter la situation réelle. Le nombre de flèches sur le signal doit correspondre au nombre réel de bandes de circulation. Si la route a trois voies et que le signal n'en montre que deux, il est incorrect.",
+      "explanation_nl": "Tijdelijke aanwijzingsborden voor wegenwerken moeten de werkelijke situatie weerspiegelen. Het aantal pijlen op het bord moet overeenstemmen met het werkelijk aantal rijstroken. Als de weg drie rijstroken heeft en het bord er maar twee toont, is het onjuist.",
+      "explanation_ru": "Временные указательные знаки, используемые при дорожных работах, должны соответствовать реальной ситуации на дороге. Количество стрелок на знаке, показывающем сужение полосы, должно точно соответствовать фактическому количеству полос движения до точки слияния. Если на дороге три полосы, а знак показывает только две, он неверен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un speed pedelec. Vous arrivez à un chemin indiqué par un signal de piste cyclable (F19) avec un panneau additionnel M17. Êtes-vous autorisé à utiliser ce chemin dans les deux sens ?",
+      "text_nl": "U rijdt met een speed pedelec. U komt bij een pad dat wordt aangegeven door een verkeersbord voor een fietspad (F19) met een onderbord M17. Mag u dit pad in beide richtingen gebruiken?",
+      "text_ru": "Вы управляете скоростным электровелосипедом (speed pedelec). Вы подъезжаете к дорожке, обозначенной знаком велосипедной дорожки (F19) с дополнительной табличкой M17. Разрешено ли вам использовать эту дорожку в обоих направлениях?",
+      "image": {
+        "sign_code": "F19_M17",
+        "generation_prompt": "Road sign F19 (blue square with white bicycle) with an additional panel M17 (icon of a speed pedelec and '2 sens' or 'tweerichtingsverkeer')."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les speed pedelecs ne sont jamais autorisés à rouler à contresens sur ces chemins.",
+          "text_nl": "Nee, speed pedelecs mogen nooit tegen de rijrichting in op deze paden rijden.",
+          "text_ru": "Нет, скоростным электровелосипедам никогда не разрешается ехать против движения по этим дорожкам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, le panneau M17 spécifie que les conducteurs de speed pedelecs sont autorisés à circuler dans les deux sens.",
+          "text_nl": "Ja, het onderbord M17 specificeert dat bestuurders van speed pedelecs in de twee richtingen mogen rijden.",
+          "text_ru": "Да, табличка M17 указывает, что водителям скоростных электровелосипедов разрешено двигаться в обоих направлениях.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si aucune autre circulation n'est présente.",
+          "text_nl": "Alleen als er geen ander verkeer aanwezig is.",
+          "text_ru": "Только если отсутствует другое движение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque le signal F19 (piste cyclable) est combiné au panneau additionnel M17, cela signifie que les conducteurs de speed pedelecs sont également autorisés à circuler dans les deux sens sur cette piste.",
+      "explanation_nl": "Wanneer het verkeersbord F19 (fietspad) wordt gecombineerd met het onderbord M17, betekent dit dat bestuurders van speed pedelecs eveneens in de twee richtingen op dit pad mogen rijden.",
+      "explanation_ru": "Знак F19 указывает на велосипедную дорожку. Дополнительная табличка M17, прикрепленная к F19, явно разрешает водителям скоростных электровелосипедов (speed pedelecs) использовать эту дорожку в обоих направлениях."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes au volant d'un cyclomoteur à deux roues de classe A. Vous voyez un signal de piste cyclable (F19) complété par un panneau additionnel M5. Êtes-vous autorisé à utiliser cette piste dans les deux sens ?",
+      "text_nl": "U rijdt met een tweewielige bromfiets klasse A. U ziet een verkeersbord voor een fietspad (F19) aangevuld met een onderbord M5. Mag u dit pad in beide richtingen gebruiken?",
+      "text_ru": "Вы управляете двухколесным мопедом класса А. Вы видите знак велосипедной дорожки (F19), дополненный дополнительной табличкой M5. Разрешено ли вам использовать эту дорожку в обоих направлениях?",
+      "image": {
+        "sign_code": "F19_M5",
+        "generation_prompt": "Road sign F19 (blue square with white bicycle) with an additional panel M5 (icon of a moped and '2 sens' or 'tweerichtingsverkeer')."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, mais seulement si vous ne dépassez pas 25 km/h.",
+          "text_nl": "Ja, maar alleen als u niet sneller rijdt dan 25 km/u.",
+          "text_ru": "Да, но только если вы не превышаете 25 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, les cyclomoteurs classe A ne sont jamais autorisés sur les pistes cyclables.",
+          "text_nl": "Nee, bromfietsen klasse A zijn nooit toegestaan op fietspaden.",
+          "text_ru": "Нет, мопеды класса А никогда не разрешаются на велосипедных дорожках.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, le panneau additionnel M5 permet aux cyclomoteurs à deux roues classe A de circuler dans les deux sens sur cette piste.",
+          "text_nl": "Ja, het onderbord M5 staat toe dat tweewielige bromfietsen klasse A in beide richtingen op dit pad rijden.",
+          "text_ru": "Да, дополнительная табличка M5 разрешает двухколесным мопедам класса А двигаться в обоих направлениях по этой дорожке.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsqu'un signal de piste cyclable (F19) est complété par un panneau additionnel M5, cela indique que les conducteurs de cyclomoteurs à deux roues classe A sont également autorisés à circuler dans les deux sens sur cette piste.",
+      "explanation_nl": "Wanneer een verkeersbord voor een fietspad (F19) wordt aangevuld met een onderbord M5, betekent dit dat bestuurders van tweewielige bromfietsen klasse A eveneens in de twee richtingen op dit pad mogen rijden.",
+      "explanation_ru": "Знак F19 указывает на велосипедную дорожку. Дополнительная табличка M5, прикрепленная к F19, явно разрешает водителям двухколесных мопедов класса А использовать эту дорожку в обоих направлениях."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "ab0ae3b352aa",
@@ -690,6 +987,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:45:11Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

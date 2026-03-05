@@ -4,15 +4,88 @@ from django.db.models import Count, Prefetch
 
 from .models import RuleCategory, CodeArticle, TrafficSign, ArticleImage
 
+# Metadata for non-1975 laws used in index grouping
+_LAW_META = {
+    '1968': {
+        'title': 'Loi du 16 mars 1968 — Police de la circulation routière',
+        'short': 'Infractions, peines et déchéance du droit de conduire',
+        'color': 'purple',
+    },
+    '1976': {
+        'title': 'AM du 11 octobre 1976 — Dimensions, masse et signalisation',
+        'short': 'Dimensions, poids des véhicules et prescriptions de signalisation',
+        'color': 'sky',
+    },
+    '1998': {
+        'title': 'AR du 23 mars 1998 — Permis de conduire',
+        'short': 'Catégories, conditions médicales, échange et retrait du permis',
+        'color': 'green',
+    },
+    '2005': {
+        'title': 'AR du 30 septembre 2005 — Infractions par degré',
+        'short': 'Classement des infractions routières en degrés 1 à 4',
+        'color': 'orange',
+    },
+    '2006': {
+        'title': 'AR du 10 juillet 2006 — Permis catégorie B',
+        'short': 'Formation, examen théorique et pratique, conduite accompagnée',
+        'color': 'emerald',
+    },
+    '1968b': {
+        'title': 'AR du 15 mars 1968 — Conditions techniques des véhicules',
+        'short': 'Exigences techniques pour voitures, camions et remorques',
+        'color': 'slate',
+    },
+    '1985': {
+        'title': 'Loi du 21 juin 1985 — Conditions techniques (loi-cadre)',
+        'short': 'Loi-cadre sur les conditions techniques des véhicules de transport',
+        'color': 'slate',
+    },
+    '1989': {
+        'title': 'Loi du 21 novembre 1989 — Assurance RC obligatoire',
+        'short': 'Assurance obligatoire de la responsabilité des véhicules automoteurs',
+        'color': 'amber',
+    },
+    '2001': {
+        'title': 'AR du 20 juillet 2001 — Immatriculation des véhicules',
+        'short': 'Conditions et procédures d\'immatriculation, plaques minéralogiques',
+        'color': 'amber',
+    },
+}
+
 
 def index(request):
     """Page principale réglementation."""
-    categories = RuleCategory.objects.filter(is_active=True).annotate(
-        articles_count=Count('articles')
-    ).order_by('order')
+    # AR 1975 categories for the main grid
+    categories = RuleCategory.objects.filter(
+        is_active=True, law_id='1975'
+    ).annotate(articles_count=Count('articles')).order_by('order')
+
+    # Other laws grouped for the "Textes législatifs" section
+    extra_qs = list(
+        RuleCategory.objects.filter(is_active=True)
+        .exclude(law_id='1975')
+        .annotate(articles_count=Count('articles'))
+        .order_by('law_id', 'order')
+    )
+    laws_grouped = []
+    current_law_id = None
+    for cat in extra_qs:
+        if cat.law_id != current_law_id:
+            current_law_id = cat.law_id
+            meta = _LAW_META.get(cat.law_id, {'title': f'Loi {cat.law_id}', 'short': '', 'color': 'gray'})
+            laws_grouped.append({
+                'law_id': cat.law_id,
+                'title': meta['title'],
+                'short': meta['short'],
+                'color': meta['color'],
+                'categories': [],
+            })
+        laws_grouped[-1]['categories'].append(cat)
 
     context = {
         'categories': categories,
+        'laws_grouped': laws_grouped,
     }
     return render(request, 'reglementation/index.html', context)
 
@@ -32,10 +105,10 @@ def category_detail(request, slug):
     page = request.GET.get('page')
     articles_page = paginator.get_page(page)
 
-    # All categories for sidebar navigation
-    all_categories = RuleCategory.objects.filter(is_active=True).annotate(
-        articles_count=Count('articles')
-    ).order_by('order')
+    # Sidebar: categories from the same law only
+    all_categories = RuleCategory.objects.filter(
+        is_active=True, law_id=category.law_id
+    ).annotate(articles_count=Count('articles')).order_by('order')
 
     context = {
         'category': category,

@@ -138,7 +138,304 @@
   "anchor_id_fr": "uubflmlajy",
   "anchor_id_nl": "biapbuysfn",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie principalement une ligne continue blanche tracée sur la chaussée ?",
+      "text_nl": "Wat betekent voornamelijk een doorlopende witte streep op de rijbaan?",
+      "text_ru": "Что в основном означает сплошная белая линия, нанесенная на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road with a single continuous white line separating lanes."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle indique une zone de stationnement autorisé.",
+          "text_nl": "Het geeft een zone aan waar parkeren toegelaten is.",
+          "text_ru": "Она обозначает зону разрешенной парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est interdit à tout conducteur de la franchir.",
+          "text_nl": "Het is iedere bestuurder verboden deze te overschrijden.",
+          "text_ru": "Любому водителю запрещено ее пересекать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle délimite une voie réservée aux véhicules lents.",
+          "text_nl": "Het bakent een rijstrook af die voorbehouden is aan trage voertuigen.",
+          "text_ru": "Она обозначает полосу, предназначенную для тихоходных транспортных средств.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne continue signifie qu'il est interdit à tout conducteur de la franchir. De plus, il est interdit de circuler à gauche d'une ligne continue lorsqu'elle sépare les deux sens de circulation.",
+      "explanation_nl": "Een doorlopende streep betekent dat het iedere bestuurder verboden is deze te overschrijden. Bovendien is het verboden links van een doorlopende streep te rijden wanneer deze de twee rijrichtingen scheidt.",
+      "explanation_ru": "Сплошная линия означает, что любому водителю запрещено ее пересекать. Кроме того, запрещено движение слева от сплошной линии, когда она разделяет два направления движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles situations est-il permis de franchir une ligne discontinue blanche ?",
+      "text_nl": "In welke situaties is het toegestaan om een onderbroken witte streep te overschrijden?",
+      "text_ru": "В каких ситуациях разрешено пересекать прерывистую белую линию?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road with a typical discontinuous white line separating lanes."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement pour dépasser un autre véhicule.",
+          "text_nl": "Alleen om een ander voertuig in te halen.",
+          "text_ru": "Только для обгона другого транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour dépasser, tourner à gauche, faire un demi-tour ou changer de bande de circulation.",
+          "text_nl": "Om in te halen, om links af te slaan, om te keren of om van rijstrook te veranderen.",
+          "text_ru": "Для обгона, поворота налево, разворота или смены полосы движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "En aucun cas, car une ligne discontinue est toujours une marque d'interdiction de franchissement.",
+          "text_nl": "In geen geval, want een onderbroken streep is altijd een verbodsteken om te overschrijden.",
+          "text_ru": "Ни в коем случае, так как прерывистая линия всегда является знаком запрета пересечения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne discontinue signifie qu'il est interdit de la franchir, sauf pour dépasser, pour tourner à gauche, pour effectuer un demi-tour ou pour changer de bande.",
+      "explanation_nl": "Een onderbroken streep betekent dat het verboden is deze te overschrijden, behalve om in te halen, om links af te slaan, om te keren of om van rijstrook te veranderen.",
+      "explanation_ru": "Прерывистая линия означает, что ее пересекать запрещено, за исключением случаев обгона, поворота налево, разворота или смены полосы движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la principale différence dans les marquages au sol qui délimitent une 'bande bus' et un 'site spécial franchissable'?",
+      "text_nl": "Wat is het belangrijkste verschil in de grondmarkeringen die een 'busstrook' en een 'overrijdbare bijzondere bedding' afbakenen?",
+      "text_ru": "В чем основное различие в дорожной разметке, которая разграничивает 'полосу для автобусов' и 'проезжую выделенную полосу'?",
+      "image": {
+        "sign_code": "F17",
+        "generation_prompt": "Road signs F17 and F18 side by side, with examples of their respective road markings below them (discontinuous for bus lane, continuous for special site)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La bande bus est délimitée par une ou deux lignes continues, tandis que le site spécial franchissable est délimité par une ou deux lignes discontinues.",
+          "text_nl": "De busstrook wordt afgebakend door één of twee doorlopende strepen, terwijl de overrijdbare bijzondere bedding wordt afgebakend door één of twee onderbroken strepen.",
+          "text_ru": "Полоса для автобусов обозначается одной или двумя сплошными линиями, в то время как проезжая выделенная полоса обозначается одной или двумя прерывистыми линиями.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La bande bus est délimitée par une ou deux lignes discontinues ou des marques en damier, tandis que le site spécial franchissable est délimité par une ou deux larges lignes continues ou des marques en damier.",
+          "text_nl": "De busstrook wordt afgebakend door één of twee onderbroken strepen of dambordmarkeringen, terwijl de overrijdbare bijzondere bedding wordt afgebakend door één of twee brede doorlopende strepen of dambordmarkeringen.",
+          "text_ru": "Полоса для автобусов обозначается одной или двумя прерывистыми линиями или шахматной разметкой, в то время как проезжая выделенная полоса обозначается одной или двумя широкими сплошными линиями или шахматной разметкой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les deux types de bandes sont toujours délimités par des lignes continues, mais la couleur diffère.",
+          "text_nl": "Beide soorten stroken worden altijd afgebakend door doorlopende strepen, maar de kleur verschilt.",
+          "text_ru": "Оба типа полос всегда обозначаются сплошными линиями, но цвет различается.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La bande bus est délimitée par le signal F17 et une ou deux larges lignes blanches discontinues ou des marques en damier. Le site spécial franchissable est délimité par le signal F18 et une ou deux larges lignes blanches continues ou des marques en damier.",
+      "explanation_nl": "De busstrook wordt afgebakend door het verkeersbord F17 en één of twee brede witte onderbroken strepen of dambordmarkeringen. De overrijdbare bijzondere bedding wordt afgebakend door het verkeersbord F18 en één of twee brede witte doorlopende strepen of dambordmarkeringen.",
+      "explanation_ru": "Полоса для автобусов обозначается знаком F17 и одной или двумя широкими белыми прерывистыми линиями или шахматной разметкой. Проезжая выделенная полоса обозначается знаком F18 и одной или двумя широкими белыми сплошными линиями или шахматной разметкой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route bidirectionnelle où une ligne continue se trouve de votre côté et une ligne discontinue du côté des véhicules venant en sens inverse. Vous souhaitez dépasser un véhicule lent qui roule devant vous. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een tweerichtingsweg waar een doorlopende streep aan uw kant ligt en een onderbroken streep aan de kant van het tegemoetkomende verkeer. U wilt een traag rijdend voertuig voor u inhalen. Wat moet u doen?",
+      "text_ru": "Вы движетесь по двухполосной дороге, где с вашей стороны находится сплошная линия, а со стороны встречного движения — прерывистая. Вы хотите обогнать медленно движущееся транспортное средство перед вами. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road with juxtaposed lines. On the driver's side, a continuous line. On the opposite side, a discontinuous line. A slow car is in front of the driver."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez franchir les lignes pour dépasser, car la ligne discontinue du côté opposé autorise le dépassement.",
+          "text_nl": "U mag de strepen overschrijden om in te halen, omdat de onderbroken streep aan de overzijde inhalen toelaat.",
+          "text_ru": "Вы можете пересечь линии для обгона, так как прерывистая линия на противоположной стороне разрешает обгон.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez tenir compte de la ligne de votre côté, il est donc interdit de franchir la ligne continue pour dépasser.",
+          "text_nl": "U moet rekening houden met de streep aan uw kant, dus het is verboden de doorlopende streep te overschrijden om in te halen.",
+          "text_ru": "Вы должны учитывать линию с вашей стороны, поэтому пересекать сплошную линию для обгона запрещено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez dépasser si la visibilité est bonne, car les deux lignes permettent une certaine flexibilité.",
+          "text_nl": "U mag inhalen als het zicht goed is, want de twee strepen laten een zekere flexibiliteit toe.",
+          "text_ru": "Вы можете обгонять, если видимость хорошая, так как обе линии допускают некоторую гибкость.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'une ligne continue et une ligne discontinue sont juxtaposées, le conducteur ne doit tenir compte que de la ligne qui se trouve de son côté. Dans ce cas, il est interdit de franchir la ligne continue.",
+      "explanation_nl": "Wanneer een doorlopende en een onderbroken streep naast elkaar getrokken zijn, moet de bestuurder alleen rekening houden met de streep die zich aan zijn kant bevindt. In dit geval is het verboden de doorlopende streep te overschrijden.",
+      "explanation_ru": "Когда сплошная и прерывистая линии расположены рядом, водитель должен учитывать только ту линию, которая находится с его стороны. В данном случае пересекать сплошную линию запрещено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous roulez sur une chaussée et vous observez que les traits de la ligne discontinue séparant les bandes de circulation deviennent plus courts et plus rapprochés. Quelle est la signification de ce changement ?",
+      "text_nl": "U rijdt op een rijbaan en u merkt dat de trekken van de onderbroken streep die de rijstroken scheidt, korter en dichter bij elkaar worden. Wat betekent deze verandering?",
+      "text_ru": "Вы движетесь по проезжей части и замечаете, что штрихи прерывистой линии, разделяющей полосы движения, становятся короче и расположены ближе друг к другу. Что означает это изменение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road with a discontinuous white line where the dashes gradually become shorter and closer, indicating an approaching continuous line."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La vitesse maximale autorisée va augmenter.",
+          "text_nl": "De maximaal toegelaten snelheid zal toenemen.",
+          "text_ru": "Максимально разрешенная скорость увеличится.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous approchez d'une ligne continue.",
+          "text_nl": "U nadert een doorlopende streep.",
+          "text_ru": "Вы приближаетесь к сплошной линии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous entrez dans une zone où le dépassement est fortement encouragé.",
+          "text_nl": "U komt in een zone waar inhalen sterk wordt aangemoedigd.",
+          "text_ru": "Вы въезжаете в зону, где обгон настоятельно рекомендуется.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque les traits de la ligne discontinue sont plus courts et plus rapprochés les uns des autres, ils annoncent l'approche d'une ligne continue.",
+      "explanation_nl": "Wanneer de trekken van de onderbroken streep korter zijn en dichter bij elkaar getrokken, kondigen zij het naderen van een doorlopende streep aan.",
+      "explanation_ru": "Когда штрихи прерывистой линии становятся короче и расположены ближе друг к другу, это сигнализирует о приближении сплошной линии."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous circulez dans votre voiture privée et vous approchez d'un carrefour. À votre droite, il y a une bande bus délimitée par le signal F17 et des lignes discontinues. Vous devez tourner à gauche à ce carrefour. Est-il permis d'entrer sur la bande bus pour préparer votre virage à gauche ?",
+      "text_nl": "U rijdt in uw privéwagen en u nadert een kruispunt. Rechts van u is er een busstrook afgebakend met het verkeersbord F17 en onderbroken strepen. U moet op dit kruispunt links afslaan. Is het toegestaan om de busstrook op te rijden om uw linkse afslag voor te bereiden?",
+      "text_ru": "Вы едете на личном автомобиле и приближаетесь к перекрестку. Справа от вас находится полоса для автобусов, обозначенная знаком F17 и прерывистыми линиями. Вам нужно повернуть налево на этом перекрестке. Разрешено ли въезжать на полосу для автобусов, чтобы подготовиться к повороту налево?",
+      "image": {
+        "sign_code": "F17",
+        "generation_prompt": "A car approaching an intersection. To the right, a bus lane marked with sign F17 and discontinuous lines. The driver intends to turn left."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, il est strictement interdit aux véhicules autres que ceux autorisés de circuler sur une bande bus, même pour changer de direction.",
+          "text_nl": "Nee, het is voor andere dan toegelaten voertuigen strikt verboden op een busstrook te rijden, zelfs om van richting te veranderen.",
+          "text_ru": "Нет, строго запрещено другим транспортным средствам, кроме разрешенных, двигаться по полосе для автобусов, даже для смены направления.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, les autres véhicules peuvent circuler sur la bande bus pour changer de direction à l'approche immédiate d'un carrefour.",
+          "text_nl": "Ja, andere voertuigen mogen op de busstrook rijden om van richting te veranderen bij het onmiddellijk naderen van een kruispunt.",
+          "text_ru": "Да, другие транспортные средства могут двигаться по полосе для автобусов, чтобы изменить направление при непосредственном приближении к перекрестку.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si la bande bus est vide et que cela ne gêne pas les services de transport en commun.",
+          "text_nl": "Ja, maar alleen als de busstrook leeg is en het de openbare vervoersdiensten niet hindert.",
+          "text_ru": "Да, но только если полоса для автобусов свободна и это не мешает движению общественного транспорта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les autres véhicules peuvent circuler sur la bande bus pour changer de direction à l'approche immédiate d'un carrefour.",
+      "explanation_nl": "Andere voertuigen mogen op de busstrook rijden om van richting te veranderen bij het onmiddellijk naderen van een kruispunt.",
+      "explanation_ru": "Другие транспортные средства могут двигаться по полосе для автобусов, чтобы изменить направление при непосредственном приближении к перекрестку."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route à deux sens de circulation. Une ligne continue blanche sépare votre sens de circulation de celui venant d'en face. Un véhicule est en panne devant vous dans votre bande. Est-il permis de rouler avec la ligne continue à votre gauche pour contourner l'obstacle ?",
+      "text_nl": "U rijdt op een tweerichtingsweg. Een doorlopende witte streep scheidt uw rijrichting van het tegemoetkomende verkeer. Een voertuig staat stil voor u in uw rijstrook. Is het toegestaan om met de doorlopende streep aan uw linkerkant te rijden om het obstakel te omzeilen?",
+      "text_ru": "Вы движетесь по двухполосной дороге. Сплошная белая линия разделяет ваше направление движения от встречного. Впереди вас в вашей полосе стоит сломанный автомобиль. Разрешено ли двигаться со сплошной линией слева от вас, чтобы объехать препятствие?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A two-way road with a continuous white line separating directions. A broken down car is in the driver's lane, forcing them to potentially cross the line to bypass it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, il est toujours interdit de franchir une ligne continue, même en présence d'un obstacle.",
+          "text_nl": "Nee, het is altijd verboden een doorlopende streep te overschrijden, zelfs bij een obstakel.",
+          "text_ru": "Нет, всегда запрещено пересекать сплошную линию, даже при наличии препятствия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, si le dépassement de l'obstacle est la seule option et que la manœuvre peut être effectuée en toute sécurité.",
+          "text_nl": "Ja, als het voorbijgaan van het obstakel de enige optie is en de manoeuvre veilig kan worden uitgevoerd.",
+          "text_ru": "Да, если объезд препятствия является единственным вариантом и маневр может быть выполнен безопасно.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, car il est interdit de circuler à gauche d'une ligne continue lorsque celle-ci sépare les deux sens de circulation.",
+          "text_nl": "Nee, want het is verboden links van een doorlopende streep te rijden wanneer deze de twee rijrichtingen scheidt.",
+          "text_ru": "Нет, так как запрещено движение слева от сплошной линии, когда она разделяет два направления движения.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Il est interdit de circuler à gauche d'une ligne continue lorsque celle-ci sépare les deux sens de circulation. Le franchissement d'une ligne continue est une infraction, même pour contourner un obstacle sur une route à double sens où la ligne continue sépare les voies. Vous devez attendre ou trouver une alternative sans franchir la ligne.",
+      "explanation_nl": "Het is verboden links van een doorlopende streep te rijden wanneer deze de twee rijrichtingen scheidt. Het overschrijden van een doorlopende streep is een overtreding, zelfs om een obstakel te omzeilen op een tweerichtingsweg waar de doorlopende streep de rijrichtingen scheidt. U moet wachten of een alternatief zoeken zonder de streep te overschrijden.",
+      "explanation_ru": "Запрещено движение слева от сплошной линии, когда она разделяет два направления движения. Пересечение сплошной линии является нарушением, даже для объезда препятствия на двухполосной дороге, где сплошная линия разделяет полосы. Вы должны подождать или найти альтернативу, не пересекая линию."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez votre véhicule privé et vous rencontrez un 'site spécial franchissable' délimité par le signal F18 et des lignes continues. Vous devez accéder à un garage privé situé le long de ce site. Est-ce autorisé ?",
+      "text_nl": "U rijdt met uw privévoertuig en u komt een 'overrijdbare bijzondere bedding' tegen, afgebakend door het verkeersbord F18 en doorlopende strepen. U moet een privégarage bereiken die langs deze bedding ligt. Is dit toegestaan?",
+      "text_ru": "Вы управляете своим личным автомобилем и встречаете 'проезжую выделенную полосу', обозначенную знаком F18 и сплошными линиями. Вам нужно попасть в частный гараж, расположенный вдоль этой полосы. Разрешено ли это?",
+      "image": {
+        "sign_code": "F18",
+        "generation_prompt": "A car approaching a 'passable special site' marked with sign F18 and continuous lines. A private driveway entrance is visible along the site."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, un site spécial franchissable est réservé aux transports en commun et il est interdit de le traverser pour un accès privé.",
+          "text_nl": "Nee, een overrijdbare bijzondere bedding is voorbehouden aan het openbaar vervoer en het is verboden deze over te steken voor privétoegang.",
+          "text_ru": "Нет, проезжая выделенная полоса предназначена для общественного транспорта, и ее пересечение для доступа к частной собственности запрещено.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, les autres véhicules peuvent traverser le site spécial franchissable pour accéder ou quitter une propriété riveraine ou un emplacement de stationnement.",
+          "text_nl": "Ja, andere voertuigen mogen de overrijdbare bijzondere bedding oversteken om een aanpalende eigendom of een parkeerplaats langs de bedding te bereiken of te verlaten.",
+          "text_ru": "Да, другие транспортные средства могут пересекать проезжую выделенную полосу для доступа или выезда из прилегающей собственности или парковочного места.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si la traversée est effectuée en marche arrière et que cela ne gêne pas la circulation des véhicules autorisés.",
+          "text_nl": "Ja, als het oversteken achteruit gebeurt en het de doorstroming van toegelaten voertuigen niet hindert.",
+          "text_ru": "Да, если пересечение осуществляется задним ходом и это не мешает движению разрешенных транспортных средств.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les autres véhicules peuvent traverser le site spécial franchissable pour accéder ou quitter une propriété riveraine ou un emplacement de stationnement situé le long du site.",
+      "explanation_nl": "Andere voertuigen mogen het overrijdbare bijzondere bedding oversteken om toegang te krijgen tot of te vertrekken van een aanpalende eigendom of een parkeerplaats die langs de bedding gelegen is.",
+      "explanation_ru": "Другие транспортные средства могут пересекать проезжую выделенную полосу для доступа или выезда из прилегающей собственности или парковочного места, расположенного вдоль полосы."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "117442790cbd",
@@ -148,6 +445,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:45:58Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

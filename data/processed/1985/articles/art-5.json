@@ -1,0 +1,41 @@
+{
+  "law_id": "1985",
+  "article_number": "5",
+  "slug": "art-5",
+  "structure": {
+    "titre": null,
+    "chapitre": null
+  },
+  "title_fr": "Article 5",
+  "title_nl": "Artikel 5",
+  "title_ru": "",
+  "content_md_fr": "L'action publique résultant d'une infraction à la présente loi et aux arrêtés qui ont pour objet les conditions techniques relatives aux véhicules de transport par terre, à leurs éléments et aux accessoires de sécurité est prescrite après cinq ans révolus à compter du jour où l'infraction a été commise.",
+  "content_md_nl": "De publieke vordering ingevolge een overtreding van deze wet en van de besluiten die betrekking hebben op de technische eisen betreffende de voertuigen voor vervoer te land, hun onderdelen en hun veiligheidstoebehoren verjaart na vijf volle jaren, te rekenen van de dag waarop de overtreding plaatshad.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'action publique résultant d'une infraction à la présente loi et aux arrêtés qui ont pour objet les conditions techniques relatives aux véhicules de transport par terre, à leurs éléments et aux accessoires de sécurité est prescrite après cinq ans révolus à compter du jour où l'infraction a été commise.</p>",
+  "content_html_nl": "<p>De publieke vordering ingevolge een overtreding van deze wet en van de besluiten die betrekking hebben op de technische eisen betreffende de voertuigen voor vervoer te land, hun onderdelen en hun veiligheidstoebehoren verjaart na vijf volle jaren, te rekenen van de dag waarop de overtreding plaatshad.</p>",
+  "full_text_fr": "L'action publique résultant d'une infraction à la présente loi et aux arrêtés qui ont pour objet les conditions techniques relatives aux véhicules de transport par terre, à leurs éléments et aux accessoires de sécurité est prescrite après cinq ans révolus à compter du jour où l'infraction a été commise.",
+  "full_text_nl": "De publieke vordering ingevolge een overtreding van deze wet en van de besluiten die betrekking hebben op de technische eisen betreffende de voertuigen voor vervoer te land, hun onderdelen en hun veiligheidstoebehoren verjaart na vijf volle jaren, te rekenen van de dag waarop de overtreding plaatshad.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "heovq4lnra",
+  "anchor_id_nl": "xooqawmyep",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:59:33Z",
+    "content_hash": "730036547f31",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

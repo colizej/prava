@@ -26,7 +26,119 @@
   "anchor_id_fr": "6tqvq8dlbo",
   "anchor_id_nl": "flkbuole4x",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que la « police de la circulation routière » dans le contexte de cet article ?",
+      "text_nl": "Wat is \"het wegverkeer\" in de context van dit artikel?",
+      "text_ru": "Что означает «дорожная полиция» в контексте данной статьи?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'ensemble des règles et mesures prises pour organiser et contrôler le trafic sur les routes.",
+          "text_nl": "Het geheel van regels en maatregelen om het verkeer op de wegen te organiseren en te controleren.",
+          "text_ru": "Совокупность правил и мер, принимаемых для организации и контроля дорожного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les agents de police qui dirigent la circulation à un carrefour.",
+          "text_nl": "De politieagenten die het verkeer op een kruispunt regelen.",
+          "text_ru": "Полицейские, регулирующие движение на перекрестке.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La signalisation routière temporaire mise en place lors de travaux.",
+          "text_nl": "De tijdelijke verkeerssignalisatie die bij werken wordt geplaatst.",
+          "text_ru": "Временные дорожные знаки, устанавливаемые во время проведения работ.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La « police de la circulation routière » désigne l'ensemble des règles et des actions visant à organiser et réguler la circulation sur les routes.",
+      "explanation_nl": "Het \"wegverkeer\" verwijst naar het geheel van regels en acties die gericht zijn op het organiseren en regelen van het verkeer op de wegen.",
+      "explanation_ru": "«Дорожная полиция» относится к совокупности правил и действий, направленных на организацию и регулирование дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie la formulation « s'applique à des situations permanentes ou périodiques » ?",
+      "text_nl": "Wat betekent de formulering \"betrekking heeft op blijvende of periodieke toestanden\"?",
+      "text_ru": "Что означает формулировка «относится к постоянным или периодическим ситуациям»?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que les règles s'appliquent uniquement pendant les heures de pointe ou les jours fériés.",
+          "text_nl": "Dat de regels alleen gelden tijdens de spitsuren of op feestdagen.",
+          "text_ru": "Что правила применяются только в часы пик или в праздничные дни.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Que les règles concernent des arrangements qui sont valables de manière continue ou qui se reproduisent régulièrement (par exemple, des zones piétonnes permanentes ou des marchés hebdomadaires).",
+          "text_nl": "Dat de regels betrekking hebben op regelingen die permanent geldig zijn of zich regelmatig herhalen (bv. permanente voetgangerszones of wekelijkse markten).",
+          "text_ru": "Что правила касаются соглашений, которые действуют постоянно или регулярно повторяются (например, постоянные пешеходные зоны или еженедельные рынки).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que la police ne peut intervenir qu'en cas d'accidents graves ou de catastrophes naturelles.",
+          "text_nl": "Dat de politie enkel kan ingrijpen bij zware ongevallen of natuurrampen.",
+          "text_ru": "Что полиция может вмешиваться только в случае серьезных аварий или стихийных бедствий.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La notion de situations « permanentes ou périodiques » se réfère à des règles de circulation qui s'appliquent de façon continue (par exemple, une limitation de vitesse permanente) ou qui reviennent régulièrement (par exemple, une interdiction de stationner tous les mercredis pour un marché).",
+      "explanation_nl": "Het begrip \"blijvende of periodieke toestanden\" verwijst naar verkeersregels die continu van toepassing zijn (bv. een permanente snelheidsbeperking) of die regelmatig terugkeren (bv. een parkeerverbod elke woensdag voor een markt).",
+      "explanation_ru": "Понятие «постоянные или периодические ситуации» относится к правилам дорожного движения, которые применяются постоянно (например, постоянное ограничение скорости) или регулярно повторяются (например, запрет парковки каждую среду для проведения рынка)."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Si la police de la circulation routière est « soustraite aux dispositions de la nouvelle loi communale », qu'est-ce que cela signifie concrètement pour la gestion de la circulation ?",
+      "text_nl": "Als het wegverkeer \"niet onder de bepalingen van de nieuwe gemeentewet valt\", wat betekent dit dan concreet voor het verkeersbeheer?",
+      "text_ru": "Если дорожная полиция «изъята из положений нового муниципального закона», что это конкретно означает для управления дорожным движением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les communes ont plus de pouvoir pour décider des règles de circulation locales.",
+          "text_nl": "De gemeenten hebben meer bevoegdheid om te beslissen over lokale verkeersregels.",
+          "text_ru": "Муниципалитеты имеют больше полномочий для принятия решений о местных правилах дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La gestion de ces aspects de la circulation n'est pas régie par les règles générales concernant les compétences des communes, mais par des lois spécifiques au trafic.",
+          "text_nl": "Het beheer van deze aspecten van het verkeer wordt niet geregeld door de algemene regels betreffende de bevoegdheden van de gemeenten, maar door specifieke verkeerswetten.",
+          "text_ru": "Управление этими аспектами дорожного движения регулируется не общими правилами, касающимися компетенций муниципалитетов, а специальными законами о дорожном движении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seul le gouvernement fédéral peut prendre des décisions concernant la circulation routière.",
+          "text_nl": "Enkel de federale overheid kan beslissingen nemen over het wegverkeer.",
+          "text_ru": "Только федеральное правительство может принимать решения, касающиеся дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Être « soustrait aux dispositions de la nouvelle loi communale » signifie que les règles relatives à la circulation pour des situations permanentes ou périodiques ne relèvent pas du cadre général de la loi communale, mais de dispositions légales spécifiques au code de la route.",
+      "explanation_nl": "Het feit dat het \"niet onder de bepalingen van de nieuwe gemeentewet valt\", betekent dat de verkeersregels voor blijvende of periodieke toestanden niet onder het algemene kader van de gemeentewet vallen, maar onder specifieke wettelijke bepalingen van de wegcode.",
+      "explanation_ru": "Быть «изъятым из положений нового муниципального закона» означает, что правила дорожного движения для постоянных или периодических ситуаций не подпадают под общий свод муниципального закона, а регулируются специальными правовыми положениями дорожного кодекса."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "9e3f06ba1cd4",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-05T09:46:40Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 3
   }
 }

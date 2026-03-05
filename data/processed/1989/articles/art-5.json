@@ -1,0 +1,41 @@
+{
+  "law_id": "1989",
+  "article_number": "5",
+  "slug": "art-5",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 5",
+  "title_nl": "Artikel 5",
+  "title_ru": "",
+  "content_md_fr": "Sans préjudice de l'application du Chapitre III, l'Etat qui, pour des raisons de solidarité, a indemnisé la personne lésée en tout ou en partie avant que l'assureur procède au paiement volontaire ou forcée, est subrogé à concurrence du montant de cette indemnisation, dans les droits et actions de la personne lésée contre l'assureur.\n\nSi par le fait de la personne lésée, la subrogation ne peut plus produire ses effets en faveur de l'Etat, l'Etat peut réclamer à la personne lésée la restitution de l'indemnité versée dans la mesure du préjudice subi.\n\nLa subrogation ne peut nuire à la personne lésée qui n'aurait été indemnisée qu'en partie. Dans ce cas, elle peut exercer ses droits, pour ce qui lui reste dû, de préférence à l'Etat.",
+  "content_md_nl": "Onverminderd de toepassing van Hoofdstuk III, treedt de Staat die om solidariteitsredenen de benadeelde geheel of gedeeltelijk schadeloos heeft gesteld alvorens de verzekeraar tot vrijwillige of gedwongen betaling overgaat, ten belope van het bedrag van die schadeloosstelling in de rechten en de rechtsvorderingen van de benadeelde tegen de verzekeraar.\n\nIndien door toedoen van de benadeelde de indeplaatsstelling geen gevolg kan hebben ten voordele van de Staat, kan de Staat van de benadeelde de terugbetaling vorderen van de betaalde schadevergoeding in de mate van het geleden nadeel.\n\nDe indeplaatsstelling mag de benadeelde, die slechts gedeeltelijk vergoed is, niet benadelen. In dat geval kan hij zijn rechten uitoefenen, voor hetgeen hem nog verschuldigd is, bij voorrang boven de Staat.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Sans préjudice de l'application du Chapitre III, l'Etat qui, pour des raisons de solidarité, a indemnisé la personne lésée en tout ou en partie avant que l'assureur procède au paiement volontaire ou forcée, est subrogé à concurrence du montant de cette indemnisation, dans les droits et actions de la personne lésée contre l'assureur.</p><p>Si par le fait de la personne lésée, la subrogation ne peut plus produire ses effets en faveur de l'Etat, l'Etat peut réclamer à la personne lésée la restitution de l'indemnité versée dans la mesure du préjudice subi.</p><p>La subrogation ne peut nuire à la personne lésée qui n'aurait été indemnisée qu'en partie. Dans ce cas, elle peut exercer ses droits, pour ce qui lui reste dû, de préférence à l'Etat.</p>",
+  "content_html_nl": "<p>Onverminderd de toepassing van Hoofdstuk III, treedt de Staat die om solidariteitsredenen de benadeelde geheel of gedeeltelijk schadeloos heeft gesteld alvorens de verzekeraar tot vrijwillige of gedwongen betaling overgaat, ten belope van het bedrag van die schadeloosstelling in de rechten en de rechtsvorderingen van de benadeelde tegen de verzekeraar.</p><p>Indien door toedoen van de benadeelde de indeplaatsstelling geen gevolg kan hebben ten voordele van de Staat, kan de Staat van de benadeelde de terugbetaling vorderen van de betaalde schadevergoeding in de mate van het geleden nadeel.</p><p>De indeplaatsstelling mag de benadeelde, die slechts gedeeltelijk vergoed is, niet benadelen. In dat geval kan hij zijn rechten uitoefenen, voor hetgeen hem nog verschuldigd is, bij voorrang boven de Staat.</p>",
+  "full_text_fr": "Sans préjudice de l'application du Chapitre III, l'Etat qui, pour des raisons de solidarité, a indemnisé la personne lésée en tout ou en partie avant que l'assureur procède au paiement volontaire ou forcée, est subrogé à concurrence du montant de cette indemnisation, dans les droits et actions de la personne lésée contre l'assureur.\n\nSi par le fait de la personne lésée, la subrogation ne peut plus produire ses effets en faveur de l'Etat, l'Etat peut réclamer à la personne lésée la restitution de l'indemnité versée dans la mesure du préjudice subi.\n\nLa subrogation ne peut nuire à la personne lésée qui n'aurait été indemnisée qu'en partie. Dans ce cas, elle peut exercer ses droits, pour ce qui lui reste dû, de préférence à l'Etat.",
+  "full_text_nl": "Onverminderd de toepassing van Hoofdstuk III, treedt de Staat die om solidariteitsredenen de benadeelde geheel of gedeeltelijk schadeloos heeft gesteld alvorens de verzekeraar tot vrijwillige of gedwongen betaling overgaat, ten belope van het bedrag van die schadeloosstelling in de rechten en de rechtsvorderingen van de benadeelde tegen de verzekeraar.\n\nIndien door toedoen van de benadeelde de indeplaatsstelling geen gevolg kan hebben ten voordele van de Staat, kan de Staat van de benadeelde de terugbetaling vorderen van de betaalde schadevergoeding in de mate van het geleden nadeel.\n\nDe indeplaatsstelling mag de benadeelde, die slechts gedeeltelijk vergoed is, niet benadelen. In dat geval kan hij zijn rechten uitoefenen, voor hetgeen hem nog verschuldigd is, bij voorrang boven de Staat.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "cwe6vnwyh3",
+  "anchor_id_nl": "vk69lnamtq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "60b23e39d094",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

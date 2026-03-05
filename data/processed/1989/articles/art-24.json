@@ -1,0 +1,43 @@
+{
+  "law_id": "1989",
+  "article_number": "24",
+  "slug": "art-24",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 24",
+  "title_nl": "Artikel 24",
+  "title_ru": "",
+  "content_md_fr": "Dans les cas prévus à l['article 22](#art22) les tribunaux peuvent, en outre:\n\n**1°** prononcer la déchéance du droit de conduire un véhicule automoteur, soit à titre définitif, soit pour une durée de huit jours au moins et de cinq ans au plus.\n\nLes dispositions relatives à la déchéance du droit de conduire contenues dans la législation sur la police de la circulation routière sont applicables à la déchéance du droit de conduire prévue à l'alinéa 1er;\n\n**2°** sans préjudice des droits de personnes lésées et du légitime propriétaire, ordonner la confiscation du véhicule. Il peut être procédé à la confiscation si le propriétaire est demeuré inconnu.",
+  "content_md_nl": "Bovendien kunnen de rechtbanken, in de gevallen bedoeld in [artikel 22](#art22) :\n\n**1°** voorgoed of voor een duur van ten minste acht dagen en van ten hoogste vijf jaar de vervallenverklaring uitspreken van het recht om een motorrijtuig te besturen.\n\nDe bepalingen betreffende de vervallenverklaring van het recht tot sturen, vervat in de wetgeving op de politie van het wegverkeer, zijn van toepassing op de in het eerste lid bedoelde vervallenverklaring van het recht tot sturen;\n\n**2°** onverminderd de rechten van de benadeelden en van de rechtmatige eigenaar, de verbeurdverklaring van het voertuig bevelen. Er kan worden overgegaan tot de verbeurdverklaring indien de eigenaar onbekend blijft.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Dans les cas prévus à l<a href=\"#art22\">'article 22</a> les tribunaux peuvent, en outre:</p><p style=\"padding-left: 30px;\"><strong>1°</strong> prononcer la déchéance du droit de conduire un véhicule automoteur, soit à titre définitif, soit pour une durée de huit jours au moins et de cinq ans au plus.</p><p style=\"padding-left: 30px;\">Les dispositions relatives à la déchéance du droit de conduire contenues dans la législation sur la police de la circulation routière sont applicables à la déchéance du droit de conduire prévue à l'alinéa 1<sup>er</sup>;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> sans préjudice des droits de personnes lésées et du légitime propriétaire, ordonner la confiscation du véhicule. Il peut être procédé à la confiscation si le propriétaire est demeuré inconnu.</p>",
+  "content_html_nl": "<p>Bovendien kunnen de rechtbanken, in de gevallen bedoeld in <a href=\"#art22\">artikel 22</a> :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> voorgoed of voor een duur van ten minste acht dagen en van ten hoogste vijf jaar de vervallenverklaring uitspreken van het recht om een motorrijtuig te besturen.</p><p style=\"padding-left: 30px;\">De bepalingen betreffende de vervallenverklaring van het recht tot sturen, vervat in de wetgeving op de politie van het wegverkeer, zijn van toepassing op de in het eerste lid bedoelde vervallenverklaring van het recht tot sturen;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> onverminderd de rechten van de benadeelden en van de rechtmatige eigenaar, de verbeurdverklaring van het voertuig bevelen. Er kan worden overgegaan tot de verbeurdverklaring indien de eigenaar onbekend blijft.</p>",
+  "full_text_fr": "Dans les cas prévus à l'article 22 les tribunaux peuvent, en outre:\n\n1° prononcer la déchéance du droit de conduire un véhicule automoteur, soit à titre définitif, soit pour une durée de huit jours au moins et de cinq ans au plus.\n\nLes dispositions relatives à la déchéance du droit de conduire contenues dans la législation sur la police de la circulation routière sont applicables à la déchéance du droit de conduire prévue à l'alinéa 1er;\n\n2° sans préjudice des droits de personnes lésées et du légitime propriétaire, ordonner la confiscation du véhicule. Il peut être procédé à la confiscation si le propriétaire est demeuré inconnu.",
+  "full_text_nl": "Bovendien kunnen de rechtbanken, in de gevallen bedoeld in artikel 22 :\n\n1° voorgoed of voor een duur van ten minste acht dagen en van ten hoogste vijf jaar de vervallenverklaring uitspreken van het recht om een motorrijtuig te besturen.\n\nDe bepalingen betreffende de vervallenverklaring van het recht tot sturen, vervat in de wetgeving op de politie van het wegverkeer, zijn van toepassing op de in het eerste lid bedoelde vervallenverklaring van het recht tot sturen;\n\n2° onverminderd de rechten van de benadeelden en van de rechtmatige eigenaar, de verbeurdverklaring van het voertuig bevelen. Er kan worden overgegaan tot de verbeurdverklaring indien de eigenaar onbekend blijft.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art22"
+  ],
+  "anchor_id_fr": "cbswzntcln",
+  "anchor_id_nl": "b9tfagu0kl",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T09:01:37Z",
+    "content_hash": "7a1a6b3ab3a4",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}
