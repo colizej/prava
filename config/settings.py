@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'apps.reglementation',
     'apps.examens',
     'apps.dashboard',
+    'apps.shop',
 ]
 
 # ==============================================================================
@@ -181,3 +182,10 @@ SITE_URL = env('SITE_URL', default='http://localhost:8000')
 # ==============================================================================
 
 FREE_DAILY_QUESTIONS = 15  # Questions par jour pour les utilisateurs gratuits
+
+# ==============================================================================
+# MOLLIE PAYMENT
+# ==============================================================================
+
+MOLLIE_API_KEY = env('MOLLIE_API_KEY', default='')
+

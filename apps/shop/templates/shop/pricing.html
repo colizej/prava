@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Nos tarifs" %} — {{ SITE_NAME }}{% endblock %}
+{% block meta_description %}{% trans "Accès illimité ou journalier aux questions de l'examen théorique du permis de conduire en Belgique." %}{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto px-4 py-16">
+
+  {# Header #}
+  <div class="text-center mb-14">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">{% trans "Choisissez votre accès" %}</h1>
+    <p class="text-gray-500 max-w-xl mx-auto">
+      {% trans "Commencez gratuitement. Passez à l'accès complet quand vous êtes prêt." %}
+    </p>
+  </div>
+
+  {# Plans grid #}
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+    {% for plan in plans %}
+    <div class="relative flex flex-col rounded-2xl border-2
+                {% if plan.is_highlighted %}border-blue-500 shadow-lg{% else %}border-gray-100 shadow-sm{% endif %}
+                bg-white p-6">
+
+      {# Popular badge #}
+      {% if plan.is_highlighted %}
+      <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 whitespace-nowrap
+                  bg-blue-600 text-white text-xs font-semibold px-4 py-1 rounded-full">
+        {% trans "Le plus populaire" %}
+      </div>
+      {% endif %}
+
+      {# Plan name #}
+      <h3 class="text-base font-semibold text-gray-900">{{ plan.name }}</h3>
+
+      {# Price #}
+      <div class="mt-4 mb-6">
+        {% if plan.is_free %}
+          <span class="text-3xl font-bold text-gray-900">{% trans "Gratuit" %}</span>
+        {% else %}
+          <span class="text-3xl font-bold text-gray-900">{{ plan.price_display }}</span>
+          <span class="text-sm text-gray-400 ml-1">
+            {% if plan.duration_days == 1 %}/ {% trans "jour" %}
+            {% elif plan.duration_days == 3 %}/ 3 {% trans "jours" %}
+            {% elif plan.duration_days == 7 %}/ {% trans "semaine" %}
+            {% elif plan.duration_days == 30 %}/ {% trans "mois" %}
+            {% endif %}
+          </span>
+        {% endif %}
+      </div>
+
+      {# Features #}
+      <ul class="space-y-2.5 mb-8 flex-1 text-sm text-gray-600">
+        {% if plan.is_free %}
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            {% trans "15 questions / jour" %}
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            {% trans "Catégories de base" %}
+          </li>
+        {% else %}
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            {% trans "Questions illimitées" %}
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            {% trans "Toutes les catégories" %}
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            {% trans "Mode examen simulé" %}
+          </li>
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            {% trans "Sans publicité" %}
+          </li>
+          {% if plan.duration_days >= 7 %}
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            {% trans "Statistiques avancées" %}
+          </li>
+          {% endif %}
+          {% if plan.duration_days == 30 %}
+          <li class="flex items-center gap-2">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            {% trans "Support prioritaire" %}
+          </li>
+          {% endif %}
+        {% endif %}
+      </ul>
+
+      {# CTA button #}
+      {% if plan.is_free %}
+        <a href="{% url 'accounts:register' %}"
+           class="w-full text-center py-2.5 rounded-xl font-semibold text-sm
+                  bg-gray-100 text-gray-700 hover:bg-gray-200 transition">
+          {% trans "Commencer gratuitement" %}
+        </a>
+      {% else %}
+        <a href="{% url 'shop:checkout' plan.key %}"
+           class="w-full text-center py-2.5 rounded-xl font-semibold text-sm transition
+                  {% if plan.is_highlighted %}bg-blue-600 text-white hover:bg-blue-700
+                  {% else %}bg-gray-900 text-white hover:bg-gray-700{% endif %}">
+          {% trans "Acheter" %}
+        </a>
+      {% endif %}
+
+    </div>
+    {% empty %}
+    <p class="col-span-full text-center text-gray-400 py-12">{% trans "Aucun forfait disponible." %}</p>
+    {% endfor %}
+  </div>
+
+  {# Security note #}
+  <div class="mt-12 text-center text-sm text-gray-400 flex items-center justify-center gap-2">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+    </svg>
+    {% trans "Paiement sécurisé via Mollie — Bancontact, Visa, Mastercard" %}
+  </div>
+
+</div>
+{% endblock %}

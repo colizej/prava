@@ -57,7 +57,13 @@ def contact(request):
 
 
 def pricing(request):
-    """Page des tarifs."""
+    """Redirect to the shop pricing page."""
+    from django.shortcuts import redirect
+    return redirect('shop:pricing')
+
+
+def _old_pricing(request):  # kept for reference
+    """Page des tarifs (static — replaced by shop)."""
     plans = [
         {
             'name': 'Gratuit',
