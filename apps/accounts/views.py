@@ -8,6 +8,7 @@ from django.db.models import Avg, Count, Q
 from .models import UserProfile, DailyQuota
 from .forms import CustomUserCreationForm, UserProfileForm
 from apps.examens.models import TestAttempt, StudyList, SavedQuestion, Question
+from apps.shop.models import Order
 
 
 def register(request):
@@ -95,6 +96,11 @@ def profile(request):
         .order_by('-cnt')[:5]
     )
 
+    # Purchase history
+    orders = Order.objects.filter(
+        user=request.user
+    ).select_related('plan').order_by('-created_at')[:20]
+
     context = {
         'profile': profile,
         'recent_attempts': recent_attempts,
@@ -104,6 +110,7 @@ def profile(request):
         'study_lists': study_lists,
         'saved_total': saved_total,
         'saved_by_category': saved_by_category,
+        'orders': orders,
     }
     return render(request, 'accounts/profile.html', context)
 

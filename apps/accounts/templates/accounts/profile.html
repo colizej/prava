@@ -19,8 +19,41 @@
                 <p class="text-sm text-gray-500">{{ user.email }}</p>
                 {% if profile.has_active_premium %}
                 <span class="inline-block mt-2 px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs font-semibold">⭐ Premium</span>
+                {% else %}
+                <span class="inline-block mt-2 px-3 py-1 bg-gray-100 text-gray-500 rounded-full text-xs">{% trans "Gratuit" %}</span>
                 {% endif %}
             </div>
+
+            {# ── Premium status ── #}
+            {% if profile.has_active_premium %}
+            <div class="mt-4 rounded-xl bg-yellow-50 border border-yellow-200 p-4 text-sm">
+                <div class="flex items-center gap-2 font-semibold text-yellow-800 mb-1">
+                    <svg class="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                    </svg>
+                    {% trans "Accès Premium actif" %}
+                </div>
+                {% if profile.premium_until %}
+                <p class="text-yellow-700 text-xs">
+                    {% trans "Expire le" %} <strong>{{ profile.premium_until|date:"d/m/Y à H:i" }}</strong>
+                </p>
+                {% endif %}
+                <a href="{% url 'shop:pricing' %}"
+                   class="block mt-2 text-center text-xs font-semibold text-yellow-800 bg-yellow-100 hover:bg-yellow-200 rounded-lg py-1.5 transition">
+                    {% trans "Prolonger →" %}
+                </a>
+            </div>
+            {% else %}
+            <div class="mt-4 rounded-xl bg-blue-50 border border-blue-100 p-4 text-sm">
+                <p class="text-blue-700 font-medium mb-1">{% trans "Passez à Premium" %}</p>
+                <p class="text-blue-500 text-xs mb-2">{% trans "Questions illimitées, toutes catégories." %}</p>
+                <a href="{% url 'shop:pricing' %}"
+                   class="block text-center text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg py-1.5 transition">
+                    {% trans "Voir les forfaits →" %}
+                </a>
+            </div>
+            {% endif %}
+
             <a href="{% url 'accounts:profile_edit' %}" class="block mt-4 text-center text-blue-600 hover:text-blue-700 text-sm">
                 {% trans "Modifier le profil" %}
             </a>
@@ -155,6 +188,68 @@
                 {% endif %}
             </div>
             {% endif %}
+
+            {# ── Purchase history ── #}
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="flex items-center justify-between p-4 border-b">
+                    <h3 class="font-semibold text-sm text-gray-700">
+                        🧾 {% trans "Mes achats" %}
+                    </h3>
+                    <a href="{% url 'shop:pricing' %}" class="text-xs text-blue-600 hover:underline">
+                        {% trans "Boutique →" %}
+                    </a>
+                </div>
+                {% if orders %}
+                <div class="divide-y">
+                    {% for order in orders %}
+                    <div class="flex items-center justify-between px-4 py-3 text-sm">
+                        <div class="flex items-center gap-3">
+                            {# Status icon #}
+                            {% if order.status == 'paid' %}
+                            <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-green-100">
+                                <svg class="w-3.5 h-3.5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+                                </svg>
+                            </span>
+                            {% elif order.status == 'pending' %}
+                            <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-yellow-100">
+                                <svg class="w-3.5 h-3.5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </span>
+                            {% else %}
+                            <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gray-100">
+                                <svg class="w-3.5 h-3.5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                            </span>
+                            {% endif %}
+                            <div>
+                                <p class="font-medium text-gray-800">{{ order.plan.name }}</p>
+                                <p class="text-xs text-gray-400">{{ order.created_at|date:"d/m/Y à H:i" }}</p>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="font-semibold text-gray-900">{{ order.amount }}€</p>
+                            <p class="text-xs
+                               {% if order.status == 'paid' %}text-green-600
+                               {% elif order.status == 'pending' %}text-yellow-600
+                               {% else %}text-gray-400{% endif %}">
+                                {{ order.get_status_display }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="px-4 py-6 text-center text-gray-400 text-sm">
+                    {% trans "Aucun achat pour le moment." %}
+                    <a href="{% url 'shop:pricing' %}" class="block mt-1 text-blue-600 hover:underline text-xs">
+                        {% trans "Voir les forfaits" %}
+                    </a>
+                </div>
+                {% endif %}
+            </div>
 
         </div>
     </div>
