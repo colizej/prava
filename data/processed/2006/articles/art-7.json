@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "7",
+  "slug": "art-7",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 7",
+  "title_nl": "Artikel 7",
+  "title_ru": "",
+  "content_md_fr": "A l'exception des instructeurs de conduite brevetés, personne ne peut guider le titulaire du permis de conduire provisoire B, contre paiement.\n\nL’instructeur de conduite breveté ne doit pas être mentionné sur le permis de conduire provisoire en tant que guide.\n\nL’article 3, § 2, d), n’est pas d’application pour l’instructeur de conduite breveté.",
+  "content_md_nl": "Met uitzondering van gebrevetteerde rij-instructeurs mag niemand de houder van een voorlopig rijbewijs B tegen betaling begeleiden.\n\nDe gebrevetteerde rij-instructeur moet niet op het voorlopig rijbewijs als begeleider vermeld worden.\n\nArtikel 3, § 2, d) is niet van toepassing op de gebrevetteerde rij-instructeur.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'exception des instructeurs de conduite brevetés, personne ne peut guider le titulaire du permis de conduire provisoire B, contre paiement.</p><p>L’instructeur de conduite breveté ne doit pas être mentionné sur le permis de conduire provisoire en tant que guide.</p><p>L’article 3, § 2, d), n’est pas d’application pour l’instructeur de conduite breveté.</p>",
+  "content_html_nl": "<p>Met uitzondering van gebrevetteerde rij-instructeurs mag niemand de houder van een voorlopig rijbewijs B tegen betaling begeleiden.</p><p>De gebrevetteerde rij-instructeur moet niet op het voorlopig rijbewijs als begeleider vermeld worden.</p><p>Artikel 3, § 2, d) is niet van toepassing op de gebrevetteerde rij-instructeur.</p>",
+  "full_text_fr": "A l'exception des instructeurs de conduite brevetés, personne ne peut guider le titulaire du permis de conduire provisoire B, contre paiement.\n\nL’instructeur de conduite breveté ne doit pas être mentionné sur le permis de conduire provisoire en tant que guide.\n\nL’article 3, § 2, d), n’est pas d’application pour l’instructeur de conduite breveté.",
+  "full_text_nl": "Met uitzondering van gebrevetteerde rij-instructeurs mag niemand de houder van een voorlopig rijbewijs B tegen betaling begeleiden.\n\nDe gebrevetteerde rij-instructeur moet niet op het voorlopig rijbewijs als begeleider vermeld worden.\n\nArtikel 3, § 2, d) is niet van toepassing op de gebrevetteerde rij-instructeur.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "3qnlrckh8c",
+  "anchor_id_nl": "hiodnbn4f9",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "0bbfe21c7b4b",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

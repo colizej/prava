@@ -1,0 +1,41 @@
+{
+  "law_id": "1976",
+  "article_number": "3ter",
+  "slug": "art-3ter",
+  "structure": {
+    "titre": null,
+    "chapitre": "I"
+  },
+  "title_fr": "Article 3ter. Signaux lumineux spéciaux destinés à régler la circulation des véhicules des services réguliers de transport en commun",
+  "title_nl": "Artikel 3ter. Bijzondere verkeerslichten voor het regelen van het verkeer van voertuigen van geregelde diensten voor gemeenschappelijk vervoer",
+  "title_ru": "",
+  "content_md_fr": "Les signaux lumineux spéciaux destinés à régler la circulation des véhicules des services réguliers de transport en commun apparaissent dans une surface circulaire opaque de couleur noire et d'un diamètre minimal de 0,18 m, conformément à la planche 5 de l'annexe 1 au présent arrêté.\n\nIls ne peuvent être utilisés que pour régler la circulation des véhicules sur un site propre ou sur un site spécial franchissable destiné aux services réguliers de transport en commun.",
+  "content_md_nl": "De bijzondere verkeerslichten voor het regelen van het verkeer van voertuigen van geregelde diensten voor gemeenschappelijk vervoer komen voor op een matte zwarte cirkelvormige oppervlakte met een diameter van ten minste 0,18m, overeenkomstig plaat 5 van bijlage 1 tot dit besluit.\n\nZij mogen slechts gebruikt worden voor de regeling van het verkeer van voertuigen op een eigen bedding of op een bijzondere overrijdbare bedding bestemd voor geregelde diensten voor gemeenschappelijk vervoer.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Les signaux lumineux spéciaux destinés à régler la circulation des véhicules des services réguliers de transport en commun apparaissent dans une surface circulaire opaque de couleur noire et d'un diamètre minimal de 0,18 m, conformément à la planche 5 de l'annexe 1 au présent arrêté.</p><p>Ils ne peuvent être utilisés que pour régler la circulation des véhicules sur un site propre ou sur un site spécial franchissable destiné aux services réguliers de transport en commun.</p>",
+  "content_html_nl": "<p>De bijzondere verkeerslichten voor het regelen van het verkeer van voertuigen van geregelde diensten voor gemeenschappelijk vervoer komen voor op een matte zwarte cirkelvormige oppervlakte met een diameter van ten minste 0,18m, overeenkomstig plaat 5 van bijlage 1 tot dit besluit.</p><p>Zij mogen slechts gebruikt worden voor de regeling van het verkeer van voertuigen op een eigen bedding of op een bijzondere overrijdbare bedding bestemd voor geregelde diensten voor gemeenschappelijk vervoer.</p>",
+  "full_text_fr": "Les signaux lumineux spéciaux destinés à régler la circulation des véhicules des services réguliers de transport en commun apparaissent dans une surface circulaire opaque de couleur noire et d'un diamètre minimal de 0,18 m, conformément à la planche 5 de l'annexe 1 au présent arrêté.\n\nIls ne peuvent être utilisés que pour régler la circulation des véhicules sur un site propre ou sur un site spécial franchissable destiné aux services réguliers de transport en commun.",
+  "full_text_nl": "De bijzondere verkeerslichten voor het regelen van het verkeer van voertuigen van geregelde diensten voor gemeenschappelijk vervoer komen voor op een matte zwarte cirkelvormige oppervlakte met een diameter van ten minste 0,18m, overeenkomstig plaat 5 van bijlage 1 tot dit besluit.\n\nZij mogen slechts gebruikt worden voor de regeling van het verkeer van voertuigen op een eigen bedding of op een bijzondere overrijdbare bedding bestemd voor geregelde diensten voor gemeenschappelijk vervoer.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "tfp5ln0aba",
+  "anchor_id_nl": "kxg0169vbv",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:44Z",
+    "content_hash": "4a8ac8b7bcfb",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

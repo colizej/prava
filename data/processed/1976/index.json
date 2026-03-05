@@ -1,0 +1,343 @@
+{
+  "law_id": "1976",
+  "built_at": "2026-03-05T08:35:44Z",
+  "total_articles": 23,
+  "structure": [
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Signaux lumineux de circulation",
+      "id": "40t21azxwi"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Signaux routiers",
+      "id": "ovvipb5vhg"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. Marques routières",
+      "id": "brkkbqup9n"
+    },
+    {
+      "type": "chapitre",
+      "number": "4",
+      "text": "ANNEXES",
+      "id": "sngernlnzd"
+    }
+  ],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": null
+      },
+      "title_fr": "Article 1. Dispositions générales",
+      "title_nl": "Artikel 1. Algemene bepalingen",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 2. Conditions de placement",
+      "title_nl": "Artikel 2. Plaatsingsvoorwaarden",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 3. Signaux du système tricolore",
+      "title_nl": "Artikel 3. Driekleurige verkeerslichten",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "3bis",
+      "slug": "art-3bis",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 3bis. Flèche d'évacuation au-dessus d'une bande de circulation",
+      "title_nl": "Artikel 3bis. Ontruimingspijl boven een rijstrook",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3ter",
+      "slug": "art-3ter",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 3ter. Signaux lumineux spéciaux destinés à régler la circulation des véhicules des services réguliers de transport en commun",
+      "title_nl": "Artikel 3ter. Bijzondere verkeerslichten voor het regelen van het verkeer van voertuigen van geregelde diensten voor gemeenschappelijk vervoer",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 4. Signaux du système bicolore",
+      "title_nl": "Artikel 4. Tweekleurige verkeerslichten",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 5. Signaux à feux clignotants",
+      "title_nl": "Artikel 5. Verkeersknipperlichten",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 6. Dispositions préliminaires et dimensions",
+      "title_nl": "Artikel 6. Inleidende bepalingen en afmetingen",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7. Signaux de danger",
+      "title_nl": "Artikel 7. Gevaarsborden",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 8. Signaux relatifs à la priorité",
+      "title_nl": "Artikel 8. Verkeersborden betreffende de voorrang",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9. Signaux d'interdiction",
+      "title_nl": "Artikel 9. Verbodsborden",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 10. Signaux d'obligation",
+      "title_nl": "Artikel 10. Gebodsborden",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 11. Signaux relatifs à l'arrêt et au stationnement",
+      "title_nl": "Artikel 11. Verkeersborden betreffende het stilstaan en parkeren",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": [
+        "F1",
+        "F1a",
+        "F1b"
+      ]
+    },
+    {
+      "number": "12",
+      "slug": "art-12",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 12. Signaux d'indication",
+      "title_nl": "Artikel 12. Aanwijzingsborden",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": [
+        "F1",
+        "F1a",
+        "F1b",
+        "F3",
+        "F3a",
+        "F3b"
+      ]
+    },
+    {
+      "number": "13",
+      "slug": "art-13",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 13. Panneaux placés au-dessous des signaux routiers",
+      "title_nl": "Artikel 13. Onderborden",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 14. Marques longitudinales indiquant les bandes de circulation.",
+      "title_nl": "Artikel 14. Overlangse markeringen die de rijstroken aanduiden.",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 15. Marques longitudinales provisoires indiquant les bandes de circulation",
+      "title_nl": "Artikel 15. Overlangse voorlopige markeringen die de rijstroken aanduiden",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 16. Marques longitudinales indiquant une piste cyclable",
+      "title_nl": "Artikel 16. Overlangse markeringen die een fietspad aanduiden",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 17. Marques longitudinales indiquant le bord de la chaussée",
+      "title_nl": "Artikel 17. Overlangse markeringen die de rand van de rijbaan aanduiden",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 18. Marques transversales",
+      "title_nl": "Artikel 18. Dwarsmarkeringen",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 19. Autres marques",
+      "title_nl": "Artikel 19. Andere markeringen",
+      "title_ru": "",
+      "has_images": true,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 20. Dispositions transitoires",
+      "title_nl": "Artikel 20. Overgangsbepalingen",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 21.",
+      "title_nl": "Artikel 21.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}

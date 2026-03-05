@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "41",
+  "slug": "art-41",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 41",
+  "title_nl": "Artikel 41",
+  "title_ru": "",
+  "content_md_fr": "A l'annexe 2 du même arrêté, le I et le II sont abrogés.\n\nL'annexe 3 du même arrêté est abrogée.",
+  "content_md_nl": "In bijlage 2 van hetzelfde besluit worden de I en II opgeheven.\n\nBijlage 3 van hetzelfde besluit wordt opgeheven.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'annexe 2 du même arrêté, le I et le II sont abrogés.</p><p>L'annexe 3 du même arrêté est abrogée.</p>",
+  "content_html_nl": "<p>In bijlage 2 van hetzelfde besluit worden de I en II opgeheven.</p><p>Bijlage 3 van hetzelfde besluit wordt opgeheven.</p>",
+  "full_text_fr": "A l'annexe 2 du même arrêté, le I et le II sont abrogés.\n\nL'annexe 3 du même arrêté est abrogée.",
+  "full_text_nl": "In bijlage 2 van hetzelfde besluit worden de I en II opgeheven.\n\nBijlage 3 van hetzelfde besluit wordt opgeheven.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "1k93m3jcib",
+  "anchor_id_nl": "neys1g4043",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "15c694bbb0b1",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

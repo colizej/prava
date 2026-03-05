@@ -1,0 +1,43 @@
+{
+  "law_id": "2006",
+  "article_number": "9",
+  "slug": "art-9",
+  "structure": {
+    "titre": null,
+    "chapitre": "III"
+  },
+  "title_fr": "Article 9 Région wallonne",
+  "title_nl": "Artikel 9 Waals Gewest",
+  "title_ru": "",
+  "content_md_fr": "Le candidat qui échoue deux fois de suite à l'examen pratique doit suivre six heures de cours pratiques à la conduite auprès d'une école de conduite avant de pouvoir à nouveau être admis à l'examen pratique.\n\nToutefois, les échecs à l’examen pratique subis avant la délivrance du permis de conduire provisoire visé à [l’article 5/1,](#art-5/1,) § 1er, alinéa 2 n’entrent pas en ligne de compte.",
+  "content_md_nl": "De kandidaat die twee maal na elkaar niet slaagt voor het praktisch examen moet zes uren praktisch rijonderricht volgen bij een rijschool vooraleer hij terug toegelaten wordt tot het praktisch examen.\n\nNiettemin worden de mislukkingen voor het praktisch examen die vóór de afgifte van het voorlopig rijbewijs bedoeld in [artikel 5/1](#art-5/1), § 1, tweede lid werden afgelegd, niet meegerekend.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le candidat qui échoue deux fois de suite à l'examen pratique doit suivre six heures de cours pratiques à la conduite auprès d'une école de conduite avant de pouvoir à nouveau être admis à l'examen pratique.</p><p>Toutefois, les échecs à l’examen pratique subis avant la délivrance du permis de conduire provisoire visé à <a href=\"#art-5/1,\">l’article 5/1,</a> § 1<sup>er</sup>, alinéa 2 n’entrent pas en ligne de compte.</p>",
+  "content_html_nl": "<p>De kandidaat die twee maal na elkaar niet slaagt voor het praktisch examen moet zes uren praktisch rijonderricht volgen bij een rijschool vooraleer hij terug toegelaten wordt tot het praktisch examen.</p><p>Niettemin worden de mislukkingen voor het praktisch examen die vóór de afgifte van het voorlopig rijbewijs bedoeld in <a href=\"#art-5/1\">artikel 5/1</a>, § 1, tweede lid werden afgelegd, niet meegerekend.</p>",
+  "full_text_fr": "Le candidat qui échoue deux fois de suite à l'examen pratique doit suivre six heures de cours pratiques à la conduite auprès d'une école de conduite avant de pouvoir à nouveau être admis à l'examen pratique.\n\nToutefois, les échecs à l’examen pratique subis avant la délivrance du permis de conduire provisoire visé à l’article 5/1, § 1er, alinéa 2 n’entrent pas en ligne de compte.",
+  "full_text_nl": "De kandidaat die twee maal na elkaar niet slaagt voor het praktisch examen moet zes uren praktisch rijonderricht volgen bij een rijschool vooraleer hij terug toegelaten wordt tot het praktisch examen.\n\nNiettemin worden de mislukkingen voor het praktisch examen die vóór de afgifte van het voorlopig rijbewijs bedoeld in artikel 5/1, § 1, tweede lid werden afgelegd, niet meegerekend.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-5/1,"
+  ],
+  "anchor_id_fr": "ei7xyaavtb",
+  "anchor_id_nl": "vabk6ap2nw",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "0798b893dd8d",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

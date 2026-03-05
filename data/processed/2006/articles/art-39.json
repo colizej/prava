@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "39",
+  "slug": "art-39",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 39",
+  "title_nl": "Artikel 39",
+  "title_ru": "",
+  "content_md_fr": "A l'article 67, alinéa 1er, 2°, du même arrêté, les mots « ou la licence d'apprentissage » sont supprimés.",
+  "content_md_nl": "In artikel 67, eerste lid, 2° van hetzelfde besluit, vervallen de woorden « of de leervergunning ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 67, alinéa 1<sup>er</sup>, 2°, du même arrêté, les mots « ou la licence d'apprentissage » sont supprimés.</p>",
+  "content_html_nl": "<p>In artikel 67, eerste lid, 2° van hetzelfde besluit, vervallen de woorden « of de leervergunning ».</p>",
+  "full_text_fr": "A l'article 67, alinéa 1er, 2°, du même arrêté, les mots « ou la licence d'apprentissage » sont supprimés.",
+  "full_text_nl": "In artikel 67, eerste lid, 2° van hetzelfde besluit, vervallen de woorden « of de leervergunning ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "3mac21qc4c",
+  "anchor_id_nl": "9huwbpudaq",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "772d4ca605aa",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

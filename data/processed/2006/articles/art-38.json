@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "38",
+  "slug": "art-38",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 38",
+  "title_nl": "Artikel 38",
+  "title_ru": "",
+  "content_md_fr": "A l'article 64, alinéa 1er, du même arrêté, les mots « des licences d'apprentissage » sont supprimés.",
+  "content_md_nl": "In artikel 64, eerste lid van hetzelfde besluit, vervallen de woorden « de leervergunningen ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 64, alinéa 1<sup>er</sup>, du même arrêté, les mots « des licences d'apprentissage » sont supprimés.</p>",
+  "content_html_nl": "<p>In artikel 64, eerste lid van hetzelfde besluit, vervallen de woorden « de leervergunningen ».</p>",
+  "full_text_fr": "A l'article 64, alinéa 1er, du même arrêté, les mots « des licences d'apprentissage » sont supprimés.",
+  "full_text_nl": "In artikel 64, eerste lid van hetzelfde besluit, vervallen de woorden « de leervergunningen ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "fl2odmqpxa",
+  "anchor_id_nl": "gnizkbpxjg",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "bf8f9acd2df6",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

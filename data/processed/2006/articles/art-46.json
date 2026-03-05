@@ -1,0 +1,45 @@
+{
+  "law_id": "2006",
+  "article_number": "46",
+  "slug": "art-46",
+  "structure": {
+    "titre": null,
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 46",
+  "title_nl": "Artikel 46",
+  "title_ru": "",
+  "content_md_fr": "Le présent arrêté entre en vigueur le 1er septembre 2006, à l'exception de [l'article 27, 1°](#art-27-1) jusqu'à 3°, de [l'article 37, 1°](#art-37-1) et 2° et de [l'article 42,](#art-42,) qui entrent en vigueur le 1er décembre 2006.",
+  "content_md_nl": "Dit besluit treedt in werking op 1 september 2006, met uitzondering van [artikel 27](#art-27), 1° tot en met 3°, [artikel 37](#art-37), 1° en 2° en [artikel 42](#art-42) die in werking treden op 1 december 2006.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le présent arrêté entre en vigueur le 1<sup>er</sup> septembre 2006, à l'exception de <a href=\"#art-27-1\">l'article 27, 1°</a> jusqu'à 3°, de <a href=\"#art-37-1\">l'article 37, 1°</a> et 2° et de <a href=\"#art-42,\">l'article 42,</a> qui entrent en vigueur le 1<sup>er</sup> décembre 2006.</p>",
+  "content_html_nl": "<p>Dit besluit treedt in werking op 1 september 2006, met uitzondering van <a href=\"#art-27\">artikel 27</a>, 1° tot en met 3°, <a href=\"#art-37\">artikel 37</a>, 1° en 2° en <a href=\"#art-42\">artikel 42</a> die in werking treden op 1 december 2006.</p>",
+  "full_text_fr": "Le présent arrêté entre en vigueur le 1er septembre 2006, à l'exception de l'article 27, 1° jusqu'à 3°, de l'article 37, 1° et 2° et de l'article 42, qui entrent en vigueur le 1er décembre 2006.",
+  "full_text_nl": "Dit besluit treedt in werking op 1 september 2006, met uitzondering van artikel 27, 1° tot en met 3°, artikel 37, 1° en 2° en artikel 42 die in werking treden op 1 december 2006.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-27-1",
+    "#art-37-1",
+    "#art-42,"
+  ],
+  "anchor_id_fr": "rt7bblgtiu",
+  "anchor_id_nl": "d8mv8wz2tx",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "4c9e233bb4c2",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

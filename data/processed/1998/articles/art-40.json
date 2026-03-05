@@ -1,0 +1,43 @@
+{
+  "law_id": "1998",
+  "article_number": "40",
+  "slug": "art-40",
+  "structure": {
+    "titre": "III",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 40.",
+  "title_nl": "Artikel 40.",
+  "title_ru": "",
+  "content_md_fr": "Les défauts physiques et affections visés à [l'article 23,](#art-23,) § 1er, 3° de la loi sont déterminés à l'annexe 6.",
+  "content_md_nl": "De lichaamsgebreken en aandoeningen bedoeld in artikel 23, § 1, 3° van de wet zijn bepaald in bijlage 6.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Les défauts physiques et affections visés à <a href=\"#art-23,\">l'article 23,</a> § 1<sup>er</sup>, 3° de la loi sont déterminés à l'annexe 6.</p>",
+  "content_html_nl": "<p>De lichaamsgebreken en aandoeningen bedoeld in artikel 23, § 1, 3° van de wet zijn bepaald in bijlage 6.</p>",
+  "full_text_fr": "Les défauts physiques et affections visés à l'article 23, § 1er, 3° de la loi sont déterminés à l'annexe 6.",
+  "full_text_nl": "De lichaamsgebreken en aandoeningen bedoeld in artikel 23, § 1, 3° van de wet zijn bepaald in bijlage 6.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-23,"
+  ],
+  "anchor_id_fr": "xgvhuosuhv",
+  "anchor_id_nl": "dvjkrecgba",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "3c5490acefa0",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "law_id": "2006",
+  "article_number": "5",
+  "slug": "art-5",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 5",
+  "title_nl": "Artikel 5",
+  "title_ru": "",
+  "content_md_fr": "Le permis de conduire provisoire visé à l'article [3,](#art3) [4](#art4) ou 5/1 doit être demandé dans un délai de trois ans suivant la réussite de l'examen théorique. Après expiration de ce délai, le candidat ne peut obtenir un nouveau permis de conduire provisoire qu'après avoir repassé l'examen théorique avec succès.",
+  "content_md_nl": "Het in artikel [3,](#art3) [4](#art4) of 5/1 bedoelde voorlopig rijbewijs moet worden aangevraagd binnen de drie jaar na het slagen voor het theoretisch examen. Na het verstrijken van deze termijn kan de kandidaat pas terug een voorlopig rijbewijs aanvragen na opnieuw het theoretisch examen met goed gevolg te hebben afgelegd.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le permis de conduire provisoire visé à l'article <a href=\"#art3\">3,</a> <a href=\"#art4\">4</a> ou 5/1 doit être demandé dans un délai de trois ans suivant la réussite de l'examen théorique. Après expiration de ce délai, le candidat ne peut obtenir un nouveau permis de conduire provisoire qu'après avoir repassé l'examen théorique avec succès.</p>",
+  "content_html_nl": "<p>Het in artikel <a href=\"#art3\">3,</a> <a href=\"#art4\">4</a> of 5/1 bedoelde voorlopig rijbewijs moet worden aangevraagd binnen de drie jaar na het slagen voor het theoretisch examen. Na het verstrijken van deze termijn kan de kandidaat pas terug een voorlopig rijbewijs aanvragen na opnieuw het theoretisch examen met goed gevolg te hebben afgelegd.</p>",
+  "full_text_fr": "Le permis de conduire provisoire visé à l'article 3, 4 ou 5/1 doit être demandé dans un délai de trois ans suivant la réussite de l'examen théorique. Après expiration de ce délai, le candidat ne peut obtenir un nouveau permis de conduire provisoire qu'après avoir repassé l'examen théorique avec succès.",
+  "full_text_nl": "Het in artikel 3, 4 of 5/1 bedoelde voorlopig rijbewijs moet worden aangevraagd binnen de drie jaar na het slagen voor het theoretisch examen. Na het verstrijken van deze termijn kan de kandidaat pas terug een voorlopig rijbewijs aanvragen na opnieuw het theoretisch examen met goed gevolg te hebben afgelegd.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art3",
+    "#art4"
+  ],
+  "anchor_id_fr": "r0dtnnmzmz",
+  "anchor_id_nl": "qtrbmymj2m",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "6e0ed7d549b0",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

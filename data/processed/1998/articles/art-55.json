@@ -1,0 +1,43 @@
+{
+  "law_id": "1998",
+  "article_number": "55",
+  "slug": "art-55",
+  "structure": {
+    "titre": "III",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 55.",
+  "title_nl": "Artikel 55.",
+  "title_ru": "",
+  "content_md_fr": "L'autorité qui délivre le permis de conduire international le valide pour les catégories pour lesquelles le permis de conduire visé à l'[article 54, 2°](#art54) est valable.\n\nSi le permis de conduire national n'est valable que pour la conduite de certains véhicules d'une catégorie déterminée, le permis de conduire international est validé pour la catégorie correspondante et comporte une mention restrictive.\n\nLa durée de validité du permis de conduire international ne peut dépasser la validité du permis de conduire visé à l'[article 54, 2°](#art54) et est limitée à trois ans au maximum.",
+  "content_md_nl": "De overheid die het internationale rijbewijs uitreikt, maakt het geldig voor de categorieën waarvoor het rijbewijs bedoeld in [artikel 54, 2°](#art54.2) geldig is.\n\nIndien het nationale rijbewijs slechts geldig is voor het besturen van sommige voertuigen van een bepaalde categorie, wordt het internationale rijbewijs geldig gemaakt voor de overeenstemmende categorie en draagt het een beperkende vermelding.\n\nDe geldigheidsduur van het internationale rijbewijs kan niet langer zijn dan de geldigheidsduur van het in [artikel 54, 2°](#art54.2) bedoelde rijbewijs en is beperkt tot maximum drie jaar.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'autorité qui délivre le permis de conduire international le valide pour les catégories pour lesquelles le permis de conduire visé à l'<a href=\"#art54\">article 54, 2°</a> est valable.</p><p>Si le permis de conduire national n'est valable que pour la conduite de certains véhicules d'une catégorie déterminée, le permis de conduire international est validé pour la catégorie correspondante et comporte une mention restrictive.</p><p>La durée de validité du permis de conduire international ne peut dépasser la validité du permis de conduire visé à l'<a href=\"#art54\">article 54, 2°</a> et est limitée à trois ans au maximum.</p>",
+  "content_html_nl": "<p>De overheid die het internationale rijbewijs uitreikt, maakt het geldig voor de categorieën waarvoor het rijbewijs bedoeld in <a href=\"#art54.2\">artikel 54, 2°</a> geldig is.</p><p>Indien het nationale rijbewijs slechts geldig is voor het besturen van sommige voertuigen van een bepaalde categorie, wordt het internationale rijbewijs geldig gemaakt voor de overeenstemmende categorie en draagt het een beperkende vermelding.</p><p>De geldigheidsduur van het internationale rijbewijs kan niet langer zijn dan de geldigheidsduur van het in <a href=\"#art54.2\">artikel 54, 2°</a> bedoelde rijbewijs en is beperkt tot maximum drie jaar.</p>",
+  "full_text_fr": "L'autorité qui délivre le permis de conduire international le valide pour les catégories pour lesquelles le permis de conduire visé à l'article 54, 2° est valable.\n\nSi le permis de conduire national n'est valable que pour la conduite de certains véhicules d'une catégorie déterminée, le permis de conduire international est validé pour la catégorie correspondante et comporte une mention restrictive.\n\nLa durée de validité du permis de conduire international ne peut dépasser la validité du permis de conduire visé à l'article 54, 2° et est limitée à trois ans au maximum.",
+  "full_text_nl": "De overheid die het internationale rijbewijs uitreikt, maakt het geldig voor de categorieën waarvoor het rijbewijs bedoeld in artikel 54, 2° geldig is.\n\nIndien het nationale rijbewijs slechts geldig is voor het besturen van sommige voertuigen van een bepaalde categorie, wordt het internationale rijbewijs geldig gemaakt voor de overeenstemmende categorie en draagt het een beperkende vermelding.\n\nDe geldigheidsduur van het internationale rijbewijs kan niet langer zijn dan de geldigheidsduur van het in artikel 54, 2° bedoelde rijbewijs en is beperkt tot maximum drie jaar.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art54"
+  ],
+  "anchor_id_fr": "8fszymjqb8",
+  "anchor_id_nl": "9s3fqmbbcn",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "0cd7f0dbb4dd",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

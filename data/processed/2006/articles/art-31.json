@@ -1,0 +1,43 @@
+{
+  "law_id": "2006",
+  "article_number": "31",
+  "slug": "art-31",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 31",
+  "title_nl": "Artikel 31",
+  "title_ru": "",
+  "content_md_fr": "A [l'article 50,](#art-50,) du même arrêté, modifié par l'arrêté royal du 5 septembre 2002, sont apportées les modifications suivantes :\n\n**1°** au § 1er, 5°, les mots « les articles 69, § 2 et 80, § 2 » sont remplacés par les mots « l'article 80, § 2 »;\n\n**2°** au § 3, les mots « ou de la licence d'apprentissage » sont supprimés;\n\n**3°** au § 4, les mots « le permis de conduire provisoire ou la licence d'apprentissage » sont remplacés par les mots « ou le permis de conduire provisoire ».",
+  "content_md_nl": "In [artikel 50](#art-50) van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 5 september 2002, worden de volgende wijzigingen aangebracht :\n\n**1°** in § 1, 5°, worden de woorden « de artikelen 69, §2 en 80, §2 » vervangen door de woorden « artikel 80, §2 »;\n\n**2°** in § 3, vervallen de woorden « of de leervergunning »;\n\n**3°** in § 4, worden de woorden « het voorlopige rijbewijs of de leervergunning » vervangen door de woorden « of het voorlopige rijbewijs ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A <a href=\"#art-50,\">l'article 50,</a> du même arrêté, modifié par l'arrêté royal du 5 septembre 2002, sont apportées les modifications suivantes :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> au § 1<sup>er</sup>, 5°, les mots « les articles 69, § 2 et 80, § 2 » sont remplacés par les mots « l'article 80, § 2 »;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> au § 3, les mots « ou de la licence d'apprentissage » sont supprimés;</p><p style=\"padding-left: 30px;\"><strong>3°</strong> au § 4, les mots « le permis de conduire provisoire ou la licence d'apprentissage » sont remplacés par les mots « ou le permis de conduire provisoire ».</p>",
+  "content_html_nl": "<p>In <a href=\"#art-50\">artikel 50</a> van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 5 september 2002, worden de volgende wijzigingen aangebracht :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> in § 1, 5°, worden de woorden « de artikelen 69, §2 en 80, §2 » vervangen door de woorden « artikel 80, §2 »;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> in § 3, vervallen de woorden « of de leervergunning »;</p><p style=\"padding-left: 30px;\"><strong>3°</strong> in § 4, worden de woorden « het voorlopige rijbewijs of de leervergunning » vervangen door de woorden « of het voorlopige rijbewijs ».</p>",
+  "full_text_fr": "A l'article 50, du même arrêté, modifié par l'arrêté royal du 5 septembre 2002, sont apportées les modifications suivantes :\n\n1° au § 1er, 5°, les mots « les articles 69, § 2 et 80, § 2 » sont remplacés par les mots « l'article 80, § 2 »;\n\n2° au § 3, les mots « ou de la licence d'apprentissage » sont supprimés;\n\n3° au § 4, les mots « le permis de conduire provisoire ou la licence d'apprentissage » sont remplacés par les mots « ou le permis de conduire provisoire ».",
+  "full_text_nl": "In artikel 50 van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 5 september 2002, worden de volgende wijzigingen aangebracht :\n\n1° in § 1, 5°, worden de woorden « de artikelen 69, §2 en 80, §2 » vervangen door de woorden « artikel 80, §2 »;\n\n2° in § 3, vervallen de woorden « of de leervergunning »;\n\n3° in § 4, worden de woorden « het voorlopige rijbewijs of de leervergunning » vervangen door de woorden « of het voorlopige rijbewijs ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-50,"
+  ],
+  "anchor_id_fr": "a5op4hmlgp",
+  "anchor_id_nl": "lucjfiev9r",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "090e36af81ac",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

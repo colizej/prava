@@ -1,0 +1,41 @@
+{
+  "law_id": "1976",
+  "article_number": "2",
+  "slug": "art-2",
+  "structure": {
+    "titre": null,
+    "chapitre": "I"
+  },
+  "title_fr": "Article 2. Conditions de placement",
+  "title_nl": "Artikel 2. Plaatsingsvoorwaarden",
+  "title_ru": "",
+  "content_md_fr": "Les signaux lumineux de circulation autres que les signaux à feux clignotants prévus par l'article 64.1.1°, 64.2 et 64.3 du règlement général sur la police de la circulation routière ne peuvent être placés que si le volume de la circulation des véhicules et (ou) des piétons, le genre et le nombre d'accidents survenus, la visibilité, la vitesse des véhicules, la difficulté de la traversée de la chaussée en raison de la circulation, la disposition des lieux ou les conditions de trafic le justifient.",
+  "content_md_nl": "Verkeerslichten, andere dan de verkeersknipperlichten voorzien in artikel 64.1.1°, 64.2 en 64.3 van het algemeen reglement op de politie van het wegverkeer, mogen slechts geplaatst worden indien het volume van het voertuigenverkeer en of van de voetgangers, de soort en het aantal ongevallen, het zicht, de snelheid van de voertuigen, de moeilijkheid die bij het oversteken van de rijbaan wordt ondervonden vanwege het verkeer, de plaatsgesteldheid of de verkeersvoorwaarden, dit rechtvaardigen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Les signaux lumineux de circulation autres que les signaux à feux clignotants prévus par l'article 64.1.1°, 64.2 et 64.3 du règlement général sur la police de la circulation routière ne peuvent être placés que si le volume de la circulation des véhicules et (ou) des piétons, le genre et le nombre d'accidents survenus, la visibilité, la vitesse des véhicules, la difficulté de la traversée de la chaussée en raison de la circulation, la disposition des lieux ou les conditions de trafic le justifient.</p>",
+  "content_html_nl": "<p>Verkeerslichten, andere dan de verkeersknipperlichten voorzien in artikel 64.1.1°, 64.2 en 64.3 van het algemeen reglement op de politie van het wegverkeer, mogen slechts geplaatst worden indien het volume van het voertuigenverkeer en of van de voetgangers, de soort en het aantal ongevallen, het zicht, de snelheid van de voertuigen, de moeilijkheid die bij het oversteken van de rijbaan wordt ondervonden vanwege het verkeer, de plaatsgesteldheid of de verkeersvoorwaarden, dit rechtvaardigen.</p>",
+  "full_text_fr": "Les signaux lumineux de circulation autres que les signaux à feux clignotants prévus par l'article 64.1.1°, 64.2 et 64.3 du règlement général sur la police de la circulation routière ne peuvent être placés que si le volume de la circulation des véhicules et (ou) des piétons, le genre et le nombre d'accidents survenus, la visibilité, la vitesse des véhicules, la difficulté de la traversée de la chaussée en raison de la circulation, la disposition des lieux ou les conditions de trafic le justifient.",
+  "full_text_nl": "Verkeerslichten, andere dan de verkeersknipperlichten voorzien in artikel 64.1.1°, 64.2 en 64.3 van het algemeen reglement op de politie van het wegverkeer, mogen slechts geplaatst worden indien het volume van het voertuigenverkeer en of van de voetgangers, de soort en het aantal ongevallen, het zicht, de snelheid van de voertuigen, de moeilijkheid die bij het oversteken van de rijbaan wordt ondervonden vanwege het verkeer, de plaatsgesteldheid of de verkeersvoorwaarden, dit rechtvaardigen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "y2k5ooat7f",
+  "anchor_id_nl": "dd1ybziadh",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:44Z",
+    "content_hash": "d62dbe16428f",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

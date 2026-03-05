@@ -1,0 +1,43 @@
+{
+  "law_id": "1998",
+  "article_number": "56",
+  "slug": "art-56",
+  "structure": {
+    "titre": "III",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 56.",
+  "title_nl": "Artikel 56.",
+  "title_ru": "",
+  "content_md_fr": "Dans les cas visés à [l'article 50,](#art-50,) § 1er, un nouveau permis de conduire international est délivré sur la présentation d'une demande de permis de conduire international, accompagnée des documents visés à [l'article 50,](#art-50,) § 2, 1° ou 3°. Les dispositions des articles 54 et 55 sont d'application.\n\nA l'expiration de la validité du permis de conduire international, un nouveau document est délivré conformément aux dispositions des articles 53, 54 et 55.",
+  "content_md_nl": "In de in [artikel 50](#art-50) §1 bedoelde gevallen, wordt een nieuw internationaal rijbewijs uitgereikt op vertoon van een aanvraag om een internationaal rijbewijs, vergezeld van de documenten bedoeld in [artikel 50](#art-50) §2. 1° of 3°. De bepalingen van de artikelen 54 en 55 zijn van toepassing.\n\nBij het verstrijken van de geldigheid van het internationale rijbewijs wordt een nieuw document uitgereikt overeenkomstig de bepalingen van de artikelen 53, 54 en 55.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Dans les cas visés à <a href=\"#art-50,\">l'article 50,</a> § 1<sup>er</sup>, un nouveau permis de conduire international est délivré sur la présentation d'une demande de permis de conduire international, accompagnée des documents visés à <a href=\"#art-50,\">l'article 50,</a> § 2, 1° ou 3°. Les dispositions des articles 54 et 55 sont d'application.</p><p>A l'expiration de la validité du permis de conduire international, un nouveau document est délivré conformément aux dispositions des articles 53, 54 et 55.</p>",
+  "content_html_nl": "<p>In de in <a href=\"#art-50\">artikel 50</a> §1 bedoelde gevallen, wordt een nieuw internationaal rijbewijs uitgereikt op vertoon van een aanvraag om een internationaal rijbewijs, vergezeld van de documenten bedoeld in <a href=\"#art-50\">artikel 50</a> §2. 1° of 3°. De bepalingen van de artikelen 54 en 55 zijn van toepassing.</p><p>Bij het verstrijken van de geldigheid van het internationale rijbewijs wordt een nieuw document uitgereikt overeenkomstig de bepalingen van de artikelen 53, 54 en 55.</p>",
+  "full_text_fr": "Dans les cas visés à l'article 50, § 1er, un nouveau permis de conduire international est délivré sur la présentation d'une demande de permis de conduire international, accompagnée des documents visés à l'article 50, § 2, 1° ou 3°. Les dispositions des articles 54 et 55 sont d'application.\n\nA l'expiration de la validité du permis de conduire international, un nouveau document est délivré conformément aux dispositions des articles 53, 54 et 55.",
+  "full_text_nl": "In de in artikel 50 §1 bedoelde gevallen, wordt een nieuw internationaal rijbewijs uitgereikt op vertoon van een aanvraag om een internationaal rijbewijs, vergezeld van de documenten bedoeld in artikel 50 §2. 1° of 3°. De bepalingen van de artikelen 54 en 55 zijn van toepassing.\n\nBij het verstrijken van de geldigheid van het internationale rijbewijs wordt een nieuw document uitgereikt overeenkomstig de bepalingen van de artikelen 53, 54 en 55.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-50,"
+  ],
+  "anchor_id_fr": "maruerkxnr",
+  "anchor_id_nl": "bqj9yv3zcx",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "106f41ad6adc",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

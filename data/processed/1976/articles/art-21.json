@@ -1,0 +1,41 @@
+{
+  "law_id": "1976",
+  "article_number": "21",
+  "slug": "art-21",
+  "structure": {
+    "titre": null,
+    "chapitre": "III"
+  },
+  "title_fr": "Article 21.",
+  "title_nl": "Artikel 21.",
+  "title_ru": "",
+  "content_md_fr": "Le présent arrêté entre en vigueur le 15 octobre 1976.",
+  "content_md_nl": "Dit besluit treedt in werking op 15 oktober 1976.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le présent arrêté entre en vigueur le 15 octobre 1976.</p>",
+  "content_html_nl": "<p>Dit besluit treedt in werking op 15 oktober 1976.</p>",
+  "full_text_fr": "Le présent arrêté entre en vigueur le 15 octobre 1976.",
+  "full_text_nl": "Dit besluit treedt in werking op 15 oktober 1976.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ftc4deyk1c",
+  "anchor_id_nl": "pmrj6rpaf2",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:44Z",
+    "content_hash": "b35017039e50",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

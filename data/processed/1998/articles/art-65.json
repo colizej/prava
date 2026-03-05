@@ -1,0 +1,43 @@
+{
+  "law_id": "1998",
+  "article_number": "65",
+  "slug": "art-65",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 65.",
+  "title_nl": "Artikel 65.",
+  "title_ru": "",
+  "content_md_fr": "Quand, par application de l'article 45 de la loi, la déchéance du droit de conduire est limitée à certains véhicules à moteur, la décision indique les catégories sur lesquelles porte la déchéance par référence à la classification prévue à [l'article 2](#art-2).",
+  "content_md_nl": "Wanneer bij toepassing van artikel 45 van de wet, de vervallenverklaring van het recht tot sturen beperkt is tot sommige motorvoertuigen, vermeldt de beslissing op welke categorieën het verval slaat, met verwijzing naar de indeling bepaald in [artikel 2](#art-2).",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Quand, par application de l'article 45 de la loi, la déchéance du droit de conduire est limitée à certains véhicules à moteur, la décision indique les catégories sur lesquelles porte la déchéance par référence à la classification prévue à <a href=\"#art-2\">l'article 2</a>.</p>",
+  "content_html_nl": "<p>Wanneer bij toepassing van artikel 45 van de wet, de vervallenverklaring van het recht tot sturen beperkt is tot sommige motorvoertuigen, vermeldt de beslissing op welke categorieën het verval slaat, met verwijzing naar de indeling bepaald in <a href=\"#art-2\">artikel 2</a>.</p>",
+  "full_text_fr": "Quand, par application de l'article 45 de la loi, la déchéance du droit de conduire est limitée à certains véhicules à moteur, la décision indique les catégories sur lesquelles porte la déchéance par référence à la classification prévue à l'article 2.",
+  "full_text_nl": "Wanneer bij toepassing van artikel 45 van de wet, de vervallenverklaring van het recht tot sturen beperkt is tot sommige motorvoertuigen, vermeldt de beslissing op welke categorieën het verval slaat, met verwijzing naar de indeling bepaald in artikel 2.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-2"
+  ],
+  "anchor_id_fr": "koplv2uzqy",
+  "anchor_id_nl": "ssz0unqgke",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "d60a8e842734",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "law_id": "1998",
+  "article_number": "22",
+  "slug": "art-22",
+  "structure": {
+    "titre": "III",
+    "chapitre": "III"
+  },
+  "title_fr": "Article 22.",
+  "title_nl": "Artikel 22.",
+  "title_ru": "",
+  "content_md_fr": "La durée de validité administrative et la date de fin de validité de chaque catégorie sont mentionnées sur le permis de conduire. La durée de validité administrative du permis de conduire est limitée à la durée de la validité de la catégorie pour laquelle le permis de conduire est le plus longtemps valable.\n\nLa durée de validité du permis de conduire visé à [l'article 21,](#art-21,) § 2 est indiquée dans la rubrique \"Restrictions/mentions\", précédés de la lettre « T ». Aux fins de l'application du présent alinéa, le titulaire sollicite, le cas échéant, un nouveau permis de conduire. La procédure prévue à [l'article 49](#art-49) est d'application.\n\nLa date de première délivrance de chaque catégorie est retranscrite lors de tout remplacement du permis de conduire.",
+  "content_md_nl": "De administratieve geldigheidsduur en de datum waarop de geldigheidsduur afloopt voor elke categorie worden op het rijbewijs vermeld. De administratieve geldigheidsduur van het rijbewijs wordt beperkt tot de geldigheidsduur van de categorie waarvoor het rijbewijs het langst geldig wordt verklaard.\n\nDe geldigheidsduur van het rijbewijs bedoeld in [artikel 21](#art-21), § 2 wordt aangeduid in de rubriek « Beperkingen/vermeldingen », voorafgegaan door de letter « T ». Voor de toepassing van dit lid vraagt de houder, in voorkomend geval, een nieuw rijbewijs aan. De procedure voorgeschreven in [artikel 49](#art-49) is van toepassing.\n\nDe eerste afgiftedatum van elke categorie wordt weer overgenomen op elke vervanging van het rijbewijs.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>La durée de validité administrative et la date de fin de validité de chaque catégorie sont mentionnées sur le permis de conduire. La durée de validité administrative du permis de conduire est limitée à la durée de la validité de la catégorie pour laquelle le permis de conduire est le plus longtemps valable.</p><p>La durée de validité du permis de conduire visé à <a href=\"#art-21,\">l'article 21,</a> § 2 est indiquée dans la rubrique \"Restrictions/mentions\", précédés de la lettre « T ». Aux fins de l'application du présent alinéa, le titulaire sollicite, le cas échéant, un nouveau permis de conduire. La procédure prévue à <a href=\"#art-49\">l'article 49</a> est d'application.</p><p>La date de première délivrance de chaque catégorie est retranscrite lors de tout remplacement du permis de conduire.</p>",
+  "content_html_nl": "<p>De administratieve geldigheidsduur en de datum waarop de geldigheidsduur afloopt voor elke categorie worden op het rijbewijs vermeld. De administratieve geldigheidsduur van het rijbewijs wordt beperkt tot de geldigheidsduur van de categorie waarvoor het rijbewijs het langst geldig wordt verklaard.</p><p>De geldigheidsduur van het rijbewijs bedoeld in <a href=\"#art-21\">artikel 21</a>, § 2 wordt aangeduid in de rubriek « Beperkingen/vermeldingen », voorafgegaan door de letter « T ». Voor de toepassing van dit lid vraagt de houder, in voorkomend geval, een nieuw rijbewijs aan. De procedure voorgeschreven in <a href=\"#art-49\">artikel 49</a> is van toepassing.</p><p>De eerste afgiftedatum van elke categorie wordt weer overgenomen op elke vervanging van het rijbewijs.</p>",
+  "full_text_fr": "La durée de validité administrative et la date de fin de validité de chaque catégorie sont mentionnées sur le permis de conduire. La durée de validité administrative du permis de conduire est limitée à la durée de la validité de la catégorie pour laquelle le permis de conduire est le plus longtemps valable.\n\nLa durée de validité du permis de conduire visé à l'article 21, § 2 est indiquée dans la rubrique \"Restrictions/mentions\", précédés de la lettre « T ». Aux fins de l'application du présent alinéa, le titulaire sollicite, le cas échéant, un nouveau permis de conduire. La procédure prévue à l'article 49 est d'application.\n\nLa date de première délivrance de chaque catégorie est retranscrite lors de tout remplacement du permis de conduire.",
+  "full_text_nl": "De administratieve geldigheidsduur en de datum waarop de geldigheidsduur afloopt voor elke categorie worden op het rijbewijs vermeld. De administratieve geldigheidsduur van het rijbewijs wordt beperkt tot de geldigheidsduur van de categorie waarvoor het rijbewijs het langst geldig wordt verklaard.\n\nDe geldigheidsduur van het rijbewijs bedoeld in artikel 21, § 2 wordt aangeduid in de rubriek « Beperkingen/vermeldingen », voorafgegaan door de letter « T ». Voor de toepassing van dit lid vraagt de houder, in voorkomend geval, een nieuw rijbewijs aan. De procedure voorgeschreven in artikel 49 is van toepassing.\n\nDe eerste afgiftedatum van elke categorie wordt weer overgenomen op elke vervanging van het rijbewijs.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-21,",
+    "#art-49"
+  ],
+  "anchor_id_fr": "fnrjzj6bzw",
+  "anchor_id_nl": "qgbzmvz7vl",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "d2034b3b4153",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "28",
+  "slug": "art-28",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 28",
+  "title_nl": "Artikel 28",
+  "title_ru": "",
+  "content_md_fr": "A l'article 41 du même arrêté, les mots « sur la demande de permis de conduire provisoire ou sur la demande de licence d'apprentissage » sont remplacés par les mots « ou sur la demande de permis de conduire provisoire ».",
+  "content_md_nl": "In artikel 41 van hetzelfde besluit, worden de woorden « op de aanvraag om een voorlopige rijbewijs of op de leervergunning » vervangen door de woorden « of op de aanvraag om een voorlopige rijbewijs ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 41 du même arrêté, les mots « sur la demande de permis de conduire provisoire ou sur la demande de licence d'apprentissage » sont remplacés par les mots « ou sur la demande de permis de conduire provisoire ».</p>",
+  "content_html_nl": "<p>In artikel 41 van hetzelfde besluit, worden de woorden « op de aanvraag om een voorlopige rijbewijs of op de leervergunning » vervangen door de woorden « of op de aanvraag om een voorlopige rijbewijs ».</p>",
+  "full_text_fr": "A l'article 41 du même arrêté, les mots « sur la demande de permis de conduire provisoire ou sur la demande de licence d'apprentissage » sont remplacés par les mots « ou sur la demande de permis de conduire provisoire ».",
+  "full_text_nl": "In artikel 41 van hetzelfde besluit, worden de woorden « op de aanvraag om een voorlopige rijbewijs of op de leervergunning » vervangen door de woorden « of op de aanvraag om een voorlopige rijbewijs ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "3aoa3f6vqe",
+  "anchor_id_nl": "6wl2wbngxe",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "3b22e141c5d8",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

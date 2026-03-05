@@ -1,0 +1,46 @@
+{
+  "law_id": "2006",
+  "article_number": "2",
+  "slug": "art-2",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 2 Région wallonne",
+  "title_nl": "Artikel 2 Waals Gewest",
+  "title_ru": "",
+  "content_md_fr": "**§ 1er.** Le candidat au permis de conduire de la catégorie B, peut participer à l’examen théorique à partir de l’âge de 17 ans.\n\n§ 2. Le candidat qui échoue deux fois de suite à l’examen théorique suit douze heures de formation théorique à la conduite auprès d’une école de conduite avant de pouvoir à nouveau être admis à l’examen théorique.",
+  "content_md_nl": "§ 1. De kandidaat voor het rijbewijs van categorie B mag deelnemen aan het theoretisch examen vanaf de leeftijd van 17 jaar.\n\n§ 2. De kandidaat die twee maal na elkaar niet slaagt voor het praktisch examen moet twaalf uren praktisch rijonderricht volgen bij een rijschool vooraleer hij terug toegelaten wordt tot het praktisch examen.\n\n> ℹ️ De woorden \"praktisch examen\" en \"praktisch rijonderricht\" dienen telkens gelezen te worden als \"theoretisch examen\" en \"theoretisch rijonderricht\". Het betreft een vertaalfout. Aangezien deze paragraaf is ingevoegd door een Besluit van de Waalse Regering, is de Nederlandstalige tekst (een vertaling) ondergeschikt aan de Franstalige tekst.",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>§ 1<sup>er</sup>.</strong> Le candidat au permis de conduire de la catégorie B, peut participer à l’examen théorique à partir de l’âge de 17 ans.</p><p>§ 2. Le candidat qui échoue deux fois de suite à l’examen théorique suit douze heures de formation théorique à la conduite auprès d’une école de conduite avant de pouvoir à nouveau être admis à l’examen théorique.</p>",
+  "content_html_nl": "<p>§ 1. De kandidaat voor het rijbewijs van categorie B mag deelnemen aan het theoretisch examen vanaf de leeftijd van 17 jaar.</p><p>§ 2. De kandidaat die twee maal na elkaar niet slaagt voor het praktisch examen moet twaalf uren praktisch rijonderricht volgen bij een rijschool vooraleer hij terug toegelaten wordt tot het praktisch examen.</p><div class=\"notification notification-primary\">De woorden \"praktisch examen\" en \"praktisch rijonderricht\" dienen telkens gelezen te worden als \"theoretisch examen\" en \"theoretisch rijonderricht\". Het betreft een vertaalfout. Aangezien deze paragraaf is ingevoegd door een Besluit van de Waalse Regering, is de Nederlandstalige tekst (een vertaling) ondergeschikt aan de Franstalige tekst.</div>",
+  "full_text_fr": "§ 1er. Le candidat au permis de conduire de la catégorie B, peut participer à l’examen théorique à partir de l’âge de 17 ans.\n\n§ 2. Le candidat qui échoue deux fois de suite à l’examen théorique suit douze heures de formation théorique à la conduite auprès d’une école de conduite avant de pouvoir à nouveau être admis à l’examen théorique.",
+  "full_text_nl": "§ 1. De kandidaat voor het rijbewijs van categorie B mag deelnemen aan het theoretisch examen vanaf de leeftijd van 17 jaar.\n\n§ 2. De kandidaat die twee maal na elkaar niet slaagt voor het praktisch examen moet twaalf uren praktisch rijonderricht volgen bij een rijschool vooraleer hij terug toegelaten wordt tot het praktisch examen.\n\n️ De woorden \"praktisch examen\" en \"praktisch rijonderricht\" dienen telkens gelezen te worden als \"theoretisch examen\" en \"theoretisch rijonderricht\". Het betreft een vertaalfout. Aangezien deze paragraaf is ingevoegd door een Besluit van de Waalse Regering, is de Nederlandstalige tekst (een vertaling) ondergeschikt aan de Franstalige tekst.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "De woorden \"praktisch examen\" en \"praktisch rijonderricht\" dienen telkens gelezen te worden als \"theoretisch examen\" en \"theoretisch rijonderricht\". Het betreft een vertaalfout. Aangezien deze paragraaf is ingevoegd door een Besluit van de Waalse Regering, is de Nederlandstalige tekst (een vertaling) ondergeschikt aan de Franstalige tekst."
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "vqhkq0vypl",
+  "anchor_id_nl": "3ykgukmawr",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "6c798ff5ce4f",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

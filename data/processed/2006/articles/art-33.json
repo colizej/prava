@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "33",
+  "slug": "art-33",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 33",
+  "title_nl": "Artikel 33",
+  "title_ru": "",
+  "content_md_fr": "A l'article 57, § 2, alinéa 1er, du même arrêté, les mots « et pour chaque licence d'apprentissage » sont supprimés.",
+  "content_md_nl": "In artikel 57, § 2, eerste lid van hetzelfde besluit, vervallen de woorden « en voor elke leervergunning ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 57, § 2, alinéa 1<sup>er</sup>, du même arrêté, les mots « et pour chaque licence d'apprentissage » sont supprimés.</p>",
+  "content_html_nl": "<p>In artikel 57, § 2, eerste lid van hetzelfde besluit, vervallen de woorden « en voor elke leervergunning ».</p>",
+  "full_text_fr": "A l'article 57, § 2, alinéa 1er, du même arrêté, les mots « et pour chaque licence d'apprentissage » sont supprimés.",
+  "full_text_nl": "In artikel 57, § 2, eerste lid van hetzelfde besluit, vervallen de woorden « en voor elke leervergunning ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "p8nk7biecy",
+  "anchor_id_nl": "koyuetnvli",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "aa23d9f93e3a",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

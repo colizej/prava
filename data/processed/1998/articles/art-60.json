@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "60",
+  "slug": "art-60",
+  "structure": {
+    "titre": "III",
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 60.",
+  "title_nl": "Artikel 60.",
+  "title_ru": "",
+  "content_md_fr": "Le Ministre ou son délégué détermine la destination à réserver aux formulaires de demande ainsi qu'aux fiches de renseignements relatives aux personnes décédées.",
+  "content_md_nl": "De Minister of zijn gemachtigde bepaalt de bestemming die moet worden gegeven aan de aanvraagformulieren en de inlichtingenfiches betreffende overledenen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le Ministre ou son délégué détermine la destination à réserver aux formulaires de demande ainsi qu'aux fiches de renseignements relatives aux personnes décédées.</p>",
+  "content_html_nl": "<p>De Minister of zijn gemachtigde bepaalt de bestemming die moet worden gegeven aan de aanvraagformulieren en de inlichtingenfiches betreffende overledenen.</p>",
+  "full_text_fr": "Le Ministre ou son délégué détermine la destination à réserver aux formulaires de demande ainsi qu'aux fiches de renseignements relatives aux personnes décédées.",
+  "full_text_nl": "De Minister of zijn gemachtigde bepaalt de bestemming die moet worden gegeven aan de aanvraagformulieren en de inlichtingenfiches betreffende overledenen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "hdj6rohi8k",
+  "anchor_id_nl": "qdffltdqak",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "ca7ec24de32a",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

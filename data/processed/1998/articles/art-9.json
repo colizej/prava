@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "9",
+  "slug": "art-9",
+  "structure": {
+    "titre": "III",
+    "chapitre": "II"
+  },
+  "title_fr": "Article 9.",
+  "title_nl": "Artikel 9.",
+  "title_ru": "",
+  "content_md_fr": "Le candidat âgé de moins de 24 ans n'est pas autorisé à conduire de vingt-deux heures jusqu'au lendemain à six heures le vendredi, le samedi, le dimanche, la veille des jours fériés légaux et les jours fériés légaux.\n\nLe titulaire d'un permis de conduire provisoire peut, outre le guide, être accompagné d'une seule autre personne.\n\n#### Section III. — Licence d’apprentissage (abrogé)",
+  "content_md_nl": "De kandidaat van minder dan 24 jaar mag niet rijden van tweeëntwintig uur tot zes uur 's anderendaags op vrijdag, zaterdag, zondag, de vooravond van de wettelijke feestdagen en de wettelijke feestdagen\n\nDe houder van een voorlopige rijbewijs mag, naast de begeleider, vergezeld zijn van één andere persoon.\n\n#### Afdeling III. — Leervergunning (opgeheven)",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le candidat âgé de moins de 24 ans n'est pas autorisé à conduire de vingt-deux heures jusqu'au lendemain à six heures le vendredi, le samedi, le dimanche, la veille des jours fériés légaux et les jours fériés légaux.</p><p>Le titulaire d'un permis de conduire provisoire peut, outre le guide, être accompagné d'une seule autre personne.</p><h4 id=\"2dgrvdsaqx\">Section III. — Licence d’apprentissage (abrogé)</h4>",
+  "content_html_nl": "<p>De kandidaat van minder dan 24 jaar mag niet rijden van tweeëntwintig uur tot zes uur 's anderendaags op vrijdag, zaterdag, zondag, de vooravond van de wettelijke feestdagen en de wettelijke feestdagen</p><p>De houder van een voorlopige rijbewijs mag, naast de begeleider, vergezeld zijn van één andere persoon.</p><h4 id=\"orulbezxsz\">Afdeling III. — Leervergunning (opgeheven)</h4>",
+  "full_text_fr": "Le candidat âgé de moins de 24 ans n'est pas autorisé à conduire de vingt-deux heures jusqu'au lendemain à six heures le vendredi, le samedi, le dimanche, la veille des jours fériés légaux et les jours fériés légaux.\n\nLe titulaire d'un permis de conduire provisoire peut, outre le guide, être accompagné d'une seule autre personne.\n\nSection III. — Licence d’apprentissage (abrogé)",
+  "full_text_nl": "De kandidaat van minder dan 24 jaar mag niet rijden van tweeëntwintig uur tot zes uur 's anderendaags op vrijdag, zaterdag, zondag, de vooravond van de wettelijke feestdagen en de wettelijke feestdagen\n\nDe houder van een voorlopige rijbewijs mag, naast de begeleider, vergezeld zijn van één andere persoon.\n\nAfdeling III. — Leervergunning (opgeheven)",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "mgbwfx784a",
+  "anchor_id_nl": "p7r2ivoj3w",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "4f95098437c5",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

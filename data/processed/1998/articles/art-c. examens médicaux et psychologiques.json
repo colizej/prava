@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "C. Examens médicaux et psychologiques",
+  "slug": "art-c. examens médicaux et psychologiques",
+  "structure": {
+    "titre": "11",
+    "chapitre": "31"
+  },
+  "title_fr": "C. Examens médicaux et psychologiques",
+  "title_nl": "",
+  "title_ru": "",
+  "content_md_fr": "Si l'intéressé doit subir tant un examen médical que psychologique, le médecin et le psychologue ne prennent une décision qu'après avoir pris connaissance des résultats de chacun.\n\nLe médecin est responsable de la décision finale. A cet effet, il se base tant sur sa décision que sur celle du psychologue.",
+  "content_md_nl": "",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Si l'intéressé doit subir tant un examen médical que psychologique, le médecin et le psychologue ne prennent une décision qu'après avoir pris connaissance des résultats de chacun.</p><p>Le médecin est responsable de la décision finale. A cet effet, il se base tant sur sa décision que sur celle du psychologue.</p>",
+  "content_html_nl": "",
+  "full_text_fr": "Si l'intéressé doit subir tant un examen médical que psychologique, le médecin et le psychologue ne prennent une décision qu'après avoir pris connaissance des résultats de chacun.\n\nLe médecin est responsable de la décision finale. A cet effet, il se base tant sur sa décision que sur celle du psychologue.",
+  "full_text_nl": "",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "tzs3w6ftaq",
+  "anchor_id_nl": "",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "874911b1492f",
+    "has_nl": false,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

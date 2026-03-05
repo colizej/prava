@@ -1,0 +1,53 @@
+{
+  "law_id": "1998",
+  "article_number": "53",
+  "slug": "art-53",
+  "structure": {
+    "titre": "III",
+    "chapitre": "VI"
+  },
+  "title_fr": "Article 53.",
+  "title_nl": "Artikel 53.",
+  "title_ru": "",
+  "content_md_fr": "Le permis de conduire international est conforme au modèle figurant à l'annexe 7 à la Convention sur la circulation routière et annexes, faites à Vienne le 8 novembre 1968.\n\nLe permis de conduire international est délivré par l'autorité visée à [l'article 7](#art-7) sur la remise d'une demande de permis de conduire international, dont le modèle est fixé par le Service public fédéral Mobilité et Transports.\n\n> ℹ️ Voir Arrêté ministériel du 27 mars 1998 déterminant les modèles de documents visés à l'arrêté royal du 23 mars 1998 relatif au permis de conduire.",
+  "content_md_nl": "Het internationale rijbewijs komt overeen met het model voorkomend in bijlage 7 van het Verdrag inzake het wegverkeer, en Bijlagen, opgemaakt te Wenen op 8 november 1968.\n\nHet internationale rijbewijs wordt uitgereikt door de overheid bedoeld in [artikel 7](#art-7) tegen afgifte van een aanvraag om een internationaal rijbewijs, waarvan het model door de Federale Overheidsdienst Mobiliteit en Vervoer is bepaald.\n\n> ℹ️ Zie Ministerieel besluit van 27 maart 1998 tot bepaling van de modellen van de documenten bedoeld in het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le permis de conduire international est conforme au modèle figurant à l'annexe 7 à la Convention sur la circulation routière et annexes, faites à Vienne le 8 novembre 1968.</p><p>Le permis de conduire international est délivré par l'autorité visée à <a href=\"#art-7\">l'article 7</a> sur la remise d'une demande de permis de conduire international, dont le modèle est fixé par le Service public fédéral Mobilité et Transports.</p><div class=\"notification notification-primary\">Voir <a href=\"/fr/perma/3ceg9kjwlk/regulation_regulation\">Arrêté ministériel du 27 mars 1998</a> déterminant les modèles de documents visés à l'arrêté royal du 23 mars 1998 relatif au permis de conduire.</div>",
+  "content_html_nl": "<p>Het internationale rijbewijs komt overeen met het model voorkomend in bijlage 7 van het Verdrag inzake het wegverkeer, en Bijlagen, opgemaakt te Wenen op 8 november 1968.</p><p>Het internationale rijbewijs wordt uitgereikt door de overheid bedoeld in <a href=\"#art-7\">artikel 7</a> tegen afgifte van een aanvraag om een internationaal rijbewijs, waarvan het model door de Federale Overheidsdienst Mobiliteit en Vervoer is bepaald.</p><div class=\"notification notification-primary\">Zie <a href=\"/nl/perma/3ceg9kjwlk/regulation_regulation\">Ministerieel besluit van 27 maart 1998</a> tot bepaling van de modellen van de documenten bedoeld in het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs.</div>",
+  "full_text_fr": "Le permis de conduire international est conforme au modèle figurant à l'annexe 7 à la Convention sur la circulation routière et annexes, faites à Vienne le 8 novembre 1968.\n\nLe permis de conduire international est délivré par l'autorité visée à l'article 7 sur la remise d'une demande de permis de conduire international, dont le modèle est fixé par le Service public fédéral Mobilité et Transports.\n\n️ Voir Arrêté ministériel du 27 mars 1998 déterminant les modèles de documents visés à l'arrêté royal du 23 mars 1998 relatif au permis de conduire.",
+  "full_text_nl": "Het internationale rijbewijs komt overeen met het model voorkomend in bijlage 7 van het Verdrag inzake het wegverkeer, en Bijlagen, opgemaakt te Wenen op 8 november 1968.\n\nHet internationale rijbewijs wordt uitgereikt door de overheid bedoeld in artikel 7 tegen afgifte van een aanvraag om een internationaal rijbewijs, waarvan het model door de Federale Overheidsdienst Mobiliteit en Vervoer is bepaald.\n\n️ Zie Ministerieel besluit van 27 maart 1998 tot bepaling van de modellen van de documenten bedoeld in het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "Voir Arrêté ministériel du 27 mars 1998 déterminant les modèles de documents visés à l'arrêté royal du 23 mars 1998 relatif au permis de conduire."
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Zie Ministerieel besluit van 27 maart 1998 tot bepaling van de modellen van de documenten bedoeld in het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs."
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-7"
+  ],
+  "anchor_id_fr": "h44rkzfwqh",
+  "anchor_id_nl": "bn1sldw8ju",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "91f3e8785131",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

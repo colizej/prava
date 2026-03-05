@@ -1,0 +1,43 @@
+{
+  "law_id": "1998",
+  "article_number": "30",
+  "slug": "art-30",
+  "structure": {
+    "titre": "III",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 30.",
+  "title_nl": "Artikel 30.",
+  "title_ru": "",
+  "content_md_fr": "Toute dispense de l'examen théorique et de l'examen pratique est inscrite sur la demande de permis de conduire, sur la demande de permis de conduire provisoire par l'autorité visée à [l'article 7](#art-7).\n\n#### Section IV. — Examen théorique",
+  "content_md_nl": "Elke vrijstelling van het theoretische examen en van het praktische examen wordt op de aanvraag om een rijbewijs, op de aanvraag om een voorlopig rijbewijs vermeld door de overheid bedoeld in het [artikel 7](#art-7) .\n\n#### Afdeling IV. — Theoretisch examen",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Toute dispense de l'examen théorique et de l'examen pratique est inscrite sur la demande de permis de conduire, sur la demande de permis de conduire provisoire par l'autorité visée à <a href=\"#art-7\">l'article 7</a>.</p><h4 id=\"ubhgjbfxlw\">Section IV. — Examen théorique</h4>",
+  "content_html_nl": "<p>Elke vrijstelling van het theoretische examen en van het praktische examen wordt op de aanvraag om een rijbewijs, op de aanvraag om een voorlopig rijbewijs vermeld door de overheid bedoeld in het <a href=\"#art-7\">artikel 7</a> .</p><h4 id=\"dvwjpkxh8y\">Afdeling IV. — Theoretisch examen</h4>",
+  "full_text_fr": "Toute dispense de l'examen théorique et de l'examen pratique est inscrite sur la demande de permis de conduire, sur la demande de permis de conduire provisoire par l'autorité visée à l'article 7.\n\nSection IV. — Examen théorique",
+  "full_text_nl": "Elke vrijstelling van het theoretische examen en van het praktische examen wordt op de aanvraag om een rijbewijs, op de aanvraag om een voorlopig rijbewijs vermeld door de overheid bedoeld in het artikel 7 .\n\nAfdeling IV. — Theoretisch examen",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-7"
+  ],
+  "anchor_id_fr": "rkqtoqibhg",
+  "anchor_id_nl": "ha4vailjoo",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "b0d1348d61c8",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "66",
+  "slug": "art-66",
+  "structure": {
+    "titre": "IV",
+    "chapitre": "I"
+  },
+  "title_fr": "Article 66.",
+  "title_nl": "Artikel 66.",
+  "title_ru": "",
+  "content_md_fr": "*(Abrogé)*",
+  "content_md_nl": "*(Opgeheven)*",
+  "content_md_ru": "",
+  "content_html_fr": "<p><em>(Abrogé)</em></p>",
+  "content_html_nl": "<p><em>(Opgeheven)</em></p>",
+  "full_text_fr": "(Abrogé)",
+  "full_text_nl": "(Opgeheven)",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "qwl428jfxx",
+  "anchor_id_nl": "l51iuxq96f",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "72499fb569c6",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

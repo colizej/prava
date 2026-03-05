@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "59",
+  "slug": "art-59",
+  "structure": {
+    "titre": "III",
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 59.",
+  "title_nl": "Artikel 59.",
+  "title_ru": "",
+  "content_md_fr": "Si une personne, au nom de laquelle existe une fiche de renseignements ou une fiche de renseignements provisoire, s'inscrit ou est mentionnée dans le registre de la population ou des étrangers ou dans le registre d'attente dans une autre commune, la fiche de l'intéressé est transmise au bourgmestre de cette commune ou son délégué; ce dernier y mentionne la nouvelle résidence et la date d'inscription.",
+  "content_md_nl": "Indien een persoon, op wiens naam een inlichtingenfiche of een voorlopige inlichtingenfiche bestaat, zich inschrijft of vermeld wordt in het bevolkings-, vreemdelingen- of wachtregister van een andere gemeente, wordt de fiche van de belanghebbende naar de burgemeester van die gemeente of zijn gemachtigde gezonden; deze laatste vermeldt daarop de nieuwe verblijfplaats alsook de datum van de inschrijving.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Si une personne, au nom de laquelle existe une fiche de renseignements ou une fiche de renseignements provisoire, s'inscrit ou est mentionnée dans le registre de la population ou des étrangers ou dans le registre d'attente dans une autre commune, la fiche de l'intéressé est transmise au bourgmestre de cette commune ou son délégué; ce dernier y mentionne la nouvelle résidence et la date d'inscription.</p>",
+  "content_html_nl": "<p>Indien een persoon, op wiens naam een inlichtingenfiche of een voorlopige inlichtingenfiche bestaat, zich inschrijft of vermeld wordt in het bevolkings-, vreemdelingen- of wachtregister van een andere gemeente, wordt de fiche van de belanghebbende naar de burgemeester van die gemeente of zijn gemachtigde gezonden; deze laatste vermeldt daarop de nieuwe verblijfplaats alsook de datum van de inschrijving.</p>",
+  "full_text_fr": "Si une personne, au nom de laquelle existe une fiche de renseignements ou une fiche de renseignements provisoire, s'inscrit ou est mentionnée dans le registre de la population ou des étrangers ou dans le registre d'attente dans une autre commune, la fiche de l'intéressé est transmise au bourgmestre de cette commune ou son délégué; ce dernier y mentionne la nouvelle résidence et la date d'inscription.",
+  "full_text_nl": "Indien een persoon, op wiens naam een inlichtingenfiche of een voorlopige inlichtingenfiche bestaat, zich inschrijft of vermeld wordt in het bevolkings-, vreemdelingen- of wachtregister van een andere gemeente, wordt de fiche van de belanghebbende naar de burgemeester van die gemeente of zijn gemachtigde gezonden; deze laatste vermeldt daarop de nieuwe verblijfplaats alsook de datum van de inschrijving.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ljuhqhplc0",
+  "anchor_id_nl": "sg7c6arhqv",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "b66cd676d926",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

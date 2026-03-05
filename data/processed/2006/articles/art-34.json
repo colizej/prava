@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "34",
+  "slug": "art-34",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 34",
+  "title_nl": "Artikel 34",
+  "title_ru": "",
+  "content_md_fr": "A l'article 58, § 2, alinéa 1er, du même arrêté, les mots « licences d'apprentissage » sont supprimés.",
+  "content_md_nl": "In artikel 58, § 2, eerste lid van hetzelfde besluit, vervallen de woorden « de leervergunningen ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 58, § 2, alinéa 1<sup>er</sup>, du même arrêté, les mots « licences d'apprentissage » sont supprimés.</p>",
+  "content_html_nl": "<p>In artikel 58, § 2, eerste lid van hetzelfde besluit, vervallen de woorden « de leervergunningen ».</p>",
+  "full_text_fr": "A l'article 58, § 2, alinéa 1er, du même arrêté, les mots « licences d'apprentissage » sont supprimés.",
+  "full_text_nl": "In artikel 58, § 2, eerste lid van hetzelfde besluit, vervallen de woorden « de leervergunningen ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "eiq21ec1rb",
+  "anchor_id_nl": "ur24ser5ds",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "26dc0c3358e5",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

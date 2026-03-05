@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "10",
+  "slug": "art-10",
+  "structure": {
+    "titre": "III",
+    "chapitre": "II"
+  },
+  "title_fr": "Article. 10-13. (Abrogé)",
+  "title_nl": "Artikel 10-13. (Opgeheven)",
+  "title_ru": "",
+  "content_md_fr": "#### Section IV. — Enseignement théorique et pratique dispensé par les écoles de conduite",
+  "content_md_nl": "#### Afdeling IV. — Theoretisch en praktisch onderricht verstrekt door de rijscholen",
+  "content_md_ru": "",
+  "content_html_fr": "<h4 id=\"oes6vvpm5m\">Section IV. — Enseignement théorique et pratique dispensé par les écoles de conduite</h4>",
+  "content_html_nl": "<h4 id=\"0j9r3xpftr\">Afdeling IV. — Theoretisch en praktisch onderricht verstrekt door de rijscholen</h4>",
+  "full_text_fr": "Section IV. — Enseignement théorique et pratique dispensé par les écoles de conduite",
+  "full_text_nl": "Afdeling IV. — Theoretisch en praktisch onderricht verstrekt door de rijscholen",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ay47lo4dda",
+  "anchor_id_nl": "958hzdoqcl",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "6b6ea2b3b1d4",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "30",
+  "slug": "art-30",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 30",
+  "title_nl": "Artikel 30",
+  "title_ru": "",
+  "content_md_fr": "L'intitulé du chapitre V du même arrêté est remplacé par l'intitulé suivant :\n\n« Chapitre V. - Du remplacement et du duplicata du permis de conduire et du permis de conduire provisoire ».",
+  "content_md_nl": "Het opschrift van hoofdstuk V van hetzelfde besluit wordt vervangen als volgt :\n\n« Hoofdstuk V. - Vervanging en duplicaten van het rijbewijs en van het voorlopige rijbewijs ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'intitulé du chapitre V du même arrêté est remplacé par l'intitulé suivant :</p><p style=\"padding-left: 30px;\">« Chapitre V. - Du remplacement et du duplicata du permis de conduire et du permis de conduire provisoire ».</p>",
+  "content_html_nl": "<p>Het opschrift van hoofdstuk V van hetzelfde besluit wordt vervangen als volgt :</p><p style=\"padding-left: 30px;\">« Hoofdstuk V. - Vervanging en duplicaten van het rijbewijs en van het voorlopige rijbewijs ».</p>",
+  "full_text_fr": "L'intitulé du chapitre V du même arrêté est remplacé par l'intitulé suivant :\n\n« Chapitre V. - Du remplacement et du duplicata du permis de conduire et du permis de conduire provisoire ».",
+  "full_text_nl": "Het opschrift van hoofdstuk V van hetzelfde besluit wordt vervangen als volgt :\n\n« Hoofdstuk V. - Vervanging en duplicaten van het rijbewijs en van het voorlopige rijbewijs ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "s3mv6viyoe",
+  "anchor_id_nl": "e2njmq5cp7",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "b0efa3a88eac",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

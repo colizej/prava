@@ -1,0 +1,50 @@
+{
+  "law_id": "1998",
+  "article_number": "C. MODE DE CORRECTION",
+  "slug": "art-c. mode de correction",
+  "structure": {
+    "titre": "11",
+    "chapitre": "17"
+  },
+  "title_fr": "C. MODE DE CORRECTION",
+  "title_nl": "",
+  "title_ru": "",
+  "content_md_fr": "Le Ministre ou son délégué détermine la procédure de correction de l'examen théorique.\n\n> ℹ️ En ce qui concerne la Région flamande, le mot « Ministre » est remplacé par les mots « Ministre flamand ».\n\n> ℹ️ En ce qui concerne la Région wallonne, le mot « Ministre » est remplacé par les mots « Ministre wallon ».",
+  "content_md_nl": "",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le Ministre ou son délégué détermine la procédure de correction de l'examen théorique.</p><div class=\"notification notification-primary\">En ce qui concerne la Région flamande, le mot « Ministre » est remplacé par les mots « Ministre flamand ».</div><div class=\"notification notification-primary\">En ce qui concerne la Région wallonne, le mot « Ministre » est remplacé par les mots « Ministre wallon ».</div>",
+  "content_html_nl": "",
+  "full_text_fr": "Le Ministre ou son délégué détermine la procédure de correction de l'examen théorique.\n\n️ En ce qui concerne la Région flamande, le mot « Ministre » est remplacé par les mots « Ministre flamand ».\n\n️ En ce qui concerne la Région wallonne, le mot « Ministre » est remplacé par les mots « Ministre wallon ».",
+  "full_text_nl": "",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "En ce qui concerne la Région flamande, le mot « Ministre » est remplacé par les mots « Ministre flamand »."
+    },
+    {
+      "type": "primary",
+      "text": "En ce qui concerne la Région wallonne, le mot « Ministre » est remplacé par les mots « Ministre wallon »."
+    }
+  ],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "r1uag5pq51",
+  "anchor_id_nl": "",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "d4a82a0ba035",
+    "has_nl": false,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

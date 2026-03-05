@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "21",
+  "slug": "art-21",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 21",
+  "title_nl": "Artikel 21",
+  "title_ru": "",
+  "content_md_fr": "L'article 29, 2°, alinéa 2 du même arrêté, est remplacé par la disposition suivante :\n\n« Le candidat au permis de conduire valable pour la catégorie B effectue, en outre, un apprentissage d'au moins trois mois sous le couvert d'un permis de conduire provisoire, visé à l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de la catégorie B. »",
+  "content_md_nl": "Artikel 29, 2°, tweede lid van hetzelfde besluit wordt vervangen als volgt :\n\n« De kandidaat voor het rijbewijs geldig voor de categorie B volgt daarenboven een scholing van ten minste drie maanden op basis van een voorlopige rijbewijs, bedoeld in het koninklijk besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van de categorie B. ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'article 29, 2°, alinéa 2 du même arrêté, est remplacé par la disposition suivante :</p><p style=\"padding-left: 30px;\">« Le candidat au permis de conduire valable pour la catégorie B effectue, en outre, un apprentissage d'au moins trois mois sous le couvert d'un permis de conduire provisoire, visé à l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de la catégorie B. »</p>",
+  "content_html_nl": "<p>Artikel 29, 2°, tweede lid van hetzelfde besluit wordt vervangen als volgt :</p><p style=\"padding-left: 30px;\">« De kandidaat voor het rijbewijs geldig voor de categorie B volgt daarenboven een scholing van ten minste drie maanden op basis van een voorlopige rijbewijs, bedoeld in het koninklijk besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van de categorie B. ».</p>",
+  "full_text_fr": "L'article 29, 2°, alinéa 2 du même arrêté, est remplacé par la disposition suivante :\n\n« Le candidat au permis de conduire valable pour la catégorie B effectue, en outre, un apprentissage d'au moins trois mois sous le couvert d'un permis de conduire provisoire, visé à l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de la catégorie B. »",
+  "full_text_nl": "Artikel 29, 2°, tweede lid van hetzelfde besluit wordt vervangen als volgt :\n\n« De kandidaat voor het rijbewijs geldig voor de categorie B volgt daarenboven een scholing van ten minste drie maanden op basis van een voorlopige rijbewijs, bedoeld in het koninklijk besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van de categorie B. ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "bxagv9riwb",
+  "anchor_id_nl": "idx68nyo9j",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "37d134e69d76",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

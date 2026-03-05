@@ -1,0 +1,43 @@
+{
+  "law_id": "1998",
+  "article_number": "49",
+  "slug": "art-49",
+  "structure": {
+    "titre": "III",
+    "chapitre": "V"
+  },
+  "title_fr": "Article 49.",
+  "title_nl": "Artikel 49.",
+  "title_ru": "",
+  "content_md_fr": "Le titulaire d'un permis de conduire qui désire obtenir un permis de conduire valable pour une ou plusieurs catégories de véhicules à moteur autres que celles pour lesquelles le document initial a été délivré introduit une nouvelle demande conformément à la procédure décrite au présent arrêté; un nouveau permis de conduire est délivré et le document initial est restitué à l'autorité visée à [l'article 7](#art-7).\n\nLa même procédure est applicable au titulaire d'un permis de conduire portant le code 78 qui désire obtenir un permis de conduire sur lequel n'apparaît pas cette mention et au titulaire qui désire obtenir un permis de conduire sur lequel apparaît le code 96.",
+  "content_md_nl": "De houder van een rijbewijs die een rijbewijs wenst te verkrijgen geldig voor één of meerdere andere categorieën van motorvoertuigen dan die waarvoor het oorspronkelijke document werd afgegeven, dient een nieuwe aanvraag in overeenkomstig de in dit besluit beschreven procedure; hij bekomt een nieuw rijbewijs en het oorspronkelijke document wordt teruggegeven aan de overheid bedoeld in [artikel 7](#art-7).\n\nDezelfde procedure is van toepassing op de houder van een rijbewijs met de code 78 die een rijbewijs wil behalen waarop deze vermelding niet voorkomt en op de houder die een rijbewijs wil behalen waarop de code 96 voorkomt.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le titulaire d'un permis de conduire qui désire obtenir un permis de conduire valable pour une ou plusieurs catégories de véhicules à moteur autres que celles pour lesquelles le document initial a été délivré introduit une nouvelle demande conformément à la procédure décrite au présent arrêté; un nouveau permis de conduire est délivré et le document initial est restitué à l'autorité visée à <a href=\"#art-7\">l'article 7</a>.</p><p>La même procédure est applicable au titulaire d'un permis de conduire portant le code 78 qui désire obtenir un permis de conduire sur lequel n'apparaît pas cette mention et au titulaire qui désire obtenir un permis de conduire sur lequel apparaît le code 96.</p>",
+  "content_html_nl": "<p>De houder van een rijbewijs die een rijbewijs wenst te verkrijgen geldig voor één of meerdere andere categorieën van motorvoertuigen dan die waarvoor het oorspronkelijke document werd afgegeven, dient een nieuwe aanvraag in overeenkomstig de in dit besluit beschreven procedure; hij bekomt een nieuw rijbewijs en het oorspronkelijke document wordt teruggegeven aan de overheid bedoeld in <a href=\"#art-7\">artikel 7</a>.</p><p>Dezelfde procedure is van toepassing op de houder van een rijbewijs met de code 78 die een rijbewijs wil behalen waarop deze vermelding niet voorkomt en op de houder die een rijbewijs wil behalen waarop de code 96 voorkomt.</p>",
+  "full_text_fr": "Le titulaire d'un permis de conduire qui désire obtenir un permis de conduire valable pour une ou plusieurs catégories de véhicules à moteur autres que celles pour lesquelles le document initial a été délivré introduit une nouvelle demande conformément à la procédure décrite au présent arrêté; un nouveau permis de conduire est délivré et le document initial est restitué à l'autorité visée à l'article 7.\n\nLa même procédure est applicable au titulaire d'un permis de conduire portant le code 78 qui désire obtenir un permis de conduire sur lequel n'apparaît pas cette mention et au titulaire qui désire obtenir un permis de conduire sur lequel apparaît le code 96.",
+  "full_text_nl": "De houder van een rijbewijs die een rijbewijs wenst te verkrijgen geldig voor één of meerdere andere categorieën van motorvoertuigen dan die waarvoor het oorspronkelijke document werd afgegeven, dient een nieuwe aanvraag in overeenkomstig de in dit besluit beschreven procedure; hij bekomt een nieuw rijbewijs en het oorspronkelijke document wordt teruggegeven aan de overheid bedoeld in artikel 7.\n\nDezelfde procedure is van toepassing op de houder van een rijbewijs met de code 78 die een rijbewijs wil behalen waarop deze vermelding niet voorkomt en op de houder die een rijbewijs wil behalen waarop de code 96 voorkomt.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-7"
+  ],
+  "anchor_id_fr": "faqjvjp9vz",
+  "anchor_id_nl": "xr8fpz6y7b",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "6caab26bfd5f",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

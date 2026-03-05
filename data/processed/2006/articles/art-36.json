@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "36",
+  "slug": "art-36",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 36",
+  "title_nl": "Artikel 36",
+  "title_ru": "",
+  "content_md_fr": "A l'article 62, § 2, du même arrêté, modifié par l'arrêté royal du 20 juillet 2005, sont apportées les modifications suivantes :\n\n**1°** à l'alinéa 1er, les mots « de licences d'apprentissage » sont supprimés;\n\n**2°** à l'alinéa 2, les mots « les permis de conduire provisoires et les licences d'apprentissage » sont remplacés par les mots « et les permis de conduire provisoires ».",
+  "content_md_nl": "In artikel 62, § 2, van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 20 juli 2005, worden de volgende wijzigingen aangebracht :\n\n**1°** in het eerste lid, vervallen de woorden « leervergunningen »;\n\n**2°** in het tweede lid, worden de woorden « de voorlopige rijbewijzen en de leervergunningen » vervangen door de woorden « en de voorlopige rijbewijzen ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 62, § 2, du même arrêté, modifié par l'arrêté royal du 20 juillet 2005, sont apportées les modifications suivantes :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> à l'alinéa 1<sup>er</sup>, les mots « de licences d'apprentissage » sont supprimés;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> à l'alinéa 2, les mots « les permis de conduire provisoires et les licences d'apprentissage » sont remplacés par les mots « et les permis de conduire provisoires ».</p>",
+  "content_html_nl": "<p>In artikel 62, § 2, van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 20 juli 2005, worden de volgende wijzigingen aangebracht :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> in het eerste lid, vervallen de woorden « leervergunningen »;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> in het tweede lid, worden de woorden « de voorlopige rijbewijzen en de leervergunningen » vervangen door de woorden « en de voorlopige rijbewijzen ».</p>",
+  "full_text_fr": "A l'article 62, § 2, du même arrêté, modifié par l'arrêté royal du 20 juillet 2005, sont apportées les modifications suivantes :\n\n1° à l'alinéa 1er, les mots « de licences d'apprentissage » sont supprimés;\n\n2° à l'alinéa 2, les mots « les permis de conduire provisoires et les licences d'apprentissage » sont remplacés par les mots « et les permis de conduire provisoires ».",
+  "full_text_nl": "In artikel 62, § 2, van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 20 juli 2005, worden de volgende wijzigingen aangebracht :\n\n1° in het eerste lid, vervallen de woorden « leervergunningen »;\n\n2° in het tweede lid, worden de woorden « de voorlopige rijbewijzen en de leervergunningen » vervangen door de woorden « en de voorlopige rijbewijzen ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "fs5o5lqacy",
+  "anchor_id_nl": "qj4adp9rga",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "bfd2a94a2802",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

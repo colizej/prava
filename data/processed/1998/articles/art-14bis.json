@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "14bis",
+  "slug": "art-14bis",
+  "structure": {
+    "titre": "III",
+    "chapitre": "II"
+  },
+  "title_fr": "Article 14bis. (uniquement Région wallonne)",
+  "title_nl": "Artikel 14bis. (enkel Waals Gewest)",
+  "title_ru": "",
+  "content_md_fr": "Le candidat au permis de la catégorie B qui a échoué à deux reprises consécutives au test de perception des risques suit trois heures de cours en école de conduite avant de pouvoir à nouveau se présenter au test. Les cours théoriques sont combinés avec des cours pratiques.",
+  "content_md_nl": "De kandidaat voor het rijbewijs van categorie B die twee keer op een rij niet geslaagd is voor de risicoperceptietest volgt drie uur lessen in een rijschool voordat hij de test opnieuw kan afleggen. De theoretische cursussen worden gecombineerd met praktische cursussen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le candidat au permis de la catégorie B qui a échoué à deux reprises consécutives au test de perception des risques suit trois heures de cours en école de conduite avant de pouvoir à nouveau se présenter au test. Les cours théoriques sont combinés avec des cours pratiques.</p>",
+  "content_html_nl": "<p>De kandidaat voor het rijbewijs van categorie B die twee keer op een rij niet geslaagd is voor de risicoperceptietest volgt drie uur lessen in een rijschool voordat hij de test opnieuw kan afleggen. De theoretische cursussen worden gecombineerd met praktische cursussen.</p>",
+  "full_text_fr": "Le candidat au permis de la catégorie B qui a échoué à deux reprises consécutives au test de perception des risques suit trois heures de cours en école de conduite avant de pouvoir à nouveau se présenter au test. Les cours théoriques sont combinés avec des cours pratiques.",
+  "full_text_nl": "De kandidaat voor het rijbewijs van categorie B die twee keer op een rij niet geslaagd is voor de risicoperceptietest volgt drie uur lessen in een rijschool voordat hij de test opnieuw kan afleggen. De theoretische cursussen worden gecombineerd met praktische cursussen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "9jffgmhi3i",
+  "anchor_id_nl": "1wg3zneb4c",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "49846de86760",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

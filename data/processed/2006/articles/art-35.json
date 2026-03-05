@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "35",
+  "slug": "art-35",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 35",
+  "title_nl": "Artikel 35",
+  "title_ru": "",
+  "content_md_fr": "A l'article 61, alinéa 1er, du même arrêté, modifié par l'arrêté royal du 20 juillet 2000, les mots « Délivrance et remplacement d'une licence d'apprentissage : 9 EUR » et les mots « Délivrance d'un duplicata d'une licence d'apprentissage : 7,50 EUR » sont supprimés.",
+  "content_md_nl": "In artikel 61, eerste lid van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 20 juli 2000 vervallen de woorden Afgifte of vervanging van een leervergunning : 9,00 EUR » en de woorden « Afgifte van een duplicaat van een leervergunning : 7,50 EUR ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 61, alinéa 1<sup>er</sup>, du même arrêté, modifié par l'arrêté royal du 20 juillet 2000, les mots « Délivrance et remplacement d'une licence d'apprentissage : 9 EUR » et les mots « Délivrance d'un duplicata d'une licence d'apprentissage : 7,50 EUR » sont supprimés.</p>",
+  "content_html_nl": "<p>In artikel 61, eerste lid van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 20 juli 2000 vervallen de woorden Afgifte of vervanging van een leervergunning : 9,00 EUR » en de woorden « Afgifte van een duplicaat van een leervergunning : 7,50 EUR ».</p>",
+  "full_text_fr": "A l'article 61, alinéa 1er, du même arrêté, modifié par l'arrêté royal du 20 juillet 2000, les mots « Délivrance et remplacement d'une licence d'apprentissage : 9 EUR » et les mots « Délivrance d'un duplicata d'une licence d'apprentissage : 7,50 EUR » sont supprimés.",
+  "full_text_nl": "In artikel 61, eerste lid van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 20 juli 2000 vervallen de woorden Afgifte of vervanging van een leervergunning : 9,00 EUR » en de woorden « Afgifte van een duplicaat van een leervergunning : 7,50 EUR ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "1gmmmdrtl6",
+  "anchor_id_nl": "txlzklbm53",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "d82d917f690b",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

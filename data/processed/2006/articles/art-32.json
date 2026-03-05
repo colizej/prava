@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "32",
+  "slug": "art-32",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 32",
+  "title_nl": "Artikel 32",
+  "title_ru": "",
+  "content_md_fr": "A l'article 52 du même arrêté, les mots « un permis de conduire provisoire ou une licence d'apprentissage » sont remplacés par les mots « ou un permis de conduire provisoire ».",
+  "content_md_nl": "In artikel 52 van hetzelfde besluit, worden de woorden « een voorlopige rijbewijs of een leervergunning » vervangen door de woorden « of een voorlopige rijbewijs ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 52 du même arrêté, les mots « un permis de conduire provisoire ou une licence d'apprentissage » sont remplacés par les mots « ou un permis de conduire provisoire ».</p>",
+  "content_html_nl": "<p>In artikel 52 van hetzelfde besluit, worden de woorden « een voorlopige rijbewijs of een leervergunning » vervangen door de woorden « of een voorlopige rijbewijs ».</p>",
+  "full_text_fr": "A l'article 52 du même arrêté, les mots « un permis de conduire provisoire ou une licence d'apprentissage » sont remplacés par les mots « ou un permis de conduire provisoire ».",
+  "full_text_nl": "In artikel 52 van hetzelfde besluit, worden de woorden « een voorlopige rijbewijs of een leervergunning » vervangen door de woorden « of een voorlopige rijbewijs ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "ifa2n5mpwx",
+  "anchor_id_nl": "bavusoeor6",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "a8aec1c135eb",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

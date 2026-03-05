@@ -1,0 +1,49 @@
+{
+  "law_id": "1998",
+  "article_number": "51",
+  "slug": "art-51",
+  "structure": {
+    "titre": "III",
+    "chapitre": "V"
+  },
+  "title_fr": "Article 51.",
+  "title_nl": "Artikel 51.",
+  "title_ru": "",
+  "content_md_fr": "Le titulaire d'un permis de conduire européen répondant aux conditions de [l'article 27, 2°](#art-27-2) obtient, dans les cas prévus à [l'article 50,](#art-50,) § 1er, un permis de conduire belge sur la base des données dans le réseau européen des permis de conduire, ou d'une attestation des autorités compétentes de l'État membre ayant délivré le permis de conduire initial.",
+  "content_md_nl": "De houder van een Europees rijbewijs beantwoordend aan de voorwaarden van [artikel 27.2°](#art-27.2) bekomt, in de gevallen voorgeschreven in [artikel 50](#art-50) §1, een Belgisch rijbewijs op basis van de gegevens het Europees rijbewijzennetwerk, of van een attest van de bevoegde overheden van de Lid-Staat die het oorspronkelijke rijbewijs hebben afgegeven.\n\n> ℹ️ Sinds de wijziging van 16 november 2023 ontbreekt na het woord \"gegevens\" het woord \"in\".",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le titulaire d'un permis de conduire européen répondant aux conditions de <a href=\"#art-27-2\">l'article 27, 2°</a> obtient, dans les cas prévus à <a href=\"#art-50,\">l'article 50,</a> § 1<sup>er</sup>, un permis de conduire belge sur la base des données dans le réseau européen des permis de conduire, ou d'une attestation des autorités compétentes de l'État membre ayant délivré le permis de conduire initial.</p>",
+  "content_html_nl": "<p>De houder van een Europees rijbewijs beantwoordend aan de voorwaarden van <a href=\"#art-27.2\">artikel 27.2°</a> bekomt, in de gevallen voorgeschreven in <a href=\"#art-50\">artikel 50</a> §1, een Belgisch rijbewijs op basis van de gegevens het Europees rijbewijzennetwerk, of van een attest van de bevoegde overheden van de Lid-Staat die het oorspronkelijke rijbewijs hebben afgegeven.</p><div class=\"notification notification-primary\">Sinds de wijziging van 16 november 2023 ontbreekt na het woord \"gegevens\" het woord \"in\".</div>",
+  "full_text_fr": "Le titulaire d'un permis de conduire européen répondant aux conditions de l'article 27, 2° obtient, dans les cas prévus à l'article 50, § 1er, un permis de conduire belge sur la base des données dans le réseau européen des permis de conduire, ou d'une attestation des autorités compétentes de l'État membre ayant délivré le permis de conduire initial.",
+  "full_text_nl": "De houder van een Europees rijbewijs beantwoordend aan de voorwaarden van artikel 27.2° bekomt, in de gevallen voorgeschreven in artikel 50 §1, een Belgisch rijbewijs op basis van de gegevens het Europees rijbewijzennetwerk, of van een attest van de bevoegde overheden van de Lid-Staat die het oorspronkelijke rijbewijs hebben afgegeven.\n\n️ Sinds de wijziging van 16 november 2023 ontbreekt na het woord \"gegevens\" het woord \"in\".",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Sinds de wijziging van 16 november 2023 ontbreekt na het woord \"gegevens\" het woord \"in\"."
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-27-2",
+    "#art-50,"
+  ],
+  "anchor_id_fr": "8bov3wvd6x",
+  "anchor_id_nl": "bxidecdp6i",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "8fd04fcd65c8",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

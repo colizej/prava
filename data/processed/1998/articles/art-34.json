@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "34",
+  "slug": "art-34",
+  "structure": {
+    "titre": "III",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 34. Région wallonne",
+  "title_nl": "Artikel 34. Waals Gewest",
+  "title_ru": "",
+  "content_md_fr": "Un candidat qui remplit les conditions suivantes est admis à l’examen pratique :\n\n1° il a réussi l’examen théorique de la Région wallonne depuis moins de trois ans, sauf s’il en est dispensé ;\n\n2° il a atteint l’âge minimum requis pour l’obtention d’un permis de conduire, visé aux articles 18 et 19 ;\n\n3° il n’a pas été exclu de la participation à un examen en raison d’une irrégularité ;\n\n4° il se présente avec un guide, un instructeur, un instructeur stagiaire ou toute autre personne qui n’est pas exclu de l’accompagnement des candidats lors d’un examen en raison d’une irrégularité.\n\nL'examen pratique peut avoir lieu au plus tôt un mois après la délivrance du permis de conduire provisoire model 3.",
+  "content_md_nl": "Een kandidaat die voldoet aan de volgende voorwaarden, kan tot het praktische examen worden toegelaten:\n\n1° hij/zij is sinds minder dan drie jaar geslaagd voor het theoretische examen van hetWaalse Gewest of is daarvan vrijgesteld;\n\n2° hij/zij heeft de minimumleeftijd voor het behalen van een rijbewijs, vermeld in artikel 18 en 19, bereikt;\n\n3° hij/zij is niet wegens een onregelmatigheid uitgesloten van het afleggen van een examen;\n\n4° hij/zij biedt zich aan met een begeleider, een instructeur, een stagiair-instructeur of enige andere persoon die niet wegens een onregelmatigheid uitgesloten is van het begeleiden van kandidaten tijdens een examen.\n\nHet praktisch examen kan op zijn vroegst één maand na de afgifte van het voorlopige rijbewijs model 3 plaatsvinden.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Un candidat qui remplit les conditions suivantes est admis à l’examen pratique :</p><p style=\"padding-left: 40px;\">1° il a réussi l’examen théorique de la Région wallonne depuis moins de trois ans, sauf s’il en est dispensé ;</p><p style=\"padding-left: 40px;\">2° il a atteint l’âge minimum requis pour l’obtention d’un permis de conduire, visé aux articles 18 et 19 ;</p><p style=\"padding-left: 40px;\">3° il n’a pas été exclu de la participation à un examen en raison d’une irrégularité ;</p><p style=\"padding-left: 40px;\">4° il se présente avec un guide, un instructeur, un instructeur stagiaire ou toute autre personne qui n’est pas exclu de l’accompagnement des candidats lors d’un examen en raison d’une irrégularité.</p><p>L'examen pratique peut avoir lieu au plus tôt un mois après la délivrance du permis de conduire provisoire model 3.</p>",
+  "content_html_nl": "<p>Een kandidaat die voldoet aan de volgende voorwaarden, kan tot het praktische examen worden toegelaten:</p><p style=\"padding-left: 40px;\">1° hij/zij is sinds minder dan drie jaar geslaagd voor het theoretische examen van hetWaalse Gewest of is daarvan vrijgesteld;</p><p style=\"padding-left: 40px;\">2° hij/zij heeft de minimumleeftijd voor het behalen van een rijbewijs, vermeld in artikel 18 en 19, bereikt;</p><p style=\"padding-left: 40px;\">3° hij/zij is niet wegens een onregelmatigheid uitgesloten van het afleggen van een examen;</p><p style=\"padding-left: 40px;\">4° hij/zij biedt zich aan met een begeleider, een instructeur, een stagiair-instructeur of enige andere persoon die niet wegens een onregelmatigheid uitgesloten is van het begeleiden van kandidaten tijdens een examen.</p><p>Het praktisch examen kan op zijn vroegst één maand na de afgifte van het voorlopige rijbewijs model 3 plaatsvinden.</p>",
+  "full_text_fr": "Un candidat qui remplit les conditions suivantes est admis à l’examen pratique :\n\n1° il a réussi l’examen théorique de la Région wallonne depuis moins de trois ans, sauf s’il en est dispensé ;\n\n2° il a atteint l’âge minimum requis pour l’obtention d’un permis de conduire, visé aux articles 18 et 19 ;\n\n3° il n’a pas été exclu de la participation à un examen en raison d’une irrégularité ;\n\n4° il se présente avec un guide, un instructeur, un instructeur stagiaire ou toute autre personne qui n’est pas exclu de l’accompagnement des candidats lors d’un examen en raison d’une irrégularité.\n\nL'examen pratique peut avoir lieu au plus tôt un mois après la délivrance du permis de conduire provisoire model 3.",
+  "full_text_nl": "Een kandidaat die voldoet aan de volgende voorwaarden, kan tot het praktische examen worden toegelaten:\n\n1° hij/zij is sinds minder dan drie jaar geslaagd voor het theoretische examen van hetWaalse Gewest of is daarvan vrijgesteld;\n\n2° hij/zij heeft de minimumleeftijd voor het behalen van een rijbewijs, vermeld in artikel 18 en 19, bereikt;\n\n3° hij/zij is niet wegens een onregelmatigheid uitgesloten van het afleggen van een examen;\n\n4° hij/zij biedt zich aan met een begeleider, een instructeur, een stagiair-instructeur of enige andere persoon die niet wegens een onregelmatigheid uitgesloten is van het begeleiden van kandidaten tijdens een examen.\n\nHet praktisch examen kan op zijn vroegst één maand na de afgifte van het voorlopige rijbewijs model 3 plaatsvinden.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "4fqlwsqgbl",
+  "anchor_id_nl": "8kwmdnmzvm",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "3d3fa151b83c",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

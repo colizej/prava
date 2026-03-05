@@ -1,0 +1,59 @@
+{
+  "law_id": "1998",
+  "article_number": "33",
+  "slug": "art-33",
+  "structure": {
+    "titre": "III",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 33.",
+  "title_nl": "Artikel 33.",
+  "title_ru": "",
+  "content_md_fr": "L'examen pratique prévu aux articles 23, § 1er, 2° et 38 de la loi comporte les épreuves énumérées à l'annexe 5.\n\nL'examen est subi à bord d'un véhicule de la catégorie pour laquelle le permis de conduire est demandé.\n\nL'examen est côté de la manière indiquée à l'annexe 5.\n\nL'inscription à l'examen pratique se fait dans les formes et de la manière approuvées par le Ministre ou son délégué.\n\n> ℹ️ En ce qui concerne la Région flamande, le mot « Ministre » est remplacé par les mots « Ministre flamand ».\n\n> ℹ️ En ce qui concerne la Région wallonne, le mot « Ministre » est remplacé par les mots « Ministre wallon ».",
+  "content_md_nl": "Het in [artikel 23](#art-23) § 1, 2° en 38 van de wet bepaalde praktische examen bestaat uit de in bijlage 5 opgesomde proeven.\n\nHet examen wordt afgelegd met een voertuig van de categorie waarvoor het rijbewijs wordt aangevraagd.\n\nHet examen wordt beoordeeld op de in bijlage 5 aangeduide wijze.\n\nDe inschrijving voor het praktische examen gebeurt volgens de regels en op de wijze goedgekeurd door de Minister of zijn gemachtigde.\n\n> ℹ️ Voor wat betreft het Vlaams Gewest, wordt het woord “Minister” vervangen door de woorden “Vlaamse minister”.\n\n> ℹ️ Voor wat betreft het Waals Gewest, wordt het woord “Minister” vervangen door de woorden “Waalse Minister”.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'examen pratique prévu aux articles 23, § 1<sup>er</sup>, 2° et 38 de la loi comporte les épreuves énumérées à l'annexe 5.</p><p>L'examen est subi à bord d'un véhicule de la catégorie pour laquelle le permis de conduire est demandé.</p><p>L'examen est côté de la manière indiquée à l'annexe 5.</p><p>L'inscription à l'examen pratique se fait dans les formes et de la manière approuvées par le Ministre ou son délégué.</p><div class=\"notification notification-primary\">En ce qui concerne la Région flamande, le mot « Ministre » est remplacé par les mots « Ministre flamand ».</div><div class=\"notification notification-primary\">En ce qui concerne la Région wallonne, le mot « Ministre » est remplacé par les mots « Ministre wallon ».</div>",
+  "content_html_nl": "<p>Het in <a href=\"#art-23\">artikel 23</a> § 1, 2° en 38 van de wet bepaalde praktische examen bestaat uit de in bijlage 5 opgesomde proeven.</p><p>Het examen wordt afgelegd met een voertuig van de categorie waarvoor het rijbewijs wordt aangevraagd.</p><p>Het examen wordt beoordeeld op de in bijlage 5 aangeduide wijze.</p><p>De inschrijving voor het praktische examen gebeurt volgens de regels en op de wijze goedgekeurd door de Minister of zijn gemachtigde.</p><div class=\"notification notification-primary\">Voor wat betreft het Vlaams Gewest, wordt het woord “Minister” vervangen door de woorden “Vlaamse minister”.</div><div class=\"notification notification-primary\">Voor wat betreft het Waals Gewest, wordt het woord “Minister” vervangen door de woorden “Waalse Minister”.</div>",
+  "full_text_fr": "L'examen pratique prévu aux articles 23, § 1er, 2° et 38 de la loi comporte les épreuves énumérées à l'annexe 5.\n\nL'examen est subi à bord d'un véhicule de la catégorie pour laquelle le permis de conduire est demandé.\n\nL'examen est côté de la manière indiquée à l'annexe 5.\n\nL'inscription à l'examen pratique se fait dans les formes et de la manière approuvées par le Ministre ou son délégué.\n\n️ En ce qui concerne la Région flamande, le mot « Ministre » est remplacé par les mots « Ministre flamand ».\n\n️ En ce qui concerne la Région wallonne, le mot « Ministre » est remplacé par les mots « Ministre wallon ».",
+  "full_text_nl": "Het in artikel 23 § 1, 2° en 38 van de wet bepaalde praktische examen bestaat uit de in bijlage 5 opgesomde proeven.\n\nHet examen wordt afgelegd met een voertuig van de categorie waarvoor het rijbewijs wordt aangevraagd.\n\nHet examen wordt beoordeeld op de in bijlage 5 aangeduide wijze.\n\nDe inschrijving voor het praktische examen gebeurt volgens de regels en op de wijze goedgekeurd door de Minister of zijn gemachtigde.\n\n️ Voor wat betreft het Vlaams Gewest, wordt het woord “Minister” vervangen door de woorden “Vlaamse minister”.\n\n️ Voor wat betreft het Waals Gewest, wordt het woord “Minister” vervangen door de woorden “Waalse Minister”.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [
+    {
+      "type": "primary",
+      "text": "En ce qui concerne la Région flamande, le mot « Ministre » est remplacé par les mots « Ministre flamand »."
+    },
+    {
+      "type": "primary",
+      "text": "En ce qui concerne la Région wallonne, le mot « Ministre » est remplacé par les mots « Ministre wallon »."
+    }
+  ],
+  "notifications_nl": [
+    {
+      "type": "primary",
+      "text": "Voor wat betreft het Vlaams Gewest, wordt het woord “Minister” vervangen door de woorden “Vlaamse minister”."
+    },
+    {
+      "type": "primary",
+      "text": "Voor wat betreft het Waals Gewest, wordt het woord “Minister” vervangen door de woorden “Waalse Minister”."
+    }
+  ],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "kax5cizp5n",
+  "anchor_id_nl": "gxo3nmzfqo",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "ce7dae3998c3",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "29",
+  "slug": "art-29",
+  "structure": {
+    "titre": "III",
+    "chapitre": "IV"
+  },
+  "title_fr": "Article 29.",
+  "title_nl": "Artikel 29.",
+  "title_ru": "",
+  "content_md_fr": "Le candidat au permis de conduire est dispensé de l'examen pratique s'il répond à l'une des conditions suivantes:\n\n**1°** (Abrogé);\n\n**2°** avoir réussi l'examen pratique imposé en vertu de l'article 38 de la loi, valable pour la même catégorie de véhicules que celle pour laquelle le permis de conduire est demandé. Le candidat ne bénéficie de cette dispense que s'il présente un certificat d'enseignement pratique délivré par une école de conduite.\n\nLe candidat au permis de conduire valable pour la catégorie B effectue, en outre, un apprentissage d'au moins trois mois sous le couvert d'un permis de conduire provisoire, visé à l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de la catégorie B;\n\n**3°** (Abrogé).",
+  "content_md_nl": "De kandidaat voor het rijbewijs is vrijgesteld van het praktische examen wanneer hij voldoet aan een van de volgende voorwaarden :\n\n**1°** (opgeheven)\n\n**2°** geslaagd zijn voor het praktische examen opgelegd krachtens artikel 38, §3 van de wet, geldig voor dezelfde categorie van voertuigen als deze waarvoor het rijbewijs wordt aangevraagd. De kandidaat kan maar genieten van deze vrijstelling als hij een getuigschrift van praktisch onderricht voorlegt afgegeven door een rijschool.\n\nDe kandidaat voor het rijbewijs geldig voor de categorie B volgt daarenboven een scholing van ten minste drie maanden op basis van een voorlopige rijbewijs, bedoeld in het koninklijk besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van de categorie B.\n\n**3°** (opgeheven)",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le candidat au permis de conduire est dispensé de l'examen pratique s'il répond à l'une des conditions suivantes:</p><p style=\"padding-left: 30px;\"><strong>1°</strong> (Abrogé);</p><p style=\"padding-left: 30px;\"><strong>2°</strong> avoir réussi l'examen pratique imposé en vertu de l'article 38 de la loi, valable pour la même catégorie de véhicules que celle pour laquelle le permis de conduire est demandé. Le candidat ne bénéficie de cette dispense que s'il présente un certificat d'enseignement pratique délivré par une école de conduite.</p><p style=\"padding-left: 30px;\">Le candidat au permis de conduire valable pour la catégorie B effectue, en outre, un apprentissage d'au moins trois mois sous le couvert d'un permis de conduire provisoire, visé à l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de la catégorie B;</p><p style=\"padding-left: 30px;\"><strong>3°</strong> (Abrogé).</p>",
+  "content_html_nl": "<p>De kandidaat voor het rijbewijs is vrijgesteld van het praktische examen wanneer hij voldoet aan een van de volgende voorwaarden :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> (opgeheven)</p><p style=\"padding-left: 30px;\"><strong>2°</strong> geslaagd zijn voor het praktische examen opgelegd krachtens artikel 38, §3 van de wet, geldig voor dezelfde categorie van voertuigen als deze waarvoor het rijbewijs wordt aangevraagd. De kandidaat kan maar genieten van deze vrijstelling als hij een getuigschrift van praktisch onderricht voorlegt afgegeven door een rijschool.</p><p style=\"padding-left: 30px;\">De kandidaat voor het rijbewijs geldig voor de categorie B volgt daarenboven een scholing van ten minste drie maanden op basis van een voorlopige rijbewijs, bedoeld in het koninklijk besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van de categorie B.</p><p style=\"padding-left: 30px;\"><strong>3°</strong> (opgeheven)</p>",
+  "full_text_fr": "Le candidat au permis de conduire est dispensé de l'examen pratique s'il répond à l'une des conditions suivantes:\n\n1° (Abrogé);\n\n2° avoir réussi l'examen pratique imposé en vertu de l'article 38 de la loi, valable pour la même catégorie de véhicules que celle pour laquelle le permis de conduire est demandé. Le candidat ne bénéficie de cette dispense que s'il présente un certificat d'enseignement pratique délivré par une école de conduite.\n\nLe candidat au permis de conduire valable pour la catégorie B effectue, en outre, un apprentissage d'au moins trois mois sous le couvert d'un permis de conduire provisoire, visé à l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de la catégorie B;\n\n3° (Abrogé).",
+  "full_text_nl": "De kandidaat voor het rijbewijs is vrijgesteld van het praktische examen wanneer hij voldoet aan een van de volgende voorwaarden :\n\n1° (opgeheven)\n\n2° geslaagd zijn voor het praktische examen opgelegd krachtens artikel 38, §3 van de wet, geldig voor dezelfde categorie van voertuigen als deze waarvoor het rijbewijs wordt aangevraagd. De kandidaat kan maar genieten van deze vrijstelling als hij een getuigschrift van praktisch onderricht voorlegt afgegeven door een rijschool.\n\nDe kandidaat voor het rijbewijs geldig voor de categorie B volgt daarenboven een scholing van ten minste drie maanden op basis van een voorlopige rijbewijs, bedoeld in het koninklijk besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van de categorie B.\n\n3° (opgeheven)",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "mvmtnipxaa",
+  "anchor_id_nl": "vrsazubld8",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "2d01c1bf9faf",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

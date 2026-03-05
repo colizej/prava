@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "15",
+  "slug": "art-15",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 15",
+  "title_nl": "Artikel 15",
+  "title_ru": "",
+  "content_md_fr": "L'article 7, alinéa 1er du même arrêté est remplacé par la disposition suivante :\n\n« Le permis de conduire provisoire modèle 3 est conforme au modèle qui figure à l'annexe 2. »",
+  "content_md_nl": "Artikel 7, eerste lid van hetzelfde besluit wordt vervangen als volgt :\n\n« Het voorlopige rijbewijs model 3 stemt overeen met het model van bijlage 2. ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'article 7, alinéa 1<sup>er</sup> du même arrêté est remplacé par la disposition suivante :</p><p style=\"padding-left: 30px;\">« Le permis de conduire provisoire modèle 3 est conforme au modèle qui figure à l'annexe 2. »</p>",
+  "content_html_nl": "<p>Artikel 7, eerste lid van hetzelfde besluit wordt vervangen als volgt :</p><p style=\"padding-left: 30px;\">« Het voorlopige rijbewijs model 3 stemt overeen met het model van bijlage 2. ».</p>",
+  "full_text_fr": "L'article 7, alinéa 1er du même arrêté est remplacé par la disposition suivante :\n\n« Le permis de conduire provisoire modèle 3 est conforme au modèle qui figure à l'annexe 2. »",
+  "full_text_nl": "Artikel 7, eerste lid van hetzelfde besluit wordt vervangen als volgt :\n\n« Het voorlopige rijbewijs model 3 stemt overeen met het model van bijlage 2. ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "hptpbphkah",
+  "anchor_id_nl": "px46tsdjiw",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "a896912f24d8",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

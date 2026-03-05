@@ -1,0 +1,41 @@
+{
+  "law_id": "1976",
+  "article_number": "5",
+  "slug": "art-5",
+  "structure": {
+    "titre": null,
+    "chapitre": "I"
+  },
+  "title_fr": "Article 5. Signaux à feux clignotants",
+  "title_nl": "Artikel 5. Verkeersknipperlichten",
+  "title_ru": "",
+  "content_md_fr": "**5.1.** La plage lumineuse des feux a la forme d'un cercle d'un diamètre minimal de 0,18 m.\n\nLorsque l'installation comporte deux feux, ceux-ci s'allument alternativement.\n\n**5.2.** Le signal lumineux prévu par l' article 64.1.3° du règlement général sur la police de la circulation routière comporte de haut en bas :\n\n- un feu rouge;\n- un feu jaune-orange fixe;\n- un feu jaune-orange clignotant.\n\nLe feu jaune-orange fixe succédant à un feu jaune-orange clignotant doit apparaître pendant une durée approximative de cinq à sept secondes.\n\nCe signal lumineux ne peut être utilisé que lorsque les signaux du système tricolore ne conviennent pas.",
+  "content_md_nl": "**5.1.** Het lichtdoorlatend gedeelte van deze lichten heeft de vorm van een cirkel met een diameter van ten minste 0,18 m.\n\nWanneer de installatie twee lichten omvat, branden deze beurtelings.\n\n**5.2.** Het verkeerslicht bepaald in artikel 64.1.3° van het algemeen reglement op de politie van het wegverkeer bevat van boven naar onder :\n\n- een rood licht;\n- een vast oranjegeel licht;\n- een oranjegeel knipperlicht.\n\nHet vaste oranjegele licht dat volgt op het oranjegele knipperlicht moet gedurende ongeveer 5 tot 7 seconden branden.\n\nDit verkeerslicht mag slechts gebruikt worden wanneer de driekleurige verkeerslichten niet passen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>5.1.</strong> La plage lumineuse des feux a la forme d'un cercle d'un diamètre minimal de 0,18 m.</p><p>Lorsque l'installation comporte deux feux, ceux-ci s'allument alternativement.</p><p><strong>5.2.</strong> Le signal lumineux prévu par l' article 64.1.3° du règlement général sur la police de la circulation routière comporte de haut en bas :</p><ul>\n<li>un feu rouge;</li>\n<li>un feu jaune-orange fixe;</li>\n<li>un feu jaune-orange clignotant.</li>\n</ul><p>Le feu jaune-orange fixe succédant à un feu jaune-orange clignotant doit apparaître pendant une durée approximative de cinq à sept secondes.</p><p>Ce signal lumineux ne peut être utilisé que lorsque les signaux du système tricolore ne conviennent pas.</p>",
+  "content_html_nl": "<p><strong>5.1.</strong> Het lichtdoorlatend gedeelte van deze lichten heeft de vorm van een cirkel met een diameter van ten minste 0,18 m.</p><p>Wanneer de installatie twee lichten omvat, branden deze beurtelings.</p><p><strong>5.2.</strong> Het verkeerslicht bepaald in artikel 64.1.3° van het algemeen reglement op de politie van het wegverkeer bevat van boven naar onder :</p><ul>\n<li>een rood licht;</li>\n<li>een vast oranjegeel licht;</li>\n<li>een oranjegeel knipperlicht.</li>\n</ul><p>Het vaste oranjegele licht dat volgt op het oranjegele knipperlicht moet gedurende ongeveer 5 tot 7 seconden branden.</p><p>Dit verkeerslicht mag slechts gebruikt worden wanneer de driekleurige verkeerslichten niet passen.</p>",
+  "full_text_fr": "5.1. La plage lumineuse des feux a la forme d'un cercle d'un diamètre minimal de 0,18 m.\n\nLorsque l'installation comporte deux feux, ceux-ci s'allument alternativement.\n\n5.2. Le signal lumineux prévu par l' article 64.1.3° du règlement général sur la police de la circulation routière comporte de haut en bas :\n\nun feu rouge;\nun feu jaune-orange fixe;\nun feu jaune-orange clignotant.\n\nLe feu jaune-orange fixe succédant à un feu jaune-orange clignotant doit apparaître pendant une durée approximative de cinq à sept secondes.\n\nCe signal lumineux ne peut être utilisé que lorsque les signaux du système tricolore ne conviennent pas.",
+  "full_text_nl": "5.1. Het lichtdoorlatend gedeelte van deze lichten heeft de vorm van een cirkel met een diameter van ten minste 0,18 m.\n\nWanneer de installatie twee lichten omvat, branden deze beurtelings.\n\n5.2. Het verkeerslicht bepaald in artikel 64.1.3° van het algemeen reglement op de politie van het wegverkeer bevat van boven naar onder :\n\neen rood licht;\neen vast oranjegeel licht;\neen oranjegeel knipperlicht.\n\nHet vaste oranjegele licht dat volgt op het oranjegele knipperlicht moet gedurende ongeveer 5 tot 7 seconden branden.\n\nDit verkeerslicht mag slechts gebruikt worden wanneer de driekleurige verkeerslichten niet passen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "g6rjcmymj6",
+  "anchor_id_nl": "akzp2txtv3",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:44Z",
+    "content_hash": "6c8d33df72c4",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

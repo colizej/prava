@@ -1,0 +1,43 @@
+{
+  "law_id": "2006",
+  "article_number": "4",
+  "slug": "art-4",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 4",
+  "title_nl": "Artikel 4",
+  "title_ru": "",
+  "content_md_fr": "Le candidat au permis de conduire B qui a réussi l'examen théorique, qui a au moins l'âge de 18 ans et a obtenu, après avoir suivi 20 heures d’enseignement pratique à la conduite ou après avoir réussi un test sur les capacités techniques de conduite, un certificat d’aptitude, a droit à un permis de conduire provisoire B lui permettant de rouler sans guide. Ce permis de conduire provisoire est valable pendant 18 mois.\n\nLe permis de conduire provisoire B est conforme au modèle qui figure à l'annexe 2 de cet arrêté.\n\nLe titulaire du permis de conduire provisoire B sans guide peut être accompagné d’au maximum deux personnes répondant aux conditions visées à [l’article 3,](#art-3,) § 2, a), b) et c).",
+  "content_md_nl": "De kandidaat voor het rijbewijs B die geslaagd is voor het theoretisch examen, minstens 18 jaar is en die, na 20 uur praktisch rijonderricht gevolgd te hebben of na geslaagd te zijn voor een test over de technische rijvaardigheden, een bekwaamheidsgetuigschrift heeft bekomen, heeft recht op een voorlopig rijbewijs B dat hem toelaat zonder begeleider te rijden. Dit voorlopig rijbewijs is 18 maanden geldig.\n\nHet voorlopig rijbewijs B stemt overeen met het model in bijlage 2 bij dit besluit.\n\nDe houder van het voorlopig rijbewijs B zonder begeleider mag vergezeld zijn van ten hoogste twee personen die voldoen aan de voorwaarden bedoeld in [artikel 3](#art-3), § 2, a), b) en c).",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le candidat au permis de conduire B qui a réussi l'examen théorique, qui a au moins l'âge de 18 ans et a obtenu, après avoir suivi 20 heures d’enseignement pratique à la conduite ou après avoir réussi un test sur les capacités techniques de conduite, un certificat d’aptitude, a droit à un permis de conduire provisoire B lui permettant de rouler sans guide. Ce permis de conduire provisoire est valable pendant 18 mois.</p><p>Le permis de conduire provisoire B est conforme au modèle qui figure à l'annexe 2 de cet arrêté.</p><p>Le titulaire du permis de conduire provisoire B sans guide peut être accompagné d’au maximum deux personnes répondant aux conditions visées à <a href=\"#art-3,\">l’article 3,</a> § 2, a), b) et c).</p>",
+  "content_html_nl": "<p>De kandidaat voor het rijbewijs B die geslaagd is voor het theoretisch examen, minstens 18 jaar is en die, na 20 uur praktisch rijonderricht gevolgd te hebben of na geslaagd te zijn voor een test over de technische rijvaardigheden, een bekwaamheidsgetuigschrift heeft bekomen, heeft recht op een voorlopig rijbewijs B dat hem toelaat zonder begeleider te rijden. Dit voorlopig rijbewijs is 18 maanden geldig.</p><p>Het voorlopig rijbewijs B stemt overeen met het model in bijlage 2 bij dit besluit.</p><p>De houder van het voorlopig rijbewijs B zonder begeleider mag vergezeld zijn van ten hoogste twee personen die voldoen aan de voorwaarden bedoeld in <a href=\"#art-3\">artikel 3</a>, § 2, a), b) en c).</p>",
+  "full_text_fr": "Le candidat au permis de conduire B qui a réussi l'examen théorique, qui a au moins l'âge de 18 ans et a obtenu, après avoir suivi 20 heures d’enseignement pratique à la conduite ou après avoir réussi un test sur les capacités techniques de conduite, un certificat d’aptitude, a droit à un permis de conduire provisoire B lui permettant de rouler sans guide. Ce permis de conduire provisoire est valable pendant 18 mois.\n\nLe permis de conduire provisoire B est conforme au modèle qui figure à l'annexe 2 de cet arrêté.\n\nLe titulaire du permis de conduire provisoire B sans guide peut être accompagné d’au maximum deux personnes répondant aux conditions visées à l’article 3, § 2, a), b) et c).",
+  "full_text_nl": "De kandidaat voor het rijbewijs B die geslaagd is voor het theoretisch examen, minstens 18 jaar is en die, na 20 uur praktisch rijonderricht gevolgd te hebben of na geslaagd te zijn voor een test over de technische rijvaardigheden, een bekwaamheidsgetuigschrift heeft bekomen, heeft recht op een voorlopig rijbewijs B dat hem toelaat zonder begeleider te rijden. Dit voorlopig rijbewijs is 18 maanden geldig.\n\nHet voorlopig rijbewijs B stemt overeen met het model in bijlage 2 bij dit besluit.\n\nDe houder van het voorlopig rijbewijs B zonder begeleider mag vergezeld zijn van ten hoogste twee personen die voldoen aan de voorwaarden bedoeld in artikel 3, § 2, a), b) en c).",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-3,"
+  ],
+  "anchor_id_fr": "ilgor9voq0",
+  "anchor_id_nl": "wtxuvnrmoi",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "8f3318a2190e",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

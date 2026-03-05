@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "6",
+  "slug": "art-6",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 6",
+  "title_nl": "Artikel 6",
+  "title_ru": "",
+  "content_md_fr": "Le candidat ne peut pas conduire de 22h jusqu'au lendemain à 6h le vendredi, le samedi, le dimanche, la veille des jours fériés légaux et les jours fériés légaux.",
+  "content_md_nl": "De kandidaat mag niet rijden van 22u. tot 6u. 's anderendaags op vrijdag, zaterdag, zondag, de vooravond van de wettelijke feestdagen en de wettelijke feestdagen.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le candidat ne peut pas conduire de 22h jusqu'au lendemain à 6h le vendredi, le samedi, le dimanche, la veille des jours fériés légaux et les jours fériés légaux.</p>",
+  "content_html_nl": "<p>De kandidaat mag niet rijden van 22u. tot 6u. 's anderendaags op vrijdag, zaterdag, zondag, de vooravond van de wettelijke feestdagen en de wettelijke feestdagen.</p>",
+  "full_text_fr": "Le candidat ne peut pas conduire de 22h jusqu'au lendemain à 6h le vendredi, le samedi, le dimanche, la veille des jours fériés légaux et les jours fériés légaux.",
+  "full_text_nl": "De kandidaat mag niet rijden van 22u. tot 6u. 's anderendaags op vrijdag, zaterdag, zondag, de vooravond van de wettelijke feestdagen en de wettelijke feestdagen.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "uiojvsabjy",
+  "anchor_id_nl": "fwlc4tbjsh",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "339ad87ff5a3",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

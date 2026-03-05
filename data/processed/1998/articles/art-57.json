@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "57",
+  "slug": "art-57",
+  "structure": {
+    "titre": "III",
+    "chapitre": "VII"
+  },
+  "title_fr": "Article 57.",
+  "title_nl": "Artikel 57.",
+  "title_ru": "",
+  "content_md_fr": "**§ 1er. **Pour chaque permis de conduire, il est établi une fiche de renseignements dont le modèle est déterminé par le Ministre ou son délégué.\n\n**§2.** Pour chaque permis de conduire provisoire, il est établi une fiche de renseignements provisoire dont le modèle est déterminé par le Ministre ou son délégué.\n\nUne fiche de renseignements provisoire est également établie pour les personnes qui ont encouru une déchéance du droit de conduire s'il n'existe pas de fiche à leur nom.",
+  "content_md_nl": "§1. Voor elk rijbewijs wordt een inlichtingenfiche gemaakt, waarvan het model bepaald wordt door de Minister of zijn gemachtigde.\n\n§2. Voor elk voorlopig rijbewijs wordt er een voorlopige inlichtingenfiche opgemaakt, waarvan het model bepaald wordt door de Minister of zijn gemachtigde.\n\nEen voorlopige inlichtingenfiche wordt eveneens opgemaakt voor de personen die verval van het recht tot sturen oplopen indien er geen fiche bestaat op hun naam.",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>§ 1<sup>er</sup>. </strong>Pour chaque permis de conduire, il est établi une fiche de renseignements dont le modèle est déterminé par le Ministre ou son délégué.</p><p><strong class=\"text-bold\">§2.</strong> Pour chaque permis de conduire provisoire, il est établi une fiche de renseignements provisoire dont le modèle est déterminé par le Ministre ou son délégué.</p><p>Une fiche de renseignements provisoire est également établie pour les personnes qui ont encouru une déchéance du droit de conduire s'il n'existe pas de fiche à leur nom.</p>",
+  "content_html_nl": "<p>§1. Voor elk rijbewijs wordt een inlichtingenfiche gemaakt, waarvan het model bepaald wordt door de Minister of zijn gemachtigde.</p><p>§2. Voor elk voorlopig rijbewijs wordt er een voorlopige inlichtingenfiche opgemaakt, waarvan het model bepaald wordt door de Minister of zijn gemachtigde.</p><p>Een voorlopige inlichtingenfiche wordt eveneens opgemaakt voor de personen die verval van het recht tot sturen oplopen indien er geen fiche bestaat op hun naam.</p>",
+  "full_text_fr": "§ 1er. Pour chaque permis de conduire, il est établi une fiche de renseignements dont le modèle est déterminé par le Ministre ou son délégué.\n\n§2. Pour chaque permis de conduire provisoire, il est établi une fiche de renseignements provisoire dont le modèle est déterminé par le Ministre ou son délégué.\n\nUne fiche de renseignements provisoire est également établie pour les personnes qui ont encouru une déchéance du droit de conduire s'il n'existe pas de fiche à leur nom.",
+  "full_text_nl": "§1. Voor elk rijbewijs wordt een inlichtingenfiche gemaakt, waarvan het model bepaald wordt door de Minister of zijn gemachtigde.\n\n§2. Voor elk voorlopig rijbewijs wordt er een voorlopige inlichtingenfiche opgemaakt, waarvan het model bepaald wordt door de Minister of zijn gemachtigde.\n\nEen voorlopige inlichtingenfiche wordt eveneens opgemaakt voor de personen die verval van het recht tot sturen oplopen indien er geen fiche bestaat op hun naam.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "mvbh9qibpw",
+  "anchor_id_nl": "r3anq0mvrj",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "97ca6837d0f7",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

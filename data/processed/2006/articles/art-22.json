@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "22",
+  "slug": "art-22",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 22",
+  "title_nl": "Artikel 22",
+  "title_ru": "",
+  "content_md_fr": "A l'article 30 du même arrêté, les mots « ou sur la demande de licence d'apprentissage » sont supprimés.",
+  "content_md_nl": "In artikel 30 van hetzelfde besluit vervallen de woorden « of op de aanvraag om een leervergunning ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 30 du même arrêté, les mots « ou sur la demande de licence d'apprentissage » sont supprimés.</p>",
+  "content_html_nl": "<p>In artikel 30 van hetzelfde besluit vervallen de woorden « of op de aanvraag om een leervergunning ».</p>",
+  "full_text_fr": "A l'article 30 du même arrêté, les mots « ou sur la demande de licence d'apprentissage » sont supprimés.",
+  "full_text_nl": "In artikel 30 van hetzelfde besluit vervallen de woorden « of op de aanvraag om een leervergunning ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "cx0asfnanr",
+  "anchor_id_nl": "xbjbh0i2fs",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "ef43a8edb143",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

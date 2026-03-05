@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "I. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS A LA CATEGORIE AM",
+  "slug": "art-i. contrôle des aptitudes et des comportements relatifs a la categorie am",
+  "structure": {
+    "titre": "11",
+    "chapitre": "20"
+  },
+  "title_fr": "I. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS A LA CATEGORIE AM",
+  "title_nl": "",
+  "title_ru": "",
+  "content_md_fr": "**Epreuve sur un terrain isolé de la circulation**\n\n**1. Emplacement et utilisation des commandes**\n\na) Freins;\nb) Vitesses;\nc) Coupe-circuit du moteur;\nd) Accélérateur;\ne) Avertisseur sonore;\nf) Indicateurs de direction;\ng) Interrupteur et témoins pour les feux;\nh) Uniquement pour cyclomoteurs à deux roues: béquille latérale ou centrale au choix du candidat.\n\n**2. Manoeuvres pour cyclomoteurs à deux roues**\n\na) Slalom;\nb) Parcours en boucles;\nc) Rouler au pas entre deux lignes parallèles sur une distance de 10 m;\nd) Freinage d'urgence.\n\n**3. Manoeuvres pour cyclomoteurs à plus de deux roues**\n\na) Marche arrière en ligne droite;\nb) Faire demi-tour dans une rue;\nc) Marche avant dans un garage;\nd) Stationnement entre deux véhicules.",
+  "content_md_nl": "",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>Epreuve sur un terrain isolé de la circulation</strong></p><p style=\"padding-left: 30px;\"><strong>1. Emplacement et utilisation des commandes</strong></p><p style=\"padding-left: 60px;\">a) Freins;<br/>b) Vitesses;<br/>c) Coupe-circuit du moteur;<br/>d) Accélérateur;<br/>e) Avertisseur sonore;<br/>f) Indicateurs de direction;<br/>g) Interrupteur et témoins pour les feux;<br/>h) Uniquement pour cyclomoteurs à deux roues: béquille latérale ou centrale au choix du candidat.</p><p style=\"padding-left: 30px;\"><strong>2. Manoeuvres pour cyclomoteurs à deux roues</strong></p><p style=\"padding-left: 60px;\">a) Slalom;<br/>b) Parcours en boucles;<br/>c) Rouler au pas entre deux lignes parallèles sur une distance de 10 m;<br/>d) Freinage d'urgence.</p><p style=\"padding-left: 30px;\"><strong>3. Manoeuvres pour cyclomoteurs à plus de deux roues</strong></p><p style=\"padding-left: 60px;\">a) Marche arrière en ligne droite;<br/>b) Faire demi-tour dans une rue;<br/>c) Marche avant dans un garage;<br/>d) Stationnement entre deux véhicules.</p>",
+  "content_html_nl": "",
+  "full_text_fr": "Epreuve sur un terrain isolé de la circulation\n\n1. Emplacement et utilisation des commandes\n\na) Freins;\nb) Vitesses;\nc) Coupe-circuit du moteur;\nd) Accélérateur;\ne) Avertisseur sonore;\nf) Indicateurs de direction;\ng) Interrupteur et témoins pour les feux;\nh) Uniquement pour cyclomoteurs à deux roues: béquille latérale ou centrale au choix du candidat.\n\n2. Manoeuvres pour cyclomoteurs à deux roues\n\na) Slalom;\nb) Parcours en boucles;\nc) Rouler au pas entre deux lignes parallèles sur une distance de 10 m;\nd) Freinage d'urgence.\n\n3. Manoeuvres pour cyclomoteurs à plus de deux roues\n\na) Marche arrière en ligne droite;\nb) Faire demi-tour dans une rue;\nc) Marche avant dans un garage;\nd) Stationnement entre deux véhicules.",
+  "full_text_nl": "",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "rhpmxqsluf",
+  "anchor_id_nl": "",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "b9a27b8d9081",
+    "has_nl": false,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

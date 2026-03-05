@@ -1,0 +1,867 @@
+{
+  "law_id": "2006",
+  "built_at": "2026-03-05T08:35:45Z",
+  "total_articles": 60,
+  "structure": [
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "Chapitre I. Définitions",
+      "id": "kmbkqxlztc"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II. Le permis de conduire provisoire B",
+      "id": "btyvrasqhw"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "Chapitre II/1. L' examen theorique et l'apprentissage (uniquement Région wallonne)",
+      "id": "phfcbu3d1t"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III. L'examen pratique",
+      "id": "ttdtb1qdtl"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III/1. Moment de formation (uniquement Région flamande)",
+      "id": "iw4vzpav4n"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "Chapitre III/2. Traitement des données (uniquement Région flamande)",
+      "id": "ktjfm9gfpk"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "Chapitre IV. Délivrance",
+      "id": "isd3ehn15a"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "Chapitre V. Dispositions modificatives et abrogatoires",
+      "id": "rlifabdhir"
+    },
+    {
+      "type": "chapitre",
+      "number": "VI",
+      "text": "Chapitre VI. Dispositions transitoires et entrée en vigueur",
+      "id": "jrrhec22eo"
+    },
+    {
+      "type": "chapitre",
+      "number": "10",
+      "text": "Annexe 1. Dispositions relatives au modèle carte de permis de conduire provisoire modèle 36",
+      "id": "m9a6p3cus5"
+    },
+    {
+      "type": "chapitre",
+      "number": "11",
+      "text": "Annexe 2. Dispositions relatives au modèle carte de permis de conduire provisoire modèle 18",
+      "id": "1tlsiawdlo"
+    },
+    {
+      "type": "chapitre",
+      "number": "12",
+      "text": "Annexe 3. Dispositions relatives au modèle carte de permis de conduire provisoire modèle 12",
+      "id": "tcz2u2g8ge"
+    },
+    {
+      "type": "chapitre",
+      "number": "13",
+      "text": "Annexe 7 (uniquement Région flamande)",
+      "id": "totpamjnbb"
+    }
+  ],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 1 Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 1 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 1 Région flamande",
+      "title_nl": "Artikel 1 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "I"
+      },
+      "title_fr": "Article 1 Région wallonne",
+      "title_nl": "Artikel 1 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 2 Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 2 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 2 Région flamande",
+      "title_nl": "Artikel 2 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 2 Région wallonne",
+      "title_nl": "Artikel 2 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 3",
+      "title_nl": "Artikel 3",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 4",
+      "title_nl": "Artikel 4",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 5",
+      "title_nl": "Artikel 5",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5/1",
+      "slug": "art-5-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 5/1",
+      "title_nl": "Artikel 5/1",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 6",
+      "title_nl": "Artikel 6",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7",
+      "title_nl": "Artikel 7",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7/1",
+      "slug": "art-7-1",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7/1.",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7/2",
+      "slug": "art-7-2",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7/2.",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7/3",
+      "slug": "art-7-3",
+      "structure": {
+        "titre": null,
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7/3.",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 8 Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 8 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 8 Région flamande",
+      "title_nl": "Artikel 8 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 8 Région wallonne",
+      "title_nl": "Artikel 8 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 9 Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 9 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 9 Région flamande",
+      "title_nl": "Artikel 9 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": null,
+        "chapitre": "III"
+      },
+      "title_fr": "Article 9 Région wallonne",
+      "title_nl": "Artikel 9 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 10",
+      "title_nl": "Artikel 10 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": null,
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 10 Région wallonne",
+      "title_nl": "Artikel 10 Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "11",
+      "slug": "art-11",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 11",
+      "title_nl": "Artikel 11",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "12",
+      "slug": "art-12",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 12",
+      "title_nl": "Artikel 12",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "13",
+      "slug": "art-13",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 13",
+      "title_nl": "Artikel 13",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 14",
+      "title_nl": "Artikel 14",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 15",
+      "title_nl": "Artikel 15",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 16",
+      "title_nl": "Artikel 16",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 17",
+      "title_nl": "Artikel 17",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 18",
+      "title_nl": "Artikel 18",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 19",
+      "title_nl": "Artikel 19",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 20",
+      "title_nl": "Artikel 20",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 21",
+      "title_nl": "Artikel 21",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22",
+      "slug": "art-22",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 22",
+      "title_nl": "Artikel 22",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 23",
+      "title_nl": "Artikel 23",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "24",
+      "slug": "art-24",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 24",
+      "title_nl": "Artikel 24",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 25",
+      "title_nl": "Artikel 25",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 26",
+      "title_nl": "Artikel 26",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27",
+      "slug": "art-27",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 27",
+      "title_nl": "Artikel 27",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "28",
+      "slug": "art-28",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 28",
+      "title_nl": "Artikel 28",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29",
+      "slug": "art-29",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 29",
+      "title_nl": "Artikel 29",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30",
+      "slug": "art-30",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 30",
+      "title_nl": "Artikel 30",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "31",
+      "slug": "art-31",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 31",
+      "title_nl": "Artikel 31",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 32",
+      "title_nl": "Artikel 32",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33",
+      "slug": "art-33",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 33",
+      "title_nl": "Artikel 33",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 34",
+      "title_nl": "Artikel 34",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 35",
+      "title_nl": "Artikel 35",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 36",
+      "title_nl": "Artikel 36",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 37",
+      "title_nl": "Artikel 37",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "38",
+      "slug": "art-38",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 38",
+      "title_nl": "Artikel 38",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 39",
+      "title_nl": "Artikel 39",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "40",
+      "slug": "art-40",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 40",
+      "title_nl": "Artikel 40",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "41",
+      "slug": "art-41",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 41",
+      "title_nl": "Artikel 41",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "42",
+      "slug": "art-42",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 42",
+      "title_nl": "Artikel 42",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "43",
+      "slug": "art-43",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 43",
+      "title_nl": "Artikel 43",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "44",
+      "slug": "art-44",
+      "structure": {
+        "titre": null,
+        "chapitre": "V"
+      },
+      "title_fr": "Article 44",
+      "title_nl": "Artikel 44",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "45",
+      "slug": "art-45",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 45",
+      "title_nl": "Artikel 45",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "46",
+      "slug": "art-46",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 46",
+      "title_nl": "Artikel 46",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "47",
+      "slug": "art-47",
+      "structure": {
+        "titre": null,
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 47",
+      "title_nl": "Artikel 47",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}

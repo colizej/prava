@@ -1,0 +1,43 @@
+{
+  "law_id": "1998",
+  "article_number": "VI. Implants",
+  "slug": "art-vi. implants",
+  "structure": {
+    "titre": "11",
+    "chapitre": "23"
+  },
+  "title_fr": "VI. Implants",
+  "title_nl": "",
+  "title_ru": "",
+  "content_md_fr": "Le candidat qui a subi une transplantation d'organe ou un implant artificiel pouvant avoir une incidence sur l'aptitude à la conduite peut néanmoins être déclaré apte à la conduite par le médecin du centre visé à [l'article 45](#art-45) de l'arrêté royal du 23 mars 1998 relatif au permis de conduire sous réserve d'un rapport médical du spécialiste traitant et d'un suivi médical régulier.",
+  "content_md_nl": "",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Le candidat qui a subi une transplantation d'organe ou un implant artificiel pouvant avoir une incidence sur l'aptitude à la conduite peut néanmoins être déclaré apte à la conduite par le médecin du centre visé à <a href=\"#art-45\">l'article 45</a> de l'arrêté royal du 23 mars 1998 relatif au permis de conduire sous réserve d'un rapport médical du spécialiste traitant et d'un suivi médical régulier.</p>",
+  "content_html_nl": "",
+  "full_text_fr": "Le candidat qui a subi une transplantation d'organe ou un implant artificiel pouvant avoir une incidence sur l'aptitude à la conduite peut néanmoins être déclaré apte à la conduite par le médecin du centre visé à l'article 45 de l'arrêté royal du 23 mars 1998 relatif au permis de conduire sous réserve d'un rapport médical du spécialiste traitant et d'un suivi médical régulier.",
+  "full_text_nl": "",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-45"
+  ],
+  "anchor_id_fr": "povwufggez",
+  "anchor_id_nl": "",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "db7a43afade0",
+    "has_nl": false,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

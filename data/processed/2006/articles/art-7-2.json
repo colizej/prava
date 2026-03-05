@@ -1,0 +1,44 @@
+{
+  "law_id": "2006",
+  "article_number": "7/2",
+  "slug": "art-7-2",
+  "structure": {
+    "titre": null,
+    "chapitre": "II"
+  },
+  "title_fr": "Article 7/2.",
+  "title_nl": "",
+  "title_ru": "",
+  "content_md_fr": "A l’exception des instructeurs de conduite brevetés disposant d’une autorisation d’enseigner en cours de validité, le ou les guides qui accompagnent le candidat remplissent les conditions de [l’article 7/1,](#art-7/1,) § 2, avant de prendre place dans le véhicule et de débuter l’apprentissage visé à [l’article 8,](#art-8,) § 1er, 3°.",
+  "content_md_nl": "",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l’exception des instructeurs de conduite brevetés disposant d’une autorisation d’enseigner en cours de validité, le ou les guides qui accompagnent le candidat remplissent les conditions de <a href=\"#art-7/1,\">l’article 7/1,</a> § 2, avant de prendre place dans le véhicule et de débuter l’apprentissage visé à <a href=\"#art-8,\">l’article 8,</a> § 1<sup>er</sup>, 3°.</p>",
+  "content_html_nl": "",
+  "full_text_fr": "A l’exception des instructeurs de conduite brevetés disposant d’une autorisation d’enseigner en cours de validité, le ou les guides qui accompagnent le candidat remplissent les conditions de l’article 7/1, § 2, avant de prendre place dans le véhicule et de débuter l’apprentissage visé à l’article 8, § 1er, 3°.",
+  "full_text_nl": "",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-7/1,",
+    "#art-8,"
+  ],
+  "anchor_id_fr": "8cz9hjnx0r",
+  "anchor_id_nl": "",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "577394b5315e",
+    "has_nl": false,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

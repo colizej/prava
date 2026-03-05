@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "40",
+  "slug": "art-40",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 40",
+  "title_nl": "Artikel 40",
+  "title_ru": "",
+  "content_md_fr": "L'article 69, § 7, alinéa 3, du même arrêté, remplacé par l'arrêté royal du 8 mars 2006, est remplacé par la disposition suivante :\n\n« Lorsque la déchéance porte sur un permis de conduire provisoire, l'autorité visée à l'article 7 prolonge la validité du permis de conduire provisoire d'un délai égal à la durée de la déchéance. ».",
+  "content_md_nl": "Artikel 69, § 7, derde lid, van hetzelfde besluit, vervangen bij het koninklijk besluit van 8 maart 2006, wordt vervangen als volgt :\n\n« Wanneer het verval betrekking heeft op een voorlopig rijbewijs, verlengt de overheid bedoeld in artikel 7 de geldigheid van het voorlopig rijbewijs met een termijn die gelijk is aan de duur van het verval. ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'article 69, § 7, alinéa 3, du même arrêté, remplacé par l'arrêté royal du 8 mars 2006, est remplacé par la disposition suivante :</p><p style=\"padding-left: 30px;\">« Lorsque la déchéance porte sur un permis de conduire provisoire, l'autorité visée à l'article 7 prolonge la validité du permis de conduire provisoire d'un délai égal à la durée de la déchéance. ».</p>",
+  "content_html_nl": "<p>Artikel 69, § 7, derde lid, van hetzelfde besluit, vervangen bij het koninklijk besluit van 8 maart 2006, wordt vervangen als volgt :</p><p style=\"padding-left: 30px;\">« Wanneer het verval betrekking heeft op een voorlopig rijbewijs, verlengt de overheid bedoeld in artikel 7 de geldigheid van het voorlopig rijbewijs met een termijn die gelijk is aan de duur van het verval. ».</p>",
+  "full_text_fr": "L'article 69, § 7, alinéa 3, du même arrêté, remplacé par l'arrêté royal du 8 mars 2006, est remplacé par la disposition suivante :\n\n« Lorsque la déchéance porte sur un permis de conduire provisoire, l'autorité visée à l'article 7 prolonge la validité du permis de conduire provisoire d'un délai égal à la durée de la déchéance. ».",
+  "full_text_nl": "Artikel 69, § 7, derde lid, van hetzelfde besluit, vervangen bij het koninklijk besluit van 8 maart 2006, wordt vervangen als volgt :\n\n« Wanneer het verval betrekking heeft op een voorlopig rijbewijs, verlengt de overheid bedoeld in artikel 7 de geldigheid van het voorlopig rijbewijs met een termijn die gelijk is aan de duur van het verval. ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "x0vbpd3iwv",
+  "anchor_id_nl": "pimzhh5k8z",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "89d639764f71",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

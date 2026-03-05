@@ -1,0 +1,41 @@
+{
+  "law_id": "1998",
+  "article_number": "14",
+  "slug": "art-14",
+  "structure": {
+    "titre": "III",
+    "chapitre": "II"
+  },
+  "title_fr": "Article 14.",
+  "title_nl": "Artikel 14.",
+  "title_ru": "",
+  "content_md_fr": "L'enseignement théorique dispensé par les écoles de conduite porte sur les matières visées à l'annexe 4.\n\nL'enseignement théorique est d'une durée minimale de:\n\n**1°** six heures pour la préparation à l'examen théorique pour les catégories AM, C1, C, D1, D et G;\n\n**2°** douze heures pour la préparation à l'examen théorique pour les catégories A1, A2, A et B.",
+  "content_md_nl": "Het theoretische onderricht verstrekt door de rijscholen omvat de stof bedoeld in bijlage 4.\n\nHet theoretische onderricht heeft een minimumduur van :\n\n**1°** zes uur voor de voorbereiding op het theoretisch examen voor de categorieën AM, C1, C, D1, D en G;\n\n**2°** twaalf uren voor de voorbereiding op het theoretische examen voor de categorieën A1, A2, A en B.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'enseignement théorique dispensé par les écoles de conduite porte sur les matières visées à l'annexe 4.</p><p>L'enseignement théorique est d'une durée minimale de:</p><p style=\"padding-left: 30px;\"><strong>1°</strong> six heures pour la préparation à l'examen théorique pour les catégories AM, C1, C, D1, D et G;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> douze heures pour la préparation à l'examen théorique pour les catégories A1, A2, A et B.</p>",
+  "content_html_nl": "<p>Het theoretische onderricht verstrekt door de rijscholen omvat de stof bedoeld in bijlage 4.</p><p>Het theoretische onderricht heeft een minimumduur van :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> zes uur voor de voorbereiding op het theoretisch examen voor de categorieën AM, C1, C, D1, D en G;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> twaalf uren voor de voorbereiding op het theoretische examen voor de categorieën A1, A2, A en B.</p>",
+  "full_text_fr": "L'enseignement théorique dispensé par les écoles de conduite porte sur les matières visées à l'annexe 4.\n\nL'enseignement théorique est d'une durée minimale de:\n\n1° six heures pour la préparation à l'examen théorique pour les catégories AM, C1, C, D1, D et G;\n\n2° douze heures pour la préparation à l'examen théorique pour les catégories A1, A2, A et B.",
+  "full_text_nl": "Het theoretische onderricht verstrekt door de rijscholen omvat de stof bedoeld in bijlage 4.\n\nHet theoretische onderricht heeft een minimumduur van :\n\n1° zes uur voor de voorbereiding op het theoretisch examen voor de categorieën AM, C1, C, D1, D en G;\n\n2° twaalf uren voor de voorbereiding op het theoretische examen voor de categorieën A1, A2, A en B.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "f8b3zjrt5a",
+  "anchor_id_nl": "54l9eajdkb",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "b4df78c3508d",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

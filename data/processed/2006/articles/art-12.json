@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "12",
+  "slug": "art-12",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 12",
+  "title_nl": "Artikel 12",
+  "title_ru": "",
+  "content_md_fr": "A l'article 4, 1°, alinéa 1er, les mots \"conformément aux dispositions du présent arrêté\" sont remplacés par les mots \"conformément aux dispositions du présent arrêté ou de l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de catégorie B\".",
+  "content_md_nl": "In artikel 4, 1°, eerste lid worden de woorden « overeenkomstig de bepalingen van dit besluit » vervangen door de woorden « overeenkomstig de bepalingen van dit besluit of van het besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van categorie B ».",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 4, 1°, alinéa 1<sup>er</sup>, les mots \"conformément aux dispositions du présent arrêté\" sont remplacés par les mots \"conformément aux dispositions du présent arrêté ou de l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de catégorie B\".</p>",
+  "content_html_nl": "<p>In artikel 4, 1°, eerste lid worden de woorden « overeenkomstig de bepalingen van dit besluit » vervangen door de woorden « overeenkomstig de bepalingen van dit besluit of van het besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van categorie B ».</p>",
+  "full_text_fr": "A l'article 4, 1°, alinéa 1er, les mots \"conformément aux dispositions du présent arrêté\" sont remplacés par les mots \"conformément aux dispositions du présent arrêté ou de l'arrêté royal du 10 juillet 2006 relatif au permis de conduire pour les véhicules de catégorie B\".",
+  "full_text_nl": "In artikel 4, 1°, eerste lid worden de woorden « overeenkomstig de bepalingen van dit besluit » vervangen door de woorden « overeenkomstig de bepalingen van dit besluit of van het besluit van 10 juli 2006 betreffende het rijbewijs voor voertuigen van categorie B ».",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "1v0xcgnkpb",
+  "anchor_id_nl": "j6ihfsj5dc",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "04c9fcd95557",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

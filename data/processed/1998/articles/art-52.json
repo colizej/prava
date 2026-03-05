@@ -1,0 +1,43 @@
+{
+  "law_id": "1998",
+  "article_number": "52",
+  "slug": "art-52",
+  "structure": {
+    "titre": "III",
+    "chapitre": "V"
+  },
+  "title_fr": "Article 52.",
+  "title_nl": "Artikel 52.",
+  "title_ru": "",
+  "content_md_fr": "Quiconque trouve ou détient irrégulièrement un permis de conduire, ou un permis de conduire provisoire dont il n'est pas titulaire est tenu de le remettre immédiatement à l'autorité visée à [l'article 7](#art-7) ou à un service de police le plus proche qui le renvoie à cette autorité.",
+  "content_md_nl": "Al wie een rijbewijs, of een voorlopige rijbewijs waarvan hij niet de houder is, vindt of onregelmatig bij zich houdt, moet het document onmiddellijk afgeven aan de overheid bedoeld in [artikel 7](#art-7) of aan het dichtstbijgelegen politiebureau die het terugstuurt aan deze overheid.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>Quiconque trouve ou détient irrégulièrement un permis de conduire, ou un permis de conduire provisoire dont il n'est pas titulaire est tenu de le remettre immédiatement à l'autorité visée à <a href=\"#art-7\">l'article 7</a> ou à un service de police le plus proche qui le renvoie à cette autorité.</p>",
+  "content_html_nl": "<p>Al wie een rijbewijs, of een voorlopige rijbewijs waarvan hij niet de houder is, vindt of onregelmatig bij zich houdt, moet het document onmiddellijk afgeven aan de overheid bedoeld in <a href=\"#art-7\">artikel 7</a> of aan het dichtstbijgelegen politiebureau die het terugstuurt aan deze overheid.</p>",
+  "full_text_fr": "Quiconque trouve ou détient irrégulièrement un permis de conduire, ou un permis de conduire provisoire dont il n'est pas titulaire est tenu de le remettre immédiatement à l'autorité visée à l'article 7 ou à un service de police le plus proche qui le renvoie à cette autorité.",
+  "full_text_nl": "Al wie een rijbewijs, of een voorlopige rijbewijs waarvan hij niet de houder is, vindt of onregelmatig bij zich houdt, moet het document onmiddellijk afgeven aan de overheid bedoeld in artikel 7 of aan het dichtstbijgelegen politiebureau die het terugstuurt aan deze overheid.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [
+    "#art-7"
+  ],
+  "anchor_id_fr": "k2rdz9lej5",
+  "anchor_id_nl": "bft48id7dh",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "fac5be1abfb5",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

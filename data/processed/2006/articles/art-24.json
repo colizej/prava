@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "24",
+  "slug": "art-24",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 24",
+  "title_nl": "Artikel 24",
+  "title_ru": "",
+  "content_md_fr": "L'article 34, alinéa 2, du même arrêté est remplacé par la disposition suivante :\n\n« L'examen pratique peut avoir lieu au plus tôt un mois après la délivrance du permis de conduire provisoire model 3. »",
+  "content_md_nl": "Artikel 34, tweede lid van hetzelfde besluit wordt vervangen als volgt :\n\n« Het praktisch examen kan op zijn vroegst één maand na de afgifte van het voorlopige rijbewijs model 3 plaatsvinden. »",
+  "content_md_ru": "",
+  "content_html_fr": "<p>L'article 34, alinéa 2, du même arrêté est remplacé par la disposition suivante :</p><p style=\"padding-left: 30px;\">« L'examen pratique peut avoir lieu au plus tôt un mois après la délivrance du permis de conduire provisoire model 3. »</p>",
+  "content_html_nl": "<p>Artikel 34, tweede lid van hetzelfde besluit wordt vervangen als volgt :</p><p style=\"padding-left: 30px;\">« Het praktisch examen kan op zijn vroegst één maand na de afgifte van het voorlopige rijbewijs model 3 plaatsvinden. »</p>",
+  "full_text_fr": "L'article 34, alinéa 2, du même arrêté est remplacé par la disposition suivante :\n\n« L'examen pratique peut avoir lieu au plus tôt un mois après la délivrance du permis de conduire provisoire model 3. »",
+  "full_text_nl": "Artikel 34, tweede lid van hetzelfde besluit wordt vervangen als volgt :\n\n« Het praktisch examen kan op zijn vroegst één maand na de afgifte van het voorlopige rijbewijs model 3 plaatsvinden. »",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "cyma0thi3r",
+  "anchor_id_nl": "wcrlg7gqls",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "19167c0de22d",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

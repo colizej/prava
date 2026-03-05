@@ -1,0 +1,41 @@
+{
+  "law_id": "2006",
+  "article_number": "20",
+  "slug": "art-20",
+  "structure": {
+    "titre": null,
+    "chapitre": "V"
+  },
+  "title_fr": "Article 20",
+  "title_nl": "Artikel 20",
+  "title_ru": "",
+  "content_md_fr": "A l'article 16, du même arrêté, modifié par l'arrêté royal du 5 septembre 2002, sont apportées les modifications suivantes :\n\n**1°** à l'alinéa 1er, les mots « ou d'une licence d'apprentissage » sont supprimés\n\n**2°** au troisième alinéa, la dernière phrase est supprimée.",
+  "content_md_nl": "In artikel 16, eerste lid van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 5 september 2002, worden de volgende wijzigingen aangebracht :\n\n**1°** in het eerste lid worden de woorden « of van een leervergunning » opgeheven;\n\n**2°** in het derde lid wordt de laatste zin opgeheven.",
+  "content_md_ru": "",
+  "content_html_fr": "<p>A l'article 16, du même arrêté, modifié par l'arrêté royal du 5 septembre 2002, sont apportées les modifications suivantes :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> à l'alinéa 1<sup>er</sup>, les mots « ou d'une licence d'apprentissage » sont supprimés</p><p style=\"padding-left: 30px;\"><strong>2°</strong> au troisième alinéa, la dernière phrase est supprimée.</p>",
+  "content_html_nl": "<p>In artikel 16, eerste lid van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 5 september 2002, worden de volgende wijzigingen aangebracht :</p><p style=\"padding-left: 30px;\"><strong>1°</strong> in het eerste lid worden de woorden « of van een leervergunning » opgeheven;</p><p style=\"padding-left: 30px;\"><strong>2°</strong> in het derde lid wordt de laatste zin opgeheven.</p>",
+  "full_text_fr": "A l'article 16, du même arrêté, modifié par l'arrêté royal du 5 septembre 2002, sont apportées les modifications suivantes :\n\n1° à l'alinéa 1er, les mots « ou d'une licence d'apprentissage » sont supprimés\n\n2° au troisième alinéa, la dernière phrase est supprimée.",
+  "full_text_nl": "In artikel 16, eerste lid van hetzelfde besluit, gewijzigd bij het koninklijk besluit van 5 september 2002, worden de volgende wijzigingen aangebracht :\n\n1° in het eerste lid worden de woorden « of van een leervergunning » opgeheven;\n\n2° in het derde lid wordt de laatste zin opgeheven.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "heornsrj95",
+  "anchor_id_nl": "ziose5jsap",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:45Z",
+    "content_hash": "8be39c554f2b",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

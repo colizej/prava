@@ -1,0 +1,41 @@
+{
+  "law_id": "1976",
+  "article_number": "3bis",
+  "slug": "art-3bis",
+  "structure": {
+    "titre": null,
+    "chapitre": "I"
+  },
+  "title_fr": "Article 3bis. Flèche d'évacuation au-dessus d'une bande de circulation",
+  "title_nl": "Artikel 3bis. Ontruimingspijl boven een rijstrook",
+  "title_ru": "",
+  "content_md_fr": "**3bis.1.** Ce feu apparaît dans une surface opaque de couleur noire.\n\nLa flèche de couleur jaune-orange doit s'inscrire dans une plage d'au moins 0,18 m de diamètre.\n\nElle est inclinée à 45° dans la direction restée ouverte à la circulation.\n\n**3bis.2.** Cette flèche est utilisée pour indiquer la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi.\n\nElle peut être placée seule ou en combinaison avec les feux lumineux comportant une croix rouge ou une flèche verte.",
+  "content_md_nl": "**3bis.1.** Dit licht komt voor op een matte zwarte oppervlakte.\n\nDe oranjegele pijl moet zich bevinden in een oppervlak met een diameter van ten minste 0,18 m.\n\nHij wordt 45° schuin naar beneden gericht in de richting die voor het verkeer open blijft.\n\n**3bis.2.** Deze pijl wordt gebruikt om de vermindering aan te kondigen van het aantal rijstroken die in de gevolgde richting mogen gebruikt worden.\n\nHij mag alleen geplaatst zijn of in combinatie met de verkeerslichten die bestaan uit een rood kruis of een groene pijl.",
+  "content_md_ru": "",
+  "content_html_fr": "<p><strong>3bis.1.</strong> Ce feu apparaît dans une surface opaque de couleur noire.</p><p>La flèche de couleur jaune-orange doit s'inscrire dans une plage d'au moins 0,18 m de diamètre.</p><p>Elle est inclinée à 45° dans la direction restée ouverte à la circulation.</p><p><strong>3bis.2.</strong> Cette flèche est utilisée pour indiquer la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi.</p><p>Elle peut être placée seule ou en combinaison avec les feux lumineux comportant une croix rouge ou une flèche verte.</p>",
+  "content_html_nl": "<p><strong>3bis.1.</strong> Dit licht komt voor op een matte zwarte oppervlakte.</p><p>De oranjegele pijl moet zich bevinden in een oppervlak met een diameter van ten minste 0,18 m.</p><p>Hij wordt 45° schuin naar beneden gericht in de richting die voor het verkeer open blijft.</p><p><strong>3bis.2.</strong> Deze pijl wordt gebruikt om de vermindering aan te kondigen van het aantal rijstroken die in de gevolgde richting mogen gebruikt worden.</p><p>Hij mag alleen geplaatst zijn of in combinatie met de verkeerslichten die bestaan uit een rood kruis of een groene pijl.</p>",
+  "full_text_fr": "3bis.1. Ce feu apparaît dans une surface opaque de couleur noire.\n\nLa flèche de couleur jaune-orange doit s'inscrire dans une plage d'au moins 0,18 m de diamètre.\n\nElle est inclinée à 45° dans la direction restée ouverte à la circulation.\n\n3bis.2. Cette flèche est utilisée pour indiquer la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi.\n\nElle peut être placée seule ou en combinaison avec les feux lumineux comportant une croix rouge ou une flèche verte.",
+  "full_text_nl": "3bis.1. Dit licht komt voor op een matte zwarte oppervlakte.\n\nDe oranjegele pijl moet zich bevinden in een oppervlak met een diameter van ten minste 0,18 m.\n\nHij wordt 45° schuin naar beneden gericht in de richting die voor het verkeer open blijft.\n\n3bis.2. Deze pijl wordt gebruikt om de vermindering aan te kondigen van het aantal rijstroken die in de gevolgde richting mogen gebruikt worden.\n\nHij mag alleen geplaatst zijn of in combinatie met de verkeerslichten die bestaan uit een rood kruis of een groene pijl.",
+  "full_text_ru": "",
+  "images": [],
+  "sign_codes": [],
+  "notifications_fr": [],
+  "notifications_nl": [],
+  "notifications_ru": [],
+  "cross_refs": [],
+  "anchor_id_fr": "hbfzvfb9hd",
+  "anchor_id_nl": "jvyazuiuzg",
+  "definitions": [],
+  "exam_questions": [],
+  "_meta": {
+    "processed_at": "2026-03-05T08:35:44Z",
+    "content_hash": "5385386371d9",
+    "has_nl": true,
+    "has_ru": false,
+    "sources": {
+      "fr": "codedelaroute.be",
+      "nl": "wegcode.be",
+      "ru": "deepl-translation"
+    }
+  }
+}

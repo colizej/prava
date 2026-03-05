@@ -1,0 +1,2325 @@
+{
+  "law_id": "1998",
+  "built_at": "2026-03-05T08:35:45Z",
+  "total_articles": 156,
+  "structure": [
+    {
+      "type": "titre",
+      "number": "I",
+      "text": "TITRE Ier. — Définitions",
+      "id": "fc7nfnrlsm"
+    },
+    {
+      "type": "titre",
+      "number": "II",
+      "text": "TITRE II. — Classement des véhicules moteur en catégories pour l'application des dispositions relatives au droit de conduire",
+      "id": "db9osifbng"
+    },
+    {
+      "type": "titre",
+      "number": "III",
+      "text": "TITRE III. — Le permis de conduire",
+      "id": "dlwk3l0oye"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "CHAPITRE Ier. — Champ d'application",
+      "id": "w7n3husevu"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "CHAPITRE II. — De l'apprentissage",
+      "id": "y1ehqgtmey"
+    },
+    {
+      "type": "chapitre",
+      "number": "III",
+      "text": "CHAPITRE III. — Du permis de conduire",
+      "id": "twreqmpifi"
+    },
+    {
+      "type": "chapitre",
+      "number": "IV",
+      "text": "CHAPITRE IV. — Des examens",
+      "id": "gdmk4cfoya"
+    },
+    {
+      "type": "chapitre",
+      "number": "V",
+      "text": "CHAPITRE V. — Du remplacement et du duplicata du permis de conduire et du permis de conduire provisoire",
+      "id": "kr5tispdbn"
+    },
+    {
+      "type": "chapitre",
+      "number": "VI",
+      "text": "CHAPITRE VI. — Permis de conduire international",
+      "id": "1ieyjbmta5"
+    },
+    {
+      "type": "chapitre",
+      "number": "VII",
+      "text": "CHAPITRE VII. — Formalités à accomplir par les autorités chargées de la délivrance des documents",
+      "id": "mx7abhzlez"
+    },
+    {
+      "type": "chapitre",
+      "number": "VIII",
+      "text": "CHAPITRE VIII. — Des redevances",
+      "id": "stugvsf1ra"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "CHAPITRE IX. — De l'inspection et du contrôle",
+      "id": "2sdl70vayr"
+    },
+    {
+      "type": "chapitre",
+      "number": "X",
+      "text": "CHAPITRE X. — Permis de conduire modèle carte (abrogé)",
+      "id": "sdj8dh6q5t"
+    },
+    {
+      "type": "titre",
+      "number": "IV",
+      "text": "TITRE IV. — Dispositions relatives aux décisions judiciaires portant déchéance du droit de conduire un véhicule moteur, aux formalités de leur exécution et aux examens en vue de la réintgration dans ce droit",
+      "id": "9vj7cibkhh"
+    },
+    {
+      "type": "chapitre",
+      "number": "I",
+      "text": "CHAPITRE Ier. — Décisions judiciaires portant déchéance du droit de conduire un véhicule à moteur et formalités de leur exécution",
+      "id": "3frjrmbpmo"
+    },
+    {
+      "type": "chapitre",
+      "number": "II",
+      "text": "CHAPITRE II. — Déchéance du droit de conduire – Examens",
+      "id": "wyqm2i9w1z"
+    },
+    {
+      "type": "titre",
+      "number": "IV",
+      "text": "TITRE IVbis. — Dispositions relatives aux permis de conduire dont la validité est limite aux véhicules équipés d'un éthylotest antidémarrage en application de l'article 37/1 de la loi",
+      "id": "dpodbn49zv"
+    },
+    {
+      "type": "titre",
+      "number": "V",
+      "text": "TITRE V. — Fichier central (Région de Bruxelles-Capitale)",
+      "id": "62l1ndfxhu"
+    },
+    {
+      "type": "titre",
+      "number": "V",
+      "text": "TITRE V. — Traitement des données (Région flamande)",
+      "id": "62l1ndfxhu"
+    },
+    {
+      "type": "titre",
+      "number": "V",
+      "text": "Titre V. — Traitement des données (Région wallonne)",
+      "id": "ay4pghtttd"
+    },
+    {
+      "type": "titre",
+      "number": "VI",
+      "text": "TITRE VI. — Dispositions diverses",
+      "id": "lmclhaahhf"
+    },
+    {
+      "type": "titre",
+      "number": "VII",
+      "text": "TITRE VII. — Dispositions abrogatoires et transitoires et fixant vigueur",
+      "id": "qkedpraquq"
+    },
+    {
+      "type": "titre",
+      "number": "11",
+      "text": "ANNEXES",
+      "id": "j7o9aqt73e"
+    },
+    {
+      "type": "chapitre",
+      "number": "13",
+      "text": "Annexe 1re. — Dispositions relatives au modèle carte de permis de conduire",
+      "id": "cjf4nmhvdq"
+    },
+    {
+      "type": "chapitre",
+      "number": "14",
+      "text": "Annexe 2. — Dispositions relatives au modèle carte de permis de conduire provisoire Modèle 3",
+      "id": "bitzssakrg"
+    },
+    {
+      "type": "chapitre",
+      "number": "15",
+      "text": "",
+      "id": ""
+    },
+    {
+      "type": "chapitre",
+      "number": "16",
+      "text": "Annexe 3. — Licence d'apprentissage (abrogé)",
+      "id": "x8aqznebsc"
+    },
+    {
+      "type": "chapitre",
+      "number": "17",
+      "text": "Annexe 4. — Examen théorique",
+      "id": "n31awatll7"
+    },
+    {
+      "type": "chapitre",
+      "number": "18",
+      "text": "Annexe 5. — Examen pratique (Région de Bruxelles-Capitale)",
+      "id": "dorqxaq5hs"
+    },
+    {
+      "type": "chapitre",
+      "number": "19",
+      "text": "Annexe 5. — Examen pratique (Région flamande)",
+      "id": "zh902indr5"
+    },
+    {
+      "type": "chapitre",
+      "number": "20",
+      "text": "Annexe 5. — Tests et examen pratique (Région wallonne)",
+      "id": "jxogboxl0y"
+    },
+    {
+      "type": "chapitre",
+      "number": "21",
+      "text": "Annexe 5/1.",
+      "id": "lhev8lqau6"
+    },
+    {
+      "type": "chapitre",
+      "number": "22",
+      "text": "Annexe 5/2.",
+      "id": "dijlga3ee3"
+    },
+    {
+      "type": "chapitre",
+      "number": "23",
+      "text": "Annexe 6. — Normes minimales et attestations concernant l'aptitude physique et psychique à la conduite d'un véhicule à moteur",
+      "id": "bg3qrw6ab9"
+    },
+    {
+      "type": "chapitre",
+      "number": "24",
+      "text": "Annexe 7. — Codes",
+      "id": "g0udpmzwad"
+    },
+    {
+      "type": "chapitre",
+      "number": "25",
+      "text": "Annexe 8. — Autorisation de conduire",
+      "id": "qszbnj2xab"
+    },
+    {
+      "type": "chapitre",
+      "number": "26",
+      "text": "Annexe 9. — Permis de conduire",
+      "id": "7mfz8b6lpt"
+    },
+    {
+      "type": "chapitre",
+      "number": "27",
+      "text": "Annexe 10. — Permis de conduire",
+      "id": "inwui3hdko"
+    },
+    {
+      "type": "chapitre",
+      "number": "28",
+      "text": "Annexe 11. — Certificat de sélection médicale (abrogé)",
+      "id": "3qdfqrlcsy"
+    },
+    {
+      "type": "chapitre",
+      "number": "29",
+      "text": "Annexe 12. — Certificat pour la conduit d'un tracteur agricole",
+      "id": "rtzaihpr0b"
+    },
+    {
+      "type": "chapitre",
+      "number": "30",
+      "text": "Annexe 13. — Équipement technique",
+      "id": "92ua7m79zu"
+    },
+    {
+      "type": "chapitre",
+      "number": "31",
+      "text": "Annexe 14. — Contenu et méthode",
+      "id": "rwmazrwiqg"
+    },
+    {
+      "type": "chapitre",
+      "number": "32",
+      "text": "Annexe 15. — Permis de conduire",
+      "id": "xhdookmb22"
+    },
+    {
+      "type": "chapitre",
+      "number": "33",
+      "text": "Annexe 16. — Permis de conduire",
+      "id": "3z6a5vgljb"
+    },
+    {
+      "type": "chapitre",
+      "number": "34",
+      "text": "Annexe 17. — Permis de conduire",
+      "id": "qxcfgj0k8r"
+    },
+    {
+      "type": "chapitre",
+      "number": "35",
+      "text": "Annexe 18. — Dispositions relatives au modèle carte de permis de conduire",
+      "id": "21wusz3gpm"
+    },
+    {
+      "type": "chapitre",
+      "number": "36",
+      "text": "Annexe 19.",
+      "id": "pcfku1kldr"
+    },
+    {
+      "type": "chapitre",
+      "number": "37",
+      "text": "Annexe 20. — Permis de conduire provisoire Modèle 3",
+      "id": "ckdnufrglo"
+    }
+  ],
+  "articles": [
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 1er. Région de Bruxelles-Capitale",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 1er. Région flamande",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "I",
+        "chapitre": null
+      },
+      "title_fr": "Article 1er. Région wallonne",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": "II",
+        "chapitre": null
+      },
+      "title_fr": "Article 2.",
+      "title_nl": "XI. Rijgeschiktheidsattest voor de kandidaat voor het rijbewijs van groep 2",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "3",
+      "slug": "art-3",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 3.",
+      "title_nl": "Artikel 3",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "4",
+      "slug": "art-4",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 4.",
+      "title_nl": "Artikel 4",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 5. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 5. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 5. Région flamande",
+      "title_nl": "Artikel 5. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "5",
+      "slug": "art-5",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 5. Région wallonne",
+      "title_nl": "Artikel 5. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "6",
+      "slug": "art-6",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 6.",
+      "title_nl": "Artikel 6.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "7",
+      "slug": "art-7",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 7.",
+      "title_nl": "Artikel 7.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "8",
+      "slug": "art-8",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 8.",
+      "title_nl": "Artikel 8.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "9",
+      "slug": "art-9",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 9.",
+      "title_nl": "Artikel 9.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "10",
+      "slug": "art-10",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article. 10-13. (Abrogé)",
+      "title_nl": "Artikel 10-13. (Opgeheven)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14",
+      "slug": "art-14",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 14.",
+      "title_nl": "Artikel 14.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "14bis",
+      "slug": "art-14bis",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 14bis. (uniquement Région wallonne)",
+      "title_nl": "Artikel 14bis. (enkel Waals Gewest)",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 15. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 15. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 15. Région flamande",
+      "title_nl": "Artikel 15. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "15",
+      "slug": "art-15",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 15. Région wallonne",
+      "title_nl": "Artikel 15. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "16",
+      "slug": "art-16",
+      "structure": {
+        "titre": "III",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 16.",
+      "title_nl": "Artikel 16.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "17",
+      "slug": "art-17",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 17.",
+      "title_nl": "Artikel 17.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "18",
+      "slug": "art-18",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 18.",
+      "title_nl": "Artikel 18.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "19",
+      "slug": "art-19",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 19.",
+      "title_nl": "Artikel 19.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20",
+      "slug": "art-20",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 20.",
+      "title_nl": "Artikel 20.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "20bis",
+      "slug": "art-20bis",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 20bis.",
+      "title_nl": "Artikel 20bis.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "21",
+      "slug": "art-21",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 21.",
+      "title_nl": "Artikel 21.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "22",
+      "slug": "art-22",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 22.",
+      "title_nl": "Artikel 22.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "23",
+      "slug": "art-23",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 23.",
+      "title_nl": "Artikel 23.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "24",
+      "slug": "art-24",
+      "structure": {
+        "titre": "III",
+        "chapitre": "III"
+      },
+      "title_fr": "Article 24.",
+      "title_nl": "Artikel 24.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 25. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 25. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 25. Région flamande",
+      "title_nl": "Artikel 25. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "25",
+      "slug": "art-25",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 25. Région wallonne",
+      "title_nl": "Artikel 25. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 26. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26. Région flamande",
+      "title_nl": "Artikel 26. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26",
+      "slug": "art-26",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26. Région wallonne",
+      "title_nl": "Artikel 26. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26bis",
+      "slug": "art-26bis",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26bis. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 26bis. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26bis",
+      "slug": "art-26bis",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26bis. Région flamande",
+      "title_nl": "Artikel 26bis. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26bis",
+      "slug": "art-26bis",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26bis. Région wallonne",
+      "title_nl": "Artikel 26bis. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26ter",
+      "slug": "art-26ter",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26ter.",
+      "title_nl": "Artikel 26ter.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "26quater",
+      "slug": "art-26quater",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 26quater.",
+      "title_nl": "Artikel 26quater.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "27",
+      "slug": "art-27",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 27.",
+      "title_nl": "Artikel 27.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "28",
+      "slug": "art-28",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 28.",
+      "title_nl": "Artikel 28.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "29",
+      "slug": "art-29",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 29.",
+      "title_nl": "Artikel 29.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "30",
+      "slug": "art-30",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 30.",
+      "title_nl": "Artikel 30.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "31",
+      "slug": "art-31",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 31.",
+      "title_nl": "Artikel 31.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 32. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 32. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 32. Région flamande",
+      "title_nl": "Artikel 32. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "32",
+      "slug": "art-32",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 32. Région wallonne",
+      "title_nl": "Artikel 32. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "33",
+      "slug": "art-33",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 33.",
+      "title_nl": "Artikel 33.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 34. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 34. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 34. Région flamande",
+      "title_nl": "Artikel 34. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "34",
+      "slug": "art-34",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 34. Région wallonne",
+      "title_nl": "Artikel 34. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 35. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 35. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 35. Région flamande",
+      "title_nl": "Artikel 35. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35",
+      "slug": "art-35",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 35. Région wallonne",
+      "title_nl": "Artikel 35. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35/1",
+      "slug": "art-35-1",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 35/1. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 35/1. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35/1",
+      "slug": "art-35-1",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 35/1. Région flamande",
+      "title_nl": "Artikel 35/1. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "35/1",
+      "slug": "art-35-1",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 35/1. Région wallonne",
+      "title_nl": "Artikel 35/1. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 36. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 36. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 36. Région flamande",
+      "title_nl": "Artikel 36. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "36",
+      "slug": "art-36",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 36. Région wallonne",
+      "title_nl": "Artikel 36. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 37. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 37. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 37. Région flamande",
+      "title_nl": "Artikel 37. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "37",
+      "slug": "art-37",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 37. Région wallonne",
+      "title_nl": "Artikel 37. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "38",
+      "slug": "art-38",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 38.",
+      "title_nl": "Artikel 38.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "38/1",
+      "slug": "art-38-1",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 38/1.",
+      "title_nl": "Artikel 38/1.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 39. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 39. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 39. Région flamande",
+      "title_nl": "Artikel 39. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "39",
+      "slug": "art-39",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 39. Région wallonne",
+      "title_nl": "Artikel 39. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "40",
+      "slug": "art-40",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 40.",
+      "title_nl": "Artikel 40.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "41",
+      "slug": "art-41",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 41.",
+      "title_nl": "Artikel 41.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "42",
+      "slug": "art-42",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 42.",
+      "title_nl": "Artikel 42.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "43",
+      "slug": "art-43",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 43.",
+      "title_nl": "Artikel 43.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "44",
+      "slug": "art-44",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 44.",
+      "title_nl": "Artikel 44.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "45",
+      "slug": "art-45",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 45.",
+      "title_nl": "XII (Vlaams Gewest). Rijgeschiktheidsattest afgeleverd door de geneesheer van het centrum, vermeld in artikel 45 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs, aan de kandidaat voor het rijbewijs van groep 1",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "46",
+      "slug": "art-46",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 46.",
+      "title_nl": "Artikel 46.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "47",
+      "slug": "art-47",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 47.",
+      "title_nl": "Artikel 47.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "48",
+      "slug": "art-48",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 48.",
+      "title_nl": "Artikel 48.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "47",
+      "slug": "art-47",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 47.",
+      "title_nl": "Artikel 47.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "48",
+      "slug": "art-48",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 48.",
+      "title_nl": "Artikel 48.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "47",
+      "slug": "art-47",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 47.",
+      "title_nl": "Artikel 47.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "48",
+      "slug": "art-48",
+      "structure": {
+        "titre": "III",
+        "chapitre": "IV"
+      },
+      "title_fr": "Article 48.",
+      "title_nl": "Artikel 48.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "49",
+      "slug": "art-49",
+      "structure": {
+        "titre": "III",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 49.",
+      "title_nl": "Artikel 49.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "50",
+      "slug": "art-50",
+      "structure": {
+        "titre": "III",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 50.",
+      "title_nl": "Artikel 50.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "51",
+      "slug": "art-51",
+      "structure": {
+        "titre": "III",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 51.",
+      "title_nl": "Artikel 51.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "52",
+      "slug": "art-52",
+      "structure": {
+        "titre": "III",
+        "chapitre": "V"
+      },
+      "title_fr": "Article 52.",
+      "title_nl": "Artikel 52.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "53",
+      "slug": "art-53",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 53.",
+      "title_nl": "Artikel 53.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "54",
+      "slug": "art-54",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 54.",
+      "title_nl": "Artikel 54.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "55",
+      "slug": "art-55",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 55.",
+      "title_nl": "Artikel 55.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "56",
+      "slug": "art-56",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VI"
+      },
+      "title_fr": "Article 56.",
+      "title_nl": "Artikel 56.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "57",
+      "slug": "art-57",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 57.",
+      "title_nl": "Artikel 57.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "58",
+      "slug": "art-58",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 58.",
+      "title_nl": "Artikel 58.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "59",
+      "slug": "art-59",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 59.",
+      "title_nl": "Artikel 59.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "60",
+      "slug": "art-60",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VII"
+      },
+      "title_fr": "Article 60.",
+      "title_nl": "Artikel 60.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61",
+      "slug": "art-61",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 61. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 61. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61",
+      "slug": "art-61",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 61. Région flamande",
+      "title_nl": "Artikel 61. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "61",
+      "slug": "art-61",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 61. Région wallonne",
+      "title_nl": "Artikel 61. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "62",
+      "slug": "art-62",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 62.",
+      "title_nl": "Artikel 62.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "63",
+      "slug": "art-63",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 63. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 63. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "63",
+      "slug": "art-63",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 63. Région flamande",
+      "title_nl": "Artikel 63. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "63",
+      "slug": "art-63",
+      "structure": {
+        "titre": "III",
+        "chapitre": "VIII"
+      },
+      "title_fr": "Article 63. Région wallonne",
+      "title_nl": "Artikel 63. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "64",
+      "slug": "art-64",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 64. Région de Bruxelles-Capitale",
+      "title_nl": "Artikel 64. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "64",
+      "slug": "art-64",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 64. Région flamande",
+      "title_nl": "Artikel 64. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "64",
+      "slug": "art-64",
+      "structure": {
+        "titre": "III",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 64. Région wallonne",
+      "title_nl": "Artikel 64. Waals Gewest",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "65",
+      "slug": "art-65",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 65.",
+      "title_nl": "Artikel 65.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "66",
+      "slug": "art-66",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 66.",
+      "title_nl": "Artikel 66.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "67",
+      "slug": "art-67",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 67.",
+      "title_nl": "Artikel 67.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "68",
+      "slug": "art-68",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 68.",
+      "title_nl": "Artikel 68.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "69",
+      "slug": "art-69",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 69.",
+      "title_nl": "Artikel 69.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "70",
+      "slug": "art-70",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "I"
+      },
+      "title_fr": "Article 70.",
+      "title_nl": "Artikel 70.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "71",
+      "slug": "art-71",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 71.",
+      "title_nl": "Artikel 71.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "72",
+      "slug": "art-72",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 72.",
+      "title_nl": "Artikel 72.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "73",
+      "slug": "art-73",
+      "structure": {
+        "titre": "IV",
+        "chapitre": "II"
+      },
+      "title_fr": "Article 73.",
+      "title_nl": "Artikel 73.",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "73/1",
+      "slug": "art-73-1",
+      "structure": {
+        "titre": "IV",
+        "chapitre": null
+      },
+      "title_fr": "Article 73/1",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "73/2",
+      "slug": "art-73-2",
+      "structure": {
+        "titre": "IV",
+        "chapitre": null
+      },
+      "title_fr": "Article 73/2",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "A. MATIERES DE L'EXAMEN THEORIQUE",
+      "slug": "art-a. matieres de l'examen theorique",
+      "structure": {
+        "titre": "11",
+        "chapitre": "17"
+      },
+      "title_fr": "A. MATIERES DE L'EXAMEN THEORIQUE",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "B. MODE DE COTATION",
+      "slug": "art-b. mode de cotation",
+      "structure": {
+        "titre": "11",
+        "chapitre": "17"
+      },
+      "title_fr": "B. MODE DE COTATION",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "C. MODE DE CORRECTION",
+      "slug": "art-c. mode de correction",
+      "structure": {
+        "titre": "11",
+        "chapitre": "17"
+      },
+      "title_fr": "C. MODE DE CORRECTION",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "I. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS A LA CATEGORIE AM",
+      "slug": "art-i. contrôle des aptitudes et des comportements relatifs a la categorie am",
+      "structure": {
+        "titre": "11",
+        "chapitre": "18"
+      },
+      "title_fr": "I. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS A LA CATEGORIE AM",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "18"
+      },
+      "title_fr": "II. CONTROLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES A1, A2 ET A",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "III. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES B ET B + E",
+      "slug": "art-iii. contrôle des aptitudes et des comportements relatifs aux categories b et b + e",
+      "structure": {
+        "titre": "11",
+        "chapitre": "18"
+      },
+      "title_fr": "III. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES B ET B + E",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "18"
+      },
+      "title_fr": "IV. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES C1, C1+E, C ET C+E",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "18"
+      },
+      "title_fr": "V. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES D1, D1+E, D ET D+E",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "Vbis. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS À LA CATÉGORIE G",
+      "slug": "art-vbis. contrôle des aptitudes et des comportements relatifs à la catégorie g",
+      "structure": {
+        "titre": "11",
+        "chapitre": "18"
+      },
+      "title_fr": "Vbis. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS À LA CATÉGORIE G",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "VI. MODE DE COTATION DE L'EXAMEN",
+      "slug": "art-vi. mode de cotation de l'examen",
+      "structure": {
+        "titre": "11",
+        "chapitre": "18"
+      },
+      "title_fr": "VI. MODE DE COTATION DE L'EXAMEN",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "I. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS A LA CATEGORIE AM",
+      "slug": "art-i. contrôle des aptitudes et des comportements relatifs a la categorie am",
+      "structure": {
+        "titre": "11",
+        "chapitre": "19"
+      },
+      "title_fr": "I. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS A LA CATEGORIE AM",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "19"
+      },
+      "title_fr": "II. CONTROLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES A1, A2 ET A",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "III. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES B ET B + E",
+      "slug": "art-iii. contrôle des aptitudes et des comportements relatifs aux categories b et b + e",
+      "structure": {
+        "titre": "11",
+        "chapitre": "19"
+      },
+      "title_fr": "III. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES B ET B + E",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "19"
+      },
+      "title_fr": "IV. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES C1, C1+E, C ET C+E",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "19"
+      },
+      "title_fr": "V. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES D1, D1+E, D ET D+E",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "Vbis. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS À LA CATÉGORIE G",
+      "slug": "art-vbis. contrôle des aptitudes et des comportements relatifs à la catégorie g",
+      "structure": {
+        "titre": "11",
+        "chapitre": "19"
+      },
+      "title_fr": "Vbis. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS À LA CATÉGORIE G",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "VI. MODE DE COTATION DE L'EXAMEN",
+      "slug": "art-vi. mode de cotation de l'examen",
+      "structure": {
+        "titre": "11",
+        "chapitre": "19"
+      },
+      "title_fr": "VI. MODE DE COTATION DE L'EXAMEN",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "I. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS A LA CATEGORIE AM",
+      "slug": "art-i. contrôle des aptitudes et des comportements relatifs a la categorie am",
+      "structure": {
+        "titre": "11",
+        "chapitre": "20"
+      },
+      "title_fr": "I. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS A LA CATEGORIE AM",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "20"
+      },
+      "title_fr": "II. CONTROLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES A1, A2 ET A",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "III. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES B ET B + E",
+      "slug": "art-iii. contrôle des aptitudes et des comportements relatifs aux categories b et b + e",
+      "structure": {
+        "titre": "11",
+        "chapitre": "20"
+      },
+      "title_fr": "III. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES B ET B + E",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "20"
+      },
+      "title_fr": "IV. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES C1, C1+E, C ET C+E",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "20"
+      },
+      "title_fr": "V. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS AUX CATEGORIES D1, D1+E, D ET D+E",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "Vbis. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS À LA CATÉGORIE G",
+      "slug": "art-vbis. contrôle des aptitudes et des comportements relatifs à la catégorie g",
+      "structure": {
+        "titre": "11",
+        "chapitre": "20"
+      },
+      "title_fr": "Vbis. CONTRÔLE DES APTITUDES ET DES COMPORTEMENTS RELATIFS À LA CATÉGORIE G",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "VI. MODE DE COTATION DES TESTS ET DE L’EXAMEN PRATIQUE",
+      "slug": "art-vi. mode de cotation des tests et de l’examen pratique",
+      "structure": {
+        "titre": "11",
+        "chapitre": "20"
+      },
+      "title_fr": "VI. MODE DE COTATION DES TESTS ET DE L’EXAMEN PRATIQUE",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "I. Cette annexe décrit les troubles fonctionnels et affections éliminatoires et les normes médicales auxquelles le candidat au permis de conduire ou au permis de conduire provisoire et le titulaire d'un permis de conduire doivent satisfaire",
+      "slug": "art-i. cette annexe décrit les troubles fonctionnels et affections éliminatoires et les normes médicales auxquelles le candidat au permis de conduire ou au permis de conduire provisoire et le titulaire d'un permis de conduire doivent satisfaire",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "I. Cette annexe décrit les troubles fonctionnels et affections éliminatoires et les normes médicales auxquelles le candidat au permis de conduire ou au permis de conduire provisoire et le titulaire d'un permis de conduire doivent satisfaire",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "II. Normes concernant l'aptitude physique et psychique",
+      "slug": "art-ii. normes concernant l'aptitude physique et psychique",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "II. Normes concernant l'aptitude physique et psychique",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "III. Normes concernant les fonctions visuelles",
+      "slug": "art-iii. normes concernant les fonctions visuelles",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "III. Normes concernant les fonctions visuelles",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "IV. Normes relatives à l'usage d'alcool, de substances psychotropes et de médicaments",
+      "slug": "art-iv. normes relatives à l'usage d'alcool, de substances psychotropes et de médicaments",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "IV. Normes relatives à l'usage d'alcool, de substances psychotropes et de médicaments",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "V. Normes relatives aux affections des reins et du foie",
+      "slug": "art-v. normes relatives aux affections des reins et du foie",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "V. Normes relatives aux affections des reins et du foie",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "VI. Implants",
+      "slug": "art-vi. implants",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "VI. Implants",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "VII. Attestation d'aptitude pour le (la) candidat(e) au permis de conduire du groupe 1",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "VIII. Attestation d'aptitude pour le (la) candidat(e) au permis de conduire du groupe 1, délivrée par l'ophtalmologue",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "IX. Déclaration personnelle pour le candidat au permis de conduire du groupe 2",
+      "title_nl": "XI. Rijgeschiktheidsattest voor de kandidaat voor het rijbewijs van groep 2",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "X. Examen oculaire – candidat au permis de conduire du groupe 2",
+      "title_nl": "XI. Rijgeschiktheidsattest voor de kandidaat voor het rijbewijs van groep 2",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "2",
+      "slug": "art-2",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "XI. Attestation d'aptitude pour le candidat au permis de conduire du groupe 2",
+      "title_nl": "XI. Rijgeschiktheidsattest voor de kandidaat voor het rijbewijs van groep 2",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "45",
+      "slug": "art-45",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "XII (Région de Bruxelles-Capitale). Attestation d'aptitude délivrée par le médecin du centre visé à l'article 45 de l'arrêté royal du 23 mars 1998 relatif au permis de conduire au (à la) candidat(e) au permis de conduire du groupe 1",
+      "title_nl": "XII (Vlaams Gewest). Rijgeschiktheidsattest afgeleverd door de geneesheer van het centrum, vermeld in artikel 45 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs, aan de kandidaat voor het rijbewijs van groep 1",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "45",
+      "slug": "art-45",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "XII (Région flamande). Attestation d’aptitude à conduire, délivrée par le médecin du centre, visé à l'article 45 de l’arrêté royal du 23 mars 1998 relatif au permis de conduire, au candidat au permis de conduire de groupe 1",
+      "title_nl": "XII (Vlaams Gewest). Rijgeschiktheidsattest afgeleverd door de geneesheer van het centrum, vermeld in artikel 45 van het koninklijk besluit van 23 maart 1998 betreffende het rijbewijs, aan de kandidaat voor het rijbewijs van groep 1",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "1",
+      "slug": "art-1",
+      "structure": {
+        "titre": "11",
+        "chapitre": "23"
+      },
+      "title_fr": "XII (Région wallonne). Attestation d’aptitude à conduire pour le permis de conduire de groupe 1 délivrée par le médecin du centre chargé de l’évaluation de l’aptitude à la conduite",
+      "title_nl": "XII (Waals Gewest). Rijgeschiktheidsattest voor het rijbewijs van groep 1 afgeleverd door de geneesheer van het centrum verantwoordelijk voor de beoordeling van de rijgeschiktheid",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "A. Contenu et méthode des examens psychologiques",
+      "slug": "art-a. contenu et méthode des examens psychologiques",
+      "structure": {
+        "titre": "11",
+        "chapitre": "31"
+      },
+      "title_fr": "A. Contenu et méthode des examens psychologiques",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "B. Contenu et méthode des examens médicaux",
+      "slug": "art-b. contenu et méthode des examens médicaux",
+      "structure": {
+        "titre": "11",
+        "chapitre": "31"
+      },
+      "title_fr": "B. Contenu et méthode des examens médicaux",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    },
+    {
+      "number": "C. Examens médicaux et psychologiques",
+      "slug": "art-c. examens médicaux et psychologiques",
+      "structure": {
+        "titre": "11",
+        "chapitre": "31"
+      },
+      "title_fr": "C. Examens médicaux et psychologiques",
+      "title_nl": "",
+      "title_ru": "",
+      "has_images": false,
+      "sign_codes": []
+    }
+  ]
+}
