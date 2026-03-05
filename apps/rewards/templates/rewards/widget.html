@@ -1,6 +1,5 @@
 {% if show %}
 <div id="keys-widget"
-     class="flex items-center gap-2 text-sm select-none"
      data-balance="{{ balance }}"
      data-today-minutes="{{ today_minutes }}"
      data-min-minutes="{{ min_minutes }}"
@@ -10,116 +9,89 @@
      data-questions-reward="{{ questions_per_pack }}"
      data-icon="{{ icon }}"
      data-heartbeat-url="{% url 'rewards:heartbeat' %}"
-     data-spend-url="{% url 'rewards:spend' %}">
+     data-spend-url="{% url 'rewards:spend' %}"
+     class="flex items-center gap-2 select-none">
 
-  {# Balance bubble #}
-  <span id="keys-balance"
-        class="inline-flex items-center gap-1 font-semibold text-amber-600 dark:text-amber-400">
-    <span id="keys-icon">{{ icon }}</span><span id="keys-count">{{ balance }}</span>
-  </span>
+  <a href="{% url 'accounts:profile' %}"
+     class="relative flex-shrink-0 flex items-center gap-2 group no-underline">
 
-  {# Progress / countdown (hidden once awarded today) #}
-  <span id="keys-progress" class="flex items-center gap-1 text-xs">
-    {% if not awarded_today %}
-      <span id="keys-dots" class="text-gray-400 tracking-tight"></span>
-      <span id="keys-label" class="text-gray-400 whitespace-nowrap hidden sm:inline"></span>
+    {% if avatar_url %}
+      <img src="{{ avatar_url }}"
+           class="w-8 h-8 rounded-full object-cover ring-2 ring-transparent group-hover:ring-blue-400 transition"
+           alt="">
     {% else %}
-      <span class="text-green-500">✓</span>
+      <div class="w-8 h-8 rounded-full bg-blue-600 group-hover:bg-blue-700 transition
+                  flex items-center justify-center text-white text-xs font-bold leading-none">
+        {{ initial }}
+      </div>
     {% endif %}
-  </span>
 
-  {# Spend button (visible only when balance >= cost) #}
-  {% if balance >= keys_per_pack %}
-  <button id="keys-spend-btn"
-          title="Échanger {{ keys_per_pack }} {{ icon }} contre {{ questions_per_pack }} questions"
-          class="text-xs px-1.5 py-0.5 rounded border border-amber-400 text-amber-600
-                 hover:bg-amber-50 dark:hover:bg-amber-900/30 transition">
-    +{{ questions_per_pack }}q
-  </button>
-  {% else %}
-  <button id="keys-spend-btn" style="display:none"
-          class="text-xs px-1.5 py-0.5 rounded border border-amber-400 text-amber-600
-                 hover:bg-amber-50 dark:hover:bg-amber-900/30 transition">
-    +{{ questions_per_pack }}q
-  </button>
+    <span id="keys-badge"
+          class="flex items-center gap-0.5 text-sm font-semibold text-amber-600
+                 group-hover:text-amber-700 transition">
+      {{ icon }}<span id="keys-count">{{ balance }}</span>
+    </span>
+
+  </a>
+
+  {% if not awarded_today %}
+  <div id="keys-progress-row"
+       title="+{{ award_amount }} {{ icon }} après {{ min_minutes }} min d'activité"
+       class="flex items-center gap-px transition-opacity duration-500">
+    <span id="keys-dots" class="tracking-tighter text-xs text-gray-300"></span>
+  </div>
   {% endif %}
+
 </div>
 
 <script>
 (function () {
   'use strict';
-
-  const widget      = document.getElementById('keys-widget');
+  const widget = document.getElementById('keys-widget');
   if (!widget) return;
 
-  // ── State from server ────────────────────────────────────────────────────
-  let balance        = parseInt(widget.dataset.balance, 10);
-  let todayMinutes   = parseInt(widget.dataset.todayMinutes, 10);
-  const minMinutes   = parseInt(widget.dataset.minMinutes, 10);
-  let awardedToday   = widget.dataset.awarded === 'true';
-  const awardAmount  = parseInt(widget.dataset.awardAmount, 10);
-  const keysCost     = parseInt(widget.dataset.keysCost, 10);
-  const qReward      = parseInt(widget.dataset.questionsReward, 10);
-  const icon         = widget.dataset.icon;
+  let balance       = parseInt(widget.dataset.balance, 10);
+  let todayMinutes  = parseInt(widget.dataset.todayMinutes, 10);
+  const minMinutes  = parseInt(widget.dataset.minMinutes, 10);
+  let awardedToday  = widget.dataset.awarded === 'true';
   const heartbeatUrl = widget.dataset.heartbeatUrl;
-  const spendUrl     = widget.dataset.spendUrl;
 
-  // ── DOM refs ─────────────────────────────────────────────────────────────
   const countEl    = document.getElementById('keys-count');
   const dotsEl     = document.getElementById('keys-dots');
-  const labelEl    = document.getElementById('keys-label');
-  const progressEl = document.getElementById('keys-progress');
-  const spendBtn   = document.getElementById('keys-spend-btn');
+  const progressRow = document.getElementById('keys-progress-row');
 
-  // ── CSRF helper ──────────────────────────────────────────────────────────
   function getCsrf() {
     const m = document.cookie.match(/csrftoken=([^;]+)/);
     return m ? m[1] : '';
   }
 
-  // ── Render helpers ───────────────────────────────────────────────────────
-  function renderDots(filled, total) {
+  function renderDots() {
+    if (!dotsEl) return;
+    const filled = Math.min(todayMinutes, minMinutes);
     let s = '';
-    for (let i = 0; i < total; i++) s += (i < filled ? '●' : '○');
-    return s;
+    for (let i = 0; i < minMinutes; i++) s += i < filled ? '●' : '○';
+    dotsEl.textContent = s;
+  }
+
+  function hideProgress() {
+    if (!progressRow) return;
+    progressRow.style.opacity = '0';
+    setTimeout(() => progressRow.remove(), 500);
   }
 
   function updateUI() {
-    countEl.textContent = balance;
-
-    // Show / hide spend button
-    if (spendBtn) {
-      spendBtn.style.display = (balance >= keysCost) ? '' : 'none';
-    }
-
-    if (!progressEl) return;
-
+    if (countEl) countEl.textContent = balance;
     if (awardedToday) {
-      progressEl.innerHTML =
-        `<span class="text-green-500 font-medium">✓ +${awardAmount} aujourd'hui</span>`;
-      return;
-    }
-
-    // Dots: fill up to todayMinutes, total = minMinutes
-    const filled = Math.min(todayMinutes, minMinutes);
-    const remaining = Math.max(0, minMinutes - todayMinutes);
-
-    if (dotsEl) dotsEl.textContent = renderDots(filled, minMinutes);
-    if (labelEl) {
-      labelEl.textContent = remaining > 0
-        ? `+${awardAmount} dans ${remaining} min`
-        : `attribution en cours…`;
+      hideProgress();
+    } else {
+      renderDots();
     }
   }
 
-  // ── Heartbeat (every 60 s) ───────────────────────────────────────────────
   function sendHeartbeat() {
     fetch(heartbeatUrl, {
       method: 'POST',
-      headers: {
-        'X-CSRFToken': getCsrf(),
-        'X-Requested-With': 'XMLHttpRequest',
-      },
+      headers: { 'X-CSRFToken': getCsrf(), 'X-Requested-With': 'XMLHttpRequest' },
       credentials: 'same-origin',
     })
     .then(r => r.ok ? r.json() : null)
@@ -128,52 +100,21 @@
       balance      = data.balance;
       todayMinutes = data.today_minutes;
       awardedToday = data.awarded_today;
-
       if (data.awarded_now) {
-        // Brief flash on the balance
-        countEl.classList.add('text-yellow-400');
-        setTimeout(() => countEl.classList.remove('text-yellow-400'), 1500);
+        const badge = document.getElementById('keys-badge');
+        if (badge) {
+          badge.classList.add('scale-125');
+          setTimeout(() => badge.classList.remove('scale-125'), 600);
+        }
       }
       updateUI();
     })
-    .catch(() => { /* silent — no network error shown to user */ });
+    .catch(() => {});
   }
 
-  // ── Spend keys ───────────────────────────────────────────────────────────
-  if (spendBtn) {
-    spendBtn.addEventListener('click', function () {
-      spendBtn.disabled = true;
-      fetch(spendUrl, {
-        method: 'POST',
-        headers: {
-          'X-CSRFToken': getCsrf(),
-          'X-Requested-With': 'XMLHttpRequest',
-        },
-        credentials: 'same-origin',
-      })
-      .then(r => r.json())
-      .then(data => {
-        if (data.ok) {
-          balance = data.balance;
-          updateUI();
-          // Tiny confirmation flash
-          const flash = document.createElement('span');
-          flash.textContent = `+${qReward} questions !`;
-          flash.className = 'text-xs text-green-600 font-medium ml-1';
-          progressEl.appendChild(flash);
-          setTimeout(() => flash.remove(), 3000);
-        } else {
-          spendBtn.disabled = false;
-        }
-      })
-      .catch(() => { spendBtn.disabled = false; });
-    });
-  }
-
-  // ── Init ─────────────────────────────────────────────────────────────────
   updateUI();
-  setInterval(sendHeartbeat, 60000);   // every 60 seconds
-  sendHeartbeat();                     // also fire once right away (handles page load)
+  setInterval(sendHeartbeat, 60000);
+  sendHeartbeat();
 })();
 </script>
 {% endif %}

@@ -39,9 +39,6 @@
 
                     {% if user.is_authenticated %}
                         {% keys_widget %}
-                        <a href="{% url 'accounts:profile' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">
-                            {{ user.username }}
-                        </a>
                     {% else %}
                         <a href="{% url 'accounts:login' %}" class="text-gray-700 hover:text-blue-600 font-medium transition">{% trans "Connexion" %}</a>
                         <a href="{% url 'accounts:register' %}" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">{% trans "Inscription" %}</a>
