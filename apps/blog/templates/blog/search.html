@@ -2,7 +2,7 @@
 {% load i18n %}
 {% block title %}{% trans "Recherche" %} : {{ search_query }} — Blog — {{ SITE_NAME }}{% endblock %}
 {% block content %}
-<div class="max-w-7xl mx-auto px-4 py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <h1 class="text-2xl font-bold text-gray-900 mb-4">{% blocktrans with q=search_query %}Recherche : "{{ q }}"{% endblocktrans %}</h1>
     <form method="get" class="mb-8">
         <input type="text" name="q" value="{{ search_query }}" placeholder="{% trans "Rechercher..." %}"

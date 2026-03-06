@@ -1,13 +1,4 @@
 {% load i18n %}
-{#
-  Breadcrumb component.
-  Always renders "Accueil" as the root crumb.
-  Pass additional crumbs via:
-    crumb2 / crumb2_url
-    crumb3 / crumb3_url
-    crumb4            (last crumb, never linked — current page)
-  URL variables must be pre-resolved with {% url ... as var %} in the calling template.
-#}
 <nav aria-label="breadcrumb" class="bg-gray-50 border-b border-gray-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5">
     <div class="flex items-center gap-1.5 text-sm text-gray-500 flex-wrap">
