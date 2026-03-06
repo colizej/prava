@@ -16,15 +16,18 @@ stop:
 	@-lsof -ti :$(PORT) | xargs kill -9 2>/dev/null || true
 	@echo "   Done."
 
+# Use standalone binary if present (needed on servers with Node < 20)
+TAILWIND_BIN := $(shell [ -f ./tailwindcss ] && echo ./tailwindcss || echo npx @tailwindcss/cli)
+
 ## Build Tailwind CSS (one-shot)
 css:
 	@echo "🎨 Building Tailwind CSS..."
-	npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css --minify
+	$(TAILWIND_BIN) -i ./static/css/input.css -o ./static/css/output.css --minify
 
 ## Watch Tailwind CSS (auto-rebuild)
 css-watch:
 	@echo "👁  Watching Tailwind CSS..."
-	npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css --watch
+	$(TAILWIND_BIN) -i ./static/css/input.css -o ./static/css/output.css --watch
 
 ## Start the development server (builds CSS first)
 dev: stop css

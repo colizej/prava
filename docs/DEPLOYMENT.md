@@ -9,7 +9,7 @@
 | Requis | Version |
 |--------|---------|
 | Python | 3.14+ |
-| Node.js | 18+ (pour build Tailwind) |
+| Node.js | **20+** (Tailwind v4 exige ≥20) — ou utiliser le binaire standalone (voir §3) |
 | Gunicorn | ≥25.0 |
 | Caddy 2 | proxy inverse + HTTPS automatique |
 | SQLite | intégré (WAL mode activé, suffisant pour 1000+ users) |
@@ -61,12 +61,28 @@ npm install  # pour Tailwind CLI
 
 ## 3. Build des assets
 
+### Si Node ≥ 20 disponible
 ```bash
-# Build Tailwind CSS (OBLIGATOIRE — output.css est gitignored)
+npm install
 make css
-# ou directement :
-npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css --minify
+```
 
+### Si Node < 20 (ex: Node 18 — utiliser le binaire standalone)
+
+Le binaire Tailwind standalone ne dépend pas de Node du tout :
+
+```bash
+# Télécharger le binaire standalone Tailwind v4 (Linux x64)
+curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
+mv tailwindcss-linux-x64 tailwindcss
+chmod +x tailwindcss
+# make css détecte automatiquement ./tailwindcss et l'utilise
+make css
+```
+
+> Le Makefile détecte `./tailwindcss` automatiquement — pas besoin de modifier les commandes.
+
+```bash
 # Collect static files
 python manage.py collectstatic --noinput
 ```

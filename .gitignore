@@ -48,3 +48,5 @@ static/css/output.css
 htmlcov/
 .coverage
 .coverage.*
+# Tailwind standalone binary
+/tailwindcss
