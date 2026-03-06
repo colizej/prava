@@ -1,0 +1,22 @@
+{
+  "name": "Prava.be — Examen de conduite",
+  "short_name": "Prava",
+  "description": "Préparez votre examen de conduite en Belgique",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/static/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
