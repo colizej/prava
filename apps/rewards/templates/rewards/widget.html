@@ -108,7 +108,7 @@
 
   {# ── Exchange dropdown panel ───────────────────────────────────────── #}
   <div id="fuel-panel"
-       style="display:none;position:fixed;width:290px;z-index:99999"
+       style="display:none;position:fixed;width:290px;z-index:99999;overflow:hidden"
        class="bg-white border border-gray-200 rounded-2xl shadow-2xl p-4">
 
     {# Header #}
@@ -163,6 +163,30 @@
         Comment ça marche ?
       </a>
     </div>
+
+    {# Confirmation overlay — shown before any exchange #}
+    <div id="fuel-confirm-overlay"
+         style="display:none;position:absolute;top:0;left:0;right:0;bottom:0;
+                background:rgba(255,255,255,.97);z-index:10;border-radius:1rem;
+                flex-direction:column;align-items:center;justify-content:center;
+                gap:12px;padding:24px;text-align:center">
+      <div style="font-size:1.5rem">⚠️</div>
+      <p id="fuel-confirm-text"
+         style="font-size:.875rem;font-weight:600;color:#1f2937;line-height:1.5;margin:0"></p>
+      <p style="font-size:.75rem;color:#6b7280;margin:0">Cette action est irréversible.</p>
+      <div style="display:flex;gap:8px;margin-top:6px">
+        <button id="fuel-confirm-yes" type="button"
+                style="padding:7px 18px;font-size:.8rem;font-weight:700;border-radius:8px;
+                       background:#2563eb;color:#fff;border:none;cursor:pointer">
+          Confirmer ✓
+        </button>
+        <button id="fuel-confirm-no" type="button"
+                style="padding:7px 18px;font-size:.8rem;font-weight:600;border-radius:8px;
+                       background:#f9fafb;color:#374151;border:1px solid #d1d5db;cursor:pointer">
+          Annuler ✕
+        </button>
+      </div>
+    </div>
   </div>
 
 </div>
@@ -202,8 +226,13 @@ const tiersContainer  = document.getElementById('fuel-tiers-container');
 const warnMsg         = document.getElementById('fuel-warn-msg');
 const okMsg           = document.getElementById('fuel-ok-msg');
 const gaugeBtn        = document.getElementById('fuel-gauge-btn');
+const confirmOverlay  = document.getElementById('fuel-confirm-overlay');
+const confirmText     = document.getElementById('fuel-confirm-text');
+const confirmYesBtn   = document.getElementById('fuel-confirm-yes');
+const confirmNoBtn    = document.getElementById('fuel-confirm-no');
 
-let panelOpen = false;
+let panelOpen      = false;
+let pendingExchange = null;
 
 // ── Helpers ───────────────────────────────────────────────────────────────
 function getCsrf() {
@@ -292,7 +321,7 @@ function renderTiers() {
     if (canAfford) {
       btn.addEventListener('click', function (e) {
         e.stopPropagation();
-        doExchange(tier.fuel, tier.questions, btn);
+        showConfirm(tier.fuel, tier.questions);
       });
     }
     tiersContainer.appendChild(btn);
@@ -352,8 +381,23 @@ function openPanel() {
   renderTiers();
 }
 
+// ── Confirmation dialog ──────────────────────────────────────────────────
+function showConfirm(fuel, questions) {
+  pendingExchange = { fuel: fuel, questions: questions };
+  if (confirmText) {
+    confirmText.textContent = '\u00c9changer\u00a0' + fuel + '\u202fL \u2192 +' + questions + ' questions\u00a0?';
+  }
+  if (confirmOverlay) confirmOverlay.style.display = 'flex';
+}
+
+function hideConfirm() {
+  pendingExchange = null;
+  if (confirmOverlay) confirmOverlay.style.display = 'none';
+}
+
 function closePanel() {
   panelOpen = false;
+  hideConfirm();
   if (panel)     panel.style.display      = 'none';
   if (arrowIcon) arrowIcon.style.transform = 'rotate(0deg)';
 }
@@ -372,6 +416,24 @@ if (closeBtn) {
   closeBtn.addEventListener('click', function (e) {
     e.stopPropagation();
     closePanel();
+  });
+}
+
+// Wire confirmation buttons
+if (confirmYesBtn) {
+  confirmYesBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    if (pendingExchange) {
+      const p = pendingExchange;
+      hideConfirm();
+      doExchange(p.fuel, p.questions, null);
+    }
+  });
+}
+if (confirmNoBtn) {
+  confirmNoBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    hideConfirm();
   });
 }
 
