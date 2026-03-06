@@ -47,18 +47,18 @@ logger = logging.getLogger(__name__)
 
 # ── Structure label → RuleCategory name (AR 1975 titres) ──────────────────────
 _1975_TITRE_NAMES = {
-    "I":    "Champ d'application et definitions",
-    "II":   "Signalisation routiere",
-    "III":  "Regles de circulation",
-    "IV":   "Priorite",
-    "V":    "Vitesse",
-    "VI":   "Croisement et depassement",
-    "VII":  "Intersection et priorite",
-    "VIII": "Voies publiques et trottoirs",
-    "IX":   "Stationnement",
-    "X":    "Eclairage et signaux",
-    "XI":   "Equipement des vehicules",
-    "XII":  "Dispositions diverses",
+    "I":    "Titre I. Dispositions préliminaires",
+    "II":   "Titre II. Règles d'usage de la voie publique",
+    "III":  "Titre III. Signalisation routière",
+    "IV":   "Titre IV. Prescriptions techniques",
+    "V":    "Titre V. Dispositions abrogatoires et transitoires",
+    "VI":   "Titre VI. Croisement et dépassement",
+    "VII":  "Titre VII. Intersection et priorité",
+    "VIII": "Titre VIII. Voies publiques et trottoirs",
+    "IX":   "Titre IX. Stationnement",
+    "X":    "Titre X. Éclairage et signaux",
+    "XI":   "Titre XI. Équipement des véhicules",
+    "XII":  "Titre XII. Dispositions diverses",
 }
 
 # ── Default broad ExamCategory per law ────────────────────────────────────────
