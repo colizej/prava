@@ -32,7 +32,193 @@
   "anchor_id_fr": "bogok2zg5p",
   "anchor_id_nl": "rsmlbm9imo",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon la définition officielle, qu'est-ce qu'une piste cyclable reconnaissable par des marques longitudinales ?",
+      "text_nl": "Wat is volgens de officiële definitie een fietspad dat herkenbaar is aan langsmarkeringen?",
+      "text_ru": "Согласно официальному определению, что такое велосипедная дорожка, узнаваемая по продольной разметке?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image showing a road with two parallel white dashed lines delimiting an area, insufficient for car traffic."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une voie réservée aux cyclistes et délimitée par une seule ligne continue jaune.",
+          "text_nl": "Een rijstrook voor fietsers, afgebakend door één doorlopende gele streep.",
+          "text_ru": "Полоса, предназначенная для велосипедистов и ограниченная одной сплошной желтой линией.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une partie de la voie publique délimitée par deux lignes discontinues parallèles de couleur blanche et trop étroite pour les voitures.",
+          "text_nl": "Een deel van de openbare weg dat is afgebakend door twee evenwijdige witte onderbroken strepen en te smal is voor auto's.",
+          "text_ru": "Часть проезжей части, ограниченная двумя параллельными прерывистыми белыми линиями и слишком узкая для автомобилей.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tout espace sur le trottoir où les vélos peuvent circuler librement.",
+          "text_nl": "Elke ruimte op het voetpad waar fietsen vrij mogen rijden.",
+          "text_ru": "Любое пространство на тротуаре, где велосипеды могут свободно перемещаться.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une piste cyclable est une partie de la voie publique délimitée par deux lignes discontinues parallèles de couleur blanche, et sa largeur n'est pas suffisante pour la circulation automobile.",
+      "explanation_nl": "Een fietspad is een deel van de openbare weg dat is afgebakend door twee evenwijdige witte onderbroken strepen en de breedte ervan is niet voldoende voor autoverkeer.",
+      "explanation_ru": "Велосипедная дорожка – это часть проезжей части, ограниченная двумя параллельными прерывистыми белыми линиями, и ее ширина недостаточна для движения автомобилей."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Comment sont caractérisées les lignes qui délimitent une piste cyclable de la chaussée ?",
+      "text_nl": "Hoe worden de lijnen gekenmerkt die een fietspad afbakenen van de rijbaan?",
+      "text_ru": "Как характеризуются линии, отделяющие велосипедную дорожку от проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image showing a road with two parallel white dashed lines."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont continues et de couleur jaune.",
+          "text_nl": "Ze zijn doorlopend en geel van kleur.",
+          "text_ru": "Они сплошные и желтого цвета.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles sont discontinues, parallèles et de couleur blanche.",
+          "text_nl": "Ze zijn onderbroken, evenwijdig en wit van kleur.",
+          "text_ru": "Они прерывистые, параллельные и белого цвета.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles sont continues et de couleur blanche.",
+          "text_nl": "Ze zijn doorlopend en wit van kleur.",
+          "text_ru": "Они сплошные и белого цвета.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les pistes cyclables sont délimitées par deux lignes discontinues parallèles de couleur blanche.",
+      "explanation_nl": "Fietspaden worden afgebakend door twee evenwijdige witte onderbroken strepen.",
+      "explanation_ru": "Велосипедные дорожки ограничены двумя параллельными прерывистыми белыми линиями."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez et voyez une partie de la route délimitée par deux lignes blanches discontinues, manifestement trop étroite pour votre voiture. Que devez-vous en déduire ?",
+      "text_nl": "U rijdt en ziet een deel van de weg afgebakend door twee witte onderbroken strepen, duidelijk te smal voor uw auto. Wat moet u daaruit afleiden?",
+      "text_ru": "Вы едете и видите часть дороги, ограниченную двумя прерывистыми белыми линиями, явно слишком узкую для вашего автомобиля. Что вы должны из этого заключить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image from a driver's perspective looking at a road with two parallel white dashed lines on the right, creating a narrow lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il s'agit d'une zone de stationnement temporaire.",
+          "text_nl": "Dit is een tijdelijke parkeerzone.",
+          "text_ru": "Это временная зона парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est une piste cyclable où la circulation des véhicules automobiles n'est pas autorisée.",
+          "text_nl": "Het is een fietspad waar autoverkeer niet is toegestaan.",
+          "text_ru": "Это велосипедная дорожка, где движение автомобилей не разрешено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une voie réservée aux bus et aux taxis.",
+          "text_nl": "Het is een rijstrook voor bussen en taxi's.",
+          "text_ru": "Это полоса, предназначенная для автобусов и такси.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les lignes discontinues parallèles blanches délimitant un espace trop étroit pour les voitures indiquent une piste cyclable. Les véhicules automobiles n'y sont pas autorisés.",
+      "explanation_nl": "De evenwijdige witte onderbroken strepen die een te smalle ruimte voor auto's afbakenen, duiden op een fietspad. Autovoertuigen zijn daar niet toegestaan.",
+      "explanation_ru": "Параллельные прерывистые белые линии, обозначающие пространство, слишком узкое для автомобилей, указывают на велосипедную дорожку. Автомобилям там проезд запрещен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous apprêtez à tourner à droite à un carrefour et remarquez, sur votre droite, une zone délimitée par deux lignes blanches discontinues. Un cycliste approche par cette zone. Que devez-vous faire ?",
+      "text_nl": "U staat op het punt rechts af te slaan bij een kruispunt en merkt aan uw rechterkant een zone afgebakend door twee witte onderbroken strepen op. Een fietser nadert via deze zone. Wat moet u doen?",
+      "text_ru": "Вы собираетесь повернуть направо на перекрестке и замечаете справа от себя зону, ограниченную двумя прерывистыми белыми линиями. По этой зоне приближается велосипедист. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image showing a car at an intersection, ready to turn right, with a cyclist approaching on a bike lane marked by two parallel white dashed lines on the right."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tourner immédiatement puisque vous avez la priorité en tant que véhicule motorisé.",
+          "text_nl": "Meteen afslaan, want u hebt voorrang als motorvoertuig.",
+          "text_ru": "Немедленно повернуть, так как у вас приоритет как у моторизованного транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Klaxonner pour signaler votre intention de tourner.",
+          "text_nl": "Claxonneren om uw intentie om af te slaan aan te geven.",
+          "text_ru": "Посигналить, чтобы обозначить свое намерение повернуть.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Céder le passage au cycliste car vous traversez une piste cyclable.",
+          "text_nl": "Voorrang verlenen aan de fietser omdat u een fietspad oversteekt.",
+          "text_ru": "Уступить дорогу велосипедисту, так как вы пересекаете велосипедную дорожку.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La zone délimitée par deux lignes blanches discontinues est une piste cyclable. En tournant, vous coupez la trajectoire du cycliste, vous devez donc lui céder le passage.",
+      "explanation_nl": "De zone afgebakend door twee witte onderbroken strepen is een fietspad. Bij het afslaan snijdt u de baan van de fietser, dus u moet hem voorrang verlenen.",
+      "explanation_ru": "Зона, ограниченная двумя прерывистыми белыми линиями, является велосипедной дорожкой. Поворачивая, вы пересекаете траекторию велосипедиста, поэтому вы должны уступить ему дорогу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes en voiture et vous vous retrouvez momentanément sur une portion de route marquée par deux lignes blanches discontinues en raison d'un obstacle imprévu. Quelles sont les implications de cette situation ?",
+      "text_nl": "U zit in de auto en bevindt zich tijdelijk op een weggedeelte dat is gemarkeerd met twee witte onderbroken strepen vanwege een onverwachte hindernis. Wat zijn de implicaties van deze situatie?",
+      "text_ru": "Вы едете на машине и временно оказались на участке дороги, обозначенном двумя прерывистыми белыми линиями, из-за непредвиденного препятствия. Каковы последствия этой ситуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image from a driver's perspective, showing a car slightly encroaching on a bike lane (marked by two parallel white dashed lines) due to an obstacle on the main road. A cyclist is in the distance."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez y circuler normalement car les lignes sont discontinues.",
+          "text_nl": "U kunt daar normaal rijden, want de strepen zijn onderbroken.",
+          "text_ru": "Вы можете двигаться там нормально, так как линии прерывистые.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez immédiatement quitter cette partie de la voie dès que possible et avec une prudence extrême, car elle est réservée aux cyclistes.",
+          "text_nl": "U moet dit deel van de weg zo snel mogelijk en met uiterste voorzichtigheid verlaten, want het is gereserveerd voor fietsers.",
+          "text_ru": "Вы должны немедленно покинуть эту часть дороги как можно скорее и с предельной осторожностью, так как она зарезервирована для велосипедистов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez l'utiliser comme voie de dépassement si aucun cycliste n'est en vue.",
+          "text_nl": "U kunt het gebruiken als inhaalstrook als er geen fietsers in zicht zijn.",
+          "text_ru": "Вы можете использовать ее как полосу для обгона, если поблизости нет велосипедистов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même si les lignes sont discontinues, une piste cyclable délimitée de la sorte est exclusivement réservée aux cyclistes. Un véhicule motorisé ne peut l'emprunter qu'en cas de nécessité absolue et doit en sortir au plus vite, avec une vigilance accrue.",
+      "explanation_nl": "Zelfs als de lijnen onderbroken zijn, is een op deze manier afgebakend fietspad uitsluitend voorbehouden aan fietsers. Een motorvoertuig mag er alleen in geval van absolute nood gebruik van maken en moet er zo snel mogelijk en met verhoogde waakzaamheid uitrijden.",
+      "explanation_ru": "Даже если линии прерывистые, велосипедная дорожка, обозначенная таким образом, предназначена исключительно для велосипедистов. Моторизованное транспортное средство может использовать ее только в случае крайней необходимости и должно как можно скорее покинуть ее с повышенной осторожностью."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "8b001bc9be76",
@@ -42,6 +228,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:02:51Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 5
   }
 }

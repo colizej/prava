@@ -41,7 +41,304 @@
   "anchor_id_fr": "jmplderqfs",
   "anchor_id_nl": "3fv4a3szqu",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'objectif principal des règles concernant l'entretien des véhicules, notamment en ce qui concerne le bruit et les émissions ?",
+      "text_nl": "Wat is het hoofddoel van de regels betreffende het onderhoud van voertuigen, met name wat betreft geluid en uitstoot?",
+      "text_ru": "Какова основная цель правил по обслуживанию транспортных средств, особенно в отношении шума и выбросов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Garantir que tous les véhicules respectent une norme esthétique uniforme.",
+          "text_nl": "Ervoor zorgen dat alle voertuigen voldoen aan een uniforme esthetische norm.",
+          "text_ru": "Обеспечить соответствие всех транспортных средств единому эстетическому стандарту.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Assurer la sécurité de la circulation et ne pas incommoder les autres usagers de la route.",
+          "text_nl": "De verkeersveiligheid garanderen en andere weggebruikers geen ongemak bezorgen.",
+          "text_ru": "Обеспечить безопасность движения и не доставлять неудобства другим участникам дорожного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Permettre aux conducteurs de personnaliser leurs véhicules sans restrictions.",
+          "text_nl": "Bestuurders in staat stellen hun voertuigen zonder beperkingen aan te passen.",
+          "text_ru": "Позволить водителям персонализировать свои транспортные средства без ограничений.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règles sur les organes moteurs, le bruit et la fumée visent principalement à ne pas nuire à la sécurité de la circulation et à ne pas incommoder les autres usagers de la route.",
+      "explanation_nl": "De regels inzake aandrijving, geluid en rook zijn er voornamelijk op gericht de verkeersveiligheid niet in gevaar te brengen en andere weggebruikers geen ongemak te bezorgen.",
+      "explanation_ru": "Правила в отношении двигателей, шума и дыма направлены в первую очередь на то, чтобы не наносить ущерб безопасности дорожного движения и не создавать неудобства для других участников дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le nom de l'équipement obligatoire qui doit être à bord de tout véhicule automobile et qui sert à signaler un danger en cas d'arrêt imprévu ?",
+      "text_nl": "Wat is de naam van de verplichte uitrusting die in elke auto aanwezig moet zijn en die dient om gevaar aan te duiden bij een onvoorziene stilstand?",
+      "text_ru": "Как называется обязательное оборудование, которое должно находиться в каждом автомобиле и используется для обозначения опасности в случае непредвиденной остановки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un gilet de sécurité fluorescent.",
+          "text_nl": "Een fluorescerend veiligheidsvest.",
+          "text_ru": "Флуоресцентный спасательный жилет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un extincteur d'incendie.",
+          "text_nl": "Een brandblusser.",
+          "text_ru": "Огнетушитель.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un triangle de danger.",
+          "text_nl": "Een gevaarsdriehoek.",
+          "text_ru": "Аварийный треугольник.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un triangle de danger est un accessoire obligatoire servant à signaler un véhicule en panne ou accidenté sur la voie publique.",
+      "explanation_nl": "Een gevaarsdriehoek is een verplicht accessoire om een pechvoertuig of een ongeval op de openbare weg te signaleren.",
+      "explanation_ru": "Аварийный треугольник является обязательным аксессуаром для обозначения неисправного или попавшего в аварию транспортного средства на проезжей части."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie l'expression 'rainures principales des bandages pneumatiques' en relation avec la profondeur minimale requise ?",
+      "text_nl": "Wat betekent de uitdrukking 'hoofdgroeven van de luchtbanden' in verband met de vereiste minimale diepte?",
+      "text_ru": "Что означает выражение «основные канавки пневматических шин» в отношении требуемой минимальной глубины?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les rainures les plus petites situées sur les bords du pneu.",
+          "text_nl": "De kleinste groeven aan de randen van de band.",
+          "text_ru": "Самые маленькие канавки, расположенные по краям шины.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les rainures larges situées dans la zone centrale de la bande de roulement, couvrant environ les trois quarts de sa largeur.",
+          "text_nl": "De brede groeven op het midden van het loopvlak, die ongeveer driekwart van de breedte beslaan.",
+          "text_ru": "Широкие канавки, расположенные в центральной части протектора, занимающие около трех четвертей его ширины.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "N'importe quelle rainure sur le pneu, pourvu qu'elle soit visible.",
+          "text_nl": "Elke groef op de band, zolang deze zichtbaar is.",
+          "text_ru": "Любая канавка на шине, если она видна.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les rainures principales sont définies comme les rainures larges situées dans la zone centrale de la bande de roulement qui couvre environ les trois quarts de la largeur de celle-ci.",
+      "explanation_nl": "Hoofdgroeven worden gedefinieerd als de brede groeven in het midden van het loopvlak, die ongeveer driekwart van de breedte beslaan.",
+      "explanation_ru": "Основными канавками считаются широкие канавки, расположенные в центральной части протектора, занимающие около трех четвертей его ширины."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez votre voiture et vous remarquez que la profondeur des rainures principales de vos pneus est inférieure à 1,6 mm. Que devez-vous faire ?",
+      "text_nl": "U rijdt met uw auto en u merkt dat de diepte van de hoofdgroeven van uw banden minder is dan 1,6 mm. Wat moet u doen?",
+      "text_ru": "Вы ведете машину и замечаете, что глубина основных канавок ваших шин меньше 1,6 мм. Что вам следует делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car tire with worn tread, showing less than 1.6 mm groove depth."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler, cela n'a pas d'impact immédiat sur la sécurité.",
+          "text_nl": "Blijven rijden, dit heeft geen onmiddellijke invloed op de veiligheid.",
+          "text_ru": "Продолжать движение, это не оказывает немедленного влияния на безопасность.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Remplacer les pneus dès que possible, car la profondeur minimale légale n'est pas respectée.",
+          "text_nl": "De banden zo snel mogelijk vervangen, aangezien de wettelijke minimale diepte niet wordt gerespecteerd.",
+          "text_ru": "Заменить шины как можно скорее, так как минимальная допустимая глубина не соблюдается.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Réduire la pression des pneus pour compenser l'usure.",
+          "text_nl": "De bandenspanning verlagen om slijtage te compenseren.",
+          "text_ru": "Снизить давление в шинах, чтобы компенсировать износ.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La profondeur des rainures principales des pneus doit être d'au moins 1,6 mm pour les voitures. Ne pas respecter cette exigence est dangereux et illégal.",
+      "explanation_nl": "De diepte van de hoofdgroeven van autobanden moet minimaal 1,6 mm zijn. Het niet naleven van deze eis is gevaarlijk en illegaal.",
+      "explanation_ru": "Глубина основных канавок автомобильных шин должна составлять не менее 1,6 мм. Несоблюдение этого требования опасно и незаконно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez en hiver et vous rencontrez des conditions de neige et de verglas. Pouvez-vous équiper votre véhicule de chaînes antidérapantes ?",
+      "text_nl": "U rijdt in de winter en u komt in sneeuw- en ijzelomstandigheden terecht. Mag u uw voertuig uitrusten met antislipkettingen?",
+      "text_ru": "Вы едете зимой и сталкиваетесь со снегом и гололедом. Можете ли вы установить на свой автомобиль противоскользящие цепи?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car with snow chains on its tires, driving on a snowy road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les chaînes antidérapantes sont toujours interdites sur la voie publique.",
+          "text_nl": "Nee, antislipkettingen zijn altijd verboden op de openbare weg.",
+          "text_ru": "Нет, противоскользящие цепи всегда запрещены на дорогах общего пользования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, mais uniquement en cas de neige ou de verglas.",
+          "text_nl": "Ja, maar alleen bij sneeuw of ijzel.",
+          "text_ru": "Да, но только в случае снега или гололеда.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, à condition de ne pas dépasser 50 km/h.",
+          "text_nl": "Ja, mits u niet harder rijdt dan 50 km/u.",
+          "text_ru": "Да, при условии, что вы не превышаете 50 км/ч.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les chaînes antidérapantes sont autorisées uniquement en cas de neige ou de verglas pour améliorer l'adhérence.",
+      "explanation_nl": "Antislipkettingen zijn alleen toegestaan bij sneeuw of ijzel om de grip te verbeteren.",
+      "explanation_ru": "Противоскользящие цепи разрешены только в случае снега или гололеда для улучшения сцепления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous venez de monter une roue de secours de taille différente de vos autres pneus. Que devez-vous faire pour rouler en toute sécurité ?",
+      "text_nl": "U heeft zojuist een reservewiel gemonteerd dat een andere maat heeft dan uw andere banden. Wat moet u doen om veilig te rijden?",
+      "text_ru": "Вы только что установили запасное колесо другого размера, чем ваши остальные шины. Что вы должны сделать, чтобы безопасно управлять автомобилем?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car with a different-sized spare tire mounted, driving slowly on a road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez rouler normalement, la roue de secours est conçue pour cela.",
+          "text_nl": "U kunt normaal rijden, het reservewiel is daarvoor ontworpen.",
+          "text_ru": "Вы можете ехать нормально, запасное колесо предназначено для этого.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez adapter votre conduite, notamment en réduisant la vitesse.",
+          "text_nl": "U moet uw rijgedrag aanpassen, met name door de snelheid te verminderen.",
+          "text_ru": "Вы должны адаптировать свой стиль вождения, в частности, снизив скорость.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous rendre immédiatement au garage sans réduire la vitesse.",
+          "text_nl": "U moet onmiddellijk naar de garage gaan zonder de snelheid te verminderen.",
+          "text_ru": "Вы должны немедленно отправиться в гараж, не снижая скорости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas d'utilisation d'une roue de secours, la conduite du véhicule doit être adaptée en conséquence, notamment en réduisant la vitesse.",
+      "explanation_nl": "Bij gebruik van een reservewiel moet het rijgedrag van het voertuig hierop worden aangepast, met name door de snelheid te verminderen.",
+      "explanation_ru": "В случае использования запасного колеса необходимо соответствующим образом скорректировать манеру вождения, в частности, снизив скорость."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous constatez que votre véhicule émet une fumée anormale et persistante du pot d'échappement. Quelle est la bonne conduite à tenir ?",
+      "text_nl": "U merkt dat uw voertuig abnormale en aanhoudende rook uit de uitlaat stoot. Wat is de juiste manier van handelen?",
+      "text_ru": "Вы заметили, что ваш автомобиль постоянно выбрасывает необычный дым из выхлопной трубы. Каково правильное поведение в этой ситуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car emitting excessive and abnormal smoke from its exhaust pipe."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ignorer le problème et continuer à rouler, c'est probablement passager.",
+          "text_nl": "Het probleem negeren en blijven rijden, het is waarschijnlijk tijdelijk.",
+          "text_ru": "Игнорировать проблему и продолжать движение, это, вероятно, временно.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire vérifier votre véhicule par un professionnel, car cela peut nuire à l'environnement et à la sécurité.",
+          "text_nl": "Uw voertuig laten controleren door een professional, omdat dit schadelijk kan zijn voor het milieu en de veiligheid.",
+          "text_ru": "Проверить свой автомобиль у специалиста, так как это может нанести вред окружающей среде и безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ajouter un additif au carburant pour masquer la fumée.",
+          "text_nl": "Een additief aan de brandstof toevoegen om de rook te maskeren.",
+          "text_ru": "Добавить присадку в топливо, чтобы скрыть дым.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les véhicules à moteur ne doivent pas produire de dégagements de fumée excessifs, car cela nuit à l'environnement et peut indiquer un problème mécanique. Il est interdit d'émettre des gaz polluants qui dépassent les limites fixées.",
+      "explanation_nl": "Motorvoertuigen mogen geen overmatige rook uitstoten, aangezien dit schadelijk is voor het milieu en een mechanisch probleem kan aanduiden. Het is verboden om vervuilende gassen uit te stoten die de vastgestelde grenswaarden overschrijden.",
+      "explanation_ru": "Автомобили не должны выбрасывать чрезмерное количество дыма, так как это вредит окружающей среде и может указывать на механическую проблему. Запрещено выбрасывать загрязняющие газы, превышающие установленные нормы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous possédez une motocyclette. Quelle est la profondeur minimale des rainures principales de ses pneus requise par la loi ?",
+      "text_nl": "U bezit een motorfiets. Wat is de wettelijk vereiste minimale diepte van de hoofdgroeven van de banden?",
+      "text_ru": "У вас мотоцикл. Какова минимальная глубина основных канавок его шин, требуемая законом?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A close-up of a motorcycle tire tread, showing a ruler measuring groove depth."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "1,6 mm.",
+          "text_nl": "1,6 mm.",
+          "text_ru": "1,6 мм.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "1 mm.",
+          "text_nl": "1 mm.",
+          "text_ru": "1 мм.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "2 mm.",
+          "text_nl": "2 mm.",
+          "text_ru": "2 мм.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour les cyclomoteurs et motocyclettes, la profondeur des rainures principales des bandages doit être d'au moins 1 mm. Pour les voitures, c'est 1,6 mm.",
+      "explanation_nl": "Voor bromfietsen en motorfietsen moet de diepte van de hoofdgroeven minimaal 1 mm zijn. Voor auto's is dit 1,6 mm.",
+      "explanation_ru": "Для мопедов и мотоциклов глубина основных канавок шин должна быть не менее 1 мм. Для автомобилей — 1,6 мм."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "1450f5c0dcf9",
@@ -51,6 +348,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:13:14Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

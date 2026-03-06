@@ -26,7 +26,267 @@
   "anchor_id_fr": "3elotbehid",
   "anchor_id_nl": "teuc6lnmfn",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est, en règle générale, habilité à placer la signalisation routière sur la voie publique ?",
+      "text_nl": "Wie is, in de regel, bevoegd om verkeerstekens op de openbare weg te plaatsen?",
+      "text_ru": "Кто, как правило, уполномочен размещать дорожные знаки на дорогах общего пользования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "N'importe quel citoyen ayant une bonne connaissance du code de la route.",
+          "text_nl": "Elke burger met een goede kennis van de wegcode.",
+          "text_ru": "Любой гражданин, хорошо знающий правила дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Seules les autorités légalement habilitées.",
+          "text_nl": "Alleen de wettelijk daartoe bevoegde overheden.",
+          "text_ru": "Только уполномоченные законом органы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les entreprises de construction privées en charge des travaux routiers.",
+          "text_nl": "Particuliere bouwbedrijven die verantwoordelijk zijn voor wegenwerken.",
+          "text_ru": "Частные строительные компании, ответственные за дорожные работы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En règle générale, seule les autorités légalement habilitées sont autorisées à placer la signalisation routière.",
+      "explanation_nl": "In de regel zijn alleen de wettelijk daartoe bevoegde overheden gemachtigd om verkeerstekens te plaatsen.",
+      "explanation_ru": "Как правило, только уполномоченные законом органы имеют право устанавливать дорожные знаки."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles situations les services de police peuvent-ils placer temporairement des signaux pour la circulation ?",
+      "text_nl": "In welke situaties mogen de politiediensten tijdelijk verkeerstekens plaatsen?",
+      "text_ru": "В каких ситуациях полиция может временно устанавливать дорожные знаки для регулирования движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement pour des événements sportifs ou culturels majeurs.",
+          "text_nl": "Uitsluitend voor grote sportieve of culturele evenementen.",
+          "text_ru": "Только для крупных спортивных или культурных мероприятий.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En cas d'urgence, lorsque les artères sont encombrées, pour détourner ou canaliser le trafic.",
+          "text_nl": "In dringende gevallen, wanneer het verkeer belemmerd wordt, om het verkeer om te leiden of te kanaliseren.",
+          "text_ru": "В экстренных случаях, когда дороги перегружены, для отвода или регулирования движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À leur discrétion, à chaque fois qu'ils estiment qu'un signal supplémentaire est nécessaire.",
+          "text_nl": "Naar eigen goeddunken, telkens wanneer zij van mening zijn dat een extra signaal nodig is.",
+          "text_ru": "По своему усмотрению, всякий раз, когда они считают необходимым дополнительный знак.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les services de police et de gendarmerie peuvent placer des signaux en cas d'urgence lorsque les artères sont encombrées, pour détourner ou canaliser temporairement la circulation. Ces signaux doivent être retirés dès que la situation redevient normale.",
+      "explanation_nl": "De politie- en rijkswachtdiensten mogen in dringende gevallen verkeersborden aanbrengen wanneer het verkeer belemmerd wordt, om het verkeer tijdelijk om te leiden of te kanaliseren. Deze verkeersborden moeten verwijderd worden zodra het verkeer weer normaal geworden is.",
+      "explanation_ru": "Полиция и жандармерия могут устанавливать знаки в экстренных случаях, когда дороги перегружены, для временного отвода или регулирования движения. Эти знаки должны быть убраны, как только ситуация нормализуется."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Pourquoi est-il interdit d'installer des panneaux publicitaires qui éblouissent ou imitent des signaux routiers ?",
+      "text_nl": "Waarom is het verboden om reclameborden te plaatsen die verblinden of verkeersborden nabootsen?",
+      "text_ru": "Почему запрещено устанавливать рекламные щиты, которые ослепляют или имитируют дорожные знаки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour préserver l'esthétique du paysage urbain et éviter la pollution visuelle.",
+          "text_nl": "Om de esthetiek van het stedelijke landschap te bewaren en visuele vervuiling te voorkomen.",
+          "text_ru": "Чтобы сохранить эстетику городского пейзажа и избежать визуального загрязнения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour éviter d'induire les conducteurs en erreur, de les éblouir ou de nuire à l'efficacité des signaux réglementaires.",
+          "text_nl": "Om te voorkomen dat bestuurders in dwaling worden gebracht, verblind worden of de doelmatigheid van de reglementaire verkeersborden wordt verminderd.",
+          "text_ru": "Чтобы избежать введения водителей в заблуждение, их ослепления или снижения эффективности стандартных дорожных знаков.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Car ces dispositifs sont considérés comme des entraves à la libre circulation des piétons et des cyclistes.",
+          "text_nl": "Omdat deze voorzieningen worden beschouwd als belemmeringen voor het vrije verkeer van voetgangers en fietsers.",
+          "text_ru": "Потому что эти устройства считаются препятствиями для свободного передвижения пешеходов и велосипедистов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est interdit de placer des panneaux publicitaires qui éblouissent, induisent en erreur les conducteurs, imitent des signaux routiers ou nuisent à l'efficacité des signaux réglementaires afin de garantir la sécurité routière et la clarté de la signalisation.",
+      "explanation_nl": "Het is verboden reclameborden te plaatsen die verblinden, bestuurders in dwaling brengen, verkeersborden nabootsen of de doelmatigheid van de reglementaire verkeersborden verminderen, om zo de verkeersveiligheid en de duidelijkheid van de signalisatie te waarborgen.",
+      "explanation_ru": "Запрещено устанавливать рекламные щиты, которые ослепляют, вводят водителей в заблуждение, имитируют дорожные знаки или снижают эффективность стандартных знаков, чтобы обеспечить безопасность дорожного движения и ясность сигнализации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez et remarquez un panneau publicitaire lumineux à proximité d'un feu de signalisation. Ce panneau émet une lumière rouge vive. À quelle distance minimale du feu de signalisation ce panneau publicitaire est-il interdit si sa hauteur est de 6 mètres ?",
+      "text_nl": "U rijdt en merkt een lichtgevend reclamebord op in de buurt van een verkeerslicht. Dit bord straalt een fel rood licht uit. Op welke minimale afstand van het verkeerslicht is dit reclamebord verboden als de hoogte 6 meter is?",
+      "text_ru": "Вы едете и замечаете светящийся рекламный щит рядом со светофором. Этот щит излучает яркий красный свет. На каком минимальном расстоянии от светофора запрещен этот рекламный щит, если его высота составляет 6 метров?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street scene with a traffic light and a bright red illuminated billboard placed too close to it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Moins de 50 mètres.",
+          "text_nl": "Minder dan 50 meter.",
+          "text_ru": "Менее 50 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Moins de 75 mètres.",
+          "text_nl": "Minder dan 75 meter.",
+          "text_ru": "Менее 75 метров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Moins de 100 mètres.",
+          "text_nl": "Minder dan 100 meter.",
+          "text_ru": "Менее 100 meter.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est interdit de donner une luminosité d'un ton rouge ou vert à tout panneau publicitaire, enseigne ou dispositif se trouvant dans une zone s'étendant jusqu'à 75 mètres d'un signal lumineux de circulation, à une hauteur inférieure à 7 mètres au-dessus du sol.",
+      "explanation_nl": "Het is verboden een luminositeit met een rode of groene tint te geven aan alle reclameborden, uithangborden of inrichtingen die zich, binnen een afstand van 75 meter van een verkeerslicht, op minder dan 7 meter boven de grond bevinden.",
+      "explanation_ru": "Запрещено придавать свечение красного или зеленого оттенка любым рекламным щитам, вывескам или устройствам, находящимся в зоне до 75 метров от светофора, на высоте менее 7 метров над землей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous arrivez à un carrefour où la circulation est totalement bloquée suite à un accident. Les services de police installent rapidement des signaux temporaires pour rediriger le trafic. Que devez-vous faire ?",
+      "text_nl": "U komt aan bij een kruispunt waar het verkeer volledig geblokkeerd is door een ongeval. De politiediensten plaatsen snel tijdelijke verkeersborden om het verkeer om te leiden. Wat moet u doen?",
+      "text_ru": "Вы подъезжаете к перекрестку, где движение полностью заблокировано из-за аварии. Полиция быстро устанавливает временные знаки для перенаправления движения. Что вы должны делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A busy intersection with an accident scene, police presence, and temporary traffic diversion signs."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ignorer les signaux temporaires et attendre que la situation revienne à la normale sur votre voie habituelle.",
+          "text_nl": "De tijdelijke verkeersborden negeren en wachten tot de situatie op uw gebruikelijke rijstrook weer normaal is.",
+          "text_ru": "Игнорировать временные знаки и ждать, пока ситуация на вашей обычной полосе движения нормализуется.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre scrupuleusement les indications des signaux temporaires mis en place par la police.",
+          "text_nl": "De aanwijzingen van de tijdelijke verkeersborden die door de politie zijn geplaatst, nauwgezet volgen.",
+          "text_ru": "Строго следовать указаниям временных знаков, установленных полицией.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Chercher un autre itinéraire en utilisant votre GPS sans tenir compte des instructions sur place.",
+          "text_nl": "Een andere route zoeken via uw GPS zonder rekening te houden met de instructies ter plaatse.",
+          "text_ru": "Искать другой маршрут с помощью GPS, не принимая во внимание инструкции на месте.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas d'urgence et d'encombrement, les services de police peuvent placer des signaux temporaires pour détourner ou canaliser la circulation. Il est impératif de les suivre pour assurer la fluidité et la sécurité du trafic.",
+      "explanation_nl": "In dringende gevallen en bij belemmering mogen de politiediensten tijdelijke verkeersborden plaatsen om het verkeer om te leiden of te kanaliseren. Het is van essentieel belang deze te volgen om de doorstroming en veiligheid van het verkeer te waarborgen.",
+      "explanation_ru": "В экстренных случаях и при перегрузках полиция может устанавливать временные знаки для отвода или регулирования движения. Крайне важно следовать им для обеспечения плавности и безопасности дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous constatez qu'un panneau publicitaire situé à 50 mètres d'un feu de circulation projette une lumière verte intense et semble imiter un signal lumineux. Que devez-vous considérer à son propos ?",
+      "text_nl": "U merkt dat een reclamebord op 50 meter van een verkeerslicht een intens groen licht uitstraalt en een lichtsignaal lijkt na te bootsen. Wat moet u hierover overwegen?",
+      "text_ru": "Вы замечаете, что рекламный щит, расположенный в 50 метрах от светофора, излучает интенсивный зеленый свет и, кажется, имитирует световой сигнал. Что вы должны об этом подумать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street scene with a traffic light and a confusingly bright green illuminated billboard nearby, potentially mimicking a traffic signal."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une publicité créative et originale qui attire l'attention.",
+          "text_nl": "Het is een creatieve en originele reclame die de aandacht trekt.",
+          "text_ru": "Это креативная и оригинальная реклама, привлекающая внимание.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ce panneau est potentiellement dangereux car il peut induire les conducteurs en erreur ou nuire à l'efficacité du feu de signalisation.",
+          "text_nl": "Dit bord is potentieel gevaarlijk omdat het bestuurders in dwaling kan brengen of de doelmatigheid van het verkeerslicht kan verminderen.",
+          "text_ru": "Этот щит потенциально опасен, так как может ввести водителей в заблуждение или снизить эффективность светофора.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tant que le panneau ne bloque pas la vue du feu, il n'y a pas de problème.",
+          "text_nl": "Zolang het bord het zicht op het licht niet blokkeert, is er geen probleem.",
+          "text_ru": "Пока щит не загораживает светофор, проблем нет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est interdit de donner une luminosité d'un ton rouge ou vert à un panneau publicitaire à moins de 75 mètres d'un feu de signalisation, surtout s'il peut induire en erreur ou nuire à l'efficacité des signaux réglementaires.",
+      "explanation_nl": "Het is verboden een luminositeit met een rode of groene tint te geven aan een reclamebord binnen 75 meter van een verkeerslicht, vooral als het bestuurders in dwaling kan brengen of de doelmatigheid van de reglementaire verkeersborden kan verminderen.",
+      "explanation_ru": "Запрещено придавать свечение красного или зеленого оттенка рекламному щиту на расстоянии менее 75 метров от светофора, особенно если это может ввести в заблуждение или снизить эффективность стандартных знаков."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Après une perturbation temporaire du trafic due à des travaux urgents, vous remarquez que les signaux de déviation mis en place par la police sont toujours présents alors que la circulation est revenue à la normale. Quel est le principe à respecter ?",
+      "text_nl": "Na een tijdelijke verkeershinder door dringende werkzaamheden merkt u dat de door de politie geplaatste omleidingsborden nog steeds aanwezig zijn, hoewel het verkeer weer normaal is. Welk principe moet worden nageleefd?",
+      "text_ru": "После временного нарушения движения из-за срочных работ вы замечаете, что установленные полицией знаки объезда все еще присутствуют, хотя движение нормализовалось. Какой принцип должен соблюдаться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road scene where temporary traffic diversion signs are still present, but traffic flow appears normal, suggesting they should be removed."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les signaux temporaires peuvent rester en place indéfiniment par mesure de précaution.",
+          "text_nl": "De tijdelijke verkeersborden mogen voor onbepaalde tijd blijven staan uit voorzorg.",
+          "text_ru": "Временные знаки могут оставаться на неопределенный срок в качестве меры предосторожности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les signaux temporaires doivent être enlevés dès que la circulation est redevenue normale.",
+          "text_nl": "De tijdelijke verkeersborden moeten verwijderd worden zodra het verkeer weer normaal geworden is.",
+          "text_ru": "Временные знаки должны быть удалены, как только движение нормализуется.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est aux usagers de la route de les retirer s'ils estiment qu'ils ne sont plus nécessaires.",
+          "text_nl": "Het is aan de weggebruikers om ze te verwijderen als zij van mening zijn dat ze niet langer nodig zijn.",
+          "text_ru": "Пользователи дороги должны удалять их, если считают, что они больше не нужны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux temporaires mis en place par les services de police en cas d'urgence doivent être enlevés dès que la circulation est redevenue normale, pour éviter toute confusion inutile.",
+      "explanation_nl": "De tijdelijke verkeersborden die door de politiediensten in geval van nood zijn geplaatst, moeten verwijderd worden zodra het verkeer weer normaal geworden is, om onnodige verwarring te voorkomen.",
+      "explanation_ru": "Временные знаки, установленные полицией в экстренных случаях, должны быть удалены, как только движение нормализуется, чтобы избежать ненужной путаницы."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "b685cbd3f622",
@@ -36,6 +296,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:12:46Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 7
   }
 }

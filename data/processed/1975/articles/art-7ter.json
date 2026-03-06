@@ -26,7 +26,304 @@
   "anchor_id_fr": "8go3h9duzn",
   "anchor_id_nl": "m4gxvd6fiz",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel type de véhicule est considéré comme un 'cycle motorisé à deux roues' selon les règles de circulation ?",
+      "text_nl": "Welk type voertuig wordt volgens de verkeersregels beschouwd als een 'tweewielig gemotoriseerd rijwiel'?",
+      "text_ru": "Какой тип транспортного средства считается 'двухколесным моторизованным велосипедом' согласно правилам дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une motocyclette de grosse cylindrée",
+          "text_nl": "Een motorfiets met een grote cilinderinhoud",
+          "text_ru": "Мотоцикл большого объема двигателя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un vélo électrique dont la puissance d'assistance dépasse une certaine limite",
+          "text_nl": "Een elektrische fiets waarvan de ondersteuningskracht een bepaalde limiet overschrijdt",
+          "text_ru": "Электрический велосипед, мощность которого превышает определенный предел",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un scooter nécessitant un permis de conduire de catégorie A",
+          "text_nl": "Een scooter waarvoor een rijbewijs categorie A vereist is",
+          "text_ru": "Скутер, требующий водительских прав категории А",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un cycle motorisé à deux roues fait référence à des véhicules comme les speed pedelecs, qui sont assimilés aux cyclistes pour certaines règles.",
+      "explanation_nl": "Een tweewielig gemotoriseerd rijwiel verwijst naar voertuigen zoals speed pedelecs, die voor bepaalde regels gelijkgesteld worden met fietsers.",
+      "explanation_ru": "Двухколесное моторизованное транспортное средство относится к таким транспортным средствам, как скоростные электровелосипеды (speed pedelecs), которые приравниваются к велосипедистам для определенных правил."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie l'assimilation d'un conducteur de cycle motorisé à deux roues à un cycliste ?",
+      "text_nl": "Wat betekent de gelijkstelling van een bestuurder van een tweewielig gemotoriseerd rijwiel met een fietser?",
+      "text_ru": "Что означает приравнивание водителя двухколесного моторизованного велосипеда к велосипедисту?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit toujours rouler sur la chaussée, comme une voiture.",
+          "text_nl": "Hij moet altijd op de rijbaan rijden, net als een auto.",
+          "text_ru": "Он всегда должен ехать по проезжей части, как автомобиль.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il bénéficie des mêmes protections et règles de circulation que les cyclistes, notamment en ce qui concerne l'usage des pistes cyclables.",
+          "text_nl": "Hij geniet dezelfde beschermingen en verkeersregels als fietsers, met name wat betreft het gebruik van fietspaden.",
+          "text_ru": "Он пользуется такими же защитами и правилами дорожного движения, как и велосипедисты, в частности, в отношении использования велосипедных дорожек.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est exempté du port du casque.",
+          "text_nl": "Hij is vrijgesteld van de helmplicht.",
+          "text_ru": "Он освобожден от обязанности носить шлем.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'assimilation signifie que les règles qui s'appliquent aux cyclistes s'appliquent également à ces cycles motorisés, leur accordant les mêmes droits et devoirs, comme l'utilisation des pistes cyclables.",
+      "explanation_nl": "De gelijkstelling betekent dat de regels die van toepassing zijn op fietsers ook gelden voor deze gemotoriseerde rijwielen, waardoor ze dezelfde rechten en plichten hebben, zoals het gebruik van fietspaden.",
+      "explanation_ru": "Приравнивание означает, что правила, применимые к велосипедистам, также применяются к этим моторизованным велосипедам, предоставляя им те же права и обязанности, например, использование велосипедных дорожек."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la définition d'un 'cycle motorisé à trois ou quatre roues' dans le contexte des règles de circulation ?",
+      "text_nl": "Wat is de definitie van een 'drie- of vierwielig gemotoriseerd rijwiel' in de context van de verkeersregels?",
+      "text_ru": "Каково определение 'трех- или четырехколесного моторизованного велосипеда' в контексте правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un quadricycle lourd à moteur",
+          "text_nl": "Een zware motorquad",
+          "text_ru": "Тяжелый квадроцикл",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un véhicule de la catégorie des side-cars",
+          "text_nl": "Een voertuig uit de zijspan-categorie",
+          "text_ru": "Транспортное средство категории мотоциклов с боковым прицепом",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un tricycle ou quadricycle motorisé dont les caractéristiques techniques (vitesse, puissance) le distinguent des véhicules plus lourds.",
+          "text_nl": "Een gemotoriseerde driewieler of vierwieler waarvan de technische kenmerken (snelheid, vermogen) hem onderscheiden van zwaardere voertuigen.",
+          "text_ru": "Моторизованный трехколесный или четырехколесный велосипед, технические характеристики которого (скорость, мощность) отличают его от более тяжелых транспортных средств.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un cycle motorisé à trois ou quatre roues fait référence à des tricycles ou quadricycles légers motorisés qui, bien que motorisés, sont assimilés aux cycles non motorisés en raison de leurs caractéristiques limitées.",
+      "explanation_nl": "Een drie- of vierwielig gemotoriseerd rijwiel verwijst naar lichte gemotoriseerde driewielers of vierwielers die, hoewel gemotoriseerd, gelijkgesteld worden met niet-gemotoriseerde rijwielen vanwege hun beperkte kenmerken.",
+      "explanation_ru": "Трех- или четырехколесный моторизованный велосипед относится к легким моторизованным трех- или четырехколесным транспортным средствам, которые, хотя и моторизованы, приравниваются к немоторизованным велосипедам из-за их ограниченных характеристик."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une voiture et vous vous apprêtez à dépasser un speed pedelec (assimilé à un cycle motorisé à deux roues) sur une route étroite. Quelle précaution particulière devez-vous prendre ?",
+      "text_nl": "U rijdt met een auto en staat op het punt een speed pedelec (gelijkgesteld met een tweewielig gemotoriseerd rijwiel) in te halen op een smalle weg. Welke specifieke voorzorgsmaatregel moet u nemen?",
+      "text_ru": "Вы управляете автомобилем и собираетесь обогнать скоростной электровелосипед (приравненный к двухколесному моторизованному велосипеду) на узкой дороге. Какие особые меры предосторожности вы должны принять?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car overtaking a speed pedelec on a narrow road, showing a safe passing distance."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Klaxonner pour signaler votre présence, puis dépasser rapidement.",
+          "text_nl": "Claxonneren om uw aanwezigheid aan te geven en vervolgens snel inhalen.",
+          "text_ru": "Посигналить, чтобы обозначить свое присутствие, затем быстро обогнать.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Maintenir une distance latérale de sécurité minimale d'au moins 1,5 mètre et ralentir légèrement si nécessaire.",
+          "text_nl": "Een minimale veilige zijdelingse afstand van ten minste 1,5 meter aanhouden en zo nodig licht vertragen.",
+          "text_ru": "Соблюдать минимальное безопасное боковое расстояние не менее 1,5 метра и при необходимости слегка снизить скорость.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre d'être sur une route à deux bandes pour dépasser sans risque.",
+          "text_nl": "Wachten tot u op een tweebaansweg bent om veilig in te halen.",
+          "text_ru": "Дождаться двухполосной дороги, чтобы безопасно обогнать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les speed pedelecs étant assimilés aux cyclistes, les conducteurs doivent respecter les mêmes règles de dépassement, y compris la distance latérale de sécurité, pour assurer leur sécurité.",
+      "explanation_nl": "Aangezien speed pedelecs gelijkgesteld zijn met fietsers, moeten bestuurders dezelfde inhaalregels respecteren, inclusief de veilige zijdelingse afstand, om hun veiligheid te garanderen.",
+      "explanation_ru": "Поскольку скоростные электровелосипеды приравнены к велосипедистам, водители должны соблюдать те же правила обгона, включая безопасное боковое расстояние, для обеспечения их безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous tournez à droite à un carrefour et un conducteur de cycle motorisé à trois roues (assimilé à un cycle à trois roues) approche en venant d'en face et s'apprête à traverser la route sur une piste cyclable. Qui a la priorité ?",
+      "text_nl": "U slaat rechtsaf op een kruispunt en een bestuurder van een driewielig gemotoriseerd rijwiel (gelijkgesteld met een driewieler) nadert vanuit de tegenovergestelde richting en staat op het punt de weg over te steken op een fietspad. Wie heeft voorrang?",
+      "text_ru": "Вы поворачиваете направо на перекрестке, и водитель трехколесного моторизованного велосипеда (приравненного к трехколесному велосипеду) приближается с противоположного направления и собирается пересечь дорогу по велосипедной дорожке. Кто имеет преимущество?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car turning right at an intersection, with a three-wheeled motorized cycle (like a cargo bike) approaching from the opposite direction on a bike path, about to cross the car's path."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous, car vous êtes un véhicule à moteur.",
+          "text_nl": "U, omdat u een motorvoertuig bent.",
+          "text_ru": "Вы, потому что вы управляете моторным транспортным средством.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur du cycle motorisé à trois roues, car il est assimilé à un cycliste et vient d'une piste cyclable.",
+          "text_nl": "De bestuurder van het driewielig gemotoriseerd rijwiel, omdat hij gelijkgesteld is met een fietser en van een fietspad komt.",
+          "text_ru": "Водитель трехколесного моторизованного велосипеда, потому что он приравнен к велосипедисту и едет по велосипедной дорожке.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une situation où la règle de la priorité de droite s'applique.",
+          "text_nl": "Het is een situatie waarin de regel van de voorrang van rechts van toepassing is.",
+          "text_ru": "Это ситуация, когда применяется правило приоритета справа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conducteurs de cycles motorisés à trois roues étant assimilés aux conducteurs de cycles, ils bénéficient des mêmes règles de priorité que les cyclistes. Un véhicule tournant doit céder le passage aux usagers qui continuent tout droit ou qui traversent la chaussée, y compris ceux venant d'une piste cyclable.",
+      "explanation_nl": "Aangezien bestuurders van driewielige gemotoriseerde rijwielen gelijkgesteld zijn met bestuurders van rijwielen, genieten zij dezelfde voorrangsregels als fietsers. Een afslaand voertuig moet voorrang verlenen aan weggebruikers die rechtdoor gaan of de rijbaan oversteken, inclusief die van een fietspad.",
+      "explanation_ru": "Поскольку водители трехколесных моторизованных велосипедов приравниваются к водителям велосипедов, они пользуются теми же правилами приоритета, что и велосипедисты. Поворачивающее транспортное средство должно уступить дорогу участникам движения, которые едут прямо или пересекают проезжую часть, включая тех, кто едет по велосипедной дорожке."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez sur une route où la vitesse maximale est de 50 km/h. Un speed pedelec (cycle motorisé à deux roues) vous dépasse. Est-ce autorisé ?",
+      "text_nl": "U rijdt op een weg waar de maximumsnelheid 50 km/u is. Een speed pedelec (tweewielig gemotoriseerd rijwiel) haalt u in. Is dit toegestaan?",
+      "text_ru": "Вы едете по дороге, где максимальная скорость составляет 50 км/ч. Скоростной электровелосипед (двухколесный моторизованный велосипед) обгоняет вас. Разрешено ли это?",
+      "image": {
+        "sign_code": "C43",
+        "generation_prompt": "A speed limit sign for 50 km/h, with a speed pedelec overtaking a car in a city environment."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car les speed pedelecs peuvent atteindre des vitesses plus élevées et sont autorisés à circuler sur la chaussée.",
+          "text_nl": "Ja, want speed pedelecs kunnen hogere snelheden bereiken en mogen op de rijbaan rijden.",
+          "text_ru": "Да, потому что скоростные электровелосипеды могут развивать более высокие скорости и им разрешено двигаться по проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, un cycle motorisé ne peut jamais dépasser un véhicule à moteur.",
+          "text_nl": "Nee, een gemotoriseerd rijwiel mag nooit een motorvoertuig inhalen.",
+          "text_ru": "Нет, моторизованный велосипед никогда не может обгонять моторное транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si la route dispose d'une piste cyclable dédiée.",
+          "text_nl": "Alleen als de weg een speciaal fietspad heeft.",
+          "text_ru": "Только если на дороге есть выделенная велосипедная дорожка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les speed pedelecs sont des cycles motorisés pouvant atteindre 45 km/h. Sur une route limitée à 50 km/h, ils ont le droit de rouler sur la chaussée et peuvent, de ce fait, dépasser d'autres véhicules si les conditions le permettent et si la vitesse de ces véhicules est inférieure à la leur.",
+      "explanation_nl": "Speed pedelecs zijn gemotoriseerde rijwielen die snelheden tot 45 km/u kunnen bereiken. Op een weg met een limiet van 50 km/u mogen ze op de rijbaan rijden en kunnen ze andere voertuigen inhalen als de omstandigheden dit toelaten en de snelheid van die voertuigen lager is dan die van hen.",
+      "explanation_ru": "Скоростные электровелосипеды — это моторизованные велосипеды, способные развивать скорость до 45 км/ч. На дороге с ограничением скорости 50 км/ч им разрешено двигаться по проезжей части и, следовательно, они могут обгонять другие транспортные средства, если условия позволяют и если скорость этих транспортных средств ниже их собственной."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes piéton et vous vous apprêtez à traverser la route sur un passage piéton. Un conducteur de tricycle motorisé (assimilé à un cycle à trois roues) approche. Que doit faire ce conducteur ?",
+      "text_nl": "U bent een voetganger en staat op het punt de weg over te steken op een zebrapad. Een bestuurder van een gemotoriseerde driewieler (gelijkgesteld met een driewieler) nadert. Wat moet deze bestuurder doen?",
+      "text_ru": "Вы пешеход и собираетесь перейти дорогу по пешеходному переходу. Приближается водитель моторизованного трехколесного велосипеда (приравненного к трехколесному велосипеду). Что должен сделать этот водитель?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A pedestrian crossing a zebra crossing, with a three-wheeled motorized cycle approaching and stopping to yield."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ralentir, mais il n'est pas obligé de s'arrêter car il est un véhicule motorisé.",
+          "text_nl": "Vertragen, maar hij hoeft niet te stoppen omdat hij een motorvoertuig is.",
+          "text_ru": "Замедлиться, но не обязан останавливаться, так как является моторизованным транспортным средством.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter pour vous céder le passage, comme le ferait tout autre conducteur à l'égard d'un piéton.",
+          "text_nl": "Stoppen om u voorrang te verlenen, zoals elke andere bestuurder zou doen ten opzichte van een voetganger.",
+          "text_ru": "Остановиться, чтобы уступить вам дорогу, как и любой другой водитель пешеходу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour vous avertir de ne pas traverser.",
+          "text_nl": "Claxonneren om u te waarschuwen niet over te steken.",
+          "text_ru": "Посигналить, чтобы предупредить вас не переходить дорогу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conducteurs de cycles motorisés à trois roues sont assimilés aux conducteurs de cycles. Comme tous les usagers de la route, ils doivent céder le passage aux piétons qui s'engagent sur un passage piéton ou s'apprêtent à s'y engager.",
+      "explanation_nl": "Bestuurders van driewielige gemotoriseerde rijwielen zijn gelijkgesteld met bestuurders van rijwielen. Zoals alle weggebruikers moeten zij voorrang verlenen aan voetgangers die een zebrapad betreden of op het punt staan dit te doen.",
+      "explanation_ru": "Водители трехколесных моторизованных велосипедов приравниваются к водителям велосипедов. Как и все участники дорожного движения, они должны уступать дорогу пешеходам, которые начинают переходить или собираются переходить пешеходный переход."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous circulez à vélo sur une piste cyclable. Un cycle motorisé à deux roues (type speed pedelec) vous double par la gauche. Est-ce conforme aux règles ?",
+      "text_nl": "U fietst op een fietspad. Een tweewielig gemotoriseerd rijwiel (type speed pedelec) haalt u links in. Is dit volgens de regels?",
+      "text_ru": "Вы едете на велосипеде по велосипедной дорожке. Двухколесный моторизованный велосипед (типа скоростной электровелосипед) обгоняет вас слева. Соответствует ли это правилам?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A speed pedelec overtaking a regular bicycle on a bike path from the left side."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les cycles motorisés ne sont pas autorisés sur les pistes cyclables.",
+          "text_nl": "Nee, gemotoriseerde rijwielen zijn niet toegestaan op fietspaden.",
+          "text_ru": "Нет, моторизованным велосипедам не разрешено ездить по велосипедным дорожкам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car ils sont assimilés aux cyclistes et peuvent utiliser les pistes cyclables, et le dépassement par la gauche est la norme.",
+          "text_nl": "Ja, want ze zijn gelijkgesteld met fietsers en mogen fietspaden gebruiken, en inhalen aan de linkerkant is de norm.",
+          "text_ru": "Да, потому что они приравниваются к велосипедистам и могут использовать велосипедные дорожки, а обгон слева является нормой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si la piste cyclable est suffisamment large pour deux vélos.",
+          "text_nl": "Alleen als het fietspad breed genoeg is voor twee fietsen.",
+          "text_ru": "Только если велосипедная дорожка достаточно широка для двух велосипедов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les cycles motorisés à deux roues comme les speed pedelecs sont assimilés aux cyclistes et sont autorisés à utiliser les pistes cyclables, où ils peuvent dépasser d'autres cyclistes par la gauche si les conditions de sécurité le permettent.",
+      "explanation_nl": "Tweewielige gemotoriseerde rijwielen zoals speed pedelecs zijn gelijkgesteld met fietsers en mogen fietspaden gebruiken, waar ze andere fietsers links mogen inhalen als de veiligheidsomstandigheden dit toelaten.",
+      "explanation_ru": "Двухколесные моторизованные велосипеды, такие как скоростные электровелосипеды, приравниваются к велосипедистам и им разрешено использовать велосипедные дорожки, где они могут обгонять других велосипедистов слева, если это позволяют условия безопасности."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "a323213b9da4",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:11:50Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

@@ -49,7 +49,267 @@
   "anchor_id_fr": "wfdunvea3o",
   "anchor_id_nl": "jh74afsfde",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le but d'une ligne continue blanche tracée sur le bord réel de la chaussée ou d'un trottoir ?",
+      "text_nl": "Wat is het doel van een witte doorlopende streep die op de werkelijke rand van de rijbaan of een trottoir is aangebracht?",
+      "text_ru": "Какова цель сплошной белой линии, нанесенной на фактический край проезжей части или тротуара?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Ligne continue blanche sur le bord de la chaussée"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle indique une zone de stationnement réservée.",
+          "text_nl": "Het geeft een gereserveerde parkeerzone aan.",
+          "text_ru": "Она обозначает зарезервированную зону для парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle sert à rendre le bord plus visible.",
+          "text_nl": "Het dient om de rand beter zichtbaar te maken.",
+          "text_ru": "Она служит для лучшей видимости края.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle délimite une piste cyclable.",
+          "text_nl": "Het bakent een fietspad af.",
+          "text_ru": "Она обозначает велосипедную дорожку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne continue blanche sur le bord réel de la chaussée est destinée à rendre le bord plus apparent pour les conducteurs.",
+      "explanation_nl": "Een witte doorlopende streep op de werkelijke rand van de rijbaan is bedoeld om de rand duidelijker zichtbaar te maken voor bestuurders.",
+      "explanation_ru": "Сплошная белая линия на фактическом краю проезжей части предназначена для того, чтобы сделать край более заметным для водителей."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'indique une ligne discontinue jaune tracée sur le bord réel de la chaussée ?",
+      "text_nl": "Wat geeft een gele onderbroken streep aan die op de werkelijke rand van de rijbaan is aangebracht?",
+      "text_ru": "Что обозначает прерывистая желтая линия, нанесенная на фактический край проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Ligne discontinue jaune sur le bord de la chaussée"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le stationnement est autorisé mais limité dans le temps.",
+          "text_nl": "Parkeren is toegestaan maar beperkt in tijd.",
+          "text_ru": "Парковка разрешена, но ограничена по времени.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est interdit de stationner sur la chaussée le long de cette ligne.",
+          "text_nl": "Parkeren op de rijbaan langs deze streep is verboden.",
+          "text_ru": "Парковка на проезжей части вдоль этой линии запрещена.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une zone de chargement et de déchargement.",
+          "text_nl": "Dit is een laad- en loszone.",
+          "text_ru": "Это зона погрузки и разгрузки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne discontinue jaune sur le bord réel de la chaussée signifie que le stationnement est interdit sur la chaussée le long de cette ligne.",
+      "explanation_nl": "Een gele onderbroken streep op de werkelijke rand van de rijbaan betekent dat parkeren op de rijbaan langs deze streep verboden is.",
+      "explanation_ru": "Прерывистая желтая линия на фактическом краю проезжей части означает, что парковка на проезжей части вдоль этой линии запрещена."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Comment s'appelle la partie de la voie publique située au-delà d'une large ligne continue blanche marquant le bord fictif de la chaussée ?",
+      "text_nl": "Hoe heet het deel van de openbare weg dat zich bevindt voorbij een brede witte doorlopende streep die de denkbeeldige rand van de rijbaan aanduidt?",
+      "text_ru": "Как называется часть проезжей части, расположенная за широкой сплошной белой линией, обозначающей условный край проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Large ligne continue blanche marquant le bord fictif de la chaussée"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une bande d'arrêt d'urgence.",
+          "text_nl": "Een vluchtstrook.",
+          "text_ru": "Аварийная полоса.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une voie réservée aux transports en commun.",
+          "text_nl": "Een rijstrook voor openbaar vervoer.",
+          "text_ru": "Полоса, предназначенная для общественного транспорта.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une bande réservée à l'arrêt et au stationnement (sauf sur autoroutes et routes pour automobiles).",
+          "text_nl": "Een strook voorbehouden voor stilstaan en parkeren (behalve op autosnelwegen en autowegen).",
+          "text_ru": "Полоса, предназначенная для остановки и стоянки (кроме автомагистралей и дорог для автомобилей).",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La partie de la voie publique située au-delà d'une large ligne continue blanche marquant le bord fictif de la chaussée est réservée à l'arrêt et au stationnement, sauf sur les autoroutes et les routes pour automobiles.",
+      "explanation_nl": "Het deel van de openbare weg dat zich bevindt voorbij een brede witte doorlopende streep die de denkbeeldige rand van de rijbaan aanduidt, is voorbehouden voor het stilstaan en parkeren, behalve op autosnelwegen en autowegen.",
+      "explanation_ru": "Часть проезжей части, расположенная за широкой сплошной белой линией, обозначающей условный край проезжей части, предназначена для остановки и стоянки, за исключением автомагистралей и дорог для автомобилей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route et observez une large ligne continue blanche le long du bord de la chaussée. Un véhicule est arrêté juste au-delà de cette ligne. Est-ce autorisé ?",
+      "text_nl": "U rijdt op een weg en ziet een brede witte doorlopende streep langs de rand van de rijbaan. Een voertuig staat net voorbij deze streep stil. Is dit toegestaan?",
+      "text_ru": "Вы едете по дороге и видите широкую сплошную белую линию вдоль края проезжей части. Транспортное средство остановилось сразу за этой линией. Разрешено ли это?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Voiture arrêtée sur le côté d'une route, juste au-delà d'une large ligne continue blanche"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si ce n'est pas une autoroute ou une route pour automobiles.",
+          "text_nl": "Ja, als het geen autosnelweg of autoweg is.",
+          "text_ru": "Да, если это не автомагистраль или дорога для автомобилей.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, l'arrêt est toujours interdit au-delà de cette ligne.",
+          "text_nl": "Nee, stilstaan is altijd verboden voorbij deze streep.",
+          "text_ru": "Нет, остановка всегда запрещена за этой линией.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais seulement pour le chargement et le déchargement.",
+          "text_nl": "Ja, maar alleen voor laden en lossen.",
+          "text_ru": "Да, но только для погрузки и разгрузки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La partie de la voie publique située au-delà d'une large ligne continue blanche est réservée à l'arrêt et au stationnement, sauf sur les autoroutes et les routes pour automobiles.",
+      "explanation_nl": "Het deel van de openbare weg dat zich bevindt voorbij een brede witte doorlopende streep, is voorbehouden voor het stilstaan en parkeren, behalve op autosnelwegen en autowegen.",
+      "explanation_ru": "Часть проезжей части, расположенная за широкой сплошной белой линией, предназначена для остановки и стоянки, за исключением автомагистралей и дорог для автомобилей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous vous trouvez sur une autoroute et remarquez une large ligne continue blanche marquant le bord fictif de la chaussée. Pouvez-vous vous arrêter ou stationner juste au-delà de cette ligne ?",
+      "text_nl": "U bevindt zich op een autosnelweg en merkt een brede witte doorlopende streep op die de denkbeeldige rand van de rijbaan aanduidt. Mag u net voorbij deze streep stilstaan of parkeren?",
+      "text_ru": "Вы находитесь на автомагистрали и замечаете широкую сплошную белую линию, обозначающую условный край проезжей части. Можете ли вы остановиться или припарковаться сразу за этой линией?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Voiture sur une autoroute avec une large ligne continue blanche sur le côté"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, l'arrêt est autorisé, mais pas le stationnement.",
+          "text_nl": "Ja, stilstaan is toegestaan, maar parkeren niet.",
+          "text_ru": "Да, остановка разрешена, но парковка нет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, l'arrêt et le stationnement sont interdits sur les autoroutes au-delà de cette ligne.",
+          "text_nl": "Nee, stilstaan en parkeren zijn verboden op autosnelwegen voorbij deze streep.",
+          "text_ru": "Нет, остановка и парковка запрещены на автомагистралях за этой линией.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si c'est pour une urgence.",
+          "text_nl": "Ja, als het voor een noodgeval is.",
+          "text_ru": "Да, если это экстренная ситуация.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même si une large ligne continue blanche marque une bande réservée à l'arrêt et au stationnement, cette règle ne s'applique pas aux autoroutes et aux routes pour automobiles, où l'arrêt et le stationnement sont interdits au-delà de cette ligne.",
+      "explanation_nl": "Hoewel een brede witte doorlopende streep een strook voorbehouden voor stilstaan en parkeren aanduidt, is deze regel niet van toepassing op autosnelwegen en autowegen, waar stilstaan en parkeren voorbij deze streep verboden zijn.",
+      "explanation_ru": "Хотя широкая сплошная белая линия обозначает полосу, предназначенную для остановки и стоянки, это правило не распространяется на автомагистрали и дороги для автомобилей, где остановка и стоянка за этой линией запрещены."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une chaussée à voie centrale. Comment reconnaissez-vous les bords fictifs de cette chaussée ?",
+      "text_nl": "U rijdt op een middenrijbaan. Hoe herkent u de denkbeeldige randen van deze rijbaan?",
+      "text_ru": "Вы едете по дороге с центральной полосой. Как вы распознаете условные края этой проезжей части?",
+      "image": {
+        "sign_code": "Wegmarkering 75.3",
+        "generation_prompt": "Chaussée à voie centrale avec les marquages décrits"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Par une seule ligne continue blanche de chaque côté.",
+          "text_nl": "Door een enkele witte doorlopende streep aan elke kant.",
+          "text_ru": "По одной сплошной белой линии с каждой стороны.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Par deux lignes blanches parallèles discontinues de chaque côté, constituées de deux paires de traits courts.",
+          "text_nl": "Door twee evenwijdige witte onderbroken strepen aan weerszijden, bestaande uit twee paar korte trekken.",
+          "text_ru": "По двум параллельным прерывистым белым линиям с каждой стороны, состоящим из двух пар коротких штрихов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Par une ligne discontinue jaune de chaque côté.",
+          "text_nl": "Door een gele onderbroken streep aan elke kant.",
+          "text_ru": "По одной прерывистой желтой линии с каждой стороны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les bords fictifs d'une chaussée à voie centrale sont délimités par deux lignes blanches parallèles discontinues de chaque côté, composées de deux paires de traits courts.",
+      "explanation_nl": "De denkbeeldige randen van een middenrijbaan worden afgebakend door twee evenwijdige witte onderbroken strepen aan weerszijden, die bestaan uit telkens twee paar korte trekken.",
+      "explanation_ru": "Условные края проезжей части с центральной полосой обозначаются двумя параллельными прерывистыми белыми линиями с каждой стороны, состоящими из двух пар коротких штрихов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous longez un trottoir dont la bordure est marquée d'une ligne continue blanche. Que signifie cette ligne ?",
+      "text_nl": "U rijdt langs een trottoir waarvan de boordsteen is gemarkeerd met een witte doorlopende streep. Wat betekent deze streep?",
+      "text_ru": "Вы едете вдоль тротуара, бордюр которого обозначен сплошной белой линией. Что означает эта линия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Voiture roulant le long d'un trottoir avec une ligne continue blanche sur le bord."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle interdit formellement l'arrêt et le stationnement.",
+          "text_nl": "Het verbiedt uitdrukkelijk het stilstaan en parkeren.",
+          "text_ru": "Она строго запрещает остановку и стоянку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle signale un danger imminent.",
+          "text_nl": "Het waarschuwt voor een dreigend gevaar.",
+          "text_ru": "Она сигнализирует о неминуемой опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle rend la bordure du trottoir plus visible.",
+          "text_nl": "Het maakt de trottoirband beter zichtbaar.",
+          "text_ru": "Она делает бордюр тротуара более заметным.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Une ligne continue blanche sur la bordure d'un trottoir est tracée pour rendre cette bordure plus apparente aux usagers de la route.",
+      "explanation_nl": "Een witte doorlopende streep op de trottoirband is aangebracht om deze boordsteen beter zichtbaar te maken voor weggebruikers.",
+      "explanation_ru": "Сплошная белая линия на бордюре тротуара нанесена для того, чтобы сделать этот бордюр более заметным для участников дорожного движения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "d97219a4f66f",
@@ -59,6 +319,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:03:16Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 7
   }
 }

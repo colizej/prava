@@ -26,7 +26,304 @@
   "anchor_id_fr": "gmlsj5gxih",
   "anchor_id_nl": "litnuy9y2h",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel type de dispositif réfléchissant est obligatoire à l'arrière d'un engin de déplacement motorisé avec guidon ?",
+      "text_nl": "Welk type reflector is verplicht aan de achterkant van een gemotoriseerd voortbewegingstoestel met stuur?",
+      "text_ru": "Какое светоотражающее устройство обязательно сзади на моторизованном средстве передвижения с рулем?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un catadioptre jaune",
+          "text_nl": "Een gele reflector",
+          "text_ru": "Желтый светоотражатель",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un catadioptre rouge",
+          "text_nl": "Een rode reflector",
+          "text_ru": "Красный светоотражатель",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un catadioptre blanc",
+          "text_nl": "Een witte reflector",
+          "text_ru": "Белый светоотражатель",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les engins de déplacement motorisés avec un guidon sont munis en permanence d’un catadioptre blanc à l’avant et d’un catadioptre rouge à l’arrière.",
+      "explanation_nl": "Gemotoriseerde voortbewegingstoestellen met een stuur voeren altijd vooraan een witte reflector en achteraan een rode reflector.",
+      "explanation_ru": "Моторизованные средства передвижения с рулем должны быть постоянно оборудованы белым светоотражателем спереди и красным светоотражателем сзади."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la distance minimale à laquelle l'avertisseur sonore d'un engin de déplacement motorisé avec guidon doit pouvoir être entendu ?",
+      "text_nl": "Wat is de minimale afstand waarop het geluidstoestel van een gemotoriseerd voortbewegingstoestel met stuur moet kunnen worden gehoord?",
+      "text_ru": "Каково минимальное расстояние, на котором должен быть слышен звуковой сигнал моторизованного средства передвижения с рулем?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "10 mètres",
+          "text_nl": "10 meter",
+          "text_ru": "10 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "15 mètres",
+          "text_nl": "15 meter",
+          "text_ru": "15 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "20 mètres",
+          "text_nl": "20 meter",
+          "text_ru": "20 метров",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les engins de déplacement motorisés avec un guidon sont équipés d’un avertisseur sonore pouvant être entendu à une distance de 20 mètres.",
+      "explanation_nl": "De gemotoriseerde voortbewegingstoestellen met een stuur zijn uitgerust met een geluidstoestel dat kan worden gehoord op een afstand van 20 meter.",
+      "explanation_ru": "Моторизованные средства передвижения с рулем должны быть оборудованы звуковым сигналом, который может быть услышан на расстоянии 20 метров."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la largeur maximale autorisée pour un engin de déplacement motorisé ?",
+      "text_nl": "Wat is de maximaal toegelaten breedte voor een gemotoriseerd voortbewegingstoestel?",
+      "text_ru": "Какова максимально допустимая ширина для моторизованного средства передвижения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,80 mètre",
+          "text_nl": "0,80 meter",
+          "text_ru": "0,80 метра",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "1 mètre",
+          "text_nl": "1 meter",
+          "text_ru": "1 метр",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "1,20 mètre",
+          "text_nl": "1,20 meter",
+          "text_ru": "1,20 метра",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La largeur maximale d’un engin de déplacement est d’1 mètre.",
+      "explanation_nl": "De maximale breedte van een voortbewegingstoestel is 1 meter.",
+      "explanation_ru": "Максимальная ширина средства передвижения составляет 1 метр."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous utilisez un engin de déplacement motorisé avec un guidon. Quels catadioptres devez-vous obligatoirement avoir pour être en conformité ?",
+      "text_nl": "U gebruikt een gemotoriseerd voortbewegingstoestel met een stuur. Welke reflectoren moet u verplicht hebben om in orde te zijn?",
+      "text_ru": "Вы используете моторизованное средство передвижения с рулем. Какие светоотражатели вы обязательно должны иметь, чтобы соответствовать требованиям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An electric scooter being ridden on a street with a handlebar, seen from the front and back, with visible reflectors."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un catadioptre jaune à l'avant et un rouge à l'arrière.",
+          "text_nl": "Een gele reflector vooraan en een rode achteraan.",
+          "text_ru": "Желтый светоотражатель спереди и красный сзади.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un catadioptre blanc à l'avant et un rouge à l'arrière.",
+          "text_nl": "Een witte reflector vooraan en een rode achteraan.",
+          "text_ru": "Белый светоотражатель спереди и красный сзади.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un catadioptre blanc à l'avant et un jaune à l'arrière.",
+          "text_nl": "Een witte reflector vooraan en een gele achteraan.",
+          "text_ru": "Белый светоотражатель спереди и желтый сзади.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les engins de déplacement motorisés avec un guidon doivent avoir un catadioptre blanc à l'avant et un rouge à l'arrière.",
+      "explanation_nl": "Gemotoriseerde voortbewegingstoestellen met een stuur moeten vooraan een witte reflector en achteraan een rode reflector hebben.",
+      "explanation_ru": "Моторизованные средства передвижения с рулем должны иметь белый светоотражатель спереди и красный сзади."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez la nuit avec votre engin de déplacement motorisé. En plus des catadioptres avant et arrière, quelle signalisation latérale est acceptable pour votre sécurité et la conformité ?",
+      "text_nl": "U rijdt 's nachts met uw gemotoriseerd voortbewegingstoestel. Naast de voor- en achterreflectoren, welke zijdelingse signalisatie is aanvaardbaar voor uw veiligheid en conformiteit?",
+      "text_ru": "Вы едете ночью на своем моторизованном средстве передвижения. Помимо передних и задних светоотражателей, какая боковая сигнализация допустима для вашей безопасности и соответствия требованиям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An electric scooter being ridden at night, with clearly visible reflective strips on the side of the footrests OR reflective white circles on the tires."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement des bandes réfléchissantes blanches sur les pneus.",
+          "text_nl": "Enkel witte reflecterende stroken op de banden.",
+          "text_ru": "Только белые светоотражающие полосы на шинах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des bandes réfléchissantes jaunes ou oranges sur les repose-pieds, ou des bandes réfléchissantes blanches en cercle sur les pneus, ou les deux.",
+          "text_nl": "Gele of oranje reflecterende stroken op de voetsteunen, of witte reflecterende stroken in een cirkel op de banden, of een combinatie van beide.",
+          "text_ru": "Желтые или оранжевые светоотражающие полосы на подножках, или белые светоотражающие полосы в виде круга на шинах, или и то, и другое.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement des signalisations latérales supplémentaires de n'importe quelle couleur.",
+          "text_nl": "Alleen bijkomende zijdelingse signalisatiemiddelen van om het even welke kleur.",
+          "text_ru": "Только дополнительные боковые сигнальные устройства любого цвета.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation latérale obligatoire consiste soit en une bande réfléchissante jaune ou orange de chaque côté des repose-pieds, soit en une bande réfléchissante blanche en forme de cercle continu de chaque côté du pneu des roues avant et arrière, soit en la combinaison des deux types. Des signalisations supplémentaires peuvent être ajoutées.",
+      "explanation_nl": "De verplichte zijdelingse signalisatie bestaat uit ofwel een gele of oranje reflecterende strook langs elke kant van de voetsteunen; ofwel een witte reflecterende strook in de vorm van een doorlopende cirkel aan elke kant van de band van het voor- en achterwiel; ofwel de combinatie van de twee types. Bijkomende middelen zijn toegestaan.",
+      "explanation_ru": "Обязательная боковая сигнализация состоит либо из желтой или оранжевой светоотражающей полосы с каждой стороны подножек, либо из белой светоотражающей полосы в форме непрерывного круга с каждой стороны шины переднего и заднего колеса, либо из комбинации обоих типов. Дополнительные средства сигнализации также разрешены."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous venez d'acheter un engin de déplacement motorisé neuf. Avant de l'utiliser sur la voie publique, que devez-vous vérifier concernant son système de freinage ?",
+      "text_nl": "U hebt net een nieuw gemotoriseerd voortbewegingstoestel gekocht. Wat moet u controleren aan het remsysteem voordat u het op de openbare weg gebruikt?",
+      "text_ru": "Вы только что купили новое моторизованное средство передвижения. Что вы должны проверить в его тормозной системе, прежде чем использовать его на дорогах общего пользования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person checking the brakes of an electric scooter or similar motorized personal mobility device."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Qu'il soit visible de loin.",
+          "text_nl": "Dat het van ver zichtbaar is.",
+          "text_ru": "Что он виден издалека.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Qu'il soit suffisamment efficace.",
+          "text_nl": "Dat het voldoende doelmatig is.",
+          "text_ru": "Что он достаточно эффективен.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Qu'il produise un son fort lors du freinage.",
+          "text_nl": "Dat het een luid geluid produceert bij het remmen.",
+          "text_ru": "Что он издает громкий звук при торможении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les engins de déplacement motorisés doivent être pourvus d’un système de freinage suffisamment efficace.",
+      "explanation_nl": "Gemotoriseerde voortbewegingstoestellen moeten uitgerust zijn met een voldoende doelmatige reminrichting.",
+      "explanation_ru": "Моторизованные средства передвижения должны быть оборудованы достаточно эффективной тормозной системой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous circulez avec votre engin de déplacement motorisé et un autre usager ne vous a pas remarqué. Quel équipement doit vous permettre d'attirer son attention si votre engin a un guidon ?",
+      "text_nl": "U rijdt met uw gemotoriseerd voortbewegingstoestel en een andere weggebruiker heeft u niet opgemerkt. Welke uitrusting moet u in staat stellen zijn aandacht te trekken als uw toestel een stuur heeft?",
+      "text_ru": "Вы движетесь на своем моторизованном средстве передвижения, и другой участник движения вас не заметил. Какое оборудование должно позволить вам привлечь его внимание, если ваше средство имеет руль?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person on an electric scooter using a bell or horn to alert a distracted pedestrian or driver."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un feu clignotant avant.",
+          "text_nl": "Een knipperend voorlicht.",
+          "text_ru": "Мигающий передний фонарь.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un avertisseur sonore.",
+          "text_nl": "Een geluidstoestel.",
+          "text_ru": "Звуковой сигнал.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des gants de signalisation.",
+          "text_nl": "Signaalhandschoenen.",
+          "text_ru": "Сигнальные перчатки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les engins de déplacement motorisés avec un guidon sont équipés d’un avertisseur sonore pouvant être entendu à une distance de 20 mètres.",
+      "explanation_nl": "De gemotoriseerde voortbewegingstoestellen met een stuur zijn uitgerust met een geluidstoestel dat kan worden gehoord op een afstand van 20 meter.",
+      "explanation_ru": "Моторизованные средства передвижения с рулем должны быть оборудованы звуковым сигналом, который может быть услышан на расстоянии 20 метров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous concevez un nouvel engin de déplacement motorisé. Pour respecter la réglementation, quelle est la contrainte dimensionnelle principale que vous devez respecter pour sa largeur ?",
+      "text_nl": "U ontwerpt een nieuw gemotoriseerd voortbewegingstoestel. Om aan de regelgeving te voldoen, wat is de belangrijkste dimensionale beperking voor de breedte die u moet respecteren?",
+      "text_ru": "Вы разрабатываете новое моторизованное средство передвижения. Чтобы соответствовать нормативам, какое основное габаритное ограничение по ширине вы должны соблюдать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An engineer measuring the width of a newly designed electric scooter or similar motorized personal mobility device."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La largeur ne doit pas dépasser 0,70 mètre pour faciliter le passage.",
+          "text_nl": "De breedte mag niet meer dan 0,70 meter bedragen om het passeren te vergemakkelijken.",
+          "text_ru": "Ширина не должна превышать 0,70 метра для облегчения проезда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La largeur maximale autorisée est de 1 mètre.",
+          "text_nl": "De maximaal toegelaten breedte is 1 meter.",
+          "text_ru": "Максимальная разрешенная ширина составляет 1 метр.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il n'y a pas de limite de largeur spécifique, tant qu'il est maniable.",
+          "text_nl": "Er is geen specifieke breedtelimiet, zolang het maar wendbaar is.",
+          "text_ru": "Нет конкретного ограничения по ширине, главное, чтобы он был управляемым.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La largeur maximale d’un engin de déplacement est d’1 mètre.",
+      "explanation_nl": "De maximale breedte van een voortbewegingstoestel is 1 meter.",
+      "explanation_ru": "Максимальная ширина средства передвижения составляет 1 метр."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "666f0963f4e6",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:14:08Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

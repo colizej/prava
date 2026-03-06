@@ -81,7 +81,341 @@
   "anchor_id_fr": "zsbbja4rxe",
   "anchor_id_nl": "xoefu2mbfr",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom officiel du panneau qui indique l'entrée dans une zone où s'appliquent les règles de circulation en agglomération ?",
+      "text_nl": "Wat is de officiële naam van het verkeersbord dat het begin aangeeft van een zone waar de verkeersregels voor de bebouwde kom van toepassing zijn?",
+      "text_ru": "Каково официальное название знака, указывающего на въезд в зону, где применяются правила дорожного движения населенного пункта?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Ancien panneau de début d'agglomération (rectangle blanc avec l'icône d'une ville en noir)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Panneau de ville",
+          "text_nl": "Stadsbord",
+          "text_ru": "Городской знак",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Commencement d'une agglomération",
+          "text_nl": "Begin van een bebouwde kom",
+          "text_ru": "Начало населенного пункта",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Entrée de zone urbaine",
+          "text_nl": "Ingang stedelijke zone",
+          "text_ru": "Въезд в городскую зону",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau indiquant l'entrée dans une zone où s'appliquent les règles d'agglomération est officiellement appelé 'Commencement d'une agglomération'.",
+      "explanation_nl": "Het verkeersbord dat het begin van een zone aangeeft waar de regels van de bebouwde kom van toepassing zijn, wordt officieel 'Begin van een bebouwde kom' genoemd.",
+      "explanation_ru": "Знак, указывающий на въезд в зону, где применяются правила населенного пункта, официально называется «Начало населенного пункта»."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon les dispositions transitoires, quel type de signalisation de direction peut ne pas avoir les noms de destinations étrangères indiqués ?",
+      "text_nl": "Welk type bewegwijzering mag, volgens de overgangsbepalingen, de namen van buitenlandse bestemmingen niet vermelden?",
+      "text_ru": "Согласно переходным положениям, какой тип указателей направлений может не указывать названия иностранных направлений?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Ancien panneau de direction bleu, peut-être avec une destination étrangère mais sans nom spécifique"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement les panneaux de petite taille.",
+          "text_nl": "Enkel kleine borden.",
+          "text_ru": "Только небольшие знаки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La signalisation de direction sur laquelle le nom des destinations étrangères n'est pas indiqué conformément aux dispositions d'un autre article.",
+          "text_nl": "De bewegwijzering die de naam van de buitenlandse bestemmingen niet vermeldt overeenkomstig de bepalingen van een ander artikel.",
+          "text_ru": "Указатели направлений, на которых названия иностранных направлений не указаны в соответствии с положениями другой статьи.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune signalisation de direction ne peut omettre les noms étrangers.",
+          "text_nl": "Geen enkele bewegwijzering mag buitenlandse namen weglaten.",
+          "text_ru": "Никакие указатели направлений не могут опускать иностранные названия.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dispositions transitoires autorisaient le maintien de la signalisation de direction qui ne mentionnait pas les noms de destinations étrangères conformément aux dispositions d'un autre article, mais seulement jusqu'à une certaine date.",
+      "explanation_nl": "De overgangsbepalingen stonden het behoud toe van bewegwijzering die de namen van buitenlandse bestemmingen niet vermeldde overeenkomstig de bepalingen van een ander artikel, maar slechts tot een bepaalde datum.",
+      "explanation_ru": "Переходные положения разрешали сохранение указателей направлений, на которых названия иностранных направлений не были указаны в соответствии с положениями другой статьи, но только до определенной даты."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un signal de direction F 33 selon l'ancienne nomenclature ?",
+      "text_nl": "Wat is een richtingaanwijzer F 33 volgens de oude nomenclatuur?",
+      "text_ru": "Что означает указатель направления F 33 согласно старой номенклатуре?",
+      "image": {
+        "sign_code": "F33",
+        "generation_prompt": "Ancien panneau de direction F33 avec l'inscription 'Endroit de nature ou d'intérêt particulier'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un panneau indiquant un aérodrome.",
+          "text_nl": "Een bord dat een vliegveld aangeeft.",
+          "text_ru": "Знак, указывающий на аэродром.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un panneau indiquant un lieu de nature ou d'intérêt particulier.",
+          "text_nl": "Een bord dat een plaats van bijzondere aard of belang aangeeft.",
+          "text_ru": "Знак, указывающий на место особого характера или интереса.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un panneau annonçant la fin d'une voie prioritaire.",
+          "text_nl": "Een bord dat het einde van een voorrangsweg aangeeft.",
+          "text_ru": "Знак, объявляющий конец главной дороги.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal de direction F 33 désignait un 'Endroit de nature ou d'intérêt particulier' selon les dispositions transitoires mentionnées.",
+      "explanation_nl": "De richtingaanwijzer F 33 duidde een 'Plaats van bijzondere aard of belang' aan volgens de vermelde overgangsbepalingen.",
+      "explanation_ru": "Указатель направления F 33 обозначал «Место особого характера или интереса» согласно упомянутым переходным положениям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez et voyez un panneau indiquant la fin d'une agglomération. Quelle est la signification immédiate de ce panneau pour la vitesse maximale autorisée, si aucune autre signalisation n'est présente ?",
+      "text_nl": "U rijdt en ziet een bord dat het einde van een bebouwde kom aangeeft. Wat is de onmiddellijke betekenis van dit bord voor de maximaal toegestane snelheid, indien geen andere signalisatie aanwezig is?",
+      "text_ru": "Вы едете и видите знак, указывающий на конец населенного пункта. Каково немедленное значение этого знака для максимально разрешенной скорости, если нет других знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Ancien panneau de fin d'agglomération (rectangle blanc barré d'une ligne rouge avec l'icône d'une ville en noir)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La vitesse maximale redevient 50 km/h.",
+          "text_nl": "De maximumsnelheid wordt weer 50 km/u.",
+          "text_ru": "Максимальная скорость снова становится 50 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La vitesse maximale autorisée est désormais celle applicable hors agglomération (généralement 70 ou 90 km/h selon le type de route et la région).",
+          "text_nl": "De maximaal toegestane snelheid is nu die welke buiten de bebouwde kom geldt (doorgaans 70 of 90 km/u afhankelijk van het wegtype en de regio).",
+          "text_ru": "Максимально разрешенная скорость теперь та, что применяется вне населенного пункта (обычно 70 или 90 км/ч в зависимости от типа дороги и региона).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez ralentir à 30 km/h.",
+          "text_nl": "U moet vertragen tot 30 km/u.",
+          "text_ru": "Вы должны снизить скорость до 30 км/ч.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau de fin d'agglomération indique que les règles spécifiques à l'agglomération (comme la vitesse maximale de 50 km/h) ne sont plus d'application. La vitesse redevient celle applicable hors agglomération.",
+      "explanation_nl": "Het bord 'einde bebouwde kom' geeft aan dat de specifieke regels voor de bebouwde kom (zoals de maximumsnelheid van 50 km/u) niet langer van toepassing zijn. De snelheid wordt weer die welke buiten de bebouwde kom geldt.",
+      "explanation_ru": "Знак «конец населенного пункта» означает, что специфические правила населенного пункта (например, максимальная скорость 50 км/ч) больше не действуют. Скорость возвращается к той, что применяется вне населенного пункта."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à une zone où le stationnement est généralement limité dans le temps, signalée par un panneau 'Début d'une zone de stationnement à durée limitée'. Jusqu'à quand ce type de panneau pouvait-il être utilisé dans sa forme ancienne ?",
+      "text_nl": "U komt in een zone waar parkeren doorgaans beperkt is in tijd, aangegeven met een bord 'Begin van een zone met beperkte parkeertijd'. Tot wanneer mocht dit type bord in zijn oude vorm worden gebruikt?",
+      "text_ru": "Вы въезжаете в зону, где парковка обычно ограничена по времени, обозначенную знаком «Начало зоны ограниченного времени парковки». До какого срока этот тип знака мог использоваться в своей старой форме?",
+      "image": {
+        "sign_code": "p begin",
+        "generation_prompt": "Ancien panneau 'Début d'une zone de stationnement à durée limitée' (P begin)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jusqu'au 1er janvier 1995.",
+          "text_nl": "Tot 1 januari 1995.",
+          "text_ru": "До 1 января 1995 года.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Jusqu'au 31 décembre 2018.",
+          "text_nl": "Tot 31 december 2018.",
+          "text_ru": "До 31 декабря 2018 года.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Jusqu'au 1er juin 2015.",
+          "text_nl": "Tot 1 juni 2015.",
+          "text_ru": "До 1 июня 2015 года.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les dispositions transitoires (85.4), les signaux routiers conformes aux modèles de 'Début d'une zone de stationnement à durée limitée' pouvaient être utilisés jusqu'au 31 décembre 2018.",
+      "explanation_nl": "Volgens de overgangsbepalingen (85.4) mochten de verkeersborden die overeenstemmen met de modellen van 'Begin van een zone met beperkte parkeertijd' behouden worden tot 31 december 2018.",
+      "explanation_ru": "Согласно переходным положениям (85.4), дорожные знаки, соответствующие моделям «Начало зоны ограниченного времени парковки», могли использоваться до 31 декабря 2018 года."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Dans votre véhicule destiné au transport de personnes avec huit places assises maximum (hors conducteur) et transportant déjà deux enfants dans des dispositifs de retenue, il n'est plus possible d'installer un troisième dispositif. Quelle était la dérogation temporaire concernant le transport d'un troisième enfant de moins de 3 ans et mesurant moins de 135 cm ?",
+      "text_nl": "In uw voertuig voor personenvervoer met maximaal acht zitplaatsen (exclusief bestuurder) en waarin al twee kinderen in kinderbeveiligingssystemen worden vervoerd, is het niet meer mogelijk om een derde systeem te installeren. Wat was de tijdelijke afwijking betreffende het vervoer van een derde kind jonger dan 3 jaar en kleiner dan 135 cm?",
+      "text_ru": "В вашем транспортном средстве для перевозки пассажиров с максимум восемью посадочными местами (без учета водителя), в котором уже перевозятся двое детей в удерживающих устройствах, невозможно установить третье устройство. Каково было временное исключение относительно перевозки третьего ребенка в возрасте до 3 лет и ростом менее 135 см?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'un enfant en bas âge dans un siège auto, avec une ceinture de sécurité visible, dans un véhicule."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le transport d'un troisième enfant de moins de 3 ans et mesurant moins de 135 cm n'a jamais été autorisé dans cette situation.",
+          "text_nl": "Het vervoer van een derde kind jonger dan 3 jaar en kleiner dan 135 cm was in deze situatie nooit toegestaan.",
+          "text_ru": "Перевозка третьего ребенка в возрасте до 3 лет и ростом менее 135 см никогда не допускалась в такой ситуации.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il était autorisé de transporter un troisième enfant de moins de 3 ans et mesurant moins de 135 cm, s'il portait la ceinture de sécurité, aux autres places assises que celles à l'avant, si l'installation d'un troisième dispositif était impossible.",
+          "text_nl": "Het was toegestaan om een derde kind jonger dan 3 jaar en kleiner dan 135 cm te vervoeren, indien het de veiligheidsgordel droeg, op andere zitplaatsen dan die voorin, als de installatie van een derde systeem onmogelijk was.",
+          "text_ru": "Разрешалось перевозить третьего ребенка в возрасте до 3 лет и ростом менее 135 см, если он был пристегнут ремнем безопасности, на других сиденьях, кроме передних, если установка третьего устройства была невозможна.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un enfant de moins de 3 ans peut être transporté sans dispositif de retenue ni ceinture dans ce cas exceptionnel.",
+          "text_nl": "Een kind jonger dan 3 jaar mag in dit uitzonderlijke geval zonder kinderbeveiligingssysteem of gordel worden vervoerd.",
+          "text_ru": "Ребенок в возрасте до 3 лет может быть перевезен без удерживающего устройства или ремня безопасности в этом исключительном случае.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Jusqu'au 9 mai 2008, une dérogation (85.3) permettait de transporter un troisième enfant de moins de 3 ans et de moins de 135 cm, ceinturé, à l'arrière du véhicule si l'installation d'un troisième dispositif de retenue était impossible après l'installation de deux autres.",
+      "explanation_nl": "Tot 9 mei 2008 maakte een afwijking (85.3) het mogelijk om een derde kind jonger dan 3 jaar en kleiner dan 135 cm, met veiligheidsgordel, achterin het voertuig te vervoeren als de installatie van een derde kinderbeveiligingssysteem onmogelijk was na de installatie van twee andere.",
+      "explanation_ru": "До 9 мая 2008 года исключение (85.3) позволяло перевозить третьего ребенка в возрасте до 3 лет и ростом менее 135 см, пристегнутого ремнем безопасности, на заднем сиденье автомобиля, если установка третьего удерживающего устройства была невозможна после установки двух других."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous voyez des signaux de direction signalant un 'Site, monument, cours d'eau' ou un 'Aérodrome'. Jusqu'à quelle date ces signaux pouvaient-ils être maintenus dans leur ancienne forme ?",
+      "text_nl": "U ziet richtingaanwijzers die een 'Natuurmonument, monument, waterloop' of een 'Luchthaven' aangeven. Tot welke datum mochten deze borden in hun oude vorm behouden blijven?",
+      "text_ru": "Вы видите указатели направления, обозначающие «Природный объект, памятник, водоток» или «Аэродром». До какой даты эти знаки могли сохраняться в своем старом виде?",
+      "image": {
+        "sign_code": "F35",
+        "generation_prompt": "Ancien panneau de direction F35 'Aérodrome' avec la distance en km."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jusqu'au 1er janvier 1995.",
+          "text_nl": "Tot 1 januari 1995.",
+          "text_ru": "До 1 января 1995 года.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Jusqu'au 1er janvier 2000.",
+          "text_nl": "Tot 1 januari 2000.",
+          "text_ru": "До 1 января 2000 года.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Jusqu'au 1er juin 2015.",
+          "text_nl": "Tot 1 juni 2015.",
+          "text_ru": "Tot 1 juni 2015.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux de direction mentionnés dans la section 85.25 (F 33, F 35, F 37, F 57, F 77) pouvaient être maintenus jusqu'au 1er janvier 1995.",
+      "explanation_nl": "De in sectie 85.25 genoemde richtingaanwijzers (F 33, F 35, F 37, F 57, F 77) mochten behouden blijven tot 1 januari 1995.",
+      "explanation_ru": "Указатели направлений, упомянутые в разделе 85.25 (F 33, F 35, F 37, F 57, F 77), могли сохраняться до 1 января 1995 года."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez et voyez un ancien panneau indiquant une 'Voie prioritaire'. Jusqu'à quelle date ce type de panneau pouvait-il être maintenu sur le réseau routier ?",
+      "text_nl": "U rijdt en ziet een oud bord dat een 'Voorrangsweg' aangeeft. Tot welke datum mocht dit type bord op het wegennet behouden blijven?",
+      "text_ru": "Вы едете и видите старый знак «Главная дорога». До какой даты этот тип знака мог оставаться на дорожной сети?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Ancien panneau 'Voie prioritaire' (probablement un carré jaune sur fond blanc)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jusqu'au 1er janvier 1993.",
+          "text_nl": "Tot 1 januari 1993.",
+          "text_ru": "До 1 января 1993 года.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Jusqu'au 1er janvier 1995.",
+          "text_nl": "Tot 1 januari 1995.",
+          "text_ru": "До 1 января 1995 года.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Jusqu'au 1er janvier 2000.",
+          "text_nl": "Tot 1 januari 2000.",
+          "text_ru": "До 1 января 2000 года.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Selon l'article 85.27, les anciens signaux 'Voie prioritaire' et 'Fin de voie prioritaire' pouvaient être maintenus jusqu'au 1er janvier 2000.",
+      "explanation_nl": "Volgens artikel 85.27 mochten de oude borden 'Voorrangsweg' en 'Einde voorrangsweg' behouden blijven tot 1 januari 2000.",
+      "explanation_ru": "Согласно статье 85.27, старые знаки «Главная дорога» и «Конец главной дороги» могли сохраняться до 1 января 2000 года."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes chauffeur de taxi en Belgique. Jusqu'à quelle date vous est-il permis de circuler sur les bandes bus, même en l'absence de signalisation spécifique l'autorisant ?",
+      "text_nl": "U bent taxichauffeur in België. Tot welke datum is het u toegestaan om op busbanen te rijden, zelfs zonder specifieke signalisatie die dit toestaat?",
+      "text_ru": "Вы водитель такси в Бельгии. До какой даты вам разрешено двигаться по полосам для автобусов, даже при отсутствии специальной разрешающей сигнализации?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "Un taxi jaune circulant sur une voie de bus clairement marquée."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jusqu'au 1er janvier 2027.",
+          "text_nl": "Tot 1 januari 2027.",
+          "text_ru": "До 1 января 2027 года.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Jusqu'au 1er janvier 2032.",
+          "text_nl": "Tot 1 januari 2032.",
+          "text_ru": "До 1 января 2032 года.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Jusqu'au 1er janvier 2035.",
+          "text_nl": "Tot 1 januari 2035.",
+          "text_ru": "До 1 января 2035 года.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon l'article 85.33, les véhicules utilisés pour le transport scolaire et les taxis peuvent circuler sur les bandes bus jusqu’au 1er janvier 2027, même en l’absence du panneau ou du mot visé à l’article 72.5, a) et b).",
+      "explanation_nl": "Volgens artikel 85.33 mogen voertuigen gebruikt voor schoolvervoer en taxi's tot 1 januari 2027 op busbanen rijden, zelfs bij afwezigheid van het bord of het woord bedoeld in artikel 72.5, a) en b).",
+      "explanation_ru": "Согласно статье 85.33, транспортные средства, используемые для школьных перевозок, и такси могут двигаться по полосам для автобусов до 1 января 2027 года, даже при отсутствии знака или слова, указанных в статье 72.5, а) и б)."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "11c57ab3fb73",
@@ -91,6 +425,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:15:29Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 9
   }
 }

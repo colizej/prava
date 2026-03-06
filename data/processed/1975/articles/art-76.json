@@ -47,7 +47,304 @@
   "anchor_id_fr": "9abqsaiamn",
   "anchor_id_nl": "by5llb4bcv",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une ligne d'arrêt et quel est son rôle principal sur la chaussée ?",
+      "text_nl": "Wat is een stopstreep en wat is de belangrijkste functie ervan op de rijbaan?",
+      "text_ru": "Что такое стоп-линия и какова её основная роль на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A white continuous line drawn perpendicularly to the edge of the roadway."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une ligne qui indique l'endroit où les véhicules doivent ralentir.",
+          "text_nl": "Een streep die aangeeft waar voertuigen moeten vertragen.",
+          "text_ru": "Линия, указывающая место, где транспортные средства должны замедлить движение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une ligne blanche continue où les conducteurs doivent marquer l'arrêt imposé par un signal ou un feu.",
+          "text_nl": "Een doorlopende witte streep waar bestuurders moeten stoppen zoals aangegeven door een verkeersbord of verkeerslicht.",
+          "text_ru": "Сплошная белая линия, где водители должны остановиться по требованию знака или светофора.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une ligne qui délimite la bande de circulation.",
+          "text_nl": "Een streep die de rijstrook afbakent.",
+          "text_ru": "Линия, обозначающая полосу движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne d'arrêt est une ligne blanche continue tracée perpendiculairement au bord de la chaussée, indiquant l'endroit précis où les conducteurs doivent s'arrêter suite à un signal ou un feu.",
+      "explanation_nl": "Een stopstreep is een witte doorlopende streep, haaks op de rand van de rijbaan aangebracht, die de exacte plaats aangeeft waar bestuurders moeten stoppen ingevolge een verkeersbord of verkeerslicht.",
+      "explanation_ru": "Стоп-линия — это сплошная белая линия, нарисованная перпендикулярно краю проезжей части, указывающая точное место, где водители должны остановиться по сигналу или светофору."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Comment sont reconnaissables les passages pour piétons sur la chaussée ?",
+      "text_nl": "Hoe zijn voetgangersoversteekplaatsen herkenbaar op de rijbaan?",
+      "text_ru": "Как на проезжей части распознаются пешеходные переходы?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "White stripes parallel to the axis of the roadway."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Par des lignes discontinues formées de carrés blancs.",
+          "text_nl": "Door onderbroken lijnen gevormd door witte vierkanten.",
+          "text_ru": "Пунктирными линиями из белых квадратов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Par des triangles blancs.",
+          "text_nl": "Door witte driehoeken.",
+          "text_ru": "Белыми треугольниками.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Par des bandes de couleur blanche, parallèles à l'axe de la chaussée.",
+          "text_nl": "Door witte banden, evenwijdig met de as van de rijbaan.",
+          "text_ru": "Белыми полосами, параллельными оси проезжей части.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les passages pour piétons sont clairement délimités par des bandes de couleur blanche tracées parallèlement à l'axe de la chaussée.",
+      "explanation_nl": "Voetgangersoversteekplaatsen worden duidelijk afgebakend door witte banden die evenwijdig met de as van de rijbaan zijn aangebracht.",
+      "explanation_ru": "Пешеходные переходы четко обозначаются белыми полосами, нарисованными параллельно оси проезжей части."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la signification d'une ligne transversale composée de triangles blancs ?",
+      "text_nl": "Wat betekent een dwarsstreep gevormd door witte driehoeken?",
+      "text_ru": "Что означает поперечная линия, состоящая из белых треугольников?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": "A transverse line formed by white triangles on the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle indique un passage pour piétons.",
+          "text_nl": "Het duidt een voetgangersoversteekplaats aan.",
+          "text_ru": "Она обозначает пешеходный переход.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle indique l'endroit où il faut, si nécessaire, s'arrêter pour céder le passage.",
+          "text_nl": "Het duidt de plaats aan waar, indien nodig, gestopt moet worden om voorrang te verlenen.",
+          "text_ru": "Она указывает место, где при необходимости нужно остановиться, чтобы уступить дорогу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle indique une zone de stationnement.",
+          "text_nl": "Het duidt een parkeerzone aan.",
+          "text_ru": "Она обозначает зону парковки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne transversale constituée de triangles blancs indique l'endroit où les conducteurs doivent, si nécessaire, marquer l'arrêt afin de céder le passage conformément à la signalisation.",
+      "explanation_nl": "Een dwarsstreep gevormd door witte driehoeken duidt de plaats aan waar de bestuurders, zo nodig, moeten stoppen om voorrang te verlenen conform de signalisatie.",
+      "explanation_ru": "Поперечная линия, состоящая из белых треугольников, указывает место, где водители должны, при необходимости, остановиться, чтобы уступить дорогу в соответствии с разметкой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous arrivez à un carrefour et vous voyez une ligne blanche continue perpendiculaire au bord de la chaussée, accompagnée d'un feu rouge. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en ziet een doorlopende witte lijn haaks op de rand van de rijbaan, samen met een rood verkeerslicht. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрестку и видите сплошную белую линию, перпендикулярную краю проезжей части, в сопровождении красного светофора. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car approaching a red traffic light at an intersection with a continuous white stop line."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ralentir et traverser si la voie est libre.",
+          "text_nl": "Vertragen en oversteken als de weg vrij is.",
+          "text_ru": "Замедлиться и проехать, если путь свободен.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter complètement avant la ligne, car c'est une ligne d'arrêt imposée par le feu.",
+          "text_nl": "Volledig stoppen vóór de streep, aangezien het een stopstreep is die door het verkeerslicht wordt opgelegd.",
+          "text_ru": "Полностью остановиться перед линией, так как это стоп-линия, требующая остановки по сигналу светофора.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous arrêter seulement si d'autres véhicules arrivent.",
+          "text_nl": "Alleen stoppen als er andere voertuigen aankomen.",
+          "text_ru": "Остановиться только если приближаются другие транспортные средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La ligne blanche continue est une ligne d'arrêt. Si elle est accompagnée d'un feu rouge, vous devez marquer l'arrêt avant cette ligne.",
+      "explanation_nl": "De doorlopende witte lijn is een stopstreep. Indien deze gepaard gaat met een rood verkeerslicht, moet u vóór deze streep stoppen.",
+      "explanation_ru": "Сплошная белая линия является стоп-линией. Если она сопровождается красным светом светофора, вы должны остановиться перед этой линией."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes à vélo et vous devez traverser une chaussée où vous voyez deux lignes discontinues formées de carrés blancs. Que signifient ces marques pour vous ?",
+      "text_nl": "U fietst en moet een rijbaan oversteken waar u twee onderbroken lijnen ziet, gevormd door witte vierkanten. Wat betekenen deze markeringen voor u?",
+      "text_ru": "Вы едете на велосипеде и вам нужно пересечь проезжую часть, где вы видите две прерывистые линии, образованные белыми квадратами. Что эти отметки означают для вас?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A cyclist approaching a road crossing marked by two dashed lines of white squares on the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est un passage pour piétons, vous devez descendre de votre vélo.",
+          "text_nl": "Het is een voetgangersoversteekplaats, u moet van uw fiets afstappen.",
+          "text_ru": "Это пешеходный переход, вы должны сойти с велосипеда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est un passage que vous devez utiliser pour traverser la chaussée en tant que cycliste.",
+          "text_nl": "Het is een oversteekplaats die u als fietser moet gebruiken om de rijbaan over te steken.",
+          "text_ru": "Это переход, который вы должны использовать как велосипедист, чтобы пересечь проезжую часть.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une zone où le stationnement est interdit.",
+          "text_nl": "Het is een zone waar parkeren verboden is.",
+          "text_ru": "Это зона, где парковка запрещена.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces marques délimitent un passage spécifiquement destiné aux cyclistes et aux conducteurs de cyclomoteurs à deux roues pour traverser la chaussée.",
+      "explanation_nl": "Deze markeringen bakenen een oversteekplaats af die specifiek bedoeld is voor fietsers en bestuurders van tweewielige bromfietsen om de rijbaan over te steken.",
+      "explanation_ru": "Эти отметки обозначают переход, специально предназначенный для велосипедистов и водителей двухколесных мопедов для пересечения проезжей части."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez et vous voyez une ligne transversale de triangles blancs au sol juste avant un carrefour où aucune autre signalisation n'est visible. Que faites-vous ?",
+      "text_nl": "U rijdt en ziet een dwarsstreep van witte driehoeken op de grond net voor een kruispunt waar geen andere signalisatie zichtbaar is. Wat doet u?",
+      "text_ru": "Вы ведете машину и видите поперечную линию из белых треугольников на земле прямо перед перекрестком, где нет других знаков. Что вы делаете?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": "A car approaching an intersection with a transverse line of white triangles, but no other signs."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous continuez sans ralentir, car il n'y a pas de panneau de signalisation.",
+          "text_nl": "U rijdt door zonder te vertragen, want er is geen verkeersbord.",
+          "text_ru": "Вы продолжаете движение, не замедляясь, так как нет дорожного знака.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes prêt à vous arrêter si nécessaire pour céder le passage aux véhicules venant d'autres directions.",
+          "text_nl": "U bent bereid om zo nodig te stoppen om voorrang te verlenen aan voertuigen uit andere richtingen.",
+          "text_ru": "Вы готовы остановиться при необходимости, чтобы уступить дорогу транспортным средствам, приближающимся с других направлений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous avez la priorité de passage, car aucune autre signalisation n'est présente.",
+          "text_nl": "U heeft voorrang, want er is geen andere signalisatie aanwezig.",
+          "text_ru": "У вас преимущество проезда, так как нет других знаков.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La ligne transversale de triangles blancs indique que vous devez céder le passage si nécessaire. Même sans panneau visible, la marque au sol a une signification claire d'obligation de céder le passage.",
+      "explanation_nl": "De dwarsstreep van witte driehoeken geeft aan dat u zo nodig voorrang moet verlenen. Zelfs zonder zichtbaar verkeersbord heeft de markering op de grond een duidelijke betekenis van voorrang verlenen.",
+      "explanation_ru": "Поперечная линия из белых треугольников указывает, что вы должны уступить дорогу при необходимости. Даже без видимого знака, разметка на земле имеет четкое значение обязательства уступить дорогу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous approchez d'un passage pour piétons (bandes blanches parallèles). Un piéton s'apprête à traverser. Que devez-vous faire ?",
+      "text_nl": "U nadert een voetgangersoversteekplaats (parallelle witte strepen). Een voetganger staat op het punt over te steken. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к пешеходному переходу (параллельные белые полосы). Пешеход собирается перейти дорогу. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car approaching a pedestrian crossing with white parallel stripes, and a pedestrian about to cross."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Klaxonner pour avertir le piéton et passer s'il ne s'est pas encore engagé.",
+          "text_nl": "Claxonneren om de voetganger te waarschuwen en doorrijden als hij nog niet is overgestoken.",
+          "text_ru": "Посигналить, чтобы предупредить пешехода, и проехать, если он еще не вышел на переход.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et s'arrêter pour laisser passer le piéton en toute sécurité.",
+          "text_nl": "Vertragen en stoppen om de voetganger veilig te laten oversteken.",
+          "text_ru": "Замедлиться и остановиться, чтобы пропустить пешехода в полной безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Passer rapidement si le piéton est encore sur le trottoir.",
+          "text_nl": "Snel doorrijden als de voetganger nog op het trottoir staat.",
+          "text_ru": "Быстро проехать, если пешеход еще на тротуаре.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Aux passages pour piétons, vous devez toujours accorder la priorité aux piétons qui s'apprêtent à traverser ou qui sont déjà engagés.",
+      "explanation_nl": "Bij voetgangersoversteekplaatsen moet u altijd voorrang verlenen aan voetgangers die van plan zijn over te steken of die al bezig zijn met oversteken.",
+      "explanation_ru": "На пешеходных переходах вы всегда должны уступать дорогу пешеходам, которые собираются перейти дорогу или уже находятся на ней."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez et vous voyez devant vous des marques au sol constituées de carrés blancs formant des lignes discontinues. Quelle est votre interprétation correcte de cette signalisation ?",
+      "text_nl": "U rijdt en ziet voor u wegmarkeringen bestaande uit witte vierkanten die onderbroken lijnen vormen. Wat is uw correcte interpretatie van deze signalisatie?",
+      "text_ru": "Вы ведете машину и видите перед собой дорожную разметку из белых квадратов, образующих прерывистые линии. Какова ваша правильная интерпретация этой разметки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car approaching a road section with dashed lines formed by white squares on the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il s'agit d'une zone de stationnement temporaire.",
+          "text_nl": "Dit is een tijdelijke parkeerzone.",
+          "text_ru": "Это временная зона парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il s'agit d'un passage pour cyclistes ou cyclomoteurs, soyez vigilant.",
+          "text_nl": "Dit is een oversteekplaats voor fietsers of bromfietsers, wees alert.",
+          "text_ru": "Это переход для велосипедистов или мопедистов, будьте внимательны.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une bande de circulation réservée aux transports en commun.",
+          "text_nl": "Dit is een rijstrook gereserveerd voor openbaar vervoer.",
+          "text_ru": "Это полоса движения, предназначенная для общественного транспорта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces lignes discontinues de carrés ou parallélogrammes blancs délimitent les passages que les cyclistes et conducteurs de cyclomoteurs à deux roues doivent utiliser pour traverser la chaussée. Il faut donc être particulièrement vigilant à leur égard.",
+      "explanation_nl": "Deze onderbroken lijnen van witte vierkanten of parallellogrammen bakenen de oversteekplaatsen af die fietsers en bestuurders van tweewielige bromfietsen moeten gebruiken om de rijbaan over te steken. Men moet er dus bijzonder waakzaam voor zijn.",
+      "explanation_ru": "Эти прерывистые линии из белых квадратов или параллелограммов обозначают переходы, которые велосипедисты и водители двухколесных мопедов должны использовать для пересечения проезжей части. Поэтому следует быть особенно бдительным."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "cfcfcf0d5926",
@@ -57,6 +354,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:09:21Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

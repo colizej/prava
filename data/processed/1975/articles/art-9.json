@@ -81,7 +81,304 @@
   "anchor_id_fr": "um51jthakn",
   "anchor_id_nl": "flz2yoyx9u",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom officiel d'un panneau de signalisation carré bleu avec un vélo blanc qui indique une piste cyclable obligatoire ?",
+      "text_nl": "Wat is de officiële naam van een blauw vierkant verkeersbord met een witte fiets dat een verplicht fietspad aangeeft?",
+      "text_ru": "Каково официальное название синего квадратного дорожного знака с белым велосипедом, обозначающего обязательную велосипедную дорожку?",
+      "image": {
+        "sign_code": "D7",
+        "generation_prompt": "Un panneau de signalisation carré bleu avec un vélo blanc."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Piste cyclable facultative",
+          "text_nl": "Facultatief fietspad",
+          "text_ru": "Факультативная велосипедная дорожка",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Piste cyclable obligatoire",
+          "text_nl": "Verplicht fietspad",
+          "text_ru": "Обязательная велосипедная дорожка",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Chemin réservé aux cyclistes et piétons",
+          "text_nl": "Gereserveerd pad voor fietsers en voetgangers",
+          "text_ru": "Дорожка, зарезервированная для велосипедистов и пешеходов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau D7 indique une piste cyclable obligatoire. Les cyclistes et cyclomoteurs classe A doivent l'emprunter si elle est à droite dans leur sens de marche.",
+      "explanation_nl": "Verkeersbord D7 duidt een verplicht fietspad aan. Fietsers en bromfietsers klasse A moeten dit volgen als het rechts in hun rijrichting ligt.",
+      "explanation_ru": "Знак D7 обозначает обязательную велосипедную дорожку. Велосипедисты и водители мопедов класса А должны ехать по ней, если она находится справа по направлению их движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie l'obligation pour un conducteur de se tenir 'le plus près possible du bord droit de la chaussée' ?",
+      "text_nl": "Wat betekent de verplichting voor een bestuurder om 'zo dicht mogelijk bij de rechterrand van de rijbaan' te blijven?",
+      "text_ru": "Что означает обязанность водителя держаться «как можно ближе к правому краю проезжей части»?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit rouler avec la roue droite touchant le bord de la chaussée en permanence.",
+          "text_nl": "Hij moet constant met het rechterwiel de rand van de rijbaan raken.",
+          "text_ru": "Он должен постоянно ехать правым колесом, касаясь края проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit circuler de manière à ne pas gêner le trafic venant en sens inverse ou le dépassement par d'autres véhicules, en laissant suffisamment d'espace à sa gauche.",
+          "text_nl": "Hij moet zodanig rijden dat hij het tegemoetkomend verkeer of het inhalen door andere voertuigen niet hindert, door voldoende ruimte links van zich te laten.",
+          "text_ru": "Он должен двигаться таким образом, чтобы не мешать встречному движению или обгону другими транспортными средствами, оставляя достаточно места слева от себя.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit toujours rouler sur la bande d'arrêt d'urgence si celle-ci est libre.",
+          "text_nl": "Hij moet altijd op de pechstrook rijden als deze vrij is.",
+          "text_ru": "Он всегда должен ехать по обочине, если она свободна.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Se tenir le plus près possible du bord droit signifie faciliter la circulation et le dépassement, sans rouler inutilement au milieu de la chaussée.",
+      "explanation_nl": "Zo dicht mogelijk bij de rechterrand blijven betekent het verkeer en het inhalen vergemakkelijken, zonder onnodig in het midden van de rijbaan te rijden.",
+      "explanation_ru": "Держаться как можно ближе к правому краю означает облегчать движение и обгон, не ехать без необходимости посередине проезжей части."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'une 'bande latérale' sur la voie publique, et qui peut l'emprunter sous certaines conditions ?",
+      "text_nl": "Wat is een 'zijdelingse strook' op de openbare weg, en wie mag deze onder bepaalde voorwaarden gebruiken?",
+      "text_ru": "Что такое «боковая полоса» на проезжей части, и кто может ехать по ней при определенных условиях?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une bande réservée aux véhicules de livraison, et seuls les livreurs peuvent l'utiliser.",
+          "text_nl": "Het is een strook gereserveerd voor bestelwagens, en alleen bezorgers mogen deze gebruiken.",
+          "text_ru": "Это полоса, зарезервированная для доставочных автомобилей, и только курьеры могут ее использовать.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est une partie de la chaussée à gauche, utilisée uniquement par les motocyclistes.",
+          "text_nl": "Het is een deel van de rijbaan links, uitsluitend gebruikt door motorrijders.",
+          "text_ru": "Это часть проезжей части слева, используемая только мотоциклистами.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une partie de la voie publique à droite où les cyclistes, les cyclomoteurs classe A, les speed pedelecs et les conducteurs d'animaux peuvent circuler, à condition de céder la priorité aux piétons.",
+          "text_nl": "Het is een deel van de openbare weg rechts waar fietsers, bromfietsers klasse A, speed pedelecs en bestuurders van dieren mogen rijden, op voorwaarde dat zij voorrang verlenen aan voetgangers.",
+          "text_ru": "Это часть проезжей части справа, где могут двигаться велосипедисты, водители мопедов класса А, скоростных электровелосипедов и погонщики животных, при условии, что они уступают дорогу пешеходам.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La bande latérale est une partie de la voie publique à droite que certains usagers, comme les cyclistes et les conducteurs d'animaux, peuvent emprunter en cédant la priorité aux piétons.",
+      "explanation_nl": "De zijdelingse strook is een deel van de openbare weg rechts dat bepaalde weggebruikers, zoals fietsers en bestuurders van dieren, mogen gebruiken, op voorwaarde dat zij voorrang verlenen aan voetgangers.",
+      "explanation_ru": "Боковая полоса — это часть проезжей части справа, которую могут использовать некоторые участники движения, такие как велосипедисты и погонщики животных, уступая дорогу пешеходам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous circulez à vélo sur une route où la vitesse est limitée à 40 km/h. Il y a une piste cyclable praticable indiquée par des marques au sol à droite. Devez-vous utiliser cette piste cyclable ?",
+      "text_nl": "U rijdt met de fiets op een weg waar de snelheid beperkt is tot 40 km/u. Er is een berijdbaar fietspad, aangeduid met wegmarkeringen rechts. Moet u dit fietspad gebruiken?",
+      "text_ru": "Вы едете на велосипеде по дороге, где скорость ограничена до 40 км/ч. Справа находится пригодная для движения велосипедная дорожка, обозначенная разметкой. Обязаны ли вы использовать эту велосипедную дорожку?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Une route avec une limitation de vitesse à 40 km/h et une piste cyclable marquée au sol à droite."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, je peux choisir de rouler sur la chaussée si je le souhaite.",
+          "text_nl": "Nee, ik mag ervoor kiezen om op de rijbaan te rijden als ik dat wil.",
+          "text_ru": "Нет, я могу выбрать езду по проезжей части, если захочу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, je suis tenu d'emprunter la piste cyclable si elle est praticable et à droite.",
+          "text_nl": "Ja, ik ben verplicht het fietspad te gebruiken als het berijdbaar is en rechts ligt.",
+          "text_ru": "Да, я обязан использовать велосипедную дорожку, если она пригодна для движения и находится справа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si des cyclomoteurs s'y trouvent déjà.",
+          "text_nl": "Alleen als er al bromfietsen op rijden.",
+          "text_ru": "Только если на ней уже едут мопеды.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les cyclistes sont tenus d'utiliser la piste cyclable praticable indiquée par des marques routières si elle se trouve à droite dans leur sens de marche, quelle que soit la limitation de vitesse.",
+      "explanation_nl": "Fietsers zijn verplicht het berijdbare fietspad, aangeduid door wegmarkeringen, te volgen als het rechts in hun rijrichting ligt, ongeacht de snelheidsbeperking.",
+      "explanation_ru": "Велосипедисты обязаны использовать пригодную для движения велосипедную дорожку, обозначенную дорожной разметкой, если она находится справа по направлению их движения, независимо от ограничения скорости."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un speed pedelec sur une route hors agglomération où la vitesse est limitée à 70 km/h. Il y a une piste cyclable indiquée par le panneau D7 (piste cyclable obligatoire) à droite. Que devez-vous faire ?",
+      "text_nl": "U rijdt met een speed pedelec op een weg buiten de bebouwde kom waar de snelheid beperkt is tot 70 km/u. Er is een fietspad, aangeduid door verkeersbord D7 (verplicht fietspad) rechts. Wat moet u doen?",
+      "text_ru": "Вы едете на скоростном электровелосипеде по дороге вне населенного пункта, где скорость ограничена до 70 км/ч. Справа находится велосипедная дорожка, обозначенная знаком D7 (обязательная велосипедная дорожка). Что вы должны делать?",
+      "image": {
+        "sign_code": "D7",
+        "generation_prompt": "Une route hors agglomération avec un panneau D7 et une limitation de vitesse de 70 km/h."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je peux choisir de rouler sur la chaussée ou sur la piste cyclable.",
+          "text_nl": "Ik mag kiezen om op de rijbaan of op het fietspad te rijden.",
+          "text_ru": "Я могу выбрать езду по проезжей части или по велосипедной дорожке.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je dois obligatoirement emprunter la piste cyclable si elle est praticable.",
+          "text_nl": "Ik moet verplicht het fietspad volgen als het berijdbaar is.",
+          "text_ru": "Я обязан использовать велосипедную дорожку, если она пригодна для движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je dois rouler sur la chaussée car ma vitesse est trop élevée pour la piste cyclable.",
+          "text_nl": "Ik moet op de rijbaan rijden omdat mijn snelheid te hoog is voor het fietspad.",
+          "text_ru": "Я должен ехать по проезжей части, потому что моя скорость слишком высока для велосипедной дорожки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque la vitesse autorisée est supérieure à 50 km/h, les conducteurs de speed pedelecs doivent obligatoirement emprunter la piste cyclable indiquée par un panneau D7 si elle est présente et praticable.",
+      "explanation_nl": "Wanneer een hogere snelheidsbeperking geldt (meer dan 50 km/u), moeten bestuurders van speed pedelecs het fietspad aangeduid door verkeersbord D7 volgen, wanneer dit aanwezig en bruikbaar is.",
+      "explanation_ru": "Когда разрешенная скорость превышает 50 км/ч, водители скоростных электровелосипедов обязаны использовать велосипедную дорожку, обозначенную знаком D7, если она присутствует и пригодна для движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes motocycliste sur une chaussée à double sens de circulation, non divisée en bandes. Comment devez-vous positionner votre véhicule ?",
+      "text_nl": "U bent een motorrijder op een tweerichtingsrijbaan, niet verdeeld in rijstroken. Hoe moet u uw voertuig positioneren?",
+      "text_ru": "Вы мотоциклист на двухполосной проезжей части, не разделенной на полосы движения. Как вы должны располагать свой транспортное средство?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Un motocycliste sur une route rurale à double sens sans marquage de voie."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je dois me tenir le plus près possible du bord droit de la chaussée.",
+          "text_nl": "Ik moet zo dicht mogelijk bij de rechterrand van de rijbaan blijven.",
+          "text_ru": "Я должен держаться как можно ближе к правому краю проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je peux me tenir sur toute la largeur de la moitié droite de la chaussée.",
+          "text_nl": "Ik mag de volledige breedte van de rechterhelft van de rijbaan innemen.",
+          "text_ru": "Я могу занимать всю ширину правой половины проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je peux me positionner au milieu de la chaussée pour une meilleure visibilité.",
+          "text_nl": "Ik mag mij in het midden van de rijbaan plaatsen voor een betere zichtbaarheid.",
+          "text_ru": "Я могу расположиться посередине проезжей части для лучшей видимости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Par dérogation à la règle générale, un motocycliste peut utiliser toute la largeur de la moitié droite de la chaussée sur une route à double sens non divisée en bandes.",
+      "explanation_nl": "In afwijking van de algemene regel mag een motorrijder de volledige breedte van de rechterhelft van de rijbaan gebruiken op een tweerichtingsweg die niet in rijstroken is verdeeld.",
+      "explanation_ru": "В отступление от общего правила, мотоциклист может использовать всю ширину правой половины проезжей части на двухполосной дороге, не разделенной на полосы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un rond-point. Quelle est la règle générale concernant votre position sur la chaussée dans l'anneau du rond-point, si aucune bande de circulation n'est délimitée ?",
+      "text_nl": "U nadert een rotonde. Wat is de algemene regel betreffende uw positie op de rijbaan in de rotonde, als er geen rijstroken zijn afgebakend?",
+      "text_ru": "Вы приближаетесь к круговому перекрестку. Каково общее правило относительно вашего положения на проезжей части в круговом движении, если полосы движения не обозначены?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Un rond-point sans marquage de voie distinct."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je dois toujours me tenir le plus près possible du bord droit de l'anneau.",
+          "text_nl": "Ik moet altijd zo dicht mogelijk bij de rechterrand van de rotonde blijven.",
+          "text_ru": "Я всегда должен держаться как можно ближе к правому краю круга.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je ne suis pas tenu de me tenir le plus près possible du bord droit et peux emprunter la bande qui convient le mieux à ma destination.",
+          "text_nl": "Ik ben niet verplicht zo dicht mogelijk bij de rechterrand te blijven en mag de strook gebruiken die het best bij mijn bestemming past.",
+          "text_ru": "Я не обязан держаться как можно ближе к правому краю и могу использовать полосу, которая лучше всего подходит для моего направления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je dois toujours circuler sur la bande extérieure pour ne pas gêner les véhicules qui sortent.",
+          "text_nl": "Ik moet altijd op de buitenste strook rijden om voertuigen die de rotonde verlaten niet te hinderen.",
+          "text_ru": "Я всегда должен ехать по внешней полосе, чтобы не мешать выезжающим транспортным средствам.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Dans l'anneau d'un rond-point, un conducteur n'est pas tenu de se tenir le plus près possible du bord droit, sauf si des marques délimitent des bandes de circulation. Il peut alors emprunter la bande qui convient le mieux à sa destination.",
+      "explanation_nl": "In de rotonde is een bestuurder niet verplicht zo dicht mogelijk bij de rechterrand te blijven, tenzij markeringen rijstroken afbakenen. Hij mag dan de strook gebruiken die het best bij zijn bestemming past.",
+      "explanation_ru": "На круговом перекрестке водитель не обязан держаться как можно ближе к правому краю, если нет разметки, обозначающей полосы движения. В этом случае он может использовать полосу, которая лучше всего подходит для его направления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez en voiture sur une autoroute. La circulation est fortement ralentie à cause d'un accident plus loin. Pouvez-vous emprunter la bande d'arrêt d'urgence ?",
+      "text_nl": "U rijdt met de auto op een autosnelweg. Het verkeer is sterk vertraagd door een ongeval verderop. Mag u de pechstrook gebruiken?",
+      "text_ru": "Вы едете на машине по автомагистрали. Движение сильно замедлилось из-за аварии впереди. Можете ли вы использовать аварийную полосу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Une autoroute avec une bande d'arrêt d'urgence et un embouteillage dû à un accident."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si le trafic est complètement arrêté, pour avancer lentement.",
+          "text_nl": "Ja, als het verkeer volledig stilstaat, om langzaam vooruit te komen.",
+          "text_ru": "Да, если движение полностью остановилось, чтобы медленно продвигаться вперед.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, l'utilisation de la bande d'arrêt d'urgence est interdite sauf pour les véhicules prioritaires, dépanneuses ou services requis en cas d'incident et de circulation fortement ralentie ou arrêtée.",
+          "text_nl": "Nee, het gebruik van de pechstrook is verboden, behalve voor prioritaire voertuigen, takelwagens of diensten die zijn opgeroepen bij een incident en sterk vertraagd of stilstaand verkeer.",
+          "text_ru": "Нет, использование аварийной полосы запрещено, за исключением приоритетных транспортных средств, эвакуаторов или служб, вызванных в случае инцидента и сильно замедленного или остановленного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si je suis un conducteur expérimenté et que je ne mets personne en danger.",
+          "text_nl": "Ja, als ik een ervaren bestuurder ben en niemand in gevaar breng.",
+          "text_ru": "Да, если я опытный водитель и никому не угрожаю.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est interdit de circuler sur la bande d'arrêt d'urgence sauf exceptions très spécifiques : véhicules prioritaires en mission, services requis par la police ou le ministère public, ou dépanneuses se rendant sur un incident lorsque la circulation est fortement ralentie ou arrêtée.",
+      "explanation_nl": "Het is verboden om op de pechstrook te rijden, behalve in zeer specifieke gevallen: prioritaire voertuigen die een dringende opdracht uitvoeren, diensten die door de politie of het parket zijn opgeroepen, of takelwagens die naar een incident gaan wanneer het verkeer sterk vertraagd of gestopt is.",
+      "explanation_ru": "Использование аварийной полосы запрещено, за исключением очень специфических случаев: приоритетные транспортные средства, выполняющие срочное задание, службы, вызванные полицией или прокуратурой, или эвакуаторы, направляющиеся к месту происшествия, когда движение сильно замедлено или остановлено."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "8713ca935130",
@@ -91,6 +388,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:17:36Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

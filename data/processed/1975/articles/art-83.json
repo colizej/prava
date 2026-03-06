@@ -26,7 +26,304 @@
   "anchor_id_fr": "yga0qzbgjq",
   "anchor_id_nl": "sgltkp23mm",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel type de catadioptres est obligatoire à l'arrière d'un véhicule à traction animale et quelle doit être leur forme ?",
+      "text_nl": "Welk type reflectoren is verplicht aan de achterzijde van een bespannen voertuig en welke vorm moeten ze hebben?",
+      "text_ru": "Какой тип светоотражателей является обязательным сзади на транспортном средстве, запряженном животными, и какую форму они должны иметь?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An animal-drawn vehicle from behind, showing two red triangular reflectors."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Deux catadioptres oranges de forme circulaire.",
+          "text_nl": "Twee oranje reflectoren met een cirkelvorm.",
+          "text_ru": "Два оранжевых круглых светоотражателя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Deux catadioptres rouges de forme triangulaire, avec un sommet dirigé vers le haut.",
+          "text_nl": "Twee rode reflectoren met een driehoekige vorm, met één punt naar boven gericht.",
+          "text_ru": "Два красных треугольных светоотражателя, с одной вершиной, направленной вверх.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un seul catadioptre rouge de forme carrée.",
+          "text_nl": "Eén enkele rode reflector met een vierkante vorm.",
+          "text_ru": "Один красный квадратный светоотражатель.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les véhicules à traction animale doivent être munis en permanence de deux catadioptres rouges à l'arrière, de forme triangulaire, avec un des sommets dirigé vers le haut.",
+      "explanation_nl": "Bespannen voertuigen moeten altijd achteraan twee rode reflectoren voeren. Deze reflectoren moeten een driehoekige vorm hebben, met een der toppen van de driehoek naar boven gericht.",
+      "explanation_ru": "На транспортных средствах, запряженных животными, всегда должны быть два красных треугольных светоотражателя сзади, с одной вершиной, направленной вверх."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'une 'installation de freinage suffisamment efficace' pour un véhicule à traction animale et quand une exemption est-elle possible ?",
+      "text_nl": "Wat is een 'voldoend doelmatige reminrichting' voor een bespannen voertuig en wanneer is een vrijstelling mogelijk?",
+      "text_ru": "Что означает 'достаточно эффективная тормозная система' для транспортного средства, запряженного животными, и когда возможно освобождение от этого требования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A horse-drawn carriage being safely stopped by its braking system, with a secondary image of a small two-wheeled cart stopping with the animal."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un système de freinage qui permet d'arrêter le véhicule à tout moment, sans exception.",
+          "text_nl": "Een remsysteem dat het voertuig te allen tijde kan stoppen, zonder uitzondering.",
+          "text_ru": "Тормозная система, которая позволяет остановить транспортное средство в любой момент, без исключений.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un système de freinage performant, sauf pour les véhicules à deux roues de moins de 1000 kg si l'attelage assure l'arrêt simultané avec l'animal.",
+          "text_nl": "Een performant remsysteem, behalve voor tweewielige voertuigen van minder dan 1000 kg indien de bespanning zorgt voor het gelijktijdig stoppen met het trekdier.",
+          "text_ru": "Эффективная тормозная система, за исключением двухколесных транспортных средств массой менее 1000 кг, если упряжь обеспечивает одновременную остановку с тягловым животным.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un simple frein à main est toujours suffisant pour tous les types de véhicules à traction animale.",
+          "text_nl": "Een eenvoudige handrem is altijd voldoende voor alle soorten bespannen voertuigen.",
+          "text_ru": "Простого ручного тормоза всегда достаточно для всех типов транспортных средств, запряженных животными.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les véhicules à traction animale doivent être pourvus d'une installation de freinage suffisamment efficace. Cette disposition n'est pas applicable aux véhicules à traction animale à deux roues dont le poids en charge ne dépasse pas 1.000 kg et dont l'attelage est tel que le véhicule s'arrête en même temps que l'animal de trait.",
+      "explanation_nl": "Bespannen voertuigen moeten voorzien zijn van een voldoend doelmatige reminrichting. Deze bepaling geldt niet voor tweewielige bespannen voertuigen waarvan het gewicht in beladen toestand niet meer dan 1.000 kg bedraagt en waarvan de bespanning zodanig is dat het voertuig terzelfdertijd als het trekdier stilhoudt.",
+      "explanation_ru": "Транспортные средства, запряженные животными, должны быть оборудованы достаточно эффективной тормозной системой. Это положение не применяется к двухколесным транспортным средствам, запряженным животными, масса которых в груженом состоянии не превышает 1000 кг, и упряжь которых такова, что транспортное средство останавливается одновременно с тягловым животным."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie la règle concernant les dimensions des véhicules à traction animale ?",
+      "text_nl": "Wat betekent de regel betreffende de afmetingen van bespannen voertuigen?",
+      "text_ru": "Что означает правило относительно размеров транспортных средств, запряженных животными?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A horse-drawn carriage next to a regular car, with an indication of size comparison."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Leurs dimensions doivent être égales à celles d'un vélo.",
+          "text_nl": "Hun afmetingen moeten gelijk zijn aan die van een fiets.",
+          "text_ru": "Их размеры должны быть равны размерам велосипеда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Leurs dimensions ne peuvent pas dépasser celles autorisées pour les véhicules automobiles.",
+          "text_nl": "Hun afmetingen mogen niet groter zijn dan die toegestaan voor motorvoertuigen.",
+          "text_ru": "Их размеры не могут превышать размеры, разрешенные для автомобилей.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il n'y a pas de limitation de taille pour les véhicules à traction animale.",
+          "text_nl": "Er is geen maatbeperking voor bespannen voertuigen.",
+          "text_ru": "Ограничений по размеру для транспортных средств, запряженных животными, нет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dimensions des véhicules à traction animale ne peuvent dépasser celles prévues par le règlement technique des véhicules automobiles.",
+      "explanation_nl": "De afmetingen van bespannen voertuigen mogen niet groter zijn dan deze bepaald door het technisch reglement van de auto's.",
+      "explanation_ru": "Размеры транспортных средств, запряженных животными, не могут превышать размеры, предусмотренные техническим регламентом автомобилей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule à traction animale. Vous remarquez qu'un des catadioptres rouges arrière est sale et partiellement obscurci. Que devez-vous faire ?",
+      "text_nl": "U bestuurt een bespannen voertuig. U merkt dat één van de rode reflectoren achteraan vuil en gedeeltelijk verduisterd is. Wat moet u doen?",
+      "text_ru": "Вы управляете транспортным средством, запряженным животными. Вы замечаете, что один из задних красных светоотражателей грязный и частично затемнен. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A dirty red triangular reflector on the back of a horse-drawn cart, with a hand cleaning it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer votre chemin, cela n'a pas d'importance tant qu'il y en a un autre visible.",
+          "text_nl": "Verder rijden, zolang er nog een andere zichtbaar is, is het niet erg.",
+          "text_ru": "Продолжать движение, это не имеет значения, пока виден другой.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous arrêter dès que possible pour le nettoyer et le rendre parfaitement visible.",
+          "text_nl": "Zo snel mogelijk stoppen om deze schoon te maken en perfect zichtbaar te maken.",
+          "text_ru": "Остановиться как можно скорее, чтобы очистить его и сделать идеально видимым.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ajouter un catadioptre orange sur le côté pour compenser.",
+          "text_nl": "Een oranje reflector aan de zijkant toevoegen ter compensatie.",
+          "text_ru": "Добавить оранжевый светоотражатель сбоку для компенсации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les catadioptres doivent être en tout temps parfaitement visibles et dégagés pour assurer l'efficacité de la signalisation.",
+      "explanation_nl": "De reflectoren moeten altijd duidelijk zichtbaar zijn en goed uitkomen om de doeltreffendheid van de signalisatie te garanderen.",
+      "explanation_ru": "Светоотражатели всегда должны быть идеально видны и свободны от загрязнений, чтобы обеспечить эффективность сигнализации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule à traction animale à deux roues, dont le poids en charge est de 800 kg. Le système d'attelage est tel que le véhicule s'arrête en même temps que l'animal. Avez-vous besoin d'une installation de freinage supplémentaire ?",
+      "text_nl": "U bestuurt een tweewielig bespannen voertuig, waarvan het gewicht in beladen toestand 800 kg bedraagt. Het bespanningssysteem is zodanig dat het voertuig tegelijkertijd met het dier stopt. Heeft u een extra reminrichting nodig?",
+      "text_ru": "Вы управляете двухколесным транспортным средством, запряженным животными, масса которого в груженом состоянии составляет 800 кг. Система упряжи такова, что транспортное средство останавливается одновременно с животным. Нужна ли вам дополнительная тормозная система?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A small two-wheeled horse-drawn cart, with a light load, and the horse stopping."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, une installation de freinage est toujours obligatoire, quelle que soit la configuration.",
+          "text_nl": "Ja, een reminrichting is altijd verplicht, ongeacht de configuratie.",
+          "text_ru": "Да, тормозная система всегда обязательна, независимо от конфигурации.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car le poids est inférieur à 1000 kg et l'attelage assure l'arrêt simultané.",
+          "text_nl": "Nee, want het gewicht is minder dan 1000 kg en de bespanning zorgt voor het gelijktijdig stoppen.",
+          "text_ru": "Нет, потому что вес меньше 1000 кг, и упряжь обеспечивает одновременную остановку.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si vous transportez des passagers.",
+          "text_nl": "Ja, maar alleen als u passagiers vervoert.",
+          "text_ru": "Да, но только если вы перевозите пассажиров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les véhicules à traction animale à deux roues dont le poids en charge ne dépasse pas 1.000 kg et dont l'attelage est tel que le véhicule s'arrête en même temps que l'animal de trait sont exemptés de l'obligation d'une installation de freinage séparée.",
+      "explanation_nl": "Tweewielige bespannen voertuigen waarvan het gewicht in beladen toestand niet meer dan 1.000 kg bedraagt en waarvan de bespanning zodanig is dat het voertuig terzelfdertijd als het trekdier stilhoudt, zijn vrijgesteld van de verplichting van een afzonderlijke reminrichting.",
+      "explanation_ru": "Двухколесные транспортные средства, запряженные животными, масса которых в груженом состоянии не превышает 1000 кг, и упряжь которых такова, что транспортное средство останавливается одновременно с тягловым животным, освобождаются от обязанности иметь отдельную тормозную систему."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous installez les catadioptres rouges arrière sur votre nouveau véhicule à traction animale. Quelle est la hauteur maximale et minimale par rapport au sol pour le point le plus haut et le plus bas de la plage rétroréfléchissante ?",
+      "text_nl": "U installeert de rode reflectoren achteraan op uw nieuwe bespannen voertuig. Wat is de maximale en minimale hoogte boven de grond voor het hoogste en laagste punt van het lichtweerkaatsend gedeelte?",
+      "text_ru": "Вы устанавливаете задние красные светоотражатели на свое новое транспортное средство, запряженное животными. Какова максимальная и минимальная высота над землей для самой высокой и самой низкой точки светоотражающей поверхности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person measuring the height of a red triangular reflector on the back of an animal-drawn cart, with a tape measure showing 1.20m and 0.40m limits."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le point le plus haut à 1,50 mètre maximum et le plus bas à 0,30 mètre minimum.",
+          "text_nl": "Het hoogste punt op maximaal 1,50 meter en het laagste punt op minimaal 0,30 meter.",
+          "text_ru": "Самая высокая точка не более 1,50 метра, а самая низкая не менее 0,30 метра.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le point le plus haut à 1,20 mètre maximum et le plus bas à 0,40 mètre minimum.",
+          "text_nl": "Het hoogste punt op maximaal 1,20 meter en het laagste punt op minimaal 0,40 meter.",
+          "text_ru": "Самая высокая точка не более 1,20 метра, а самая низкая не менее 0,40 метра.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il n'y a pas de hauteur spécifique, tant qu'ils sont visibles.",
+          "text_nl": "Er is geen specifieke hoogte, zolang ze maar zichtbaar zijn.",
+          "text_ru": "Специальной высоты нет, главное, чтобы они были видны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le point le plus haut de la plage rétroréfléchissante des catadioptres ne peut se trouver à plus de 1,20 mètre et le point le plus bas ne peut se trouver à moins de 0,40 mètre au-dessus du sol, le véhicule étant à vide.",
+      "explanation_nl": "Het hoogste punt van het lichtweerkaatsend gedeelte van de reflectoren mag zich op niet meer dan 1,20 meter boven de grond en het laagste punt op niet minder dan 0,40 meter boven de grond bevinden als het voertuig ledig is.",
+      "explanation_ru": "Самая высокая точка светоотражающей поверхности светоотражателей не может находиться выше 1,20 метра, а самая низкая точка — не ниже 0,40 метра над землей, когда транспортное средство пустое."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Lors de l'installation des catadioptres rouges arrière sur votre chariot, vous les placez à 0,50 mètre du bord extérieur du véhicule. Cette installation est-elle conforme ?",
+      "text_nl": "Bij het installeren van de rode reflectoren achteraan op uw wagen, plaatst u ze op 0,50 meter van de buitenrand van het voertuig. Voldoet deze installatie?",
+      "text_ru": "При установке задних красных светоотражателей на вашу повозку вы размещаете их на расстоянии 0,50 метра от внешнего края транспортного средства. Соответствует ли эта установка требованиям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person measuring the distance from the edge of an animal-drawn cart to a red triangular reflector, with a tape measure showing 0.50m."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, tant qu'ils sont visibles.",
+          "text_nl": "Ja, zolang ze maar zichtbaar zijn.",
+          "text_ru": "Да, пока они видны.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, le bord extérieur doit se trouver à 0,40 mètre maximum du gabarit extérieur.",
+          "text_nl": "Nee, de buitenrand moet zich op maximaal 0,40 meter van de buitenomtrek bevinden.",
+          "text_ru": "Нет, внешний край должен находиться на расстоянии не более 0,40 метра от внешнего габарита.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car il n'y a pas de limite de distance pour les catadioptres arrière.",
+          "text_nl": "Ja, want er is geen afstandsbeperking voor de achterste reflectoren.",
+          "text_ru": "Да, потому что нет ограничений по расстоянию для задних светоотражателей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le bord extérieur de la plage rétroréfléchissante des catadioptres à l'arrière doit se trouver le plus près possible du gabarit extérieur du véhicule et, en tout cas, à 0,40 mètre au maximum de celui-ci.",
+      "explanation_nl": "De buitenrand van het lichtweerkaatsend gedeelte van de reflectoren achteraan moet zich zo dicht mogelijk bij de buitenomtrek van het voertuig en, in ieder geval, op ten hoogste 0,40 meter hiervan bevinden.",
+      "explanation_ru": "Внешний край светоотражающей поверхности задних светоотражателей должен находиться как можно ближе к внешнему габариту транспортного средства и, во всяком случае, на расстоянии не более 0,40 метра от него."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous attachez une bâche sur votre véhicule à traction animale, mais elle recouvre partiellement les catadioptres arrière. Que devez-vous faire ?",
+      "text_nl": "U bevestigt een zeil op uw bespannen voertuig, maar dit bedekt gedeeltelijk de achterste reflectoren. Wat moet u doen?",
+      "text_ru": "Вы прикрепляете тент к своему транспортному средству, запряженному животными, но он частично закрывает задние светоотражатели. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An animal-drawn cart with a tarp partially covering a red triangular reflector."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer votre route, cela n'a pas d'importance si les catadioptres sont légèrement cachés.",
+          "text_nl": "Doorrijden, het maakt niet uit als de reflectoren een beetje verborgen zijn.",
+          "text_ru": "Продолжать движение, неважно, если светоотражатели немного скрыты.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réajuster la bâche pour que les catadioptres soient parfaitement visibles et dégagés.",
+          "text_nl": "Het zeil aanpassen zodat de reflectoren perfect zichtbaar en vrij zijn.",
+          "text_ru": "Отрегулировать тент так, чтобы светоотражатели были идеально видны и свободны от препятствий.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ajouter des lumières supplémentaires sur le véhicule pour compenser.",
+          "text_nl": "Extra verlichting op het voertuig aanbrengen ter compensatie.",
+          "text_ru": "Добавить дополнительное освещение на транспортное средство для компенсации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les catadioptres doivent être placés de manière qu'aucune partie du véhicule n'en réduise l'efficacité. Ils doivent être en tout temps parfaitement visibles et dégagés.",
+      "explanation_nl": "De reflectoren moeten zodanig geplaatst zijn dat geen enkel deel van het voertuig de doelmatigheid ervan vermindert. Zij moeten altijd duidelijk zichtbaar zijn en goed uitkomen.",
+      "explanation_ru": "Светоотражатели должны быть расположены таким образом, чтобы никакая часть транспортного средства не снижала их эффективность. Они всегда должны быть идеально видны и свободны от препятствий."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "2bfa49ea0a7f",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:14:38Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

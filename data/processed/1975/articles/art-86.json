@@ -26,7 +26,230 @@
   "anchor_id_fr": "uwntpyseyh",
   "anchor_id_nl": "amlqumsyf7",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le terme utilisé pour désigner la date à partir de laquelle un ensemble de règles devient officiellement applicable et doit être respecté par tous ?",
+      "text_nl": "Welke term wordt gebruikt om de datum aan te duiden vanaf wanneer een geheel van regels officieel van toepassing wordt en door iedereen nageleefd moet worden?",
+      "text_ru": "Какой термин используется для обозначения даты, с которой набор правил становится официально применимым и должен соблюдаться всеми?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Date de publication",
+          "text_nl": "Publicatiedatum",
+          "text_ru": "Дата публикации",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Date de mise en vigueur",
+          "text_nl": "Datum van inwerkingtreding",
+          "text_ru": "Дата вступления в силу",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Date d'adoption",
+          "text_nl": "Datum van goedkeuring",
+          "text_ru": "Дата принятия",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La 'date de mise en vigueur' est le moment où un texte légal commence à produire ses effets et devient obligatoire.",
+      "explanation_nl": "De 'datum van inwerkingtreding' is het moment waarop een wettekst zijn effecten begint te sorteren en verplicht wordt.",
+      "explanation_ru": "«Дата вступления в силу» — это момент, когда правовой текст начинает действовать и становится обязательным."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie le fait qu'une règle spécifique 'entre en vigueur' à une date ultérieure par rapport à l'ensemble des règles ?",
+      "text_nl": "Wat betekent het feit dat een specifieke regel 'in werking treedt' op een latere datum dan het geheel van de regels?",
+      "text_ru": "Что означает тот факт, что конкретное правило «вступает в силу» позднее, чем остальные правила?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle est moins importante que les autres règles.",
+          "text_nl": "Het is minder belangrijk dan de andere regels.",
+          "text_ru": "Оно менее важно, чем другие правила.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle est appliquée avec un délai pour permettre aux usagers de s'y conformer ou aux autorités de se préparer.",
+          "text_nl": "Het wordt met een vertraging toegepast om gebruikers de tijd te geven zich eraan te conformeren of om autoriteiten zich voor te bereiden.",
+          "text_ru": "Оно применяется с задержкой, чтобы пользователи могли приспособиться к нему или чтобы власти могли подготовиться.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle ne s'applique qu'à certaines catégories de conducteurs.",
+          "text_nl": "Het is alleen van toepassing op bepaalde categorieën bestuurders.",
+          "text_ru": "Оно применяется только к определенным категориям водителей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une date d'entrée en vigueur ultérieure permet aux personnes concernées de s'adapter aux nouvelles exigences, par exemple en achetant de nouveaux équipements ou en changeant leurs habitudes.",
+      "explanation_nl": "Een latere datum van inwerkingtreding geeft de betrokkenen de tijd om zich aan de nieuwe eisen aan te passen, bijvoorbeeld door nieuwe uitrusting aan te schaffen of hun gewoontes te veranderen.",
+      "explanation_ru": "Более поздняя дата вступления в силу дает заинтересованным сторонам время на адаптацию к новым требованиям, например, путем приобретения нового оборудования или изменения своих привычек."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans le contexte de la réglementation routière, que signifie l'expression 'catadioptres' ?",
+      "text_nl": "Wat betekent de uitdrukking 'reflectoren' in de context van verkeersreglementen?",
+      "text_ru": "В контексте правил дорожного движения, что означает выражение «катафоты»?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Catadioptres sur un vélo"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des feux clignotants installés sur les véhicules.",
+          "text_nl": "Knipperlichten geïnstalleerd op voertuigen.",
+          "text_ru": "Мигающие огни, установленные на транспортных средствах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des dispositifs réfléchissants la lumière pour rendre un véhicule plus visible.",
+          "text_nl": "Licht reflecterende apparaten om een voertuig beter zichtbaar te maken.",
+          "text_ru": "Светоотражающие устройства, делающие транспортное средство более заметным.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des rétroviseurs obligatoires pour tous les véhicules.",
+          "text_nl": "Verplichte achteruitkijkspiegels voor alle voertuigen.",
+          "text_ru": "Обязательные зеркала заднего вида для всех транспортных средств.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les catadioptres sont des éléments qui ne produisent pas de lumière eux-mêmes mais réfléchissent la lumière des phares des autres véhicules, augmentant ainsi la visibilité du véhicule porteur.",
+      "explanation_nl": "Reflectoren zijn elementen die zelf geen licht produceren, maar het licht van koplampen van andere voertuigen reflecteren, waardoor de zichtbaarheid van het voertuig toeneemt.",
+      "explanation_ru": "Катафоты — это элементы, которые сами не излучают свет, но отражают свет фар других транспортных средств, увеличивая видимость транспортного средства."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un cyclomoteur. À partir de quelle date devriez-vous, en tant que conducteur ou passager, vous conformer à une règle spécifique concernant les cyclomoteurs qui est entrée en vigueur avec un délai ?",
+      "text_nl": "U rijdt met een bromfiets. Vanaf welke datum moest u, als bestuurder of passagier, voldoen aan een specifieke regel betreffende bromfietsen die met vertraging in werking trad?",
+      "text_ru": "Вы управляете мопедом. С какой даты вы, как водитель или пассажир, должны были соблюдать конкретное правило, касающееся мопедов, которое вступило в силу с задержкой?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Un cyclomoteur avec un conducteur et un passager"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le 1er mai 1976.",
+          "text_nl": "1 mei 1976.",
+          "text_ru": "1 мая 1976 г.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le 1er octobre 1976.",
+          "text_nl": "1 oktober 1976.",
+          "text_ru": "1 октября 1976 г.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le 1er janvier 1978.",
+          "text_nl": "1 januari 1978.",
+          "text_ru": "1 января 1978 g.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Certaines règles concernant les conducteurs et passagers de cyclomoteurs sont entrées en vigueur le 1er octobre 1976, soit plus tard que la date générale de mise en vigueur.",
+      "explanation_nl": "Sommige regels betreffende bestuurders en passagiers van bromfietsen traden op 1 oktober 1976 in werking, later dan de algemene datum van inwerkingtreding.",
+      "explanation_ru": "Некоторые правила, касающиеся водителей и пассажиров мопедов, вступили в силу 1 октября 1976 года, то есть позже общей даты вступления в силу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous utilisez un vélo. À partir de quelle date était-il obligatoire d'équiper votre vélo de catadioptres à l'avant et sur les pédales en permanence ?",
+      "text_nl": "U gebruikt een fiets. Vanaf welke datum was het verplicht om uw fiets permanent uit te rusten met reflectoren vooraan en op de pedalen?",
+      "text_ru": "Вы используете велосипед. С какой даты стало обязательным постоянно оснащать ваш велосипед светоотражателями спереди и на педалях?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Un vélo avec des catadioptres à l'avant et sur les pédales"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le 1er mai 1976.",
+          "text_nl": "1 mei 1976.",
+          "text_ru": "1 мая 1976 г.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le 1er octobre 1976.",
+          "text_nl": "1 oktober 1976.",
+          "text_ru": "1 октября 1976 г.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le 1er janvier 1978.",
+          "text_nl": "1 januari 1978.",
+          "text_ru": "1 января 1978 г.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'obligation d'équiper les cycles de catadioptres à l'avant et sur les pédales est entrée en vigueur le 1er janvier 1978, afin de donner le temps aux cyclistes de se conformer.",
+      "explanation_nl": "De verplichting om rijwielen uit te rusten met reflectoren vooraan en op de pedalen trad op 1 januari 1978 in werking, om fietsers de tijd te geven zich eraan te conformeren.",
+      "explanation_ru": "Обязанность оснащать велосипеды светоотражателями спереди и на педалях вступила в силу 1 января 1978 года, чтобы дать велосипедистам время на соблюдение правил."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Imaginez qu'une règle particulière soit entrée en vigueur le jour même de sa publication. Que cela implique-t-il pour les usagers de la route ?",
+      "text_nl": "Stel u voor dat een bepaalde regel op de dag van publicatie in werking trad. Wat betekent dit voor weggebruikers?",
+      "text_ru": "Представьте, что конкретное правило вступило в силу в день его публикации. Что это означает для участников дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils ont eu un délai prolongé pour s'y préparer.",
+          "text_nl": "Ze hadden een langere periode om zich voor te bereiden.",
+          "text_ru": "У них был увеличенный срок для подготовки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils devaient l'appliquer immédiatement, sans période de transition.",
+          "text_nl": "Ze moesten het onmiddellijk toepassen, zonder overgangsperiode.",
+          "text_ru": "Они должны были применять его немедленно, без переходного периода.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La règle ne concernait que les nouvelles immatriculations de véhicules.",
+          "text_nl": "De regel betrof alleen nieuwe voertuigregistraties.",
+          "text_ru": "Правило касалось только новой регистрации транспортных средств.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'une règle entre en vigueur le jour de sa publication, cela signifie qu'elle est immédiatement applicable, sans délai pour la mise en conformité.",
+      "explanation_nl": "Wanneer een regel op de dag van publicatie in werking treedt, betekent dit dat deze onmiddellijk van toepassing is, zonder wachttijd voor conformiteit.",
+      "explanation_ru": "Когда правило вступает в силу в день его публикации, это означает, что оно применяется немедленно, без задержек для соблюдения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "849c42384dfb",
@@ -36,6 +259,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:15:52Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 6
   }
 }

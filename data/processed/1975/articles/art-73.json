@@ -35,7 +35,304 @@
   "anchor_id_fr": "ggo4hbemcf",
   "anchor_id_nl": "dbloagzkix",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le but principal des marques longitudinales provisoires de couleur orange sur la chaussée ?",
+      "text_nl": "Wat is het hoofddoel van oranje overlangse voorlopige markeringen op de rijbaan?",
+      "text_ru": "Каково основное назначение временной продольной разметки оранжевого цвета на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'une route avec des marques de chantier orange."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer un arrêt obligatoire pour les véhicules de chantier.",
+          "text_nl": "Een verplichte stop voor werfvoertuigen aangeven.",
+          "text_ru": "Обозначать обязательную остановку для строительной техники.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Canaliser la circulation à l'occasion de travaux.",
+          "text_nl": "Het verkeer kanaliseren ter gelegenheid van werken.",
+          "text_ru": "Направлять движение транспорта во время проведения работ.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Délimiter les emplacements de stationnement provisoires.",
+          "text_nl": "De tijdelijke parkeerplaatsen afbakenen.",
+          "text_ru": "Разграничивать временные парковочные места.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les marques longitudinales provisoires de couleur orange sont spécifiquement utilisées pour canaliser la circulation lors de travaux.",
+      "explanation_nl": "Oranje overlangse voorlopige markeringen worden specifiek gebruikt om het verkeer te kanaliseren tijdens werken.",
+      "explanation_ru": "Временная продольная разметка оранжевого цвета специально используется для направления движения транспорта во время проведения дорожных работ."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie une ligne continue de clous de couleur orange ?",
+      "text_nl": "Wat betekent een doorlopende lijn van oranje spijkers?",
+      "text_ru": "Что означает сплошная линия из оранжевых дорожных кнопок?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'une route avec une ligne continue de clous orange."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle indique une zone où le dépassement est autorisé avec prudence.",
+          "text_nl": "Het geeft een zone aan waar inhalen met voorzichtigheid is toegestaan.",
+          "text_ru": "Она обозначает зону, где обгон разрешен с осторожностью.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle a la même signification qu'une ligne continue blanche.",
+          "text_nl": "Het heeft dezelfde betekenis als een witte doorlopende streep.",
+          "text_ru": "Она имеет то же значение, что и сплошная белая линия.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle signale un danger imminent, sans rapport avec le dépassement.",
+          "text_nl": "Het signaleert een dreigend gevaar, zonder verband met inhalen.",
+          "text_ru": "Она сигнализирует о непосредственной опасности, не связанной с обгоном.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne continue de clous de couleur orange a la même signification qu'une ligne continue de couleur blanche, interdisant le franchissement.",
+      "explanation_nl": "Een doorlopende lijn van oranje spijkers heeft dezelfde betekenis als een witte doorlopende streep, die het overschrijden verbiedt.",
+      "explanation_ru": "Сплошная линия из оранжевых дорожных кнопок имеет то же значение, что и сплошная белая линия, запрещающая пересечение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'advient-il des marques longitudinales blanches préexistantes lorsque des marques provisoires orange sont présentes sur la chaussée ?",
+      "text_nl": "Wat gebeurt er met de reeds bestaande witte overlangse markeringen wanneer oranje voorlopige markeringen op de rijbaan aanwezig zijn?",
+      "text_ru": "Что происходит с существующей белой продольной разметкой, если на проезжей части присутствует временная оранжевая разметка?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'une route avec des lignes blanches effacées par des lignes orange."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont renforcées et leur signification est doublée.",
+          "text_nl": "Ze worden versterkt en hun betekenis wordt verdubbeld.",
+          "text_ru": "Они усиливаются, и их значение удваивается.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles restent valides et prévalent sur les marques orange.",
+          "text_nl": "Ze blijven geldig en prevaleren boven de oranje markeringen.",
+          "text_ru": "Они остаются действительными и имеют приоритет над оранжевой разметкой.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles sont rendues sans effet par les marques provisoires orange.",
+          "text_nl": "Ze worden waardeloos gemaakt door de oranje voorlopige markeringen.",
+          "text_ru": "Они становятся недействительными из-за временной оранжевой разметки.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les marques provisoires orange annulent la signification des autres marques longitudinales blanches tracées au même endroit.",
+      "explanation_nl": "De oranje voorlopige markeringen maken de andere witte overlangse markeringen die op dezelfde plaats zijn aangebracht waardeloos.",
+      "explanation_ru": "Временная оранжевая разметка отменяет значение других белых продольных разметок, нанесенных в том же месте."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une autoroute et vous approchez d'une zone de travaux. Vous observez des lignes discontinues de couleur orange sur la chaussée. Que devez-vous en déduire ?",
+      "text_nl": "U rijdt op een snelweg en nadert een werkzone. U ziet oranje onderbroken strepen op de rijbaan. Wat moet u hieruit afleiden?",
+      "text_ru": "Вы едете по шоссе и приближаетесь к зоне дорожных работ. Вы видите прерывистые линии оранжевого цвета на проезжей части. Что вы должны из этого понять?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'une autoroute avec des lignes discontinues orange indiquant des voies de circulation."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ces lignes indiquent une interdiction de changer de voie.",
+          "text_nl": "Deze strepen geven een verbod aan om van rijstrook te wisselen.",
+          "text_ru": "Эти линии указывают на запрет смены полосы движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez changer de voie en respectant les règles de prudence habituelles, comme avec une ligne discontinue blanche.",
+          "text_nl": "U mag van rijstrook wisselen met inachtneming van de gebruikelijke voorzichtigheidsregels, net als bij een witte onderbroken streep.",
+          "text_ru": "Вы можете менять полосу движения, соблюдая обычные правила предосторожности, как и при белой прерывистой линии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ces lignes signalent une sortie d'autoroute imminente.",
+          "text_nl": "Deze strepen signaleren een naderende snelwegafslag.",
+          "text_ru": "Эти линии сигнализируют о скором съезде с автомагистрали.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les lignes discontinues orange ont la même signification que les lignes discontinues blanches, autorisant le changement de voie sous réserve de prudence.",
+      "explanation_nl": "Oranje onderbroken strepen hebben dezelfde betekenis als witte onderbroken strepen, en laten het wisselen van rijstrook toe mits voorzichtigheid.",
+      "explanation_ru": "Прерывистые оранжевые линии имеют то же значение, что и прерывистые белые линии, разрешая смену полосы движения при условии соблюдения осторожности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez de nuit sur une route mal éclairée et vous voyez des groupes de clous orange régulièrement espacés, formant une ligne discontinue. Que vous indiquent-ils ?",
+      "text_nl": "U rijdt 's nachts op een slecht verlichte weg en u ziet groepen oranje spijkers die regelmatig van elkaar zijn geplaatst, een onderbroken lijn vormend. Wat vertellen deze u?",
+      "text_ru": "Вы едете ночью по плохо освещенной дороге и видите группы оранжевых дорожных кнопок, расположенных через равные промежутки, образующие прерывистую линию. Что они вам говорят?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'une route de nuit avec des clous orange formant une ligne discontinue."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est interdit de dépasser ou de franchir cette ligne, même si la visibilité est bonne.",
+          "text_nl": "Het is verboden deze lijn te overschrijden of in te halen, zelfs bij goed zicht.",
+          "text_ru": "Запрещено обгонять или пересекать эту линию, даже при хорошей видимости.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez dépasser ou franchir cette ligne, à condition de le faire en toute sécurité et conformément aux règles de circulation habituelles.",
+          "text_nl": "U mag deze lijn overschrijden of inhalen, op voorwaarde dat u dit veilig doet en in overeenstemming met de gebruikelijke verkeersregels.",
+          "text_ru": "Вы можете обгонять или пересекать эту линию, при условии, что вы делаете это безопасно и в соответствии с обычными правилами дорожного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ces clous indiquent un rétrécissement de la chaussée.",
+          "text_nl": "Deze spijkers duiden op een vernauwing van de rijbaan.",
+          "text_ru": "Эти дорожные кнопки указывают на сужение проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne discontinue de clous orange a la même signification qu'une ligne discontinue blanche : elle autorise le franchissement ou le dépassement avec prudence.",
+      "explanation_nl": "Een onderbroken lijn van oranje spijkers heeft dezelfde betekenis als een witte onderbroken streep: het laat het overschrijden of inhalen toe mits voorzichtigheid.",
+      "explanation_ru": "Прерывистая линия из оранжевых дорожных кнопок имеет то же значение, что и прерывистая белая линия: она разрешает пересечение или обгон с осторожностью."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous approchez d'un pont en travaux. La chaussée présente à la fois d'anciennes lignes blanches continues et de nouvelles lignes continues orange. Quelle est la règle à suivre ?",
+      "text_nl": "U nadert een brug waar werken plaatsvinden. De rijbaan vertoont zowel oude doorlopende witte strepen als nieuwe doorlopende oranje strepen. Wat is de te volgen regel?",
+      "text_ru": "Вы приближаетесь к ремонтируемому мосту. На проезжей части есть как старые сплошные белые линии, так и новые сплошные оранжевые линии. Какое правило следует соблюдать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'un pont en travaux avec des lignes blanches effacées et des lignes continues orange bien visibles."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les lignes blanches ayant été tracées en premier, elles prévalent toujours sur les lignes orange.",
+          "text_nl": "De witte strepen, die als eerste zijn aangebracht, prevaleren altijd boven de oranje strepen.",
+          "text_ru": "Поскольку белые линии были нанесены первыми, они всегда имеют приоритет над оранжевыми линиями.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez tenir compte des deux types de lignes et respecter la règle la plus restrictive.",
+          "text_nl": "U moet rekening houden met beide soorten strepen en de meest restrictieve regel volgen.",
+          "text_ru": "Вы должны учитывать оба типа линий и следовать наиболее ограничивающему правилу.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les lignes continues orange rendent les lignes blanches sans effet. Vous devez donc suivre les indications des lignes orange, qui interdisent le franchissement.",
+          "text_nl": "De doorlopende oranje strepen maken de witte strepen waardeloos. U moet dus de aanwijzingen van de oranje strepen volgen, die het overschrijden verbieden.",
+          "text_ru": "Сплошные оранжевые линии делают белые линии недействительными. Поэтому вы должны следовать указаниям оранжевых линий, которые запрещают пересечение.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les marques provisoires de couleur orange annulent les marques longitudinales blanches présentes au même endroit. Il faut donc suivre les lignes orange.",
+      "explanation_nl": "De oranje voorlopige markeringen maken de witte overlangse markeringen die op dezelfde plaats aanwezig zijn waardeloos. U moet dus de oranje lijnen volgen.",
+      "explanation_ru": "Временная разметка оранжевого цвета отменяет белую продольную разметку, присутствующую в том же месте. Поэтому следует следовать оранжевым линиям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "En arrivant à un carrefour réaménagé temporairement, vous observez des clous orange formant une ligne continue. Que vous indique cette ligne ?",
+      "text_nl": "Wanneer u een tijdelijk heringericht kruispunt nadert, ziet u oranje spijkers die een doorlopende lijn vormen. Wat geeft deze lijn u aan?",
+      "text_ru": "Приближаясь к временно перестроенному перекрестку, вы видите оранжевые дорожные кнопки, образующие сплошную линию. Что означает эта линия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'un carrefour en travaux avec une ligne continue de clous orange."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous êtes autorisé à traverser la ligne si la circulation le permet.",
+          "text_nl": "U mag de lijn overschrijden als het verkeer dit toelaat.",
+          "text_ru": "Вам разрешено пересекать линию, если позволяет движение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La ligne de clous orange a la même signification qu'une ligne continue blanche, vous interdisant de la franchir.",
+          "text_nl": "De lijn van oranje spijkers heeft dezelfde betekenis als een doorlopende witte streep, die u verbiedt deze te overschrijden.",
+          "text_ru": "Линия из оранжевых дорожных кнопок имеет то же значение, что и сплошная белая линия, запрещающая ее пересечение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle indique une zone de stationnement temporaire.",
+          "text_nl": "Het duidt een tijdelijke parkeerzone aan.",
+          "text_ru": "Она обозначает временную зону парковки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne continue de clous orange a la même signification qu'une ligne continue blanche, interdisant son franchissement.",
+      "explanation_nl": "Een doorlopende lijn van oranje spijkers heeft dezelfde betekenis als een doorlopende witte streep, en verbiedt het overschrijden ervan.",
+      "explanation_ru": "Сплошная линия из оранжевых дорожных кнопок имеет то же значение, что и сплошная белая линия, запрещающая ее пересечение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Lors d'un chantier sur une route secondaire, vous voyez que la chaussée est délimitée par des lignes orange (continues ou discontinues). Quelles informations ces lignes vous donnent-elles concernant les voies de circulation ?",
+      "text_nl": "Tijdens wegwerkzaamheden op een secundaire weg ziet u dat de rijbaan wordt afgebakend door oranje lijnen (doorlopend of onderbroken). Welke informatie geven deze lijnen u over de rijstroken?",
+      "text_ru": "Во время дорожных работ на второстепенной дороге вы видите, что проезжая часть разграничена оранжевыми линиями (сплошными или прерывистыми). Какую информацию эти линии дают вам относительно полос движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image d'une route secondaire avec des marques de voies temporaires orange."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles indiquent une déviation obligatoire pour tous les véhicules.",
+          "text_nl": "Ze duiden een verplichte omleiding aan voor alle voertuigen.",
+          "text_ru": "Они указывают на обязательный объезд для всех транспортных средств.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles définissent temporairement les limites des voies de circulation de la même manière que les lignes blanches habituelles.",
+          "text_nl": "Ze definiëren tijdelijk de grenzen van de rijstroken op dezelfde manier als de gebruikelijke witte lijnen.",
+          "text_ru": "Они временно определяют границы полос движения так же, как обычные белые линии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles signalent que la route est fermée et qu'il faut faire demi-tour.",
+          "text_nl": "Ze signaleren dat de weg afgesloten is en dat u moet omkeren.",
+          "text_ru": "Они сигнализируют о том, что дорога закрыта и нужно разворачиваться.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les lignes orange, qu'elles soient continues ou discontinues, ont la même signification que leurs homologues blanches pour délimiter et réguler les voies de circulation pendant les travaux.",
+      "explanation_nl": "De oranje lijnen, zowel doorlopend als onderbroken, hebben dezelfde betekenis als hun witte tegenhangers voor het afbakenen en regelen van de rijstroken tijdens de werken.",
+      "explanation_ru": "Оранжевые линии, будь то сплошные или прерывистые, имеют то же значение, что и их белые аналоги, для разграничения и регулирования полос движения во время дорожных работ."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "1314f66374fe",
@@ -45,6 +342,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:02:29Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

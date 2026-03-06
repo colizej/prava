@@ -60,7 +60,304 @@
   "anchor_id_fr": "ccbtfct3ms",
   "anchor_id_nl": "27luysiiz1",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom des flèches blanches tracées sur la chaussée à l'approche d'un carrefour, qui indiquent la voie à suivre pour une direction spécifique ?",
+      "text_nl": "Wat is de naam van de witte pijlen die op de rijbaan zijn aangebracht bij het naderen van een kruispunt, die de rijstrook aangeven die gevolgd moet worden voor een specifieke richting?",
+      "text_ru": "Как называются белые стрелки, нанесенные на проезжую часть при приближении к перекрестку, которые указывают полосу движения для определенного направления?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Flèches de sélection blanches sur la chaussée à l'approche d'un carrefour."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Flèches de rabattement",
+          "text_nl": "Rijstrookverminderingspijlen",
+          "text_ru": "Стрелки уменьшения полосы движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Flèches de sélection",
+          "text_nl": "Voorsorteringspijlen",
+          "text_ru": "Стрелки выбора полосы",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Flèches d'avertissement",
+          "text_nl": "Waarschuwingspijlen",
+          "text_ru": "Предупреждающие стрелки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les flèches blanches qui indiquent la voie à suivre à l'approche d'un carrefour sont appelées flèches de sélection.",
+      "explanation_nl": "De witte pijlen die de te volgen rijstrook aangeven bij het naderen van een kruispunt, worden voorsorteringspijlen genoemd.",
+      "explanation_ru": "Белые стрелки, указывающие полосу движения при приближении к перекрестку, называются стрелками выбора полосы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie la présence de flèches de rabattement de couleur blanche sur la chaussée ?",
+      "text_nl": "Wat betekent de aanwezigheid van witte rijstrookverminderingspijlen op de rijbaan?",
+      "text_ru": "Что означает наличие белых стрелок уменьшения полосы движения на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Flèches de rabattement blanches sur la chaussée."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une augmentation du nombre de voies de circulation",
+          "text_nl": "Een toename van het aantal rijstroken",
+          "text_ru": "Увеличение количества полос движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un rétrécissement de la route",
+          "text_nl": "Een versmalling van de weg",
+          "text_ru": "Сужение дороги",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une réduction du nombre de bandes de circulation disponibles dans votre sens",
+          "text_nl": "Een vermindering van het aantal beschikbare rijstroken in uw rijrichting",
+          "text_ru": "Уменьшение количества доступных полос движения в вашем направлении",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les flèches de rabattement annoncent la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi.",
+      "explanation_nl": "Rijstrookverminderingspijlen kondigen een vermindering aan van het aantal rijstroken dat in de gevolgde richting mag worden gebruikt.",
+      "explanation_ru": "Стрелки уменьшения полосы движения указывают на уменьшение количества полос движения, которые могут быть использованы в вашем направлении."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "À quoi servent les îlots directionnels et les zones d'évitement marqués par des lignes parallèles obliques de couleur blanche ?",
+      "text_nl": "Waarvoor dienen verkeersgeleiders en verdrijvingsvlakken die zijn aangegeven met witte parallelle schuine strepen?",
+      "text_ru": "Для чего предназначены направляющие островки и зоны избегания, обозначенные белыми параллельными наклонными линиями?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Îlots directionnels et zones d'évitement avec lignes parallèles obliques blanches."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ce sont des zones réservées au stationnement d'urgence",
+          "text_nl": "Dit zijn zones gereserveerd voor noodparkeren",
+          "text_ru": "Это зоны, зарезервированные для аварийной парковки",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ce sont des zones où la circulation, l'arrêt et le stationnement sont interdits",
+          "text_nl": "Dit zijn zones waar rijden, stilstaan en parkeren verboden zijn",
+          "text_ru": "Это зоны, где движение, остановка и стоянка запрещены",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ce sont des zones de refuge pour les piétons",
+          "text_nl": "Dit zijn schuilplaatsen voor voetgangers",
+          "text_ru": "Это зоны убежища для пешеходов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conducteurs ne peuvent pas circuler, ni s'arrêter ni stationner sur les îlots directionnels et les zones d'évitement.",
+      "explanation_nl": "Bestuurders mogen niet rijden, stilstaan of parkeren op verkeersgeleiders en verdrijvingsvlakken.",
+      "explanation_ru": "Водителям запрещено двигаться, останавливаться или парковаться на направляющих островках и зонах избегания."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous arrivez à un carrefour et vous voyez des flèches blanches au sol indiquant différentes directions sur chaque voie. Vous êtes sur la voie avec une flèche qui pointe tout droit et une autre qui pointe à gauche. Vous souhaitez tourner à droite. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en ziet witte pijlen op de grond die verschillende richtingen aangeven op elke rijstrook. U bevindt zich op de rijstrook met een pijl die rechtdoor wijst en een andere die naar links wijst. U wilt rechtsaf slaan. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрестку и видите на земле белые стрелки, указывающие разные направления на каждой полосе. Вы находитесь на полосе со стрелкой, указывающей прямо, и еще одной, указывающей налево. Вы хотите повернуть направо. Что вам следует делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Flèches de sélection sur la chaussée à un carrefour. Voie de gauche: flèche droit et gauche. Conducteur veut tourner à droite."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tourner à droite malgré l'indication des flèches",
+          "text_nl": "Rechtsaf slaan ondanks de aanwijzing van de pijlen",
+          "text_ru": "Повернуть направо, несмотря на указания стрелок",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Changer de voie si possible pour prendre la voie indiquant la direction à droite",
+          "text_nl": "Indien mogelijk van rijstrook wisselen naar de rijstrook die de richting naar rechts aangeeft",
+          "text_ru": "По возможности сменить полосу движения на ту, которая указывает направление направо",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer tout droit ou tourner à gauche, car ce sont les seules directions autorisées depuis cette voie",
+          "text_nl": "Rechtdoor rijden of linksaf slaan, aangezien dit de enige toegestane richtingen zijn vanaf deze rijstrook",
+          "text_ru": "Продолжить движение прямо или повернуть налево, так как это единственные разрешенные направления с этой полосы",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez suivre la ou une des directions indiquées sur la bande de circulation dans laquelle vous vous trouvez. Si vous souhaitez tourner à droite, vous devez vous placer sur la voie appropriée avant le carrefour.",
+      "explanation_nl": "U moet de of één van de richtingen volgen die zijn aangegeven op de rijstrook waarin u zich bevindt. Als u rechtsaf wilt slaan, moet u zich voor het kruispunt op de juiste rijstrook plaatsen.",
+      "explanation_ru": "Вы должны следовать одному из направлений, указанных на полосе движения, на которой вы находитесь. Если вы хотите повернуть направо, вы должны занять соответствующую полосу перед перекрестком."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une route et vous voyez une ligne discontinue annonçant une ligne continue, complétée par des flèches de rabattement. Que devez-vous comprendre de cette situation ?",
+      "text_nl": "U rijdt op een weg en u ziet een onderbroken streep die een doorlopende streep aankondigt, aangevuld met rijstrookverminderingspijlen. Wat moet u uit deze situatie afleiden?",
+      "text_ru": "Вы едете по дороге и видите прерывистую линию, предваряющую сплошную линию, дополненную стрелками уменьшения полосы движения. Что вы должны понять из этой ситуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Ligne discontinue annonçant une ligne continue, avec flèches de rabattement."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La voie sur laquelle vous vous trouvez va se terminer et vous devrez changer de voie",
+          "text_nl": "De rijstrook waarop u zich bevindt, zal eindigen en u zult van rijstrook moeten wisselen",
+          "text_ru": "Полоса, на которой вы находитесь, скоро закончится, и вам придется перестроиться",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez dépasser les véhicules plus lentement en toute sécurité",
+          "text_nl": "U kunt langzamere voertuigen veilig inhalen",
+          "text_ru": "Вы можете безопасно обгонять более медленные транспортные средства",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La route va devenir une autoroute",
+          "text_nl": "De weg zal een snelweg worden",
+          "text_ru": "Дорога станет автомагистралью",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les flèches de rabattement annoncent une réduction du nombre de bandes de circulation. Cela signifie que votre voie risque de prendre fin ou de fusionner avec une autre, et qu'il faut se préparer à changer de voie si nécessaire.",
+      "explanation_nl": "Rijstrookverminderingspijlen kondigen een vermindering van het aantal rijstroken aan. Dit betekent dat uw rijstrook mogelijk zal eindigen of samenvloeien met een andere, en dat u zich moet voorbereiden om van rijstrook te wisselen indien nodig.",
+      "explanation_ru": "Стрелки уменьшения полосы движения указывают на сокращение количества полос. Это означает, что ваша полоса может закончиться или слиться с другой, и вам нужно быть готовым к смене полосы при необходимости."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez et vous apercevez des inscriptions blanches sur la chaussée qui répètent des indications données par des panneaux routiers. Quelle est la valeur de ces inscriptions par rapport aux panneaux ?",
+      "text_nl": "U rijdt en u ziet witte opschriften op de rijbaan die aanwijzingen herhalen die door verkeersborden zijn gegeven. Wat is de waarde van deze opschriften ten opzichte van de borden?",
+      "text_ru": "Вы едете и видите белые надписи на проезжей части, которые повторяют указания дорожных знаков. Какова ценность этих надписей по сравнению со знаками?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Inscriptions blanches sur la chaussée, répétant des indications de panneaux."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles n'ont aucune valeur légale, seuls les panneaux comptent",
+          "text_nl": "Ze hebben geen wettelijke waarde, alleen de borden tellen",
+          "text_ru": "Они не имеют юридической силы, только знаки имеют значение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles renforcent l'indication des panneaux et doivent être respectées au même titre",
+          "text_nl": "Ze versterken de aanwijzing van de borden en moeten op dezelfde manier worden gerespecteerd",
+          "text_ru": "Они усиливают указания знаков и должны соблюдаться в той же мере",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles sont purement informatives et peuvent être ignorées si les panneaux sont clairs",
+          "text_nl": "Ze zijn puur informatief en kunnen genegeerd worden als de borden duidelijk zijn",
+          "text_ru": "Они носят чисто информационный характер и могут быть проигнорированы, если знаки ясны",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les inscriptions de couleur blanche sur la chaussée peuvent répéter les indications données par des signaux routiers, elles ont donc la même valeur que les panneaux qu'elles répètent et doivent être respectées.",
+      "explanation_nl": "Witte opschriften op de rijbaan mogen de door verkeersborden gegeven aanwijzingen herhalen, dus ze hebben dezelfde waarde als de borden die ze herhalen en moeten worden gerespecteerd.",
+      "explanation_ru": "Белые надписи на проезжей части могут повторять указания дорожных знаков, поэтому они имеют ту же силу, что и знаки, которые они повторяют, и должны соблюдаться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous arrêtez à un feu rouge et vous voyez devant vous une zone délimitée par deux lignes d'arrêt avec le symbole d'une bicyclette en blanc. Que devez-vous faire en tant que conducteur de voiture ?",
+      "text_nl": "U stopt voor een rood licht en u ziet voor u een zone afgebakend door twee stopstrepen met het symbool van een fiets in het wit. Wat moet u doen als automobilist?",
+      "text_ru": "Вы останавливаетесь на красный свет и видите перед собой зону, ограниченную двумя стоп-линиями с символом велосипеда белого цвета. Что вы должны делать как водитель автомобиля?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Zone avancée pour cyclistes et conducteurs de cyclomoteurs à deux roues à un feu rouge."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez vous arrêter dans cette zone si aucun cycliste n'est présent",
+          "text_nl": "U mag in deze zone stoppen als er geen fietsers aanwezig zijn",
+          "text_ru": "Вы можете остановиться в этой зоне, если нет велосипедистов",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez vous arrêter devant la première ligne d'arrêt, laissant la zone libre pour les cyclistes et cyclomoteurs",
+          "text_nl": "U moet stoppen voor de eerste stopstreep en de zone vrijlaten voor fietsers en bromfietsen",
+          "text_ru": "Вы должны остановиться перед первой стоп-линией, оставив зону свободной для велосипедистов и мопедов",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez avancer jusqu'à la deuxième ligne d'arrêt si vous tournez à droite",
+          "text_nl": "U mag doorrijden tot de tweede stopstreep als u rechtsaf slaat",
+          "text_ru": "Вы можете проехать до второй стоп-линии, если поворачиваете направо",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pendant la phase rouge des signaux lumineux de circulation, les autres conducteurs doivent s'arrêter devant la première ligne d'arrêt, laissant la zone avancée libre pour les cyclistes et conducteurs de cyclomoteurs à deux roues.",
+      "explanation_nl": "Tijdens de rode fase van de verkeerslichten moeten de andere bestuurders stoppen voor de eerste stopstreep, waardoor het opstelvak vrij blijft voor fietsers en bestuurders van tweewielige bromfietsen.",
+      "explanation_ru": "Во время красного сигнала светофора другие водители должны остановиться перед первой стоп-линией, оставляя расширенную зону свободной для велосипедистов и водителей двухколесных мопедов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous approchez d'un carrefour et vous voyez des bandes de sélection délimitées par des lignes continues blanches avec le symbole d'une bicyclette et une flèche de direction. Vous conduisez un cyclomoteur à deux roues. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en u ziet voorsorteringsstroken afgebakend door witte doorlopende strepen met het symbool van een fiets en een richtingpijl. U rijdt op een tweewielige bromfiets. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрестку и видите полосы выбора, обозначенные сплошными белыми линиями с символом велосипеда и стрелкой направления. Вы управляете двухколесным мопедом. Что вам следует делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Bandes de sélection pour cyclistes et conducteurs de cyclomoteurs à deux roues à l'approche d'un carrefour."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Utiliser ces bandes uniquement si vous êtes à vélo",
+          "text_nl": "Deze stroken alleen gebruiken als u op de fiets bent",
+          "text_ru": "Использовать эти полосы только если вы на велосипеде",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Utiliser ces bandes pour vous positionner en fonction de la direction souhaitée, car elles sont réservées aux cyclistes et conducteurs de cyclomoteurs à deux roues",
+          "text_nl": "Deze stroken gebruiken om u te positioneren volgens de gewenste richting, aangezien ze gereserveerd zijn voor fietsers en bestuurders van tweewielige bromfietsen",
+          "text_ru": "Использовать эти полосы для выбора положения в соответствии с желаемым направлением, так как они зарезервированы для велосипедистов и водителей двухколесных мопедов",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Rester sur la voie de droite avec les autres véhicules motorisés",
+          "text_nl": "Op de rechterrijstrook blijven bij de andere gemotoriseerde voertuigen",
+          "text_ru": "Оставаться на правой полосе с другими моторизованными транспортными средствами",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les bandes de sélection délimitées par des lignes continues blanches avec le symbole de la bicyclette et la flèche sont réservées aux cyclistes et conducteurs de cyclomoteurs à deux roues pour qu'ils puissent se positionner à l'approche du carrefour.",
+      "explanation_nl": "De voorsorteringsstroken afgebakend door witte doorlopende strepen met het symbool van de fiets en de pijl zijn gereserveerd voor fietsers en bestuurders van tweewielige bromfietsen om zich te positioneren bij het naderen van het kruispunt.",
+      "explanation_ru": "Полосы выбора, обозначенные сплошными белыми линиями с символом велосипеда и стрелкой, зарезервированы для велосипедистов и водителей двухколесных мопедов, чтобы они могли занять нужное положение при приближении к перекрестку."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "a7f081a75f39",
@@ -70,6 +367,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:09:56Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

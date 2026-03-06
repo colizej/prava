@@ -26,7 +26,304 @@
   "anchor_id_fr": "qrrpwmcb3m",
   "anchor_id_nl": "drp9bdyz2h",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel type de dispositif peut être utilisé pour signaler les bords de la voie publique ou de la chaussée ?",
+      "text_nl": "Welk type apparaat kan gebruikt worden om de randen van de openbare weg of de rijbaan te markeren?",
+      "text_ru": "Какое устройство может использоваться для обозначения краев дороги или проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of road reflectors on the side of a road, with red/orange on the right and white on the left, viewed from a car's perspective."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des bornes kilométriques uniquement.",
+          "text_nl": "Enkel kilometerpalen.",
+          "text_ru": "Только километровые столбы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des dispositifs rétroréfléchissants.",
+          "text_nl": "Reflectoren.",
+          "text_ru": "Светоотражающие устройства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des feux de signalisation clignotants.",
+          "text_nl": "Knipperende verkeerslichten.",
+          "text_ru": "Мигающие светофоры.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les bords de la voie publique ou de la chaussée peuvent être signalés par des dispositifs rétroréfléchissants.",
+      "explanation_nl": "De randen van de openbare weg of van de rijbaan mogen gesignaleerd worden door reflectoren.",
+      "explanation_ru": "Края дороги или проезжей части могут быть обозначены светоотражающими устройствами."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la fonction principale des dispositifs rétroréfléchissants placés le long de la voie publique ?",
+      "text_nl": "Wat is de hoofdfunctie van reflectoren langs de openbare weg?",
+      "text_ru": "Какова основная функция светоотражающих устройств, расположенных вдоль дороги?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a dark road at night, with clearly visible road reflectors guiding the path."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer la direction vers une ville proche.",
+          "text_nl": "De richting naar een nabijgelegen stad aangeven.",
+          "text_ru": "Указывать направление к ближайшему городу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Mesurer la vitesse des véhicules.",
+          "text_nl": "De snelheid van voertuigen meten.",
+          "text_ru": "Измерять скорость транспортных средств.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signaler les bords de la voie publique ou de la chaussée.",
+          "text_nl": "De randen van de openbare weg of van de rijbaan signaleren.",
+          "text_ru": "Обозначать края дороги или проезжей части.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Ces dispositifs sont utilisés pour signaler les bords de la voie publique ou de la chaussée, augmentant ainsi la visibilité pour les usagers.",
+      "explanation_nl": "Deze reflectoren worden gebruikt om de randen van de openbare weg of van de rijbaan te signaleren, wat de zichtbaarheid voor de weggebruikers verhoogt.",
+      "explanation_ru": "Эти устройства используются для обозначения краев дороги или проезжей части, улучшая видимость для участников дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelle situation les dispositifs rétroréfléchissants sont-ils particulièrement utiles ?",
+      "text_nl": "In welke situatie zijn reflectoren bijzonder nuttig?",
+      "text_ru": "В какой ситуации светоотражающие устройства особенно полезны?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a car driving on a rural road at night, with only the car's headlights and road reflectors visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "En plein jour, par temps ensoleillé.",
+          "text_nl": "Overdag, bij zonnig weer.",
+          "text_ru": "Днем, в солнечную погоду.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La nuit ou par faible visibilité, pour délimiter la route.",
+          "text_nl": "Nacht of bij slecht zicht, om de weg af te bakenen.",
+          "text_ru": "Ночью или при плохой видимости, для обозначения дороги.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement sur les autoroutes.",
+          "text_nl": "Enkel op autosnelwegen.",
+          "text_ru": "Только на автомагистралях.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dispositifs rétroréfléchissants sont conçus pour réfléchir la lumière et sont donc particulièrement utiles la nuit ou par faible visibilité pour aider les conducteurs à voir les bords de la route.",
+      "explanation_nl": "Reflectoren zijn ontworpen om licht te reflecteren en zijn daarom bijzonder nuttig 's nachts of bij slecht zicht om bestuurders te helpen de randen van de weg te zien.",
+      "explanation_ru": "Светоотражающие устройства предназначены для отражения света и поэтому особенно полезны ночью или при плохой видимости, чтобы помочь водителям видеть края дороги."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez de nuit sur une route inconnue. Quels dispositifs de balisage vous aideront à distinguer le bord droit de la chaussée ?",
+      "text_nl": "U rijdt 's nachts op een onbekende weg. Welke signaleringsapparaten helpen u de rechterrand van de rijbaan te onderscheiden?",
+      "text_ru": "Вы едете ночью по незнакомой дороге. Какие устройства обозначения помогут вам отличить правый край проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a car's perspective on a dark road at night, with red/orange reflectors clearly visible on the right side."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les dispositifs de couleur blanche.",
+          "text_nl": "De witte reflectoren.",
+          "text_ru": "Устройства белого цвета.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les dispositifs de couleur rouge ou orange.",
+          "text_nl": "De rode of oranje reflectoren.",
+          "text_ru": "Устройства красного или оранжевого цвета.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les dispositifs de couleur bleue.",
+          "text_nl": "De blauwe reflectoren.",
+          "text_ru": "Устройства синего цвета.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les usagers doivent voir à leur droite uniquement les dispositifs de couleur rouge ou orange.",
+      "explanation_nl": "De weggebruikers zien aan hun rechterzijde slechts de rode of oranje reflectoren.",
+      "explanation_ru": "Участники дорожного движения должны видеть справа только устройства красного или оранжевого цвета."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez la nuit et voyez des dispositifs rétroréfléchissants blancs devant vous, sur le côté de la route. Qu'est-ce que cela indique concernant votre position ?",
+      "text_nl": "U rijdt 's nachts en ziet witte reflectoren voor u, aan de zijkant van de weg. Wat betekent dit voor uw positie?",
+      "text_ru": "Вы едете ночью и видите белые светоотражающие устройства перед собой, сбоку от дороги. Что это означает относительно вашего положения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a car's perspective on a dark road, showing white reflectors on the left side, indicating the left edge of the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous êtes trop près du bord droit de la chaussée.",
+          "text_nl": "U bent te dicht bij de rechterrand van de rijbaan.",
+          "text_ru": "Вы слишком близко к правому краю проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes bien positionné au milieu de la voie.",
+          "text_nl": "U bent goed gepositioneerd in het midden van de rijstrook.",
+          "text_ru": "Вы хорошо расположены посередине полосы.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les dispositifs blancs indiquent le bord gauche de votre voie de circulation.",
+          "text_nl": "De witte reflectoren duiden de linkerrand van uw rijstrook aan.",
+          "text_ru": "Белые устройства указывают на левый край вашей полосы движения.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les dispositifs de couleur blanche sont placés de manière à ce que les usagers les voient à leur gauche, indiquant le bord gauche de la chaussée ou de la voie de circulation.",
+      "explanation_nl": "De witte reflectoren zijn zodanig geplaatst dat de weggebruikers deze aan hun linkerzijde zien, wat de linkerrand van de rijbaan of rijstrook aangeeft.",
+      "explanation_ru": "Устройства белого цвета расположены таким образом, чтобы участники дорожного движения видели их слева, обозначая левый край проезжей части или полосы движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une route de campagne non éclairée et observez des dispositifs rétroréfléchissants oranges sur votre droite. Que pouvez-vous en déduire ?",
+      "text_nl": "U rijdt op een onverlichte landweg en ziet oranje reflectoren aan uw rechterkant. Wat kunt u hieruit afleiden?",
+      "text_ru": "Вы едете по неосвещенной сельской дороге и видите оранжевые светоотражающие устройства справа. Что вы можете из этого заключить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a car's perspective on a dark, winding rural road, with orange reflectors visible on the right side, indicating the edge of the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous êtes en train de quitter la voie publique.",
+          "text_nl": "U verlaat de openbare weg.",
+          "text_ru": "Вы покидаете дорогу общего пользования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous suivez correctement le bord droit de la chaussée.",
+          "text_nl": "U volgt correct de rechterrand van de rijbaan.",
+          "text_ru": "Вы правильно следуете правому краю проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il y a un danger imminent sur votre gauche.",
+          "text_nl": "Er is een dreigend gevaar aan uw linkerzijde.",
+          "text_ru": "Слева от вас есть непосредственная опасность.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dispositifs de couleur rouge ou orange sont placés pour signaler le bord droit de la voie publique ou de la chaussée.",
+      "explanation_nl": "De rode of oranje reflectoren zijn geplaatst om de rechterrand van de openbare weg of van de rijbaan te signaleren.",
+      "explanation_ru": "Устройства красного или оранжевого цвета размещены для обозначения правого края дороги или проезжей части."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "En conduisant la nuit, vous voyez des dispositifs réfléchissants blancs à votre gauche et des dispositifs rouges à votre droite. Quelle est la signification de cette disposition des dispositifs ?",
+      "text_nl": "Als u 's nachts rijdt, ziet u witte reflectoren aan uw linkerzijde en rode reflectoren aan uw rechterzijde. Wat is de betekenis van deze opstelling van de reflectoren?",
+      "text_ru": "При движении ночью вы видите белые светоотражающие устройства слева и красные устройства справа. Каково значение такого расположения устройств?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image from a car's perspective on a dark road, with white reflectors on the left and red reflectors on the right, clearly defining the lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous êtes sur une voie à sens unique et vous roulez dans la bonne direction.",
+          "text_nl": "U bevindt zich op een eenrichtingsweg en rijdt in de juiste richting.",
+          "text_ru": "Вы находитесь на односторонней дороге и движетесь в правильном направлении.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes sur le point de changer de voie.",
+          "text_nl": "U staat op het punt van rijstrook te wisselen.",
+          "text_ru": "Вы собираетесь сменить полосу движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous roulez en sens inverse sur une autoroute.",
+          "text_nl": "U rijdt tegen het verkeer in op een snelweg.",
+          "text_ru": "Вы едете против движения по автомагистрали.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Cette disposition des couleurs (blanc à gauche, rouge/orange à droite) est la norme et indique que vous suivez correctement la direction de la circulation sur la voie publique.",
+      "explanation_nl": "Deze kleurenopstelling (wit links, rood/oranje rechts) is de norm en geeft aan dat u correct de rijrichting op de openbare weg volgt.",
+      "explanation_ru": "Такое расположение цветов (белый слева, красный/оранжевый справа) является нормой и указывает на то, что вы правильно следуете направлению движения по дороге общего пользования."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Par temps de brouillard intense, la visibilité est très réduite. En vous fiant aux dispositifs rétroréfléchissants sur le bas-côté, quelle est la couleur que vous devriez voir constamment à votre gauche pour rester en sécurité sur la chaussée ?",
+      "text_nl": "Bij dichte mist is het zicht erg beperkt. Als u vertrouwt op de reflectoren langs de weg, welke kleur zou u dan constant aan uw linkerzijde moeten zien om veilig op de rijbaan te blijven?",
+      "text_ru": "В условиях сильного тумана видимость очень низкая. Полагаясь на светоотражающие устройства на обочине, какого цвета устройства вы должны постоянно видеть слева, чтобы безопасно оставаться на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a car driving in very thick fog at night, with only the car's headlights barely illuminating white reflectors on the left side of the road, and red/orange on the right."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rouge ou orange.",
+          "text_nl": "Rood of oranje.",
+          "text_ru": "Красный или оранжевый.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Blanc.",
+          "text_nl": "Wit.",
+          "text_ru": "Белый.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vert.",
+          "text_nl": "Groen.",
+          "text_ru": "Зеленый.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les usagers ne doivent voir à leur gauche que les dispositifs de couleur blanche. Les dispositifs rouges ou oranges seraient à votre droite.",
+      "explanation_nl": "De weggebruikers zien aan hun linkerzijde slechts de witte reflectoren. De rode of oranje reflectoren zouden zich aan uw rechterzijde bevinden.",
+      "explanation_ru": "Участники дорожного движения должны видеть слева только устройства белого цвета. Красные или оранжевые устройства находились бы справа от вас."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "f63ae086f32b",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:10:51Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

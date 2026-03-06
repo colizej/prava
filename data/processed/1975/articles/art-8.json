@@ -31,7 +31,304 @@
   "anchor_id_fr": "9sx4xikbzk",
   "anchor_id_nl": "sfvlohcrn2",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le principe fondamental concernant la présence d'un conducteur pour tout véhicule en mouvement ?",
+      "text_nl": "Wat is het fundamentele principe betreffende de aanwezigheid van een bestuurder voor elk voertuig in beweging?",
+      "text_ru": "Каков основной принцип в отношении наличия водителя для любого движущегося транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seuls les véhicules motorisés nécessitent un conducteur.",
+          "text_nl": "Alleen gemotoriseerde voertuigen hebben een bestuurder nodig.",
+          "text_ru": "Только моторизованные транспортные средства требуют водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Tout véhicule ou train de véhicules en mouvement, ainsi que les animaux de trait, de charge ou de monture et les bestiaux, doivent avoir un conducteur.",
+          "text_nl": "Elk voertuig of elke sleep in beweging, alsook trek-, last- of rijdieren en vee, moeten een bestuurder hebben.",
+          "text_ru": "Любое движущееся транспортное средство или состав, а также упряжные, вьючные или верховые животные и скот, должны иметь водителя.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un conducteur n'est obligatoire que sur les voies publiques.",
+          "text_nl": "Een bestuurder is alleen verplicht op de openbare weg.",
+          "text_ru": "Водитель обязателен только на дорогах общего пользования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 8.1 stipule que tout véhicule ou train de véhicules en mouvement doit avoir un conducteur, ce qui inclut également les animaux.",
+      "explanation_nl": "Artikel 8.1 stelt dat elk voertuig of elke sleep in beweging een bestuurder moet hebben, wat ook dieren omvat.",
+      "explanation_ru": "Пункт 8.1 гласит, что любое движущееся транспортное средство или состав должны иметь водителя, включая животных."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon les règles générales, quel est l'âge minimal requis pour la plupart des conducteurs d'autres véhicules à moteur, à l'exception de catégories spécifiques comme les cyclomoteurs ou les gros véhicules ?",
+      "text_nl": "Wat is volgens de algemene regels de minimale leeftijd die vereist is voor de meeste bestuurders van andere motorvoertuigen, met uitzondering van specifieke categorieën zoals bromfietsen of zware voertuigen?",
+      "text_ru": "Согласно общим правилам, каков минимальный возраст, необходимый для большинства водителей других моторных транспортных средств, за исключением таких категорий, как мопеды или тяжелые транспортные средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "16 ans",
+          "text_nl": "16 jaar",
+          "text_ru": "16 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "17 ans",
+          "text_nl": "17 jaar",
+          "text_ru": "17 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "18 ans",
+          "text_nl": "18 jaar",
+          "text_ru": "18 лет",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 8.2, 3° indique que l'âge minimal pour les conducteurs des autres véhicules à moteur est de 18 ans, sauf exceptions mentionnées pour des catégories spécifiques.",
+      "explanation_nl": "Artikel 8.2, 3° geeft aan dat de minimale leeftijd voor bestuurders van andere motorvoertuigen 18 jaar is, tenzij anders vermeld voor specifieke categorieën.",
+      "explanation_ru": "Пункт 8.2, 3° указывает, что минимальный возраст для водителей других моторных транспортных средств составляет 18 лет, за исключением особых категорий."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Que signifie l'exigence pour un conducteur d'être 'constamment en mesure d'effectuer toutes les manœuvres qui lui incombent' ?",
+      "text_nl": "Wat betekent de eis voor een bestuurder om 'voortdurend in staat te zijn om alle manoeuvres uit te voeren die hem toekomen'?",
+      "text_ru": "Что означает требование к водителю 'постоянно быть в состоянии выполнять все возложенные на него маневры'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur doit avoir les moyens financiers pour réparer d'éventuels dommages.",
+          "text_nl": "De bestuurder moet financiële middelen hebben om mogelijke schade te herstellen.",
+          "text_ru": "Водитель должен иметь финансовые средства для возмещения возможного ущерба.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur doit être attentif, avoir le contrôle total du véhicule ou des animaux et être prêt à réagir à toute situation imprévue.",
+          "text_nl": "De bestuurder moet alert zijn, volledige controle hebben over het voertuig of de dieren en klaar zijn om op elke onverwachte situatie te reageren.",
+          "text_ru": "Водитель должен быть внимательным, полностью контролировать транспортное средство или животных и быть готовым реагировать на любую непредвиденную ситуацию.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur doit être capable de conduire différents types de véhicules sans formation spécifique.",
+          "text_nl": "De bestuurder moet in staat zijn om verschillende soorten voertuigen te besturen zonder specifieke opleiding.",
+          "text_ru": "Водитель должен быть способен управлять различными типами транспортных средств без специальной подготовки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 8.3 indique que le conducteur doit être constamment en mesure d'effectuer toutes les manœuvres qui lui incombent et doit avoir constamment le contrôle du véhicule ou des animaux qu'il conduit. Cela implique une vigilance et une capacité de réaction continues.",
+      "explanation_nl": "Artikel 8.3 stelt dat de bestuurder voortdurend in staat moet zijn om alle manoeuvres uit te voeren die hem toekomen en voortdurend de controle moet hebben over het voertuig of de dieren die hij bestuurt. Dit impliceert voortdurende waakzaamheid en reactievermogen.",
+      "explanation_ru": "Пункт 8.3 указывает, что водитель должен быть постоянно в состоянии выполнять все возложенные на него маневры и постоянно контролировать управляемое им транспортное средство или животных. Это подразумевает постоянную бдительность и способность реагировать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez votre voiture et vous recevez un appel important. Que devez-vous faire si vous souhaitez utiliser votre téléphone mobile ?",
+      "text_nl": "U rijdt met uw auto en ontvangt een belangrijk telefoontje. Wat moet u doen als u uw mobiele telefoon wilt gebruiken?",
+      "text_ru": "Вы ведете машину и вам поступает важный звонок. Что вы должны сделать, если хотите использовать свой мобильный телефон?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person driving a car, looking at a mobile phone in their hand."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez le tenir en main, à condition de ne pas quitter la route des yeux.",
+          "text_nl": "U mag het in de hand houden, zolang u de weg maar niet uit het oog verliest.",
+          "text_ru": "Вы можете держать его в руке, при условии, что не отвлекаетесь от дороги.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez vous arrêter ou stationner le véhicule en toute sécurité avant de l'utiliser, ou le fixer dans un support prévu à cet effet.",
+          "text_nl": "U moet veilig stoppen of parkeren voordat u het gebruikt, of het in een daarvoor bestemde houder bevestigen.",
+          "text_ru": "Вы должны безопасно остановиться или припарковаться, прежде чем использовать его, или закрепить его в специальном держателе.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez l'utiliser en mode mains libres sans support.",
+          "text_nl": "U kunt het handsfree gebruiken zonder houder.",
+          "text_ru": "Вы можете использовать его в режиме громкой связи без держателя.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 8.4 interdit au conducteur d'utiliser, de tenir en main ou de manipuler un appareil électronique mobile doté d'un écran, à moins que le véhicule ne soit à l'arrêt ou en stationnement, ou que l'appareil soit fixé dans un support.",
+      "explanation_nl": "Artikel 8.4 verbiedt de bestuurder om een mobiel elektronisch apparaat met een scherm te gebruiken, in de hand te houden of te manipuleren, tenzij het voertuig stilstaat of geparkeerd is, of het apparaat in een houder is bevestigd.",
+      "explanation_ru": "Пункт 8.4 запрещает водителю использовать, держать в руке или манипулировать мобильным электронным устройством с экраном, если только транспортное средство не остановлено или не припарковано, или если устройство не закреплено в держателе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous stationnez votre véhicule sur une légère pente et prévoyez de vous absenter quelques instants. Quelles précautions devez-vous prendre ?",
+      "text_nl": "U parkeert uw voertuig op een lichte helling en bent van plan even weg te gaan. Welke voorzorgsmaatregelen moet u nemen?",
+      "text_ru": "Вы паркуете свой автомобиль на небольшом уклоне и планируете отлучиться на несколько минут. Какие меры предосторожности вы должны принять?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car parked on a slight slope, with a driver getting out and looking back."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il suffit de couper le moteur et de mettre le frein à main.",
+          "text_nl": "Het volstaat om de motor af te zetten en de handrem aan te trekken.",
+          "text_ru": "Достаточно выключить двигатель и поставить на ручной тормоз.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez prendre les précautions nécessaires pour éviter tout accident et tout usage abusif par un tiers, y compris utiliser le dispositif antivol si le véhicule en est pourvu.",
+          "text_nl": "U moet de nodige voorzorgsmaatregelen nemen om elk ongeval en elk misbruik door een derde te voorkomen, inclusief het gebruik van het antidiefstalapparaat indien het voertuig hiermee is uitgerust.",
+          "text_ru": "Вы должны принять необходимые меры предосторожности, чтобы предотвратить любые несчастные случаи и неправомерное использование третьими лицами, включая использование противоугонного устройства, если автомобиль им оснащен.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez laisser le moteur en marche pour réchauffer l'habitacle.",
+          "text_nl": "U kunt de motor laten draaien om het interieur op te warmen.",
+          "text_ru": "Вы можете оставить двигатель включенным, чтобы прогреть салон.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 8.5 exige que le conducteur prenne les précautions nécessaires pour éviter tout accident et tout usage abusif par un tiers avant de quitter le véhicule, et d'utiliser le dispositif antivol si disponible.",
+      "explanation_nl": "Artikel 8.5 vereist dat de bestuurder de nodige voorzorgsmaatregelen neemt om elk ongeval en elk misbruik door een derde te voorkomen voordat hij het voertuig verlaat, en het antidiefstalapparaat te gebruiken indien beschikbaar.",
+      "explanation_ru": "Пункт 8.5 требует, чтобы водитель принял необходимые меры предосторожности, чтобы предотвратить любые несчастные случаи и неправомерное использование третьими лицами, прежде чем покинуть транспортное средство, и использовать противоугонное устройство, если оно имеется."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en voiture à l'arrêt devant un feu rouge. Est-il permis de faire rugir votre moteur de manière répétée au point mort ?",
+      "text_nl": "U staat met de auto stil voor een rood licht. Is het toegestaan om herhaaldelijk uw motor te laten brullen in neutraal?",
+      "text_ru": "Вы стоите на машине перед красным светофором. Разрешено ли repeatedly раскручивать двигатель на нейтральной передаче?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car stopped at a red traffic light, with exhaust fumes coming out, implying engine revving."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si cela n'incommode personne.",
+          "text_nl": "Ja, als het niemand hindert.",
+          "text_ru": "Да, если это никому не мешает.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il est interdit de procéder à des accélérations répétées du moteur au point mort.",
+          "text_nl": "Nee, het is verboden om herhaaldelijk de motor te laten accelereren in neutraal.",
+          "text_ru": "Нет, запрещено repeatedly раскручивать двигатель на нейтральной передаче.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si vous attendez depuis plus de deux minutes.",
+          "text_nl": "Ja, als u al langer dan twee minuten wacht.",
+          "text_ru": "Да, если вы ждете более двух минут.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 8.6 interdit formellement à tout conducteur de procéder, au point mort, à des accélérations répétées du moteur.",
+      "explanation_nl": "Artikel 8.6 verbiedt uitdrukkelijk elke bestuurder om, in neutraal, herhaaldelijk de motor te laten accelereren.",
+      "explanation_ru": "Пункт 8.6 категорически запрещает любому водителю неоднократно раскручивать двигатель на нейтральной передаче."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous transportez des marchandises lourdes et votre véhicule (autre qu'un bus ou un autocar) a une masse maximale autorisée de 8 tonnes. Quel est l'âge minimal requis pour conduire ce véhicule ?",
+      "text_nl": "U vervoert zware goederen en uw voertuig (geen bus of touringcar) heeft een maximaal toegelaten massa van 8 ton. Wat is de minimaal vereiste leeftijd om dit voertuig te besturen?",
+      "text_ru": "Вы перевозите тяжелые грузы, и ваш автомобиль (кроме автобуса или туристического автобуса) имеет максимально разрешенную массу 8 тонн. Каков минимальный возраст, необходимый для управления этим транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A heavy goods vehicle (truck) on the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "18 ans",
+          "text_nl": "18 jaar",
+          "text_ru": "18 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "20 ans",
+          "text_nl": "20 jaar",
+          "text_ru": "20 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "21 ans",
+          "text_nl": "21 jaar",
+          "text_ru": "21 год",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article 8.2, 2° stipule que l'âge minimal est de 21 ans pour les conducteurs d'autres véhicules automobiles et des trains de véhicules lorsque la masse maximale autorisée dépasse 7,5 tonnes, sauf exceptions liées à des formations spécifiques.",
+      "explanation_nl": "Artikel 8.2, 2° stelt dat de minimale leeftijd 21 jaar is voor bestuurders van andere auto's en slepen, wanneer de maximaal toegelaten massa meer dan 7,5 ton bedraagt, tenzij uitzonderingen gerelateerd aan specifieke opleidingen.",
+      "explanation_ru": "Пункт 8.2, 2° гласит, что минимальный возраст составляет 21 год для водителей других моторных транспортных средств и составов, когда максимально разрешенная масса превышает 7,5 тонн, за исключением случаев, связанных со специальным обучением."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous attendez à un passage à niveau où les barrières sont fermées. Le moteur de votre voiture est en marche au point mort. Que devez-vous faire ?",
+      "text_nl": "U wacht aan een overweg waar de slagbomen gesloten zijn. De motor van uw auto draait in neutraal. Wat moet u doen?",
+      "text_ru": "Вы ждете на железнодорожном переезде, где шлагбаумы закрыты. Двигатель вашего автомобиля работает на холостом ходу. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car stopped at a railway crossing with closed barriers, train approaching."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez laisser le moteur en marche, car c'est une nécessité d'attendre.",
+          "text_nl": "U mag de motor laten draaien, want het is noodzakelijk om te wachten.",
+          "text_ru": "Вы можете оставить двигатель включенным, так как это необходимо для ожидания.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez toujours couper le moteur, même en cas de nécessité d'attendre.",
+          "text_nl": "U moet altijd de motor afzetten, zelfs bij noodzaak tot wachten.",
+          "text_ru": "Вы всегда должны выключать двигатель, даже если необходимо ждать.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez laisser le moteur en marche mais ne devez pas l'accélérer.",
+          "text_nl": "U mag de motor laten draaien, maar u mag niet versnellen.",
+          "text_ru": "Вы можете оставить двигатель включенным, но не должны его раскручивать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article 8.6 précise que les conducteurs ne doivent pas laisser le moteur en marche au point mort sauf en cas de nécessité. Attendre à un passage à niveau est une nécessité.",
+      "explanation_nl": "Artikel 8.6 specificeert dat bestuurders de motor niet in neutraal mogen laten draaien, tenzij dit noodzakelijk is. Wachten bij een overweg is een noodzaak.",
+      "explanation_ru": "Пункт 8.6 уточняет, что водители не должны оставлять двигатель работающим на холостом ходу, кроме случаев необходимости. Ожидание на железнодорожном переезде является необходимостью."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "f0133d759526",
@@ -41,6 +338,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:12:19Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

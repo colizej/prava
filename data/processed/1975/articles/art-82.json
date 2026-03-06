@@ -41,7 +41,304 @@
   "anchor_id_fr": "jko43tpkh8",
   "anchor_id_nl": "spiz09voma",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom de l'équipement obligatoire sur les pédales de vélo qui augmente la visibilité latérale du cycliste ?",
+      "text_nl": "Wat is de naam van de verplichte uitrusting op fietspedalen die de zijdelingse zichtbaarheid van de fietser vergroot?",
+      "text_ru": "Как называется обязательное оборудование на педалях велосипеда, которое увеличивает боковую видимость велосипедиста?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Close-up of bicycle pedals with yellow or orange reflectors clearly visible on them, in a slightly dark setting."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des feux de position.",
+          "text_nl": "Positielichten.",
+          "text_ru": "Габаритные огни.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des catadioptres.",
+          "text_nl": "Reflectoren.",
+          "text_ru": "Катафоты.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des bandes réfléchissantes.",
+          "text_nl": "Reflecterende strips.",
+          "text_ru": "Светоотражающие полосы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les pédales des bicyclettes doivent être munies en permanence de catadioptres jaunes ou oranges pour assurer une meilleure visibilité latérale.",
+      "explanation_nl": "De pedalen van fietsen moeten altijd voorzien zijn van gele of oranje reflectoren voor een betere zijdelingse zichtbaarheid.",
+      "explanation_ru": "Педали велосипедов должны быть постоянно оснащены желтыми или оранжевыми катафотами для обеспечения лучшей боковой видимости."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quand un cycliste doit-il allumer ses feux avant et arrière ?",
+      "text_nl": "Wanneer moet een fietser zijn voor- en achterlichten aandoen?",
+      "text_ru": "Когда велосипедист должен включать свои передние и задние фары?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A cyclist riding a bicycle at dusk or dawn, with both front white/yellow and rear red lights clearly illuminated."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement la nuit.",
+          "text_nl": "Alleen 's nachts.",
+          "text_ru": "Только ночью.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Entre la tombée et le lever du jour, et en toute circonstance où la visibilité est inférieure à 200 mètres.",
+          "text_nl": "Tussen het vallen van de avond en het aanbreken van de dag, en in alle omstandigheden wanneer de zichtbaarheid minder dan 200 meter is.",
+          "text_ru": "Между сумерками и рассветом, а также в любых условиях, когда видимость составляет менее 200 метров.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement par temps de pluie.",
+          "text_nl": "Alleen bij regenachtig weer.",
+          "text_ru": "Только в дождливую погоду.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les cyclistes doivent utiliser leurs feux entre la tombée et le lever du jour ainsi qu'en toute circonstance où il n'est plus possible de voir distinctement jusqu'à une distance d'environ 200 mètres.",
+      "explanation_nl": "Fietsers moeten hun lichten gebruiken tussen het vallen van de avond en het aanbreken van de dag, en in alle omstandigheden wanneer het niet meer mogelijk is duidelijk te zien tot op een afstand van ongeveer 200 meter.",
+      "explanation_ru": "Велосипедисты должны использовать свои фары между сумерками и рассветом, а также в любых условиях, когда невозможно четко видеть на расстоянии около 200 метров."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la fonction d'une sonnette sur un cycle ?",
+      "text_nl": "Wat is de functie van een bel op een fiets?",
+      "text_ru": "Какова функция звонка на велосипеде?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A close-up of a bicycle handlebar with a clearly visible bell."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer un changement de direction.",
+          "text_nl": "Een richtingsverandering aangeven.",
+          "text_ru": "Указать изменение направления.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Servir d'avertisseur sonore.",
+          "text_nl": "Dienen als geluidssignaal.",
+          "text_ru": "Служить звуковым сигналом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Actionner le frein avant.",
+          "text_nl": "De voorrem bedienen.",
+          "text_ru": "Включить передний тормоз.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les cycles doivent être équipés d'un avertisseur sonore constitué par une sonnette pouvant être entendue à une distance de 20 mètres.",
+      "explanation_nl": "Fietsen moeten uitgerust zijn met een geluidssignaal, bestaande uit een bel die op een afstand van 20 meter hoorbaar is.",
+      "explanation_ru": "Велосипеды должны быть оборудованы звуковым сигналом в виде звонка, который должен быть слышен на расстоянии 20 метров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous tractez une remorque avec votre vélo. Quelle est la largeur maximale autorisée pour cette remorque, toutes saillies comprises ?",
+      "text_nl": "U trekt een aanhangwagen met uw fiets. Wat is de maximaal toegestane breedte voor deze aanhangwagen, inclusief alle uitsteeksels?",
+      "text_ru": "Вы буксируете прицеп своим велосипедом. Какова максимальная допустимая ширина этого прицепа, включая все выступающие части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person riding a bicycle and pulling a small trailer behind it, on a road. The trailer should be clearly visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,75 mètre.",
+          "text_nl": "0,75 meter.",
+          "text_ru": "0,75 метра.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "1,00 mètre.",
+          "text_nl": "1,00 meter.",
+          "text_ru": "1,00 метра.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "1,20 mètre.",
+          "text_nl": "1,20 meter.",
+          "text_ru": "1,20 метра.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La largeur maximale d'une remorque tirée par une bicyclette ne peut excéder 1,00 mètre, toutes saillies comprises. Des exceptions existent pour les projets-pilotes de transport de marchandises, mais la règle générale est de 1,00 mètre.",
+      "explanation_nl": "De maximale breedte, alle uitsteeksels inbegrepen, van een aanhangwagen getrokken door een fiets mag 1,00 meter niet overschrijden. Er zijn uitzonderingen voor proefprojecten voor goederenvervoer, maar de algemene regel is 1,00 meter.",
+      "explanation_ru": "Максимальная ширина прицепа, буксируемого велосипедом, включая все выступающие части, не может превышать 1,00 метра. Существуют исключения для пилотных проектов по перевозке грузов, но общее правило — 1,00 метр."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous circulez avec un tricycle à une roue à l'avant la nuit. De quels catadioptres devez-vous être équipé de manière permanente ?",
+      "text_nl": "U rijdt 's nachts met een driewieler met één voorwiel. Welke reflectoren moet u permanent voeren?",
+      "text_ru": "Вы едете на трехколесном велосипеде с одним передним колесом ночью. Какими катафотами вы должны быть постоянно оборудованы?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A tricycle with one wheel at the front, driven at night. The front white reflector and two rear red reflectors should be visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un catadioptre blanc à l'avant et un catadioptre rouge à l'arrière.",
+          "text_nl": "Eén witte reflector vooraan en één rode reflector achteraan.",
+          "text_ru": "Один белый катафот спереди и один красный катафот сзади.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Deux catadioptres blancs à l'avant et un catadioptre rouge à l'arrière.",
+          "text_nl": "Twee witte reflectoren vooraan en één rode reflector achteraan.",
+          "text_ru": "Два белых катафота спереди и один красный катафот сзади.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un catadioptre blanc à l'avant et deux catadioptres rouges à l'arrière.",
+          "text_nl": "Eén witte reflector vooraan en twee rode reflectoren achteraan.",
+          "text_ru": "Один белый катафот спереди и два красных катафота сзади.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les tricycles avec une roue à l'avant doivent être munis en permanence d'un catadioptre blanc à l'avant et de deux catadioptres rouges à l'arrière.",
+      "explanation_nl": "De driewielers met één voorwiel moeten altijd vooraan een witte reflector en achteraan twee rode reflectoren voeren.",
+      "explanation_ru": "Трехколесные велосипеды с одним передним колесом должны быть постоянно оборудованы одним белым катафотом спереди и двумя красными катафотами сзади."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous constatez que la bande rétroréfléchissante sur le pneu de votre vélo est sale et partiellement couverte. Que devez-vous faire avant de prendre la route ?",
+      "text_nl": "U merkt dat de retroreflecterende strook op de band van uw fiets vuil en gedeeltelijk bedekt is. Wat moet u doen voordat u vertrekt?",
+      "text_ru": "Вы заметили, что светоотражающая полоса на шине вашего велосипеда грязная и частично закрыта. Что вы должны сделать перед поездкой?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A close-up of a dirty bicycle tire with a partially obscured reflective strip, showing a hand cleaning it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien, la saleté n'affecte pas significativement la visibilité.",
+          "text_nl": "Niets, vuil heeft geen significante invloed op de zichtbaarheid.",
+          "text_ru": "Ничего, грязь не влияет значительно на видимость.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Nettoyer la bande pour qu'elle soit parfaitement visible et dégagée.",
+          "text_nl": "De strook schoonmaken zodat deze perfect zichtbaar en vrij is.",
+          "text_ru": "Очистить полосу так, чтобы она была идеально видна и свободна.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ajouter un feu supplémentaire sur la roue.",
+          "text_nl": "Een extra licht op het wiel toevoegen.",
+          "text_ru": "Добавить дополнительную фару на колесо.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les feux et catadioptres doivent être en tout temps parfaitement visibles et dégagés ainsi qu'en bon état d'entretien et de fonctionnement. Cela inclut les bandes rétroréfléchissantes.",
+      "explanation_nl": "Lichten en reflectoren moeten altijd perfect zichtbaar en vrij zijn en in goede staat van onderhoud en werking verkeren. Dit geldt ook voor retroreflecterende stroken.",
+      "explanation_ru": "Фазы и катафоты всегда должны быть идеально видны и свободны, а также находиться в хорошем состоянии и быть исправными. Это включает светоотражающие полосы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous transportez votre enfant dans une remorque attachée à votre bicyclette. La remorque, y compris l'enfant, pèse 90 kg. Est-ce autorisé ?",
+      "text_nl": "U vervoert uw kind in een aanhangwagen die aan uw fiets is bevestigd. De aanhangwagen, inclusief het kind, weegt 90 kg. Is dit toegestaan?",
+      "text_ru": "Вы везете своего ребенка в прицепе, прикрепленном к вашему велосипеду. Прицеп, включая ребенка, весит 90 кг. Это разрешено?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A parent cycling with a child in a bicycle trailer, on a sunny day. The trailer should appear slightly heavy."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, la masse maximale est de 80 kg, même avec un système de freinage.",
+          "text_nl": "Nee, de maximale massa is 80 kg, zelfs met een remsysteem.",
+          "text_ru": "Нет, максимальная масса составляет 80 кг, даже с тормозной системой.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, si la remorque dispose d'un système de freinage automatique lorsque le cycliste freine.",
+          "text_nl": "Ja, als de aanhangwagen een automatisch remsysteem heeft dat in werking treedt wanneer de fietser remt.",
+          "text_ru": "Да, если прицеп оснащен автоматической тормозной системой, которая срабатывает, когда велосипедист тормозит.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, car il s'agit du transport d'une personne.",
+          "text_nl": "Ja, want het betreft het vervoer van een persoon.",
+          "text_ru": "Да, так как это перевозка человека.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La masse de la remorque attelée à une bicyclette ne peut dépasser 80 kg, chargement et passagers compris. Toutefois, une remorque d'une masse de plus de 80 kg peut être utilisée lorsqu'elle dispose d'un système de freinage s'actionnant automatiquement lorsque le cycliste freine.",
+      "explanation_nl": "De massa van de aanhangwagen gekoppeld aan een fiets mag 80 kg niet overschrijden, inclusief lading en passagiers. Echter, een aanhangwagen met een massa van meer dan 80 kg mag worden gebruikt als deze beschikt over een remsysteem dat automatisch in werking treedt wanneer de fietser remt.",
+      "explanation_ru": "Масса прицепа, прикрепленного к велосипеду, не может превышать 80 кг, включая груз и пассажиров. Однако прицеп массой более 80 кг может использоваться, если он оснащен тормозной системой, которая автоматически срабатывает, когда велосипедист тормозит."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez un VTT avec des pneus larges, deux dérailleurs et pas de porte-bagages. Quels catadioptres sont obligatoires si vous n'avez pas de garde-boue ?",
+      "text_nl": "U heeft een mountainbike met brede banden, twee versnellingen en geen bagagedrager. Welke reflectoren zijn verplicht als u geen spatborden heeft?",
+      "text_ru": "У вас горный велосипед с широкими шинами, двумя переключателями и без багажника. Какие катафоты обязательны, если у вас нет крыльев?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A mountain bike on a dirt trail, with wide tires and no mudguards or rear rack. It's daytime."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucun catadioptre n'est obligatoire dans cette configuration, sauf la nuit ou par mauvaise visibilité.",
+          "text_nl": "Geen enkele reflector is verplicht in deze configuratie, behalve 's nachts of bij slecht zicht.",
+          "text_ru": "Никакие катафоты не обязательны в этой конфигурации, кроме ночного времени или при плохой видимости.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un catadioptre blanc à l'avant et un catadioptre rouge à l'arrière, en permanence.",
+          "text_nl": "Een witte reflector vooraan en een rode reflector achteraan, permanent.",
+          "text_ru": "Белый катафот спереди и красный катафот сзади, постоянно.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des catadioptres jaunes ou oranges sur les pédales, en permanence.",
+          "text_nl": "Gele of oranje reflectoren op de pedalen, permanent.",
+          "text_ru": "Желтые или оранжевые катафоты на педалях, постоянно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour les bicyclettes tout terrain (avec des caractéristiques spécifiques comme les vôtres) sans garde-boue, les catadioptres avant, arrière, sur les pédales et la signalisation latérale ne sont pas obligatoires, sauf en cas de circulation entre la tombée et le lever du jour ou lorsque la visibilité est inférieure à 200 mètres.",
+      "explanation_nl": "Voor alle-terreinen-fietsen (met specifieke kenmerken zoals de uwe) zonder spatborden, zijn de reflectoren vooraan en achteraan, de reflectoren op de pedalen en de zijdelingse signalisatie niet verplicht, behalve wanneer ermee gereden wordt tussen het vallen van de avond en het aanbreken van de dag of wanneer de zichtbaarheid minder dan 200 meter is.",
+      "explanation_ru": "Для горных велосипедов (с указанными вами характеристиками) без крыльев, передние, задние, на педалях и боковые катафоты не обязательны, за исключением движения между сумерками и рассветом или когда видимость составляет менее 200 метров."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "20a0f30c6d92",
@@ -51,6 +348,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:13:42Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

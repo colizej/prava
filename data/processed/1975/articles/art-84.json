@@ -26,7 +26,119 @@
   "anchor_id_fr": "9opabbfx21",
   "anchor_id_nl": "js786gymeg",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom de l'acte juridique qui a été explicitement remplacé par la législation actuelle sur la circulation routière ?",
+      "text_nl": "Wat is de naam van de juridische akte die expliciet werd vervangen door de huidige wetgeving inzake wegverkeer?",
+      "text_ru": "Какое название юридического акта было явно заменено текущим законодательством о дорожном движении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le règlement général sur la police de la circulation routière du 12 juin 1969",
+          "text_nl": "Het algemeen reglement op de politie van het wegverkeer van 12 juni 1969",
+          "text_ru": "Общие правила дорожного движения от 12 июня 1969 года",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'arrêté royal du 14 mars 1968, portant règlement général sur la police de la circulation routière",
+          "text_nl": "Het koninklijk besluit van 14 maart 1968, houdende algemeen reglement op de politie van het wegverkeer",
+          "text_ru": "Королевский указ от 14 марта 1968 года, содержащий общие правила дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le règlement du 18 mars 1975 sur la police de la circulation",
+          "text_nl": "Het reglement van 18 maart 1975 betreffende de verkeerspolitie",
+          "text_ru": "Правила дорожного движения от 18 марта 1975 года",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article mentionne explicitement l'abrogation de l'arrêté royal du 14 mars 1968, portant règlement général sur la police de la circulation routière.",
+      "explanation_nl": "Het artikel vermeldt expliciet de intrekking van het koninklijk besluit van 14 maart 1968, houdende algemeen reglement op de politie van het wegverkeer.",
+      "explanation_ru": "В статье прямо упоминается отмена королевского указа от 14 марта 1968 года, содержащего общие правила дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie le terme 'abrogé' dans le contexte d'un texte juridique relatif au code de la route ?",
+      "text_nl": "Wat betekent de term 'opgeheven' in de context van een juridische tekst met betrekking tot de wegcode?",
+      "text_ru": "Что означает термин 'отменен' в контексте юридического текста, касающегося правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il a été modifié mais reste en vigueur.",
+          "text_nl": "Het is gewijzigd, maar blijft van kracht.",
+          "text_ru": "Он был изменен, но остается в силе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il a été annulé et n'a plus aucune valeur juridique.",
+          "text_nl": "Het is geannuleerd en heeft geen juridische waarde meer.",
+          "text_ru": "Он был отменен и больше не имеет юридической силы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est suspendu temporairement.",
+          "text_nl": "Het is tijdelijk opgeschort.",
+          "text_ru": "Он временно приостановлен.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Dans un contexte juridique, 'abrogé' signifie qu'une loi ou un règlement est annulé et n'a plus de force légale. Il est remplacé par de nouvelles dispositions.",
+      "explanation_nl": "In een juridische context betekent 'opgeheven' dat een wet of reglement wordt geannuleerd en geen rechtskracht meer heeft. Het wordt vervangen door nieuwe bepalingen.",
+      "explanation_ru": "В юридическом контексте 'отменен' означает, что закон или постановление аннулируются и больше не имеют юридической силы. Они заменяются новыми положениями."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Pourquoi est-il important pour un conducteur de savoir qu'un ancien règlement a été abrogé et remplacé par un nouveau ?",
+      "text_nl": "Waarom is het voor een bestuurder belangrijk om te weten dat een oud reglement is ingetrokken en vervangen door een nieuw?",
+      "text_ru": "Почему для водителя важно знать, что старые правила были отменены и заменены новыми?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour pouvoir contester les amendes basées sur l'ancien règlement.",
+          "text_nl": "Om boetes op basis van het oude reglement te kunnen betwisten.",
+          "text_ru": "Чтобы иметь возможность оспаривать штрафы, основанные на старых правилах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour s'assurer de respecter les règles de circulation actuelles et éviter les infractions.",
+          "text_nl": "Om ervoor te zorgen dat de huidige verkeersregels worden nageleefd en overtredingen worden vermeden.",
+          "text_ru": "Чтобы убедиться в соблюдении текущих правил дорожного движения и избежать нарушений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour connaître l'histoire du code de la route.",
+          "text_nl": "Om de geschiedenis van de wegcode te kennen.",
+          "text_ru": "Чтобы знать историю правил дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur doit toujours connaître et respecter la législation en vigueur pour assurer sa sécurité et celle des autres usagers, ainsi que pour éviter les sanctions. Les règles abrogées n'ont plus de valeur légale.",
+      "explanation_nl": "Een bestuurder moet altijd de geldende wetgeving kennen en respecteren om zijn eigen veiligheid en die van andere weggebruikers te garanderen, en om sancties te vermijden. Ingevoerde regels hebben geen rechtskracht meer.",
+      "explanation_ru": "Водитель всегда должен знать и соблюдать действующее законодательство, чтобы обеспечить свою безопасность и безопасность других участников дорожного движения, а также избежать санкций. Отмененные правила больше не имеют юридической силы."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "776a3c36a78d",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:14:53Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 3
   }
 }

@@ -41,7 +41,304 @@
   "anchor_id_fr": "g0av2wjbk1",
   "anchor_id_nl": "zbq2bouwn1",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est responsable de la signalisation d'un chantier établi sur la voie publique ?",
+      "text_nl": "Wie is verantwoordelijk voor de signalisatie van een werf op de openbare weg?",
+      "text_ru": "Кто отвечает за сигнализацию на строительной площадке, расположенной на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'autorité qui gère la voie publique.",
+          "text_nl": "De overheid die het beheer van de openbare weg heeft.",
+          "text_ru": "Орган, управляющий проезжей частью.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Celui qui exécute les travaux.",
+          "text_nl": "Degene die de werken uitvoert.",
+          "text_ru": "Тот, кто выполняет работы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police locale.",
+          "text_nl": "De lokale politie.",
+          "text_ru": "Местная полиция.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation des chantiers incombe à celui qui exécute les travaux.",
+      "explanation_nl": "De signalisatie van werken valt ten laste van diegene die de werken uitvoert.",
+      "explanation_ru": "Ответственность за сигнализацию на строительной площадке несет тот, кто выполняет работы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel cas doit-on obtenir une autorisation spécifique pour placer certains signaux sur un chantier ?",
+      "text_nl": "In welk geval moet een specifieke toelating worden verkregen om bepaalde verkeerstekens op een werf te plaatsen?",
+      "text_ru": "В каком случае требуется специальное разрешение на установку определенных дорожных знаков на строительной площадке?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement pour les autoroutes.",
+          "text_nl": "Enkel voor autosnelwegen.",
+          "text_ru": "Только для автомагистралей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque des signaux d'interdiction ou de priorité, ou des marques longitudinales provisoires sont utilisés.",
+          "text_nl": "Wanneer verbods- of voorrangsborden, of voorlopige langsmarkeringen worden gebruikt.",
+          "text_ru": "Когда используются запрещающие знаки, знаки приоритета или временная продольная разметка.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si le chantier dure plus d'une semaine.",
+          "text_nl": "Enkel indien de werken langer dan een week duren.",
+          "text_ru": "Только если работы длятся более одной недели.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'autorisation est nécessaire pour les signaux de priorité, d'interdiction, d'obligation, d'arrêt et de stationnement ou les marques longitudinales provisoires.",
+      "explanation_nl": "De toelating is nodig voor verkeersborden betreffende de voorrang, verbodsborden, gebodsborden, verkeersborden betreffende het stilstaan en parkeren of voorlopige markeringen die de rijstroken aanduiden.",
+      "explanation_ru": "Разрешение требуется для знаков приоритета, запрещающих знаков, предписывающих знаков, знаков остановки и стоянки или временной продольной разметки."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "À qui incombe la signalisation d'un obstacle sur la voie publique si celui-ci n'est pas dû à l'action d'un tiers ?",
+      "text_nl": "Wie is verantwoordelijk voor de signalisatie van een obstakel op de openbare weg als dit niet te wijten is aan de daad van een derde?",
+      "text_ru": "Кто отвечает за сигнализацию препятствия на проезжей части, если оно не вызвано действиями третьих лиц?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au conducteur qui a découvert l'obstacle.",
+          "text_nl": "Aan de bestuurder die het obstakel ontdekte.",
+          "text_ru": "Водителю, обнаружившему препятствие.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À l'autorité qui a la gestion de la voie publique.",
+          "text_nl": "Aan de overheid die het beheer van de openbare weg heeft.",
+          "text_ru": "Органу, управляющему проезжей частью.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À celui qui a créé l'obstacle.",
+          "text_nl": "Aan hem die de belemmering in het leven geroepen heeft.",
+          "text_ru": "Тому, кто создал препятствие.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si l'obstacle n'est pas dû à un tiers, la signalisation incombe à l'autorité qui gère la voie publique.",
+      "explanation_nl": "Als het obstakel niet te wijten is aan een derde, valt de signalisatie ten laste van de overheid die het beheer van de openbare weg heeft.",
+      "explanation_ru": "Если препятствие не вызвано третьей стороной, за его сигнализацию отвечает орган, управляющий проезжей частью."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une autoroute et remarquez qu'un chantier temporaire nécessite la modification de la priorité de passage. Qui est l'autorité compétente pour autoriser ces changements de signalisation ?",
+      "text_nl": "U rijdt op een autosnelweg en merkt dat een tijdelijke werf een wijziging van de voorrang vereist. Wie is de bevoegde instantie om deze wijzigingen in de signalisatie toe te staan?",
+      "text_ru": "Вы едете по автомагистрали и замечаете, что временная строительная площадка требует изменения приоритета проезда. Какой орган уполномочен разрешать эти изменения в сигнализации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A temporary road construction site on a highway with signs indicating changes in priority rules. A car is approaching the site."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le bourgmestre de la commune traversée par l'autoroute.",
+          "text_nl": "De burgemeester van de gemeente waar de autosnelweg doorheen loopt.",
+          "text_ru": "Мэр муниципалитета, через который проходит автомагистраль.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre en charge des autoroutes ou son délégué.",
+          "text_nl": "De Minister tot wiens bevoegdheid het beheer van de autosnelwegen behoort of zijn gemachtigde.",
+          "text_ru": "Министр, отвечающий за автомагистрали, или его делегат.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police fédérale.",
+          "text_nl": "De federale politie.",
+          "text_ru": "Федеральная полиция.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Sur une autoroute, c'est le Ministre qui a la gestion des autoroutes ou son délégué qui doit donner l'autorisation pour la signalisation spécifique.",
+      "explanation_nl": "Op een autosnelweg is het de Minister tot wiens bevoegdheid het beheer van de autosnelwegen behoort of zijn gemachtigde die de toelating moet geven voor de specifieke signalisatie.",
+      "explanation_ru": "На автомагистрали разрешение на установку специальной сигнализации должен давать Министр, отвечающий за автомагистрали, или его делегат."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Des travaux routiers se terminent sur une route communale. Qui est responsable de l'enlèvement de toute la signalisation temporaire mise en place ?",
+      "text_nl": "Wegwerkzaamheden op een gemeenteweg zijn beëindigd. Wie is verantwoordelijk voor het weghalen van alle tijdelijke signalisatie?",
+      "text_ru": "Дорожные работы на муниципальной дороге завершены. Кто отвечает за удаление всех установленных временных знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road construction site with cones and temporary signs being removed by workers. The road is a local communal road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le service technique de la commune.",
+          "text_nl": "De technische dienst van de gemeente.",
+          "text_ru": "Технический отдел муниципалитета.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'entrepreneur qui a exécuté les travaux.",
+          "text_nl": "De aannemer die de werken heeft uitgevoerd.",
+          "text_ru": "Подрядчик, выполнивший работы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police locale, après une inspection.",
+          "text_nl": "De lokale politie, na een inspectie.",
+          "text_ru": "Местная полиция, после осмотра.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation routière doit être enlevée par celui qui exécute les travaux dès que ceux-ci sont terminés.",
+      "explanation_nl": "De verkeerstekens moeten weggenomen worden door diegene die de werken uitvoert zodra deze beëindigd zijn.",
+      "explanation_ru": "Дорожные знаки должны быть удалены тем, кто выполняет работы, сразу после их завершения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un accident de la route a provoqué la chute d'un poteau électrique sur la chaussée. Le conducteur fautif a pris la fuite et l'autorité en charge de la voie publique n'a pas encore réagi. Qui devrait, en principe, signaler cet obstacle en premier lieu, et qui prendra le relais si cette personne ne le fait pas ?",
+      "text_nl": "Een verkeersongeval heeft ertoe geleid dat een elektriciteitspaal op de rijbaan is gevallen. De schuldige bestuurder is gevlucht en de overheid die verantwoordelijk is voor de openbare weg heeft nog niet gereageerd. Wie zou in principe dit obstakel als eerste moeten signaleren, en wie neemt het over als deze persoon het niet doet?",
+      "text_ru": "Дорожно-транспортное происшествие привело к падению электрического столба на проезжую часть. Виновный водитель скрылся с места происшествия, а орган, отвечающий за проезжую часть, еще не отреагировал. Кто в принципе должен в первую очередь сигнализировать об этом препятствии, и кто возьмет на себя эту обязанность, если этот человек этого не сделает?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A fallen electricity pole on a road after an accident, with no immediate signage. A car is approaching the scene."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'autorité qui gère la voie publique en premier lieu, puis le conducteur en fuite si elle ne le fait pas.",
+          "text_nl": "De overheid die het beheer van de openbare weg heeft in de eerste plaats, en dan de gevluchte bestuurder als zij het niet doet.",
+          "text_ru": "В первую очередь орган, управляющий проезжей частью, затем скрывшийся водитель, если орган этого не сделает.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Celui qui a créé l'obstacle (le conducteur en fuite), et en cas de carence, l'autorité qui gère la voie publique.",
+          "text_nl": "Degene die het obstakel heeft veroorzaakt (de gevluchte bestuurder), en bij nalatigheid, de overheid die het beheer van de openbare weg heeft.",
+          "text_ru": "Тот, кто создал препятствие (скрывшийся водитель), и в случае невыполнения — орган, управляющий проезжей частью.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police locale doit toujours signaler l'obstacle, quels que soient les responsables initiaux.",
+          "text_nl": "De lokale politie moet altijd het obstakel signaleren, ongeacht de oorspronkelijke verantwoordelijken.",
+          "text_ru": "Местная полиция всегда должна сигнализировать о препятствии, независимо от первоначальных ответственных.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation des obstacles incombe d'abord à celui qui a créé l'obstacle (ici, le conducteur fautif). En cas de carence, l'autorité qui gère la voie publique prend le relais et peut récupérer les frais.",
+      "explanation_nl": "De signalisatie van obstakels valt in de eerste plaats ten laste van degene die het obstakel heeft veroorzaakt (hier de schuldige bestuurder). Bij nalatigheid neemt de overheid die het beheer van de openbare weg heeft deze verplichting op zich en kan de kosten verhalen.",
+      "explanation_ru": "Ответственность за сигнализацию препятствий в первую очередь лежит на том, кто создал препятствие (в данном случае, на виновном водителе). В случае невыполнения этой обязанности, орган, управляющий проезжей частью, берет на себя эту ответственность и может взыскать расходы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous devez installer des panneaux d'interdiction de stationnement temporaires pour un déménagement sur une rue de votre quartier. À qui devez-vous demander une autorisation pour placer ces panneaux ?",
+      "text_nl": "U moet tijdelijke parkeerverbodborden plaatsen voor een verhuizing in een straat in uw buurt. Bij wie moet u een vergunning aanvragen om deze borden te plaatsen?",
+      "text_ru": "Вам необходимо установить временные знаки, запрещающие парковку, для переезда на улице в вашем районе. У кого вы должны запросить разрешение на установку этих знаков?",
+      "image": {
+        "sign_code": "E3",
+        "generation_prompt": "A temporary No Parking sign (E3) being placed on a street for a moving operation."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au Ministre en charge des transports.",
+          "text_nl": "Aan de Minister van Verkeer en Waterstaat.",
+          "text_ru": "Министру транспорта.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au bourgmestre de la commune ou à son délégué.",
+          "text_nl": "Aan de burgemeester van de gemeente of zijn gemachtigde.",
+          "text_ru": "Мэру муниципалитета или его представителю.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À la police fédérale.",
+          "text_nl": "Aan de federale politie.",
+          "text_ru": "Федеральной полиции.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour une voie publique autre qu'une autoroute, l'autorisation pour des signaux d'interdiction (comme le stationnement) doit être donnée par le bourgmestre ou son délégué.",
+      "explanation_nl": "Voor een andere openbare weg dan een autosnelweg, moet de toelating voor verbodsborden (zoals parkeerverbod) worden gegeven door de burgemeester of zijn gemachtigde.",
+      "explanation_ru": "Для проезжей части, не являющейся автомагистралью, разрешение на установку запрещающих знаков (например, запрет парковки) должно быть выдано мэром или его представителем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Une tempête a abattu un arbre sur une route régionale, mais aucune équipe n'est encore intervenue pour le dégager ou le signaler. La commune estime que c'est la Région qui est responsable, tandis que la Région n'a pas été alertée. Qui est légalement tenu de signaler cet obstacle et d'en assumer les frais si l'autre partie tarde à agir ?",
+      "text_nl": "Een storm heeft een boom op een regionale weg doen vallen, maar er is nog geen team tussenbeide gekomen om deze op te ruimen of te signaleren. De gemeente vindt dat de regio verantwoordelijk is, terwijl de regio niet is gewaarschuwd. Wie is wettelijk verplicht om dit obstakel te signaleren en de kosten daarvan te dragen als de andere partij traag handelt?",
+      "text_ru": "Шторм повалил дерево на региональной дороге, но ни одна бригада еще не вмешалась, чтобы убрать или обозначить его. Муниципалитет считает, что это ответственность региона, тогда как регион не был оповещен. Кто по закону обязан сигнализировать об этом препятствии и нести связанные с этим расходы, если другая сторона медлит с действиями?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A large tree fallen across a regional road after a storm, blocking traffic. No warning signs are present. A car is approaching."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'autorité qui a la gestion de la voie publique (la Région), et en cas de carence, la commune peut intervenir et récupérer les frais.",
+          "text_nl": "De overheid die het beheer van de openbare weg heeft (de Regio), en bij nalatigheid kan de gemeente tussenbeide komen en de kosten verhalen.",
+          "text_ru": "Орган, управляющий проезжей частью (Регион), и в случае бездействия муниципалитет может вмешаться и взыскать расходы.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La police locale doit toujours assurer la signalisation d'urgence.",
+          "text_nl": "De lokale politie moet altijd de noodsignalisatie verzorgen.",
+          "text_ru": "Местная полиция всегда должна обеспечивать экстренную сигнализацию.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur qui découvre l'arbre doit rester sur place pour signaler l'obstacle.",
+          "text_nl": "De bestuurder die de boom ontdekt, moet ter plaatse blijven om het obstakel te signaleren.",
+          "text_ru": "Водитель, обнаруживший дерево, должен оставаться на месте, чтобы сигнализировать о препятствии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si l'obstacle n'est pas dû au fait d'un tiers (comme ici, un arbre tombé par tempête), la signalisation incombe à l'autorité qui a la gestion de la voie publique (la Région). En cas de carence de cette dernière, l'obligation est assumée par l'autorité qui a la gestion de la voie publique (la commune dans ce cas si elle prend l'initiative pour le compte de la Région, ou la Région elle-même si elle agit), les frais pouvant être récupérés.",
+      "explanation_nl": "Als het obstakel niet te wijten is aan de daad van een derde (zoals hier, een boom omgevallen door een storm), valt de signalisatie ten laste van de overheid die het beheer van de openbare weg heeft (de Regio). Ingeval deze laatste in gebreke blijft, neemt de overheid die het beheer van de openbare weg heeft (in dit geval de gemeente als zij het initiatief neemt namens de Regio, of de Regio zelf als zij handelt) deze verplichting op zich; de kosten die hieruit voortvloeien kunnen door die overheid teruggevorderd worden.",
+      "explanation_ru": "Если препятствие не вызвано действиями третьих лиц (как здесь, дерево, упавшее из-за шторма), ответственность за сигнализацию несет орган, управляющий проезжей частью (Регион). В случае невыполнения этой обязанности, она возлагается на орган, управляющий проезжей частью (в данном случае муниципалитет, если он действует от имени Региона, или сам Регион, если он принимает меры), при этом расходы могут быть взысканы."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "3ef849c57021",
@@ -51,6 +348,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:10:26Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

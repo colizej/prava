@@ -1,6 +1,6 @@
 # PRAVA — Guide de déploiement production
 
-> Dernière mise à jour : 5 mars 2026
+> Dernière mise à jour : 6 mars 2026
 
 ---
 
@@ -115,16 +115,7 @@ python manage.py compilemessages
 
 ## 6. Lancement avec Gunicorn
 
-```bash
-gunicorn config.wsgi:application \
-  --bind 0.0.0.0:8000 \
-  --workers 3 \
-  --timeout 60 \
-  --access-logfile logs/gunicorn-access.log \
-  --error-logfile logs/gunicorn-error.log
-```
-
-Ou via systemd (`/etc/systemd/system/prava.service`) :
+Via systemd (`/etc/systemd/system/prava.service`) :
 
 ```ini
 [Unit]
@@ -132,14 +123,20 @@ Description=PRAVA Django application
 After=network.target
 
 [Service]
-User=www-data
-WorkingDirectory=/var/www/prava
-EnvironmentFile=/var/www/prava/.env
-ExecStart=/var/www/prava/venv/bin/gunicorn config.wsgi:application --bind 127.0.0.1:8000 --workers 3
+User=prava
+WorkingDirectory=/home/prava/prava
+EnvironmentFile=/home/prava/prava/.env
+ExecStart=/home/prava/prava/venv/bin/gunicorn config.wsgi:application --bind 127.0.0.1:8040 --workers 3 --timeout 60 --access-logfile /home/prava/prava/logs/gunicorn-access.log --error-logfile /home/prava/prava/logs/gunicorn-error.log
 Restart=always
 
 [Install]
 WantedBy=multi-user.target
+```
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable prava
+sudo systemctl start prava
 ```
 
 ---
@@ -148,22 +145,16 @@ WantedBy=multi-user.target
 
 Caddy gère HTTPS automatiquement (Let's Encrypt). Pas besoin de configurer les certificats.
 
-`/etc/caddy/Caddyfile` :
+`/etc/caddy/Caddyfile` (le serveur utilise un snippet partagé `(reverse_the_proxy)`) :
 
 ```caddy
-prava.be, www.prava.be {
-    # Fichiers media (uploads utilisateurs)
+prava.be {
     handle /media/* {
-        root * /var/www/prava
+        root * /home/prava/prava
         file_server
     }
 
-    # Tout le reste → Gunicorn
-    reverse_proxy localhost:8000 {
-        header_up Host {host}
-        header_up X-Real-IP {remote_host}
-        header_up X-Forwarded-Proto {scheme}
-    }
+    import reverse_the_proxy "localhost:8040"
 }
 ```
 
@@ -248,7 +239,7 @@ PC local                           Serveur production
 ④ git add data/processed/
    git push                   →   ⑤ git pull
                                       05_import.py --law X
-                                      (importe dans PostgreSQL)
+                                      (importe dans SQLite)
                                       sudo systemctl restart prava  ← optionnel
 ```
 

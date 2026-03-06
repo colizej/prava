@@ -26,7 +26,45 @@
   "anchor_id_fr": "fbqvsxmejb",
   "anchor_id_nl": "3rejs98bye",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le rôle du Ministre des Communications concernant la mise en œuvre des décisions relatives à la circulation routière ?",
+      "text_nl": "Wat is de rol van de Minister van Verkeerswezen met betrekking tot de uitvoering van besluiten over het wegverkeer?",
+      "text_ru": "Какова роль Министра транспорта в отношении выполнения решений, касающихся дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il rédige les projets de loi uniquement.",
+          "text_nl": "Hij stelt enkel wetsontwerpen op.",
+          "text_ru": "Он только разрабатывает законопроекты.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est responsable de l'exécution des arrêtés.",
+          "text_nl": "Hij is belast met de uitvoering van de besluiten.",
+          "text_ru": "Он отвечает за исполнение постановлений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il évalue les infractions au code de la route.",
+          "text_nl": "Hij evalueert overtredingen van de wegcode.",
+          "text_ru": "Он оценивает нарушения правил дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Ministre des Communications est chargé de l'exécution des arrêtés, ce qui signifie qu'il veille à leur mise en œuvre.",
+      "explanation_nl": "De Minister van Verkeerswezen is belast met de uitvoering van de besluiten, wat betekent dat hij toeziet op de implementatie ervan.",
+      "explanation_ru": "Министр транспорта отвечает за исполнение постановлений, что означает контроль за их реализацией."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-02T12:48:16Z",
     "content_hash": "d6da3fc7138d",
@@ -36,6 +74,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-06T18:23:06Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 1
   }
 }
