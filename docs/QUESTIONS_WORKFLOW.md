@@ -111,9 +111,21 @@ for law, s in sorted(stats.items()):
 
 ### Limite de taux Gemini (Free tier)
 
-- 15 requêtes/minute → pause automatique de ~4 s entre articles
-- Quota journalier : non épuisé en pratique avec ≤ 150 articles/jour
-- En cas d'erreur 429 : le script attend automatiquement, puis reprend
+- **15 req/minute** → pause automatique de ~4 s entre articles
+- **20 req/jour** (`GenerateRequestsPerDayPerProjectPerModel-FreeTier`) → quota journalier **strict**
+- Le quota se réinitialise à **minuit heure du Pacifique** (= ~09h00 heure de Moscou)
+- En cas d'erreur 429 de rate-limit (< 20/jour) : le script attend 65s et reprend automatiquement
+- En cas d'erreur 429 `RESOURCE_EXHAUSTED` (quota journalier épuisé) : **arrêter le processus et relancer demain**
+
+```bash
+# Arrêter le processus si quota épuisé
+pkill -f run_questions.sh
+pkill -f "04_questions.py"
+```
+
+> Avec 20 requêtes/jour et ~475 articles restants → ~24 jours pour tout générer.
+> Pour accélérer : créer un second projet Google avec une `GEMINI_API_KEY` distincte,
+> ou passer au plan payant Gemini (~$0.10/1M tokens).
 
 ---
 
