@@ -192,7 +192,7 @@ SITE_URL = env('SITE_URL', default='http://localhost:8000')
 # FREEMIUM SETTINGS
 # ==============================================================================
 
-FREE_DAILY_QUESTIONS = 15  # Questions par jour pour les utilisateurs gratuits
+FREE_DAILY_QUESTIONS = 20  # Questions par jour pour les utilisateurs gratuits
 
 # ==============================================================================
 # MOLLIE PAYMENT

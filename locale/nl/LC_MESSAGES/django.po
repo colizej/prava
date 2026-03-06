@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 12:14+0100\n"
+"POT-Creation-Date: 2026-03-06 09:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,43 +23,73 @@ msgstr ""
 msgid "Tableau de bord"
 msgstr "Dashboard"
 
-#: apps/accounts/templates/accounts/dashboard.html:10
+#: apps/accounts/templates/accounts/dashboard.html:18
+#: apps/accounts/templates/accounts/profile.html:34
+msgid "Accès Premium actif"
+msgstr ""
+
+#: apps/accounts/templates/accounts/dashboard.html:21
+#: apps/accounts/templates/accounts/profile.html:38
+msgid "Expire le"
+msgstr ""
+
+#: apps/accounts/templates/accounts/dashboard.html:28
+msgid "Prolonger"
+msgstr ""
+
+#: apps/accounts/templates/accounts/dashboard.html:40
+msgid "Accès Gratuit"
+msgstr ""
+
+#: apps/accounts/templates/accounts/dashboard.html:43
+#, fuzzy
+#| msgid "questions"
+msgid "questions restantes aujourd'hui"
+msgstr "correcte vragen"
+
+#: apps/accounts/templates/accounts/dashboard.html:50
+#, fuzzy
+#| msgid "Passer à Premium"
+msgid "Passer Premium"
+msgstr "Upgrade naar Premium"
+
+#: apps/accounts/templates/accounts/dashboard.html:59
 msgid "Tests passés"
 msgstr "Uitgevoerde tests"
 
-#: apps/accounts/templates/accounts/dashboard.html:14
+#: apps/accounts/templates/accounts/dashboard.html:63
 msgid "Tests réussis"
 msgstr "Geslaagde tests"
 
-#: apps/accounts/templates/accounts/dashboard.html:18
-#: apps/main/templates/main/home.html:38
+#: apps/accounts/templates/accounts/dashboard.html:67
+#: apps/examens/templates/examens/question_detail.html:59
 msgid "Questions"
 msgstr "Vragen"
 
-#: apps/accounts/templates/accounts/dashboard.html:22
+#: apps/accounts/templates/accounts/dashboard.html:71
 msgid "Taux de réussite"
 msgstr "Slaagpercentage"
 
-#: apps/accounts/templates/accounts/dashboard.html:27
+#: apps/accounts/templates/accounts/dashboard.html:76
 msgid "S'entraîner"
 msgstr "Oefenen"
 
-#: apps/accounts/templates/accounts/dashboard.html:28
+#: apps/accounts/templates/accounts/dashboard.html:77
 msgid "Répondez à des questions par catégorie"
 msgstr "Beantwoord vragen per categorie"
 
-#: apps/accounts/templates/accounts/dashboard.html:31
+#: apps/accounts/templates/accounts/dashboard.html:80
 #: apps/examens/templates/examens/results.html:125
 msgid "Catégories"
 msgstr "Categorieën"
 
-#: apps/accounts/templates/accounts/dashboard.html:32
+#: apps/accounts/templates/accounts/dashboard.html:81
 msgid "Explorez toutes les catégories de questions"
 msgstr "Verken alle vraagcategorieën"
 
 #: apps/accounts/templates/accounts/login.html:3
 #: apps/accounts/templates/accounts/login.html:6
-#: templates/includes/navbar.html:44 templates/includes/navbar.html:84
+#: templates/includes/navbar.html:43 templates/includes/navbar.html:83
 msgid "Connexion"
 msgstr "Aanmelden"
 
@@ -72,7 +102,7 @@ msgid "Mot de passe"
 msgstr "Wachtwoord"
 
 #: apps/accounts/templates/accounts/login.html:20
-#: apps/accounts/templates/accounts/register.html:31
+#: apps/accounts/templates/accounts/register.html:36
 msgid "Se connecter"
 msgstr "Aanmelden"
 
@@ -81,78 +111,116 @@ msgid "Pas encore de compte ?"
 msgstr "Nog geen account?"
 
 #: apps/accounts/templates/accounts/login.html:25
-#: apps/accounts/templates/accounts/register.html:26
+#: apps/accounts/templates/accounts/register.html:31
 msgid "S'inscrire"
 msgstr "Registreren"
 
 #: apps/accounts/templates/accounts/profile.html:3
 #: apps/accounts/templates/accounts/profile.html:6
-#: templates/includes/navbar.html:81
+#: templates/includes/navbar.html:80
 msgid "Mon profil"
 msgstr "Mijn profiel"
 
-#: apps/accounts/templates/accounts/profile.html:25
+#: apps/accounts/templates/accounts/profile.html:23
+#: apps/shop/templates/shop/pricing.html:39
+#, fuzzy
+#| msgid "Gratuit de base"
+msgid "Gratuit"
+msgstr "Basis gratis"
+
+#: apps/accounts/templates/accounts/profile.html:43
+msgid "Prolonger →"
+msgstr ""
+
+#: apps/accounts/templates/accounts/profile.html:48
+#, fuzzy
+#| msgid "Passer à Premium"
+msgid "Passez à Premium"
+msgstr "Upgrade naar Premium"
+
+#: apps/accounts/templates/accounts/profile.html:49
+msgid "Questions illimitées, toutes catégories."
+msgstr ""
+
+#: apps/accounts/templates/accounts/profile.html:52
+#, fuzzy
+#| msgid "Voir tous les articles →"
+msgid "Voir les forfaits →"
+msgstr "Alle artikelen zien →"
+
+#: apps/accounts/templates/accounts/profile.html:80
+msgid "Mes achats"
+msgstr ""
+
+#: apps/accounts/templates/accounts/profile.html:81
+msgid "Boutique →"
+msgstr ""
+
+#: apps/accounts/templates/accounts/profile.html:102
+msgid "Aucun achat."
+msgstr ""
+
+#: apps/accounts/templates/accounts/profile.html:103
+#, fuzzy
+#| msgid "Voir les tarifs"
+msgid "Voir les forfaits"
+msgstr "Tarieven bekijken"
+
+#: apps/accounts/templates/accounts/profile.html:109
 #: apps/accounts/templates/accounts/profile_edit.html:3
 #: apps/accounts/templates/accounts/profile_edit.html:6
 msgid "Modifier le profil"
 msgstr "Profiel bewerken"
 
-#: apps/accounts/templates/accounts/profile.html:33
+#: apps/accounts/templates/accounts/profile.html:117
 msgid "Déconnexion"
 msgstr "Afmelden"
 
-#: apps/accounts/templates/accounts/profile.html:46
+#: apps/accounts/templates/accounts/profile.html:130
 msgid "Réussite"
 msgstr "Succes"
 
-#: apps/accounts/templates/accounts/profile.html:55
+#: apps/accounts/templates/accounts/profile.html:139
 msgid "À revoir"
 msgstr "Te herzien"
 
-#: apps/accounts/templates/accounts/profile.html:62
+#: apps/accounts/templates/accounts/profile.html:146
 msgid "Quota du jour"
 msgstr "Daglimiet"
 
-#: apps/accounts/templates/accounts/profile.html:74
-msgid "Derniers tests"
-msgstr "Recente tests"
-
-#: apps/accounts/templates/accounts/profile.html:101
-#: apps/examens/templates/examens/categories.html:48
+#: apps/accounts/templates/accounts/profile.html:160
+#: apps/examens/templates/examens/categories.html:50
 #: apps/examens/templates/examens/my_list.html:3
 #: apps/examens/templates/examens/my_list.html:15
 #: apps/examens/templates/examens/results.html:120
 msgid "Mes révisions"
 msgstr "Mijn herzieningen"
 
-#: apps/accounts/templates/accounts/profile.html:106
-#: apps/examens/templates/examens/categories.html:49
+#: apps/accounts/templates/accounts/profile.html:165
+#: apps/examens/templates/examens/categories.html:51
 msgid "Voir tout →"
 msgstr "Alles zien →"
 
-#: apps/accounts/templates/accounts/profile.html:127
-#: apps/examens/templates/examens/categories.html:71
-msgid "Pratiquer"
-msgstr "Oefenen"
-
-#: apps/accounts/templates/accounts/profile.html:138
-msgid "Thèmes sauvegardés"
-msgstr "Opgeslagen thema's"
-
-#: apps/accounts/templates/accounts/profile.html:153
-msgid ""
-"Aucune question sauvegardée. Après un test, utilisez 🔖 pour marquer les "
-"questions difficiles."
+#: apps/accounts/templates/accounts/profile.html:206
+msgid "Aucune question sauvegardée."
 msgstr ""
-"Geen vragen opgeslagen. Gebruik na een test 🔖 om moeilijke vragen te "
-"markeren."
+
+#: apps/accounts/templates/accounts/profile.html:216
+msgid "Derniers tests"
+msgstr "Recente tests"
+
+#: apps/accounts/templates/accounts/profile.html:217
+#, fuzzy
+#| msgid "Recommencer"
+msgid "Recommencer →"
+msgstr "Opnieuw beginnen"
 
 #: apps/accounts/templates/accounts/profile_edit.html:17
 msgid "Enregistrer"
 msgstr "Opslaan"
 
 #: apps/accounts/templates/accounts/register.html:3
-#: templates/includes/navbar.html:45 templates/includes/navbar.html:85
+#: templates/includes/navbar.html:44 templates/includes/navbar.html:84
 msgid "Inscription"
 msgstr "Registratie"
 
@@ -160,13 +228,13 @@ msgstr "Registratie"
 msgid "Créer un compte"
 msgstr "Account aanmaken"
 
-#: apps/accounts/templates/accounts/register.html:30
+#: apps/accounts/templates/accounts/register.html:35
 msgid "Déjà un compte ?"
 msgstr "Al een account?"
 
 #: apps/blog/templates/blog/detail.html:40 apps/blog/templates/blog/list.html:3
 #: apps/blog/templates/blog/list.html:7 templates/includes/footer.html:23
-#: templates/includes/navbar.html:36 templates/includes/navbar.html:68
+#: templates/includes/navbar.html:37 templates/includes/navbar.html:67
 msgid "Blog"
 msgstr "Blog"
 
@@ -176,7 +244,7 @@ msgid "Par %(author)s"
 msgstr "Door %(author)s"
 
 #: apps/blog/templates/blog/detail.html:51
-#: apps/main/templates/main/home.html:118
+#: apps/main/templates/main/home.html:215
 #, python-format
 msgid "%(t)s min de lecture"
 msgstr "%(t)s min lezen"
@@ -186,9 +254,7 @@ msgid "Articles similaires"
 msgstr "Gerelateerde artikelen"
 
 #: apps/blog/templates/blog/list.html:4
-msgid ""
-"Conseils, guides et actualités pour réussir votre examen théorique du permis "
-"de conduire en Belgique."
+msgid "Conseils, guides et actualités pour réussir votre examen théorique du permis de conduire en Belgique."
 msgstr "Tips, gidsen en nieuws voor uw theoretisch rijexamen in België."
 
 #: apps/blog/templates/blog/list.html:11
@@ -218,18 +284,15 @@ msgid "Aucun résultat trouvé."
 msgstr "Geen resultaten gevonden."
 
 #: apps/examens/templates/examens/categories.html:3
-#: templates/includes/footer.html:21 templates/includes/navbar.html:34
-#: templates/includes/navbar.html:66
+#: apps/examens/templates/examens/question_detail.html:35
+#: templates/includes/footer.html:21 templates/includes/navbar.html:35
+#: templates/includes/navbar.html:65
 msgid "Examens"
 msgstr "Examens"
 
 #: apps/examens/templates/examens/categories.html:4
-msgid ""
-"Entraînez-vous par catégorie ou simulez un examen théorique complet. "
-"Signalisation, priorité, code de la route et plus."
-msgstr ""
-"Oefen per categorie of simuleer een volledig theoretisch examen. "
-"Verkeersborden, voorrang, verkeersregels en meer."
+msgid "Entraînez-vous par catégorie ou simulez un examen théorique complet. Signalisation, priorité, code de la route et plus."
+msgstr "Oefen per categorie of simuleer een volledig theoretisch examen. Verkeersborden, voorrang, verkeersregels en meer."
 
 #: apps/examens/templates/examens/categories.html:10
 msgid "Tests & Examens"
@@ -247,53 +310,56 @@ msgstr "Oefenen per thema"
 msgid "Toutes les questions →"
 msgstr "Alle vragen →"
 
-#: apps/examens/templates/examens/categories.html:39
+#: apps/examens/templates/examens/categories.html:41
 #: apps/reglementation/templates/reglementation/index.html:41
 msgid "Aucune catégorie disponible pour le moment."
 msgstr "Nog geen categorieën beschikbaar."
 
-#: apps/examens/templates/examens/categories.html:67
+#: apps/examens/templates/examens/categories.html:69
 msgid "Voir la liste"
 msgstr "Lijst bekijken"
 
-#: apps/examens/templates/examens/categories.html:76
+#: apps/examens/templates/examens/categories.html:73
+msgid "Pratiquer"
+msgstr "Oefenen"
+
+#: apps/examens/templates/examens/categories.html:78
 msgid "Aucune liste de révision disponible pour le moment."
 msgstr "Nog geen herzieningslijsten beschikbaar."
 
-#: apps/examens/templates/examens/categories.html:84
+#: apps/examens/templates/examens/categories.html:86
 msgid "Simulation d'examen"
 msgstr "Examensimulatie"
 
-#: apps/examens/templates/examens/categories.html:88
+#: apps/examens/templates/examens/categories.html:90
 msgid "Examen complet"
 msgstr "Volledig examen"
 
-#: apps/examens/templates/examens/categories.html:89
-msgid ""
-"50 questions tirées au sort dans toutes les catégories. Chronomètre de 30 "
-"minutes. Comme le vrai examen."
-msgstr ""
-"50 willekeurige vragen uit alle categorieën. Stopwatch van 30 minuten. Zoals "
-"het echte examen."
+#: apps/examens/templates/examens/categories.html:91
+msgid "50 questions tirées au sort dans toutes les catégories. Chronomètre de 30 minutes. Comme le vrai examen."
+msgstr "50 willekeurige vragen uit alle categorieën. Stopwatch van 30 minuten. Zoals het echte examen."
 
-#: apps/examens/templates/examens/categories.html:92
-#: apps/main/templates/main/home.html:63
+#: apps/examens/templates/examens/categories.html:94
+#: apps/main/templates/main/home.html:148
+#: apps/main/templates/main/home.html:152
+#: apps/main/templates/main/home.html:156
+#: apps/main/templates/main/home.html:180
 msgid "questions"
 msgstr "vragen"
 
-#: apps/examens/templates/examens/categories.html:93
+#: apps/examens/templates/examens/categories.html:95
 msgid "Résultats détaillés"
 msgstr "Gedetailleerde resultaten"
 
-#: apps/examens/templates/examens/categories.html:100
+#: apps/examens/templates/examens/categories.html:102
 msgid "Démarrer l'examen"
 msgstr "Examen starten"
 
-#: apps/examens/templates/examens/categories.html:105
+#: apps/examens/templates/examens/categories.html:107
 msgid "Passer à Premium"
 msgstr "Upgrade naar Premium"
 
-#: apps/examens/templates/examens/categories.html:111
+#: apps/examens/templates/examens/categories.html:113
 msgid "Se connecter pour passer l'examen"
 msgstr "Aanmelden voor het examen"
 
@@ -330,14 +396,51 @@ msgid "Votre liste est vide"
 msgstr "Uw lijst is leeg"
 
 #: apps/examens/templates/examens/my_list.html:113
-msgid ""
-"Après un test, cliquez sur 🔖 sur les questions difficiles pour les ajouter "
-"ici."
+msgid "Après un test, cliquez sur 🔖 sur les questions difficiles pour les ajouter ici."
 msgstr "Na een test, klik op 🔖 bij moeilijke vragen om ze hier toe te voegen."
 
 #: apps/examens/templates/examens/my_list.html:116
 msgid "Commencer un entraînement"
 msgstr "Een oefening starten"
+
+#: apps/examens/templates/examens/question_detail.html:5
+#, fuzzy
+#| msgid "Permis de conduire"
+msgid "Question Permis de Conduire"
+msgstr "Rijbewijs"
+
+#: apps/examens/templates/examens/question_detail.html:6
+#, fuzzy
+#| msgid "%(SITE_NAME)s est une plateforme de préparation à l'examen théorique du permis de conduire en Belgique."
+msgid "Réponse et explication complète pour votre préparation à l'examen théorique du permis de conduire en Belgique."
+msgstr "%(SITE_NAME)s is een platform voor de voorbereiding op het theoretisch rijexamen in België."
+
+#: apps/examens/templates/examens/question_detail.html:98
+#: apps/reglementation/templates/reglementation/signs.html:56
+#: apps/reglementation/templates/reglementation/signs_type.html:40
+msgid "Explication"
+msgstr "Uitleg"
+
+#: apps/examens/templates/examens/question_detail.html:109
+#, fuzzy
+#| msgid "Article suivant"
+msgid "Article lié"
+msgstr "Volgend artikel"
+
+#: apps/examens/templates/examens/question_detail.html:119
+#, fuzzy
+#| msgid "Explorez toutes les catégories de questions"
+msgid "Entraînez-vous avec des centaines de questions"
+msgstr "Verken alle vraagcategorieën"
+
+#: apps/examens/templates/examens/question_detail.html:120
+msgid "Mode examen, entraînement par thème, correction immédiate."
+msgstr ""
+
+#: apps/examens/templates/examens/question_detail.html:123
+#: apps/main/templates/main/home.html:55
+msgid "Commencer l'entraînement"
+msgstr "Begin met oefenen"
 
 #: apps/examens/templates/examens/quiz.html:18
 #, python-format
@@ -432,7 +535,7 @@ msgid "Bonne réponse :"
 msgstr "Goed antwoord:"
 
 #: apps/examens/templates/examens/results.html:115
-#: apps/reglementation/templates/reglementation/article.html:248
+#: apps/reglementation/templates/reglementation/article.html:281
 msgid "Recommencer"
 msgstr "Opnieuw beginnen"
 
@@ -447,20 +550,12 @@ msgstr "Over %(SITE_NAME)s"
 
 #: apps/main/templates/main/about.html:8
 #, python-format
-msgid ""
-"%(SITE_NAME)s est une plateforme de préparation à l'examen théorique du "
-"permis de conduire en Belgique."
-msgstr ""
-"%(SITE_NAME)s is een platform voor de voorbereiding op het theoretisch "
-"rijexamen in België."
+msgid "%(SITE_NAME)s est une plateforme de préparation à l'examen théorique du permis de conduire en Belgique."
+msgstr "%(SITE_NAME)s is een platform voor de voorbereiding op het theoretisch rijexamen in België."
 
 #: apps/main/templates/main/about.html:9
-msgid ""
-"Notre mission : vous aider à réussir votre examen grâce à des questions "
-"d'entraînement de qualité, disponibles en français, néerlandais et russe."
-msgstr ""
-"Onze missie: u helpen slagen voor uw examen met kwaliteitsoefenvragen, "
-"beschikbaar in het Frans, Nederlands en Russisch."
+msgid "Notre mission : vous aider à réussir votre examen grâce à des questions d'entraînement de qualité, disponibles en français, néerlandais et russe."
+msgstr "Onze missie: u helpen slagen voor uw examen met kwaliteitsoefenvragen, beschikbaar in het Frans, Nederlands en Russisch."
 
 #: apps/main/templates/main/contact.html:3
 msgid "Contact"
@@ -470,23 +565,23 @@ msgstr "Contact"
 msgid "Contactez-nous"
 msgstr "Neem contact op"
 
-#: apps/main/templates/main/contact.html:10
+#: apps/main/templates/main/contact.html:15
 msgid "Nom"
 msgstr "Naam"
 
-#: apps/main/templates/main/contact.html:15
+#: apps/main/templates/main/contact.html:20
 msgid "Email"
 msgstr "E-mail"
 
-#: apps/main/templates/main/contact.html:20
+#: apps/main/templates/main/contact.html:25
 msgid "Sujet"
 msgstr "Onderwerp"
 
-#: apps/main/templates/main/contact.html:25
+#: apps/main/templates/main/contact.html:30
 msgid "Message"
 msgstr "Bericht"
 
-#: apps/main/templates/main/contact.html:30
+#: apps/main/templates/main/contact.html:35
 msgid "Envoyer"
 msgstr "Verzenden"
 
@@ -511,202 +606,208 @@ msgid "Préparation Permis de Conduire Belgique"
 msgstr "Voorbereiding Rijbewijs België"
 
 #: apps/main/templates/main/home.html:5
-msgid ""
-"Préparez votre examen théorique du permis de conduire en Belgique avec plus "
-"de %(n)s questions. Entraînement gratuit, mode examen, réglementation "
-"complète."
-msgstr ""
-"Bereid je theoretisch rijexamen voor in België met meer dan %(n)s vragen. "
-"Gratis oefenen, examenmodus, volledig verkeersreglement."
+#, python-format
+msgid "Préparez votre examen théorique du permis de conduire en Belgique avec plus de %(n)s questions. Entraînement gratuit, mode examen, réglementation complète."
+msgstr "Bereid je theoretisch rijexamen voor in België met meer dan %(n)s vragen. Gratis oefenen, examenmodus, volledig verkeersreglement."
 
-#: apps/main/templates/main/home.html:13
+#: apps/main/templates/main/home.html:14
+msgid "Préparation à l\\"
+msgstr ""
+
+#: apps/main/templates/main/home.html:34
+msgid "Accès gratuit à 20 questions par jour"
+msgstr "Gratis toegang tot 20 vragen per dag"
+
+#: apps/main/templates/main/home.html:47
 msgid "Réussissez votre examen théorique du permis de conduire"
 msgstr "Slaag voor uw theoretisch rijexamen"
 
-#: apps/main/templates/main/home.html:16
+#: apps/main/templates/main/home.html:50
 #, python-format
-msgid ""
-"Plus de %(n)s questions d'entraînement, code de la route complet, et mode "
-"examen simulé."
-msgstr ""
-"Meer dan %(n)s oefenvragen, volledig verkeersreglement en gesimuleerde "
-"examenmodus."
+msgid "Plus de %(n)s questions d'entraînement, code de la route complet, et mode examen simulé."
+msgstr "Meer dan %(n)s oefenvragen, volledig verkeersreglement en gesimuleerde examenmodus."
 
-#: apps/main/templates/main/home.html:21
-msgid "Commencer l'entraînement"
-msgstr "Begin met oefenen"
-
-#: apps/main/templates/main/home.html:25
+#: apps/main/templates/main/home.html:59
 msgid "Voir les tarifs"
 msgstr "Tarieven bekijken"
 
-#: apps/main/templates/main/home.html:42 templates/includes/footer.html:40
-msgid "Langues"
-msgstr "Talen"
+#: apps/main/templates/main/home.html:76
+#, fuzzy
+#| msgid "Simulation d'examen"
+msgid "questions d'entraînement"
+msgstr "Examensimulatie"
 
-#: apps/main/templates/main/home.html:46
-msgid "Gratuit de base"
-msgstr "Basis gratis"
+#: apps/main/templates/main/home.html:85
+msgid "3 langues disponibles"
+msgstr ""
 
-#: apps/main/templates/main/home.html:56
-msgid "Catégories de questions"
-msgstr "Vraagcategorieën"
+#: apps/main/templates/main/home.html:94
+#, fuzzy
+#| msgid "Prêt à commencer ?"
+msgid "gratuit pour commencer"
+msgstr "Klaar om te beginnen?"
 
-#: apps/main/templates/main/home.html:69
-msgid "Voir toutes les catégories →"
-msgstr "Alle categorieën zien →"
+#: apps/main/templates/main/home.html:103
+msgid "questions via réservoir"
+msgstr ""
 
-#: apps/main/templates/main/home.html:79
+#: apps/main/templates/main/home.html:113
 #, python-format
 msgid "Pourquoi %(SITE_NAME)s ?"
 msgstr "Waarom %(SITE_NAME)s?"
 
-#: apps/main/templates/main/home.html:83
+#: apps/main/templates/main/home.html:119
 msgid "Mobile First"
 msgstr "Mobiel Eerst"
 
-#: apps/main/templates/main/home.html:84
-msgid ""
-"Révisez n'importe où depuis votre smartphone. Application optimisée pour "
-"mobile."
+#: apps/main/templates/main/home.html:120
+msgid "Révisez n'importe où depuis votre smartphone. Application optimisée pour mobile."
 msgstr "Leer overal, op uw smartphone. Geoptimaliseerd voor mobiel."
 
-#: apps/main/templates/main/home.html:88
+#: apps/main/templates/main/home.html:126
 msgid "Suivi de progression"
 msgstr "Voortgangsbeheer"
 
-#: apps/main/templates/main/home.html:89
+#: apps/main/templates/main/home.html:127
 msgid "Suivez vos résultats, identifiez vos points faibles et améliorez-vous."
 msgstr "Volg uw resultaten, identificeer zwakke punten en verbeter uzelf."
 
-#: apps/main/templates/main/home.html:93
+#: apps/main/templates/main/home.html:133
 msgid "Multilingue"
 msgstr "Meertalig"
 
-#: apps/main/templates/main/home.html:94
+#: apps/main/templates/main/home.html:134
 msgid "Disponible en Français, Nederlands et Русский pour les expatriés."
 msgstr "Beschikbaar in het Frans, Nederlands en Russisch voor expats."
 
-#: apps/main/templates/main/home.html:104
+#: apps/main/templates/main/home.html:142
+msgid "Réservoir de carburant — questions gratuites"
+msgstr "Brandstoftank — gratis vragen"
+
+#: apps/main/templates/main/home.html:143
+msgid "Chaque visite et chaque test réussi vous rapportent des litres de carburant. Échangez-les contre des questions supplémentaires gratuites. 20 L → 10 questions, 40 L → 30 questions, plein (60 L) → 50 questions !"
+msgstr "Elke bezoek en elke geslaagde test levert brandstofliters op. Ruil ze in voor extra gratis vragen. 20 L → 10 vragen, 40 L → 30 vragen, volle tank (60 L) → 50 vragen!"
+
+#: apps/main/templates/main/home.html:169
+msgid "Catégories de questions"
+msgstr "Vraagcategorieën"
+
+#: apps/main/templates/main/home.html:190
+msgid "Voir toutes les catégories →"
+msgstr "Alle categorieën zien →"
+
+#: apps/main/templates/main/home.html:201
 msgid "Derniers articles"
 msgstr "Laatste artikelen"
 
-#: apps/main/templates/main/home.html:125
+#: apps/main/templates/main/home.html:222
 msgid "Voir tous les articles →"
 msgstr "Alle artikelen zien →"
 
-#: apps/main/templates/main/home.html:135
+#: apps/main/templates/main/home.html:232
 msgid "Prêt à commencer ?"
 msgstr "Klaar om te beginnen?"
 
-#: apps/main/templates/main/home.html:136
-msgid ""
-"Inscrivez-vous gratuitement et commencez votre préparation dès maintenant."
+#: apps/main/templates/main/home.html:233
+msgid "Inscrivez-vous gratuitement et commencez votre préparation dès maintenant."
 msgstr "Registreer gratis en begin nu met uw voorbereiding."
 
-#: apps/main/templates/main/home.html:140
+#: apps/main/templates/main/home.html:237
 msgid "Créer un compte gratuit"
 msgstr "Gratis account aanmaken"
 
-#: apps/main/templates/main/home.html:145
+#: apps/main/templates/main/home.html:242
 msgid "S'entraîner maintenant"
 msgstr "Nu oefenen"
 
 #: apps/main/templates/main/pricing.html:3 templates/includes/footer.html:34
-#: templates/includes/navbar.html:37 templates/includes/navbar.html:69
+#: templates/includes/navbar.html:38 templates/includes/navbar.html:68
 msgid "Tarifs"
 msgstr "Tarieven"
 
 #: apps/main/templates/main/pricing.html:4
-msgid ""
-"Découvrez nos tarifs pour la préparation à l'examen théorique du permis de "
-"conduire. Accès gratuit ou premium."
-msgstr ""
-"Ontdek onze tarieven voor de voorbereiding op het theoretisch rijexamen. "
-"Gratis of premium toegang."
+msgid "Découvrez nos tarifs pour la préparation à l'examen théorique du permis de conduire. Accès gratuit ou premium."
+msgstr "Ontdek onze tarieven voor de voorbereiding op het theoretisch rijexamen. Gratis of premium toegang."
 
 #: apps/main/templates/main/pricing.html:8
+#: apps/shop/templates/shop/pricing.html:4
 msgid "Nos tarifs"
 msgstr "Onze tarieven"
 
 #: apps/main/templates/main/pricing.html:9
-msgid ""
-"Choisissez le plan qui vous convient. Commencez gratuitement et passez à "
-"Premium quand vous êtes prêt."
-msgstr ""
-"Kies het plan dat bij u past. Begin gratis en upgrade naar Premium wanneer u "
-"klaar bent."
+msgid "Choisissez le plan qui vous convient. Commencez gratuitement et passez à Premium quand vous êtes prêt."
+msgstr "Kies het plan dat bij u past. Begin gratis en upgrade naar Premium wanneer u klaar bent."
 
 #: apps/main/templates/main/pricing.html:16
 msgid "Populaire"
 msgstr "Populair"
 
-#: apps/reglementation/templates/reglementation/article.html:12
+#: apps/reglementation/templates/reglementation/article.html:45
 #: apps/reglementation/templates/reglementation/category.html:11
 #: apps/reglementation/templates/reglementation/index.html:3
 #: apps/reglementation/templates/reglementation/index.html:11
-#: templates/includes/footer.html:22 templates/includes/navbar.html:35
-#: templates/includes/navbar.html:67
+#: templates/includes/footer.html:22 templates/includes/navbar.html:36
+#: templates/includes/navbar.html:66
 msgid "Réglementation"
 msgstr "Verkeersregels"
 
-#: apps/reglementation/templates/reglementation/article.html:98
+#: apps/reglementation/templates/reglementation/article.html:131
 #, fuzzy
 #| msgid "Simulation d'examen"
 msgid "Questions d'examen"
 msgstr "Examensimulatie"
 
-#: apps/reglementation/templates/reglementation/article.html:106
+#: apps/reglementation/templates/reglementation/article.html:139
 msgid "Liste"
 msgstr "Lijst"
 
-#: apps/reglementation/templates/reglementation/article.html:111
+#: apps/reglementation/templates/reglementation/article.html:144
 msgid "Test"
 msgstr "Test"
 
-#: apps/reglementation/templates/reglementation/article.html:132
+#: apps/reglementation/templates/reglementation/article.html:165
 msgid "Facile"
 msgstr "Eenvoudig"
 
-#: apps/reglementation/templates/reglementation/article.html:132
+#: apps/reglementation/templates/reglementation/article.html:165
 msgid "Moyen"
 msgstr "Gemiddeld"
 
-#: apps/reglementation/templates/reglementation/article.html:132
+#: apps/reglementation/templates/reglementation/article.html:165
 msgid "Difficile"
 msgstr "Moeilijk"
 
-#: apps/reglementation/templates/reglementation/article.html:138
+#: apps/reglementation/templates/reglementation/article.html:171
 #, fuzzy
 #| msgid "Voir les tarifs"
 msgid "Voir les options"
 msgstr "Opties bekijken"
 
-#: apps/reglementation/templates/reglementation/article.html:161
+#: apps/reglementation/templates/reglementation/article.html:194
 msgid "répondues"
 msgstr "beantwoord"
 
-#: apps/reglementation/templates/reglementation/article.html:162
+#: apps/reglementation/templates/reglementation/article.html:195
 #, fuzzy
 #| msgid "questions"
 msgid "correctes"
 msgstr "correct"
 
-#: apps/reglementation/templates/reglementation/article.html:245
+#: apps/reglementation/templates/reglementation/article.html:278
 #, fuzzy
 #| msgid "questions"
 msgid "questions correctes"
 msgstr "correcte vragen"
 
-#: apps/reglementation/templates/reglementation/article.html:304
+#: apps/reglementation/templates/reglementation/article.html:337
 msgid "Article précédent"
 msgstr "Vorig artikel"
 
-#: apps/reglementation/templates/reglementation/article.html:318
+#: apps/reglementation/templates/reglementation/article.html:351
 msgid "Article suivant"
 msgstr "Volgend artikel"
 
-#: apps/reglementation/templates/reglementation/article.html:331
+#: apps/reglementation/templates/reglementation/article.html:364
 #, python-format
 msgid "Sommaire — %(name)s"
 msgstr "Inhoudsopgave — %(name)s"
@@ -726,131 +827,120 @@ msgid "Suivant →"
 msgstr "Volgende →"
 
 #: apps/reglementation/templates/reglementation/index.html:4
-msgid ""
-"Code de la route belge complet par thème. Règles de circulation, "
-"signalisation, permis de conduire et plus encore."
-msgstr ""
-"Volledig Belgisch verkeersreglement per thema. Rijregels, verkeersborden, "
-"rijbewijs en meer."
+msgid "Code de la route belge complet par thème. Règles de circulation, signalisation, permis de conduire et plus encore."
+msgstr "Volledig Belgisch verkeersreglement per thema. Rijregels, verkeersborden, rijbewijs en meer."
 
 #: apps/reglementation/templates/reglementation/index.html:12
-msgid ""
-"Code de la route belge organisé par thèmes. Sélectionnez un thème pour "
-"consulter les articles."
-msgstr ""
-"Belgisch verkeersreglement per thema. Selecteer een thema om de artikelen te "
-"raadplegen."
+msgid "Code de la route belge organisé par thèmes. Sélectionnez un thème pour consulter les articles."
+msgstr "Belgisch verkeersreglement per thema. Selecteer een thema om de artikelen te raadplegen."
 
 #: apps/reglementation/templates/reglementation/index.html:32
 msgid "article"
 msgstr "artikel"
 
-#: apps/reglementation/templates/reglementation/index.html:54
-msgid "Textes législatifs de référence"
-msgstr "Referentie wetgevende teksten"
-
-#: apps/reglementation/templates/reglementation/index.html:55
-msgid "Lois et arrêtés royaux belges complémentaires au code de la route"
-msgstr "Belgische wetten en koninklijke besluiten aanvullend op het verkeersreglement"
-"Belgische wetten en koninklijke besluiten aanvullend op het verkeersreglement"
-
-#: apps/reglementation/templates/reglementation/index.html:103
+#: apps/reglementation/templates/reglementation/index.html:52
 msgid "Réglementation par thème"
 msgstr "Verkeersregels per thema"
 
-#: apps/reglementation/templates/reglementation/index.html:104
+#: apps/reglementation/templates/reglementation/index.html:53
 msgid "Toute la réglementation routière belge classée par domaine"
 msgstr "Alle Belgische verkeersregels geclassificeerd per domein"
 
-#: apps/reglementation/templates/reglementation/index.html:115
+#: apps/reglementation/templates/reglementation/index.html:64
 msgid "Règles de circulation"
 msgstr "Verkeersregels"
 
-#: apps/reglementation/templates/reglementation/index.html:116
+#: apps/reglementation/templates/reglementation/index.html:65
 msgid "Priorité, vitesse, dépassement…"
 msgstr "Voorrang, snelheid, inhalen…"
 
-#: apps/reglementation/templates/reglementation/index.html:127
+#: apps/reglementation/templates/reglementation/index.html:76
 #, fuzzy
 #| msgid "Panneaux de signalisation"
 msgid "Infrastructure et signalisation"
 msgstr "Infrastructuur en signalisatie"
 
-#: apps/reglementation/templates/reglementation/index.html:128
+#: apps/reglementation/templates/reglementation/index.html:77
 msgid "Panneaux, marquages, feux…"
 msgstr "Verkeersborden, wegmarkering, lichten…"
 
-#: apps/reglementation/templates/reglementation/index.html:139
+#: apps/reglementation/templates/reglementation/index.html:88
 msgid "Politique criminelle"
 msgstr "Strafrechtelijk beleid"
 
-#: apps/reglementation/templates/reglementation/index.html:140
+#: apps/reglementation/templates/reglementation/index.html:89
 msgid "Sanctions, amendes, procédures…"
 msgstr "Sancties, boetes, procedures…"
 
-#: apps/reglementation/templates/reglementation/index.html:151
+#: apps/reglementation/templates/reglementation/index.html:100
 msgid "Permis de conduire"
 msgstr "Rijbewijs"
 
-#: apps/reglementation/templates/reglementation/index.html:152
+#: apps/reglementation/templates/reglementation/index.html:101
 msgid "Catégories, examen, validité…"
 msgstr "Categorieën, examen, geldigheid…"
 
-#: apps/reglementation/templates/reglementation/index.html:163
+#: apps/reglementation/templates/reglementation/index.html:112
 msgid "Assurance et immatriculation"
 msgstr "Verzekering en registratie"
 
-#: apps/reglementation/templates/reglementation/index.html:164
+#: apps/reglementation/templates/reglementation/index.html:113
 msgid "Plaques, assurance RC, contrôle…"
 msgstr "Nummerplaten, BA-verzekering, controle…"
 
-#: apps/reglementation/templates/reglementation/index.html:175
+#: apps/reglementation/templates/reglementation/index.html:124
 msgid "Transport de marchandises"
 msgstr "Goederenvervoer"
 
-#: apps/reglementation/templates/reglementation/index.html:176
+#: apps/reglementation/templates/reglementation/index.html:125
 msgid "ADR, poids lourds, chargement…"
 msgstr "ADR, vrachtwagens, lading…"
 
-#: apps/reglementation/templates/reglementation/index.html:187
+#: apps/reglementation/templates/reglementation/index.html:136
 msgid "Transport de personnes"
 msgstr "Personenvervoer"
 
-#: apps/reglementation/templates/reglementation/index.html:188
+#: apps/reglementation/templates/reglementation/index.html:137
 msgid "Bus, taxis, covoiturage…"
 msgstr "Bus, taxi, carpoolen…"
 
-#: apps/reglementation/templates/reglementation/index.html:199
+#: apps/reglementation/templates/reglementation/index.html:148
 msgid "Aptitude professionnelle"
 msgstr "Beroepsbekwaamheid"
 
-#: apps/reglementation/templates/reglementation/index.html:200
+#: apps/reglementation/templates/reglementation/index.html:149
 msgid "Formation, certificats, CAP…"
 msgstr "Opleiding, certificaten, kwalificatie…"
 
-#: apps/reglementation/templates/reglementation/index.html:211
+#: apps/reglementation/templates/reglementation/index.html:160
 msgid "Conditions techniques"
 msgstr "Technische vereisten"
 
-#: apps/reglementation/templates/reglementation/index.html:212
+#: apps/reglementation/templates/reglementation/index.html:161
 msgid "Contrôle technique, normes…"
 msgstr "Technische keuring, normen…"
 
-#: apps/reglementation/templates/reglementation/index.html:226
+#: apps/reglementation/templates/reglementation/index.html:175
 #: apps/reglementation/templates/reglementation/signs.html:3
 #: apps/reglementation/templates/reglementation/signs.html:7
 msgid "Panneaux de signalisation"
 msgstr "Verkeersborden"
 
-#: apps/reglementation/templates/reglementation/index.html:227
-msgid ""
-"Consultez tous les panneaux de signalisation routière belges, classés par "
-"type."
+#: apps/reglementation/templates/reglementation/index.html:176
+msgid "Consultez tous les panneaux de signalisation routière belges, classés par type."
 msgstr "Bekijk alle Belgische verkeersborden, gerangschikt per type."
 
-#: apps/reglementation/templates/reglementation/index.html:230
+#: apps/reglementation/templates/reglementation/index.html:179
 msgid "Voir les panneaux"
 msgstr "Borden bekijken"
+
+#: apps/reglementation/templates/reglementation/index.html:192
+msgid "Textes législatifs de référence"
+msgstr "Referentie wetgevende teksten"
+
+#: apps/reglementation/templates/reglementation/index.html:193
+msgid "Lois et arrêtés royaux belges complémentaires au code de la route"
+msgstr "Belgische wetten en koninklijke besluiten aanvullend op het verkeersreglementBelgische wetten en koninklijke besluiten aanvullend op het verkeersreglement"
 
 #: apps/reglementation/templates/reglementation/signs.html:8
 msgid "Apprenez à reconnaître tous les panneaux routiers belges."
@@ -868,11 +958,6 @@ msgstr "Alle bekijken"
 #| msgid "Pratiquer"
 msgid "Masquer"
 msgstr "Verbergen"
-
-#: apps/reglementation/templates/reglementation/signs.html:56
-#: apps/reglementation/templates/reglementation/signs_type.html:40
-msgid "Explication"
-msgstr "Uitleg"
 
 #: apps/reglementation/templates/reglementation/signs.html:76
 msgid "autres"
@@ -965,6 +1050,227 @@ msgstr "KB van 20 juli 2001 — Inschrijving van voertuigen"
 msgid "Conditions et procédures d'immatriculation, plaques minéralogiques"
 msgstr "Voorwaarden en procedures voor inschrijving, nummerplaten"
 
+#: apps/rewards/templates/rewards/widget_mobile.html:8
+#, fuzzy
+#| msgid "À revoir"
+msgid "Réservoir"
+msgstr "Te herzien"
+
+#: apps/shop/templates/shop/checkout.html:4
+#: apps/shop/templates/shop/checkout.html:19
+msgid "Récapitulatif"
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:14
+#: apps/shop/templates/shop/return_pending.html:27
+#, fuzzy
+#| msgid "Voir les tarifs"
+msgid "Retour aux tarifs"
+msgstr "Tarieven bekijken"
+
+#: apps/shop/templates/shop/checkout.html:20
+msgid "Vérifiez votre commande avant de payer."
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:29
+msgid "Accès pendant 24 heures"
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:30
+msgid "Accès pendant 3 jours"
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:31
+msgid "Accès pendant 7 jours"
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:32
+msgid "Accès pendant 30 jours"
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:37
+msgid "Total"
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:48
+msgid "Compte"
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:61
+msgid "Procéder au paiement"
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:66
+msgid "Vous serez redirigé vers Mollie pour effectuer le paiement en toute sécurité."
+msgstr ""
+
+#: apps/shop/templates/shop/checkout.html:77
+msgid "Bancontact · Visa · Mastercard · iDEAL"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:5
+#, fuzzy
+#| msgid "%(SITE_NAME)s est une plateforme de préparation à l'examen théorique du permis de conduire en Belgique."
+msgid "Accès illimité ou journalier aux questions de l'examen théorique du permis de conduire en Belgique."
+msgstr "%(SITE_NAME)s is een platform voor de voorbereiding op het theoretisch rijexamen in België."
+
+#: apps/shop/templates/shop/pricing.html:12
+msgid "Choisissez votre accès"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:14
+#, fuzzy
+#| msgid "Choisissez le plan qui vous convient. Commencez gratuitement et passez à Premium quand vous êtes prêt."
+msgid "Commencez gratuitement. Passez à l'accès complet quand vous êtes prêt."
+msgstr "Kies het plan dat bij u past. Begin gratis en upgrade naar Premium wanneer u klaar bent."
+
+#: apps/shop/templates/shop/pricing.html:29
+#, fuzzy
+#| msgid "Populaire"
+msgid "Le plus populaire"
+msgstr "Populair"
+
+#: apps/shop/templates/shop/pricing.html:43
+msgid "jour"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:44
+msgid "jours"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:45
+msgid "semaine"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:46
+msgid "mois"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:57
+msgid "20 questions / jour"
+msgstr "20 vragen / dag"
+
+#: apps/shop/templates/shop/pricing.html:61
+#, fuzzy
+#| msgid "Catégories de questions"
+msgid "Catégories de base"
+msgstr "Vraagcategorieën"
+
+#: apps/shop/templates/shop/pricing.html:65
+msgid "Réservoir : échangez vos litres contre des questions bonus"
+msgstr "Tank: ruil liters in voor bonusvragen"
+
+#: apps/shop/templates/shop/pricing.html:70
+#, fuzzy
+#| msgid "Simulation d'examen"
+msgid "Questions illimitées"
+msgstr "Examensimulatie"
+
+#: apps/shop/templates/shop/pricing.html:74
+#, fuzzy
+#| msgid "Voir toutes les catégories →"
+msgid "Toutes les catégories"
+msgstr "Alle categorieën zien →"
+
+#: apps/shop/templates/shop/pricing.html:78
+msgid "Mode examen simulé"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:82
+msgid "Sans publicité"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:86
+msgid "Bonus litres de carburant offerts à l'achat"
+msgstr "Bonus brandstofliters bij aankoop"
+
+#: apps/shop/templates/shop/pricing.html:91
+msgid "Statistiques avancées"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:97
+msgid "Support prioritaire"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:108
+#, fuzzy
+#| msgid "Commencer l'entraînement"
+msgid "Commencer gratuitement"
+msgstr "Begin met oefenen"
+
+#: apps/shop/templates/shop/pricing.html:115
+msgid "Acheter"
+msgstr ""
+
+#: apps/shop/templates/shop/pricing.html:121
+#, fuzzy
+#| msgid "Aucune liste disponible pour le moment."
+msgid "Aucun forfait disponible."
+msgstr "Nog geen lijst beschikbaar."
+
+#: apps/shop/templates/shop/pricing.html:131
+msgid "Paiement sécurisé via Mollie — Bancontact, Visa, Mastercard"
+msgstr ""
+
+#: apps/shop/templates/shop/return_pending.html:4
+msgid "Paiement en cours..."
+msgstr ""
+
+#: apps/shop/templates/shop/return_pending.html:16
+msgid "Vérification du paiement…"
+msgstr ""
+
+#: apps/shop/templates/shop/return_pending.html:17
+msgid "Veuillez patienter quelques secondes."
+msgstr ""
+
+#: apps/shop/templates/shop/success.html:4
+#: apps/shop/templates/shop/success.html:16
+msgid "Paiement confirmé !"
+msgstr ""
+
+#: apps/shop/templates/shop/success.html:18
+msgid "Votre accès Premium est maintenant actif."
+msgstr ""
+
+#: apps/shop/templates/shop/success.html:21
+#, python-format
+msgid ""
+"\n"
+"    Disponible jusqu'au %(until)s.\n"
+"    "
+msgstr ""
+
+#: apps/shop/templates/shop/success.html:31
+msgid "Forfait"
+msgstr ""
+
+#: apps/shop/templates/shop/success.html:35
+msgid "Montant payé"
+msgstr ""
+
+#: apps/shop/templates/shop/success.html:39
+msgid "Référence"
+msgstr ""
+
+#: apps/shop/templates/shop/success.html:49
+#, fuzzy
+#| msgid "Commencer l'entraînement"
+msgid "Commencer à m'entraîner"
+msgstr "Begin met oefenen"
+
+#: apps/shop/views.py:72
+msgid "Le plan Gratuit est déjà actif."
+msgstr ""
+
+#: apps/shop/views.py:121
+msgid "Le paiement n'a pas pu être initié. Veuillez réessayer."
+msgstr ""
+
+#: apps/shop/views.py:158
+msgid "Le paiement a été annulé."
+msgstr ""
+
 #: templates/errors/404.html:3
 msgid "Page non trouvée"
 msgstr "Pagina niet gevonden"
@@ -994,12 +1300,8 @@ msgid "Une erreur inattendue s'est produite. Veuillez réessayer plus tard."
 msgstr "Er is een onverwachte fout opgetreden. Probeer het later opnieuw."
 
 #: templates/includes/footer.html:13
-msgid ""
-"Préparation à l'examen théorique du permis de conduire en Belgique. Plus de "
-"1000 questions pour réussir votre examen."
-msgstr ""
-"Voorbereiding op het theoretisch rijexamen in België. Meer dan 1000 vragen "
-"om te slagen voor uw examen."
+msgid "Préparation à l'examen théorique du permis de conduire en Belgique. Plus de 1000 questions pour réussir votre examen."
+msgstr "Voorbereiding op het theoretisch rijexamen in België. Meer dan 1000 vragen om te slagen voor uw examen."
 
 #: templates/includes/footer.html:19
 msgid "Navigation"
@@ -1009,26 +1311,1211 @@ msgstr "Navigatie"
 msgid "Informations"
 msgstr "Informatie"
 
+#: templates/includes/footer.html:40
+msgid "Langues"
+msgstr "Talen"
+
 #: templates/includes/footer.html:71
 msgid "Tous droits réservés."
 msgstr "Alle rechten voorbehouden."
 
-#: templates/includes/navbar.html:73
+#: templates/includes/navbar.html:72
 msgid "Langue :"
 msgstr "Taal:"
 
-#: apps/main/templates/main/home.html
-msgid "Réservoir de carburant — questions gratuites"
-msgstr "Brandstoftank — gratis vragen"
+#: venv/lib/python3.14/site-packages/django/contrib/messages/apps.py:16
+#, fuzzy
+#| msgid "Message"
+msgid "Messages"
+msgstr "Bericht"
 
-#: apps/main/templates/main/home.html
-msgid "Chaque visite et chaque test réussi vous rapportent des litres de carburant. Échangez-les contre des questions supplémentaires gratuites. 20 L → 10 questions, 40 L → 30 questions, plein (60 L) → 50 questions !"
-msgstr "Elke bezoek en elke geslaagde test levert brandstofliters op. Ruil ze in voor extra gratis vragen. 20 L → 10 vragen, 40 L → 30 vragen, volle tank (60 L) → 50 vragen!"
+#: venv/lib/python3.14/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
 
-#: apps/shop/templates/shop/pricing.html
-msgid "Réservoir : échangez vos litres contre des questions bonus"
-msgstr "Tank: ruil liters in voor bonusvragen"
+#: venv/lib/python3.14/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
 
-#: apps/shop/templates/shop/pricing.html
-msgid "Bonus litres de carburant offerts à l'achat"
-msgstr "Bonus brandstofliters bij aankoop"
+#: venv/lib/python3.14/site-packages/django/contrib/syndication/apps.py:7
+#, fuzzy
+#| msgid "Explication"
+msgid "Syndication"
+msgstr "Uitleg"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:33
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:35
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:36
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:37
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:153
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:774
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:200
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:211
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.14/site-packages/django/core/validators.py:289
+msgid "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:297
+msgid "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or hyphens."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:309
+#: venv/lib/python3.14/site-packages/django/core/validators.py:318
+#: venv/lib/python3.14/site-packages/django/core/validators.py:332
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:311
+msgid "IPv4"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:320
+#: venv/lib/python3.14/site-packages/django/utils/ipv6.py:43
+msgid "IPv6"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:334
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:441
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s, starting from %(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:473
+#, python-format
+msgid "Ensure this value has at least %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at least %(limit_value)d characters (it has %(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:491
+#, python-format
+msgid "Ensure this value has at most %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at most %(limit_value)d characters (it has %(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:514
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:365
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:404
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:526
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural "Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:597
+#, python-format
+msgid "File extension “%(extension)s” is not allowed. Allowed extensions are: %(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:659
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/base.py:1633
+#: venv/lib/python3.14/site-packages/django/forms/models.py:932
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/base.py:1635
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/constraints.py:20
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1161
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1164
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1214
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1216
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1325
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1426
+#, python-format
+msgid "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD format."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1430
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1565
+#, python-format
+msgid "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid date."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1434
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1561
+#, python-format
+msgid "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1569
+#, python-format
+msgid "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1574
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1701
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1703
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1864
+#, python-format
+msgid "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1868
+#, fuzzy
+#| msgid "Questions"
+msgid "Duration"
+msgstr "Vragen"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1920
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1945
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2025
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2067
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2180
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2188
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2219
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2310
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2364
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2379
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2394
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2446
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2526
+#, python-format
+msgid "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2530
+#, python-format
+msgid "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an invalid time."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2534
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2642
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2666
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2733
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:978
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:981
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1275
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1332
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1334
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1382
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to
+#. the label
+#: venv/lib/python3.14/site-packages/django/forms/boundfield.py:188
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:92
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:314
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:485
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1251
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:508
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1252
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:535
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:569
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:570
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:639
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:640
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:641
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:643
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural "Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:648
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:716
+msgid "Upload a valid image. The file you uploaded was either not an image or a corrupted image."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:872
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:959
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1621
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:961
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1080
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1619
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1081
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1323
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1353
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.14/site-packages/django/forms/forms.py:97
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid "ManagementForm data is missing or has been tampered with. Missing fields: %(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:925
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:930
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:937
+#, python-format
+msgid "Please correct the duplicate data for %(field_name)s which must be unique for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:946
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1383
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1474
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1623
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/utils.py:229
+#, python-format
+msgid "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:528
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:529
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:530
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:869
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:870
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:871
+#, fuzzy
+#| msgid "Nom"
+msgid "No"
+msgstr "Naam"
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:34
+msgctxt "Task"
+msgid "Ready"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:36
+msgctxt "Task"
+msgid "Running"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:38
+msgctxt "Task"
+msgid "Failed"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:40
+msgctxt "Task"
+msgid "Successful"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:878
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:908
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:925
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:927
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:929
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:931
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:933
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:935
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:16
+#, fuzzy
+#| msgid "Moyen"
+msgid "Mon"
+msgstr "Gemiddeld"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:48
+#, fuzzy
+#| msgid "Contact"
+msgid "oct"
+msgstr "Contact"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/text.py:288
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.14/site-packages/django/utils/text.py:307
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:34
+msgid "You are seeing this message because this HTTPS site requires a “Referer header” to be sent by your web browser, but none was sent. This header is required for security reasons, to ensure that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:40
+msgid "If you have configured your browser to disable “Referer” headers, please re-enable them, at least for this site, or for HTTPS connections, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:45
+msgid "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or including the “Referrer-Policy: no-referrer” header, please remove them. The CSRF protection requires the “Referer” header to do strict referer checking. If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:54
+msgid "You are seeing this message because this site requires a CSRF cookie when submitting forms. This cookie is required for security reasons, to ensure that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:60
+msgid "If you have configured your browser to disable cookies, please re-enable them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:353
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:680
+#, python-format
+msgid "Future %(verbose_name_plural)s not available because %(class_name)s.allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:68
+#: venv/lib/python3.14/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.14/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#~ msgid "Thèmes sauvegardés"
+#~ msgstr "Opgeslagen thema's"
+
+#~ msgid "Aucune question sauvegardée. Après un test, utilisez 🔖 pour marquer les questions difficiles."
+#~ msgstr "Geen vragen opgeslagen. Gebruik na een test 🔖 om moeilijke vragen te markeren."

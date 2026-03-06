@@ -105,7 +105,7 @@ def _old_pricing(request):  # kept for reference
             'price': '0€',
             'period': '',
             'features': [
-                '15 questions par jour',
+                '20 questions par jour',
                 'Accès aux catégories de base',
                 'Statistiques basiques',
             ],
