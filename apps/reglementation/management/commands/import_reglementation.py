@@ -66,7 +66,7 @@ class Command(BaseCommand):
         if options["files"]:
             json_files = [DATA_DIR / f for f in options["files"]]
         else:
-            json_files = sorted(DATA_DIR.glob("*.json"))
+            json_files = sorted(f for f in DATA_DIR.glob("*.json") if not f.name.startswith("_"))
 
         if not json_files:
             self.stdout.write(self.style.ERROR("No JSON files found in data/reglementation/"))
