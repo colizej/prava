@@ -1,0 +1,41 @@
+{% load i18n %}
+{# Shared category card — used on home page and examens/categories page.
+   Variables:
+     cat  — ExamCategory instance with .slug, .icon, .trans_name,
+             .trans_description (optional), .question_count
+#}
+<a href="{% url 'examens:practice_category' cat.slug %}"
+   class="group relative bg-white rounded-2xl border border-gray-200 p-5
+          hover:border-blue-300 hover:shadow-lg transition-all duration-200
+          flex flex-col">
+
+  {# Icon + question count badge #}
+  <div class="flex items-start justify-between mb-3">
+    <div class="flex items-center justify-center w-10 h-10 rounded-lg
+                bg-blue-50 text-blue-600 group-hover:bg-blue-100 transition">
+      {% include "reglementation/_icon.html" with icon=cat.icon %}
+    </div>
+    <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">
+      {{ cat.question_count }} Q
+    </span>
+  </div>
+
+  {# Title #}
+  <h3 class="text-sm font-semibold text-gray-900 group-hover:text-blue-600
+             transition leading-snug">
+    {{ cat.trans_name }}
+  </h3>
+
+  {# Optional description #}
+  {% if cat.trans_description %}
+  <p class="text-xs text-gray-400 mt-1">{{ cat.trans_description|truncatewords:10 }}</p>
+  {% endif %}
+
+  {# Arrow #}
+  <span class="absolute top-4 right-4 text-gray-300 group-hover:text-blue-400 transition">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
+    </svg>
+  </span>
+</a>
