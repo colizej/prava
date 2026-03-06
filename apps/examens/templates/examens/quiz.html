@@ -9,6 +9,16 @@
 </style>
 {% endblock %}
 
+{% block breadcrumbs %}
+{% trans "Tests & Examens" as tests_label %}
+{% url 'examens:categories' as ex_url %}
+{% if category %}
+{% include "includes/_breadcrumbs.html" with crumb2=tests_label crumb2_url=ex_url crumb3=category.trans_name %}
+{% else %}
+{% include "includes/_breadcrumbs.html" with crumb2=tests_label crumb2_url=ex_url %}
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <div class="max-w-5xl mx-auto px-4 py-8" x-cloak x-data="quizEngine()" x-init="init()">
 

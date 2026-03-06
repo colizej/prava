@@ -1,12 +1,16 @@
 {% extends "base.html" %}
 {% load i18n %}
 {% block title %}{% trans "Panneaux" %} {{ type_name }} — {{ SITE_NAME }}{% endblock %}
+{% block breadcrumbs %}
+{% trans "Réglementation" as reg_label %}
+{% trans "Panneaux de signalisation" as signs_label %}
+{% url 'reglementation:index' as reg_url %}
+{% url 'reglementation:signs' as signs_url %}
+{% include "includes/_breadcrumbs.html" with crumb2=reg_label crumb2_url=reg_url crumb3=signs_label crumb3_url=signs_url crumb4=type_name %}
+{% endblock %}
+
 {% block content %}
 <section class="max-w-6xl mx-auto px-4 py-12">
-    <nav class="text-sm text-gray-500 mb-6">
-        <a href="{% url 'reglementation:signs' %}" class="hover:text-blue-600">{% trans "Panneaux" %}</a>
-        / <span class="text-gray-900">{{ type_name }}</span>
-    </nav>
     <h1 class="text-3xl font-bold text-gray-900 mb-2">Panneaux {{ type_name|lower }}</h1>
     <p class="text-gray-500 text-sm mb-8">{{ signs|length }} panneau{{ signs|length|pluralize }}</p>
 

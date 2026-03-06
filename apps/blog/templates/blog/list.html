@@ -2,6 +2,11 @@
 {% load i18n %}
 {% block title %}{% trans "Blog" %} — {{ SITE_NAME }}{% endblock %}
 {% block meta_description %}{% trans "Conseils, guides et actualités pour réussir votre examen théorique du permis de conduire en Belgique." %}{% endblock %}
+{% block breadcrumbs %}
+{% trans "Blog" as blog_label %}
+{% include "includes/_breadcrumbs.html" with crumb2=blog_label %}
+{% endblock %}
+
 {% block content %}
 <div class="max-w-7xl mx-auto px-4 py-12">
     <h1 class="text-3xl font-bold text-gray-900 mb-8">{% trans "Blog" %}</h1>

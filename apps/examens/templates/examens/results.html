@@ -1,6 +1,13 @@
 {% extends "base.html" %}
 {% load i18n %}
 {% block title %}{% trans "Résultats" %} — {{ SITE_NAME }}{% endblock %}
+{% block breadcrumbs %}
+{% trans "Tests & Examens" as tests_label %}
+{% trans "Résultats" as results_label %}
+{% url 'examens:categories' as ex_url %}
+{% include "includes/_breadcrumbs.html" with crumb2=tests_label crumb2_url=ex_url crumb3=results_label %}
+{% endblock %}
+
 {% block content %}
 <div class="max-w-3xl mx-auto px-4 py-12">
 

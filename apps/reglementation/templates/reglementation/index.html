@@ -3,6 +3,11 @@
 {% block title %}{% trans "Réglementation" %} — {{ SITE_NAME }}{% endblock %}
 {% block meta_description %}{% trans "Code de la route belge complet par thème. Règles de circulation, signalisation, permis de conduire et plus encore." %}{% endblock %}
 
+{% block breadcrumbs %}
+{% trans "Réglementation" as reg_label %}
+{% include "includes/_breadcrumbs.html" with crumb2=reg_label %}
+{% endblock %}
+
 {% block content %}
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
 

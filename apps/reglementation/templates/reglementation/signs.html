@@ -1,6 +1,13 @@
 {% extends "base.html" %}
 {% load i18n %}
 {% block title %}{% trans "Panneaux de signalisation" %} — {{ SITE_NAME }}{% endblock %}
+{% block breadcrumbs %}
+{% trans "Réglementation" as reg_label %}
+{% trans "Panneaux de signalisation" as signs_label %}
+{% url 'reglementation:index' as reg_url %}
+{% include "includes/_breadcrumbs.html" with crumb2=reg_label crumb2_url=reg_url crumb3=signs_label %}
+{% endblock %}
+
 {% block content %}
 <section class="max-w-6xl mx-auto px-4 py-12">
 

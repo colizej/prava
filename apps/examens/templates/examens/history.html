@@ -1,6 +1,13 @@
 {% extends "base.html" %}
 {% load i18n %}
 {% block title %}{% trans "Historique" %} — {{ SITE_NAME }}{% endblock %}
+{% block breadcrumbs %}
+{% trans "Tests & Examens" as tests_label %}
+{% trans "Historique" as hist_label %}
+{% url 'examens:categories' as ex_url %}
+{% include "includes/_breadcrumbs.html" with crumb2=tests_label crumb2_url=ex_url crumb3=hist_label %}
+{% endblock %}
+
 {% block content %}
 <div class="max-w-4xl mx-auto px-4 py-12">
     <h1 class="text-2xl font-bold text-gray-900 mb-8">{% trans "Historique des tests" %}</h1>

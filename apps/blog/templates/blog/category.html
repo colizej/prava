@@ -1,2 +1,8 @@
 {% extends "blog/list.html" %}
 {% block title %}{{ category.name }} — Blog — {{ SITE_NAME }}{% endblock %}
+{% block breadcrumbs %}
+{% load i18n %}
+{% trans "Blog" as blog_label %}
+{% url 'blog:list' as blog_url %}
+{% include "includes/_breadcrumbs.html" with crumb2=blog_label crumb2_url=blog_url crumb3=category.trans_name %}
+{% endblock %}
