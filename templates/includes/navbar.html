@@ -1,5 +1,6 @@
 {# Navigation Bar #}
 {% load i18n %}
+{% load static %}
 {% load rewards_tags %}
 <nav class="bg-white shadow-sm border-b border-gray-200" x-data="{ mobileOpen: false }">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -8,7 +9,7 @@
             {# Left: Logo #}
             <div class="flex-1 flex items-center">
                 <a href="{% url 'main:home' %}" class="flex items-center space-x-2">
-                    <img src="/media/logo.png" alt="{{ SITE_NAME }}" class="h-8 w-auto">
+                    <img src="{% static 'images/logo.png' %}" alt="{{ SITE_NAME }}" class="h-8 w-auto">
                     <span class="text-xl font-bold text-blue-600">{{ SITE_NAME }}</span>
                 </a>
             </div>

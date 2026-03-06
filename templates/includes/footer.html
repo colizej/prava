@@ -1,12 +1,13 @@
 {# Footer #}
 {% load i18n %}
+{% load static %}
 <footer class="bg-gray-800 text-gray-300 mt-auto">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             {# About #}
             <div>
                 <h3 class="text-white font-bold text-lg mb-4 flex items-center gap-2">
-                    <img src="/media/logo.png" alt="{{ SITE_NAME }}" class="h-6 w-auto">
+                    <img src="{% static 'images/logo.png' %}" alt="{{ SITE_NAME }}" class="h-6 w-auto">
                     {{ SITE_NAME }}
                 </h3>
                 <p class="text-sm">
