@@ -22,12 +22,12 @@ TAILWIND_BIN := $(shell [ -f ./tailwindcss ] && echo ./tailwindcss || echo npx @
 ## Build Tailwind CSS (one-shot)
 css:
 	@echo "🎨 Building Tailwind CSS..."
-	$(TAILWIND_BIN) -i ./static/css/input.css -o ./static/css/output.css --minify
+	$(TAILWIND_BIN) -i ./src/css/input.css -o ./static/css/output.css --minify
 
 ## Watch Tailwind CSS (auto-rebuild)
 css-watch:
 	@echo "👁  Watching Tailwind CSS..."
-	$(TAILWIND_BIN) -i ./static/css/input.css -o ./static/css/output.css --watch
+	$(TAILWIND_BIN) -i ./src/css/input.css -o ./static/css/output.css --watch
 
 ## Start the development server (builds CSS first)
 dev: stop css
