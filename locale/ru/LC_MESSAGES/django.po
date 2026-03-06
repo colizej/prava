@@ -1059,7 +1059,7 @@ msgstr "К повторению"
 #: apps/shop/templates/shop/checkout.html:4
 #: apps/shop/templates/shop/checkout.html:19
 msgid "Récapitulatif"
-msgstr ""
+msgstr "Обзор заказа"
 
 #: apps/shop/templates/shop/checkout.html:14
 #: apps/shop/templates/shop/return_pending.html:27
@@ -1070,43 +1070,43 @@ msgstr "Посмотреть тарифы"
 
 #: apps/shop/templates/shop/checkout.html:20
 msgid "Vérifiez votre commande avant de payer."
-msgstr ""
+msgstr "Проверьте заказ перед оплатой."
 
 #: apps/shop/templates/shop/checkout.html:29
 msgid "Accès pendant 24 heures"
-msgstr ""
+msgstr "Доступ на 24 часа"
 
 #: apps/shop/templates/shop/checkout.html:30
 msgid "Accès pendant 3 jours"
-msgstr ""
+msgstr "Доступ на 3 дня"
 
 #: apps/shop/templates/shop/checkout.html:31
 msgid "Accès pendant 7 jours"
-msgstr ""
+msgstr "Доступ на 7 дней"
 
 #: apps/shop/templates/shop/checkout.html:32
 msgid "Accès pendant 30 jours"
-msgstr ""
+msgstr "Доступ на 30 дней"
 
 #: apps/shop/templates/shop/checkout.html:37
 msgid "Total"
-msgstr ""
+msgstr "Итог"
 
 #: apps/shop/templates/shop/checkout.html:48
 msgid "Compte"
-msgstr ""
+msgstr "Аккаунт"
 
 #: apps/shop/templates/shop/checkout.html:61
 msgid "Procéder au paiement"
-msgstr ""
+msgstr "Перейти к оплате"
 
 #: apps/shop/templates/shop/checkout.html:66
 msgid "Vous serez redirigé vers Mollie pour effectuer le paiement en toute sécurité."
-msgstr ""
+msgstr "Вы будете перенаправлены на Mollie для безопасной оплаты."
 
 #: apps/shop/templates/shop/checkout.html:77
 msgid "Bancontact · Visa · Mastercard · iDEAL"
-msgstr ""
+msgstr "Bancontact · Visa · Mastercard · iDEAL"
 
 #: apps/shop/templates/shop/pricing.html:5
 #, fuzzy
@@ -2549,3 +2549,12 @@ msgstr ""
 
 #~ msgid "Aucune question sauvegardée. Après un test, utilisez 🔖 pour marquer les questions difficiles."
 #~ msgstr "Вопросов нет. После теста нажмите 🔖 на сложных вопросах, чтобы добавить их сюда."
+
+msgid "Prix TTC — toutes taxes comprises"
+msgstr "Цена включает все налоги (TTC)"
+
+msgid "Paiement traité par JCube"
+msgstr "Оплата обрабатывается через JCube"
+
+msgid "Aucun prélèvement automatique — pas d'abonnement. Pour continuer après expiration, vous devrez effectuer un nouvel achat."
+msgstr "Никаких автоматических списаний — подписки нет. По истечении срока необходимо сделать новую покупку."

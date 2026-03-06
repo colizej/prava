@@ -1059,7 +1059,7 @@ msgstr "Te herzien"
 #: apps/shop/templates/shop/checkout.html:4
 #: apps/shop/templates/shop/checkout.html:19
 msgid "Récapitulatif"
-msgstr ""
+msgstr "Overzicht"
 
 #: apps/shop/templates/shop/checkout.html:14
 #: apps/shop/templates/shop/return_pending.html:27
@@ -1070,43 +1070,43 @@ msgstr "Tarieven bekijken"
 
 #: apps/shop/templates/shop/checkout.html:20
 msgid "Vérifiez votre commande avant de payer."
-msgstr ""
+msgstr "Controleer uw bestelling voor de betaling."
 
 #: apps/shop/templates/shop/checkout.html:29
 msgid "Accès pendant 24 heures"
-msgstr ""
+msgstr "Toegang gedurende 24 uur"
 
 #: apps/shop/templates/shop/checkout.html:30
 msgid "Accès pendant 3 jours"
-msgstr ""
+msgstr "Toegang gedurende 3 dagen"
 
 #: apps/shop/templates/shop/checkout.html:31
 msgid "Accès pendant 7 jours"
-msgstr ""
+msgstr "Toegang gedurende 7 dagen"
 
 #: apps/shop/templates/shop/checkout.html:32
 msgid "Accès pendant 30 jours"
-msgstr ""
+msgstr "Toegang gedurende 30 dagen"
 
 #: apps/shop/templates/shop/checkout.html:37
 msgid "Total"
-msgstr ""
+msgstr "Totaal"
 
 #: apps/shop/templates/shop/checkout.html:48
 msgid "Compte"
-msgstr ""
+msgstr "Account"
 
 #: apps/shop/templates/shop/checkout.html:61
 msgid "Procéder au paiement"
-msgstr ""
+msgstr "Doorgaan naar betaling"
 
 #: apps/shop/templates/shop/checkout.html:66
 msgid "Vous serez redirigé vers Mollie pour effectuer le paiement en toute sécurité."
-msgstr ""
+msgstr "U wordt doorgestuurd naar Mollie voor een veilige betaling."
 
 #: apps/shop/templates/shop/checkout.html:77
 msgid "Bancontact · Visa · Mastercard · iDEAL"
-msgstr ""
+msgstr "Bancontact · Visa · Mastercard · iDEAL"
 
 #: apps/shop/templates/shop/pricing.html:5
 #, fuzzy
@@ -2519,3 +2519,12 @@ msgstr ""
 
 #~ msgid "Aucune question sauvegardée. Après un test, utilisez 🔖 pour marquer les questions difficiles."
 #~ msgstr "Geen vragen opgeslagen. Gebruik na een test 🔖 om moeilijke vragen te markeren."
+
+msgid "Prix TTC — toutes taxes comprises"
+msgstr "Prijs inclusief alle belastingen (TTC)"
+
+msgid "Paiement traité par JCube"
+msgstr "Betaling verwerkt door JCube"
+
+msgid "Aucun prélèvement automatique — pas d'abonnement. Pour continuer après expiration, vous devrez effectuer un nouvel achat."
+msgstr "Geen automatische afschrijvingen — geen abonnement. Na het verstrijken van de toegangsperiode kunt u opnieuw een aankoop doen."

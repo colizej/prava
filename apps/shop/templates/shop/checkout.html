@@ -37,7 +37,24 @@
         <span class="text-gray-700">{% trans "Total" %}</span>
         <span class="text-gray-900">{{ plan.price_display }}</span>
       </div>
+      <p class="text-xs text-gray-400 mt-1">{% trans "Prix TTC — toutes taxes comprises" %}</p>
     </div>
+
+    {# Payment info #}
+    <ul class="mb-6 space-y-2.5 text-sm text-gray-600">
+      <li class="flex items-start gap-2.5">
+        <svg class="w-4 h-4 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+        </svg>
+        {% trans "Paiement traité par JCube" %}
+      </li>
+      <li class="flex items-start gap-2.5">
+        <svg class="w-4 h-4 text-green-500 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+        </svg>
+        {% trans "Aucun prélèvement automatique — pas d'abonnement. Pour continuer après expiration, vous devrez effectuer un nouvel achat." %}
+      </li>
+    </ul>
 
     {# Account info #}
     <div class="flex items-center gap-3 mb-8 text-sm text-gray-600 bg-blue-50 rounded-xl px-4 py-3">
