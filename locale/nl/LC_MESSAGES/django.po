@@ -513,10 +513,10 @@ msgstr "Voorbereiding Rijbewijs België"
 #: apps/main/templates/main/home.html:5
 msgid ""
 "Préparez votre examen théorique du permis de conduire en Belgique avec plus "
-"de 1000 questions. Entraînement gratuit, mode examen, réglementation "
+"de %(n)s questions. Entraînement gratuit, mode examen, réglementation "
 "complète."
 msgstr ""
-"Bereid je theoretisch rijexamen voor in België met meer dan 1000 vragen. "
+"Bereid je theoretisch rijexamen voor in België met meer dan %(n)s vragen. "
 "Gratis oefenen, examenmodus, volledig verkeersreglement."
 
 #: apps/main/templates/main/home.html:13

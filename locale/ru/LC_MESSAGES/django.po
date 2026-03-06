@@ -516,10 +516,10 @@ msgstr "Подготовка к экзамену на права в Бельги
 #: apps/main/templates/main/home.html:5
 msgid ""
 "Préparez votre examen théorique du permis de conduire en Belgique avec plus "
-"de 1000 questions. Entraînement gratuit, mode examen, réglementation "
+"de %(n)s questions. Entraînement gratuit, mode examen, réglementation "
 "complète."
 msgstr ""
-"Подготовьтесь к теоретическому экзамену в Бельгии с более чем 1000 "
+"Подготовьтесь к теоретическому экзамену в Бельгии с более чем %(n)s "
 "вопросами. Бесплатная тренировка, режим экзамена, полный ПДД."
 
 #: apps/main/templates/main/home.html:13

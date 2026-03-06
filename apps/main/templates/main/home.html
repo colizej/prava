@@ -2,7 +2,7 @@
 {% load i18n %}
 
 {% block title %}{{ SITE_NAME }} — {% trans "Préparation Permis de Conduire Belgique" %}{% endblock %}
-{% block meta_description %}{% trans "Préparez votre examen théorique du permis de conduire en Belgique avec plus de 1000 questions. Entraînement gratuit, mode examen, réglementation complète." %}{% endblock %}
+{% block meta_description %}{% blocktrans with n=total_questions %}Préparez votre examen théorique du permis de conduire en Belgique avec plus de {{ n }} questions. Entraînement gratuit, mode examen, réglementation complète.{% endblocktrans %}{% endblock %}
 
 {% block meta_extra %}
 <script type="application/ld+json">
