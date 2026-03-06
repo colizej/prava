@@ -169,13 +169,28 @@ def _structure_slug(article: dict, law_id: str) -> tuple[str, str, int]:
     return slug, name, order
 
 
+_1975_TITRE_ICONS = {
+    "i":   "book-open",
+    "ii":  "car",
+    "iii": "sign-post",
+    "iv":  "wrench",
+    "v":   "gavel",
+}
+
+
 def _get_rule_category(article: dict, law_id: str):
     from apps.reglementation.models import RuleCategory
     slug, name, order = _structure_slug(article, law_id)
-    cat, _ = RuleCategory.objects.get_or_create(
+    structure = article.get("structure") or {}
+    titre = str(structure.get("titre") or "").lower()
+    icon = _1975_TITRE_ICONS.get(titre, "") if law_id == "1975" else ""
+    cat, created = RuleCategory.objects.get_or_create(
         slug=slug,
-        defaults={"name": name, "order": order, "law_id": law_id},
+        defaults={"name": name, "order": order, "law_id": law_id, "icon": icon},
     )
+    if not created and not cat.icon and icon:
+        RuleCategory.objects.filter(pk=cat.pk).update(icon=icon)
+        cat.icon = icon
     return cat
 
 
