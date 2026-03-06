@@ -106,6 +106,18 @@ _TITRE_TO_EXAM_SLUG = {
 }
 
 
+_EXAM_SLUG_META = {
+    "voie-publique":       {"name": "Voie Publique",        "icon": "road",               "order": 1},
+    "signalisation":       {"name": "Signalisation",        "icon": "sign-post",          "order": 2},
+    "priorites":           {"name": "Priorités",            "icon": "arrow-right-circle", "order": 3},
+    "vitesse-freinage":    {"name": "Vitesse & Freinage",   "icon": "gauge",              "order": 4},
+    "depassement":         {"name": "Dépassement",          "icon": "arrows-pointing-out","order": 5},
+    "arret-stationnement": {"name": "Arrêt & Stationnement","icon": "parking",            "order": 6},
+    "obligations":         {"name": "Obligations",          "icon": "id-card",            "order": 7},
+    "situations":          {"name": "Situations",           "icon": "map",                "order": 8},
+}
+
+
 def _get_exam_category(article: dict, law_id: str):
     """Return the broad topic ExamCategory for this article."""
     from apps.examens.models import ExamCategory
@@ -117,13 +129,16 @@ def _get_exam_category(article: dict, law_id: str):
     else:
         exam_slug = _LAW_DEFAULT_EXAM_SLUG.get(law_id, "situations")
 
-    try:
-        return ExamCategory.objects.get(slug=exam_slug)
-    except ExamCategory.DoesNotExist:
-        cat, _ = ExamCategory.objects.get_or_create(
-            slug=exam_slug, defaults={"name": exam_slug.replace("-", " ").title()}
-        )
-        return cat
+    meta = _EXAM_SLUG_META.get(exam_slug, {"name": exam_slug.replace("-", " ").title(), "icon": "", "order": 99})
+    cat, _ = ExamCategory.objects.get_or_create(
+        slug=exam_slug,
+        defaults={"name": meta["name"], "icon": meta["icon"], "order": meta["order"]},
+    )
+    # Patch icon/name if they were created without metadata (legacy empty values)
+    if not cat.icon and meta["icon"]:
+        ExamCategory.objects.filter(pk=cat.pk).update(icon=meta["icon"], name=meta["name"], order=meta["order"])
+        cat.refresh_from_db()
+    return cat
 
 
 # ─── Helpers — structure ──────────────────────────────────────────────
