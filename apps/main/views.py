@@ -3,11 +3,20 @@ from django.http import HttpResponse
 from django.db.models import Count, Q
 from django.contrib import messages
 from django.core.mail import send_mail
+from django.core.cache import cache
 from django.conf import settings
 
 from .models import Glossary, ContactMessage
 from apps.examens.models import ExamCategory, Question
 from apps.blog.models import BlogPost
+
+
+def _get_client_ip(request):
+    """Extract real client IP, respecting Caddy's X-Forwarded-For."""
+    xff = request.META.get('HTTP_X_FORWARDED_FOR')
+    if xff:
+        return xff.split(',')[0].strip()
+    return request.META.get('REMOTE_ADDR', '0.0.0.0')
 
 
 def home(request):
@@ -38,6 +47,19 @@ def about(request):
 def contact(request):
     """Page de contact."""
     if request.method == 'POST':
+        # Honeypot: silent discard if bot filled the hidden field
+        if request.POST.get('hp', ''):
+            messages.success(request, 'Votre message a été envoyé avec succès!')
+            return redirect('main:contact')
+
+        # Rate limiting: max 3 messages per IP per hour
+        ip = _get_client_ip(request)
+        cache_key = f'contact_attempts_{ip}'
+        attempts = cache.get(cache_key, 0)
+        if attempts >= 3:
+            messages.error(request, 'Trop de messages envoyés. Réessayez dans une heure.')
+            return redirect('main:contact')
+
         name = request.POST.get('name', '').strip()
         email = request.POST.get('email', '').strip()
         subject = request.POST.get('subject', '').strip()
@@ -50,6 +72,7 @@ def contact(request):
                 subject=subject,
                 message=message_text,
             )
+            cache.set(cache_key, attempts + 1, 3600)
             # Notify admin
             admin_email = settings.ADMINS[0][1] if settings.ADMINS else None
             if admin_email:

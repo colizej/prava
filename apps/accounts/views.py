@@ -3,6 +3,7 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
+from django.core.cache import cache
 from django.db.models import Avg, Count, Q
 
 from .models import UserProfile, DailyQuota
@@ -11,18 +12,41 @@ from apps.examens.models import TestAttempt, StudyList, SavedQuestion, Question
 from apps.shop.models import Order
 
 
+def _get_client_ip(request):
+    """Extract real client IP, respecting Caddy's X-Forwarded-For."""
+    xff = request.META.get('HTTP_X_FORWARDED_FOR')
+    if xff:
+        return xff.split(',')[0].strip()
+    return request.META.get('REMOTE_ADDR', '0.0.0.0')
+
+
 def register(request):
     """Inscription d'un nouvel utilisateur."""
     if request.user.is_authenticated:
         return redirect('main:home')
 
     if request.method == 'POST':
+        # Honeypot: bots fill hidden fields, humans don't
+        if request.POST.get('website', ''):
+            messages.success(request, 'Bienvenue! Votre compte a été créé.')
+            return redirect('main:home')
+
+        # Rate limiting: max 5 registration attempts per IP per hour
+        ip = _get_client_ip(request)
+        cache_key = f'reg_attempts_{ip}'
+        attempts = cache.get(cache_key, 0)
+        if attempts >= 5:
+            messages.error(request, 'Trop de tentatives. Veuillez réessayer dans une heure.')
+            return render(request, 'accounts/register.html', {'form': CustomUserCreationForm()})
+
         form = CustomUserCreationForm(request.POST)
         if form.is_valid():
             user = form.save()
             login(request, user)
             messages.success(request, 'Bienvenue! Votre compte a été créé.')
             return redirect('main:home')
+        else:
+            cache.set(cache_key, attempts + 1, 3600)
     else:
         form = CustomUserCreationForm()
 

@@ -3,6 +3,7 @@ Pillow>=12.0
 django-environ>=0.13
 gunicorn>=25.0
 whitenoise>=6.0
+django-axes>=8.0        # Brute force & login protection
 sentry-sdk[django]>=2.0  # Error tracking & performance monitoring
 markdown>=3.6      # Blog content rendering + FAQ schema
 pyyaml>=6.0        # YAML front matter parsing for SEO fields

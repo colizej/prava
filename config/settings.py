@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.sitemaps',
     'django.contrib.humanize',
 
+    # Third-party
+    'axes',
+
     # Project apps
     'apps.main',
     'apps.accounts',
@@ -65,6 +68,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'axes.middleware.AxesMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
@@ -227,6 +231,27 @@ if not DEBUG:
     CSRF_COOKIE_SECURE = True
     SECURE_BROWSER_XSS_FILTER = True
     SECURE_CONTENT_TYPE_NOSNIFF = True
+
+# ==============================================================================
+# AUTHENTICATION BACKENDS
+# ==============================================================================
+
+AUTHENTICATION_BACKENDS = [
+    'axes.backends.AxesStandaloneBackend',  # Must be first for lockout to work
+    'django.contrib.auth.backends.ModelBackend',
+]
+
+# ==============================================================================
+# AXES — Brute force & login protection
+# ==============================================================================
+
+AXES_FAILURE_LIMIT = 5           # Lock after 5 failed attempts
+AXES_COOLOFF_TIME = 1            # Lockout duration: 1 hour
+AXES_RESET_ON_SUCCESS = True     # Reset counter after successful login
+AXES_VERBOSE = False
+# Trust Caddy reverse-proxy X-Forwarded-For header
+AXES_IPWARE_PROXY_COUNT = 1
+AXES_IPWARE_META_PRECEDENCE_ORDER = ['HTTP_X_FORWARDED_FOR', 'REMOTE_ADDR']
 
 # ==============================================================================
 # SENTRY — Error tracking & performance monitoring
