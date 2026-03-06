@@ -61,6 +61,21 @@ _1975_TITRE_NAMES = {
     "XII":  "Titre XII. Dispositions diverses",
 }
 
+_1975_TITRE_NAMES_NL = {
+    "I":    "Titel I. Inleidende bepalingen",
+    "II":   "Titel II. Regels voor het gebruik van de openbare weg",
+    "III":  "Titel III. Wegbebakening",
+    "IV":   "Titel IV. Technische voorschriften",
+    "V":    "Titel V. Opheffings- en overgangsbepalingen",
+    "VI":   "Titel VI. Kruisen en inhalen",
+    "VII":  "Titel VII. Kruispunt en voorrang",
+    "VIII": "Titel VIII. Openbare wegen en trottoirs",
+    "IX":   "Titel IX. Parkeren",
+    "X":    "Titel X. Verlichting en signalen",
+    "XI":   "Titel XI. Uitrusting van voertuigen",
+    "XII":  "Titel XII. Diverse bepalingen",
+}
+
 # ── Default broad ExamCategory per law ────────────────────────────────────────
 _LAW_DEFAULT_EXAM_SLUG = {
     "1968":  "situations",
@@ -184,12 +199,13 @@ def _get_rule_category(article: dict, law_id: str):
     structure = article.get("structure") or {}
     titre = str(structure.get("titre") or "").lower()
     icon = _1975_TITRE_ICONS.get(titre, "") if law_id == "1975" else ""
+    name_nl = _1975_TITRE_NAMES_NL.get(titre.upper(), "") if law_id == "1975" else ""
     cat, created = RuleCategory.objects.get_or_create(
         slug=slug,
-        defaults={"name": name, "order": order, "law_id": law_id, "icon": icon},
+        defaults={"name": name, "name_nl": name_nl, "order": order, "law_id": law_id, "icon": icon},
     )
     if not created and not cat.icon and icon:
-        RuleCategory.objects.filter(pk=cat.pk).update(icon=icon)
+        RuleCategory.objects.filter(pk=cat.pk).update(icon=icon, name_nl=name_nl)
         cat.icon = icon
     return cat
 
