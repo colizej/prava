@@ -1,6 +1,7 @@
 from datetime import timedelta
 
 from django.contrib.auth.models import User
+from django.core.cache import cache
 from django.test import Client, TestCase
 from django.urls import reverse
 from django.utils import timezone
@@ -196,3 +197,94 @@ class ProfileViewTests(TestCase):
         self.client.force_login(user)
         response = self.client.get(reverse('accounts:profile'))
         self.assertEqual(response.status_code, 200)
+
+
+# ─── Security: honeypot & rate limiting on register ──────────────────────────
+
+REGISTER_URL = None  # resolved lazily in setUp
+
+VALID_REG_DATA = {
+    'username': 'h_user',
+    'email': 'h@example.com',
+    'password1': 'SecureHoney99!',
+    'password2': 'SecureHoney99!',
+}
+
+
+class RegisterHoneypotTests(TestCase):
+    """Bots that fill the hidden 'website' field are silently discarded."""
+
+    def setUp(self):
+        cache.clear()
+
+    def test_honeypot_filled_returns_redirect(self):
+        """POST with 'website' set → fake-success redirect, no user created."""
+        data = {**VALID_REG_DATA, 'username': 'botuser', 'website': 'http://spam.example.com'}
+        response = self.client.post(reverse('accounts:register'), data)
+        self.assertEqual(response.status_code, 302)
+        self.assertFalse(User.objects.filter(username='botuser').exists())
+
+    def test_honeypot_empty_allows_registration(self):
+        """POST without 'website' proceeds normally."""
+        data = {**VALID_REG_DATA, 'username': 'realuser', 'website': ''}
+        response = self.client.post(reverse('accounts:register'), data)
+        self.assertEqual(response.status_code, 302)
+        self.assertTrue(User.objects.filter(username='realuser').exists())
+
+    def test_honeypot_absent_allows_registration(self):
+        """POST without 'website' key at all proceeds normally."""
+        data = {**VALID_REG_DATA, 'username': 'realuser2'}
+        response = self.client.post(reverse('accounts:register'), data)
+        self.assertEqual(response.status_code, 302)
+        self.assertTrue(User.objects.filter(username='realuser2').exists())
+
+
+class RegisterRateLimitTests(TestCase):
+    """After 5 failed attempts from same IP, next attempt is blocked."""
+
+    def setUp(self):
+        cache.clear()
+
+    def _bad_post(self):
+        """POST with invalid password (form invalid → increments counter)."""
+        return self.client.post(
+            reverse('accounts:register'),
+            {'username': 'rl_user', 'email': 'rl@x.com',
+             'password1': 'short', 'password2': 'different'},
+            REMOTE_ADDR='10.0.0.1',
+        )
+
+    def test_blocked_after_five_failures(self):
+        """5 failed POSTs exhaust the quota; 6th returns 200 with error message."""
+        for _ in range(5):
+            self._bad_post()
+        # 6th attempt should be rate-limited
+        response = self._bad_post()
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'Trop de tentatives')
+
+    def test_not_blocked_before_five_failures(self):
+        """Fewer than 5 failures do not trigger the rate limit message."""
+        for _ in range(4):
+            self._bad_post()
+        response = self._bad_post()
+        # May still be 200 (form error), but NOT the rate-limit message
+        self.assertNotContains(response, 'Trop de tentatives')
+
+    def test_different_ips_are_independent(self):
+        """Rate limit is per-IP; a different IP is not affected."""
+        for _ in range(5):
+            self.client.post(
+                reverse('accounts:register'),
+                {'username': 'x', 'email': 'x@x.com',
+                 'password1': 'short', 'password2': 'different'},
+                REMOTE_ADDR='10.0.0.2',
+            )
+        # Different IP should NOT be blocked
+        response = self.client.post(
+            reverse('accounts:register'),
+            {'username': 'x', 'email': 'x@x.com',
+             'password1': 'short', 'password2': 'different'},
+            REMOTE_ADDR='10.0.0.3',
+        )
+        self.assertNotContains(response, 'Trop de tentatives')
