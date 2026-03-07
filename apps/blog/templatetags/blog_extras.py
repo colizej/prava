@@ -37,6 +37,9 @@ def markdown_to_html(value):
         # Fix accidental space between ] and ( in links: ] (url) → ](url)
         text = re.sub(r'\]\s+\(', '](', text)
 
+        # Normalise [toc] / [Toc] → [TOC] (toc extension is case-sensitive)
+        text = re.sub(r'^\[toc\]', '[TOC]', text, flags=re.IGNORECASE | re.MULTILINE)
+
         # Pre-process blockquotes with attribution: > quote \n>> attribution
         quote_blocks = []
 
