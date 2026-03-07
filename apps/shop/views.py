@@ -94,7 +94,7 @@ def _send_complete_registration_email(user, request=None):
         ),
         from_email=settings.DEFAULT_FROM_EMAIL,
         recipient_list=[user.email],
-        fail_silently=True,
+        fail_silently=False,
     )
     logger.info('Complete-registration email sent to %s', user.email)
 
@@ -374,7 +374,8 @@ def _activate_premium(order: Order, request=None) -> None:
             message=body,
             from_email=settings.DEFAULT_FROM_EMAIL,
             recipient_list=[user.email],
-            fail_silently=True,
+            fail_silently=False,
         )
+        logger.info('Purchase confirmation email sent to %s for order %s', user.email, order.id)
     except Exception:
         logger.exception('Failed to send purchase confirmation email for order %s', order.id)
