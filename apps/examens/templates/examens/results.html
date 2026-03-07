@@ -26,6 +26,24 @@
         {% endif %}
     </div>
 
+    {# Guest CTA — register to unlock full features #}
+    {% if is_guest %}
+    <div class="bg-blue-50 border border-blue-200 rounded-xl p-6 text-center mb-8">
+        <h2 class="text-lg font-bold text-gray-900 mb-2">{% trans "Envie de continuer ?" %}</h2>
+        <p class="text-sm text-gray-600 mb-5">
+            {% trans "Créez un compte gratuit pour 20 questions par session, suivre votre progression et sauvegarder vos révisions." %}
+        </p>
+        <a href="{% url 'accounts:register' %}"
+           class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition">
+            {% trans "Créer un compte gratuit" %}
+        </a>
+        <p class="text-xs text-gray-400 mt-3">
+            {% trans "Déjà inscrit ?" %}
+            <a href="{% url 'accounts:login' %}" class="text-blue-600 hover:underline">{% trans "Se connecter" %}</a>
+        </p>
+    </div>
+    {% endif %}
+
     {# Detailed results #}
     {% if detailed_results %}
     <div class="flex items-center justify-between mb-4">

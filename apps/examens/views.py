@@ -186,6 +186,7 @@ def results(request, uuid):
         'default_list': default_list,
         'saved_ids_json': json.dumps(list(saved_ids)),
         'show_lang_switcher': True,
+        'is_guest': False,
     }
     return render(request, 'examens/results.html', context)
 
@@ -376,11 +377,25 @@ def api_toggle_saved(request):
 
 
 def guest_results(request):
-    """Page de résultats pour les invités (non-inscrits) — données en session."""
-    results = request.session.pop('guest_results', None)
-    if not results:
+    """Page de résultats pour les invités — utilise le même template que results."""
+    from types import SimpleNamespace
+    data = request.session.pop('guest_results', None)
+    if not data:
         return redirect('examens:categories')
-    return render(request, 'examens/guest_results.html', {'results': results})
+    fake_attempt = SimpleNamespace(
+        passed=data['passed'],
+        percentage=data['percentage'],
+        score=data['score'],
+        total_questions=data['total'],
+        time_spent=None,
+    )
+    return render(request, 'examens/results.html', {
+        'attempt': fake_attempt,
+        'detailed_results': [],
+        'default_list': None,
+        'saved_ids_json': '[]',
+        'is_guest': True,
+    })
 
 
 @login_required
