@@ -86,6 +86,21 @@
   color: #4b5563;
 }
 
+/* General prose links — always visible, not just on hover */
+.prose a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-decoration-color: #93c5fd;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.prose a:hover {
+  color: #1d4ed8;
+  text-decoration-color: #2563eb;
+}
+
 .prose .notification a {
   color: #2563eb;
   text-decoration: none;
