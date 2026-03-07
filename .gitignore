@@ -42,7 +42,7 @@ data/scraper.log
 # Node (for Tailwind)
 node_modules/
 package-lock.json
-static/css/output.css
+# static/css/output.css  — tracked in git (built locally, no Node on server)
 
 # Coverage
 htmlcov/
