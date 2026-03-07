@@ -155,6 +155,34 @@ class BlogPost(TranslatableFieldsMixin, models.Model):
         self.views_count += 1
         self.save(update_fields=['views_count'])
 
+    def article_structured_data(self, request):
+        """Return Article JSON-LD string (generated in Python for guaranteed valid JSON)."""
+        import json as _json
+        author_name = (self.author.get_full_name() or self.author.username)
+        data = {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            'headline': self.seo_title,
+            'author': {
+                '@type': 'Person',
+                'name': author_name,
+                'url': request.build_absolute_uri('/'),
+            },
+            'datePublished': self.published_at.isoformat() if self.published_at else None,
+            'dateModified': self.updated_at.isoformat() if self.updated_at else None,
+            'description': self.seo_description,
+            'mainEntityOfPage': {
+                '@type': 'WebPage',
+                '@id': request.build_absolute_uri(),
+            },
+            'wordCount': len(self.content) if self.content else 0,
+        }
+        if self.featured_image and self.featured_image.name:
+            data['image'] = request.build_absolute_uri(self.featured_image.url)
+        if self.keywords:
+            data['keywords'] = self.keywords
+        return _json.dumps(data, ensure_ascii=False)
+
     @property
     def faq_structured_data(self):
         """Return FAQ JSON-LD string if content contains Q/R FAQ blocks.

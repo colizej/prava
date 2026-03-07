@@ -10,21 +10,7 @@
 {% block meta_extra %}
 {% if post.no_index %}<meta name="robots" content="noindex">{% endif %}
 {% if post.canonical_url %}{% block canonical %}<link rel="canonical" href="{{ post.canonical_url }}">{% endblock %}{% endif %}
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{ post.title|escapejs }}",
-    "author": {"@type": "Person", "name": "{{ post.author.get_full_name|default:post.author.username|escapejs }}", "url": "{{ request.scheme }}://{{ request.get_host }}/"},
-    "datePublished": "{{ post.published_at|date:'c' }}",
-    "dateModified": "{{ post.updated_at|date:'c' }}",
-    "description": "{{ post.seo_description|escapejs }}"
-    {% if post.featured_image.name %},"image": "{{ post.featured_image.url }}"{% endif %},
-    "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ request.build_absolute_uri }}"},
-    "wordCount": {{ post.content|length }}
-    {% if post.keywords %},"keywords": "{{ post.keywords|escapejs }}"{% endif %}
-}
-</script>
+<script type="application/ld+json">{{ article_json_ld }}</script>
 {% if post.faq_structured_data %}
 <script type="application/ld+json">{{ post.faq_structured_data }}</script>
 {% endif %}

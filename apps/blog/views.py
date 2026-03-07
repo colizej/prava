@@ -39,6 +39,7 @@ def post_detail(request, slug):
     context = {
         'post': post,
         'related_posts': related_posts,
+        'article_json_ld': post.article_structured_data(request),
     }
     return render(request, 'blog/detail.html', context)
 
