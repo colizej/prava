@@ -12,7 +12,7 @@
 {% if post.canonical_url %}{% block canonical %}<link rel="canonical" href="{{ post.canonical_url }}">{% endblock %}{% endif %}
 <script type="application/ld+json">{{ article_json_ld|safe }}</script>
 {% if post.faq_structured_data %}
-<script type="application/ld+json">{{ post.faq_structured_data }}</script>
+<script type="application/ld+json">{{ post.faq_structured_data|safe }}</script>
 {% endif %}
 {% endblock %}
 
