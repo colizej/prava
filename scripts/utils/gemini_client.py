@@ -25,6 +25,12 @@ RETRY_BASE_DELAY = 65    # seconds flat wait on 429 (full minute + buffer)
 
 MODEL_NAME = "gemini-2.0-flash"
 
+
+class DailyQuotaExhausted(Exception):
+    """Raised when the Gemini daily (RPD) quota is fully exhausted.
+    The script should stop immediately — retrying won't help until tomorrow.
+    """
+
 SYSTEM_PROMPT = """\
 Tu es un expert du code de la route belge.
 À partir de l'article fourni, génère des questions d'examen :
@@ -175,6 +181,15 @@ class GeminiClient:
             except Exception as exc:
                 err_str = str(exc)
                 if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
+                    # Detect daily (RPD) quota exhaustion — no point retrying until tomorrow
+                    if "GenerateRequestsPerDayPerProjectPerModel" in err_str:
+                        logger.error(
+                            "Daily quota (RPD) exhausted — stopping script. "
+                            "Quota resets at midnight Pacific Time."
+                        )
+                        raise DailyQuotaExhausted(
+                            "Gemini daily quota exhausted. Run again tomorrow."
+                        )
                     wait = RETRY_BASE_DELAY  # flat wait — API resets every minute
                     logger.warning(
                         f"429 rate limit hit (attempt {attempt + 1}/{MAX_RETRIES}), "

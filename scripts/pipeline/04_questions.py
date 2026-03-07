@@ -45,7 +45,7 @@ try:
 except ImportError:
     pass
 
-from scripts.utils.gemini_client import GeminiClient  # noqa: E402
+from scripts.utils.gemini_client import GeminiClient, DailyQuotaExhausted  # noqa: E402
 from scripts.utils.json_helpers import load_json, save_json  # noqa: E402
 from scripts.utils.laws_registry import get_law  # noqa: E402
 
@@ -267,7 +267,14 @@ def main():
         prompt = build_prompt(article)
         logger.debug(f"  Prompt length: {len(prompt)} chars")
 
-        questions_raw = client.generate_questions(article, prompt_override=prompt)
+        try:
+            questions_raw = client.generate_questions(article, prompt_override=prompt)
+        except DailyQuotaExhausted:
+            logger.error(
+                f"Daily quota exhausted after {generated} generated / {failed} failed. "
+                "Re-run tomorrow when the quota resets."
+            )
+            sys.exit(2)  # exit code 2 = quota exhausted
 
         if not questions_raw:
             logger.error(f"  No questions returned — skipping Art {number}")
@@ -290,7 +297,7 @@ def main():
         # Write back into the article file
         article["exam_questions"] = valid_questions
         article["_meta"]["questions_generated_at"] = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-        article["_meta"]["questions_model"] = "gemini-1.5-flash"
+        article["_meta"]["questions_model"] = "gemini-2.0-flash"
         article["_meta"]["questions_count"] = len(valid_questions)
         save_json(article, article_file)
 
