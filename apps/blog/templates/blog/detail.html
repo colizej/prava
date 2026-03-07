@@ -50,8 +50,6 @@
     {# Header #}
     <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{{ post.trans_title }}</h1>
     <div class="flex items-center gap-4 text-sm text-gray-500 mb-8">
-        <span>{% blocktrans with author=post.author.username %}Par {{ author }}{% endblocktrans %}</span>
-        <span>•</span>
         <span>{{ post.published_at|date:"d M Y" }}</span>
         <span>•</span>
         <span>{% blocktrans with t=post.read_time %}{{ t }} min de lecture{% endblocktrans %}</span>
