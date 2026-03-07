@@ -7,6 +7,12 @@
 {% block og_description %}{{ article.content_text|truncatewords:30 }}{% endblock %}
 
 {% block meta_extra %}
+<style>
+/* Scraped article content: make tables and wide blocks scroll on mobile */
+.article-body table { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.article-body pre   { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.article-body img   { max-width: 100%; height: auto; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -104,14 +110,19 @@
 
             {# Article body #}
             <div class="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 sm:p-8">
-                <div class="prose prose-lg max-w-none
+                <div class="prose prose-lg max-w-none article-body
                             prose-headings:font-bold prose-headings:text-gray-900
                             prose-p:text-gray-700 prose-p:leading-relaxed
                             prose-li:text-gray-700
                             prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline
                             prose-table:text-sm
-                            prose-img:rounded-lg prose-img:shadow-sm">
-                    {{ article.trans_content|safe }}
+                            prose-img:rounded-lg prose-img:shadow-sm
+                            [&_table]:overflow-x-auto [&_table]:block [&_table]:w-full
+                            [&_pre]:overflow-x-auto
+                            [&_.notification]:overflow-x-auto">
+                    <div class="overflow-x-auto">
+                        {{ article.trans_content|safe }}
+                    </div>
                 </div>
             </div>
 
