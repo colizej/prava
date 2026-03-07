@@ -65,6 +65,12 @@ def contact(request):
         subject = request.POST.get('subject', '').strip()
         message_text = request.POST.get('message', '').strip()
 
+        import logging as _log
+        _log.getLogger(__name__).warning(
+            'Contact POST: name=%r email=%r subject=%r message_len=%d',
+            name, email, subject, len(message_text),
+        )
+
         if all([name, email, subject, message_text]):
             ContactMessage.objects.create(
                 name=name,
