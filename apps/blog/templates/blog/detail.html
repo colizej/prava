@@ -87,20 +87,42 @@
     {% endif %}
 </article>
 
+{# Back-to-top button #}
+<button id="back-to-top" aria-label="{% trans 'Retour en haut' %}" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
+
 <script>
   (function () {
     var bar = document.getElementById('reading-progress');
     var article = document.getElementById('article-body');
-    if (!bar || !article) return;
-    function updateProgress() {
-      var rect = article.getBoundingClientRect();
-      var total = rect.height - window.innerHeight;
-      if (total <= 0) { bar.style.width = '100%'; return; }
-      var scrolled = Math.max(0, -rect.top);
-      bar.style.width = Math.min(100, (scrolled / total) * 100) + '%';
+    var btn = document.getElementById('back-to-top');
+
+    // Reading progress bar
+    if (bar && article) {
+      function updateProgress() {
+        var rect = article.getBoundingClientRect();
+        var total = rect.height - window.innerHeight;
+        if (total <= 0) { bar.style.width = '100%'; return; }
+        var scrolled = Math.max(0, -rect.top);
+        bar.style.width = Math.min(100, (scrolled / total) * 100) + '%';
+      }
+      window.addEventListener('scroll', updateProgress, {passive: true});
+      updateProgress();
     }
-    window.addEventListener('scroll', updateProgress, {passive: true});
-    updateProgress();
+
+    // Back-to-top visibility
+    if (btn) {
+      function toggleBtn() {
+        if (window.scrollY > 300) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      }
+      window.addEventListener('scroll', toggleBtn, {passive: true});
+      toggleBtn();
+    }
   })();
 </script>
 {% endblock %}
