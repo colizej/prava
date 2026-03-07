@@ -83,6 +83,9 @@ def question_detail(request, pk):
     })
 
 
+GUEST_LIMIT = 10  # questions per session for anonymous users
+
+
 def practice(request, category_slug=None):
     """Mode entraînement. Anonymous users get a 10-question demo."""
     is_guest = not request.user.is_authenticated
@@ -95,6 +98,13 @@ def practice(request, category_slug=None):
             return redirect('main:pricing')
         quota_remaining = quota.remaining if quota else None
 
+    # Guests: enforce session-based limit — do NOT reset counter on new quiz
+    if is_guest:
+        already_answered = request.session.get('guest_questions_answered', 0)
+        if already_answered >= GUEST_LIMIT:
+            # Quota exhausted — redirect to register
+            return redirect(f"{__import__('django.urls', fromlist=['reverse']).reverse('accounts:register')}?next=/examens/")
+
     # Get questions
     questions = Question.objects.filter(is_active=True).prefetch_related('options')
 
@@ -103,8 +113,12 @@ def practice(request, category_slug=None):
         category = get_object_or_404(ExamCategory, slug=category_slug, is_active=True)
         questions = questions.filter(category=category)
 
-    # Guests: 10 questions; registered: 20
-    limit = 10 if is_guest else 20
+    # Guests: limit to remaining quota; registered: 20
+    if is_guest:
+        remaining_for_guest = GUEST_LIMIT - request.session.get('guest_questions_answered', 0)
+        limit = max(1, remaining_for_guest)
+    else:
+        limit = 20
     questions = questions.order_by('?')[:limit]
 
     questions_data = [_serialize_question(q) for q in questions]
@@ -112,9 +126,6 @@ def practice(request, category_slug=None):
     request.session['test_type'] = 'practice'
     request.session['category_id'] = category.id if category else None
     request.session['is_guest_quiz'] = is_guest
-    # Reset guest counter on new quiz
-    if is_guest:
-        request.session['guest_questions_answered'] = 0
 
     context = {
         'category': category,
@@ -236,7 +247,6 @@ def api_record_answer(request):
 
     # Anonymous guest — track in session
     if not request.user.is_authenticated:
-        GUEST_LIMIT = 10
         count = request.session.get('guest_questions_answered', 0) + 1
         request.session['guest_questions_answered'] = count
         remaining = max(0, GUEST_LIMIT - count)

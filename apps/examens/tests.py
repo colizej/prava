@@ -202,13 +202,17 @@ class ApiRecordAnswerTests(TestCase):
         self.q = make_question(self.cat)
         self.user = make_user('apiuser')
 
-    def test_unauthenticated_gets_302(self):
+    def test_unauthenticated_guest_gets_ok(self):
+        """api_record_answer allows anonymous guests (guest quiz mode)."""
         response = self.client.post(
             self.url,
             data=json.dumps({'question_id': self.q.id, 'is_correct': True}),
             content_type='application/json',
         )
-        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.status_code, 200)
+        data = response.json()
+        self.assertEqual(data['status'], 'ok')
+        self.assertIn('quota_remaining', data)
 
     def test_invalid_json_returns_400(self):
         self.client.force_login(self.user)
@@ -260,11 +264,146 @@ class ApiFinishQuizTests(TestCase):
         self.assertAlmostEqual(data['percentage'], 80.0)
         self.assertTrue(data['passed'])
 
-    def test_unauthenticated_redirected(self):
+    def test_unauthenticated_finish_returns_json(self):
+        """Anonymous guests can finish quiz and get JSON results (no DB)."""
         self.client.logout()
         response = self.client.post(
             self.url,
-            data=json.dumps({'answers': []}),
+            data=json.dumps({'answers': [{'question_id': 1, 'is_correct': True}]}),
             content_type='application/json',
         )
+        self.assertEqual(response.status_code, 200)
+        data = response.json()
+        self.assertIn('score', data)
+        self.assertIsNone(data.get('uuid'))
+
+
+# ─── Guest quota enforcement ──────────────────────────────────────────────────
+
+class GuestQuotaTests(TestCase):
+    """Guest (anonymous) users are limited to GUEST_LIMIT questions per session."""
+
+    def setUp(self):
+        self.cat = make_category('GuestCat', 'guest-cat')
+        # Create enough questions for any test
+        for i in range(15):
+            make_question(self.cat, f'GQ{i}')
+        self.practice_url = reverse('examens:practice')
+        self.record_url = reverse('examens:api_record_answer')
+        self.q = Question.objects.filter(is_active=True).first()
+
+    def _record(self, is_correct=True):
+        return self.client.post(
+            self.record_url,
+            data=json.dumps({'question_id': self.q.id, 'is_correct': is_correct}),
+            content_type='application/json',
+        )
+
+    def test_guest_can_access_practice(self):
+        response = self.client.get(self.practice_url)
+        self.assertEqual(response.status_code, 200)
+
+    def test_guest_gets_limited_questions(self):
+        """Practice page sends at most GUEST_LIMIT questions to anonymous users."""
+        from apps.examens.views import GUEST_LIMIT
+        response = self.client.get(self.practice_url)
+        self.assertEqual(response.status_code, 200)
+        questions_data = json.loads(response.context['questions_json'])
+        self.assertLessEqual(len(questions_data), GUEST_LIMIT)
+
+    def test_guest_quota_not_reset_on_second_visit(self):
+        """Counter must NOT reset to 0 when guest visits practice page again."""
+        from apps.examens.views import GUEST_LIMIT
+        # Simulate answering all allowed questions
+        session = self.client.session
+        session['guest_questions_answered'] = GUEST_LIMIT
+        session.save()
+        # Second visit should redirect, not reset
+        response = self.client.get(self.practice_url)
         self.assertEqual(response.status_code, 302)
+        self.assertNotEqual(self.client.session.get('guest_questions_answered'), 0)
+
+    def test_guest_exhausted_redirected_to_register(self):
+        """Guest with exhausted quota is redirected to register."""
+        from apps.examens.views import GUEST_LIMIT
+        session = self.client.session
+        session['guest_questions_answered'] = GUEST_LIMIT
+        session.save()
+        response = self.client.get(self.practice_url)
+        self.assertEqual(response.status_code, 302)
+        self.assertIn('register', response['Location'])
+
+    def test_api_record_increments_session_counter(self):
+        """Each api_record_answer call increments guest_questions_answered."""
+        self._record()
+        self.assertEqual(self.client.session.get('guest_questions_answered'), 1)
+        self._record()
+        self.assertEqual(self.client.session.get('guest_questions_answered'), 2)
+
+    def test_api_record_returns_quota_remaining(self):
+        """quota_remaining decreases with each answer."""
+        from apps.examens.views import GUEST_LIMIT
+        resp = self._record()
+        data = resp.json()
+        self.assertEqual(data['quota_remaining'], GUEST_LIMIT - 1)
+        self.assertFalse(data['quota_exhausted'])
+
+    def test_api_record_quota_exhausted_at_limit(self):
+        """quota_exhausted=True when guest hits GUEST_LIMIT."""
+        from apps.examens.views import GUEST_LIMIT
+        session = self.client.session
+        session['guest_questions_answered'] = GUEST_LIMIT - 1
+        session.save()
+        resp = self._record()
+        data = resp.json()
+        self.assertEqual(data['quota_remaining'], 0)
+        self.assertTrue(data['quota_exhausted'])
+
+
+# ─── DailyQuota enforcement for free registered users ─────────────────────────
+
+class DailyQuotaEnforcementTests(TestCase):
+    """Free registered users are blocked after FREE_DAILY_QUESTIONS per day."""
+
+    def setUp(self):
+        from apps.accounts.models import DailyQuota
+        from django.conf import settings
+        self.cat = make_category('QuotaCat', 'quota-cat')
+        for i in range(5):
+            make_question(self.cat, f'DQ{i}')
+        self.user = make_user('quotauser')
+        self.practice_url = reverse('examens:practice')
+        self.record_url = reverse('examens:api_record_answer')
+        self.q = Question.objects.filter(is_active=True).first()
+        self.limit = getattr(settings, 'FREE_DAILY_QUESTIONS', 15)
+
+    def _exhaust_quota(self):
+        from apps.accounts.models import DailyQuota
+        quota = DailyQuota.get_or_create_today(self.user)
+        quota.questions_answered = self.limit
+        quota.save(update_fields=['questions_answered'])
+
+    def test_free_user_with_exhausted_quota_redirected_to_pricing(self):
+        self._exhaust_quota()
+        self.client.force_login(self.user)
+        response = self.client.get(self.practice_url)
+        self.assertEqual(response.status_code, 302)
+        self.assertIn('pricing', response['Location'])
+
+    def test_api_record_returns_exhausted_when_quota_hit(self):
+        self._exhaust_quota()
+        self.client.force_login(self.user)
+        response = self.client.post(
+            self.record_url,
+            data=json.dumps({'question_id': self.q.id, 'is_correct': True}),
+            content_type='application/json',
+        )
+        self.assertEqual(response.status_code, 200)
+        data = response.json()
+        self.assertTrue(data['quota_exhausted'])
+        self.assertEqual(data['quota_remaining'], 0)
+
+    def test_free_user_with_remaining_quota_gets_practice(self):
+        self.client.force_login(self.user)
+        response = self.client.get(self.practice_url)
+        self.assertEqual(response.status_code, 200)
