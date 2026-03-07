@@ -2,7 +2,7 @@
 PRAVA — Gemini API client.
 Generates exam questions from article content.
 
-Model: gemini-2.5-flash-lite (free tier: separate quota from 2.0-flash)
+Model: gemini-2.0-flash (free tier: 1500 RPD, 15 RPM)
 Requires:
     pip install google-genai
     GEMINI_API_KEY in .env
@@ -15,7 +15,7 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-# Gemini Free tier limits — gemini-2.5-flash: ~15 RPM free tier
+# Gemini Free tier limits — gemini-2.0-flash: 15 RPM, 1500 RPD
 # Use 8 RPM (7.5s delay) to stay safely under the burst limit
 RATE_LIMIT_RPM = 8
 RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # 7.5s between requests
@@ -23,7 +23,7 @@ RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # 7.5s between requests
 MAX_RETRIES = 5          # retry on 429
 RETRY_BASE_DELAY = 65    # seconds flat wait on 429 (full minute + buffer)
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-2.0-flash"
 
 SYSTEM_PROMPT = """\
 Tu es un expert du code de la route belge.
