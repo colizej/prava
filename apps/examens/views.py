@@ -85,10 +85,12 @@ def practice(request, category_slug=None):
     is_guest = not request.user.is_authenticated
 
     # Registered users: check quota
+    quota_remaining = None
     if not is_guest:
         can_answer, quota = DailyQuota.can_answer(request.user)
         if not can_answer:
             return redirect('main:pricing')
+        quota_remaining = quota.remaining if quota else None
 
     # Get questions
     questions = Question.objects.filter(is_active=True).prefetch_related('options')
@@ -107,6 +109,9 @@ def practice(request, category_slug=None):
     request.session['test_type'] = 'practice'
     request.session['category_id'] = category.id if category else None
     request.session['is_guest_quiz'] = is_guest
+    # Reset guest counter on new quiz
+    if is_guest:
+        request.session['guest_questions_answered'] = 0
 
     context = {
         'category': category,
@@ -115,6 +120,7 @@ def practice(request, category_slug=None):
         'test_type': 'practice',
         'show_lang_switcher': True,
         'is_guest': is_guest,
+        'quota_remaining': quota_remaining,
     }
     return render(request, 'examens/quiz.html', context)
 
@@ -225,17 +231,22 @@ def api_record_answer(request):
     except Question.DoesNotExist:
         return JsonResponse({'error': 'Question not found'}, status=404)
 
-    # Anonymous guest — skip user stats & quota
+    # Anonymous guest — track in session
     if not request.user.is_authenticated:
-        return JsonResponse({'status': 'ok'})
+        GUEST_LIMIT = 10
+        count = request.session.get('guest_questions_answered', 0) + 1
+        request.session['guest_questions_answered'] = count
+        remaining = max(0, GUEST_LIMIT - count)
+        return JsonResponse({'status': 'ok', 'quota_remaining': remaining, 'quota_exhausted': remaining == 0})
 
     request.user.profile.increment_stats(is_correct)
 
     if not request.user.profile.has_active_premium:
         quota = DailyQuota.get_or_create_today(request.user)
         quota.increment()
+        return JsonResponse({'status': 'ok', 'quota_remaining': quota.remaining, 'quota_exhausted': quota.is_exhausted})
 
-    return JsonResponse({'status': 'ok'})
+    return JsonResponse({'status': 'ok', 'quota_remaining': None, 'quota_exhausted': False})
 
 
 @login_required
