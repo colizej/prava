@@ -76,13 +76,17 @@ def contact(request):
             # Notify admin
             admin_email = settings.ADMINS[0][1] if settings.ADMINS else None
             if admin_email:
-                send_mail(
-                    subject=f'[PRAVA Contact] {subject}',
-                    message=f'De : {name} <{email}>\n\n{message_text}',
-                    from_email=settings.DEFAULT_FROM_EMAIL,
-                    recipient_list=[admin_email],
-                    fail_silently=True,
-                )
+                try:
+                    send_mail(
+                        subject=f'[PRAVA Contact] {subject}',
+                        message=f'De : {name} <{email}>\n\n{message_text}',
+                        from_email=settings.DEFAULT_FROM_EMAIL,
+                        recipient_list=[admin_email],
+                        fail_silently=False,
+                    )
+                except Exception:
+                    import logging
+                    logging.getLogger(__name__).exception('Contact form: failed to send email from %s', email)
             messages.success(request, 'Votre message a été envoyé avec succès!')
             return redirect('main:contact')
         else:

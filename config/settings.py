@@ -213,7 +213,7 @@ if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 else:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_HOST = 'in-smtp.mailjet.com'
+    EMAIL_HOST = 'in-v3.mailjet.com'
     EMAIL_PORT = 587
     EMAIL_USE_TLS = True
     EMAIL_HOST_USER = env('MAILJET_API_KEY', default='')
