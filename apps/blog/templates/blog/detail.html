@@ -15,7 +15,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "{{ post.title|escapejs }}",
-    "author": {"@type": "Person", "name": "{{ post.author.username|escapejs }}"},
+    "author": {"@type": "Person", "name": "{{ post.author.get_full_name|default:post.author.username|escapejs }}", "url": "{{ request.scheme }}://{{ request.get_host }}/"},
     "datePublished": "{{ post.published_at|date:'c' }}",
     "dateModified": "{{ post.updated_at|date:'c' }}",
     "description": "{{ post.seo_description|escapejs }}"
