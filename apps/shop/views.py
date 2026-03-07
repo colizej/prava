@@ -352,6 +352,7 @@ def _activate_premium(order: Order, request=None) -> None:
     # For guest accounts: send 'complete registration' email and skip standard confirmation
     if was_inactive and not user.has_usable_password():
         _send_complete_registration_email(user, request)
+        _notify_admin_purchase(order, user, profile)
         return
 
     # Send purchase confirmation email (non-critical)
@@ -379,3 +380,34 @@ def _activate_premium(order: Order, request=None) -> None:
         logger.info('Purchase confirmation email sent to %s for order %s', user.email, order.id)
     except Exception:
         logger.exception('Failed to send purchase confirmation email for order %s', order.id)
+
+    _notify_admin_purchase(order, user, profile)
+
+
+def _notify_admin_purchase(order, user, profile) -> None:
+    """Send a purchase notification to the admin."""
+    admin_email = settings.ADMINS[0][1] if settings.ADMINS else None
+    if not admin_email:
+        return
+    try:
+        plan = order.plan
+        until_str = profile.premium_until.strftime('%d/%m/%Y à %H:%M') if profile.premium_until else '—'
+        guest_flag = ' [INVITÉ]' if not user.has_usable_password() else ''
+        send_mail(
+            subject=f'🛒 Nouvelle vente — {plan.name} ({order.amount} €){guest_flag}',
+            message=(
+                f'Nouvelle commande sur Prava.be\n\n'
+                f'Utilisateur : {user.get_full_name() or user.username}{guest_flag}\n'
+                f'Email       : {user.email}\n'
+                f'Forfait     : {plan.name}\n'
+                f'Montant     : {order.amount} €\n'
+                f'Commande    : {order.id}\n'
+                f"Premium jusqu'au : {until_str}\n"
+            ),
+            from_email=settings.DEFAULT_FROM_EMAIL,
+            recipient_list=[admin_email],
+            fail_silently=False,
+        )
+        logger.info('Admin purchase notification sent for order %s', order.id)
+    except Exception:
+        logger.exception('Failed to send admin purchase notification for order %s', order.id)
