@@ -71,7 +71,7 @@ def categories(request):
 def question_detail(request, pk):
     """Public question page for SEO — no login required."""
     question = get_object_or_404(
-        Question.objects.prefetch_related('options').select_related('category', 'article'),
+        Question.objects.prefetch_related('options').select_related('category', 'code_article'),
         pk=pk, is_active=True,
     )
     options = question.options.all().order_by('order', 'letter')
