@@ -31,7 +31,7 @@ class ExamCategory(TranslatableFieldsMixin, models.Model):
         return self.name
 
     def get_absolute_url(self):
-        return reverse('examens:category', kwargs={'slug': self.slug})
+        return reverse('examens:practice_category', kwargs={'category_slug': self.slug})
 
     @property
     def active_questions_count(self):
