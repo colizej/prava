@@ -42,6 +42,16 @@
     </dl>
   </div>
 
+  {# Guest signup — prompt to set a password #}
+  {% if guest_signup %}
+  <div class="bg-blue-50 border border-blue-100 rounded-2xl p-6 mb-8 text-left">
+    <h2 class="font-semibold text-blue-900 mb-2">📧 {% trans "Finalisez votre compte" %}</h2>
+    <p class="text-sm text-blue-700">
+      {% trans "Un e-mail vous a été envoyé pour définir votre mot de passe. Vérifiez votre boîte de réception." %}
+    </p>
+  </div>
+  {% endif %}
+
   {# CTA #}
   <a href="{% url 'examens:categories' %}"
      class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white
