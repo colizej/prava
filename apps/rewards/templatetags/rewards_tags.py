@@ -49,7 +49,7 @@ def keys_widget(context):
 
 @register.inclusion_tag('rewards/widget_mobile.html', takes_context=True)
 def keys_widget_mobile(context):
-    """Minimal inline fuel balance row for the mobile nav menu."""
+    """Mobile fuel widget with exchange panel as bottom sheet."""
     request = context.get('request')
     if request is None or not request.user.is_authenticated:
         return {'show': False}
@@ -57,6 +57,7 @@ def keys_widget_mobile(context):
     user = request.user
     ks     = get_settings()
     wallet = get_or_create_wallet(user)
+    tiers  = get_exchange_tiers(ks)
     pct = min(100, int((wallet.balance / ks.tank_capacity) * 100)) if ks.tank_capacity else 0
 
     return {
@@ -65,4 +66,6 @@ def keys_widget_mobile(context):
         'balance': wallet.balance,
         'tank_capacity': ks.tank_capacity,
         'balance_pct': pct,
+        'tiers_json': json.dumps(tiers),
+        'spend_url': '/rewards/spend/',
     }

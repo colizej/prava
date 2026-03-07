@@ -1,18 +1,154 @@
 {% if show %}
 {% load i18n %}
-{# Simple fuel balance row for mobile nav menu — no JS, no duplicate IDs #}
-<a href="{% url 'main:home' %}#fuel-feature"
-   class="flex items-center justify-between py-2 text-gray-700 hover:text-blue-600 group">
+{# Mobile fuel widget: balance row + exchange bottom-sheet #}
+
+{# Trigger row #}
+<button type="button" onclick="fuelMobileOpen()"
+        class="w-full flex items-center justify-between py-2 text-gray-700 hover:text-blue-600 group">
   <span class="flex items-center gap-2">
     <span>{{ icon }}</span>
     <span>{% trans "Réservoir" %}</span>
   </span>
-  <span class="flex items-center gap-1.5">
+  <span class="flex items-center gap-2">
     <span class="text-sm font-bold text-amber-600">{{ balance }} <span class="text-xs font-normal text-gray-400">/ {{ tank_capacity }} L</span></span>
-    {# Mini fill bar #}
     <span style="display:inline-block;width:36px;height:8px;border-radius:99px;background:#f3f4f6;overflow:hidden;vertical-align:middle">
       <span style="display:block;height:100%;border-radius:99px;width:{{ balance_pct }}%;background:{% if balance == 0 %}#ef4444{% elif balance <= 10 %}#f59e0b{% elif balance <= 25 %}#fb923c{% else %}#22c55e{% endif %}"></span>
     </span>
+    <svg style="width:14px;height:14px;color:#9ca3af" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
   </span>
-</a>
+</button>
+
+{# Bottom sheet backdrop + panel #}
+<div id="fuel-mobile-sheet-backdrop"
+     onclick="fuelMobileClose()"
+     style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9998"></div>
+
+<div id="fuel-mobile-sheet"
+     style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;
+            background:#fff;border-radius:1.25rem 1.25rem 0 0;
+            padding:1.25rem 1.25rem 2rem;box-shadow:0 -4px 32px rgba(0,0,0,.15);
+            max-height:80vh;overflow-y:auto">
+
+  {# Handle #}
+  <div style="width:40px;height:4px;background:#e5e7eb;border-radius:99px;margin:0 auto .75rem"></div>
+
+  {# Header #}
+  <div class="flex items-center justify-between mb-4">
+    <div class="flex items-center gap-2">
+      <span class="text-lg">⛽</span>
+      <span class="font-bold text-gray-800">{% trans "Mon réservoir" %}</span>
+    </div>
+    <button onclick="fuelMobileClose()" class="text-gray-400 hover:text-gray-600 p-1">
+      <svg style="width:20px;height:20px" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+      </svg>
+    </button>
+  </div>
+
+  {# Balance bar #}
+  <div style="background:#f3f4f6;border-radius:99px;height:18px;overflow:hidden;margin-bottom:.5rem">
+    <div style="height:100%;border-radius:99px;width:{{ balance_pct }}%;
+                background:{% if balance == 0 %}#ef4444{% elif balance <= 10 %}#f59e0b{% elif balance <= 25 %}#fb923c{% else %}#22c55e{% endif %};
+                transition:width .8s ease"></div>
+  </div>
+  <div class="flex justify-between text-xs text-gray-400 mb-4">
+    <span>0 L</span>
+    <span class="font-bold text-gray-700" id="fuel-mob-balance">{{ balance }} L</span>
+    <span>{{ tank_capacity }} L</span>
+  </div>
+
+  {# Exchange tiers #}
+  <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">{% trans "Échanger des litres contre des questions" %}</p>
+  <div id="fuel-mob-tiers" class="space-y-2">
+    {# Rendered by JS below #}
+  </div>
+
+  <div id="fuel-mob-msg" style="display:none" class="mt-3 text-sm text-center rounded-xl py-2 px-3 font-medium"></div>
+
+  <div class="mt-4 pt-3 border-t border-gray-100 text-center">
+    <a href="{% url 'main:home' %}#fuel-feature"
+       class="text-xs text-blue-500 hover:underline">{% trans "Comment ça marche ?" %}</a>
+  </div>
+</div>
+
+<script>
+(function(){
+  var tiers    = {{ tiers_json|safe }};
+  var balance  = {{ balance }};
+  var spendUrl = '{{ spend_url }}';
+
+  function getCsrf() {
+    var m = document.cookie.match(/csrftoken=([^;]+)/);
+    return m ? m[1] : '';
+  }
+
+  function renderTiers() {
+    var container = document.getElementById('fuel-mob-tiers');
+    if (!container) return;
+    container.innerHTML = '';
+    tiers.forEach(function(tier) {
+      var canAfford = balance >= tier.fuel;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.disabled = !canAfford;
+      btn.style.cssText = 'width:100%;display:flex;align-items:center;justify-content:space-between;' +
+        'border-radius:.75rem;border:1.5px solid ' + (canAfford ? '#3b82f6' : '#e5e7eb') + ';' +
+        'background:' + (canAfford ? '#eff6ff' : '#fafafa') + ';' +
+        'color:' + (canAfford ? '#1d4ed8' : '#9ca3af') + ';' +
+        'padding:.6rem .9rem;font-size:.9rem;font-weight:600;cursor:' + (canAfford ? 'pointer' : 'not-allowed') + ';opacity:' + (canAfford ? '1' : '.45');
+      btn.innerHTML =
+        '<span>⛽ ' + tier.fuel + ' L</span>' +
+        '<span style="color:#d1d5db">▶</span>' +
+        '<span style="color:' + (canAfford ? '#059669' : '#9ca3af') + '">+' + tier.questions + ' questions</span>';
+      if (canAfford) {
+        btn.addEventListener('click', function() { doExchange(tier.fuel, tier.questions); });
+      }
+      container.appendChild(btn);
+    });
+  }
+
+  function showMsg(text, ok) {
+    var el = document.getElementById('fuel-mob-msg');
+    if (!el) return;
+    el.textContent = text;
+    el.style.display = 'block';
+    el.style.background = ok ? '#f0fdf4' : '#fffbeb';
+    el.style.color = ok ? '#15803d' : '#92400e';
+    el.style.border = '1px solid ' + (ok ? '#bbf7d0' : '#fde68a');
+  }
+
+  function doExchange(fuel, questions) {
+    if (!confirm('Échanger ' + fuel + ' L → +' + questions + ' questions ?')) return;
+    fetch(spendUrl, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json', 'X-CSRFToken': getCsrf()},
+      body: JSON.stringify({fuel: fuel}),
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (d.ok) {
+        balance = d.balance;
+        document.getElementById('fuel-mob-balance').textContent = balance + ' L';
+        showMsg('✅ +' + questions + ' questions ajoutées !', true);
+        renderTiers();
+      } else {
+        showMsg('❌ Solde insuffisant (' + d.balance + ' L)', false);
+      }
+    })
+    .catch(function() { showMsg('❌ Erreur réseau', false); });
+  }
+
+  window.fuelMobileOpen = function() {
+    renderTiers();
+    document.getElementById('fuel-mobile-sheet-backdrop').style.display = 'block';
+    document.getElementById('fuel-mobile-sheet').style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  };
+  window.fuelMobileClose = function() {
+    document.getElementById('fuel-mobile-sheet-backdrop').style.display = 'none';
+    document.getElementById('fuel-mobile-sheet').style.display = 'none';
+    document.body.style.overflow = '';
+  };
+})();
+</script>
 {% endif %}
