@@ -10,7 +10,7 @@
 {% block meta_extra %}
 {% if post.no_index %}<meta name="robots" content="noindex">{% endif %}
 {% if post.canonical_url %}{% block canonical %}<link rel="canonical" href="{{ post.canonical_url }}">{% endblock %}{% endif %}
-<script type="application/ld+json">{{ article_json_ld }}</script>
+<script type="application/ld+json">{{ article_json_ld|safe }}</script>
 {% if post.faq_structured_data %}
 <script type="application/ld+json">{{ post.faq_structured_data }}</script>
 {% endif %}
