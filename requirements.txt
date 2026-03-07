@@ -13,3 +13,4 @@ mollie-api-python>=3.0  # Payment integration (Bancontact, Visa, iDEAL)
 deepl>=1.17          # DeepL Free API (FR→RU translation, Markdown support)
 python-dotenv>=1.0   # .env loading in pipeline scripts
 google-genai>=1.0.0
+requests>=2.31       # Forward Email API backend
