@@ -154,33 +154,36 @@
 
             {# ── Mes révisions ── #}
             {% if study_lists %}
-            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-                <div class="flex items-center justify-between px-4 py-2.5 border-b">
-                    <h3 class="font-semibold text-xs text-gray-500 uppercase tracking-wide">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="flex items-center justify-between px-5 py-3.5 border-b border-gray-100">
+                    <h3 class="font-bold text-sm text-gray-800 flex items-center gap-2">
                         📌 {% trans "Mes révisions" %}
                         {% if saved_total %}
-                        <span class="ml-2 normal-case font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">{{ saved_total }}</span>
+                        <span class="text-orange-600 bg-orange-50 text-xs font-bold px-2 py-0.5 rounded-full border border-orange-100">{{ saved_total }}</span>
                         {% endif %}
                     </h3>
-                    <a href="{% url 'examens:my_list' %}" class="text-xs text-blue-600 hover:underline">{% trans "Voir tout →" %}</a>
+                    <a href="{% url 'examens:my_list' %}" class="text-xs font-semibold text-blue-600 hover:text-blue-700 transition">{% trans "Voir tout →" %}</a>
                 </div>
 
-                <div class="divide-y divide-gray-100">
+                <div class="divide-y divide-gray-50">
                     {% for lst in study_lists %}
-                    <div class="flex items-center gap-2.5 px-4 py-2">
-                        <span class="text-base shrink-0">{{ lst.icon }}</span>
+                    <div class="flex items-center gap-3 px-5 py-3 hover:bg-gray-50/80 transition group">
+                        <span class="w-9 h-9 rounded-xl bg-gray-100 group-hover:bg-gray-200 flex items-center justify-center text-lg shrink-0 transition">{{ lst.icon }}</span>
                         <div class="flex-1 min-w-0">
-                            <p class="text-sm font-medium text-gray-800 truncate">{{ lst.name }}</p>
+                            <p class="text-sm font-semibold text-gray-800">{{ lst.name }}</p>
                         </div>
-                        <span class="text-xs font-bold text-gray-500 shrink-0">{{ lst.user_count }}</span>
-                        <div class="flex gap-1 shrink-0">
+                        <span class="text-sm font-bold min-w-[2rem] text-center px-2 py-0.5 rounded-full
+                            {% if lst.user_count %}text-blue-700 bg-blue-50 border border-blue-100{% else %}text-gray-300 bg-gray-50{% endif %}">
+                            {{ lst.user_count }}
+                        </span>
+                        <div class="flex gap-1.5 shrink-0">
                             <a href="{% url 'examens:my_list_slug' lst.slug %}"
-                               class="px-2.5 py-1 text-xs text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-lg transition">
-                                Liste
+                               class="px-3 py-1.5 text-xs font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-lg transition">
+                                {% trans "Liste" %}
                             </a>
                             {% if lst.user_count %}
                             <a href="{% url 'examens:practice_saved_slug' lst.slug %}"
-                               class="px-2.5 py-1 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition">
+                               class="px-3 py-1.5 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition">
                                 ▶
                             </a>
                             {% endif %}
@@ -190,9 +193,9 @@
                 </div>
 
                 {% if saved_by_category %}
-                <div class="px-4 py-2.5 bg-gray-50 border-t flex flex-wrap gap-1.5">
+                <div class="px-5 py-3 bg-gray-50/60 border-t border-gray-100 flex flex-wrap gap-1.5">
                     {% for row in saved_by_category %}
-                    <span class="inline-flex items-center gap-1 text-xs bg-white border border-gray-200 text-gray-600 px-2 py-0.5 rounded-full">
+                    <span class="inline-flex items-center gap-1 text-xs bg-white border border-gray-200 text-gray-600 px-2.5 py-1 rounded-full shadow-xs">
                         {% if row.category__icon %}{{ row.category__icon }}{% endif %}
                         {{ row.category__name|default:"—" }}
                         <span class="font-bold text-blue-600">{{ row.cnt }}</span>
@@ -202,8 +205,9 @@
                 {% endif %}
 
                 {% if not saved_total %}
-                <div class="px-4 py-4 text-center text-gray-400 text-xs">
-                    {% trans "Aucune question sauvegardée." %}
+                <div class="px-5 py-8 text-center">
+                    <p class="text-gray-300 text-3xl mb-2">📭</p>
+                    <p class="text-gray-400 text-sm">{% trans "Aucune question sauvegardée." %}</p>
                 </div>
                 {% endif %}
             </div>
@@ -211,29 +215,28 @@
 
             {# Recent attempts #}
             {% if recent_attempts %}
-            <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-                <div class="flex items-center justify-between px-4 py-2.5 border-b bg-gray-50">
-                    <h3 class="font-semibold text-xs text-gray-500 uppercase tracking-wide">📋 {% trans "Derniers tests" %}</h3>
-                    <a href="{% url 'examens:categories' %}" class="text-xs text-blue-600 hover:underline">{% trans "Recommencer →" %}</a>
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="flex items-center justify-between px-5 py-3.5 border-b border-gray-100">
+                    <h3 class="font-bold text-sm text-gray-800">📋 {% trans "Derniers tests" %}</h3>
+                    <a href="{% url 'examens:categories' %}" class="text-xs font-semibold text-blue-600 hover:text-blue-700 transition">{% trans "Recommencer →" %}</a>
                 </div>
-                <div class="divide-y divide-gray-100">
+                <div class="divide-y divide-gray-50">
                     {% for attempt in recent_attempts %}
-                    <a href="{{ attempt.get_absolute_url }}" class="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition group">
-                        {# Score badge #}
-                        <div class="flex-shrink-0 w-11 h-11 rounded-xl flex flex-col items-center justify-center
-                            {% if attempt.passed %}bg-green-50 border border-green-200{% else %}bg-red-50 border border-red-200{% endif %}">
-                            <span class="text-sm font-bold leading-none {% if attempt.passed %}text-green-600{% else %}text-red-500{% endif %}">{{ attempt.percentage }}%</span>
-                            <span class="text-xs leading-none mt-0.5 {% if attempt.passed %}text-green-400{% else %}text-red-400{% endif %}">
-                                {% if attempt.passed %}✓{% else %}✗{% endif %}
-                            </span>
-                        </div>
+                    <a href="{{ attempt.get_absolute_url }}" class="flex items-center gap-4 px-5 py-3.5 hover:bg-gray-50/80 transition group">
                         <div class="flex-1 min-w-0">
-                            <span class="text-sm font-medium text-gray-800 truncate block group-hover:text-blue-600 transition">
+                            <span class="text-sm font-semibold text-gray-800 truncate block group-hover:text-blue-600 transition">
                                 {{ attempt.get_test_type_display }}{% if attempt.category %} — {{ attempt.category.name }}{% endif %}
                             </span>
                             <span class="text-xs text-gray-400">{{ attempt.started_at|date:"d/m/Y H:i" }}</span>
                         </div>
-                        <svg class="w-4 h-4 text-gray-300 group-hover:text-blue-400 flex-shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+                        {# Score pill #}
+                        <span class="shrink-0 text-sm font-bold px-3 py-1 rounded-full
+                            {% if attempt.percentage >= 75 %}text-green-700 bg-green-50 border border-green-100
+                            {% elif attempt.percentage >= 50 %}text-amber-600 bg-amber-50 border border-amber-100
+                            {% else %}text-red-600 bg-red-50 border border-red-100{% endif %}">
+                            {{ attempt.percentage }}%
+                        </span>
+                        <svg class="w-4 h-4 text-gray-200 group-hover:text-blue-400 flex-shrink-0 transition" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
                     </a>
                     {% endfor %}
                 </div>
