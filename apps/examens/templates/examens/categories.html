@@ -33,7 +33,7 @@
     </section>
 
     {# ── Mes révisions ── #}
-    {% if user.is_authenticated %}
+    {% if user.is_authenticated and study_lists %}
     <section class="mb-12">
         <div class="flex items-center justify-between mb-5">
             <h2 class="text-lg font-semibold text-gray-800">{% trans "Mes révisions" %}</h2>
@@ -63,8 +63,6 @@
                     </a>
                 </div>
             </div>
-        {% empty %}
-            <p class="text-gray-400 text-sm col-span-3">{% trans "Aucune liste de révision disponible pour le moment." %}</p>
         {% endfor %}
         </div>
     </section>

@@ -45,18 +45,21 @@ def categories(request):
     """Liste des catégories d'examen."""
     cats = ExamCategory.objects.filter(is_active=True).annotate(
         question_count=Count('questions', filter=Q(questions__is_active=True))
-    ).order_by('order')
+    ).filter(question_count__gt=0).order_by('order')
 
-    # Study lists with per-user saved counts
+    # Study lists with per-user saved counts — only non-empty ones for the overview
     if request.user.is_authenticated:
-        study_lists = StudyList.objects.filter(is_active=True).annotate(
-            user_count=Count(
-                'saved_questions',
-                filter=Q(saved_questions__user=request.user)
-            )
-        ).order_by('order')
+        study_lists = [
+            sl for sl in StudyList.objects.filter(is_active=True).annotate(
+                user_count=Count(
+                    'saved_questions',
+                    filter=Q(saved_questions__user=request.user)
+                )
+            ).order_by('order')
+            if sl.user_count > 0
+        ]
     else:
-        study_lists = StudyList.objects.none()
+        study_lists = []
 
     context = {
         'categories': cats,
