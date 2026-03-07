@@ -9,6 +9,7 @@ urlpatterns = [
     path('practice/<slug:category_slug>/', views.practice, name='practice_category'),
     path('exam/', views.exam_mode, name='exam'),
     path('results/<uuid:uuid>/', views.results, name='results'),
+    path('results/guest/', views.guest_results, name='guest_results'),
     path('history/', views.history, name='history'),
 
     # Public question detail (SEO)

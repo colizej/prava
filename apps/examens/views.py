@@ -80,13 +80,15 @@ def question_detail(request, pk):
     })
 
 
-@login_required
 def practice(request, category_slug=None):
-    """Mode entraînement."""
-    # Check quota
-    can_answer, quota = DailyQuota.can_answer(request.user)
-    if not can_answer:
-        return redirect('main:pricing')
+    """Mode entraînement. Anonymous users get a 10-question demo."""
+    is_guest = not request.user.is_authenticated
+
+    # Registered users: check quota
+    if not is_guest:
+        can_answer, quota = DailyQuota.can_answer(request.user)
+        if not can_answer:
+            return redirect('main:pricing')
 
     # Get questions
     questions = Question.objects.filter(is_active=True).prefetch_related('options')
@@ -96,22 +98,23 @@ def practice(request, category_slug=None):
         category = get_object_or_404(ExamCategory, slug=category_slug, is_active=True)
         questions = questions.filter(category=category)
 
-    # Random 20 questions
-    questions = questions.order_by('?')[:20]
+    # Guests: 10 questions; registered: 20
+    limit = 10 if is_guest else 20
+    questions = questions.order_by('?')[:limit]
 
-    # Serialize for Alpine.js
     questions_data = [_serialize_question(q) for q in questions]
 
-    # Store test type in session
     request.session['test_type'] = 'practice'
     request.session['category_id'] = category.id if category else None
+    request.session['is_guest_quiz'] = is_guest
 
     context = {
         'category': category,
         'questions_json': json.dumps(questions_data),
-        'time_limit': 0,  # No time limit
+        'time_limit': 0,
         'test_type': 'practice',
         'show_lang_switcher': True,
+        'is_guest': is_guest,
     }
     return render(request, 'examens/quiz.html', context)
 
@@ -205,7 +208,6 @@ def history(request):
 # ============================================================================
 
 @require_POST
-@login_required
 def api_record_answer(request):
     """API: enregistrer une réponse."""
     try:
@@ -222,10 +224,12 @@ def api_record_answer(request):
     except Question.DoesNotExist:
         return JsonResponse({'error': 'Question not found'}, status=404)
 
-    # Update user profile stats
+    # Anonymous guest — skip user stats & quota
+    if not request.user.is_authenticated:
+        return JsonResponse({'status': 'ok'})
+
     request.user.profile.increment_stats(is_correct)
 
-    # Update quota
     if not request.user.profile.has_active_premium:
         quota = DailyQuota.get_or_create_today(request.user)
         quota.increment()
@@ -271,7 +275,6 @@ def question_preview(request, pk):
     return render(request, 'examens/quiz.html', context)
 
 
-@login_required
 @require_POST
 def api_finish_quiz(request):
     """API: terminer un quiz et sauvegarder les résultats."""
@@ -281,6 +284,29 @@ def api_finish_quiz(request):
         return JsonResponse({'error': 'Invalid JSON'}, status=400)
 
     answers = data.get('answers', [])
+
+    # Anonymous guest — store results in session, no DB
+    if not request.user.is_authenticated:
+        total = len(answers)
+        correct = sum(1 for a in answers if a.get('is_correct'))
+        percentage = round(correct / total * 100, 2) if total else 0
+        passed = percentage >= 80
+        request.session['guest_results'] = {
+            'score': correct,
+            'total': total,
+            'percentage': percentage,
+            'passed': passed,
+        }
+        from django.urls import reverse
+        return JsonResponse({
+            'uuid': None,
+            'score': correct,
+            'total': total,
+            'percentage': percentage,
+            'passed': passed,
+            'url': reverse('examens:guest_results'),
+        })
+
     test_type = request.session.get('test_type', 'practice')
     category_id = request.session.get('category_id')
 
@@ -293,13 +319,12 @@ def api_finish_quiz(request):
     )
     attempt.calculate_results()
 
-    # Award keys for passing
     if attempt.passed:
         try:
             from apps.rewards.service import award_test_pass
             award_test_pass(request.user)
         except Exception:
-            pass  # non-critical — never break the quiz flow
+            pass
 
     return JsonResponse({
         'uuid': str(attempt.uuid),
@@ -348,6 +373,14 @@ def api_toggle_saved(request):
         user=request.user, study_list=study_list
     ).count()
     return JsonResponse({'saved': is_saved, 'count': count})
+
+
+def guest_results(request):
+    """Page de résultats pour les invités (non-inscrits) — données en session."""
+    results = request.session.pop('guest_results', None)
+    if not results:
+        return redirect('examens:categories')
+    return render(request, 'examens/guest_results.html', {'results': results})
 
 
 @login_required
