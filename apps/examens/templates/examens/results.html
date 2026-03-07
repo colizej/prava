@@ -105,6 +105,7 @@
                     {% endif %}
                     {% if result.question.code_article %}
                     <a href="{{ result.question.code_article.get_absolute_url }}"
+                       target="_blank" rel="noopener noreferrer"
                        class="inline-block mt-1 text-xs text-blue-500 hover:underline">
                         📖 Art. {{ result.question.code_article.article_number }}
                     </a>

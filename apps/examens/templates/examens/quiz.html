@@ -156,6 +156,7 @@
                         <p class="text-xs text-gray-400 mt-1" x-show="langs.length > 1 && currentQuestion['explanation_' + langs[1]]" x-text="LANG.secondaryText({text: currentQuestion.explanation, text_nl: currentQuestion.explanation_nl, text_ru: currentQuestion.explanation_ru})"></p>
                         <template x-if="currentQuestion && currentQuestion.code_reference">
                             <a :href="currentQuestion.code_reference.url"
+                               target="_blank" rel="noopener noreferrer"
                                class="inline-block mt-2 text-sm text-blue-600 hover:text-blue-700"
                                x-text="'📖 ' + currentQuestion.code_reference.article"></a>
                         </template>
