@@ -34,6 +34,9 @@ def markdown_to_html(value):
         text = re.sub(r'\n\s*#\s*\n', '\n', text)
         text = re.sub(r'\n\s*#\s*$', '', text)
 
+        # Fix accidental space between ] and ( in links: ] (url) → ](url)
+        text = re.sub(r'\]\s+\(', '](', text)
+
         # Pre-process blockquotes with attribution: > quote \n>> attribution
         quote_blocks = []
 
