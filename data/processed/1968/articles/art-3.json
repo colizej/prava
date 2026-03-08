@@ -28,7 +28,304 @@
   "anchor_id_fr": "nc5pwlwoke",
   "anchor_id_nl": "z9cketbaxg",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui est responsable de l'élaboration des règlements complémentaires relatifs aux routes militaires ouvertes à la circulation publique en Région wallonne ?",
+      "text_nl": "Wie is verantwoordelijk voor de opstelling van de aanvullende reglementen met betrekking tot militaire wegen die voor het openbaar verkeer openstaan in de Waalse regio ?",
+      "text_ru": "Кто отвечает за разработку дополнительных правил, касающихся военных дорог, открытых для публичного движения в Валлонском регионе?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de la défense nationale",
+          "text_nl": "De Minister van Landsverdediging",
+          "text_ru": "Министр национальной обороны",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre des travaux publics",
+          "text_nl": "De Minister van Openbare Werken",
+          "text_ru": "Министр общественных работ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Conseil communal",
+          "text_nl": "De Gemeenteraad",
+          "text_ru": "Муниципальный совет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Ministre de la défense nationale est responsable de l'élaboration des règlements complémentaires relatifs aux routes militaires ouvertes à la circulation publique.",
+      "explanation_nl": "De Minister van Landsverdediging is verantwoordelijk voor de opstelling van de aanvullende reglementen met betrekking tot militaire wegen die voor het openbaar verkeer openstaan.",
+      "explanation_ru": "Министр национальной обороны отвечает за разработку дополнительных правил, касающихся военных дорог, открытых для публичного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un règlement complémentaire en matière de circulation routière en Région wallonne ?",
+      "text_nl": "Wat is een aanvullend reglement inzake wegverkeer in de Waalse regio ?",
+      "text_ru": "Что такое дополнительное правило в области дорожного движения в Валлонском регионе?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un règlement qui complète les règles de circulation routière",
+          "text_nl": "Een reglement dat de verkeersregels aanvult",
+          "text_ru": "Правило, дополняющее правила дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un règlement qui remplace les règles de circulation routière",
+          "text_nl": "Een reglement dat de verkeersregels vervangt",
+          "text_ru": "Правило, заменяющее правила дорожного движения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un règlement qui n'a rien à voir avec la circulation routière",
+          "text_nl": "Een reglement dat niets te maken heeft met het wegverkeer",
+          "text_ru": "Правило, не имеющее отношения к дорожному движению",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un règlement complémentaire est un règlement qui complète les règles de circulation routière en Région wallonne.",
+      "explanation_nl": "Een aanvullend reglement is een reglement dat de verkeersregels in de Waalse regio aanvult.",
+      "explanation_ru": "Дополнительное правило - это правило, дополняющее правила дорожного движения в Валлонском регионе."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qui est consulté avant que les règlements complémentaires ne soient arrêtés en Région wallonne ?",
+      "text_nl": "Wie wordt geraadpleegd voordat de aanvullende reglementen in de Waalse regio worden vastgesteld ?",
+      "text_ru": "Кто консультируется перед тем, как будут приняты дополнительные правила в Валлонском регионе?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les conseils communaux intéressés",
+          "text_nl": "De betrokken gemeenteraden",
+          "text_ru": "Заинтересованные муниципальные советы",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les commissions consultatives intéressées",
+          "text_nl": "De betrokken raadgevende commissies",
+          "text_ru": "Заинтересованные консультативные комиссии",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les ministres compétents",
+          "text_nl": "De bevoegde ministers",
+          "text_ru": "Компетентные министры",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conseils communaux intéressés et les commissions consultatives intéressées sont consultés avant que les règlements complémentaires ne soient arrêtés en Région wallonne.",
+      "explanation_nl": "De betrokken gemeenteraden en de betrokken raadgevende commissies worden geraadpleegd voordat de aanvullende reglementen in de Waalse regio worden vastgesteld.",
+      "explanation_ru": "Заинтересованные муниципальные советы и заинтересованные консультативные комиссии консультируются перед тем, как будут приняты дополнительные правила в Валлонском регионе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur se trouve sur une route militaire ouverte à la circulation publique en Région wallonne. Qui est responsable de la sécurité de la route ?",
+      "text_nl": "Een bestuurder bevindt zich op een militaire weg die openstaat voor het openbaar verkeer in de Waalse regio. Wie is verantwoordelijk voor de veiligheid van de weg ?",
+      "text_ru": "Водитель находится на военной дороге, открытой для публичного движения в Валлонском регионе. Кто отвечает за безопасность дороги?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de la défense nationale",
+          "text_nl": "De Minister van Landsverdediging",
+          "text_ru": "Министр национальной обороны",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur",
+          "text_nl": "De bestuurder",
+          "text_ru": "Водитель",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Conseil communal",
+          "text_nl": "De Gemeenteraad",
+          "text_ru": "Муниципальный совет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Ministre de la défense nationale est responsable de la sécurité de la route militaire ouverte à la circulation publique en Région wallonne.",
+      "explanation_nl": "De Minister van Landsverdediging is verantwoordelijk voor de veiligheid van de militaire weg die openstaat voor het openbaar verkeer in de Waalse regio.",
+      "explanation_ru": "Министр национальной обороны отвечает за безопасность военной дороги, открытой для публичного движения в Валлонском регионе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se trouve sur une route en Région wallonne et remarque que les règles de circulation routière ne sont pas claires. Qui peut-il contacter pour obtenir des informations ?",
+      "text_nl": "Een bestuurder bevindt zich op een weg in de Waalse regio en merkt dat de verkeersregels niet duidelijk zijn. Wie kan hij contacten voor meer informatie ?",
+      "text_ru": "Водитель находится на дороге в Валлонском регионе и замечает, что правила дорожного движения неясны. Кто он может обратиться за информацией?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Conseil communal",
+          "text_nl": "De Gemeenteraad",
+          "text_ru": "Муниципальный совет",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre des travaux publics",
+          "text_nl": "De Minister van Openbare Werken",
+          "text_ru": "Министр общественных работ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police",
+          "text_nl": "De politie",
+          "text_ru": "Полиция",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut contacter le Conseil communal pour obtenir des informations sur les règles de circulation routière en Région wallonne.",
+      "explanation_nl": "De bestuurder kan de Gemeenteraad contacteren voor meer informatie over de verkeersregels in de Waalse regio.",
+      "explanation_ru": "Водитель может обратиться в Муниципальный совет за информацией о правилах дорожного движения в Валлонском регионе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur se trouve sur une route militaire ouverte à la circulation publique en Région wallonne et remarque que la route est en mauvais état. Qui peut-il contacter pour signaler le problème ?",
+      "text_nl": "Een bestuurder bevindt zich op een militaire weg die openstaat voor het openbaar verkeer in de Waalse regio en merkt dat de weg in slechte staat is. Wie kan hij contacten om het probleem te melden ?",
+      "text_ru": "Водитель находится на военной дороге, открытой для публичного движения в Валлонском регионе, и замечает, что дорога находится в плохом состоянии. Кто он может обратиться, чтобы сообщить о проблеме?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de la défense nationale",
+          "text_nl": "De Minister van Landsverdediging",
+          "text_ru": "Министр национальной обороны",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Conseil communal",
+          "text_nl": "De Gemeenteraad",
+          "text_ru": "Муниципальный совет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police",
+          "text_nl": "De politie",
+          "text_ru": "Полиция",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut contacter le Ministre de la défense nationale pour signaler le problème de la route militaire ouverte à la circulation publique en Région wallonne.",
+      "explanation_nl": "De bestuurder kan de Minister van Landsverdediging contacteren om het probleem van de militaire weg die openstaat voor het openbaar verkeer in de Waalse regio te melden.",
+      "explanation_ru": "Водитель может обратиться к Министру национальной обороны, чтобы сообщить о проблеме военной дороги, открытой для публичного движения в Валлонском регионе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur se trouve sur une route en Région wallonne et remarque que les panneaux de signalisation sont absents ou endommagés. Qui peut-il contacter pour signaler le problème ?",
+      "text_nl": "Een bestuurder bevindt zich op een weg in de Waalse regio en merkt dat de verkeersborden ontbreken of beschadigd zijn. Wie kan hij contacten om het probleem te melden ?",
+      "text_ru": "Водитель находится на дороге в Валлонском регионе и замечает, что знаки отсутствуют или повреждены. Кто он может обратиться, чтобы сообщить о проблеме?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Conseil communal",
+          "text_nl": "De Gemeenteraad",
+          "text_ru": "Муниципальный совет",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre des travaux publics",
+          "text_nl": "De Minister van Openbare Werken",
+          "text_ru": "Министр общественных работ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police",
+          "text_nl": "De politie",
+          "text_ru": "Полиция",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut contacter le Conseil communal pour signaler le problème des panneaux de signalisation en Région wallonne.",
+      "explanation_nl": "De bestuurder kan de Gemeenteraad contacteren om het probleem van de verkeersborden in de Waalse regio te melden.",
+      "explanation_ru": "Водитель может обратиться в Муниципальный совет, чтобы сообщить о проблеме знаков в Валлонском регионе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se trouve sur une route en Région wallonne et remarque que la route est fermée pour des travaux. Qui peut-il contacter pour obtenir des informations sur la fermeture ?",
+      "text_nl": "Een bestuurder bevindt zich op een weg in de Waalse regio en merkt dat de weg gesloten is vanwege werkzaamheden. Wie kan hij contacten voor meer informatie over de sluiting ?",
+      "text_ru": "Водитель находится на дороге в Валлонском регионе и замечает, что дорога закрыта из-за работ. Кто он может обратиться за информацией о закрытии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Conseil communal",
+          "text_nl": "De Gemeenteraad",
+          "text_ru": "Муниципальный совет",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre des travaux publics",
+          "text_nl": "De Minister van Openbare Werken",
+          "text_ru": "Министр общественных работ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police",
+          "text_nl": "De politie",
+          "text_ru": "Полиция",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut contacter le Conseil communal pour obtenir des informations sur la fermeture de la route en Région wallonne.",
+      "explanation_nl": "De bestuurder kan de Gemeenteraad contacteren voor meer informatie over de sluiting van de weg in de Waalse regio.",
+      "explanation_ru": "Водитель может обратиться в Муниципальный совет за информацией о закрытии дороги в Валлонском регионе."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "b892d4e8c45c",
@@ -38,6 +335,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:35:08Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

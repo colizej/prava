@@ -26,7 +26,119 @@
   "anchor_id_fr": "x9wubrgukg",
   "anchor_id_nl": "dcexod6pop",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle autorité est habilitée à installer des panneaux indicateurs spécifiques sur les voies publiques, liés aux règlements que l'Administration des douanes et accises doit faire respecter ?",
+      "text_nl": "Welke autoriteit is bevoegd om specifieke aanwijzingstekens op de openbare wegen te plaatsen, betreffende de regels die de douane en accijnzen moeten doen naleven?",
+      "text_ru": "Какая власть уполномочена устанавливать конкретные указательные знаки на дорогах общего пользования, связанные с правилами, которые должна соблюдать Таможенная и акцизная служба?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de la Mobilité",
+          "text_nl": "De Minister van Mobiliteit",
+          "text_ru": "Министр мобильности",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre des Finances",
+          "text_nl": "De Minister van Financiën",
+          "text_ru": "Министр финансов",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre de l'Intérieur",
+          "text_nl": "De Minister van Binnenlandse Zaken",
+          "text_ru": "Министр внутренних дел",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'autorité compétente pour placer ces signaux est le Ministre des Finances.",
+      "explanation_nl": "De bevoegde autoriteit om deze tekens te plaatsen is de Minister van Financiën.",
+      "explanation_ru": "Компетентным органом для установки этих знаков является министр финансов."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'objectif des signaux que le Ministre des Finances est autorisé à placer sur les voies publiques ?",
+      "text_nl": "Wat is het doel van de tekens die de Minister van Financiën op de openbare wegen mag plaatsen?",
+      "text_ru": "Какова цель знаков, которые министр финансов уполномочен размещать на дорогах общего пользования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer des zones de stationnement temporaire",
+          "text_nl": "Tijdelijke parkeerzones aangeven",
+          "text_ru": "Указывать зоны временной парковки",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Informer sur les règles et dispositions des douanes et accises",
+          "text_nl": "Informeren over de regels en bepalingen van douane en accijnzen",
+          "text_ru": "Информировать о правилах и положениях таможни и акцизов",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signaler des travaux routiers urgents",
+          "text_nl": "Dringende wegwerkzaamheden signaleren",
+          "text_ru": "Сигнализировать о срочных дорожных работах",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces signaux sont destinés à informer sur les dispositions légales et réglementaires que l'Administration des douanes et accises est chargée de faire respecter.",
+      "explanation_nl": "Deze tekens zijn bedoeld om te informeren over de wettelijke en reglementaire bepalingen die de douane en accijnzen moeten doen naleven.",
+      "explanation_ru": "Эти знаки предназначены для информирования о правовых и нормативных положениях, соблюдение которых возложено на Таможенную и акцизную службу."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Sur quel type d'emplacement le Ministre des Finances peut-il apposer des signaux d'indication relatifs aux dispositions des douanes et accises ?",
+      "text_nl": "Op welk type locatie mag de Minister van Financiën aanwijzingstekens plaatsen met betrekking tot douane- en accijnsbepalingen?",
+      "text_ru": "На каком типе места министр финансов может размещать указательные знаки, касающиеся таможенных и акцизных положений?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement sur les propriétés privées",
+          "text_nl": "Alleen op privé-eigendommen",
+          "text_ru": "Только на частных территориях",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sur les voies publiques",
+          "text_nl": "Op de openbare wegen",
+          "text_ru": "На дорогах общего пользования",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Exclusivement dans les zones portuaires",
+          "text_nl": "Uitsluitend in havengebieden",
+          "text_ru": "Исключительно в портовых зонах",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Ministre des Finances est autorisé à placer ces signaux sur les voies publiques.",
+      "explanation_nl": "De Minister van Financiën is gemachtigd om deze tekens op de openbare wegen te plaatsen.",
+      "explanation_ru": "Министр финансов уполномочен размещать эти знаки на дорогах общего пользования."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "7164e56dc66d",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:13:30Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

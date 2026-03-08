@@ -26,7 +26,304 @@
   "anchor_id_fr": "uakrygigzv",
   "anchor_id_nl": "kioemqvbzj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que l'abrogation d'un article dans le code de la route ?",
+      "text_nl": "Wat is het opheffen van een artikel in de wegcode?",
+      "text_ru": "Что такое отмена статьи в кодексе дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une modification de l'article",
+          "text_nl": "Een wijziging van het artikel",
+          "text_ru": "Изменение статьи",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une suppression de l'article",
+          "text_nl": "Een opheffing van het artikel",
+          "text_ru": "Отмена статьи",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une ajout de l'article",
+          "text_nl": "Een toevoeging van het artikel",
+          "text_ru": "Добавление статьи",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'abrogation d'un article signifie que celui-ci est supprimé et n'est plus applicable.",
+      "explanation_nl": "Het opheffen van een artikel betekent dat het artikel wordt geschrapt en niet langer van toepassing is.",
+      "explanation_ru": "Отмена статьи означает, что статья удаляется и больше не применима."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que cela signifie pour un conducteur que l'article 25 soit abrogé ?",
+      "text_nl": "Wat betekent het voor een bestuurder dat artikel 25 is opgeheven?",
+      "text_ru": "Что это значит для водителя, что статья 25 отменена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur doit suivre les règles de l'article 25",
+          "text_nl": "De bestuurder moet de regels van artikel 25 volgen",
+          "text_ru": "Водитель должен следовать правилам статьи 25",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur n'a plus à suivre les règles de l'article 25",
+          "text_nl": "De bestuurder hoeft de regels van artikel 25 niet meer te volgen",
+          "text_ru": "Водитель больше не должен следовать правилам статьи 25",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur doit suivre les règles de l'article 24",
+          "text_nl": "De bestuurder moet de regels van artikel 24 volgen",
+          "text_ru": "Водитель должен следовать правилам статьи 24",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Puisque l'article 25 est abrogé, le conducteur n'a plus à suivre les règles qui y étaient énoncées.",
+      "explanation_nl": "Aangezien artikel 25 is opgeheven, hoeft de bestuurder de regels die daarin werden genoemd niet meer te volgen.",
+      "explanation_ru": "Поскольку статья 25 отменена, водитель больше не должен следовать правилам, которые были в ней изложены."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les conséquences de l'abrogation d'un article dans le code de la route ?",
+      "text_nl": "Wat zijn de gevolgen van het opheffen van een artikel in de wegcode?",
+      "text_ru": "Каковы последствия отмены статьи в кодексе дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les conducteurs doivent suivre les règles de l'article abrogé",
+          "text_nl": "De bestuurders moeten de regels van het opgeheven artikel volgen",
+          "text_ru": "Водители должны следовать правилам отмененной статьи",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conducteurs n'ont plus à suivre les règles de l'article abrogé",
+          "text_nl": "De bestuurders hoeven de regels van het opgeheven artikel niet meer te volgen",
+          "text_ru": "Водители больше не должны следовать правилам отмененной статьи",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les conducteurs doivent suivre les règles de l'article suivant",
+          "text_nl": "De bestuurders moeten de regels van het volgende artikel volgen",
+          "text_ru": "Водители должны следовать правилам следующей статьи",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'abrogation d'un article signifie que les conducteurs n'ont plus à suivre les règles qui y étaient énoncées.",
+      "explanation_nl": "Het opheffen van een artikel betekent dat de bestuurders de regels die daarin werden genoemd niet meer hoeven te volgen.",
+      "explanation_ru": "Отмена статьи означает, что водители больше не должны следовать правилам, которые были в ней изложены."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est arrêté pour avoir enfreint les règles de l'article 25. Que se passe-t-il ?",
+      "text_nl": "Een bestuurder wordt aangehouden omdat hij de regels van artikel 25 heeft overtreden. Wat gebeurt er?",
+      "text_ru": "Водитель задержан за нарушение правил статьи 25. Что происходит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur est sanctionné pour l'infraction",
+          "text_nl": "De bestuurder wordt bestraft voor de overtreding",
+          "text_ru": "Водитель наказан за нарушение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur n'est pas sanctionné car l'article 25 est abrogé",
+          "text_nl": "De bestuurder wordt niet bestraft omdat artikel 25 is opgeheven",
+          "text_ru": "Водитель не наказан, поскольку статья 25 отменена",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur doit suivre les règles de l'article 24",
+          "text_nl": "De bestuurder moet de regels van artikel 24 volgen",
+          "text_ru": "Водитель должен следовать правилам статьи 24",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Puisque l'article 25 est abrogé, le conducteur ne peut pas être sanctionné pour l'infraction.",
+      "explanation_nl": "Aangezien artikel 25 is opgeheven, kan de bestuurder niet worden bestraft voor de overtreding.",
+      "explanation_ru": "Поскольку статья 25 отменена, водитель не может быть наказан за нарушение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur se demande si il doit suivre les règles de l'article 25. Que doit-il faire ?",
+      "text_nl": "Een bestuurder vraagt zich af of hij de regels van artikel 25 moet volgen. Wat moet hij doen?",
+      "text_ru": "Водитель задается вопросом, должен ли он следовать правилам статьи 25. Что он должен делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit suivre les règles de l'article 25",
+          "text_nl": "Hij moet de regels van artikel 25 volgen",
+          "text_ru": "Он должен следовать правилам статьи 25",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit vérifier si l'article 25 est encore en vigueur",
+          "text_nl": "Hij moet controleren of artikel 25 nog van kracht is",
+          "text_ru": "Он должен проверить, действует ли статья 25",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit suivre les règles de l'article 24",
+          "text_nl": "Hij moet de regels van artikel 24 volgen",
+          "text_ru": "Он должен следовать правилам статьи 24",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit vérifier si l'article 25 est encore en vigueur avant de décider si il doit le suivre.",
+      "explanation_nl": "De bestuurder moet controleren of artikel 25 nog van kracht is voordat hij beslist of hij het moet volgen.",
+      "explanation_ru": "Водитель должен проверить, действует ли статья 25, прежде чем решить, должен ли он ее соблюдать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a reçu une amende pour avoir enfreint les règles de l'article 25. Que peut-il faire ?",
+      "text_nl": "Een bestuurder heeft een boete gekregen omdat hij de regels van artikel 25 heeft overtreden. Wat kan hij doen?",
+      "text_ru": "Водитель получил штраф за нарушение правил статьи 25. Что он может сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit payer l'amende",
+          "text_nl": "Hij moet de boete betalen",
+          "text_ru": "Он должен заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il peut contester l'amende car l'article 25 est abrogé",
+          "text_nl": "Hij kan de boete betwisten omdat artikel 25 is opgeheven",
+          "text_ru": "Он может оспорить штраф, поскольку статья 25 отменена",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit suivre les règles de l'article 24",
+          "text_nl": "Hij moet de regels van artikel 24 volgen",
+          "text_ru": "Он должен следовать правилам статьи 24",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut contester l'amende car l'article 25 est abrogé et il ne peut pas être sanctionné pour l'infraction.",
+      "explanation_nl": "De bestuurder kan de boete betwisten omdat artikel 25 is opgeheven en hij niet kan worden bestraft voor de overtreding.",
+      "explanation_ru": "Водитель может оспорить штраф, поскольку статья 25 отменена и он не может быть наказан за нарушение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se demande si l'article 25 est encore en vigueur. Comment peut-il le savoir ?",
+      "text_nl": "Een bestuurder vraagt zich af of artikel 25 nog van kracht is. Hoe kan hij dit te weten komen?",
+      "text_ru": "Водитель задается вопросом, действует ли статья 25. Как он может узнать об этом?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il peut vérifier sur le site web du ministère des Transports",
+          "text_nl": "Hij kan het controleren op de website van het ministerie van Verkeer",
+          "text_ru": "Он может проверить на сайте Министерства транспорта",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il peut demander à un agent de police",
+          "text_nl": "Hij kan het vragen aan een politieagent",
+          "text_ru": "Он может спросить у полицейского",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il peut suivre les règles de l'article 24",
+          "text_nl": "Hij moet de regels van artikel 24 volgen",
+          "text_ru": "Он должен следовать правилам статьи 24",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut vérifier sur le site web du ministère des Transports pour savoir si l'article 25 est encore en vigueur.",
+      "explanation_nl": "De bestuurder kan het controleren op de website van het ministerie van Verkeer om te weten te komen of artikel 25 nog van kracht is.",
+      "explanation_ru": "Водитель может проверить на сайте Министерства транспорта, чтобы узнать, действует ли статья 25."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été informé que l'article 25 est abrogé. Que doit-il faire ?",
+      "text_nl": "Een bestuurder is geïnformeerd dat artikel 25 is opgeheven. Wat moet hij doen?",
+      "text_ru": "Водитель был проинформирован, что статья 25 отменена. Что он должен делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit suivre les règles de l'article 25",
+          "text_nl": "Hij moet de regels van artikel 25 volgen",
+          "text_ru": "Он должен следовать правилам статьи 25",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit vérifier si l'information est exacte",
+          "text_nl": "Hij moet controleren of de informatie correct is",
+          "text_ru": "Он должен проверить, точна ли информация",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit suivre les règles de l'article 24",
+          "text_nl": "Hij moet de regels van artikel 24 volgen",
+          "text_ru": "Он должен следовать правилам статьи 24",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit vérifier si l'information est exacte avant de prendre une décision.",
+      "explanation_nl": "De bestuurder moet controleren of de informatie correct is voordat hij een beslissing neemt.",
+      "explanation_ru": "Водитель должен проверить, точна ли информация, прежде чем принять решение."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e8d06fee56b6",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:32:52Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

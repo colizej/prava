@@ -26,7 +26,119 @@
   "anchor_id_fr": "zuj1gcmzsu",
   "anchor_id_nl": "fc7ilxc20u",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel(s) document(s) un conducteur est-il tenu de présenter aux autorités compétentes lorsqu'il est au volant d'un véhicule ?",
+      "text_nl": "Welk(e) document(en) is een bestuurder verplicht voor te leggen aan de bevoegde autoriteiten wanneer hij een voertuig bestuurt?",
+      "text_ru": "Какие документы водитель обязан предъявить компетентным органам, находясь за рулем транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement une pièce d'identité valide.",
+          "text_nl": "Alleen een geldig identiteitsbewijs.",
+          "text_ru": "Только действительное удостоверение личности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis de conduire ou un titre qui en tient lieu, tel qu'un permis d'apprentissage.",
+          "text_nl": "Het rijbewijs of een als zodanig geldend bewijs, zoals een leerrijbewijs.",
+          "text_ru": "Водительские права или документ, заменяющий их, например, разрешение на обучение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le permis de conduire et la carte d'assurance du véhicule.",
+          "text_nl": "Het rijbewijs en de verzekeringskaart van het voertuig.",
+          "text_ru": "Водительские права и страховое свидетельство транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur est tenu de présenter son permis de conduire ou le titre qui en tient lieu, comme un permis d'apprentissage, à toute réquisition d'un agent qualifié.",
+      "explanation_nl": "De bestuurder is gehouden zijn rijbewijs of een als zodanig geldend bewijs, zoals een leerrijbewijs, te vertonen op iedere vordering van een bevoegde ambtenaar.",
+      "explanation_ru": "Водитель обязан предъявить свои водительские права или документ, заменяющий их, например, разрешение на обучение, по первому требованию уполномоченного сотрудника."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est habilité à requérir la présentation des documents de conduite à un conducteur sur la voie publique ?",
+      "text_nl": "Wie is bevoegd om de voorlegging van rijdocumenten aan een bestuurder op de openbare weg te vragen?",
+      "text_ru": "Кто уполномочен требовать предъявления водительских документов у водителя на дороге общего пользования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "N'importe quel citoyen qui a des doutes sur l'identité du conducteur.",
+          "text_nl": "Elke burger die twijfels heeft over de identiteit van de bestuurder.",
+          "text_ru": "Любой гражданин, сомневающийся в личности водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un agent de sécurité privé en mission de surveillance.",
+          "text_nl": "Een private bewakingsagent tijdens een toezichtsmissie.",
+          "text_ru": "Сотрудник частной охраны при выполнении надзорных функций.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un fonctionnaire ou un agent qualifié pour surveiller l'exécution des lois et règlements de circulation.",
+          "text_nl": "Een ambtenaar of beambte bevoegd om toezicht te houden op de uitvoering van de verkeerswetten en -reglementen.",
+          "text_ru": "Уполномоченное должностное лицо или агент, осуществляющий надзор за исполнением законов и правил дорожного движения.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Seuls les fonctionnaires ou agents qualifiés pour surveiller l'exécution de la loi et des règlements sont habilités à requérir la présentation des documents de conduite.",
+      "explanation_nl": "Enkel ambtenaren of beambten die bevoegd zijn om toezicht te houden op de uitvoering van de wet en de reglementen, mogen de rijdocumenten opvragen.",
+      "explanation_ru": "Только уполномоченные должностные лица или агенты, отвечающие за соблюдение законов и правил, имеют право требовать предъявления водительских документов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez et un agent de police vous fait signe de vous arrêter pour un contrôle routier. Quelle est votre obligation immédiate concernant vos documents de conduite ?",
+      "text_nl": "U rijdt en een politieagent gebaart u om te stoppen voor een controle. Wat is uw onmiddellijke verplichting met betrekking tot uw rijdocumenten?",
+      "text_ru": "Вы едете, и полицейский подает вам знак остановиться для проверки документов. Какова ваша непосредственная обязанность в отношении ваших водительских документов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer signaling a car to stop."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez d'abord demander la raison du contrôle avant de présenter quoi que ce soit.",
+          "text_nl": "U moet eerst de reden van de controle vragen voordat u iets toont.",
+          "text_ru": "Вы должны сначала узнать причину проверки, прежде чем что-либо предъявлять.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez déclarer verbalement que vous avez vos documents sur vous.",
+          "text_nl": "U moet mondeling verklaren dat u uw documenten bij u heeft.",
+          "text_ru": "Вы должны устно заявить, что у вас есть документы при себе.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez présenter votre permis de conduire ou votre titre d'apprentissage à la première demande de l'agent.",
+          "text_nl": "U moet uw rijbewijs of leerbewijs tonen op het eerste verzoek van de agent.",
+          "text_ru": "Вы должны предъявить свои водительские права или разрешение на обучение по первому требованию сотрудника.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsqu'un agent qualifié requiert la présentation de vos documents, vous êtes tenu de présenter immédiatement votre permis de conduire ou votre titre d'apprentissage.",
+      "explanation_nl": "Wanneer een bevoegde ambtenaar uw documenten opvraagt, bent u verplicht uw rijbewijs of leerbewijs onmiddellijk te tonen.",
+      "explanation_ru": "Когда уполномоченный сотрудник требует предъявить ваши документы, вы обязаны немедленно предъявить свои водительские права или разрешение на обучение."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "ed95e6b81778",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:16:02Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

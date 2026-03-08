@@ -28,7 +28,304 @@
   "anchor_id_fr": "ay7z1bbogy",
   "anchor_id_nl": "qnsoi7pci8",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la sanction pour conduire un véhicule à moteur sans permis de conduire ou titre équivalent?",
+      "text_nl": "Wat is de sanctie voor het besturen van een motorvoertuig zonder rijbewijs of gelijkwaardig document?",
+      "text_ru": "Какое наказание предусмотрено за управление транспортным средством без водительских прав или аналогичного документа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avertissement",
+          "text_nl": "Waarschuwing",
+          "text_ru": "Предупреждение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Amende de 10 à 500 euros",
+          "text_nl": "Geldboete van 10 euro tot 500 euro",
+          "text_ru": "Штраф от 10 до 500 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Retrait du permis",
+          "text_nl": "Intrekking van het rijbewijs",
+          "text_ru": "Лишение прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La sanction pour conduire un véhicule à moteur sans permis de conduire ou titre équivalent est une amende de 10 à 500 euros.",
+      "explanation_nl": "De sanctie voor het besturen van een motorvoertuig zonder rijbewijs of gelijkwaardig document is een geldboete van 10 euro tot 500 euro.",
+      "explanation_ru": "Наказание за управление транспортным средством без водительских прав или аналогичного документа составляет штраф от 10 до 500 евро."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qui peut entraîner une réduction de l'amende pour conduite sans permis de conduire ou titre équivalent?",
+      "text_nl": "Wat kan leiden tot een vermindering van de geldboete voor het besturen van een motorvoertuig zonder rijbewijs of gelijkwaardig document?",
+      "text_ru": "Что может привести к уменьшению штрафа за управление транспортным средством без водительских прав или аналогичного документа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Circonstances aggravantes",
+          "text_nl": "Verzwarende omstandigheden",
+          "text_ru": "Отягчающие обстоятельства",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Circonstances atténuantes",
+          "text_nl": "Verzachtende omstandigheden",
+          "text_ru": "Смягчающие обстоятельства",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Récidive",
+          "text_nl": "Herhaling",
+          "text_ru": "Повторение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les circonstances atténuantes peuvent entraîner une réduction de l'amende pour conduite sans permis de conduire ou titre équivalent.",
+      "explanation_nl": "Verzachtende omstandigheden kunnen leiden tot een vermindering van de geldboete voor het besturen van een motorvoertuig zonder rijbewijs of gelijkwaardig document.",
+      "explanation_ru": "Смягчающие обстоятельства могут привести к уменьшению штрафа за управление транспортным средством без водительских прав или аналогичного документа."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qui se passe en cas de récidive dans les trois ans pour conduite sans permis de conduire ou titre équivalent?",
+      "text_nl": "Wat gebeurt er in geval van herhaling binnen drie jaar voor het besturen van een motorvoertuig zonder rijbewijs of gelijkwaardig document?",
+      "text_ru": "Что происходит в случае повторения в течение трех лет за управление транспортным средством без водительских прав или аналогичного документа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'amende est réduite",
+          "text_nl": "De geldboete wordt verminderd",
+          "text_ru": "Штраф уменьшается",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'amende est doublée",
+          "text_nl": "De geldboete wordt verdubbeld",
+          "text_ru": "Штраф удваивается",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le permis est retiré",
+          "text_nl": "Het rijbewijs wordt ingetrokken",
+          "text_ru": "Лишение прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de récidive dans les trois ans, l'amende pour conduite sans permis de conduire ou titre équivalent est doublée.",
+      "explanation_nl": "In geval van herhaling binnen drie jaar wordt de geldboete voor het besturen van een motorvoertuig zonder rijbewijs of gelijkwaardig document verdubbeld.",
+      "explanation_ru": "В случае повторения в течение трех лет штраф за управление транспортным средством без водительских прав или аналогичного документа удваивается."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est arrêté par la police pour conduite sans permis de conduire. Qu'est-ce que le conducteur doit faire?",
+      "text_nl": "Een bestuurder wordt aangehouden door de politie voor het besturen van een motorvoertuig zonder rijbewijs. Wat moet de bestuurder doen?",
+      "text_ru": "Водитель задержан полицией за управление транспортным средством без водительских прав. Что должен сделать водитель?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Refuser de présenter son permis de conduire",
+          "text_nl": "Weigeren om zijn rijbewijs te tonen",
+          "text_ru": "Отказаться показать водительские права",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Présenter son permis de conduire si il en possède un",
+          "text_nl": "Zijn rijbewijs tonen als hij er een heeft",
+          "text_ru": "Показать водительские права, если они есть",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "S'enfuir de la scène",
+          "text_nl": "Wegrennen van de plaats delict",
+          "text_ru": "Побег с места происшествия",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit présenter son permis de conduire si il en possède un.",
+      "explanation_nl": "De bestuurder moet zijn rijbewijs tonen als hij er een heeft.",
+      "explanation_ru": "Водитель должен показать водительские права, если они есть."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a oublié son permis de conduire à la maison. Qu'est-ce qu'il doit faire pour éviter une amende?",
+      "text_nl": "Een bestuurder heeft zijn rijbewijs thuis laten liggen. Wat moet hij doen om een geldboete te vermijden?",
+      "text_ru": "Водитель оставил водительские права дома. Что он должен сделать, чтобы избежать штрафа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire et payer l'amende",
+          "text_nl": "Doorgaan met rijden en de geldboete betalen",
+          "text_ru": "Продолжать ехать и заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Retourner à la maison pour récupérer son permis de conduire",
+          "text_nl": "Terug naar huis gaan om zijn rijbewijs op te halen",
+          "text_ru": "Вернуться домой, чтобы взять водительские права",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler la police pour leur expliquer la situation",
+          "text_nl": "De politie bellen om de situatie uit te leggen",
+          "text_ru": "Позвонить в полицию, чтобы объяснить ситуацию",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit retourner à la maison pour récupérer son permis de conduire.",
+      "explanation_nl": "De bestuurder moet terug naar huis gaan om zijn rijbewijs op te halen.",
+      "explanation_ru": "Водитель должен вернуться домой, чтобы взять водительские права."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a reçu une amende pour conduite sans permis de conduire. Qu'est-ce qu'il doit faire pour contester l'amende?",
+      "text_nl": "Een bestuurder heeft een geldboete gekregen voor het besturen van een motorvoertuig zonder rijbewijs. Wat moet hij doen om de geldboete aan te vechten?",
+      "text_ru": "Водитель получил штраф за управление транспортным средством без водительских прав. Что он должен сделать, чтобы оспорить штраф?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Payer l'amende immédiatement",
+          "text_nl": "De geldboete onmiddellijk betalen",
+          "text_ru": "Немедленно заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Contacter un avocat pour contester l'amende",
+          "text_nl": "Een advocaat contacteren om de geldboete aan te vechten",
+          "text_ru": "Обратиться к адвокату, чтобы оспорить штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer l'amende et ne pas la payer",
+          "text_nl": "De geldboete negeren en niet betalen",
+          "text_ru": "Игнорировать штраф и не платить",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit contacter un avocat pour contester l'amende.",
+      "explanation_nl": "De bestuurder moet een advocaat contacteren om de geldboete aan te vechten.",
+      "explanation_ru": "Водитель должен обратиться к адвокату, чтобы оспорить штраф."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est arrêté par la police pour conduite sans permis de conduire. Qu'est-ce que le conducteur doit faire pour minimiser les conséquences?",
+      "text_nl": "Een bestuurder wordt aangehouden door de politie voor het besturen van een motorvoertuig zonder rijbewijs. Wat moet de bestuurder doen om de gevolgen te minimaliseren?",
+      "text_ru": "Водитель задержан полицией за управление транспортным средством без водительских прав. Что должен сделать водитель, чтобы минимизировать последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Refuser de coopérer avec la police",
+          "text_nl": "Weigeren om mee te werken met de politie",
+          "text_ru": "Отказаться сотрудничать с полицией",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Coopérer avec la police et expliquer la situation",
+          "text_nl": "Mee werken met de politie en de situatie uitleggen",
+          "text_ru": "Сотрудничать с полицией и объяснить ситуацию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de fuir la scène",
+          "text_nl": "Proberen om van de plaats delict te ontsnappen",
+          "text_ru": "Пытаться сбежать с места происшествия",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit coopérer avec la police et expliquer la situation.",
+      "explanation_nl": "De bestuurder moet meewerken met de politie en de situatie uitleggen.",
+      "explanation_ru": "Водитель должен сотрудничать с полицией и объяснить ситуацию."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a reçu une amende pour conduite sans permis de conduire. Qu'est-ce qu'il doit faire pour éviter que l'amende ne soit doublée?",
+      "text_nl": "Een bestuurder heeft een geldboete gekregen voor het besturen van een motorvoertuig zonder rijbewijs. Wat moet hij doen om te voorkomen dat de geldboete wordt verdubbeld?",
+      "text_ru": "Водитель получил штраф за управление транспортным средством без водительских прав. Что он должен сделать, чтобы избежать удвоения штрафа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Payer l'amende immédiatement",
+          "text_nl": "De geldboete onmiddellijk betalen",
+          "text_ru": "Немедленно заплатить штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Contester l'amende en cour",
+          "text_nl": "De geldboete aanvechten in de rechtbank",
+          "text_ru": "Оспорить штраф в суде",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer l'amende et ne pas la payer",
+          "text_nl": "De geldboete negeren en niet betalen",
+          "text_ru": "Игнорировать штраф и не платить",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit payer l'amende immédiatement pour éviter que l'amende ne soit doublée.",
+      "explanation_nl": "De bestuurder moet de geldboete onmiddellijk betalen om te voorkomen dat de geldboete wordt verdubbeld.",
+      "explanation_ru": "Водитель должен немедленно заплатить штраф, чтобы избежать удвоения штрафа."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "911b811c4c12",
@@ -38,6 +335,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:35:57Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

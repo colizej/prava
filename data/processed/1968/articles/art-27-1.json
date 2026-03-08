@@ -29,7 +29,304 @@
   "anchor_id_fr": "xcfg8rrbqc",
   "anchor_id_nl": "mjiabh8ofp",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que le gouvernement flamand peut fixer pour les institutions et les personnes visées à l'article 23 ?",
+      "text_nl": "Wat kan de Vlaamse Regering vaststellen voor de instellingen en de personen, vermeld in artikel 23 ?",
+      "text_ru": "Что может установить фламандское правительство для учреждений и лиц, упомянутых в статье 23?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une rétribution pour le traitement des demandes d'agrément",
+          "text_nl": "Een retributie voor de behandeling van de aanvragen tot erkenning",
+          "text_ru": "Плата за обработку заявок на аккредитацию",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une rétribution pour les examens",
+          "text_nl": "Een retributie voor de examens",
+          "text_ru": "Плата за экзамены",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une rétribution pour les cours de conduite",
+          "text_nl": "Een retributie voor de rijlessen",
+          "text_ru": "Плата за уроки вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le gouvernement flamand peut fixer une rétribution pour le traitement des demandes d'agrément ou de renouvellement d'agrément des institutions et des personnes visées à l'article 23.",
+      "explanation_nl": "De Vlaamse Regering kan een retributie vaststellen voor de behandeling van de aanvragen tot erkenning of tot verlenging van de erkenning van de instellingen en de personen, vermeld in artikel 23.",
+      "explanation_ru": "Фламандское правительство может установить плату за обработку заявок на аккредитацию или продление аккредитации учреждений и лиц, упомянутых в статье 23."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que le gouvernement flamand peut également fixer ?",
+      "text_nl": "Wat kan de Vlaamse Regering ook vaststellen ?",
+      "text_ru": "Что ещё может установить фламандское правительство?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des rétributions périodiques pour l'exercice du contrôle de l'agrément",
+          "text_nl": "Periodieke retributies voor de uitoefening van het toezicht op de erkenning",
+          "text_ru": "Периодические платы за осуществление контроля за аккредитацией",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des rétributions pour les examens",
+          "text_nl": "Retributies voor de examens",
+          "text_ru": "Платы за экзамены",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des rétributions pour les cours de conduite",
+          "text_nl": "Retributies voor de rijlessen",
+          "text_ru": "Платы за уроки вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le gouvernement flamand peut également fixer des rétributions périodiques pour l'exercice du contrôle de l'agrément des institutions et des personnes.",
+      "explanation_nl": "De Vlaamse Regering kan ook periodieke retributies vaststellen voor de uitoefening van het toezicht op de erkenning van de instellingen en de personen.",
+      "explanation_ru": "Фламандское правительство может также установить периодические платы за осуществление контроля за аккредитацией учреждений и лиц."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce que les services visés au premier alinéa, 1°, 2° et 8°, et au deuxième alinéa ne comprennent pas ?",
+      "text_nl": "Wat omvatten de in het eerste lid, 1°, 2° en 8°, en het tweede lid, vermelde diensten niet ?",
+      "text_ru": "Что не включают в себя услуги, упомянутые в первом пункте, 1°, 2° и 8°, и во втором пункте?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les services pour lesquels une rétribution peut être déterminée",
+          "text_nl": "De diensten waarvoor een retributie kan worden bepaald",
+          "text_ru": "Услуги, за которые может быть установлена плата",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les services pour les examens",
+          "text_nl": "De diensten voor de examens",
+          "text_ru": "Услуги за экзамены",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les services pour les cours de conduite",
+          "text_nl": "De diensten voor de rijlessen",
+          "text_ru": "Услуги за уроки вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les services visés au premier alinéa, 1°, 2° et 8°, et au deuxième alinéa ne comprennent pas les services pour lesquels une rétribution peut être déterminée.",
+      "explanation_nl": "De in het eerste lid, 1°, 2° en 8°, en het tweede lid, vermelde diensten omvatten niet de diensten waarvoor een retributie kan worden bepaald.",
+      "explanation_ru": "Услуги, упомянутые в первом пункте, 1°, 2° и 8°, и во втором пункте, не включают в себя услуги, за которые может быть установлена плата."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un candidat au permis de conduire doit passer un examen dans une institution visée à l'article 23. Qu'est-ce qu'il doit payer ?",
+      "text_nl": "Een kandidaat voor het rijbewijs moet een examen afleggen in een instelling, vermeld in artikel 23. Wat moet hij betalen ?",
+      "text_ru": "Соискатель права вождения должен сдать экзамен в учреждении, упомянутом в статье 23. Что он должен заплатить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une rétribution pour le traitement de la demande d'agrément",
+          "text_nl": "Een retributie voor de behandeling van de aanvraag tot erkenning",
+          "text_ru": "Плату за обработку заявки на аккредитацию",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une rétribution pour la passation de l'examen",
+          "text_nl": "Een retributie voor het afleggen van het examen",
+          "text_ru": "Плату за сдачу экзамена",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une rétribution pour les cours de conduite",
+          "text_nl": "Een retributie voor de rijlessen",
+          "text_ru": "Плату за уроки вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le candidat au permis de conduire doit payer une rétribution pour la passation de l'examen.",
+      "explanation_nl": "De kandidaat voor het rijbewijs moet een retributie betalen voor het afleggen van het examen.",
+      "explanation_ru": "Соискатель права вождения должен заплатить плату за сдачу экзамена."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur doit suivre un cours de conduite pour obtenir ou renouveler un certificat d'aptitude professionnelle. Qu'est-ce qu'il doit payer ?",
+      "text_nl": "Een bestuurder moet een rijopleiding volgen om een bewijs van vakbekwaamheid te behalen of te verlengen. Wat moet hij betalen ?",
+      "text_ru": "Водитель должен пройти курс вождения, чтобы получить или продлить свидетельство о профессиональной пригодности. Что он должен заплатить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une rétribution pour le traitement de la demande d'agrément",
+          "text_nl": "Een retributie voor de behandeling van de aanvraag tot erkenning",
+          "text_ru": "Плату за обработку заявки на аккредитацию",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une rétribution pour la passation de l'examen",
+          "text_nl": "Een retributie voor het afleggen van het examen",
+          "text_ru": "Плату за сдачу экзамена",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une rétribution pour le suivi du cours de conduite",
+          "text_nl": "Een retributie voor het volgen van de rijopleiding",
+          "text_ru": "Плату за прохождение курса вождения",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le conducteur doit payer une rétribution pour le suivi du cours de conduite.",
+      "explanation_nl": "De bestuurder moet een retributie betalen voor het volgen van de rijopleiding.",
+      "explanation_ru": "Водитель должен заплатить плату за прохождение курса вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un accompagnateur non professionnel de candidats au permis de conduire doit suivre un cours obligatoire de formation à la conduite. Qu'est-ce qu'il doit payer ?",
+      "text_nl": "Een niet-professionele begeleider van kandidaten voor het rijbewijs moet een verplichte rijopleiding volgen. Wat moet hij betalen ?",
+      "text_ru": "Непрофессиональный сопровождающий соискателей права вождения должен пройти обязательный курс вождения. Что он должен заплатить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une rétribution pour le traitement de la demande d'agrément",
+          "text_nl": "Een retributie voor de behandeling van de aanvraag tot erkenning",
+          "text_ru": "Плату за обработку заявки на аккредитацию",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une rétribution pour la passation de l'examen",
+          "text_nl": "Een retributie voor het afleggen van het examen",
+          "text_ru": "Плату за сдачу экзамена",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une rétribution pour le suivi du cours obligatoire de formation à la conduite",
+          "text_nl": "Een retributie voor het volgen van de verplichte rijopleiding",
+          "text_ru": "Плату за прохождение обязательного курса вождения",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'accompagnateur non professionnel de candidats au permis de conduire doit payer une rétribution pour le suivi du cours obligatoire de formation à la conduite.",
+      "explanation_nl": "De niet-professionele begeleider van kandidaten voor het rijbewijs moet een retributie betalen voor het volgen van de verplichte rijopleiding.",
+      "explanation_ru": "Непрофессиональный сопровождающий соискателей права вождения должен заплатить плату за прохождение обязательного курса вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur doit déposer une requête auprès de la commission de recours. Qu'est-ce qu'il doit payer ?",
+      "text_nl": "Een bestuurder moet een verzoekschrift indienen bij de beroepscommissie. Wat moet hij betalen ?",
+      "text_ru": "Водитель должен подать заявление в комиссию по апелляциям. Что он должен заплатить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une rétribution pour le traitement de la demande d'agrément",
+          "text_nl": "Een retributie voor de behandeling van de aanvraag tot erkenning",
+          "text_ru": "Плату за обработку заявки на аккредитацию",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une rétribution pour la passation de l'examen",
+          "text_nl": "Een retributie voor het afleggen van het examen",
+          "text_ru": "Плату за сдачу экзамена",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une rétribution pour le dépôt de la requête",
+          "text_nl": "Een retributie voor het indienen van het verzoekschrift",
+          "text_ru": "Плату за подачу заявления",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le conducteur doit payer une rétribution pour le dépôt de la requête.",
+      "explanation_nl": "De bestuurder moet een retributie betalen voor het indienen van het verzoekschrift.",
+      "explanation_ru": "Водитель должен заплатить плату за подачу заявления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur doit passer un examen dans un centre d'aptitude à la conduite. Qu'est-ce qu'il doit payer ?",
+      "text_nl": "Een bestuurder moet een examen afleggen in een centrum voor rijgeschiktheid. Wat moet hij betalen ?",
+      "text_ru": "Водитель должен сдать экзамен в центре пригодности к вождению. Что он должен заплатить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une rétribution pour le traitement de la demande d'agrément",
+          "text_nl": "Een retributie voor de behandeling van de aanvraag tot erkenning",
+          "text_ru": "Плату за обработку заявки на аккредитацию",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une rétribution pour la passation de l'examen",
+          "text_nl": "Een retributie voor het afleggen van het examen",
+          "text_ru": "Плату за сдачу экзамена",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une rétribution pour les cours de conduite",
+          "text_nl": "Een retributie voor de rijlessen",
+          "text_ru": "Плату за уроки вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit payer une rétribution pour la passation de l'examen.",
+      "explanation_nl": "De bestuurder moet een retributie betalen voor het afleggen van het examen.",
+      "explanation_ru": "Водитель должен заплатить плату за сдачу экзамена."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "262b435219bd",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:33:13Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

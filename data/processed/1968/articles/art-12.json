@@ -26,7 +26,304 @@
   "anchor_id_fr": "ghrpbu4kba",
   "anchor_id_nl": "ka1vorilgt",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Comment les mesures de circulation routière deviennent-elles obligatoires pour les usagers de la route ?",
+      "text_nl": "Hoe worden verkeersmaatregelen bindend voor weggebruikers?",
+      "text_ru": "Как дорожные меры становятся обязательными для участников дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont annoncées publiquement par les autorités compétentes.",
+          "text_nl": "Ze worden publiekelijk aangekondigd door de bevoegde autoriteiten.",
+          "text_ru": "Они публично объявляются компетентными органами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles sont portées à la connaissance des intéressés par des agents avec insignes sur place ou par une signalisation adéquate.",
+          "text_nl": "Ze worden ter kennis van de belanghebbenden gebracht door agenten met ambtstekens ter plaatse of door passende verkeerstekens.",
+          "text_ru": "Они доводятся до сведения заинтересованных лиц агентами с опознавательными знаками на месте или соответствующей дорожной сигнализацией.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles sont publiées au Moniteur belge.",
+          "text_nl": "Ze worden gepubliceerd in het Belgisch Staatsblad.",
+          "text_ru": "Они публикуются в Официальном вестнике Бельгии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conformément au principe du code de la route, les mesures de circulation doivent être communiquées aux usagers sur place, soit par des agents en fonction, soit par une signalisation routière appropriée, pour être obligatoires.",
+      "explanation_nl": "Volgens het principe van de wegcode moeten verkeersmaatregelen ter plaatse aan de weggebruikers worden meegedeeld, hetzij door dienstdoende agenten, hetzij door passende verkeerstekens, om bindend te zijn.",
+      "explanation_ru": "В соответствии с принципом правил дорожного движения, меры по регулированию дорожного движения должны быть доведены до сведения участников дорожного движения на месте, либо сотрудниками правопорядка при исполнении служебных обязанностей, либо соответствующими дорожными знаками, чтобы стать обязательными."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le rôle des agents présents sur place et portant les insignes de leurs fonctions concernant les règles de circulation ?",
+      "text_nl": "Wat is de rol van ter plaatse aanwezige agenten met ambtstekens met betrekking tot verkeersregels?",
+      "text_ru": "Какова роль находящихся на месте агентов с опознавательными знаками их должности в отношении правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils donnent des informations générales sur la circulation.",
+          "text_nl": "Zij geven algemene informatie over het verkeer.",
+          "text_ru": "Они предоставляют общую информацию о дорожном движении.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Leurs instructions verbales ou gestuelles rendent les mesures de circulation obligatoires.",
+          "text_nl": "Hun mondelinge of gebareninstructies maken verkeersmaatregelen bindend.",
+          "text_ru": "Их устные или жестовые указания делают меры дорожного движения обязательными.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils sont chargés d'informer sur les nouvelles lois.",
+          "text_nl": "Zij zijn verantwoordelijk voor het informeren over nieuwe wetten.",
+          "text_ru": "Они отвечают за информирование о новых законах.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La présence d'agents portant les insignes de leurs fonctions et leurs instructions (gestes, paroles) sur place sont une des deux manières par lesquelles les mesures de circulation sont rendues obligatoires.",
+      "explanation_nl": "De aanwezigheid van agenten met de kentekens van hun ambt en hun instructies (gebaren, woorden) ter plaatse is een van de twee manieren waarop verkeersmaatregelen bindend worden gemaakt.",
+      "explanation_ru": "Присутствие агентов, носящих знаки своей должности, и их указания (жесты, слова) на месте являются одним из двух способов, посредством которых меры дорожного движения становятся обязательными."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "De quelle manière la signalisation routière appropriée rend-elle les mesures de circulation obligatoires ?",
+      "text_nl": "Op welke manier maken passende verkeerstekens verkeersmaatregelen bindend?",
+      "text_ru": "Каким образом соответствующая дорожная сигнализация делает меры дорожного движения обязательными?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle suggère des comportements prudents.",
+          "text_nl": "Het suggereert voorzichtig gedrag.",
+          "text_ru": "Она предлагает осторожное поведение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle indique les directives à suivre pour que les règles soient applicables.",
+          "text_nl": "Het geeft de te volgen richtlijnen aan zodat de regels van toepassing zijn.",
+          "text_ru": "Она указывает директивы, которым необходимо следовать, чтобы правила были применимы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle sert principalement à décorer les routes.",
+          "text_nl": "Het dient voornamelijk ter decoratie van de wegen.",
+          "text_ru": "Она служит в основном для украшения дорог.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation routière appropriée (panneaux, marques au sol, feux) est l'autre méthode désignée par laquelle les mesures de circulation sont portées à la connaissance des usagers et deviennent obligatoires.",
+      "explanation_nl": "Passende verkeerstekens (borden, markeringen op de weg, verkeerslichten) zijn de andere aangeduide methode waarmee verkeersmaatregelen ter kennis van de weggebruikers worden gebracht en bindend worden.",
+      "explanation_ru": "Соответствующая дорожная сигнализация (знаки, дорожная разметка, светофоры) является другим обозначенным методом, посредством которого меры дорожного движения доводятся до сведения участников движения и становятся обязательными."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour où un agent de police, portant les insignes de sa fonction, vous fait signe de passer, alors qu'un panneau de signalisation indique un 'Stop'. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt waar een politieagent, met de kentekens van zijn ambt, u teken doet om door te rijden, terwijl een verkeersbord 'Stop' aangeeft. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрестку, где полицейский, носящий знаки своей должности, жестом указывает вам проезжать, хотя дорожный знак указывает на «Стоп». Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer in uniform directing traffic to proceed at a crossroads where a 'STOP' sign is clearly visible. The officer's gesture clearly indicates to drive through."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous arrêtez au panneau 'Stop' avant de continuer.",
+          "text_nl": "U stopt bij het 'Stop'-bord voordat u verder rijdt.",
+          "text_ru": "Вы останавливаетесь у знака «Стоп», прежде чем продолжить движение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous suivez les instructions de l'agent, car elles sont prioritaires sur la signalisation routière fixe.",
+          "text_nl": "U volgt de instructies van de agent, want deze hebben voorrang op vaste verkeersborden.",
+          "text_ru": "Вы следуете указаниям агента, так как они имеют приоритет над стационарными дорожными знаками.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous attendez un autre signal pour clarifier la situation.",
+          "text_nl": "U wacht op een ander signaal om de situatie te verduidelijken.",
+          "text_ru": "Вы ждете другого сигнала, чтобы прояснить ситуацию.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les instructions données par un agent habilité, portant les insignes de sa fonction et présent sur place, prévalent toujours sur la signalisation routière.",
+      "explanation_nl": "Instructies gegeven door een bevoegde agent, die de kentekens van zijn ambt draagt en ter plaatse aanwezig is, hebben altijd voorrang op verkeerstekens.",
+      "explanation_ru": "Указания, данные уполномоченным агентом, носящим знаки своей должности и присутствующим на месте, всегда имеют приоритет над дорожной сигнализацией."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "La commune de votre localité a annoncé par voie de presse qu'en raison d'une fête de quartier, le stationnement sera interdit dans une certaine rue le week-end prochain. Aucun panneau d'interdiction de stationner n'est encore installé et aucun agent n'est sur place. Est-il déjà interdit de stationner ?",
+      "text_nl": "Uw gemeente heeft via de pers aangekondigd dat, wegens een buurtfeest, parkeren in een bepaalde straat volgend weekend verboden zal zijn. Er is nog geen parkeerverbodsbord geplaatst en er is geen agent ter plaatse. Is parkeren al verboden?",
+      "text_ru": "Ваш муниципалитет объявил в прессе, что из-за квартального праздника парковка будет запрещена на определенной улице в следующие выходные. Пока не установлен знак запрета парковки и нет агента на месте. Запрещено ли уже парковаться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A street in a residential area with cars parked. There are no 'No Parking' signs visible and no traffic agents present. The image should suggest a normal weekend street scene."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, l'annonce par la presse rend l'interdiction immédiatement obligatoire.",
+          "text_nl": "Ja, de aankondiging via de pers maakt het verbod onmiddellijk bindend.",
+          "text_ru": "Да, объявление в прессе делает запрет немедленно обязательным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, l'interdiction ne sera obligatoire qu'avec la présence d'agents ou une signalisation appropriée sur place.",
+          "text_nl": "Nee, het verbod is pas bindend met de aanwezigheid van agenten of passende verkeerstekens ter plaatse.",
+          "text_ru": "Нет, запрет станет обязательным только при наличии агентов или соответствующей дорожной сигнализации на месте.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si d'autres véhicules ne stationnent pas non plus.",
+          "text_nl": "Alleen als andere voertuigen ook niet parkeren.",
+          "text_ru": "Только если другие транспортные средства также не паркуются.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour que les mesures de circulation, même occasionnelles, soient obligatoires, elles doivent être portées à la connaissance des intéressés par des agents sur place ou par une signalisation appropriée. Une annonce presse n'est pas suffisante.",
+      "explanation_nl": "Om verkeersmaatregelen, zelfs gelegenheidsmaatregelen, bindend te maken, moeten ze ter kennis van de belanghebbenden worden gebracht door agenten ter plaatse of door passende verkeerstekens. Een persaankondiging is niet voldoende.",
+      "explanation_ru": "Чтобы меры дорожного движения, даже временные, были обязательными, они должны быть доведены до сведения заинтересованных лиц агентами на месте или соответствующей дорожной сигнализацией. Объявление в прессе недостаточно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route et voyez un panneau temporaire qui indique une déviation due à des travaux. Aucun agent n'est visible. Devez-vous suivre cette déviation ?",
+      "text_nl": "U rijdt op een weg en ziet een tijdelijk bord dat een omleiding aangeeft wegens werkzaamheden. Er is geen agent zichtbaar. Moet u deze omleiding volgen?",
+      "text_ru": "Вы едете по дороге и видите временный знак, указывающий на объезд из-за работ. Агента не видно. Должны ли вы следовать этому объезду?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "A temporary road sign (F5 - Diversion) on the side of a road, indicating a detour due to road works. No traffic agents are visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, un panneau temporaire n'est pas toujours obligatoire sans la présence d'un agent.",
+          "text_nl": "Nee, een tijdelijk bord is niet altijd bindend zonder de aanwezigheid van een agent.",
+          "text_ru": "Нет, временный знак не всегда обязателен без присутствия агента.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, la signalisation temporaire est considérée comme une signalisation appropriée rendant la mesure obligatoire.",
+          "text_nl": "Ja, tijdelijke verkeerstekens worden beschouwd als passende verkeerstekens die de maatregel bindend maken.",
+          "text_ru": "Да, временные дорожные знаки считаются соответствующей дорожной сигнализацией, делающей меру обязательной.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si la déviation semble plus courte.",
+          "text_nl": "Alleen als de omleiding korter lijkt.",
+          "text_ru": "Только если объезд кажется короче.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation temporaire, comme les panneaux de déviation pour travaux, est une forme de 'signalisation appropriée' qui rend la mesure de circulation (la déviation) obligatoire, même en l'absence d'un agent.",
+      "explanation_nl": "Tijdelijke verkeerstekens, zoals omleidingsborden voor werkzaamheden, zijn een vorm van 'passende verkeerstekens' die de verkeersmaatregel (de omleiding) bindend maken, zelfs bij afwezigheid van een agent.",
+      "explanation_ru": "Временная сигнализация, такая как знаки объезда для ремонтных работ, является формой 'соответствующей дорожной сигнализации', которая делает меру дорожного движения (объезд) обязательной, даже при отсутствии агента."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous roulez sur une autoroute et remarquez l'installation de nouveaux panneaux électroniques indiquant une vitesse maximale de 90 km/h au lieu de la limite habituelle de 120 km/h. Devez-vous adapter votre vitesse ?",
+      "text_nl": "U rijdt op een autosnelweg en merkt de installatie op van nieuwe elektronische borden die een maximumsnelheid van 90 km/u aangeven in plaats van de gebruikelijke limiet van 120 km/u. Moet u uw snelheid aanpassen?",
+      "text_ru": "Вы едете по автомагистрали и замечаете установку новых электронных знаков, указывающих максимальную скорость 90 км/ч вместо обычного ограничения в 120 км/ч. Должны ли вы скорректировать свою скорость?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A variable message sign on a Belgian highway displaying '90 km/h' as the speed limit, replacing a previous '120 km/h' limit. The highway should be clear, showing a normal driving situation."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, sauf si un agent est présent pour faire respecter la nouvelle limite.",
+          "text_nl": "Nee, tenzij een agent aanwezig is om de nieuwe limiet te handhaven.",
+          "text_ru": "Нет, если только не присутствует агент для обеспечения соблюдения нового ограничения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car ces panneaux constituent une signalisation appropriée rendant la nouvelle mesure obligatoire, même sur autoroute.",
+          "text_nl": "Ja, want deze borden vormen passende verkeerstekens die de nieuwe maatregel bindend maken, zelfs op de autosnelweg.",
+          "text_ru": "Да, потому что эти знаки являются соответствующей дорожной сигнализацией, делающей новую меру обязательной, даже на автомагистрали.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si les conditions météorologiques justifient cette réduction.",
+          "text_nl": "Alleen als de weersomstandigheden deze vermindering rechtvaardigen.",
+          "text_ru": "Только если погодные условия оправдывают такое снижение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les panneaux électroniques dynamiques affichant des limites de vitesse sont une forme de 'signalisation appropriée'. Ils rendent les mesures de circulation obligatoires pour les usagers, y compris sur les autoroutes, dès leur affichage.",
+      "explanation_nl": "Dynamische elektronische borden die snelheidslimieten weergeven, zijn een vorm van 'passende verkeerstekens'. Ze maken verkeersmaatregelen bindend voor weggebruikers, inclusief op autosnelwegen, zodra ze worden getoond.",
+      "explanation_ru": "Динамические электронные знаки, отображающие ограничения скорости, являются формой 'соответствующей дорожной сигнализации'. Они делают меры дорожного движения обязательными для участников движения, в том числе на автомагистралях, сразу после их отображения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous entendez à la radio qu'une nouvelle zone à faibles émissions a été établie dans une ville. Il n'y a pas de panneaux spécifiques à l'entrée de cette zone et aucun agent ne dirige le trafic. Pouvez-vous y entrer avec un véhicule potentiellement concerné ?",
+      "text_nl": "U hoort op de radio dat er een nieuwe lage-emissiezone is ingesteld in een stad. Er zijn geen specifieke borden aan de ingang van deze zone en er is geen agent die het verkeer regelt. Kunt u de zone betreden met een potentieel betroffen voertuig?",
+      "text_ru": "Вы слышите по радио, что в городе установлена новая зона с низким уровнем выбросов. На въезде в эту зону нет специальных знаков, и движение не регулируется агентами. Можете ли вы въехать туда на потенциально затронутом транспортном средстве?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A city street entrance without any specific Low Emission Zone (LEZ) signage visible. There are no traffic police present. Normal city traffic in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car l'information radio est suffisante pour rendre la mesure obligatoire.",
+          "text_nl": "Nee, want de radio-informatie is voldoende om de maatregel bindend te maken.",
+          "text_ru": "Нет, потому что информация по радио достаточна, чтобы сделать меру обязательной.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car sans signalisation appropriée ou la présence d'un agent, la mesure n'est pas encore obligatoire sur le terrain.",
+          "text_nl": "Ja, want zonder passende verkeerstekens of de aanwezigheid van een agent is de maatregel ter plaatse nog niet bindend.",
+          "text_ru": "Да, потому что без соответствующей сигнализации или присутствия агента мера еще не является обязательной на месте.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vérifier sur le site web de la ville avant d'entrer.",
+          "text_nl": "U moet de website van de stad controleren voordat u binnenrijdt.",
+          "text_ru": "Вы должны проверить веб-сайт города перед въездом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les mesures de circulation ne deviennent obligatoires qu'une fois portées à la connaissance des usagers par une signalisation appropriée sur le lieu concerné ou par la présence d'agents. Une information médiatique, bien qu'utile, n'est pas suffisante pour rendre la règle immédiatement contraignante sur le terrain.",
+      "explanation_nl": "Verkeersmaatregelen worden pas bindend zodra ze ter kennis van de weggebruikers zijn gebracht door passende verkeerstekens op de betreffende plaats of door de aanwezigheid van agenten. Media-informatie, hoewel nuttig, is niet voldoende om de regel ter plaatse onmiddellijk bindend te maken.",
+      "explanation_ru": "Меры дорожного движения становятся обязательными только после того, как они доведены до сведения участников движения посредством соответствующей сигнализации на соответствующем месте или присутствием агентов. Медийная информация, хотя и полезная, недостаточна для того, чтобы сделать правило немедленно обязательным на месте."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "4e61a71b2ea1",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:12:08Z",
+    "questions_model": "gemini-1.5-flash",
+    "questions_count": 8
   }
 }

@@ -26,7 +26,304 @@
   "anchor_id_fr": "hbhtu0mftq",
   "anchor_id_nl": "awtsyipz49",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un article abrogé dans le contexte du code de la route?",
+      "text_nl": "Wat is een opgeheven artikel in de context van de wegenverkeersreglementen?",
+      "text_ru": "Что такое отмененная статья в контексте правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un article qui n'a jamais été appliqué",
+          "text_nl": "Een artikel dat nooit van toepassing is geweest",
+          "text_ru": "Статья, которая никогда не применялась",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un article qui a été supprimé ou annulé",
+          "text_nl": "Een artikel dat is geschrapt of ingetrokken",
+          "text_ru": "Статья, которая была удалена или отменена",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un article qui est toujours en vigueur",
+          "text_nl": "Een artikel dat nog steeds van toepassing is",
+          "text_ru": "Статья, которая все еще действует",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un article abrogé est un article qui a été supprimé ou annulé et n'est plus applicable.",
+      "explanation_nl": "Een opgeheven artikel is een artikel dat is geschrapt of ingetrokken en niet langer van toepassing is.",
+      "explanation_ru": "Отмененная статья - это статья, которая была удалена или отменена и больше не действует."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que la signification d'un article abrogé pour les conducteurs?",
+      "text_nl": "Wat is de betekenis van een opgeheven artikel voor bestuurders?",
+      "text_ru": "Какое значение имеет отмененная статья для водителей?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les conducteurs doivent toujours suivre les règles de l'article abrogé",
+          "text_nl": "Bestuurders moeten de regels van het opgeheven artikel nog steeds volgen",
+          "text_ru": "Водители должны все равно следовать правилам отмененной статьи",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conducteurs ne sont plus tenus de suivre les règles de l'article abrogé",
+          "text_nl": "Bestuurders hoeven de regels van het opgeheven artikel niet langer te volgen",
+          "text_ru": "Водители больше не обязаны следовать правилам отмененной статьи",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les conducteurs doivent demander des clarifications avant de conduire",
+          "text_nl": "Bestuurders moeten om opheldering vragen voordat ze gaan rijden",
+          "text_ru": "Водители должны запросить разъяснения, прежде чем ехать",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conducteurs ne sont plus tenus de suivre les règles de l'article abrogé, car il n'est plus applicable.",
+      "explanation_nl": "Bestuurders hoeven de regels van het opgeheven artikel niet langer te volgen, omdat het niet langer van toepassing is.",
+      "explanation_ru": "Водители больше не обязаны следовать правилам отмененной статьи, поскольку она больше не действует."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un article qui n'est plus applicable dans le contexte du code de la route?",
+      "text_nl": "Wat is een artikel dat niet langer van toepassing is in de context van de wegenverkeersreglementen?",
+      "text_ru": "Что такое статья, которая больше не применима в контексте правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un article qui est toujours en vigueur",
+          "text_nl": "Een artikel dat nog steeds van toepassing is",
+          "text_ru": "Статья, которая все еще действует",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un article qui a été supprimé ou annulé",
+          "text_nl": "Een artikel dat is geschrapt of ingetrokken",
+          "text_ru": "Статья, которая была удалена или отменена",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un article qui n'a jamais été appliqué",
+          "text_nl": "Een artikel dat nooit van toepassing is geweest",
+          "text_ru": "Статья, которая никогда не применялась",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un article qui n'est plus applicable est un article qui a été supprimé ou annulé et n'est plus en vigueur.",
+      "explanation_nl": "Een artikel dat niet langer van toepassing is, is een artikel dat is geschrapt of ingetrokken en niet langer van toepassing is.",
+      "explanation_ru": "Статья, которая больше не применима, - это статья, которая была удалена или отменена и больше не действует."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est arrêté pour une infraction commise en vertu d'un article abrogé. Que doit-il faire?",
+      "text_nl": "Een bestuurder wordt aangehouden voor een overtreding gepleegd op grond van een opgeheven artikel. Wat moet hij doen?",
+      "text_ru": "Водитель был остановлен за нарушение, совершенное в соответствии с отмененной статьей. Что он должен делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Payer l'amende",
+          "text_nl": "De boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Contester la décision",
+          "text_nl": "De beslissing aanvechten",
+          "text_ru": "Оспорить решение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accepter la sanction",
+          "text_nl": "De sanctie accepteren",
+          "text_ru": "Принять санкцию",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit contester la décision, car l'article en question est abrogé et n'est plus applicable.",
+      "explanation_nl": "De bestuurder moet de beslissing aanvechten, omdat het artikel in kwestie is opgeheven en niet langer van toepassing is.",
+      "explanation_ru": "Водитель должен оспорить решение, поскольку статья, о которой идет речь, отменена и больше не действует."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se demande si un article abrogé est toujours applicable. Que doit-il faire?",
+      "text_nl": "Een bestuurder vraagt zich af of een opgeheven artikel nog steeds van toepassing is. Wat moet hij doen?",
+      "text_ru": "Водитель задается вопросом, применима ли отмененная статья. Что он должен делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Consulter un avocat",
+          "text_nl": "Een advocaat raadplegen",
+          "text_ru": "Консультироваться с адвокатом",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vérifier les informations officielles",
+          "text_nl": "De officiële informatie controleren",
+          "text_ru": "Проверить официальную информацию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander à un policier",
+          "text_nl": "Een politieagent vragen",
+          "text_ru": "Спросить у полицейского",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit vérifier les informations officielles pour savoir si l'article est toujours applicable.",
+      "explanation_nl": "De bestuurder moet de officiële informatie controleren om te weten of het artikel nog steeds van toepassing is.",
+      "explanation_ru": "Водитель должен проверить официальную информацию, чтобы узнать, применима ли статья."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur est confronté à une situation où un article abrogé pourrait être applicable. Que doit-il faire?",
+      "text_nl": "Een bestuurder wordt geconfronteerd met een situatie waarin een opgeheven artikel van toepassing kan zijn. Wat moet hij doen?",
+      "text_ru": "Водитель сталкивается с ситуацией, в которой отмененная статья может быть применима. Что он должен делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Appliquer les règles de l'article abrogé",
+          "text_nl": "De regels van het opgeheven artikel toepassen",
+          "text_ru": "Применять правила отмененной статьи",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Consulter les autorités compétentes",
+          "text_nl": "De bevoegde autoriteiten raadplegen",
+          "text_ru": "Консультироваться с компетентными органами",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre une décision basée sur son intuition",
+          "text_nl": "Een beslissing nemen op basis van zijn intuïtie",
+          "text_ru": "Принимать решение на основе своей интуиции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit consulter les autorités compétentes pour savoir comment agir dans cette situation.",
+      "explanation_nl": "De bestuurder moet de bevoegde autoriteiten raadplegen om te weten hoe te handelen in deze situatie.",
+      "explanation_ru": "Водитель должен консультироваться с компетентными органами, чтобы знать, как действовать в этой ситуации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur reçoit un avertissement pour une infraction commise en vertu d'un article abrogé. Que doit-il faire?",
+      "text_nl": "Een bestuurder krijgt een waarschuwing voor een overtreding gepleegd op grond van een opgeheven artikel. Wat moet hij doen?",
+      "text_ru": "Водитель получает предупреждение за нарушение, совершенное в соответствии с отмененной статьей. Что он должен делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Payer l'amende",
+          "text_nl": "De boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Contester la décision",
+          "text_nl": "De beslissing aanvechten",
+          "text_ru": "Оспорить решение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accepter l'avertissement",
+          "text_nl": "De waarschuwing accepteren",
+          "text_ru": "Принять предупреждение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit contester la décision, car l'article en question est abrogé et n'est plus applicable.",
+      "explanation_nl": "De bestuurder moet de beslissing aanvechten, omdat het artikel in kwestie is opgeheven en niet langer van toepassing is.",
+      "explanation_ru": "Водитель должен оспорить решение, поскольку статья, о которой идет речь, отменена и больше не действует."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se demande si un article abrogé peut encore être appliqué dans certaines situations. Que doit-il faire?",
+      "text_nl": "Een bestuurder vraagt zich af of een opgeheven artikel nog steeds van toepassing kan zijn in bepaalde situaties. Wat moet hij doen?",
+      "text_ru": "Водитель задается вопросом, может ли отмененная статья все еще применяться в определенных ситуациях. Что он должен делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Consulter un avocat",
+          "text_nl": "Een advocaat raadplegen",
+          "text_ru": "Консультироваться с адвокатом",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vérifier les informations officielles",
+          "text_nl": "De officiële informatie controleren",
+          "text_ru": "Проверить официальную информацию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander à un policier",
+          "text_nl": "Een politieagent vragen",
+          "text_ru": "Спросить у полицейского",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit vérifier les informations officielles pour savoir si l'article peut encore être appliqué dans certaines situations.",
+      "explanation_nl": "De bestuurder moet de officiële informatie controleren om te weten of het artikel nog steeds van toepassing kan zijn in bepaalde situaties.",
+      "explanation_ru": "Водитель должен проверить официальную информацию, чтобы узнать, может ли статья все еще применяться в определенных ситуациях."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e8d06fee56b6",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:32:42Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

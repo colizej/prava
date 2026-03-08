@@ -26,7 +26,304 @@
   "anchor_id_fr": "qks93lfsi5",
   "anchor_id_nl": "ck4d74ntrv",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un obstacle sur la route ?",
+      "text_nl": "Wat is een verkeersbelemmering op de weg?",
+      "text_ru": "Что такое препятствие на дороге?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un obstacle est un objet qui gêne la circulation",
+          "text_nl": "Een verkeersbelemmering is een voorwerp dat het verkeer hindert",
+          "text_ru": "Препятствие - это объект, мешающий движению",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un obstacle est un panneau de signalisation",
+          "text_nl": "Een verkeersbelemmering is een verkeersbord",
+          "text_ru": "Препятствие - это дорожный знак",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un obstacle est un chantier routier",
+          "text_nl": "Een verkeersbelemmering is een wegwerk",
+          "text_ru": "Препятствие - это дорожные работы",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un obstacle sur la route est tout objet ou situation qui gêne la circulation des véhicules.",
+      "explanation_nl": "Een verkeersbelemmering op de weg is elk voorwerp of elke situatie die het verkeer van voertuigen hindert.",
+      "explanation_ru": "Препятствие на дороге - это любой объект или ситуация, мешающая движению транспортных средств."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un chantier routier ?",
+      "text_nl": "Wat is een wegwerk?",
+      "text_ru": "Что такое дорожные работы?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un chantier routier est un lieu de construction ou de réparation de la route",
+          "text_nl": "Een wegwerk is een plaats waar wegen worden gebouwd of hersteld",
+          "text_ru": "Дорожные работы - это место, где строят или ремонтируют дорогу",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un chantier routier est un lieu de stationnement",
+          "text_nl": "Een wegwerk is een parkeerplaats",
+          "text_ru": "Дорожные работы - это парковка",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un chantier routier est un lieu de circulation",
+          "text_nl": "Een wegwerk is een verkeersplein",
+          "text_ru": "Дорожные работы - это перекрёсток",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un chantier routier est un lieu où des travaux de construction, de réparation ou d'entretien sont effectués sur la route.",
+      "explanation_nl": "Een wegwerk is een plaats waar wegen worden gebouwd, hersteld of onderhouden.",
+      "explanation_ru": "Дорожные работы - это место, где выполняются строительные, ремонтные или эксплуатационные работы на дороге."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la différence entre un obstacle et un chantier routier ?",
+      "text_nl": "Wat is het verschil tussen een verkeersbelemmering en een wegwerk?",
+      "text_ru": "В чем разница между препятствием и дорожными работами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un obstacle est temporaire, tandis qu'un chantier routier est permanent",
+          "text_nl": "Een verkeersbelemmering is tijdelijk, terwijl een wegwerk permanent is",
+          "text_ru": "Препятствие временное, а дорожные работы постоянные",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un obstacle est un objet, tandis qu'un chantier routier est un lieu de travaux",
+          "text_nl": "Een verkeersbelemmering is een voorwerp, terwijl een wegwerk een werkplaats is",
+          "text_ru": "Препятствие - это объект, а дорожные работы - место работ",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un obstacle est un lieu de circulation, tandis qu'un chantier routier est un lieu de stationnement",
+          "text_nl": "Een verkeersbelemmering is een verkeersplein, terwijl een wegwerk een parkeerplaats is",
+          "text_ru": "Препятствие - это перекрёсток, а дорожные работы - парковка",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un obstacle est un objet ou une situation qui gêne la circulation, tandis qu'un chantier routier est un lieu où des travaux de construction, de réparation ou d'entretien sont effectués sur la route.",
+      "explanation_nl": "Een verkeersbelemmering is een voorwerp of een situatie die het verkeer hindert, terwijl een wegwerk een plaats is waar wegen worden gebouwd, hersteld of onderhouden.",
+      "explanation_ru": "Препятствие - это объект или ситуация, мешающая движению, а дорожные работы - это место, где выполняются строительные, ремонтные или эксплуатационные работы на дороге."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous vous approchez d'un chantier routier. Que devez-vous faire ?",
+      "text_nl": "U nadert een wegwerk. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к дорожным работам. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer le chantier avant que les travaux ne commencent",
+          "text_nl": "Versnellen om het wegwerk voor te zijn voordat de werkzaamheden beginnen",
+          "text_ru": "Ускориться, чтобы проехать через дорожные работы до начала работ",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et suivre les instructions des panneaux de signalisation",
+          "text_nl": "Vertragen en de aanwijzingen van de verkeersborden volgen",
+          "text_ru": "Замедлить и следовать инструкциям дорожных знаков",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Contourner le chantier par un chemin non asphalté",
+          "text_nl": "Het wegwerk omrijden via een onverharde weg",
+          "text_ru": "Объехать дорожные работы по грунтовой дороге",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'un chantier routier, vous devez ralentir et suivre les instructions des panneaux de signalisation pour assurer votre sécurité et celle des autres usagers de la route.",
+      "explanation_nl": "Wanneer u een wegwerk nadert, moet u vertragen en de aanwijzingen van de verkeersborden volgen om uw veiligheid en die van andere weggebruikers te garanderen.",
+      "explanation_ru": "Когда вы приближаетесь к дорожным работам, вы должны замедлить и следовать инструкциям дорожных знаков, чтобы обеспечить свою безопасность и безопасность других участников дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous rencontrez un obstacle sur la route. Que devez-vous faire ?",
+      "text_nl": "U komt een verkeersbelemmering op de weg tegen. Wat moet u doen?",
+      "text_ru": "Вы встречаете препятствие на дороге. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Essayer de contourner l'obstacle par la gauche",
+          "text_nl": "Proberen om de verkeersbelemmering links te passeren",
+          "text_ru": "Попытаться объехать препятствие слева",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter et attendre que l'obstacle soit dégagé",
+          "text_nl": "Stoppen en wachten totdat de verkeersbelemmering is opgeruimd",
+          "text_ru": "Остановиться и ждать, пока препятствие будет убрано",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accélérer pour passer l'obstacle avant qu'il ne soit trop tard",
+          "text_nl": "Versnellen om de verkeersbelemmering te passeren voordat het te laat is",
+          "text_ru": "Ускориться, чтобы проехать через препятствие до того, как будет слишком поздно",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous rencontrez un obstacle sur la route, vous devez s'arrêter et attendre que l'obstacle soit dégagé pour assurer votre sécurité et celle des autres usagers de la route.",
+      "explanation_nl": "Wanneer u een verkeersbelemmering op de weg tegenkomt, moet u stoppen en wachten totdat de verkeersbelemmering is opgeruimd om uw veiligheid en die van andere weggebruikers te garanderen.",
+      "explanation_ru": "Когда вы встречаете препятствие на дороге, вы должны остановиться и ждать, пока препятствие будет убрано, чтобы обеспечить свою безопасность и безопасность других участников дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous vous approchez d'un carrefour avec un chantier routier. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt met een wegwerk. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрёстку с дорожными работами. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer le carrefour avant que les travaux ne commencent",
+          "text_nl": "Versnellen om het kruispunt te passeren voordat de werkzaamheden beginnen",
+          "text_ru": "Ускориться, чтобы проехать через перекрёсток до начала работ",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et suivre les instructions des panneaux de signalisation",
+          "text_nl": "Vertragen en de aanwijzingen van de verkeersborden volgen",
+          "text_ru": "Замедлить и следовать инструкциям дорожных знаков",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Contourner le carrefour par un chemin non asphalté",
+          "text_nl": "Het kruispunt omrijden via een onverharde weg",
+          "text_ru": "Объехать перекрёсток по грунтовой дороге",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'un carrefour avec un chantier routier, vous devez ralentir et suivre les instructions des panneaux de signalisation pour assurer votre sécurité et celle des autres usagers de la route.",
+      "explanation_nl": "Wanneer u een kruispunt met een wegwerk nadert, moet u vertragen en de aanwijzingen van de verkeersborden volgen om uw veiligheid en die van andere weggebruikers te garanderen.",
+      "explanation_ru": "Когда вы приближаетесь к перекрёстку с дорожными работами, вы должны замедлить и следовать инструкциям дорожных знаков, чтобы обеспечить свою безопасность и безопасность других участников дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous rencontrez un obstacle sur la route en raison de travaux de réparation. Que devez-vous faire ?",
+      "text_nl": "U komt een verkeersbelemmering op de weg tegen vanwege herstelwerkzaamheden. Wat moet u doen?",
+      "text_ru": "Вы встречаете препятствие на дороге из-за ремонтных работ. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Essayer de contourner l'obstacle par la gauche",
+          "text_nl": "Proberen om de verkeersbelemmering links te passeren",
+          "text_ru": "Попытаться объехать препятствие слева",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter et attendre que les travaux soient terminés",
+          "text_nl": "Stoppen en wachten totdat de werkzaamheden zijn voltooid",
+          "text_ru": "Остановиться и ждать, пока работы будут завершены",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Suivre les instructions des panneaux de signalisation pour contourner l'obstacle",
+          "text_nl": "De aanwijzingen van de verkeersborden volgen om de verkeersbelemmering te omrijden",
+          "text_ru": "Следовать инструкциям дорожных знаков, чтобы объехать препятствие",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque vous rencontrez un obstacle sur la route en raison de travaux de réparation, vous devez suivre les instructions des panneaux de signalisation pour contourner l'obstacle et assurer votre sécurité.",
+      "explanation_nl": "Wanneer u een verkeersbelemmering op de weg tegenkomt vanwege herstelwerkzaamheden, moet u de aanwijzingen van de verkeersborden volgen om de verkeersbelemmering te omrijden en uw veiligheid te garanderen.",
+      "explanation_ru": "Когда вы встречаете препятствие на дороге из-за ремонтных работ, вы должны следовать инструкциям дорожных знаков, чтобы объехать препятствие и обеспечить свою безопасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'un carrefour avec un chantier routier et des obstacles sur la route. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt met een wegwerk en verkeersbelemmeringen op de weg. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к перекрёстку с дорожными работами и препятствиями на дороге. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer le carrefour avant que les travaux ne commencent",
+          "text_nl": "Versnellen om het kruispunt te passeren voordat de werkzaamheden beginnen",
+          "text_ru": "Ускориться, чтобы проехать через перекрёсток до начала работ",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et suivre les instructions des panneaux de signalisation pour contourner les obstacles",
+          "text_nl": "Vertragen en de aanwijzingen van de verkeersborden volgen om de verkeersbelemmeringen te omrijden",
+          "text_ru": "Замедлить и следовать инструкциям дорожных знаков, чтобы объехать препятствия",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Contourner le carrefour par un chemin non asphalté",
+          "text_nl": "Het kruispunt omrijden via een onverharde weg",
+          "text_ru": "Объехать перекрёсток по грунтовой дороге",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'un carrefour avec un chantier routier et des obstacles sur la route, vous devez ralentir et suivre les instructions des panneaux de signalisation pour contourner les obstacles et assurer votre sécurité.",
+      "explanation_nl": "Wanneer u een kruispunt met een wegwerk en verkeersbelemmeringen op de weg nadert, moet u vertragen en de aanwijzingen van de verkeersborden volgen om de verkeersbelemmeringen te omrijden en uw veiligheid te garanderen.",
+      "explanation_ru": "Когда вы приближаетесь к перекрёстку с дорожными работами и препятствиями на дороге, вы должны замедлить и следовать инструкциям дорожных знаков, чтобы объехать препятствия и обеспечить свою безопасность."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "b2facec6bbc1",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:32:11Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

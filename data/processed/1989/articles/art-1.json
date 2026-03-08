@@ -36,7 +36,304 @@
   "anchor_id_fr": "d0gz6hxsji",
   "anchor_id_nl": "xnhv1nfbbx",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon les définitions, quelle est la caractéristique essentielle d'un véhicule automoteur ?",
+      "text_nl": "Volgens de definities, wat is de essentiële eigenschap van een motorrijtuig?",
+      "text_ru": "Согласно определениям, какова основная характеристика самоходного транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est toujours destiné au transport de personnes uniquement.",
+          "text_nl": "Het is altijd uitsluitend bestemd voor personenvervoer.",
+          "text_ru": "Оно всегда предназначено только для перевозки людей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il peut être actionné par une force mécanique et n'est pas lié à une voie ferrée.",
+          "text_nl": "Het kan worden aangedreven door een mechanische kracht en is niet gebonden aan rails.",
+          "text_ru": "Оно может приводиться в движение механической силой и не привязано к железнодорожному пути.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit toujours avoir au moins quatre roues pour être considéré comme tel.",
+          "text_nl": "Het moet altijd minstens vier wielen hebben om als zodanig te worden beschouwd.",
+          "text_ru": "Оно всегда должно иметь не менее четырех колес, чтобы считаться таковым.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un véhicule automoteur est défini comme un véhicule destiné à circuler sur le sol qui peut être actionné par une force mécanique sans être lié à une voie ferrée.",
+      "explanation_nl": "Een motorrijtuig wordt gedefinieerd als een rij- of voertuig, bestemd om zich over de grond te bewegen en dat door een mechanische kracht kan worden gedreven, zonder aan spoorstaven te zijn gebonden.",
+      "explanation_ru": "Самоходное транспортное средство определяется как транспортное средство, предназначенное для передвижения по земле, которое может приводиться в движение механической силой, не будучи привязанным к железнодорожному пути."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Lorsqu'un objet est attelé à un véhicule automoteur, comment est-il considéré pour l'application des définitions ?",
+      "text_nl": "Wanneer een voorwerp aan een motorrijtuig is gekoppeld, hoe wordt dit dan beschouwd voor de toepassing van de definities?",
+      "text_ru": "Когда объект прицеплен к самоходному транспортному средству, как он рассматривается для целей определений?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est toujours considéré comme une entité distincte, sauf s'il est motorisé.",
+          "text_nl": "Het wordt altijd als een afzonderlijke entiteit beschouwd, tenzij het gemotoriseerd is.",
+          "text_ru": "Оно всегда рассматривается как отдельная сущность, если только оно не моторизовано.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est considéré comme faisant partie intégrante du véhicule automoteur.",
+          "text_nl": "Het wordt als een integraal deel van het motorrijtuig aangemerkt.",
+          "text_ru": "Оно считается неотъемлемой частью самоходного транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Son statut dépend de la charge qu'il transporte.",
+          "text_nl": "De status ervan hangt af van de lading die het vervoert.",
+          "text_ru": "Его статус зависит от перевозимого груза.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Tout ce qui est attelé au véhicule est considéré comme en faisant partie, selon la définition des véhicules automoteurs.",
+      "explanation_nl": "Al wat aan het rij- of voertuig is gekoppeld, wordt als een deel daarvan aangemerkt, volgens de definitie van motorrijtuigen.",
+      "explanation_ru": "Все, что прицеплено к транспортному средству, считается его частью, согласно определению самоходных транспортных средств."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le terme 'circulation d’un véhicule' concernant son état (à l'arrêt ou en mouvement) au moment de son utilisation, selon les définitions ?",
+      "text_nl": "Wat betekent de term 'deelneming aan het verkeer van een voertuig' met betrekking tot de staat ervan (stilstaand of in beweging) op het moment van gebruik, volgens de definities?",
+      "text_ru": "Что означает термин 'эксплуатация транспортного средства' в отношении его состояния (стоит или движется) в момент использования, согласно определениям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule doit toujours être en mouvement pour être considéré comme en circulation.",
+          "text_nl": "Het voertuig moet altijd in beweging zijn om als 'in verkeer' te worden beschouwd.",
+          "text_ru": "Транспортное средство всегда должно находиться в движении, чтобы считаться эксплуатируемым.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule peut être à l'arrêt ou en mouvement, pourvu qu'il soit conforme à sa fonction de moyen de transport.",
+          "text_nl": "Het voertuig kan stilstaan of in beweging zijn, mits het overeenstemt met zijn functie als vervoermiddel.",
+          "text_ru": "Транспортное средство может стоять или двигаться, при условии, что оно соответствует своей транспортной функции.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule est en circulation uniquement s'il est sur la voie publique.",
+          "text_nl": "Het voertuig is alleen in verkeer als het zich op de openbare weg bevindt.",
+          "text_ru": "Транспортное средство находится в эксплуатации только в том случае, если оно находится на дороге общего пользования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La circulation d’un véhicule est définie comme toute utilisation d’un véhicule conforme à sa fonction de moyen de transport, que celui-ci soit à l’arrêt ou en mouvement.",
+      "explanation_nl": "Deelneming aan het verkeer van een voertuig is elk gebruik van een voertuig dat overeenstemt met de functie van vervoermiddel, ongeacht of het stilstaat of in beweging is.",
+      "explanation_ru": "Эксплуатация транспортного средства определяется как любое использование транспортного средства, соответствующее его функции средства передвижения, независимо от того, стоит ли оно или движется."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Une voiture est correctement garée sur une pente mais le frein à main lâche et elle descend la rue, causant des dommages à un autre véhicule. Est-ce considéré comme de la 'circulation d’un véhicule' ?",
+      "text_nl": "Een auto staat correct geparkeerd op een helling, maar de handrem faalt en de auto rolt de straat af, waardoor schade aan een ander voertuig ontstaat. Wordt dit beschouwd als 'deelneming aan het verkeer van een voertuig'?",
+      "text_ru": "Автомобиль правильно припаркован на склоне, но ручной тормоз отпускает, и он катится по улице, причиняя ущерб другому транспортному средству. Считается ли это 'эксплуатацией транспортного средства'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car rolling down a hill after its handbrake failed, about to hit another car. Urban street, daytime, clear weather."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car le véhicule était à l'arrêt et sans conducteur actif au moment de l'incident.",
+          "text_nl": "Nee, want het voertuig stond stil en zonder actieve bestuurder op het moment van het incident.",
+          "text_ru": "Нет, так как транспортное средство стояло и без активного водителя в момент происшествия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car il s'agit d'une utilisation conforme à la fonction de transport du véhicule, même à l'arrêt ou lors d'un mouvement involontaire.",
+          "text_nl": "Ja, omdat het een gebruik is dat overeenstemt met de transportfunctie van het voertuig, zelfs als het stilstaat of bij een onbedoelde beweging.",
+          "text_ru": "Да, так как это использование, соответствующее транспортной функции транспортного средства, даже когда оно стоит или при непроизвольном движении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le moteur était en marche au moment où le frein à main a lâché.",
+          "text_nl": "Alleen als de motor draaide op het moment dat de handrem losliet.",
+          "text_ru": "Только если двигатель работал в момент отказа ручного тормоза.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La 'circulation d’un véhicule' inclut son utilisation conforme à sa fonction de moyen de transport, que le véhicule soit à l’arrêt ou en mouvement. Un mouvement involontaire alors qu'il est stationné pour son usage de transport relève de cette définition.",
+      "explanation_nl": "De 'deelneming aan het verkeer van een voertuig' omvat het gebruik ervan dat overeenstemt met de functie als vervoermiddel, ongeacht of het stilstaat of in beweging is. Een onbedoelde beweging terwijl het geparkeerd staat voor transportgebruik valt onder deze definitie.",
+      "explanation_ru": "Эксплуатация транспортного средства включает его использование, соответствующее его транспортной функции, независимо от того, стоит ли транспортное средство или движется. Непроизвольное движение во время парковки для транспортных целей подпадает под это определение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur utilise son véhicule tout-terrain pour transporter du matériel agricole à travers un champ privé en dehors de toute route. Si un accident survient, est-ce considéré comme de la 'circulation d’un véhicule' ?",
+      "text_nl": "Een bestuurder gebruikt zijn terreinvoertuig om landbouwmateriaal over een privéveld buiten elke weg te vervoeren. Indien er een ongeval gebeurt, wordt dit beschouwd als 'deelneming aan het verkeer van een voertuig'?",
+      "text_ru": "Водитель использует свой внедорожник для перевозки сельскохозяйственного оборудования через частное поле вне дорог. Если происходит авария, считается ли это 'эксплуатацией транспортного средства'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A 4x4 vehicle driving through a private agricultural field, carrying farm equipment, with no paved road visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car cela se passe sur un terrain privé et non sur la voie publique.",
+          "text_nl": "Nee, want dit gebeurt op privéterrein en niet op de openbare weg.",
+          "text_ru": "Нет, так как это происходит на частной территории, а не на дороге общего пользования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car la définition précise que le terrain sur lequel le véhicule est utilisé n'a pas d'importance, pourvu qu'il serve à sa fonction de transport.",
+          "text_nl": "Ja, want de definitie specificeert dat het terrein waarop het voertuig wordt gebruikt, niet van belang is, mits het dient voor zijn transportfunctie.",
+          "text_ru": "Да, так как определение уточняет, что местность, на которой используется транспортное средство, не имеет значения, при условии, что оно выполняет свою транспортную функцию.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le véhicule est immatriculé pour un usage agricole.",
+          "text_nl": "Alleen als het voertuig is ingeschreven voor landbouwgebruik.",
+          "text_ru": "Только если транспортное средство зарегистрировано для сельскохозяйственного использования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La 'circulation d’un véhicule' est définie comme toute utilisation conforme à la fonction de moyen de transport, 'quel que soit le terrain sur lequel le véhicule automoteur est utilisé'.",
+      "explanation_nl": "De 'deelneming aan het verkeer van een voertuig' is elk gebruik dat overeenstemt met de functie van vervoermiddel, 'ongeacht het terrein waarop het motorrijtuig wordt gebruikt'.",
+      "explanation_ru": "Эксплуатация транспортного средства определяется как любое использование, соответствующее функции средства передвижения, 'независимо от местности, на которой используется самоходное транспортное средство'."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un propriétaire de camping-car utilise son moteur pour générer de l'électricité et alimenter son équipement lors d'un festival, sans que le véhicule ne bouge. Est-ce considéré comme de la 'circulation d’un véhicule' ?",
+      "text_nl": "Een eigenaar van een camper gebruikt zijn motor om elektriciteit op te wekken en zijn uitrusting van stroom te voorzien tijdens een festival, zonder dat het voertuig beweegt. Wordt dit beschouwd als 'deelneming aan het verkeer van een voertuig'?",
+      "text_ru": "Владелец автодома использует двигатель для выработки электричества и питания своего оборудования на фестивале, при этом транспортное средство не движется. Считается ли это 'эксплуатацией транспортного средства'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A camper van parked at a festival, with its engine running to power external equipment like lights or speakers. People are enjoying the festival around it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car le moteur du véhicule est en marche.",
+          "text_nl": "Ja, want de motor van het voertuig draait.",
+          "text_ru": "Да, так как двигатель транспортного средства работает.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car l'utilisation n'est pas conforme à la fonction de moyen de transport du véhicule.",
+          "text_nl": "Nee, want het gebruik stemt niet overeen met de functie van het voertuig als vervoermiddel.",
+          "text_ru": "Нет, так как использование не соответствует функции транспортного средства как средства передвижения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la durée pendant laquelle le moteur est utilisé comme générateur.",
+          "text_nl": "Dit hangt af van de duur van het gebruik van de motor als generator.",
+          "text_ru": "Это зависит от продолжительности использования двигателя в качестве генератора.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La 'circulation d’un véhicule' exige que l'utilisation soit conforme à la fonction de moyen de transport du véhicule. Utiliser le moteur pour générer de l'électricité sans bouger ne correspond pas à cette fonction.",
+      "explanation_nl": "De 'deelneming aan het verkeer van een voertuig' vereist dat het gebruik overeenstemt met de functie van het voertuig als vervoermiddel. Het gebruik van de motor om elektriciteit op te wekken zonder te bewegen, komt niet overeen met deze functie.",
+      "explanation_ru": "Эксплуатация транспортного средства требует, чтобы использование соответствовало функции транспортного средства как средства передвижения. Использование двигателя для выработки электроэнергии без движения не соответствует этой функции."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un automobiliste tracte une remorque non motorisée transportant des meubles. En cas d'accident sur la route, cette remorque est-elle considérée comme faisant partie du véhicule automoteur ?",
+      "text_nl": "Een automobilist trekt een ongemotoriseerde aanhangwagen die meubels vervoert. In geval van een ongeval op de weg, wordt deze aanhangwagen beschouwd als een deel van het motorrijtuig?",
+      "text_ru": "Автомобилист буксирует немоторизованный прицеп, перевозящий мебель. В случае аварии на дороге, считается ли этот прицеп частью самоходного транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car towing a small, unmotorized utility trailer with furniture on a public road. Daylight, clear weather."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car elle n'a pas son propre moteur et est une entité distincte.",
+          "text_nl": "Nee, omdat deze geen eigen motor heeft en een afzonderlijke entiteit is.",
+          "text_ru": "Нет, так как у него нет собственного двигателя, и это отдельная сущность.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car tout ce qui est attelé au véhicule est considéré comme en faisant partie.",
+          "text_nl": "Ja, want al wat aan het voertuig is gekoppeld, wordt als een deel daarvan aangemerkt.",
+          "text_ru": "Да, так как все, что прицеплено к транспортному средству, считается его частью.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si la remorque est spécifiquement immatriculée comme telle.",
+          "text_nl": "Alleen als de aanhangwagen specifiek als zodanig is ingeschreven.",
+          "text_ru": "Только если прицеп специально зарегистрирован как таковой.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La définition des véhicules automoteurs précise que 'tout ce qui est attelé au véhicule est considéré comme en faisant partie'. Une remorque attelée est donc considérée comme une partie du véhicule automoteur.",
+      "explanation_nl": "De definitie van motorrijtuigen specificeert dat 'al wat aan het rij- of voertuig is gekoppeld, als een deel daarvan wordt aangemerkt'. Een gekoppelde aanhangwagen wordt dus als een deel van het motorrijtuig beschouwd.",
+      "explanation_ru": "Определение самоходных транспортных средств уточняет, что 'все, что прицеплено к транспортному средству, считается его частью'. Таким образом, прицепленный прицеп считается частью самоходного транспортного средства."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Une personne utilise un scooter de mobilité électrique pour se déplacer sur un trottoir. Ce scooter est-il considéré comme un 'véhicule automoteur' selon les définitions ?",
+      "text_nl": "Een persoon gebruikt een elektrische scootmobiel om zich op een voetpad te verplaatsen. Wordt deze scootmobiel volgens de definities beschouwd als een 'motorrijtuig'?",
+      "text_ru": "Человек использует электрический скутер для передвижения по тротуару. Считается ли этот скутер 'самоходным транспортным средством' согласно определениям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An elderly person riding an electric mobility scooter on a wide sidewalk in a town, passing by shops. Daytime, clear weather."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car il est principalement utilisé par des personnes à mobilité réduite et n'est pas destiné à la route.",
+          "text_nl": "Nee, omdat het voornamelijk wordt gebruikt door mensen met beperkte mobiliteit en niet bestemd is voor de weg.",
+          "text_ru": "Нет, так как он в основном используется людьми с ограниченными возможностями передвижения и не предназначен для дороги.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car il circule sur le sol et peut être actionné par une force mécanique sans être lié à une voie ferrée.",
+          "text_nl": "Ja, omdat het zich over de grond beweegt en door een mechanische kracht kan worden aangedreven, zonder aan rails te zijn gebonden.",
+          "text_ru": "Да, так как он движется по земле и приводится в движение механической силой, не будучи привязанным к железнодорожному пути.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement s'il peut atteindre une vitesse maximale supérieure à celle d'un piéton rapide.",
+          "text_nl": "Alleen als het een maximale snelheid kan bereiken die hoger is dan die van een snelle voetganger.",
+          "text_ru": "Только если он может развивать максимальную скорость выше скорости быстро идущего пешехода.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un scooter de mobilité électrique correspond à la définition d'un véhicule automoteur, car il est destiné à circuler sur le sol et peut être actionné par une force mécanique sans être lié à une voie ferrée. Les caractéristiques de l'utilisateur ou le lieu d'utilisation (trottoir) ne modifient pas cette définition fondamentale du véhicule lui-même.",
+      "explanation_nl": "Een elektrische scootmobiel voldoet aan de definitie van een motorrijtuig, omdat het bestemd is om zich over de grond te bewegen en door een mechanische kracht kan worden aangedreven, zonder aan spoorstaven te zijn gebonden. De kenmerken van de gebruiker of de plaats van gebruik (voetpad) veranderen deze fundamentele definitie van het voertuig zelf niet.",
+      "explanation_ru": "Электрический скутер для передвижения соответствует определению самоходного транспортного средства, поскольку он предназначен для передвижения по земле и может приводиться в движение механической силой, не будучи привязанным к железнодорожному пути. Характеристики пользователя или место использования (тротуар) не изменяют это фундаментальное определение самого транспортного средства."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T09:01:37Z",
     "content_hash": "348ebd7b01d5",
@@ -46,6 +343,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:38:04Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

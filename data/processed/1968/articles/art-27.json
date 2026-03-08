@@ -26,7 +26,304 @@
   "anchor_id_fr": "yjnxu6mw94",
   "anchor_id_nl": "hthnjxofio",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'objectif principal des redevances fixées par le Gouvernement flamand en ce qui concerne les écoles de conduite ?",
+      "text_nl": "Wat is het hoofddoel van de door de Vlaamse Regering vastgestelde retributies in verband met de rijscholen ?",
+      "text_ru": "Какова основная цель сборов, установленных Фламандским правительством в отношении школ вождения ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Couvrir les frais d'administration",
+          "text_nl": "Om de bestuurskosten te dekken",
+          "text_ru": "Покрыть административные расходы",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Financer les infrastructures routières",
+          "text_nl": "Om de wegeninfrastructuur te financieren",
+          "text_ru": "Финансировать дорожную инфраструктуру",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Subventionner les écoles de conduite",
+          "text_nl": "Om de rijscholen te subsidiëren",
+          "text_ru": "Субсидировать школы вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les redevances sont fixées pour couvrir les frais d'administration, de contrôle et de surveillance résultant de l'application des dispositions réglementaires.",
+      "explanation_nl": "De retributies worden vastgesteld om de bestuurs-, controle- en toezichtskosten te dekken, die de toepassing van de reglementsbepalingen medebrengt.",
+      "explanation_ru": "Сборы устанавливаются для покрытия административных, контрольных и надзорных расходов, связанных с применением нормативных положений."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quels sont les cas pour lesquels le Gouvernement flamand peut fixer une rétribution à charge du demandeur ?",
+      "text_nl": "In welke gevallen kan de Vlaamse Regering een retributie ten laste van de aanvrager bepalen ?",
+      "text_ru": "В каких случаях Фламандское правительство может установить сбор за счет заявителя ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Traitement d'une demande d'agrément des écoles de conduite",
+          "text_nl": "Behandeling van een aanvraag tot erkenning van de rijscholen",
+          "text_ru": "Рассмотрение заявки на аккредитацию школ вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Passation des examens pour obtenir un permis de conduire",
+          "text_nl": "Aflleggen van de examens voor het behalen van een rijbewijs",
+          "text_ru": "Сдача экзаменов для получения водительских прав",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Exercice de la profession de mécanicien",
+          "text_nl": "Uitoefening van het beroep van monteur",
+          "text_ru": "Осуществление профессии механика",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Gouvernement flamand peut fixer une rétribution à charge du demandeur pour le traitement d'une demande d'agrément des écoles de conduite, la passation des examens et l'exercice du stage pour obtenir un certificat de compétence professionnelle, ainsi que pour le traitement d'une demande d'exercice de la profession de directeur d'école de conduite.",
+      "explanation_nl": "De Vlaamse Regering kan ten laste van de aanvrager een retributie bepalen voor het behandelen van een aanvraag tot erkenning van de rijscholen, het afleggen van de examens en het uitoefenen van de stage voor het behalen van een getuigschrift van beroepsbekwaamheid, evenals voor het behandelen van een aanvraag tot het uitoefenen van het beroep van rijschooldirecteur.",
+      "explanation_ru": "Фламандское правительство может установить сбор за счет заявителя за рассмотрение заявки на аккредитацию школ вождения, сдачу экзаменов и прохождение стажировки для получения сертификата профессиональной компетентности, а также за рассмотрение заявки на осуществление профессии директора школы вождения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la procédure en cas de non-respect des rétributions fixées par le Gouvernement flamand ?",
+      "text_nl": "Wat is de procedure in geval van niet-naleving van de door de Vlaamse Regering vastgestelde retributies ?",
+      "text_ru": "Какая процедура применяется в случае неисполнения сборов, установленных Фламандским правительством ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Gouvernement flamand peut déterminer la procédure",
+          "text_nl": "De Vlaamse Regering kan de procedure bepalen",
+          "text_ru": "Фламандское правительство может определить процедуру",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La procédure est déterminée par les écoles de conduite",
+          "text_nl": "De procedure wordt bepaald door de rijscholen",
+          "text_ru": "Процедура определяется школами вождения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La procédure est déterminée par les cours de justice",
+          "text_nl": "De procedure wordt bepaald door de rechtbanken",
+          "text_ru": "Процедура определяется судами",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Gouvernement flamand peut déterminer la procédure en cas de non-respect des rétributions.",
+      "explanation_nl": "De Vlaamse Regering kan de procedure bij niet-naleving van de retributies bepalen.",
+      "explanation_ru": "Фламандское правительство может определить процедуру в случае неисполнения сборов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un candidat souhaite passer l'examen pour obtenir un certificat de compétence professionnelle pour enseigner la conduite. Quelle est la procédure à suivre ?",
+      "text_nl": "Een kandidaat wil het examen afleggen om een getuigschrift van beroepsbekwaamheid te behalen om rijlessen te geven. Wat is de procedure ?",
+      "text_ru": "Кандидат хочет сдать экзамен, чтобы получить сертификат профессиональной компетентности для преподавания вождению. Какая процедура должна быть соблюдена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'inscrire à un cours de préparation",
+          "text_nl": "Zich inschrijven voor een voorbereidingscursus",
+          "text_ru": "Записаться на подготовительный курс",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander à passer l'examen auprès d'une école de conduite",
+          "text_nl": "Vragen om het examen af te leggen bij een rijschool",
+          "text_ru": "Попросить сдать экзамен в школе вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "S'inscrire directement à l'examen",
+          "text_nl": "Zich rechtstreeks inschrijven voor het examen",
+          "text_ru": "Записаться напрямую на экзамен",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le candidat doit demander à passer l'examen auprès d'une école de conduite.",
+      "explanation_nl": "De kandidaat moet vragen om het examen af te leggen bij een rijschool.",
+      "explanation_ru": "Кандидат должен попросить сдать экзамен в школе вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un directeur d'école de conduite souhaite obtenir l'agrément pour son école. Quelle est la procédure à suivre ?",
+      "text_nl": "Een rijschooldirecteur wil de erkenning voor zijn rijschool behalen. Wat is de procedure ?",
+      "text_ru": "Директор школы вождения хочет получить аккредитацию для своей школы. Какая процедура должна быть соблюдена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Déposer une demande d'agrément auprès du Gouvernement flamand",
+          "text_nl": "Een aanvraag tot erkenning indienen bij de Vlaamse Regering",
+          "text_ru": "Подать заявку на аккредитацию в Фламандское правительство",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'inscrire à un cours de préparation pour les directeurs d'école de conduite",
+          "text_nl": "Zich inschrijven voor een voorbereidingscursus voor rijschooldirecteuren",
+          "text_ru": "Записаться на подготовительный курс для директоров школ вождения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Passer un examen pour obtenir un certificat de compétence professionnelle",
+          "text_nl": "Een examen afleggen om een getuigschrift van beroepsbekwaamheid te behalen",
+          "text_ru": "Сдать экзамен, чтобы получить сертификат профессиональной компетентности",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le directeur d'école de conduite doit déposer une demande d'agrément auprès du Gouvernement flamand.",
+      "explanation_nl": "De rijschooldirecteur moet een aanvraag tot erkenning indienen bij de Vlaamse Regering.",
+      "explanation_ru": "Директор школы вождения должен подать заявку на аккредитацию в Фламандское правительство."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un candidat a échoué à l'examen pour obtenir un certificat de compétence professionnelle. Quelle est la procédure à suivre pour réviser et repasser l'examen ?",
+      "text_nl": "Een kandidaat is gezakt voor het examen om een getuigschrift van beroepsbekwaamheid te behalen. Wat is de procedure om te herzien en opnieuw het examen af te leggen ?",
+      "text_ru": "Кандидат не сдал экзамен, чтобы получить сертификат профессиональной компетентности. Какая процедура должна быть соблюдена для повторного сдачи экзамена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'inscrire à un cours de révision",
+          "text_nl": "Zich inschrijven voor een herzieningscursus",
+          "text_ru": "Записаться на повторный курс",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander à repasser l'examen immédiatement",
+          "text_nl": "Vragen om het examen onmiddellijk opnieuw af te leggen",
+          "text_ru": "Попросить сдать экзамен немедленно",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Abandonner l'examen et chercher un autre métier",
+          "text_nl": "Het examen opgeven en een andere carrière zoeken",
+          "text_ru": "Бросить экзамен и искать другую работу",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le candidat doit s'inscrire à un cours de révision pour améliorer ses connaissances et compétences avant de repasser l'examen.",
+      "explanation_nl": "De kandidaat moet zich inschrijven voor een herzieningscursus om zijn kennis en vaardigheden te verbeteren voordat hij opnieuw het examen aflegt.",
+      "explanation_ru": "Кандидат должен записаться на повторный курс, чтобы улучшить свои знания и навыки, прежде чем повторно сдать экзамен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un élève souhaite s'inscrire à un cours de conduite. Quelle est la procédure à suivre ?",
+      "text_nl": "Een leerling wil zich inschrijven voor een rijles. Wat is de procedure ?",
+      "text_ru": "Ученик хочет записаться на курс вождения. Какая процедура должна быть соблюдена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'inscrire directement à l'école de conduite",
+          "text_nl": "Zich rechtstreeks inschrijven bij de rijschool",
+          "text_ru": "Записаться напрямую в школу вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander à passer un examen d'admission",
+          "text_nl": "Vragen om een toelatingsexamen af te leggen",
+          "text_ru": "Попросить сдать вступительный экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "S'inscrire à un cours de théorie avant de s'inscrire à un cours de conduite",
+          "text_nl": "Zich inschrijven voor een theoriecursus voordat hij zich inschrijft voor een rijles",
+          "text_ru": "Записаться на теоретический курс, прежде чем записаться на курс вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'élève doit s'inscrire directement à l'école de conduite.",
+      "explanation_nl": "De leerling moet zich rechtstreeks inschrijven bij de rijschool.",
+      "explanation_ru": "Ученик должен записаться напрямую в школу вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un élève a terminé son cours de conduite et souhaite passer l'examen pour obtenir son permis de conduire. Quelle est la procédure à suivre ?",
+      "text_nl": "Een leerling heeft zijn rijles voltooid en wil het examen afleggen om zijn rijbewijs te behalen. Wat is de procedure ?",
+      "text_ru": "Ученик закончил курс вождения и хочет сдать экзамен, чтобы получить водительские права. Какая процедура должна быть соблюдена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander à passer l'examen auprès de l'école de conduite",
+          "text_nl": "Vragen om het examen af te leggen bij de rijschool",
+          "text_ru": "Попросить сдать экзамен в школе вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'inscrire directement à l'examen",
+          "text_nl": "Zich rechtstreeks inschrijven voor het examen",
+          "text_ru": "Записаться напрямую на экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Passer un examen de théorie avant de passer l'examen pratique",
+          "text_nl": "Een theorie-examen afleggen voordat hij het praktijkexamen aflegt",
+          "text_ru": "Сдать теоретический экзамен, прежде чем сдать практический экзамен",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'élève doit demander à passer l'examen auprès de l'école de conduite.",
+      "explanation_nl": "De leerling moet vragen om het examen af te leggen bij de rijschool.",
+      "explanation_ru": "Ученик должен попросить сдать экзамен в школе вождения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "f5eb4fca8723",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:33:27Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

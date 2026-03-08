@@ -29,7 +29,341 @@
   "anchor_id_fr": "d0m56xifae",
   "anchor_id_nl": "nfd29wuvwb",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la vitesse maximale autorisée qui peut être dépassée pour que l'infraction de vitesse ne soit pas punissable pénalement ?",
+      "text_nl": "Wat is de maximum toegelaten snelheid die mag worden overschreden zodat de snelheidsovertreding niet strafrechtelijk wordt bestraft ?",
+      "text_ru": "Какая максимальная разрешенная скорость может быть превышена, чтобы нарушение скорости не было наказано уголовно?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "10 kilomètres par heure",
+          "text_nl": "10 kilometer per uur",
+          "text_ru": "10 километров в час",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "20 kilomètres par heure",
+          "text_nl": "20 kilometer per uur",
+          "text_ru": "20 километров в час",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "30 kilomètres par heure",
+          "text_nl": "30 kilometer per uur",
+          "text_ru": "30 километров в час",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La vitesse maximale autorisée qui peut être dépassée pour que l'infraction de vitesse ne soit pas punissable pénalement est de 20 kilomètres par heure.",
+      "explanation_nl": "De maximum toegelaten snelheid die mag worden overschreden zodat de snelheidsovertreding niet strafrechtelijk wordt bestraft is 20 kilometer per uur.",
+      "explanation_ru": "Максимальная разрешенная скорость, которая может быть превышена, чтобы нарушение скорости не было наказано уголовно, составляет 20 километров в час."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le délai pour payer l'amende administrative après notification ?",
+      "text_nl": "Wat is de termijn voor het betalen van de administratieve geldboete na kennisgeving ?",
+      "text_ru": "Какой срок для оплаты административного штрафа после уведомления?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "15 jours",
+          "text_nl": "15 dagen",
+          "text_ru": "15 дней",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 jours",
+          "text_nl": "30 dagen",
+          "text_ru": "30 дней",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "60 jours",
+          "text_nl": "60 dagen",
+          "text_ru": "60 дней",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai pour payer l'amende administrative après notification est de 30 jours.",
+      "explanation_nl": "De termijn voor het betalen van de administratieve geldboete na kennisgeving is 30 dagen.",
+      "explanation_ru": "Срок для оплаты административного штрафа после уведомления составляет 30 дней."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la procédure pour contester une amende administrative ?",
+      "text_nl": "Wat is de procedure voor het betwisten van een administratieve geldboete ?",
+      "text_ru": "Какая процедура для оспаривания административного штрафа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Introduction d'un recours devant le tribunal de police",
+          "text_nl": "Inleiding van een beroep bij de politierechtbank",
+          "text_ru": "Введение жалобы в суд полиции",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Introduction d'un recours devant le tribunal civil",
+          "text_nl": "Inleiding van een beroep bij de burgerlijke rechtbank",
+          "text_ru": "Введение жалобы в гражданский суд",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Introduction d'un recours devant le tribunal pénal",
+          "text_nl": "Inleiding van een beroep bij de strafrechtbank",
+          "text_ru": "Введение жалобы в уголовный суд",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La procédure pour contester une amende administrative est l'introduction d'un recours devant le tribunal de police.",
+      "explanation_nl": "De procedure voor het betwisten van een administratieve geldboete is de inleiding van een beroep bij de politierechtbank.",
+      "explanation_ru": "Процедура для оспаривания административного штрафа - это введение жалобы в суд полиции."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur dépasse la vitesse maximale autorisée de 15 kilomètres par heure sur une route où la vitesse est limitée à 50 kilomètres par heure. Quelle sera la conséquence ?",
+      "text_nl": "Een bestuurder overschrijdt de toegelaten maximumsnelheid met 15 kilometer per uur op een weg waar de snelheid beperkt is tot 50 kilometer per uur. Wat zijn de gevolgen ?",
+      "text_ru": "Водитель превышает максимально допустимую скорость на 15 километров в час на дороге, где скорость ограничена 50 километрами в час. Каковы последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'amende administrative sera payée",
+          "text_nl": "De administratieve geldboete zal worden betaald",
+          "text_ru": "Административный штраф будет оплачен",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur sera poursuivi pénalement",
+          "text_nl": "De bestuurder zal strafrechtelijk worden vervolgd",
+          "text_ru": "Водитель будет привлечен к уголовной ответственности",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur dépasse la vitesse maximale autorisée de 15 kilomètres par heure, ce qui signifie qu'il dépasse la limite de 20 kilomètres par heure autorisée pour une amende administrative. Par conséquent, le conducteur sera poursuivi pénalement.",
+      "explanation_nl": "De bestuurder overschrijdt de toegelaten maximumsnelheid met 15 kilometer per uur, wat betekent dat hij de limiet van 20 kilometer per uur overschrijdt die is toegestaan voor een administratieve geldboete. Derhalve zal de bestuurder strafrechtelijk worden vervolgd.",
+      "explanation_ru": "Водитель превышает максимально допустимую скорость на 15 километров в час, что означает, что он превышает предел в 20 километров в час, разрешенный для административного штрафа. Следовательно, водитель будет привлечен к уголовной ответственности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur reçoit une amende administrative pour une infraction de vitesse. Quel est le délai pour payer l'amende ?",
+      "text_nl": "Een bestuurder ontvangt een administratieve geldboete voor een snelheidsovertreding. Wat is de termijn voor het betalen van de boete ?",
+      "text_ru": "Водитель получает административный штраф за нарушение скорости. Какой срок для оплаты штрафа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "15 jours",
+          "text_nl": "15 dagen",
+          "text_ru": "15 дней",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 jours",
+          "text_nl": "30 dagen",
+          "text_ru": "30 дней",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "60 jours",
+          "text_nl": "60 dagen",
+          "text_ru": "60 дней",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai pour payer l'amende administrative est de 30 jours.",
+      "explanation_nl": "De termijn voor het betalen van de administratieve geldboete is 30 dagen.",
+      "explanation_ru": "Срок для оплаты административного штрафа составляет 30 дней."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur conteste une amende administrative pour une infraction de vitesse. Quelle est la procédure à suivre ?",
+      "text_nl": "Een bestuurder betwist een administratieve geldboete voor een snelheidsovertreding. Wat is de procedure die moet worden gevolgd ?",
+      "text_ru": "Водитель оспаривает административный штраф за нарушение скорости. Какая процедура должна быть выполнена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Introduction d'un recours devant le tribunal de police",
+          "text_nl": "Inleiding van een beroep bij de politierechtbank",
+          "text_ru": "Введение жалобы в суд полиции",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Introduction d'un recours devant le tribunal civil",
+          "text_nl": "Inleiding van een beroep bij de burgerlijke rechtbank",
+          "text_ru": "Введение жалобы в гражданский суд",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Introduction d'un recours devant le tribunal pénal",
+          "text_nl": "Inleiding van een beroep bij de strafrechtbank",
+          "text_ru": "Введение жалобы в уголовный суд",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La procédure à suivre pour contester une amende administrative est l'introduction d'un recours devant le tribunal de police.",
+      "explanation_nl": "De procedure die moet worden gevolgd voor het betwisten van een administratieve geldboete is de inleiding van een beroep bij de politierechtbank.",
+      "explanation_ru": "Процедура для оспаривания административного штрафа - это введение жалобы в суд полиции."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur dépasse la vitesse maximale autorisée de 25 kilomètres par heure sur une route où la vitesse est limitée à 30 kilomètres par heure. Quelle sera la conséquence ?",
+      "text_nl": "Een bestuurder overschrijdt de toegelaten maximumsnelheid met 25 kilometer per uur op een weg waar de snelheid beperkt is tot 30 kilometer per uur. Wat zijn de gevolgen ?",
+      "text_ru": "Водитель превышает максимально допустимую скорость на 25 километров в час на дороге, где скорость ограничена 30 километрами в час. Каковы последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'amende administrative sera payée",
+          "text_nl": "De administratieve geldboete zal worden betaald",
+          "text_ru": "Административный штраф будет оплачен",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur sera poursuivi pénalement",
+          "text_nl": "De bestuurder zal strafrechtelijk worden vervolgd",
+          "text_ru": "Водитель будет привлечен к уголовной ответственности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur dépasse la vitesse maximale autorisée de 25 kilomètres par heure, ce qui signifie qu'il dépasse la limite de 20 kilomètres par heure autorisée pour une amende administrative. Par conséquent, le conducteur sera poursuivi pénalement.",
+      "explanation_nl": "De bestuurder overschrijdt de toegelaten maximumsnelheid met 25 kilometer per uur, wat betekent dat hij de limiet van 20 kilometer per uur overschrijdt die is toegestaan voor een administratieve geldboete. Derhalve zal de bestuurder strafrechtelijk worden vervolgd.",
+      "explanation_ru": "Водитель превышает максимально допустимую скорость на 25 километров в час, что означает, что он превышает предел в 20 километров в час, разрешенный для административного штрафа. Следовательно, водитель будет привлечен к уголовной ответственности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur reçoit une amende administrative pour une infraction de vitesse. Quel est le délai pour présenter ses moyens de défense ?",
+      "text_nl": "Een bestuurder ontvangt een administratieve geldboete voor een snelheidsovertreding. Wat is de termijn voor het indienen van zijn verweermiddelen ?",
+      "text_ru": "Водитель получает административный штраф за нарушение скорости. Какой срок для представления своих аргументов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "15 jours",
+          "text_nl": "15 dagen",
+          "text_ru": "15 дней",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 jours",
+          "text_nl": "30 dagen",
+          "text_ru": "30 дней",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "60 jours",
+          "text_nl": "60 dagen",
+          "text_ru": "60 дней",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai pour présenter ses moyens de défense est de 30 jours.",
+      "explanation_nl": "De termijn voor het indienen van zijn verweermiddelen is 30 dagen.",
+      "explanation_ru": "Срок для представления своих аргументов составляет 30 дней."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur conteste une amende administrative pour une infraction de vitesse. Quelle est la procédure à suivre pour obtenir une décision définitive ?",
+      "text_nl": "Een bestuurder betwist een administratieve geldboete voor een snelheidsovertreding. Wat is de procedure die moet worden gevolgd voor het verkrijgen van een definitieve beslissing ?",
+      "text_ru": "Водитель оспаривает административный штраф за нарушение скорости. Какая процедура должна быть выполнена для получения окончательного решения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Introduction d'un recours devant le tribunal de police",
+          "text_nl": "Inleiding van een beroep bij de politierechtbank",
+          "text_ru": "Введение жалобы в суд полиции",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Introduction d'un recours devant le tribunal civil",
+          "text_nl": "Inleiding van een beroep bij de burgerlijke rechtbank",
+          "text_ru": "Введение жалобы в гражданский суд",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Introduction d'un recours devant le tribunal pénal",
+          "text_nl": "Inleiding van een beroep bij de strafrechtbank",
+          "text_ru": "Введение жалобы в уголовный суд",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La procédure à suivre pour obtenir une décision définitive est l'introduction d'un recours devant le tribunal de police.",
+      "explanation_nl": "De procedure die moet worden gevolgd voor het verkrijgen van een definitieve beslissing is de inleiding van een beroep bij de politierechtbank.",
+      "explanation_ru": "Процедура для получения окончательного решения - это введение жалобы в суд полиции."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "79d80ebac14d",
@@ -39,6 +373,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:34:39Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 9
   }
 }

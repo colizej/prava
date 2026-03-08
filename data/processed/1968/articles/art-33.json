@@ -30,7 +30,304 @@
   "anchor_id_fr": "iyo6kyc2yq",
   "anchor_id_nl": "fj6tmtawpe",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les conséquences pour un conducteur qui prend la fuite après un accident de la circulation ?",
+      "text_nl": "Wat zijn de gevolgen voor een bestuurder die na een verkeersongeval vlucht ?",
+      "text_ru": "Каковы последствия для водителя, который убегает после дорожного происшествия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende et une peine d'emprisonnement",
+          "text_nl": "Een boete en een gevangenisstraf",
+          "text_ru": "Штраф и тюремное наказание",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une simple mise en garde",
+          "text_nl": "Een eenvoudige waarschuwing",
+          "text_ru": "Простое предупреждение",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur qui prend la fuite après un accident de la circulation peut être puni d'une amende et d'une peine d'emprisonnement.",
+      "explanation_nl": "Een bestuurder die na een verkeersongeval vlucht, kan worden gestraft met een boete en een gevangenisstraf.",
+      "explanation_ru": "Водитель, который убегает после дорожного происшествия, может быть наказан штрафом и тюремным заключением."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un accident de la circulation ?",
+      "text_nl": "Wat is een verkeersongeval ?",
+      "text_ru": "Что такое дорожное происшествие?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un accident qui se produit sur une route publique",
+          "text_nl": "Een ongeval dat plaatsvindt op een openbare weg",
+          "text_ru": "Происшествие, которое происходит на общественной дороге",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un accident qui se produit sur un terrain privé",
+          "text_nl": "Een ongeval dat plaatsvindt op een privéterrein",
+          "text_ru": "Происшествие, которое происходит на частной территории",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un accident qui se produit en dehors d'une route",
+          "text_nl": "Een ongeval dat plaatsvindt buiten een weg",
+          "text_ru": "Происшествие, которое происходит вне дороги",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un accident de la circulation est un accident qui se produit sur une route publique.",
+      "explanation_nl": "Een verkeersongeval is een ongeval dat plaatsvindt op een openbare weg.",
+      "explanation_ru": "Дорожное происшествие - это происшествие, которое происходит на общественной дороге."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les conditions pour que la réintégration dans le droit de conduire soit possible après une déchéance ?",
+      "text_nl": "Wat zijn de voorwaarden voor het herstel van het recht tot sturen na een verval ?",
+      "text_ru": "Каковы условия для восстановления права на вождение после лишения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La réussite d'un examen théorique et pratique",
+          "text_nl": "Het slagen voor een theoretisch en praktisch examen",
+          "text_ru": "Сдача теоретического и практического экзамена",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La réussite d'un examen théorique seulement",
+          "text_nl": "Het slagen voor een theoretisch examen alleen",
+          "text_ru": "Сдача только теоретического экзамена",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La réussite d'un examen pratique seulement",
+          "text_nl": "Het slagen voor een praktisch examen alleen",
+          "text_ru": "Сдача только практического экзамена",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La réintégration dans le droit de conduire est possible après une déchéance si le conducteur réussit un examen théorique et pratique.",
+      "explanation_nl": "Het herstel van het recht tot sturen is mogelijk na een verval als de bestuurder slaagt voor een theoretisch en praktisch examen.",
+      "explanation_ru": "Восстановление права на вождение возможно после лишения, если водитель сдаст теоретический и практический экзамен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est impliqué dans un accident de la circulation et prend la fuite. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeval en vlucht. Wat moet hij doen ?",
+      "text_ru": "Водитель участвует в дорожном происшествии и убегает. Что ему следует сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'arrêter et contacter la police",
+          "text_nl": "Stoppen en contact opnemen met de politie",
+          "text_ru": "Остановиться и связаться с полицией",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire et ignorer l'accident",
+          "text_nl": "Verder rijden en het ongeval negeren",
+          "text_ru": "Продолжать ехать и игнорировать происшествие",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler un ami pour qu'il vienne le chercher",
+          "text_nl": "Een vriend bellen om hem op te halen",
+          "text_ru": "Позвонить другу, чтобы он его подобрал",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur impliqué dans un accident de la circulation devrait s'arrêter et contacter la police.",
+      "explanation_nl": "Een bestuurder die betrokken is bij een verkeersongeval, moet stoppen en contact opnemen met de politie.",
+      "explanation_ru": "Водитель, участвующий в дорожном происшествии, должен остановиться и связаться с полицией."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est victime d'un accident de la circulation. Qu'est-ce qu'il devrait faire en premier lieu ?",
+      "text_nl": "Een bestuurder is het slachtoffer van een verkeersongeval. Wat moet hij als eerste doen ?",
+      "text_ru": "Водитель попал в дорожное происшествие. Что ему следует сделать в первую очередь?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Appeler les secours",
+          "text_nl": "De hulpdiensten bellen",
+          "text_ru": "Позвонить в службу спасения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire",
+          "text_nl": "Verder rijden",
+          "text_ru": "Продолжать ехать",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sortir de la route",
+          "text_nl": "De weg verlaten",
+          "text_ru": "Покинуть дорогу",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur victime d'un accident de la circulation devrait appeler les secours en premier lieu.",
+      "explanation_nl": "Een bestuurder die het slachtoffer is van een verkeersongeval, moet als eerste de hulpdiensten bellen.",
+      "explanation_ru": "Водитель, попавший в дорожное происшествие, должен позвонить в службу спасения в первую очередь."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a causé un accident de la circulation et a blessé une personne. Qu'est-ce qu'il devrait faire pour minimiser les conséquences ?",
+      "text_nl": "Een bestuurder heeft een verkeersongeval veroorzaakt en heeft iemand gewond. Wat moet hij doen om de gevolgen te minimaliseren ?",
+      "text_ru": "Водитель вызвал дорожное происшествие и ранил человека. Что ему следует сделать, чтобы минимизировать последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'arrêter et aider la personne blessée",
+          "text_nl": "Stoppen en de gewonde persoon helpen",
+          "text_ru": "Остановиться и помочь раненому человеку",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire et ignorer l'accident",
+          "text_nl": "Verder rijden en het ongeval negeren",
+          "text_ru": "Продолжать ехать и игнорировать происшествие",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler un ami pour qu'il vienne le chercher",
+          "text_nl": "Een vriend bellen om hem op te halen",
+          "text_ru": "Позвонить другу, чтобы он его подобрал",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur qui a causé un accident de la circulation et a blessé une personne devrait s'arrêter et aider la personne blessée.",
+      "explanation_nl": "Een bestuurder die een verkeersongeval heeft veroorzaakt en iemand gewond heeft, moet stoppen en de gewonde persoon helpen.",
+      "explanation_ru": "Водитель, вызвавший дорожное происшествие и ранивший человека, должен остановиться и помочь раненому человеку."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est impliqué dans un accident de la circulation et a des blessures légères. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeval en heeft lichte verwondingen. Wat moet hij doen ?",
+      "text_ru": "Водитель участвует в дорожном происшествии и получил легкие травмы. Что ему следует сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'arrêter et contacter la police",
+          "text_nl": "Stoppen en contact opnemen met de politie",
+          "text_ru": "Остановиться и связаться с полицией",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire et ignorer l'accident",
+          "text_nl": "Verder rijden en het ongeval negeren",
+          "text_ru": "Продолжать ехать и игнорировать происшествие",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler un ami pour qu'il vienne le chercher",
+          "text_nl": "Een vriend bellen om hem op te halen",
+          "text_ru": "Позвонить другу, чтобы он его подобрал",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur impliqué dans un accident de la circulation et ayant des blessures légères devrait s'arrêter et contacter la police.",
+      "explanation_nl": "Een bestuurder die betrokken is bij een verkeersongeval en lichte verwondingen heeft, moet stoppen en contact opnemen met de politie.",
+      "explanation_ru": "Водитель, участвующий в дорожном происшествии и получивший легкие травмы, должен остановиться и связаться с полицией."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est victime d'un accident de la circulation et a des blessures graves. Qu'est-ce qu'il devrait faire en premier lieu ?",
+      "text_nl": "Een bestuurder is het slachtoffer van een verkeersongeval en heeft ernstige verwondingen. Wat moet hij als eerste doen ?",
+      "text_ru": "Водитель попал в дорожное происшествие и получил тяжелые травмы. Что ему следует сделать в первую очередь?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Appeler les secours",
+          "text_nl": "De hulpdiensten bellen",
+          "text_ru": "Позвонить в службу спасения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire",
+          "text_nl": "Verder rijden",
+          "text_ru": "Продолжать ехать",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Sortir de la route",
+          "text_nl": "De weg verlaten",
+          "text_ru": "Покинуть дорогу",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur victime d'un accident de la circulation et ayant des blessures graves devrait appeler les secours en premier lieu.",
+      "explanation_nl": "Een bestuurder die het slachtoffer is van een verkeersongeval en ernstige verwondingen heeft, moet als eerste de hulpdiensten bellen.",
+      "explanation_ru": "Водитель, попавший в дорожное происшествие и получивший тяжелые травмы, должен позвонить в службу спасения в первую очередь."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e80fbc9c0e28",
@@ -40,6 +337,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:36:19Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

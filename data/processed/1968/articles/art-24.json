@@ -28,7 +28,230 @@
   "anchor_id_fr": "jprrbikw1s",
   "anchor_id_nl": "s23o4cfcal",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans quelles circonstances un conducteur belge est-il tenu de présenter son permis de conduire à l'autorité qui l'a délivré en raison de son état de santé ?",
+      "text_nl": "In welke omstandigheden is een Belgische bestuurder verplicht zijn rijbewijs in te leveren bij de afgevende autoriteit wegens zijn gezondheidstoestand?",
+      "text_ru": "При каких обстоятельствах бельгийский водитель обязан предъявить водительское удостоверение выдавшему его органу из-за состояния здоровья?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement s'il a eu un accident et que sa condition médicale est remise en question par la police.",
+          "text_nl": "Alleen als hij een ongeval heeft gehad en zijn medische toestand door de politie in twijfel wordt getrokken.",
+          "text_ru": "Только если он попал в аварию и его медицинское состояние оспаривается полицией.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'il est atteint d'un défaut physique ou d'une affection déterminée comme incompatible avec la conduite, ou s'il échoue à un examen médical obligatoire.",
+          "text_nl": "Als hij lijdt aan een lichamelijk gebrek of aandoening die als onverenigbaar met rijden wordt beschouwd, of als hij niet slaagt voor een verplicht medisch onderzoek.",
+          "text_ru": "Если у него есть физический дефект или заболевание, признанное несовместимым с вождением, или если он не проходит обязательный медицинский осмотр.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Chaque année, dans le cadre d'un contrôle de routine général pour tous les conducteurs.",
+          "text_nl": "Elk jaar, als onderdeel van een algemene routinecontrole voor alle bestuurders.",
+          "text_ru": "Ежегодно, в рамках общей плановой проверки для всех водителей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire doit être présenté à l'autorité émettrice si le titulaire souffre d'un défaut physique ou d'une affection jugée incompatible avec la conduite, ou s'il ne satisfait pas à un examen médical obligatoire.",
+      "explanation_nl": "Een rijbewijs moet worden ingeleverd bij de afgevende autoriteit als de houder lijdt aan een lichamelijk gebrek of aandoening die als onverenigbaar met rijden wordt beschouwd, of als hij niet slaagt voor een verplicht medisch onderzoek.",
+      "explanation_ru": "Водительское удостоверение должно быть предъявлено выдающему органу, если у владельца есть физический дефект или заболевание, признанное несовместимым с вождением, или если он не проходит обязательный медицинский осмотр."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le délai imparti à un titulaire de permis de conduire pour présenter son permis à l'autorité émettrice après avoir pris connaissance d'un défaut physique ou d'une affection affectant sa capacité de conduire ?",
+      "text_nl": "Wat is de termijn waarbinnen een rijbewijshouder zijn rijbewijs moet inleveren bij de afgevende autoriteit nadat hij kennis heeft gekregen van een lichamelijk gebrek of aandoening die zijn rijvaardigheid beïnvloedt?",
+      "text_ru": "Каков срок, в течение которого владелец водительского удостоверения должен предъявить его выдавшему органу после того, как ему стало известно о физическом дефекте или заболевании, влияющем на его способность управлять транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dans les 7 jours, incluant tous les jours de la semaine.",
+          "text_nl": "Binnen 7 dagen, inclusief alle dagen van de week.",
+          "text_ru": "В течение 7 дней, включая все дни недели.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dans les 10 jours ouvrables.",
+          "text_nl": "Binnen 10 werkdagen.",
+          "text_ru": "В течение 10 рабочих дней.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dans les quatre jours, sans compter les samedis, dimanches et jours fériés légaux.",
+          "text_nl": "Binnen vier dagen, zaterdagen, zondagen en wettelijke feestdagen niet meegerekend.",
+          "text_ru": "В течение четырех дней, не считая субботы, воскресенья и официальных праздников.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le délai est de quatre jours, mais les samedis, dimanches et jours fériés légaux ne sont pas pris en compte dans ce calcul.",
+      "explanation_nl": "De termijn is vier dagen, maar zaterdagen, zondagen en wettelijke feestdagen worden niet meegerekend in deze berekening.",
+      "explanation_ru": "Срок составляет четыре дня, но субботы, воскресенья и официальные праздники не учитываются при расчете."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est l'obligation spécifique pour les conducteurs soumis à une surveillance et une sélection médicale pour le transport rémunéré de personnes s'ils ne répondent plus aux exigences ?",
+      "text_nl": "Wat is de specifieke verplichting voor bestuurders die onderworpen zijn aan medisch toezicht en selectie voor bezoldigd personenvervoer als zij niet langer aan de eisen voldoen?",
+      "text_ru": "Каково конкретное обязательство для водителей, подлежащих медицинскому надзору и отбору для платных пассажирских перевозок, если они больше не соответствуют требованиям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent suivre une formation supplémentaire pour compenser leur incapacité.",
+          "text_nl": "Zij moeten aanvullende training volgen om hun onvermogen te compenseren.",
+          "text_ru": "Они должны пройти дополнительное обучение, чтобы компенсировать свою неспособность.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent présenter leur permis de conduire à l'autorité qui l'a délivré, pour émargement ou retrait.",
+          "text_nl": "Zij moeten hun rijbewijs inleveren bij de afgevende autoriteit, voor aantekening of intrekking.",
+          "text_ru": "Они должны предъявить водительское удостоверение выдавшему органу для отметки или изъятия.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils peuvent continuer à conduire, mais uniquement en dehors de leurs heures de travail.",
+          "text_nl": "Zij mogen blijven rijden, maar alleen buiten hun werktijden.",
+          "text_ru": "Они могут продолжать управлять транспортным средством, но только вне рабочих часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si un conducteur soumis à des exigences médicales spécifiques pour le transport rémunéré ne les satisfait plus, il doit présenter son permis à l'autorité émettrice pour émargement ou retrait.",
+      "explanation_nl": "Als een bestuurder die onderworpen is aan specifieke medische eisen voor bezoldigd vervoer hier niet langer aan voldoet, moet hij zijn rijbewijs inleveren bij de afgevende autoriteit voor aantekening of intrekking.",
+      "explanation_ru": "Если водитель, подпадающий под особые медицинские требования для платных перевозок, больше не соответствует им, он должен предъявить водительское удостоверение выдавшему органу для отметки или изъятия."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous recevez un diagnostic médical confirmant que vous souffrez d'une affection désormais jugée incompatible avec la conduite sécuritaire d'un véhicule. Quelle est la première démarche administrative que vous devez entreprendre concernant votre permis de conduire ?",
+      "text_nl": "U ontvangt een medische diagnose die bevestigt dat u lijdt aan een aandoening die nu als onverenigbaar wordt beschouwd met het veilig besturen van een voertuig. Wat is de eerste administratieve stap die u moet zetten met betrekking tot uw rijbewijs?",
+      "text_ru": "Вы получаете медицинский диагноз, подтверждающий, что у вас заболевание, которое теперь считается несовместимым с безопасным управлением транспортным средством. Какой первый административный шаг вы должны предпринять в отношении вашего водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez immédiatement cesser de conduire et attendre que l'autorité vous contacte.",
+          "text_nl": "U moet onmiddellijk stoppen met rijden en wachten tot de autoriteit contact met u opneemt.",
+          "text_ru": "Вы должны немедленно прекратить вождение и дождаться, пока власти свяжутся с вами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez présenter votre permis de conduire à l'autorité qui l'a délivré dans les quatre jours (hors week-ends et jours fériés).",
+          "text_nl": "U moet uw rijbewijs binnen vier dagen (exclusief weekends en feestdagen) inleveren bij de afgevende autoriteit.",
+          "text_ru": "Вы должны предъявить водительское удостоверение выдавшему органу в течение четырех дней (кроме выходных и праздничных дней).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez prendre rendez-vous pour un examen médical complémentaire avant d'informer l'autorité.",
+          "text_nl": "U moet een afspraak maken voor een aanvullend medisch onderzoek voordat u de autoriteit informeert.",
+          "text_ru": "Вы должны записаться на дополнительный медицинский осмотр, прежде чем информировать власти.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Dès que vous avez connaissance d'une affection incompatible avec la conduite, vous avez l'obligation de présenter votre permis à l'autorité qui l'a délivré dans les quatre jours (hors samedis, dimanches et jours fériés).",
+      "explanation_nl": "Zodra u kennis heeft van een aandoening die onverenigbaar is met rijden, bent u verplicht uw rijbewijs binnen vier dagen (exclusief zaterdagen, zondagen en wettelijke feestdagen) in te leveren bij de afgevende autoriteit.",
+      "explanation_ru": "Как только вам станет известно о заболевании, несовместимом с вождением, вы обязаны предъявить водительское удостоверение выдавшему органу в течение четырех дней (за исключением субботы, воскресенья и праздничных дней)."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes un chauffeur de bus et votre certificat de sélection médicale, nécessaire pour le transport rémunéré de personnes, vous est retiré le mercredi 15 du mois. Le samedi 18 et le dimanche 19 sont des jours de week-end, et le lundi 20 est un jour férié légal. Quel est le dernier jour où vous devez présenter votre permis de conduire à l'autorité compétente ?",
+      "text_nl": "U bent een buschauffeur en uw medisch selectiecertificaat, nodig voor bezoldigd personenvervoer, wordt op woensdag 15 van de maand ingetrokken. Zaterdag 18 en zondag 19 zijn weekenddagen, en maandag 20 is een wettelijke feestdag. Wat is de uiterste dag waarop u uw rijbewijs moet inleveren bij de bevoegde autoriteit?",
+      "text_ru": "Вы водитель автобуса, и ваш сертификат медицинского отбора, необходимый для платных пассажирских перевозок, аннулируется в среду, 15 числа месяца. Суббота, 18 и воскресенье, 19 — выходные дни, а понедельник, 20 — официальный праздник. Каков последний день, когда вы должны предъявить свое водительское удостоверение в соответствующий орган?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le vendredi 17 du même mois.",
+          "text_nl": "Vrijdag 17 van dezelfde maand.",
+          "text_ru": "В пятницу 17 того же месяца.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le mardi 21 du même mois.",
+          "text_nl": "Dinsdag 21 van dezelfde maand.",
+          "text_ru": "Во вторник 21 того же месяца.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le mercredi 22 du même mois.",
+          "text_nl": "Woensdag 22 van dezelfde maand.",
+          "text_ru": "В среду 22 того же месяца.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le délai est de quatre jours ouvrables. Le certificat est retiré le mercredi 15. Le jeudi 16 est le 1er jour, le vendredi 17 le 2ème jour. Le samedi 18, dimanche 19 et lundi 20 (jour férié) ne comptent pas. Le mardi 21 est le 3ème jour et le mercredi 22 le 4ème jour. Vous devez donc le présenter au plus tard le mercredi 22.",
+      "explanation_nl": "De termijn is vier werkdagen. Het certificaat wordt ingetrokken op woensdag 15. Donderdag 16 is de 1e dag, vrijdag 17 de 2e dag. Zaterdag 18, zondag 19 en maandag 20 (feestdag) tellen niet mee. Dinsdag 21 is de 3e dag en woensdag 22 de 4e dag. U moet het dus uiterlijk woensdag 22 inleveren.",
+      "explanation_ru": "Срок составляет четыре рабочих дня. Сертификат аннулируется в среду, 15 числа. Четверг, 16 — 1-й день, пятница, 17 — 2-й день. Суббота, 18, воскресенье, 19 и понедельник, 20 (праздник) не учитываются. Вторник, 21 — 3-й день, а среда, 22 — 4-й день. Следовательно, вы должны предъявить его не позднее среды, 22."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Après avoir été contraint de présenter votre permis de conduire en raison d'un problème médical, vous avez suivi un traitement et vous sentez à nouveau apte à conduire. Quelle est la procédure pour récupérer potentiellement votre permis ?",
+      "text_nl": "Nadat u uw rijbewijs moest inleveren vanwege een medisch probleem, heeft u een behandeling ondergaan en voelt u zich weer geschikt om te rijden. Wat is de procedure om uw rijbewijs mogelijk terug te krijgen?",
+      "text_ru": "После того как вы были вынуждены предъявить водительское удостоверение из-за медицинской проблемы, вы прошли лечение и снова чувствуете себя способным управлять автомобилем. Какова процедура возможного возврата вашего водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un simple certificat de votre médecin traitant suffit pour que le permis soit restitué.",
+          "text_nl": "Een eenvoudig attest van uw huisarts is voldoende om het rijbewijs terug te krijgen.",
+          "text_ru": "Достаточно простой справки от вашего лечащего врача для возврата водительского удостоверения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis peut être remis au titulaire s'il réussit un examen organisé à cet effet par l'autorité compétente.",
+          "text_nl": "Het rijbewijs kan aan de houder worden teruggegeven indien hij met goed gevolg een daartoe door de bevoegde autoriteit georganiseerd onderzoek heeft ondergaan.",
+          "text_ru": "Водительское удостоверение может быть возвращено владельцу, если он успешно сдает экзамен, организованный для этой цели компетентным органом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut attendre un délai minimum de six mois avant de pouvoir demander la restitution du permis.",
+          "text_nl": "Men moet een minimale termijn van zes maanden wachten alvorens de teruggave van het rijbewijs aan te vragen.",
+          "text_ru": "Необходимо подождать минимум шесть месяцев, прежде чем можно будет подать заявление на возврат водительского удостоверения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire peut être remis au titulaire qui, dans les cas prévus, a réussi un examen organisé par l'autorité compétente pour confirmer son aptitude à nouveau.",
+      "explanation_nl": "Het rijbewijs kan worden teruggegeven aan de houder die, in de voorziene gevallen, met goed gevolg een door de bevoegde autoriteit georganiseerd onderzoek heeft ondergaan om zijn geschiktheid opnieuw te bevestigen.",
+      "explanation_ru": "Водительское удостоверение может быть возвращено владельцу, который, в предусмотренных случаях, успешно сдал экзамен, организованный компетентным органом для подтверждения его вновь обретенной способности к вождению."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "0fadb4a5eabf",
@@ -38,6 +261,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:17:13Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 6
   }
 }

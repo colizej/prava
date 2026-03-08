@@ -26,7 +26,304 @@
   "anchor_id_fr": "xngiioecaf",
   "anchor_id_nl": "gtyxbvaphl",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un article abrogé dans le contexte du code de la route ?",
+      "text_nl": "Wat is een opgeheven artikel in de context van de wegcode?",
+      "text_ru": "Что такое отмененная статья в контексте правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un article qui a été modifié",
+          "text_nl": "Een artikel dat gewijzigd is",
+          "text_ru": "Статья, которая была изменена",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un article qui n'est plus en vigueur",
+          "text_nl": "Een artikel dat niet langer van kracht is",
+          "text_ru": "Статья, которая больше не действует",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un article qui est en cours de révision",
+          "text_nl": "Een artikel dat momenteel herzien wordt",
+          "text_ru": "Статья, которая в настоящее время пересматривается",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un article abrogé est un article qui n'est plus en vigueur, c'est-à-dire qu'il a été supprimé ou remplacé par un autre article.",
+      "explanation_nl": "Een opgeheven artikel is een artikel dat niet langer van kracht is, dat wil zeggen dat het verwijderd of vervangen is door een ander artikel.",
+      "explanation_ru": "Отмененная статья - это статья, которая больше не действует, то есть она была удалена или заменена другой статьей."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que le terme 'abrogé' signifie dans le contexte juridique ?",
+      "text_nl": "Wat betekent de term 'opgeheven' in de juridische context?",
+      "text_ru": "Что означает термин 'отмененная' в юридическом контексте?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un article qui a été créé",
+          "text_nl": "Een artikel dat is gemaakt",
+          "text_ru": "Статья, которая была создана",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un article qui a été modifié",
+          "text_nl": "Een artikel dat gewijzigd is",
+          "text_ru": "Статья, которая была изменена",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un article qui a été supprimé ou remplacé",
+          "text_nl": "Een artikel dat verwijderd of vervangen is",
+          "text_ru": "Статья, которая была удалена или заменена",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le terme 'abrogé' signifie que quelque chose a été supprimé ou remplacé, généralement dans le contexte juridique.",
+      "explanation_nl": "De term 'opgeheven' betekent dat iets verwijderd of vervangen is, meestal in de juridische context.",
+      "explanation_ru": "Термин 'отмененная' означает, что что-то было удалено или заменено, обычно в юридическом контексте."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les implications d'un article abrogé sur la compréhension du code de la route ?",
+      "text_nl": "Wat zijn de implicaties van een opgeheven artikel voor het begrijpen van de wegcode?",
+      "text_ru": "Какие последствия имеет отмененная статья для понимания правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il n'y a pas d'implications",
+          "text_nl": "Er zijn geen implicaties",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est important de comprendre que l'article n'est plus en vigueur",
+          "text_nl": "Het is belangrijk om te begrijpen dat het artikel niet langer van kracht is",
+          "text_ru": "Важно понимать, что статья больше не действует",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut ignorer l'article abrogé",
+          "text_nl": "Het opgeheven artikel moet genegeerd worden",
+          "text_ru": "Отмененную статью следует игнорировать",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est important de comprendre que l'article abrogé n'est plus en vigueur pour éviter les malentendus et les erreurs.",
+      "explanation_nl": "Het is belangrijk om te begrijpen dat het opgeheven artikel niet langer van kracht is om misverstanden en fouten te voorkomen.",
+      "explanation_ru": "Важно понимать, что отмененная статья больше не действует, чтобы избежать недоразумений и ошибок."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se réfère à un article abrogé du code de la route. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder verwijst naar een opgeheven artikel van de wegcode. Wat moet hij doen?",
+      "text_ru": "Водитель ссылается на отмененную статью правил дорожного движения. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les instructions de l'article",
+          "text_nl": "De instructies van het artikel volgen",
+          "text_ru": "Следовать инструкциям статьи",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rechercher les informations mises à jour",
+          "text_nl": "Naar bijgewerkte informatie zoeken",
+          "text_ru": "Искать обновленную информацию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer l'article",
+          "text_nl": "Het artikel negeren",
+          "text_ru": "Игнорировать статью",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait rechercher les informations mises à jour pour s'assurer qu'il suit les règles de la route actuelles.",
+      "explanation_nl": "De bestuurder moet naar bijgewerkte informatie zoeken om ervoor te zorgen dat hij de huidige verkeersregels volgt.",
+      "explanation_ru": "Водитель должен искать обновленную информацию, чтобы убедиться, что он следует текущим правилам дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est arrêté pour une infraction liée à un article abrogé. Qu'est-ce qui se passe ?",
+      "text_nl": "Een bestuurder wordt aangehouden voor een overtreding in verband met een opgeheven artikel. Wat gebeurt er?",
+      "text_ru": "Водитель был остановлен за нарушение, связанное с отмененной статьей. Что происходит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur est condamné",
+          "text_nl": "De bestuurder wordt veroordeeld",
+          "text_ru": "Водитель осужден",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur est libéré",
+          "text_nl": "De bestuurder wordt vrijgelaten",
+          "text_ru": "Водитель освобожден",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur reçoit une amende",
+          "text_nl": "De bestuurder krijgt een boete",
+          "text_ru": "Водитель получает штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait être libéré, car l'article n'est plus en vigueur et ne peut pas être utilisé pour condamner le conducteur.",
+      "explanation_nl": "De bestuurder moet worden vrijgelaten, omdat het artikel niet langer van kracht is en niet kan worden gebruikt om de bestuurder te veroordelen.",
+      "explanation_ru": "Водитель должен быть освобожден, поскольку статья больше не действует и не может быть использована для осуждения водителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur doit prendre une décision rapide sur la route. Doit-il suivre un article abrogé ou faire ce qui lui semble le plus sûr ?",
+      "text_nl": "Een bestuurder moet snel een beslissing nemen op de weg. Moet hij een opgeheven artikel volgen of doen wat hem het veiligst lijkt?",
+      "text_ru": "Водитель должен быстро принять решение на дороге. Должен ли он следовать отмененной статье или сделать то, что ему кажется наиболее безопасным?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre l'article abrogé",
+          "text_nl": "Het opgeheven artikel volgen",
+          "text_ru": "Следовать отмененной статье",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire ce qui lui semble le plus sûr",
+          "text_nl": "Doen wat hem het veiligst lijkt",
+          "text_ru": "Сделать то, что ему кажется наиболее безопасным",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Arrêter la voiture",
+          "text_nl": "De auto stoppen",
+          "text_ru": "Остановить машину",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait faire ce qui lui semble le plus sûr, car la sécurité est la priorité sur la route.",
+      "explanation_nl": "De bestuurder moet doen wat hem het veiligst lijkt, omdat de veiligheid de hoogste prioriteit heeft op de weg.",
+      "explanation_ru": "Водитель должен сделать то, что ему кажется наиболее безопасным, поскольку безопасность является приоритетом на дороге."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur lit un article abrogé du code de la route. Qu'est-ce qu'il devrait faire ensuite ?",
+      "text_nl": "Een bestuurder leest een opgeheven artikel van de wegcode. Wat moet hij daarna doen?",
+      "text_ru": "Водитель читает отмененную статью правил дорожного движения. Что он должен сделать дальше?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les instructions de l'article",
+          "text_nl": "De instructies van het artikel volgen",
+          "text_ru": "Следовать инструкциям статьи",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rechercher les informations mises à jour",
+          "text_nl": "Naar bijgewerkte informatie zoeken",
+          "text_ru": "Искать обновленную информацию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer l'article",
+          "text_nl": "Het artikel negeren",
+          "text_ru": "Игнорировать статью",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait rechercher les informations mises à jour pour s'assurer qu'il suit les règles de la route actuelles.",
+      "explanation_nl": "De bestuurder moet naar bijgewerkte informatie zoeken om ervoor te zorgen dat hij de huidige verkeersregels volgt.",
+      "explanation_ru": "Водитель должен искать обновленную информацию, чтобы убедиться, что он следует текущим правилам дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est confronté à une situation où il doit appliquer un article abrogé. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder wordt geconfronteerd met een situatie waarin hij een opgeheven artikel moet toepassen. Wat moet hij doen?",
+      "text_ru": "Водитель сталкивается с ситуацией, где он должен применить отмененную статью. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Appliquer l'article",
+          "text_nl": "Het artikel toepassen",
+          "text_ru": "Применить статью",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rechercher les informations mises à jour",
+          "text_nl": "Naar bijgewerkte informatie zoeken",
+          "text_ru": "Искать обновленную информацию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer la situation",
+          "text_nl": "De situatie negeren",
+          "text_ru": "Игнорировать ситуацию",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait rechercher les informations mises à jour pour s'assurer qu'il suit les règles de la route actuelles.",
+      "explanation_nl": "De bestuurder moet naar bijgewerkte informatie zoeken om ervoor te zorgen dat hij de huidige verkeersregels volgt.",
+      "explanation_ru": "Водитель должен искать обновленную информацию, чтобы убедиться, что он следует текущим правилам дорожного движения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e8d06fee56b6",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:32:32Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

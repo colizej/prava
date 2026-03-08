@@ -53,7 +53,230 @@
   "anchor_id_fr": "eyyf3akc3p",
   "anchor_id_nl": "trrtmfqyq6",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une infraction du quatrième degré en matière de circulation routière ?",
+      "text_nl": "Wat is een overtreding van de vierde graad inzake het verkeer ?",
+      "text_ru": "Что такое правонарушение четвертой степени в дорожном движении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une infraction qui met indirectement en danger la sécurité des personnes",
+          "text_nl": "Een overtreding die de veiligheid van personen onrechtstreeks in gevaar brengt",
+          "text_ru": "Правонарушение, которое косвенно подвергает опасности безопасность людей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction qui met directement en danger la sécurité des personnes et qui est de nature à mener presque irrémédiablement à des dommages physiques",
+          "text_nl": "Een overtreding die de veiligheid van personen rechtstreeks in gevaar brengt en die van die aard is dat ze bijna onvermijdbaar leidt tot fysieke schade",
+          "text_ru": "Правонарушение, которое напрямую подвергает опасности безопасность людей и которое почти неизбежно приводит к физическому вреду",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une infraction qui consiste en l'utilisation sans droit de facilités de stationnement pour les personnes handicapées",
+          "text_nl": "Een overtreding die bestaat uit het onrechtmatig gebruiken van parkeerfaciliteiten voor personen met een handicap",
+          "text_ru": "Правонарушение, которое заключается в использовании без права удобств для парковки для людей с ограниченными возможностями",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une infraction du quatrième degré est une infraction qui met directement en danger la sécurité des personnes et qui est de nature à mener presque irrémédiablement à des dommages physiques.",
+      "explanation_nl": "Een overtreding van de vierde graad is een overtreding die de veiligheid van personen rechtstreeks in gevaar brengt en die van die aard is dat ze bijna onvermijdbaar leidt tot fysieke schade.",
+      "explanation_ru": "Правонарушение четвертой степени - это правонарушение, которое напрямую подвергает опасности безопасность людей и которое почти неизбежно приводит к физическому вреду."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les sanctions pour une infraction du troisième degré en matière de circulation routière ?",
+      "text_nl": "Wat zijn de sancties voor een overtreding van de derde graad inzake het verkeer ?",
+      "text_ru": "Каковы санкции за правонарушение третьей степени в дорожном движении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 10 euros à 250 euros",
+          "text_nl": "Een geldboete van 10 euro tot 250 euro",
+          "text_ru": "Штраф в размере 10-250 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 30 euros à 500 euros",
+          "text_nl": "Een geldboete van 30 euro tot 500 euro",
+          "text_ru": "Штраф в размере 30-500 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une déchéance du droit de conduire un véhicule à moteur pour une durée de huit jours au moins et de cinq ans au plus",
+          "text_nl": "Een verval van het recht tot het besturen van een motorvoertuig voor een duur van ten minste acht dagen en ten hoogste vijf jaar",
+          "text_ru": "Лишение права управления транспортным средством на срок не менее 8 дней и не более 5 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les sanctions pour une infraction du troisième degré sont une amende de 30 euros à 500 euros.",
+      "explanation_nl": "De sancties voor een overtreding van de derde graad zijn een geldboete van 30 euro tot 500 euro.",
+      "explanation_ru": "Санкции за правонарушение третьей степени - это штраф в размере 30-500 евро."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qu'une zone de basses émissions en matière de circulation routière ?",
+      "text_nl": "Wat is een zone van lage emissies inzake het verkeer ?",
+      "text_ru": "Что такое зона низких выбросов в дорожном движении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une zone où les véhicules à moteur sont interdits",
+          "text_nl": "Een zone waarin motorrijtuigen verboden zijn",
+          "text_ru": "Зона, где транспортные средства с двигателем запрещены",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une zone où les véhicules à moteur sont soumis à des restrictions d'émissions",
+          "text_nl": "Een zone waarin motorrijtuigen onderworpen zijn aan emissiebeperkingen",
+          "text_ru": "Зона, где транспортные средства с двигателем подвержены ограничениям выбросов",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une zone où les véhicules à moteur sont exempts de taxes",
+          "text_nl": "Een zone waarin motorrijtuigen vrijgesteld zijn van belastingen",
+          "text_ru": "Зона, где транспортные средства с двигателем освобождены от налогов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une zone de basses émissions est une zone où les véhicules à moteur sont soumis à des restrictions d'émissions.",
+      "explanation_nl": "Een zone van lage emissies is een zone waarin motorrijtuigen onderworpen zijn aan emissiebeperkingen.",
+      "explanation_ru": "Зона низких выбросов - это зона, где транспортные средства с двигателем подвержены ограничениям выбросов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur dépasse la vitesse maximale autorisée de 20 km/h. Quelle est la sanction applicable ?",
+      "text_nl": "Een bestuurder overschrijdt de toegestane maximumsnelheid met 20 km/h. Welke sanctie is van toepassing ?",
+      "text_ru": "Водитель превышает максимально допустимую скорость на 20 км/ч. Какая санкция применима?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 10 euros à 250 euros",
+          "text_nl": "Een geldboete van 10 euro tot 250 euro",
+          "text_ru": "Штраф в размере 10-250 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une déchéance du droit de conduire un véhicule à moteur pour une durée de huit jours au moins et de cinq ans au plus",
+          "text_nl": "Een verval van het recht tot het besturen van een motorvoertuig voor een duur van ten minste acht dagen en ten hoogste vijf jaar",
+          "text_ru": "Лишение права управления транспортным средством на срок не менее 8 дней и не более 5 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende de 30 euros à 500 euros",
+          "text_nl": "Een geldboete van 30 euro tot 500 euro",
+          "text_ru": "Штраф в размере 30-500 евро",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La sanction applicable est une amende de 10 euros à 250 euros.",
+      "explanation_nl": "De van toepassing zijnde sanctie is een geldboete van 10 euro tot 250 euro.",
+      "explanation_ru": "Применима санкция - штраф в размере 10-250 евро."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur dépasse la vitesse maximale autorisée de 40 km/h dans une agglomération. Quelle est la sanction applicable ?",
+      "text_nl": "Een bestuurder overschrijdt de toegestane maximumsnelheid met 40 km/h in een bebouwde kom. Welke sanctie is van toepassing ?",
+      "text_ru": "Водитель превышает максимально допустимую скорость на 40 км/ч в населенном пункте. Какая санкция применима?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 10 euros à 250 euros",
+          "text_nl": "Een geldboete van 10 euro tot 250 euro",
+          "text_ru": "Штраф в размере 10-250 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une déchéance du droit de conduire un véhicule à moteur pour une durée de huit jours au moins et de cinq ans au plus",
+          "text_nl": "Een verval van het recht tot het besturen van een motorvoertuig voor een duur van ten minste acht dagen en ten hoogste vijf jaar",
+          "text_ru": "Лишение права управления транспортным средством на срок не менее 8 дней и не более 5 лет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende de 30 euros à 500 euros",
+          "text_nl": "Een geldboete van 30 euro tot 500 euro",
+          "text_ru": "Штраф в размере 30-500 евро",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La sanction applicable est une déchéance du droit de conduire un véhicule à moteur pour une durée de huit jours au moins et de cinq ans au plus.",
+      "explanation_nl": "De van toepassing zijnde sanctie is een verval van het recht tot het besturen van een motorvoertuig voor een duur van ten minste acht dagen en ten hoogste vijf jaar.",
+      "explanation_ru": "Применима санкция - лишение права управления транспортным средством на срок не менее 8 дней и не более 5 лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur stationne son véhicule dans une zone de stationnement payant sans payer la taxe de stationnement. Quelle est la sanction applicable ?",
+      "text_nl": "Een bestuurder parkeert zijn voertuig in een zone met betaald parkeren zonder de parkeerbelasting te betalen. Welke sanctie is van toepassing ?",
+      "text_ru": "Водитель паркует свое транспортное средство в зоне платной парковки без оплаты парковочного сбора. Какая санкция применима?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 10 euros à 250 euros",
+          "text_nl": "Een geldboete van 10 euro tot 250 euro",
+          "text_ru": "Штраф в размере 10-250 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une déchéance du droit de conduire un véhicule à moteur pour une durée de huit jours au moins et de cinq ans au plus",
+          "text_nl": "Een verval van het recht tot het besturen van een motorvoertuig voor een duur van ten minste acht dagen en ten hoogste vijf jaar",
+          "text_ru": "Лишение права управления транспортным средством на срок не менее 8 дней и не более 5 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une contravention pour non-paiement de la taxe de stationnement",
+          "text_nl": "Een overtreding voor niet-betaling van de parkeerbelasting",
+          "text_ru": "Правонарушение за неоплату парковочного сбора",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La sanction applicable est une contravention pour non-paiement de la taxe de stationnement.",
+      "explanation_nl": "De van toepassing zijnde sanctie is een overtreding voor niet-betaling van de parkeerbelasting.",
+      "explanation_ru": "Применима санкция - правонарушение за неоплату парковочного сбора."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "7cb001495bdc",
@@ -63,6 +286,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:34:01Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 6
   }
 }

@@ -32,7 +32,304 @@
   "anchor_id_fr": "h1pyoz21up",
   "anchor_id_nl": "yubzfvokoa",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une immatriculation d'un véhicule ?",
+      "text_nl": "Wat is een inschrijving van een voertuig?",
+      "text_ru": "Что такое регистрация транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'autorisation d'acheter un véhicule.",
+          "text_nl": "De toestemming om een voertuig te kopen.",
+          "text_ru": "Разрешение на покупку транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'autorisation administrative pour la mise en circulation routière d'un véhicule, incluant son identification et l'attribution d'un numéro.",
+          "text_nl": "De administratieve toestemming voor de deelname van een voertuig aan het wegverkeer, inclusief de identificatie en de toekenning van een nummer.",
+          "text_ru": "Административное разрешение на участие транспортного средства в дорожном движении, включая его идентификацию и присвоение номера.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'acte de vente d'un véhicule entre particuliers.",
+          "text_nl": "De verkoopakte van een voertuig tussen particulieren.",
+          "text_ru": "Договор купли-продажи транспортного средства между частными лицами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'immatriculation est définie comme l'autorisation administrative pour la mise en circulation routière d'un véhicule, comprenant son identification et l'attribution d'un numéro.",
+      "explanation_nl": "Inschrijving wordt gedefinieerd als de administratieve toestemming voor de deelname van een voertuig aan het wegverkeer, inclusief de identificatie en de toekenning van een inschrijvingsnummer.",
+      "explanation_ru": "Регистрация определяется как административное разрешение на участие транспортного средства в дорожном движении, включающее его идентификацию и присвоение регистрационного номера."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la principale différence entre une 'suspension d'une immatriculation' et une 'annulation d'une immatriculation' ?",
+      "text_nl": "Wat is het belangrijkste verschil tussen een 'opschorting van een inschrijving' en een 'annulering van een inschrijving'?",
+      "text_ru": "В чем основное различие между 'приостановлением регистрации' и 'аннулированием регистрации'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La suspension est définitive, l'annulation est temporaire.",
+          "text_nl": "De opschorting is definitief, de annulering is tijdelijk.",
+          "text_ru": "Приостановление является окончательным, аннулирование – временным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La suspension est une période limitée après laquelle le véhicule peut de nouveau circuler sous conditions, tandis que l'annulation retire l'autorisation de circuler de manière définitive.",
+          "text_nl": "De opschorting is een beperkte periode waarna het voertuig onder voorwaarden weer mag rijden, terwijl de annulering de toestemming om te rijden definitief intrekt.",
+          "text_ru": "Приостановление – это ограниченный период, после которого транспортное средство может снова двигаться при соблюдении условий, тогда как аннулирование окончательно отменяет разрешение на движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La suspension concerne les véhicules neufs, l'annulation les véhicules usagés.",
+          "text_nl": "De opschorting betreft nieuwe voertuigen, de annulering gebruikte voertuigen.",
+          "text_ru": "Приостановление касается новых транспортных средств, аннулирование – подержанных.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La suspension d'une immatriculation est une période limitée après laquelle le véhicule peut de nouveau être autorisé à circuler si les motifs de la suspension ont cessé. L'annulation, en revanche, retire définitivement l'autorisation de circuler.",
+      "explanation_nl": "De opschorting van een inschrijving is een beperkte periode waarna het voertuig weer mag worden gebruikt, mits de redenen voor opschorting niet meer van toepassing zijn. Annulering daarentegen, is de definitieve intrekking van de toestemming om een voertuig in het wegverkeer te gebruiken.",
+      "explanation_ru": "Приостановление регистрации – это ограниченный период, после которого транспортное средство может снова быть допущено к движению, если причины приостановления устранены. Аннулирование же окончательно отменяет разрешение на движение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon les définitions, quand considère-t-on un véhicule comme 'neuf' ?",
+      "text_nl": "Volgens de definities, wanneer wordt een voertuig als 'nieuw' beschouwd?",
+      "text_ru": "Согласно определениям, когда транспортное средство считается 'новым'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si son année de construction ne date pas de plus de cinq ans et qu'il n'a pas plus de 10 000 km au compteur.",
+          "text_nl": "Als het bouwjaar niet ouder is dan vijf jaar en de teller niet meer dan 10.000 km aangeeft.",
+          "text_ru": "Если год его выпуска не более пяти лет назад и на одометре не более 10 000 км.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si son année de construction ne date pas de plus de deux ans, qu'il n'a pas plus de 6 000 km au compteur et n'a pas encore été immatriculé en Belgique ou ailleurs, sauf exceptions pour les immatriculations temporaires étrangères.",
+          "text_nl": "Als het bouwjaar niet ouder is dan twee jaar, het niet meer dan 6.000 km op de teller heeft en nog niet werd ingeschreven in België of elders, met uitzondering van buitenlandse tijdelijke inschrijvingen.",
+          "text_ru": "Если год его выпуска не более двух лет назад, на одометре не более 6 000 км и он еще не был зарегистрирован в Бельгии или в другом месте, за исключением некоторых случаев временной иностранной регистрации.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si c'est la première fois qu'il est vendu à un particulier, quelle que soit son ancienneté ou son kilométrage.",
+          "text_nl": "Als het de eerste keer is dat het aan een particulier wordt verkocht, ongeacht de leeftijd of kilometerstand.",
+          "text_ru": "Если это первый раз, когда он продается частному лицу, независимо от его возраста или пробега.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un véhicule est considéré comme neuf si son année de construction ne date pas de plus de deux ans, qu'il n'a pas plus de 6000 km au compteur et n'a pas encore été immatriculé, à l'exception de certaines immatriculations temporaires étrangères.",
+      "explanation_nl": "Een voertuig wordt als nieuw beschouwd als het bouwjaar niet ouder is dan twee jaar, het niet meer dan 6000 km op de teller heeft en nog niet werd ingeschreven, met uitzondering van bepaalde buitenlandse tijdelijke inschrijvingen.",
+      "explanation_ru": "Транспортное средство считается новым, если год его выпуска не более двух лет назад, на одометре не более 6000 км, и оно еще не было зарегистрировано, за исключением некоторых случаев временной иностранной регистрации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes au volant de votre voiture et vous vous arrêtez un instant sur le bas-côté d'une voie publique pour consulter une carte. Votre véhicule est-il considéré comme 'mis en circulation' ?",
+      "text_nl": "U rijdt met uw auto en stopt even op de berm van een openbare weg om een kaart te raadplegen. Wordt uw voertuig dan als 'in het verkeer gebracht' beschouwd?",
+      "text_ru": "Вы за рулем автомобиля и на мгновение остановились на обочине дороги, чтобы посмотреть карту. Считается ли ваше транспортное средство 'введенным в обращение'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car stopped on the side of a road, with a driver looking at a map."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car le véhicule est à l'arrêt et n'est pas en mouvement.",
+          "text_nl": "Nee, want het voertuig staat stil en is niet in beweging.",
+          "text_ru": "Нет, потому что транспортное средство стоит и не движется.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car 'mettre en circulation' inclut circuler, être à l'arrêt ou stationner sur la voie publique.",
+          "text_nl": "Ja, want 'in het verkeer brengen' omvat rijden, stilstaan of parkeren op de openbare weg.",
+          "text_ru": "Да, потому что 'введение в обращение' включает движение, остановку или стоянку на дороге общего пользования.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si vous restez immobilisé plus de cinq minutes.",
+          "text_nl": "Alleen als u langer dan vijf minuten stilstaat.",
+          "text_ru": "Только если вы остаетесь неподвижным более пяти минут.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon la définition, 'mettre en circulation' signifie circuler, être à l'arrêt ou stationner sur la voie publique en Belgique. Votre véhicule est donc considéré comme mis en circulation même si vous êtes à l'arrêt temporairement.",
+      "explanation_nl": "Volgens de definitie betekent 'in het verkeer brengen' rijden, stilstaan of parkeren op de openbare weg in België. Uw voertuig wordt dus als in het verkeer gebracht beschouwd, zelfs als u tijdelijk stilstaat.",
+      "explanation_ru": "Согласно определению, 'введение в обращение' означает движение, остановку или стоянку на дорогах общего пользования в Бельгии. Таким образом, ваше транспортное средство считается введенным в обращение, даже если вы временно остановились."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule à moteur qui, en plus du siège du conducteur, dispose de huit places assises pour des passagers. Ce véhicule est-il considéré comme un 'véhicule de personnes' ?",
+      "text_nl": "U bestuurt een motorvoertuig dat, naast de bestuurdersstoel, acht zitplaatsen voor passagiers heeft. Wordt dit voertuig beschouwd als een 'personenvoertuig'?",
+      "text_ru": "Вы управляете моторным транспортным средством, которое, помимо водительского сиденья, имеет восемь посадочных мест для пассажиров. Считается ли это транспортное средство 'пассажирским транспортным средством'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A mini-van or multi-person vehicle that has 8 passenger seats plus the driver's seat."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car il y a trop de places assises pour être un véhicule de personnes.",
+          "text_nl": "Nee, want er zijn te veel zitplaatsen om een personenvoertuig te zijn.",
+          "text_ru": "Нет, потому что слишком много посадочных мест для пассажирского транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car un véhicule de personnes comporte, outre le siège du conducteur, huit places assises au maximum.",
+          "text_nl": "Ja, want een personenvoertuig heeft, de bestuurdersstoel niet meegerekend, ten hoogste acht zitplaatsen.",
+          "text_ru": "Да, потому что пассажирское транспортное средство имеет, помимо водительского сиденья, максимум восемь посадочных мест.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, seuls les véhicules ayant moins de cinq places assises (conducteur inclus) sont considérés comme des véhicules de personnes.",
+          "text_nl": "Nee, alleen voertuigen met minder dan vijf zitplaatsen (bestuurder inbegrepen) worden als personenvoertuigen beschouwd.",
+          "text_ru": "Нет, только транспортные средства с менее чем пятью посадочными местами (включая водителя) считаются пассажирскими транспортными средствами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un 'véhicule de personnes' est défini comme un véhicule à moteur affecté au transport de personnes, comportant, outre le siège du conducteur, huit places assises au maximum. Donc, 8 places passagers + 1 conducteur est la limite.",
+      "explanation_nl": "Een 'personenvoertuig' wordt gedefinieerd als een motorvoertuig bestemd voor het vervoer van personen, met ten hoogste acht zitplaatsen, die van de bestuurder niet meegerekend. Dus 8 passagiersplaatsen + 1 bestuurder is de limiet.",
+      "explanation_ru": "«Пассажирское транспортное средство» определяется как моторное транспортное средство, предназначенное для перевозки людей, имеющее, помимо водительского сиденья, максимум восемь посадочных мест. Таким образом, 8 пассажирских мест + 1 водительское место — это предел."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous utilisez un véhicule appartenant à votre entreprise pour vos déplacements professionnels. Vous n'êtes pas le propriétaire de ce véhicule. Selon les définitions, quel est votre statut ?",
+      "text_nl": "U gebruikt een voertuig van uw bedrijf voor uw professionele verplaatsingen. U bent niet de eigenaar van dit voertuig. Wat is uw status volgens de definities?",
+      "text_ru": "Вы используете транспортное средство, принадлежащее вашей компании, для деловых поездок. Вы не являетесь владельцем этого транспортного средства. Каков ваш статус согласно определениям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person driving a company car."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous êtes considéré comme le propriétaire du véhicule.",
+          "text_nl": "U wordt beschouwd als de eigenaar van het voertuig.",
+          "text_ru": "Вы считаетесь владельцем транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes considéré comme l'utilisateur du véhicule.",
+          "text_nl": "U wordt beschouwd als de gebruiker van het voertuig.",
+          "text_ru": "Вы считаетесь пользователем транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous êtes considéré comme un chauffeur rémunéré uniquement si vous ne possédez pas le véhicule.",
+          "text_nl": "U wordt alleen als betaalde chauffeur beschouwd als u het voertuig niet bezit.",
+          "text_ru": "Вы считаетесь наемным водителем только в том случае, если вы не являетесь владельцем транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La définition de l'utilisateur désigne la personne physique ou morale qui utilise un véhicule dont elle n'est pas propriétaire, pour son usage privé ou professionnel, à l'exclusion du chauffeur rémunéré pur.",
+      "explanation_nl": "De definitie van gebruiker verwijst naar de natuurlijke of rechtspersoon die een voertuig gebruikt waarvan hij geen eigenaar is, voor privé- of beroepsdoeleinden, met uitzondering van de zuivere betaalde chauffeur.",
+      "explanation_ru": "Определение пользователя относится к физическому или юридическому лицу, которое использует транспортное средство, владельцем которого оно не является, для личного или профессионального использования, за исключением чисто наемного водителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous venez d'acquérir un véhicule pour lequel une exemption de droits d'importation et de TVA a été accordée par les autorités financières. Quel type d'immatriculation temporaire ce véhicule doit-il avoir pour pouvoir circuler légalement ?",
+      "text_nl": "U hebt zojuist een voertuig verworven waarvoor een vrijstelling van invoerrechten en btw is verleend door de financiële autoriteiten. Welk type tijdelijke inschrijving moet dit voertuig hebben om legaal te mogen rijden?",
+      "text_ru": "Вы только что приобрели транспортное средство, для которого финансовыми органами было предоставлено освобождение от импортных пошлин и НДС. Какой тип временной регистрации должен иметь этот автомобиль, чтобы легально передвигаться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Documents related to vehicle registration and taxes."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une immatriculation provisoire.",
+          "text_nl": "Een voorlopige inschrijving.",
+          "text_ru": "Временная регистрация.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une immatriculation transit.",
+          "text_nl": "Een inschrijving in transit.",
+          "text_ru": "Транзитная регистрация.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une immatriculation définitive.",
+          "text_nl": "Een definitieve inschrijving.",
+          "text_ru": "Постоянная регистрация.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'immatriculation transit est spécifiquement définie comme une immatriculation temporaire d'un véhicule pour lequel une exemption des droits d'importation et de TVA ou de TVA seulement a été accordée.",
+      "explanation_nl": "De inschrijving in transit is specifiek gedefinieerd als een tijdelijke inschrijving van een voertuig waarvoor een vrijstelling van rechten bij invoer en BTW of van BTW alleen werd verleend.",
+      "explanation_ru": "Транзитная регистрация специально определяется как временная регистрация транспортного средства, для которого было предоставлено освобождение от импортных пошлин и НДС или только от НДС."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez mis votre ancien véhicule hors d'usage et avez procédé à sa désimmatriculation définitive. Pouvez-vous, à l'avenir, réutiliser ce numéro d'identification pour un nouveau véhicule ou pour réimmatriculer l'ancien véhicule sous le même numéro ?",
+      "text_nl": "U hebt uw oude voertuig buiten gebruik gesteld en de definitieve schrapping van de inschrijving uitgevoerd. Kunt u in de toekomst dit identificatienummer opnieuw gebruiken voor een nieuw voertuig of om het oude voertuig opnieuw in te schrijven onder hetzelfde nummer?",
+      "text_ru": "Вы утилизировали свой старый автомобиль и произвели его окончательное снятие с учета. Можете ли вы в будущем повторно использовать этот идентификационный номер для нового автомобиля или для перерегистрации старого автомобиля под тем же номером?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car being scrapped, with documents for deregistration."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si le véhicule est réparé et remis en état de circuler, le numéro peut être réactivé.",
+          "text_nl": "Ja, als het voertuig is gerepareerd en rijklaar is, kan het nummer opnieuw worden geactiveerd.",
+          "text_ru": "Да, если транспортное средство отремонтировано и пригодно для движения, номер может быть повторно активирован.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, la désactivation du numéro est permanente, de sorte qu'une nouvelle immatriculation ou réimmatriculation d'un véhicule portant ce numéro n'est plus possible, sauf en cas d'erreur sur le numéro d'identification.",
+          "text_nl": "Nee, de deactivering van het nummer is permanent, zodat een nieuwe inschrijving of herinschrijving van een voertuig met dit nummer niet meer mogelijk is, behalve bij een fout in het identificatienummer.",
+          "text_ru": "Нет, деактивация номера является постоянной, поэтому новая регистрация или перерегистрация транспортного средства с этим номером больше невозможна, за исключением случаев ошибки в идентификационном номере.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, après une période de cinq ans, le numéro est de nouveau disponible pour une nouvelle immatriculation.",
+          "text_nl": "Ja, na een periode van vijf jaar is het nummer weer beschikbaar voor een nieuwe inschrijving.",
+          "text_ru": "Да, через пять лет номер снова становится доступным для новой регистрации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La désimmatriculation définitive est la désactivation permanente du numéro d'identification d'un véhicule dans le répertoire, rendant impossible une nouvelle immatriculation ou réimmatriculation avec ce même numéro, sauf si le numéro d'identification initial était erroné.",
+      "explanation_nl": "De definitieve schrapping van de inschrijving is de permanente deactivering van het identificatienummer van een voertuig in het repertorium, waardoor een nieuwe inschrijving of herinschrijving met hetzelfde nummer niet meer mogelijk is, tenzij het oorspronkelijke identificatienummer foutief was.",
+      "explanation_ru": "Окончательное снятие с учета – это постоянная деактивация идентификационного номера транспортного средства в реестре, что делает невозможной новую регистрацию или перерегистрацию с тем же номером, за исключением случаев ошибки в первоначальном идентификационном номере."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T09:01:37Z",
     "content_hash": "09e1a3c5da8c",
@@ -42,6 +339,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:18:59Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

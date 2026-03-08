@@ -26,7 +26,230 @@
   "anchor_id_fr": "3nmvvqkfkq",
   "anchor_id_nl": "uuavwa3k8l",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le principal document requis pour conduire légalement un véhicule à moteur sur la voie publique en Belgique ?",
+      "text_nl": "Wat is het belangrijkste document dat vereist is om legaal een motorvoertuig op de openbare weg in België te besturen?",
+      "text_ru": "Какой основной документ требуется для законного управления моторным транспортным средством на дорогах общего пользования в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une carte d'identité ou un passeport valide.",
+          "text_nl": "Een geldige identiteitskaart of paspoort.",
+          "text_ru": "Действительное удостоверение личности или паспорт.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un permis de conduire valable pour la catégorie du véhicule.",
+          "text_nl": "Een rijbewijs geldig voor de categorie van het voertuig.",
+          "text_ru": "Водительское удостоверение, действительное для данной категории транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une attestation d'assurance du véhicule.",
+          "text_nl": "Een verzekeringsbewijs van het voertuig.",
+          "text_ru": "Страховой полис транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour conduire un véhicule à moteur sur la voie publique, il est impératif d'être titulaire et porteur d'un permis de conduire valable pour la catégorie du véhicule.",
+      "explanation_nl": "Om een motorvoertuig op de openbare weg te besturen, is het essentieel dat men houder is van, en tevens bij zich heeft, een rijbewijs dat geldig is voor de categorie van het voertuig.",
+      "explanation_ru": "Для управления моторным транспортным средством на дорогах общего пользования обязательно иметь при себе водительское удостоверение, действительное для данной категории транспортного средства."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie l'exigence d'être 'titulaire et porteur' d'un permis de conduire ?",
+      "text_nl": "Wat betekent de vereiste 'houder is van, en tevens bij zich heeft' van een rijbewijs?",
+      "text_ru": "Что означает требование 'быть владельцем и иметь при себе' водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il faut seulement avoir réussi l'examen de conduite, sans avoir nécessairement le document physique.",
+          "text_nl": "Men moet alleen geslaagd zijn voor het rijexamen, zonder noodzakelijkerwijs het fysieke document bij zich te hebben.",
+          "text_ru": "Нужно лишь успешно сдать экзамен по вождению, не обязательно имея при себе сам документ.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il faut être en possession du permis de conduire valide et l'avoir physiquement sur soi pendant la conduite.",
+          "text_nl": "Men moet in het bezit zijn van het geldige rijbewijs en dit fysiek bij zich hebben tijdens het rijden.",
+          "text_ru": "Нужно иметь при себе действительное водительское удостоверение и физически носить его во время вождения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut seulement avoir son permis enregistré auprès des autorités, sans obligation de le transporter.",
+          "text_nl": "Men hoeft alleen het rijbewijs bij de autoriteiten geregistreerd te hebben, zonder de verplichting het mee te nemen.",
+          "text_ru": "Нужно лишь иметь водительское удостоверение, зарегистрированное в органах власти, без обязанности носить его с собой.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'expression 'titulaire et porteur' signifie que le conducteur doit non seulement posséder un permis de conduire valide, mais aussi l'avoir physiquement sur lui au moment de la conduite.",
+      "explanation_nl": "De uitdrukking 'houder is van, en tevens bij zich heeft' betekent dat de bestuurder niet alleen in het bezit moet zijn van een geldig rijbewijs, maar het ook fysiek bij zich moet hebben tijdens het rijden.",
+      "explanation_ru": "Выражение 'быть владельцем и иметь при себе' означает, что водитель должен не только иметь действительное водительское удостоверение, но и физически носить его с собой во время управления транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel cas spécifique une dispense de l'obligation de posséder un permis de conduire peut-elle être accordée pour la conduite d'un véhicule à moteur sur la voie publique ?",
+      "text_nl": "In welk specifiek geval kan vrijstelling van de rijbewijsverplichting worden verleend voor het besturen van een motorvoertuig op de openbare weg?",
+      "text_ru": "В каком конкретном случае может быть предоставлено освобождение от обязанности иметь водительское удостоверение для управления моторным транспортным средством на дорогах общего пользования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsqu'un conducteur expérimenté est présent à côté du conducteur novice.",
+          "text_nl": "Wanneer een ervaren bestuurder naast de beginnende bestuurder aanwezig is.",
+          "text_ru": "Когда опытный водитель присутствует рядом с начинающим водителем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour la conduite à des fins d'apprentissage, sous certaines conditions.",
+          "text_nl": "Voor het besturen met het oog op scholing, onder bepaalde voorwaarden.",
+          "text_ru": "Для учебного вождения, при соблюдении определенных условий.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "En cas d'urgence médicale nécessitant le déplacement immédiat d'un véhicule.",
+          "text_nl": "In geval van een medische noodsituatie die de onmiddellijke verplaatsing van een voertuig vereist.",
+          "text_ru": "В случае медицинской чрезвычайной ситуации, требующей немедленного перемещения транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une dispense de l'obligation de permis de conduire peut être accordée, notamment pour la conduite en vue de l'apprentissage, mais sous des conditions générales spécifiques.",
+      "explanation_nl": "Vrijstelling van de rijbewijsverplichting kan worden verleend, met name voor het besturen met het oog op de scholing, maar onder specifieke algemene voorwaarden.",
+      "explanation_ru": "Освобождение от обязанности иметь водительское удостоверение может быть предоставлено, в частности, для учебного вождения, но при соблюдении определенных общих условий."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un citoyen d'un pays non-européen et vous possédez un permis de conduire national valide délivré dans votre pays. Vous arrivez en Belgique et souhaitez y conduire une voiture sur la voie publique. Que devez-vous considérer concernant la validité de votre permis ?",
+      "text_nl": "U bent een burger van een niet-EU-land en u bent in het bezit van een geldig nationaal rijbewijs dat in uw land is afgegeven. U komt aan in België en wilt daar een auto besturen op de openbare weg. Wat moet u overwegen met betrekking tot de geldigheid van uw rijbewijs?",
+      "text_ru": "Вы являетесь гражданином неевропейской страны и имеете действительное национальное водительское удостоверение, выданное в вашей стране. Вы прибываете в Бельгию и хотите управлять автомобилем на дорогах общего пользования. Что вам следует учитывать относительно действительности вашего водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre permis est automatiquement valable en Belgique, sans aucune formalité supplémentaire.",
+          "text_nl": "Uw rijbewijs is automatisch geldig in België, zonder verdere formaliteiten.",
+          "text_ru": "Ваше удостоверение автоматически действительно в Бельгии, без каких-либо дополнительных формальностей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre permis est valable uniquement si vous en avez également un international, ou s'il répond aux conditions fixées par les dispositions internationales de la circulation routière.",
+          "text_nl": "Uw rijbewijs is alleen geldig als u ook een internationaal rijbewijs heeft, of als het voldoet aan de voorwaarden vastgesteld door de internationale bepalingen inzake wegverkeer.",
+          "text_ru": "Ваше удостоверение действительно только при наличии международного удостоверения, или если оно соответствует условиям, установленным международными положениями о дорожном движении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez obligatoirement passer un nouvel examen de conduite en Belgique avant de pouvoir conduire.",
+          "text_nl": "U moet verplicht een nieuw rijexamen afleggen in België voordat u mag rijden.",
+          "text_ru": "Вы обязаны сдать новый экзамен по вождению в Бельгии, прежде чем сможете управлять транспортным средством.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire étranger (national ou international) est reconnu en Belgique sous les conditions fixées par les dispositions applicables en matière de circulation routière internationale, il n'est donc pas automatiquement valable sans vérification de ces conditions.",
+      "explanation_nl": "Een buitenlands rijbewijs (nationaal of internationaal) wordt in België erkend onder de voorwaarden vastgesteld door de bepalingen die inzake internationaal wegverkeer van toepassing zijn. Het is dus niet automatisch geldig zonder verificatie van deze voorwaarden.",
+      "explanation_ru": "Иностранное водительское удостоверение (национальное или международное) признается в Бельгии в соответствии с условиями, установленными применимыми положениями международного дорожного движения, поэтому оно не является автоматически действительным без проверки этих условий."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous possédez un permis de conduire belge de catégorie B, vous autorisant à conduire des voitures. Vous décidez d'acheter une moto (nécessitant un permis de catégorie A). Pouvez-vous conduire cette moto légalement sur la voie publique avec votre permis actuel ?",
+      "text_nl": "U bent in het bezit van een Belgisch rijbewijs categorie B, waarmee u auto's mag besturen. U besluit een motorfiets te kopen (waarvoor een rijbewijs categorie A vereist is). Mag u deze motorfiets legaal op de openbare weg besturen met uw huidige rijbewijs?",
+      "text_ru": "У вас есть бельгийское водительское удостоверение категории B, позволяющее управлять легковыми автомобилями. Вы решили купить мотоцикл (для которого требуется водительское удостоверение категории А). Можете ли вы законно управлять этим мотоциклом на дорогах общего пользования с вашим текущим удостоверением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car un permis de catégorie B est suffisant pour tous les véhicules motorisés légers.",
+          "text_nl": "Ja, want een rijbewijs categorie B is voldoende voor alle lichte motorvoertuigen.",
+          "text_ru": "Да, так как удостоверения категории B достаточно для всех легких моторных транспортных средств.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car votre permis doit être valable pour la catégorie spécifique du véhicule que vous souhaitez conduire.",
+          "text_nl": "Nee, want uw rijbewijs moet geldig zijn voor de specifieke categorie van het voertuig dat u wilt besturen.",
+          "text_ru": "Нет, так как ваше водительское удостоверение должно быть действительно для конкретной категории транспортного средства, которым вы хотите управлять.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais seulement si la moto n'excède pas une certaine cylindrée.",
+          "text_nl": "Ja, maar alleen als de motorfiets een bepaalde cilinderinhoud niet overschrijdt.",
+          "text_ru": "Да, но только если объем двигателя мотоцикла не превышает определенного значения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire doit être valable pour la catégorie spécifique à laquelle appartient le véhicule. Un permis B n'autorise pas la conduite d'une moto de catégorie A.",
+      "explanation_nl": "Het rijbewijs moet geldig zijn voor de specifieke categorie waartoe het voertuig behoort. Een rijbewijs B geeft geen toestemming om een motorfiets van categorie A te besturen.",
+      "explanation_ru": "Водительское удостоверение должно быть действительно для конкретной категории, к которой относится транспортное средство. Удостоверение категории B не дает права управлять мотоциклом категории A."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous rendez à votre travail en voiture sur la voie publique. En cours de route, vous êtes arrêté pour un contrôle routier. Vous réalisez que vous avez oublié votre permis de conduire, pourtant valide, à votre domicile. Quelle est la situation la plus probable ?",
+      "text_nl": "U rijdt met uw auto naar uw werk op de openbare weg. Onderweg wordt u aangehouden voor een verkeerscontrole. U beseft dat u uw rijbewijs, dat wel geldig is, thuis bent vergeten. Wat is de meest waarschijnlijke situatie?",
+      "text_ru": "Вы едете на работу на машине по дороге общего пользования. По пути вас останавливают для проверки. Вы понимаете, что забыли свое водительское удостоверение, хотя оно действительно, дома. Какова наиболее вероятная ситуация?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence, car le permis est valide et enregistré, l'oubli est une simple erreur administrative.",
+          "text_nl": "Geen gevolgen, want het rijbewijs is geldig en geregistreerd, het vergeten is een louter administratieve fout.",
+          "text_ru": "Никаких последствий, так как удостоверение действительно и зарегистрировано, забывчивость – это простая административная ошибка.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous risquez une amende, car il est obligatoire d'être porteur de son permis de conduire pendant la conduite.",
+          "text_nl": "U riskeert een boete, want het is verplicht om uw rijbewijs bij u te hebben tijdens het rijden.",
+          "text_ru": "Вы рискуете получить штраф, так как во время вождения обязательно иметь при себе водительское удостоверение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez immédiatement retourner chez vous pour le récupérer, et la police vous escortera.",
+          "text_nl": "U moet onmiddellijk terug naar huis om het op te halen, en de politie zal u begeleiden.",
+          "text_ru": "Вы должны немедленно вернуться домой, чтобы забрать его, и полиция будет сопровождать вас.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est impératif d'être 'porteur' de son permis de conduire valide lors de la conduite sur la voie publique. Ne pas l'avoir physiquement sur soi, même s'il est valide, est une infraction passible de sanctions (généralement une amende).",
+      "explanation_nl": "Het is essentieel om uw geldige rijbewijs 'bij u te hebben' tijdens het rijden op de openbare weg. Het fysiek niet bij zich hebben, zelfs al is het geldig, is een overtreding die tot sancties (doorgaans een boete) kan leiden.",
+      "explanation_ru": "Во время управления транспортным средством на дорогах общего пользования обязательно иметь при себе действительное водительское удостоверение. Отсутствие его при себе, даже если оно действительно, является нарушением, влекущим за собой наказание (обычно штраф)."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "1ca84eff23c3",
@@ -36,6 +259,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:15:39Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 6
   }
 }

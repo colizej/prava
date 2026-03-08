@@ -28,7 +28,304 @@
   "anchor_id_fr": "gdzvg8wn8k",
   "anchor_id_nl": "hqlflasqjj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la sanction pour avoir commis une infraction à l'article concerné ?",
+      "text_nl": "Wat is de sanctie voor het begaan van een overtreding van het betreffende artikel ?",
+      "text_ru": "Какое наказание за совершение правонарушения, касающегося данной статьи?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 100 euros à 1000 euros",
+          "text_nl": "Een boete van 100 euro tot 1 000 euro",
+          "text_ru": "Штраф от 100 до 1000 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un emprisonnement de quinze jours à trois mois et une amende de 100 euros à 1000 euros",
+          "text_nl": "Gevangenisstraf van vijftien dagen tot drie maanden en een geldboete van 100 euro tot 1 000 euro",
+          "text_ru": "Тюремное заключение от 15 дней до 3 месяцев и штраф от 100 до 1000 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une confiscation des équipements",
+          "text_nl": "Verbeurdverklaring van de uitrusting",
+          "text_ru": "Конфискация оборудования",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La sanction pour avoir commis une infraction à l'article concerné est un emprisonnement de quinze jours à trois mois et une amende de 100 euros à 1000 euros.",
+      "explanation_nl": "De sanctie voor het begaan van een overtreding van het betreffende artikel is een gevangenisstraf van vijftien dagen tot drie maanden en een geldboete van 100 euro tot 1 000 euro.",
+      "explanation_ru": "Наказание за совершение правонарушения, касающегося данной статьи, заключается в тюремном заключении от 15 дней до 3 месяцев и штрафе от 100 до 1000 евро."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que se passe-t-il aux équipements saisis ?",
+      "text_nl": "Wat gebeurt er met de in beslag genomen uitrusting ?",
+      "text_ru": "Что происходит с изъятым оборудованием?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils sont restitués à leur propriétaire",
+          "text_nl": "Ze worden teruggegeven aan de eigenaar",
+          "text_ru": "Их возвращают владельцу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils sont confisqués et détruits",
+          "text_nl": "Ze worden verbeurdverklaard en vernietigd",
+          "text_ru": "Их конфискуют и уничтожают",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils sont mis en vente aux enchères",
+          "text_nl": "Ze worden verkocht op een veiling",
+          "text_ru": "Их продают на аукционе",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les équipements saisis sont confisqués et détruits.",
+      "explanation_nl": "De in beslag genomen uitrusting wordt verbeurdverklaard en vernietigd.",
+      "explanation_ru": "Изъятое оборудование конфискуют и уничтожают."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la conséquence de la récidive dans les trois années à dater d'un jugement antérieur ?",
+      "text_nl": "Wat is de gevolg van herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis ?",
+      "text_ru": "Какое последствие повторения в течение трех лет после предыдущего приговора?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les peines sont réduites de moitié",
+          "text_nl": "De straffen worden met de helft verminderd",
+          "text_ru": "Наказания уменьшаются вдвое",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les peines sont doublées",
+          "text_nl": "De straffen worden verdubbeld",
+          "text_ru": "Наказания удваиваются",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les peines restent les mêmes",
+          "text_nl": "De straffen blijven hetzelfde",
+          "text_ru": "Наказания остаются прежними",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de la récidive dans les trois années à dater d'un jugement antérieur est que les peines sont doublées.",
+      "explanation_nl": "Het gevolg van herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis is dat de straffen worden verdubbeld.",
+      "explanation_ru": "Последствие повторения в течение трех лет после предыдущего приговора заключается в том, что наказания удваиваются."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a commis une infraction à l'article concerné. Quelle est la sanction la plus probable ?",
+      "text_nl": "Een bestuurder heeft een overtreding begaan van het betreffende artikel. Wat is de meest waarschijnlijke sanctie ?",
+      "text_ru": "Водитель совершил правонарушение, касающееся данной статьи. Какое наказание наиболее вероятно?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un avertissement",
+          "text_nl": "Een waarschuwing",
+          "text_ru": "Предупреждение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 100 euros à 1000 euros",
+          "text_nl": "Een boete van 100 euro tot 1 000 euro",
+          "text_ru": "Штраф от 100 до 1000 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un emprisonnement de quinze jours à trois mois et une amende de 100 euros à 1000 euros",
+          "text_nl": "Gevangenisstraf van vijftien dagen tot drie maanden en een geldboete van 100 euro tot 1 000 euro",
+          "text_ru": "Тюремное заключение от 15 дней до 3 месяцев и штраф от 100 до 1000 евро",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La sanction la plus probable pour un conducteur ayant commis une infraction à l'article concerné est un emprisonnement de quinze jours à trois mois et une amende de 100 euros à 1000 euros.",
+      "explanation_nl": "De meest waarschijnlijke sanctie voor een bestuurder die een overtreding heeft begaan van het betreffende artikel is een gevangenisstraf van vijftien dagen tot drie maanden en een geldboete van 100 euro tot 1 000 euro.",
+      "explanation_ru": "Наиболее вероятное наказание для водителя, совершившего правонарушение, касающееся данной статьи, заключается в тюремном заключении от 15 дней до 3 месяцев и штрафе от 100 до 1000 евро."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un équipement a été saisi par les agents qualifiés. Qu'est-ce qui se passe ensuite ?",
+      "text_nl": "Een uitrusting is in beslag genomen door de bevoegde personen. Wat gebeurt er daarna ?",
+      "text_ru": "Оборудование было изъято уполномоченными лицами. Что происходит дальше?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est restitué à son propriétaire",
+          "text_nl": "Het wordt teruggegeven aan de eigenaar",
+          "text_ru": "Его возвращают владельцу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est confisqué et détruit",
+          "text_nl": "Het wordt verbeurdverklaard en vernietigd",
+          "text_ru": "Его конфискуют и уничтожают",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est mis en vente aux enchères",
+          "text_nl": "Het wordt verkocht op een veiling",
+          "text_ru": "Его продают на аукционе",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'équipement saisi est confisqué et détruit.",
+      "explanation_nl": "De in beslag genomen uitrusting wordt verbeurdverklaard en vernietigd.",
+      "explanation_ru": "Изъятое оборудование конфискуют и уничтожают."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a commis une infraction à l'article concerné pour la deuxième fois dans les trois années. Quelle est la sanction la plus probable ?",
+      "text_nl": "Een bestuurder heeft een overtreding begaan van het betreffende artikel voor de tweede keer binnen drie jaar. Wat is de meest waarschijnlijke sanctie ?",
+      "text_ru": "Водитель совершил правонарушение, касающееся данной статьи, во второй раз в течение трех лет. Какое наказание наиболее вероятно?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un avertissement",
+          "text_nl": "Een waarschuwing",
+          "text_ru": "Предупреждение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 100 euros à 1000 euros",
+          "text_nl": "Een boete van 100 euro tot 1 000 euro",
+          "text_ru": "Штраф от 100 до 1000 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un emprisonnement de quinze jours à trois mois et une amende de 200 euros à 2000 euros",
+          "text_nl": "Gevangenisstraf van vijftien dagen tot drie maanden en een geldboete van 200 euro tot 2 000 euro",
+          "text_ru": "Тюремное заключение от 15 дней до 3 месяцев и штраф от 200 до 2000 евро",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La sanction la plus probable pour un conducteur ayant commis une infraction à l'article concerné pour la deuxième fois dans les trois années est un emprisonnement de quinze jours à trois mois et une amende de 200 euros à 2000 euros, car les peines sont doublées en cas de récidive.",
+      "explanation_nl": "De meest waarschijnlijke sanctie voor een bestuurder die een overtreding heeft begaan van het betreffende artikel voor de tweede keer binnen drie jaar is een gevangenisstraf van vijftien dagen tot drie maanden en een geldboete van 200 euro tot 2 000 euro, omdat de straffen worden verdubbeld bij herhaling.",
+      "explanation_ru": "Наиболее вероятное наказание для водителя, совершившего правонарушение, касающееся данной статьи, во второй раз в течение трех лет, заключается в тюремном заключении от 15 дней до 3 месяцев и штрафе от 200 до 2000 евро, поскольку наказания удваиваются при повторении."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné pour une infraction à l'article concerné. Qu'est-ce qui se passe avec les équipements saisis ?",
+      "text_nl": "Een bestuurder is veroordeeld voor een overtreding van het betreffende artikel. Wat gebeurt er met de in beslag genomen uitrusting ?",
+      "text_ru": "Водитель был осужден за правонарушение, касающееся данной статьи. Что происходит с изъятым оборудованием?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils sont restitués au conducteur",
+          "text_nl": "Ze worden teruggegeven aan de bestuurder",
+          "text_ru": "Их возвращают водителю",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils sont confisqués et détruits",
+          "text_nl": "Ze worden verbeurdverklaard en vernietigd",
+          "text_ru": "Их конфискуют и уничтожают",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils sont mis en vente aux enchères",
+          "text_nl": "Ze worden verkocht op een veiling",
+          "text_ru": "Их продают на аукционе",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les équipements saisis sont confisqués et détruits.",
+      "explanation_nl": "De in beslag genomen uitrusting wordt verbeurdverklaard en vernietigd.",
+      "explanation_ru": "Изъятое оборудование конфискуют и уничтожают."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a commis une infraction à l'article concerné. Quelle est la procédure à suivre pour les agents qualifiés ?",
+      "text_nl": "Een bestuurder heeft een overtreding begaan van het betreffende artikel. Wat is de procedure die de bevoegde personen moeten volgen ?",
+      "text_ru": "Водитель совершил правонарушение, касающееся данной статьи. Какая процедура должна быть соблюдена уполномоченными лицами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent délivrer un avertissement",
+          "text_nl": "Ze moeten een waarschuwing geven",
+          "text_ru": "Им следует выдать предупреждение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent saisir les équipements et les confisquer",
+          "text_nl": "Ze moeten de uitrusting in beslag nemen en verbeurdverklaren",
+          "text_ru": "Им следует изъять оборудование и конфисковать его",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent mettre les équipements en vente aux enchères",
+          "text_nl": "Ze moeten de uitrusting verkopen op een veiling",
+          "text_ru": "Им следует продать оборудование на аукционе",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les agents qualifiés doivent saisir les équipements et les confisquer.",
+      "explanation_nl": "De bevoegde personen moeten de uitrusting in beslag nemen en verbeurdverklaren.",
+      "explanation_ru": "Уполномоченные лица должны изъять оборудование и конфисковать его."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "a8a344a61dd5",
@@ -38,6 +335,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:34:15Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

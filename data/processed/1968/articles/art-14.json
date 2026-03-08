@@ -26,7 +26,341 @@
   "anchor_id_fr": "tnu4hyr4ur",
   "anchor_id_nl": "f67meseoku",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un passage à niveau?",
+      "text_nl": "Wat is een overweg?",
+      "text_ru": "Что такое железнодорожный переезд?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un carrefour routier",
+          "text_nl": "Een verkeerskruispunt",
+          "text_ru": "Дорожный перекрёсток",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un endroit où la route croise les rails de chemin de fer",
+          "text_nl": "Een plaats waar de weg de spoorrails kruist",
+          "text_ru": "Место, где дорога пересекает железнодорожные рельсы",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un tunnel routier",
+          "text_nl": "Een verkeerstunnel",
+          "text_ru": "Дорожный туннель",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un passage à niveau est un endroit où la route croise les rails de chemin de fer.",
+      "explanation_nl": "Een overweg is een plaats waar de weg de spoorrails kruist.",
+      "explanation_ru": "Железнодорожный переезд - это место, где дорога пересекает железнодорожные рельсы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'une traversée de chemin de fer?",
+      "text_nl": "Wat is een spoorwegkruising?",
+      "text_ru": "Что такое пересечение железной дороги?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un passage piéton",
+          "text_nl": "Een voetgangersoversteekplaats",
+          "text_ru": "Пешеходный переход",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un endroit où la route croise les rails de chemin de fer",
+          "text_nl": "Een plaats waar de weg de spoorrails kruist",
+          "text_ru": "Место, где дорога пересекает железнодорожные рельсы",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un aéroport",
+          "text_nl": "Een vliegveld",
+          "text_ru": "Аэропорт",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une traversée de chemin de fer est un endroit où la route croise les rails de chemin de fer.",
+      "explanation_nl": "Een spoorwegkruising is een plaats waar de weg de spoorrails kruist.",
+      "explanation_ru": "Пересечение железной дороги - это место, где дорога пересекает железнодорожные рельсы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la définition d'un passage à niveau non gardé?",
+      "text_nl": "Wat is de definitie van een onbewaakte overweg?",
+      "text_ru": "Что такое непостоянно охраняемый железнодорожный переезд?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un passage à niveau avec des barrières automatiques",
+          "text_nl": "Een overweg met automatische slagbomen",
+          "text_ru": "Железнодорожный переезд с автоматическими шлагбаумами",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un passage à niveau sans dispositif de sécurité",
+          "text_nl": "Een overweg zonder veiligheidsvoorzieningen",
+          "text_ru": "Железнодорожный переезд без средств безопасности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un passage à niveau avec un gardien",
+          "text_nl": "Een overweg met een overwegwachter",
+          "text_ru": "Железнодорожный переезд с охранником",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un passage à niveau non gardé est un passage à niveau sans dispositif de sécurité.",
+      "explanation_nl": "Een onbewaakte overweg is een overweg zonder veiligheidsvoorzieningen.",
+      "explanation_ru": "Непостоянно охраняемый железнодорожный переезд - это железнодорожный переезд без средств безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous vous approchez d'un passage à niveau. Que devez-vous faire?",
+      "text_nl": "U nadert een overweg. Wat moet u doen?",
+      "text_ru": "Вы подходите к железнодорожному переезду. Что должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer avant le train",
+          "text_nl": "Versnellen om voor de trein over te steken",
+          "text_ru": "Ускорить, чтобы пересечь переезд до поезда",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et s'arrêter si nécessaire",
+          "text_nl": "Vertragen en indien nodig stoppen",
+          "text_ru": "Замедлить и остановиться, если необходимо",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer les signaux et continuer à rouler",
+          "text_nl": "De seinen negeren en doorrijden",
+          "text_ru": "Игнорировать сигналы и продолжать движение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est recommandé de ralentir et de s'arrêter si nécessaire pour assurer la sécurité.",
+      "explanation_nl": "Het wordt aanbevolen om te vertragen en indien nodig te stoppen om de veiligheid te garanderen.",
+      "explanation_ru": "Рекомендуется замедлить и остановиться, если необходимо, чтобы обеспечить безопасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes à l'approche d'un passage à niveau avec des barrières automatiques. Que devez-vous faire?",
+      "text_nl": "U nadert een overweg met automatische slagbomen. Wat moet u doen?",
+      "text_ru": "Вы подходите к железнодорожному переезду с автоматическими шлагбаумами. Что должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer sous les barrières si elles sont levées",
+          "text_nl": "Onder de slagbomen doorrijden als ze omhoog zijn",
+          "text_ru": "Проскочить под шлагбаумами, если они подняты",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter et attendre que les barrières soient levées",
+          "text_nl": "Stoppen en wachten tot de slagbomen omhoog zijn",
+          "text_ru": "Остановиться и ждать, пока шлагбаумы будут подняты",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de passer avant que les barrières ne se ferment",
+          "text_nl": "Proberen om over te steken voor de slagbomen dichtgaan",
+          "text_ru": "Пытаться пересечь переезд, прежде чем шлагбаумы будут закрыты",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est recommandé de s'arrêter et d'attendre que les barrières soient levées pour assurer la sécurité.",
+      "explanation_nl": "Het wordt aanbevolen om te stoppen en te wachten tot de slagbomen omhoog zijn om de veiligheid te garanderen.",
+      "explanation_ru": "Рекомендуется остановиться и ждать, пока шлагбаумы будут подняты, чтобы обеспечить безопасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes à l'approche d'un passage à niveau non gardé. Que devez-vous faire?",
+      "text_nl": "U nadert een onbewaakte overweg. Wat moet u doen?",
+      "text_ru": "Вы подходите к непостоянно охраняемому железнодорожному переезду. Что должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer avant le train",
+          "text_nl": "Versnellen om voor de trein over te steken",
+          "text_ru": "Ускорить, чтобы пересечь переезд до поезда",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et s'arrêter pour vérifier si un train approche",
+          "text_nl": "Vertragen en stoppen om te controleren of een trein aan komt",
+          "text_ru": "Замедлить и остановиться, чтобы проверить,approche ли поезд",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer les signaux et continuer à rouler",
+          "text_nl": "De seinen negeren en doorrijden",
+          "text_ru": "Игнорировать сигналы и продолжать движение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est recommandé de ralentir et de s'arrêter pour vérifier si un train approche pour assurer la sécurité.",
+      "explanation_nl": "Het wordt aanbevolen om te vertragen en te stoppen om te controleren of een trein aan komt om de veiligheid te garanderen.",
+      "explanation_ru": "Рекомендуется замедлить и остановиться, чтобы проверить, подходит ли поезд, чтобы обеспечить безопасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Que devez-vous faire si vous entendez un signal sonore à un passage à niveau?",
+      "text_nl": "Wat moet u doen als u een geluidssignaal hoort bij een overweg?",
+      "text_ru": "Что должны сделать, если вы услышите звуковой сигнал на железнодорожном переезде?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer avant le train",
+          "text_nl": "Versnellen om voor de trein over te steken",
+          "text_ru": "Ускорить, чтобы пересечь переезд до поезда",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et s'arrêter pour vérifier si un train approche",
+          "text_nl": "Vertragen en stoppen om te controleren of een trein aan komt",
+          "text_ru": "Замедлить и остановиться, чтобы проверить,approche ли поезд",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer le signal et continuer à rouler",
+          "text_nl": "Het signaal negeren en doorrijden",
+          "text_ru": "Игнорировать сигнал и продолжать движение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est recommandé de ralentir et de s'arrêter pour vérifier si un train approche pour assurer la sécurité.",
+      "explanation_nl": "Het wordt aanbevolen om te vertragen en te stoppen om te controleren of een trein aan komt om de veiligheid te garanderen.",
+      "explanation_ru": "Рекомендуется замедлить и остановиться, чтобы проверить, подходит ли поезд, чтобы обеспечить безопасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Que devez-vous faire si vous voyez un train approcher à un passage à niveau?",
+      "text_nl": "Wat moet u doen als u een trein ziet aan komen bij een overweg?",
+      "text_ru": "Что должны сделать, если вы видите, что поезд приближается к железнодорожному переезду?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer avant le train",
+          "text_nl": "Versnellen om voor de trein over te steken",
+          "text_ru": "Ускорить, чтобы пересечь переезд до поезда",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter et attendre que le train soit passé",
+          "text_nl": "Stoppen en wachten tot de trein voorbij is",
+          "text_ru": "Остановиться и ждать, пока поезд пройдет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de passer avant le train",
+          "text_nl": "Proberen om voor de trein over te steken",
+          "text_ru": "Пытаться пересечь переезд до поезда",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est recommandé de s'arrêter et d'attendre que le train soit passé pour assurer la sécurité.",
+      "explanation_nl": "Het wordt aanbevolen om te stoppen en te wachten tot de trein voorbij is om de veiligheid te garanderen.",
+      "explanation_ru": "Рекомендуется остановиться и ждать, пока поезд пройдет, чтобы обеспечить безопасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Que devez-vous faire si vous êtes coincé à un passage à niveau?",
+      "text_nl": "Wat moet u doen als u vastzit bij een overweg?",
+      "text_ru": "Что должны сделать, если вы застряли на железнодорожном переезде?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Essayer de passer sous les barrières",
+          "text_nl": "Proberen om onder de slagbomen door te rijden",
+          "text_ru": "Пытаться проехать под шлагбаумами",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Appeler les services d'urgence pour demander de l'aide",
+          "text_nl": "De nooddiensten bellen om hulp te vragen",
+          "text_ru": "Позвонить в службу экстренной помощи, чтобы попросить о помощи",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre que quelqu'un vienne vous aider",
+          "text_nl": "Wachten tot iemand komt om u te helpen",
+          "text_ru": "Ждать, пока кто-то придет, чтобы помочь",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est recommandé d'appeler les services d'urgence pour demander de l'aide pour assurer la sécurité.",
+      "explanation_nl": "Het wordt aanbevolen om de nooddiensten te bellen om hulp te vragen om de veiligheid te garanderen.",
+      "explanation_ru": "Рекомендуется позвонить в службу экстренной помощи, чтобы попросить о помощи, чтобы обеспечить безопасность."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "834bb21a7d03",
@@ -36,6 +370,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:32:22Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 9
   }
 }

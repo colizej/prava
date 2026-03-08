@@ -29,7 +29,304 @@
   "anchor_id_fr": "hygy4gd3x4",
   "anchor_id_nl": "dywn0zjdza",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la durée maximale de l'emprisonnement pour ne pas satisfaire aux obligations visées à l'article 67ter ?",
+      "text_nl": "Wat is de maximale duur van de gevangenisstraf voor het niet nakomen van de verplichtingen bedoeld in artikel 67ter?",
+      "text_ru": "Каков максимальный срок тюремного заключения за неисполнение обязанностей, указанных в статье 67ter?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "6 mois",
+          "text_nl": "6 maanden",
+          "text_ru": "6 месяцев",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "2 ans",
+          "text_nl": "2 jaar",
+          "text_ru": "2 года",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "5 ans",
+          "text_nl": "5 jaar",
+          "text_ru": "5 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée maximale de l'emprisonnement pour ne pas satisfaire aux obligations visées à l'article 67ter est de 6 mois.",
+      "explanation_nl": "De maximale duur van de gevangenisstraf voor het niet nakomen van de verplichtingen bedoeld in artikel 67ter is 6 maanden.",
+      "explanation_ru": "Максимальный срок тюремного заключения за неисполнение обязанностей, указанных в статье 67ter, составляет 6 месяцев."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la peine minimale pour ne pas satisfaire à l'obligation visée à l'article 67bis, alinéa 2, deuxième phrase ?",
+      "text_nl": "Wat is de minimale straf voor het niet nakomen van de verplichting bedoeld in artikel 67bis, tweede lid, tweede zin?",
+      "text_ru": "Каков минимальный срок наказания за неисполнение обязанности, указанной в статье 67bis, пункт 2, вторая фраза?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "15 jours d'emprisonnement",
+          "text_nl": "15 dagen gevangenisstraf",
+          "text_ru": "15 дней тюремного заключения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 jours d'emprisonnement",
+          "text_nl": "30 dagen gevangenisstraf",
+          "text_ru": "30 дней тюремного заключения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "60 jours d'emprisonnement",
+          "text_nl": "60 dagen gevangenisstraf",
+          "text_ru": "60 дней тюремного заключения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine minimale pour ne pas satisfaire à l'obligation visée à l'article 67bis, alinéa 2, deuxième phrase est de 15 jours d'emprisonnement.",
+      "explanation_nl": "De minimale straf voor het niet nakomen van de verplichting bedoeld in artikel 67bis, tweede lid, tweede zin is 15 dagen gevangenisstraf.",
+      "explanation_ru": "Минимальный срок наказания за неисполнение обязанности, указанной в статье 67bis, пункт 2, вторая фраза, составляет 15 дней тюремного заключения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la durée maximale de la déchéance du droit de conduire un véhicule à moteur ?",
+      "text_nl": "Wat is de maximale duur van het verval van het recht tot het besturen van een motorvoertuig?",
+      "text_ru": "Каков максимальный срок лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "5 ans",
+          "text_nl": "5 jaar",
+          "text_ru": "5 лет",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "10 ans",
+          "text_nl": "10 jaar",
+          "text_ru": "10 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "15 ans",
+          "text_nl": "15 jaar",
+          "text_ru": "15 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée maximale de la déchéance du droit de conduire un véhicule à moteur est de 5 ans.",
+      "explanation_nl": "De maximale duur van het verval van het recht tot het besturen van een motorvoertuig is 5 jaar.",
+      "explanation_ru": "Максимальный срок лишения права управления транспортным средством составляет 5 лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été condamné pour ne pas avoir satisfait aux obligations visées à l'article 67ter. Quelle est la peine maximale qu'il peut recevoir ?",
+      "text_nl": "Een bestuurder is veroordeeld voor het niet nakomen van de verplichtingen bedoeld in artikel 67ter. Wat is de maximale straf die hij kan krijgen?",
+      "text_ru": "Водитель был осуждён за неисполнение обязанностей, указанных в статье 67ter. Каков максимальный срок наказания, который он может получить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "6 mois d'emprisonnement et 4000 euros d'amende",
+          "text_nl": "6 maanden gevangenisstraf en 4000 euro boete",
+          "text_ru": "6 месяцев тюремного заключения и 4000 евро штрафа",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "1 an d'emprisonnement et 5000 euros d'amende",
+          "text_nl": "1 jaar gevangenisstraf en 5000 euro boete",
+          "text_ru": "1 год тюремного заключения и 5000 евро штрафа",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "2 ans d'emprisonnement et 6000 euros d'amende",
+          "text_nl": "2 jaar gevangenisstraf en 6000 euro boete",
+          "text_ru": "2 года тюремного заключения и 6000 евро штрафа",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine maximale qu'un conducteur peut recevoir pour ne pas avoir satisfait aux obligations visées à l'article 67ter est de 6 mois d'emprisonnement et 4000 euros d'amende.",
+      "explanation_nl": "De maximale straf die een bestuurder kan krijgen voor het niet nakomen van de verplichtingen bedoeld in artikel 67ter is 6 maanden gevangenisstraf en 4000 euro boete.",
+      "explanation_ru": "Максимальный срок наказания, который водитель может получить за неисполнение обязанностей, указанных в статье 67ter, составляет 6 месяцев тюремного заключения и 4000 евро штрафа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné pour ne pas avoir satisfait à l'obligation visée à l'article 67bis, alinéa 2, deuxième phrase. Quelle est la peine minimale qu'il peut recevoir ?",
+      "text_nl": "Een bestuurder is veroordeeld voor het niet nakomen van de verplichting bedoeld in artikel 67bis, tweede lid, tweede zin. Wat is de minimale straf die hij kan krijgen?",
+      "text_ru": "Водитель был осуждён за неисполнение обязанности, указанной в статье 67bis, пункт 2, вторая фраза. Каков минимальный срок наказания, который он может получить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "15 jours d'emprisonnement et 50 euros d'amende",
+          "text_nl": "15 dagen gevangenisstraf en 50 euro boete",
+          "text_ru": "15 дней тюремного заключения и 50 евро штрафа",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 jours d'emprisonnement et 100 euros d'amende",
+          "text_nl": "30 dagen gevangenisstraf en 100 euro boete",
+          "text_ru": "30 дней тюремного заключения и 100 евро штрафа",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "60 jours d'emprisonnement et 200 euros d'amende",
+          "text_nl": "60 dagen gevangenisstraf en 200 euro boete",
+          "text_ru": "60 дней тюремного заключения и 200 евро штрафа",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine minimale qu'un conducteur peut recevoir pour ne pas avoir satisfait à l'obligation visée à l'article 67bis, alinéa 2, deuxième phrase est de 15 jours d'emprisonnement et 50 euros d'amende.",
+      "explanation_nl": "De minimale straf die een bestuurder kan krijgen voor het niet nakomen van de verplichting bedoeld in artikel 67bis, tweede lid, tweede zin is 15 dagen gevangenisstraf en 50 euro boete.",
+      "explanation_ru": "Минимальный срок наказания, который водитель может получить за неисполнение обязанности, указанной в статье 67bis, пункт 2, вторая фраза, составляет 15 дней тюремного заключения и 50 евро штрафа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a été condamné pour ne pas avoir satisfait à l'obligation visée à l'article 67bis, alinéa 2, deuxième phrase. Quelle est la durée maximale de la déchéance du droit de conduire un véhicule à moteur qu'il peut recevoir ?",
+      "text_nl": "Een bestuurder is veroordeeld voor het niet nakomen van de verplichting bedoeld in artikel 67bis, tweede lid, tweede zin. Wat is de maximale duur van het verval van het recht tot het besturen van een motorvoertuig dat hij kan krijgen?",
+      "text_ru": "Водитель был осуждён за неисполнение обязанности, указанной в статье 67bis, пункт 2, вторая фраза. Каков максимальный срок лишения права управления транспортным средством, который он может получить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "5 ans",
+          "text_nl": "5 jaar",
+          "text_ru": "5 лет",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "10 ans",
+          "text_nl": "10 jaar",
+          "text_ru": "10 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "15 ans",
+          "text_nl": "15 jaar",
+          "text_ru": "15 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée maximale de la déchéance du droit de conduire un véhicule à moteur qu'un conducteur peut recevoir pour ne pas avoir satisfait à l'obligation visée à l'article 67bis, alinéa 2, deuxième phrase est de 5 ans.",
+      "explanation_nl": "De maximale duur van het verval van het recht tot het besturen van een motorvoertuig dat een bestuurder kan krijgen voor het niet nakomen van de verplichting bedoeld in artikel 67bis, tweede lid, tweede zin is 5 jaar.",
+      "explanation_ru": "Максимальный срок лишения права управления транспортным средством, который водитель может получить за неисполнение обязанности, указанной в статье 67bis, пункт 2, вторая фраза, составляет 5 лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été condamné pour ne pas avoir satisfait aux obligations visées à l'article 67ter. Quelle est la peine qui peut être doublée en cas de récidive ?",
+      "text_nl": "Een bestuurder is veroordeeld voor het niet nakomen van de verplichtingen bedoeld in artikel 67ter. Wat is de straf die kan worden verdubbeld bij herhaling?",
+      "text_ru": "Водитель был осуждён за неисполнение обязанностей, указанных в статье 67ter. Каков срок наказания, который может быть удвоен в случае рецидива?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'emprisonnement et l'amende",
+          "text_nl": "De gevangenisstraf en de boete",
+          "text_ru": "Тюремное заключение и штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'emprisonnement seulement",
+          "text_nl": "De gevangenisstraf alleen",
+          "text_ru": "Только тюремное заключение",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'amende seulement",
+          "text_nl": "De boete alleen",
+          "text_ru": "Только штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine qui peut être doublée en cas de récidive pour ne pas avoir satisfait aux obligations visées à l'article 67ter est l'emprisonnement et l'amende.",
+      "explanation_nl": "De straf die kan worden verdubbeld bij herhaling voor het niet nakomen van de verplichtingen bedoeld in artikel 67ter is de gevangenisstraf en de boete.",
+      "explanation_ru": "Срок наказания, который может быть удвоен в случае рецидива за неисполнение обязанностей, указанных в статье 67ter, составляет тюремное заключение и штраф."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné pour ne pas avoir satisfait à l'obligation visée à l'article 67bis, alinéa 2, deuxième phrase. Quelle est la peine qui peut être doublée en cas de récidive ?",
+      "text_nl": "Een bestuurder is veroordeeld voor het niet nakomen van de verplichting bedoeld in artikel 67bis, tweede lid, tweede zin. Wat is de straf die kan worden verdubbeld bij herhaling?",
+      "text_ru": "Водитель был осуждён за неисполнение обязанности, указанной в статье 67bis, пункт 2, вторая фраза. Каков срок наказания, который может быть удвоен в случае рецидива?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'emprisonnement et l'amende",
+          "text_nl": "De gevangenisstraf en de boete",
+          "text_ru": "Тюремное заключение и штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'emprisonnement seulement",
+          "text_nl": "De gevangenisstraf alleen",
+          "text_ru": "Только тюремное заключение",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'amende seulement",
+          "text_nl": "De boete alleen",
+          "text_ru": "Только штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine qui peut être doublée en cas de récidive pour ne pas avoir satisfait à l'obligation visée à l'article 67bis, alinéa 2, deuxième phrase est l'emprisonnement et l'amende.",
+      "explanation_nl": "De straf die kan worden verdubbeld bij herhaling voor het niet nakomen van de verplichting bedoeld in artikel 67bis, tweede lid, tweede zin is de gevangenisstraf en de boete.",
+      "explanation_ru": "Срок наказания, который может быть удвоен в случае рецидива за неисполнение обязанности, указанной в статье 67bis, пункт 2, вторая фраза, составляет тюремное заключение и штраф."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "fa1697062f7d",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:34:51Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

@@ -28,7 +28,193 @@
   "anchor_id_fr": "himearc5uz",
   "anchor_id_nl": "ctuj9ihat4",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quels sont les domaines de connaissance essentiels couverts par l'examen théorique requis pour obtenir un permis de conduire ?",
+      "text_nl": "Welke essentiële kennisgebieden worden behandeld in het theoretisch examen dat vereist is voor het behalen van een rijbewijs?",
+      "text_ru": "Какие основные области знаний охватывает теоретический экзамен, необходимый для получения водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La mécanique automobile avancée et le design de véhicules.",
+          "text_nl": "Geavanceerde automechanica en voertuigdesign.",
+          "text_ru": "Продвинутая автомобильная механика и дизайн транспортных средств.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les lois et règlements de la circulation routière, les comportements de prévention des accidents, les notions de mécanique de base et les premiers secours.",
+          "text_nl": "De wetten en reglementen van het wegverkeer, gedrag ter voorkoming van ongevallen, de basisbegrippen van mechaniek en eerste hulp bij ongevallen.",
+          "text_ru": "Правила дорожного движения, поведение для предотвращения аварий, основы механики и первая помощь при несчастных случаях.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'histoire du transport routier et les lois du commerce international.",
+          "text_nl": "De geschiedenis van het wegtransport en internationale handelswetten.",
+          "text_ru": "История автомобильного транспорта и законы международной торговли.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'examen théorique porte sur la connaissance des lois et règlements, les comportements pour éviter les accidents, les éléments mécaniques essentiels et les premiers soins en cas d'accident.",
+      "explanation_nl": "Het theoretisch examen behandelt de kennis van wetten en reglementen, gedrag ter voorkoming van ongevallen, de voornaamste begrippen van mechaniek en eerste hulp bij ongevallen.",
+      "explanation_ru": "Теоретический экзамен охватывает знание законов и правил, поведение для предотвращения аварий, основные механические элементы и оказание первой помощи в случае ДТП."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle déclaration est requise concernant l'aptitude physique et médicale d'un candidat pour l'obtention d'un permis de conduire ?",
+      "text_nl": "Welke verklaring is vereist met betrekking tot de fysieke en medische geschiktheid van een kandidaat voor het verkrijgen van een rijbewijs?",
+      "text_ru": "Какое заявление требуется относительно физической и медицинской пригодности кандидата для получения водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une déclaration certifiant que le candidat a participé à une compétition sportive.",
+          "text_nl": "Een verklaring waarin bevestigd wordt dat de kandidaat heeft deelgenomen aan een sportwedstrijd.",
+          "text_ru": "Заявление, подтверждающее участие кандидата в спортивных соревнованиях.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une déclaration attestant l'absence de certains défauts physiques ou affections médicales spécifiques, pouvant être complétée par un examen médical.",
+          "text_nl": "Een verklaring waarin bevestigd wordt dat de kandidaat niet lijdt aan specifieke lichamelijke gebreken of aandoeningen, eventueel aangevuld met een geneeskundig onderzoek.",
+          "text_ru": "Заявление, подтверждающее отсутствие определенных физических недостатков или специфических медицинских состояний, которое может быть дополнено медицинским осмотром.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une déclaration confirmant que le candidat n'a jamais eu de maladie mineure.",
+          "text_nl": "Een verklaring waarin bevestigd wordt dat de kandidaat nooit een lichte ziekte heeft gehad.",
+          "text_ru": "Заявление, подтверждающее, что у кандидата никогда не было легких заболеваний.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le candidat doit souscrire une déclaration certifiant qu'il est exempt des défauts physiques et affections déterminés, cette déclaration pouvant être complétée ou remplacée par un examen médical.",
+      "explanation_nl": "De kandidaat moet een verklaring ondertekenen waarin bevestigd wordt dat hij niet lijdt aan de bepaalde lichamelijke gebreken en aandoeningen, welke verklaring kan worden aangevuld of vervangen door een geneeskundig onderzoek.",
+      "explanation_ru": "Кандидат должен подписать заявление, подтверждающее отсутствие у него определенных физических недостатков и состояний, которое может быть дополнено или заменено медицинским осмотром."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Avant la délivrance d'un permis de conduire, quelle condition un demandeur doit-il déclarer concernant son droit de conduire ?",
+      "text_nl": "Welke voorwaarde moet een aanvrager verklaren met betrekking tot zijn recht om te rijden, voordat een rijbewijs kan worden afgegeven?",
+      "text_ru": "Какое условие должен заявить заявитель относительно своего права на управление транспортным средством до выдачи водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une déclaration confirmant qu'il n'a jamais reçu de contravention de stationnement.",
+          "text_nl": "Een verklaring waarin bevestigd wordt dat hij nooit een parkeerboete heeft gekregen.",
+          "text_ru": "Заявление, подтверждающее, что он никогда не получал штраф за парковку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une déclaration certifiant qu'il n'est pas sous le coup d'une déchéance du droit de conduire pour la catégorie demandée et qu'il a satisfait aux éventuelles conditions de réintégration.",
+          "text_nl": "Een verklaring waarin bevestigd wordt dat hij niet vervallen is van het recht om voertuigen van de aangevraagde categorie te besturen en voldaan heeft aan eventuele herstelvoorwaarden.",
+          "text_ru": "Заявление, подтверждающее, что он не лишен права управления транспортным средством запрошенной категории и выполнил все необходимые условия восстановления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une déclaration de son intention de participer à de futures campagnes de sécurité routière.",
+          "text_nl": "Een verklaring van zijn intentie om deel te nemen aan toekomstige verkeersveiligheidscampagnes.",
+          "text_ru": "Заявление о намерении участвовать в будущих кампаниях по безопасности дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le requérant doit souscrire une déclaration certifiant qu'il n'est pas frappé d'une déchéance du droit de conduire et qu'il a satisfait aux éventuelles conditions de réintégration.",
+      "explanation_nl": "De verzoeker moet een verklaring ondertekenen waarin bevestigd wordt dat hij niet vervallen is van het recht om te rijden en voldaan heeft aan eventuele herstelvoorwaarden.",
+      "explanation_ru": "Заявитель должен подписать заявление, подтверждающее, что он не лишен права на управление транспортным средством и выполнил все возможные условия восстановления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Une personne, récemment installée, possède un permis de conduire valide délivré par un pays étranger reconnu pour la circulation routière internationale. Elle souhaite obtenir un permis de conduire belge. Quelle pourrait être une conséquence concernant les examens requis ?",
+      "text_nl": "Een pas gevestigde persoon bezit een geldig rijbewijs, afgegeven door een buitenlands land dat erkend is voor het internationale wegverkeer. Zij wil een Belgisch rijbewijs verkrijgen. Welke consequentie kan dit hebben met betrekking tot de vereiste examens?",
+      "text_ru": "Лицо, недавно переехавшее и имеющее действующее водительское удостоверение, выданное иностранным государством, признанным для международного дорожного движения, желает получить бельгийское водительское удостоверение. Каково может быть последствие в отношении требуемых экзаменов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle doit repasser tous les examens théoriques et pratiques sans aucune exception.",
+          "text_nl": "Zij moet zonder enige uitzondering alle theoretische en praktische examens opnieuw afleggen.",
+          "text_ru": "Она должна пересдать все теоретические и практические экзамены без исключения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle pourrait être exemptée de certains examens si son permis étranger répond à des critères de reconnaissance spécifiques.",
+          "text_nl": "Zij kan worden vrijgesteld van bepaalde examens als haar buitenlandse rijbewijs voldoet aan specifieke erkenningscriteria.",
+          "text_ru": "Она может быть освобождена от некоторых экзаменов, если ее иностранные водительские права соответствуют конкретным критериям признания.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle doit seulement réussir un test de premiers secours.",
+          "text_nl": "Zij hoeft alleen een EHBO-test te halen.",
+          "text_ru": "Ей нужно только сдать тест по оказанию первой помощи.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un demandeur peut être exempté de certains examens s'il produit un permis de conduire national étranger en cours de validité, délivré conformément aux dispositions internationales ou reconnu par des accords.",
+      "explanation_nl": "Een aanvrager kan worden vrijgesteld van bepaalde examens indien hij een geldig nationaal buitenlands rijbewijs overlegt dat is afgegeven overeenkomstig internationale bepalingen of erkend is krachtens afgesloten akkoorden.",
+      "explanation_ru": "Заявитель может быть освобожден от некоторых экзаменов, если он предъявляет действующее национальное иностранное водительское удостоверение, выданное в соответствии с международными положениями или признанное по соглашениям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un candidat se prépare à passer ses examens de conduite. Quelles sont les démarches administratives ou déclarations fondamentales requises concernant son éligibilité à conduire, avant même de pouvoir se présenter aux épreuves pratiques et théoriques ?",
+      "text_nl": "Een kandidaat bereidt zich voor op zijn rijexamens. Welke fundamentele administratieve stappen of verklaringen zijn vereist met betrekking tot zijn geschiktheid om te rijden, voordat hij zelfs kan deelnemen aan de praktische en theoretische proeven?",
+      "text_ru": "Кандидат готовится к сдаче экзаменов по вождению. Какие основные административные шаги или заявления требуются относительно его права на управление транспортным средством, прежде чем он сможет приступить к практическим и теоретическим испытаниям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seule l'inscription à l'examen est suffisante, toutes les autres vérifications se font après.",
+          "text_nl": "Alleen de inschrijving voor het examen is voldoende; alle andere controles gebeuren achteraf.",
+          "text_ru": "Достаточно только записаться на экзамен, все остальные проверки проводятся после.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit signer des déclarations attestant qu'il n'est pas frappé d'une déchéance du droit de conduire et qu'il est exempt de défauts physiques ou affections médicales spécifiques.",
+          "text_nl": "Hij moet verklaringen ondertekenen waarin hij bevestigt dat hij niet vervallen is van het recht om te rijden en dat hij vrij is van specifieke lichamelijke gebreken of medische aandoeningen.",
+          "text_ru": "Он должен подписать заявления, подтверждающие, что он не лишен права на управление транспортным средством и свободен от определенных физических недостатков или медицинских состояний.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit uniquement fournir une preuve de propriété de véhicule.",
+          "text_nl": "Hij moet enkel een bewijs van voertuigbezit voorleggen.",
+          "text_ru": "Ему нужно предоставить только подтверждение владения транспортным средством.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour l'obtention d'un permis de conduire, le candidat doit souscrire des déclarations certifiant qu'il n'est pas frappé d'une déchéance du droit de conduire et qu'il est exempt de défauts physiques ou affections déterminés.",
+      "explanation_nl": "Voor het verkrijgen van een rijbewijs moet de kandidaat verklaringen ondertekenen waarin bevestigd wordt dat hij niet vervallen is van het recht om te rijden en vrij is van bepaalde lichamelijke gebreken of aandoeningen.",
+      "explanation_ru": "Для получения водительского удостоверения кандидат должен подписать заявления, подтверждающие, что он не лишен права на управление транспортным средством и свободен от определенных физических недостатков или состояний."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "6604b5fce445",
@@ -38,6 +224,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:16:37Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 5
   }
 }

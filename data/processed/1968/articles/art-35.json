@@ -26,7 +26,304 @@
   "anchor_id_fr": "lhckqh8icy",
   "anchor_id_nl": "evyogfl3oa",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la sanction encourue par une personne qui conduit un véhicule en état d'ivresse sur la voie publique ?",
+      "text_nl": "Welke sanctie riskeren personen die een voertuig besturen in staat van dronkenschap op de openbare weg ?",
+      "text_ru": "Какое наказание грозит человеку, который управляет транспортным средством в состоянии опьянения на общественной дороге?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 100 à 1 000 euros",
+          "text_nl": "Een boete van 100 tot 1 000 euro",
+          "text_ru": "Штраф в размере 100-1 000 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 200 à 2 000 euros et une déchéance du droit de conduire",
+          "text_nl": "Een boete van 200 tot 2 000 euro en het verval van het recht tot besturen",
+          "text_ru": "Штраф в размере 200-2 000 евро и лишение права управления",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une peine de prison de 6 mois à 2 ans",
+          "text_nl": "Een gevangenisstraf van 6 maanden tot 2 jaar",
+          "text_ru": "Лишение свободы на срок от 6 месяцев до 2 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La sanction encourue est une amende de 200 à 2 000 euros et une déchéance du droit de conduire un véhicule à moteur.",
+      "explanation_nl": "De sanctie is een boete van 200 tot 2 000 euro en het verval van het recht tot besturen van een motorvoertuig.",
+      "explanation_ru": "Наказанием является штраф в размере 200-2 000 евро и лишение права управления транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un état analogue à l'ivresse résultant de l'emploi de drogues ou de médicaments ?",
+      "text_nl": "Wat is een staat die gelijkwaardig is aan dronkenschap ten gevolge van het gebruik van drugs of geneesmiddelen ?",
+      "text_ru": "Что такое состояние, аналогичное опьянению, вызванное употреблением наркотиков или лекарств?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un état de fatigue",
+          "text_nl": "Een staat van vermoeidheid",
+          "text_ru": "Состояние усталости",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un état de somnolence",
+          "text_nl": "Een staat van slaperigheid",
+          "text_ru": "Состояние сонливости",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un état altérant les capacités de conduite",
+          "text_nl": "Een staat die het vermogen tot besturen beïnvloedt",
+          "text_ru": "Состояние, нарушающее способность управлять",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un état analogue à l'ivresse résultant de l'emploi de drogues ou de médicaments est un état qui altère les capacités de conduite.",
+      "explanation_nl": "Een staat die gelijkwaardig is aan dronkenschap ten gevolge van het gebruik van drugs of geneesmiddelen is een staat die het vermogen tot besturen beïnvloedt.",
+      "explanation_ru": "Состояние, аналогичное опьянению, вызванное употреблением наркотиков или лекарств, является состоянием, нарушающим способность управлять."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la durée minimale de déchéance du droit de conduire pour une personne condamnée pour conduite en état d'ivresse ?",
+      "text_nl": "Wat is de minimumduur van het verval van het recht tot besturen voor een persoon die veroordeeld is voor het besturen in staat van dronkenschap ?",
+      "text_ru": "Каков минимальный срок лишения права управления для лица, осужденного за вождение в состоянии опьянения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un mois",
+          "text_nl": "Een maand",
+          "text_ru": "Один месяц",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Six mois",
+          "text_nl": "Zes maanden",
+          "text_ru": "Шесть месяцев",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un an",
+          "text_nl": "Een jaar",
+          "text_ru": "Один год",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée minimale de déchéance du droit de conduire est d'un mois.",
+      "explanation_nl": "De minimumduur van het verval van het recht tot besturen is een maand.",
+      "explanation_ru": "Минимальный срок лишения права управления составляет один месяц."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a consommé plusieurs verres d'alcool avant de prendre la route. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder heeft verschillende glazen alcohol gedronken voordat hij de weg opging. Wat zou hij moeten doen ?",
+      "text_ru": "Водитель выпил несколько стаканов алкоголя перед тем, как сесть за руль. Что ему следует делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire avec prudence",
+          "text_nl": "Doorgaan met rijden met voorzichtigheid",
+          "text_ru": "Продолжать везти с осторожностью",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêter de conduire et appeler un taxi",
+          "text_nl": "Stoppen met rijden en een taxi bellen",
+          "text_ru": "Остановить машину и вызвать такси",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de dormir dans sa voiture",
+          "text_nl": "Proberen te slapen in zijn auto",
+          "text_ru": "Попытаться спать в своей машине",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait arrêter de conduire et appeler un taxi pour éviter de mettre sa vie et celle des autres en danger.",
+      "explanation_nl": "De bestuurder zou moeten stoppen met rijden en een taxi bellen om zijn leven en dat van anderen te beschermen.",
+      "explanation_ru": "Водитель должен остановить машину и вызвать такси, чтобы не подвергать себя и других опасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se sent fatigué après une longue journée de travail. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder voelt zich moe na een lange werkdag. Wat zou hij moeten doen ?",
+      "text_ru": "Водитель чувствует усталость после долгого рабочего дня. Что ему следует делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire pour rentrer chez lui",
+          "text_nl": "Doorgaan met rijden om naar huis te gaan",
+          "text_ru": "Продолжать везти, чтобы вернуться домой",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter pour se reposer et prendre un café",
+          "text_nl": "Stoppen om te rusten en een kopje koffie te drinken",
+          "text_ru": "Остановиться, чтобы отдохнуть и выпить чашку кофе",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler un ami pour qu'il conduise à sa place",
+          "text_nl": "Een vriend bellen om voor hem te rijden",
+          "text_ru": "Позвонить другу, чтобы он сел за руль вместо него",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait s'arrêter pour se reposer et prendre un café pour éviter de s'endormir au volant.",
+      "explanation_nl": "De bestuurder zou moeten stoppen om te rusten en een kopje koffie te drinken om in slaap te vallen achter het stuur te voorkomen.",
+      "explanation_ru": "Водитель должен остановиться, чтобы отдохнуть и выпить чашку кофе, чтобы не заснуть за рулем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a pris des médicaments qui peuvent altérer ses capacités de conduite. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder heeft geneesmiddelen ingenomen die zijn vermogen tot besturen kunnen beïnvloeden. Wat zou hij moeten doen ?",
+      "text_ru": "Водитель принял лекарства, которые могут нарушить его способность управлять. Что ему следует делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire avec prudence",
+          "text_nl": "Doorgaan met rijden met voorzichtigheid",
+          "text_ru": "Продолжать везти с осторожностью",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêter de conduire et demander à quelqu'un d'autre de conduire",
+          "text_nl": "Stoppen met rijden en iemand anders vragen om te rijden",
+          "text_ru": "Остановить машину и попросить кого-то другого сесть за руль",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de conduire plus lentement",
+          "text_nl": "Proberen te rijden met een lagere snelheid",
+          "text_ru": "Попытаться везти медленнее",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait arrêter de conduire et demander à quelqu'un d'autre de conduire pour éviter de mettre sa vie et celle des autres en danger.",
+      "explanation_nl": "De bestuurder zou moeten stoppen met rijden en iemand anders vragen om te rijden om zijn leven en dat van anderen te beschermen.",
+      "explanation_ru": "Водитель должен остановить машину и попросить кого-то другого сесть за руль, чтобы не подвергать себя и других опасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a consommé de l'alcool et des drogues avant de prendre la route. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder heeft alcohol en drugs gebruikt voordat hij de weg opging. Wat zou hij moeten doen ?",
+      "text_ru": "Водитель выпил алкоголь и принял наркотики перед тем, как сесть за руль. Что ему следует делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire avec prudence",
+          "text_nl": "Doorgaan met rijden met voorzichtigheid",
+          "text_ru": "Продолжать везти с осторожностью",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêter de conduire et appeler un taxi",
+          "text_nl": "Stoppen met rijden en een taxi bellen",
+          "text_ru": "Остановить машину и вызвать такси",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de conduire plus lentement",
+          "text_nl": "Proberen te rijden met een lagere snelheid",
+          "text_ru": "Попытаться везти медленнее",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait arrêter de conduire et appeler un taxi pour éviter de mettre sa vie et celle des autres en danger.",
+      "explanation_nl": "De bestuurder zou moeten stoppen met rijden en een taxi bellen om zijn leven en dat van anderen te beschermen.",
+      "explanation_ru": "Водитель должен остановить машину и вызвать такси, чтобы не подвергать себя и других опасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se sent mal après avoir consommé de l'alcool. Qu'est-ce qu'il devrait faire ?",
+      "text_nl": "Een bestuurder voelt zich niet lekker na het nuttigen van alcohol. Wat zou hij moeten doen ?",
+      "text_ru": "Водитель чувствует себя плохо после употребления алкоголя. Что ему следует делать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire pour rentrer chez lui",
+          "text_nl": "Doorgaan met rijden om naar huis te gaan",
+          "text_ru": "Продолжать везти, чтобы вернуться домой",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter pour se reposer et boire de l'eau",
+          "text_nl": "Stoppen om te rusten en water te drinken",
+          "text_ru": "Остановиться, чтобы отдохнуть и выпить воды",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler un ami pour qu'il conduise à sa place",
+          "text_nl": "Een vriend bellen om voor hem te rijden",
+          "text_ru": "Позвонить другу, чтобы он сел за руль вместо него",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur devrait s'arrêter pour se reposer et boire de l'eau pour éviter de s'endormir au volant.",
+      "explanation_nl": "De bestuurder zou moeten stoppen om te rusten en water te drinken om in slaap te vallen achter het stuur te voorkomen.",
+      "explanation_ru": "Водитель должен остановиться, чтобы отдохнуть и выпить воды, чтобы не заснуть за рулем."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "45d5522a1354",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:36:50Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

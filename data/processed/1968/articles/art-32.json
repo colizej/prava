@@ -26,7 +26,304 @@
   "anchor_id_fr": "n7l6ugeruo",
   "anchor_id_nl": "rx3wtwfmud",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la sanction pour avoir confié un véhicule à moteur à une personne non munie du permis de conduire requis ?",
+      "text_nl": "Wat is de sanctie voor het toevertrouwen van een motorvoertuig aan een persoon die niet in het bezit is van het vereiste rijbewijs?",
+      "text_ru": "Какое наказание за доверие транспортного средства человеку, не имеющему необходимого водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 50 euros à 500 euros",
+          "text_nl": "Een boete van 50 euro tot 500 euro",
+          "text_ru": "Штраф в размере 50 евро до 500 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 100 euros à 1000 euros",
+          "text_nl": "Een boete van 100 euro tot 1000 euro",
+          "text_ru": "Штраф в размере 100 евро до 1000 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende de 200 euros à 2000 euros",
+          "text_nl": "Een boete van 200 euro tot 2000 euro",
+          "text_ru": "Штраф в размере 200 евро до 2000 евро",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La sanction pour avoir confié un véhicule à moteur à une personne non munie du permis de conduire requis est une amende de 100 euros à 1000 euros.",
+      "explanation_nl": "De sanctie voor het toevertrouwen van een motorvoertuig aan een persoon die niet in het bezit is van het vereiste rijbewijs is een boete van 100 euro tot 1000 euro.",
+      "explanation_ru": "Наказание за доверие транспортного средства человеку, не имеющему необходимого водительского удостоверения, составляет штраф в размере 100 евро до 1000 евро."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un permis de conduire ?",
+      "text_nl": "Wat is een rijbewijs?",
+      "text_ru": "Что такое водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un document qui autorise à conduire un véhicule à deux roues",
+          "text_nl": "Een document dat toestaat om een tweewielig voertuig te besturen",
+          "text_ru": "Документ, разрешающий управлять транспортным средством с двумя колесами",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un document qui autorise à conduire un véhicule à moteur",
+          "text_nl": "Een document dat toestaat om een motorvoertuig te besturen",
+          "text_ru": "Документ, разрешающий управлять транспортным средством с двигателем",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un document qui autorise à conduire un véhicule à voile",
+          "text_nl": "Een document dat toestaat om een zeilvoertuig te besturen",
+          "text_ru": "Документ, разрешающий управлять парусным судном",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire est un document qui autorise à conduire un véhicule à moteur.",
+      "explanation_nl": "Een rijbewijs is een document dat toestaat om een motorvoertuig te besturen.",
+      "explanation_ru": "Водительское удостоверение - это документ, разрешающий управлять транспортным средством с двигателем."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que le titre qui en tient lieu pour la conduite d'un véhicule ?",
+      "text_nl": "Wat is het document dat als vervanging dient voor het besturen van een voertuig?",
+      "text_ru": "Что такое документ, заменяющий водительское удостоверение для управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un document qui autorise à conduire un véhicule à deux roues",
+          "text_nl": "Een document dat toestaat om een tweewielig voertuig te besturen",
+          "text_ru": "Документ, разрешающий управлять транспортным средством с двумя колесами",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un document qui autorise à conduire un véhicule à moteur",
+          "text_nl": "Een document dat toestaat om een motorvoertuig te besturen",
+          "text_ru": "Документ, разрешающий управлять транспортным средством с двигателем",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un document délivré par une autorité compétente pour la conduite d'un véhicule",
+          "text_nl": "Een document afgegeven door een bevoegde autoriteit voor het besturen van een voertuig",
+          "text_ru": "Документ, выдаваемый компетентным органом для управления транспортным средством",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le titre qui en tient lieu pour la conduite d'un véhicule est un document délivré par une autorité compétente pour la conduite d'un véhicule.",
+      "explanation_nl": "Het document dat als vervanging dient voor het besturen van een voertuig is een document afgegeven door een bevoegde autoriteit voor het besturen van een voertuig.",
+      "explanation_ru": "Документ, заменяющий водительское удостоверение для управления транспортным средством, - это документ, выдаваемый компетентным органом для управления транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez confié votre véhicule à un ami qui n'a pas de permis de conduire. Qu'est-ce que vous devriez faire ?",
+      "text_nl": "U heeft uw voertuig toevertrouwd aan een vriend die geen rijbewijs heeft. Wat moet u doen?",
+      "text_ru": "Вы доверили свое транспортное средство другу, который не имеет водительского удостоверения. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander à votre ami de conduire prudemment",
+          "text_nl": "Vragen aan uw vriend om voorzichtig te rijden",
+          "text_ru": "Попросить вашего друга ехать осторожно",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Reprendre la conduite du véhicule",
+          "text_nl": "Het voertuig zelf besturen",
+          "text_ru": "Возобновить управление транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Laisser votre ami conduire",
+          "text_nl": "Uw vriend laten rijden",
+          "text_ru": "Позволить вашему другу ехать",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devriez reprendre la conduite du véhicule pour éviter tout risque.",
+      "explanation_nl": "U moet het voertuig zelf besturen om elk risico te vermijden.",
+      "explanation_ru": "Вы должны возобновить управление транспортным средством, чтобы избежать любых рисков."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez un permis de conduire, mais il est expiré. Qu'est-ce que vous devriez faire ?",
+      "text_nl": "U heeft een rijbewijs, maar het is verlopen. Wat moet u doen?",
+      "text_ru": "У вас есть водительское удостоверение, но оно истекло. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Conduire avec votre permis expiré",
+          "text_nl": "Rijden met uw verlopen rijbewijs",
+          "text_ru": "Ехать с истекшим водительским удостоверением",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Renouveler votre permis de conduire",
+          "text_nl": "Uw rijbewijs vernieuwen",
+          "text_ru": "Продлить водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Conduire sans permis",
+          "text_nl": "Zonder rijbewijs rijden",
+          "text_ru": "Ехать без водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devriez renouveler votre permis de conduire pour éviter tout problème.",
+      "explanation_nl": "U moet uw rijbewijs vernieuwen om elk probleem te vermijden.",
+      "explanation_ru": "Вы должны продлить водительское удостоверение, чтобы избежать любых проблем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez un ami qui a perdu son permis de conduire. Qu'est-ce que vous devriez faire ?",
+      "text_nl": "U heeft een vriend die zijn rijbewijs is verloren. Wat moet u doen?",
+      "text_ru": "У вас есть друг, который потерял водительское удостоверение. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lui prêter votre véhicule",
+          "text_nl": "Uw voertuig aan hem uitlenen",
+          "text_ru": "Одолжить ему свое транспортное средство",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lui proposer de conduire avec vous",
+          "text_nl": "Hem voorstellen om met u te rijden",
+          "text_ru": "Предложить ему ехать с вами",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lui laisser conduire sans permis",
+          "text_nl": "Hem laten rijden zonder rijbewijs",
+          "text_ru": "Позволить ему ехать без водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devriez lui proposer de conduire avec vous pour éviter tout risque.",
+      "explanation_nl": "U moet hem voorstellen om met u te rijden om elk risico te vermijden.",
+      "explanation_ru": "Вы должны предложить ему ехать с вами, чтобы избежать любых рисков."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez un véhicule à moteur et vous voulez le confier à quelqu'un. Qu'est-ce que vous devriez vérifier ?",
+      "text_nl": "U heeft een motorvoertuig en u wilt het toevertrouwen aan iemand. Wat moet u controleren?",
+      "text_ru": "У вас есть транспортное средство с двигателем и вы хотите доверить его кому-то. Что вы должны проверить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'âge de la personne",
+          "text_nl": "De leeftijd van de persoon",
+          "text_ru": "Возраст человека",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis de conduire de la personne",
+          "text_nl": "Het rijbewijs van de persoon",
+          "text_ru": "Водительское удостоверение человека",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'expérience de conduite de la personne",
+          "text_nl": "De rijervaring van de persoon",
+          "text_ru": "Опыт вождения человека",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devriez vérifier le permis de conduire de la personne pour vous assurer qu'elle est autorisée à conduire.",
+      "explanation_nl": "U moet het rijbewijs van de persoon controleren om u ervan te verzekeren dat hij of zij gemachtigd is om te rijden.",
+      "explanation_ru": "Вы должны проверить водительское удостоверение человека, чтобы убедиться, что он имеет право управлять транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez un permis de conduire et vous voulez conduire un véhicule à moteur. Qu'est-ce que vous devriez faire ?",
+      "text_nl": "U heeft een rijbewijs en u wilt een motorvoertuig besturen. Wat moet u doen?",
+      "text_ru": "У вас есть водительское удостоверение и вы хотите управлять транспортным средством с двигателем. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Conduire sans permis",
+          "text_nl": "Zonder rijbewijs rijden",
+          "text_ru": "Ехать без водительского удостоверения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Conduire avec votre permis",
+          "text_nl": "Met uw rijbewijs rijden",
+          "text_ru": "Ехать с водительским удостоверением",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Conduire avec un permis expiré",
+          "text_nl": "Met een verlopen rijbewijs rijden",
+          "text_ru": "Ехать с истекшим водительским удостоверением",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devriez conduire avec votre permis pour éviter tout problème.",
+      "explanation_nl": "U moet met uw rijbewijs rijden om elk probleem te vermijden.",
+      "explanation_ru": "Вы должны ехать с водительским удостоверением, чтобы избежать любых проблем."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "33c54a429e46",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:36:07Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

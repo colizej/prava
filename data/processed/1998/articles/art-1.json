@@ -36,7 +36,304 @@
   "anchor_id_fr": "znte1wrsdu",
   "anchor_id_nl": "qsikswiggl",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une attestation d'aptitude pour le permis de conduire du groupe 1 ?",
+      "text_nl": "Wat is een attest van geschiktheid voor het rijbewijs van groep 1?",
+      "text_ru": "Что такое аттестат пригодности для водительских прав группы 1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un document qui certifie la possession d'un permis de conduire",
+          "text_nl": "Een document dat het bezit van een rijbewijs certificeert",
+          "text_ru": "Документ, подтверждающий наличие водительских прав",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un document qui certifie la capacité physique et mentale à conduire un véhicule",
+          "text_nl": "Een document dat de lichamelijke en geestelijke capaciteit om een voertuig te besturen certificeert",
+          "text_ru": "Документ, подтверждающий физическую и психическую способность управлять транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un document qui permet de conduire un véhicule sans permis",
+          "text_nl": "Een document dat het mogelijk maakt om een voertuig te besturen zonder rijbewijs",
+          "text_ru": "Документ,允яющий управлять транспортным средством без водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'attestation d'aptitude est un document qui certifie que le candidat au permis de conduire du groupe 1 possède les capacités physiques et mentales nécessaires pour conduire un véhicule.",
+      "explanation_nl": "Het attest van geschiktheid is een document dat certificeert dat de kandidaat voor het rijbewijs van groep 1 de nodige lichamelijke en geestelijke capaciteiten heeft om een voertuig te besturen.",
+      "explanation_ru": "Аттестат пригодности - это документ, подтверждающий, что кандидат на водительские права группы 1 обладает необходимыми физическими и психическими способностями для управления транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'objectif de l'attestation d'aptitude pour le permis de conduire du groupe 1 ?",
+      "text_nl": "Wat is het doel van het attest van geschiktheid voor het rijbewijs van groep 1?",
+      "text_ru": "Какова цель аттестата пригодности для водительских прав группы 1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De certifier la possession d'un permis de conduire",
+          "text_nl": "Om het bezit van een rijbewijs te certificeren",
+          "text_ru": "Подтвердить наличие водительских прав",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De garantir la sécurité routière en vérifiant les capacités physiques et mentales des conducteurs",
+          "text_nl": "Om de verkeersveiligheid te garanderen door de lichamelijke en geestelijke capaciteiten van bestuurders te controleren",
+          "text_ru": "Гарантировать безопасность дорожного движения путем проверки физических и психических способностей водителей",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "De permettre aux conducteurs de conduire sans permis",
+          "text_nl": "Om bestuurders toe te laten om zonder rijbewijs te rijden",
+          "text_ru": "Позволять водителям управлять транспортным средством без водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'objectif de l'attestation d'aptitude est de garantir la sécurité routière en vérifiant les capacités physiques et mentales des conducteurs.",
+      "explanation_nl": "Het doel van het attest van geschiktheid is om de verkeersveiligheid te garanderen door de lichamelijke en geestelijke capaciteiten van bestuurders te controleren.",
+      "explanation_ru": "Цель аттестата пригодности - гарантировать безопасность дорожного движения путем проверки физических и психических способностей водителей."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les conséquences d'une absence d'attestation d'aptitude pour le permis de conduire du groupe 1 ?",
+      "text_nl": "Wat zijn de gevolgen van het ontbreken van een attest van geschiktheid voor het rijbewijs van groep 1?",
+      "text_ru": "Каковы последствия отсутствия аттестата пригодности для водительских прав группы 1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur peut conduire sans permis",
+          "text_nl": "De bestuurder kan zonder rijbewijs rijden",
+          "text_ru": "Водитель может управлять транспортным средством без водительских прав",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur ne peut pas conduire un véhicule",
+          "text_nl": "De bestuurder kan geen voertuig besturen",
+          "text_ru": "Водитель не может управлять транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur peut conduire avec une restriction de vitesse",
+          "text_nl": "De bestuurder kan met een snelheidsbeperking rijden",
+          "text_ru": "Водитель может управлять транспортным средством с ограничением скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'absence d'attestation d'aptitude signifie que le conducteur ne peut pas conduire un véhicule.",
+      "explanation_nl": "Het ontbreken van een attest van geschiktheid betekent dat de bestuurder geen voertuig kan besturen.",
+      "explanation_ru": "Отсутствие аттестата пригодности означает, что водитель не может управлять транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un candidat au permis de conduire du groupe 1 doit-il présenter une attestation d'aptitude pour passer l'examen de conduite ?",
+      "text_nl": "Moet een kandidaat voor het rijbewijs van groep 1 een attest van geschiktheid overleggen om het praktische examen af te leggen?",
+      "text_ru": "Должен ли кандидат на водительские права группы 1 предоставить аттестат пригодности для сдачи экзамена на права?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, ce n'est pas obligatoire",
+          "text_nl": "Nee, het is niet verplicht",
+          "text_ru": "Нет, это не обязательно",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, c'est obligatoire",
+          "text_nl": "Ja, het is verplicht",
+          "text_ru": "Да, это обязательно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la situation",
+          "text_nl": "Het hangt van de situatie af",
+          "text_ru": "Это зависит от ситуации",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Oui, le candidat au permis de conduire du groupe 1 doit présenter une attestation d'aptitude pour passer l'examen de conduite.",
+      "explanation_nl": "Ja, de kandidaat voor het rijbewijs van groep 1 moet een attest van geschiktheid overleggen om het praktische examen af te leggen.",
+      "explanation_ru": "Да, кандидат на водительские права группы 1 должен предоставить аттестат пригодности для сдачи экзамена на права."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un conducteur doit faire s'il n'a pas d'attestation d'aptitude pour le permis de conduire du groupe 1 ?",
+      "text_nl": "Wat moet een bestuurder doen als hij geen attest van geschiktheid voor het rijbewijs van groep 1 heeft?",
+      "text_ru": "Что должен сделать водитель, если у него нет аттестата пригодности для водительских прав группы 1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Conduire sans permis",
+          "text_nl": "Rijden zonder rijbewijs",
+          "text_ru": "Управлять транспортным средством без водительских прав",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander une attestation d'aptitude à un médecin",
+          "text_nl": "Een attest van geschiktheid aanvragen bij een arts",
+          "text_ru": "Попросить аттестат пригодности у врача",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Conduire avec une restriction de vitesse",
+          "text_nl": "Rijden met een snelheidsbeperking",
+          "text_ru": "Управлять транспортным средством с ограничением скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit demander une attestation d'aptitude à un médecin.",
+      "explanation_nl": "De bestuurder moet een attest van geschiktheid aanvragen bij een arts.",
+      "explanation_ru": "Водитель должен попросить аттестат пригодности у врача."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur qui a perdu son attestation d'aptitude pour le permis de conduire du groupe 1 peut-il toujours conduire un véhicule ?",
+      "text_nl": "Kan een bestuurder die zijn attest van geschiktheid voor het rijbewijs van groep 1 is verloren nog steeds een voertuig besturen?",
+      "text_ru": "Может ли водитель, потерявший аттестат пригодности для водительских прав группы 1, всё равно управлять транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans problème",
+          "text_nl": "Ja, zonder problemen",
+          "text_ru": "Да, без проблем",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il doit demander une nouvelle attestation d'aptitude",
+          "text_nl": "Nee, hij moet een nieuwe attest van geschiktheid aanvragen",
+          "text_ru": "Нет, он должен попросить новый аттестат пригодности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la situation",
+          "text_nl": "Het hangt van de situatie af",
+          "text_ru": "Это зависит от ситуации",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Non, le conducteur doit demander une nouvelle attestation d'aptitude.",
+      "explanation_nl": "Nee, de bestuurder moet een nieuwe attest van geschiktheid aanvragen.",
+      "explanation_ru": "Нет, водитель должен попросить новый аттестат пригодности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur qui a obtenu son attestation d'aptitude pour le permis de conduire du groupe 1 peut-il conduire un véhicule sans permis ?",
+      "text_nl": "Kan een bestuurder die zijn attest van geschiktheid voor het rijbewijs van groep 1 heeft gekregen zonder rijbewijs een voertuig besturen?",
+      "text_ru": "Может ли водитель, получивший аттестат пригодности для водительских прав группы 1, управлять транспортным средством без водительских прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans problème",
+          "text_nl": "Ja, zonder problemen",
+          "text_ru": "Да, без проблем",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il doit toujours avoir un permis de conduire",
+          "text_nl": "Nee, hij moet altijd een rijbewijs hebben",
+          "text_ru": "Нет, он должен всё равно иметь водительские права",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la situation",
+          "text_nl": "Het hangt van de situatie af",
+          "text_ru": "Это зависит от ситуации",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Non, le conducteur doit toujours avoir un permis de conduire.",
+      "explanation_nl": "Nee, de bestuurder moet altijd een rijbewijs hebben.",
+      "explanation_ru": "Нет, водитель должен всё равно иметь водительские права."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur qui a une attestation d'aptitude pour le permis de conduire du groupe 1 peut-il conduire un véhicule dans tous les pays ?",
+      "text_nl": "Kan een bestuurder die een attest van geschiktheid voor het rijbewijs van groep 1 heeft in alle landen een voertuig besturen?",
+      "text_ru": "Может ли водитель, имеющий аттестат пригодности для водительских прав группы 1, управлять транспортным средством во всех странах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans problème",
+          "text_nl": "Ja, zonder problemen",
+          "text_ru": "Да, без проблем",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il doit vérifier les règles de chaque pays",
+          "text_nl": "Nee, hij moet de regels van elk land controleren",
+          "text_ru": "Нет, он должен проверить правила каждого страны",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la situation",
+          "text_nl": "Het hangt van de situatie af",
+          "text_ru": "Это зависит от ситуации",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Non, le conducteur doit vérifier les règles de chaque pays.",
+      "explanation_nl": "Nee, de bestuurder moet de regels van elk land controleren.",
+      "explanation_ru": "Нет, водитель должен проверить правила каждого страны."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "4fd1e8c2aaaf",
@@ -46,6 +343,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:37:05Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

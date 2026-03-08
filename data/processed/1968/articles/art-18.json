@@ -41,7 +41,119 @@
   "anchor_id_fr": "0rmqjwehqr",
   "anchor_id_nl": "y1qkq9xle1",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'objectif principal de la création d'un service d'inspection de la signalisation routière ?",
+      "text_nl": "Wat is het hoofddoel van de oprichting van een dienst voor het inspecteren van verkeerstekens?",
+      "text_ru": "Какова основная цель создания инспекционной службы дорожных знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Construire de nouvelles infrastructures routières.",
+          "text_nl": "Nieuwe weginfrastructuur aanleggen.",
+          "text_ru": "Строительство новой дорожной инфраструктуры.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Assurer la surveillance de l'exécution des règles concernant la signalisation routière.",
+          "text_nl": "Toezicht houden op de uitvoering van de regels betreffende de verkeerstekens.",
+          "text_ru": "Обеспечение контроля за соблюдением правил дорожных знаков.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Définir les nouvelles lois de la circulation routière.",
+          "text_nl": "De nieuwe wetten van het wegverkeer definiëren.",
+          "text_ru": "Определение новых правил дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le service d'inspection de la signalisation routière a pour but de surveiller la bonne application des dispositions qui régissent la signalisation.",
+      "explanation_nl": "De dienst voor het inspecteren van verkeerstekens heeft als doel toezicht te houden op de correcte uitvoering van de bepalingen die de verkeerstekens regelen.",
+      "explanation_ru": "Целью инспекционной службы дорожных знаков является контроль за правильным применением положений, регулирующих дорожные знаки."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est habilité à créer un service d'inspection de la signalisation routière ?",
+      "text_nl": "Wie is bevoegd om een dienst voor het inspecteren van verkeerstekens op te richten?",
+      "text_ru": "Кто уполномочен создавать службу инспекции дорожных знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les autorités communales.",
+          "text_nl": "De gemeentelijke overheden.",
+          "text_ru": "Муниципальные власти.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi.",
+          "text_nl": "De Koning.",
+          "text_ru": "Король.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le ministre des Finances.",
+          "text_nl": "De minister van Financiën.",
+          "text_ru": "Министр финансов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "C'est le Roi qui est chargé de créer un service d'inspection de la signalisation routière.",
+      "explanation_nl": "Het is de Koning die belast is met de oprichting van een dienst voor het inspecteren van verkeerstekens.",
+      "explanation_ru": "Король отвечает за создание службы инспекции дорожных знаков."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Au sein de quel type de département ministériel est établi le service d'inspection de la signalisation routière ?",
+      "text_nl": "Binnen welk type ministerieel departement wordt de dienst voor het inspecteren van verkeerstekens opgericht?",
+      "text_ru": "В каком типе министерского ведомства создается служба инспекции дорожных знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le département ministériel en charge de la santé publique.",
+          "text_nl": "Het ministerieel departement belast met volksgezondheid.",
+          "text_ru": "Министерское ведомство, отвечающее за общественное здравоохранение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le département ministériel ayant la circulation routière dans ses attributions.",
+          "text_nl": "Het ministerieel departement waaronder het wegverkeer ressorteert.",
+          "text_ru": "Министерское ведомство, в ведении которого находится дорожное движение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le département ministériel de la défense nationale.",
+          "text_nl": "Het ministerieel departement van nationale defensie.",
+          "text_ru": "Министерское ведомство национальной обороны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le service d'inspection de la signalisation routière est créé au sein du département ministériel ayant spécifiquement la circulation routière dans ses attributions.",
+      "explanation_nl": "De dienst voor het inspecteren van verkeerstekens wordt opgericht binnen het ministerieel departement dat specifiek het wegverkeer in zijn bevoegdheden heeft.",
+      "explanation_ru": "Служба инспекции дорожных знаков создается в рамках министерского ведомства, специально отвечающего за дорожное движение."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "99ac094b74b2",
@@ -51,6 +163,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:14:00Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

@@ -31,7 +31,304 @@
   "anchor_id_fr": "x1ofawmahw",
   "anchor_id_nl": "irebxev8lc",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la concentration d'alcool par litre d'air alvéolaire expiré qui est considérée comme la limite inférieure pour une amende de 25 euros à 500 euros ?",
+      "text_nl": "Wat is de concentratie van alcohol per liter uitgeademde alveolaire lucht die als de ondergrens wordt beschouwd voor een boete van 25 euro tot 500 euro?",
+      "text_ru": "Какая концентрация алкоголя в литре выдыхаемого альвеолярного воздуха считается нижним пределом для штрафа в размере от 25 до 500 евро?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,09 milligramme",
+          "text_nl": "0,09 milligram",
+          "text_ru": "0,09 миллиграмма",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,22 milligramme",
+          "text_nl": "0,22 milligram",
+          "text_ru": "0,22 миллиграмма",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "0,35 milligramme",
+          "text_nl": "0,35 milligram",
+          "text_ru": "0,35 миллиграмма",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La concentration d'alcool par litre d'air alvéolaire expiré qui est considérée comme la limite inférieure pour une amende de 25 euros à 500 euros est de 0,22 milligramme.",
+      "explanation_nl": "De concentratie van alcohol per liter uitgeademde alveolaire lucht die als de ondergrens wordt beschouwd voor een boete van 25 euro tot 500 euro is 0,22 milligram.",
+      "explanation_ru": "Концентрация алкоголя в литре выдыхаемого альвеолярного воздуха, которая считается нижним пределом для штрафа в размере от 25 до 500 евро, составляет 0,22 миллиграмма."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la concentration d'alcool par litre de sang qui est considérée comme la limite inférieure pour une amende de 200 euros à 2000 euros ?",
+      "text_nl": "Wat is de concentratie van alcohol per liter bloed die als de ondergrens wordt beschouwd voor een boete van 200 euro tot 2000 euro?",
+      "text_ru": "Какая концентрация алкоголя в литре крови считается нижним пределом для штрафа в размере от 200 до 2000 евро?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,2 gramme",
+          "text_nl": "0,2 gram",
+          "text_ru": "0,2 грамма",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,5 gramme",
+          "text_nl": "0,5 gram",
+          "text_ru": "0,5 грамма",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "0,8 gramme",
+          "text_nl": "0,8 gram",
+          "text_ru": "0,8 грамма",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La concentration d'alcool par litre de sang qui est considérée comme la limite inférieure pour une amende de 200 euros à 2000 euros est de 0,8 gramme.",
+      "explanation_nl": "De concentratie van alcohol per liter bloed die als de ondergrens wordt beschouwd voor een boete van 200 euro tot 2000 euro is 0,8 gram.",
+      "explanation_ru": "Концентрация алкоголя в литре крови, которая считается нижним пределом для штрафа в размере от 200 до 2000 евро, составляет 0,8 грамма."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quels sont les facteurs qui déterminent les taux de concentration d'alcool par litre d'air alvéolaire expiré et par litre de sang pour les conducteurs de véhicules de catégorie C1, C, C1+E, C+E, D1, D, D1+E ou D+E ?",
+      "text_nl": "Wat zijn de factoren die de gehalten van alcoholconcentratie per liter uitgeademde alveolaire lucht en per liter bloed bepalen voor bestuurders van voertuigen van de categorie C1, C, C1+E, C+E, D1, D, D1+E of D+E?",
+      "text_ru": "Какие факторы определяют уровни концентрации алкоголя в литре выдыхаемого альвеолярного воздуха и в литре крови для водителей транспортных средств категории C1, C, C1+E, C+E, D1, D, D1+E или D+E?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'âge du conducteur",
+          "text_nl": "De leeftijd van de bestuurder",
+          "text_ru": "Возраст водителя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La catégorie du permis de conduire",
+          "text_nl": "De categorie van het rijbewijs",
+          "text_ru": "Категория водительских прав",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le type de véhicule",
+          "text_nl": "Het type voertuig",
+          "text_ru": "Тип транспортного средства",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les facteurs qui déterminent les taux de concentration d'alcool par litre d'air alvéolaire expiré et par litre de sang pour les conducteurs de véhicules de catégorie C1, C, C1+E, C+E, D1, D, D1+E ou D+E sont la catégorie du permis de conduire.",
+      "explanation_nl": "De factoren die de gehalten van alcoholconcentratie per liter uitgeademde alveolaire lucht en per liter bloed bepalen voor bestuurders van voertuigen van de categorie C1, C, C1+E, C+E, D1, D, D1+E of D+E zijn de categorie van het rijbewijs.",
+      "explanation_ru": "Факторы, определяющие уровни концентрации алкоголя в литре выдыхаемого альвеолярного воздуха и в литре крови для водителей транспортных средств категории C1, C, C1+E, C+E, D1, D, D1+E или D+E, являются категорией водительских прав."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a une concentration d'alcool par litre d'air alvéolaire expiré de 0,25 milligramme. Quelle est la peine qui lui est applicable ?",
+      "text_nl": "Een bestuurder heeft een alcoholconcentratie van 0,25 milligram per liter uitgeademde alveolaire lucht. Wat is de straf die hem wordt opgelegd?",
+      "text_ru": "У водителя концентрация алкоголя в литре выдыхаемого альвеолярного воздуха составляет 0,25 миллиграмма. Какое наказание ему грозит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 25 euros à 500 euros",
+          "text_nl": "Een boete van 25 euro tot 500 euro",
+          "text_ru": "Штраф в размере от 25 до 500 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 200 euros à 2000 euros",
+          "text_nl": "Een boete van 200 euro tot 2000 euro",
+          "text_ru": "Штраф в размере от 200 до 2000 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une suspension du permis de conduire",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Лишение водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine applicable au conducteur est une amende de 25 euros à 500 euros.",
+      "explanation_nl": "De straf die de bestuurder wordt opgelegd is een boete van 25 euro tot 500 euro.",
+      "explanation_ru": "Наказание, которое грозит водителю, составляет штраф в размере от 25 до 500 евро."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a une concentration d'alcool par litre de sang de 0,6 gramme. Quelle est la peine qui lui est applicable ?",
+      "text_nl": "Een bestuurder heeft een alcoholconcentratie van 0,6 gram per liter bloed. Wat is de straf die hem wordt opgelegd?",
+      "text_ru": "У водителя концентрация алкоголя в литре крови составляет 0,6 грамма. Какое наказание ему грозит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 25 euros à 500 euros",
+          "text_nl": "Een boete van 25 euro tot 500 euro",
+          "text_ru": "Штраф в размере от 25 до 500 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 200 euros à 2000 euros",
+          "text_nl": "Een boete van 200 euro tot 2000 euro",
+          "text_ru": "Штраф в размере от 200 до 2000 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une suspension du permis de conduire",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Лишение водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine applicable au conducteur est une amende de 25 euros à 500 euros.",
+      "explanation_nl": "De straf die de bestuurder wordt opgelegd is een boete van 25 euro tot 500 euro.",
+      "explanation_ru": "Наказание, которое грозит водителю, составляет штраф в размере от 25 до 500 евро."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a refusé de se soumettre à un test de l'haleine. Quelle est la peine qui lui est applicable ?",
+      "text_nl": "Een bestuurder heeft geweigerd zich te onderwerpen aan een ademtest. Wat is de straf die hem wordt opgelegd?",
+      "text_ru": "Водитель отказался пройти тест на дыхание. Какое наказание ему грозит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 25 euros à 500 euros",
+          "text_nl": "Een boete van 25 euro tot 500 euro",
+          "text_ru": "Штраф в размере от 25 до 500 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 200 euros à 2000 euros",
+          "text_nl": "Een boete van 200 euro tot 2000 euro",
+          "text_ru": "Штраф в размере от 200 до 2000 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une suspension du permis de conduire",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Лишение водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine applicable au conducteur est une amende de 200 euros à 2000 euros.",
+      "explanation_nl": "De straf die de bestuurder wordt opgelegd is een boete van 200 euro tot 2000 euro.",
+      "explanation_ru": "Наказание, которое грозит водителю, составляет штраф в размере от 200 до 2000 евро."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a une concentration d'alcool par litre d'air alvéolaire expiré de 0,4 milligramme. Quelle est la peine qui lui est applicable ?",
+      "text_nl": "Een bestuurder heeft een alcoholconcentratie van 0,4 milligram per liter uitgeademde alveolaire lucht. Wat is de straf die hem wordt opgelegd?",
+      "text_ru": "У водителя концентрация алкоголя в литре выдыхаемого альвеолярного воздуха составляет 0,4 миллиграмма. Какое наказание ему грозит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 25 euros à 500 euros",
+          "text_nl": "Een boete van 25 euro tot 500 euro",
+          "text_ru": "Штраф в размере от 25 до 500 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 200 euros à 2000 euros",
+          "text_nl": "Een boete van 200 euro tot 2000 euro",
+          "text_ru": "Штраф в размере от 200 до 2000 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une suspension du permis de conduire",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Лишение водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine applicable au conducteur est une amende de 25 euros à 500 euros.",
+      "explanation_nl": "De straf die de bestuurder wordt opgelegd is een boete van 25 euro tot 500 euro.",
+      "explanation_ru": "Наказание, которое грозит водителю, составляет штраф в размере от 25 до 500 евро."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a une concentration d'alcool par litre de sang de 0,9 gramme. Quelle est la peine qui lui est applicable ?",
+      "text_nl": "Een bestuurder heeft een alcoholconcentratie van 0,9 gram per liter bloed. Wat is de straf die hem wordt opgelegd?",
+      "text_ru": "У водителя концентрация алкоголя в литре крови составляет 0,9 грамма. Какое наказание ему грозит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 25 euros à 500 euros",
+          "text_nl": "Een boete van 25 euro tot 500 euro",
+          "text_ru": "Штраф в размере от 25 до 500 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 200 euros à 2000 euros",
+          "text_nl": "Een boete van 200 euro tot 2000 euro",
+          "text_ru": "Штраф в размере от 200 до 2000 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une suspension du permis de conduire",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Лишение водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine applicable au conducteur est une amende de 200 euros à 2000 euros.",
+      "explanation_nl": "De straf die de bestuurder wordt opgelegd is een boete van 200 euro tot 2000 euro.",
+      "explanation_ru": "Наказание, которое грозит водителю, составляет штраф в размере от 200 до 2000 евро."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "997f7df95eeb",
@@ -41,6 +338,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:36:38Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

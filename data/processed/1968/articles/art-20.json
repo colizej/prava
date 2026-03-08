@@ -41,7 +41,304 @@
   "anchor_id_fr": "zqiytuhequ",
   "anchor_id_nl": "uehrqxekx3",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la portée d'application des dispositions du chapitre en question ?",
+      "text_nl": "Wat is de reikwijdte van de bepalingen van dit hoofdstuk?",
+      "text_ru": "Каков объем применения положений данной главы?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles s'appliquent partout en Belgique",
+          "text_nl": "Ze zijn van toepassing in heel België",
+          "text_ru": "Они применяются во всей Бельгии",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles ne s'appliquent pas lorsque la signalisation incombe à l'État",
+          "text_nl": "Ze zijn niet van toepassing wanneer de verkeerstekens door de Staat moeten aangebracht worden",
+          "text_ru": "Они не применяются, когда сигнализация возлагается на государство",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles s'appliquent uniquement en Région flamande",
+          "text_nl": "Ze zijn alleen van toepassing in het Vlaams Gewest",
+          "text_ru": "Они применяются только во Фламандском регионе",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dispositions ne s'appliquent pas lorsque la signalisation incombe à l'État.",
+      "explanation_nl": "De bepalingen zijn niet van toepassing wanneer de verkeerstekens door de Staat moeten aangebracht worden.",
+      "explanation_ru": "Положения не применяются, когда сигнализация возлагается на государство."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qui est abrogé en ce qui concerne la Région de Bruxelles-Capitale et la Région wallonne ?",
+      "text_nl": "Wat is opgeheven voor wat betreft het Brussels Hoofdstedelijk Gewest en het Waals Gewest?",
+      "text_ru": "Что отменено в отношении Брюссельского столичного региона и Валлонского региона?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les dispositions du chapitre",
+          "text_nl": "De bepalingen van dit hoofdstuk",
+          "text_ru": "Положения главы",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La signalisation routière",
+          "text_nl": "De verkeerstekens",
+          "text_ru": "Дорожная сигнализация",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les règles de circulation",
+          "text_nl": "De verkeersregels",
+          "text_ru": "Правила движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dispositions du chapitre sont abrogées en ce qui concerne la Région de Bruxelles-Capitale et la Région wallonne.",
+      "explanation_nl": "De bepalingen van dit hoofdstuk zijn opgeheven voor wat betreft het Brussels Hoofdstedelijk Gewest en het Waals Gewest.",
+      "explanation_ru": "Положения главы отменены в отношении Брюссельского столичного региона и Валлонского региона."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la différence entre les dispositions du chapitre et la signalisation routière ?",
+      "text_nl": "Wat is het verschil tussen de bepalingen van dit hoofdstuk en de verkeerstekens?",
+      "text_ru": "В чем разница между положениями главы и дорожной сигнализацией?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les dispositions du chapitre concernent la signalisation routière",
+          "text_nl": "De bepalingen van dit hoofdstuk hebben betrekking op de verkeerstekens",
+          "text_ru": "Положения главы касаются дорожной сигнализации",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les dispositions du chapitre et la signalisation routière sont deux choses distinctes",
+          "text_nl": "De bepalingen van dit hoofdstuk en de verkeerstekens zijn twee verschillende dingen",
+          "text_ru": "Положения главы и дорожная сигнализация - две разные вещи",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La signalisation routière est une partie des dispositions du chapitre",
+          "text_nl": "De verkeerstekens zijn een onderdeel van de bepalingen van dit hoofdstuk",
+          "text_ru": "Дорожная сигнализация является частью положений главы",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dispositions du chapitre et la signalisation routière sont deux choses distinctes.",
+      "explanation_nl": "De bepalingen van dit hoofdstuk en de verkeerstekens zijn twee verschillende dingen.",
+      "explanation_ru": "Положения главы и дорожная сигнализация - две разные вещи."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se trouve dans une zone où les dispositions du chapitre ne s'appliquent pas. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder bevindt zich in een zone waar de bepalingen van dit hoofdstuk niet van toepassing zijn. Wat moet hij doen?",
+      "text_ru": "Водитель находится в зоне, где положения главы не применяются. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les règles de circulation générales",
+          "text_nl": "De algemene verkeersregels volgen",
+          "text_ru": "Следовать общим правилам движения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre les dispositions du chapitre",
+          "text_nl": "De bepalingen van dit hoofdstuk volgen",
+          "text_ru": "Следовать положениям главы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer les règles de circulation",
+          "text_nl": "De verkeersregels negeren",
+          "text_ru": "Игнорировать правила движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit suivre les règles de circulation générales.",
+      "explanation_nl": "De bestuurder moet de algemene verkeersregels volgen.",
+      "explanation_ru": "Водитель должен следовать общим правилам движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur se trouve dans une zone où la signalisation routière est gérée par l'État. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder bevindt zich in een zone waar de verkeerstekens door de Staat worden beheerd. Wat moet hij doen?",
+      "text_ru": "Водитель находится в зоне, где дорожная сигнализация управляется государством. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les dispositions du chapitre",
+          "text_nl": "De bepalingen van dit hoofdstuk volgen",
+          "text_ru": "Следовать положениям главы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre les indications de la signalisation routière",
+          "text_nl": "De aanwijzingen van de verkeerstekens volgen",
+          "text_ru": "Следовать указаниям дорожной сигнализации",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer les règles de circulation",
+          "text_nl": "De verkeersregels negeren",
+          "text_ru": "Игнорировать правила движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit suivre les indications de la signalisation routière.",
+      "explanation_nl": "De bestuurder moet de aanwijzingen van de verkeerstekens volgen.",
+      "explanation_ru": "Водитель должен следовать указаниям дорожной сигнализации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur se trouve dans une zone où les dispositions du chapitre sont abrogées. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder bevindt zich in een zone waar de bepalingen van dit hoofdstuk zijn opgeheven. Wat moet hij doen?",
+      "text_ru": "Водитель находится в зоне, где положения главы отменены. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les dispositions du chapitre",
+          "text_nl": "De bepalingen van dit hoofdstuk volgen",
+          "text_ru": "Следовать положениям главы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre les règles de circulation générales",
+          "text_nl": "De algemene verkeersregels volgen",
+          "text_ru": "Следовать общим правилам движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer les règles de circulation",
+          "text_nl": "De verkeersregels negeren",
+          "text_ru": "Игнорировать правила движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit suivre les règles de circulation générales.",
+      "explanation_nl": "De bestuurder moet de algemene verkeersregels volgen.",
+      "explanation_ru": "Водитель должен следовать общим правилам движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se trouve dans une zone où les dispositions du chapitre s'appliquent. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder bevindt zich in een zone waar de bepalingen van dit hoofdstuk van toepassing zijn. Wat moet hij doen?",
+      "text_ru": "Водитель находится в зоне, где положения главы применяются. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les règles de circulation générales",
+          "text_nl": "De algemene verkeersregels volgen",
+          "text_ru": "Следовать общим правилам движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre les dispositions du chapitre",
+          "text_nl": "De bepalingen van dit hoofdstuk volgen",
+          "text_ru": "Следовать положениям главы",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer les règles de circulation",
+          "text_nl": "De verkeersregels negeren",
+          "text_ru": "Игнорировать правила движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit suivre les dispositions du chapitre.",
+      "explanation_nl": "De bestuurder moet de bepalingen van dit hoofdstuk volgen.",
+      "explanation_ru": "Водитель должен следовать положениям главы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur se trouve dans une zone où la signalisation routière est gérée par une autorité locale. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder bevindt zich in een zone waar de verkeerstekens door een lokale overheid worden beheerd. Wat moet hij doen?",
+      "text_ru": "Водитель находится в зоне, где дорожная сигнализация управляется местной властью. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre les dispositions du chapitre",
+          "text_nl": "De bepalingen van dit hoofdstuk volgen",
+          "text_ru": "Следовать положениям главы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre les indications de la signalisation routière",
+          "text_nl": "De aanwijzingen van de verkeerstekens volgen",
+          "text_ru": "Следовать указаниям дорожной сигнализации",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer les règles de circulation",
+          "text_nl": "De verkeersregels negeren",
+          "text_ru": "Игнорировать правила движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit suivre les indications de la signalisation routière.",
+      "explanation_nl": "De bestuurder moet de aanwijzingen van de verkeerstekens volgen.",
+      "explanation_ru": "Водитель должен следовать указаниям дорожной сигнализации."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "5e73a8bc7891",
@@ -51,6 +348,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:29:26Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

@@ -28,7 +28,119 @@
   "anchor_id_fr": "5zcc65vntm",
   "anchor_id_nl": "ah0bcxdiel",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon les règles de la circulation, qui est principalement responsable de l'installation des signaux routiers placés directement à l'endroit d'un passage à niveau ou d'une traversée de chemin de fer ?",
+      "text_nl": "Volgens de verkeersregels, wie is voornamelijk verantwoordelijk voor de plaatsing van verkeerstekens die zich precies ter hoogte van een overweg of een kruising met een spoorweg bevinden?",
+      "text_ru": "Согласно правилам дорожного движения, кто в первую очередь отвечает за установку дорожных знаков, расположенных непосредственно на железнодорожном переезде или пересечении с железной дорогой?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A railway crossing with road signs directly at the tracks."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'autorité locale de la voirie.",
+          "text_nl": "De lokale wegbeheerder.",
+          "text_ru": "Местное дорожное управление.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'exploitant de la voie ferrée.",
+          "text_nl": "De exploitant van de spoorweg.",
+          "text_ru": "Эксплуатант железнодорожного пути.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police des chemins de fer.",
+          "text_nl": "De spoorwegpolitie.",
+          "text_ru": "Железнодорожная полиция.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La responsabilité de la signalisation à hauteur des passages à niveau et des traversées de chemins de fer incombe à l'exploitant de la voie ferrée.",
+      "explanation_nl": "De verantwoordelijkheid voor de verkeerstekens ter hoogte van overwegen en kruisingen met spoorwegen ligt bij de exploitant van de spoorweg.",
+      "explanation_ru": "Ответственность за дорожные знаки на железнодорожных переездах и пересечениях с железной дорогой лежит на эксплуатанте железнодорожного пути."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est responsable de l'installation des panneaux de signalisation qui avertissent les usagers de la route de l'approche d'un passage à niveau à une certaine distance, avant d'atteindre le passage lui-même ?",
+      "text_nl": "Wie is verantwoordelijk voor de plaatsing van verkeerstekens die weggebruikers op een zekere afstand waarschuwen voor de nadering van een overweg, voordat ze de overweg zelf bereiken?",
+      "text_ru": "Кто отвечает за установку дорожных знаков, которые предупреждают участников дорожного движения о приближении к железнодорожному переезду на определенном расстоянии, до того как они достигнут самого переезда?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road with a warning sign for a railway crossing in the distance."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'exploitant de la voie ferrée.",
+          "text_nl": "De exploitant van de spoorweg.",
+          "text_ru": "Эксплуатант железнодорожного пути.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'autorité qui a la gestion de la voie publique.",
+          "text_nl": "De overheid die het beheer over de openbare weg heeft.",
+          "text_ru": "Орган, управляющий общественной дорогой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les entreprises de signalisation routière privées.",
+          "text_nl": "De private verkeerstekenbedrijven.",
+          "text_ru": "Частные компании по дорожной сигнализации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation à distance, c'est-à-dire les panneaux qui avertissent de l'approche d'un passage à niveau, incombe à l'autorité qui gère la voie publique.",
+      "explanation_nl": "De verkeerstekens op afstand, zoals waarschuwingsborden voor een overweg, worden geplaatst door de overheid die het beheer over de openbare weg heeft.",
+      "explanation_ru": "Дорожные знаки на расстоянии, то есть знаки, предупреждающие о приближении к железнодорожному переезду, устанавливаются органом, управляющим общественной дорогой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "En tant que conducteur, vous arrivez à un passage à niveau où vous observez un panneau d'interdiction de stationner, directement à côté des rails. Qui a la responsabilité d'avoir installé ce type de panneau à cet endroit précis ?",
+      "text_nl": "Als bestuurder nadert u een overweg waar u een verbodsbord om te parkeren opmerkt, direct naast de sporen. Wie is verantwoordelijk voor de plaatsing van dit type bord op deze specifieke locatie?",
+      "text_ru": "Как водитель, вы подъезжаете к железнодорожному переезду и замечаете знак «Стоянка запрещена» непосредственно рядом с рельсами. Кто отвечает за установку такого знака именно в этом месте?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A driver's view of a railway crossing with a 'No Parking' sign right by the tracks."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le service de police local.",
+          "text_nl": "De lokale politie.",
+          "text_ru": "Местная полиция.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'exploitant du chemin de fer.",
+          "text_nl": "De exploitant van de spoorweg.",
+          "text_ru": "Эксплуатант железной дороги.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'entreprise de construction routière ayant construit la route d'accès.",
+          "text_nl": "Het wegenbouwbedrijf dat de toegangsweg heeft aangelegd.",
+          "text_ru": "Дорожно-строительная компания, построившая подъездную дорогу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règles stipulent que la signalisation à hauteur des passages à niveau et des traversées de chemins de fer, y compris les panneaux de réglementation comme l'interdiction de stationner si nécessaire, incombe à l'exploitant de la voie ferrée.",
+      "explanation_nl": "De regels bepalen dat de verkeerstekens ter hoogte van overwegen en kruisingen met spoorwegen, inclusief reglementaire borden zoals een parkeerverbod indien nodig, de verantwoordelijkheid zijn van de exploitant van de spoorweg.",
+      "explanation_ru": "Правила гласят, что установка дорожных знаков на железнодорожных переездах и пересечениях с железной дорогой, включая регулирующие знаки, такие как запрет стоянки при необходимости, является обязанностью эксплуатанта железнодорожного пути."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "66beec3a4cdb",
@@ -38,6 +150,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:13:09Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

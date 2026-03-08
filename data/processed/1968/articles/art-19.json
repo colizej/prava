@@ -41,7 +41,119 @@
   "anchor_id_fr": "gapuikzsa8",
   "anchor_id_nl": "lnq4qhmzaf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que prévoit le cadre réglementaire lorsque la signalisation routière obligatoire n'est pas installée ou entretenue par l'autorité locale compétente ?",
+      "text_nl": "Wat voorziet het regelgevend kader wanneer de verplichte verkeerssignalisatie niet wordt aangebracht of onderhouden door de bevoegde lokale overheid?",
+      "text_ru": "Что предусматривают правила, если обязательные дорожные знаки не установлены или не обслуживаются компетентным местным органом власти?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'État envoie immédiatement un commissaire spécial pour effectuer les travaux nécessaires.",
+          "text_nl": "De Staat stuurt onmiddellijk een speciale commissaris om de nodige werken uit te voeren.",
+          "text_ru": "Государство немедленно отправляет специального комиссара для выполнения необходимых работ.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre responsable de la circulation routière adresse deux avertissements écrits consécutifs à l'autorité concernée.",
+          "text_nl": "De Minister bevoegd voor het wegverkeer stuurt twee achtereenvolgende schriftelijke verzoeken naar de betrokken overheid.",
+          "text_ru": "Министр, ответственный за дорожное движение, направляет два последовательных письменных предупреждения соответствующему органу власти.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les citoyens sont autorisés à organiser eux-mêmes l'installation des panneaux manquants.",
+          "text_nl": "De burgers mogen zelf de ontbrekende verkeersborden organiseren en plaatsen.",
+          "text_ru": "Гражданам разрешается самостоятельно организовывать установку недостающих дорожных знаков.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de manquement d'une autorité, le processus commence par deux avertissements écrits consécutifs adressés par le Ministre ayant la circulation routière dans ses attributions.",
+      "explanation_nl": "In geval van nalatigheid van een overheid, begint het proces met twee achtereenvolgende schriftelijke verzoeken van de Minister bevoegd voor het wegverkeer.",
+      "explanation_ru": "В случае невыполнения обязательств властями процесс начинается с двух последовательных письменных предупреждений от министра, отвечающего за дорожное движение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le terme désignant l'action par laquelle le pouvoir central peut ordonner l'exécution des travaux de signalisation routière, si une autorité locale ne respecte pas ses obligations après des avertissements ?",
+      "text_nl": "Wat is de term voor de handeling waarbij de centrale overheid de uitvoering van verkeerssignalisatiewerken kan bevelen, indien een lokale overheid na waarschuwingen haar verplichtingen niet nakomt?",
+      "text_ru": "Какой термин обозначает действие, при котором центральная власть может приказать выполнить работы по дорожной сигнализации, если местный орган власти не выполняет свои обязательства после предупреждений?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une réquisition de services civiques.",
+          "text_nl": "Een vordering tot burgerdienstverlening.",
+          "text_ru": "Реквизиция гражданских служб.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'exécution d'office des travaux par un commissaire spécial.",
+          "text_nl": "De ambtshalve uitvoering van de werken door een speciaal commissaris.",
+          "text_ru": "Принудительное выполнение работ специальным комиссаром.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une délégation de compétences à une association de citoyens.",
+          "text_nl": "Een delegatie van bevoegdheden aan een burgervereniging.",
+          "text_ru": "Делегирование полномочий гражданскому объединению.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque l'autorité persiste dans sa défaillance, le Roi peut décréter l'exécution d'office des travaux nécessaires par un commissaire spécial.",
+      "explanation_nl": "Wanneer de overheid blijft nalaten, kan de Koning bevelen dat de nodige werken ambtshalve worden uitgevoerd door een speciaal commissaris.",
+      "explanation_ru": "Когда орган власти продолжает не выполнять свои обязательства, Король может приказать принудительное выполнение необходимых работ специальным комиссаром."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui prend en charge l'avance des dépenses pour les travaux de signalisation routière exécutés d'office par l'État, et comment ces coûts sont-ils finalement récupérés ?",
+      "text_nl": "Wie schiet de uitgaven voor ambtshalve uitgevoerde verkeerssignalisatiewerken door de Staat voor, en hoe worden deze kosten uiteindelijk verhaald?",
+      "text_ru": "Кто авансирует расходы на работы по дорожной сигнализации, выполненные государством по собственной инициативе, и как эти расходы в конечном итоге возмещаются?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les citoyens via des taxes supplémentaires locales.",
+          "text_nl": "De burgers via extra lokale belastingen.",
+          "text_ru": "Граждане через дополнительные местные налоги.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'État peut faire l'avance des dépenses, lesquelles sont ensuite récupérées auprès de l'autorité défaillante par l'intermédiaire du Ministre des finances.",
+          "text_nl": "De Staat kan de uitgaven voorschieten, waarna deze via de Minister van Financiën op de in gebreke gebleven overheid worden verhaald.",
+          "text_ru": "Государство может авансировать расходы, которые затем взыскиваются с невыполнившего обязательства органа власти через Министра финансов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre des finances couvre entièrement les coûts sans possibilité de récupération.",
+          "text_nl": "De Minister van Financiën dekt de kosten volledig zonder mogelijkheid tot verhaal.",
+          "text_ru": "Министр финансов полностью покрывает расходы без возможности возмещения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'État peut avancer les fonds pour l'exécution d'office des travaux, et ces montants peuvent être récupérés auprès de l'autorité locale qui n'a pas rempli ses obligations.",
+      "explanation_nl": "De Staat kan de fondsen voorschieten voor de ambtshalve uitvoering van de werken, en deze bedragen kunnen worden verhaald op de lokale overheid die haar verplichtingen niet is nagekomen.",
+      "explanation_ru": "Государство может авансировать средства на принудительное выполнение работ, и эти суммы могут быть взысканы с местного органа власти, который не выполнил свои обязательства."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "3c3ba544a047",
@@ -51,6 +163,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:14:26Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

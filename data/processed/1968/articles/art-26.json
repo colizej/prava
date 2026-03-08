@@ -26,7 +26,119 @@
   "anchor_id_fr": "pojdc2u7ie",
   "anchor_id_nl": "00kmrdamcs",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel aspect du permis de conduire belge est officiellement standardisé pour garantir une apparence et un format uniformes ?",
+      "text_nl": "Welk aspect van het Belgische rijbewijs is officieel gestandaardiseerd om een uniform uiterlijk en formaat te garanderen?",
+      "text_ru": "Какой аспект бельгийского водительского удостоверения официально стандартизирован для обеспечения единообразного внешнего вида и формата?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La vitesse maximale autorisée pour son titulaire.",
+          "text_nl": "De maximaal toegestane snelheid voor de houder ervan.",
+          "text_ru": "Максимальная скорость, разрешенная для его владельца.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Son modèle officiel et sa structure.",
+          "text_nl": "Het officiële model en de structuur ervan.",
+          "text_ru": "Его официальная модель и структура.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'âge minimum obligatoire pour l'obtenir.",
+          "text_nl": "De verplichte minimumleeftijd om het te verkrijgen.",
+          "text_ru": "Обязательный минимальный возраст для его получения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article mentionne que le modèle du permis de conduire belge est fixé, ce qui se réfère à son design, son format et sa structure officielle pour garantir une uniformité.",
+      "explanation_nl": "Het artikel vermeldt dat het model van het Belgische rijbewijs wordt vastgesteld, wat verwijst naar het ontwerp, het formaat en de officiële structuur ervan om uniformiteit te garanderen.",
+      "explanation_ru": "В статье упоминается, что модель бельгийского водительского удостоверения устанавливается, что относится к его дизайну, формату и официальной структуре для обеспечения единообразия."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Lorsqu'une personne obtient un permis de conduire belge, qu'est-ce qui détermine les types de véhicules qu'elle est légalement autorisée à conduire ?",
+      "text_nl": "Wanneer een persoon een Belgisch rijbewijs verkrijgt, wat bepaalt dan de soorten voertuigen die hij wettelijk mag besturen?",
+      "text_ru": "Когда человек получает бельгийское водительское удостоверение, что определяет типы транспортных средств, которыми ему законно разрешено управлять?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La couleur de la plaque d'immatriculation du véhicule.",
+          "text_nl": "De kleur van de kentekenplaat van het voertuig.",
+          "text_ru": "Цвет номерного знака транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les catégories de véhicules spécifiées sur le permis.",
+          "text_nl": "De categorieën voertuigen die op het rijbewijs zijn vermeld.",
+          "text_ru": "Категории транспортных средств, указанные в водительском удостоверении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La puissance du moteur du véhicule.",
+          "text_nl": "Het motorvermogen van het voertuig.",
+          "text_ru": "Мощность двигателя транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article indique que les catégories de véhicules pour lesquelles les permis sont délivrés sont déterminées. Ce sont ces catégories qui définissent les véhicules autorisés pour le titulaire.",
+      "explanation_nl": "Het artikel geeft aan dat de categorieën voertuigen waarvoor rijbewijzen worden afgegeven, worden bepaald. Deze categorieën definiëren de toegestane voertuigen voor de houder.",
+      "explanation_ru": "В статье указывается, что определяются категории транспортных средств, на которые выдаются водительские удостоверения. Именно эти категории определяют разрешенные транспортные средства для владельца."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Parmi les éléments suivants, lequel représente un aspect administratif du permis de conduire belge régi par des réglementations officielles ?",
+      "text_nl": "Welk van de volgende elementen vertegenwoordigt een administratief aspect van het Belgische rijbewijs dat door officiële regelgeving wordt beheerst?",
+      "text_ru": "Какой из следующих элементов представляет собой административный аспект бельгийского водительского удостоверения, регулируемый официальными нормативными актами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La distance minimale à respecter avec les autres véhicules sur la route.",
+          "text_nl": "De minimale afstand die moet worden aangehouden tot andere voertuigen op de weg.",
+          "text_ru": "Минимальное расстояние, которое необходимо соблюдать до других транспортных средств на дороге.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conditions relatives à son renouvellement.",
+          "text_nl": "De voorwaarden met betrekking tot de vernieuwing ervan.",
+          "text_ru": "Условия его продления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le nombre maximal de passagers autorisés dans n'importe quel véhicule.",
+          "text_nl": "Het maximale aantal passagiers dat in elk voertuig is toegestaan.",
+          "text_ru": "Максимальное количество пассажиров, разрешенное в любом транспортном средстве.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article mentionne explicitement que les prescriptions relatives au renouvellement du permis de conduire sont déterminées, ce qui est un aspect administratif de la gestion du permis.",
+      "explanation_nl": "Het artikel vermeldt expliciet dat de voorschriften betreffende de vernieuwing van het rijbewijs worden vastgesteld, wat een administratief aspect is van het beheer van het rijbewijs.",
+      "explanation_ru": "В статье прямо упоминается, что определяются правила, касающиеся продления водительского удостоверения, что является административным аспектом управления водительским удостоверением."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "65febedbbd48",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-08T22:17:51Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }
