@@ -39,6 +39,8 @@
         <span>{{ post.published_at|date:"d M Y" }}</span>
         <span>•</span>
         <span>{% blocktrans with t=post.read_time %}{{ t }} min de lecture{% endblocktrans %}</span>
+        <span>•</span>
+        <span>👁 {{ post.views_count }}</span>
     </div>
 
     {# Image #}

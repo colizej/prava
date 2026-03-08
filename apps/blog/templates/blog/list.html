@@ -34,7 +34,10 @@
                 <p class="text-sm text-gray-500 mt-2">{{ post.trans_excerpt|truncatewords:20 }}</p>
                 <div class="flex items-center justify-between mt-4 text-xs text-gray-400">
                     <span>{{ post.published_at|date:"d M Y" }}</span>
-                    <span>{{ post.read_time }} min</span>
+                    <div class="flex items-center gap-3">
+                        <span>{{ post.read_time }} min</span>
+                        <span>👁 {{ post.views_count }}</span>
+                    </div>
                 </div>
             </div>
         </a>
