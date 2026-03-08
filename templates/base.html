@@ -13,7 +13,7 @@
     <meta property="og:title" content="{% block og_title %}{{ SITE_NAME }}{% endblock %}">
     <meta property="og:description" content="{% block og_description %}{{ SITE_DESCRIPTION }}{% endblock %}">
     <meta property="og:type" content="{% block og_type %}website{% endblock %}">
-    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta property="og:url" content="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}">
     {% block og_image %}<meta property="og:image" content="{% block og_image_url %}/static/img/og-default.png{% endblock %}">{% endblock %}
     <meta property="og:locale" content="{{ current_language|default:'fr' }}_BE">
 
@@ -22,11 +22,12 @@
     <meta name="twitter:title" content="{% block twitter_title %}{{ SITE_NAME }}{% endblock %}">
     <meta name="twitter:description" content="{% block twitter_description %}{{ SITE_DESCRIPTION }}{% endblock %}">
 
-    {# hreflang #}
-    <link rel="alternate" hreflang="fr" href="{{ request.build_absolute_uri }}?lang=fr">
-    <link rel="alternate" hreflang="nl" href="{{ request.build_absolute_uri }}?lang=nl">
-    <link rel="alternate" hreflang="ru" href="{{ request.build_absolute_uri }}?lang=ru">
-    {% block canonical %}<link rel="canonical" href="{{ request.build_absolute_uri }}">{% endblock %}
+    {# hreflang — base URL without ?lang= to avoid duplicates/malformed URLs #}
+    <link rel="alternate" hreflang="x-default" href="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}">
+    <link rel="alternate" hreflang="fr" href="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}">
+    <link rel="alternate" hreflang="nl" href="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}?lang=nl">
+    <link rel="alternate" hreflang="ru" href="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}?lang=ru">
+    {% block canonical %}<link rel="canonical" href="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}">{% endblock %}
 
     {# Favicon #}
     <link rel="icon" type="image/x-icon" href="/static/icons/favicon.ico">
