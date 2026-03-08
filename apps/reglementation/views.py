@@ -156,6 +156,10 @@ def article_detail(request, slug):
         category=article.category
     ).order_by('order')[:30]
 
+    # Mark thin-content articles for noindex (abrogated, PDF-only, stub pages)
+    content_len = len((article.content_text or '').strip())
+    thin_content = content_len < 200
+
     context = {
         'article': article,
         'related_questions': related_questions,
@@ -163,6 +167,7 @@ def article_detail(request, slug):
         'prev_article': prev_article,
         'siblings': siblings,
         'is_staff': request.user.is_staff,
+        'thin_content': thin_content,
     }
     return render(request, 'reglementation/article.html', context)
 

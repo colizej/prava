@@ -2,7 +2,7 @@
 PRAVA — Gemini API client.
 Generates exam questions from article content.
 
-Model: gemini-2.0-flash (free tier: 1500 RPD, 15 RPM)
+Model: gemini-2.5-flash (free tier available, 15 RPM)
 Requires:
     pip install google-genai
     GEMINI_API_KEY in .env
@@ -15,7 +15,7 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-# Gemini Free tier limits — gemini-2.0-flash: 15 RPM, 1500 RPD
+# Gemini Free tier limits — gemini-2.5-flash: 15 RPM (switched from 2.0-flash whose free quota was revoked)
 # Use 8 RPM (7.5s delay) to stay safely under the burst limit
 RATE_LIMIT_RPM = 8
 RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # 7.5s between requests
@@ -23,7 +23,7 @@ RATE_LIMIT_DELAY = 60 / RATE_LIMIT_RPM   # 7.5s between requests
 MAX_RETRIES = 5          # retry on 429
 RETRY_BASE_DELAY = 65    # seconds flat wait on 429 (full minute + buffer)
 
-MODEL_NAME = "gemini-2.0-flash"
+MODEL_NAME = "gemini-2.5-flash"
 
 
 class DailyQuotaExhausted(Exception):
@@ -109,6 +109,7 @@ class GeminiClient:
 
         self._client = self._genai.Client(api_key=self.api_key)
         self._last_request_time: float = 0
+        self._model_name = MODEL_NAME
 
     def _rate_limit(self) -> None:
         """Pause to respect the 15 req/min rate limit."""
@@ -171,9 +172,6 @@ class GeminiClient:
                     contents=prompt,
                     config=self._types.GenerateContentConfig(
                         system_instruction=SYSTEM_PROMPT,
-                        thinking_config=self._types.ThinkingConfig(
-                            thinking_budget=0,  # disable thinking — much faster, on par with flash-lite
-                        ),
                     ),
                 )
                 self._last_request_time = time.time()

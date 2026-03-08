@@ -46,6 +46,7 @@ except ImportError:
     pass
 
 from scripts.utils.gemini_client import GeminiClient, DailyQuotaExhausted  # noqa: E402
+from scripts.utils.groq_client import GroqClient  # noqa: E402
 from scripts.utils.json_helpers import load_json, save_json  # noqa: E402
 from scripts.utils.laws_registry import get_law  # noqa: E402
 
@@ -247,8 +248,21 @@ def main():
         logger.info(f"DRY RUN — would call Gemini {len(pending_files)} times")
         return
 
-    # ── Initialise Gemini client ─────────────────────────────────────────────
+    # ── Initialise clients (Gemini primary, Groq fallback) ───────────────────
     client = GeminiClient()
+    _groq_client = None
+
+    def _get_groq_client():
+        nonlocal _groq_client
+        if _groq_client is None:
+            try:
+                _groq_client = GroqClient()
+                logger.info("Switched to Groq (Llama-3.3-70B) as fallback.")
+            except ValueError as e:
+                logger.error(f"Groq fallback unavailable: {e}")
+                logger.error("Add GROQ_API_KEY to .env — get free key at console.groq.com")
+                sys.exit(3)
+        return _groq_client
 
     # ── Generation loop ──────────────────────────────────────────────────────
     generated = failed = 0
@@ -270,11 +284,17 @@ def main():
         try:
             questions_raw = client.generate_questions(article, prompt_override=prompt)
         except DailyQuotaExhausted:
-            logger.error(
-                f"Daily quota exhausted after {generated} generated / {failed} failed. "
-                "Re-run tomorrow when the quota resets."
+            logger.warning(
+                f"Gemini daily quota exhausted after {generated} generated. "
+                "Switching to Groq fallback…"
             )
-            sys.exit(2)  # exit code 2 = quota exhausted
+            client = _get_groq_client()
+            # retry the same article with Groq
+            try:
+                questions_raw = client.generate_questions(article, prompt_override=prompt)
+            except Exception as exc:
+                logger.error(f"Groq also failed: {exc}")
+                sys.exit(2)
 
         if not questions_raw:
             logger.error(f"  No questions returned — skipping Art {number}")
@@ -297,7 +317,7 @@ def main():
         # Write back into the article file
         article["exam_questions"] = valid_questions
         article["_meta"]["questions_generated_at"] = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-        article["_meta"]["questions_model"] = "gemini-2.0-flash"
+        article["_meta"]["questions_model"] = getattr(client, '_model_name', 'gemini-2.5-flash')
         article["_meta"]["questions_count"] = len(valid_questions)
         save_json(article, article_file)
 

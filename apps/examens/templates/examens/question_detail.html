@@ -8,6 +8,7 @@
 {% block og_description %}{{ question.text|truncatewords:30 }}{% endblock %}
 
 {% block meta_extra %}
+{% if thin_content %}<meta name="robots" content="noindex, follow">{% endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -76,10 +76,13 @@ def question_detail(request, pk):
     )
     options = question.options.all().order_by('order', 'letter')
     correct_option = next((o for o in options if o.is_correct), None)
+    # Noindex very short questions (thin content)
+    thin_content = len((question.text or '').strip()) < 100
     return render(request, 'examens/question_detail.html', {
         'question': question,
         'options': options,
         'correct_option': correct_option,
+        'thin_content': thin_content,
     })
 
 
