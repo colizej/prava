@@ -26,7 +26,119 @@
   "anchor_id_fr": "ttqskrx20e",
   "anchor_id_nl": "he4wp4xjte",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Selon la réglementation, quels types de lieux sont inclus dans la définition d'un 'lieu public' ?",
+      "text_nl": "Welke soorten plaatsen vallen, volgens de regelgeving, onder de definitie van een 'openbare plaats'?",
+      "text_ru": "Согласно правилам, какие виды мест включены в определение «общественного места»?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les voies de circulation ouvertes à tous les véhicules.",
+          "text_nl": "Enkel de verkeerswegen die open zijn voor alle voertuigen.",
+          "text_ru": "Только проезжие части, открытые для всех транспортных средств.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les voies publiques, les terrains ouverts au public et les terrains non publics accessibles à un certain nombre de personnes.",
+          "text_nl": "De openbare weg, de terreinen toegankelijk voor het publiek en de niet-openbare terreinen die voor een zeker aantal personen toegankelijk zijn.",
+          "text_ru": "Дороги общего пользования, территории, открытые для публики, и частные территории, доступные для определенного круга лиц.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement les endroits où la présence d'un panneau de signalisation est obligatoire.",
+          "text_nl": "Alleen plaatsen waar de aanwezigheid van een verkeersbord verplicht is.",
+          "text_ru": "Только места, где наличие дорожного знака обязательно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La définition d'un 'lieu public' englobe les voies publiques, les terrains accessibles au public, et même certains terrains privés ouverts à un groupe défini de personnes.",
+      "explanation_nl": "De definitie van een 'openbare plaats' omvat de openbare weg, terreinen toegankelijk voor het publiek en zelfs bepaalde privéterreinen die toegankelijk zijn voor een bepaalde groep personen.",
+      "explanation_ru": "Определение «общественного места» включает дороги общего пользования, территории, доступные для публики, и даже некоторые частные территории, открытые для определенной группы лиц."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur un grand parking privé d'un centre commercial, librement accessible à tous les visiteurs et clients. Les règles de la circulation routière s'appliquent-elles sur ce parking ?",
+      "text_nl": "U rijdt op een grote privé parking van een winkelcentrum, die vrij toegankelijk is voor alle bezoekers en klanten. Zijn de verkeersregels van toepassing op deze parking?",
+      "text_ru": "Вы едете по большой частной парковке торгового центра, свободно доступной для всех посетителей и клиентов. Применяются ли правила дорожного движения на этой парковке?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car il s'agit d'une propriété privée et non d'une voie publique.",
+          "text_nl": "Nee, want het is privé eigendom en geen openbare weg.",
+          "text_ru": "Нет, так как это частная собственность, а не дорога общего пользования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car bien que privé, ce parking est un terrain ouvert au public et est donc considéré comme un lieu public.",
+          "text_nl": "Ja, want hoewel privé, is deze parking een terrein dat toegankelijk is voor het publiek en wordt daarom als een openbare plaats beschouwd.",
+          "text_ru": "Да, потому что, хотя это и частная собственность, эта парковка является территорией, открытой для публики, и поэтому считается общественным местом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si un règlement spécifique du centre commercial l'indique.",
+          "text_nl": "Alleen als een specifieke regeling van het winkelcentrum dit vermeldt.",
+          "text_ru": "Только если это указано в специальном регламенте торгового центра.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les terrains privés ouverts au public, comme les parkings de supermarchés ou centres commerciaux, sont considérés comme des lieux publics où le code de la route s'applique.",
+      "explanation_nl": "Privéterreinen die open zijn voor het publiek, zoals parkings van supermarkten of winkelcentra, worden beschouwd als openbare plaatsen waar de wegcode van toepassing is.",
+      "explanation_ru": "Частные территории, открытые для публики, такие как парковки супермаркетов или торговых центров, считаются общественными местами, где применяются правила дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Un terrain non public mais ouvert à 'un certain nombre de personnes' est-il considéré comme un 'lieu public' ? Donnez un exemple.",
+      "text_nl": "Wordt een niet-openbaar terrein dat toegankelijk is voor 'een zeker aantal personen' beschouwd als een 'openbare plaats'? Geef een voorbeeld.",
+      "text_ru": "Считается ли частная территория, доступная для «определенного круга лиц», «общественным местом»? Приведите пример.",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, un tel terrain reste toujours strictement privé et échappe à l'application de la réglementation routière.",
+          "text_nl": "Nee, een dergelijk terrein blijft altijd strikt privé en ontsnapt aan de toepassing van de verkeersregels.",
+          "text_ru": "Нет, такая территория всегда остается строго частной и не подпадает под действие правил дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, par exemple, les voies de circulation au sein d'une usine ou d'un complexe résidentiel avec accès limité mais multiple.",
+          "text_nl": "Ja, bijvoorbeeld de verkeerswegen binnen een fabrieksterrein of een residentieel complex met beperkte maar meervoudige toegang.",
+          "text_ru": "Да, например, проезжие части на территории завода или жилого комплекса с ограниченным, но многократным доступом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais seulement si un accord écrit a été signé avec les autorités locales.",
+          "text_nl": "Ja, maar alleen als er een schriftelijke overeenkomst is gesloten met de lokale autoriteiten.",
+          "text_ru": "Да, но только если было подписано письменное соглашение с местными властями.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un terrain non public mais ouvert à un certain nombre de personnes, comme les routes internes d'une grande entreprise ou d'une résidence privée où seuls les résidents et leurs invités peuvent circuler, est considéré comme un lieu public aux fins de l'application de la réglementation.",
+      "explanation_nl": "Een niet-openbaar terrein dat toegankelijk is voor een zeker aantal personen, zoals de interne wegen van een groot bedrijf of een privéresidentie waar enkel bewoners en hun gasten mogen rijden, wordt beschouwd als een openbare plaats voor de toepassing van de regelgeving.",
+      "explanation_ru": "Частная территория, доступная для определенного круга лиц, например, внутренние дороги крупного предприятия или частного жилого комплекса, где могут передвигаться только жители и их гости, считается общественным местом для целей применения правил."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "cc8603c5b621",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:30:50Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

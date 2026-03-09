@@ -26,7 +26,304 @@
   "anchor_id_fr": "nz6yfnzlso",
   "anchor_id_nl": "wtqajxyxkj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui peut demander une révision de la déchéance du droit de conduire pour incapacité physique ou psychique ?",
+      "text_nl": "Wie kan een herziening van de vervallenverklaring van het recht tot sturen wegens lichamelijke of geestelijke ongeschiktheid aanvragen ?",
+      "text_ru": "Кто может подать запрос на пересмотр лишения права управления транспортным средством из-за физической или психической нетрудоспособности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toute personne ayant subi un accident de la route",
+          "text_nl": "Ieder die betrokken is geweest bij een verkeersongeval",
+          "text_ru": "Любое лицо, участвовавшее в дорожно-транспортном происшествии",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La personne déchue du droit de conduire pour incapacité physique ou psychique",
+          "text_nl": "Het persoon dat van het recht tot sturen is vervallen verklaard wegens lichamelijke of geestelijke ongeschiktheid",
+          "text_ru": "Лицо, лишенное права управления транспортным средством из-за физической или психической нетрудоспособности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les membres de la famille de la personne déchue du droit de conduire",
+          "text_nl": "De familieleden van het persoon dat van het recht tot sturen is vervallen verklaard",
+          "text_ru": "Члены семьи лица, лишенного права управления транспортным средством",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La personne déchue du droit de conduire pour incapacité physique ou psychique peut demander une révision après au moins six mois.",
+      "explanation_nl": "Het persoon dat van het recht tot sturen is vervallen verklaard wegens lichamelijke of geestelijke ongeschiktheid kan een herziening aanvragen na minstens zes maanden.",
+      "explanation_ru": "Лицо, лишенное права управления транспортным средством из-за физической или психической нетрудоспособности, может подать запрос на пересмотр после истечения не менее шести месяцев."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le délai minimum avant de pouvoir demander une révision de la déchéance du droit de conduire pour incapacité physique ou psychique ?",
+      "text_nl": "Wat is de minimumtermijn voordat een herziening van de vervallenverklaring van het recht tot sturen wegens lichamelijke of geestelijke ongeschiktheid kan worden aangevraagd ?",
+      "text_ru": "Какой минимальный срок должен истечь перед подачей запроса на пересмотр лишения права управления транспортным средством из-за физической или психической нетрудоспособности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "3 mois",
+          "text_nl": "3 maanden",
+          "text_ru": "3 месяца",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "6 mois",
+          "text_nl": "6 maanden",
+          "text_ru": "6 месяцев",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "12 mois",
+          "text_nl": "12 maanden",
+          "text_ru": "12 месяцев",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai minimum est de 6 mois.",
+      "explanation_nl": "De minimumtermijn is 6 maanden.",
+      "explanation_ru": "Минимальный срок составляет 6 месяцев."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la procédure à suivre pour demander une révision de la déchéance du droit de conduire pour incapacité physique ou psychique ?",
+      "text_nl": "Wat is de procedure om een herziening van de vervallenverklaring van het recht tot sturen wegens lichamelijke of geestelijke ongeschiktheid aan te vragen ?",
+      "text_ru": "Какая процедура должна быть соблюдена для подачи запроса на пересмотр лишения права управления транспортным средством из-за физической или психической нетрудоспособности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Déposer une plainte auprès du tribunal",
+          "text_nl": "Een klacht indienen bij de rechtbank",
+          "text_ru": "Подать жалобу в суд",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Addresser une requête au ministère public",
+          "text_nl": "Een verzoekschrift richten tot het openbaar ministerie",
+          "text_ru": "Направить запрос в прокуратуру",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Contacter un avocat",
+          "text_nl": "Contact opnemen met een advocaat",
+          "text_ru": "Связаться с адвокатом",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La procédure consiste à adresser une requête au ministère public.",
+      "explanation_nl": "De procedure bestaat erin een verzoekschrift tot het openbaar ministerie te richten.",
+      "explanation_ru": "Процедура состоит в том, чтобы направить запрос в прокуратуру."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez été déchu du droit de conduire pour incapacité physique. Vous pouvez demander une révision après combien de temps ?",
+      "text_nl": "U bent van het recht tot sturen vervallen verklaard wegens lichamelijke ongeschiktheid. Hoe lang moet u wachten voordat u een herziening kan aanvragen ?",
+      "text_ru": "Вас лишили права управления транспортным средством из-за физической нетрудоспособности. Через сколько времени вы можете подать запрос на пересмотр?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Immédiatement",
+          "text_nl": "Onmiddellijk",
+          "text_ru": "Немедленно",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Après 3 mois",
+          "text_nl": "Na 3 maanden",
+          "text_ru": "Через 3 месяца",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Après 6 mois",
+          "text_nl": "Na 6 maanden",
+          "text_ru": "Через 6 месяцев",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Vous pouvez demander une révision après 6 mois.",
+      "explanation_nl": "U kunt een herziening aanvragen na 6 maanden.",
+      "explanation_ru": "Вы можете подать запрос на пересмотр через 6 месяцев."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez déposé une requête pour une révision de la déchéance du droit de conduire, mais elle a été rejetée. Combien de temps devez-vous attendre avant de pouvoir déposer une nouvelle requête ?",
+      "text_nl": "U heeft een verzoekschrift ingediend voor een herziening van de vervallenverklaring van het recht tot sturen, maar het is afgewezen. Hoe lang moet u wachten voordat u een nieuw verzoekschrift kan indienen ?",
+      "text_ru": "Вы подали запрос на пересмотр лишения права управления транспортным средством, но он был отклонен. Сколько времени вам необходимо подождать, прежде чем вы сможете подать новый запрос?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "1 mois",
+          "text_nl": "1 maand",
+          "text_ru": "1 месяц",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "3 mois",
+          "text_nl": "3 maanden",
+          "text_ru": "3 месяца",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "6 mois",
+          "text_nl": "6 maanden",
+          "text_ru": "6 месяцев",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Vous devez attendre 6 mois.",
+      "explanation_nl": "U moet 6 maanden wachten.",
+      "explanation_ru": "Вам необходимо подождать 6 месяцев."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule alors que vous avez été déchu du droit de conduire pour incapacité physique. Quelles sont les conséquences ?",
+      "text_nl": "U bestuurt een voertuig terwijl u van het recht tot sturen is vervallen verklaard wegens lichamelijke ongeschiktheid. Wat zijn de gevolgen ?",
+      "text_ru": "Вы управляете транспортным средством, хотя были лишены права управления из-за физической нетрудоспособности. Каковы последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende et des points de pénalité",
+          "text_nl": "Een boete en strafpunten",
+          "text_ru": "Штраф и пенальти",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une arrestation et une poursuite judiciaire",
+          "text_nl": "Een arrestatie en een gerechtelijke vervolging",
+          "text_ru": "Арест и судебное преследование",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les conséquences sont graves et peuvent inclure une arrestation et une poursuite judiciaire.",
+      "explanation_nl": "De gevolgen zijn ernstig en kunnen een arrestatie en een gerechtelijke vervolging omvatten.",
+      "explanation_ru": "Последствия могут быть серьезными и включать арест и судебное преследование."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez été déchu du droit de conduire pour incapacité psychique. Puis-je conduire un véhicule avec un accompagnateur ?",
+      "text_nl": "U bent van het recht tot sturen vervallen verklaard wegens geestelijke ongeschiktheid. Mag ik een voertuig besturen met een begeleider ?",
+      "text_ru": "Вас лишили права управления транспортным средством из-за психической нетрудоспособности. Можно ли управлять транспортным средством с сопровождающим?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans problème",
+          "text_nl": "Ja, zonder problemen",
+          "text_ru": "Да, без проблем",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, mais avec certaines restrictions",
+          "text_nl": "Ja, maar met bepaalde beperkingen",
+          "text_ru": "Да, но с некоторыми ограничениями",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, cela est interdit",
+          "text_nl": "Nee, dit is verboden",
+          "text_ru": "Нет, это запрещено",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Non, cela est interdit.",
+      "explanation_nl": "Nee, dit is verboden.",
+      "explanation_ru": "Нет, это запрещено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez déposé une requête pour une révision de la déchéance du droit de conduire. Qui prendra la décision finale ?",
+      "text_nl": "U heeft een verzoekschrift ingediend voor een herziening van de vervallenverklaring van het recht tot sturen. Wie neemt de finale beslissing ?",
+      "text_ru": "Вы подали запрос на пересмотр лишения права управления транспортным средством. Кто примет окончательное решение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le ministère public",
+          "text_nl": "Het openbaar ministerie",
+          "text_ru": "Прокуратура",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La juridiction qui a prononcé la déchéance",
+          "text_nl": "De rechter die het verval heeft uitgesproken",
+          "text_ru": "Суд, который вынес решение о лишении права управления",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur lui-même",
+          "text_nl": "De bestuurder zelf",
+          "text_ru": "Сам водитель",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La décision finale est prise par la juridiction qui a prononcé la déchéance.",
+      "explanation_nl": "De finale beslissing wordt genomen door de rechter die het verval heeft uitgesproken.",
+      "explanation_ru": "Окончательное решение принимает суд, который вынес решение о лишении права управления."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "5a3a01711464",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:35:24Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

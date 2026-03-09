@@ -26,7 +26,304 @@
   "anchor_id_fr": "safxtybgsu",
   "anchor_id_nl": "b4hh4k0krc",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est responsable de déterminer les formalités relatives à l'exécution des déchéances du droit de conduire ?",
+      "text_nl": "Wie is verantwoordelijk voor het bepalen van de formaliteiten met betrekking tot de uitvoering van de vervallenverklaringen van het recht tot sturen ?",
+      "text_ru": "Кто несет ответственность за определение формальностей, связанных с выполнением лишений права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur",
+          "text_nl": "De bestuurder",
+          "text_ru": "Водитель",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi",
+          "text_nl": "De Koning",
+          "text_ru": "Король",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'Etat",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Roi est responsable de déterminer les formalités relatives à l'exécution des déchéances du droit de conduire.",
+      "explanation_nl": "De Koning is verantwoordelijk voor het bepalen van de formaliteiten met betrekking tot de uitvoering van de vervallenverklaringen van het recht tot sturen.",
+      "explanation_ru": "Король несет ответственность за определение формальностей, связанных с выполнением лишений права управления транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que les déchéances du droit de conduire ?",
+      "text_nl": "Wat zijn de vervallenverklaringen van het recht tot sturen ?",
+      "text_ru": "Что такое лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des amendes",
+          "text_nl": "Boetes",
+          "text_ru": "Штрафы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des mesures de sécurité",
+          "text_nl": "Veiligheidsmaatregelen",
+          "text_ru": "Меры безопасности",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des mesures administratives",
+          "text_nl": "Bestuurlijke maatregelen",
+          "text_ru": "Административные меры",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les déchéances du droit de conduire sont des mesures administratives qui peuvent être prises à l'encontre d'un conducteur.",
+      "explanation_nl": "De vervallenverklaringen van het recht tot sturen zijn bestuurlijke maatregelen die kunnen worden genomen tegen een bestuurder.",
+      "explanation_ru": "Лишения права управления транспортным средством являются административными мерами, которые могут быть приняты в отношении водителя."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quel est l'objectif principal des formalités relatives à l'exécution des déchéances du droit de conduire ?",
+      "text_nl": "Wat is het hoofddoel van de formaliteiten met betrekking tot de uitvoering van de vervallenverklaringen van het recht tot sturen ?",
+      "text_ru": "Какова основная цель формальностей, связанных с выполнением лишений права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De protéger les conducteurs",
+          "text_nl": "Om bestuurders te beschermen",
+          "text_ru": "Защитить водителей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De garantir la sécurité routière",
+          "text_nl": "Om de verkeersveiligheid te garanderen",
+          "text_ru": "Обеспечить безопасность дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "De réduire les coûts administratifs",
+          "text_nl": "Om de administratieve kosten te verlagen",
+          "text_ru": "Снизить административные расходы",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'objectif principal des formalités relatives à l'exécution des déchéances du droit de conduire est de garantir la sécurité routière.",
+      "explanation_nl": "Het hoofddoel van de formaliteiten met betrekking tot de uitvoering van de vervallenverklaringen van het recht tot sturen is om de verkeersveiligheid te garanderen.",
+      "explanation_ru": "Основная цель формальностей, связанных с выполнением лишений права управления транспортным средством, заключается в обеспечении безопасности дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a reçu une déchéance du droit de conduire. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder heeft een vervallenverklaring van het recht tot sturen ontvangen. Wat moet hij doen ?",
+      "text_ru": "Водитель получил лишение права управления транспортным средством. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire",
+          "text_nl": "Doorgaan met rijden",
+          "text_ru": "Продолжать водить",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Se présenter à la préfecture",
+          "text_nl": "Zich melden bij de prefectuur",
+          "text_ru": "Появиться в префектуре",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer une amende",
+          "text_nl": "Een boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit se présenter à la préfecture pour effectuer les formalités nécessaires.",
+      "explanation_nl": "De bestuurder moet zich melden bij de prefectuur om de nodige formaliteiten te verrichten.",
+      "explanation_ru": "Водитель должен появиться в префектуре, чтобы выполнить необходимые формальности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a reçu une déchéance du droit de conduire pour une période de 6 mois. Qu'est-ce qu'il peut faire pendant cette période ?",
+      "text_nl": "Een bestuurder heeft een vervallenverklaring van het recht tot sturen ontvangen voor een periode van 6 maanden. Wat kan hij tijdens deze periode doen ?",
+      "text_ru": "Водитель получил лишение права управления транспортным средством на срок 6 месяцев. Что он может сделать в течение этого периода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Conduire un véhicule",
+          "text_nl": "Een voertuig besturen",
+          "text_ru": "Водить транспортное средство",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Utiliser les transports en commun",
+          "text_nl": "Gebruikmaken van het openbaar vervoer",
+          "text_ru": "Использовать общественный транспорт",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Faire du stop",
+          "text_nl": "Liften",
+          "text_ru": "Автостоп",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut utiliser les transports en commun pendant la période de déchéance.",
+      "explanation_nl": "De bestuurder kan gebruikmaken van het openbaar vervoer tijdens de periode van vervallenverklaring.",
+      "explanation_ru": "Водитель может использовать общественный транспорт в течение периода лишения права управления транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a reçu une déchéance du droit de conduire pour une période de 1 an. Qu'est-ce qu'il doit faire pour récupérer son permis de conduire ?",
+      "text_nl": "Een bestuurder heeft een vervallenverklaring van het recht tot sturen ontvangen voor een periode van 1 jaar. Wat moet hij doen om zijn rijbewijs terug te krijgen ?",
+      "text_ru": "Водитель получил лишение права управления транспортным средством на срок 1 год. Что он должен сделать, чтобы вернуть свое водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer un nouvel examen de conduite",
+          "text_nl": "Een nieuw rijexamen afleggen",
+          "text_ru": "Сдать новый экзамен на водительские права",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Payer une amende",
+          "text_nl": "Een boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Faire une demande de révision",
+          "text_nl": "Een verzoek om herziening indienen",
+          "text_ru": "Подать запрос на пересмотр",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit passer un nouvel examen de conduite pour récupérer son permis de conduire.",
+      "explanation_nl": "De bestuurder moet een nieuw rijexamen afleggen om zijn rijbewijs terug te krijgen.",
+      "explanation_ru": "Водитель должен сдать новый экзамен на водительские права, чтобы вернуть свое водительское удостоверение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a reçu une déchéance du droit de conduire pour une infraction grave. Qu'est-ce qu'il risque si il conduit pendant la période de déchéance ?",
+      "text_nl": "Een bestuurder heeft een vervallenverklaring van het recht tot sturen ontvangen voor een ernstige overtreding. Wat riskeert hij als hij tijdens de periode van vervallenverklaring rijdt ?",
+      "text_ru": "Водитель получил лишение права управления транспортным средством за серьезное правонарушение. Что он рискует, если будет водить в течение периода лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende",
+          "text_nl": "Een boete",
+          "text_ru": "Штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une peine d'emprisonnement",
+          "text_nl": "Een gevangenisstraf",
+          "text_ru": "Тюремное заключение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une suspension de permis",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Приостановление водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur risque une peine d'emprisonnement si il conduit pendant la période de déchéance.",
+      "explanation_nl": "De bestuurder riskeert een gevangenisstraf als hij tijdens de periode van vervallenverklaring rijdt.",
+      "explanation_ru": "Водитель рискует тюремным заключением, если будет водить в течение периода лишения права управления транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a reçu une déchéance du droit de conduire pour une période de 3 mois. Qu'est-ce qu'il doit faire pour éviter de perdre son permis de conduire définitivement ?",
+      "text_nl": "Een bestuurder heeft een vervallenverklaring van het recht tot sturen ontvangen voor een periode van 3 maanden. Wat moet hij doen om te voorkomen dat hij zijn rijbewijs definitief verliest ?",
+      "text_ru": "Водитель получил лишение права управления транспортным средством на срок 3 месяца. Что он должен сделать, чтобы не потерять свое водительское удостоверение навсегда?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Conduire prudemment",
+          "text_nl": "Voorzichtig rijden",
+          "text_ru": "Водить осторожно",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Payer une amende",
+          "text_nl": "Een boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Faire une demande de révision",
+          "text_nl": "Een verzoek om herziening indienen",
+          "text_ru": "Подать запрос на пересмотр",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit conduire prudemment pour éviter de perdre son permis de conduire définitivement.",
+      "explanation_nl": "De bestuurder moet voorzichtig rijden om te voorkomen dat hij zijn rijbewijs definitief verliest.",
+      "explanation_ru": "Водитель должен водить осторожно, чтобы не потерять свое водительское удостоверение навсегда."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "194b929e3991",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:35:47Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

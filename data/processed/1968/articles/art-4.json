@@ -26,7 +26,304 @@
   "anchor_id_fr": "vq8kxlxxtb",
   "anchor_id_nl": "d1x4xltoyt",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quels ministres sont responsables de l'établissement de règlements complémentaires relatifs à la signalisation routière des bureaux des douanes ?",
+      "text_nl": "Welke ministers zijn verantwoordelijk voor het vaststellen van aanvullende reglementen met betrekking tot het aanbrengen van verkeerstekens voor de douanekantoren ?",
+      "text_ru": "Какие министры несут ответственность за установление дополнительных правил, связанных с дорожным движением для таможенных органов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de l'Intérieur et le Ministre des Transports",
+          "text_nl": "De Minister van Binnenlandse Zaken en de Minister van Verkeer",
+          "text_ru": "Министр внутренних дел и Министр транспорта",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre des Finances et le Ministre de la Circulation routière",
+          "text_nl": "De Minister van Financiën en de Minister van Verkeer",
+          "text_ru": "Министр финансов и Министр транспорта",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre de la Défense et le Ministre de l'Éducation",
+          "text_nl": "De Minister van Defensie en de Minister van Onderwijs",
+          "text_ru": "Министр обороны и Министр образования",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règlements complémentaires sont établis par le Ministre des Finances et le Ministre de la Circulation routière.",
+      "explanation_nl": "De aanvullende reglementen worden vastgesteld door de Minister van Financiën en de Minister van Verkeer.",
+      "explanation_ru": "Дополнительные правила устанавливаются Министром финансов и Министром транспорта."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le but des règlements complémentaires établis par les ministres responsables ?",
+      "text_nl": "Wat is het doel van de door de ministers vastgestelde aanvullende reglementen ?",
+      "text_ru": "Какова цель дополнительных правил, установленных ответственных министров?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Définir les règles de circulation routière pour les véhicules privés",
+          "text_nl": "Het bepalen van de verkeersregels voor privé-voertuigen",
+          "text_ru": "Определение правил дорожного движения для частных транспортных средств",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Établir des règlements pour la signalisation routière des bureaux des douanes",
+          "text_nl": "Het vaststellen van reglementen voor het aanbrengen van verkeerstekens voor de douanekantoren",
+          "text_ru": "Установление правил для дорожного движения таможенных органов",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Réglementer les tarifs des transports en commun",
+          "text_nl": "Het reguleren van de tarieven voor het openbaar vervoer",
+          "text_ru": "Регулирование тарифов на общественный транспорт",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règlements complémentaires visent à établir des règlements pour la signalisation routière des bureaux des douanes.",
+      "explanation_nl": "De aanvullende reglementen hebben tot doel reglementen vast te stellen voor het aanbrengen van verkeerstekens voor de douanekantoren.",
+      "explanation_ru": "Дополнительные правила направлены на установление правил для дорожного движения таможенных органов."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quels sont les types de lieux qui sont concernés par les règlements complémentaires établis par les ministres responsables ?",
+      "text_nl": "Welke soorten locaties vallen onder de door de ministers vastgestelde aanvullende reglementen ?",
+      "text_ru": "Какие типы объектов подлежат дополнительным правилам, установленным ответственными министрами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les bureaux de poste et les banques",
+          "text_nl": "De postkantoren en banken",
+          "text_ru": "Почтовые отделения и банки",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les bureaux des douanes, les succursales des bureaux des douanes et les postes de contrôle",
+          "text_nl": "De douanekantoren, de hulpdouanekantoren en de controleposten",
+          "text_ru": "Таможенные органы, филиалы таможенных органов и посты контроля",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les hôpitaux et les écoles",
+          "text_nl": "De ziekenhuizen en scholen",
+          "text_ru": "Больницы и школы",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règlements complémentaires concernent les bureaux des douanes, les succursales des bureaux des douanes et les postes de contrôle.",
+      "explanation_nl": "De aanvullende reglementen hebben betrekking op de douanekantoren, de hulpdouanekantoren en de controleposten.",
+      "explanation_ru": "Дополнительные правила касаются таможенных органов, филиалов таможенных органов и постов контроля."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se dirige vers la frontière et voit un panneau indicatif pour un bureau des douanes. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder rijdt richting de grens en ziet een aanwijzing voor een douanekantoor. Wat moet hij doen ?",
+      "text_ru": "Водитель направляется к границе и видит указатель для таможенного органа. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire sans s'arrêter",
+          "text_nl": "Doorgaan met rijden zonder te stoppen",
+          "text_ru": "Продолжать движение без остановки",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter au bureau des douanes pour faire une déclaration",
+          "text_nl": "Stoppen bij het douanekantoor om een aangifte te doen",
+          "text_ru": "Остановиться в таможенном органе для оформления декларации",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre une autre route pour éviter le bureau des douanes",
+          "text_nl": "Een andere route nemen om het douanekantoor te vermijden",
+          "text_ru": "Взять другой маршрут, чтобы избежать таможенного органа",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit s'arrêter au bureau des douanes pour faire une déclaration.",
+      "explanation_nl": "De bestuurder moet stoppen bij het douanekantoor om een aangifte te doen.",
+      "explanation_ru": "Водитель должен остановиться в таможенном органе для оформления декларации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur se trouve dans une zone de surveillance douanière et voit un panneau indicatif pour un poste de contrôle. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder bevindt zich in een douanetoezichtstreek en ziet een aanwijzing voor een controlepost. Wat moet hij doen ?",
+      "text_ru": "Водитель находится в зоне таможенного контроля и видит указатель для поста контроля. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ignorer le panneau et continuer à conduire",
+          "text_nl": "Het bord negeren en doorrijden",
+          "text_ru": "Игнорировать знак и продолжать движение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter au poste de contrôle pour se faire contrôler",
+          "text_nl": "Stoppen bij de controlepost om gecontroleerd te worden",
+          "text_ru": "Остановиться на посту контроля для проверки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre une autre route pour éviter le poste de contrôle",
+          "text_nl": "Een andere route nemen om de controlepost te vermijden",
+          "text_ru": "Взять другой маршрут, чтобы избежать поста контроля",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit s'arrêter au poste de contrôle pour se faire contrôler.",
+      "explanation_nl": "De bestuurder moet stoppen bij de controlepost om gecontroleerd te worden.",
+      "explanation_ru": "Водитель должен остановиться на посту контроля для проверки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur se dirige vers la frontière et voit un panneau indicatif pour un bureau des douanes. Il transporte des marchandises soumises à des restrictions. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder rijdt richting de grens en ziet een aanwijzing voor een douanekantoor. Hij vervoert goederen die onderhevig zijn aan beperkingen. Wat moet hij doen ?",
+      "text_ru": "Водитель направляется к границе и видит указатель для таможенного органа. Он перевозит товары, подлежащие ограничениям. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire sans s'arrêter et essayer de cacher les marchandises",
+          "text_nl": "Doorgaan met rijden zonder te stoppen en proberen de goederen te verbergen",
+          "text_ru": "Продолжать движение без остановки и попытаться скрыть товары",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter au bureau des douanes pour faire une déclaration et obtenir les autorisations nécessaires",
+          "text_nl": "Stoppen bij het douanekantoor om een aangifte te doen en de nodige vergunningen te krijgen",
+          "text_ru": "Остановиться в таможенном органе для оформления декларации и получения необходимых разрешений",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre une autre route pour éviter le bureau des douanes et les contrôles",
+          "text_nl": "Een andere route nemen om het douanekantoor en de controles te vermijden",
+          "text_ru": "Взять другой маршрут, чтобы избежать таможенного органа и проверок",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit s'arrêter au bureau des douanes pour faire une déclaration et obtenir les autorisations nécessaires.",
+      "explanation_nl": "De bestuurder moet stoppen bij het douanekantoor om een aangifte te doen en de nodige vergunningen te krijgen.",
+      "explanation_ru": "Водитель должен остановиться в таможенном органе для оформления декларации и получения необходимых разрешений."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se trouve dans une zone de surveillance douanière et voit un panneau indicatif pour un bureau des douanes. Qu'est-ce qu'il doit faire si il n'a rien à déclarer ?",
+      "text_nl": "Een bestuurder bevindt zich in een douanetoezichtstreek en ziet een aanwijzing voor een douanekantoor. Wat moet hij doen als hij niets te verklaren heeft ?",
+      "text_ru": "Водитель находится в зоне таможенного контроля и видит указатель для таможенного органа. Что он должен сделать, если у него нет ничего для декларации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'arrêter au bureau des douanes pour faire une déclaration",
+          "text_nl": "Stoppen bij het douanekantoor om een aangifte te doen",
+          "text_ru": "Остановиться в таможенном органе для оформления декларации",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire sans s'arrêter",
+          "text_nl": "Doorgaan met rijden zonder te stoppen",
+          "text_ru": "Продолжать движение без остановки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre une autre route pour éviter le bureau des douanes",
+          "text_nl": "Een andere route nemen om het douanekantoor te vermijden",
+          "text_ru": "Взять другой маршрут, чтобы избежать таможенного органа",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut continuer à conduire sans s'arrêter si il n'a rien à déclarer.",
+      "explanation_nl": "De bestuurder kan doorgaan met rijden zonder te stoppen als hij niets te verklaren heeft.",
+      "explanation_ru": "Водитель может продолжать движение без остановки, если у него нет ничего для декларации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur se dirige vers la frontière et voit un panneau indicatif pour un poste de contrôle. Il transporte des marchandises qui nécessitent une autorisation spéciale. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder rijdt richting de grens en ziet een aanwijzing voor een controlepost. Hij vervoert goederen die een speciale vergunning vereisen. Wat moet hij doen ?",
+      "text_ru": "Водитель направляется к границе и видит указатель для поста контроля. Он перевозит товары, которые требуют специального разрешения. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'arrêter au poste de contrôle pour obtenir l'autorisation",
+          "text_nl": "Stoppen bij de controlepost om de vergunning te krijgen",
+          "text_ru": "Остановиться на посту контроля для получения разрешения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire sans s'arrêter et essayer de passer inaperçu",
+          "text_nl": "Doorgaan met rijden zonder te stoppen en proberen onopgemerkt te blijven",
+          "text_ru": "Продолжать движение без остановки и попытаться остаться незамеченным",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre une autre route pour éviter le poste de contrôle",
+          "text_nl": "Een andere route nemen om de controlepost te vermijden",
+          "text_ru": "Взять другой маршрут, чтобы избежать поста контроля",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit s'arrêter au poste de contrôle pour obtenir l'autorisation.",
+      "explanation_nl": "De bestuurder moet stoppen bij de controlepost om de vergunning te krijgen.",
+      "explanation_ru": "Водитель должен остановиться на посту контроля для получения разрешения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "9a8c9f98168e",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:33:04Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

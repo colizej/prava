@@ -26,7 +26,304 @@
   "anchor_id_fr": "ymkryepsiy",
   "anchor_id_nl": "cnxljigazb",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la condition pour conduire un véhicule après une déchéance du droit de conduire ?",
+      "text_nl": "Wat is de voorwaarde om een voertuig te besturen na een verval van het recht tot sturen?",
+      "text_ru": "Каково условие для управления транспортным средством после лишения права управления?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avoir payé une amende",
+          "text_nl": "Een boete te hebben betaald",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Avoir suivi la formation ou satisfait à l'examen imposé",
+          "text_nl": "De opgelegde opleiding te hebben gevolgd of geslaagd te zijn voor het opgelegde examen",
+          "text_ru": "Пройти обучение или сдать экзамен",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avoir attendu un certain délai",
+          "text_nl": "Een bepaalde periode te hebben gewacht",
+          "text_ru": "Подождать определенный срок",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La condition pour conduire un véhicule après une déchéance du droit de conduire est d'avoir suivi la formation ou satisfait à l'examen imposé.",
+      "explanation_nl": "De voorwaarde om een voertuig te besturen na een verval van het recht tot sturen is de opgelegde opleiding te hebben gevolgd of geslaagd te zijn voor het opgelegde examen.",
+      "explanation_ru": "Условие для управления транспортным средством после лишения права управления - пройти обучение или сдать экзамен."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui arrête l'organisation et les modalités de la formation ou de l'examen ?",
+      "text_nl": "Wie bepaalt de organisatie en de nadere regels van de opleiding of het examen?",
+      "text_ru": "Кто определяет организацию и порядок обучения или экзамена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur",
+          "text_nl": "De bestuurder",
+          "text_ru": "Водитель",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi",
+          "text_nl": "De Koning",
+          "text_ru": "Король",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'Etat",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Roi arrête l'organisation et les modalités de la formation ou de l'examen.",
+      "explanation_nl": "De Koning bepaalt de organisatie en de nadere regels van de opleiding of het examen.",
+      "explanation_ru": "Король определяет организацию и порядок обучения или экзамена."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'objectif de la formation ou de l'examen imposé après une déchéance du droit de conduire ?",
+      "text_nl": "Wat is het doel van de opgelegde opleiding of het opgelegde examen na een verval van het recht tot sturen?",
+      "text_ru": "Какова цель обучения или экзамена, назначенного после лишения права управления?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De punir le conducteur",
+          "text_nl": "De bestuurder te straffen",
+          "text_ru": "Наказать водителя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De vérifier les compétences du conducteur",
+          "text_nl": "De vaardigheden van de bestuurder te controleren",
+          "text_ru": "Проверить навыки водителя",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "De réduire les coûts",
+          "text_nl": "De kosten te verminderen",
+          "text_ru": "Снизить затраты",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'objectif de la formation ou de l'examen imposé après une déchéance du droit de conduire est de vérifier les compétences du conducteur.",
+      "explanation_nl": "Het doel van de opgelegde opleiding of het opgelegde examen na een verval van het recht tot sturen is de vaardigheden van de bestuurder te controleren.",
+      "explanation_ru": "Цель обучения или экзамена, назначенного после лишения права управления, - проверить навыки водителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour une période de 6 mois. Quelle est la condition pour qu'il puisse reconduire un véhicule après cette période ?",
+      "text_nl": "Een bestuurder is voor een periode van 6 maanden het recht tot sturen ontzegd. Wat is de voorwaarde om na deze periode weer een voertuig te mogen besturen?",
+      "text_ru": "Водитель был лишен права управления на 6 месяцев. Какое условие должно быть выполнено, чтобы он мог снова управлять транспортным средством после этого срока?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avoir payé une amende",
+          "text_nl": "Een boete te hebben betaald",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Avoir suivi la formation ou satisfait à l'examen imposé",
+          "text_nl": "De opgelegde opleiding te hebben gevolgd of geslaagd te zijn voor het opgelegde examen",
+          "text_ru": "Пройти обучение или сдать экзамен",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avoir attendu un certain délai",
+          "text_nl": "Een bepaalde periode te hebben gewacht",
+          "text_ru": "Подождать определенный срок",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La condition pour qu'un conducteur puisse reconduire un véhicule après une période de déchéance est d'avoir suivi la formation ou satisfait à l'examen imposé.",
+      "explanation_nl": "De voorwaarde om na een periode van verval van het recht tot sturen weer een voertuig te mogen besturen is de opgelegde opleiding te hebben gevolgd of geslaagd te zijn voor het opgelegde examen.",
+      "explanation_ru": "Условие, чтобы водитель мог снова управлять транспортным средством после срока лишения права управления, - пройти обучение или сдать экзамен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour une période de 3 mois. Qui décide de l'organisation et des modalités de la formation ou de l'examen ?",
+      "text_nl": "Een bestuurder is voor een periode van 3 maanden het recht tot sturen ontzegd. Wie bepaalt de organisatie en de nadere regels van de opleiding of het examen?",
+      "text_ru": "Водитель был лишен права управления на 3 месяца. Кто определяет организацию и порядок обучения или экзамена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur",
+          "text_nl": "De bestuurder",
+          "text_ru": "Водитель",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi",
+          "text_nl": "De Koning",
+          "text_ru": "Король",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'Etat",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Roi décide de l'organisation et des modalités de la formation ou de l'examen.",
+      "explanation_nl": "De Koning bepaalt de organisatie en de nadere regels van de opleiding of het examen.",
+      "explanation_ru": "Король определяет организацию и порядок обучения или экзамена."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a suivi la formation imposée après une déchéance de son droit de conduire. Quel est l'objectif de cette formation ?",
+      "text_nl": "Een bestuurder heeft de opgelegde opleiding gevolgd na een verval van zijn recht tot sturen. Wat is het doel van deze opleiding?",
+      "text_ru": "Водитель прошел обучение, назначенное после лишения права управления. Какова цель этого обучения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De punir le conducteur",
+          "text_nl": "De bestuurder te straffen",
+          "text_ru": "Наказать водителя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De vérifier les compétences du conducteur",
+          "text_nl": "De vaardigheden van de bestuurder te controleren",
+          "text_ru": "Проверить навыки водителя",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "De réduire les coûts",
+          "text_nl": "De kosten te verminderen",
+          "text_ru": "Снизить затраты",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'objectif de la formation imposée après une déchéance du droit de conduire est de vérifier les compétences du conducteur.",
+      "explanation_nl": "Het doel van de opgelegde opleiding na een verval van het recht tot sturen is de vaardigheden van de bestuurder te controleren.",
+      "explanation_ru": "Цель обучения, назначенного после лишения права управления, - проверить навыки водителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour une période de 1 an. Quelle est la condition pour qu'il puisse reconduire un véhicule après cette période ?",
+      "text_nl": "Een bestuurder is voor een periode van 1 jaar het recht tot sturen ontzegd. Wat is de voorwaarde om na deze periode weer een voertuig te mogen besturen?",
+      "text_ru": "Водитель был лишен права управления на 1 год. Какое условие должно быть выполнено, чтобы он мог снова управлять транспортным средством после этого срока?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avoir payé une amende",
+          "text_nl": "Een boete te hebben betaald",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Avoir suivi la formation ou satisfait à l'examen imposé",
+          "text_nl": "De opgelegde opleiding te hebben gevolgd of geslaagd te zijn voor het opgelegde examen",
+          "text_ru": "Пройти обучение или сдать экзамен",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avoir attendu un certain délai",
+          "text_nl": "Een bepaalde periode te hebben gewacht",
+          "text_ru": "Подождать определенный срок",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La condition pour qu'un conducteur puisse reconduire un véhicule après une période de déchéance est d'avoir suivi la formation ou satisfait à l'examen imposé.",
+      "explanation_nl": "De voorwaarde om na een periode van verval van het recht tot sturen weer een voertuig te mogen besturen is de opgelegde opleiding te hebben gevolgd of geslaagd te zijn voor het opgelegde examen.",
+      "explanation_ru": "Условие, чтобы водитель мог снова управлять транспортным средством после срока лишения права управления, - пройти обучение или сдать экзамен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a satisfait à l'examen imposé après une déchéance de son droit de conduire. Quel est l'objectif de cet examen ?",
+      "text_nl": "Een bestuurder is geslaagd voor het opgelegde examen na een verval van zijn recht tot sturen. Wat is het doel van dit examen?",
+      "text_ru": "Водитель сдал экзамен, назначенный после лишения права управления. Какова цель этого экзамена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De punir le conducteur",
+          "text_nl": "De bestuurder te straffen",
+          "text_ru": "Наказать водителя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De vérifier les compétences du conducteur",
+          "text_nl": "De vaardigheden van de bestuurder te controleren",
+          "text_ru": "Проверить навыки водителя",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "De réduire les coûts",
+          "text_nl": "De kosten te verminderen",
+          "text_ru": "Снизить затраты",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'objectif de l'examen imposé après une déchéance du droit de conduire est de vérifier les compétences du conducteur.",
+      "explanation_nl": "Het doel van het opgelegde examen na een verval van het recht tot sturen is de vaardigheden van de bestuurder te controleren.",
+      "explanation_ru": "Цель экзамена, назначенного после лишения права управления, - проверить навыки водителя."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "74993ba370f3",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:35:57Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

@@ -31,7 +31,304 @@
   "anchor_id_fr": "hbeegeqefa",
   "anchor_id_nl": "wkqx8pejyb",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que la déchéance du droit de conduire un véhicule à moteur ?",
+      "text_nl": "Wat is het verval van het recht tot het besturen van een motorvoertuig ?",
+      "text_ru": "Что такое лишение права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende pour infraction routière",
+          "text_nl": "Een boete voor een verkeersovertreding",
+          "text_ru": "Штраф за нарушение правил дорожного движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une suspension ou une annulation du permis de conduire",
+          "text_nl": "Een schorsing of intrekking van het rijbewijs",
+          "text_ru": "Приостановление или лишение водительских прав",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un avertissement pour excès de vitesse",
+          "text_nl": "Een waarschuwing voor excessieve snelheid",
+          "text_ru": "Предупреждение за превышение скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire un véhicule à moteur est une mesure qui peut être prise à l'encontre d'un conducteur qui a commis une infraction routière grave.",
+      "explanation_nl": "Het verval van het recht tot het besturen van een motorvoertuig is een maatregel die kan worden genomen tegen een bestuurder die een ernstige verkeersovertreding heeft begaan.",
+      "explanation_ru": "Лишение права управления транспортным средством - это мера, которая может быть принята в отношении водителя, совершившего серьезное нарушение правил дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les conditions pour que la déchéance du droit de conduire soit prononcée ?",
+      "text_nl": "Wat zijn de voorwaarden voor het uitspreken van het verval van het recht tot het besturen van een motorvoertuig ?",
+      "text_ru": "Какие условия должны быть выполнены для лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une condamnation pour infraction routière",
+          "text_nl": "Een veroordeling voor een verkeersovertreding",
+          "text_ru": "Приговор за нарушение правил дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un accident de la circulation avec blessés graves",
+          "text_nl": "Een verkeersongeval met zwaargewonde personen",
+          "text_ru": "Дорожно-транспортное происшествие с тяжелыми травмами",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende pour excès de vitesse",
+          "text_nl": "Een boete voor excessieve snelheid",
+          "text_ru": "Штраф за превышение скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire peut être prononcée en cas de condamnation pour infraction routière grave.",
+      "explanation_nl": "Het verval van het recht tot het besturen van een motorvoertuig kan worden uitgesproken in geval van een veroordeling voor een ernstige verkeersovertreding.",
+      "explanation_ru": "Лишение права управления транспортным средством может быть применено в случае приговора за серьезное нарушение правил дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce que la réintégration dans le droit de conduire ?",
+      "text_nl": "Wat is het herstel in het recht tot het besturen van een motorvoertuig ?",
+      "text_ru": "Что такое восстановление права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une procédure pour récupérer le permis de conduire après une déchéance",
+          "text_nl": "Een procedure om het rijbewijs terug te krijgen na een verval",
+          "text_ru": "Процедура восстановления водительских прав после лишения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un examen pour obtenir le permis de conduire pour la première fois",
+          "text_nl": "Een examen om voor het eerst een rijbewijs te krijgen",
+          "text_ru": "Экзамен на получение водительских прав впервые",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une formation pour améliorer les compétences de conduite",
+          "text_nl": "Een opleiding om de vaardigheden van het besturen te verbeteren",
+          "text_ru": "Курс повышения квалификации вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La réintégration dans le droit de conduire est une procédure qui permet à un conducteur de récupérer son permis de conduire après une déchéance.",
+      "explanation_nl": "Het herstel in het recht tot het besturen van een motorvoertuig is een procedure die het mogelijk maakt voor een bestuurder om zijn rijbewijs terug te krijgen na een verval.",
+      "explanation_ru": "Восстановление права управления транспортным средством - это процедура, которая позволяет водителю восстановить свои водительские права после лишения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a commis une infraction routière grave. Quelle est la mesure la plus probable à prendre à son encontre ?",
+      "text_nl": "Een bestuurder heeft een ernstige verkeersovertreding begaan. Wat is de meest waarschijnlijke maatregel die tegen hem wordt genomen ?",
+      "text_ru": "Водитель совершил серьезное нарушение правил дорожного движения. Какая мера наиболее вероятна в отношении него?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende pour infraction routière",
+          "text_nl": "Een boete voor een verkeersovertreding",
+          "text_ru": "Штраф за нарушение правил дорожного движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une déchéance du droit de conduire",
+          "text_nl": "Een verval van het recht tot het besturen van een motorvoertuig",
+          "text_ru": "Лишение права управления транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un avertissement pour excès de vitesse",
+          "text_nl": "Een waarschuwing voor excessieve snelheid",
+          "text_ru": "Предупреждение за превышение скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est une mesure qui peut être prise à l'encontre d'un conducteur qui a commis une infraction routière grave.",
+      "explanation_nl": "Het verval van het recht tot het besturen van een motorvoertuig is een maatregel die kan worden genomen tegen een bestuurder die een ernstige verkeersovertreding heeft begaan.",
+      "explanation_ru": "Лишение права управления транспортным средством - это мера, которая может быть применена в отношении водителя, совершившего серьезное нарушение правил дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné pour infraction routière. Quelle est la condition pour que la déchéance du droit de conduire soit levée ?",
+      "text_nl": "Een bestuurder is veroordeeld voor een verkeersovertreding. Wat is de voorwaarde voor het opheffen van het verval van het recht tot het besturen van een motorvoertuig ?",
+      "text_ru": "Водитель был приговорен за нарушение правил дорожного движения. Какое условие необходимо для снятия лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le paiement d'une amende",
+          "text_nl": "De betaling van een boete",
+          "text_ru": "Оплата штрафа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La réussite d'un examen de conduite",
+          "text_nl": "Het slagen voor een rijexamen",
+          "text_ru": "Сдача экзамена на право вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La participation à un cours de conduite",
+          "text_nl": "De deelname aan een rijschool",
+          "text_ru": "Посещение курсов вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire peut être levée si le conducteur réussit un examen de conduite.",
+      "explanation_nl": "Het verval van het recht tot het besturen van een motorvoertuig kan worden opgeheven als de bestuurder slaagt voor een rijexamen.",
+      "explanation_ru": "Лишение права управления транспортным средством может быть снято, если водитель сдает экзамен на право вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a été condamné pour infraction routière grave. Quelle est la durée minimale de la déchéance du droit de conduire ?",
+      "text_nl": "Een bestuurder is veroordeeld voor een ernstige verkeersovertreding. Wat is de minimale duur van het verval van het recht tot het besturen van een motorvoertuig ?",
+      "text_ru": "Водитель был приговорен за серьезное нарушение правил дорожного движения. Каков минимальный срок лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "1 mois",
+          "text_nl": "1 maand",
+          "text_ru": "1 месяц",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "3 mois",
+          "text_nl": "3 maanden",
+          "text_ru": "3 месяца",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "6 mois",
+          "text_nl": "6 maanden",
+          "text_ru": "6 месяцев",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire peut être prononcée pour une durée minimale de 3 mois.",
+      "explanation_nl": "Het verval van het recht tot het besturen van een motorvoertuig kan worden uitgesproken voor een minimale duur van 3 maanden.",
+      "explanation_ru": "Лишение права управления транспортным средством может быть применено на минимальный срок 3 месяца."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a commis une infraction routière. Quelle est la mesure la plus probable à prendre à son encontre si c'est sa première infraction ?",
+      "text_nl": "Een bestuurder heeft een verkeersovertreding begaan. Wat is de meest waarschijnlijke maatregel die tegen hem wordt genomen als het zijn eerste overtreding is ?",
+      "text_ru": "Водитель совершил нарушение правил дорожного движения. Какая мера наиболее вероятна в отношении него, если это его первое нарушение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une déchéance du droit de conduire",
+          "text_nl": "Een verval van het recht tot het besturen van een motorvoertuig",
+          "text_ru": "Лишение права управления транспортным средством",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende pour infraction routière",
+          "text_nl": "Een boete voor een verkeersovertreding",
+          "text_ru": "Штраф за нарушение правил дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un avertissement pour excès de vitesse",
+          "text_nl": "Een waarschuwing voor excessieve snelheid",
+          "text_ru": "Предупреждение за превышение скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La mesure la plus probable à prendre à l'encontre d'un conducteur qui a commis une infraction routière pour la première fois est une amende pour infraction routière.",
+      "explanation_nl": "De meest waarschijnlijke maatregel die tegen een bestuurder wordt genomen die voor het eerst een verkeersovertreding heeft begaan, is een boete voor een verkeersovertreding.",
+      "explanation_ru": "Самая вероятная мера, принимаемая в отношении водителя, совершившего нарушение правил дорожного движения впервые, - это штраф за нарушение правил дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné pour infraction routière grave. Quelle est la condition pour que la déchéance du droit de conduire soit levée si c'est sa deuxième infraction ?",
+      "text_nl": "Een bestuurder is veroordeeld voor een ernstige verkeersovertreding. Wat is de voorwaarde voor het opheffen van het verval van het recht tot het besturen van een motorvoertuig als het zijn tweede overtreding is ?",
+      "text_ru": "Водитель был приговорен за серьезное нарушение правил дорожного движения. Какое условие необходимо для снятия лишения права управления транспортным средством, если это его второе нарушение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le paiement d'une amende",
+          "text_nl": "De betaling van een boete",
+          "text_ru": "Оплата штрафа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La réussite d'un examen de conduite et d'un examen médical",
+          "text_nl": "Het slagen voor een rijexamen en een medisch onderzoek",
+          "text_ru": "Сдача экзамена на право вождения и медицинского осмотра",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La participation à un cours de conduite et à un cours de sécurité routière",
+          "text_nl": "De deelname aan een rijschool en een verkeersveiligheidscursus",
+          "text_ru": "Посещение курсов вождения и курсов безопасности дорожного движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire peut être levée si le conducteur réussit un examen de conduite et un examen médical.",
+      "explanation_nl": "Het verval van het recht tot het besturen van een motorvoertuig kan worden opgeheven als de bestuurder slaagt voor een rijexamen en een medisch onderzoek.",
+      "explanation_ru": "Лишение права управления транспортным средством может быть снято, если водитель сдает экзамен на право вождения и медицинский осмотр."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "4fc3dfcbe2c0",
@@ -41,6 +338,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:32:43Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

@@ -26,7 +26,304 @@
   "anchor_id_fr": "r9t6ybftks",
   "anchor_id_nl": "s5ay98ed1u",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la sanction pour ne pas restituer son permis de conduire après une déchéance du droit de conduire ?",
+      "text_nl": "Wat is de sanctie voor het niet inleveren van het rijbewijs na een verval van het recht op sturen?",
+      "text_ru": "Какое наказание за не возврат водительских прав после лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 100 euros à 1.000 euros",
+          "text_nl": "Een geldboete van 100 euro tot 1000 euro",
+          "text_ru": "Штраф в размере 100 евро до 1.000 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende de 200 euros à 2.000 euros",
+          "text_nl": "Een geldboete van 200 euro tot 2000 euro",
+          "text_ru": "Штраф в размере 200 евро до 2.000 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende de 500 euros à 5.000 euros",
+          "text_nl": "Een geldboete van 500 euro tot 5000 euro",
+          "text_ru": "Штраф в размере 500 евро до 5.000 евро",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La sanction pour ne pas restituer son permis de conduire après une déchéance du droit de conduire est une amende de 200 euros à 2.000 euros.",
+      "explanation_nl": "De sanctie voor het niet inleveren van het rijbewijs na een verval van het recht op sturen is een geldboete van 200 euro tot 2000 euro.",
+      "explanation_ru": "Наказание за не возврат водительских прав после лишения права управления транспортным средством - штраф в размере 200 евро до 2.000 евро."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui peut réduire l'amende pour non-restitution du permis de conduire ?",
+      "text_nl": "Wat kan de geldboete voor het niet inleveren van het rijbewijs verminderen?",
+      "text_ru": "Что может уменьшить штраф за не возврат водительских прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des circonstances aggravantes",
+          "text_nl": "Verzwarende omstandigheden",
+          "text_ru": "Отягчающие обстоятельства",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des circonstances atténuantes",
+          "text_nl": "Verzachtende omstandigheden",
+          "text_ru": "Смягчающие обстоятельства",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des témoignages de tiers",
+          "text_nl": "Getuigenissen van derden",
+          "text_ru": "Показания третьих лиц",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Des circonstances atténuantes peuvent réduire l'amende pour non-restitution du permis de conduire.",
+      "explanation_nl": "Verzachtende omstandigheden kunnen de geldboete voor het niet inleveren van het rijbewijs verminderen.",
+      "explanation_ru": "Смягчающие обстоятельства могут уменьшить штраф за не возврат водительских прав."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qui se passe en cas de récidive dans les trois ans après un jugement antérieur ?",
+      "text_nl": "Wat gebeurt er bij herhaling binnen drie jaar na een vorige veroordeling?",
+      "text_ru": "Что происходит в случае рецидива в течение трех лет после предыдущего приговора?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'amende est réduite de moitié",
+          "text_nl": "De geldboete wordt met de helft verminderd",
+          "text_ru": "Штраф уменьшается вдвое",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'amende est doublée",
+          "text_nl": "De geldboete wordt verdubbeld",
+          "text_ru": "Штраф увеличивается вдвое",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'amende reste la même",
+          "text_nl": "De geldboete blijft hetzelfde",
+          "text_ru": "Штраф остается тем же",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de récidive dans les trois ans après un jugement antérieur, l'amende est doublée.",
+      "explanation_nl": "Bij herhaling binnen drie jaar na een vorige veroordeling wordt de geldboete verdubbeld.",
+      "explanation_ru": "В случае рецидива в течение трех лет после предыдущего приговора штраф увеличивается вдвое."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez reçu une déchéance du droit de conduire. Qu'est-ce que vous devez faire avec votre permis de conduire ?",
+      "text_nl": "U hebt een verval van het recht op sturen ontvangen. Wat moet u doen met uw rijbewijs?",
+      "text_ru": "Вам было аннулировано право управления транспортным средством. Что вы должны сделать со своим водительским удостоверением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conserver pour des besoins personnels",
+          "text_nl": "Het voor persoonlijke doeleinden bewaren",
+          "text_ru": "Сохранить его для личных нужд",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le restituer dans les délais fixés par le Roi",
+          "text_nl": "Het binnen de door de Koning bepaalde termijn inleveren",
+          "text_ru": "Вернуть его в срок, установленный Королем",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le détruire pour éviter les problèmes",
+          "text_nl": "Het vernietigen om problemen te voorkomen",
+          "text_ru": "Уничтожить его, чтобы избежать проблем",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez restituer votre permis de conduire dans les délais fixés par le Roi.",
+      "explanation_nl": "U moet uw rijbewijs binnen de door de Koning bepaalde termijn inleveren.",
+      "explanation_ru": "Вы должны вернуть свое водительское удостоверение в срок, установленный Королем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un ami a reçu une amende pour non-restitution de son permis de conduire. Que peut-il faire pour réduire l'amende ?",
+      "text_nl": "Een vriend heeft een geldboete ontvangen voor het niet inleveren van zijn rijbewijs. Wat kan hij doen om de geldboete te verminderen?",
+      "text_ru": "Друг получил штраф за не возврат водительских прав. Что он может сделать, чтобы уменьшить штраф?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Contester la décision du juge",
+          "text_nl": "De beslissing van de rechter betwisten",
+          "text_ru": "Оспорить решение судьи",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Fournir des preuves de circonstances atténuantes",
+          "text_nl": "Bewijs van verzachtende omstandigheden leveren",
+          "text_ru": "Предоставить доказательства смягчающих обстоятельств",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer l'amende immédiatement",
+          "text_nl": "De geldboete meteen betalen",
+          "text_ru": "Оплатить штраф немедленно",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il peut fournir des preuves de circonstances atténuantes pour réduire l'amende.",
+      "explanation_nl": "Hij kan bewijs van verzachtende omstandigheden leveren om de geldboete te verminderen.",
+      "explanation_ru": "Он может предоставить доказательства смягчающих обстоятельств, чтобы уменьшить штраф."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez reçu une déchéance du droit de conduire et vous avez déjà été condamné pour le même délit il y a deux ans. Qu'est-ce qui se passe avec l'amende ?",
+      "text_nl": "U hebt een verval van het recht op sturen ontvangen en u bent al eerder veroordeeld voor hetzelfde delict, twee jaar geleden. Wat gebeurt er met de geldboete?",
+      "text_ru": "Вам было аннулировано право управления транспортным средством, и вы уже были осуждены за то же преступление два года назад. Что происходит с штрафом?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'amende est réduite de moitié",
+          "text_nl": "De geldboete wordt met de helft verminderd",
+          "text_ru": "Штраф уменьшается вдвое",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'amende est doublée",
+          "text_nl": "De geldboete wordt verdubbeld",
+          "text_ru": "Штраф увеличивается вдвое",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'amende reste la même",
+          "text_nl": "De geldboete blijft hetzelfde",
+          "text_ru": "Штраф остается тем же",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'amende est doublée car il s'agit d'une récidive dans les trois ans.",
+      "explanation_nl": "De geldboete wordt verdubbeld omdat het een herhaling is binnen drie jaar.",
+      "explanation_ru": "Штраф увеличивается вдвое, поскольку это повторное преступление в течение трех лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a reçu une déchéance du droit de conduire et il doit restituer son permis de conduire. Quel est le délai pour le faire ?",
+      "text_nl": "Een bestuurder heeft een verval van het recht op sturen ontvangen en hij moet zijn rijbewijs inleveren. Wat is de termijn om dit te doen?",
+      "text_ru": "Водитель получил аннулирование права управления транспортным средством и он должен вернуть свое водительское удостоверение. Какой срок для этого?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un délai de 15 jours",
+          "text_nl": "Een termijn van 15 dagen",
+          "text_ru": "Срок 15 дней",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un délai fixé par le Roi",
+          "text_nl": "Een termijn bepaald door de Koning",
+          "text_ru": "Срок, установленный Королем",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un délai de 30 jours",
+          "text_nl": "Een termijn van 30 dagen",
+          "text_ru": "Срок 30 дней",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai pour restituer le permis de conduire est fixé par le Roi.",
+      "explanation_nl": "De termijn om het rijbewijs in te leveren wordt bepaald door de Koning.",
+      "explanation_ru": "Срок для возврата водительского удостоверения устанавливается Королем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a reçu une amende pour non-restitution de son permis de conduire. Qu'est-ce qu'il peut faire pour éviter de nouvelles amendes ?",
+      "text_nl": "Een bestuurder heeft een geldboete ontvangen voor het niet inleveren van zijn rijbewijs. Wat kan hij doen om te voorkomen dat hij nog meer geldboetes krijgt?",
+      "text_ru": "Водитель получил штраф за не возврат водительских прав. Что он может сделать, чтобы избежать новых штрафов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Contester la décision du juge",
+          "text_nl": "De beslissing van de rechter betwisten",
+          "text_ru": "Оспорить решение судьи",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Restituer son permis de conduire dans les délais fixés",
+          "text_nl": "Zijn rijbewijs binnen de bepaalde termijn inleveren",
+          "text_ru": "Вернуть водительское удостоверение в установленный срок",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer l'amende immédiatement",
+          "text_nl": "De geldboete meteen betalen",
+          "text_ru": "Оплатить штраф немедленно",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il peut restituer son permis de conduire dans les délais fixés pour éviter de nouvelles amendes.",
+      "explanation_nl": "Hij kan zijn rijbewijs binnen de bepaalde termijn inleveren om te voorkomen dat hij nog meer geldboetes krijgt.",
+      "explanation_ru": "Он может вернуть водительское удостоверение в установленный срок, чтобы избежать новых штрафов."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "298a35ac4586",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:36:23Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

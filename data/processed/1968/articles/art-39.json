@@ -26,7 +26,304 @@
   "anchor_id_fr": "nmm122wnzv",
   "anchor_id_nl": "dvtpbnhnj2",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qui se passe si plusieurs infractions sont commises en même temps et que les peines prévues ne sont pas appliquées ?",
+      "text_nl": "Wat gebeurt er als meerdere overtredingen tegelijk worden gepleegd en de voorgeschreven straffen niet worden uitgesproken?",
+      "text_ru": "Что происходит, если несколько правонарушений совершены одновременно и предусмотренные наказания не применяются?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance du droit de conduire n'est pas possible",
+          "text_nl": "Het verval van het recht tot sturen is niet mogelijk",
+          "text_ru": "Лишение права управления транспортным средством невозможно",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance du droit de conduire est toujours possible",
+          "text_nl": "Het verval van het recht tot sturen is altijd mogelijk",
+          "text_ru": "Лишение права управления транспортным средством всегда возможно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance du droit de conduire dépend des circonstances",
+          "text_nl": "Het verval van het recht tot sturen hangt af van de omstandigheden",
+          "text_ru": "Лишение права управления транспортным средством зависит от обстоятельств",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est toujours possible, même si les peines prévues ne sont pas appliquées, dans les conditions déterminées par la loi.",
+      "explanation_nl": "Het verval van het recht tot sturen is altijd mogelijk, zelfs als de voorgeschreven straffen niet worden uitgesproken, onder de voorwaarden zoals bepaald in de wet.",
+      "explanation_ru": "Лишение права управления транспортным средством всегда возможно, даже если предусмотренные наказания не применяются, в условиях, определенных законом."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que la déchéance du droit de conduire ?",
+      "text_nl": "Wat is het verval van het recht tot sturen?",
+      "text_ru": "Что такое лишение права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende",
+          "text_nl": "Een boete",
+          "text_ru": "Штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une peine privative de liberté",
+          "text_nl": "Een vrijheidsstraf",
+          "text_ru": "Лишение свободы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La perte du droit de conduire un véhicule",
+          "text_nl": "Het verlies van het recht tot sturen van een voertuig",
+          "text_ru": "Лишение права управления транспортным средством",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire signifie la perte du droit de conduire un véhicule.",
+      "explanation_nl": "Het verval van het recht tot sturen betekent het verlies van het recht tot sturen van een voertuig.",
+      "explanation_ru": "Лишение права управления транспортным средством означает потерю права управлять транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les conditions pour que la déchéance du droit de conduire soit appliquée ?",
+      "text_nl": "Wat zijn de voorwaarden voor het verval van het recht tot sturen?",
+      "text_ru": "Какие условия необходимы для применения лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La gravité de l'infraction",
+          "text_nl": "De ernst van de overtreding",
+          "text_ru": "Тяжесть правонарушения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La récidive de l'infraction",
+          "text_nl": "De herhaling van de overtreding",
+          "text_ru": "Повторение правонарушения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La présence d'un avocat",
+          "text_nl": "De aanwezigheid van een advocaat",
+          "text_ru": "Наличие адвоката",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est appliquée en fonction de la gravité de l'infraction, dans les conditions déterminées par la loi.",
+      "explanation_nl": "Het verval van het recht tot sturen wordt toegepast op basis van de ernst van de overtreding, onder de voorwaarden zoals bepaald in de wet.",
+      "explanation_ru": "Лишение права управления транспортным средством применяется в зависимости от тяжести правонарушения, в условиях, определенных законом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a commis plusieurs infractions routières en même temps. Qu'est-ce qui se passe si les peines prévues ne sont pas appliquées ?",
+      "text_nl": "Een bestuurder heeft meerdere verkeersovertredingen tegelijk gepleegd. Wat gebeurt er als de voorgeschreven straffen niet worden uitgesproken?",
+      "text_ru": "Водитель совершил несколько правонарушений на дороге одновременно. Что происходит, если предусмотренные наказания не применяются?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance du droit de conduire n'est pas possible",
+          "text_nl": "Het verval van het recht tot sturen is niet mogelijk",
+          "text_ru": "Лишение права управления транспортным средством невозможно",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance du droit de conduire est toujours possible",
+          "text_nl": "Het verval van het recht tot sturen is altijd mogelijk",
+          "text_ru": "Лишение права управления транспортным средством всегда возможно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance du droit de conduire dépend des circonstances",
+          "text_nl": "Het verval van het recht tot sturen hangt af van de omstandigheden",
+          "text_ru": "Лишение права управления транспортным средством зависит от обстоятельств",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est toujours possible, même si les peines prévues ne sont pas appliquées, dans les conditions déterminées par la loi.",
+      "explanation_nl": "Het verval van het recht tot sturen is altijd mogelijk, zelfs als de voorgeschreven straffen niet worden uitgesproken, onder de voorwaarden zoals bepaald in de wet.",
+      "explanation_ru": "Лишение права управления транспортным средством всегда возможно, даже если предусмотренные наказания не применяются, в условиях, определенных законом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été condamné pour une infraction routière. Qu'est-ce qui peut se passer si la peine prévue n'est pas appliquée ?",
+      "text_nl": "Een bestuurder is veroordeeld voor een verkeersovertreding. Wat kan er gebeuren als de voorgeschreven straf niet wordt uitgesproken?",
+      "text_ru": "Водитель был осужден за правонарушение на дороге. Что может произойти, если предусмотренное наказание не применяется?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance du droit de conduire est automatique",
+          "text_nl": "Het verval van het recht tot sturen is automatisch",
+          "text_ru": "Лишение права управления транспортным средством автоматическое",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance du droit de conduire est possible",
+          "text_nl": "Het verval van het recht tot sturen is mogelijk",
+          "text_ru": "Лишение права управления транспортным средством возможно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance du droit de conduire n'est pas possible",
+          "text_nl": "Het verval van het recht tot sturen is niet mogelijk",
+          "text_ru": "Лишение права управления транспортным средством невозможно",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est possible, même si la peine prévue n'est pas appliquée, dans les conditions déterminées par la loi.",
+      "explanation_nl": "Het verval van het recht tot sturen is mogelijk, zelfs als de voorgeschreven straf niet wordt uitgesproken, onder de voorwaarden zoals bepaald in de wet.",
+      "explanation_ru": "Лишение права управления транспортным средством возможно, даже если предусмотренное наказание не применяется, в условиях, определенных законом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a commis une infraction routière grave. Qu'est-ce qui se passe si la peine prévue est très sévère ?",
+      "text_nl": "Een bestuurder heeft een ernstige verkeersovertreding gepleegd. Wat gebeurt er als de voorgeschreven straf zeer zwaar is?",
+      "text_ru": "Водитель совершил серьезное правонарушение на дороге. Что происходит, если предусмотренное наказание очень строгое?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance du droit de conduire est automatique",
+          "text_nl": "Het verval van het recht tot sturen is automatisch",
+          "text_ru": "Лишение права управления транспортным средством автоматическое",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance du droit de conduire est possible",
+          "text_nl": "Het verval van het recht tot sturen is mogelijk",
+          "text_ru": "Лишение права управления транспортным средством возможно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance du droit de conduire n'est pas possible",
+          "text_nl": "Het verval van het recht tot sturen is niet mogelijk",
+          "text_ru": "Лишение права управления транспортным средством невозможно",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est possible, même si la peine prévue est très sévère, dans les conditions déterminées par la loi.",
+      "explanation_nl": "Het verval van het recht tot sturen is mogelijk, zelfs als de voorgeschreven straf zeer zwaar is, onder de voorwaarden zoals bepaald in de wet.",
+      "explanation_ru": "Лишение права управления транспортным средством возможно, даже если предусмотренное наказание очень строгое, в условиях, определенных законом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné pour une infraction routière. Qu'est-ce qui se passe si la peine prévue n'est pas appliquée ?",
+      "text_nl": "Een bestuurder is veroordeeld voor een verkeersovertreding. Wat gebeurt er als de voorgeschreven straf niet wordt uitgesproken?",
+      "text_ru": "Водитель был осужден за правонарушение на дороге. Что происходит, если предусмотренное наказание не применяется?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance du droit de conduire est automatique",
+          "text_nl": "Het verval van het recht tot sturen is automatisch",
+          "text_ru": "Лишение права управления транспортным средством автоматическое",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance du droit de conduire est possible",
+          "text_nl": "Het verval van het recht tot sturen is mogelijk",
+          "text_ru": "Лишение права управления транспортным средством возможно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance du droit de conduire n'est pas possible",
+          "text_nl": "Het verval van het recht tot sturen is niet mogelijk",
+          "text_ru": "Лишение права управления транспортным средством невозможно",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est possible, même si la peine prévue n'est pas appliquée, dans les conditions déterminées par la loi.",
+      "explanation_nl": "Het verval van het recht tot sturen is mogelijk, zelfs als de voorgeschreven straf niet wordt uitgesproken, onder de voorwaarden zoals bepaald in de wet.",
+      "explanation_ru": "Лишение права управления транспортным средством возможно, даже если предусмотренное наказание не применяется, в условиях, определенных законом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a commis une infraction routière. Qu'est-ce qui peut se passer si la peine prévue est appliquée ?",
+      "text_nl": "Een bestuurder heeft een verkeersovertreding gepleegd. Wat kan er gebeuren als de voorgeschreven straf wordt uitgesproken?",
+      "text_ru": "Водитель совершил правонарушение на дороге. Что может произойти, если предусмотренное наказание применяется?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance du droit de conduire est automatique",
+          "text_nl": "Het verval van het recht tot sturen is automatisch",
+          "text_ru": "Лишение права управления транспортным средством автоматическое",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance du droit de conduire est possible",
+          "text_nl": "Het verval van het recht tot sturen is mogelijk",
+          "text_ru": "Лишение права управления транспортным средством возможно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance du droit de conduire n'est pas possible",
+          "text_nl": "Het verval van het recht tot sturen is niet mogelijk",
+          "text_ru": "Лишение права управления транспортным средством невозможно",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est possible, même si la peine prévue est appliquée, dans les conditions déterminées par la loi.",
+      "explanation_nl": "Het verval van het recht tot sturen is mogelijk, zelfs als de voorgeschreven straf wordt uitgesproken, onder de voorwaarden zoals bepaald in de wet.",
+      "explanation_ru": "Лишение права управления транспортным средством возможно, даже если предусмотренное наказание применяется, в условиях, определенных законом."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "cc56dd6e61e7",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:32:52Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

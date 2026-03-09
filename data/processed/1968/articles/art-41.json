@@ -26,7 +26,304 @@
   "anchor_id_fr": "vwxo1sl7y8",
   "anchor_id_nl": "qthij00xwd",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la durée minimale de la partie effective lorsqu'un juge prononce une déchéance du droit de conduire et souhaite faire application de certaines dispositions spécifiques ?",
+      "text_nl": "Wat is de minimale duur van het effectieve gedeelte wanneer een rechter een verval van het recht tot sturen uitspreekt en gebruik wenst te maken van bepaalde specifieke bepalingen ?",
+      "text_ru": "Какова минимальная продолжительность эффективной части, когда судья объявляет лишение права управления транспортным средством и хочет применить определенные специальные положения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Quatre jours",
+          "text_nl": "Vier dagen",
+          "text_ru": "Четыре дня",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Huit jours",
+          "text_nl": "Acht dagen",
+          "text_ru": "Восемь дней",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dix jours",
+          "text_nl": "Tien dagen",
+          "text_ru": "Десять дней",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée minimale de la partie effective est de huit jours.",
+      "explanation_nl": "De minimale duur van het effectieve gedeelte is acht dagen.",
+      "explanation_ru": "Минимальная продолжительность эффективной части составляет восемь дней."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une déchéance du droit de conduire ?",
+      "text_nl": "Wat is een verval van het recht tot sturen ?",
+      "text_ru": "Что такое лишение права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une suspension du permis de conduire",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Приостановление действия водительских прав",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une annulation du permis de conduire",
+          "text_nl": "Een intrekking van het rijbewijs",
+          "text_ru": "Аннулирование водительских прав",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une limitation de la vitesse",
+          "text_nl": "Een beperking van de snelheid",
+          "text_ru": "Ограничение скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une déchéance du droit de conduire est une annulation du permis de conduire.",
+      "explanation_nl": "Een verval van het recht tot sturen is een intrekking van het rijbewijs.",
+      "explanation_ru": "Лишение права управления транспортным средством является аннулированием водительских прав."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la condition requise pour que le juge impose une partie effective lorsqu'il prononce une déchéance du droit de conduire ?",
+      "text_nl": "Wat is de vereiste voorwaarde om de rechter een effectief gedeelte op te leggen wanneer hij een verval van het recht tot sturen uitspreekt ?",
+      "text_ru": "Каково требуемое условие для того, чтобы судья наложил эффективную часть, когда он объявляет лишение права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le juge doit avoir une certaine expérience",
+          "text_nl": "De rechter moet een bepaalde ervaring hebben",
+          "text_ru": "Судья должен иметь определенный опыт",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le juge doit faire application de certaines dispositions spécifiques",
+          "text_nl": "De rechter moet gebruik maken van bepaalde specifieke bepalingen",
+          "text_ru": "Судья должен применить определенные специальные положения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le juge doit avoir une certaine autorité",
+          "text_nl": "De rechter moet een bepaalde autoriteit hebben",
+          "text_ru": "Судья должен иметь определенный авторитет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le juge doit faire application de certaines dispositions spécifiques.",
+      "explanation_nl": "De rechter moet gebruik maken van bepaalde specifieke bepalingen.",
+      "explanation_ru": "Судья должен применить определенные специальные положения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour une durée de trois mois. Quelle est la conséquence pour ce conducteur ?",
+      "text_nl": "Een bestuurder is van zijn recht tot sturen voor drie maanden beroofd. Wat zijn de gevolgen voor deze bestuurder ?",
+      "text_ru": "Водитель был лишен права управления транспортным средством на три месяца. Каковы последствия для этого водителя?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il peut continuer à conduire avec certaines restrictions",
+          "text_nl": "Hij kan blijven rijden met bepaalde beperkingen",
+          "text_ru": "Он может продолжать водить транспортное средство с определенными ограничениями",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il ne peut plus conduire pendant trois mois",
+          "text_nl": "Hij kan drie maanden niet meer rijden",
+          "text_ru": "Он не может водить транспортное средство в течение трех месяцев",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il peut conduire uniquement la nuit",
+          "text_nl": "Hij kan alleen 's nachts rijden",
+          "text_ru": "Он может водить транспортное средство только ночью",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur ne peut plus conduire pendant trois mois.",
+      "explanation_nl": "De bestuurder kan drie maanden niet meer rijden.",
+      "explanation_ru": "Водитель не может водить транспортное средство в течение трех месяцев."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a reçu une déchéance du droit de conduire pour incapacité physique. Qu'est-ce que cela signifie pour ce conducteur ?",
+      "text_nl": "Een bestuurder heeft een verval van het recht tot sturen voor lichamelijke ongeschiktheid ontvangen. Wat betekent dit voor deze bestuurder ?",
+      "text_ru": "Водитель получил лишение права управления транспортным средством из-за физической нетрудоспособности. Что это значит для этого водителя?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il peut continuer à conduire avec certaines adaptations",
+          "text_nl": "Hij kan blijven rijden met bepaalde aanpassingen",
+          "text_ru": "Он может продолжать водить транспортное средство с определенными адаптациями",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il ne peut plus conduire en raison de son état de santé",
+          "text_nl": "Hij kan niet meer rijden vanwege zijn gezondheidstoestand",
+          "text_ru": "Он не может водить транспортное средство из-за своего состояния здоровья",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il peut conduire uniquement des véhicules spéciaux",
+          "text_nl": "Hij kan alleen speciale voertuigen besturen",
+          "text_ru": "Он может водить только специальные транспортные средства",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur ne peut plus conduire en raison de son état de santé.",
+      "explanation_nl": "De bestuurder kan niet meer rijden vanwege zijn gezondheidstoestand.",
+      "explanation_ru": "Водитель не может водить транспортное средство из-за своего состояния здоровья."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour une durée de six mois. Quelle est la procédure à suivre pour récupérer son permis de conduire ?",
+      "text_nl": "Een bestuurder is van zijn recht tot sturen voor zes maanden beroofd. Wat is de procedure om zijn rijbewijs terug te krijgen ?",
+      "text_ru": "Водитель был лишен права управления транспортным средством на шесть месяцев. Какой порядок действий необходимо выполнить, чтобы вернуть водительские права?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il doit suivre un cours de conduite",
+          "text_nl": "Hij moet een rijles volgen",
+          "text_ru": "Он должен пройти курс вождения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit passer un examen de conduite",
+          "text_nl": "Hij moet een rijexamen afleggen",
+          "text_ru": "Он должен сдать экзамен на вождение",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit attendre la fin de la période de déchéance et renouveler son permis de conduire",
+          "text_nl": "Hij moet wachten tot het einde van de periode van verval en zijn rijbewijs vernieuwen",
+          "text_ru": "Он должен дождаться окончания периода лишения и продлить водительские права",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le conducteur doit attendre la fin de la période de déchéance et renouveler son permis de conduire.",
+      "explanation_nl": "De bestuurder moet wachten tot het einde van de periode van verval en zijn rijbewijs vernieuwen.",
+      "explanation_ru": "Водитель должен дождаться окончания периода лишения и продлить водительские права."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a reçu une déchéance du droit de conduire pour une durée de un an. Quelle est la conséquence pour ce conducteur en termes de récupération de son permis de conduire ?",
+      "text_nl": "Een bestuurder heeft een verval van het recht tot sturen voor een jaar ontvangen. Wat zijn de gevolgen voor deze bestuurder in termen van het terugkrijgen van zijn rijbewijs ?",
+      "text_ru": "Водитель получил лишение права управления транспортным средством на один год. Каковы последствия для этого водителя в плане восстановления водительских прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il peut récupérer son permis de conduire après six mois",
+          "text_nl": "Hij kan zijn rijbewijs terugkrijgen na zes maanden",
+          "text_ru": "Он может восстановить водительские права через шесть месяцев",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit passer un examen de conduite pour récupérer son permis de conduire",
+          "text_nl": "Hij moet een rijexamen afleggen om zijn rijbewijs terug te krijgen",
+          "text_ru": "Он должен сдать экзамен на вождение, чтобы восстановить водительские права",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il ne peut pas récupérer son permis de conduire",
+          "text_nl": "Hij kan zijn rijbewijs niet terugkrijgen",
+          "text_ru": "Он не может восстановить водительские права",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit passer un examen de conduite pour récupérer son permis de conduire.",
+      "explanation_nl": "De bestuurder moet een rijexamen afleggen om zijn rijbewijs terug te krijgen.",
+      "explanation_ru": "Водитель должен сдать экзамен на вождение, чтобы восстановить водительские права."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour incapacité psychique. Qu'est-ce que cela signifie pour ce conducteur en termes de récupération de son permis de conduire ?",
+      "text_nl": "Een bestuurder is van zijn recht tot sturen voor geestelijke ongeschiktheid beroofd. Wat betekent dit voor deze bestuurder in termen van het terugkrijgen van zijn rijbewijs ?",
+      "text_ru": "Водитель был лишен права управления транспортным средством из-за психической нетрудоспособности. Что это значит для этого водителя в плане восстановления водительских прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il peut récupérer son permis de conduire après une période de rééducation",
+          "text_nl": "Hij kan zijn rijbewijs terugkrijgen na een periode van heropvoeding",
+          "text_ru": "Он может восстановить водительские права после периода реабилитации",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il ne peut pas récupérer son permis de conduire",
+          "text_nl": "Hij kan zijn rijbewijs niet terugkrijgen",
+          "text_ru": "Он не может восстановить водительские права",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit passer un examen de conduite pour récupérer son permis de conduire",
+          "text_nl": "Hij moet een rijexamen afleggen om zijn rijbewijs terug te krijgen",
+          "text_ru": "Он должен сдать экзамен на вождение, чтобы восстановить водительские права",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut récupérer son permis de conduire après une période de rééducation.",
+      "explanation_nl": "De bestuurder kan zijn rijbewijs terugkrijgen na een periode van heropvoeding.",
+      "explanation_ru": "Водитель может восстановить водительские права после периода реабилитации."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "328b07fdf41a",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:33:32Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

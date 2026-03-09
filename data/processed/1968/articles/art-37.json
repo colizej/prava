@@ -28,7 +28,304 @@
   "anchor_id_fr": "r4dwwsdfue",
   "anchor_id_nl": "xxyz3zezhu",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que l'imprégnation alcoolique punissable ?",
+      "text_nl": "Wat is strafbare alcoholopname?",
+      "text_ru": "Что такое наказуемое алкогольное опьянение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un état dans lequel une personne a consommé une petite quantité d'alcool",
+          "text_nl": "Een toestand waarin iemand een kleine hoeveelheid alcohol heeft genuttigd",
+          "text_ru": "Состояние, при котором человек потребил небольшое количество алкоголя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un état dans lequel une personne a consommé une quantité d'alcool qui dépasse les limites autorisées",
+          "text_nl": "Een toestand waarin iemand een hoeveelheid alcohol heeft genuttigd die de toegestane limieten overschrijdt",
+          "text_ru": "Состояние, при котором человек потребил количество алкоголя, превышающее допустимые пределы",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un état dans lequel une personne n'a pas consommé d'alcool",
+          "text_nl": "Een toestand waarin iemand geen alcohol heeft genuttigd",
+          "text_ru": "Состояние, при котором человек не потреблял алкоголь",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'imprégnation alcoolique punissable se réfère à un état dans lequel une personne a consommé une quantité d'alcool qui dépasse les limites autorisées.",
+      "explanation_nl": "Strafbare alcoholopname verwijst naar een toestand waarin iemand een hoeveelheid alcohol heeft genuttigd die de toegestane limieten overschrijdt.",
+      "explanation_ru": "Наказуемое алкогольное опьянение относится к состоянию, при котором человек потребил количество алкоголя, превышающее допустимые пределы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que se passe-t-il si quelqu'un confie un véhicule à une personne qui donne des signes évidents d'imprégnation alcoolique punissable ?",
+      "text_nl": "Wat gebeurt er als iemand een voertuig toevertrouwt aan iemand die duidelijke tekens van strafbare alcoholopname vertoont?",
+      "text_ru": "Что происходит, если кто-то поручает транспортное средство человеку, который демонстрирует явные признаки наказуемого алкогольного опьянения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien, car il n'y a pas de loi qui l'interdit",
+          "text_nl": "Niets, omdat er geen wet is die het verbiedt",
+          "text_ru": "Ничего, поскольку нет закона, который запрещает это",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La personne qui a confié le véhicule peut être punie d'une amende",
+          "text_nl": "De persoon die het voertuig heeft toevertrouwd, kan worden gestraft met een geldboete",
+          "text_ru": "Человек, который поручил транспортное средство, может быть наказан штрафом",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La personne qui a reçu le véhicule peut être récompensée",
+          "text_nl": "De persoon die het voertuig heeft ontvangen, kan worden beloond",
+          "text_ru": "Человек, который получил транспортное средство, может быть награжден",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La personne qui confie un véhicule à une personne qui donne des signes évidents d'imprégnation alcoolique punissable peut être punie d'une amende.",
+      "explanation_nl": "De persoon die een voertuig toevertrouwt aan iemand die duidelijke tekens van strafbare alcoholopname vertoont, kan worden gestraft met een geldboete.",
+      "explanation_ru": "Человек, который поручает транспортное средство человеку, который демонстрирует явные признаки наказуемого алкогольного опьянения, может быть наказан штрафом."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce que l'accompagnement pour l'apprentissage ?",
+      "text_nl": "Wat is begeleiding voor de scholing?",
+      "text_ru": "Что такое сопровождение для обучения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un processus de formation pour les conducteurs expérimentés",
+          "text_nl": "Een opleidingsproces voor ervaren bestuurders",
+          "text_ru": "Процесс обучения для опытных водителей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un processus de formation pour les conducteurs débutants",
+          "text_nl": "Een opleidingsproces voor beginnende bestuurders",
+          "text_ru": "Процесс обучения для начинающих водителей",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un processus de formation pour les piétons",
+          "text_nl": "Een opleidingsproces voor voetgangers",
+          "text_ru": "Процесс обучения для пешеходов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'accompagnement pour l'apprentissage est un processus de formation pour les conducteurs débutants.",
+      "explanation_nl": "Begeleiding voor de scholing is een opleidingsproces voor beginnende bestuurders.",
+      "explanation_ru": "Сопровождение для обучения - это процесс обучения для начинающих водителей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes le propriétaire d'un véhicule et vous voulez le confier à un ami qui a bu de l'alcool. Que devez-vous faire ?",
+      "text_nl": "U bent de eigenaar van een voertuig en u wilt het toevertrouwen aan een vriend die alcohol heeft gedronken. Wat moet u doen?",
+      "text_ru": "Вы являетесь владельцем транспортного средства и хотите поручить его другу, который выпил алкоголь. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Confier le véhicule à votre ami",
+          "text_nl": "Het voertuig toevertrouwen aan uw vriend",
+          "text_ru": "Поручить транспортное средство вашему другу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ne pas confier le véhicule à votre ami",
+          "text_nl": "Het voertuig niet toevertrouwen aan uw vriend",
+          "text_ru": "Не поручать транспортное средство вашему другу",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander à votre ami de boire plus d'alcool",
+          "text_nl": "Vragen aan uw vriend om meer alcohol te drinken",
+          "text_ru": "Попросить вашего друга выпить больше алкоголя",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous ne devez pas confier votre véhicule à votre ami qui a bu de l'alcool, car cela peut être dangereux pour la sécurité routière.",
+      "explanation_nl": "U moet het voertuig niet toevertrouwen aan uw vriend die alcohol heeft gedronken, omdat dit gevaarlijk kan zijn voor de verkeersveiligheid.",
+      "explanation_ru": "Вы не должны поручать ваше транспортное средство вашему другу, который выпил алкоголь, поскольку это может быть опасно для безопасности дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un accompagnateur pour l'apprentissage et vous remarquez que le conducteur débutant a bu de l'alcool. Que devez-vous faire ?",
+      "text_nl": "U bent een begeleider voor de scholing en u merkt op dat de beginnende bestuurder alcohol heeft gedronken. Wat moet u doen?",
+      "text_ru": "Вы являетесь сопровождающим для обучения и вы замечаете, что начинающий водитель выпил алкоголь. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer l'apprentissage",
+          "text_nl": "De scholing voortzetten",
+          "text_ru": "Продолжать обучение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Arrêter l'apprentissage et refuser de continuer",
+          "text_nl": "De scholing stoppen en weigeren om door te gaan",
+          "text_ru": "Остановить обучение и отказаться продолжать",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander au conducteur débutant de boire plus d'alcool",
+          "text_nl": "Vragen aan de beginnende bestuurder om meer alcohol te drinken",
+          "text_ru": "Попросить начинающего водителя выпить больше алкоголя",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez arrêter l'apprentissage et refuser de continuer, car il est dangereux de conduire après avoir bu de l'alcool.",
+      "explanation_nl": "U moet de scholing stoppen en weigeren om door te gaan, omdat het gevaarlijk is om te rijden na het drinken van alcohol.",
+      "explanation_ru": "Вы должны остановить обучение и отказаться продолжать, поскольку это опасно водить после употребления алкоголя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes un conducteur expérimenté et vous voyez un piéton qui a bu de l'alcool et qui traverse la route. Que devez-vous faire ?",
+      "text_nl": "U bent een ervaren bestuurder en u ziet een voetganger die alcohol heeft gedronken en die de weg oversteekt. Wat moet u doen?",
+      "text_ru": "Вы являетесь опытным водителем и вы видите пешехода, который выпил алкоголь и который переходит дорогу. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer avant le piéton",
+          "text_nl": "Versnellen om voor de voetganger te passeren",
+          "text_ru": "Ускориться, чтобы проехать перед пешеходом",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et laisser le piéton traverser",
+          "text_nl": "Vertragen en de voetganger laten oversteken",
+          "text_ru": "Замедлить и пропустить пешехода",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour alerter le piéton",
+          "text_nl": "Claxonner om de voetganger te waarschuwen",
+          "text_ru": "Подать сигнал, чтобы предупредить пешехода",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez ralentir et laisser le piéton traverser, car il est important de prioriser la sécurité des piétons, surtout s'ils ont bu de l'alcool.",
+      "explanation_nl": "U moet vertragen en de voetganger laten oversteken, omdat het belangrijk is om de veiligheid van voetgangers te prioriteren, vooral als ze alcohol hebben gedronken.",
+      "explanation_ru": "Вы должны замедлить и пропустить пешехода, поскольку важно уделять приоритетное внимание безопасности пешеходов, особенно если они выпили алкоголь."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes un conducteur et vous voyez un panneau de signalisation qui indique une zone de limitation de vitesse. Que devez-vous faire ?",
+      "text_nl": "U bent een bestuurder en u ziet een verkeersbord dat een zone met een snelheidsbeperking aangeeft. Wat moet u doen?",
+      "text_ru": "Вы являетесь водителем и вы видите знак, который указывает на зону ограничения скорости. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour sortir de la zone le plus vite possible",
+          "text_nl": "Versnellen om de zone zo snel mogelijk te verlaten",
+          "text_ru": "Ускориться, чтобы выехать из зоны как можно быстрее",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et respecter la limitation de vitesse",
+          "text_nl": "Vertragen en de snelheidsbeperking respecteren",
+          "text_ru": "Замедлить и соблюдать ограничение скорости",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer le panneau et continuer à rouler à la même vitesse",
+          "text_nl": "Het bord negeren en op dezelfde snelheid blijven rijden",
+          "text_ru": "Игнорировать знак и продолжать ехать с той же скоростью",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez ralentir et respecter la limitation de vitesse, car cela est important pour la sécurité routière.",
+      "explanation_nl": "U moet vertragen en de snelheidsbeperking respecteren, omdat dit belangrijk is voor de verkeersveiligheid.",
+      "explanation_ru": "Вы должны замедлить и соблюдать ограничение скорости, поскольку это важно для безопасности дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un conducteur et vous êtes impliqué dans un accident de la route. Que devez-vous faire ?",
+      "text_nl": "U bent een bestuurder en u bent betrokken bij een verkeersongeluk. Wat moet u doen?",
+      "text_ru": "Вы являетесь водителем и вы вовлечены в дорожно-транспортное происшествие. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Partir du lieu de l'accident sans attendre les autorités",
+          "text_nl": "Vertrekken van de plaats van het ongeval zonder op de autoriteiten te wachten",
+          "text_ru": "Уехать с места происшествия, не дожидаясь властей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Appeler les autorités et attendre leur arrivée",
+          "text_nl": "De autoriteiten bellen en op hun aankomst wachten",
+          "text_ru": "Позвонить властям и ждать их прибытия",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de réparer les dégâts vous-même",
+          "text_nl": "Proberen om de schade zelf te herstellen",
+          "text_ru": "Пытаться исправить повреждения самостоятельно",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez appeler les autorités et attendre leur arrivée, car cela est important pour la sécurité et pour déterminer les responsabilités.",
+      "explanation_nl": "U moet de autoriteiten bellen en op hun aankomst wachten, omdat dit belangrijk is voor de veiligheid en om de verantwoordelijkheden te bepalen.",
+      "explanation_ru": "Вы должны позвонить властям и ждать их прибытия, поскольку это важно для безопасности и для определения ответственности."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "48c12a984561",
@@ -38,6 +335,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:31:53Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

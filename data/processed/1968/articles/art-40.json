@@ -29,7 +29,304 @@
   "anchor_id_fr": "ddeo7cxzao",
   "anchor_id_nl": "5vimspprat",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'une déchéance prononcée à titre de peine et quand prend-elle cours ?",
+      "text_nl": "Wat is een verval dat als straf is uitgesproken en wanneer gaat het in ?",
+      "text_ru": "Что такое лишение прав, вынесенное в качестве наказания, и когда оно вступает в силу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une peine qui prend cours immédiatement",
+          "text_nl": "Het is een straf die onmiddellijk ingaat",
+          "text_ru": "Это наказание, которое вступает в силу немедленно",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est une peine qui prend cours le cinquième jour suivant la date de l'avertissement",
+          "text_nl": "Het is een straf die ingaat op de vijfde dag na de datum van de kennisgeving",
+          "text_ru": "Это наказание, которое вступает в силу на пятый день после даты предупреждения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une peine qui prend cours le jour suivant la date de l'avertissement",
+          "text_nl": "Het is een straf die ingaat op de dag na de datum van de kennisgeving",
+          "text_ru": "Это наказание, которое вступает в силу на следующий день после даты предупреждения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une déchéance prononcée à titre de peine prend cours le cinquième jour suivant la date de l'avertissement donné au condamné par le ministère public.",
+      "explanation_nl": "Een verval dat als straf is uitgesproken, gaat in de vijfde dag na die waarop het openbaar ministerie de kennisgeving aan de veroordeelde heeft gedaan.",
+      "explanation_ru": "Лишение прав, вынесенное в качестве наказания, вступает в силу на пятый день после даты предупреждения, данного осужденному прокуратурой."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une déchéance de plein droit ?",
+      "text_nl": "Wat is een verval van rechtswege ?",
+      "text_ru": "Что такое лишение прав по закону?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une peine qui est infligée par un juge",
+          "text_nl": "Het is een straf die door een rechter wordt opgelegd",
+          "text_ru": "Это наказание, которое назначается судьей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est une peine qui est automatique en cas de non-respect d'une règle",
+          "text_nl": "Het is een straf die automatisch ingaat als een regel niet wordt nageleefd",
+          "text_ru": "Это наказание, которое автоматически вступает в силу в случае невыполнения правила",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une peine qui est infligée par le ministère public",
+          "text_nl": "Het is een straf die door het openbaar ministerie wordt opgelegd",
+          "text_ru": "Это наказание, которое назначается прокуратурой",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une déchéance de plein droit est une peine qui est automatique en cas de non-respect d'une règle, notamment en cas de non-remise du permis de conduire.",
+      "explanation_nl": "Een verval van rechtswege is een straf die automatisch ingaat als een regel niet wordt nageleefd, met name als het rijbewijs niet wordt afgegeven.",
+      "explanation_ru": "Лишение прав по закону является наказанием, которое автоматически вступает в силу в случае невыполнения правила, в частности, если не сдано водительское удостоверение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les règles de prolongation de la déchéance en cas de non-remise du permis de conduire ?",
+      "text_nl": "Wat zijn de regels voor de verlenging van het verval in geval van niet-afgifte van het rijbewijs ?",
+      "text_ru": "Каковы правила продления лишения прав в случае невыполнения водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance est prolongée de plein droit du délai qui s'est écoulé",
+          "text_nl": "Het verval wordt van rechtswege verlengd met de termijn die is verstreken",
+          "text_ru": "Лишение прав продлевается автоматически на срок, который истек",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance n'est pas prolongée",
+          "text_nl": "Het verval wordt niet verlengd",
+          "text_ru": "Лишение прав не продлевается",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance est réduite de moitié",
+          "text_nl": "Het verval wordt met de helft verminderd",
+          "text_ru": "Лишение прав сокращается вдвое",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance est prolongée de plein droit du délai qui s'est écoulé à partir du cinquième jour suivant l'avertissement et jusqu'à la date effective de remise du permis de conduire.",
+      "explanation_nl": "Het verval wordt van rechtswege verlengd met de termijn die is verstreken vanaf de vijfde dag na de kennisgeving tot de datum van effectieve afgifte van het rijbewijs.",
+      "explanation_ru": "Лишение прав продлевается автоматически на срок, который истек с пятого дня после предупреждения до даты фактической сдачи водительского удостоверения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné à une déchéance de 30 jours. Il ne remet pas son permis de conduire dans les délais. Combien de jours supplémentaires sera-t-il privé de son permis ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een verval van 30 dagen. Hij levert zijn rijbewijs niet binnen de gestelde termijn. Hoeveel dagen extra zal hij zijn rijbewijs kwijt zijn?",
+      "text_ru": "Водитель был лишен прав на 30 дней. Он не сдает свое водительское удостоверение в срок. На сколько дополнительных дней он будет лишен водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "10 jours",
+          "text_nl": "10 dagen",
+          "text_ru": "10 дней",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "30 jours",
+          "text_nl": "30 dagen",
+          "text_ru": "30 дней",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "60 jours",
+          "text_nl": "60 dagen",
+          "text_ru": "60 дней",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance est prolongée de plein droit du délai qui s'est écoulé à partir du cinquième jour suivant l'avertissement et jusqu'à la date effective de remise du permis de conduire.",
+      "explanation_nl": "Het verval wordt van rechtswege verlengd met de termijn die is verstreken vanaf de vijfde dag na de kennisgeving tot de datum van effectieve afgifte van het rijbewijs.",
+      "explanation_ru": "Лишение прав продлевается автоматически на срок, который истек с пятого дня после предупреждения до даты фактической сдачи водительского удостоверения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été condamné à une déchéance de 15 jours. Quand doit-il remettre son permis de conduire pour éviter la prolongation de la déchéance ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een verval van 15 dagen. Wanneer moet hij zijn rijbewijs inleveren om de verlenging van het verval te voorkomen?",
+      "text_ru": "Водитель был лишен прав на 15 дней. Когда он должен сдать свое водительское удостоверение, чтобы избежать продления лишения прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le jour de la condamnation",
+          "text_nl": "De dag van de veroordeling",
+          "text_ru": "В день приговора",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le cinquième jour suivant la condamnation",
+          "text_nl": "De vijfde dag na de veroordeling",
+          "text_ru": "На пятый день после приговора",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le dixième jour suivant la condamnation",
+          "text_nl": "De tiende dag na de veroordeling",
+          "text_ru": "На десятый день после приговора",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance prend cours le cinquième jour suivant la date de l'avertissement donné au condamné par le ministère public.",
+      "explanation_nl": "Het verval gaat in de vijfde dag na die waarop het openbaar ministerie de kennisgeving aan de veroordeelde heeft gedaan.",
+      "explanation_ru": "Лишение прав вступает в силу на пятый день после даты предупреждения, данного осужденному прокуратурой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a été condamné à une déchéance de 30 jours pour une infraction grave. Il a omis de remettre son permis de conduire dans les délais. Quelle est la durée totale de la déchéance ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een verval van 30 dagen voor een ernstige overtreding. Hij heeft nagelaten zijn rijbewijs binnen de gestelde termijn in te leveren. Wat is de totale duur van het verval?",
+      "text_ru": "Водитель был лишен прав на 30 дней за серьезное правонарушение. Он не сдал свое водительское удостоверение в срок. Какова общая продолжительность лишения прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "30 jours",
+          "text_nl": "30 dagen",
+          "text_ru": "30 дней",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "60 jours",
+          "text_nl": "60 dagen",
+          "text_ru": "60 дней",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "90 jours",
+          "text_nl": "90 dagen",
+          "text_ru": "90 дней",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance est prolongée de plein droit du délai qui s'est écoulé à partir du cinquième jour suivant l'avertissement et jusqu'à la date effective de remise du permis de conduire.",
+      "explanation_nl": "Het verval wordt van rechtswege verlengd met de termijn die is verstreken vanaf de vijfde dag na de kennisgeving tot de datum van effectieve afgifte van het rijbewijs.",
+      "explanation_ru": "Лишение прав продлевается автоматически на срок, который истек с пятого дня после предупреждения до даты фактической сдачи водительского удостоверения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné à une déchéance de 15 jours pour une infraction mineure. Il a remis son permis de conduire dans les délais. Quelle est la durée de la déchéance ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een verval van 15 dagen voor een minder ernstige overtreding. Hij heeft zijn rijbewijs binnen de gestelde termijn ingeleverd. Wat is de duur van het verval?",
+      "text_ru": "Водитель был лишен прав на 15 дней за незначительное правонарушение. Он сдал свое водительское удостоверение в срок. Какова продолжительность лишения прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "10 jours",
+          "text_nl": "10 dagen",
+          "text_ru": "10 дней",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "15 jours",
+          "text_nl": "15 dagen",
+          "text_ru": "15 дней",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "20 jours",
+          "text_nl": "20 dagen",
+          "text_ru": "20 дней",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance prend cours le cinquième jour suivant la date de l'avertissement donné au condamné par le ministère public.",
+      "explanation_nl": "Het verval gaat in de vijfde dag na die waarop het openbaar ministerie de kennisgeving aan de veroordeelde heeft gedaan.",
+      "explanation_ru": "Лишение прав вступает в силу на пятый день после даты предупреждения, данного осужденному прокуратурой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été condamné à une déchéance de 30 jours. Quand peut-il récupérer son permis de conduire ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een verval van 30 dagen. Wanneer kan hij zijn rijbewijs terugkrijgen?",
+      "text_ru": "Водитель был лишен прав на 30 дней. Когда он может получить обратно свое водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le jour de la condamnation",
+          "text_nl": "De dag van de veroordeling",
+          "text_ru": "В день приговора",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le cinquième jour suivant la condamnation",
+          "text_nl": "De vijfde dag na de veroordeling",
+          "text_ru": "На пятый день после приговора",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Après la fin de la déchéance",
+          "text_nl": "Na afloop van het verval",
+          "text_ru": "После окончания лишения прав",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La déchéance prend cours le cinquième jour suivant la date de l'avertissement donné au condamné par le ministère public.",
+      "explanation_nl": "Het verval gaat in de vijfde dag na die waarop het openbaar ministerie de kennisgeving aan de veroordeelde heeft gedaan.",
+      "explanation_ru": "Лишение прав вступает в силу на пятый день после даты предупреждения, данного осужденному прокуратурой."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "7a4c3e506801",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-09T21:33:20Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }
