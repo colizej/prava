@@ -30,7 +30,304 @@
   "anchor_id_fr": "n3ze4oqv8t",
   "anchor_id_nl": "uauoofbify",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la principale exigence pour pouvoir conduire légalement un véhicule à moteur sur la voie publique ?",
+      "text_nl": "Wat is de belangrijkste vereiste om wettelijk een motorvoertuig op de openbare weg te mogen besturen?",
+      "text_ru": "Каково основное требование для законного управления моторным транспортным средством на дорогах общего пользования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A generic driving license icon with a green checkmark next to it, symbolizing validity and requirement."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Être propriétaire du véhicule.",
+          "text_nl": "Eigenaar van het voertuig zijn.",
+          "text_ru": "Быть владельцем транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Être titulaire du permis de conduire exigé pour le véhicule concerné.",
+          "text_nl": "In het bezit zijn van het voor het betreffende voertuig vereiste rijbewijs.",
+          "text_ru": "Иметь водительское удостоверение, необходимое для данного транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avoir plus de 18 ans.",
+          "text_nl": "Ouder zijn dan 18 jaar.",
+          "text_ru": "Быть старше 18 лет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La loi stipule qu'il faut être titulaire du permis de conduire spécifique au véhicule que l'on souhaite conduire, ou d'un titre qui en tient lieu.",
+      "explanation_nl": "De wet bepaalt dat men in het bezit moet zijn van het specifieke rijbewijs voor het voertuig dat men wil besturen, of van een als zodanig geldend bewijs.",
+      "explanation_ru": "Закон гласит, что необходимо иметь водительское удостоверение, соответствующее типу транспортного средства, которым вы хотите управлять, или эквивалентный документ."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie conduire un véhicule à moteur sans respecter les conditions ou limitations mentionnées sur le permis de conduire ?",
+      "text_nl": "Wat betekent het om een motorvoertuig te besturen zonder de voorwaarden of beperkingen die op het rijbewijs vermeld staan na te leven?",
+      "text_ru": "Что означает управление моторным транспортным средством без соблюдения условий или ограничений, указанных в водительском удостоверении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A driving license card with an icon of glasses or a hearing aid, suggesting specific conditions or limitations."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Conduire un véhicule plus puissant que celui autorisé par la loi.",
+          "text_nl": "Een krachtiger voertuig besturen dan wettelijk toegestaan.",
+          "text_ru": "Управлять более мощным транспортным средством, чем разрешено законом.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ne pas respecter les exigences spécifiques comme le port de lunettes ou l'utilisation d'aménagements particuliers au véhicule.",
+          "text_nl": "Specifieke vereisten zoals het dragen van een bril of het gebruik van speciale voertuigaanpassingen niet naleven.",
+          "text_ru": "Несоблюдение особых требований, таких как ношение очков или использование специальных приспособлений для транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ne pas avoir son permis de conduire sur soi.",
+          "text_nl": "Je rijbewijs niet bij je hebben.",
+          "text_ru": "Не иметь при себе водительского удостоверения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conditions ou limitations figurant sur un permis de conduire (souvent sous forme de codes) imposent des exigences spécifiques au conducteur ou au véhicule, comme le port de lentilles correctrices ou l'utilisation d'un véhicule adapté.",
+      "explanation_nl": "De voorwaarden of beperkingen die op een rijbewijs vermeld staan (vaak in de vorm van codes) leggen specifieke eisen op aan de bestuurder of het voertuig, zoals het dragen van corrigerende lenzen of het gebruik van een aangepast voertuig.",
+      "explanation_ru": "Условия или ограничения, указанные в водительском удостоверении (часто в виде кодов), налагают особые требования к водителю или транспортному средству, такие как ношение корректирующих линз или использование адаптированного транспортного средства."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les conséquences légales de la conduite d'un véhicule à moteur si votre permis de conduire vous a été immédiatement retiré ?",
+      "text_nl": "Wat zijn de wettelijke gevolgen van het besturen van een motorvoertuig als uw rijbewijs onmiddellijk is ingetrokken?",
+      "text_ru": "Каковы юридические последствия управления моторным транспортным средством, если ваше водительское удостоверение было немедленно изъято?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A hand holding a driving license with a red 'X' over it, symbolizing immediate withdrawal, with legal symbols like a gavel or handcuffs in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une simple amende administrative.",
+          "text_nl": "Een eenvoudige administratieve boete.",
+          "text_ru": "Простой административный штраф.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des sanctions sévères pouvant inclure une peine de prison, une amende élevée et une déchéance du droit de conduire.",
+          "text_nl": "Zware straffen die gevangenisstraf, een hoge boete en een verval van het recht tot sturen kunnen omvatten.",
+          "text_ru": "Суровые санкции, включая тюремное заключение, крупный штраф и лишение права управления транспортным средством.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre permis vous est restitué automatiquement après quelques jours.",
+          "text_nl": "Uw rijbewijs wordt automatisch na enkele dagen teruggegeven.",
+          "text_ru": "Ваше водительское удостоверение возвращается автоматически через несколько дней.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire après un retrait immédiat du permis est considéré comme une infraction grave, entraînant des peines d'emprisonnement, de lourdes amendes et une déchéance du droit de conduire.",
+      "explanation_nl": "Rijden na een onmiddellijke intrekking van het rijbewijs wordt beschouwd als een ernstige overtreding, met gevangenisstraffen, hoge boetes en een verval van het recht tot sturen tot gevolg.",
+      "explanation_ru": "Управление транспортным средством после немедленного изъятия водительского удостоверения считается серьезным правонарушением, влекущим за собой тюремное заключение, крупные штрафы и лишение права управления транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous possédez un permis de conduire pour voiture (catégorie B) et vous décidez de prendre le volant d'un camion nécessitant un permis de catégorie C. Vous êtes intercepté par la police. Quelle est la nature de l'infraction commise ?",
+      "text_nl": "U heeft een rijbewijs voor een personenauto (categorie B) en besluit een vrachtwagen te besturen waarvoor een categorie C-rijbewijs nodig is. U wordt onderschept door de politie. Wat is de aard van de begane overtreding?",
+      "text_ru": "У вас есть водительское удостоверение категории B (для легковых автомобилей), и вы решили сесть за руль грузовика, для которого требуется удостоверение категории C. Вас останавливает полиция. Каков характер совершенного правонарушения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person driving a large truck, with a small car license shown in a thought bubble above their head, being pulled over by police."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une infraction administrative mineure.",
+          "text_nl": "Een kleine administratieve overtreding.",
+          "text_ru": "Незначительное административное правонарушение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Conduite sans être titulaire du permis de conduire exigé pour ce type de véhicule.",
+          "text_nl": "Besturen zonder houder te zijn van het voor dit type voertuig vereiste rijbewijs.",
+          "text_ru": "Управление транспортным средством без соответствующего водительского удостоверения для данного типа транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un simple oubli de permis, sans conséquence grave.",
+          "text_nl": "Een simpele vergetelheid van het rijbewijs, zonder ernstige gevolgen.",
+          "text_ru": "Простая забывчивость водительского удостоверения, без серьезных последствий.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire un véhicule pour lequel vous ne possédez pas le permis de conduire approprié est une infraction sérieuse, passible de peines d'emprisonnement et d'amendes importantes.",
+      "explanation_nl": "Het besturen van een voertuig waarvoor u niet over het juiste rijbewijs beschikt, is een ernstige overtreding, strafbaar met gevangenisstraf en aanzienlijke boetes.",
+      "explanation_ru": "Управление транспортным средством, для которого у вас нет соответствующего водительского удостоверения, является серьезным правонарушением, караемым тюремным заключением и крупными штрафами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Suite à un problème de santé, votre médecin vous a formellement déconseillé de conduire. Malgré cet avis médical, vous continuez à utiliser votre voiture. Quelles pourraient être les conséquences si vous êtes contrôlé ou impliqué dans un accident ?",
+      "text_nl": "Na een gezondheidsprobleem heeft uw arts u formeel afgeraden om te rijden. Ondanks dit medisch advies blijft u uw auto gebruiken. Wat kunnen de gevolgen zijn als u wordt gecontroleerd of betrokken raakt bij een ongeval?",
+      "text_ru": "После проблем со здоровьем ваш врач категорически не рекомендовал вам управлять автомобилем. Несмотря на это медицинское заключение, вы продолжаете пользоваться своей машиной. Каковы могут быть последствия, если вас остановят для проверки или вы попадете в аварию?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person looking unwell, sitting in a car, with a doctor's note icon next to them, suggesting unfitness to drive. A police car is nearby."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence, tant que vous vous sentez capable de conduire.",
+          "text_nl": "Geen gevolgen, zolang u zich in staat voelt om te rijden.",
+          "text_ru": "Никаких последствий, пока вы чувствуете себя способным управлять автомобилем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous risquez des peines d'emprisonnement et des amendes importantes pour conduite en état d'inaptitude physique.",
+          "text_nl": "U riskeert gevangenisstraffen en aanzienlijke boetes wegens rijden in fysiek ongeschikte toestand.",
+          "text_ru": "Вам грозят тюремное заключение и значительные штрафы за управление транспортным средством в состоянии физической непригодности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre assurance ne couvrira pas les dommages en cas d'accident, mais il n'y aura pas de sanction légale directe.",
+          "text_nl": "Uw verzekering dekt geen schade bij een ongeval, maar er zijn geen directe wettelijke sancties.",
+          "text_ru": "Ваша страховка не покроет ущерб в случае аварии, но прямых юридических санкций не будет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire un véhicule à moteur alors que vous êtes atteint d'une affection vous rendant inapte à la conduite est une infraction sérieuse passible de peines d'emprisonnement et d'amendes importantes.",
+      "explanation_nl": "Het besturen van een motorvoertuig terwijl u lijdt aan een aandoening die u ongeschikt maakt om te rijden, is een ernstige overtreding, strafbaar met gevangenisstraffen en aanzienlijke boetes.",
+      "explanation_ru": "Управление моторным транспортным средством, когда у вас есть заболевание, делающее вас непригодным для вождения, является серьезным правонарушением, наказуемым тюремным заключением и значительными штрафами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous accompagnez un apprenti conducteur pour sa formation pratique, mais il s'avère que vous n'avez pas l'ancienneté de permis requise pour être accompagnateur légal. Quelle est la sanction encourue ?",
+      "text_nl": "U begeleidt een leerling-bestuurder voor zijn praktijkopleiding, maar het blijkt dat u niet de vereiste rijbewijservaring heeft om een wettelijke begeleider te zijn. Welke sanctie riskeert u?",
+      "text_ru": "Вы сопровождаете ученика-водителя на практическом занятии, но оказывается, что у вас нет необходимого стажа вождения, чтобы быть законным сопровождающим. Какое наказание вы понесете?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A learner driver with an 'L' plate in a car, and an accompanying person in the passenger seat who looks uncertain or too young, with a question mark over their head, implying they don't meet the requirements."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende légère est prévue pour l'accompagnateur.",
+          "text_nl": "Een lichte boete is voorzien voor de begeleider.",
+          "text_ru": "Легкий штраф предусмотрен для сопровождающего.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Seul l'apprenti conducteur est sanctionné.",
+          "text_nl": "Alleen de leerling-bestuurder wordt gestraft.",
+          "text_ru": "Только ученик-водитель будет наказан.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il n'y a pas de sanction tant qu'aucun accident n'a lieu.",
+          "text_nl": "Er is geen sanctie zolang er geen ongeluk gebeurt.",
+          "text_ru": "Нет никакого наказания, пока не произойдет несчастный случай.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes qui accompagnent un conducteur en formation doivent respecter des conditions spécifiques, comme une ancienneté minimale de permis, et sont passibles d'une amende en cas de non-respect de ces dispositions.",
+      "explanation_nl": "Personen die een bestuurder in opleiding begeleiden, moeten voldoen aan specifieke voorwaarden, zoals een minimale rijbewijservaring, en zijn strafbaar met een boete als deze bepalingen niet worden nageleefd.",
+      "explanation_ru": "Лица, сопровождающие обучающегося водителя, должны соблюдать особые условия, такие как минимальный стаж вождения, и подлежат штрафу в случае несоблюдения этих положений."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes dans la voiture en tant qu'accompagnateur avec un jeune qui apprend à conduire, mais vous savez qu'il n'est pas en possession d'un permis de conduire provisoire valide. Si vous êtes contrôlé, que risquez-vous en tant qu'accompagnateur ?",
+      "text_nl": "U zit in de auto als begeleider met een jongere die leert rijden, maar u weet dat hij niet in het bezit is van een geldig voorlopig rijbewijs. Als u wordt gecontroleerd, wat riskeert u dan als begeleider?",
+      "text_ru": "Вы находитесь в машине в качестве сопровождающего с молодым человеком, который учится водить, но вы знаете, что у него нет действительного временного водительского удостоверения. Если вас остановят для проверки, что вам грозит как сопровождающему?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car with an 'L' plate, a learner driver, and an accompanying person looking worried. A police car is behind them, lights flashing."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien, car la responsabilité incombe entièrement à l'apprenti conducteur.",
+          "text_nl": "Niets, want de verantwoordelijkheid ligt volledig bij de leerling-bestuurder.",
+          "text_ru": "Ничего, так как вся ответственность лежит на ученике-водителе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende est prévue pour l'accompagnateur ayant accompagné une personne en infraction.",
+          "text_nl": "Een boete is voorzien voor de begeleider die een persoon in overtreding heeft begeleid.",
+          "text_ru": "Штраф предусмотрен для сопровождающего, который сопровождал лицо, совершившее правонарушение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un avertissement verbal sera suffisant.",
+          "text_nl": "Een mondelinge waarschuwing zal voldoende zijn.",
+          "text_ru": "Устное предупреждение будет достаточным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En tant qu'accompagnateur, vous avez la responsabilité de vous assurer que l'apprenti conducteur respecte les règles. Accompagner une personne en infraction aux dispositions relatives à la formation vous expose à une amende.",
+      "explanation_nl": "Als begeleider heeft u de verantwoordelijkheid om ervoor te zorgen dat de leerling-bestuurder de regels naleeft. Het begeleiden van een persoon die in overtreding is met de opleidingsbepalingen stelt u bloot aan een boete.",
+      "explanation_ru": "В качестве сопровождающего вы обязаны убедиться, что обучающийся водитель соблюдает правила. Сопровождение лица, нарушающего положения об обучении, влечет за собой штраф."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Votre permis de conduire a été immédiatement retiré par les autorités la semaine dernière suite à une infraction grave. Vous décidez malgré tout de prendre votre voiture pour aller au travail. Quelles sont les conséquences légales immédiates si vous êtes de nouveau intercepté ?",
+      "text_nl": "Uw rijbewijs is vorige week onmiddellijk ingetrokken door de autoriteiten na een ernstige overtreding. Desondanks besluit u met uw auto naar het werk te rijden. Wat zijn de onmiddellijke wettelijke gevolgen als u opnieuw wordt onderschept?",
+      "text_ru": "Ваше водительское удостоверение было немедленно изъято властями на прошлой неделе из-за серьезного нарушения. Тем не менее, вы решаете поехать на машине на работу. Каковы немедленные юридические последствия, если вас снова остановят?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car being pulled over by a police car. A red 'X' over a driving license icon indicates a withdrawn license. The driver looks stressed."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une nouvelle amende administrative sera appliquée.",
+          "text_nl": "Er zal een nieuwe administratieve boete worden opgelegd.",
+          "text_ru": "Будет наложен новый административный штраф.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous risquez une peine de prison, une amende très élevée et une déchéance du droit de conduire à long terme, voire définitive.",
+          "text_nl": "U riskeert een gevangenisstraf, een zeer hoge boete en een langdurig of zelfs levenslang verval van het recht tot sturen.",
+          "text_ru": "Вам грозит тюремное заключение, очень крупный штраф и лишение права управления транспортным средством на длительный срок, возможно, пожизненно.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre véhicule sera immobilisé jusqu'à la restitution de votre permis.",
+          "text_nl": "Uw voertuig wordt geïmmobiliseerd tot de teruggave van uw rijbewijs.",
+          "text_ru": "Ваш автомобиль будет обездвижен до возврата вашего водительского удостоверения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire après un retrait immédiat du permis est une infraction extrêmement grave. Les sanctions incluent des peines de prison (de trois mois à deux ans), de lourdes amendes (de 200 à 2000 euros) et une déchéance du droit de conduire pour une durée minimale de trois mois et maximale de cinq ans, voire à titre définitif.",
+      "explanation_nl": "Rijden na een onmiddellijke intrekking van het rijbewijs is een uiterst ernstige overtreding. De sancties omvatten gevangenisstraffen (van drie maanden tot twee jaar), hoge boetes (van 200 tot 2000 euro) en een verval van het recht tot sturen voor een minimale duur van drie maanden en maximale duur van vijf jaar, of zelfs levenslang.",
+      "explanation_ru": "Управление транспортным средством после немедленного изъятия водительского удостоверения является крайне серьезным правонарушением. Санкции включают тюремное заключение (от трех месяцев до двух лет), крупные штрафы (от 200 до 2000 евро) и лишение права управления транспортным средством на срок от трех месяцев до пяти лет, а в некоторых случаях и пожизненно."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "b73383e9b279",
@@ -40,6 +337,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:32:25Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

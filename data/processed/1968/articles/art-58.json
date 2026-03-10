@@ -28,7 +28,304 @@
   "anchor_id_fr": "x9pobirvv0",
   "anchor_id_nl": "ajvzbvrcab",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la peine minimale prévue pour les infractions aux dispositions spécifiques du code de la route ?",
+      "text_nl": "Wat is de minimale straf die is voorzien voor overtredingen van de specifieke bepalingen van de wegcode?",
+      "text_ru": "Каково минимальное наказание, предусмотренное за нарушения конкретных положений кодекса дорог?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un emprisonnement d'un mois et une amende de 500 euros",
+          "text_nl": "Een gevangenisstraf van een maand en een geldboete van 500 euro",
+          "text_ru": "Тюремное заключение на один месяц и штраф в размере 500 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un emprisonnement d'un jour et une amende de 1 euro",
+          "text_nl": "Een gevangenisstraf van een dag en een geldboete van 1 euro",
+          "text_ru": "Тюремное заключение на один день и штраф в размере 1 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende de 10 euros",
+          "text_nl": "Een geldboete van 10 euro",
+          "text_ru": "Штраф в размере 10 евро",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La peine minimale est un emprisonnement d'un jour et une amende de 1 euro.",
+      "explanation_nl": "De minimale straf is een gevangenisstraf van een dag en een geldboete van 1 euro.",
+      "explanation_ru": "Минимальное наказание - тюремное заключение на один день и штраф в размере 1 евро."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui peut entraîner une réduction de l'amende dans le cas d'une infraction au code de la route ?",
+      "text_nl": "Wat kan leiden tot een vermindering van de geldboete in geval van een overtreding van de wegcode?",
+      "text_ru": "Что может привести к снижению штрафа в случае нарушения кодекса дорог?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des circonstances aggravantes",
+          "text_nl": "Verzwarende omstandigheden",
+          "text_ru": "Отягчающие обстоятельства",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des circonstances atténuantes",
+          "text_nl": "Verzachtende omstandigheden",
+          "text_ru": "Смягчающие обстоятельства",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une récidive",
+          "text_nl": "Herhaling",
+          "text_ru": "Рецидив",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Des circonstances atténuantes peuvent entraîner une réduction de l'amende.",
+      "explanation_nl": "Verzachtende omstandigheden kunnen leiden tot een vermindering van de geldboete.",
+      "explanation_ru": "Смягчающие обстоятельства могут привести к снижению штрафа."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qui se passe aux peines en cas de récidive dans les trois ans suivant un jugement antérieur ?",
+      "text_nl": "Wat gebeurt er met de straffen in geval van herhaling binnen drie jaar na een vorige uitspraak?",
+      "text_ru": "Что происходит с наказаниями в случае рецидива в течение трех лет после предыдущего приговора?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les peines sont réduites",
+          "text_nl": "De straffen worden verminderd",
+          "text_ru": "Наказания снижаются",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les peines sont doublées",
+          "text_nl": "De straffen worden verdubbeld",
+          "text_ru": "Наказания удваиваются",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les peines restent les mêmes",
+          "text_nl": "De straffen blijven hetzelfde",
+          "text_ru": "Наказания остаются теми же",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines sont doublées en cas de récidive dans les trois ans.",
+      "explanation_nl": "De straffen worden verdubbeld bij herhaling binnen drie jaar.",
+      "explanation_ru": "Наказания удваиваются в случае рецидива в течение трех лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez commis une infraction au code de la route et vous avez des circonstances atténuantes. Qu'est-ce qui peut se passer à votre amende ?",
+      "text_nl": "U heeft een overtreding van de wegcode gepleegd en u heeft verzachtende omstandigheden. Wat kan er gebeuren met uw geldboete?",
+      "text_ru": "Вы совершили нарушение кодекса дорог и у вас есть смягчающие обстоятельства. Что может произойти с вашим штрафом?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre amende sera augmentée",
+          "text_nl": "Uw geldboete zal worden verhoogd",
+          "text_ru": "Ваш штраф будет увеличен",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre amende sera réduite",
+          "text_nl": "Uw geldboete zal worden verminderd",
+          "text_ru": "Ваш штраф будет снижен",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre amende restera la même",
+          "text_nl": "Uw geldboete blijft hetzelfde",
+          "text_ru": "Ваш штраф останется тем же",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Votre amende peut être réduite en raison des circonstances atténuantes.",
+      "explanation_nl": "Uw geldboete kan worden verminderd vanwege de verzachtende omstandigheden.",
+      "explanation_ru": "Ваш штраф может быть снижен из-за смягчающих обстоятельств."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez été condamné pour une infraction au code de la route il y a deux ans. Que se passe-t-il si vous commettez une nouvelle infraction aujourd'hui ?",
+      "text_nl": "U bent twee jaar geleden veroordeeld voor een overtreding van de wegcode. Wat gebeurt er als u vandaag een nieuwe overtreding pleegt?",
+      "text_ru": "Вас осудили за нарушение кодекса дорог два года назад. Что происходит, если вы совершите новое нарушение сегодня?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les peines seront réduites",
+          "text_nl": "De straffen zullen worden verminderd",
+          "text_ru": "Наказания будут снижены",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les peines seront doublées",
+          "text_nl": "De straffen zullen worden verdubbeld",
+          "text_ru": "Наказания будут удвоены",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les peines resteront les mêmes",
+          "text_nl": "De straffen blijven hetzelfde",
+          "text_ru": "Наказания останутся теми же",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines seront doublées car vous avez commis une nouvelle infraction dans les trois ans.",
+      "explanation_nl": "De straffen worden verdubbeld omdat u een nieuwe overtreding heeft gepleegd binnen drie jaar.",
+      "explanation_ru": "Наказания будут удвоены, поскольку вы совершили новое нарушение в течение трех лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez commis une infraction au code de la route et vous avez été condamné à une amende de 200 euros. Que se passe-t-il si vous avez des circonstances atténuantes ?",
+      "text_nl": "U heeft een overtreding van de wegcode gepleegd en u is veroordeeld tot een geldboete van 200 euro. Wat gebeurt er als u verzachtende omstandigheden heeft?",
+      "text_ru": "Вы совершили нарушение кодекса дорог и были осуждены к штрафу в размере 200 евро. Что происходит, если у вас есть смягчающие обстоятельства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre amende sera augmentée à 500 euros",
+          "text_nl": "Uw geldboete zal worden verhoogd tot 500 euro",
+          "text_ru": "Ваш штраф будет увеличен до 500 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre amende sera réduite à 100 euros",
+          "text_nl": "Uw geldboete zal worden verminderd tot 100 euro",
+          "text_ru": "Ваш штраф будет снижен до 100 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre amende restera à 200 euros",
+          "text_nl": "Uw geldboete blijft 200 euro",
+          "text_ru": "Ваш штраф останется 200 евро",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Votre amende peut être réduite en raison des circonstances atténuantes.",
+      "explanation_nl": "Uw geldboete kan worden verminderd vanwege de verzachtende omstandigheden.",
+      "explanation_ru": "Ваш штраф может быть снижен из-за смягчающих обстоятельств."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez été condamné pour une infraction au code de la route et vous avez été condamné à une peine d'emprisonnement et une amende. Que se passe-t-il si vous avez des circonstances atténuantes ?",
+      "text_nl": "U bent veroordeeld voor een overtreding van de wegcode en u is veroordeeld tot een gevangenisstraf en een geldboete. Wat gebeurt er als u verzachtende omstandigheden heeft?",
+      "text_ru": "Вас осудили за нарушение кодекса дорог и вы были осуждены к тюремному заключению и штрафу. Что происходит, если у вас есть смягчающие обстоятельства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre peine d'emprisonnement sera augmentée",
+          "text_nl": "Uw gevangenisstraf zal worden verhoogd",
+          "text_ru": "Ваше тюремное заключение будет увеличено",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre amende sera réduite",
+          "text_nl": "Uw geldboete zal worden verminderd",
+          "text_ru": "Ваш штраф будет снижен",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre peine d'emprisonnement restera la même",
+          "text_nl": "Uw gevangenisstraf blijft hetzelfde",
+          "text_ru": "Ваше тюремное заключение останется тем же",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Votre amende peut être réduite en raison des circonstances atténuantes.",
+      "explanation_nl": "Uw geldboete kan worden verminderd vanwege de verzachtende omstandigheden.",
+      "explanation_ru": "Ваш штраф может быть снижен из-за смягчающих обстоятельств."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez commis une infraction au code de la route et vous avez été condamné à une amende de 50 euros. Que se passe-t-il si vous avez des circonstances atténuantes ?",
+      "text_nl": "U heeft een overtreding van de wegcode gepleegd en u is veroordeeld tot een geldboete van 50 euro. Wat gebeurt er als u verzachtende omstandigheden heeft?",
+      "text_ru": "Вы совершили нарушение кодекса дорог и были осуждены к штрафу в размере 50 евро. Что происходит, если у вас есть смягчающие обстоятельства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre amende sera augmentée à 100 euros",
+          "text_nl": "Uw geldboete zal worden verhoogd tot 100 euro",
+          "text_ru": "Ваш штраф будет увеличен до 100 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre amende sera réduite à 1 euro",
+          "text_nl": "Uw geldboete zal worden verminderd tot 1 euro",
+          "text_ru": "Ваш штраф будет снижен до 1 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre amende restera à 50 euros",
+          "text_nl": "Uw geldboete blijft 50 euro",
+          "text_ru": "Ваш штраф останется 50 евро",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Votre amende peut être réduite en raison des circonstances atténuantes.",
+      "explanation_nl": "Uw geldboete kan worden verminderd vanwege de verzachtende omstandigheden.",
+      "explanation_ru": "Ваш штраф может быть снижен из-за смягчающих обстоятельств."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "163f531584bc",
@@ -38,6 +335,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:40:47Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

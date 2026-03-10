@@ -29,7 +29,304 @@
   "anchor_id_fr": "ej76rn6cdr",
   "anchor_id_nl": "rjekfjdsdx",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui peut imposer un test de l'haleine à un conducteur?",
+      "text_nl": "Wie kan een ademtest opleggen aan een bestuurder?",
+      "text_ru": "Кто может назначить тест на дыхание водителю?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les officiers de police judiciaire",
+          "text_nl": "De officieren van gerechtelijke politie",
+          "text_ru": "Сотрудники судебной полиции",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les médecins",
+          "text_nl": "De artsen",
+          "text_ru": "Врачи",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les passants",
+          "text_nl": "De voorbijgangers",
+          "text_ru": "Проходящие мимо",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les dispositions, les officiers de police judiciaire auxiliaires du procureur du Roi, le personnel du cadre opérationnel de la police fédérale et locale peuvent imposer un test de l'haleine.",
+      "explanation_nl": "Volgens de bepalingen kunnen de officieren van gerechtelijke politie die hulpofficier zijn van de procureur des Konings, het personeel van het operationeel kader van de federale en lokale politie een ademtest opleggen.",
+      "explanation_ru": "Согласно положениям, сотрудники судебной полиции, которые являются помощниками прокурора короля, персонал оперативного штата федеральной и местной полиции могут назначить тест на дыхание."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un test de l'haleine?",
+      "text_nl": "Wat is een ademtest?",
+      "text_ru": "Что такое тест на дыхание?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un test qui détecte la présence d'alcool dans le sang",
+          "text_nl": "Een test die de aanwezigheid van alcohol in het bloed detecteert",
+          "text_ru": "Тест, который обнаруживает присутствие алкоголя в крови",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un test qui détecte la présence d'alcool dans l'air alvéolaire expiré",
+          "text_nl": "Een test die de aanwezigheid van alcohol in de uitgeademde alveolaire lucht detecteert",
+          "text_ru": "Тест, который обнаруживает присутствие алкоголя в выдыхаемом альвеолярном воздухе",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un test qui détecte la présence de drogues dans l'urine",
+          "text_nl": "Een test die de aanwezigheid van drugs in de urine detecteert",
+          "text_ru": "Тест, который обнаруживает присутствие наркотиков в моче",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un test de l'haleine consiste à souffler dans un appareil qui détecte le niveau d'imprégnation alcoolique dans l'air alvéolaire expiré.",
+      "explanation_nl": "Een ademtest bestaat erin te blazen in een toestel dat het niveau van de alcoholopname in de uitgeademde alveolaire lucht aangeeft.",
+      "explanation_ru": "Тест на дыхание состоит в том, чтобы дышать в прибор, который обнаруживает уровень алкогольного опьянения в выдыхаемом альвеолярном воздухе."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les circonstances dans lesquelles un test de l'haleine peut être imposé?",
+      "text_nl": "In welke omstandigheden kan een ademtest worden opgelegd?",
+      "text_ru": "В каких обстоятельствах может быть назначен тест на дыхание?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsqu'un conducteur est impliqué dans un accident de roulage",
+          "text_nl": "Wanneer een bestuurder betrokken is bij een verkeersongeval",
+          "text_ru": "Когда водитель участвует в дорожном происшествии",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsqu'un conducteur est en train de conduire de manière dangereuse",
+          "text_nl": "Wanneer een bestuurder gevaarlijk rijdt",
+          "text_ru": "Когда водитель управляет автомобилем опасно",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsqu'un conducteur est en train de stationner",
+          "text_nl": "Wanneer een bestuurder geparkeerd staat",
+          "text_ru": "Когда водитель припаркован",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un test de l'haleine peut être imposé à l'auteur présumé d'un accident de roulage ou à toute personne qui a pu contribuer à le provoquer, même si elle en est la victime.",
+      "explanation_nl": "Een ademtest kan worden opgelegd aan de vermoedelijke dader van een verkeersongeval of aan ieder die het mede heeft kunnen veroorzaken, zelfs indien hij het slachtoffer ervan is.",
+      "explanation_ru": "Тест на дыхание может быть назначен предполагаемому виновнику дорожного происшествия или любому, кто мог способствовать его возникновению, даже если он является жертвой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est impliqué dans un accident de roulage. Qu'est-ce que les agents de l'autorité doivent faire?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeval. Wat moeten de overheidsagenten doen?",
+      "text_ru": "Водитель участвует в дорожном происшествии. Что должны сделать представители власти?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent imposer un test de l'haleine au conducteur",
+          "text_nl": "Zij moeten een ademtest opleggen aan de bestuurder",
+          "text_ru": "Им необходимо назначить тест на дыхание водителю",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent emmener le conducteur au poste de police",
+          "text_nl": "Zij moeten de bestuurder naar het politiebureau brengen",
+          "text_ru": "Им необходимо отвезти водителя в полицейский участок",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent laisser le conducteur partir",
+          "text_nl": "Zij moeten de bestuurder laten gaan",
+          "text_ru": "Им необходимо отпустить водителя",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les agents de l'autorité doivent imposer un test de l'haleine au conducteur impliqué dans l'accident de roulage.",
+      "explanation_nl": "De overheidsagenten moeten een ademtest opleggen aan de bestuurder die betrokken is bij het verkeersongeval.",
+      "explanation_ru": "Представители власти должны назначить тест на дыхание водителю, участвующему в дорожном происшествии."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est en train de conduire sur une route publique. Qu'est-ce que les agents de l'autorité peuvent faire?",
+      "text_nl": "Een bestuurder rijdt op een openbare weg. Wat kunnen de overheidsagenten doen?",
+      "text_ru": "Водитель управляет автомобилем на общественной дороге. Что могут сделать представители власти?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils peuvent imposer un test de l'haleine au conducteur",
+          "text_nl": "Zij kunnen een ademtest opleggen aan de bestuurder",
+          "text_ru": "Им можно назначить тест на дыхание водителю",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent emmener le conducteur au poste de police",
+          "text_nl": "Zij moeten de bestuurder naar het politiebureau brengen",
+          "text_ru": "Им необходимо отвезти водителя в полицейский участок",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent laisser le conducteur partir",
+          "text_nl": "Zij moeten de bestuurder laten gaan",
+          "text_ru": "Им необходимо отпустить водителя",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les agents de l'autorité peuvent imposer un test de l'haleine au conducteur qui conduit sur une route publique.",
+      "explanation_nl": "De overheidsagenten kunnen een ademtest opleggen aan de bestuurder die rijdt op een openbare weg.",
+      "explanation_ru": "Представители власти могут назначить тест на дыхание водителю, управляющему автомобилем на общественной дороге."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a été impliqué dans un accident de roulage et les agents de l'autorité ont imposé un test de l'haleine. Qu'est-ce que le conducteur peut demander?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeval en de overheidsagenten hebben een ademtest opgelegd. Wat kan de bestuurder vragen?",
+      "text_ru": "Водитель участвовал в дорожном происшествии и представители власти назначили тест на дыхание. Что может запросить водитель?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il peut demander une deuxième analyse",
+          "text_nl": "Hij kan een tweede analyse vragen",
+          "text_ru": "Он может запросить вторичный анализ",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit accepter le résultat du test de l'haleine",
+          "text_nl": "Hij moet het resultaat van de ademtest accepteren",
+          "text_ru": "Ему необходимо принять результат теста на дыхание",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il peut refuser de souffler dans l'appareil",
+          "text_nl": "Hij kan weigeren te blazen in het toestel",
+          "text_ru": "Он может отказаться дышать в прибор",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur peut demander une deuxième analyse si les agents de l'autorité ont imposé un test de l'haleine.",
+      "explanation_nl": "De bestuurder kan een tweede analyse vragen als de overheidsagenten een ademtest hebben opgelegd.",
+      "explanation_ru": "Водитель может запросить вторичный анализ, если представители власти назначили тест на дыхание."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été impliqué dans un accident de roulage et les agents de l'autorité ont imposé un test de l'haleine. Qu'est-ce que les agents de l'autorité doivent faire si le conducteur demande une deuxième analyse?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeval en de overheidsagenten hebben een ademtest opgelegd. Wat moeten de overheidsagenten doen als de bestuurder een tweede analyse vraagt?",
+      "text_ru": "Водитель участвовал в дорожном происшествии и представители власти назначили тест на дыхание. Что должны сделать представители власти, если водитель запросит вторичный анализ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent effectuer une deuxième analyse",
+          "text_nl": "Zij moeten een tweede analyse uitvoeren",
+          "text_ru": "Им необходимо провести вторичный анализ",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent refuser la demande du conducteur",
+          "text_nl": "Zij moeten het verzoek van de bestuurder weigeren",
+          "text_ru": "Им необходимо отказать в запросе водителя",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent emmener le conducteur au poste de police",
+          "text_nl": "Zij moeten de bestuurder naar het politiebureau brengen",
+          "text_ru": "Им необходимо отвезти водителя в полицейский участок",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les agents de l'autorité doivent effectuer une deuxième analyse si le conducteur demande une deuxième analyse.",
+      "explanation_nl": "De overheidsagenten moeten een tweede analyse uitvoeren als de bestuurder een tweede analyse vraagt.",
+      "explanation_ru": "Представители власти должны провести вторичный анализ, если водитель запросит вторичный анализ."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été impliqué dans un accident de roulage et les agents de l'autorité ont imposé un test de l'haleine. Qu'est-ce que les agents de l'autorité doivent faire si les résultats des deux analyses sont différents?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeval en de overheidsagenten hebben een ademtest opgelegd. Wat moeten de overheidsagenten doen als de resultaten van de twee analyses verschillen?",
+      "text_ru": "Водитель участвовал в дорожном происшествии и представители власти назначили тест на дыхание. Что должны сделать представители власти, если результаты двух анализов различны?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent prendre en compte le résultat le plus bas",
+          "text_nl": "Zij moeten het laagste resultaat in aanmerking nemen",
+          "text_ru": "Им необходимо принять во внимание результат с наименьшим значением",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent prendre en compte le résultat le plus élevé",
+          "text_nl": "Zij moeten het hoogste resultaat in aanmerking nemen",
+          "text_ru": "Им необходимо принять во внимание результат с наибольшим значением",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent refaire les deux analyses",
+          "text_nl": "Zij moeten de twee analyses opnieuw uitvoeren",
+          "text_ru": "Им необходимо повторить оба анализа",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les agents de l'autorité doivent prendre en compte le résultat le plus bas si les résultats des deux analyses sont différents.",
+      "explanation_nl": "De overheidsagenten moeten het laagste resultaat in aanmerking nemen als de resultaten van de twee analyses verschillen.",
+      "explanation_ru": "Представители власти должны принять во внимание результат с наименьшим значением, если результаты двух анализов различны."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "bfa44edbeb2a",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:41:06Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

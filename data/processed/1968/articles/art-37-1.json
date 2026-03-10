@@ -34,7 +34,304 @@
   "anchor_id_fr": "d343iwn5mg",
   "anchor_id_nl": "eo6ytit1zf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le but principal d'un éthylotest antidémarrage imposé à un conducteur par une décision de justice ?",
+      "text_nl": "Wat is het hoofddoel van een alcoholslot dat een bestuurder op gerechtelijk bevel moet gebruiken?",
+      "text_ru": "Какова основная цель алкозамка, который водитель обязан использовать по решению суда?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Empêcher le conducteur de dépasser les limitations de vitesse.",
+          "text_nl": "De bestuurder beletten de snelheidsbeperkingen te overschrijden.",
+          "text_ru": "Предотвратить превышение скорости водителем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Empêcher le démarrage du véhicule si le conducteur a une concentration d'alcool au-dessus d'une certaine limite.",
+          "text_nl": "Voorkomen dat het voertuig start als de bestuurder een alcoholconcentratie heeft boven een bepaalde grens.",
+          "text_ru": "Предотвратить запуск транспортного средства, если концентрация алкоголя у водителя превышает определенный лимит.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Surveiller les habitudes de conduite pour réduire la consommation de carburant.",
+          "text_nl": "Het rijgedrag monitoren om het brandstofverbruik te verminderen.",
+          "text_ru": "Отслеживать привычки вождения для снижения расхода топлива.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'éthylotest antidémarrage est un dispositif qui empêche le démarrage du véhicule si le conducteur a consommé de l'alcool, dans le cadre d'une sanction judiciaire.",
+      "explanation_nl": "Het alcoholslot is een apparaat dat voorkomt dat het voertuig start als de bestuurder alcohol heeft geconsumeerd, als onderdeel van een gerechtelijke sanctie.",
+      "explanation_ru": "Алкозамок – это устройство, которое предотвращает запуск транспортного средства, если водитель употребил алкоголь, в рамках судебного наказания."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie le 'programme d'encadrement' auquel un conducteur doit se conformer lorsqu'une restriction de permis avec éthylotest antidémarrage lui est imposée ?",
+      "text_nl": "Wat betekent het 'omkaderingsprogramma' waaraan een bestuurder moet voldoen wanneer hem een rijbewijsbeperking met alcoholslot wordt opgelegd?",
+      "text_ru": "Что означает «программа поддержки», которой должен следовать водитель, если ему наложено ограничение водительских прав с обязательным использованием алкозамка?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un programme de formation pratique pour apprendre à entretenir l'éthylotest antidémarrage.",
+          "text_nl": "Een praktisch opleidingsprogramma om te leren hoe het alcoholslot te onderhouden.",
+          "text_ru": "Практическая обучающая программа по обслуживанию алкозамка.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un ensemble de conditions et de suivis (médicaux, psychologiques, éducatifs) auxquels le conducteur doit participer pour accompagner la mesure de restriction.",
+          "text_nl": "Een geheel van voorwaarden en begeleiding (medisch, psychologisch, educatief) waaraan de bestuurder moet deelnemen ter ondersteuning van de beperkende maatregel.",
+          "text_ru": "Совокупность условий и сопровождения (медицинского, психологического, образовательного), в которых водитель должен участвовать для поддержки ограничительной меры.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une liste de règles de conduite spécifiques à suivre uniquement avec un véhicule équipé d'un éthylotest antidémarrage.",
+          "text_nl": "Een lijst met specifieke rijregels die alleen moeten worden gevolgd met een voertuig dat is uitgerust met een alcoholslot.",
+          "text_ru": "Список конкретных правил дорожного движения, которым нужно следовать только при управлении транспортным средством, оборудованным алкозамком.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le programme d'encadrement est un accompagnement multidisciplinaire visant à aider le conducteur à gérer sa consommation d'alcool et à prévenir les récidives.",
+      "explanation_nl": "Het omkaderingsprogramma is een multidisciplinaire begeleiding gericht op het helpen van de bestuurder bij het omgaan met zijn alcoholgebruik en het voorkomen van recidive.",
+      "explanation_ru": "Программа поддержки – это междисциплинарное сопровождение, направленное на помощь водителю в управлении потреблением алкоголя и предотвращении рецидивов."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Après une condamnation pour une infraction grave liée à l'alcool, quelle est la durée minimale pendant laquelle la validité d'un permis de conduire peut être limitée à l'utilisation d'un éthylotest antidémarrage ?",
+      "text_nl": "Na een veroordeling voor een ernstige alcoholgerelateerde overtreding, wat is de minimale duur waarvoor de geldigheid van een rijbewijs kan worden beperkt tot het gebruik van een alcoholslot?",
+      "text_ru": "После осуждения за серьезное правонарушение, связанное с алкоголем, каков минимальный срок, на который может быть ограничено действие водительских прав с обязательным использованием алкозамка?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Six mois.",
+          "text_nl": "Zes maanden.",
+          "text_ru": "Шесть месяцев.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un an.",
+          "text_nl": "Eén jaar.",
+          "text_ru": "Один год.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Deux ans.",
+          "text_nl": "Twee jaar.",
+          "text_ru": "Дwa года.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La période de limitation de la validité du permis de conduire à l'utilisation d'un éthylotest antidémarrage est d'au moins un an.",
+      "explanation_nl": "De periode van beperking van de geldigheid van het rijbewijs tot het gebruik van een alcoholslot bedraagt ten minste één jaar.",
+      "explanation_ru": "Срок ограничения действия водительских прав с обязательным использованием алкозамка составляет не менее одного года."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est arrêté pour conduite en état d'ivresse. L'analyse sanguine révèle une concentration d'alcool de 1,9 gramme par litre de sang. Quelle est la décision la plus probable du juge concernant son permis de conduire ?",
+      "text_nl": "Een bestuurder wordt aangehouden voor rijden onder invloed. De bloedanalyse toont een alcoholconcentratie van 1,9 gram per liter bloed aan. Wat is de meest waarschijnlijke beslissing van de rechter betreffende zijn rijbewijs?",
+      "text_ru": "Водитель остановлен за управление транспортным средством в состоянии алкогольного опьянения. Анализ крови показал концентрацию алкоголя 1,9 грамма на литр крови. Какое наиболее вероятное решение примет судья относительно его водительских прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le juge peut choisir de ne pas imposer d'éthylotest antidémarrage, sans avoir à justifier sa décision.",
+          "text_nl": "De rechter kan ervoor kiezen geen alcoholslot op te leggen, zonder zijn beslissing te hoeven motiveren.",
+          "text_ru": "Судья может принять решение не устанавливать алкозамок, не мотивируя свое решение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le juge doit limiter la validité du permis de conduire aux véhicules équipés d'un éthylotest antidémarrage, à moins qu'il ne motive expressément une autre décision.",
+          "text_nl": "De rechter moet de geldigheid van het rijbewijs beperken tot voertuigen die zijn uitgerust met een alcoholslot, tenzij hij uitdrukkelijk een andere beslissing motiveert.",
+          "text_ru": "Судья должен ограничить действие водительских прав только на транспортные средства, оборудованные алкозамком, если только он не обоснует свое иное решение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le juge ne peut imposer qu'une amende et une déchéance temporaire du droit de conduire, mais pas d'éthylotest antidémarrage.",
+          "text_nl": "De rechter kan alleen een geldboete en een tijdelijk rijverbod opleggen, maar geen alcoholslot.",
+          "text_ru": "Судья может наложить только штраф и временное лишение водительских прав, но не алкозамок.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "À partir d'une concentration d'alcool de 1,8 gramme par litre de sang, le juge doit limiter la validité du permis de conduire à l'utilisation d'un éthylotest antidémarrage, sauf motivation expresse contraire.",
+      "explanation_nl": "Vanaf een alcoholconcentratie van 1,8 gram per liter bloed moet de rechter de geldigheid van het rijbewijs beperken tot het gebruik van een alcoholslot, tenzij hij uitdrukkelijk een andere beslissing motiveert.",
+      "explanation_ru": "Начиная с концентрации алкоголя 1,8 грамма на литр крови, судья должен ограничить действие водительских прав использованием алкозамка, если только он не обоснует иное решение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Votre permis de conduire est limité aux véhicules équipés d'un éthylotest antidémarrage et vous êtes également tenu de suivre un programme d'encadrement. Vous décidez de conduire un véhicule qui n'est pas équipé de cet appareil. Quelles sanctions encourez-vous ?",
+      "text_nl": "Uw rijbewijs is beperkt tot voertuigen met een alcoholslot en u moet ook een omkaderingsprogramma volgen. U besluit een voertuig te besturen dat niet met dit apparaat is uitgerust. Welke straffen riskeert u?",
+      "text_ru": "Ваши водительские права ограничены на использование только транспортных средств, оборудованных алкозамком, и вы также обязаны пройти программу поддержки. Вы решили управлять транспортным средством, не оборудованным этим устройством. Какие санкции вам грозят?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une simple amende administrative et une lettre d'avertissement.",
+          "text_nl": "Een simpele administratieve boete en een waarschuwingsbrief.",
+          "text_ru": "Простой административный штраф и предупредительное письмо.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une peine de prison, une amende et une déchéance du droit de conduire pour une durée équivalente ou supérieure à la période de restriction initiale.",
+          "text_nl": "Een gevangenisstraf, een geldboete en een verval van het recht tot sturen voor een duur die gelijk is aan of langer is dan de oorspronkelijke beperkingsperiode.",
+          "text_ru": "Тюремное заключение, штраф и лишение права управления транспортным средством на срок, равный или превышающий первоначальный период ограничения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement l'obligation de suivre un programme d'encadrement plus strict, sans autres sanctions.",
+          "text_nl": "Alleen de verplichting om een strenger omkaderingsprogramma te volgen, zonder andere sancties.",
+          "text_ru": "Только обязанность пройти более строгую программу поддержки, без других санкций.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire un véhicule non équipé de l'éthylotest antidémarrage requis ou ne pas remplir les conditions du programme d'encadrement est une infraction grave passible d'emprisonnement, d'une amende et d'une déchéance du droit de conduire.",
+      "explanation_nl": "Het besturen van een voertuig zonder het vereiste alcoholslot of het niet voldoen aan de voorwaarden van het omkaderingsprogramma is een ernstige overtreding die kan leiden tot gevangenisstraf, een geldboete en een verval van het recht tot sturen.",
+      "explanation_ru": "Управление транспортным средством без обязательного алкозамка или невыполнение условий программы поддержки является серьезным правонарушением, наказуемым лишением свободы, штрафом и лишением права управления транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un juge vous impose un permis de conduire limité à l'éthylotest antidémarrage pour une infraction commise au volant d'une voiture. Vous êtes également titulaire d'un permis pour poids lourds. Le juge peut-il vous permettre de conduire votre poids lourd sans éthylotest antidémarrage ?",
+      "text_nl": "Een rechter legt u een rijbewijsbeperking op tot het alcoholslot voor een overtreding begaan met een auto. U bent ook in het bezit van een rijbewijs voor vrachtwagens. Mag de rechter u toestaan uw vrachtwagen te besturen zonder alcoholslot?",
+      "text_ru": "Судья накладывает на вас ограничение водительских прав на использование алкозамка за правонарушение, совершенное за рулем автомобиля. Вы также имеете водительские права на грузовые автомобили. Может ли судья разрешить вам управлять грузовым автомобилем без алкозамка?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, la restriction s'applique automatiquement à toutes les catégories de véhicules que le conducteur peut conduire.",
+          "text_nl": "Nee, de beperking geldt automatisch voor alle voertuigcategorieën die de bestuurder mag besturen.",
+          "text_ru": "Нет, ограничение автоматически распространяется на все категории транспортных средств, которыми может управлять водитель.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, le juge peut indiquer certaines catégories de véhicules pour lesquelles la restriction ne s'applique pas, à condition que la catégorie de l'infraction reste soumise à l'éthylotest antidémarrage.",
+          "text_nl": "Ja, de rechter kan bepaalde voertuigcategorieën aanduiden waarvoor de beperking niet geldt, op voorwaarde dat de categorie van de overtreding onder het alcoholslot blijft vallen.",
+          "text_ru": "Да, судья может указать определенные категории транспортных средств, на которые ограничение не распространяется, при условии, что категория транспортного средства, на котором было совершено правонарушение, остается под обязательством использовать алкозамок.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si le conducteur suit une formation complémentaire pour les poids lourds.",
+          "text_nl": "Ja, maar alleen als de bestuurder een aanvullende opleiding voor vrachtwagens volgt.",
+          "text_ru": "Да, но только если водитель пройдет дополнительное обучение для грузовых автомобилей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le juge a la possibilité de limiter la restriction à une ou plusieurs catégories de véhicules, mais la catégorie avec laquelle l'infraction a été commise doit toujours être soumise à la restriction de l'éthylotest antidémarrage.",
+      "explanation_nl": "De rechter heeft de mogelijkheid om de beperking tot één of meerdere voertuigcategorieën te beperken, maar de categorie waarmee de overtreding is begaan, moet altijd onder de alcoholslotbeperking vallen.",
+      "explanation_ru": "Судья имеет возможность ограничить действие запрета на одну или несколько категорий транспортных средств, но категория, на которой было совершено правонарушение, всегда должна подпадать под ограничение использования алкозамка."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est condamné pour une deuxième infraction de conduite sous influence d'alcool. Les analyses d'haleine précédentes et actuelles montrent toutes une concentration d'alcool d'au moins 0,50 milligramme par litre d'air expiré. Quelle est la décision la plus probable du juge concernant son permis de conduire ?",
+      "text_nl": "Een bestuurder wordt veroordeeld voor een tweede overtreding van rijden onder invloed van alcohol. Eerdere en huidige ademanalyses tonen telkens een alcoholconcentratie van ten minste 0,50 milligram per liter uitgeademde lucht aan. Wat is de meest waarschijnlijke beslissing van de rechter betreffende zijn rijbewijs?",
+      "text_ru": "Водитель осужден за второе правонарушение, связанное с управлением транспортным средством в состоянии алкогольного опьянения. Предыдущие и текущие анализы дыхания показывают концентрацию алкоголя не менее 0,50 миллиграмма на литр выдыхаемого воздуха. Какое наиболее вероятное решение примет судья относительно его водительских прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le juge peut choisir d'imposer un éthylotest antidémarrage, mais ce n'est pas une obligation.",
+          "text_nl": "De rechter kan ervoor kiezen een alcoholslot op te leggen, maar dit is geen verplichting.",
+          "text_ru": "Судья может принять решение об установке алкозамка, но это не является обязательным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le juge doit limiter la validité du permis de conduire aux véhicules équipés d'un éthylotest antidémarrage.",
+          "text_nl": "De rechter moet de geldigheid van het rijbewijs beperken tot voertuigen die zijn uitgerust met een alcoholslot.",
+          "text_ru": "Судья должен ограничить действие водительских прав только на транспортные средства, оборудованные алкозамком.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le juge imposera uniquement une amende plus élevée et un programme de sensibilisation à l'alcool.",
+          "text_nl": "De rechter zal alleen een hogere geldboete en een alcoholbewustwordingsprogramma opleggen.",
+          "text_ru": "Судья наложит только более высокий штраф и программу по повышению осведомленности об алкоголе.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de récidive pour conduite sous influence d'alcool avec des concentrations élevées et répétées, le juge a l'obligation de limiter la validité du permis de conduire aux véhicules équipés d'un éthylotest antidémarrage.",
+      "explanation_nl": "In geval van herhaling van rijden onder invloed met herhaaldelijk hoge alcoholconcentraties, is de rechter verplicht de geldigheid van het rijbewijs te beperken tot voertuigen die zijn uitgerust met een alcoholslot.",
+      "explanation_ru": "В случае повторного нарушения правил управления транспортным средством в состоянии алкогольного опьянения с повторными высокими концентрациями, судья обязан ограничить действие водительских прав только на транспортные средства, оборудованные алкозамком."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est condamné à utiliser un éthylotest antidémarrage et à suivre un programme d'encadrement. Ces mesures entraînent des coûts significatifs. Que peut faire le juge concernant l'amende qu'il pourrait prononcer ?",
+      "text_nl": "Een bestuurder wordt veroordeeld tot het gebruik van een alcoholslot en het volgen van een omkaderingsprogramma. Deze maatregelen brengen aanzienlijke kosten met zich mee. Wat kan de rechter doen met betrekking tot de boete die hij zou kunnen opleggen?",
+      "text_ru": "Водитель приговорен к использованию алкозамка и прохождению программы поддержки. Эти меры влекут за собой значительные расходы. Что может сделать судья относительно штрафа, который он может назначить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le juge ne peut pas tenir compte de ces coûts pour l'amende, car ce sont des sanctions distinctes.",
+          "text_nl": "De rechter mag deze kosten niet in overweging nemen voor de boete, aangezien dit afzonderlijke sancties zijn.",
+          "text_ru": "Судья не может учитывать эти расходы при наложении штрафа, так как это отдельные санкции.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le juge peut diminuer l'amende de tout ou partie du coût de l'installation et de l'utilisation de l'éthylotest ainsi que du coût du programme d'encadrement, sans que l'amende ne descende en dessous d'un euro.",
+          "text_nl": "De rechter kan de geldboete verminderen met de volledige of gedeeltelijke kosten van de installatie en het gebruik van het alcoholslot, alsook met de kosten van het omkaderingsprogramma, zonder dat de boete minder dan één euro mag bedragen.",
+          "text_ru": "Судья может уменьшить штраф на всю или часть стоимости установки и использования алкозамка, а также стоимости программы поддержки, при этом штраф не может быть менее одного евро.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le juge est obligé de rembourser intégralement les coûts de l'éthylotest et du programme d'encadrement au conducteur.",
+          "text_nl": "De rechter is verplicht de kosten van het alcoholslot en het omkaderingsprogramma volledig aan de bestuurder te vergoeden.",
+          "text_ru": "Судья обязан полностью возместить водителю расходы на алкозамок и программу поддержки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le juge a la possibilité de moduler l'amende en fonction des coûts engendrés par l'éthylotest antidémarrage et le programme d'encadrement, mais l'amende minimale ne peut être inférieure à un euro.",
+      "explanation_nl": "De rechter heeft de mogelijkheid om de geldboete aan te passen op basis van de kosten van het alcoholslot en het omkaderingsprogramma, maar de minimale boete mag niet minder dan één euro bedragen.",
+      "explanation_ru": "Судья имеет право изменить размер штрафа в зависимости от расходов, связанных с алкозамком и программой поддержки, но минимальный штраф не может быть менее одного евро."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "12063df4c912",
@@ -44,6 +341,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:33:43Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

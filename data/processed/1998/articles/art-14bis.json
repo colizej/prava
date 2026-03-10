@@ -26,7 +26,140 @@
   "anchor_id_fr": "9jffgmhi3i",
   "anchor_id_nl": "1wg3zneb4c",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la condition spécifique qui oblige un candidat au permis de catégorie B à suivre des heures de cours supplémentaires en école de conduite concernant la perception des risques ?",
+      "text_nl": "Welke specifieke voorwaarde verplicht een kandidaat voor het rijbewijs categorie B om extra lesuren in een rijschool te volgen met betrekking tot risicoperceptie?",
+      "text_ru": "Какое конкретное условие обязывает кандидата на получение водительских прав категории B пройти дополнительные часы обучения в автошколе по восприятию рисков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Échouer une fois à l'examen théorique.",
+          "text_nl": "Eén keer niet slagen voor het theorie-examen.",
+          "text_ru": "Один раз не сдать теоретический экзамен.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Échouer deux fois consécutives au test de perception des risques.",
+          "text_nl": "Twee keer op rij niet slagen voor de risicoperceptietest.",
+          "text_ru": "Два раза подряд не пройти тест на восприятие рисков.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Échouer une fois à l'examen pratique.",
+          "text_nl": "Eén keer niet slagen voor het praktijkexamen.",
+          "text_ru": "Один раз не сдать практический экзамен.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text_fr": "Échouer une fois au test de perception des risques.",
+          "text_nl": "Eén keer niet slagen voor de risicoperceptietest.",
+          "text_ru": "Один раз не пройти тест на восприятие рисков.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La règle stipule que l'obligation de suivre des cours supplémentaires ne s'applique qu'après avoir échoué deux fois consécutives au test de perception des risques.",
+      "explanation_nl": "De regel stelt dat de verplichting om extra lessen te volgen pas van toepassing is nadat men twee keer op rij niet geslaagd is voor de risicoperceptietest.",
+      "explanation_ru": "Правило гласит, что обязанность проходить дополнительные курсы возникает только после двух последовательных неудач на тесте восприятия рисков."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le contenu et la durée obligatoires des cours que doit suivre un candidat au permis de catégorie B après avoir échoué à deux reprises consécutives au test de perception des risques ?",
+      "text_nl": "Wat is de verplichte inhoud en duur van de lessen die een kandidaat voor het rijbewijs categorie B moet volgen na twee keer op rij niet geslaagd te zijn voor de risicoperceptietest?",
+      "text_ru": "Каковы обязательное содержание и продолжительность курсов, которые должен пройти кандидат на получение водительских прав категории B после двух последовательных неудач на тесте восприятия рисков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Deux heures de cours pratiques uniquement.",
+          "text_nl": "Twee uur uitsluitend praktijklessen.",
+          "text_ru": "Только два часа практических занятий.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Trois heures de cours théoriques uniquement.",
+          "text_nl": "Drie uur uitsluitend theorielessen.",
+          "text_ru": "Только три часа теоретических занятий.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Trois heures de cours combinant des aspects théoriques et pratiques.",
+          "text_nl": "Drie uur lessen die theoretische en praktische aspecten combineren.",
+          "text_ru": "Три часа занятий, сочетающих теоретические и практические аспекты.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text_fr": "Quatre heures de cours pratiques uniquement.",
+          "text_nl": "Vier uur uitsluitend praktijklessen.",
+          "text_ru": "Только четыре часа практических занятий.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La règle indique clairement que le candidat doit suivre trois heures de cours en école de conduite, et que ces cours doivent combiner des aspects théoriques et pratiques.",
+      "explanation_nl": "De regel vermeldt duidelijk dat de kandidaat drie uur lessen in een rijschool moet volgen en dat deze lessen theoretische en praktische aspecten moeten combineren.",
+      "explanation_ru": "В статье четко указано, что кандидат должен пройти три часа занятий в автошколе, и что эти занятия должны сочетать теоретические и практические аспекты."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un candidat au permis de conduire de catégorie B, situé en Région wallonne, vient d'échouer pour la deuxième fois consécutive au test de perception des risques. Que doit-il faire avant de pouvoir se représenter à ce test ?",
+      "text_nl": "Een kandidaat voor het rijbewijs categorie B, woonachtig in het Waalse Gewest, is zojuist voor de tweede keer op rij niet geslaagd voor de risicoperceptietest. Wat moet deze kandidaat doen voordat hij de test opnieuw mag afleggen?",
+      "text_ru": "Кандидат на получение водительских прав категории B, проживающий в Валлонском регионе, только что второй раз подряд не сдал тест на восприятие рисков. Что он должен сделать, прежде чем снова пройти этот тест?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il peut se représenter immédiatement au test après avoir payé de nouveaux frais.",
+          "text_nl": "Hij mag de test onmiddellijk opnieuw afleggen na betaling van nieuwe kosten.",
+          "text_ru": "Он может немедленно пересдать тест после уплаты нового сбора.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il doit suivre trois heures de cours en école de conduite, combinant des aspects théoriques et pratiques.",
+          "text_nl": "Hij moet drie uur lessen in een rijschool volgen, die theoretische en praktische aspecten combineren.",
+          "text_ru": "Он должен пройти три часа занятий в автошколе, сочетающих теоретические и практические аспекты.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il doit attendre six mois avant de pouvoir se représenter au test.",
+          "text_nl": "Hij moet zes maanden wachten voordat hij de test opnieuw mag afleggen.",
+          "text_ru": "Он должен ждать шесть месяцев, прежде чем сможет снова пройти тест.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text_fr": "Il doit seulement suivre deux heures de cours pratiques de conduite.",
+          "text_nl": "Hij moet slechts twee uur praktijklessen volgen.",
+          "text_ru": "Он должен пройти только два часа практических занятий по вождению.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Après deux échecs consécutifs au test de perception des risques, le candidat est tenu de suivre trois heures de cours en école de conduite, combinant théorie et pratique, avant de pouvoir retenter le test.",
+      "explanation_nl": "Na twee opeenvolgende mislukkingen voor de risicoperceptietest, is de kandidaat verplicht om drie uur lessen in een rijschool te volgen, die theorie en praktijk combineren, voordat hij de test opnieuw mag afleggen.",
+      "explanation_ru": "После двух последовательных неудач на тесте восприятия рисков кандидат обязан пройти три часа занятий в автошколе, сочетающих теорию и практику, прежде чем снова пытаться сдать тест."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "49846de86760",
@@ -36,6 +169,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:43:56Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

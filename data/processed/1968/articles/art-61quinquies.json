@@ -28,7 +28,304 @@
   "anchor_id_fr": "qv5v7fzsdq",
   "anchor_id_nl": "bvaizkrfwt",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un éthylotest antidémarrage?",
+      "text_nl": "Wat is een alcoholslot?",
+      "text_ru": "Что такое алкотестер-замок зажигания?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un système qui permet de démarrer un véhicule sans clé",
+          "text_nl": "Een systeem dat het mogelijk maakt om een voertuig te starten zonder sleutel",
+          "text_ru": "Система, позволяющая запустить транспортное средство без ключа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un système qui empêche un véhicule de démarrer si le conducteur a une concentration d'alcool élevée",
+          "text_nl": "Een systeem dat het voertuig verhindert te starten als de bestuurder een hoge alcoholconcentratie heeft",
+          "text_ru": "Система, не позволяющая транспортному средству заводиться, если у водителя высокая концентрация алкоголя",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un système de navigation pour les véhicules",
+          "text_nl": "Een navigatiesysteem voor voertuigen",
+          "text_ru": "Система навигации для транспортных средств",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un éthylotest antidémarrage est un système qui empêche un véhicule de démarrer si le conducteur a une concentration d'alcool élevée.",
+      "explanation_nl": "Een alcoholslot is een systeem dat het voertuig verhindert te starten als de bestuurder een hoge alcoholconcentratie heeft.",
+      "explanation_ru": "Алкотестер-замок зажигания - это система, не позволяющая транспортному средству заводиться, если у водителя высокая концентрация алкоголя."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la concentration d'alcool minimale qui empêche un véhicule équipé d'un éthylotest antidémarrage de démarrer?",
+      "text_nl": "Wat is de minimale alcoholconcentratie die een voertuig met een alcoholslot verhindert te starten?",
+      "text_ru": "Какова минимальная концентрация алкоголя, которая не позволяет транспортному средству с алкотестером-замком зажигания завестись?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,05 milligramme par litre d'air alvéolaire expiré",
+          "text_nl": "0,05 milligram per liter uitgeademde alveolaire lucht",
+          "text_ru": "0,05 миллиграмма на литр выдыхаемого альвеолярного воздуха",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,09 milligramme par litre d'air alvéolaire expiré",
+          "text_nl": "0,09 milligram per liter uitgeademde alveolaire lucht",
+          "text_ru": "0,09 миллиграмма на литр выдыхаемого альвеолярного воздуха",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "0,15 milligramme par litre d'air alvéolaire expiré",
+          "text_nl": "0,15 milligram per liter uitgeademde alveolaire lucht",
+          "text_ru": "0,15 миллиграмма на литр выдыхаемого альвеолярного воздуха",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La concentration d'alcool minimale qui empêche un véhicule équipé d'un éthylotest antidémarrage de démarrer est de 0,09 milligramme par litre d'air alvéolaire expiré.",
+      "explanation_nl": "De minimale alcoholconcentratie die een voertuig met een alcoholslot verhindert te starten is 0,09 milligram per liter uitgeademde alveolaire lucht.",
+      "explanation_ru": "Минимальная концентрация алкоголя, которая не позволяет транспортному средству с алкотестером-замком зажигания завестись, составляет 0,09 миллиграмма на литр выдыхаемого альвеолярного воздуха."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qui prend en charge les frais d'installation et d'utilisation d'un éthylotest antidémarrage, ainsi que les frais du programme d'encadrement?",
+      "text_nl": "Wie draagt de kosten van de installatie en het gebruik van een alcoholslot, evenals de kosten van het omkaderingsprogramma?",
+      "text_ru": "Кто оплачивает расходы на установку и использование алкотестера-замка зажигания, а также расходы на программу сопровождения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'État",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur",
+          "text_nl": "De bestuurder",
+          "text_ru": "Водитель",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le propriétaire du véhicule",
+          "text_nl": "De eigenaar van het voertuig",
+          "text_ru": "Владелец транспортного средства",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur prend en charge les frais d'installation et d'utilisation d'un éthylotest antidémarrage, ainsi que les frais du programme d'encadrement.",
+      "explanation_nl": "De bestuurder draagt de kosten van de installatie en het gebruik van een alcoholslot, evenals de kosten van het omkaderingsprogramma.",
+      "explanation_ru": "Водитель оплачивает расходы на установку и использование алкотестера-замка зажигания, а также расходы на программу сопровождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a un permis de conduire limité aux véhicules équipés d'un éthylotest antidémarrage. Que doit-il faire avant de démarrer son véhicule?",
+      "text_nl": "Een bestuurder heeft een rijbewijs dat beperkt is tot voertuigen met een alcoholslot. Wat moet hij doen voordat hij zijn voertuig start?",
+      "text_ru": "У водителя есть водительское удостоверение, ограниченное транспортными средствами с алкотестером-замком зажигания. Что он должен сделать, прежде чем завести свое транспортное средство?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demarrer son véhicule sans vérifier son niveau d'alcool",
+          "text_nl": "Zijn voertuig starten zonder zijn alcoholgehalte te controleren",
+          "text_ru": "Завести свое транспортное средство без проверки уровня алкоголя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire un test d'alcool pour s'assurer qu'il est en dessous de la limite",
+          "text_nl": "Een alcoholtest doen om te controleren of hij onder de limiet zit",
+          "text_ru": "Сделать тест на алкоголь, чтобы убедиться, что он ниже предела",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler la police pour obtenir l'autorisation de démarrer",
+          "text_nl": "De politie bellen om toestemming te krijgen om te starten",
+          "text_ru": "Позвонить в полицию, чтобы получить разрешение на запуск",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit faire un test d'alcool pour s'assurer qu'il est en dessous de la limite avant de démarrer son véhicule.",
+      "explanation_nl": "De bestuurder moet een alcoholtest doen om te controleren of hij onder de limiet zit voordat hij zijn voertuig start.",
+      "explanation_ru": "Водитель должен сделать тест на алкоголь, чтобы убедиться, что он ниже предела, прежде чем завести свое транспортное средство."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a un permis de conduire limité aux véhicules équipés d'un éthylotest antidémarrage. Que se passe-t-il s'il essaye de démarrer son véhicule avec une concentration d'alcool supérieure à la limite?",
+      "text_nl": "Een bestuurder heeft een rijbewijs dat beperkt is tot voertuigen met een alcoholslot. Wat gebeurt er als hij probeert zijn voertuig te starten met een alcoholconcentratie boven de limiet?",
+      "text_ru": "У водителя есть водительское удостоверение, ограниченное транспортными средствами с алкотестером-замком зажигания. Что происходит, если он попытается завести свое транспортное средство с уровнем алкоголя выше предела?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule démarre normalement",
+          "text_nl": "Het voertuig start normaal",
+          "text_ru": "Транспортное средство заводится нормально",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule refuse de démarrer",
+          "text_nl": "Het voertuig weigert te starten",
+          "text_ru": "Транспортное средство отказывается заводиться",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule démarre, mais avec un avertissement sonore",
+          "text_nl": "Het voertuig start, maar met een geluidswaarschuwing",
+          "text_ru": "Транспортное средство заводится, но с звуковым предупреждением",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le véhicule refuse de démarrer si le conducteur a une concentration d'alcool supérieure à la limite.",
+      "explanation_nl": "Het voertuig weigert te starten als de bestuurder een alcoholconcentratie boven de limiet heeft.",
+      "explanation_ru": "Транспортное средство отказывается заводиться, если у водителя уровень алкоголя выше предела."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a un permis de conduire limité aux véhicules équipés d'un éthylotest antidémarrage. Quels sont les frais qu'il doit payer pour utiliser cet équipement?",
+      "text_nl": "Een bestuurder heeft een rijbewijs dat beperkt is tot voertuigen met een alcoholslot. Wat zijn de kosten die hij moet betalen om dit apparaat te gebruiken?",
+      "text_ru": "У водителя есть водительское удостоверение, ограниченное транспортными средствами с алкотестером-замком зажигания. Какие расходы он должен оплатить за использование этого оборудования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seuls les frais d'installation",
+          "text_nl": "Alleen de installatiekosten",
+          "text_ru": "Только расходы на установку",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Seuls les frais d'utilisation",
+          "text_nl": "Alleen de gebruikskosten",
+          "text_ru": "Только расходы на использование",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les frais d'installation, d'utilisation et du programme d'encadrement",
+          "text_nl": "De installatiekosten, de gebruikskosten en de kosten van het omkaderingsprogramma",
+          "text_ru": "Расходы на установку, использование и программу сопровождения",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le conducteur doit payer les frais d'installation, d'utilisation et du programme d'encadrement pour utiliser un éthylotest antidémarrage.",
+      "explanation_nl": "De bestuurder moet de installatiekosten, de gebruikskosten en de kosten van het omkaderingsprogramma betalen om een alcoholslot te gebruiken.",
+      "explanation_ru": "Водитель должен оплатить расходы на установку, использование и программу сопровождения для использования алкотестера-замка зажигания."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a un permis de conduire limité aux véhicules équipés d'un éthylotest antidémarrage. Que doit-il faire si son véhicule est équipé d'un tel système?",
+      "text_nl": "Een bestuurder heeft een rijbewijs dat beperkt is tot voertuigen met een alcoholslot. Wat moet hij doen als zijn voertuig is uitgerust met een dergelijk systeem?",
+      "text_ru": "У водителя есть водительское удостоверение, ограниченное транспортными средствами с алкотестером-замком зажигания. Что он должен сделать, если его транспортное средство оснащено такой системой?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Désactiver le système",
+          "text_nl": "Het systeem uitschakelen",
+          "text_ru": "Отключить систему",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Utiliser le système pour s'assurer de sa sobriété",
+          "text_nl": "Het systeem gebruiken om te controleren of hij nuchter is",
+          "text_ru": "Использовать систему для проверки своего трезвого состояния",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer le système",
+          "text_nl": "Het systeem negeren",
+          "text_ru": "Игнорировать систему",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit utiliser le système pour s'assurer de sa sobriété avant de démarrer son véhicule.",
+      "explanation_nl": "De bestuurder moet het systeem gebruiken om te controleren of hij nuchter is voordat hij zijn voertuig start.",
+      "explanation_ru": "Водитель должен использовать систему для проверки своего трезвого состояния, прежде чем завести свое транспортное средство."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a un permis de conduire limité aux véhicules équipés d'un éthylotest antidémarrage. Que se passe-t-il s'il ne respecte pas les conditions du programme d'encadrement?",
+      "text_nl": "Een bestuurder heeft een rijbewijs dat beperkt is tot voertuigen met een alcoholslot. Wat gebeurt er als hij de voorwaarden van het omkaderingsprogramma niet naleeft?",
+      "text_ru": "У водителя есть водительское удостоверение, ограниченное транспортными средствами с алкотестером-замком зажигания. Что происходит, если он не соблюдает условия программы сопровождения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien ne se passe",
+          "text_nl": "Er gebeurt niets",
+          "text_ru": "Ничего не происходит",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis de conduire est suspendu",
+          "text_nl": "Het rijbewijs wordt geschorst",
+          "text_ru": "Водительское удостоверение приостанавливается",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le permis de conduire est annulé",
+          "text_nl": "Het rijbewijs wordt ingetrokken",
+          "text_ru": "Водительское удостоверение аннулируется",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire est suspendu si le conducteur ne respecte pas les conditions du programme d'encadrement.",
+      "explanation_nl": "Het rijbewijs wordt geschorst als de bestuurder de voorwaarden van het omkaderingsprogramma niet naleeft.",
+      "explanation_ru": "Водительское удостоверение приостанавливается, если водитель не соблюдает условия программы сопровождения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "b2effd142d51",
@@ -38,6 +335,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:42:41Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

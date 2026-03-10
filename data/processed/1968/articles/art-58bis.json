@@ -30,7 +30,193 @@
   "anchor_id_fr": "sxvcgak5dc",
   "anchor_id_nl": "1uftyup6os",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que l'immobilisation d'un véhicule comme mesure de sûreté ?",
+      "text_nl": "Wat is de immobilisering van een voertuig als beveiligingsmaatregel ?",
+      "text_ru": "Что такое иммобилизация транспортного средства в качестве меры безопасности ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une mesure de sûreté qui vise à empêcher un véhicule de circuler",
+          "text_nl": "Een beveiligingsmaatregel die ertoe strekt een voertuig te verhinderen te rijden",
+          "text_ru": "Мера безопасности, направленная на предотвращение движения транспортного средства",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une mesure de sûreté qui vise à protéger les passants",
+          "text_nl": "Een beveiligingsmaatregel die ertoe strekt de voetgangers te beschermen",
+          "text_ru": "Мера безопасности, направленная на защиту пешеходов",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une mesure de sûreté qui vise à réduire la vitesse des véhicules",
+          "text_nl": "Een beveiligingsmaatregel die ertoe strekt de snelheid van de voertuigen te verminderen",
+          "text_ru": "Мера безопасности, направленная на снижение скорости транспортных средств",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'immobilisation d'un véhicule comme mesure de sûreté est une mesure qui vise à empêcher un véhicule de circuler, généralement en raison d'une infraction au code de la route.",
+      "explanation_nl": "De immobilisering van een voertuig als beveiligingsmaatregel is een maatregel die ertoe strekt een voertuig te verhinderen te rijden, meestal vanwege een overtreding van de wegcode.",
+      "explanation_ru": "Иммобилизация транспортного средства в качестве меры безопасности - это мера, направленная на предотвращение движения транспортного средства, обычно из-за нарушения правил дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui peut ordonner l'immobilisation d'un véhicule comme mesure de sûreté ?",
+      "text_nl": "Wie kan de immobilisering van een voertuig als beveiligingsmaatregel bevelen ?",
+      "text_ru": "Кто может распорядиться об иммобилизации транспортного средства в качестве меры безопасности ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les personnes visées à l'article 55, § 1, alinéa 3",
+          "text_nl": "De personen bedoeld in artikel 55, § 1, derde lid",
+          "text_ru": "Лица, указанные в статье 55, § 1, пункт 3",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les agents de police",
+          "text_nl": "De politieagenten",
+          "text_ru": "Полицейские",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les juges",
+          "text_nl": "De rechters",
+          "text_ru": "Судьи",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes visées à l'article 55, § 1, alinéa 3, peuvent ordonner l'immobilisation d'un véhicule comme mesure de sûreté.",
+      "explanation_nl": "De personen bedoeld in artikel 55, § 1, derde lid, kunnen de immobilisering van een voertuig als beveiligingsmaatregel bevelen.",
+      "explanation_ru": "Лица, указанные в статье 55, § 1, пункт 3, могут распорядиться об иммобилизации транспортного средства в качестве меры безопасности."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quels sont les frais et les risques liés à l'immobilisation d'un véhicule comme mesure de sûreté ?",
+      "text_nl": "Wat zijn de kosten en de risico's verbonden aan de immobilisering van een voertuig als beveiligingsmaatregel ?",
+      "text_ru": "Какие затраты и риски связаны с иммобилизацией транспортного средства в качестве меры безопасности ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les frais et les risques sont à la charge du propriétaire du véhicule",
+          "text_nl": "De kosten en de risico's zijn ten laste van de eigenaar van het voertuig",
+          "text_ru": "Затраты и риски лежат на владельце транспортного средства",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les frais et les risques sont à la charge du contrevenant",
+          "text_nl": "De kosten en de risico's zijn ten laste van de overtreder",
+          "text_ru": "Затраты и риски лежат на нарушителе",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les frais et les risques sont à la charge de l'État",
+          "text_nl": "De kosten en de risico's zijn ten laste van de Staat",
+          "text_ru": "Затраты и риски лежат на государстве",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les frais et les risques liés à l'immobilisation d'un véhicule comme mesure de sûreté sont à la charge du contrevenant.",
+      "explanation_nl": "De kosten en de risico's verbonden aan de immobilisering van een voertuig als beveiligingsmaatregel zijn ten laste van de overtreder.",
+      "explanation_ru": "Затраты и риски, связанные с иммобилизацией транспортного средства в качестве меры безопасности, лежат на нарушителе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un véhicule est immobilisé comme mesure de sûreté. Qui peut le récupérer sans frais ?",
+      "text_nl": "Een voertuig is geïmmobiliseerd als beveiligingsmaatregel. Wie kan het zonder kosten terugkrijgen ?",
+      "text_ru": "Транспортное средство иммобилизировано в качестве меры безопасности. Кто может его вернуть без расходов ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le propriétaire du véhicule",
+          "text_nl": "De eigenaar van het voertuig",
+          "text_ru": "Владелец транспортного средства",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur du véhicule",
+          "text_nl": "De bestuurder van het voertuig",
+          "text_ru": "Водитель транспортного средства",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'État",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le propriétaire du véhicule peut le récupérer sans frais si ce dernier n'est pas le contrevenant.",
+      "explanation_nl": "De eigenaar van het voertuig kan het zonder kosten terugkrijgen als hij niet de overtreder is.",
+      "explanation_ru": "Владелец транспортного средства может его вернуть без расходов, если он не является нарушителем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur utilise un véhicule dont l'immobilisation comme mesure de sûreté a été ordonnée. Quelle est la sanction ?",
+      "text_nl": "Een bestuurder gebruikt een voertuig waarvan de immobilisering als beveiligingsmaatregel is bevolen. Wat is de sanctie ?",
+      "text_ru": "Водитель использует транспортное средство, иммобилизацию которого в качестве меры безопасности было предписано. Какое наказание ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende de 100 euros à 1000 euros",
+          "text_nl": "Een boete van 100 euro tot 1000 euro",
+          "text_ru": "Штраф в размере 100 евро до 1000 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une peine d'emprisonnement de 8 jours à 6 mois",
+          "text_nl": "Een gevangenisstraf van 8 dagen tot 6 maanden",
+          "text_ru": "Наказание в виде тюремного заключения на срок от 8 дней до 6 месяцев",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une suspension du permis de conduire",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Отзыв водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur qui utilise un véhicule dont l'immobilisation comme mesure de sûreté a été ordonnée peut être sanctionné par une peine d'emprisonnement de 8 jours à 6 mois et/ou une amende de 100 euros à 1000 euros.",
+      "explanation_nl": "De bestuurder die een voertuig gebruikt waarvan de immobilisering als beveiligingsmaatregel is bevolen, kan worden gesanctioneerd met een gevangenisstraf van 8 dagen tot 6 maanden en/of een boete van 100 euro tot 1000 euro.",
+      "explanation_ru": "Водитель, который использует транспортное средство, иммобилизацию которого в качестве меры безопасности было предписано, может быть наказан тюремным заключением на срок от 8 дней до 6 месяцев и/или штрафом в размере 100 евро до 1000 евро."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "74cd21109e83",
@@ -40,6 +226,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:40:55Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 5
   }
 }

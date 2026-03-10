@@ -26,7 +26,140 @@
   "anchor_id_fr": "f8b3zjrt5a",
   "anchor_id_nl": "54l9eajdkb",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la durée minimale de l'enseignement théorique obligatoire dispensé par une auto-école pour la préparation à l'examen théorique du permis de conduire de la catégorie B (voiture particulière) ?",
+      "text_nl": "Wat is de minimale duur van het verplichte theoretische onderricht dat door een rijschool wordt gegeven ter voorbereiding op het theoretisch examen voor een rijbewijs van categorie B (personenauto)?",
+      "text_ru": "Какова минимальная продолжительность обязательного теоретического обучения, предоставляемого автошколой для подготовки к теоретическому экзамену на водительские права категории B (легковой автомобиль)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "6 heures",
+          "text_nl": "6 uur",
+          "text_ru": "6 часов",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "9 heures",
+          "text_nl": "9 uur",
+          "text_ru": "9 часов",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "12 heures",
+          "text_nl": "12 uur",
+          "text_ru": "12 часов",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text_fr": "15 heures",
+          "text_nl": "15 uur",
+          "text_ru": "15 часов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée minimale de l'enseignement théorique pour la préparation à l'examen théorique des catégories A1, A2, A et B est de douze heures.",
+      "explanation_nl": "De minimumduur van het theoretisch onderricht ter voorbereiding op het theoretisch examen voor de categorieën A1, A2, A en B is twaalf uur.",
+      "explanation_ru": "Минимальная продолжительность теоретического обучения для подготовки к теоретическому экзамену по категориям A1, A2, A и B составляет двенадцать часов."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la durée minimale de l'enseignement théorique obligatoire dispensé par une auto-école pour la préparation à l'examen théorique du permis de conduire de la catégorie C (camion) ?",
+      "text_nl": "Wat is de minimale duur van het verplichte theoretische onderricht dat door een rijschool wordt gegeven ter voorbereiding op het theoretisch examen voor een rijbewijs van categorie C (vrachtwagen)?",
+      "text_ru": "Какова минимальная продолжительность обязательного теоретического обучения, предоставляемого автошколой для подготовки к теоретическому экзамену на водительские права категории C (грузовик)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "6 heures",
+          "text_nl": "6 uur",
+          "text_ru": "6 часов",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "9 heures",
+          "text_nl": "9 uur",
+          "text_ru": "9 часов",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "12 heures",
+          "text_nl": "12 uur",
+          "text_ru": "12 часов",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text_fr": "18 heures",
+          "text_nl": "18 uur",
+          "text_ru": "18 часов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée minimale de l'enseignement théorique pour la préparation à l'examen théorique des catégories AM, C1, C, D1, D et G est de six heures.",
+      "explanation_nl": "De minimumduur van het theoretisch onderricht ter voorbereiding op het theoretisch examen voor de categorieën AM, C1, C, D1, D en G is zes uur.",
+      "explanation_ru": "Минимальная продолжительность теоретического обучения для подготовки к теоретическому экзамену по категориям AM, C1, C, D1, D и G составляет шесть часов."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Concernant l'enseignement théorique obligatoire en auto-école, quelles catégories de permis de conduire requièrent une durée minimale plus longue ?",
+      "text_nl": "Welke categorieën rijbewijzen vereisen, met betrekking tot het verplichte theoretische onderricht in een rijschool, een langere minimumduur?",
+      "text_ru": "Относительно обязательного теоретического обучения в автошколе, какие категории водительских прав требуют более длительной минимальной продолжительности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les catégories pour véhicules de transport de personnes ou de marchandises (C, D, G).",
+          "text_nl": "De categorieën voor personen- of goederenvervoer (C, D, G).",
+          "text_ru": "Категории для перевозки пассажиров или грузов (C, D, G).",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les catégories pour cyclomoteurs (AM).",
+          "text_nl": "De categorieën voor bromfietsen (AM).",
+          "text_ru": "Категории для мопедов (AM).",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les catégories pour motocyclettes et voitures particulières (A1, A2, A, B).",
+          "text_nl": "De categorieën voor motorfietsen en personenauto's (A1, A2, A, B).",
+          "text_ru": "Категории для мотоциклов и легковых автомобилей (A1, A2, A, B).",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text_fr": "Toutes les catégories ont la même durée minimale de six heures.",
+          "text_nl": "Alle categorieën hebben dezelfde minimumduur van zes uur.",
+          "text_ru": "Все категории имеют одинаковую минимальную продолжительность в шесть часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les catégories A1, A2, A et B nécessitent douze heures de formation théorique, tandis que les catégories AM, C1, C, D1, D et G en nécessitent six. Les catégories pour motocyclettes et voitures particulières (A1, A2, A, B) requièrent donc une durée plus longue.",
+      "explanation_nl": "De categorieën A1, A2, A en B vereisen twaalf uur theoretisch onderricht, terwijl de categorieën AM, C1, C, D1, D en G zes uur vereisen. Categorieën voor motorfietsen en personenauto's (A1, A2, A, B) vereisen dus een langere duur.",
+      "explanation_ru": "Категории A1, A2, A и B требуют двенадцать часов теоретического обучения, в то время как категории AM, C1, C, D1, D и G требуют шесть часов. Таким образом, категории для мотоциклов и легковых автомобилей (A1, A2, A, B) требуют более длительной продолжительности."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "b4df78c3508d",
@@ -36,6 +169,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:43:25Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

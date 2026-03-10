@@ -26,7 +26,304 @@
   "anchor_id_fr": "z7snz4iocn",
   "anchor_id_nl": "uai4fcmd87",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est l'action spécifiquement sanctionnée lorsqu'il s'agit de mettre un véhicule à moteur à disposition d'autrui?",
+      "text_nl": "Welke handeling wordt specifiek bestraft wanneer het gaat om het ter beschikking stellen van een motorvoertuig aan een ander?",
+      "text_ru": "Какое действие конкретно наказывается, когда речь идет о предоставлении моторного транспортного средства другому лицу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Confier un véhicule à un mineur, même s'il est accompagné.",
+          "text_nl": "Een voertuig toevertrouwen aan een minderjarige, zelfs onder begeleiding.",
+          "text_ru": "Передача транспортного средства несовершеннолетнему, даже в сопровождении.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Confier un véhicule à une personne déchue du droit de conduire.",
+          "text_nl": "Een voertuig toevertrouwen aan een persoon die van het recht tot sturen vervallen is verklaard.",
+          "text_ru": "Передача транспортного средства лицу, лишенному права управления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Confier un véhicule non assuré à une personne majeure et expérimentée.",
+          "text_nl": "Een onverzekerd voertuig toevertrouwen aan een meerderjarige en ervaren persoon.",
+          "text_ru": "Передача незастрахованного транспортного средства совершеннолетнему и опытному лицу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'infraction concerne le fait de confier sciemment un véhicule à moteur à une personne déchue du droit de conduire.",
+      "explanation_nl": "De overtreding betreft het wetens toevertrouwen van een motorvoertuig aan een persoon die van het recht tot sturen vervallen is verklaard.",
+      "explanation_ru": "Правонарушение заключается в сознательной передаче моторного транспортного средства лицу, лишенному права управления."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'élément crucial pour qu'une personne soit sanctionnée pour avoir confié un véhicule à moteur à quelqu'un qui n'a plus le droit de conduire?",
+      "text_nl": "Welk cruciaal element moet aanwezig zijn opdat een persoon bestraft zou worden voor het toevertrouwen van een motorvoertuig aan iemand die niet meer mag rijden?",
+      "text_ru": "Какой ключевой элемент должен присутствовать, чтобы лицо было наказано за передачу моторного транспортного средства кому-либо, кто лишен права управлять им?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule a été impliqué dans un accident grave.",
+          "text_nl": "Het voertuig was betrokken bij een ernstig ongeval.",
+          "text_ru": "Транспортное средство было вовлечено в серьезное ДТП.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La personne qui a confié le véhicule savait que l'autre personne était déchue du droit de conduire.",
+          "text_nl": "De persoon die het voertuig toevertrouwde, wist dat de andere persoon van het recht tot sturen vervallen was verklaard.",
+          "text_ru": "Лицо, передавшее транспортное средство, знало, что другое лицо было лишено права управления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La personne qui a confié le véhicule n'a pas vérifié le permis de conduire de l'autre personne.",
+          "text_nl": "De persoon die het voertuig toevertrouwde, heeft het rijbewijs van de andere persoon niet gecontroleerd.",
+          "text_ru": "Лицо, передавшее транспортное средство, не проверило водительские права другого лица.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La sanction n'intervient que si la personne a 'sciemment' confié le véhicule, c'est-à-dire en toute connaissance de cause de la déchéance du droit de conduire de l'autre personne.",
+      "explanation_nl": "De straf wordt enkel toegepast als de persoon het voertuig 'wetens' heeft toevertrouwd, dat wil zeggen met volledige kennis van de vervallenverklaring van het recht tot sturen van de andere persoon.",
+      "explanation_ru": "Наказание применяется только в том случае, если лицо 'сознательно' передало транспортное средство, то есть с полным осознанием факта лишения другого лица права управления."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Dans quelle situation un membre du personnel d'une école de conduite agréée n'est-il pas sanctionné pour accompagner un élève dans un véhicule de formation?",
+      "text_nl": "In welke situatie wordt een personeelslid van een erkende rijschool niet bestraft voor het begeleiden van een leerling in een lesvoertuig?",
+      "text_ru": "В какой ситуации сотрудник аккредитованной автошколы не наказывается за сопровождение ученика в учебном транспортном средстве?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si l'élève possède un permis de conduire provisoire.",
+          "text_nl": "Als de leerling een voorlopig rijbewijs heeft.",
+          "text_ru": "Если ученик имеет временные водительские права.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si l'élève est régulièrement inscrit et se prépare à l'examen pratique.",
+          "text_nl": "Als de leerling regelmatig is ingeschreven en zich voorbereidt op het praktisch examen.",
+          "text_ru": "Если ученик регулярно зачислен и готовится к практическому экзамену.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le véhicule de l'auto-école est équipé de doubles commandes.",
+          "text_nl": "Als het voertuig van de rijschool is uitgerust met dubbele bediening.",
+          "text_ru": "Если учебный автомобиль оборудован двойным управлением.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'exception s'applique spécifiquement au personnel d'une école de conduite agréée accompagnant un élève régulièrement inscrit en préparation à l'examen pratique.",
+      "explanation_nl": "De uitzondering geldt specifiek voor het personeel van een erkende rijschool dat een regelmatig ingeschreven leerling begeleidt die zich voorbereidt op het praktisch examen.",
+      "explanation_ru": "Исключение применяется конкретно к персоналу аккредитованной автошколы, сопровождающему регулярно зачисленного ученика, готовящегося к практическому экзамену."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre ami vous informe que son permis de conduire a été retiré suite à une décision de justice. Il vous demande néanmoins d'emprunter votre voiture pour un rendez-vous urgent. Quelle est la bonne conduite à tenir ?",
+      "text_nl": "Je vriend vertelt je dat zijn rijbewijs is ingetrokken na een gerechtelijke beslissing. Desondanks vraagt hij je om je auto te lenen voor een dringende afspraak. Wat is de correcte handelswijze?",
+      "text_ru": "Ваш друг сообщает вам, что его водительские права были отозваны по решению суда. Тем не менее, он просит вас одолжить вашу машину для срочной встречи. Каковы ваши правильные действия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person asking for car keys, another person refusing with a serious expression."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous lui prêtez la voiture car l'urgence justifie une entorse à la règle.",
+          "text_nl": "Je leent hem de auto omdat de urgentie een uitzondering op de regel rechtvaardigt.",
+          "text_ru": "Вы даете ему машину, так как срочность оправдывает отступление от правила.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous refusez catégoriquement car vous risquez une amende pour avoir confié sciemment un véhicule à une personne déchue du droit de conduire.",
+          "text_nl": "Je weigert categorisch, want je riskeert een boete voor het wetens toevertrouwen van een voertuig aan een persoon die van het recht tot sturen vervallen is verklaard.",
+          "text_ru": "Вы категорически отказываетесь, так как рискуете получить штраф за сознательную передачу транспортного средства лицу, лишенному права управления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous lui prêtez la voiture mais vous lui demandez de rouler très prudemment et de ne pas se faire arrêter.",
+          "text_nl": "Je leent hem de auto, maar vraagt hem zeer voorzichtig te rijden en niet aangehouden te worden.",
+          "text_ru": "Вы даете ему машину, но просите его ехать очень осторожно и не быть остановленным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le fait de confier sciemment un véhicule à une personne déchue du droit de conduire est une infraction passible d'une amende, même en cas d'urgence.",
+      "explanation_nl": "Het wetens toevertrouwen van een voertuig aan een persoon die van het recht tot sturen is vervallen verklaard, is een overtreding waarop een geldboete staat, zelfs in geval van urgentie.",
+      "explanation_ru": "Сознательная передача транспортного средства лицу, лишенному права управления, является правонарушением, наказуемым штрафом, даже в случае срочности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous savez que votre conjoint(e) a perdu son droit de conduire. Pour une situation exceptionnelle (visite à un parent malade), vous le/la laissez utiliser votre voiture. Si cela est découvert, quelle pourrait être la conséquence pour vous ?",
+      "text_nl": "Je weet dat je partner zijn/haar rijbewijs is kwijtgeraakt. Voor een uitzonderlijke situatie (bezoek aan een zieke ouder) laat je hem/haar toch je auto gebruiken. Als dit wordt ontdekt, wat kan dan de consequentie voor jou zijn?",
+      "text_ru": "Вы знаете, что ваш супруг(а) лишился(лась) права управлять автомобилем. В исключительной ситуации (посещение больного родственника) вы все же позволяете ему/ей использовать вашу машину. Если это будет обнаружено, какое последствие может быть для вас?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person handing car keys to their partner, looking worried. The partner looks determined but also a bit anxious."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il n'y aura aucune conséquence pour vous, seule la personne au volant est responsable.",
+          "text_nl": "Er zullen geen gevolgen zijn voor jou, alleen de persoon achter het stuur is verantwoordelijk.",
+          "text_ru": "Для вас не будет никаких последствий, только водитель несет ответственность.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous risquez une amende importante, car vous avez sciemment confié le véhicule à une personne déchue du droit de conduire.",
+          "text_nl": "Je riskeert een aanzienlijke geldboete, omdat je het voertuig wetens hebt toevertrouwd aan een persoon die van het recht tot sturen is vervallen verklaard.",
+          "text_ru": "Вы рискуете получить значительный штраф, так как вы сознательно передали транспортное средство лицу, лишенному права управления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous risquez de perdre votre propre permis de conduire pour avoir aidé votre conjoint(e).",
+          "text_nl": "Je riskeert je eigen rijbewijs te verliezen wegens het helpen van je partner.",
+          "text_ru": "Вы рискуете потерять свои водительские права за помощь супругу(е).",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même dans une situation exceptionnelle, confier sciemment votre véhicule à une personne déchue du droit de conduire est une infraction passible d'une amende allant de 100 à 1000 euros.",
+      "explanation_nl": "Zelfs in een uitzonderlijke situatie is het wetens toevertrouwen van je voertuig aan een persoon die van het recht tot sturen is vervallen verklaard, een overtreding waarop een geldboete van 100 tot 1000 euro staat.",
+      "explanation_ru": "Даже в исключительной ситуации сознательная передача вашего транспортного средства лицу, лишенному права управления, является правонарушением, наказуемым штрафом от 100 до 1000 евро."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes moniteur/monitrice dans une auto-école agréée. Un de vos élèves, régulièrement inscrit, se prépare à l'examen pratique et ne possède pas encore de permis définitif. Pouvez-vous l'accompagner pour une leçon de conduite avec le véhicule de l'auto-école?",
+      "text_nl": "Je bent instructeur/instructrice bij een erkende rijschool. Eén van je leerlingen, die regelmatig is ingeschreven, bereidt zich voor op het praktisch examen en heeft nog geen definitief rijbewijs. Mag je hem/haar begeleiden voor een rijles met het voertuig van de rijschool?",
+      "text_ru": "Вы инструктор в аккредитованной автошколе. Один из ваших регулярно зачисленных студентов готовится к практическому экзамену и еще не имеет окончательных водительских прав. Можете ли вы сопровождать его/ее на уроке вождения на автомобиле автошколы?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A driving instructor calmly sitting next to a student driver in a dual-control car during a driving lesson."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car il est interdit de confier un véhicule à une personne sans permis définitif.",
+          "text_nl": "Nee, want het is verboden een voertuig toe te vertrouwen aan een persoon zonder definitief rijbewijs.",
+          "text_ru": "Нет, так как запрещено передавать транспортное средство лицу без окончательных водительских прав.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car cette situation est une exception prévue par la loi pour les écoles de conduite agréées.",
+          "text_nl": "Ja, want deze situatie is een wettelijk voorziene uitzondering voor erkende rijscholen.",
+          "text_ru": "Да, так как данная ситуация является исключением, предусмотренным законом для аккредитованных автошкол.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si un autre moniteur est présent dans le véhicule pour superviser.",
+          "text_nl": "Ja, maar enkel als een andere instructeur in het voertuig aanwezig is ter supervisie.",
+          "text_ru": "Да, но только если в транспортном средстве присутствует другой инструктор для контроля.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La loi prévoit une exception spécifique pour les membres du personnel d'une école de conduite agréée qui accompagnent un élève régulièrement inscrit se préparant à l'examen pratique.",
+      "explanation_nl": "De wet voorziet een specifieke uitzondering voor personeelsleden van een erkende rijschool die een regelmatig ingeschreven leerling begeleiden die zich voorbereidt op het praktisch examen.",
+      "explanation_ru": "Закон предусматривает конкретное исключение для сотрудников аккредитованной автошколы, сопровождающих регулярно зачисленного ученика, готовящегося к практическому экзамену."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Une connaissance prend votre voiture sans votre permission. Plus tard, vous apprenez qu'elle était déchue du droit de conduire au moment des faits. Êtes-vous passible de la sanction prévue pour avoir confié un véhicule à une personne déchue du droit de conduire?",
+      "text_nl": "Een kennis neemt je auto zonder je toestemming mee. Later kom je te weten dat deze persoon op het moment van de feiten van het recht tot sturen was vervallen verklaard. Kom je in aanmerking voor de straf die geldt voor het toevertrouwen van een voertuig aan een persoon die van het recht tot sturen is vervallen?",
+      "text_ru": "Знакомый берет вашу машину без вашего разрешения. Позже вы узнаете, что на момент происшествия он был лишен права управления. Подлежите ли вы наказанию за передачу транспортного средства лицу, лишенному права управления?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person looking shocked and angry, realizing their car has been taken without permission."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car en tant que propriétaire du véhicule, vous êtes toujours responsable.",
+          "text_nl": "Ja, want als eigenaar van het voertuig ben je altijd verantwoordelijk.",
+          "text_ru": "Да, так как вы, как владелец транспортного средства, всегда несете ответственность.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car vous n'avez pas 'sciemment' confié le véhicule à cette personne, car elle l'a pris sans votre permission.",
+          "text_nl": "Nee, want je hebt het voertuig niet 'wetens' aan die persoon toevertrouwd, aangezien deze het zonder jouw toestemming heeft meegenomen.",
+          "text_ru": "Нет, так как вы не 'сознательно' передали транспортное средство этому лицу, поскольку оно взяло его без вашего разрешения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si un accident s'est produit pendant que cette personne conduisait votre voiture.",
+          "text_nl": "Ja, maar enkel als er een ongeval is gebeurd terwijl die persoon met jouw auto reed.",
+          "text_ru": "Да, но только если произошло ДТП, пока этот человек управлял вашей машиной.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La loi stipule que l'infraction s'applique à celui qui a 'sciemment' confié un véhicule. Si le véhicule a été pris sans votre permission, l'élément de connaissance et d'accord fait défaut.",
+      "explanation_nl": "De wet stelt dat de overtreding van toepassing is op degene die 'wetens' een voertuig heeft toevertrouwd. Als het voertuig zonder jouw toestemming is meegenomen, ontbreekt het element van kennis en toestemming.",
+      "explanation_ru": "Закон гласит, что правонарушение относится к тому, кто 'сознательно' передал транспортное средство. Если транспортное средство было взято без вашего разрешения, элемент знания и согласия отсутствует."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre frère, dont le droit de conduire a été récemment suspendu par une décision de justice, vous demande d'emprunter votre voiture pour transporter des meubles urgemment. Quelle est la décision la plus conforme à la loi que vous devez prendre ?",
+      "text_nl": "Je broer, wiens rijbewijs onlangs is ingetrokken door een rechterlijke beslissing, vraagt je om je auto te lenen om dringend meubels te vervoeren. Wat is de meest wettelijke beslissing die je moet nemen?",
+      "text_ru": "Ваш брат, чьи водительские права были недавно приостановлены судебным решением, просит вас одолжить вашу машину для срочной перевозки мебели. Какое решение, наиболее соответствующее закону, вы должны принять?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person shaking their head to decline a request from a relative who is asking for car keys. A car is visible in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le lui prêter, car il s'agit d'une urgence familiale et il promet d'être prudent.",
+          "text_nl": "Hem de auto lenen, want het is een familiale noodsituatie en hij belooft voorzichtig te zijn.",
+          "text_ru": "Дать ему машину, так как это семейная срочность, и он обещает быть осторожным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Refuser, car confier un véhicule à une personne déchue du droit de conduire est une infraction.",
+          "text_nl": "Weigeren, want het toevertrouwen van een voertuig aan een persoon die van het recht tot sturen is vervallen verklaard, is een overtreding.",
+          "text_ru": "Отказаться, так как передача транспортного средства лицу, лишенному права управления, является правонарушением.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le lui prêter en l'accompagnant personnellement pour assurer la surveillance.",
+          "text_nl": "Hem de auto lenen en hem persoonlijk begeleiden om toezicht te houden.",
+          "text_ru": "Дать ему машину и лично сопровождать его для контроля.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même s'il s'agit de votre frère et d'une urgence, confier sciemment votre voiture à une personne dont le droit de conduire est suspendu constitue une infraction et vous expose à une amende.",
+      "explanation_nl": "Zelfs als het je broer is en het een noodgeval betreft, is het wetens toevertrouwen van je auto aan een persoon wiens rijbewijs is ingetrokken een overtreding en stelt het je bloot aan een boete.",
+      "explanation_ru": "Даже если это ваш брат и срочная ситуация, сознательная передача вашего автомобиля лицу, чьи водительские права приостановлены, является правонарушением и влечет за собой штраф."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "41972701cdbd",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:38:03Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

@@ -29,7 +29,304 @@
   "anchor_id_fr": "rcbq6owamh",
   "anchor_id_nl": "e9cqrmpj6k",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qui arrive au permis de conduire en cas de déchéance du droit de conduire ?",
+      "text_nl": "Wat gebeurt er met het rijbewijs in geval van verval van het recht tot sturen?",
+      "text_ru": "Что происходит с водительским удостоверением в случае лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est conservé par le conducteur",
+          "text_nl": "Het wordt door de bestuurder behouden",
+          "text_ru": "Оно сохраняется водителем",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est remis au lieu déterminé par le Roi",
+          "text_nl": "Het wordt ingeleverd op de door de Koning bepaalde plaats",
+          "text_ru": "Оно сдается в место, определенное королем",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est détruit",
+          "text_nl": "Het wordt vernietigd",
+          "text_ru": "Оно уничтожается",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de déchéance du droit de conduire, le permis de conduire ou le document qui en tient lieu est remis au lieu déterminé par le Roi.",
+      "explanation_nl": "In het geval van verval van het recht tot sturen, worden het rijbewijs of het als zodanig geldend bewijs op de door de Koning bepaalde plaats ingeleverd.",
+      "explanation_ru": "В случае лишения права управления транспортным средством водительское удостоверение или документ, его заменяющий, сдается в место, определенное королем."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que la déchéance du droit de conduire ?",
+      "text_nl": "Wat is verval van het recht tot sturen?",
+      "text_ru": "Что такое лишение права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une suspension du permis de conduire",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Приостановление водительского удостоверения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une annulation du permis de conduire",
+          "text_nl": "Een intrekking van het rijbewijs",
+          "text_ru": "Аннулирование водительского удостоверения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une révocation du permis de conduire",
+          "text_nl": "Een herroeping van het rijbewijs",
+          "text_ru": "Отзыв водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire est une annulation du permis de conduire.",
+      "explanation_nl": "Verval van het recht tot sturen is een intrekking van het rijbewijs.",
+      "explanation_ru": "Лишение права управления транспортным средством является аннулированием водительского удостоверения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Comment est calculée la durée de la déchéance du droit de conduire en cas de déchéance temporaire ?",
+      "text_nl": "Hoe wordt de duur van het verval van het recht tot sturen berekend in geval van tijdelijk verval?",
+      "text_ru": "Как рассчитывается срок лишения права управления транспортным средством в случае временного лишения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "En fonction de la gravité de l'infraction",
+          "text_nl": "Naar gelang de ernst van de overtreding",
+          "text_ru": "В зависимости от тяжести правонарушения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En fonction du temps pendant lequel le permis de conduire a été retiré",
+          "text_nl": "Naar gelang de tijd gedurende welke het rijbewijs is ingetrokken",
+          "text_ru": "В зависимости от времени, в течение которого было изъято водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "En fonction de la durée de la détention",
+          "text_nl": "Naar gelang de duur van de hechtenis",
+          "text_ru": "В зависимости от срока заключения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée de la déchéance du droit de conduire est calculée en fonction du temps pendant lequel le permis de conduire a été retiré, déduction faite des périodes de détention subies pendant ce temps.",
+      "explanation_nl": "De duur van het verval van het recht tot sturen wordt berekend naar gelang de tijd gedurende welke het rijbewijs is ingetrokken, met uitzondering van de perioden van hechtenis ondergaan gedurende die tijd.",
+      "explanation_ru": "Срок лишения права управления транспортным средством рассчитывается в зависимости от времени, в течение которого было изъято водительское удостоверение, с учетом времени, проведенного под стражей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné à une déchéance temporaire de son droit de conduire. Que doit-il faire avec son permis de conduire ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een tijdelijk verval van zijn recht tot sturen. Wat moet hij doen met zijn rijbewijs?",
+      "text_ru": "Водитель был лишен права управления транспортным средством на определенный срок. Что он должен сделать со своим водительским удостоверением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conserver",
+          "text_nl": "Het behouden",
+          "text_ru": "Сохранить его",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le remettre au lieu déterminé par le Roi",
+          "text_nl": "Het inleveren op de door de Koning bepaalde plaats",
+          "text_ru": "Сдать его в место, определенное королем",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le détruire",
+          "text_nl": "Het vernietigen",
+          "text_ru": "Уничтожить его",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit remettre son permis de conduire au lieu déterminé par le Roi.",
+      "explanation_nl": "De bestuurder moet zijn rijbewijs inleveren op de door de Koning bepaalde plaats.",
+      "explanation_ru": "Водитель должен сдать свое водительское удостоверение в место, определенное королем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été condamné à une déchéance définitive de son droit de conduire. Qu'est-ce que cela signifie pour lui ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een definitief verval van zijn recht tot sturen. Wat betekent dit voor hem?",
+      "text_ru": "Водитель был лишен права управления транспортным средством навсегда. Что это значит для него?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il ne peut plus conduire pendant une période déterminée",
+          "text_nl": "Hij kan niet meer rijden gedurende een bepaalde periode",
+          "text_ru": "Он не может управлять транспортным средством в течение определенного периода",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il ne peut plus conduire du tout",
+          "text_nl": "Hij kan helemaal niet meer rijden",
+          "text_ru": "Он не может управлять транспортным средством вообще",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il peut conduire, mais avec des restrictions",
+          "text_nl": "Hij kan rijden, maar met beperkingen",
+          "text_ru": "Он может управлять транспортным средством, но с ограничениями",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une déchéance définitive du droit de conduire signifie que le conducteur ne peut plus conduire du tout.",
+      "explanation_nl": "Een definitief verval van het recht tot sturen betekent dat de bestuurder helemaal niet meer kan rijden.",
+      "explanation_ru": "Лишение права управления транспортным средством навсегда означает, что водитель не может управлять транспортным средством вообще."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a été condamné à une déchéance temporaire de son droit de conduire. Comment est calculée la durée de la déchéance ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een tijdelijk verval van zijn recht tot sturen. Hoe wordt de duur van het verval berekend?",
+      "text_ru": "Водитель был лишен права управления транспортным средством на определенный срок. Как рассчитывается срок лишения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "En fonction de la gravité de l'infraction",
+          "text_nl": "Naar gelang de ernst van de overtreding",
+          "text_ru": "В зависимости от тяжести правонарушения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En fonction du temps pendant lequel le permis de conduire a été retiré",
+          "text_nl": "Naar gelang de tijd gedurende welke het rijbewijs is ingetrokken",
+          "text_ru": "В зависимости от времени, в течение которого было изъято водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "En fonction de la durée de la détention",
+          "text_nl": "Naar gelang de duur van de hechtenis",
+          "text_ru": "В зависимости от срока заключения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée de la déchéance du droit de conduire est calculée en fonction du temps pendant lequel le permis de conduire a été retiré, déduction faite des périodes de détention subies pendant ce temps.",
+      "explanation_nl": "De duur van het verval van het recht tot sturen wordt berekend naar gelang de tijd gedurende welke het rijbewijs is ingetrokken, met uitzondering van de perioden van hechtenis ondergaan gedurende die tijd.",
+      "explanation_ru": "Срок лишения права управления транспортным средством рассчитывается в зависимости от времени, в течение которого было изъято водительское удостоверение, с учетом времени, проведенного под стражей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été condamné à une déchéance temporaire de son droit de conduire. Qu'est-ce qu'il doit faire pour récupérer son permis de conduire ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een tijdelijk verval van zijn recht tot sturen. Wat moet hij doen om zijn rijbewijs terug te krijgen?",
+      "text_ru": "Водитель был лишен права управления транспортным средством на определенный срок. Что он должен сделать, чтобы вернуть свое водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Attendre la fin de la déchéance",
+          "text_nl": "Wachten tot het einde van het verval",
+          "text_ru": "Подождать до конца срока лишения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire appel de la décision",
+          "text_nl": "Hoger beroep aantekenen tegen de beslissing",
+          "text_ru": "Обжаловать решение",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer une amende",
+          "text_nl": "Een boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit attendre la fin de la déchéance pour récupérer son permis de conduire.",
+      "explanation_nl": "De bestuurder moet wachten tot het einde van het verval om zijn rijbewijs terug te krijgen.",
+      "explanation_ru": "Водитель должен подождать до конца срока лишения, чтобы вернуть свое водительское удостоверение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été condamné à une déchéance définitive de son droit de conduire. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder is veroordeeld tot een definitief verval van zijn recht tot sturen. Wat moet hij doen?",
+      "text_ru": "Водитель был лишен права управления транспортным средством навсегда. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Faire appel de la décision",
+          "text_nl": "Hoger beroep aantekenen tegen de beslissing",
+          "text_ru": "Обжаловать решение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Remettre son permis de conduire",
+          "text_nl": "Zijn rijbewijs inleveren",
+          "text_ru": "Сдать водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer une amende",
+          "text_nl": "Een boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit remettre son permis de conduire.",
+      "explanation_nl": "De bestuurder moet zijn rijbewijs inleveren.",
+      "explanation_ru": "Водитель должен сдать водительское удостоверение."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "ac579a4935ab",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:40:37Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

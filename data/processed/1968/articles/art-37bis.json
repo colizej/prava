@@ -34,7 +34,341 @@
   "anchor_id_fr": "jircmnq72k",
   "anchor_id_nl": "yvdxxsoqaj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelles sont les substances, mentionnées dans le code de la route, qui, si détectées au-delà d'un certain seuil dans l'organisme, sont considérées comme influençant négativement la capacité de conduire?",
+      "text_nl": "Welke stoffen, vermeld in de wegcode, worden als negatief beïnvloedend op de rijvaardigheid beschouwd als ze boven een bepaalde drempel in het lichaam worden gedetecteerd?",
+      "text_ru": "Какие вещества, упомянутые в дорожном кодексе, при обнаружении в организме выше определенного порога считаются отрицательно влияющими на способность управлять транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement l'alcool et la nicotine.",
+          "text_nl": "Alleen alcohol en nicotine.",
+          "text_ru": "Только алкоголь и никотин.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Delta-9-tétrahydrocannabinol (THC), l'amphétamine, le MDMA, la morphine et la cocaïne.",
+          "text_nl": "Delta-9-tetrahydrocannabinol (THC), amfetamine, MDMA, morfine en cocaïne.",
+          "text_ru": "Дельта-9-тетрагидроканнабинол (ТГК), амфетамин, МДМА, морфин и кокаин.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Toutes les substances médicamenteuses qui peuvent causer de la somnolence.",
+          "text_nl": "Alle medicamenteuze stoffen die slaperigheid kunnen veroorzaken.",
+          "text_ru": "Все лекарственные вещества, которые могут вызывать сонливость.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le code de la route belge spécifie explicitement une liste de substances psychoactives dont la présence dans l'organisme au-delà de seuils fixés est interdite lors de la conduite ou de l'accompagnement en vue de l'apprentissage. Cette liste inclut le THC, l'amphétamine, le MDMA, la morphine (ou 6-acétylmorphine) et la cocaïne (ou benzoylecgonine).",
+      "explanation_nl": "De Belgische wegcode specificeert expliciet een lijst van psychoactieve stoffen waarvan de aanwezigheid in het organisme boven vastgestelde drempels verboden is tijdens het rijden of het begeleiden met het oog op scholing. Deze lijst omvat THC, amfetamine, MDMA, morfine (of 6-acetylmorfine) en cocaïne (of benzoylecgonine).",
+      "explanation_ru": "Дорожный кодекс Бельгии явно перечисляет психоактивные вещества, наличие которых в организме выше установленных порогов запрещено при управлении транспортным средством или сопровождении в целях обучения. В этот список входят ТГК, амфетамин, МДМА, морфин (или 6-ацетилморфин) и кокаин (или бензоилэкгонин)."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la conséquence pour un conducteur qui, sans motif légitime, refuse de se soumettre à un test salivaire ou à une analyse de salive/sang requis par la police?",
+      "text_nl": "Wat is het gevolg voor een bestuurder die, zonder wettige reden, weigert zich te onderwerpen aan een speekseltest of een speeksel-/bloedanalyse die door de politie wordt geëist?",
+      "text_ru": "Каковы последствия для водителя, который без законных оснований отказывается пройти тест на слюну или анализ слюны/крови, требуемый полицией?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une simple amende administrative, car le refus n'est pas considéré comme une infraction grave.",
+          "text_nl": "Een loutere administratieve boete, aangezien weigering niet als een ernstige overtreding wordt beschouwd.",
+          "text_ru": "Простой административный штраф, так как отказ не считается серьезным нарушением.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur risque les mêmes sanctions que s'il avait été testé positif aux substances interdites.",
+          "text_nl": "De bestuurder riskeert dezelfde sancties als wanneer hij positief getest zou zijn op de verboden stoffen.",
+          "text_ru": "Водитель рискует получить такие же санкции, как если бы у него были обнаружены запрещенные вещества.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement un avertissement, avec obligation de se soumettre au test ultérieurement.",
+          "text_nl": "Alleen een waarschuwing, met de verplichting om de test later te ondergaan.",
+          "text_ru": "Только предупреждение, с обязательством пройти тест позже.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Refuser, sans motif légitime, de se soumettre aux tests (test salivaire, analyse salivaire ou prélèvement sanguin) visant à détecter la présence de substances influençant la capacité de conduire est une infraction en soi, traitée avec une sévérité similaire à celle de la conduite sous influence. C'est considéré comme une tentative d'échapper à la justice.",
+      "explanation_nl": "Zonder wettige reden weigeren zich te onderwerpen aan de tests (speekseltest, speekselanalyse of bloedproef) ter opsporing van de aanwezigheid van stoffen die de rijvaardigheid beïnvloeden, is een overtreding op zich, die met vergelijkbare strengheid wordt behandeld als rijden onder invloed. Het wordt beschouwd als een poging om aan de justitie te ontsnappen.",
+      "explanation_ru": "Отказ без законных оснований пройти тесты (тест на слюну, анализ слюны или крови), предназначенные для выявления веществ, влияющих на способность управлять транспортным средством, является самостоятельным правонарушением, которое рассматривается с той же строгостью, что и управление транспортным средством в состоянии опьянения. Это считается попыткой избежать правосудия."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Est-il permis d'accompagner un conducteur en vue de l'apprentissage si l'on se trouve soi-même sous l'influence de substances qui altèrent la capacité de conduire?",
+      "text_nl": "Is het toegestaan om een bestuurder te begeleiden met het oog op scholing als men zelf onder invloed is van stoffen die de rijvaardigheid aantasten?",
+      "text_ru": "Разрешено ли сопровождать водителя с целью обучения, если вы сами находитесь под воздействием веществ, ухудшающих способность к вождению?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, tant que l'on n'est pas le conducteur principal.",
+          "text_nl": "Ja, zolang men niet de hoofdbestuurder is.",
+          "text_ru": "Да, если вы не являетесь основным водителем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, c'est une infraction soumise à des sanctions.",
+          "text_nl": "Nee, dit is een overtreding die onderhevig is aan sancties.",
+          "text_ru": "Нет, это нарушение, за которое предусмотрены санкции.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si l'accompagnateur est assis sur le siège passager arrière.",
+          "text_nl": "Ja, als de begeleider op de achterbank zit.",
+          "text_ru": "Да, если сопровождающий сидит на заднем пассажирском сиденье.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le code de la route stipule que l'accompagnement d'un conducteur en vue de l'apprentissage est également soumis aux règles concernant la non-influence de substances altérant la capacité de conduire. L'accompagnateur doit être en pleine possession de ses moyens pour assurer la sécurité et l'encadrement de l'apprenti.",
+      "explanation_nl": "De wegcode bepaalt dat de begeleiding van een bestuurder met het oog op scholing eveneens onderworpen is aan de regels betreffende het niet onder invloed zijn van stoffen die de rijvaardigheid aantasten. De begeleider moet volledig in het bezit zijn van zijn vermogens om de veiligheid en begeleiding van de leerling te garanderen.",
+      "explanation_ru": "Дорожный кодекс предусматривает, что сопровождение водителя в целях обучения также подпадает под правила, касающиеся отсутствия влияния веществ, ухудшающих способность к вождению. Сопровождающий должен быть в полном здравии, чтобы обеспечить безопасность и наставничество ученика."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule sur la voie publique et, suite à un contrôle, une analyse salivaire révèle la présence de MDMA dans votre organisme à un taux supérieur au seuil légal. Quelle est la conséquence immédiate de cette situation?",
+      "text_nl": "U bestuurt een voertuig op de openbare weg en na een controle toont een speekselanalyse de aanwezigheid van MDMA in uw organisme aan, met een gehalte dat hoger is dan de wettelijke drempel. Wat is het directe gevolg van deze situatie?",
+      "text_ru": "Вы управляете транспортным средством на дороге общего пользования, и после проверки анализ слюны показывает наличие МДМА в вашем организме в количестве, превышающем установленный законом порог. Каковы немедленные последствия этой ситуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer conducting a roadside drug test"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous recevez un avertissement et l'obligation de suivre un cours de sensibilisation.",
+          "text_nl": "U ontvangt een waarschuwing en de verplichting om een bewustmakingscursus te volgen.",
+          "text_ru": "Вы получаете предупреждение и обязательство пройти курс повышения осведомленности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous commettez une infraction passible d'une amende et d'autres sanctions.",
+          "text_nl": "U begaat een overtreding die strafbaar is met een geldboete en andere sancties.",
+          "text_ru": "Вы совершаете правонарушение, наказуемое штрафом и другими санкциями.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune conséquence si vous ne montrez pas de signes d'altération de la conduite.",
+          "text_nl": "Geen gevolgen als u geen tekenen van verminderde rijvaardigheid vertoont.",
+          "text_ru": "Никаких последствий, если вы не проявляете признаков ухудшения навыков вождения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire un véhicule en ayant une des substances interdites (comme le MDMA) détectée au-delà du seuil légal dans l'organisme est une infraction grave. Elle est passible d'amendes importantes et d'autres sanctions, potentiellement incluant une interdiction de conduire.",
+      "explanation_nl": "Het besturen van een voertuig terwijl een van de verboden stoffen (zoals MDMA) boven de wettelijke drempel in het organisme wordt gedetecteerd, is een ernstige overtreding. Dit is strafbaar met aanzienlijke geldboetes en andere sancties, mogelijk inclusief een rijverbod.",
+      "explanation_ru": "Управление транспортным средством при наличии одного из запрещенных веществ (таких как МДМА) в организме в количестве, превышающем установленный законом порог, является серьезным правонарушением. За это предусмотрены значительные штрафы и другие санкции, возможно, включая запрет на вождение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre ami vous demande d'emprunter votre voiture pour un court trajet. Vous constatez qu'il présente des signes évidents d'influence suite à la consommation de drogues. Malgré cela, vous lui confiez les clés de votre véhicule. Quelle est votre responsabilité légale?",
+      "text_nl": "Uw vriend vraagt om uw auto te lenen voor een korte rit. U merkt dat hij duidelijke tekenen van invloed vertoont als gevolg van drugsgebruik. Desondanks geeft u hem de sleutels van uw voertuig. Wat is uw wettelijke verantwoordelijkheid?",
+      "text_ru": "Ваш друг просит одолжить вашу машину для короткой поездки. Вы замечаете, что он проявляет явные признаки наркотического опьянения. Несмотря на это, вы отдаете ему ключи от своего автомобиля. Какова ваша юридическая ответственность?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Person handing car keys to someone who looks visibly impaired"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous n'êtes pas responsable, car c'est à votre ami de juger s'il est apte à conduire.",
+          "text_nl": "U bent niet verantwoordelijk, want het is aan uw vriend om te beoordelen of hij in staat is om te rijden.",
+          "text_ru": "Вы не несете ответственности, так как ваш друг сам должен судить, способен ли он управлять автомобилем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous commettez une infraction passible de sanctions, car vous avez confié un véhicule à une personne manifestement sous influence.",
+          "text_nl": "U begaat een overtreding die strafbaar is met sancties, aangezien u een voertuig hebt toevertrouwd aan een persoon die duidelijk onder invloed is.",
+          "text_ru": "Вы совершаете правонарушение, наказуемое санкциями, так как вы доверили транспортное средство лицу, явно находящемуся под воздействием.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre responsabilité est engagée uniquement si un accident survient.",
+          "text_nl": "Uw verantwoordelijkheid ontstaat alleen als er een ongeval plaatsvindt.",
+          "text_ru": "Ваша ответственность наступает только в случае аварии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Confier un véhicule à une personne qui donne des signes évidents d'influence suite à l'usage de substances est une infraction en soi. Le propriétaire du véhicule a la responsabilité de s'assurer que la personne à qui il le confie est apte à conduire en toute sécurité.",
+      "explanation_nl": "Het toevertrouwen van een voertuig aan een persoon die duidelijke tekenen vertoont van invloed als gevolg van drugsgebruik, is een overtreding op zich. De eigenaar van het voertuig heeft de verantwoordelijkheid ervoor te zorgen dat de persoon aan wie hij het toevertrouwt, in staat is om veilig te rijden.",
+      "explanation_ru": "Передача транспортного средства лицу, которое проявляет явные признаки наркотического опьянения, является самостоятельным правонарушением. Владелец транспортного средства обязан убедиться, что лицо, которому он его доверяет, способно безопасно управлять автомобилем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez fait l'objet d'une interdiction de conduire un véhicule pour une durée déterminée. Malgré cette interdiction en vigueur, vous décidez de prendre le volant pour une course rapide. Quelle est la nature de l'infraction et ses conséquences potentielles?",
+      "text_nl": "U bent voor een bepaalde periode een rijverbod opgelegd. Ondanks dit geldende verbod besluit u toch achter het stuur te kruipen voor een snelle boodschap. Wat is de aard van de overtreding en de mogelijke gevolgen?",
+      "text_ru": "Вам был вынесен запрет на управление транспортным средством на определенный срок. Несмотря на действующий запрет, вы решаете сесть за руль для быстрой поездки. Каков характер нарушения и его потенциальные последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Car being driven despite a 'no driving' sign or prohibition notice"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une infraction mineure qui n'entraîne qu'une prolongation de l'interdiction de conduire.",
+          "text_nl": "Het is een kleine overtreding die alleen leidt tot een verlenging van het rijverbod.",
+          "text_ru": "Это незначительное нарушение, которое влечет за собой только продление запрета на вождение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est une infraction grave passible de sanctions pénales, incluant amendes et peines de prison.",
+          "text_nl": "Het is een ernstige overtreding die strafbaar is met strafrechtelijke sancties, waaronder geldboetes en gevangenisstraffen.",
+          "text_ru": "Это серьезное нарушение, наказуемое уголовными санкциями, включая штрафы и тюремное заключение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'infraction est caractérisée uniquement si vous causez un accident pendant cette période.",
+          "text_nl": "De overtreding is alleen van toepassing als u tijdens die periode een ongeval veroorzaakt.",
+          "text_ru": "Нарушение квалифицируется только в том случае, если вы станете причиной аварии в этот период.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire un véhicule ou une monture pendant une période d'interdiction est une infraction grave. Les personnes qui se livrent à cette pratique s'exposent à des sanctions pénales significatives, y compris des amendes substantielles et des peines d'emprisonnement.",
+      "explanation_nl": "Het besturen van een voertuig of een rijdier tijdens een verboden periode is een ernstige overtreding. Personen die zich hieraan schuldig maken, stellen zich bloot aan aanzienlijke strafrechtelijke sancties, waaronder aanzienlijke geldboetes en gevangenisstraffen.",
+      "explanation_ru": "Управление транспортным средством или верховым животным в период запрета является серьезным нарушением. Лица, совершающие такое действие, подвергаются значительным уголовным санкциям, включая крупные штрафы и тюремное заключение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes passager et votre ami, le conducteur, montre des signes évidents d'ivresse ou d'influence de drogues. Vous l'incitez à prendre le volant malgré son état, en lui disant de ne pas s'inquiéter. Quelle est votre situation légale?",
+      "text_nl": "U bent passagier en uw vriend, de bestuurder, vertoont duidelijke tekenen van dronkenschap of drugsinvloed. U spoort hem aan om ondanks zijn toestand achter het stuur te kruipen en zegt hem zich geen zorgen te maken. Wat is uw wettelijke situatie?",
+      "text_ru": "Вы пассажир, и ваш друг, водитель, проявляет явные признаки опьянения или наркотического воздействия. Вы подстрекаете его сесть за руль, несмотря на его состояние, говоря ему не беспокоиться. Какова ваша правовая ситуация?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Two friends, one visibly impaired, the other encouraging them to drive"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous n'avez aucune responsabilité légale, car seul le conducteur est responsable.",
+          "text_nl": "U heeft geen wettelijke verantwoordelijkheid, aangezien alleen de bestuurder verantwoordelijk is.",
+          "text_ru": "Вы не несете юридической ответственности, так как ответственность лежит только на водителе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous commettez une infraction en incitant une personne sous influence à conduire.",
+          "text_nl": "U begaat een overtreding door een persoon onder invloed aan te zetten tot rijden.",
+          "text_ru": "Вы совершаете правонарушение, подстрекая человека в состоянии опьянения к вождению.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous êtes seulement passible d'une amende administrative si un contrôle a lieu.",
+          "text_nl": "U bent alleen strafbaar met een administratieve boete als er een controle plaatsvindt.",
+          "text_ru": "Вы подлежите только административному штрафу, если будет проведена проверка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Inciter ou provoquer une personne qui donne des signes évidents d'influence suite à l'usage de substances à conduire un véhicule est une infraction distincte et est passible de sanctions pénales. La loi vise à prévenir la conduite sous influence et étend la responsabilité au-delà du simple conducteur.",
+      "explanation_nl": "Het aanzetten of uitdagen van een persoon die duidelijke tekenen vertoont van invloed als gevolg van drugsgebruik tot het besturen van een voertuig, is een aparte overtreding en is strafbaar met strafrechtelijke sancties. De wet heeft tot doel rijden onder invloed te voorkomen en breidt de verantwoordelijkheid uit tot voorbij de loutere bestuurder.",
+      "explanation_ru": "Подстрекательство или провоцирование лица, проявляющего явные признаки наркотического опьянения, к управлению транспортным средством является отдельным правонарушением и наказывается уголовными санкциями. Закон направлен на предотвращение вождения в нетрезвом виде и распространяет ответственность за пределы простого водителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez été condamné pour conduite sous l'influence de drogues il y a deux ans. Aujourd'hui, vous commettez une nouvelle fois la même infraction. Comment cette nouvelle infraction sera-t-elle traitée par rapport à la première?",
+      "text_nl": "U bent twee jaar geleden veroordeeld wegens rijden onder invloed van drugs. Vandaag begaat u opnieuw dezelfde overtreding. Hoe zal deze nieuwe overtreding worden behandeld ten opzichte van de eerste?",
+      "text_ru": "Вы были осуждены за вождение в состоянии наркотического опьянения два года назад. Сегодня вы снова совершаете то же нарушение. Как это новое нарушение будет рассматриваться по сравнению с первым?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Courtroom gavel or symbol of justice with a calendar showing 2 years passing"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle sera traitée comme une première infraction car deux ans se sont écoulés.",
+          "text_nl": "Het zal worden behandeld als een eerste overtreding, omdat er twee jaar zijn verstreken.",
+          "text_ru": "Оно будет рассматриваться как первое правонарушение, потому что прошло два года.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il s'agit d'une récidive, entraînant des peines d'emprisonnement et des amendes plus lourdes.",
+          "text_nl": "Het betreft een herhaling, wat leidt tot zwaardere gevangenisstraffen en geldboetes.",
+          "text_ru": "Это рецидив, влекущий более суровые тюремные сроки и штрафы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La peine sera la même que la première, la récidive ne s'appliquant qu'après trois infractions.",
+          "text_nl": "De straf zal dezelfde zijn als de eerste, aangezien herhaling pas na drie overtredingen van toepassing is.",
+          "text_ru": "Наказание будет таким же, как и за первое, поскольку рецидив применяется только после трех нарушений.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si une personne commet une nouvelle infraction liée à la conduite sous influence de drogues dans les trois ans suivant une condamnation antérieure devenue définitive pour une infraction similaire, cette nouvelle infraction est considérée comme une récidive. Les peines d'emprisonnement et les amendes prévues sont alors plus lourdes, voire doublées en cas de nouvelle récidive.",
+      "explanation_nl": "Indien een persoon binnen drie jaar na een eerdere, onherroepelijke veroordeling voor een gelijkaardige overtreding opnieuw een overtreding begaat die verband houdt met rijden onder invloed van drugs, wordt deze nieuwe overtreding als herhaling beschouwd. De voorziene gevangenisstraffen en geldboetes zijn dan zwaarder, en kunnen zelfs verdubbeld worden bij een nieuwe herhaling.",
+      "explanation_ru": "Если лицо совершает новое правонарушение, связанное с управлением транспортным средством в состоянии наркотического опьянения, в течение трех лет после предыдущего окончательного приговора за аналогичное правонарушение, это новое правонарушение считается рецидивом. Предусмотренные сроки тюремного заключения и штрафы в этом случае будут более строгими, а при повторном рецидиве могут быть удвоены."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Lors d'un contrôle routier, un agent de police vous demande de vous soumettre à un test salivaire pour dépister d'éventuelles substances. Vous refusez sans donner de raison valable. Quelle est la conséquence immédiate de votre refus?",
+      "text_nl": "Tijdens een wegcontrole vraagt een politieagent u om een speekseltest te ondergaan om mogelijke stoffen op te sporen. U weigert zonder geldige reden. Wat is het directe gevolg van uw weigering?",
+      "text_ru": "Во время дорожной проверки полицейский просит вас пройти тест на слюну для выявления возможных веществ. Вы отказываетесь без уважительной причины. Каково немедленное последствие вашего отказа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer asking for a drug test, driver refusing"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le policier ne peut rien faire et doit vous laisser partir.",
+          "text_nl": "De politieagent kan niets doen en moet u laten gaan.",
+          "text_ru": "Полицейский ничего не может сделать и должен отпустить вас.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre refus est une infraction en soi, traitée avec la même sévérité que si vous aviez été testé positif.",
+          "text_nl": "Uw weigering is op zich een overtreding, die met dezelfde strengheid wordt behandeld als wanneer u positief getest zou zijn.",
+          "text_ru": "Ваш отказ сам по себе является правонарушением, которое рассматривается с той же строгостью, как если бы вы дали положительный результат.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous recevez une amende modérée et une nouvelle date est fixée pour le test.",
+          "text_nl": "U ontvangt een gematigde boete en een nieuwe datum wordt vastgesteld voor de test.",
+          "text_ru": "Вы получаете умеренный штраф, и назначается новая дата для теста.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le refus sans motif légitime de se soumettre à un test salivaire, une analyse de salive ou un prélèvement sanguin demandé par la police est une infraction grave. La loi considère ce refus comme une tentative d'échapper à la détection et le sanctionne de manière similaire à la conduite sous influence.",
+      "explanation_nl": "Het zonder wettige reden weigeren zich te onderwerpen aan een speekseltest, speekselanalyse of bloedproef die door de politie wordt gevraagd, is een ernstige overtreding. De wet beschouwt deze weigering als een poging om detectie te ontwijken en bestraft deze op een vergelijkbare manier als rijden onder invloed.",
+      "explanation_ru": "Отказ без законных оснований пройти тест на слюну, анализ слюны или взятие крови по требованию полиции является серьезным правонарушением. Закон рассматривает такой отказ как попытку избежать обнаружения и наказывает его аналогично управлению транспортным средством в состоянии опьянения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "2bc2e7c020b8",
@@ -44,6 +378,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:34:33Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 9
   }
 }

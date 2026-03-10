@@ -26,7 +26,193 @@
   "anchor_id_fr": "oyqsbjfxbn",
   "anchor_id_nl": "j6nyequsbn",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le but principal d'un sabot (wielklem) lorsqu'il est utilisé sur un véhicule conformément aux règles de circulation?",
+      "text_nl": "Wat is het hoofddoel van een wielklem (sabot) wanneer deze op een voertuig wordt gebruikt overeenkomstig de verkeersregels?",
+      "text_ru": "Какова основная цель использования блокиратора колеса (sabot) на транспортном средстве в соответствии с правилами дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Permettre au conducteur de payer l'amende directement sur place.",
+          "text_nl": "De bestuurder in staat stellen de boete ter plaatse te betalen.",
+          "text_ru": "Позволить водителю оплатить штраф непосредственно на месте.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Immobiliser le véhicule en cas de certaines infractions.",
+          "text_nl": "Het voertuig immobiliseren in geval van bepaalde overtredingen.",
+          "text_ru": "Обезвредить транспортное средство в случае определенных нарушений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer que le véhicule est en panne et attend un dépannage.",
+          "text_nl": "Aangeven dat het voertuig defect is en wacht op pechhulp.",
+          "text_ru": "Указать, что транспортное средство неисправно и ожидает буксировки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un sabot est utilisé pour immobiliser un véhicule, notamment en cas de certaines infractions de stationnement.",
+      "explanation_nl": "Een wielklem wordt gebruikt om een voertuig te immobiliseren, met name in geval van bepaalde parkeerovertredingen.",
+      "explanation_ru": "Блокиратор колеса используется для обездвиживания транспортного средства, в частности, в случае определенных нарушений правил парковки."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Pour quelles raisons principales une autorité peut-elle faire usage d'un sabot pour immobiliser un véhicule?",
+      "text_nl": "Om welke hoofdredenen kan een autoriteit een wielklem gebruiken om een voertuig te immobiliseren?",
+      "text_ru": "По каким основным причинам власти могут использовать блокиратор колеса для обездвиживания транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Après un accident de la circulation grave impliquant le véhicule.",
+          "text_nl": "Na een ernstig verkeersongeval waarbij het voertuig betrokken is.",
+          "text_ru": "После серьезного дорожно-транспортного происшествия с участием транспортного средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En cas de certaines infractions de stationnement définies.",
+          "text_nl": "In geval van bepaalde vastgestelde parkeerovertredingen.",
+          "text_ru": "В случае определенных нарушений правил парковки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le véhicule est immatriculé à l'étranger et son conducteur est absent.",
+          "text_nl": "Als het voertuig in het buitenland is geregistreerd en de bestuurder afwezig is.",
+          "text_ru": "Если транспортное средство зарегистрировано за границей, а его водитель отсутствует.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'utilisation d'un sabot est prévue spécifiquement pour certaines infractions de stationnement.",
+      "explanation_nl": "Het gebruik van een wielklem is specifiek voorzien voor bepaalde parkeerovertredingen.",
+      "explanation_ru": "Использование блокиратора колеса предусмотрено специально для определенных нарушений правил парковки."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est responsable de la détermination des cas spécifiques d'infractions de stationnement pour lesquels un sabot peut être utilisé?",
+      "text_nl": "Wie is verantwoordelijk voor het bepalen van de specifieke gevallen van parkeerovertredingen waarvoor een wielklem kan worden gebruikt?",
+      "text_ru": "Кто отвечает за определение конкретных случаев нарушений правил парковки, за которые может быть применен блокиратор колеса?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le chef de la police locale de la commune concernée.",
+          "text_nl": "Het hoofd van de lokale politie van de betreffende gemeente.",
+          "text_ru": "Начальник местной полиции соответствующей коммуны.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi.",
+          "text_nl": "De Koning.",
+          "text_ru": "Король.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le ministre des Transports.",
+          "text_nl": "De minister van Verkeer.",
+          "text_ru": "Министр транспорта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La détermination des cas spécifiques d'infractions de stationnement justifiant l'usage d'un sabot est du ressort du Roi.",
+      "explanation_nl": "De bepaling van de specifieke gevallen van parkeerovertredingen die het gebruik van een wielklem rechtvaardigen, behoort tot de bevoegdheid van de Koning.",
+      "explanation_ru": "Определение конкретных случаев нарушений правил парковки, оправдывающих использование блокиратора колеса, относится к компетенции Короля."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous garez votre véhicule en ville. Quelle recommandation générale devez-vous suivre pour éviter que votre véhicule ne soit potentiellement immobilisé par un sabot?",
+      "text_nl": "U parkeert uw voertuig in de stad. Welke algemene aanbeveling moet u volgen om te voorkomen dat uw voertuig mogelijk wordt geïmmobiliseerd met een wielklem?",
+      "text_ru": "Вы паркуете свой автомобиль в городе. Какую общую рекомендацию следует соблюдать, чтобы избежать возможной иммобилизации вашего транспортного средства блокиратором колеса?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car parked on a city street, potentially incorrectly."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toujours laisser les feux de détresse allumés, même en cas de stationnement de longue durée.",
+          "text_nl": "Altijd de alarmlichten aan laten, zelfs bij langdurig parkeren.",
+          "text_ru": "Всегда оставлять аварийную сигнализацию включенной, даже при длительной парковке.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Respecter scrupuleusement l'ensemble des règles de stationnement en vigueur.",
+          "text_nl": "Stipte naleving van alle geldende parkeerregels.",
+          "text_ru": "Строго соблюдать все действующие правила парковки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Stationner uniquement dans les parkings souterrains payants pour plus de sécurité.",
+          "text_nl": "Alleen parkeren in betaalde ondergrondse parkeergarages voor extra veiligheid.",
+          "text_ru": "Парковаться только на платных подземных парковках для большей безопасности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un sabot est utilisé en cas d'infraction de stationnement. Pour l'éviter, il faut donc respecter toutes les règles de stationnement.",
+      "explanation_nl": "Een wielklem wordt gebruikt in geval van een parkeerovertreding. Om dit te voorkomen, moet u alle parkeerregels respecteren.",
+      "explanation_ru": "Блокиратор колеса используется в случае нарушения правил парковки. Чтобы избежать этого, необходимо соблюдать все правила парковки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous passez devant une voiture stationnée qui est équipée d'un sabot sur l'une de ses roues. Quelle conclusion pouvez-vous tirer de cette observation concernant le véhicule immobilisé?",
+      "text_nl": "U rijdt langs een geparkeerde auto die is uitgerust met een wielklem op een van zijn wielen. Welke conclusie kunt u trekken uit deze waarneming met betrekking tot het geïmmobiliseerde voertuig?",
+      "text_ru": "Вы проезжаете мимо припаркованного автомобиля, на одном из колес которого установлен блокиратор. Какой вывод вы можете сделать из этого наблюдения относительно обездвиженного транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car with a wheel clamp on its tire, parked on a street."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule a probablement eu une panne mécanique et est en attente de réparation.",
+          "text_nl": "Het voertuig heeft waarschijnlijk een mechanisch defect en wacht op reparatie.",
+          "text_ru": "Транспортное средство, вероятно, сломалось и ожидает ремонта.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule a commis une infraction de stationnement pour laquelle cette mesure d'immobilisation est appliquée.",
+          "text_nl": "Het voertuig heeft een parkeerovertreding begaan waarvoor deze immobilisatiemaatregel wordt toegepast.",
+          "text_ru": "Транспортное средство совершило нарушение правил парковки, за которое применяется данная мера обездвиживания.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule est un prototype ou un véhicule d'exposition qui n'est pas autorisé à circuler.",
+          "text_nl": "Het voertuig is een prototype of een tentoonstellingsvoertuig dat niet is toegestaan om te rijden.",
+          "text_ru": "Транспортное средство является прототипом или выставочным образцом, которому не разрешено движение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le sabot est utilisé pour immobiliser un véhicule en cas de certaines infractions de stationnement. Sa présence indique donc une infraction commise.",
+      "explanation_nl": "De wielklem wordt gebruikt om een voertuig te immobiliseren in geval van bepaalde parkeerovertredingen. De aanwezigheid ervan wijst dus op een begane overtreding.",
+      "explanation_ru": "Блокиратор колеса используется для обездвиживания транспортного средства в случае определенных нарушений правил парковки. Его наличие, таким образом, указывает на совершенное нарушение."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "3ce48f8856b9",
@@ -36,6 +222,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:39:23Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 5
   }
 }

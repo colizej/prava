@@ -26,7 +26,198 @@
   "anchor_id_fr": "hw6qxiyxki",
   "anchor_id_nl": "mjxzc9cd5e",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie le terme 'immobilisation temporaire' d'un véhicule en cas d'infraction, concernant la responsabilité financière et les risques ?",
+      "text_nl": "Wat betekent de term 'tijdelijke immobilisering' van een voertuig in geval van een overtreding, met betrekking tot de financiële verantwoordelijkheid en risico's?",
+      "text_ru": "Что означает термин 'временная иммобилизация' транспортного средства в случае правонарушения, касательно финансовой ответственности и рисков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car being towed away by a tow truck, with a police officer observing in the background, implying temporary immobilization."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule est définitivement confisqué par les autorités sans frais pour l'auteur de l'infraction.",
+          "text_nl": "Het voertuig wordt definitief door de autoriteiten in beslag genomen, zonder kosten voor de overtreder.",
+          "text_ru": "Транспортное средство окончательно конфискуется властями без затрат для правонарушителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule est momentanément mis hors service, et tous les frais ainsi que les risques sont à la charge de la personne qui a commis l'infraction.",
+          "text_nl": "Het voertuig wordt tijdelijk buiten gebruik gesteld, en alle kosten en risico's zijn voor rekening van de persoon die de overtreding heeft begaan.",
+          "text_ru": "Транспортное средство временно выводится из эксплуатации, и все расходы, а также риски, ложатся на лицо, совершившее правонарушение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule est mis hors service pour une durée indéterminée, avec des frais couverts par une assurance obligatoire.",
+          "text_nl": "Het voertuig wordt voor onbepaalde tijd buiten gebruik gesteld, met kosten die gedekt worden door een verplichte verzekering.",
+          "text_ru": "Транспортное средство выводится из эксплуатации на неопределенный срок, а расходы покрываются обязательной страховкой.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article précise que l'immobilisation est temporaire et que le véhicule est immobilisé 'aux frais et risques de l'auteur de l'infraction'.",
+      "explanation_nl": "Het artikel stelt dat de immobilisering tijdelijk is en dat het voertuig wordt geïmmobiliseerd 'op kosten en risico van de dader van het misdrijf'.",
+      "explanation_ru": "Статья указывает, что иммобилизация является временной, и транспортное средство иммобилизуется 'за счет и на риск совершившего правонарушение'.",
+      "image_prompt": "A car being towed away by a tow truck, with a police officer observing in the background, implying temporary immobilization."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans le contexte d'une immobilisation temporaire d'un véhicule, qui est désigné comme 'l'auteur de l'infraction' et en porte les conséquences ?",
+      "text_nl": "In de context van tijdelijke immobilisering van een voertuig, wie wordt aangeduid als 'de dader van het misdrijf' en draagt de gevolgen ervan?",
+      "text_ru": "В контексте временной иммобилизации транспортного средства, кто обозначается как 'совершивший правонарушение' и несет его последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le propriétaire du véhicule, même s'il n'était pas au volant au moment de l'infraction.",
+          "text_nl": "De eigenaar van het voertuig, zelfs als hij niet reed op het moment van de overtreding.",
+          "text_ru": "Владелец транспортного средства, даже если он не был за рулем во время правонарушения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La personne qui a matériellement commis l'infraction ayant conduit à l'immobilisation.",
+          "text_nl": "De persoon die de overtreding die tot de immobilisering heeft geleid, daadwerkelijk heeft begaan.",
+          "text_ru": "Лицо, фактически совершившее правонарушение, повлекшее иммобилизацию.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les autorités qui ordonnent l'immobilisation du véhicule.",
+          "text_nl": "De autoriteiten die de immobilisering van het voertuig bevelen.",
+          "text_ru": "Власти, отдавшие приказ об иммобилизации транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article mentionne spécifiquement 'l'auteur de l'infraction' comme étant responsable des frais et risques, désignant ainsi la personne ayant commis le manquement.",
+      "explanation_nl": "Het artikel vermeldt specifiek 'de dader van het misdrijf' als verantwoordelijke voor de kosten en risico's, waarmee de persoon wordt aangeduid die de overtreding heeft begaan.",
+      "explanation_ru": "В статье конкретно упоминается 'совершивший правонарушение' как ответственный за расходы и риски, указывая на лицо, совершившее нарушение.",
+      "image_prompt": null
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la caractéristique principale de l'immobilisation d'un véhicule évoquée dans cet article ?",
+      "text_nl": "Wat is het belangrijkste kenmerk van de immobilisering van een voertuig zoals genoemd in dit artikel?",
+      "text_ru": "Какова основная характеристика иммобилизации транспортного средства, упомянутая в этой статье?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle est toujours permanente et irréversible.",
+          "text_nl": "Deze is altijd permanent en onomkeerbaar.",
+          "text_ru": "Она всегда постоянна и необратима.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Sa durée est indéterminée et dépend de la décision d'un tribunal.",
+          "text_nl": "De duur ervan is onbepaald en afhankelijk van een gerechtelijke beslissing.",
+          "text_ru": "Ее продолжительность неопределенна и зависит от решения суда.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle est temporaire.",
+          "text_nl": "Deze is tijdelijk.",
+          "text_ru": "Она временная.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article débute par 'En cas d'immobilisation temporaire', indiquant clairement la nature provisoire de la mesure.",
+      "explanation_nl": "Het artikel begint met 'Bij tijdelijke immobilisering', wat duidelijk de voorlopige aard van de maatregel aangeeft.",
+      "explanation_ru": "Статья начинается с 'В случае временной иммобилизации', что ясно указывает на временный характер меры.",
+      "image_prompt": null
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Suite à une infraction que vous avez commise, votre véhicule est temporairement immobilisé par les autorités. Qui est financièrement responsable des frais liés à cette immobilisation (par exemple, remorquage, gardiennage) ?",
+      "text_nl": "Als gevolg van een overtreding die u hebt begaan, wordt uw voertuig tijdelijk geïmmobiliseerd door de autoriteiten. Wie is financieel verantwoordelijk voor de kosten die verband houden met deze immobilisering (bijvoorbeeld slepen, stalling)?",
+      "text_ru": "После совершения вами правонарушения, ваше транспортное средство временно иммобилизовано властями. Кто несет финансовую ответственность за расходы, связанные с этой иммобилизацией (например, эвакуация, хранение)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car being loaded onto a tow truck, with a police vehicle parked nearby. The scene suggests a vehicle being immobilized by authorities."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les autorités qui ont ordonné l'immobilisation.",
+          "text_nl": "De autoriteiten die de immobilisering hebben bevolen.",
+          "text_ru": "Власти, которые распорядились об иммобилизации.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'assurance du véhicule couvre automatiquement ces frais.",
+          "text_nl": "De voertuigverzekering dekt deze kosten automatisch.",
+          "text_ru": "Страховка транспортного средства автоматически покрывает эти расходы.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous-même, en tant qu'auteur de l'infraction.",
+          "text_nl": "U zelf, als dader van de overtreding.",
+          "text_ru": "Вы сами, как совершивший правонарушение.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "L'article stipule clairement que l'immobilisation se fait 'aux frais et risques de l'auteur de l'infraction'.",
+      "explanation_nl": "Het artikel stelt duidelijk dat de immobilisering 'op kosten en risico van de dader van het misdrijf' plaatsvindt.",
+      "explanation_ru": "Статья ясно указывает, что иммобилизация осуществляется 'за счет и на риск совершившего правонарушение'.",
+      "image_prompt": "A car being loaded onto a tow truck, with a police vehicle parked nearby. The scene suggests a vehicle being immobilized by authorities."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez commis une infraction entraînant la mise à l'arrêt temporaire et la garde de votre véhicule par la police. Si des dommages surviennent au véhicule pendant cette période de garde, qui en assume la responsabilité ?",
+      "text_nl": "U hebt een overtreding begaan die resulteert in de tijdelijke stilstand en bewaring van uw voertuig door de politie. Als er tijdens deze bewaring schade aan het voertuig ontstaat, wie is hiervoor verantwoordelijk?",
+      "text_ru": "Вы совершили правонарушение, повлекшее временное задержание и хранение вашего транспортного средства полицией. Если в течение этого периода хранения автомобилю будет нанесен ущерб, кто несет за это ответственность?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer standing next to an impounded car in a secured lot, indicating that the car is under temporary immobilization and subject to potential risks."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les services de police sont responsables de tous les dommages survenus pendant la période de garde.",
+          "text_nl": "De politiediensten zijn verantwoordelijk voor alle schade die tijdens de bewaringsperiode ontstaat.",
+          "text_ru": "Полицейские службы несут ответственность за любой ущерб, возникший в период хранения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'auteur de l'infraction assume les risques, y compris les éventuels dommages.",
+          "text_nl": "De dader van de overtreding draagt de risico's, inclusief eventuele schade.",
+          "text_ru": "Совершивший правонарушение несет риски, включая возможный ущерб.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les dommages sont couverts par un fonds d'État spécial pour les véhicules immobilisés.",
+          "text_nl": "De schade wordt gedekt door een speciaal overheidsfonds voor geïmmobiliseerde voertuigen.",
+          "text_ru": "Ущерб покрывается специальным государственным фондом для иммобилизованных транспортных средств.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article stipule que l'immobilisation se fait 'aux frais et risques de l'auteur de l'infraction'. Les risques incluent la responsabilité pour d'éventuels dommages.",
+      "explanation_nl": "Het artikel stelt dat de immobilisering 'op kosten en risico van de dader van het misdrijf' plaatsvindt. Risico's omvatten de aansprakelijkheid voor eventuele schade.",
+      "explanation_ru": "Статья указывает, что иммобилизация осуществляется 'за счет и на риск совершившего правонарушение'. Риски включают ответственность за возможный ущерб.",
+      "image_prompt": "A police officer standing next to an impounded car in a secured lot, indicating that the car is under temporary immobilization and subject to potential risks."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "7a30663697b0",
@@ -36,6 +227,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:38:50Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 5
   }
 }

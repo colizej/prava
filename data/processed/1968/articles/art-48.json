@@ -26,7 +26,304 @@
   "anchor_id_fr": "kcuqosu4vm",
   "anchor_id_nl": "zshpahv8te",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le terme utilisé pour désigner la situation où une personne est légalement privée de son droit de conduire un véhicule à moteur ?",
+      "text_nl": "Wat is de term die wordt gebruikt om de situatie te beschrijven waarin iemand wettelijk het recht ontzegd wordt om een motorvoertuig te besturen?",
+      "text_ru": "Какой термин используется для обозначения ситуации, когда лицо законно лишается права управлять механическим транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La suspension du permis de conduire",
+          "text_nl": "De schorsing van het rijbewijs",
+          "text_ru": "Приостановление водительских прав",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance du droit de conduire",
+          "text_nl": "Het verval van het recht tot sturen",
+          "text_ru": "Лишение права управления транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le retrait du permis de conduire",
+          "text_nl": "Het intrekken van het rijbewijs",
+          "text_ru": "Изъятие водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le terme légal pour la privation du droit de conduire un véhicule à moteur est la 'déchéance du droit de conduire'.",
+      "explanation_nl": "De wettelijke term voor de ontzegging van het recht om een motorvoertuig te besturen is 'verval van het recht tot sturen'.",
+      "explanation_ru": "Юридический термин для лишения права управления механическим транспортным средством — это 'лишение права управления транспортным средством'."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Outre une éventuelle interdiction de conduire, quelles sont les deux autres catégories de sanctions qui peuvent être imposées à une personne qui conduit sans en avoir le droit ?",
+      "text_nl": "Naast een mogelijke rijverbod, welke twee andere categorieën van straffen kunnen worden opgelegd aan iemand die rijdt zonder hiertoe gerechtigd te zijn?",
+      "text_ru": "Помимо возможного запрета на вождение, какие две другие категории санкций могут быть наложены на лицо, управляющее транспортным средством без соответствующего права?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende et des travaux d'intérêt général",
+          "text_nl": "Een geldboete en taakstraf",
+          "text_ru": "Штраф и общественные работы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende et une peine d'emprisonnement",
+          "text_nl": "Een geldboete en gevangenisstraf",
+          "text_ru": "Штраф и тюремное заключение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une peine d'emprisonnement et un retrait de points",
+          "text_nl": "Gevangenisstraf en puntenaftrek",
+          "text_ru": "Тюремное заключение и вычет баллов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les sanctions prévues pour la conduite sans droit incluent une peine d'emprisonnement, une amende, et une déchéance du droit de conduire.",
+      "explanation_nl": "De voorziene straffen voor rijden zonder recht omvatten een gevangenisstraf, een geldboete en een verval van het recht tot sturen.",
+      "explanation_ru": "Предусмотренные санкции за вождение без прав включают тюремное заключение, штраф и лишение права управления транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel cas les peines d'emprisonnement et les amendes pour conduite malgré une interdiction peuvent-elles être doublées?",
+      "text_nl": "In welk geval kunnen de gevangenisstraffen en geldboeten voor rijden ondanks een verbod worden verdubbeld?",
+      "text_ru": "В каком случае сроки тюремного заключения и штрафы за управление транспортным средством при наличии запрета могут быть удвоены?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si l'infraction est commise la nuit",
+          "text_nl": "Als de overtreding 's nachts wordt begaan",
+          "text_ru": "Если нарушение совершено ночью",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En cas de récidive dans les trois ans",
+          "text_nl": "Bij herhaling binnen drie jaar",
+          "text_ru": "В случае рецидива в течение трех лет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le conducteur refuse un test d'alcoolémie",
+          "text_nl": "Als de bestuurder een alcoholtest weigert",
+          "text_ru": "Если водитель отказывается от проверки на алкоголь",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines d'emprisonnement et les amendes sont doublées s'il y a récidive dans les trois ans à dater d'un jugement antérieur portant condamnation et passé en force de chose jugée.",
+      "explanation_nl": "De gevangenisstraffen en geldboeten worden verdubbeld bij herhaling binnen drie jaar te rekenen van de dag van de uitspraak van een vorig veroordelend vonnis dat in kracht van gewijsde is gegaan.",
+      "explanation_ru": "Сроки тюремного заключения и штрафы удваиваются в случае рецидива в течение трех лет с даты предыдущего осудительного приговора, вступившего в законную силу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez perdu votre droit de conduire tout véhicule. Un ami souhaite apprendre à conduire et vous demande de l'accompagner comme guide. Est-ce autorisé ?",
+      "text_nl": "U bent uw recht verloren om enig voertuig te besturen. Een vriend wil leren rijden en vraagt u om hem als begeleider bij te staan. Is dit toegestaan?",
+      "text_ru": "Вы потеряли право управлять любым транспортным средством. Друг хочет научиться водить и просит вас сопровождать его в качестве инструктора. Разрешено ли это?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person in the passenger seat accompanying a learner driver, while the accompanying person has a driving ban."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car vous ne conduisez pas vous-même, vous êtes seulement un passager.",
+          "text_nl": "Ja, want u rijdt zelf niet, u bent alleen een passagier.",
+          "text_ru": "Да, потому что вы сами не управляете, вы всего лишь пассажир.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, accompagner un conducteur en apprentissage est également interdit en cas de déchéance du droit de conduire.",
+          "text_nl": "Nee, het begeleiden van een bestuurder met het oog op de scholing is ook verboden in geval van een verval van het recht tot sturen.",
+          "text_ru": "Нет, сопровождение обучающегося водителя также запрещено в случае лишения права управления транспортным средством.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais seulement si vous n'avez pas bu d'alcool et êtes en pleine possession de vos moyens.",
+          "text_nl": "Ja, maar alleen als u geen alcohol heeft gedronken en volledig in staat bent.",
+          "text_ru": "Да, но только если вы не употребляли алкоголь и полностью вменяемы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La déchéance du droit de conduire s'applique non seulement à la conduite d'un véhicule, mais aussi à l'accompagnement d'un conducteur en vue de l'apprentissage.",
+      "explanation_nl": "Het verval van het recht tot sturen geldt niet alleen voor het besturen van een voertuig, maar ook voor het begeleiden van een bestuurder met het oog op de scholing.",
+      "explanation_ru": "Лишение права управления транспортным средством распространяется не только на вождение, но и на сопровождение обучающегося водителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre permis de conduire a été invalidé spécifiquement pour la catégorie des motos, et vous n'avez pas encore rempli les conditions nécessaires à sa réintégration. Vous décidez de conduire votre moto. Quelle est la nature de l'infraction commise ?",
+      "text_nl": "Uw rijbewijs is specifiek ongeldig verklaard voor de categorie motorfietsen, en u heeft nog niet voldaan aan de nodige voorwaarden voor herstel. U besluit uw motorfiets te besturen. Wat is de aard van de begane overtreding?",
+      "text_ru": "Ваше водительское удостоверение было аннулировано специально для категории мотоциклов, и вы еще не выполнили необходимые условия для его восстановления. Вы решаете управлять своим мотоциклом. Каков характер совершенного правонарушения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person riding a motorcycle, implying they are violating a specific category driving ban."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une infraction légère, car cela ne concerne qu'une catégorie spécifique de véhicule et non tous les véhicules.",
+          "text_nl": "Het is een lichte overtreding, want het betreft slechts een specifieke voertuigcategorie en niet alle voertuigen.",
+          "text_ru": "Это легкое нарушение, так как касается только определенной категории транспортных средств, а не всех.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est une infraction grave, car vous conduisez un véhicule de la catégorie visée par l'interdiction sans avoir satisfait aux conditions de réintégration.",
+          "text_nl": "Het is een zware overtreding, omdat u een motorvoertuig bestuurt van de categorie bedoeld in de beslissing van vervallenverklaring, zonder te hebben voldaan aan de herstelvoorwaarden.",
+          "text_ru": "Это серьезное нарушение, поскольку вы управляете транспортным средством категории, на которую распространяется запрет, не выполнив условия для восстановления прав.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ce n'est pas une infraction si vous conduisez prudemment et respectez toutes les autres règles de circulation.",
+          "text_nl": "Het is geen overtreding als u voorzichtig rijdt en alle andere verkeersregels respecteert.",
+          "text_ru": "Это не является нарушением, если вы водите осторожно и соблюдаете все остальные правила дорожного движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire un véhicule d'une catégorie visée par une déchéance sans avoir satisfait aux conditions de réintégration est une infraction grave passible de sanctions importantes.",
+      "explanation_nl": "Het besturen van een voertuig van de categorie bedoeld in een beslissing van vervallenverklaring, zonder te hebben voldaan aan de herstelvoorwaarden, is een zware overtreding met aanzienlijke straffen.",
+      "explanation_ru": "Управление транспортным средством категории, на которую распространяется лишение прав, без выполнения условий для их восстановления является серьезным нарушением, влекущим значительные санкции."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur se voit retirer définitivement le droit de conduire tout véhicule à moteur. Malgré cela, il prend sa voiture pour aller travailler. Quelle sanction peut-il risquer en cas de contrôle ?",
+      "text_nl": "Een bestuurder wordt definitief het recht ontnomen om enig motorvoertuig te besturen. Desondanks neemt hij zijn auto om naar het werk te gaan. Welke straf riskeert hij bij een controle?",
+      "text_ru": "Водитель окончательно лишается права управлять любым механическим транспортным средством. Несмотря на это, он садится за руль своей машины, чтобы поехать на работу. Какое наказание он может понести в случае проверки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer stopping a car, with a driver who is banned from driving."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une simple amende administrative, car il n'a causé aucun danger immédiat.",
+          "text_nl": "Een eenvoudige administratieve boete, want hij heeft geen direct gevaar veroorzaakt.",
+          "text_ru": "Простой административный штраф, так как он не создал непосредственной опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des peines d'emprisonnement, une amende et une déchéance du droit de conduire.",
+          "text_nl": "Gevangenisstraffen, een geldboete en een verval van het recht tot sturen.",
+          "text_ru": "Тюремное заключение, штраф и лишение права управления транспортным средством.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un simple rappel à l'ordre de la part des autorités.",
+          "text_nl": "Een eenvoudige waarschuwing van de autoriteiten.",
+          "text_ru": "Простое устное предупреждение от властей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire un véhicule malgré une déchéance du droit de conduire est une infraction grave passible de peines d'emprisonnement, d'une amende et d'une nouvelle déchéance du droit de conduire.",
+      "explanation_nl": "Rijden met een voertuig ondanks een verval van het recht tot sturen is een zware overtreding waarvoor gevangenisstraf, een geldboete en een nieuw verval van het recht tot sturen kunnen worden opgelegd.",
+      "explanation_ru": "Управление транспортным средством, несмотря на лишение права управления, является серьезным нарушением, наказуемым тюремным заключением, штрафом и новым лишением права управления транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Il y a un an et demi, un juge vous a interdit de conduire pour une durée de 6 mois. Aujourd'hui, vous êtes de nouveau arrêté en train de conduire alors que vous n'en avez pas le droit. Comment les sanctions pour cette nouvelle infraction seront-elles traitées ?",
+      "text_nl": "Anderhalf jaar geleden heeft een rechter u een rijverbod van 6 maanden opgelegd. Vandaag wordt u opnieuw betrapt terwijl u rijdt zonder het recht daartoe te hebben. Hoe zullen de straffen voor deze nieuwe overtreding worden behandeld?",
+      "text_ru": "Полтора года назад судья запретил вам вождение на 6 месяцев. Сегодня вас снова задержали за рулем без права на это. Как будут рассматриваться санкции за это новое нарушение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A calendar showing a period of 1.5 years between two dates, implying a repeat offense within 3 years."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les sanctions seront identiques à celles de la première fois, car la durée de la première interdiction est terminée.",
+          "text_nl": "De straffen zullen identiek zijn aan die van de eerste keer, omdat de duur van het eerste verbod is afgelopen.",
+          "text_ru": "Санкции будут идентичны тем, что были в первый раз, так как срок первого запрета истек.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les sanctions d'emprisonnement et les amendes seront doublées en raison de la récidive.",
+          "text_nl": "De gevangenisstraffen en geldboeten zullen worden verdubbeld wegens herhaling.",
+          "text_ru": "Сроки тюремного заключения и штрафы будут удвоены из-за рецидива.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seule la durée de la nouvelle interdiction de conduire sera prolongée, mais pas les autres peines.",
+          "text_nl": "Alleen de duur van het nieuwe rijverbod zal worden verlengd, maar niet de andere straffen.",
+          "text_ru": "Будет продлен только срок нового запрета на вождение, но не другие наказания.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de récidive dans les trois ans suivant un jugement antérieur pour une infraction similaire, les peines d'emprisonnement et les amendes sont doublées.",
+      "explanation_nl": "Bij herhaling binnen drie jaar na een vorig veroordelend vonnis voor een soortgelijke overtreding, worden de gevangenisstraffen en geldboeten verdubbeld.",
+      "explanation_ru": "В случае рецидива в течение трех лет после предыдущего приговора за аналогичное нарушение, сроки тюремного заключения и штрафы удваиваются."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Une personne a été condamnée à une déchéance du droit de conduire et doit suivre une formation de remise à niveau pour récupérer son permis. Avant d'avoir suivi cette formation, elle est aperçue en train de conduire sa voiture. Est-ce une infraction et pourquoi ?",
+      "text_nl": "Een persoon is veroordeeld tot een verval van het recht tot sturen en moet een heropleiding volgen om zijn rijbewijs terug te krijgen. Voordat deze opleiding is voltooid, wordt de persoon al rijdend in zijn auto gezien. Is dit een overtreding en waarom?",
+      "text_ru": "Лицо было лишено права на управление транспортным средством и должно пройти переподготовку для восстановления своих прав. До завершения этой подготовки его замечают за рулем автомобиля. Является ли это нарушением и почему?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person driving a car, while they are supposed to be following a training course to regain their license, implying they are driving without fulfilling reinstatement conditions."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car la formation n'est pas une condition de réintégration formelle, seulement une recommandation.",
+          "text_nl": "Nee, want de opleiding is geen formele herstelvoorwaarde, slechts een aanbeveling.",
+          "text_ru": "Нет, потому что обучение не является формальным условием восстановления, а лишь рекомендацией.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car elle n'a pas satisfait aux conditions de réintégration obligatoires pour récupérer son droit de conduire.",
+          "text_nl": "Ja, want zij heeft niet voldaan aan de verplichte herstelvoorwaarden om haar recht tot sturen terug te krijgen.",
+          "text_ru": "Да, потому что она не выполнила обязательные условия для восстановления своего права на вождение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, si la personne se rend justement à sa formation, cela n'est pas considéré comme une infraction.",
+          "text_nl": "Nee, als de persoon net naar zijn opleiding gaat, wordt dit niet als een overtreding beschouwd.",
+          "text_ru": "Нет, если человек едет как раз на свое обучение, это не считается нарушением.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Conduire un véhicule sans avoir satisfait aux conditions de réintégration (comme suivre une formation) après une déchéance du droit de conduire est une infraction passible de sanctions.",
+      "explanation_nl": "Het besturen van een voertuig zonder te hebben voldaan aan de herstelvoorwaarden (zoals het volgen van een opleiding) na een verval van het recht tot sturen is een overtreding waarvoor straffen kunnen worden opgelegd.",
+      "explanation_ru": "Управление транспортным средством без выполнения условий для восстановления прав (например, прохождения обучения) после лишения права управления является нарушением, влекущим санкции."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "8e3ef2af189c",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:37:12Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

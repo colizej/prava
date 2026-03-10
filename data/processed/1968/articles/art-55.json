@@ -32,7 +32,304 @@
   "anchor_id_fr": "pi3buzf2ze",
   "anchor_id_nl": "3wcbqqldyx",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le terme officiel désignant l'action de retirer un permis de conduire ou un titre équivalent immédiatement après la constatation d'une infraction grave ?",
+      "text_nl": "Wat is de officiële term voor het onmiddellijk innemen van een rijbewijs of een gelijkwaardig bewijs na een ernstige overtreding?",
+      "text_ru": "Какой официальный термин обозначает действие немедленного изъятия водительского удостоверения или равнозначного документа сразу после выявления серьезного нарушения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Saisie provisoire",
+          "text_nl": "Tijdelijke inbeslagname",
+          "text_ru": "Временное изъятие",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Retrait immédiat",
+          "text_nl": "Onmiddellijke intrekking",
+          "text_ru": "Немедленное изъятие",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Suspension préventive",
+          "text_nl": "Preventieve schorsing",
+          "text_ru": "Профилактическая приостановка",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le document décrit plusieurs situations où le permis de conduire peut être retiré immédiatement par les autorités compétentes. C'est la terminologie spécifique utilisée.",
+      "explanation_nl": "Het document beschrijft verschillende situaties waarin het rijbewijs onmiddellijk door de bevoegde autoriteiten kan worden ingetrokken. Dit is de specifieke terminologie die wordt gebruikt.",
+      "explanation_ru": "В документе описаны различные ситуации, при которых водительское удостоверение может быть немедленно изъято компетентными органами. Это специфическая терминология, используемая в данном контексте."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle autorité est généralement chargée d'ordonner le retrait immédiat d'un permis de conduire, sauf cas exceptionnel relevant d'une cour d'appel ?",
+      "text_nl": "Welke autoriteit is doorgaans bevoegd om de onmiddellijke intrekking van een rijbewijs te bevelen, behalve in uitzonderlijke gevallen die onder een hof van beroep vallen?",
+      "text_ru": "Какой орган обычно уполномочен отдать приказ о немедленном изъятии водительского удостоверения, за исключением особых случаев, находящихся в юрисдикции апелляционного суда?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'officier de police judiciaire",
+          "text_nl": "De officier van gerechtelijke politie",
+          "text_ru": "Офицер судебной полиции",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le bourgmestre",
+          "text_nl": "De burgemeester",
+          "text_ru": "Мэр",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le procureur du Roi",
+          "text_nl": "De procureur des Konings",
+          "text_ru": "Прокурор короля",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le document précise que le retrait immédiat est ordonné par le procureur du Roi, sauf si les faits relèvent de la compétence d'une cour d'appel, auquel cas c'est le procureur général qui intervient. Dans certains cas spécifiques (excès de vitesse), un officier de police judiciaire peut aussi l'ordonner, mais le procureur du Roi est l'autorité générale.",
+      "explanation_nl": "Het document stelt dat de onmiddellijke intrekking wordt bevolen door de procureur des Konings, tenzij de feiten tot de bevoegdheid van een hof van beroep behoren, in welk geval de procureur-generaal tussenkomt. In specifieke gevallen (zoals snelheidsovertredingen) kan ook een officier van gerechtelijke politie dit bevelen, maar de procureur des Konings is de algemene autoriteit.",
+      "explanation_ru": "В документе указано, что немедленное изъятие предписывается прокурором короля, за исключением случаев, когда дело относится к компетенции апелляционного суда, тогда вмешивается генеральный прокурор. В некоторых специфических случаях (например, превышение скорости) офицер судебной полиции также может отдать такой приказ, но прокурор короля является общей властью."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles circonstances le permis de conduire d'une personne qui accompagne un apprenti conducteur peut-il être immédiatement retiré ?",
+      "text_nl": "In welke omstandigheden kan het rijbewijs van een begeleider van een leerling-bestuurder onmiddellijk worden ingetrokken?",
+      "text_ru": "При каких обстоятельствах водительское удостоверение лица, сопровождающего начинающего водителя, может быть немедленно изъято?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si l'accompagnateur n'a plus le droit de conduire un véhicule de la catégorie utilisée.",
+          "text_nl": "Indien de begeleider niet langer het recht heeft om een voertuig van de gebruikte categorie te besturen.",
+          "text_ru": "Если сопровождающий больше не имеет права управлять транспортным средством используемой категории.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si l'accompagnateur a commis un excès de vitesse de plus de 30 km/h.",
+          "text_nl": "Indien de begeleider een snelheidsovertreding van meer dan 30 km/u heeft begaan.",
+          "text_ru": "Если сопровождающий превысил скорость более чем на 30 км/ч.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si l'accompagnateur a refusé de se soumettre à un test d'alcoolémie.",
+          "text_nl": "Indien de begeleider weigerde een alcoholtest te ondergaan.",
+          "text_ru": "Если сопровождающий отказался пройти тест на алкоголь.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le document stipule que si le conducteur (apprenti) est dans un cas où son permis serait retiré pour certaines raisons, le permis de l'accompagnateur peut également être retiré immédiatement. L'une de ces raisons est si l'accompagnateur est déchu du droit de conduire pour la catégorie du véhicule qu'il utilise.",
+      "explanation_nl": "Het document stelt dat indien de bestuurder (leerling) zich in een situatie bevindt waarin zijn rijbewijs om bepaalde redenen zou worden ingetrokken, het rijbewijs van de begeleider ook onmiddellijk kan worden ingetrokken. Eén van die redenen is wanneer de begeleider van het recht tot sturen is vervallen voor de categorie van het voertuig dat hij gebruikt.",
+      "explanation_ru": "В документе указано, что если водитель (ученик) находится в ситуации, когда его водительское удостоверение будет изъято по определенным причинам, водительское удостоверение сопровождающего также может быть немедленно изъято. Одна из таких причин — это лишение сопровождающего права управлять транспортным средством используемой категории."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en voiture dans une zone résidentielle limitée à 30 km/h et vous êtes contrôlé à 55 km/h. Quelles conséquences immédiates cela peut-il entraîner pour votre permis de conduire ?",
+      "text_nl": "U rijdt in een woonerf met een snelheidsbeperking van 30 km/u en u wordt gecontroleerd met 55 km/u. Welke onmiddellijke gevolgen kan dit hebben voor uw rijbewijs?",
+      "text_ru": "Вы едете в жилой зоне с ограничением скорости 30 км/ч, и вас остановили за превышение скорости до 55 км/ч. Какие немедленные последствия это может иметь для вашего водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une simple amende et des points de pénalité, mais pas de retrait immédiat.",
+          "text_nl": "Een simpele boete en strafpunten, maar geen onmiddellijke intrekking.",
+          "text_ru": "Простой штраф и штрафные баллы, но не немедленное изъятие.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre permis de conduire peut être immédiatement retiré.",
+          "text_nl": "Uw rijbewijs kan onmiddellijk worden ingetrokken.",
+          "text_ru": "Ваше водительское удостоверение может быть немедленно изъято.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre permis de conduire sera suspendu après une décision du tribunal.",
+          "text_nl": "Uw rijbewijs wordt opgeschort na een rechterlijke beslissing.",
+          "text_ru": "Ваше водительское удостоверение будет приостановлено после решения суда.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le document indique qu'un dépassement de la vitesse maximale autorisée de plus de 20 km/h dans une zone résidentielle (ou agglomération, zone 30, aux abords d'écoles, zone de rencontre) peut entraîner le retrait immédiat du permis de conduire. Ici, 55 km/h dans une zone 30 km/h est un dépassement de 25 km/h.",
+      "explanation_nl": "Het document stelt dat een overschrijding van de toegelaten maximumsnelheid met meer dan 20 km/u binnen een woonerf (of bebouwde kom, zone 30, schoolomgeving, erf) kan leiden tot onmiddellijke intrekking van het rijbewijs. Hier is 55 km/u in een zone 30 km/u een overschrijding van 25 km/u.",
+      "explanation_ru": "В документе указано, что превышение максимально разрешенной скорости более чем на 20 км/ч в жилой зоне (или населенном пункте, зоне 30, вблизи школ, зоне встречного движения) может повлечь за собой немедленное изъятие водительского удостоверения. Здесь 55 км/ч в зоне 30 км/ч является превышением на 25 км/ч."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes impliqué dans un accident de la route qui a causé des blessures graves à une autre personne, et les premiers éléments de l'enquête suggèrent que l'accident est dû à votre faute grave. Que risque votre permis de conduire ?",
+      "text_nl": "U bent betrokken bij een verkeersongeval waarbij een andere persoon ernstige verwondingen heeft opgelopen, en de eerste onderzoeken suggereren dat het ongeval te wijten is aan uw grove schuld. Wat riskeert uw rijbewijs?",
+      "text_ru": "Вы стали участником дорожно-транспортного происшествия, в результате которого другое лицо получило серьезные травмы, и предварительные данные расследования указывают на вашу серьезную вину. Что грозит вашему водительскому удостоверению?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre permis de conduire sera confisqué temporairement jusqu'à ce que la police termine son enquête.",
+          "text_nl": "Uw rijbewijs wordt tijdelijk in beslag genomen totdat de politie het onderzoek heeft afgerond.",
+          "text_ru": "Ваше водительское удостоверение будет временно конфисковано до завершения расследования полицией.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre permis de conduire peut être immédiatement retiré par les autorités.",
+          "text_nl": "Uw rijbewijs kan onmiddellijk door de autoriteiten worden ingetrokken.",
+          "text_ru": "Ваше водительское удостоверение может быть немедленно изъято властями.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous recevrez une amende et votre assurance prendra en charge les frais médicaux, sans impact immédiat sur votre permis.",
+          "text_nl": "U krijgt een boete en uw verzekering dekt de medische kosten, zonder onmiddellijke impact op uw rijbewijs.",
+          "text_ru": "Вы получите штраф, и ваша страховка покроет медицинские расходы, без немедленного влияния на ваше водительское удостоверение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le document prévoit le retrait immédiat du permis de conduire si un accident de roulage, apparemment imputable à la faute grave du conducteur, a entraîné pour autrui des blessures graves ou la mort.",
+      "explanation_nl": "Het document voorziet in onmiddellijke intrekking van het rijbewijs indien een verkeersongeval, dat klaarblijkelijk aan een zware fout van de bestuurder te wijten is, aan een ander ernstige verwondingen of de dood heeft veroorzaakt.",
+      "explanation_ru": "В документе предусмотрено немедленное изъятие водительского удостоверения, если дорожно-транспортное происшествие, очевидно вызванное грубой виной водителя, повлекло за собой серьезные травмы или смерть других лиц."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Après avoir été informé du retrait immédiat de votre permis de conduire par un officier de police judiciaire, vous refusez de le remettre. Quelle pourrait être la conséquence de ce refus ?",
+      "text_nl": "Nadat u door een officier van gerechtelijke politie op de hoogte bent gebracht van de onmiddellijke intrekking van uw rijbewijs, weigert u het in te leveren. Wat kan het gevolg zijn van deze weigering?",
+      "text_ru": "После того как офицер судебной полиции сообщил вам о немедленном изъятии вашего водительского удостоверения, вы отказываетесь его сдавать. Каковы могут быть последствия этого отказа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La police vous donnera un avertissement et vous demandera de le remettre plus tard.",
+          "text_nl": "De politie geeft u een waarschuwing en vraagt u het later in te leveren.",
+          "text_ru": "Полиция сделает вам предупреждение и попросит сдать его позже.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le ministère public compétent peut ordonner la saisie de votre permis.",
+          "text_nl": "Het bevoegde openbaar ministerie kan de inbeslagname van uw rijbewijs bevelen.",
+          "text_ru": "Компетентная прокуратура может отдать приказ об изъятии вашего удостоверения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous recevrez une nouvelle convocation pour une audience au tribunal.",
+          "text_nl": "U ontvangt een nieuwe oproep voor een zitting bij de rechtbank.",
+          "text_ru": "Вы получите новое приглашение на слушание в суде.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le document stipule que le conducteur est tenu de remettre son permis de conduire sur invitation de la police, sur réquisition du procureur ou décision de l'officier de police judiciaire. À défaut, le ministère public compétent peut ordonner la saisie du document.",
+      "explanation_nl": "Het document stelt dat de bestuurder verplicht is zijn rijbewijs in te leveren op uitnodiging van de politie, op vordering van de procureur of beslissing van de officier van gerechtelijke politie. Bij gebreke daarvan kan het bevoegde openbaar ministerie de inbeslagname van het document bevelen.",
+      "explanation_ru": "В документе указано, что водитель обязан сдать свое водительское удостоверение по требованию полиции, по запросу прокурора или по решению офицера судебной полиции. В противном случае компетентная прокуратура может отдать приказ об изъятии документа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Votre permis de conduire est limité aux véhicules équipés d'un éthylotest antidémarrage. Vous êtes contrôlé alors que vous conduisez un véhicule qui n'en est pas équipé. Quelle est la conséquence possible ?",
+      "text_nl": "Uw rijbewijs is beperkt tot voertuigen die zijn uitgerust met een alcoholslot. U wordt gecontroleerd terwijl u een voertuig bestuurt dat niet met zo'n apparaat is uitgerust. Wat is het mogelijke gevolg?",
+      "text_ru": "Ваше водительское удостоверение ограничено управлением транспортными средствами, оснащенными алкозамком. Вас остановили за рулем транспортного средства, не оборудованного таким устройством. Каково возможное последствие?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous recevrez un avertissement et l'obligation de faire installer un éthylotest sur tous vos véhicules.",
+          "text_nl": "U ontvangt een waarschuwing en de verplichting om een alcoholslot in al uw voertuigen te laten installeren.",
+          "text_ru": "Вы получите предупреждение и обязательство установить алкозамок на все ваши транспортные средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre permis de conduire peut être immédiatement retiré.",
+          "text_nl": "Uw rijbewijs kan onmiddellijk worden ingetrokken.",
+          "text_ru": "Ваше водительское удостоверение может быть немедленно изъято.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devrez suivre un nouveau programme d'encadrement pour éthylotest antidémarrage.",
+          "text_nl": "U moet een nieuw omkaderingsprogramma voor alcoholslot volgen.",
+          "text_ru": "Вам придется пройти новую программу сопровождения по алкозамку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le document indique que le permis de conduire peut être retiré immédiatement si le conducteur, dont la validité du permis est limitée aux véhicules équipés d’un éthylotest antidémarrage, conduit un véhicule non équipé d’un tel dispositif ou ne remplit pas les conditions du programme d’encadrement.",
+      "explanation_nl": "Het document stelt dat het rijbewijs onmiddellijk kan worden ingetrokken indien de bestuurder, wiens rijbewijs beperkt is tot motorvoertuigen die uitgerust zijn met een alcoholslot, een motorvoertuig bestuurt dat niet uitgerust is met een alcoholslot of niet voldoet aan de voorwaarden van het omkaderingsprogramma.",
+      "explanation_ru": "В документе указано, что водительское удостоверение может быть немедленно изъято, если водитель, чье водительское удостоверение ограничено управлением транспортными средствами, оснащенными алкозамком, управляет транспортным средством, не оборудованным таким устройством, или не выполняет условия программы сопровождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Après avoir été impliqué dans un incident de la circulation, vous quittez les lieux sans fournir vos coordonnées ni attendre les constatations de la police. Que risque votre permis de conduire ?",
+      "text_nl": "Nadat u betrokken bent geweest bij een verkeersincident, verlaat u de plaats zonder uw gegevens te verstrekken of te wachten op de vaststellingen van de politie. Wat riskeert uw rijbewijs?",
+      "text_ru": "После дорожно-транспортного происшествия вы покидаете место происшествия, не предоставив свои данные и не дождавшись прибытия полиции. Что грозит вашему водительскому удостоверению?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous recevrez une convocation pour une audition au commissariat de police.",
+          "text_nl": "U ontvangt een oproep voor een verhoor op het politiebureau.",
+          "text_ru": "Вы получите повестку на допрос в полицейский участок.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre permis de conduire peut être immédiatement retiré.",
+          "text_nl": "Uw rijbewijs kan onmiddellijk worden ingetrokken.",
+          "text_ru": "Ваше водительское удостоверение может быть немедленно изъято.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende pour non-assistance à personne en danger.",
+          "text_nl": "Een boete voor het niet verlenen van hulp aan iemand in nood.",
+          "text_ru": "Штраф за неоказание помощи лицу, находящемуся в опасности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le document mentionne que le permis de conduire peut être retiré immédiatement si le conducteur a pris la fuite pour échapper aux constatations utiles.",
+      "explanation_nl": "Het document vermeldt dat het rijbewijs onmiddellijk kan worden ingetrokken indien de bestuurder de vlucht neemt om zich aan de dienstige vaststellingen te onttrekken.",
+      "explanation_ru": "В документе указано, что водительское удостоверение может быть немедленно изъято, если водитель скрылся с места происшествия, чтобы избежать полезных установлений."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "b03b1325887c",
@@ -42,6 +339,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:40:18Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

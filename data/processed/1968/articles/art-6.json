@@ -26,7 +26,304 @@
   "anchor_id_fr": "rbwfbqfulv",
   "anchor_id_nl": "vdhxmfhcub",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est autorisé à créer des règlements complémentaires pour la police de la circulation routière ?",
+      "text_nl": "Wie is bevoegd om aanvullende reglementen voor de politie over het wegverkeer vast te stellen?",
+      "text_ru": "Кто уполномочен создавать дополнительные правила для регулирования дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les conseils provinciaux",
+          "text_nl": "De provincieraden",
+          "text_ru": "Провинциальные советы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les autorités nationales",
+          "text_nl": "De nationale autoriteiten",
+          "text_ru": "Национальные власти",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les communes",
+          "text_nl": "De gemeenten",
+          "text_ru": "Муниципалитеты",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conseils provinciaux ne peuvent pas créer de règlements complémentaires pour la police de la circulation routière.",
+      "explanation_nl": "De provincieraden mogen geen aanvullende reglementen voor de politie over het wegverkeer vaststellen.",
+      "explanation_ru": "Провинциальные советы не уполномочены создавать дополнительные правила для регулирования дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'objectif principal des règlements complémentaires pour la police de la circulation routière ?",
+      "text_nl": "Wat is het hoofddoel van de aanvullende reglementen voor de politie over het wegverkeer?",
+      "text_ru": "Какова основная цель дополнительных правил для регулирования дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Améliorer la sécurité routière",
+          "text_nl": "De verkeersveiligheid verbeteren",
+          "text_ru": "Улучшить безопасность дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réduire les embouteillages",
+          "text_nl": "De files verminderen",
+          "text_ru": "Уменьшить пробки",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Augmenter les amendes",
+          "text_nl": "De boetes verhogen",
+          "text_ru": "Увеличить штрафы",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'objectif principal des règlements complémentaires pour la police de la circulation routière est d'améliorer la sécurité routière.",
+      "explanation_nl": "Het hoofddoel van de aanvullende reglementen voor de politie over het wegverkeer is de verkeersveiligheid te verbeteren.",
+      "explanation_ru": "Основная цель дополнительных правил для регулирования дорожного движения - улучшить безопасность дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la conséquence pour les conseils provinciaux qui créent des règlements complémentaires pour la police de la circulation routière ?",
+      "text_nl": "Wat zijn de gevolgen voor de provincieraden die aanvullende reglementen voor de politie over het wegverkeer vaststellen?",
+      "text_ru": "Каковы последствия для провинциальных советов, которые создают дополнительные правила для регулирования дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils sont autorisés à les appliquer",
+          "text_nl": "Ze mogen ze toepassen",
+          "text_ru": "Им разрешено их применять",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils sont sanctionnés",
+          "text_nl": "Ze worden gesanctioneerd",
+          "text_ru": "Им выносят санкции",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils sont ignorés",
+          "text_nl": "Ze worden genegeerd",
+          "text_ru": "Их игнорируют",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conseils provinciaux qui créent des règlements complémentaires pour la police de la circulation routière sont sanctionnés.",
+      "explanation_nl": "De provincieraden die aanvullende reglementen voor de politie over het wegverkeer vaststellen, worden gesanctioneerd.",
+      "explanation_ru": "Провинциальные советы, которые создают дополнительные правила для регулирования дорожного движения, выносятся санкции."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est arrêté par la police pour avoir enfreint une règle de la circulation routière. Qui est responsable de la création de cette règle ?",
+      "text_nl": "Een bestuurder wordt door de politie aangehouden voor het overtreden van een verkeersregel. Wie is verantwoordelijk voor het opstellen van deze regel?",
+      "text_ru": "Водитель остановлен полицией за нарушение правила дорожного движения. Кто ответственен за создание этого правила?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les conseils provinciaux",
+          "text_nl": "De provincieraden",
+          "text_ru": "Провинциальные советы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les autorités nationales",
+          "text_nl": "De nationale autoriteiten",
+          "text_ru": "Национальные власти",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les communes",
+          "text_nl": "De gemeenten",
+          "text_ru": "Муниципалитеты",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les autorités nationales sont responsables de la création des règles de la circulation routière.",
+      "explanation_nl": "De nationale autoriteiten zijn verantwoordelijk voor het opstellen van de verkeersregels.",
+      "explanation_ru": "Национальные власти ответственны за создание правил дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est sanctionné pour avoir dépassé la limite de vitesse. Quelle est la conséquence de cette infraction ?",
+      "text_nl": "Een bestuurder wordt gesanctioneerd voor het overschrijden van de snelheidslimiet. Wat is de gevolg van deze overtreding?",
+      "text_ru": "Водитель наказан за превышение скоростного лимита. Каковы последствия этого правонарушения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende et des points sur le permis",
+          "text_nl": "Een boete en punten op het rijbewijs",
+          "text_ru": "Штраф и баллы на лицензии",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une suspension du permis",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Отзыв лицензии",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une annulation du permis",
+          "text_nl": "Een intrekking van het rijbewijs",
+          "text_ru": "Аннулирование лицензии",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de dépasser la limite de vitesse est une amende et des points sur le permis.",
+      "explanation_nl": "Het gevolg van het overschrijden van de snelheidslimiet is een boete en punten op het rijbewijs.",
+      "explanation_ru": "Последствием превышения скоростного лимита является штраф и баллы на лицензии."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur est impliqué dans un accident de la circulation routière. Qui est responsable de l'enquête ?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeluk. Wie is verantwoordelijk voor het onderzoek?",
+      "text_ru": "Водитель участвует в дорожно-транспортном происшествии. Кто ответственен за расследование?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La police",
+          "text_nl": "De politie",
+          "text_ru": "Полиция",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conseils provinciaux",
+          "text_nl": "De provincieraden",
+          "text_ru": "Провинциальные советы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les communes",
+          "text_nl": "De gemeenten",
+          "text_ru": "Муниципалитеты",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La police est responsable de l'enquête sur les accidents de la circulation routière.",
+      "explanation_nl": "De politie is verantwoordelijk voor het onderzoek naar verkeersongelukken.",
+      "explanation_ru": "Полиция ответственна за расследование дорожно-транспортных происшествий."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur doit s'arrêter à un feu rouge. Quelle est la conséquence de ne pas s'arrêter ?",
+      "text_nl": "Een bestuurder moet stoppen bij een rood verkeerslicht. Wat is de gevolg van niet stoppen?",
+      "text_ru": "Водитель должен остановиться на красный свет. Каковы последствия за неостановку?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende",
+          "text_nl": "Een boete",
+          "text_ru": "Штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une suspension du permis",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Отзыв лицензии",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une annulation du permis",
+          "text_nl": "Een intrekking van het rijbewijs",
+          "text_ru": "Аннулирование лицензии",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de ne pas s'arrêter à un feu rouge est une amende.",
+      "explanation_nl": "Het gevolg van niet stoppen bij een rood verkeerslicht is een boete.",
+      "explanation_ru": "Последствием неостановки на красный свет является штраф."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur doit céder le passage à un piéton. Quelle est la conséquence de ne pas céder le passage ?",
+      "text_nl": "Een bestuurder moet voorrang verlenen aan een voetganger. Wat is de gevolg van niet voorrang verlenen?",
+      "text_ru": "Водитель должен уступить дорогу пешеходу. Каковы последствия за неуступление дороги?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende et des points sur le permis",
+          "text_nl": "Een boete en punten op het rijbewijs",
+          "text_ru": "Штраф и баллы на лицензии",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une suspension du permis",
+          "text_nl": "Een schorsing van het rijbewijs",
+          "text_ru": "Отзыв лицензии",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une annulation du permis",
+          "text_nl": "Een intrekking van het rijbewijs",
+          "text_ru": "Аннулирование лицензии",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de ne pas céder le passage à un piéton est une amende et des points sur le permis.",
+      "explanation_nl": "Het gevolg van niet voorrang verlenen aan een voetganger is een boete en punten op het rijbewijs.",
+      "explanation_ru": "Последствием неуступления дороги пешеходу является штраф и баллы на лицензии."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "c2e2b154ce66",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:41:15Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

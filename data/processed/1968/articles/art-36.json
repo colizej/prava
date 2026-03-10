@@ -30,7 +30,119 @@
   "anchor_id_fr": "un5tazxb3s",
   "anchor_id_nl": "8ugtrowftk",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Lorsqu'une personne commet une nouvelle infraction à certaines dispositions du code de la route dans les trois ans suivant une condamnation antérieure pour une infraction similaire, quelle est l'amende minimale et maximale qu'elle risque ?",
+      "text_nl": "Wanneer iemand binnen drie jaar na een eerdere veroordeling voor een gelijkaardige overtreding opnieuw een overtreding begaat tegen bepaalde bepalingen van de wegcode, wat is dan de minimale en maximale geldboete die hij riskeert?",
+      "text_ru": "Каков минимальный и максимальный размер штрафа грозит лицу, совершившему повторное нарушение определенных положений правил дорожного движения в течение трех лет после предыдущего осуждения за аналогичное нарушение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De 50 euros à 500 euros",
+          "text_nl": "Van 50 euro tot 500 euro",
+          "text_ru": "От 50 до 500 евро",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De 400 euros à 5 000 euros",
+          "text_nl": "Van 400 euro tot 5 000 euro",
+          "text_ru": "От 400 до 5 000 евро",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "De 1000 euros à 10 000 euros",
+          "text_nl": "Van 1000 euro tot 10 000 euro",
+          "text_ru": "От 1000 до 10 000 евро",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de récidive pour certaines infractions dans les trois ans, l'amende prévue est de 400 euros à 5 000 euros.",
+      "explanation_nl": "In geval van herhaling van bepaalde overtredingen binnen drie jaar, bedraagt de voorziene geldboete 400 euro tot 5 000 euro.",
+      "explanation_ru": "В случае повторного совершения определенных нарушений в течение трех лет предусмотрен штраф от 400 до 5000 евро."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la durée minimale et maximale d'emprisonnement qu'une personne risque si elle commet une nouvelle infraction à certaines dispositions du code de la route dans les trois ans suivant une condamnation antérieure pour une infraction similaire ?",
+      "text_nl": "Wat is de minimale en maximale gevangenisstraf die iemand riskeert als hij binnen drie jaar na een eerdere veroordeling voor een gelijkaardige overtreding opnieuw een overtreding begaat tegen bepaalde bepalingen van de wegcode?",
+      "text_ru": "Каков минимальный и максимальный срок тюремного заключения грозит лицу, совершившему повторное нарушение определенных положений правил дорожного движения в течение трех лет после предыдущего осуждения за аналогичное нарушение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De 3 mois à 1 an",
+          "text_nl": "Van 3 maanden tot 1 jaar",
+          "text_ru": "От 3 месяцев до 1 года",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De 15 jours à 6 mois",
+          "text_nl": "Van 15 dagen tot 6 maanden",
+          "text_ru": "От 15 дней до 6 месяцев",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "De 1 mois à 2 ans",
+          "text_nl": "Van 1 maand tot 2 jaar",
+          "text_ru": "От 1 месяца до 2 лет",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "En cas de récidive pour certaines infractions dans les trois ans, la peine d'emprisonnement prévue est d'un mois à deux ans.",
+      "explanation_nl": "In geval van herhaling van bepaalde overtredingen binnen drie jaar, bedraagt de voorziene gevangenisstraf een maand tot twee jaar.",
+      "explanation_ru": "В случае повторного совершения определенных нарушений в течение трех лет предусмотрено лишение свободы на срок от 1 месяца до 2 лет."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles circonstances les peines d'emprisonnement et d'amende pour une infraction au code de la route, commise après une condamnation antérieure, peuvent-elles être doublées ?",
+      "text_nl": "In welke omstandigheden kunnen de gevangenisstraffen en geldboeten voor een overtreding van de wegcode, begaan na een eerdere veroordeling, worden verdubbeld?",
+      "text_ru": "При каких обстоятельствах наказания в виде лишения свободы и штрафа за нарушение правил дорожного движения, совершенное после предыдущего осуждения, могут быть удвоены?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si l'infraction cause des dommages matériels importants.",
+          "text_nl": "Als de overtreding aanzienlijke materiële schade veroorzaakt.",
+          "text_ru": "Если нарушение причиняет значительный материальный ущерб.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "En cas de nouvelle récidive dans les trois années suivant la deuxième condamnation.",
+          "text_nl": "In geval van een nieuwe herhaling binnen drie jaar na de tweede veroordeling.",
+          "text_ru": "В случае нового рецидива в течение трех лет после второго осуждения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le conducteur est un jeune permis.",
+          "text_nl": "Als de bestuurder een beginnende bestuurder is.",
+          "text_ru": "Если водитель является начинающим водителем.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines d'emprisonnement et d'amende peuvent être doublées en cas de nouvelle récidive dans les trois années suivant la deuxième condamnation.",
+      "explanation_nl": "De gevangenisstraffen en geldboeten kunnen worden verdubbeld in geval van een nieuwe herhaling binnen drie jaar na de tweede veroordeling.",
+      "explanation_ru": "Наказания в виде лишения свободы и штрафа могут быть удвоены в случае нового рецидива в течение трех лет после второго осуждения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "cccb436d4a0d",
@@ -40,6 +152,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:32:50Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

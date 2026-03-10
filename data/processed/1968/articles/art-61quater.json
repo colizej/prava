@@ -29,7 +29,304 @@
   "anchor_id_fr": "bw7jl130te",
   "anchor_id_nl": "o3rsowenf5",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la procédure à suivre lorsque une personne est soumise à l'interdiction de conduire ?",
+      "text_nl": "Wat is de procedure wanneer iemand een rijverbod krijgt opgelegd?",
+      "text_ru": "Какова процедура, когда человек подвергается запрету на вождение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La personne doit garder son permis de conduire",
+          "text_nl": "De persoon moet zijn rijbewijs behouden",
+          "text_ru": "Человек должен сохранить свой водительский удостоверение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La personne doit remettre son permis de conduire à la police",
+          "text_nl": "De persoon moet zijn rijbewijs aan de politie overhandigen",
+          "text_ru": "Человек должен передать свой водительский удостоверение полиции",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La personne n'a pas à faire quoi que ce soit",
+          "text_nl": "De persoon hoeft niets te doen",
+          "text_ru": "Человек не должен ничего делать",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'une personne est soumise à l'interdiction de conduire, elle doit remettre son permis de conduire à la police pour la durée de l'interdiction.",
+      "explanation_nl": "Wanneer iemand een rijverbod krijgt opgelegd, moet hij zijn rijbewijs aan de politie overhandigen voor de duur van het verbod.",
+      "explanation_ru": "Когда человек подвергается запрету на вождение, он должен передать свой водительский удостоверение полиции на время запрета."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui se passe si la personne soumise à l'interdiction de conduire n'est pas titulaire d'un permis de conduire ?",
+      "text_nl": "Wat gebeurt er als de persoon aan wie het rijverbod is opgelegd geen rijbewijs heeft?",
+      "text_ru": "Что происходит, если человек, подвергшийся запрету на вождение, не имеет водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La personne est exemptée de l'interdiction",
+          "text_nl": "De persoon is vrijgesteld van het verbod",
+          "text_ru": "Человек освобождается от запрета",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule est retenu à ses frais",
+          "text_nl": "Het voertuig wordt op zijn kosten ingehouden",
+          "text_ru": "Транспортное средство задерживается за его счет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La personne reçoit une amende",
+          "text_nl": "De persoon krijgt een boete",
+          "text_ru": "Человек получает штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si la personne soumise à l'interdiction de conduire n'est pas titulaire d'un permis de conduire, le véhicule est retenu à ses frais.",
+      "explanation_nl": "Als de persoon aan wie het rijverbod is opgelegd geen rijbewijs heeft, wordt het voertuig op zijn kosten ingehouden.",
+      "explanation_ru": "Если человек, подвергшийся запрету на вождение, не имеет водительского удостоверения, транспортное средство задерживается за его счет."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qui se passe avec le permis de conduire à l'expiration du délai d'interdiction ?",
+      "text_nl": "Wat gebeurt er met het rijbewijs na het verstrijken van de verbodstermijn?",
+      "text_ru": "Что происходит с водительским удостоверением после истечения срока запрета?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le permis de conduire est restitué",
+          "text_nl": "Het rijbewijs wordt teruggegeven",
+          "text_ru": "Водительское удостоверение возвращается",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis de conduire n'est pas restitué si certaines conditions sont remplies",
+          "text_nl": "Het rijbewijs wordt niet teruggegeven als bepaalde voorwaarden zijn vervuld",
+          "text_ru": "Водительское удостоверение не возвращается, если выполнены определенные условия",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le permis de conduire est annulé",
+          "text_nl": "Het rijbewijs wordt ingetrokken",
+          "text_ru": "Водительское удостоверение аннулируется",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire n'est pas restitué à l'expiration du délai d'interdiction si certaines conditions sont remplies.",
+      "explanation_nl": "Het rijbewijs wordt niet teruggegeven na het verstrijken van de verbodstermijn als bepaalde voorwaarden zijn vervuld.",
+      "explanation_ru": "Водительское удостоверение не возвращается после истечения срока запрета, если выполнены определенные условия."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule et vous recevez un avertissement de la police pour excès de vitesse. Qu'est-ce que vous devez faire ?",
+      "text_nl": "U rijdt een voertuig en u krijgt een waarschuwing van de politie voor te hard rijden. Wat moet u doen?",
+      "text_ru": "Вы водите транспортное средство и получаете предупреждение от полиции за превышение скорости. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez continuer à conduire normalement",
+          "text_nl": "U moet gewoon doorrijden",
+          "text_ru": "Вы должны продолжать водить транспортное средство нормально",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez vous arrêter et parler avec la police",
+          "text_nl": "U moet stoppen en met de politie praten",
+          "text_ru": "Вы должны остановиться и поговорить с полицией",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez quitter les lieux",
+          "text_nl": "U moet de plaats verlaten",
+          "text_ru": "Вы должны покинуть место",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous recevez un avertissement de la police pour excès de vitesse, vous devez vous arrêter et parler avec la police.",
+      "explanation_nl": "Als u een waarschuwing van de politie krijgt voor te hard rijden, moet u stoppen en met de politie praten.",
+      "explanation_ru": "Когда вы получаете предупреждение от полиции за превышение скорости, вы должны остановиться и поговорить с полицией."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez un véhicule et vous vous rendez compte que vous avez oublié votre permis de conduire à la maison. Qu'est-ce que vous devez faire ?",
+      "text_nl": "U rijdt een voertuig en u realiseert zich dat u uw rijbewijs thuis heeft laten liggen. Wat moet u doen?",
+      "text_ru": "Вы водите транспортное средство и понимаете, что вы забыли свое водительское удостоверение дома. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez continuer à conduire et espérer que la police ne vous arrête pas",
+          "text_nl": "U moet gewoon doorrijden en hopen dat de politie u niet aanhoudt",
+          "text_ru": "Вы должны продолжать водить транспортное средство и надеяться, что полиция вас не остановит",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez vous arrêter et retourner chez vous pour récupérer votre permis de conduire",
+          "text_nl": "U moet stoppen en naar huis gaan om uw rijbewijs op te halen",
+          "text_ru": "Вы должны остановиться и вернуться домой, чтобы получить свое водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez appeler la police pour leur dire que vous avez oublié votre permis de conduire",
+          "text_nl": "U moet de politie bellen om ze te vertellen dat u uw rijbewijs thuis heeft laten liggen",
+          "text_ru": "Вы должны позвонить в полицию, чтобы сказать, что вы забыли свое водительское удостоверение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si vous vous rendez compte que vous avez oublié votre permis de conduire à la maison, vous devez vous arrêter et retourner chez vous pour récupérer votre permis de conduire.",
+      "explanation_nl": "Als u zich realiseert dat u uw rijbewijs thuis heeft laten liggen, moet u stoppen en naar huis gaan om uw rijbewijs op te halen.",
+      "explanation_ru": "Если вы понимаете, что вы забыли свое водительское удостоверение дома, вы должны остановиться и вернуться домой, чтобы получить свое водительское удостоверение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule et vous êtes impliqué dans un accident. Qu'est-ce que vous devez faire ?",
+      "text_nl": "U rijdt een voertuig en u bent betrokken bij een ongeval. Wat moet u doen?",
+      "text_ru": "Вы водите транспортное средство и участвуете в аварии. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez quitter les lieux de l'accident",
+          "text_nl": "U moet de plaats van het ongeval verlaten",
+          "text_ru": "Вы должны покинуть место аварии",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez appeler la police et les services d'urgence",
+          "text_nl": "U moet de politie en de hulpdiensten bellen",
+          "text_ru": "Вы должны позвонить в полицию и службы экстренной помощи",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez continuer à conduire et essayer de trouver un endroit sûr pour vous arrêter",
+          "text_nl": "U moet gewoon doorrijden en proberen een veilige plek te vinden om te stoppen",
+          "text_ru": "Вы должны продолжать водить транспортное средство и попытаться найти безопасное место, чтобы остановиться",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous êtes impliqué dans un accident, vous devez appeler la police et les services d'urgence.",
+      "explanation_nl": "Als u betrokken bent bij een ongeval, moet u de politie en de hulpdiensten bellen.",
+      "explanation_ru": "Когда вы участвуете в аварии, вы должны позвонить в полицию и службы экстренной помощи."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule et vous voyez un piéton qui traverse la route. Qu'est-ce que vous devez faire ?",
+      "text_nl": "U rijdt een voertuig en u ziet een voetganger die de weg oversteekt. Wat moet u doen?",
+      "text_ru": "Вы водите транспортное средство и видите пешехода, который переходит дорогу. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez accélérer pour passer avant le piéton",
+          "text_nl": "U moet accelereren om voor de voetganger te passeren",
+          "text_ru": "Вы должны ускориться, чтобы обогнать пешехода",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez ralentir et laisser passer le piéton",
+          "text_nl": "U moet vertragen en de voetganger laten passeren",
+          "text_ru": "Вы должны замедлить скорость и пропустить пешехода",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez klaxonner pour avertir le piéton",
+          "text_nl": "U moet claxonneren om de voetganger te waarschuwen",
+          "text_ru": "Вы должны сигнализировать, чтобы предупредить пешехода",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un piéton qui traverse la route, vous devez ralentir et laisser passer le piéton.",
+      "explanation_nl": "Als u een voetganger ziet die de weg oversteekt, moet u vertragen en de voetganger laten passeren.",
+      "explanation_ru": "Когда вы видите пешехода, который переходит дорогу, вы должны замедлить скорость и пропустить пешехода."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez un véhicule et vous arrivez à un feu rouge. Qu'est-ce que vous devez faire ?",
+      "text_nl": "U rijdt een voertuig en u komt aan bij een rood licht. Wat moet u doen?",
+      "text_ru": "Вы водите транспортное средство и подходите к красному свету. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez accélérer pour passer avant que le feu ne devienne rouge",
+          "text_nl": "U moet accelereren om voor het licht rood wordt te passeren",
+          "text_ru": "Вы должны ускориться, чтобы обогнать свет перед тем, как он станет красным",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez vous arrêter et attendre que le feu devienne vert",
+          "text_nl": "U moet stoppen en wachten tot het licht groen wordt",
+          "text_ru": "Вы должны остановиться и ждать, пока свет не станет зеленым",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez tourner à gauche pour éviter le feu rouge",
+          "text_nl": "U moet links afslaan om het rode licht te vermijden",
+          "text_ru": "Вы должны повернуть налево, чтобы избежать красного света",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous arrivez à un feu rouge, vous devez vous arrêter et attendre que le feu devienne vert.",
+      "explanation_nl": "Als u aankomt bij een rood licht, moet u stoppen en wachten tot het licht groen wordt.",
+      "explanation_ru": "Когда вы подходите к красному свету, вы должны остановиться и ждать, пока свет не станет зеленым."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "35aeec46c2b1",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:42:27Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

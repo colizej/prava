@@ -26,7 +26,119 @@
   "anchor_id_fr": "fl5l44ox06",
   "anchor_id_nl": "ypbqggvagq",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel cas le droit de conduire doit-il obligatoirement être retiré à une personne ?",
+      "text_nl": "In welk geval moet het recht tot sturen verplicht worden ingetrokken van een persoon?",
+      "text_ru": "В каком случае право на управление транспортным средством обязательно должно быть лишено у человека?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si la personne n'a pas payé ses amendes de stationnement.",
+          "text_nl": "Als de persoon zijn parkeerboetes niet heeft betaald.",
+          "text_ru": "Если человек не оплатил свои штрафы за парковку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si, suite à une infraction routière ou un accident, la personne est reconnue inapte physiquement ou psychiquement à conduire un véhicule à moteur.",
+          "text_nl": "Indien de persoon, na een verkeersovertreding of ongeval, fysiek of psychisch ongeschikt wordt bevonden om een motorvoertuig te besturen.",
+          "text_ru": "Если в результате дорожного правонарушения или аварии человек признан физически или психически непригодным для управления транспортным средством.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si la personne a commis plus de trois infractions mineures en un an.",
+          "text_nl": "Als de persoon in één jaar meer dan drie kleine overtredingen heeft begaan.",
+          "text_ru": "Если человек совершил более трех мелких правонарушений за год.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le droit de conduire doit être retiré obligatoirement si une personne est reconnue inapte physiquement ou psychiquement à conduire un véhicule à moteur, que ce soit à la suite d'une infraction à la police de la circulation routière ou d'un accident de roulage.",
+      "explanation_nl": "Het recht tot sturen moet verplicht worden ingetrokken indien een persoon fysiek of psychisch ongeschikt wordt bevonden tot het besturen van een motorvoertuig, hetzij naar aanleiding van een overtreding van de politie over het wegverkeer, hetzij wegens een verkeersongeval.",
+      "explanation_ru": "Право на управление транспортным средством обязательно лишается, если лицо признано физически или психически непригодным для управления транспортным средством, будь то в результате нарушения правил дорожного движения или дорожно-транспортного происшествия."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le motif principal justifiant le retrait du droit de conduire dont il est question dans ce contexte spécifique ?",
+      "text_nl": "Wat is de voornaamste reden voor de intrekking van het recht tot sturen in deze specifieke context?",
+      "text_ru": "Какова основная причина лишения права на управление транспортным средством в данном конкретном контексте?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une accumulation de points sur le permis de conduire.",
+          "text_nl": "Een accumulatie van punten op het rijbewijs.",
+          "text_ru": "Накопление баллов на водительских правах.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le fait d'être reconnu physiquement ou psychiquement incapable de conduire un véhicule à moteur, suite à une faute personnelle lors d'une infraction ou d'un accident.",
+          "text_nl": "Het fysiek of psychisch ongeschikt bevonden worden om een motorvoertuig te besturen, wegens een persoonlijk toedoen bij een overtreding of ongeval.",
+          "text_ru": "Признание физически или психически непригодным для управления транспортным средством, вследствие личной вины при правонарушении или аварии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le non-respect répété des limitations de vitesse.",
+          "text_nl": "Het herhaaldelijk niet naleven van de snelheidsbeperkingen.",
+          "text_ru": "Многократное несоблюдение ограничений скорости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le retrait du droit de conduire dans ce contexte est spécifiquement lié à une reconnaissance d'incapacité physique ou psychique à conduire un véhicule à moteur, lorsque cette incapacité est mise en évidence suite à une infraction routière ou un accident imputable à l'auteur.",
+      "explanation_nl": "De intrekking van het recht tot sturen in deze context is specifiek gekoppeld aan de erkenning van fysieke of psychische ongeschiktheid om een motorvoertuig te besturen, wanneer deze ongeschiktheid aan het licht komt naar aanleiding van een verkeersovertreding of een ongeval te wijten aan de dader.",
+      "explanation_ru": "Лишение права на управление транспортным средством в данном контексте специально связано с признанием физической или психической непригодности для управления транспортным средством, когда эта непригодность проявляется после дорожного правонарушения или аварии, произошедшей по вине виновника."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Comment est déterminée la durée du retrait du droit de conduire lorsqu'il est prononcé pour une incapacité physique ou psychique ?",
+      "text_nl": "Hoe wordt de duur van de intrekking van het recht tot sturen bepaald wanneer deze wordt uitgesproken wegens fysieke of psychische ongeschiktheid?",
+      "text_ru": "Как определяется срок лишения права на управление транспортным средством, когда оно выносится по причине физической или психической непригодности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle est fixée par le juge en fonction de la gravité des conséquences de l'infraction.",
+          "text_nl": "Deze wordt door de rechter vastgesteld op basis van de ernst van de gevolgen van de overtreding.",
+          "text_ru": "Он устанавливается судьей в зависимости от тяжести последствий правонарушения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle est illimitée jusqu'à ce que la personne prouve qu'elle n'est plus inapte à conduire un véhicule à moteur.",
+          "text_nl": "Deze is onbeperkt totdat de persoon bewijst dat hij niet langer ongeschikt is om een motorvoertuig te besturen.",
+          "text_ru": "Он является бессрочным, пока человек не докажет, что он больше не непригоден для управления транспортным средством.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle correspond à une durée standard d'un an, renouvelable si nécessaire.",
+          "text_nl": "Deze komt overeen met een standaardduur van één jaar, indien nodig verlengbaar.",
+          "text_ru": "Он соответствует стандартному сроку в один год, продлеваемому при необходимости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée de ce type de retrait du droit de conduire n'est pas prédéfinie, elle est dépendante de la preuve apportée par l'intéressé qu'il a retrouvé l'aptitude physique ou psychique nécessaire pour la conduite d'un véhicule à moteur.",
+      "explanation_nl": "De duur van dit type intrekking van het recht tot sturen is niet vooraf bepaald; deze is afhankelijk van het bewijs dat de betrokkene levert dat hij de nodige fysieke of psychische geschiktheid om een motorvoertuig te besturen heeft teruggekregen.",
+      "explanation_ru": "Срок этого типа лишения права на управление транспортным средством не установлен заранее; он зависит от доказательства, представленного заинтересованным лицом, что оно восстановило необходимую физическую или психическую пригодность для управления транспортным средством."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "eba6ab880abb",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-10T09:35:04Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }
