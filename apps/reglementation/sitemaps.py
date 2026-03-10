@@ -12,7 +12,7 @@ class ArticleSitemap(Sitemap):
 
     def items(self):
         # Exclude thin/abrogated/PDF-only articles from sitemap
-        from django.db.models import Length
+        from django.db.models.functions import Length
         return (
             CodeArticle.objects
             .annotate(ct_len=Length('content_text'))
