@@ -28,7 +28,119 @@
   "anchor_id_fr": "vt51i6ywbr",
   "anchor_id_nl": "kdlnlfnbsp",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans le cadre de la sécurité routière, lorsqu'un prélèvement sanguin est effectué, quelle est sa principale finalité ?",
+      "text_nl": "Wanneer een bloedafname wordt uitgevoerd in het kader van de verkeersveiligheid, wat is dan het hoofddoel ervan?",
+      "text_ru": "В контексте безопасности дорожного движения, когда проводится забор крови, какова его основная цель?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vérifier l'identité du conducteur.",
+          "text_nl": "De identiteit van de bestuurder controleren.",
+          "text_ru": "Проверить личность водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Évaluer la condition physique générale du conducteur.",
+          "text_nl": "De algemene fysieke conditie van de bestuurder beoordelen.",
+          "text_ru": "Оценить общее физическое состояние водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Déterminer la présence et la concentration de substances susceptibles d'altérer la capacité de conduire.",
+          "text_nl": "De aanwezigheid en concentratie van stoffen vaststellen die de rijvaardigheid kunnen beïnvloeden.",
+          "text_ru": "Определить наличие и концентрацию веществ, которые могут повлиять на способность управлять транспортным средством.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le prélèvement sanguin dans le contexte de la sécurité routière vise principalement à détecter et quantifier les substances (alcool, drogues) qui peuvent compromettre la capacité de conduire.",
+      "explanation_nl": "Bloedafname in het kader van verkeersveiligheid is voornamelijk bedoeld om stoffen (alcohol, drugs) op te sporen en te kwantificeren die de rijvaardigheid in gevaar kunnen brengen.",
+      "explanation_ru": "Забор крови в контексте безопасности дорожного движения в основном направлен на выявление и количественную оценку веществ (алкоголя, наркотиков), которые могут поставить под угрозу способность к вождению."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle caractéristique majeure encadre la procédure de prélèvement sanguin dans le contexte routier ?",
+      "text_nl": "Welke belangrijke eigenschap kenmerkt de procedure voor bloedafname in het wegverkeer?",
+      "text_ru": "Какая основная характеристика регулирует процедуру забора крови в дорожном контексте?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle est purement une question de décision médicale.",
+          "text_nl": "Het is puur een kwestie van medische beslissing.",
+          "text_ru": "Это чисто вопрос медицинского решения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle est soumise à des protocoles stricts pour garantir sa validité et le respect des droits.",
+          "text_nl": "Het is onderworpen aan strikte protocollen om de geldigheid en het respect voor de rechten te waarborgen.",
+          "text_ru": "Она подлежит строгим протоколам для обеспечения ее действительности и соблюдения прав.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle est facultative et peut être refusée sans aucune conséquence.",
+          "text_nl": "Het is optioneel en kan zonder gevolgen worden geweigerd.",
+          "text_ru": "Это необязательно и может быть отклонено без каких-либо последствий.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La procédure de prélèvement sanguin dans le cadre routier est strictement encadrée par des règles de procédure afin d'assurer la légalité de l'opération et de protéger les droits de la personne concernée.",
+      "explanation_nl": "De bloedafnameprocedure in het wegverkeer is strikt gereguleerd door procedurele regels om de wettigheid van de handeling te waarborgen en de rechten van de betrokkene te beschermen.",
+      "explanation_ru": "Процедура забора крови в дорожном контексте строго регулируется процессуальными нормами для обеспечения законности операции и защиты прав соответствующего лица."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Pourquoi est-il important que le prélèvement sanguin dans le cadre de la sécurité routière soit régi par des règles strictes ?",
+      "text_nl": "Waarom is het belangrijk dat bloedafname in het kader van verkeersveiligheid door strikte regels wordt beheerst?",
+      "text_ru": "Почему важно, чтобы забор крови в контексте безопасности дорожного движения регулировался строгими правилами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour accélérer le processus de diagnostic médical du conducteur.",
+          "text_nl": "Om het proces van medische diagnose van de bestuurder te versnellen.",
+          "text_ru": "Для ускорения процесса медицинской диагностики водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour garantir la fiabilité des résultats obtenus et le respect des droits fondamentaux de la personne concernée.",
+          "text_nl": "Om de betrouwbaarheid van de verkregen resultaten en het respect voor de grondrechten van de betrokkene te waarborgen.",
+          "text_ru": "Чтобы гарантировать достоверность полученных результатов и соблюдение основных прав соответствующего лица.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour permettre une interprétation flexible des résultats selon la situation.",
+          "text_nl": "Om een flexibele interpretatie van de resultaten mogelijk te maken, afhankelijk van de situatie.",
+          "text_ru": "Чтобы обеспечить гибкую интерпретацию результатов в зависимости от ситуации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Des règles strictes garantissent que le prélèvement sanguin est effectué de manière conforme, que les résultats sont incontestables et que les droits du citoyen sont respectés, notamment en cas de contestation.",
+      "explanation_nl": "Strikte regels garanderen dat de bloedafname op een conforme manier wordt uitgevoerd, dat de resultaten onbetwistbaar zijn en dat de rechten van de burger worden gerespecteerd, vooral bij betwisting.",
+      "explanation_ru": "Строгие правила гарантируют, что забор крови проводится в соответствии с требованиями, что результаты неоспоримы и что права гражданина соблюдаются, особенно в случае оспаривания."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "44295dde97dd",
@@ -38,6 +150,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:55:54Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

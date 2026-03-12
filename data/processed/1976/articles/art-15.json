@@ -34,7 +34,230 @@
   "anchor_id_fr": "sygc6vmpkd",
   "anchor_id_nl": "bjq5okhb23",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la largeur approximative d'une ligne continue de couleur orange sur autoroute ?",
+      "text_nl": "Wat is de benaderde breedte van een doorlopende oranje streep op de autosnelweg ?",
+      "text_ru": "Какова приблизительная ширина сплошной оранжевой линии на автостраде ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,10 m",
+          "text_nl": "0,10 m",
+          "text_ru": "0,10 м",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,20 m",
+          "text_nl": "0,20 m",
+          "text_ru": "0,20 м",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "0,30 m",
+          "text_nl": "0,30 m",
+          "text_ru": "0,30 м",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La largeur approximative d'une ligne continue de couleur orange sur autoroute est de 0,20 m.",
+      "explanation_nl": "De benaderde breedte van een doorlopende oranje streep op de autosnelweg is 0,20 m.",
+      "explanation_ru": "Приблизительная ширина сплошной оранжевой линии на автостраде составляет 0,20 м."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Comment peut être réalisée une ligne discontinue sur les routes ?",
+      "text_nl": "Hoe kan een onderbroken streep op de wegen worden aangegeven ?",
+      "text_ru": "Как может быть реализована прерывистая линия на дорогах ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement par des groupes de cinq clous de couleur orange",
+          "text_nl": "Alleen door groepen van vijf oranje spijkers",
+          "text_ru": "Только группами из пяти оранжевых гвоздей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Seulement par une ligne discontinue de couleur orange",
+          "text_nl": "Alleen door een oranje onderbroken streep",
+          "text_ru": "Только прерывистой оранжевой линией",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Soit par des groupes de cinq clous de couleur orange, soit par une ligne discontinue de couleur orange",
+          "text_nl": "Ofwel door groepen van vijf oranje spijkers, ofwel door een oranje onderbroken streep",
+          "text_ru": "Или группами из пяти оранжевых гвоздей, или прерывистой оранжевой линией",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Une ligne discontinue peut être réalisée soit par des groupes de cinq clous de couleur orange, soit par une ligne discontinue de couleur orange.",
+      "explanation_nl": "Een onderbroken streep kan worden aangegeven door groepen van vijf oranje spijkers of door een oranje onderbroken streep.",
+      "explanation_ru": "Прерывистая линия может быть реализована либо группами из пяти оранжевых гвоздей, либо прерывистой оранжевой линией."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la distance approximative entre les clous d'une rangée et les clous les plus proches de l'autre rangée pour une ligne continue ?",
+      "text_nl": "Wat is de benaderde afstand tussen de spijkers van één reeks en de dichtstbijgelegen spijkers van de andere reeks voor een doorlopende streep ?",
+      "text_ru": "Каково приблизительное расстояние между гвоздями одного ряда и гвоздями ближайшего ряда для сплошной линии ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,30 m",
+          "text_nl": "0,30 m",
+          "text_ru": "0,30 м",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,60 m",
+          "text_nl": "0,60 m",
+          "text_ru": "0,60 м",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "0,90 m",
+          "text_nl": "0,90 m",
+          "text_ru": "0,90 м",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La distance approximative entre les clous d'une rangée et les clous les plus proches de l'autre rangée pour une ligne continue est de 0,60 m.",
+      "explanation_nl": "De benaderde afstand tussen de spijkers van één reeks en de dichtstbijgelegen spijkers van de andere reeks voor een doorlopende streep is 0,60 m.",
+      "explanation_ru": "Приблизительное расстояние между гвоздями одного ряда и гвоздями ближайшего ряда для сплошной линии составляет 0,60 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous roulez sur une autoroute et vous voyez une ligne continue de couleur orange. Que devez-vous faire ?",
+      "text_nl": "U rijdt op de autosnelweg en u ziet een doorlopende oranje streep. Wat moet u doen ?",
+      "text_ru": "Вы едете по автостраде и видите сплошную оранжевую линию. Что должны вы сделать ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Changer de voie",
+          "text_nl": "Van rijstrook veranderen",
+          "text_ru": "Сменить полосу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rouler sur la ligne",
+          "text_nl": "Over de streep rijden",
+          "text_ru": "Ехать по линии",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Rester dans votre voie",
+          "text_nl": "In uw rijstrook blijven",
+          "text_ru": "Оставаться в своей полосе",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez une ligne continue de couleur orange sur une autoroute, vous devez rester dans votre voie.",
+      "explanation_nl": "Wanneer u een doorlopende oranje streep op de autosnelweg ziet, moet u in uw rijstrook blijven.",
+      "explanation_ru": "Когда вы видите сплошную оранжевую линию на автостраде, вы должны оставаться в своей полосе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'une intersection et vous voyez une ligne discontinue de couleur orange. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en u ziet een oranje onderbroken streep. Wat moet u doen ?",
+      "text_ru": "Вы подходите к перекрёстку и видите прерывистую оранжевую линию. Что должны вы сделать ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Arrêter-vous avant la ligne",
+          "text_nl": "Voor de streep stoppen",
+          "text_ru": "Остановиться перед линией",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rouler sur la ligne",
+          "text_nl": "Over de streep rijden",
+          "text_ru": "Ехать по линии",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Changer de voie",
+          "text_nl": "Van rijstrook veranderen",
+          "text_ru": "Сменить полосу",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous approchez d'une intersection et que vous voyez une ligne discontinue de couleur orange, vous pouvez rouler sur la ligne.",
+      "explanation_nl": "Wanneer u een kruispunt nadert en u ziet een oranje onderbroken streep, kunt u over de streep rijden.",
+      "explanation_ru": "Когда вы подходите к перекрёстку и видите прерывистую оранжевую линию, вы можете ехать по линии."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez sur une route et vous voyez une ligne continue de couleur orange. Un autre véhicule se trouve dans votre voie. Que devez-vous faire ?",
+      "text_nl": "U rijdt op de weg en u ziet een doorlopende oranje streep. Een ander voertuig bevindt zich in uw rijstrook. Wat moet u doen ?",
+      "text_ru": "Вы едете по дороге и видите сплошную оранжевую линию. Другое транспортное средство находится в вашей полосе. Что должны вы сделать ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Changer de voie",
+          "text_nl": "Van rijstrook veranderen",
+          "text_ru": "Сменить полосу",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rouler sur la ligne",
+          "text_nl": "Over de streep rijden",
+          "text_ru": "Ехать по линии",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Arrêter-vous",
+          "text_nl": "Stoppen",
+          "text_ru": "Остановиться",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez une ligne continue de couleur orange et qu'un autre véhicule se trouve dans votre voie, vous devez changer de voie.",
+      "explanation_nl": "Wanneer u een doorlopende oranje streep ziet en een ander voertuig zich in uw rijstrook bevindt, moet u van rijstrook veranderen.",
+      "explanation_ru": "Когда вы видите сплошную оранжевую линию и другое транспортное средство находится в вашей полосе, вы должны сменить полосу."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "6d8a66a238bb",
@@ -44,6 +267,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T12:01:56Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 6
   }
 }

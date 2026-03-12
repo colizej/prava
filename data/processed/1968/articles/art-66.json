@@ -26,7 +26,304 @@
   "anchor_id_fr": "f5gycb8yfd",
   "anchor_id_nl": "pdtfvuxvtu",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui est appliqué sans préjudice aux dommages-intérêts, s'il y a lieu, en vertu des lois coordonnées ?",
+      "text_nl": "Wat wordt toegepast, behoudens de te verlenen schadevergoeding indien daartoe grond bestaat, krachtens de gecoördineerde wetten ?",
+      "text_ru": "Что применяется без ущерба для возмещения ущерба, если есть основания, в соответствии с координированными законами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des peines",
+          "text_nl": "Straffen",
+          "text_ru": "Наказания",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des amendes",
+          "text_nl": "Boetes",
+          "text_ru": "Штрафы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des sanctions",
+          "text_nl": "Sancties",
+          "text_ru": "Санкции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines établies par les lois coordonnées sont appliquées sans préjudice aux dommages-intérêts, s'il y a lieu.",
+      "explanation_nl": "De bij deze gecoördineerde wetten bepaalde straffen worden toegepast, behoudens de te verlenen schadevergoeding indien daartoe grond bestaat.",
+      "explanation_ru": "Наказания, установленные координированными законами, применяются без ущерба для возмещения ущерба, если есть основания."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que les dommages-intérêts représentent dans le contexte des lois coordonnées ?",
+      "text_nl": "Wat vertegenwoordigen de schadevergoedingen in de context van de gecoördineerde wetten ?",
+      "text_ru": "Что представляет собой возмещение ущерба в контексте координированных законов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des peines",
+          "text_nl": "Straffen",
+          "text_ru": "Наказания",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des indemnisations",
+          "text_nl": "Schadevergoedingen",
+          "text_ru": "Возмещение ущерба",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des sanctions",
+          "text_nl": "Sancties",
+          "text_ru": "Санкции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dommages-intérêts représentent des indemnisations pour les préjudices subis.",
+      "explanation_nl": "De schadevergoedingen vertegenwoordigen een vergoeding voor geleden schade.",
+      "explanation_ru": "Возмещение ущерба представляет собой компенсацию за причиненный ущерб."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la relation entre les peines et les dommages-intérêts dans le contexte des lois coordonnées ?",
+      "text_nl": "Wat is de relatie tussen de straffen en de schadevergoedingen in de context van de gecoördineerde wetten ?",
+      "text_ru": "Какова связь между наказаниями и возмещением ущерба в контексте координированных законов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les peines sont une forme de dommages-intérêts",
+          "text_nl": "De straffen zijn een vorm van schadevergoeding",
+          "text_ru": "Наказания являются формой возмещения ущерба",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les peines sont appliquées sans préjudice aux dommages-intérêts",
+          "text_nl": "De straffen worden toegepast, behoudens de te verlenen schadevergoeding",
+          "text_ru": "Наказания применяются без ущерба для возмещения ущерба",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les dommages-intérêts sont une forme de peine",
+          "text_nl": "De schadevergoedingen zijn een vorm van straf",
+          "text_ru": "Возмещение ущерба является формой наказания",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines sont appliquées sans préjudice aux dommages-intérêts, s'il y a lieu.",
+      "explanation_nl": "De straffen worden toegepast, behoudens de te verlenen schadevergoeding indien daartoe grond bestaat.",
+      "explanation_ru": "Наказания применяются без ущерба для возмещения ущерба, если есть основания."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a causé un accident et doit payer des dommages-intérêts. Qu'est-ce qui est appliqué sans préjudice aux dommages-intérêts ?",
+      "text_nl": "Een bestuurder heeft een ongeval veroorzaakt en moet schadevergoeding betalen. Wat wordt toegepast, behoudens de te verlenen schadevergoeding ?",
+      "text_ru": "Водитель вызвал аварию и должен заплатить возмещение ущерба. Что применяется без ущерба для возмещения ущерба?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des peines",
+          "text_nl": "Straffen",
+          "text_ru": "Наказания",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des amendes",
+          "text_nl": "Boetes",
+          "text_ru": "Штрафы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des sanctions",
+          "text_nl": "Sancties",
+          "text_ru": "Санкции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines sont appliquées sans préjudice aux dommages-intérêts, s'il y a lieu.",
+      "explanation_nl": "De straffen worden toegepast, behoudens de te verlenen schadevergoeding indien daartoe grond bestaat.",
+      "explanation_ru": "Наказания применяются без ущерба для возмещения ущерба, если есть основания."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un piéton a été blessé dans un accident de la route. Qu'est-ce que le conducteur responsable doit payer ?",
+      "text_nl": "Een voetganger is gewond geraakt bij een verkeersongeval. Wat moet de verantwoordelijke bestuurder betalen ?",
+      "text_ru": "Пешеход был ранен в дорожном происшествии. Что должен заплатить виновный водитель?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des peines et des dommages-intérêts",
+          "text_nl": "Straffen en schadevergoeding",
+          "text_ru": "Наказания и возмещение ущерба",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des amendes et des sanctions",
+          "text_nl": "Boetes en sancties",
+          "text_ru": "Штрафы и санкции",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des indemnisations et des sanctions",
+          "text_nl": "Schadevergoedingen en sancties",
+          "text_ru": "Возмещение ущерба и санкции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur responsable doit payer des peines et des dommages-intérêts.",
+      "explanation_nl": "De verantwoordelijke bestuurder moet straffen en schadevergoeding betalen.",
+      "explanation_ru": "Виновный водитель должен заплатить наказания и возмещение ущерба."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un cycliste a été victime d'un accident de la route. Qu'est-ce que le conducteur responsable doit faire ?",
+      "text_nl": "Een fietser is slachtoffer geworden van een verkeersongeval. Wat moet de verantwoordelijke bestuurder doen ?",
+      "text_ru": "Велосипедист стал жертвой дорожного происшествия. Что должен сделать виновный водитель?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Payer des peines et des dommages-intérêts",
+          "text_nl": "Straffen en schadevergoeding betalen",
+          "text_ru": "Заплатить наказания и возмещение ущерба",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Payer des amendes et des sanctions",
+          "text_nl": "Boetes en sancties betalen",
+          "text_ru": "Заплатить штрафы и санкции",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer des indemnisations et des sanctions",
+          "text_nl": "Schadevergoedingen en sancties betalen",
+          "text_ru": "Заплатить возмещение ущерба и санкции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur responsable doit payer des peines et des dommages-intérêts.",
+      "explanation_nl": "De verantwoordelijke bestuurder moet straffen en schadevergoeding betalen.",
+      "explanation_ru": "Виновный водитель должен заплатить наказания и возмещение ущерба."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été impliqué dans un accident de la route. Qu'est-ce qui peut être appliqué sans préjudice aux dommages-intérêts ?",
+      "text_nl": "Een bestuurder is betrokken geweest bij een verkeersongeval. Wat kan worden toegepast, behoudens de te verlenen schadevergoeding ?",
+      "text_ru": "Водитель был вовлечен в дорожное происшествие. Что может быть применено без ущерба для возмещения ущерба?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des peines",
+          "text_nl": "Straffen",
+          "text_ru": "Наказания",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des amendes",
+          "text_nl": "Boetes",
+          "text_ru": "Штрафы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des sanctions",
+          "text_nl": "Sancties",
+          "text_ru": "Санкции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines sont appliquées sans préjudice aux dommages-intérêts, s'il y a lieu.",
+      "explanation_nl": "De straffen worden toegepast, behoudens de te verlenen schadevergoeding indien daartoe grond bestaat.",
+      "explanation_ru": "Наказания применяются без ущерба для возмещения ущерба, если есть основания."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a causé un accident de la route et doit payer des dommages-intérêts. Qu'est-ce qui est appliqué sans préjudice aux dommages-intérêts ?",
+      "text_nl": "Een bestuurder heeft een verkeersongeval veroorzaakt en moet schadevergoeding betalen. Wat wordt toegepast, behoudens de te verlenen schadevergoeding ?",
+      "text_ru": "Водитель вызвал аварию и должен заплатить возмещение ущерба. Что применяется без ущерба для возмещения ущерба?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des peines",
+          "text_nl": "Straffen",
+          "text_ru": "Наказания",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des amendes",
+          "text_nl": "Boetes",
+          "text_ru": "Штрафы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des sanctions",
+          "text_nl": "Sancties",
+          "text_ru": "Санкции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les peines sont appliquées sans préjudice aux dommages-intérêts, s'il y a lieu.",
+      "explanation_nl": "De straffen worden toegepast, behoudens de te verlenen schadevergoeding indien daartoe grond bestaat.",
+      "explanation_ru": "Наказания применяются без ущерба для возмещения ущерба, если есть основания."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "52dc79dec568",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:57:22Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

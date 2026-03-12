@@ -26,7 +26,304 @@
   "anchor_id_fr": "clezsr0hgo",
   "anchor_id_nl": "cczwfk5yl1",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui peut demander une prolongation du retrait d'un permis de conduire, et pour quelle durée maximale ?",
+      "text_nl": "Wie kan een verlenging van de intrekking van een rijbewijs aanvragen en voor hoelang maximaal?",
+      "text_ru": "Кто может запросить продление изъятия водительского удостоверения и на какой максимальный срок?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le juge de paix, pour six mois.",
+          "text_nl": "De vrederechter, voor zes maanden.",
+          "text_ru": "Мировой судья, на шесть месяцев.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le procureur du Roi, pour trois mois.",
+          "text_nl": "De procureur des Konings, voor drie maanden.",
+          "text_ru": "Прокурор, на три месяца.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le tribunal de police, pour un an.",
+          "text_nl": "De politierechtbank, voor één jaar.",
+          "text_ru": "Полицейский суд, на один год.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La prolongation du retrait d'un permis de conduire peut être demandée par le procureur du Roi pour une durée maximale de trois mois.",
+      "explanation_nl": "De verlenging van de intrekking van een rijbewijs kan worden aangevraagd door de procureur des Konings voor een periode van maximaal drie maanden.",
+      "explanation_ru": "Продление изъятия водительского удостоверения может быть запрошено прокурором на максимальный срок в три месяца."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel délai le tribunal de police doit-il statuer sur une demande de prolongation du retrait d'un permis de conduire ?",
+      "text_nl": "Binnen welke termijn moet de politierechtbank uitspraak doen over een verzoek tot verlenging van de intrekking van een rijbewijs?",
+      "text_ru": "В течение какого срока полицейский суд должен вынести решение по запросу о продлении изъятия водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dans les sept jours suivant la comparution.",
+          "text_nl": "Binnen zeven dagen na de verschijning.",
+          "text_ru": "В течение семи дней после явки в суд.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dans les quinze jours suivant la décision de retrait initial.",
+          "text_nl": "Binnen vijftien dagen na de beslissing tot initiële intrekking.",
+          "text_ru": "В течение пятнадцати дней после первоначального решения об изъятии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avant l'expiration du délai de l'ordonnance initiale de prolongation.",
+          "text_nl": "Vóór het verstrijken van de termijn van de initiële beschikking tot verlenging.",
+          "text_ru": "До истечения срока действия первоначального постановления о продлении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le tribunal de police doit statuer sur la demande de prolongation dans les quinze jours suivant la décision initiale de retrait.",
+      "explanation_nl": "De politierechtbank moet binnen vijftien dagen na de initiële intrekking van het rijbewijs uitspraak doen over het verzoek tot verlenging.",
+      "explanation_ru": "Полицейский суд должен вынести решение по запросу о продлении в течение пятнадцати дней после первоначального решения об изъятии."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans une procédure spécifique, qui peut signifier une citation à comparaître pour une prolongation du retrait du permis au moment même du retrait ?",
+      "text_nl": "Wie kan in een specifieke procedure een dagvaarding tot verschijning voor een verlenging van de intrekking van het rijbewijs betekenen op het moment van de intrekking zelf?",
+      "text_ru": "В особой процедуре, кто может вручить повестку в суд для продления изъятия водительского удостоверения непосредственно в момент изъятия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement le juge de police.",
+          "text_nl": "Enkel de politierechter.",
+          "text_ru": "Только полицейский судья.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le procureur du Roi ou un officier de la police judiciaire délégué.",
+          "text_nl": "De procureur des Konings of, bij delegatie, een officier van gerechtelijke politie.",
+          "text_ru": "Прокурор или уполномоченный сотрудник судебной полиции.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La personne concernée elle-même.",
+          "text_nl": "De betrokkene zelf.",
+          "text_ru": "Сам заинтересованный человек.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Dans cette procédure spécifique, la citation peut être signifiée par le procureur du Roi ou, par délégation, par un officier de la police judiciaire.",
+      "explanation_nl": "In deze specifieke procedure kan de dagvaarding worden betekend door de procureur des Konings of, bij delegatie, door een officier van gerechtelijke politie.",
+      "explanation_ru": "В этой особой процедуре повестка может быть вручена прокурором или, по его поручению, сотрудником судебной полиции."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Votre permis de conduire a été retiré, et vous recevez une citation à comparaître devant le tribunal de police pour une demande de prolongation. Quel est le délai minimal entre la réception de cette citation et votre comparution devant le tribunal ?",
+      "text_nl": "Uw rijbewijs is ingetrokken en u ontvangt een dagvaarding om voor de politierechtbank te verschijnen voor een verzoek tot verlenging. Wat is de minimale termijn tussen de ontvangst van deze dagvaarding en uw verschijning voor de rechtbank?",
+      "text_ru": "Ваше водительское удостоверение изъято, и вы получили повестку в полицейский суд для рассмотрения запроса о продлении изъятия. Каков минимальный срок между получением повестки и вашим явлением в суд?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au moins trois jours.",
+          "text_nl": "Minstens drie dagen.",
+          "text_ru": "Минимум три дня.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au moins sept jours.",
+          "text_nl": "Minstens zeven dagen.",
+          "text_ru": "Минимум семь дней.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Au moins quinze jours.",
+          "text_nl": "Minstens vijftien dagen.",
+          "text_ru": "Минимум пятнадцать дней.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il doit y avoir un délai d'au moins sept jours entre la citation et la comparution devant le tribunal de police.",
+      "explanation_nl": "Er moet een termijn van ten minste zeven dagen zitten tussen de dagvaarding en de verschijning voor de politierechtbank.",
+      "explanation_ru": "Между получением повестки и явкой в полицейский суд должно пройти не менее семи дней."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Le tribunal de police a ordonné la prolongation du retrait de votre permis de conduire. Vous décidez de faire opposition à cette décision. Quel est l'effet de votre opposition sur l'exécution de l'ordonnance de prolongation ?",
+      "text_nl": "De politierechtbank heeft de verlenging van de intrekking van uw rijbewijs bevolen. U besluit verzet aan te tekenen tegen deze beslissing. Welk effect heeft uw verzet op de uitvoering van de beschikking tot verlenging?",
+      "text_ru": "Полицейский суд постановил продлить изъятие вашего водительского удостоверения. Вы решаете обжаловать это решение. Каково влияние вашего обжалования на исполнение постановления о продлении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'opposition suspend immédiatement l'exécution de la décision.",
+          "text_nl": "Het verzet schorst onmiddellijk de uitvoering van de beslissing.",
+          "text_ru": "Обжалование немедленно приостанавливает исполнение решения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'exécution de la décision n'est pas suspendue par l'opposition.",
+          "text_nl": "De uitvoering van de beslissing wordt niet geschorst door het verzet.",
+          "text_ru": "Исполнение решения не приостанавливается обжалованием.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'exécution est suspendue uniquement si le juge en décide ainsi.",
+          "text_nl": "De uitvoering wordt enkel geschorst indien de rechter hiertoe beslist.",
+          "text_ru": "Исполнение приостанавливается только по решению судьи.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'opposition contre une ordonnance de prolongation de retrait ne suspend pas l'exécution de cette décision.",
+      "explanation_nl": "Het verzet tegen een beschikking tot verlenging van de intrekking schorst de uitvoering van die beslissing niet.",
+      "explanation_ru": "Обжалование постановления о продлении изъятия не приостанавливает исполнение этого решения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Après une infraction grave, votre permis est retiré sur-le-champ par un officier de police judiciaire qui vous remet un document. Ce document vaut citation à comparaître pour une éventuelle prolongation. Quelles informations essentielles doivent y figurer ?",
+      "text_nl": "Na een ernstige overtreding wordt uw rijbewijs ter plaatse ingetrokken door een officier van gerechtelijke politie die u een document overhandigt. Dit document geldt als dagvaarding om te verschijnen voor een mogelijke verlenging. Welke essentiële informatie moet hierin worden vermeld?",
+      "text_ru": "После серьезного нарушения ваше водительское удостоверение немедленно изымается сотрудником судебной полиции, который вручает вам документ. Этот документ является повесткой в суд для возможного продления. Какая важная информация должна быть в нем указана?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement la date et l'heure de l'audience.",
+          "text_nl": "Enkel de datum en het uur van de zitting.",
+          "text_ru": "Только дата и время заседания.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les faits mis à votre charge, le lieu, la date et l'heure de l'audience, et votre droit de choisir un avocat.",
+          "text_nl": "De feiten die u ten laste worden gelegd, de plaats, de datum en het uur van de zitting, en uw recht om een advocaat te kiezen.",
+          "text_ru": "Вменяемые вам факты, место, дата и время заседания, а также ваше право выбрать адвоката.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement un rappel de l'infraction commise et la durée du retrait.",
+          "text_nl": "Alleen een herinnering aan de begane overtreding en de duur van de intrekking.",
+          "text_ru": "Только напоминание о совершенном нарушении и сроке изъятия.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La notification qui vaut citation doit énumérer les faits mis à votre charge, le lieu, la date et l'heure de l'audience, et vous informer de votre droit à un avocat.",
+      "explanation_nl": "De kennisgeving die als dagvaarding geldt, moet de feiten vermelden die u ten laste worden gelegd, de plaats, de datum en het uur van de zitting, en u informeren over uw recht om een advocaat te kiezen.",
+      "explanation_ru": "Уведомление, которое является повесткой, должно перечислять вменяемые вам факты, место, дату и время заседания, а также информировать вас о вашем праве на адвоката."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Une ordonnance de prolongation de votre retrait de permis est en vigueur et arrive bientôt à expiration. Le procureur souhaite en demander le renouvellement. Au plus tard quand doit-il vous citer à comparaître pour cette demande de renouvellement ?",
+      "text_nl": "Een beschikking tot verlenging van de intrekking van uw rijbewijs is van kracht en loopt binnenkort af. De procureur wenst een hernieuwing ervan aan te vragen. Uiterlijk wanneer moet hij u dagvaarden om te verschijnen voor dit verzoek tot hernieuwing?",
+      "text_ru": "Постановление о продлении изъятия вашего водительского удостоверения действует и скоро истекает. Прокурор желает запросить его продление. Не позднее какого срока он должен вызвать вас в суд для рассмотрения этого запроса о продлении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au plus tard le jour de l'expiration de l'ordonnance initiale.",
+          "text_nl": "Uiterlijk op de dag van het verstrijken van de initiële beschikking.",
+          "text_ru": "Не позднее дня истечения срока действия первоначального постановления.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au plus tard sept jours avant l'expiration de l'ordonnance initiale.",
+          "text_nl": "Uiterlijk zeven dagen vóór het verstrijken van de initiële beschikking.",
+          "text_ru": "Не позднее семи дней до истечения срока действия первоначального постановления.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Au plus tard quinze jours avant l'expiration de l'ordonnance initiale.",
+          "text_nl": "Uiterlijk vijftien dagen vóór het verstrijken van de initiële beschikking.",
+          "text_ru": "Не позднее пятнадцати дней до истечения срока действия первоначального постановления.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le procureur doit vous assigner pour une demande de renouvellement de prolongation au plus tard quinze jours avant l'expiration de l'ordonnance initiale.",
+      "explanation_nl": "De procureur moet u dagvaarden voor een verzoek tot hernieuwing van de verlenging uiterlijk vijftien dagen vóór het verstrijken van de initiële beschikking.",
+      "explanation_ru": "Прокурор должен вызвать вас в суд для запроса о продлении не позднее чем за пятнадцать дней до истечения срока действия первоначального постановления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes devant le tribunal de police pour une demande de prolongation de votre retrait de permis. Dans quelle circonstance le tribunal pourrait-il exceptionnellement juger immédiatement l'affaire sur le fond (l'infraction elle-même) plutôt que de se limiter à la prolongation ?",
+      "text_nl": "U bent voor de politierechtbank voor een verzoek tot verlenging van de intrekking van uw rijbewijs. In welke omstandigheid kan de rechtbank uitzonderlijk de zaak onmiddellijk ten gronde (de overtreding zelf) behandelen in plaats van zich te beperken tot de verlenging?",
+      "text_ru": "Вы находитесь в полицейском суде по вопросу о продлении изъятия вашего водительского удостоверения. При каком обстоятельстве суд может исключительным образом немедленно рассмотреть дело по существу (само правонарушение), а не ограничиваться только продлением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si vous demandez vous-même un jugement sur le fond.",
+          "text_nl": "Als u zelf een oordeel ten gronde vraagt.",
+          "text_ru": "Если вы сами просите рассмотреть дело по существу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si le procureur du Roi a également cité pour le fond à la même audience.",
+          "text_nl": "Als de procureur des Konings voor diezelfde zitting ook ten gronde heeft gedagvaard.",
+          "text_ru": "Если прокурор также вызвал в суд для рассмотрения дела по существу на том же заседании.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le juge de police décide que le dossier est complet et prêt à être jugé.",
+          "text_nl": "Als de politierechter beslist dat het dossier compleet is en klaar is om behandeld te worden.",
+          "text_ru": "Если полицейский судья решит, что дело завершено и готово к рассмотрению.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le tribunal de police peut juger immédiatement du fond de l'affaire si le procureur du Roi a également cité pour le fond à la même audience, en dérogation à la procédure habituelle.",
+      "explanation_nl": "De politierechtbank kan onmiddellijk kennis nemen van het fond van de zaak als de procureur des Konings voor diezelfde zitting ook ten gronde heeft gedagvaard, in afwijking van de gebruikelijke procedure.",
+      "explanation_ru": "Полицейский суд может немедленно рассмотреть дело по существу, если прокурор также вызвал в суд для рассмотрения дела по существу на том же заседании, в отступление от обычной процедуры."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "70cd4237e38e",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:47:45Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

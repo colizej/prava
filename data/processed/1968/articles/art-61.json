@@ -29,7 +29,304 @@
   "anchor_id_fr": "bxjsyzjjb1",
   "anchor_id_nl": "qeukh1zu3x",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le devoir principal d'une personne qui a été informée qu'elle est sous le coup d'une interdiction de conduire ?",
+      "text_nl": "Wat is de voornaamste plicht van een persoon die geïnformeerd is dat hij onder een rijverbod valt?",
+      "text_ru": "Какова основная обязанность лица, которому сообщили о запрете на управление транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle doit immédiatement suivre un stage de sensibilisation à la sécurité routière.",
+          "text_nl": "Hij moet onmiddellijk een sensibiliseringscursus over verkeersveiligheid volgen.",
+          "text_ru": "Она должна немедленно пройти курс повышения осведомленности о безопасности дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle doit remettre son permis de conduire à la police pour la durée de l'interdiction, sur demande.",
+          "text_nl": "Hij moet zijn rijbewijs op verzoek van de politie inleveren voor de duur van het verbod.",
+          "text_ru": "Она должна сдать свои водительские права полиции на время запрета, по требованию.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle doit s'assurer que son véhicule est garé dans un endroit sûr et ne plus le déplacer.",
+          "text_nl": "Hij moet ervoor zorgen dat zijn voertuig op een veilige plaats geparkeerd staat en het niet meer verplaatsen.",
+          "text_ru": "Она должна убедиться, что ее транспортное средство припарковано в безопасном месте, и больше не перемещать его.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'une interdiction de conduire est imposée, la personne concernée est tenue de remettre son permis de conduire (ou tout titre équivalent) à la police, sur invitation, pour toute la durée de cette interdiction.",
+      "explanation_nl": "Wanneer een rijverbod wordt opgelegd, moet de betrokken persoon op verzoek van de politie zijn rijbewijs (of een gelijkwaardig bewijs) inleveren voor de hele duur van het verbod.",
+      "explanation_ru": "При наложении запрета на управление транспортным средством соответствующее лицо обязано по запросу полиции сдать свои водительские права (или эквивалентный документ) на весь срок действия запрета."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles situations un véhicule ou une monture conduite par une personne sous interdiction de conduire peut-il être retenu ?",
+      "text_nl": "In welke situaties kan een voertuig of rijdier, bestuurd door een persoon met een rijverbod, worden ingehouden?",
+      "text_ru": "В каких случаях транспортное средство или верховое животное, управляемое лицом, которому запрещено вождение, может быть задержано?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement si le conducteur refuse catégoriquement de coopérer avec la police.",
+          "text_nl": "Alleen als de bestuurder categorisch weigert samen te werken met de politie.",
+          "text_ru": "Только если водитель категорически отказывается сотрудничать с полицией.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si la remise du permis ne peut se faire immédiatement, ou si le conducteur n'est pas tenu de posséder un permis pour le véhicule concerné.",
+          "text_nl": "Als de afgifte van het rijbewijs niet onmiddellijk kan gebeuren, of als de bestuurder niet verplicht is een rijbewijs te bezitten voor het betreffende voertuig.",
+          "text_ru": "Если сдача водительских прав не может быть произведена немедленно, или если водитель не обязан иметь права для данного транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si le véhicule représente un danger immédiat pour la sécurité publique.",
+          "text_nl": "Alleen als het voertuig een onmiddellijk gevaar vormt voor de openbare veiligheid.",
+          "text_ru": "Только если транспортное средство представляет непосредственную угрозу для общественной безопасности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le véhicule ou la monture peut être retenu si le permis ne peut être remis sur-le-champ, ou si la personne n'est pas tenue de posséder un permis pour conduire cet engin, tout en étant sous le coup d'une interdiction de conduire.",
+      "explanation_nl": "Het voertuig of rijdier kan worden ingehouden als het rijbewijs niet onmiddellijk kan worden afgegeven, of als de persoon niet verplicht is een rijbewijs te bezitten om dit vervoermiddel te besturen, terwijl er wel een rijverbod is opgelegd.",
+      "explanation_ru": "Транспортное средство или верховое животное может быть задержано, если водительское удостоверение не может быть сдано немедленно, или если лицо не обязано иметь водительское удостоверение для управления этим средством, находясь при этом под запретом на вождение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "À l'expiration d'une période d'interdiction de conduire, le permis est-il toujours restitué automatiquement ?",
+      "text_nl": "Wordt het rijbewijs na afloop van een rijverbod altijd automatisch teruggegeven?",
+      "text_ru": "По истечении срока запрета на управление транспортным средством водительское удостоверение всегда возвращается автоматически?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, toujours, c'est un droit fondamental du conducteur.",
+          "text_nl": "Ja, altijd, het is een fundamenteel recht van de bestuurder.",
+          "text_ru": "Да, всегда, это основное право водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il existe des conditions légales spécifiques qui peuvent empêcher sa restitution immédiate.",
+          "text_nl": "Nee, er zijn specifieke wettelijke voorwaarden die onmiddellijke teruggave kunnen verhinderen.",
+          "text_ru": "Нет, существуют конкретные правовые условия, которые могут препятствовать его немедленному возврату.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le conducteur a effectué un stage de récupération de points pendant l'interdiction.",
+          "text_nl": "Alleen als de bestuurder tijdens het verbod een puntenherstelcursus heeft gevolgd.",
+          "text_ru": "Только если водитель прошел курс восстановления баллов во время запрета.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même après l'expiration du délai d'interdiction de conduire, le permis n'est pas toujours restitué automatiquement. Des dispositions légales spécifiques peuvent faire en sorte qu'il ne soit pas rendu.",
+      "explanation_nl": "Zelfs na het verstrijken van het rijverbod wordt het rijbewijs niet altijd automatisch teruggegeven. Specifieke wettelijke bepalingen kunnen ervoor zorgen dat het niet wordt teruggegeven.",
+      "explanation_ru": "Даже по истечении срока запрета на управление транспортным средством водительское удостоверение не всегда возвращается автоматически. Конкретные законодательные положения могут предусматривать его невозвращение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes arrêté par la police et informé que vous êtes sous le coup d'une interdiction de conduire. Vous avez votre permis sur vous. Quelle est l'action correcte à entreprendre concernant votre permis ?",
+      "text_nl": "U wordt door de politie aangehouden en geïnformeerd dat u onder een rijverbod valt. U heeft uw rijbewijs bij zich. Welke actie moet u correct ondernemen met betrekking tot uw rijbewijs?",
+      "text_ru": "Вы остановлены полицией и проинформированы о том, что вам запрещено вождение. У вас есть водительские права. Какое правильное действие следует предпринять в отношении ваших прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer talking to a driver next to a car, with a driver's license visible"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous refusez de le remettre et insistez pour que l'interdiction soit levée avant.",
+          "text_nl": "U weigert het in te leveren en staat erop dat het verbod eerst wordt opgeheven.",
+          "text_ru": "Вы отказываетесь его сдавать и настаиваете на предварительном снятии запрета.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous le remettez immédiatement aux agents de police, comme demandé, pour la durée de l'interdiction.",
+          "text_nl": "U levert het onmiddellijk in bij de politieagenten, zoals gevraagd, voor de duur van het verbod.",
+          "text_ru": "Вы немедленно передаете его сотрудникам полиции, как требуется, на срок действия запрета.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous proposez de le déposer au poste de police le plus proche dans les 24 heures.",
+          "text_nl": "U stelt voor het binnen 24 uur bij het dichtstbijzijnde politiebureau af te geven.",
+          "text_ru": "Вы предлагаете сдать его в ближайшее отделение полиции в течение 24 часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'une interdiction de conduire est prononcée, vous êtes tenu de remettre votre permis de conduire à la police dès que vous en êtes invité, et ce, pour toute la durée de l'interdiction.",
+      "explanation_nl": "Wanneer een rijverbod is opgelegd, bent u verplicht uw rijbewijs op verzoek van de politie onmiddellijk in te leveren voor de gehele duur van het verbod.",
+      "explanation_ru": "При объявлении запрета на вождение вы обязаны сдать свои водительские права полиции по ее требованию на весь срок действия запрета."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sous le coup d'une interdiction de conduire et vous êtes arrêté alors que vous vous apprêtez à monter sur votre moto, pour laquelle vous n'êtes pas tenu de posséder un permis spécifique. Quelle pourrait être la conséquence pour votre moto ?",
+      "text_nl": "U heeft een rijverbod en wordt aangehouden terwijl u op het punt staat op uw motor te stappen, waarvoor u geen specifiek rijbewijs hoeft te bezitten. Wat kan de consequentie zijn voor uw motor?",
+      "text_ru": "Вам запрещено вождение, и вас останавливают, когда вы собираетесь сесть на свой мотоцикл, для управления которым вам не требуется специальное водительское удостоверение. Каковы могут быть последствия для вашего мотоцикла?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer talking to a person next to a motorcycle, who is about to get on it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La police vous laisse repartir à pied, mais la moto reste à votre disposition.",
+          "text_nl": "De politie laat u te voet vertrekken, maar de motor blijft tot uw beschikking.",
+          "text_ru": "Полиция отпускает вас пешком, но мотоцикл остается в вашем распоряжении.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La moto est retenue à vos frais et risques.",
+          "text_nl": "De motor wordt ingehouden op uw kosten en risico.",
+          "text_ru": "Мотоцикл задерживается за ваш счет и на ваш риск.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police vous impose une amende, mais vous permet de conduire la moto jusqu'à chez vous.",
+          "text_nl": "De politie legt u een boete op, maar laat u de motor naar huis rijden.",
+          "text_ru": "Полиция налагает на вас штраф, но разрешает доехать на мотоцикле до дома.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si vous êtes sous le coup d'une interdiction de conduire et que vous vous apprêtez à conduire un véhicule (même si vous n'êtes pas tenu d'avoir un permis pour celui-ci), le véhicule peut être retenu à vos frais et risques.",
+      "explanation_nl": "Als u een rijverbod heeft en op het punt staat een voertuig te besturen (zelfs als u hiervoor geen rijbewijs hoeft te hebben), kan het voertuig op uw kosten en risico worden ingehouden.",
+      "explanation_ru": "Если вам запрещено вождение, и вы собираетесь управлять транспортным средством (даже если вам не требуется водительское удостоверение для этого), транспортное средство может быть задержано за ваш счет и на ваш риск."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sous le coup d'une interdiction de conduire et vous avez été arrêté au volant de votre voiture. Vous n'avez pas votre permis de conduire sur vous au moment de l'interpellation. Quelle mesure peut être prise concernant votre voiture ?",
+      "text_nl": "U heeft een rijverbod en bent aangehouden terwijl u in uw auto reed. U heeft uw rijbewijs niet bij u op het moment van de aanhouding. Welke maatregel kan er worden genomen met betrekking tot uw auto?",
+      "text_ru": "Вам запрещено вождение, и вас остановили за рулем вашего автомобиля. У вас нет водительских прав при себе в момент задержания. Какая мера может быть принята в отношении вашего автомобиля?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer talking to a driver who is unable to present a driver's license."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre voiture est confisquée définitivement par les autorités.",
+          "text_nl": "Uw auto wordt definitief in beslag genomen door de autoriteiten.",
+          "text_ru": "Ваш автомобиль конфискуется властями навсегда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre voiture est retenue (saisie) à vos frais et risques.",
+          "text_nl": "Uw auto wordt ingehouden (in beslag genomen) op uw kosten en risico.",
+          "text_ru": "Ваш автомобиль задерживается (изымается) за ваш счет и на ваш риск.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police vous demande simplement de faire venir quelqu'un pour récupérer la voiture.",
+          "text_nl": "De politie vraagt u gewoon om iemand te laten komen om de auto op te halen.",
+          "text_ru": "Полиция просто просит вас вызвать кого-нибудь, чтобы забрать машину.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si vous êtes sous le coup d'une interdiction de conduire et que vous ne pouvez pas remettre votre permis sur-le-champ, le véhicule que vous conduisiez est retenu à vos frais, risques et périls.",
+      "explanation_nl": "Als u een rijverbod heeft en uw rijbewijs niet onmiddellijk kunt inleveren, wordt het voertuig dat u bestuurde ingehouden op uw kosten en risico.",
+      "explanation_ru": "Если вам запрещено вождение, и вы не можете немедленно сдать свои водительские права, транспортное средство, которым вы управляли, задерживается за ваш счет и на ваш риск."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez purgé une interdiction de conduire de plusieurs mois. Lorsque vous vous présentez pour récupérer votre permis, on vous informe qu'il ne vous sera pas restitué en raison d'autres dispositions légales. Que cela signifie-t-il ?",
+      "text_nl": "U heeft een rijverbod van meerdere maanden uitgezeten. Wanneer u zich meldt om uw rijbewijs terug te krijgen, wordt u geïnformeerd dat het niet aan u zal worden teruggegeven vanwege andere wettelijke bepalingen. Wat betekent dit?",
+      "text_ru": "Вы отбыли многомесячный запрет на вождение. Когда вы приходите за своим водительским удостоверением, вам сообщают, что оно не будет вам возвращено из-за других правовых положений. Что это значит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Person looking confused at an official who is explaining something about a driver's license."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez attendre une nouvelle interdiction de conduire avant de pouvoir le récupérer.",
+          "text_nl": "U moet wachten op een nieuw rijverbod voordat u het kunt ophalen.",
+          "text_ru": "Вы должны дождаться нового запрета на вождение, прежде чем сможете его получить.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Malgré la fin de l'interdiction de conduire initiale, d'autres conditions juridiques s'appliquent et empêchent la restitution immédiate de votre permis.",
+          "text_nl": "Ondanks het einde van het oorspronkelijke rijverbod zijn er andere wettelijke voorwaarden van toepassing die de onmiddellijke teruggave van uw rijbewijs verhinderen.",
+          "text_ru": "Несмотря на окончание первоначального запрета на вождение, применяются другие правовые условия, которые препятствуют немедленному возврату вашего водительского удостоверения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre permis a été définitivement annulé et vous ne pourrez plus jamais conduire.",
+          "text_nl": "Uw rijbewijs is definitief ingetrokken en u zult nooit meer mogen rijden.",
+          "text_ru": "Ваши водительские права были окончательно аннулированы, и вы больше никогда не сможете водить машину.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même après la fin de la période de l'interdiction de conduire, votre permis pourrait ne pas être restitué si d'autres dispositions légales spécifiques sont en vigueur, nécessitant par exemple des examens ou conditions supplémentaires avant sa réintégration.",
+      "explanation_nl": "Zelfs na het einde van het rijverbod wordt uw rijbewijs mogelijk niet teruggegeven als er andere specifieke wettelijke bepalingen van kracht zijn, die bijvoorbeeld aanvullende examens of voorwaarden vereisen voordat het weer wordt geïntegreerd.",
+      "explanation_ru": "Даже после окончания срока запрета на вождение ваши права могут не быть возвращены, если действуют другие конкретные правовые положения, требующие, например, дополнительных экзаменов или условий перед их восстановлением."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez été arrêté alors que vous conduisiez sous le coup d'une interdiction de conduire. Votre véhicule a été retenu par la police. Qui est responsable des coûts et des risques liés à cette rétention ?",
+      "text_nl": "U bent aangehouden terwijl u reed onder een rijverbod. Uw voertuig is door de politie ingehouden. Wie is verantwoordelijk voor de kosten en risico's die aan deze inhouding verbonden zijn?",
+      "text_ru": "Вы были остановлены за рулем, несмотря на запрет на вождение. Ваше транспортное средство было задержано полицией. Кто несет ответственность за расходы и риски, связанные с этим задержанием?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer standing next to a towed car, with the driver looking concerned."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'État belge prend en charge tous les frais et risques.",
+          "text_nl": "De Belgische staat draagt alle kosten en risico's.",
+          "text_ru": "Бельгийское государство несет все расходы и риски.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est la personne qui était sous l'interdiction de conduire qui en supporte les frais et les risques.",
+          "text_nl": "De persoon die onder het rijverbod viel, draagt de kosten en risico's.",
+          "text_ru": "Расходы и риски несет лицо, на которое распространялся запрет на вождение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La compagnie d'assurance du véhicule est obligée de couvrir ces frais.",
+          "text_nl": "De verzekeringsmaatschappij van het voertuig is verplicht deze kosten te dekken.",
+          "text_ru": "Страховая компания транспортного средства обязана покрыть эти расходы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de rétention d'un véhicule conduit par une personne sous interdiction, cette dernière est responsable des frais et des risques liés à cette rétention.",
+      "explanation_nl": "Bij inhouding van een voertuig bestuurd door een persoon met een rijverbod, is die persoon verantwoordelijk voor de kosten en risico's die aan deze inhouding verbonden zijn.",
+      "explanation_ru": "В случае задержания транспортного средства, управляемого лицом, находящимся под запретом, это лицо несет ответственность за расходы и риски, связанные с задержанием."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "49f14fb2e66c",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:49:29Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

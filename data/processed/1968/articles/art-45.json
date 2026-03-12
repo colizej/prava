@@ -30,7 +30,304 @@
   "anchor_id_fr": "feumb6z6im",
   "anchor_id_nl": "rv2hefftha",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la faculté générale du juge concernant la portée d'une déchéance du droit de conduire qu'il prononce ?",
+      "text_nl": "Wat is de algemene bevoegdheid van de rechter met betrekking tot de omvang van een verval van het recht tot sturen dat hij oplegt?",
+      "text_ru": "Какова общая компетенция судьи в отношении объема лишения водительских прав, которое он выносит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le juge doit toujours appliquer la déchéance à toutes les catégories de véhicules que le conducteur est autorisé à conduire.",
+          "text_nl": "De rechter moet het verval altijd toepassen op alle categorieën van voertuigen die de bestuurder mag besturen.",
+          "text_ru": "Судья всегда должен применять лишение ко всем категориям транспортных средств, которыми водитель имеет право управлять.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le juge a la possibilité de limiter la déchéance à certaines catégories de véhicules qu'il désigne.",
+          "text_nl": "De rechter heeft de mogelijkheid om het verval te beperken tot bepaalde categorieën van voertuigen die hij aangeeft.",
+          "text_ru": "Судья имеет возможность ограничить лишение определенными категориями транспортных средств, которые он указывает.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le juge ne peut jamais limiter la déchéance et doit toujours la rendre effective pour la catégorie B (voiture).",
+          "text_nl": "De rechter kan het verval nooit beperken en moet het altijd effectief maken voor categorie B (auto).",
+          "text_ru": "Судья никогда не может ограничить лишение и всегда должен применять его к категории B (автомобиль).",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La règle générale est que le juge peut limiter la déchéance du droit de conduire aux catégories de véhicules qu'il indique.",
+      "explanation_nl": "De algemene regel is dat de rechter het verval van het recht tot sturen kan beperken tot de categorieën van voertuigen die hij aangeeft.",
+      "explanation_ru": "Общее правило заключается в том, что судья может ограничить лишение водительских прав категориями транспортных средств, которые он указывает."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est l'exigence minimale concernant la portée d'une déchéance du droit de conduire lorsqu'une infraction a été commise avec un véhicule à moteur ?",
+      "text_nl": "Wat is de minimale vereiste betreffende de omvang van een verval van het recht tot sturen wanneer een overtreding is begaan met een motorvoertuig?",
+      "text_ru": "Каково минимальное требование относительно объема лишения водительских прав, когда нарушение было совершено с использованием моторного транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance doit obligatoirement s'appliquer à toutes les catégories de véhicules du conducteur.",
+          "text_nl": "Het verval moet verplicht betrekking hebben op alle categorieën van voertuigen van de bestuurder.",
+          "text_ru": "Лишение обязательно должно применяться ко всем категориям транспортных средств водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance doit s'appliquer au moins à la catégorie de véhicules avec laquelle l'infraction a été commise.",
+          "text_nl": "Het verval moet ten minste betrekking hebben op de categorie van voertuigen waarmee de overtreding werd begaan.",
+          "text_ru": "Лишение должно применяться как минимум к той категории транспортных средств, с помощью которой было совершено нарушение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance ne peut jamais s'appliquer uniquement à la catégorie du véhicule utilisé pour l'infraction.",
+          "text_nl": "Het verval kan nooit enkel betrekking hebben op de categorie van het voertuig dat voor de overtreding werd gebruikt.",
+          "text_ru": "Лишение никогда не может применяться исключительно к категории транспортного средства, использованного для нарушения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque l'infraction a été commise avec un véhicule à moteur, la déchéance doit s'appliquer au moins à la catégorie de véhicules avec laquelle l'infraction a été commise.",
+      "explanation_nl": "Wanneer de overtreding met een motorvoertuig werd begaan, moet het verval ten minste betrekking hebben op de categorie van voertuigen waarmee de overtreding werd begaan.",
+      "explanation_ru": "Когда нарушение было совершено с использованием моторного транспортного средства, лишение должно применяться как минимум к категории транспортных средств, с помощью которой было совершено нарушение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles circonstances le juge pourrait-il ne pas pouvoir limiter une déchéance du droit de conduire à certaines catégories de véhicules ?",
+      "text_nl": "In welke omstandigheden zou de rechter een verval van het recht tot sturen niet kunnen beperken tot bepaalde categorieën van voertuigen?",
+      "text_ru": "В каких обстоятельствах судья не сможет ограничить лишение водительских прав определенными категориями транспортных средств?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque l'infraction commise est jugée mineure et n'a pas entraîné de blessures.",
+          "text_nl": "Wanneer de begane overtreding als gering wordt beschouwd en geen letsel heeft veroorzaakt.",
+          "text_ru": "Когда совершенное нарушение считается незначительным и не повлекло за собой травм.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque la loi prévoit spécifiquement une déchéance illimitée ou lorsque la réintégration est subordonnée à la réussite d'examens et que la mesure est limitée à la catégorie utilisée lors de l'infraction.",
+          "text_nl": "Wanneer de wet specifiek voorziet in een onbeperkt verval of wanneer het herstel afhankelijk is van het slagen voor examens en de maatregel beperkt is tot de categorie die tijdens de overtreding is gebruikt.",
+          "text_ru": "Когда закон специально предусматривает неограниченное лишение или когда восстановление права на управление зависит от сдачи экзаменов, и мера ограничена категорией, использованной при нарушении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le juge peut toujours limiter la déchéance, quelles que soient les circonstances de l'infraction.",
+          "text_nl": "De rechter kan het verval altijd beperken, ongeacht de omstandigheden van de overtreding.",
+          "text_ru": "Судья всегда может ограничить лишение, независимо от обстоятельств нарушения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La limitation n'est pas possible dans certains cas spécifiques prévus par la loi, ou si la réintégration est subordonnée à des examens et que la mesure est limitée à la catégorie utilisée lors de l'infraction.",
+      "explanation_nl": "De beperking is niet mogelijk in bepaalde specifieke gevallen voorzien door de wet, of indien het herstel afhankelijk is van examens en de maatregel beperkt is tot de categorie die tijdens de overtreding is gebruikt.",
+      "explanation_ru": "Ограничение невозможно в некоторых специфических случаях, предусмотренных законом, или если восстановление права на управление зависит от сдачи экзаменов, и мера ограничена категорией, использованной при нарушении."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur commet une infraction grave avec sa voiture (catégorie B). Il est également titulaire d'un permis pour poids lourds (catégorie C). Le juge prononce une déchéance du droit de conduire. À quelles catégories cette déchéance doit-elle s'appliquer au minimum ?",
+      "text_nl": "Een bestuurder begaat een ernstige overtreding met zijn auto (categorie B). Hij is ook houder van een rijbewijs voor vrachtwagens (categorie C). De rechter spreekt een verval van het recht tot sturen uit. Op welke categorieën moet dit verval minimaal betrekking hebben?",
+      "text_ru": "Водитель совершает серьезное нарушение на своем автомобиле (категория B). Он также имеет водительские права на грузовик (категория C). Судья выносит решение о лишении водительских прав. К каким категориям это лишение должно применяться как минимум?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement à la catégorie C (poids lourds), car il s'agit d'une infraction grave.",
+          "text_nl": "Enkel op categorie C (vrachtwagens), omdat het een ernstige overtreding betreft.",
+          "text_ru": "Только к категории C (грузовики), так как это серьезное нарушение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au minimum à la catégorie B (voiture), et potentiellement à d'autres catégories si le juge le décide.",
+          "text_nl": "Minimaal op categorie B (auto), en potentieel op andere categorieën indien de rechter dit beslist.",
+          "text_ru": "Как минимум к категории B (автомобиль), и потенциально к другим категориям, если так решит судья.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À toutes les catégories de véhicules que le conducteur est autorisé à conduire (B et C).",
+          "text_nl": "Op alle categorieën van voertuigen die de bestuurder mag besturen (B en C).",
+          "text_ru": "Ко всем категориям транспортных средств, которыми водитель имеет право управлять (B и C).",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque l'infraction a été commise avec un véhicule à moteur (ici une voiture de catégorie B), la déchéance doit s'appliquer au moins à cette catégorie. Le juge peut étendre la déchéance à d'autres catégories, mais la catégorie utilisée est le minimum obligatoire.",
+      "explanation_nl": "Wanneer de overtreding met een motorvoertuig (hier een auto van categorie B) werd begaan, moet het verval ten minste betrekking hebben op deze categorie. De rechter kan het verval uitbreiden tot andere categorieën, maar de gebruikte categorie is het verplichte minimum.",
+      "explanation_ru": "Когда нарушение было совершено с использованием моторного транспортного средства (здесь легкового автомобиля категории B), лишение должно применяться как минимум к этой категории. Судья может распространить лишение на другие категории, но использованная категория является обязательным минимумом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur ayant le permis pour voiture et moto commet une infraction mineure avec sa voiture. Le juge souhaite lui imposer une déchéance, mais lui permettre de continuer à conduire sa moto pour des raisons professionnelles. Cette décision est-elle possible pour le juge ?",
+      "text_nl": "Een bestuurder met een rijbewijs voor auto en motor begaat een kleine overtreding met zijn auto. De rechter wil hem een verval opleggen, maar hem toestaan om zijn motor te blijven besturen om beroepsredenen. Is een dergelijk besluit mogelijk voor de rechter?",
+      "text_ru": "Водитель, имеющий права на автомобиль и мотоцикл, совершает незначительное нарушение на своем автомобиле. Судья хочет лишить его прав, но при этом разрешить ему продолжать управлять мотоциклом по профессиональным причинам. Возможно ли такое решение для судьи?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, une déchéance s'applique toujours à toutes les catégories de véhicules du conducteur.",
+          "text_nl": "Nee, een verval is altijd van toepassing op alle categorieën van voertuigen van de bestuurder.",
+          "text_ru": "Нет, лишение всегда распространяется на все категории транспортных средств водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, le juge peut limiter la déchéance à la catégorie de la voiture, lui permettant de conserver le droit de conduire sa moto.",
+          "text_nl": "Ja, de rechter kan het verval beperken tot de categorie van de auto, waardoor hij het recht behoudt om zijn motor te besturen.",
+          "text_ru": "Да, судья может ограничить лишение категорией автомобиля, позволяя ему сохранить право на управление мотоциклом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si l'infraction n'a pas été commise avec un véhicule à moteur.",
+          "text_nl": "Ja, maar alleen als de overtreding niet met een motorvoertuig is begaan.",
+          "text_ru": "Да, но только если нарушение не было совершено на моторном транспортном средстве.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le juge peut limiter la déchéance du droit de conduire aux catégories de véhicules qu'il indique. Dans ce cas, il pourrait limiter la déchéance à la voiture tout en permettant la conduite de la moto, à condition que l'infraction ne relève pas d'un cas où la limitation est impossible.",
+      "explanation_nl": "De rechter kan het verval van het recht tot sturen beperken tot de categorieën van voertuigen die hij aangeeft. In dit geval zou hij het verval kunnen beperken tot de auto, terwijl het besturen van de motor is toegestaan, op voorwaarde dat de overtreding niet onder een geval valt waarin beperking onmogelijk is.",
+      "explanation_ru": "Судья может ограничить лишение водительских прав категориями транспортных средств, которые он указывает. В данном случае он мог бы ограничить лишение управлением автомобилем, разрешая при этом управление мотоциклом, при условии, что нарушение не подпадает под случай, когда такое ограничение невозможно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur commet une infraction avec son camion. Le juge prononce une déchéance et, pour la réintégration de son droit de conduire, exige la réussite d'un nouvel examen de conduite. Le juge peut-il limiter l'obligation de passer cet examen uniquement à la catégorie du camion ?",
+      "text_nl": "Een bestuurder begaat een overtreding met zijn vrachtwagen. De rechter spreekt een verval uit en, voor het herstel in zijn recht tot sturen, eist hij het slagen voor een nieuw rijexamen. Kan de rechter de verplichting om dit examen af te leggen beperken tot enkel de categorie van de vrachtwagen?",
+      "text_ru": "Водитель совершает нарушение на своем грузовике. Судья выносит решение о лишении прав и, для восстановления его права на управление, требует сдачи нового экзамена по вождению. Может ли судья ограничить обязанность сдачи этого экзамена только категорией грузовика?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, si un examen est exigé, il doit concerner toutes les catégories de véhicules que le conducteur souhaite retrouver.",
+          "text_nl": "Nee, als een examen wordt vereist, moet het betrekking hebben op alle categorieën van voertuigen die de bestuurder wil terugkrijgen.",
+          "text_ru": "Нет, если экзамен требуется, он должен касаться всех категорий транспортных средств, которыми водитель желает снова управлять.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, le juge peut limiter la mesure de l'examen à la catégorie de véhicules avec laquelle l'infraction a été commise.",
+          "text_nl": "Ja, de rechter kan de maatregel van het examen beperken tot de categorie van voertuigen waarmee de overtreding is begaan.",
+          "text_ru": "Да, судья может ограничить меру экзамена категорией транспортных средств, с помощью которых было совершено нарушение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si l'infraction était très grave et que le juge estime que le conducteur est un danger public pour toutes les catégories.",
+          "text_nl": "Ja, maar enkel als de overtreding zeer ernstig was en de rechter van oordeel is dat de bestuurder een publiek gevaar vormt voor alle categorieën.",
+          "text_ru": "Да, но только если нарушение было очень серьезным и судья считает водителя общественной опасностью для всех категорий.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque le juge subordonne la réintégration dans le droit de conduire à la réussite d'un ou plusieurs examens, il peut limiter cette mesure à la catégorie de véhicules avec laquelle l’infraction ayant donné lieu à la déchéance a été commise.",
+      "explanation_nl": "Indien de rechter het herstel in het recht tot sturen afhankelijk maakt van het slagen voor een of meer examens, kan hij deze maatregel beperken tot de categorie van voertuigen waarmee de overtreding die aanleiding heeft gegeven tot verval, werd begaan.",
+      "explanation_ru": "Когда судья ставит восстановление права на управление в зависимость от сдачи одного или нескольких экзаменов, он может ограничить эту меру категорией транспортных средств, с помощью которой было совершено нарушение, повлекшее лишение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur, titulaire des permis B (voiture) et D (bus), commet une infraction grave avec sa voiture. Le juge souhaite limiter la déchéance uniquement à la catégorie D (bus), lui permettant de continuer à conduire sa voiture. Cette décision est-elle conforme aux règles ?",
+      "text_nl": "Een bestuurder, houder van rijbewijzen B (auto) en D (bus), begaat een ernstige overtreding met zijn auto. De rechter wil het verval beperken tot enkel categorie D (bus), waardoor hij zijn auto kan blijven besturen. Is dit besluit in overeenstemming met de regels?",
+      "text_ru": "Водитель, имеющий права категорий B (автомобиль) и D (автобус), совершает серьезное нарушение на своем автомобиле. Судья хочет ограничить лишение прав только категорией D (автобус), позволяя ему продолжать управлять своим автомобилем. Соответствует ли это решение правилам?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, le juge a toujours le pouvoir de limiter la déchéance comme il l'entend, même pour des infractions graves.",
+          "text_nl": "Ja, de rechter heeft altijd de bevoegdheid om het verval te beperken zoals hij dat wenst, zelfs voor ernstige overtredingen.",
+          "text_ru": "Да, судья всегда имеет право ограничить лишение по своему усмотрению, даже за серьезные нарушения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car la déchéance doit s'appliquer au moins à la catégorie de véhicule avec laquelle l'infraction a été commise (ici la catégorie B).",
+          "text_nl": "Nee, want het verval moet ten minste betrekking hebben op de categorie van voertuig waarmee de overtreding werd begaan (hier categorie B).",
+          "text_ru": "Нет, поскольку лишение должно применяться как минимум к той категории транспортного средства, с помощью которой было совершено нарушение (здесь категория B).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si le conducteur prouve qu'il n'utilisera jamais sa catégorie D.",
+          "text_nl": "Ja, maar enkel indien de bestuurder bewijst dat hij zijn categorie D nooit zal gebruiken.",
+          "text_ru": "Да, но только если водитель докажет, что никогда не будет использовать свою категорию D.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque l'infraction a été commise avec un véhicule à moteur, la déchéance doit s'appliquer au moins à la catégorie de véhicules avec laquelle l'infraction qui a donné lieu à la déchéance a été commise. Limiter la déchéance à une autre catégorie tout en autorisant la conduite du véhicule de l'infraction n'est pas permis.",
+      "explanation_nl": "Wanneer de overtreding met een motorvoertuig werd begaan, moet het verval ten minste betrekking hebben op de categorie van voertuigen waarmee de overtreding die aanleiding heeft gegeven tot verval, werd begaan. Het verval beperken tot een andere categorie terwijl het besturen van het voertuig waarmee de overtreding is begaan is toegestaan, is niet toegestaan.",
+      "explanation_ru": "Когда нарушение было совершено с использованием моторного транспортного средства, лишение должно применяться как минимум к категории транспортных средств, с помощью которой было совершено нарушение, повлекшее лишение. Ограничение лишения другой категорией при разрешении управлять транспортным средством, с помощью которого было совершено нарушение, не допускается."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Suite à une infraction commise avec une voiture, un juge exige d'un conducteur qu'il subisse des examens médicaux et psychologiques avant de retrouver son droit de conduire. Le juge peut-il spécifier que ces examens ne concernent que la catégorie du véhicule utilisé (la voiture), sans affecter la réintégration des autres catégories de permis qu'il possède ?",
+      "text_nl": "Na een overtreding begaan met een auto, eist een rechter van een bestuurder dat hij medische en psychologische onderzoeken ondergaat alvorens zijn recht tot sturen terug te krijgen. Kan de rechter bepalen dat deze onderzoeken alleen betrekking hebben op de categorie van het gebruikte voertuig (de auto), zonder het herstel van de andere rijbewijscategorieën die hij bezit te beïnvloeden?",
+      "text_ru": "После нарушения, совершенного на автомобиле, судья требует от водителя прохождения медицинских и психологических обследований, прежде чем ему будет возвращено право на управление. Может ли судья указать, что эти обследования касаются только категории использованного транспортного средства (автомобиля), не влияя на восстановление других категорий водительских прав, которыми он обладает?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, tous les examens exigés pour la réintégration doivent toujours couvrir toutes les catégories de permis possédées.",
+          "text_nl": "Nee, alle vereiste onderzoeken voor herstel moeten altijd alle bezeten rijbewijscategorieën omvatten.",
+          "text_ru": "Нет, все требуемые обследования для восстановления должны всегда охватывать все имеющиеся категории водительских прав.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, le juge peut limiter l'exigence de ces examens à la catégorie du véhicule avec laquelle l'infraction a été commise.",
+          "text_nl": "Ja, de rechter kan de vereiste van deze onderzoeken beperken tot de categorie van het voertuig waarmee de overtreding is begaan.",
+          "text_ru": "Да, судья может ограничить требование этих обследований категорией транспортного средства, с помощью которой было совершено нарушение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cela dépend de la gravité des résultats des examens initiaux menés par la police.",
+          "text_nl": "Dit hangt af van de ernst van de resultaten van de initiële onderzoeken uitgevoerd door de politie.",
+          "text_ru": "Это зависит от серьезности результатов первоначальных обследований, проведенных полицией.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque le juge subordonne la réintégration dans le droit de conduire à la condition d’avoir satisfait à un ou plusieurs examens, il peut limiter cette mesure à la catégorie de véhicules avec laquelle l’infraction ayant donné lieu à la déchéance a été commise. Cela inclut les examens médicaux et psychologiques.",
+      "explanation_nl": "Indien de rechter het herstel in het recht tot sturen afhankelijk maakt van het slagen voor een of meer examens, kan hij deze maatregel beperken tot de categorie van voertuigen waarmee de overtreding die aanleiding heeft gegeven tot verval, werd begaan. Dit omvat medische en psychologische onderzoeken.",
+      "explanation_ru": "Когда судья ставит восстановление права на управление в зависимость от сдачи одного или нескольких экзаменов, он может ограничить эту меру категорией транспортных средств, с помощью которой было совершено нарушение, повлекшее лишение. Это включает медицинские и психологические обследования."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "2a8b1ffde76f",
@@ -40,6 +337,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:44:47Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

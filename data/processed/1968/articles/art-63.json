@@ -33,7 +33,304 @@
   "anchor_id_fr": "7xqkcouloj",
   "anchor_id_nl": "fm1gu7t7sw",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel cas précis les autorités peuvent-elles exiger un prélèvement sanguin pour vérifier le taux d'alcoolémie si une analyse d'haleine ne peut être effectuée ?",
+      "text_nl": "In welk specifiek geval kunnen de autoriteiten een bloedafname eisen om het alcoholgehalte te controleren indien een ademanalyse niet kan worden uitgevoerd?",
+      "text_ru": "В каком конкретном случае власти могут потребовать взятия крови для проверки уровня алкоголя, если анализ выдыхаемого воздуха не может быть проведен?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si le test d'haleine est négatif, mais le conducteur semble ivre.",
+          "text_nl": "Indien de ademtest negatief is, maar de bestuurder dronken lijkt.",
+          "text_ru": "Если тест на выдыхаемом воздухе отрицательный, но водитель кажется пьяным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si le test d'haleine indique au moins 0,22 milligramme d'alcool par litre d'air expiré et qu'une analyse de l'haleine n'est pas possible.",
+          "text_nl": "Indien de ademtest ten minste 0,22 milligram alcohol per liter uitgeademde lucht aangeeft en een ademanalyse niet mogelijk is.",
+          "text_ru": "Если тест на выдыхаемом воздухе показывает не менее 0,22 миллиграмма алкоголя на литр выдыхаемого воздуха и анализ выдыхаемого воздуха невозможен.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si le conducteur refuse le test d'haleine initial.",
+          "text_nl": "Enkel indien de bestuurder de initiële ademtest weigert.",
+          "text_ru": "Только если водитель отказывается от первоначального теста на выдыхаемом воздухе.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les autorités peuvent exiger un prélèvement sanguin lorsque le test d'haleine décèle un taux d'alcool d'au moins 0,22 milligramme par litre d'air alvéolaire expiré et qu'une analyse de l'haleine ne peut être effectuée.",
+      "explanation_nl": "De autoriteiten kunnen een bloedafname eisen wanneer de ademtest een alcoholgehalte van ten minste 0,22 milligram per liter uitgeademde alveolaire lucht aangeeft en een ademanalyse niet kan worden uitgevoerd.",
+      "explanation_ru": "Власти могут потребовать взятия крови, если тест на выдыхаемом воздухе показывает уровень алкоголя не менее 0,22 миллиграмма на литр выдыхаемого воздуха и анализ выдыхаемого воздуха не может быть проведен."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quand est-il requis de subir un prélèvement sanguin pour vérifier la présence de substances illicites, si une analyse de salive ne peut être effectuée ?",
+      "text_nl": "Wanneer is het verplicht een bloedafname te ondergaan voor de controle op de aanwezigheid van illegale stoffen, indien een speekselanalyse niet kan worden uitgevoerd?",
+      "text_ru": "Когда требуется пройти анализ крови для проверки наличия запрещенных веществ, если анализ слюны не может быть проведен?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement si le conducteur est soupçonné de consommer de l'alcool, mais pas de drogues.",
+          "text_nl": "Enkel indien de bestuurder verdacht wordt van alcoholgebruik, maar niet van drugs.",
+          "text_ru": "Только если водителя подозревают в употреблении алкоголя, но не наркотиков.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si le test salivaire détecte des substances en quantité égale ou supérieure au seuil fixé et qu'une analyse de salive est impossible, ou si ni le test ni l'analyse de salive n'ont pu être effectués.",
+          "text_nl": "Indien de speekseltest stoffen detecteert in een gehalte dat gelijk is aan of hoger is dan de vastgestelde drempel en een speekselanalyse onmogelijk is, of indien noch de speekseltest noch de speekselanalyse kon worden uitgevoerd.",
+          "text_ru": "Если тест слюны обнаруживает вещества в количестве, равном или превышающем установленный порог, и анализ слюны невозможен, или если ни тест, ни анализ слюны не могли быть проведены.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le conducteur refuse catégoriquement tout test.",
+          "text_nl": "Indien de bestuurder categorisch elke test weigert.",
+          "text_ru": "Если водитель категорически отказывается от любого теста.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un prélèvement sanguin est requis si un test salivaire détecte au moins une des substances en question dont le taux est égal ou supérieur au seuil fixé et qu'il ne peut être procédé à une analyse de salive, ou si ni un test salivaire ni une analyse de salive n'ont pu être effectués.",
+      "explanation_nl": "Een bloedafname is verplicht indien de speekseltest minstens één van de stoffen detecteert waarvan het gehalte gelijk is aan of hoger is dan de vastgestelde drempel en een speekselanalyse niet kan worden uitgevoerd, of indien noch een speekseltest noch een speekselanalyse kon worden uitgevoerd.",
+      "explanation_ru": "Взятие крови требуется, если тест слюны обнаруживает по крайней мере одно из веществ, уровень которого равен или превышает установленный порог, и анализ слюны не может быть проведен, или если ни тест слюны, ни анализ слюны не могли быть проведены."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel cas un conducteur peut-il demander, à titre de contre-expertise, un prélèvement sanguin après une analyse d'haleine ?",
+      "text_nl": "In welk geval kan een bestuurder, als tegenexpertise, een bloedafname vragen na een ademanalyse?",
+      "text_ru": "В каком случае водитель может запросить, в качестве контрольной экспертизы, анализ крови после анализа выдыхаемого воздуха?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Quand le test d'haleine initial est très élevé, peu importe le résultat de l'analyse.",
+          "text_nl": "Wanneer de initiële ademtest zeer hoog is, ongeacht het analyseresultaat.",
+          "text_ru": "Когда первоначальный тест на выдыхаемом воздухе очень высок, независимо от результата анализа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si l'analyse de l'haleine a mesuré une concentration d'alcool d'au moins 0,35 milligramme par litre d'air expiré.",
+          "text_nl": "Indien de ademanalyse een alcoholconcentratie van ten minste 0,35 milligram per liter uitgeademde lucht heeft gemeten.",
+          "text_ru": "Если анализ выдыхаемого воздуха показал концентрацию алкоголя не менее 0,35 миллиграмма на литр выдыхаемого воздуха.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si le conducteur a des antécédents médicaux particuliers.",
+          "text_nl": "Enkel indien de bestuurder bijzondere medische voorgeschiedenis heeft.",
+          "text_ru": "Только если у водителя есть особые медицинские показания.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un prélèvement sanguin peut être demandé à titre de contre-expertise si l'analyse de l'haleine obtenue a mesuré une concentration d'alcool d'au moins 0,35 milligramme par litre d'air alvéolaire expiré.",
+      "explanation_nl": "Een bloedafname kan als tegenexpertise worden gevraagd indien de verkregen ademanalyse een alcoholconcentratie van ten minste 0,35 milligram per liter uitgeademde alveolaire lucht heeft gemeten.",
+      "explanation_ru": "Взятие крови может быть запрошено в качестве контрольной экспертизы, если анализ выдыхаемого воздуха показал концентрацию алкоголя не менее 0,35 миллиграмма на литр выдыхаемого воздуха."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Lors d'un contrôle routier, un agent vous fait passer un test d'haleine qui indique 0,25 milligramme d'alcool par litre d'air expiré. Cependant, l'appareil d'analyse d'haleine est en panne. Quelle est la procédure que l'agent est tenu de suivre ?",
+      "text_nl": "Tijdens een verkeerscontrole laat een agent u een ademtest afleggen die 0,25 milligram alcohol per liter uitgeademde lucht aangeeft. Het ademanalyseapparaat is echter defect. Welke procedure dient de agent te volgen?",
+      "text_ru": "Во время дорожной проверки сотрудник полиции заставляет вас пройти тест на выдыхаемом воздухе, который показывает 0,25 миллиграмма алкоголя на литр выдыхаемого воздуха. Однако прибор для анализа выдыхаемого воздуха неисправен. Какую процедуру обязан соблюдать сотрудник?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer conducting a breathalyzer test with a driver, indicating a broken breath analysis device in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous serez invité à attendre qu'un autre appareil soit disponible.",
+          "text_nl": "U zult worden uitgenodigd om te wachten tot een ander apparaat beschikbaar is.",
+          "text_ru": "Вам будет предложено подождать, пока не появится другой прибор.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'agent doit vous faire subir un prélèvement sanguin par un médecin.",
+          "text_nl": "De agent moet u een bloedproef laten ondergaan door een geneesheer.",
+          "text_ru": "Сотрудник должен заставить вас пройти взятие крови врачом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous recevrez une amende et pourrez repartir.",
+          "text_nl": "U krijgt een boete en mag vertrekken.",
+          "text_ru": "Вы получите штраф и сможете уехать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si le test d'haleine décèle un taux d'alcool d'au moins 0,22 milligramme par litre d'air alvéolaire expiré et qu'une analyse de l'haleine ne peut être effectuée, un prélèvement sanguin est obligatoire.",
+      "explanation_nl": "Indien de ademtest een alcoholgehalte van ten minste 0,22 milligram per liter uitgeademde alveolaire lucht aangeeft en een ademanalyse niet kan worden uitgevoerd, is een bloedafname verplicht.",
+      "explanation_ru": "Если тест на выдыхаемом воздухе показывает уровень алкоголя не менее 0,22 миллиграмма на литр выдыхаемого воздуха и анализ выдыхаемого воздуха не может быть проведен, взятие крови является обязательным."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Les autorités vous arrêtent et vous soupçonnent de conduire sous l'influence de drogues. Un test salivaire rapide détecte la présence d'une substance dont le taux est supérieur au seuil autorisé, mais il est impossible de réaliser une analyse salivaire plus approfondie. Que se passe-t-il ensuite ?",
+      "text_nl": "De autoriteiten houden u aan en vermoeden dat u onder invloed van drugs rijdt. Een snelle speekseltest detecteert de aanwezigheid van een stof waarvan het gehalte hoger is dan de toegestane drempel, maar het is onmogelijk om een diepere speekselanalyse uit te voeren. Wat gebeurt er dan?",
+      "text_ru": "Власти останавливают вас по подозрению в управлении автомобилем под воздействием наркотиков. Экспресс-тест слюны обнаруживает присутствие вещества, уровень которого превышает допустимый порог, но невозможно провести более глубокий анализ слюны. Что происходит дальше?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer conducting a saliva drug test on a driver, showing a positive result, and indicating a broken lab equipment for saliva analysis in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous êtes relâché car l'analyse confirmative n'a pas pu être faite.",
+          "text_nl": "U wordt vrijgelaten omdat de bevestigende analyse niet kon worden uitgevoerd.",
+          "text_ru": "Вас отпускают, так как подтверждающий анализ не мог быть сделан.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un prélèvement sanguin par un médecin est exigé.",
+          "text_nl": "Een bloedafname door een geneesheer is vereist.",
+          "text_ru": "Требуется взятие крови врачом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police vous donne un rendez-vous pour une analyse ultérieure.",
+          "text_nl": "De politie geeft u een afspraak voor een latere analyse.",
+          "text_ru": "Полиция назначает вам встречу для последующего анализа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si le test salivaire détecte au moins une des substances en question dont le taux est égal ou supérieur au seuil fixé et qu'il ne peut être procédé à une analyse de salive, un prélèvement sanguin est obligatoire.",
+      "explanation_nl": "Indien de speekseltest minstens één van de stoffen detecteert waarvan het gehalte gelijk is aan of hoger is dan de vastgestelde drempel en een speekselanalyse niet kan worden uitgevoerd, is een bloedafname verplicht.",
+      "explanation_ru": "Если тест слюны обнаруживает по крайней мере одно из веществ, уровень которого равен или превышает установленный порог, и анализ слюны не может быть проведен, взятие крови является обязательным."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Lors d'un contrôle routier, pour diverses raisons, ni un test d'haleine ni une analyse d'haleine n'ont pu être réalisés. Les agents ne peuvent pas non plus déterminer si vous montrez des signes d'alcoolémie. Quelle est l'étape suivante obligatoire ?",
+      "text_nl": "Tijdens een verkeerscontrole konden om verschillende redenen geen ademtest of ademanalyse worden uitgevoerd. De agenten kunnen ook niet vaststellen of u tekenen van alcoholopname vertoont. Wat is de volgende verplichte stap?",
+      "text_ru": "Во время дорожной проверки по разным причинам не удалось провести ни тест, ни анализ выдыхаемого воздуха. Сотрудники также не могут определить, проявляете ли вы признаки алкогольного опьянения. Каков следующий обязательный шаг?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer at a traffic stop, driver looking confused, indicating that breath test and analysis were not possible, and there are no clear signs of intoxication. A medical professional is arriving."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La police abandonne les poursuites à cause du manque de preuves.",
+          "text_nl": "De politie staakt de vervolging wegens gebrek aan bewijs.",
+          "text_ru": "Полиция прекращает преследование из-за отсутствия доказательств.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un médecin sera requis pour effectuer un prélèvement sanguin.",
+          "text_nl": "Een geneesheer zal worden opgevorderd om een bloedafname uit te voeren.",
+          "text_ru": "Будет вызван врач для проведения взятия крови.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous recevez une convocation pour un test à faire plus tard au commissariat.",
+          "text_nl": "U ontvangt een oproep om later op het politiebureau een test af te leggen.",
+          "text_ru": "Вы получите повестку на прохождение теста позже в полицейском участке.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si ni le test d'haleine ni l'analyse d'haleine n'ont pu être effectués et qu'il est impossible de rechercher des signes d'imprégnation alcoolique, les autorités peuvent imposer un prélèvement sanguin par un médecin.",
+      "explanation_nl": "Indien noch de ademtest noch de ademanalyse kon worden uitgevoerd, en het onmogelijk is na te gaan of er tekenen van alcoholopname zijn, kunnen de autoriteiten een bloedproef laten ondergaan door een geneesheer.",
+      "explanation_ru": "Если ни тест, ни анализ выдыхаемого воздуха не могли быть проведены, и невозможно проверить наличие признаков алкогольного опьянения, власти могут потребовать взятия крови врачом."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Suite à une analyse d'haleine, le résultat est de 0,40 milligramme d'alcool par litre d'air expiré. Vous contestez ce résultat. Que pouvez-vous demander comme mesure de contre-expertise ?",
+      "text_nl": "Na een ademanalyse is het resultaat 0,40 milligram alcohol per liter uitgeademde lucht. U betwist dit resultaat. Welke tegenexpertise kunt u aanvragen?",
+      "text_ru": "После анализа выдыхаемого воздуха результат составляет 0,40 миллиграмма алкоголя на литр выдыхаемого воздуха. Вы оспариваете этот результат. Какую контрольную экспертизу вы можете запросить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Driver disputing a breathalyzer result with a police officer, with the number 0.40 mg/L visible on a screen. A doctor is in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un second test d'haleine immédiat.",
+          "text_nl": "Een tweede onmiddellijke ademtest.",
+          "text_ru": "Немедленный повторный тест на выдыхаемом воздухе.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un prélèvement sanguin par un médecin.",
+          "text_nl": "Een bloedafname door een geneesheer.",
+          "text_ru": "Взятие крови врачом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un test salivaire pour d'autres substances.",
+          "text_nl": "Een speekseltest voor andere stoffen.",
+          "text_ru": "Тест слюны на другие вещества.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si l'analyse de l'haleine a mesuré une concentration d'alcool d'au moins 0,35 milligramme par litre d'air alvéolaire expiré, vous avez le droit de demander un prélèvement sanguin à titre de contre-expertise.",
+      "explanation_nl": "Indien de ademanalyse een alcoholconcentratie van ten minste 0,35 milligram per liter uitgeademde alveolaire lucht heeft gemeten, heeft u het recht om een bloedafname als tegenexpertise te vragen.",
+      "explanation_ru": "Если анализ выдыхаемого воздуха показал концентрацию алкоголя не менее 0,35 миллиграмма на литр выдыхаемого воздуха, вы имеете право запросить взятие крови в качестве контрольной экспертизы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un prélèvement sanguin a été effectué suite à une suspicion de conduite sous influence. Plus tard, une infraction de conduite sous l'influence de l'alcool est établie. Qui est responsable du paiement des frais de ce prélèvement et de son analyse ?",
+      "text_nl": "Een bloedafname werd uitgevoerd naar aanleiding van een vermoeden van rijden onder invloed. Later wordt een overtreding wegens rijden onder invloed van alcohol vastgesteld. Wie is verantwoordelijk voor de betaling van de kosten van deze bloedafname en de analyse ervan?",
+      "text_ru": "Был взят анализ крови по подозрению в вождении в состоянии опьянения. Позже было установлено нарушение правил вождения в состоянии алкогольного опьянения. Кто несет ответственность за оплату расходов по этому взятию крови и его анализу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person receiving a bill for a blood test, with a car and police lights in the background, implying a traffic infraction."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'État prend en charge ces frais dans tous les cas.",
+          "text_nl": "De Staat draagt deze kosten in alle gevallen.",
+          "text_ru": "Государство покрывает эти расходы во всех случаях.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La personne examinée doit les payer si l'infraction est prouvée.",
+          "text_nl": "De onderzochte persoon moet deze betalen indien de overtreding bewezen is.",
+          "text_ru": "Обследуемое лицо должно оплатить их, если нарушение доказано.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La compagnie d'assurance du conducteur couvrira les frais.",
+          "text_nl": "De verzekeringsmaatschappij van de bestuurder zal de kosten dekken.",
+          "text_ru": "Страховая компания водителя покроет расходы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les frais de prélèvement et de l'analyse du sang sont à la charge de la personne examinée si l'infraction liée à la conduite sous l'influence de l'alcool est établie.",
+      "explanation_nl": "De kosten van het nemen van het bloedstaal en van de bloedanalyse komen ten laste van de onderzochte persoon indien de overtreding wegens rijden onder invloed van alcohol bewezen is.",
+      "explanation_ru": "Расходы на взятие и анализ крови несет обследуемое лицо, если установлено нарушение, связанное с вождением в состоянии алкогольного опьянения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "b81354f0edf0",
@@ -43,6 +340,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:55:23Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

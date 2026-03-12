@@ -31,7 +31,304 @@
   "anchor_id_fr": "lutulbdyt3",
   "anchor_id_nl": "rn3xkkfwmr",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "À partir de quelle concentration d'alcool dans l'air expiré un conducteur doit-il se soumettre à une analyse de l'haleine par les autorités ?",
+      "text_nl": "Vanaf welke alcoholconcentratie in de uitgeademde lucht moet een bestuurder een ademanalyse ondergaan van de autoriteiten?",
+      "text_ru": "С какой концентрации алкоголя в выдыхаемом воздухе водитель должен пройти анализ дыхания, проводимый властями?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au moins 0,09 milligramme par litre d'air alvéolaire expiré.",
+          "text_nl": "Ten minste 0,09 milligram per liter uitgeademde alveolaire lucht.",
+          "text_ru": "Не менее 0,09 миллиграмма на литр выдыхаемого альвеолярного воздуха.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au moins 0,22 milligramme par litre d'air alvéolaire expiré.",
+          "text_nl": "Ten minste 0,22 milligram per liter uitgeademde alveolaire lucht.",
+          "text_ru": "Не менее 0,22 миллиграмма на литр выдыхаемого альвеолярного воздуха.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Au moins 0,35 milligramme par litre d'air alvéolaire expiré.",
+          "text_nl": "Ten minste 0,35 milligram per liter uitgeademde alveolaire lucht.",
+          "text_ru": "Не менее 0,35 миллиграмма на литр выдыхаемого альвеолярного воздуха.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une analyse de l'haleine est généralement requise lorsque le test de l'haleine détecte une concentration d'alcool d'au moins 0,22 milligramme par litre d'air alvéolaire expiré. Il existe une exception pour certains cas spécifiques où ce seuil est de 0,09 milligramme.",
+      "explanation_nl": "Een ademanalyse is doorgaans vereist wanneer de ademtest een alcoholconcentratie van ten minste 0,22 milligram per liter uitgeademde alveolaire lucht aangeeft. Er is een uitzondering voor specifieke gevallen waar deze drempel 0,09 milligram bedraagt.",
+      "explanation_ru": "Анализ дыхания обычно требуется, когда тест на выдыхаемый воздух показывает концентрацию алкоголя не менее 0,22 миллиграмма на литр выдыхаемого альвеолярного воздуха. Существует исключение для некоторых специфических случаев, когда этот порог составляет 0,09 миллиграмма."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle unité de mesure est utilisée pour exprimer la concentration d'alcool dans l'air expiré lors des tests effectués par les autorités pour déterminer les restrictions de conduite ?",
+      "text_nl": "Welke meeteenheid wordt gebruikt om de alcoholconcentratie in de uitgeademde lucht uit te drukken bij tests die door de autoriteiten worden uitgevoerd om rijbeperkingen te bepalen?",
+      "text_ru": "Какая единица измерения используется для выражения концентрации алкоголя в выдыхаемом воздухе при тестах, проводимых властями для определения ограничений на вождение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Grammes par litre de sang.",
+          "text_nl": "Gram per liter bloed.",
+          "text_ru": "Граммы на литр крови.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Millilitres par litre d'air.",
+          "text_nl": "Milliliter per liter lucht.",
+          "text_ru": "Миллилитры на литр воздуха.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Milligrammes par litre d'air alvéolaire expiré.",
+          "text_nl": "Milligram per liter uitgeademde alveolaire lucht.",
+          "text_ru": "Миллиграммы на литр выдыхаемого альвеолярного воздуха.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La concentration d'alcool est mesurée en milligrammes par litre d'air alvéolaire expiré pour les tests d'haleine et les analyses d'haleine.",
+      "explanation_nl": "De alcoholconcentratie wordt gemeten in milligram per liter uitgeademde alveolaire lucht voor ademtests en ademanalyses.",
+      "explanation_ru": "Концентрация алкоголя измеряется в миллиграммах на литр выдыхаемого альвеолярного воздуха для тестов и анализов дыхания."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que se passe-t-il si un conducteur refuse de se soumettre à un test de l'haleine ou à une analyse de l'haleine lorsque les autorités le demandent ?",
+      "text_nl": "Wat gebeurt er als een bestuurder weigert een ademtest of ademanalyse te ondergaan wanneer de autoriteiten dit vragen?",
+      "text_ru": "Что происходит, если водитель отказывается пройти тест на выдыхаемый воздух или анализ дыхания по требованию властей?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur reçoit une simple amende sans autre conséquence immédiate.",
+          "text_nl": "De bestuurder krijgt alleen een boete zonder verdere onmiddellijke gevolgen.",
+          "text_ru": "Водитель получает только штраф без других немедленных последствий.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis de conduire du conducteur est prolongé pour une période d'un an.",
+          "text_nl": "Het rijbewijs van de bestuurder wordt met één jaar verlengd.",
+          "text_ru": "Водительские права водителя продлеваются на один год.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une interdiction de conduire un véhicule ou une monture, ou d'accompagner un conducteur en apprentissage, est imposée pour une durée de six heures.",
+          "text_nl": "Een verbod om een voertuig of een rijdier te besturen, of om een leerling-bestuurder te begeleiden, wordt opgelegd voor een duur van zes uren.",
+          "text_ru": "Запрет на вождение транспортного средства или верхового животного, или на сопровождение обучающегося водителя, налагается на шесть часов.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "En cas de refus du test de l'haleine ou de l'analyse de l'haleine, une interdiction de conduire ou d'accompagner est imposée pour une durée de six heures à compter de la constatation.",
+      "explanation_nl": "In geval van weigering van de ademtest of de ademanalyse, wordt een verbod om te rijden of te begeleiden opgelegd voor een duur van zes uren te rekenen vanaf de vaststelling.",
+      "explanation_ru": "В случае отказа от теста на выдыхаемый воздух или анализа дыхания, налагается запрет на вождение или сопровождение на шесть часов с момента выявления нарушения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un accompagnateur d'un élève conducteur est soumis à un test d'haleine sur une voie publique. Le test révèle une concentration d'alcool de 0,15 milligramme par litre d'air alvéolaire expiré. Quelle est la conséquence immédiate pour l'accompagnateur ?",
+      "text_nl": "Een begeleider van een leerling-bestuurder wordt onderworpen aan een ademtest op een openbare plaats. De test toont een alcoholconcentratie van 0,15 milligram per liter uitgeademde alveolaire lucht. Wat is het onmiddellijke gevolg voor de begeleider?",
+      "text_ru": "Сопровождающий ученика-водителя проходит тест на выдыхаемый воздух на дороге общего пользования. Тест показывает концентрацию алкоголя 0,15 миллиграмма на литр выдыхаемого альвеолярного воздуха. Каково немедленное последствие для сопровождающего?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer performing a breath test on an adult next to a car with a learner driver."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune interdiction immédiate de conduire ou d'accompagner n'est appliquée.",
+          "text_nl": "Geen onmiddellijk rij- of begeleidingsverbod wordt toegepast.",
+          "text_ru": "Немедленный запрет на вождение или сопровождение не применяется.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une interdiction de conduire ou d'accompagner est imposée pour une durée de trois heures.",
+          "text_nl": "Een rij- of begeleidingsverbod wordt opgelegd voor een duur van drie uren.",
+          "text_ru": "Запрет на вождение или сопровождение налагается на три часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une interdiction de conduire ou d'accompagner est imposée pour une durée de deux heures.",
+          "text_nl": "Een rij- of begeleidingsverbod wordt opgelegd voor een duur van twee uren.",
+          "text_ru": "Запрет на вождение или сопровождение налагается на два часа.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Pour un accompagnateur d'un élève conducteur, une concentration d'alcool comprise entre 0,09 milligramme et moins de 0,22 milligramme par litre d'air alvéolaire expiré entraîne une interdiction de conduire ou d'accompagner de deux heures.",
+      "explanation_nl": "Voor een begeleider van een leerling-bestuurder leidt een alcoholconcentratie tussen 0,09 milligram en minder dan 0,22 milligram per liter uitgeademde alveolaire lucht tot een verbod om te rijden of te begeleiden van twee uren.",
+      "explanation_ru": "Для сопровождающего ученика-водителя концентрация алкоголя от 0,09 миллиграмма до менее 0,22 миллиграмма на литр выдыхаемого альвеолярного воздуха влечет за собой запрет на вождение или сопровождение на два часа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes contrôlé en tant que conducteur sur la voie publique. L'analyse de votre haleine mesure une concentration d'alcool de 0,28 milligramme par litre d'air alvéolaire expiré. Quelle est la durée de l'interdiction de conduire ou d'accompagner qui vous est imposée ?",
+      "text_nl": "U wordt gecontroleerd als bestuurder op de openbare weg. Uw ademanalyse meet een alcoholconcentratie van 0,28 milligram per liter uitgeademde alveolaire lucht. Hoe lang duurt het rij- of begeleidingsverbod dat u wordt opgelegd?",
+      "text_ru": "Вы, как водитель, проходите проверку на дороге общего пользования. Анализ вашего дыхания показывает концентрацию алкоголя 0,28 миллиграмма на литр выдыхаемого альвеолярного воздуха. Какова продолжительность запрета на вождение или сопровождение, которое вам налагается?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer performing a breath analysis on a driver at night."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Deux heures.",
+          "text_nl": "Twee uren.",
+          "text_ru": "Два часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Trois heures.",
+          "text_nl": "Drie uren.",
+          "text_ru": "Три часа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Six heures.",
+          "text_nl": "Zes uren.",
+          "text_ru": "Шесть часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une concentration d'alcool d'au moins 0,22 milligramme et inférieure à 0,35 milligramme par litre d'air alvéolaire expiré entraîne une interdiction de conduire ou d'accompagner de trois heures.",
+      "explanation_nl": "Een alcoholconcentratie van ten minste 0,22 milligram en minder dan 0,35 milligram per liter uitgeademde alveolaire lucht leidt tot een rij- of begeleidingsverbod van drie uren.",
+      "explanation_ru": "Концентрация алкоголя не менее 0,22 миллиграмма и менее 0,35 миллиграмма на литр выдыхаемого альвеолярного воздуха влечет за собой запрет на вождение или сопровождение на три часа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Les forces de l'ordre vous arrêtent pour un contrôle routier sur une voie publique. L'analyse de votre haleine indique une concentration d'alcool de 0,40 milligramme par litre d'air alvéolaire expiré. Quelle est la durée de l'interdiction de conduire ou d'accompagner qui vous est imposée ?",
+      "text_nl": "De politie houdt u staande voor een verkeerscontrole op een openbare weg. Uw ademanalyse toont een alcoholconcentratie van 0,40 milligram per liter uitgeademde alveolaire lucht. Hoe lang duurt het rij- of begeleidingsverbod dat u wordt opgelegd?",
+      "text_ru": "Полиция останавливает вас для дорожной проверки на дороге общего пользования. Анализ вашего дыхания показывает концентрацию алкоголя 0,40 миллиграмма на литр выдыхаемого альвеолярного воздуха. Какова продолжительность запрета на вождение или сопровождение, которое вам налагается?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police car stopping a vehicle, officer talking to driver."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Trois heures.",
+          "text_nl": "Drie uren.",
+          "text_ru": "Три часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Six heures.",
+          "text_nl": "Zes uren.",
+          "text_ru": "Шесть часов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Douze heures.",
+          "text_nl": "Twaalf uren.",
+          "text_ru": "Двенадцать часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque l'analyse de l'haleine mesure une concentration d'alcool d'au moins 0,35 milligramme par litre d'air alvéolaire expiré, une interdiction de conduire ou d'accompagner de six heures est imposée.",
+      "explanation_nl": "Wanneer de ademanalyse een alcoholconcentratie van ten minste 0,35 milligram per liter uitgeademde alveolaire lucht meet, wordt een rij- of begeleidingsverbod van zes uren opgelegd.",
+      "explanation_ru": "Когда анализ дыхания показывает концентрацию алкоголя не менее 0,35 миллиграмма на литр выдыхаемого альвеолярного воздуха, налагается запрет на вождение или сопровождение на шесть часов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Après un incident sur la voie publique, vous êtes manifestement sous l'influence de l'alcool, mais pour une raison autre qu'un refus de votre part, aucun test de l'haleine ni aucune analyse de l'haleine ne peut être effectué. Quelle est la durée de l'interdiction de conduire ou d'accompagner qui vous est imposée ?",
+      "text_nl": "Na een incident op de openbare weg bent u duidelijk onder invloed van alcohol, maar om een andere reden dan uw weigering kan er geen ademtest of ademanalyse worden uitgevoerd. Hoe lang duurt het rij- of begeleidingsverbod dat u wordt opgelegd?",
+      "text_ru": "После инцидента на дороге общего пользования вы явно находитесь под воздействием алкоголя, но по причине, не связанной с вашим отказом, ни тест на выдыхаемый воздух, ни анализ дыхания не могут быть проведены. Какова продолжительность запрета на вождение или сопровождение, которое вам налагается?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer talking to a driver who appears to be under influence, but no breathalyzer is present or functioning."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Deux heures.",
+          "text_nl": "Twee uren.",
+          "text_ru": "Два часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Trois heures.",
+          "text_nl": "Drie uren.",
+          "text_ru": "Три часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Six heures.",
+          "text_nl": "Zes uren.",
+          "text_ru": "Шесть часов.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Si ni le test ni l'analyse de l'haleine ne peuvent être effectués (pour une raison autre que le refus) et que la personne donne des signes évidents d'imprégnation alcoolique, une interdiction de six heures est imposée.",
+      "explanation_nl": "Als noch de ademtest noch de ademanalyse kunnen worden uitgevoerd (om een andere reden dan weigering) en de persoon duidelijke tekenen van alcoholintoxicatie vertoont, wordt een verbod van zes uren opgelegd.",
+      "explanation_ru": "Если ни тест, ни анализ дыхания не могут быть проведены (по причине, отличной от отказа) и человек проявляет явные признаки алкогольного опьянения, налагается запрет на шесть часов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Après avoir été soumis à une interdiction de conduire de six heures pour une concentration élevée d'alcool, vous passez une nouvelle analyse de l'haleine avant de reprendre la route. Celle-ci révèle une concentration de 0,25 milligramme par litre d'air alvéolaire expiré. Que se passe-t-il ?",
+      "text_nl": "Nadat u een rijverbod van zes uren heeft gekregen wegens een hoge alcoholconcentratie, ondergaat u een nieuwe ademanalyse voordat u weer de weg op gaat. Deze toont een concentratie van 0,25 milligram per liter uitgeademde alveolaire lucht. Wat gebeurt er?",
+      "text_ru": "После того как вам было запрещено вождение на шесть часов из-за высокой концентрации алкоголя, вы проходите повторный анализ дыхания, прежде чем снова сесть за руль. Он показывает концентрацию 0,25 миллиграмма на литр выдыхаемого альвеолярного воздуха. Что происходит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Person taking a follow-up breathalyzer test with a police officer, looking disappointed."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'interdiction de conduire est levée immédiatement.",
+          "text_nl": "Het rijverbod wordt onmiddellijk opgeheven.",
+          "text_ru": "Запрет на вождение немедленно снимается.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'interdiction de conduire est prolongée de deux heures.",
+          "text_nl": "Het rijverbod wordt met twee uren verlengd.",
+          "text_ru": "Запрет на вождение продлевается на два часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'interdiction de conduire est prolongée de trois heures.",
+          "text_nl": "Het rijverbod wordt met drie uren verlengd.",
+          "text_ru": "Запрет на вождение продлевается на три часа.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Si, après une interdiction initiale, une nouvelle analyse de l'haleine mesure une concentration d'alcool d'au moins 0,22 milligramme et inférieure à 0,35 milligramme par litre d'air alvéolaire expiré, l'interdiction de conduire ou d'accompagner est prolongée pour une période de trois heures.",
+      "explanation_nl": "Als na een initiële verbod een nieuwe ademanalyse een alcoholconcentratie van ten minste 0,22 milligram en minder dan 0,35 milligram per liter uitgeademde alveolaire lucht meet, wordt het rij- of begeleidingsverbod verlengd voor een periode van drie uren.",
+      "explanation_ru": "Если после первоначального запрета новый анализ дыхания показывает концентрацию алкоголя не менее 0,22 миллиграмма и менее 0,35 миллиграмма на литр выдыхаемого альвеолярного воздуха, запрет на вождение или сопровождение продлевается на три часа."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e57a9b963592",
@@ -41,6 +338,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:48:53Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

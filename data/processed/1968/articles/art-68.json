@@ -26,7 +26,304 @@
   "anchor_id_fr": "xlqd89thsr",
   "anchor_id_nl": "8xq6jgs8ua",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que la prescription de l'action publique en cas d'infraction à la loi de la route ?",
+      "text_nl": "Wat is de verjaring van de strafvordering in geval van een overtreding van de wegcode?",
+      "text_ru": "Что такое предписание общественного действия в случае нарушения закона о дорожном движении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un délai pour payer une amende",
+          "text_nl": "Een termijn om een boete te betalen",
+          "text_ru": "Срок для оплаты штрафа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un délai après lequel l'infraction n'est plus punissable",
+          "text_nl": "Een termijn na welke de overtreding niet meer strafbaar is",
+          "text_ru": "Срок, после которого правонарушение больше не наказуемо",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un délai pour effectuer un stage de sensibilisation",
+          "text_nl": "Een termijn om een bewustwordingscursus te volgen",
+          "text_ru": "Срок для прохождения курса повышения осведомленности",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La prescription de l'action publique est un délai après lequel l'infraction n'est plus punissable.",
+      "explanation_nl": "De verjaring van de strafvordering is een termijn na welke de overtreding niet meer strafbaar is.",
+      "explanation_ru": "Предписание общественного действия - это срок, после которого правонарушение больше не наказуемо."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le délai de prescription de l'action publique pour la plupart des infractions à la loi de la route ?",
+      "text_nl": "Wat is de verjarings-termijn van de strafvordering voor de meeste overtredingen van de wegcode?",
+      "text_ru": "Каков срок предписания общественного действия для большинства нарушений закона о дорожном движении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un an",
+          "text_nl": "Een jaar",
+          "text_ru": "Один год",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Deux ans",
+          "text_nl": "Twee jaar",
+          "text_ru": "Два года",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cinq ans",
+          "text_nl": "Vijf jaar",
+          "text_ru": "Пять лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai de prescription de l'action publique pour la plupart des infractions à la loi de la route est de deux ans.",
+      "explanation_nl": "De verjarings-termijn van de strafvordering voor de meeste overtredingen van de wegcode is twee jaar.",
+      "explanation_ru": "Срок предписания общественного действия для большинства нарушений закона о дорожном движении составляет два года."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles infractions à la loi de la route ont un délai de prescription de l'action publique de trois ans ?",
+      "text_nl": "Welke overtredingen van de wegcode hebben een verjarings-termijn van de strafvordering van drie jaar?",
+      "text_ru": "Какие нарушения закона о дорожном движении имеют срок предписания общественного действия три года?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les infractions aux articles 30, § 1er et § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° et 4° à 6° et 48",
+          "text_nl": "De overtredingen van [artikel 30](#art-30), § 1 en §3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° en 4° tot 6° en 48",
+          "text_ru": "Нарушения статей 30, § 1 и § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° и 4°-6° и 48",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les infractions aux articles 20, 25 et 40",
+          "text_nl": "De overtredingen van de artikelen 20, 25 en 40",
+          "text_ru": "Нарушения статей 20, 25 и 40",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les infractions aux articles 10, 15 et 50",
+          "text_nl": "De overtredingen van de artikelen 10, 15 en 50",
+          "text_ru": "Нарушения статей 10, 15 и 50",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les infractions aux articles 30, § 1er et § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° et 4° à 6° et 48 ont un délai de prescription de l'action publique de trois ans.",
+      "explanation_nl": "De overtredingen van [artikel 30](#art-30), § 1 en §3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° en 4° tot 6° en 48 hebben een verjarings-termijn van de strafvordering van drie jaar.",
+      "explanation_ru": "Нарушения статей 30, § 1 и § 3, 33, 34, § 2, 35, 37/1, 37bis, § 1, 1° и 4°-6° и 48 имеют срок предписания общественного действия три года."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a commis une infraction à la loi de la route il y a un an et demi. Qu'est-ce qui se passe si l'action publique n'est pas intentée dans les deux prochains mois ?",
+      "text_nl": "Een bestuurder heeft een overtreding van de wegcode gepleegd een jaar en een half geleden. Wat gebeurt er als de strafvordering niet wordt ingesteld binnen de komende twee maanden?",
+      "text_ru": "Водитель совершил правонарушение, связанное с дорожным движением, год и半 назад. Что произойдет, если общественное действие не будет возбуждено в течение следующих двух месяцев?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'action publique est prescrite",
+          "text_nl": "De strafvordering is verjaard",
+          "text_ru": "Общественное действие предписано",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'action publique peut encore être intentée",
+          "text_nl": "De strafvordering kan nog steeds worden ingesteld",
+          "text_ru": "Общественное действие все еще может быть возбуждено",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur est acquitté",
+          "text_nl": "De bestuurder wordt vrijgesproken",
+          "text_ru": "Водитель оправдан",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'action publique est prescrite si elle n'est pas intentée dans les deux ans suivant la commission de l'infraction.",
+      "explanation_nl": "De strafvordering is verjaard als deze niet wordt ingesteld binnen de twee jaar na de overtreding.",
+      "explanation_ru": "Общественное действие предписано, если оно не возбуждено в течение двух лет после совершения правонарушения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a commis une infraction à la loi de la route il y a deux ans et un mois. Qu'est-ce qui se passe à l'égard de l'action publique ?",
+      "text_nl": "Een bestuurder heeft een overtreding van de wegcode gepleegd twee jaar en een maand geleden. Wat gebeurt er met de strafvordering?",
+      "text_ru": "Водитель совершил правонарушение, связанное с дорожным движением, два года и месяц назад. Что произойдет с общественным действием?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'action publique est prescrite",
+          "text_nl": "De strafvordering is verjaard",
+          "text_ru": "Общественное действие предписано",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'action publique peut encore être intentée",
+          "text_nl": "De strafvordering kan nog steeds worden ingesteld",
+          "text_ru": "Общественное действие все еще может быть возбуждено",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur est acquitté",
+          "text_nl": "De bestuurder wordt vrijgesproken",
+          "text_ru": "Водитель оправдан",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'action publique est prescrite si elle n'est pas intentée dans les deux ans suivant la commission de l'infraction.",
+      "explanation_nl": "De strafvordering is verjaard als deze niet wordt ingesteld binnen de twee jaar na de overtreding.",
+      "explanation_ru": "Общественное действие предписано, если оно не возбуждено в течение двух лет после совершения правонарушения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a commis une infraction à la loi de la route il y a deux ans et six mois. L'infraction est visée à l'article 30, § 1er. Qu'est-ce qui se passe à l'égard de l'action publique ?",
+      "text_nl": "Een bestuurder heeft een overtreding van de wegcode gepleegd twee jaar en zes maanden geleden. De overtreding valt onder [artikel 30](#art-30), § 1. Wat gebeurt er met de strafvordering?",
+      "text_ru": "Водитель совершил правонарушение, связанное с дорожным движением, два года и шесть месяцев назад. Правонарушение упоминается в статье 30, § 1. Что произойдет с общественным действием?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'action publique est prescrite",
+          "text_nl": "De strafvordering is verjaard",
+          "text_ru": "Общественное действие предписано",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'action publique peut encore être intentée",
+          "text_nl": "De strafvordering kan nog steeds worden ingesteld",
+          "text_ru": "Общественное действие все еще может быть возбуждено",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur est acquitté",
+          "text_nl": "De bestuurder wordt vrijgesproken",
+          "text_ru": "Водитель оправдан",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'action publique peut encore être intentée car le délai de prescription est de trois ans pour les infractions visées à l'article 30, § 1er.",
+      "explanation_nl": "De strafvordering kan nog steeds worden ingesteld omdat de verjarings-termijn drie jaar is voor overtredingen van [artikel 30](#art-30), § 1.",
+      "explanation_ru": "Общественное действие все еще может быть возбуждено, поскольку срок предписания составляет три года для правонарушений, упомянутых в статье 30, § 1."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a commis une infraction à la loi de la route il y a un an. L'infraction est visée à l'article 33. Qu'est-ce qui se passe à l'égard de l'action publique ?",
+      "text_nl": "Een bestuurder heeft een overtreding van de wegcode gepleegd een jaar geleden. De overtreding valt onder artikel 33. Wat gebeurt er met de strafvordering?",
+      "text_ru": "Водитель совершил правонарушение, связанное с дорожным движением, год назад. Правонарушение упоминается в статье 33. Что произойдет с общественным действием?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'action publique est prescrite",
+          "text_nl": "De strafvordering is verjaard",
+          "text_ru": "Общественное действие предписано",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'action publique peut encore être intentée",
+          "text_nl": "De strafvordering kan nog steeds worden ingesteld",
+          "text_ru": "Общественное действие все еще может быть возбуждено",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur est acquitté",
+          "text_nl": "De bestuurder wordt vrijgesproken",
+          "text_ru": "Водитель оправдан",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'action publique peut encore être intentée car le délai de prescription est de trois ans pour les infractions visées à l'article 33.",
+      "explanation_nl": "De strafvordering kan nog steeds worden ingesteld omdat de verjarings-termijn drie jaar is voor overtredingen van artikel 33.",
+      "explanation_ru": "Общественное действие все еще может быть возбуждено, поскольку срок предписания составляет три года для правонарушений, упомянутых в статье 33."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a commis une infraction à la loi de la route il y a six mois. Qu'est-ce qui se passe à l'égard de l'action publique ?",
+      "text_nl": "Een bestuurder heeft een overtreding van de wegcode gepleegd zes maanden geleden. Wat gebeurt er met de strafvordering?",
+      "text_ru": "Водитель совершил правонарушение, связанное с дорожным движением, шесть месяцев назад. Что произойдет с общественным действием?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'action publique est prescrite",
+          "text_nl": "De strafvordering is verjaard",
+          "text_ru": "Общественное действие предписано",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'action publique peut encore être intentée",
+          "text_nl": "De strafvordering kan nog steeds worden ingesteld",
+          "text_ru": "Общественное действие все еще может быть возбуждено",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur est acquitté",
+          "text_nl": "De bestuurder wordt vrijgesproken",
+          "text_ru": "Водитель оправдан",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'action publique peut encore être intentée car le délai de prescription est de deux ans.",
+      "explanation_nl": "De strafvordering kan nog steeds worden ingesteld omdat de verjarings-termijn twee jaar is.",
+      "explanation_ru": "Общественное действие все еще может быть возбуждено, поскольку срок предписания составляет два года."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "8e7566886f4b",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:58:23Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

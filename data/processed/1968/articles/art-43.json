@@ -26,7 +26,119 @@
   "anchor_id_fr": "z9ow6b5mxb",
   "anchor_id_nl": "rycqz85yho",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la raison spécifique mentionnée pour une déchéance du droit de conduire selon la réglementation examinée ?",
+      "text_nl": "Wat is de specifieke reden die wordt genoemd voor een verval van het recht tot sturen volgens de onderzochte regelgeving?",
+      "text_ru": "Какова конкретная причина, указанная для лишения права на управление согласно рассмотренному положению?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des infractions répétées au code de la route.",
+          "text_nl": "Herhaalde overtredingen van de wegcode.",
+          "text_ru": "Повторные нарушения правил дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une incapacité physique ou psychique du conducteur.",
+          "text_nl": "Een lichamelijke of geestelijke ongeschiktheid van de bestuurder.",
+          "text_ru": "Физическая или психическая неспособность водителя.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le non-paiement d'amendes importantes.",
+          "text_nl": "Het niet betalen van aanzienlijke boetes.",
+          "text_ru": "Неуплата крупных штрафов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La réglementation spécifie clairement que la déchéance du droit de conduire en question est due à une 'incapacité physique ou psychique du conducteur'.",
+      "explanation_nl": "De regelgeving vermeldt duidelijk dat het verval van het recht tot sturen in kwestie te wijten is aan 'lichamelijke of geestelijke ongeschiktheid van de bestuurder'.",
+      "explanation_ru": "Положение четко указывает, что лишение права на управление в данном случае происходит из-за «физической или психической неспособности водителя»."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Si une décision de déchéance du droit de conduire pour incapacité est prononcée en présence du conducteur (décision contradictoire), quand cette déchéance prend-elle effet ?",
+      "text_nl": "Als een beslissing tot verval van het recht tot sturen wegens ongeschiktheid wordt uitgesproken in aanwezigheid van de bestuurder (beslissing op tegenspraak), wanneer gaat dit verval dan in?",
+      "text_ru": "Если решение о лишении права управления из-за неспособности выносится в присутствии водителя (очное решение), когда это лишение вступает в силу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dès la signification officielle de la décision.",
+          "text_nl": "Bij de officiële betekening van de beslissing.",
+          "text_ru": "С момента официального уведомления о решении.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dès le prononcé de la décision, même en cas de recours.",
+          "text_nl": "Bij de uitspraak van de beslissing, zelfs in geval van beroep.",
+          "text_ru": "С момента вынесения решения, даже в случае обжалования.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Après l'épuisement de toutes les voies de recours.",
+          "text_nl": "Na uitputting van alle beroepsmogelijkheden.",
+          "text_ru": "После исчерпания всех возможностей обжалования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La réglementation indique que la déchéance prend cours 'dès le prononcé de la décision si celle-ci est contradictoire', nonobstant tout recours.",
+      "explanation_nl": "De regelgeving stelt dat het verval ingaat 'bij de uitspraak van de beslissing wanneer deze op tegenspraak is gewezen', niettegenstaande voorziening.",
+      "explanation_ru": "Положение гласит, что лишение вступает в силу «с момента вынесения решения, если оно было очным», независимо от обжалования."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Si une décision de déchéance du droit de conduire pour incapacité est rendue en l'absence du conducteur (décision par défaut), quand cette déchéance prend-elle effet ?",
+      "text_nl": "Als een beslissing tot verval van het recht tot sturen wegens ongeschiktheid wordt uitgesproken in afwezigheid van de bestuurder (beslissing bij verstek), wanneer gaat dit verval dan in?",
+      "text_ru": "Если решение о лишении права управления из-за неспособности выносится в отсутствие водителя (заочное решение), когда это лишение вступает в силу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dès le prononcé de la décision.",
+          "text_nl": "Bij de uitspraak van de beslissing.",
+          "text_ru": "С момента вынесения решения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dès la signification officielle de la décision au conducteur.",
+          "text_nl": "Bij de officiële betekening van de beslissing aan de bestuurder.",
+          "text_ru": "С момента официального уведомления водителя о решении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Après un délai de 30 jours suivant le prononcé de la décision.",
+          "text_nl": "Na een termijn van 30 dagen volgend op de uitspraak van de beslissing.",
+          "text_ru": "По истечении 30 дней после вынесения решения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour une décision rendue par défaut (en l'absence du conducteur), la déchéance prend cours 'dès sa signification', c'est-à-dire dès que le conducteur en est officiellement informé.",
+      "explanation_nl": "Voor een beslissing die bij verstek is gewezen (in afwezigheid van de bestuurder), gaat het verval in 'bij de betekening', d.w.z. zodra de bestuurder er officieel van op de hoogte is gebracht.",
+      "explanation_ru": "Для заочного решения (в отсутствие водителя) лишение вступает в силу «с момента его уведомления», то есть как только водитель официально проинформирован о нем."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "40a23fa3a7d6",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:43:58Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

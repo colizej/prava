@@ -532,7 +532,341 @@
   "anchor_id_fr": "zuetczabri",
   "anchor_id_nl": "dsyzpxjozy",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le but des signaux F1 et F3 ?",
+      "text_nl": "Wat is het doel van de verkeersborden F1 en F3?",
+      "text_ru": "В чем цель сигналов F1 и F3?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer le commencement et la fin d'une agglomération",
+          "text_nl": "Aanduiden van het begin en het einde van een bebouwde kom",
+          "text_ru": "Указать начало и конец населенного пункта",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indiquer les directions pour les cyclistes",
+          "text_nl": "Aanduiden van de richtingen voor fietsers",
+          "text_ru": "Указать направления для велосипедистов",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer les zones de stationnement",
+          "text_nl": "Aanduiden van de parkeerzones",
+          "text_ru": "Указать зоны парковки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux F1 et F3 sont utilisés pour indiquer le commencement et la fin d'une agglomération.",
+      "explanation_nl": "De verkeersborden F1 en F3 worden gebruikt om het begin en het einde van een bebouwde kom aan te duiden.",
+      "explanation_ru": "Сигналы F1 и F3 используются для указания начала и конца населенного пункта."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une zone 30 ?",
+      "text_nl": "Wat is een zone 30?",
+      "text_ru": "Что такое зона 30?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une zone où la vitesse est limitée à 30 km/h",
+          "text_nl": "Een zone waar de snelheid beperkt is tot 30 km/h",
+          "text_ru": "Зона, где скорость ограничена до 30 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une zone de stationnement",
+          "text_nl": "Een parkeerzone",
+          "text_ru": "Зона парковки",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une zone piétonne",
+          "text_nl": "Een voetgangerszone",
+          "text_ru": "Пешеходная зона",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une zone 30 est une zone où la vitesse est limitée à 30 km/h.",
+      "explanation_nl": "Een zone 30 is een zone waar de snelheid beperkt is tot 30 km/h.",
+      "explanation_ru": "Зона 30 - это зона, где скорость ограничена до 30 км/ч."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quel est le but des signaux F4a et F4b ?",
+      "text_nl": "Wat is het doel van de verkeersborden F4a en F4b?",
+      "text_ru": "В чем цель сигналов F4a и F4b?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer le commencement et la fin d'une zone 30",
+          "text_nl": "Aanduiden van het begin en het einde van een zone 30",
+          "text_ru": "Указать начало и конец зоны 30",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indiquer les directions pour les cyclistes",
+          "text_nl": "Aanduiden van de richtingen voor fietsers",
+          "text_ru": "Указать направления для велосипедистов",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer les zones de stationnement",
+          "text_nl": "Aanduiden van de parkeerzones",
+          "text_ru": "Указать зоны парковки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux F4a et F4b sont utilisés pour indiquer le commencement et la fin d'une zone 30.",
+      "explanation_nl": "De verkeersborden F4a en F4b worden gebruikt om het begin en het einde van een zone 30 aan te duiden.",
+      "explanation_ru": "Сигналы F4a и F4b используются для указания начала и конца зоны 30."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'une agglomération. Quel signal allez-vous voir ?",
+      "text_nl": "U nadert een bebouwde kom. Welk verkeersbord zult u zien?",
+      "text_ru": "Вы подходите к населенному пункту. Какой сигнал вы увидите?",
+      "image": {
+        "sign_code": "F1",
+        "generation_prompt": "signal F1"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signal F1",
+          "text_nl": "Verkeersbord F1",
+          "text_ru": "Сигнал F1",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal F3",
+          "text_nl": "Verkeersbord F3",
+          "text_ru": "Сигнал F3",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signal F4a",
+          "text_nl": "Verkeersbord F4a",
+          "text_ru": "Сигнал F4a",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'une agglomération, vous verrez le signal F1.",
+      "explanation_nl": "Wanneer u een bebouwde kom nadert, ziet u het verkeersbord F1.",
+      "explanation_ru": "Когда вы подходите к населенному пункту, вы увидите сигнал F1."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous vous approchez d'une zone 30. Quel signal allez-vous voir ?",
+      "text_nl": "U nadert een zone 30. Welk verkeersbord zult u zien?",
+      "text_ru": "Вы подходите к зоне 30. Какой сигнал вы увидите?",
+      "image": {
+        "sign_code": "F4a",
+        "generation_prompt": "signal F4a"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signal F4a",
+          "text_nl": "Verkeersbord F4a",
+          "text_ru": "Сигнал F4a",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal F4b",
+          "text_nl": "Verkeersbord F4b",
+          "text_ru": "Сигнал F4b",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signal F1",
+          "text_nl": "Verkeersbord F1",
+          "text_ru": "Сигнал F1",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'une zone 30, vous verrez le signal F4a.",
+      "explanation_nl": "Wanneer u een zone 30 nadert, ziet u het verkeersbord F4a.",
+      "explanation_ru": "Когда вы подходите к зоне 30, вы увидите сигнал F4a."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous vous approchez d'une école. Quel signal allez-vous voir ?",
+      "text_nl": "U nadert een school. Welk verkeersbord zult u zien?",
+      "text_ru": "Вы подходите к школе. Какой сигнал вы увидите?",
+      "image": {
+        "sign_code": "A23",
+        "generation_prompt": "signal A23"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signal A23",
+          "text_nl": "Verkeersbord A23",
+          "text_ru": "Сигнал A23",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal F1",
+          "text_nl": "Verkeersbord F1",
+          "text_ru": "Сигнал F1",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signal F4a",
+          "text_nl": "Verkeersbord F4a",
+          "text_ru": "Сигнал F4a",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'une école, vous verrez le signal A23.",
+      "explanation_nl": "Wanneer u een school nadert, ziet u het verkeersbord A23.",
+      "explanation_ru": "Когда вы подходите к школе, вы увидите сигнал A23."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'une autoroute. Quel signal allez-vous voir ?",
+      "text_nl": "U nadert een autosnelweg. Welk verkeersbord zult u zien?",
+      "text_ru": "Вы подходите к автостраде. Какой сигнал вы увидите?",
+      "image": {
+        "sign_code": "F5",
+        "generation_prompt": "signal F5"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signal F5",
+          "text_nl": "Verkeersbord F5",
+          "text_ru": "Сигнал F5",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal F7",
+          "text_nl": "Verkeersbord F7",
+          "text_ru": "Сигнал F7",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signal F1",
+          "text_nl": "Verkeersbord F1",
+          "text_ru": "Сигнал F1",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'une autoroute, vous verrez le signal F5.",
+      "explanation_nl": "Wanneer u een autosnelweg nadert, ziet u het verkeersbord F5.",
+      "explanation_ru": "Когда вы подходите к автостраде, вы увидите сигнал F5."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous vous approchez d'une zone résidentielle. Quel signal allez-vous voir ?",
+      "text_nl": "U nadert een woonzone. Welk verkeersbord zult u zien?",
+      "text_ru": "Вы подходите к жилой зоне. Какой сигнал вы увидите?",
+      "image": {
+        "sign_code": "F12a",
+        "generation_prompt": "signal F12a"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signal F12a",
+          "text_nl": "Verkeersbord F12a",
+          "text_ru": "Сигнал F12a",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal F12b",
+          "text_nl": "Verkeersbord F12b",
+          "text_ru": "Сигнал F12b",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signal F1",
+          "text_nl": "Verkeersbord F1",
+          "text_ru": "Сигнал F1",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'une zone résidentielle, vous verrez le signal F12a.",
+      "explanation_nl": "Wanneer u een woonzone nadert, ziet u het verkeersbord F12a.",
+      "explanation_ru": "Когда вы подходите к жилой зоне, вы увидите сигнал F12a."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous vous approchez d'un tunnel. Quel signal allez-vous voir ?",
+      "text_nl": "U nadert een tunnel. Welk verkeersbord zult u zien?",
+      "text_ru": "Вы подходите к туннелю. Какой сигнал вы увидите?",
+      "image": {
+        "sign_code": "F8",
+        "generation_prompt": "signal F8"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Signal F8",
+          "text_nl": "Verkeersbord F8",
+          "text_ru": "Сигнал F8",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Signal F1",
+          "text_nl": "Verkeersbord F1",
+          "text_ru": "Сигнал F1",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signal F4a",
+          "text_nl": "Verkeersbord F4a",
+          "text_ru": "Сигнал F4a",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous vous approchez d'un tunnel, vous verrez le signal F8.",
+      "explanation_nl": "Wanneer u een tunnel nadert, ziet u het verkeersbord F8.",
+      "explanation_ru": "Когда вы подходите к туннелю, вы увидите сигнал F8."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "b9660ec587ee",
@@ -542,6 +876,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T12:01:01Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 9
   }
 }

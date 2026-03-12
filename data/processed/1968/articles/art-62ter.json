@@ -30,7 +30,304 @@
   "anchor_id_fr": "2bp4ksba3g",
   "anchor_id_nl": "vdcbawtb64",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans le cadre d'une vérification de substances influençant la capacité de conduite, à quel moment le résultat d'une analyse de salive n'est-il pas pris en considération ?",
+      "text_nl": "In het kader van een controle op rijvaardigheidsbeïnvloedende stoffen, wanneer wordt het resultaat van een speekselanalyse niet in aanmerking genomen?",
+      "text_ru": "В рамках проверки на наличие веществ, влияющих на способность к вождению, когда результат анализа слюны не принимается во внимание?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque l'analyse est effectuée dans un laboratoire non agréé.",
+          "text_nl": "Wanneer de analyse wordt uitgevoerd in een niet-erkend laboratorium.",
+          "text_ru": "Когда анализ проводится в неаккредитованной лаборатории.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque le résultat se situe en dessous des taux établis.",
+          "text_nl": "Wanneer het resultaat onder de vastgestelde gehaltes ligt.",
+          "text_ru": "Когда результат находится ниже установленных пороговых значений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsque la personne examinée refuse de signer le procès-verbal.",
+          "text_nl": "Wanneer de onderzochte persoon weigert het proces-verbaal te ondertekenen.",
+          "text_ru": "Когда обследуемое лицо отказывается подписать протокол.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le résultat d'une analyse de salive n'est pas pris en considération si les taux détectés sont inférieurs aux seuils définis.",
+      "explanation_nl": "Het resultaat van een speekselanalyse wordt niet in aanmerking genomen als de gedetecteerde gehaltes lager zijn dan de vastgestelde drempels.",
+      "explanation_ru": "Результат анализа слюны не принимается во внимание, если обнаруженные уровни ниже установленных пороговых значений."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui est responsable de la réglementation concernant les modalités de prélèvement, de conservation, d'analyse de la salive et l'agréation des laboratoires ?",
+      "text_nl": "Wie is verantwoordelijk voor de regelgeving betreffende de wijze van afname, bewaring, analyse van speeksel en de erkenning van laboratoria?",
+      "text_ru": "Кто отвечает за регулирование процедур отбора, хранения, анализа слюны и аккредитации лабораторий?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les agents de police locaux.",
+          "text_nl": "De lokale politieagenten.",
+          "text_ru": "Местные полицейские.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un organe gouvernemental supérieur.",
+          "text_nl": "Een hogere overheidsinstantie.",
+          "text_ru": "Высший государственный орган.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les laboratoires eux-mêmes, via leur association professionnelle.",
+          "text_nl": "De laboratoria zelf, via hun beroepsvereniging.",
+          "text_ru": "Сами лаборатории через свою профессиональную ассоциацию.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un organe gouvernemental supérieur prend les mesures complémentaires pour organiser l'analyse de salive, réglant notamment le mode de prélèvement, de conservation, les modalités des analyses et l'agréation des laboratoires.",
+      "explanation_nl": "Een hogere overheidsinstantie treft voorzieningen tot nadere regeling van de speekselanalyse, waaronder de wijze waarop het speekselstaal wordt genomen, bewaard en onderzocht, alsook betreffende de erkenning van de laboratoria.",
+      "explanation_ru": "Высший государственный орган принимает дополнительные меры по организации анализа слюны, регулируя, в частности, способ взятия, хранения, условия проведения анализов и аккредитацию лабораторий."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le principe concernant la collecte et l'utilisation des données obtenues lors d'une analyse de salive pour détecter des substances influençant la conduite ?",
+      "text_nl": "Wat is het principe betreffende het verzamelen en gebruiken van gegevens die verkregen zijn tijdens een speekselanalyse om rijvaardigheidsbeïnvloedende stoffen te detecteren?",
+      "text_ru": "Каков принцип сбора и использования данных, полученных в ходе анализа слюны для выявления веществ, влияющих на вождение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toutes les données peuvent être collectées et utilisées à des fins médicales et statistiques.",
+          "text_nl": "Alle gegevens mogen worden verzameld en gebruikt voor medische en statistische doeleinden.",
+          "text_ru": "Все данные могут быть собраны и использованы в медицинских и статистических целях.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les données sont limitées à ce qui est strictement nécessaire pour établir les infractions sur la voie publique et ne peuvent être utilisées qu'à des fins judiciaires liées à ces infractions.",
+          "text_nl": "De gegevens zijn beperkt tot wat strikt noodzakelijk is voor de vaststelling van overtredingen op een openbare plaats en mogen slechts worden gebruikt voor gerechtelijke doeleinden in verband met deze overtredingen.",
+          "text_ru": "Данные ограничиваются строго необходимым для установления нарушений правил дорожного движения и могут использоваться только в судебных целях, связанных с этими нарушениями.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seules les données personnelles du conducteur sont collectées, mais leur utilisation est illimitée.",
+          "text_nl": "Enkel de persoonlijke gegevens van de bestuurder worden verzameld, maar hun gebruik is onbeperkt.",
+          "text_ru": "Собираются только личные данные водителя, но их использование не ограничено.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La collecte des données doit se limiter aux données strictement nécessaires à l’établissement des infractions commises dans un lieu public et ces données ne peuvent être utilisées qu’aux fins judiciaires relatives à la répression de ces infractions.",
+      "explanation_nl": "Het verzamelen van de gegevens moet zich beperken tot wat strikt noodzakelijk is voor de vaststelling van de overtredingen die op een openbare plaats zijn begaan en deze gegevens mogen slechts worden gebruikt voor gerechtelijke doeleinden in verband met de bestraffing van deze overtredingen.",
+      "explanation_ru": "Сбор данных должен ограничиваться строго необходимыми данными для установления нарушений, совершенных в общественном месте, и эти данные могут использоваться только в судебных целях, связанных с пресечением этих нарушений."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est soumis à une analyse de salive après un test préliminaire positif. Si les résultats de cette analyse confirment la présence de substances, mais que les taux sont inférieurs aux seuils considérés, quelle est la conséquence ?",
+      "text_nl": "Een bestuurder wordt onderworpen aan een speekselanalyse na een positieve voorlopige test. Als de resultaten van deze analyse de aanwezigheid van stoffen bevestigen, maar de gehaltes onder de vastgestelde drempels liggen, wat is dan de consequentie?",
+      "text_ru": "Водитель проходит анализ слюны после положительного предварительного теста. Если результаты этого анализа подтверждают наличие веществ, но уровни ниже установленных пороговых значений, каковы последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer conducting a roadside check on a driver, with a car in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur est toujours considéré en infraction, mais reçoit une amende réduite.",
+          "text_nl": "De bestuurder wordt nog steeds als overtreding beschouwd, maar krijgt een verminderde boete.",
+          "text_ru": "Водитель по-прежнему считается нарушителем, но получает уменьшенный штраф.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le résultat de l'analyse n'est pas retenu et l'infraction n'est pas établie.",
+          "text_nl": "Het analyseresultaat wordt niet in aanmerking genomen en de overtreding wordt niet vastgesteld.",
+          "text_ru": "Результат анализа не принимается во внимание, и нарушение не устанавливается.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur doit subir une analyse sanguine complémentaire.",
+          "text_nl": "De bestuurder moet een aanvullende bloedanalyse ondergaan.",
+          "text_ru": "Водитель должен пройти дополнительный анализ крови.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si les taux détectés lors de l'analyse de salive sont en dessous des seuils établis, le résultat n'est pas pris en considération et l'infraction n'est donc pas établie.",
+      "explanation_nl": "Als de gedetecteerde gehaltes tijdens de speekselanalyse onder de vastgestelde drempels liggen, wordt het resultaat niet in aanmerking genomen en wordt de overtreding dus niet vastgesteld.",
+      "explanation_ru": "Если уровни, обнаруженные при анализе слюны, ниже установленных пороговых значений, результат не принимается во внимание, и, следовательно, нарушение не устанавливается."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Après une analyse de salive pour laquelle la présence de substances est confirmée et constitue une infraction, qui est responsable des frais de cette analyse ?",
+      "text_nl": "Na een speekselanalyse waarbij de aanwezigheid van stoffen wordt bevestigd en een overtreding vormt, wie is verantwoordelijk voor de kosten van deze analyse?",
+      "text_ru": "После анализа слюны, подтвердившего наличие веществ, являющихся нарушением, кто несет ответственность за расходы на этот анализ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person receiving a bill or invoice, looking concerned."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les services de police ayant demandé l'analyse.",
+          "text_nl": "De politiediensten die de analyse hebben aangevraagd.",
+          "text_ru": "Полицейские службы, запросившие анализ.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'État, car il s'agit d'une procédure légale.",
+          "text_nl": "De Staat, aangezien het een wettelijke procedure betreft.",
+          "text_ru": "Государство, поскольку это законная процедура.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La personne examinée, si l'infraction est établie.",
+          "text_nl": "De onderzochte persoon, indien de overtreding bewezen is.",
+          "text_ru": "Обследуемое лицо, если нарушение установлено.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les frais de l'analyse de salive sont à charge de la personne examinée si l'infraction est établie.",
+      "explanation_nl": "De kosten van de speekselanalyse zijn ten laste van de onderzochte persoon indien de overtreding bewezen is.",
+      "explanation_ru": "Расходы на анализ слюны несет обследуемое лицо, если нарушение установлено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez subi un prélèvement de salive pour analyse. Vous souhaitez une deuxième analyse pour confirmer les résultats. Quelles sont vos options ?",
+      "text_nl": "U heeft een speekselstaal laten afnemen voor analyse. U wenst een tweede analyse om de resultaten te bevestigen. Wat zijn uw opties?",
+      "text_ru": "У вас был взят образец слюны для анализа. Вы хотите провести второй анализ для подтверждения результатов. Какие у вас есть варианты?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person discussing laboratory results with a medical professional, with options for a second opinion."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez demander une seconde analyse uniquement si la première est positive et ce, dans un laboratoire de votre choix, aux frais de l'État.",
+          "text_nl": "U kunt alleen een tweede analyse aanvragen als de eerste positief is, en dit in een laboratorium naar keuze, op kosten van de Staat.",
+          "text_ru": "Вы можете запросить второй анализ только в случае положительного результата первого, и только в выбранной вами лаборатории, за счет государства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez faire procéder, à vos frais, à une seconde analyse soit dans le même laboratoire, soit dans un autre laboratoire agréé.",
+          "text_nl": "U kunt op eigen kosten een tweede speekselanalyse laten verrichten, hetzij in hetzelfde laboratorium, hetzij in een ander erkend laboratorium.",
+          "text_ru": "Вы можете за свой счет провести второй анализ либо в той же лаборатории, либо в другой аккредитованной лаборатории.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une seconde analyse est impossible ; seul le premier résultat est définitif.",
+          "text_nl": "Een tweede analyse is onmogelijk; alleen het eerste resultaat is definitief.",
+          "text_ru": "Второй анализ невозможен; только первый результат является окончательным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La personne ayant subi le prélèvement de salive peut faire procéder, à ses frais, à une seconde analyse, soit dans le laboratoire ayant procédé à la première, soit dans un autre laboratoire agréé.",
+      "explanation_nl": "De persoon van wie het speekselstaal is afgenomen, kan op eigen kosten een tweede speekselanalyse laten verrichten, hetzij in het laboratorium waar het eerste heeft plaatsgehad, hetzij in een ander door een hogere overheidsinstantie erkend laboratorium.",
+      "explanation_ru": "Лицо, у которого был взят образец слюны, может за свой счет провести второй анализ либо в лаборатории, где проводился первый, либо в другой аккредитованной лаборатории."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur est soumis à une analyse de salive dans un laboratoire agréé. Il souhaite qu'un conseiller technique de son choix supervise la deuxième analyse qu'il a demandée. Cette option est-elle possible et sous quelles conditions ?",
+      "text_nl": "Een bestuurder wordt onderworpen aan een speekselanalyse in een erkend laboratorium. Hij wil dat een technisch raadsman van zijn keuze toezicht houdt op de tweede analyse die hij heeft aangevraagd. Is deze optie mogelijk en onder welke voorwaarden?",
+      "text_ru": "Водитель проходит анализ слюны в аккредитованной лаборатории. Он желает, чтобы технический консультант по его выбору контролировал второй запрошенный им анализ. Возможен ли этот вариант и при каких условиях?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person (driver) talking to a technical expert or lawyer in a laboratory setting, with scientific equipment visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, c'est toujours possible quel que soit le laboratoire choisi pour la deuxième analyse, à condition que le conseiller soit lui-même agréé.",
+          "text_nl": "Ja, dit is altijd mogelijk, ongeacht het gekozen laboratorium voor de tweede analyse, op voorwaarde dat de raadsman zelf erkend is.",
+          "text_ru": "Да, это всегда возможно, независимо от выбранной для второго анализа лаборатории, при условии, что консультант сам аккредитован.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, mais uniquement si la deuxième analyse est effectuée dans le même laboratoire que la première.",
+          "text_nl": "Ja, maar alleen als de tweede analyse wordt uitgevoerd in hetzelfde laboratorium als de eerste.",
+          "text_ru": "Да, но только если второй анализ проводится в той же лаборатории, что и первый.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, les analyses de salive doivent se dérouler sans la présence d'un conseiller extérieur pour garantir l'impartialité.",
+          "text_nl": "Nee, speekselanalyses moeten plaatsvinden zonder de aanwezigheid van een externe raadsman om de onpartijdigheid te garanderen.",
+          "text_ru": "Нет, анализы слюны должны проводиться без присутствия внешнего консультанта для обеспечения беспристрастности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La personne peut faire contrôler la deuxième analyse par un conseiller technique de son choix, mais uniquement si cette deuxième analyse est réalisée dans le même laboratoire que la première.",
+      "explanation_nl": "De persoon kan op de tweede analyse toezicht laten houden door een technisch raadsman van zijn keuze, maar alleen als deze tweede analyse in hetzelfde laboratorium plaatsvindt als de eerste.",
+      "explanation_ru": "Лицо может запросить контроль над вторым анализом техническим консультантом по своему выбору, но только если этот второй анализ проводится в той же лаборатории, что и первый."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un agent de l'autorité vous impose une analyse de salive. Quelle est la condition qui déclenche cette imposition ?",
+      "text_nl": "Een overheidspersoon legt u een speekselanalyse op. Wat is de voorwaarde die deze oplegging activeert?",
+      "text_ru": "Уполномоченный орган требует от вас анализ слюны. Какое условие запускает это требование?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police officer showing a positive result from a preliminary drug test to a driver at a roadside check."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La simple suspicion de l'agent, même sans test préalable.",
+          "text_nl": "Enkel het vermoeden van de agent, zelfs zonder voorafgaande test.",
+          "text_ru": "Простое подозрение сотрудника, даже без предварительного теста.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un test préliminaire de salive a détecté la présence de substances influençant la capacité de conduite.",
+          "text_nl": "Een voorlopige speekseltest heeft de aanwezigheid van stoffen gedetecteerd die de rijvaardigheid beïnvloeden.",
+          "text_ru": "Предварительный тест слюны выявил наличие веществ, влияющих на способность к вождению.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur a refusé de se soumettre à un alcootest.",
+          "text_nl": "De bestuurder heeft geweigerd een alcoholtest te ondergaan.",
+          "text_ru": "Водитель отказался пройти тест на алкоголь.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les agents de l'autorité imposent une analyse de salive lorsque le test salivaire préliminaire détecte au moins une des substances qui influencent la capacité de conduite.",
+      "explanation_nl": "De overheidspersonen leggen een speekselanalyse op wanneer de voorlopige speekseltest de aanwezigheid aantoont van één van de stoffen die de rijvaardigheid beïnvloeden.",
+      "explanation_ru": "Уполномоченные органы требуют анализ слюны, когда предварительный анализ слюны выявляет наличие хотя бы одного из веществ, влияющих на способность к вождению."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "5ad85676fc71",
@@ -40,6 +337,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:54:23Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

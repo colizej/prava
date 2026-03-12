@@ -37,7 +37,156 @@
   "anchor_id_fr": "fkxmxklunm",
   "anchor_id_nl": "kqd1z15gep",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel type de signalisation est autorisé pour donner des indications aux usagers de la route ?",
+      "text_nl": "Welk type verkeerstekens mag gebruikt worden om weggebruikers aanwijzingen te geven?",
+      "text_ru": "Какой тип дорожных знаков разрешено использовать для предоставления указаний участникам дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toute signalisation visible, pourvu qu'elle soit claire.",
+          "text_nl": "Alle zichtbare signalisatie, mits duidelijk.",
+          "text_ru": "Любые видимые знаки, если они четкие.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement la signalisation définie par les règlements officiels de la circulation routière.",
+          "text_nl": "Uitsluitend de verkeerstekens bepaald in de officiële verkeersreglementen.",
+          "text_ru": "Только дорожные знаки, определенные официальными правилами дорожного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les panneaux créés par les autorités locales pour des besoins spécifiques, même s'ils ne sont pas standards.",
+          "text_nl": "Borden gecreëerd door lokale autoriteiten voor specifieke behoeften, zelfs als ze niet standaard zijn.",
+          "text_ru": "Знаки, созданные местными властями для конкретных нужд, даже если они нестандартны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Seule la signalisation définie par les règlements officiels est autorisée pour donner des indications aux usagers de la route. Il est interdit d'utiliser la signalisation routière à d'autres fins.",
+      "explanation_nl": "Alleen de verkeerstekens bepaald in de officiële reglementen mogen gebruikt worden om de weggebruikers aanwijzingen te geven. Het is verboden verkeerstekens voor andere doeleinden te gebruiken.",
+      "explanation_ru": "Только дорожные знаки, определенные официальными правилами, разрешено использовать для предоставления указаний участникам дорожного движения. Запрещено использовать дорожные знаки для других целей."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'objectif principal du placement des feux de circulation et des panneaux routiers ?",
+      "text_nl": "Wat is het belangrijkste doel van de plaatsing van verkeerslichten en verkeersborden?",
+      "text_ru": "Какова основная цель размещения светофоров и дорожных знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Assurer une visibilité maximale pour les autorités de contrôle.",
+          "text_nl": "Maximale zichtbaarheid voor controlerende autoriteiten te garanderen.",
+          "text_ru": "Обеспечить максимальную видимость для контролирующих органов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Gêner le moins possible les usagers de la route.",
+          "text_nl": "De weggebruikers zo weinig mogelijk hinderen.",
+          "text_ru": "Минимизировать неудобства для участников дорожного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ajouter une touche esthétique à l'environnement urbain et rural.",
+          "text_nl": "Een esthetische toets toe te voegen aan de stedelijke en landelijke omgeving.",
+          "text_ru": "Добавить эстетический элемент в городскую и сельскую среду.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux lumineux de circulation et les signaux routiers doivent être placés de manière à gêner le moins possible les usagers de la route.",
+      "explanation_nl": "De verkeerslichten en de verkeersborden moeten zodanig worden geplaatst dat zij de weggebruikers zo weinig mogelijk hinderen.",
+      "explanation_ru": "Светофоры и дорожные знаки должны быть размещены таким образом, чтобы они как можно меньше мешали участникам дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route et voyez un panneau non standard, fait maison, indiquant 'STOP'. Comment devez-vous réagir ?",
+      "text_nl": "U rijdt op een weg en ziet een niet-standaard, zelfgemaakt bord met 'STOP'. Hoe moet u reageren?",
+      "text_ru": "Вы едете по дороге и видите нестандартный, самодельный знак 'СТОП'. Как вы должны отреагировать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Homemade STOP sign, clearly not official"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je dois m'arrêter immédiatement et complètement, comme pour un panneau officiel.",
+          "text_nl": "Ik moet onmiddellijk en volledig stoppen, net als bij een officieel bord.",
+          "text_ru": "Я должен немедленно и полностью остановиться, как перед официальным знаком.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je peux ignorer ce panneau car il n'est pas conforme aux règlements officiels de la circulation.",
+          "text_nl": "Ik mag dit bord negeren omdat het niet voldoet aan de officiële verkeersregels.",
+          "text_ru": "Я могу игнорировать этот знак, так как он не соответствует официальным правилам дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je ne suis pas légalement obligé de l'obéir, car seuls les signaux officiels sont contraignants, mais par prudence, j'adapte ma conduite à la situation et je reste vigilant.",
+          "text_nl": "Ik ben niet wettelijk verplicht om het op te volgen, want alleen officiële tekens zijn bindend, maar uit voorzichtigheid pas ik mijn rijgedrag aan de situatie aan en blijf ik waakzaam.",
+          "text_ru": "Я не обязан подчиняться ему юридически, так как обязательны только официальные знаки, но из предосторожности я приспосабливаю свое вождение к ситуации и остаюсь бдительным.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Seule la signalisation définie par les règlements officiels peut être employée pour donner des indications. Un panneau fait maison n'est donc pas légalement contraignant. Cependant, un conducteur prudent doit toujours adapter sa conduite à la situation et rester vigilant pour sa sécurité et celle des autres usagers.",
+      "explanation_nl": "Alleen de verkeerstekens bepaald in de officiële reglementen mogen gebruikt worden om aanwijzingen te geven. Een zelfgemaakt bord is dus niet wettelijk bindend. Een voorzichtige bestuurder moet echter altijd zijn rijgedrag aan de situatie aanpassen en waakzaam blijven voor zijn eigen veiligheid en die van andere weggebruikers.",
+      "explanation_ru": "Только дорожные знаки, определенные официальными правилами, могут использоваться для предоставления указаний. Поэтому самодельный знак не является юридически обязывающим. Однако осторожный водитель всегда должен адаптировать свое вождение к ситуации и оставаться бдительным для обеспечения собственной безопасности и безопасности других участников движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous voyez un panneau d'indication bleu (comme F43 ou F57) mentionnant le nom d'une association locale en bas, occupant une petite partie du panneau. Cette inscription vous semble normale. Quelle en est la raison possible ?",
+      "text_nl": "U ziet een blauw aanwijzingsbord (zoals F43 of F57) met onderaan de naam van een lokale vereniging, die een klein deel van het bord inneemt. Deze vermelding lijkt u normaal. Wat is de mogelijke reden hiervoor?",
+      "text_ru": "Вы видите синий указательный знак (например, F43 или F57), на котором внизу указано название местной ассоциации, занимающее небольшую часть знака. Эта надпись кажется вам нормальной. Какова возможная причина этого?",
+      "image": {
+        "sign_code": "F43",
+        "generation_prompt": "Road sign F43 with a small text at the bottom, like a donor name"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est toujours interdit, car les panneaux routiers ne doivent jamais contenir de texte non lié à la circulation, sans exception.",
+          "text_nl": "Het is altijd verboden, want verkeersborden mogen nooit tekst bevatten die niet gerelateerd is aan het verkeer, zonder uitzondering.",
+          "text_ru": "Это всегда запрещено, так как дорожные знаки никогда не должны содержать текст, не связанный с движением, без исключений.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est autorisé spécifiquement pour les panneaux d'indication F43 et F57 si l'association est le donateur et que la mention n'occupe pas plus d'un sixième de la surface du signal.",
+          "text_nl": "Het is specifiek toegestaan voor de aanwijzingsborden F43 en F57 als de vereniging de schenker is en de vermelding niet meer dan een zesde van het oppervlak van het bord beslaat.",
+          "text_ru": "Это разрешено специально для указательных знаков F43 и F57, если ассоциация является спонсором и надпись занимает не более одной шестой части поверхности знака.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est permis si la mention est petite et ne gêne pas la lecture de la direction indiquée ou d'autres informations importantes.",
+          "text_nl": "Het is toegestaan als de vermelding klein is en het lezen van de aangegeven richting of andere belangrijke informatie niet hindert.",
+          "text_ru": "Это разрешено, если надпись небольшая и не мешает чтению указанного направления или другой важной информации.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La règle générale interdit les mentions étrangères sur la signalisation routière. Cependant, une exception est faite pour les signaux d'indication F43 et F57, qui peuvent porter le nom du donateur, à condition que cette mention n'occupe pas plus du sixième de la surface du signal.",
+      "explanation_nl": "De algemene regel verbiedt vreemde vermeldingen op verkeerstekens. Er is echter een uitzondering voor de aanwijzingsborden F43 en F57, die de naam van de schenker mogen vermelden, op voorwaarde dat die vermelding niet meer dan een zesde van de oppervlakte van het bord beslaat.",
+      "explanation_ru": "Общее правило запрещает посторонние надписи на дорожных знаках. Однако существует исключение для указательных знаков F43 и F57, на которых может быть указано имя спонсора, при условии, что эта надпись занимает не более одной шестой части поверхности знака."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "7ea81cf2ae58",
@@ -47,6 +196,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T12:00:08Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 4
   }
 }

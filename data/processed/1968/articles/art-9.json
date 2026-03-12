@@ -41,7 +41,230 @@
   "anchor_id_fr": "rcbgadmvav",
   "anchor_id_nl": "ffikhtgnno",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le principe général pour l'organisation de compétitions sportives sur la voie publique ?",
+      "text_nl": "Wat is het algemene principe voor de organisatie van sportcompetities op de openbare weg?",
+      "text_ru": "Каково общее правило для организации спортивных соревнований на общественных дорогах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toujours autorisée",
+          "text_nl": "Altijd toegestaan",
+          "text_ru": "Всегда разрешено",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Interdite sauf autorisation préalable",
+          "text_nl": "Verboden behoudens voorafgaand verlof",
+          "text_ru": "Запрещено, если нет предварительного разрешения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Autorisée sans restriction",
+          "text_nl": "Toegestaan zonder beperkingen",
+          "text_ru": "Разрешено без ограничений",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'organisation de compétitions sportives sur la voie publique est interdite sauf autorisation préalable et écrite des bourgmestres.",
+      "explanation_nl": "De organisatie van sportcompetities op de openbare weg is verboden behoudens voorafgaand en schriftelijk verlof van de burgemeesters.",
+      "explanation_ru": "Организация спортивных соревнований на общественных дорогах запрещена, если нет предварительного письменного разрешения от мэров."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui détermine les conditions pour l'organisation de certaines épreuves et compétitions ?",
+      "text_nl": "Wie stelt de voorwaarden vast voor de organisatie van bepaalde wedstrijden en competities?",
+      "text_ru": "Кто определяет условия для организации определенных соревнований и конкурсов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les organisateurs",
+          "text_nl": "De organisatoren",
+          "text_ru": "Организаторы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi",
+          "text_nl": "De Koning",
+          "text_ru": "Король",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les participants",
+          "text_nl": "De deelnemers",
+          "text_ru": "Участники",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Roi détermine les conditions auxquelles doivent être subordonnées certaines épreuves et compétitions.",
+      "explanation_nl": "De Koning stelt de voorwaarden vast waaraan bepaalde wedstrijden en competities moeten voldoen.",
+      "explanation_ru": "Король определяет условия, которым должны соответствовать определенные соревнования и конкурсы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quel est l'un des aspects importants que l'autorisation doit préciser pour les épreuves et compétitions ?",
+      "text_nl": "Wat is een van de belangrijke aspecten die het verlof moet specificeren voor de wedstrijden en competities?",
+      "text_ru": "Какой из важных аспектов, который разрешение должно указать для соревнований и конкурсов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le nombre de participants",
+          "text_nl": "Het aantal deelnemers",
+          "text_ru": "Количество участников",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les précautions pour la sécurité",
+          "text_nl": "De voorzorgen voor de veiligheid",
+          "text_ru": "Меры безопасности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La durée de l'épreuve",
+          "text_nl": "De duur van de wedstrijd",
+          "text_ru": "Продолжительность соревнования",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'autorisation doit préciser les précautions à prendre pour la sécurité des personnes et la circulation.",
+      "explanation_nl": "Het verlof moet bepalen welke voorzorgen genomen moeten worden voor de veiligheid van personen en het verkeer.",
+      "explanation_ru": "Разрешение должно указать меры безопасности для людей и дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un cycliste participe à une course cycliste sur la voie publique. Qu'est-ce qu'il doit faire avant de participer ?",
+      "text_nl": "Een wielrenner neemt deel aan een wielerwedstrijd op de openbare weg. Wat moet hij doen voordat hij deelneemt?",
+      "text_ru": "Велосипедист участвует в велогонке на общественной дороге. Что он должен сделать перед участием?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander l'autorisation aux organisateurs",
+          "text_nl": "Vragen om toestemming van de organisatoren",
+          "text_ru": "Попросить разрешение у организаторов",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vérifier si l'épreuve a reçu l'autorisation préalable",
+          "text_nl": "Controleren of de wedstrijd voorafgaand verlof heeft gekregen",
+          "text_ru": "Проверить, получило ли соревнование предварительное разрешение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer les règles de circulation",
+          "text_nl": "De verkeersregels negeren",
+          "text_ru": "Игнорировать правила дорожного движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le cycliste doit vérifier si l'épreuve a reçu l'autorisation préalable des autorités compétentes.",
+      "explanation_nl": "De wielrenner moet controleren of de wedstrijd voorafgaand verlof heeft gekregen van de bevoegde autoriteiten.",
+      "explanation_ru": "Велосипедист должен проверить, получило ли соревнование предварительное разрешение от соответствующих властей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur rencontre une course cycliste sur la route. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder komt een wielerwedstrijd op de weg tegen. Wat moet hij doen?",
+      "text_ru": "Водитель встречает велогонку на дороге. Что он должен сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler normalement",
+          "text_nl": "Doorgaan met normaal rijden",
+          "text_ru": "Продолжать ехать как обычно",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réduire sa vitesse et faire attention",
+          "text_nl": "Zijn snelheid verminderen en opletten",
+          "text_ru": "Снизить скорость и быть осторожным",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de dépasser les cyclistes",
+          "text_nl": "Proberen de wielrenners in te halen",
+          "text_ru": "Попытаться обогнать велосипедистов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit réduire sa vitesse et faire attention pour éviter tout accident.",
+      "explanation_nl": "De bestuurder moet zijn snelheid verminderen en opletten om een ongeval te voorkomen.",
+      "explanation_ru": "Водитель должен снизить скорость и быть осторожным, чтобы избежать любых аварий."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un organisateur de course cycliste demande l'autorisation aux autorités. Qu'est-ce qu'il doit fournir ?",
+      "text_nl": "Een organisator van een wielerwedstrijd vraagt om toestemming van de autoriteiten. Wat moet hij leveren?",
+      "text_ru": "Организатор велогонки запрашивает разрешение у властей. Что он должен предоставить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un plan de la course",
+          "text_nl": "Een plattegrond van de wedstrijd",
+          "text_ru": "План гонки",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une assurance de la responsabilité civile",
+          "text_nl": "Een aansprakelijkheidsverzekering",
+          "text_ru": "Страхование гражданской ответственности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un certificat de sécurité",
+          "text_nl": "Een veiligheidsattest",
+          "text_ru": "Сертификат безопасности",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'organisateur doit fournir une assurance de la responsabilité civile pour couvrir les risques.",
+      "explanation_nl": "De organisator moet een aansprakelijkheidsverzekering leveren om de risico's te dekken.",
+      "explanation_ru": "Организатор должен предоставить страхование гражданской ответственности, чтобы покрыть риски."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "1b72b8505129",
@@ -51,6 +274,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:59:26Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 6
   }
 }

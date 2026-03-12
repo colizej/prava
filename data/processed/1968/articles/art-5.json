@@ -26,7 +26,119 @@
   "anchor_id_fr": "awvvahqdrq",
   "anchor_id_nl": "z7jrw0foy1",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel organisme est habilité à réguler la circulation sur toutes les routes spécifiquement pendant les périodes de dégel ?",
+      "text_nl": "Welke instantie is bevoegd om het verkeer op alle wegen specifiek tijdens dooiperiodes te regelen?",
+      "text_ru": "Какой орган уполномочен регулировать дорожное движение на всех дорогах специально в периоды оттепели?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les services de voirie communaux",
+          "text_nl": "De gemeentelijke wegendiensten",
+          "text_ru": "Коммунальные дорожные службы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les gouverneurs de province",
+          "text_nl": "De provinciegouverneurs",
+          "text_ru": "Губернаторы провинций",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le ministre des Transports",
+          "text_nl": "De minister van Verkeer",
+          "text_ru": "Министр транспорта",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La régulation de la circulation en période de dégel sur toutes les routes est une compétence spécifique confiée aux gouverneurs de province.",
+      "explanation_nl": "Het regelen van het verkeer tijdens dooiperiodes op alle wegen is een specifieke bevoegdheid die aan de provinciegouverneurs is toevertrouwd.",
+      "explanation_ru": "Регулирование дорожного движения в период оттепели на всех дорогах является специфической компетенцией, возложенной на губернаторов провинций."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelle période spécifique les gouverneurs de province sont-ils autorisés à régler la circulation sur les routes ?",
+      "text_nl": "In welke specifieke periode mogen de provinciegouverneurs het verkeer op de wegen regelen?",
+      "text_ru": "В какой конкретный период губернаторам провинций разрешено регулировать движение на дорогах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement pendant les grands travaux de construction routière",
+          "text_nl": "Uitsluitend tijdens grote wegenbouwprojecten",
+          "text_ru": "Только во время крупных дорожно-строительных работ",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement en temps de dégel",
+          "text_nl": "Uitsluitend in dooitijd",
+          "text_ru": "Только в период оттепели",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À tout moment jugé nécessaire pour la sécurité",
+          "text_nl": "Op elk moment dat nodig wordt geacht voor de veiligheid",
+          "text_ru": "В любое время, когда это считается необходимым для безопасности",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les gouverneurs de province sont spécifiquement habilités à réguler la circulation en temps de dégel, comme mentionné dans les dispositions légales.",
+      "explanation_nl": "De provinciegouverneurs zijn specifiek bevoegd om het verkeer in dooitijd te regelen, zoals vermeld in de wettelijke bepalingen.",
+      "explanation_ru": "Губернаторы провинций специально уполномочены регулировать движение в период оттепели, как указано в правовых положениях."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'organisme chargé d'intervenir, en dehors des périodes de dégel, pour les tarifs de chargement et les conditions d'utilisation des locomotives routières ?",
+      "text_nl": "Welke instantie is buiten dooitijd bevoegd om tussen te komen bij de toepassing van ladingstarieven en de voorwaarden voor het gebruik van straatlocomotieven?",
+      "text_ru": "Какой орган уполномочен вмешиваться, вне периода оттепели, в вопросы тарифов на погрузку и условий использования дорожных локомотивов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les conseils communaux",
+          "text_nl": "De gemeenteraden",
+          "text_ru": "Муниципальные советы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le service public fédéral Mobilité et Transports",
+          "text_nl": "De federale overheidsdienst Mobiliteit en Vervoer",
+          "text_ru": "Федеральная государственная служба мобильности и транспорта",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les députations permanentes",
+          "text_nl": "De bestendige deputaties",
+          "text_ru": "Постоянные депутации",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "En dehors des périodes de dégel, les députations permanentes sont les entités désignées pour intervenir dans l'application des tarifs de chargement et la détermination des conditions imposées à l'usage des locomotives routières.",
+      "explanation_nl": "Buiten dooitijd zijn de bestendige deputaties de aangewezen instanties om tussen te komen bij de toepassing van ladingstarieven en de vaststelling van de voorwaarden voor het gebruik van straatlocomotieven.",
+      "explanation_ru": "Вне периода оттепели, постоянные депутации являются назначенными органами для вмешательства в применение тарифов на погрузку и определение условий, налагаемых на использование дорожных локомотивов."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "f24d532dc365",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:45:14Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

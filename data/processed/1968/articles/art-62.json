@@ -41,7 +41,304 @@
   "anchor_id_fr": "vbkgagpw64",
   "anchor_id_nl": "lko6a7yuho",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la valeur légale d'un rapport officiel (procès-verbal) établi par un agent de l'autorité habilité à constater une infraction au code de la route ?",
+      "text_nl": "Welke wettelijke waarde heeft een officieel verslag (proces-verbaal) dat door een bevoegde ambtenaar wordt opgesteld om een verkeersovertreding vast te stellen?",
+      "text_ru": "Какова юридическая сила официального протокола (протокола), составленного уполномоченным органом для фиксации нарушения правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il constitue une simple indication qui doit toujours être confirmée par d'autres preuves.",
+          "text_nl": "Het vormt een eenvoudige aanwijzing die altijd door ander bewijs moet worden bevestigd.",
+          "text_ru": "Он является простым указанием, которое всегда должно быть подтверждено другими доказательствами.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il fait foi jusqu'à preuve du contraire.",
+          "text_nl": "Het heeft bewijskracht zolang het tegendeel niet is bewezen.",
+          "text_ru": "Он имеет доказательную силу, пока не будет доказано обратное.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il n'a aucune valeur légale si la personne n'a pas signé.",
+          "text_nl": "Het heeft geen wettelijke waarde als de persoon niet heeft getekend.",
+          "text_ru": "Он не имеет юридической силы, если лицо не подписало его.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les procès-verbaux établis par les agents de l'autorité désignés pour surveiller l'application du code de la route font foi jusqu'à preuve du contraire.",
+      "explanation_nl": "De processen-verbaal opgesteld door de overheidspersonen die zijn aangewezen om toezicht te houden op de naleving van de wegcode, hebben bewijskracht zolang het tegendeel niet is bewezen.",
+      "explanation_ru": "Протоколы, составленные уполномоченными органами для надзора за соблюдением правил дорожного движения, имеют доказательную силу, пока не будет доказано обратное."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Pour que les constatations d'appareils de contrôle routier fonctionnant automatiquement et effectuant des mesures soient valables, quelle condition essentielle doivent-ils remplir ?",
+      "text_nl": "Welke essentiële voorwaarde moeten automatisch werkende verkeerscontroletoestellen die metingen uitvoeren vervullen, opdat hun vaststellingen geldig zouden zijn?",
+      "text_ru": "Какое существенное условие должны выполнять автоматически работающие устройства дорожного контроля, осуществляющие измерения, чтобы их показания были действительны?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils doivent être installés par des entreprises agréées.",
+          "text_nl": "Zij moeten door erkende bedrijven geïnstalleerd zijn.",
+          "text_ru": "Они должны быть установлены аккредитованными компаниями.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils doivent être agréés ou homologués.",
+          "text_nl": "Zij moeten goedgekeurd of gehomologeerd zijn.",
+          "text_ru": "Они должны быть одобрены или аттестованы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent être calibrés chaque semaine.",
+          "text_nl": "Zij moeten wekelijks gekalibreerd worden.",
+          "text_ru": "Они должны калиброваться еженедельно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les appareils fonctionnant automatiquement qui effectuent des mesures doivent être agréés ou homologués pour que leurs constatations soient valables.",
+      "explanation_nl": "De automatisch werkende toestellen die metingen uitvoeren, moeten goedgekeurd of gehomologeerd zijn opdat hun vaststellingen geldig zouden zijn.",
+      "explanation_ru": "Автоматически работающие устройства, осуществляющие измерения, должны быть одобрены или аттестованы, чтобы их показания были действительны."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "À quelles fins principales les appareils de contrôle et les informations qu'ils fournissent peuvent-ils être utilisés ?",
+      "text_nl": "Voor welke hoofddoeleinden mogen controletoestellen en de informatie die zij opleveren worden gebruikt?",
+      "text_ru": "Для каких основных целей могут использоваться устройства контроля и предоставляемая ими информация?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement pour des analyses statistiques du trafic routier.",
+          "text_nl": "Uitsluitend voor statistische analyses van het wegverkeer.",
+          "text_ru": "Только для статистического анализа дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour des fins judiciaires relatives à la répression des infractions et pour la régulation de la circulation routière.",
+          "text_nl": "Voor gerechtelijke doeleinden in verband met de bestraffing van overtredingen en voor de regeling van het wegverkeer.",
+          "text_ru": "Для судебных целей, связанных с пресечением нарушений, и для регулирования дорожного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour toute fin administrative jugée utile par les autorités locales.",
+          "text_nl": "Voor elk administratief doel dat door de lokale autoriteiten nuttig wordt geacht.",
+          "text_ru": "Для любых административных целей, которые местные власти сочтут полезными.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les appareils et les informations qu'ils fournissent ne peuvent être utilisés qu'aux fins judiciaires relatives à la répression des infractions et en vue de la régulation de la circulation routière.",
+      "explanation_nl": "De toestellen en de inlichtingen die zij verstrekken, mogen slechts worden gebruikt voor gerechtelijke doeleinden in verband met de bestraffing van overtredingen en met het oog op de regeling van het wegverkeer.",
+      "explanation_ru": "Устройства и предоставляемая ими информация могут использоваться только в судебных целях, связанных с пресечением нарушений, а также для регулирования дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous recevez une notification d'infraction routière enregistrée par un appareil automatique. Dans quel délai maximal la copie du rapport officiel (procès-verbal) doit-elle vous être envoyée à partir de la date de la constatation de l'infraction ?",
+      "text_nl": "U ontvangt een kennisgeving van een verkeersovertreding vastgesteld door een automatisch toestel. Binnen welke maximale termijn moet een kopie van het officiële rapport (proces-verbaal) naar u worden verzonden, te rekenen vanaf de datum van vaststelling van de overtreding?",
+      "text_ru": "Вы получили уведомление о нарушении правил дорожного движения, зафиксированном автоматическим устройством. В течение какого максимального срока копия официального отчета (протокола) должна быть отправлена вам с даты установления нарушения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An envelope with a fine letter, calendar showing 14 days"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Sept jours.",
+          "text_nl": "Zeven dagen.",
+          "text_ru": "Семь дней.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Quatorze jours.",
+          "text_nl": "Veertien dagen.",
+          "text_ru": "Четырнадцать дней.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Trente jours.",
+          "text_nl": "Dertig dagen.",
+          "text_ru": "Тридцать дней.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une copie des procès-verbaux est adressée aux contrevenants dans un délai de quatorze jours à compter de la date de la constatation des infractions.",
+      "explanation_nl": "Een afschrift van die processen-verbaal wordt aan de overtreders gezonden binnen een termijn van veertien dagen, te rekenen van de datum van vaststelling van de misdrijven.",
+      "explanation_ru": "Копия протокола направляется нарушителям в течение четырнадцати дней с даты установления нарушений."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un agent vous arrête et constate que votre véhicule dépasse le chargement maximal autorisé. Il vous demande de décharger l'excédent de poids. Que se passe-t-il si vous refusez d'obtempérer ?",
+      "text_nl": "Een agent houdt u tegen en stelt vast dat uw voertuig de maximaal toegelaten lading overschrijdt. Hij vraagt u het overtollige gewicht te lossen. Wat gebeurt er als u weigert hieraan te voldoen?",
+      "text_ru": "Агент останавливает вас и обнаруживает, что ваше транспортное средство превышает максимально допустимую нагрузку. Он просит вас выгрузить излишки веса. Что произойдет, если вы откажетесь подчиниться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Overloaded truck stopped by a police officer"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous recevez uniquement une amende pour la surcharge.",
+          "text_nl": "U ontvangt enkel een boete voor de overbelading.",
+          "text_ru": "Вы получите только штраф за перегрузку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule est retenu à vos frais, risques et périls.",
+          "text_nl": "Het voertuig wordt vastgehouden op uw kosten, risico en gevaar.",
+          "text_ru": "Транспортное средство задерживается за ваш счет, риск и ответственность.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule est immédiatement confisqué par les autorités.",
+          "text_nl": "Het voertuig wordt onmiddellijk in beslag genomen door de autoriteiten.",
+          "text_ru": "Транспортное средство немедленно конфискуется властями.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de refus de la part d'un conducteur de décharger l'excédent de poids constaté, le véhicule est retenu aux frais, risques et périls du délinquant ou de ses ayants cause.",
+      "explanation_nl": "In geval van weigering van een bestuurder om het geconstateerde overtollige gewicht te lossen, wordt het voertuig vastgehouden op kosten, risico en gevaar van de overtreder of diens rechtverkrijgenden.",
+      "explanation_ru": "В случае отказа водителя разгрузить обнаруженный излишек веса, транспортное средство задерживается за счет, риск и ответственность нарушителя или его правопреемников."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Une nouvelle installation fixe pour la surveillance automatique de la vitesse, fonctionnant sans la présence d'un agent, est prévue sur une voie publique. Qui doit donner son accord pour l'installation de ces équipements sur la voie publique ?",
+      "text_nl": "Een nieuwe vaste installatie voor automatische snelheidsbewaking, werkzaam zonder aanwezigheid van een ambtenaar, is gepland op een openbare weg. Wie moet zijn instemming geven voor de plaatsing van deze uitrustingen op de openbare weg?",
+      "text_ru": "На дороге планируется новая стационарная установка для автоматического контроля скорости, работающая без присутствия агента. Кто должен дать согласие на установку этого оборудования на дороге?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A fixed speed camera being installed on the side of a road, with road workers present"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les autorités policières locales.",
+          "text_nl": "Enkel de lokale politieautoriteiten.",
+          "text_ru": "Только местные полицейские органы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les gestionnaires de la voirie.",
+          "text_nl": "De wegbeheerders.",
+          "text_ru": "Дорожные службы.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement le conseil communal de la ville concernée.",
+          "text_nl": "Alleen de gemeenteraad van de betreffende stad.",
+          "text_ru": "Только городской совет соответствующего города.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'installation sur la voie publique d'équipements fixes pour des appareils fonctionnant automatiquement en l'absence d'agent qualifié se fait de l'accord des gestionnaires de la voirie.",
+      "explanation_nl": "De plaatsing op de openbare weg van vaste uitrustingen voor onbemande automatisch werkende toestellen, wordt uitgevoerd met instemming van de wegbeheerder.",
+      "explanation_ru": "Установка на дорогах стационарного оборудования для автоматически работающих устройств в отсутствие квалифицированного агента осуществляется с согласия дорожных служб."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes flashé pour excès de vitesse par un radar mobile où un agent de l'autorité est présent et supervise l'appareil. Quelle est la valeur des constatations faites par ce type d'appareil ?",
+      "text_nl": "U wordt geflitst wegens snelheidsovertreding door een mobiele radar waarbij een bevoegd ambtenaar aanwezig is en het toestel superviseert. Wat is de waarde van de vaststellingen die door dit type toestel worden gedaan?",
+      "text_ru": "Вас зафиксировали за превышение скорости мобильным радаром, которым управляет присутствующий на месте агент власти. Какова юридическая сила показаний, сделанных этим типом устройства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police car with a mobile speed camera and an officer next to it on the roadside"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont une simple présomption qui ne peut pas être utilisée comme preuve principale.",
+          "text_nl": "Zij zijn een eenvoudig vermoeden dat niet als hoofdbewijs kan worden gebruikt.",
+          "text_ru": "Они являются простым предположением, которое не может быть использовано в качестве основного доказательства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles ont force de preuve jusqu'à preuve du contraire.",
+          "text_nl": "Zij hebben bewijskracht zolang het tegendeel niet is bewezen.",
+          "text_ru": "Они имеют доказательную силу, пока не будет доказано обратное.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles ne sont valables que si vous reconnaissez l'infraction sur place.",
+          "text_nl": "Zij zijn enkel geldig als u de overtreding ter plaatse erkent.",
+          "text_ru": "Они действительны только в том случае, если вы признаете нарушение на месте.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les constatations fondées sur des preuves matérielles fournies par des appareils fonctionnant automatiquement en présence d'un agent qualifié font foi jusqu'à preuve du contraire.",
+      "explanation_nl": "De vaststellingen gesteund op materiële bewijsmiddelen die door bemande automatisch werkende toestellen worden opgeleverd, hebben bewijskracht zolang het tegendeel niet is bewezen.",
+      "explanation_ru": "Показания, основанные на материальных доказательствах, предоставленных автоматически работающими устройствами в присутствии квалифицированного агента, имеют доказательную силу, пока не будет доказано обратное."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Une infraction est constatée par un appareil fonctionnant automatiquement en l'absence totale d'agent. Pour que les constatations de cet appareil aient valeur de preuve jusqu'à preuve du contraire, quelle condition spécifique doit être remplie concernant l'infraction elle-même ?",
+      "text_nl": "Een overtreding wordt vastgesteld door een automatisch werkend toestel in de volledige afwezigheid van een ambtenaar. Opdat de vaststellingen van dit toestel bewijskracht hebben zolang het tegendeel niet is bewezen, welke specifieke voorwaarde moet dan vervuld zijn met betrekking tot de overtreding zelf?",
+      "text_ru": "Нарушение зафиксировано автоматически работающим устройством в полное отсутствие агента. Чтобы показания этого устройства имели доказательную силу, пока не будет доказано обратное, какое конкретное условие должно быть выполнено в отношении самого нарушения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A fixed speed camera (radar) on the side of a road, with no person around"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'infraction doit être une infraction grave au code de la route (ex: grand excès de vitesse).",
+          "text_nl": "De overtreding moet een ernstige overtreding van de wegcode zijn (bv. grote snelheidsovertreding).",
+          "text_ru": "Нарушение должно быть серьезным нарушением правил дорожного движения (например, значительное превышение скорости).",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'infraction doit faire partie des infractions spécifiquement désignées par un arrêté royal.",
+          "text_nl": "De overtreding moet behoren tot de overtredingen die specifiek in een koninklijk besluit zijn vermeld.",
+          "text_ru": "Нарушение должно относиться к нарушениям, специально указанным в королевском указе.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'appareil doit afficher un avertissement clair signalant qu'il est en fonctionnement.",
+          "text_nl": "Het toestel moet een duidelijke waarschuwing weergeven dat het in werking is.",
+          "text_ru": "Устройство должно отображать четкое предупреждение о том, что оно работает.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les constatations fondées sur des preuves matérielles fournies par des appareils fonctionnant automatiquement en l'absence d'un agent qualifié font foi jusqu'à preuve du contraire lorsqu'il s'agit d'infractions désignées par un arrêté royal délibéré en Conseil des ministres.",
+      "explanation_nl": "De vaststellingen gesteund op materiële bewijsmiddelen die door onbemande automatisch werkende toestellen worden opgeleverd, hebben bewijskracht zolang het tegendeel niet is bewezen, wanneer het gaat om overtredingen vermeld in een in Ministerraad overlegd koninklijk besluit.",
+      "explanation_ru": "Показания, основанные на материальных доказательствах, предоставленных автоматически работающими устройствами в отсутствие квалифицированного агента, имеют доказательную силу, пока не будет доказано обратное, если речь идет о нарушениях, указанных в королевском указе, принятом в Совете министров."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "cb2109610707",
@@ -51,6 +348,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:52:44Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

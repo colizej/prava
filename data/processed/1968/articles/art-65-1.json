@@ -39,7 +39,304 @@
   "anchor_id_fr": "jxo5e71qrq",
   "anchor_id_nl": "n4bzecakn4",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un ordre de paiement émis par le procureur du Roi en matière de contraventions routières?",
+      "text_nl": "Wat is een bevel tot betalen, uitgestuurd door de procureur des Konings voor verkeersovertredingen?",
+      "text_ru": "Что такое платежное требование, выданное прокурором по делам о дорожных нарушениях?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une proposition de transaction immédiate envoyée directement après l'infraction.",
+          "text_nl": "Een voorstel tot onmiddellijke minnelijke schikking, rechtstreeks na de overtreding verzonden.",
+          "text_ru": "Предложение о немедленном урегулировании, отправленное сразу после нарушения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une injonction officielle de payer une amende routière majorée, après non-paiement de l'amende initiale.",
+          "text_nl": "Een officieel bevel om een verhoogde verkeersboete te betalen, na niet-betaling van de oorspronkelijke boete.",
+          "text_ru": "Официальное предписание об уплате увеличенного штрафа за нарушение ПДД после неуплаты первоначального штрафа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un rappel amical de payer une amende non acquittée.",
+          "text_nl": "Een vriendelijke herinnering om een onbetaalde boete te voldoen.",
+          "text_ru": "Дружеское напоминание об оплате неоплаченного штрафа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'ordre de paiement est une injonction officielle du procureur du Roi, envoyée après qu'une amende initiale pour une infraction routière n'ait pas été réglée dans le délai imparti. Il inclut une majoration et des frais administratifs.",
+      "explanation_nl": "Het bevel tot betalen is een officieel bevel van de procureur des Konings, verstuurd nadat een initiële verkeersboete niet binnen de gestelde termijn is betaald. Het omvat een verhoging en administratieve kosten.",
+      "explanation_ru": "Платежное требование — это официальное предписание прокурора, высылаемое после того, как первоначальный штраф за нарушение правил дорожного движения не был оплачен в установленный срок. Оно включает увеличение суммы и административные сборы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la conséquence légale principale du paiement d'un ordre de paiement dans le délai imparti?",
+      "text_nl": "Wat is het belangrijkste wettelijke gevolg van het betalen van een bevel tot betalen binnen de gestelde termijn?",
+      "text_ru": "Каково основное юридическое последствие оплаты платежного требования в установленный срок?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le contrevenant devra toujours comparaître devant le tribunal de police.",
+          "text_nl": "De overtreder zal altijd voor de politierechtbank moeten verschijnen.",
+          "text_ru": "Нарушитель все равно должен будет предстать перед полицейским судом.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'action publique est éteinte, mettant fin à la procédure judiciaire.",
+          "text_nl": "De strafvordering vervalt, waardoor de gerechtelijke procedure wordt beëindigd.",
+          "text_ru": "Публичное преследование прекращается, что завершает судебную процедуру.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le montant de l'amende sera réduit pour bonne conduite.",
+          "text_nl": "Het boetebedrag wordt verminderd wegens goed gedrag.",
+          "text_ru": "Сумма штрафа будет уменьшена за хорошее поведение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le paiement de l'ordre de paiement dans le délai indiqué éteint l'action publique, ce qui signifie que le dossier est clos et qu'il n'y aura pas de poursuite judiciaire.",
+      "explanation_nl": "De betaling van het bevel tot betalen binnen de gestelde termijn doet de strafvordering vervallen, wat betekent dat het dossier wordt afgesloten en er geen verdere gerechtelijke stappen zullen zijn.",
+      "explanation_ru": "Оплата платежного требования в указанный срок прекращает публичное преследование, что означает закрытие дела и отсутствие дальнейших судебных разбирательств."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "En plus de la majoration de 35% de la somme initiale, quel autre frais est automatiquement perçu lors de l'émission d'un ordre de paiement?",
+      "text_nl": "Naast de verhoging van 35% van het oorspronkelijke bedrag, welke andere kosten worden automatisch geïnd bij het uitsturen van een bevel tot betalen?",
+      "text_ru": "В дополнение к 35% увеличению первоначальной суммы, какой еще сбор автоматически взимается при выдаче платежного требования?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des frais de dossier pour le tribunal de police.",
+          "text_nl": "Dossierkosten voor de politierechtbank.",
+          "text_ru": "Судебные издержки для полицейского суда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une redevance administrative dont le montant est annuellement ajusté.",
+          "text_nl": "Een administratieve toeslag waarvan het bedrag jaarlijks wordt aangepast.",
+          "text_ru": "Административный сбор, сумма которого ежегодно корректируется.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une taxe pour l'envoi recommandé de l'ordre.",
+          "text_nl": "Een belasting voor de aangetekende zending van het bevel.",
+          "text_ru": "Налог за заказное отправление требования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'ordre de paiement inclut une majoration de 35% et une redevance administrative spécifique, dont le montant est automatiquement adapté chaque année en fonction de l'indice des prix à la consommation.",
+      "explanation_nl": "Het bevel tot betalen omvat een verhoging van 35% en een specifieke administratieve toeslag, waarvan het bedrag elk jaar automatisch wordt aangepast op basis van de consumptieprijsindex.",
+      "explanation_ru": "Платежное требование включает увеличение на 35% и административный сбор, сумма которого автоматически корректируется ежегодно в зависимости от индекса потребительских цен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez reçu un ordre de paiement du procureur du Roi pour une infraction routière que vous n'aviez pas réglée initialement. Quel est le délai dont vous disposez pour effectuer ce paiement?",
+      "text_nl": "U hebt een bevel tot betalen ontvangen van de procureur des Konings voor een verkeersovertreding die u aanvankelijk niet hebt betaald. Binnen welke termijn moet u deze betaling uitvoeren?",
+      "text_ru": "Вы получили платежное требование от прокурора за нарушение правил дорожного движения, которое вы изначально не оплатили. Какой срок у вас есть для осуществления этого платежа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dix jours après la date de l'ordre de paiement.",
+          "text_nl": "Tien dagen na de dagtekening van het bevel tot betalen.",
+          "text_ru": "Десять дней после даты платежного требования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Trente jours suivant le jour de la réception de l'ordre.",
+          "text_nl": "Dertig dagen volgend op de dag van ontvangst van het bevel.",
+          "text_ru": "Тридцать дней со дня получения требования.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Quarante-cinq jours à partir de la date de l'infraction.",
+          "text_nl": "Vijfenveertig dagen vanaf de datum van de overtreding.",
+          "text_ru": "Сорок пять дней с даты нарушения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le paiement de l'ordre doit être effectué dans un délai de trente jours suivant le jour de sa réception. L'ordre est réputé reçu le dixième jour ouvrable après sa date d'émission.",
+      "explanation_nl": "De betaling van het bevel moet gebeuren binnen een termijn van dertig dagen volgend op de dag van ontvangst. Het bevel wordt geacht te zijn ontvangen de tiende werkdag na de dagtekening ervan.",
+      "explanation_ru": "Оплата требования должна быть произведена в течение тридцати дней со дня его получения. Требование считается полученным на десятый рабочий день после даты его выдачи."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous contestez les faits ou le montant de l'ordre de paiement que vous avez reçu. Quelle est la démarche à suivre pour introduire un recours et dans quel délai?",
+      "text_nl": "U betwist de feiten of het bedrag van het bevel tot betalen dat u hebt ontvangen. Welke procedure moet u volgen om beroep aan te tekenen en binnen welke termijn?",
+      "text_ru": "Вы оспариваете факты или сумму платежного требования, которое вы получили. Каков порядок подачи апелляции и в какой срок?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Envoyer une lettre simple au procureur du Roi dans les 15 jours.",
+          "text_nl": "Binnen 15 dagen een gewone brief sturen naar de procureur des Konings.",
+          "text_ru": "Отправить обычное письмо прокурору в течение 15 дней.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Déposer une requête au greffe du tribunal de police compétent ou l'envoyer par recommandé/email, dans les 30 jours suivant la réception de l'ordre.",
+          "text_nl": "Een verzoekschrift indienen bij de griffie van de bevoegde politierechtbank of dit per aangetekende zending/e-mail versturen, binnen 30 dagen na ontvangst van het bevel.",
+          "text_ru": "Подать ходатайство в канцелярию компетентного полицейского суда или отправить его заказным письмом/электронной почтой в течение 30 дней с момента получения требования.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre la convocation du tribunal pour exprimer votre désaccord.",
+          "text_nl": "Wachten op de dagvaarding van de rechtbank om uw onenigheid te uiten.",
+          "text_ru": "Дождаться повестки в суд, чтобы выразить свое несогласие.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un recours contre l'ordre de paiement doit être introduit auprès du tribunal de police compétent dans les trente jours suivant le jour de la réception de l'ordre. Cela se fait par requête déposée au greffe ou envoyée par recommandé/email.",
+      "explanation_nl": "Beroep tegen het bevel tot betalen moet worden aangetekend bij de bevoegde politierechtbank binnen dertig dagen na de dag van ontvangst van het bevel. Dit gebeurt via een verzoekschrift dat neergelegd wordt op de griffie of per aangetekende zending/e-mail.",
+      "explanation_ru": "Апелляция против платежного требования должна быть подана в компетентный полицейский суд в течение тридцати дней со дня получения требования. Это делается путем подачи ходатайства в канцелярию суда или отправки заказным письмом/электронной почтой."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Si un ordre de paiement n'a pas été acquitté et n'a fait l'objet d'aucun recours, et que les tentatives de recouvrement par l'administration compétente échouent après trois ans, quelle mesure le procureur du Roi peut-il ordonner?",
+      "text_nl": "Als een bevel tot betalen onbetaald blijft, er geen beroep is aangetekend en de invorderingspogingen door de bevoegde administratie na drie jaar mislukken, welke maatregel kan de procureur des Konings dan bevelen?",
+      "text_ru": "Если платежное требование не было оплачено и не было обжаловано, а попытки взыскания компетентными органами не увенчались успехом после трех лет, какую меру может приказать прокурор?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Augmenter indéfiniment le montant de l'amende.",
+          "text_nl": "Het boetebedrag onbeperkt verhogen.",
+          "text_ru": "Бесконечно увеличивать сумму штрафа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ordonner la suspension du droit de conduire un véhicule motorisé pour le contrevenant.",
+          "text_nl": "De schorsing van het recht tot sturen van een motorvoertuig voor de overtreder bevelen.",
+          "text_ru": "Приказать приостановить право вождения моторного транспортного средства для нарушителя.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Transmettre le dossier à un huissier de justice sans autre conséquence.",
+          "text_nl": "Het dossier doorsturen naar een gerechtsdeurwaarder zonder verdere gevolgen.",
+          "text_ru": "Передать дело судебному приставу без дальнейших последствий.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Après trois ans de non-recouvrement d'un ordre de paiement exigible, le procureur du Roi peut ordonner la suspension du droit de conduire un véhicule motorisé pour le contrevenant.",
+      "explanation_nl": "Na drie jaar van niet-invordering van een opeisbaar bevel tot betalen, kan de procureur des Konings de schorsing van het recht tot sturen van een motorvoertuig voor de overtreder bevelen.",
+      "explanation_ru": "После трех лет невозврата платежного требования, прокурор может приказать приостановить право вождения моторного транспортного средства для нарушителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez dépassé la vitesse maximale autorisée de 25 km/h en dehors d'une agglomération. Si le paiement de l'ordre de paiement lié à cette infraction n'a pas été effectué et que l'amende n'a pas été recouvrée, quelle durée de suspension du droit de conduire peut être imposée?",
+      "text_nl": "U hebt de maximaal toegestane snelheid met 25 km/u overschreden buiten de bebouwde kom. Als de betaling van het bevel tot betalen voor deze overtreding niet is gedaan en de boete niet is geïnd, welke duur van schorsing van het rijbewijs kan dan worden opgelegd?",
+      "text_ru": "Вы превысили максимально разрешенную скорость на 25 км/ч вне населенного пункта. Если оплата платежного требования, связанного с этим нарушением, не была произведена, и штраф не был взыскан, какой срок лишения водительских прав может быть назначен?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Huit jours.",
+          "text_nl": "Acht dagen.",
+          "text_ru": "Восемь дней.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Quinze jours.",
+          "text_nl": "Vijftien dagen.",
+          "text_ru": "Пятнадцать дней.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un mois.",
+          "text_nl": "Eén maand.",
+          "text_ru": "Один месяц.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les dispositions de la loi, un dépassement de vitesse de plus de 20 km/h et de 30 km/h au maximum entraîne une suspension du droit de conduire de quinze jours en cas de non-paiement de l'ordre de paiement.",
+      "explanation_nl": "Volgens de wetsbepalingen leidt een snelheidsovertreding van meer dan 20 km/u en maximaal 30 km/u tot een schorsing van het recht tot sturen van vijftien dagen bij niet-betaling van het bevel tot betalen.",
+      "explanation_ru": "Согласно положениям закона, превышение скорости более чем на 20 км/ч и максимум на 30 км/ч влечет за собой приостановку права вождения на пятнадцать дней в случае неоплаты платежного требования."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez reçu un ordre de paiement, mais vous étiez dans l'incapacité d'en prendre connaissance dans le délai normal de recours (par exemple, en raison d'un séjour prolongé à l'étranger). Existe-t-il une possibilité d'introduire un recours tardif?",
+      "text_nl": "U hebt een bevel tot betalen ontvangen, maar u kon er niet binnen de normale beroepstermijn kennis van nemen (bijvoorbeeld door een langdurig verblijf in het buitenland). Is er een mogelijkheid om later nog beroep aan te tekenen?",
+      "text_ru": "Вы получили платежное требование, но не смогли ознакомиться с ним в обычный срок обжалования (например, из-за длительного пребывания за границей). Есть ли возможность подать апелляцию позже?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, le délai de 30 jours est strict et définitif.",
+          "text_nl": "Nee, de termijn van 30 dagen is strikt en definitief.",
+          "text_ru": "Нет, срок в 30 дней является строгим и окончательным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, si vous prouvez que vous n'avez pas pu en prendre connaissance, vous avez 15 jours pour faire appel à partir du jour où vous en avez eu connaissance ou du premier acte de recouvrement.",
+          "text_nl": "Ja, als u bewijst dat u er geen kennis van hebt kunnen nemen, hebt u 15 dagen om beroep aan te tekenen vanaf de dag dat u er kennis van nam of vanaf de eerste invorderingsdaad.",
+          "text_ru": "Да, если вы докажете, что не смогли ознакомиться с ним, у вас есть 15 дней для подачи апелляции со дня, когда вы о нем узнали, или со дня первого акта взыскания.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si l'erreur vient de l'administration et non de vous.",
+          "text_nl": "Ja, maar alleen als de fout bij de administratie ligt en niet bij u.",
+          "text_ru": "Да, но только если ошибка исходит от администрации, а не от вас.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Oui, si le contrevenant prouve qu'il n'a pas pu prendre connaissance de l'ordre de paiement dans le délai imparti, il peut introduire un recours dans un délai de quinze jours suivant le jour où il en a eu connaissance ou suivant le premier acte de recouvrement.",
+      "explanation_nl": "Ja, als de overtreder bewijst dat hij binnen de gestelde termijn geen kennis heeft kunnen nemen van het bevel tot betalen, kan hij binnen vijftien dagen beroep aantekenen vanaf de dag waarop hij er kennis van heeft genomen of vanaf de eerste invorderingsdaad.",
+      "explanation_ru": "Да, если нарушитель докажет, что он не смог ознакомиться с платежным требованием в установленный срок, он может подать апелляцию в течение пятнадцати дней со дня, когда он узнал о нем, или со дня первого акта взыскания."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e8ba78e40c44",
@@ -49,6 +346,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:56:57Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

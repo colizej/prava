@@ -29,7 +29,304 @@
   "anchor_id_fr": "xezlj5w8mp",
   "anchor_id_nl": "4bgunmkhjf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une somme perçue lors de la constatation d'une infraction à la loi sur la route ?",
+      "text_nl": "Wat is een geheven som bij de vaststelling van een overtreding van de wet op de weg ?",
+      "text_ru": "Что такое сумма, взимаемая при обнаружении правонарушения в отношении закона о дорожном движении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une amende",
+          "text_nl": "Een boete",
+          "text_ru": "Штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une somme destinée à couvrir l'amende éventuelle",
+          "text_nl": "Een som bestemd om de eventuele geldboete te dekken",
+          "text_ru": "Сумма, предназначенная для покрытия возможного штрафа",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des frais de justice",
+          "text_nl": "Rechtskosten",
+          "text_ru": "Судебные издержки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La somme perçue lors de la constatation d'une infraction à la loi sur la route est une somme destinée à couvrir l'amende éventuelle.",
+      "explanation_nl": "De geheven som bij de vaststelling van een overtreding van de wet op de weg is een som bestemd om de eventuele geldboete te dekken.",
+      "explanation_ru": "Сумма, взимаемая при обнаружении правонарушения в отношении закона о дорожном движении, является суммой, предназначенной для покрытия возможного штрафа."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les conditions pour que la somme perçue soit imputée sur les frais de justice dus à l'État ?",
+      "text_nl": "Wat zijn de voorwaarden voor het in mindering brengen van de geheven som op de aan de Staat verschuldigde rechtskosten ?",
+      "text_ru": "Каковы условия, при которых сумма, взимаемая при обнаружении правонарушения, засчитывается в счет судебных издержек, подлежащих уплате государству?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'exercice de l'action publique",
+          "text_nl": "De uitoefening van de strafvordering",
+          "text_ru": "Осуществление уголовного преследования",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La condamnation de l'intéressé",
+          "text_nl": "De veroordeling van de betrokkene",
+          "text_ru": "Приговор в отношении заинтересованного лица",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le paiement de la somme perçue",
+          "text_nl": "De betaling van de geheven som",
+          "text_ru": "Уплата суммы, взимаемой при обнаружении правонарушения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La somme perçue est imputée sur les frais de justice dus à l'État lors de l'exercice de l'action publique.",
+      "explanation_nl": "De geheven som wordt in mindering gebracht op de aan de Staat verschuldigde rechtskosten bij de uitoefening van de strafvordering.",
+      "explanation_ru": "Сумма, взимаемая при обнаружении правонарушения, засчитывается в счет судебных издержек, подлежащих уплате государству, при осуществлении уголовного преследования."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qu'une redevance administrative dans le contexte de la loi sur la route ?",
+      "text_nl": "Wat is een administratieve toeslag in de context van de wet op de weg ?",
+      "text_ru": "Что такое административная пошлина в контексте закона о дорожном движении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une somme perçue lors de la constatation d'une infraction",
+          "text_nl": "Een geheven som bij de vaststelling van een overtreding",
+          "text_ru": "Сумма, взимаемая при обнаружении правонарушения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une somme destinée à couvrir les frais de justice",
+          "text_nl": "Een som bestemd om de rechtskosten te dekken",
+          "text_ru": "Сумма, предназначенная для покрытия судебных издержек",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une somme de 8,84 euros, indice des prix à la consommation",
+          "text_nl": "Een som van 8,84 euro, consumptieprijsindex",
+          "text_ru": "Сумма в размере 8,84 евро, индекс потребительских цен",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La redevance administrative est une somme de 8,84 euros, indice des prix à la consommation.",
+      "explanation_nl": "De administratieve toeslag is een som van 8,84 euro, consumptieprijsindex.",
+      "explanation_ru": "Административная пошлина представляет собой сумму в размере 8,84 евро, индекс потребительских цен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur est arrêté pour une infraction à la loi sur la route. Quelle est la procédure à suivre pour le paiement de la somme perçue ?",
+      "text_nl": "Een bestuurder wordt aangehouden voor een overtreding van de wet op de weg. Wat is de procedure voor het betalen van de geheven som ?",
+      "text_ru": "Водитель был остановлен за нарушение закона о дорожном движении. Какая процедура должна быть соблюдена для уплаты суммы, взимаемой при обнаружении правонарушения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur doit payer la somme perçue immédiatement",
+          "text_nl": "De bestuurder moet de geheven som onmiddellijk betalen",
+          "text_ru": "Водитель должен уплатить сумму, взимаемую при обнаружении правонарушения, немедленно",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur doit suivre une formation",
+          "text_nl": "De bestuurder moet een opleiding volgen",
+          "text_ru": "Водитель должен пройти обучение",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur doit comparaître devant un tribunal",
+          "text_nl": "De bestuurder moet voor de rechter verschijnen",
+          "text_ru": "Водитель должен явиться в суд",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit payer la somme perçue immédiatement.",
+      "explanation_nl": "De bestuurder moet de geheven som onmiddellijk betalen.",
+      "explanation_ru": "Водитель должен уплатить сумму, взимаемую при обнаружении правонарушения, немедленно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a payé la somme perçue pour une infraction à la loi sur la route. Qu'est-ce qui se passe ensuite ?",
+      "text_nl": "Een bestuurder heeft de geheven som betaald voor een overtreding van de wet op de weg. Wat gebeurt er daarna ?",
+      "text_ru": "Водитель уплатил сумму, взимаемую при обнаружении правонарушения, за нарушение закона о дорожном движении. Что происходит дальше?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'action publique est éteinte",
+          "text_nl": "De strafvordering is vervallen",
+          "text_ru": "Уголовное преследование прекращается",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur doit comparaître devant un tribunal",
+          "text_nl": "De bestuurder moet voor de rechter verschijnen",
+          "text_ru": "Водитель должен явиться в суд",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur doit suivre une formation",
+          "text_nl": "De bestuurder moet een opleiding volgen",
+          "text_ru": "Водитель должен пройти обучение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'action publique est éteinte.",
+      "explanation_nl": "De strafvordering is vervallen.",
+      "explanation_ru": "Уголовное преследование прекращается."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur n'a pas payé la somme perçue pour une infraction à la loi sur la route. Quelles sont les conséquences ?",
+      "text_nl": "Een bestuurder heeft de geheven som niet betaald voor een overtreding van de wet op de weg. Wat zijn de gevolgen ?",
+      "text_ru": "Водитель не уплатил сумму, взимаемую при обнаружении правонарушения, за нарушение закона о дорожном движении. Каковы последствия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur doit payer une amende",
+          "text_nl": "De bestuurder moet een boete betalen",
+          "text_ru": "Водитель должен уплатить штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur doit suivre une formation",
+          "text_nl": "De bestuurder moet een opleiding volgen",
+          "text_ru": "Водитель должен пройти обучение",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur doit comparaître devant un tribunal",
+          "text_nl": "De bestuurder moet voor de rechter verschijnen",
+          "text_ru": "Водитель должен явиться в суд",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit payer une amende.",
+      "explanation_nl": "De bestuurder moet een boete betalen.",
+      "explanation_ru": "Водитель должен уплатить штраф."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été arrêté pour une infraction à la loi sur la route et n'a pas de domicile fixe en Belgique. Quelle est la procédure à suivre ?",
+      "text_nl": "Een bestuurder is aangehouden voor een overtreding van de wet op de weg en heeft geen vaste verblijfplaats in België. Wat is de procedure ?",
+      "text_ru": "Водитель был остановлен за нарушение закона о дорожном движении и не имеет постоянного места жительства в Бельгии. Какая процедура должна быть соблюдена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur doit consigner une somme",
+          "text_nl": "De bestuurder moet een som in consignatie geven",
+          "text_ru": "Водитель должен внести сумму",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur doit payer la somme perçue immédiatement",
+          "text_nl": "De bestuurder moet de geheven som onmiddellijk betalen",
+          "text_ru": "Водитель должен уплатить сумму, взимаемую при обнаружении правонарушения, немедленно",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur doit suivre une formation",
+          "text_nl": "De bestuurder moet een opleiding volgen",
+          "text_ru": "Водитель должен пройти обучение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit consigner une somme.",
+      "explanation_nl": "De bestuurder moet een som in consignatie geven.",
+      "explanation_ru": "Водитель должен внести сумму."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a consigné une somme pour une infraction à la loi sur la route. Qu'est-ce qui se passe ensuite ?",
+      "text_nl": "Een bestuurder heeft een som in consignatie gegeven voor een overtreding van de wet op de weg. Wat gebeurt er daarna ?",
+      "text_ru": "Водитель внёс сумму за нарушение закона о дорожном движении. Что происходит дальше?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La somme est imputée sur les frais de justice",
+          "text_nl": "De som wordt in mindering gebracht op de rechtskosten",
+          "text_ru": "Сумма засчитывается в счет судебных издержек",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La somme est restituée au conducteur",
+          "text_nl": "De som wordt aan de bestuurder terugbetaald",
+          "text_ru": "Сумма возвращается водителю",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La somme est utilisée pour payer une amende",
+          "text_nl": "De som wordt gebruikt om een boete te betalen",
+          "text_ru": "Сумма используется для уплаты штрафа",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La somme est imputée sur les frais de justice.",
+      "explanation_nl": "De som wordt in mindering gebracht op de rechtskosten.",
+      "explanation_ru": "Сумма засчитывается в счет судебных издержек."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "d5b10786e046",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:57:13Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

@@ -26,7 +26,45 @@
   "anchor_id_fr": "wgblisahvc",
   "anchor_id_nl": "hymonfyi7t",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quand la confiscation d'un véhicule peut-elle être prononcée à la suite d'une infraction liée aux règles de la circulation routière?",
+      "text_nl": "Wanneer kan de verbeurdverklaring van een voertuig worden uitgesproken na een overtreding van de verkeersregels?",
+      "text_ru": "Когда может быть вынесено решение о конфискации транспортного средства в результате нарушения правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement en cas d'infractions considérées comme très graves, selon l'appréciation du juge.",
+          "text_nl": "Alleen bij overtredingen die als zeer ernstig worden beschouwd, naar oordeel van de rechter.",
+          "text_ru": "Только в случае нарушений, считающихся очень серьезными, по усмотрению судьи.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement dans les situations spécifiquement définies par les textes de loi qui encadrent ces infractions.",
+          "text_nl": "Enkel in de situaties die specifiek zijn vastgelegd in de wetteksten die deze overtredingen regelen.",
+          "text_ru": "Только в ситуациях, конкретно определенных законодательными актами, регулирующими эти нарушения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dès qu'une infraction au code de la route est constatée et prouvée.",
+          "text_nl": "Zodra een overtreding van de wegcode wordt vastgesteld en bewezen.",
+          "text_ru": "Как только нарушение правил дорожного движения установлено и доказано.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La confiscation d'un véhicule n'est possible que dans les cas expressément déterminés par les dispositions spécifiques, et non de manière générale pour toute infraction.",
+      "explanation_nl": "De verbeurdverklaring van een voertuig is enkel mogelijk in de gevallen die uitdrukkelijk door specifieke bepalingen worden vastgesteld, en niet algemeen voor elke overtreding.",
+      "explanation_ru": "Конфискация транспортного средства возможна только в случаях, прямо определенных конкретными положениями, а не в общем порядке за любое нарушение."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "51fb90e8f91b",
@@ -36,6 +74,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:46:30Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 1
   }
 }

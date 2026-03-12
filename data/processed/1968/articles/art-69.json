@@ -26,7 +26,304 @@
   "anchor_id_fr": "ljvvhhyql2",
   "anchor_id_nl": "hz9lywakxj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui est responsable de déterminer les modalités de radiation des mentions relatives aux déchéances du droit de conduire sur les documents d'identité ?",
+      "text_nl": "Wie is verantwoordelijk voor het bepalen van de nadere regels inzake schrapping van de vermeldingen betreffende de vervallenverklaringen van het recht tot sturen op de identiteitsdocumenten ?",
+      "text_ru": "Кто несет ответственность за определение порядка удаления записей, связанных с лишением права управления транспортным средством, с документов, удостоверяющих личность?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le gouvernement",
+          "text_nl": "De regering",
+          "text_ru": "Правительство",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi",
+          "text_nl": "De Koning",
+          "text_ru": "Король",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le parlement",
+          "text_nl": "Het parlement",
+          "text_ru": "Парламент",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Roi est responsable de déterminer les modalités de radiation des mentions relatives aux déchéances du droit de conduire sur les documents d'identité.",
+      "explanation_nl": "De Koning is verantwoordelijk voor het bepalen van de nadere regels inzake schrapping van de vermeldingen betreffende de vervallenverklaringen van het recht tot sturen op de identiteitsdocumenten.",
+      "explanation_ru": "Король несет ответственность за определение порядка удаления записей, связанных с лишением права управления транспортным средством, с документов, удостоверяющих личность."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quels documents peuvent contenir des mentions relatives aux déchéances du droit de conduire ?",
+      "text_nl": "Welke documenten kunnen vermeldingen betreffende de vervallenverklaringen van het recht tot sturen bevatten ?",
+      "text_ru": "Какие документы могут содержать записи, связанные с лишением права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les cartes d'identité et les permis de conduire",
+          "text_nl": "De identiteitskaarten en de rijbewijzen",
+          "text_ru": "Удостоверения личности и водительские права",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les passeports et les visas",
+          "text_nl": "De paspoorten en de visa",
+          "text_ru": "Паспорта и визы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les certificats de naissance et de mariage",
+          "text_nl": "De geboorte- en huwelijksakten",
+          "text_ru": "Свидетельства о рождении и браке",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les cartes d'identité, les titres qui en tiennent lieu et les permis de conduire peuvent contenir des mentions relatives aux déchéances du droit de conduire.",
+      "explanation_nl": "De identiteitskaarten, de als zodanig geldende bewijzen en de rijbewijzen kunnen vermeldingen betreffende de vervallenverklaringen van het recht tot sturen bevatten.",
+      "explanation_ru": "Удостоверения личности, документы, заменяющие их, и водительские права могут содержать записи, связанные с лишением права управления транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quel est le but de la radiation des mentions relatives aux déchéances du droit de conduire sur les documents d'identité ?",
+      "text_nl": "Wat is het doel van de schrapping van de vermeldingen betreffende de vervallenverklaringen van het recht tot sturen op de identiteitsdocumenten ?",
+      "text_ru": "Какова цель удаления записей, связанных с лишением права управления транспортным средством, с документов, удостоверяющих личность?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De mettre à jour les informations sur les conducteurs",
+          "text_nl": "Om de informatie over de bestuurders up-to-date te houden",
+          "text_ru": "Чтобы обновить информацию о водителях",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "De supprimer les mentions obsolètes",
+          "text_nl": "Om de verouderde vermeldingen te schrappen",
+          "text_ru": "Чтобы удалить устаревшие записи",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "De créer de nouvelles mentions",
+          "text_nl": "Om nieuwe vermeldingen te creëren",
+          "text_ru": "Чтобы создать новые записи",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le but de la radiation des mentions relatives aux déchéances du droit de conduire est de supprimer les mentions obsolètes.",
+      "explanation_nl": "Het doel van de schrapping van de vermeldingen betreffende de vervallenverklaringen van het recht tot sturen is om de verouderde vermeldingen te schrappen.",
+      "explanation_ru": "Цель удаления записей, связанных с лишением права управления транспортным средством, состоит в том, чтобы удалить устаревшие записи."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire il y a 5 ans. Qu'est-ce qui se passe avec les mentions relatives à cette déchéance sur son permis de conduire ?",
+      "text_nl": "Een bestuurder is 5 jaar geleden zijn recht tot sturen verloren. Wat gebeurt er met de vermeldingen betreffende deze vervallenverklaring op zijn rijbewijs ?",
+      "text_ru": "Водитель был лишен права управления транспортным средством 5 лет назад. Что происходит с записями, связанными с этим лишением, на его водительском праве?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les mentions sont automatiquement supprimées",
+          "text_nl": "De vermeldingen worden automatisch geschrapt",
+          "text_ru": "Записи автоматически удаляются",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les mentions sont conservées jusqu'à la fin de la validité du permis",
+          "text_nl": "De vermeldingen worden tot het einde van de geldigheidsduur van het rijbewijs bewaard",
+          "text_ru": "Записи сохраняются до конца срока действия водительского права",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les mentions peuvent être radiées selon les modalités déterminées par le Roi",
+          "text_nl": "De vermeldingen kunnen volgens de door de Koning bepaalde regels worden geschrapt",
+          "text_ru": "Записи могут быть удалены в соответствии с порядком, определенным королем",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les mentions relatives à la déchéance du droit de conduire peuvent être radiées selon les modalités déterminées par le Roi.",
+      "explanation_nl": "De vermeldingen betreffende de vervallenverklaring van het recht tot sturen kunnen volgens de door de Koning bepaalde regels worden geschrapt.",
+      "explanation_ru": "Записи, связанные с лишением права управления транспортным средством, могут быть удалены в соответствии с порядком, определенным королем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a perdu son permis de conduire. Qu'est-ce qu'il doit faire pour obtenir un nouveau permis sans les mentions relatives à la déchéance de son droit de conduire ?",
+      "text_nl": "Een bestuurder is zijn rijbewijs kwijtgeraakt. Wat moet hij doen om een nieuw rijbewijs te krijgen zonder de vermeldingen betreffende de vervallenverklaring van zijn recht tot sturen ?",
+      "text_ru": "Водитель потерял свое водительское право. Что он должен сделать, чтобы получить новое водительское право без записей, связанных с лишением его права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander un nouveau permis avec les mêmes mentions",
+          "text_nl": "Een nieuw rijbewijs aanvragen met dezelfde vermeldingen",
+          "text_ru": "Запросить новое водительское право с теми же записями",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander la radiation des mentions relatives à la déchéance",
+          "text_nl": "De schrapping van de vermeldingen betreffende de vervallenverklaring aanvragen",
+          "text_ru": "Запросить удаление записей, связанных с лишением",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre que les mentions soient automatiquement supprimées",
+          "text_nl": "Wachten tot de vermeldingen automatisch worden geschrapt",
+          "text_ru": "Ждать, пока записи не будут автоматически удалены",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit demander la radiation des mentions relatives à la déchéance de son droit de conduire pour obtenir un nouveau permis sans ces mentions.",
+      "explanation_nl": "De bestuurder moet de schrapping van de vermeldingen betreffende de vervallenverklaring van zijn recht tot sturen aanvragen om een nieuw rijbewijs te krijgen zonder deze vermeldingen.",
+      "explanation_ru": "Водитель должен запросить удаление записей, связанных с лишением его права управления транспортным средством, чтобы получить новое водительское право без этих записей."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour une période de 2 ans. Qu'est-ce qui se passe avec son permis de conduire pendant cette période ?",
+      "text_nl": "Een bestuurder is voor een periode van 2 jaar zijn recht tot sturen verloren. Wat gebeurt er met zijn rijbewijs tijdens deze periode ?",
+      "text_ru": "Водитель был лишен права управления транспортным средством на период 2 лет. Что происходит с его водительским правом в течение этого периода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le permis est automatiquement supprimé",
+          "text_nl": "Het rijbewijs wordt automatisch geschrapt",
+          "text_ru": "Водительское право автоматически удаляется",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis est conservé, mais avec une mention de la déchéance",
+          "text_nl": "Het rijbewijs wordt bewaard, maar met een vermelding van de vervallenverklaring",
+          "text_ru": "Водительское право сохраняется, но с записью о лишении",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le permis est annulé et doit être renouvelé après la période de déchéance",
+          "text_nl": "Het rijbewijs wordt ingetrokken en moet na de vervallenverklaring worden vernieuwd",
+          "text_ru": "Водительское право аннулируется и должно быть продлено после периода лишения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire est conservé, mais avec une mention de la déchéance du droit de conduire pendant la période de déchéance.",
+      "explanation_nl": "Het rijbewijs wordt bewaard, maar met een vermelding van de vervallenverklaring van het recht tot sturen tijdens de vervallenverklaring.",
+      "explanation_ru": "Водительское право сохраняется, но с записью о лишении права управления транспортным средством в течение периода лишения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour une infraction grave. Qu'est-ce qui se passe avec son permis de conduire après la période de déchéance ?",
+      "text_nl": "Een bestuurder is zijn recht tot sturen verloren wegens een ernstige overtreding. Wat gebeurt er met zijn rijbewijs na de vervallenverklaring ?",
+      "text_ru": "Водитель был лишен права управления транспортным средством за серьезное правонарушение. Что происходит с его водительским правом после периода лишения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le permis est automatiquement rétabli",
+          "text_nl": "Het rijbewijs wordt automatisch hersteld",
+          "text_ru": "Водительское право автоматически восстанавливается",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis doit être renouvelé après une période de probation",
+          "text_nl": "Het rijbewijs moet na een proeftijd worden vernieuwd",
+          "text_ru": "Водительское право должно быть продлено после периода испытания",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le permis est définitivement annulé",
+          "text_nl": "Het rijbewijs wordt definitief ingetrokken",
+          "text_ru": "Водительское право окончательно аннулируется",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire doit être renouvelé après une période de probation, si le conducteur a été déchu de son droit de conduire pour une infraction grave.",
+      "explanation_nl": "Het rijbewijs moet na een proeftijd worden vernieuwd, als de bestuurder zijn recht tot sturen is verloren wegens een ernstige overtreding.",
+      "explanation_ru": "Водительское право должно быть продлено после периода испытания, если водитель был лишен права управления транспортным средством за серьезное правонарушение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a été déchu de son droit de conduire pour une période de 6 mois. Qu'est-ce qu'il doit faire pour récupérer son permis de conduire après cette période ?",
+      "text_nl": "Een bestuurder is voor een periode van 6 maanden zijn recht tot sturen verloren. Wat moet hij doen om zijn rijbewijs na deze periode terug te krijgen ?",
+      "text_ru": "Водитель был лишен права управления транспортным средством на период 6 месяцев. Что он должен сделать, чтобы вернуть свое водительское право после этого периода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander un nouveau permis de conduire",
+          "text_nl": "Een nieuw rijbewijs aanvragen",
+          "text_ru": "Запросить новое водительское право",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Renouveler son permis de conduire existant",
+          "text_nl": "Zijn bestaande rijbewijs vernieuwen",
+          "text_ru": "Продлить существующее водительское право",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Attendre que son permis de conduire soit automatiquement rétabli",
+          "text_nl": "Wachten tot zijn rijbewijs automatisch wordt hersteld",
+          "text_ru": "Ждать, пока его водительское право не будет автоматически восстановлено",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit renouveler son permis de conduire existant après la période de déchéance pour récupérer son droit de conduire.",
+      "explanation_nl": "De bestuurder moet zijn bestaande rijbewijs vernieuwen na de vervallenverklaring om zijn recht tot sturen terug te krijgen.",
+      "explanation_ru": "Водитель должен продлить свое существующее водительское право после периода лишения, чтобы вернуть право управления транспортным средством."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "f5b115ddbb0b",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:58:36Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

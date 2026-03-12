@@ -26,7 +26,304 @@
   "anchor_id_fr": "qhxmlmbdnh",
   "anchor_id_nl": "buztwgdaa4",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui est considéré comme responsable des amendes pour les infractions commises par des mineurs non mariés vivant avec lui ?",
+      "text_nl": "Wie wordt beschouwd als aansprakelijk voor de boetes voor de overtredingen gepleegd door minderjarigen die niet gehuwd zijn en bij hem wonen?",
+      "text_ru": "Кто считается ответственным за штрафы за нарушения, совершенные несовершеннолетними, не вступившими в брак и проживающими с ним?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur",
+          "text_nl": "De bestuurder",
+          "text_ru": "Водитель",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le tuteur",
+          "text_nl": "De voogd",
+          "text_ru": "Опекун",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le propriétaire du véhicule",
+          "text_nl": "De eigenaar van het voertuig",
+          "text_ru": "Владелец транспортного средства",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le tuteur est responsable des amendes pour les infractions commises par ses pupilles non mariés demeurant avec lui.",
+      "explanation_nl": "De voogd is aansprakelijk voor de boetes voor de overtredingen gepleegd door zijn ongehuwde, bij hem inwonende pupillen.",
+      "explanation_ru": "Опекун отвечает за штрафы за нарушения, совершенные его несовершеннолетними, не вступившими в брак и проживающими с ним."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est responsable des dommages-intérêts et frais en cas d'infraction commise par un mineur non marié ?",
+      "text_nl": "Wie is aansprakelijk voor de schadevergoeding en kosten in geval van een overtreding gepleegd door een minderjarige die niet gehuwd is?",
+      "text_ru": "Кто отвечает за ущерб и расходы в случае нарушения, совершенного несовершеннолетним, не вступившим в брак?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le mineur lui-même",
+          "text_nl": "De minderjarige zelf",
+          "text_ru": "Сам несовершеннолетний",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les personnes civilement responsables",
+          "text_nl": "De personen die burgerrechtelijk aansprakelijk zijn",
+          "text_ru": "Лица, отвечающие по гражданскому праву",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'État",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes civilement responsables sont responsables des dommages-intérêts et frais en cas d'infraction commise par un mineur non marié.",
+      "explanation_nl": "De personen die burgerrechtelijk aansprakelijk zijn, zijn aansprakelijk voor de schadevergoeding en kosten in geval van een overtreding gepleegd door een minderjarige die niet gehuwd is.",
+      "explanation_ru": "Лица, отвечающие по гражданскому праву, отвечают за ущерб и расходы в случае нарушения, совершенного несовершеннолетним, не вступившим в брак."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la relation entre les personnes civilement responsables et les amendes pour les infractions commises par des mineurs non mariés ?",
+      "text_nl": "Wat is de relatie tussen de personen die burgerrechtelijk aansprakelijk zijn en de boetes voor de overtredingen gepleegd door minderjarigen die niet gehuwd zijn?",
+      "text_ru": "Какова связь между лицами, отвечающими по гражданскому праву, и штрафами за нарушения, совершенные несовершеннолетними, не вступившими в брак?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les personnes civilement responsables sont exemptées de l'amende",
+          "text_nl": "De personen die burgerrechtelijk aansprakelijk zijn, zijn vrijgesteld van de boete",
+          "text_ru": "Лица, отвечающие по гражданскому праву, освобождены от штрафа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les personnes civilement responsables sont responsables de l'amende",
+          "text_nl": "De personen die burgerrechtelijk aansprakelijk zijn, zijn aansprakelijk voor de boete",
+          "text_ru": "Лица, отвечающие по гражданскому праву, отвечают за штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les personnes civilement responsables ne sont pas concernées par l'amende",
+          "text_nl": "De personen die burgerrechtelijk aansprakelijk zijn, hebben niets te maken met de boete",
+          "text_ru": "Лица, отвечающие по гражданскому праву, не связаны с штрафом",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes civilement responsables sont responsables de l'amende pour les infractions commises par des mineurs non mariés.",
+      "explanation_nl": "De personen die burgerrechtelijk aansprakelijk zijn, zijn aansprakelijk voor de boete voor de overtredingen gepleegd door minderjarigen die niet gehuwd zijn.",
+      "explanation_ru": "Лица, отвечающие по гражданскому праву, отвечают за штраф за нарушения, совершенные несовершеннолетними, не вступившими в брак."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un mineur non marié commet une infraction routière. Qui doit payer l'amende ?",
+      "text_nl": "Een minderjarige die niet gehuwd is, pleegt een verkeersovertreding. Wie moet de boete betalen?",
+      "text_ru": "Несовершеннолетний, не вступивший в брак, совершает правонарушение на дороге. Кто должен заплатить штраф?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le mineur lui-même",
+          "text_nl": "De minderjarige zelf",
+          "text_ru": "Сам несовершеннолетний",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les personnes civilement responsables",
+          "text_nl": "De personen die burgerrechtelijk aansprakelijk zijn",
+          "text_ru": "Лица, отвечающие по гражданскому праву",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'État",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes civilement responsables sont responsables de l'amende pour les infractions commises par des mineurs non mariés.",
+      "explanation_nl": "De personen die burgerrechtelijk aansprakelijk zijn, zijn aansprakelijk voor de boete voor de overtredingen gepleegd door minderjarigen die niet gehuwd zijn.",
+      "explanation_ru": "Лица, отвечающие по гражданскому праву, отвечают за штраф за нарушения, совершенные несовершеннолетними, не вступившими в брак."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un tuteur a un pupille non marié qui commet une infraction routière. Qui doit payer l'amende ?",
+      "text_nl": "Een voogd heeft een ongehuwde pupil die een verkeersovertreding pleegt. Wie moet de boete betalen?",
+      "text_ru": "Опекун имеет несовершеннолетнего, не вступившего в брак, который совершает правонарушение на дороге. Кто должен заплатить штраф?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le pupille lui-même",
+          "text_nl": "De pupil zelf",
+          "text_ru": "Сам несовершеннолетний",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le tuteur",
+          "text_nl": "De voogd",
+          "text_ru": "Опекун",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'État",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le tuteur est responsable de l'amende pour les infractions commises par ses pupilles non mariés.",
+      "explanation_nl": "De voogd is aansprakelijk voor de boete voor de overtredingen gepleegd door zijn ongehuwde pupillen.",
+      "explanation_ru": "Опекун отвечает за штраф за нарушения, совершенные его несовершеннолетними, не вступившими в брак."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un mineur non marié commet une infraction routière grave. Qui doit prendre des mesures pour prévenir de futures infractions ?",
+      "text_nl": "Een minderjarige die niet gehuwd is, pleegt een ernstige verkeersovertreding. Wie moet maatregelen nemen om toekomstige overtredingen te voorkomen?",
+      "text_ru": "Несовершеннолетний, не вступивший в брак, совершает серьезное правонарушение на дороге. Кто должен принять меры для предотвращения будущих нарушений?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le mineur lui-même",
+          "text_nl": "De minderjarige zelf",
+          "text_ru": "Сам несовершеннолетний",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les personnes civilement responsables",
+          "text_nl": "De personen die burgerrechtelijk aansprakelijk zijn",
+          "text_ru": "Лица, отвечающие по гражданскому праву",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'État",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes civilement responsables doivent prendre des mesures pour prévenir de futures infractions commises par des mineurs non mariés.",
+      "explanation_nl": "De personen die burgerrechtelijk aansprakelijk zijn, moeten maatregelen nemen om toekomstige overtredingen te voorkomen die gepleegd worden door minderjarigen die niet gehuwd zijn.",
+      "explanation_ru": "Лица, отвечающие по гражданскому праву, должны принять меры для предотвращения будущих нарушений, совершаемых несовершеннолетними, не вступившими в брак."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un tuteur a un pupille non marié qui commet régulièrement des infractions routières. Que doit faire le tuteur ?",
+      "text_nl": "Een voogd heeft een ongehuwde pupil die regelmatig verkeersovertredingen pleegt. Wat moet de voogd doen?",
+      "text_ru": "Опекун имеет несовершеннолетнего, не вступившего в брак, который регулярно совершает правонарушения на дороге. Что должен сделать опекун?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien",
+          "text_nl": "Niets",
+          "text_ru": "Ничего",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Prendre des mesures pour prévenir de futures infractions",
+          "text_nl": "Maatregelen nemen om toekomstige overtredingen te voorkomen",
+          "text_ru": "Принять меры для предотвращения будущих нарушений",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Abandonner le pupille",
+          "text_nl": "De pupil in de steek laten",
+          "text_ru": "Бросить несовершеннолетнего",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le tuteur doit prendre des mesures pour prévenir de futures infractions commises par ses pupilles non mariés.",
+      "explanation_nl": "De voogd moet maatregelen nemen om toekomstige overtredingen te voorkomen die gepleegd worden door zijn ongehuwde pupillen.",
+      "explanation_ru": "Опекун должен принять меры для предотвращения будущих нарушений, совершаемых его несовершеннолетними, не вступившими в брак."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un mineur non marié commet une infraction routière et est arrêté par la police. Qui doit être informé de la situation ?",
+      "text_nl": "Een minderjarige die niet gehuwd is, pleegt een verkeersovertreding en wordt aangehouden door de politie. Wie moet op de hoogte worden gesteld van de situatie?",
+      "text_ru": "Несовершеннолетний, не вступивший в брак, совершает правонарушение на дороге и задерживается полицией. Кто должен быть проинформирован о ситуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les personnes civilement responsables",
+          "text_nl": "De personen die burgerrechtelijk aansprakelijk zijn",
+          "text_ru": "Лица, отвечающие по гражданскому праву",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'État",
+          "text_nl": "De Staat",
+          "text_ru": "Государство",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Personne",
+          "text_nl": "Niemand",
+          "text_ru": "Никто",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes civilement responsables doivent être informées de la situation lorsque des mineurs non mariés commettent des infractions routières.",
+      "explanation_nl": "De personen die burgerrechtelijk aansprakelijk zijn, moeten op de hoogte worden gesteld van de situatie wanneer minderjarigen die niet gehuwd zijn, verkeersovertredingen plegen.",
+      "explanation_ru": "Лица, отвечающие по гражданскому праву, должны быть проинформированы о ситуации, когда несовершеннолетние, не вступившие в брак, совершают правонарушения на дороге."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e3e80486b620",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:57:32Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

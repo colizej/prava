@@ -44,7 +44,304 @@
   "anchor_id_fr": "gcc3uffaw4",
   "anchor_id_nl": "ezfnr8fvyb",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le premier élément d'un contrôle standardisé de détection de substances influençant la capacité de conduire, lorsqu'il n'y a pas eu d'accident de la route ?",
+      "text_nl": "Wat is het eerste onderdeel van een gestandaardiseerde controle voor het opsporen van stoffen die de rijvaardigheid beïnvloeden, wanneer er geen verkeersongeval heeft plaatsgevonden?",
+      "text_ru": "Что является первым этапом стандартной проверки на наличие веществ, влияющих на способность управлять транспортным средством, если не произошло дорожно-транспортного происшествия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer interacting with a driver during a stop, no accident scene."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un test sanguin immédiat.",
+          "text_nl": "Een onmiddellijke bloedtest.",
+          "text_ru": "Немедленный анализ крови.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'utilisation d'une check-list standardisée pour constater des signes d'usage récent de substances.",
+          "text_nl": "Het gebruik van een gestandaardiseerde checklist om indicaties van recent druggebruik vast te stellen.",
+          "text_ru": "Использование стандартизированного контрольного списка для выявления признаков недавнего употребления веществ.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un test urinaire sur place.",
+          "text_nl": "Een urinetest ter plaatse.",
+          "text_ru": "Тест мочи на месте.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La procédure normale de détection de substances commence par la constatation des indications de signes d'usage récent à l'aide d'une check-list standardisée, sauf en cas d'accident où un test salivaire peut être direct.",
+      "explanation_nl": "De normale procedure voor het opsporen van stoffen begint met het vaststellen van indicaties van tekenen van recent gebruik aan de hand van een gestandaardiseerde checklist, behalve bij ongevallen waar een speekseltest direct kan plaatsvinden.",
+      "explanation_ru": "Стандартная процедура выявления веществ начинается с установления признаков недавнего употребления с помощью стандартизированного контрольного списка, за исключением случаев ДТП, когда может быть проведен прямой анализ слюны."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'objectif principal des contrôles effectués par les agents de l'autorité concernant les substances au volant, tels que décrits dans le cadre de la sécurité routière ?",
+      "text_nl": "Wat is het hoofddoel van de controles die overheidspersonen uitvoeren met betrekking tot middelen achter het stuur, zoals beschreven in het kader van de verkeersveiligheid?",
+      "text_ru": "Какова основная цель проверок, проводимых сотрудниками правоохранительных органов в отношении употребления веществ за рулем, как это описано в контексте безопасности дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police car with flashing lights, focusing on road safety, no specific drug-related imagery."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vérifier le taux d'alcoolémie uniquement.",
+          "text_nl": "Alleen het alcoholgehalte controleren.",
+          "text_ru": "Проверять только уровень алкоголя в крови.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Détecter les substances qui influencent négativement la capacité de conduire un véhicule ou une monture.",
+          "text_nl": "Stoffen opsporen die de rijvaardigheid van een voertuig of rijdier negatief beïnvloeden.",
+          "text_ru": "Выявлять вещества, негативно влияющие на способность управлять транспортным средством или животным.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "S'assurer de la validité du permis de conduire.",
+          "text_nl": "De geldigheid van het rijbewijs controleren.",
+          "text_ru": "Убедиться в действительности водительского удостоверения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces tests sont spécifiquement conçus pour détecter des substances qui altèrent la capacité de conduite, au-delà de l'alcool.",
+      "explanation_nl": "Deze tests zijn specifiek ontworpen om stoffen op te sporen die de rijvaardigheid aantasten, naast alcohol.",
+      "explanation_ru": "Эти тесты специально разработаны для выявления веществ, которые ухудшают способность к вождению, помимо алкоголя."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelle situation spécifique les frais d'un test salivaire pour la détection de substances sont-ils mis à la charge de la personne examinée ?",
+      "text_nl": "In welke specifieke situatie zijn de kosten van een speekseltest voor het opsporen van stoffen ten laste van de onderzochte persoon?",
+      "text_ru": "В какой конкретной ситуации расходы на анализ слюны для выявления веществ возлагаются на обследуемое лицо?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Medical bill or receipt related to a test, with a subtle hint of police interaction."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toujours, quel que soit le résultat du test.",
+          "text_nl": "Altijd, ongeacht het testresultaat.",
+          "text_ru": "Всегда, независимо от результата теста.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si l'infraction liée à la conduite sous l'influence de substances est établie au moyen d'une analyse salivaire ou sanguine.",
+          "text_nl": "Als de overtreding met betrekking tot het rijden onder invloed van stoffen bewezen is door middel van een speekselanalyse of bloedanalyse.",
+          "text_ru": "Если нарушение, связанное с управлением транспортным средством под воздействием веществ, установлено с помощью анализа слюны или крови.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si la personne refuse de coopérer pleinement au test initial.",
+          "text_nl": "Als de persoon weigert volledig mee te werken aan de initiële test.",
+          "text_ru": "Если лицо отказывается полностью сотрудничать при проведении первоначального теста.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les frais sont à la charge de la personne examinée uniquement si l'infraction est confirmée par une analyse ultérieure (salivaire ou sanguine).",
+      "explanation_nl": "De kosten zijn alleen ten laste van de onderzochte persoon als de overtreding is bevestigd door een latere analyse (speeksel of bloed).",
+      "explanation_ru": "Расходы возлагаются на обследуемое лицо только в том случае, если нарушение подтверждено последующим анализом (слюны или крови)."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes impliqué dans un accident de la route où votre véhicule est endommagé, et vous êtes blessé. Vous êtes considéré comme une victime. Les agents de l'autorité présents sur les lieux peuvent-ils tout de même vous soumettre à un test de détection de substances influençant la conduite ?",
+      "text_nl": "U bent betrokken bij een verkeersongeval waarbij uw voertuig beschadigd is en u gewond bent. U wordt beschouwd als slachtoffer. Mogen de aanwezige overheidspersonen u desondanks onderwerpen aan een test voor het opsporen van stoffen die de rijvaardigheid beïnvloeden?",
+      "text_ru": "Вы попали в дорожно-транспортное происшествие, в котором ваш автомобиль поврежден, и вы получили травмы. Вы считаетесь потерпевшим. Могут ли сотрудники правоохранительных органов, находящиеся на месте происшествия, все же провести вам тест на наличие веществ, влияющих на способность управлять транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Car accident scene, police officer talking to a person who looks injured but cooperative."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car en tant que victime, vous n'êtes pas considéré comme un suspect.",
+          "text_nl": "Nee, want als slachtoffer wordt u niet als verdachte beschouwd.",
+          "text_ru": "Нет, так как в качестве потерпевшего вы не считаетесь подозреваемым.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car toute personne ayant pu contribuer à provoquer l'accident peut être testée, même si elle en est la victime, et dans ce cas un test salivaire direct est possible.",
+          "text_nl": "Ja, want iedereen die mogelijk heeft bijgedragen aan het veroorzaken van het ongeval kan worden getest, zelfs als die persoon het slachtoffer is, en in dit geval is een directe speekseltest mogelijk.",
+          "text_ru": "Да, поскольку любое лицо, которое могло способствовать возникновению ДТП, может быть проверено, даже если оно является потерпевшим, и в этом случае возможен прямой анализ слюны.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si les agents ont des raisons sérieuses de suspecter que vous étiez sous l'influence.",
+          "text_nl": "Alleen als de overheidspersoon ernstige redenen heeft om te vermoeden dat u onder invloed was.",
+          "text_ru": "Только если у сотрудников есть серьезные основания подозревать, что вы находились под воздействием веществ.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas d'accident, même si vous êtes la victime, les agents peuvent vous soumettre au test si vous avez pu contribuer à le provoquer, et ils peuvent procéder directement au test salivaire.",
+      "explanation_nl": "Bij een ongeval, zelfs als u het slachtoffer bent, mogen de overheidspersonen u de test opleggen als u mogelijk heeft bijgedragen aan het veroorzaken ervan, en zij mogen direct overgaan tot een speekseltest.",
+      "explanation_ru": "В случае ДТП, даже если вы являетесь потерпевшим, сотрудники могут провести вам тест, если вы могли способствовать его возникновению, и в этом случае они могут сразу провести анализ слюны."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous accompagnez votre enfant qui suit des cours de conduite en vue d'obtenir son permis. Vous êtes assis sur le siège passager, en tant qu'accompagnateur, dans un lieu public. Un agent de l'autorité vous arrête. Peut-il vous demander de subir un test de détection de substances influençant la conduite ?",
+      "text_nl": "U begeleidt uw kind dat rijlessen volgt om zijn rijbewijs te behalen. U zit op de passagiersstoel als begeleider op een openbare plaats. Een overheidspersoon houdt u staande. Mag hij u vragen een test voor het opsporen van stoffen die de rijvaardigheid beïnvloeden te ondergaan?",
+      "text_ru": "Вы сопровождаете своего ребенка, который посещает уроки вождения для получения водительских прав. Вы сидите на пассажирском сиденье в качестве сопровождающего в общественном месте. Сотрудник правоохранительных органов останавливает вас. Может ли он попросить вас пройти тест на наличие веществ, влияющих на способность управлять транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car with a 'L' plate, police officer speaking to the passenger (accompanying person) during a traffic stop."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car seul le conducteur est concerné par ce type de test.",
+          "text_nl": "Nee, want alleen de bestuurder is betrokken bij dit soort tests.",
+          "text_ru": "Нет, так как только водитель подлежит такому виду теста.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car toute personne qui accompagne un conducteur en vue de l'apprentissage peut être soumise à ce test dans un lieu public.",
+          "text_nl": "Ja, want iedereen die een bestuurder begeleidt met het oog op scholing, kan op een openbare plaats aan deze test worden onderworpen.",
+          "text_ru": "Да, поскольку любое лицо, сопровождающее водителя с целью обучения, может быть подвергнуто этому тесту в общественном месте.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si l'agent suspecte que l'élève conducteur est sous l'influence de substances.",
+          "text_nl": "Alleen als de overheidspersoon vermoedt dat de leerling-bestuurder onder invloed is van stoffen.",
+          "text_ru": "Только если сотрудник подозревает, что ученик-водитель находится под воздействием веществ.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les personnes qui accompagnent un conducteur pour l'apprentissage dans un lieu public peuvent également être soumises à un test de détection de substances.",
+      "explanation_nl": "Personen die een bestuurder begeleiden voor scholing op een openbare plaats kunnen ook worden onderworpen aan een test voor het opsporen van stoffen.",
+      "explanation_ru": "Лица, сопровождающие водителя для обучения в общественном месте, также могут быть подвергнуты тесту на выявление веществ."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes sur le point de monter dans votre voiture, garée sur un parking de supermarché (considéré comme un lieu public), pour rentrer chez vous. Avant que vous ne mettiez le contact, un agent de l'autorité vous interpelle. Peut-il vous demander de subir un test de détection de substances influençant la conduite ?",
+      "text_nl": "U staat op het punt in uw auto te stappen, geparkeerd op een supermarktparking (beschouwd als een openbare plaats), om naar huis te gaan. Voordat u het contact aanzet, spreekt een overheidspersoon u aan. Mag hij u vragen een test voor het opsporen van stoffen die de rijvaardigheid beïnvloeden te ondergaan?",
+      "text_ru": "Вы собираетесь сесть в свой автомобиль, припаркованный на парковке супермаркета (считается общественным местом), чтобы поехать домой. Прежде чем вы повернете ключ зажигания, к вам обращается сотрудник правоохранительных органов. Может ли он попросить вас пройти тест на наличие веществ, влияющих на способность управлять транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Person about to enter a car in a supermarket parking lot, police officer approaching them."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car tant que vous n'avez pas démarré, vous n'êtes pas en train de conduire.",
+          "text_nl": "Nee, want zolang u niet gestart bent, bent u niet aan het rijden.",
+          "text_ru": "Нет, потому что пока вы не начали движение, вы не управляете транспортным средством.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car le test peut être imposé à toute personne qui s'apprête à conduire un véhicule dans un lieu public.",
+          "text_nl": "Ja, want de test kan worden opgelegd aan iedereen die op het punt staat een voertuig op een openbare plaats te besturen.",
+          "text_ru": "Да, поскольку тест может быть проведен любому лицу, которое собирается управлять транспортным средством в общественном месте.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement si l'agent a été informé d'un comportement suspect de votre part avant votre arrivée.",
+          "text_nl": "Alleen als de overheidspersoon op de hoogte is gebracht van verdacht gedrag van u vóór uw aankomst.",
+          "text_ru": "Только если сотруднику сообщили о вашем подозрительном поведении до вашего прибытия.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les agents de l'autorité peuvent soumettre au test toute personne qui s'apprête à conduire un véhicule ou une monture dans un lieu public.",
+      "explanation_nl": "Overheidspersonen kunnen de test opleggen aan iedereen die op het punt staat een voertuig of rijdier op een openbare plaats te besturen.",
+      "explanation_ru": "Сотрудники правоохранительных органов могут провести тест любому лицу, которое собирается управлять транспортным средством или животным в общественном месте."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un agent de l'autorité vous arrête pour un contrôle de routine. Il a des doutes sur votre capacité de conduire en raison d'un comportement suspect, mais vous n'êtes pas impliqué dans un accident. Il décide de procéder à un test de détection de substances. Quelle sera la séquence normale des tests effectués ?",
+      "text_nl": "Een overheidspersoon houdt u staande voor een routinecontrole. Hij twijfelt aan uw rijvaardigheid wegens verdacht gedrag, maar u bent niet betrokken bij een ongeval. Hij besluit een test voor het opsporen van stoffen uit te voeren. Wat zal de normale volgorde van de uitgevoerde tests zijn?",
+      "text_ru": "Сотрудник правоохранительных органов останавливает вас для плановой проверки. Он сомневается в вашей способности управлять транспортным средством из-за подозрительного поведения, но вы не участвовали в ДТП. Он решает провести тест на наличие веществ. Какова будет обычная последовательность проводимых тестов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer conducting a roadside check, interacting with a driver, showing a clipboard first then potentially a saliva test kit."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Directement un test salivaire, suivi d'une analyse de sang si positif.",
+          "text_nl": "Direct een speekseltest, gevolgd door een bloedanalyse indien positief.",
+          "text_ru": "Сразу анализ слюны, затем анализ крови, если результат положительный.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Premièrement, l'utilisation d'une check-list standardisée, puis un test salivaire si des signes d'usage récent sont indiqués.",
+          "text_nl": "Eerst het gebruik van een gestandaardiseerde checklist, en daarna een speekseltest als er tekenen van recent gebruik zijn geconstateerd.",
+          "text_ru": "Сначала использование стандартизированного контрольного списка, затем анализ слюны, если обнаружены признаки недавнего употребления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement une observation visuelle et une série de tests physiques simples.",
+          "text_nl": "Alleen een visuele observatie en een reeks eenvoudige fysieke tests.",
+          "text_ru": "Только визуальное наблюдение и ряд простых физических тестов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Hors situation d'accident, la procédure standard implique d'abord la check-list, puis le test salivaire si la check-list indique des signes d'usage récent.",
+      "explanation_nl": "Buiten een ongevalssituatie omvat de standaardprocedure eerst de checklist, en daarna de speekseltest als de checklist indicaties van recent gebruik geeft.",
+      "explanation_ru": "Вне ситуации ДТП стандартная процедура сначала включает использование контрольного списка, а затем анализ слюны, если контрольный список указывает на признаки недавнего употребления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Après avoir été soumis à un test salivaire de détection de substances lors d'un contrôle routier, le résultat indique la présence d'une substance. Cependant, la quantité détectée est inférieure au seuil minimal spécifié par la réglementation. Quelle est la conséquence de ce résultat ?",
+      "text_nl": "Nadat u onderworpen bent aan een speekseltest voor het opsporen van stoffen tijdens een wegcontrole, wijst het resultaat op de aanwezigheid van een stof. De gedetecteerde hoeveelheid ligt echter onder de minimale drempel die door de regelgeving is vastgesteld. Wat is de consequentie van dit resultaat?",
+      "text_ru": "После того как вам провели анализ слюны на наличие веществ во время дорожного контроля, результат показывает наличие вещества. Однако обнаруженное количество ниже минимального порога, установленного регулирующими нормами. Каково последствие такого результата?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer looking at a saliva test result with a neutral expression, indicating a threshold is involved."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le résultat est considéré comme positif et des poursuites sont engagées.",
+          "text_nl": "Het resultaat wordt als positief beschouwd en er wordt tot vervolging overgegaan.",
+          "text_ru": "Результат считается положительным, и начинается судебное преследование.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le résultat du test salivaire n'est pas pris en considération.",
+          "text_nl": "Het resultaat van de speekseltest wordt niet in aanmerking genomen.",
+          "text_ru": "Результат анализа слюны не принимается во внимание.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un second test salivaire doit être immédiatement effectué pour confirmer.",
+          "text_nl": "Een tweede speekseltest moet onmiddellijk worden uitgevoerd ter bevestiging.",
+          "text_ru": "Для подтверждения должен быть немедленно проведен второй анализ слюны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si le taux détecté est en dessous du seuil correspondant, le résultat du test salivaire n'est pas pris en considération.",
+      "explanation_nl": "Als het gedetecteerde gehalte onder de corresponderende drempel ligt, wordt het resultaat van de speekseltest niet in aanmerking genomen.",
+      "explanation_ru": "Если обнаруженный уровень ниже соответствующего порога, результат анализа слюны не принимается во внимание."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "87c6d4de5757",
@@ -54,6 +351,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:50:36Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

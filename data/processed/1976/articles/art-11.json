@@ -206,7 +206,193 @@
   "anchor_id_fr": "kikkmsumal",
   "anchor_id_nl": "ox50upue9u",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le but du panneau additionnel du type V utilisé avec les signaux E1 et E3 ?",
+      "text_nl": "Wat is het doel van het onderbord van het type V dat gebruikt wordt met de verkeersborden E1 en E3 ?",
+      "text_ru": "Какова цель дополнительного знака типа V, используемого с сигналами E1 и E3?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer les heures de validité du panneau",
+          "text_nl": "Aanduiden van de uren van geldigheid van het bord",
+          "text_ru": "Указать часы действия знака",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indiquer les jours de validité du panneau",
+          "text_nl": "Aanduiden van de dagen van geldigheid van het bord",
+          "text_ru": "Указать дни действия знака",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer les catégories de véhicules autorisés",
+          "text_nl": "Aanduiden van de categorieën van voertuigen die zijn toegestaan",
+          "text_ru": "Указать категории разрешенных транспортных средств",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau additionnel du type V est utilisé pour indiquer les heures de validité du panneau E1 ou E3.",
+      "explanation_nl": "Het onderbord van het type V wordt gebruikt om de uren van geldigheid van het bord E1 of E3 aan te duiden.",
+      "explanation_ru": "Дополнительный знак типа V используется для указания часов действия знака E1 или E3."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'objectif des signaux E9a à E9h ?",
+      "text_nl": "Wat is het doel van de verkeersborden E9a tot E9h ?",
+      "text_ru": "Какова цель сигналов E9a-E9h?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Interdire le stationnement",
+          "text_nl": "Parkeren verbieden",
+          "text_ru": "Запретить парковку",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Autoriser le stationnement",
+          "text_nl": "Parkeren toestaan",
+          "text_ru": "Разрешить парковку",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer les directions",
+          "text_nl": "Richtingen aanduiden",
+          "text_ru": "Указать направления",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux E9a à E9h sont utilisés pour autoriser le stationnement.",
+      "explanation_nl": "De verkeersborden E9a tot E9h worden gebruikt om parkeren toe te staan.",
+      "explanation_ru": "Сигналы E9a-E9h используются для разрешения парковки."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les dimensions minimales des signaux E9a à E9h ?",
+      "text_nl": "Wat zijn de minimale afmetingen van de verkeersborden E9a tot E9h ?",
+      "text_ru": "Каковы минимальные размеры сигналов E9a-E9h?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,20 m x 0,40 m",
+          "text_nl": "0,20 m x 0,40 m",
+          "text_ru": "0,20 м x 0,40 м",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,40 m x 0,60 m",
+          "text_nl": "0,40 m x 0,60 m",
+          "text_ru": "0,40 м x 0,60 м",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "0,60 m x 0,80 m",
+          "text_nl": "0,60 m x 0,80 m",
+          "text_ru": "0,60 м x 0,80 м",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dimensions minimales des signaux E9a à E9h sont de 0,40 m x 0,60 m.",
+      "explanation_nl": "De minimale afmetingen van de verkeersborden E9a tot E9h zijn 0,40 m x 0,60 m.",
+      "explanation_ru": "Минимальные размеры сигналов E9a-E9h составляют 0,40 м x 0,60 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous roulez dans une rue où un panneau E1 est installé. Que devez-vous faire ?",
+      "text_nl": "U rijdt in een straat waar een verkeersbord E1 is geplaatst. Wat moet u doen?",
+      "text_ru": "Вы едете по улице, где установлен знак E1. Что вам нужно сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Stationner votre véhicule",
+          "text_nl": "Uw voertuig parkeren",
+          "text_ru": "Остановить транспортное средство",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à rouler",
+          "text_nl": "Doorgaan met rijden",
+          "text_ru": "Продолжать движение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Faire demi-tour",
+          "text_nl": "Keren",
+          "text_ru": "Сделать поворот",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau E1 interdit le stationnement. Vous devez donc continuer à rouler.",
+      "explanation_nl": "Het verkeersbord E1 verbiedt parkeren. U moet dus doorgaan met rijden.",
+      "explanation_ru": "Знак E1 запрещает парковку. Вы должны продолжать движение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un panneau E3 avec un panneau additionnel du type V. Que signifie cela ?",
+      "text_nl": "U ziet een verkeersbord E3 met een onderbord van het type V. Wat betekent dit?",
+      "text_ru": "Вы видите знак E3 с дополнительным знаком типа V. Что это значит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le stationnement est autorisé",
+          "text_nl": "Parkeren is toegestaan",
+          "text_ru": "Парковка разрешена",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le stationnement est interdit entre certaines heures",
+          "text_nl": "Parkeren is verboden tussen bepaalde uren",
+          "text_ru": "Парковка запрещена в определенные часы",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le stationnement est réservé aux véhicules de secours",
+          "text_nl": "Parkeren is voorbehouden aan hulpdiensten",
+          "text_ru": "Парковка зарезервирована для транспортных средств экстренных служб",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau E3 avec un panneau additionnel du type V signifie que le stationnement est interdit entre certaines heures.",
+      "explanation_nl": "Het verkeersbord E3 met een onderbord van het type V betekent dat parkeren verboden is tussen bepaalde uren.",
+      "explanation_ru": "Знак E3 с дополнительным знаком типа V означает, что парковка запрещена в определенные часы."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "e04cb01bad17",
@@ -216,6 +402,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T12:00:33Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 5
   }
 }

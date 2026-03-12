@@ -117,7 +117,304 @@
   "anchor_id_fr": "ervb5ihzmz",
   "anchor_id_nl": "gqgm7qrypy",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la forme des panneaux bleus utilisés pour compléter les signaux routiers ?",
+      "text_nl": "Welke vorm hebben de blauwe borden die worden gebruikt om de verkeersborden aan te vullen?",
+      "text_ru": "Какая форма у синих панелей, используемых для дополнения дорожных знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Carré",
+          "text_nl": "Vierkant",
+          "text_ru": "Квадрат",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Rectangulaire",
+          "text_nl": "Rechthoekig",
+          "text_ru": "Прямоугольная",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Triangulaire",
+          "text_nl": "Driehoekig",
+          "text_ru": "Треугольная",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les panneaux bleus sont de forme rectangulaire.",
+      "explanation_nl": "De blauwe borden zijn rechthoekig.",
+      "explanation_ru": "Синие панели имеют прямоугольную форму."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le but des panneaux de type IV ?",
+      "text_nl": "Wat is het doel van de borden van type IV?",
+      "text_ru": "Какова цель панелей типа IV?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer une distance",
+          "text_nl": "Aanduiden van een afstand",
+          "text_ru": "Показать расстояние",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indiquer la longueur d'une section de la voie publique",
+          "text_nl": "Aanduiden van de lengte van een gedeelte van de openbare weg",
+          "text_ru": "Показать длину участка общественной дороги",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Limiter une interdiction ou une obligation à certaines catégories de véhicules",
+          "text_nl": "Beperken van een verbod of van een gebod voor zekere categorieën van voertuigen",
+          "text_ru": "Ограничить запрет или обязательство для определенных категорий транспортных средств",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les panneaux de type IV limitent une interdiction ou une obligation à certaines catégories de véhicules.",
+      "explanation_nl": "De borden van type IV beperken een verbod of een gebod voor zekere categorieën van voertuigen.",
+      "explanation_ru": "Панели типа IV ограничивают запрет или обязательство для определенных категорий транспортных средств."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la caractéristique des symboles utilisés sur les panneaux de type IV ?",
+      "text_nl": "Wat is het kenmerk van de symbolen die worden gebruikt op de borden van type IV?",
+      "text_ru": "Какой характеристикой обладают символы, используемые на панелях типа IV?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils sont de couleur bleue",
+          "text_nl": "Ze zijn blauw van kleur",
+          "text_ru": "Они синего цвета",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils sont de hauteur minimale de 0,12 m et de largeur minimale de 0,20 m",
+          "text_nl": "Ze hebben een minimumhoogte van 0,12 m en een minimumbreedte van 0,20 m",
+          "text_ru": "Они имеют минимальную высоту 0,12 м и минимальную ширину 0,20 м",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils sont de forme triangulaire",
+          "text_nl": "Ze zijn driehoekig van vorm",
+          "text_ru": "Они имеют треугольную форму",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les symboles utilisés sur les panneaux de type IV ont une hauteur minimale de 0,12 m et une largeur minimale de 0,20 m.",
+      "explanation_nl": "De symbolen die worden gebruikt op de borden van type IV hebben een minimumhoogte van 0,12 m en een minimumbreedte van 0,20 m.",
+      "explanation_ru": "Символы, используемые на панелях типа IV, имеют минимальную высоту 0,12 м и минимальную ширину 0,20 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous vous approchez d'un carrefour et vous voyez un panneau bleu avec un symbole en blanc. Qu'est-ce que cela signifie ?",
+      "text_nl": "U nadert een kruispunt en u ziet een blauw bord met een symbool in het wit. Wat betekent dit?",
+      "text_ru": "Вы подходите к перекрёстку и видите синюю панель с белым символом. Что это означает?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il y a une limitation de vitesse",
+          "text_nl": "Er is een snelheidsbeperking",
+          "text_ru": "Есть ограничение скорости",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il y a une interdiction de tourner à droite",
+          "text_nl": "Er is een verbod om naar rechts te draaien",
+          "text_ru": "Есть запрет на поворот направо",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il y a une information complémentaire sur le signal routier",
+          "text_nl": "Er is aanvullende informatie over het verkeersbord",
+          "text_ru": "Есть дополнительная информация о дорожном знаке",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le panneau bleu avec un symbole en blanc indique une information complémentaire sur le signal routier.",
+      "explanation_nl": "Het blauwe bord met een symbool in het wit geeft aanvullende informatie over het verkeersbord.",
+      "explanation_ru": "Синяя панель с белым символом указывает на дополнительную информацию о дорожном знаке."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route et vous voyez un panneau de type IV. Qu'est-ce que cela signifie ?",
+      "text_nl": "U rijdt over een weg en u ziet een bord van type IV. Wat betekent dit?",
+      "text_ru": "Вы едете по дороге и видите панель типа IV. Что это означает?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il y a une limitation de vitesse pour tous les véhicules",
+          "text_nl": "Er is een snelheidsbeperking voor alle voertuigen",
+          "text_ru": "Есть ограничение скорости для всех транспортных средств",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il y a une interdiction de tourner à droite pour les camions",
+          "text_nl": "Er is een verbod om naar rechts te draaien voor vrachtwagens",
+          "text_ru": "Есть запрет на поворот направо для грузовиков",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il y a une information sur la longueur d'une section de la voie publique",
+          "text_nl": "Er is informatie over de lengte van een gedeelte van de openbare weg",
+          "text_ru": "Есть информация о длине участка общественной дороги",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau de type IV signifie qu'il y a une limitation ou une interdiction pour certaines catégories de véhicules.",
+      "explanation_nl": "Het bord van type IV betekent dat er een beperking of verbod is voor bepaalde categorieën van voertuigen.",
+      "explanation_ru": "Панель типа IV означает, что есть ограничение или запрет для определенных категорий транспортных средств."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez sur une route et vous voyez un panneau bleu avec un symbole en blanc qui indique une distance. Qu'est-ce que cela signifie ?",
+      "text_nl": "U rijdt over een weg en u ziet een blauw bord met een symbool in het wit dat een afstand aanduidt. Wat betekent dit?",
+      "text_ru": "Вы едете по дороге и видите синюю панель с белым символом, указывающим расстояние. Что это означает?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il y a une limitation de vitesse pour les 500 mètres suivants",
+          "text_nl": "Er is een snelheidsbeperking voor de volgende 500 meter",
+          "text_ru": "Есть ограничение скорости на следующие 500 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il y a une interdiction de tourner à droite pour les 200 mètres suivants",
+          "text_nl": "Er is een verbod om naar rechts te draaien voor de volgende 200 meter",
+          "text_ru": "Есть запрет на поворот направо на следующие 200 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il y a une information sur la distance jusqu'à un objet ou un lieu",
+          "text_nl": "Er is informatie over de afstand tot een object of een locatie",
+          "text_ru": "Есть информация о расстоянии до объекта или места",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le panneau bleu avec un symbole en blanc qui indique une distance signifie qu'il y a une information sur la distance jusqu'à un objet ou un lieu.",
+      "explanation_nl": "Het blauwe bord met een symbool in het wit dat een afstand aanduidt, geeft aan dat er informatie is over de afstand tot een object of een locatie.",
+      "explanation_ru": "Синяя панель с белым символом, указывающим расстояние, означает, что есть информация о расстоянии до объекта или места."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous voyez un panneau de type VII. Qu'est-ce que cela signifie ?",
+      "text_nl": "U ziet een bord van type VII. Wat betekent dit?",
+      "text_ru": "Вы видите панель типа VII. Что это означает?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il y a une limitation de vitesse",
+          "text_nl": "Er is een snelheidsbeperking",
+          "text_ru": "Есть ограничение скорости",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il y a une information sur le stationnement",
+          "text_nl": "Er is informatie over parkeren",
+          "text_ru": "Есть информация о парковке",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il y a une interdiction de tourner à droite",
+          "text_nl": "Er is een verbod om naar rechts te draaien",
+          "text_ru": "Есть запрет на поворот направо",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau de type VII signifie qu'il y a une information sur le stationnement.",
+      "explanation_nl": "Het bord van type VII betekent dat er informatie is over parkeren.",
+      "explanation_ru": "Панель типа VII означает, что есть информация о парковке."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route et vous voyez un panneau de type VIII. Qu'est-ce que cela signifie ?",
+      "text_nl": "U rijdt over een weg en u ziet een bord van type VIII. Wat betekent dit?",
+      "text_ru": "Вы едете по дороге и видите панель типа VIII. Что это означает?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il y a une limitation de vitesse pour les camions",
+          "text_nl": "Er is een snelheidsbeperking voor vrachtwagens",
+          "text_ru": "Есть ограничение скорости для грузовиков",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il y a une information sur la longueur d'une section de la voie publique",
+          "text_nl": "Er is informatie over de lengte van een gedeelte van de openbare weg",
+          "text_ru": "Есть информация о длине участка общественной дороги",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il y a une information sur un rétrécissement de la voie publique",
+          "text_nl": "Er is informatie over een versmalling van de openbare weg",
+          "text_ru": "Есть информация о сужении общественной дороги",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le panneau de type VIII signifie qu'il y a une information sur un rétrécissement de la voie publique.",
+      "explanation_nl": "Het bord van type VIII betekent dat er informatie is over een versmalling van de openbare weg.",
+      "explanation_ru": "Панель типа VIII означает, что есть информация о сужении общественной дороги."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "a51e49f72a5b",
@@ -127,6 +424,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T12:01:24Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

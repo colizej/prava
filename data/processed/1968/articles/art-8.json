@@ -26,7 +26,304 @@
   "anchor_id_fr": "cuug8pp5zh",
   "anchor_id_nl": "qbbruywlno",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le régime applicable aux voies publiques classées comme autoroutes ?",
+      "text_nl": "Welk regime is van toepassing op de openbare wegen die als autosnelwegen zijn ingedeeld ?",
+      "text_ru": "Какой режим применяется к общественным дорогам, классифицированным как автострады ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le régime des routes nationales",
+          "text_nl": "Het regime van de gewone wegen",
+          "text_ru": "Режим обычных дорог",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le régime institué par la loi spécifique aux autoroutes",
+          "text_nl": "Het regime ingevoerd bij de wet specifiek voor autosnelwegen",
+          "text_ru": "Режим, установленный законом, специфичным для автострад",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le régime des routes régionales",
+          "text_nl": "Het regime van de gewestelijke wegen",
+          "text_ru": "Режим региональных дорог",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les voies publiques classées comme autoroutes restent soumises au régime institué par la loi spécifique aux autoroutes.",
+      "explanation_nl": "De openbare wegen die als autosnelwegen zijn ingedeeld, blijven onderworpen aan de regeling ingevoerd bij de wet specifiek voor autosnelwegen.",
+      "explanation_ru": "Общественные дороги, классифицированные как автострады, остаются подчиненными режиму, установленному законом, специфичным для автострад."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qui est responsable de la classification des voies publiques en autoroutes ?",
+      "text_nl": "Wie is verantwoordelijk voor de indeling van de openbare wegen in de categorie van de autosnelwegen ?",
+      "text_ru": "Кто ответственен за классификацию общественных дорог как автострад ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le gouvernement",
+          "text_nl": "De regering",
+          "text_ru": "Правительство",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi",
+          "text_nl": "De Koning",
+          "text_ru": "Король",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les autorités locales",
+          "text_nl": "De lokale overheden",
+          "text_ru": "Местные власти",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Roi est responsable de la classification des voies publiques en autoroutes.",
+      "explanation_nl": "De Koning is verantwoordelijk voor de indeling van de openbare wegen in de categorie van de autosnelwegen.",
+      "explanation_ru": "Король ответственен за классификацию общественных дорог как автострад."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quel est le but de la classification des voies publiques en autoroutes ?",
+      "text_nl": "Wat is het doel van de indeling van de openbare wegen in de categorie van de autosnelwegen ?",
+      "text_ru": "Какова цель классификации общественных дорог как автострад ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Améliorer la sécurité routière",
+          "text_nl": "De verkeersveiligheid verbeteren",
+          "text_ru": "Улучшить безопасность дорожного движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réduire les embouteillages",
+          "text_nl": "De files verminderen",
+          "text_ru": "Сократить заторы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appliquer un régime spécifique aux autoroutes",
+          "text_nl": "Een specifiek regime toepassen op de autosnelwegen",
+          "text_ru": "Применить специальный режим к автострадам",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le but de la classification des voies publiques en autoroutes est d'appliquer un régime spécifique aux autoroutes.",
+      "explanation_nl": "Het doel van de indeling van de openbare wegen in de categorie van de autosnelwegen is om een specifiek regime toe te passen op de autosnelwegen.",
+      "explanation_ru": "Цель классификации общественных дорог как автострад состоит в применении специального режима к автострадам."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une autoroute et vous devez vous arrêter en raison d'un problème technique. Quelle est la procédure à suivre ?",
+      "text_nl": "U rijdt op een autosnelweg en u moet stoppen vanwege een technisch probleem. Wat is de procedure die u moet volgen ?",
+      "text_ru": "Вы едете по автостраде и вам необходимо остановиться из-за технической проблемы. Какая процедура должна быть выполнена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Arrêter le véhicule sur la voie de circulation",
+          "text_nl": "Het voertuig stoppen op de rijbaan",
+          "text_ru": "Остановить транспортное средство на полосе движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Allumer les feux de détresse et se déplacer vers la bande d'arrêt d'urgence",
+          "text_nl": "De waarschuwingslichten inschakelen en naar de noodstopstrook gaan",
+          "text_ru": "Включить аварийные огни и переместиться на полосу экстренной остановки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer à rouler jusqu'à la prochaine sortie",
+          "text_nl": "Doorgaan met rijden tot de volgende afrit",
+          "text_ru": "Продолжать движение до следующего съезда",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de problème technique sur une autoroute, il est recommandé d'allumer les feux de détresse et de se déplacer vers la bande d'arrêt d'urgence.",
+      "explanation_nl": "In geval van een technisch probleem op een autosnelweg, is het aan te raden de waarschuwingslichten in te schakelen en naar de noodstopstrook te gaan.",
+      "explanation_ru": "В случае технической проблемы на автостраде рекомендуется включить аварийные огни и переместиться на полосу экстренной остановки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'une intersection sur une autoroute et vous devezyield la priorité à un autre véhicule. Quelle est la bonne procédure ?",
+      "text_nl": "U nadert een kruispunt op een autosnelweg en u moet voorrang verlenen aan een ander voertuig. Wat is de juiste procedure ?",
+      "text_ru": "Вы подходите к перекрёстку на автостраде и вам необходимо уступить дорогу другому транспортному средству. Какая правильная процедура ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer avant l'autre véhicule",
+          "text_nl": "Versnellen om voor het andere voertuig te passeren",
+          "text_ru": "Ускориться, чтобы проехать перед другим транспортным средством",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et laisser passer l'autre véhicule",
+          "text_nl": "Vertragen en het andere voertuig laten passeren",
+          "text_ru": "Замедлить и пропустить другое транспортное средство",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Klaxonner pour avertir l'autre véhicule",
+          "text_nl": "Claxonneren om het andere voertuig te waarschuwen",
+          "text_ru": "Подать сигнал, чтобы предупредить другое транспортное средство",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de doute, il est recommandé de ralentir et de laisser passer l'autre véhicule pour éviter tout accident.",
+      "explanation_nl": "In geval van twijfel is het aan te raden om te vertragen en het andere voertuig te laten passeren om een ongeluk te voorkomen.",
+      "explanation_ru": "В случае сомнения рекомендуется замедлить и пропустить другое транспортное средство, чтобы избежать аварии."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez sur une autoroute et vous vous rendez compte que vous avez pris une mauvaise sortie. Quelle est la procédure à suivre ?",
+      "text_nl": "U rijdt op een autosnelweg en u merkt dat u een verkeerde afrit hebt genomen. Wat is de procedure die u moet volgen ?",
+      "text_ru": "Вы едете по автостраде и понимаете, что вы снялись с неправильного съезда. Какая процедура должна быть выполнена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler et essayer de trouver un chemin pour revenir sur l'autoroute",
+          "text_nl": "Doorgaan met rijden en proberen een weg te vinden om terug te keren op de autosnelweg",
+          "text_ru": "Продолжать движение и попытаться найти путь, чтобы вернуться на автостраду",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Prendre la prochaine sortie et faire demi-tour",
+          "text_nl": "De volgende afrit nemen en keren",
+          "text_ru": "Взять следующий съезд и повернуть обратно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler les services d'urgence pour demander de l'aide",
+          "text_nl": "De nooddiensten bellen om hulp te vragen",
+          "text_ru": "Позвонить в службу экстренной помощи, чтобы попросить о помощи",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de mauvaise sortie, il est recommandé de prendre la prochaine sortie et de faire demi-tour pour revenir sur l'autoroute.",
+      "explanation_nl": "In geval van een verkeerde afrit, is het aan te raden de volgende afrit te nemen en te keren om terug te keren op de autosnelweg.",
+      "explanation_ru": "В случае неправильного съезда рекомендуется взять следующий съезд и повернуть обратно, чтобы вернуться на автостраду."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une autoroute et vous vous rendez compte que votre véhicule est en panne. Quelle est la procédure à suivre ?",
+      "text_nl": "U rijdt op een autosnelweg en u merkt dat uw voertuig een panne heeft. Wat is de procedure die u moet volgen ?",
+      "text_ru": "Вы едете по автостраде и понимаете, что ваше транспортное средство сломалось. Какая процедура должна быть выполнена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler jusqu'à ce que vous trouviez un garage",
+          "text_nl": "Doorgaan met rijden tot u een garage vindt",
+          "text_ru": "Продолжать движение, пока вы не найдете гараж",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Allumer les feux de détresse et se déplacer vers la bande d'arrêt d'urgence",
+          "text_nl": "De waarschuwingslichten inschakelen en naar de noodstopstrook gaan",
+          "text_ru": "Включить аварийные огни и переместиться на полосу экстренной остановки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler les services d'urgence pour demander de l'aide",
+          "text_nl": "De nooddiensten bellen om hulp te vragen",
+          "text_ru": "Позвонить в службу экстренной помощи, чтобы попросить о помощи",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de panne sur une autoroute, il est recommandé d'allumer les feux de détresse et de se déplacer vers la bande d'arrêt d'urgence.",
+      "explanation_nl": "In geval van een panne op een autosnelweg, is het aan te raden de waarschuwingslichten in te schakelen en naar de noodstopstrook te gaan.",
+      "explanation_ru": "В случае поломки на автостраде рекомендуется включить аварийные огни и переместиться на полосу экстренной остановки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une autoroute et vous vous rendez compte que la visibilité est réduite en raison de la pluie. Quelle est la procédure à suivre ?",
+      "text_nl": "U rijdt op een autosnelweg en u merkt dat de zichtbaarheid is verminderd vanwege de regen. Wat is de procedure die u moet volgen ?",
+      "text_ru": "Вы едете по автостраде и понимаете, что видимость уменьшена из-за дождя. Какая процедура должна быть выполнена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer les autres véhicules",
+          "text_nl": "Versnellen om de andere voertuigen te passeren",
+          "text_ru": "Ускориться, чтобы проехать мимо других транспортных средств",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et augmenter la distance de sécurité",
+          "text_nl": "Vertragen en de veiligheidsafstand vergroten",
+          "text_ru": "Замедлить и увеличить безопасную дистанцию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer à rouler à la même vitesse",
+          "text_nl": "Doorgaan met rijden op dezelfde snelheid",
+          "text_ru": "Продолжать движение с той же скоростью",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de visibilité réduite, il est recommandé de ralentir et d'augmenter la distance de sécurité pour éviter tout accident.",
+      "explanation_nl": "In geval van verminderde zichtbaarheid, is het aan te raden om te vertragen en de veiligheidsafstand te vergroten om een ongeluk te voorkomen.",
+      "explanation_ru": "В случае уменьшенной видимости рекомендуется замедлить и увеличить безопасную дистанцию, чтобы избежать аварии."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "5fcc155d7d50",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:59:15Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

@@ -26,7 +26,304 @@
   "anchor_id_fr": "lyasfhmcxr",
   "anchor_id_nl": "bjgxs4lxy4",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qui peut remplacer l'amende en cas de non-paiement dans le délai imparti ?",
+      "text_nl": "Wat kan de boete vervangen als deze niet wordt betaald binnen de gestelde termijn?",
+      "text_ru": "Что может заменить штраф в случае неоплаты в установленный срок?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une peine de prison",
+          "text_nl": "Een gevangenisstraf",
+          "text_ru": "Тюремное заключение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une déchéance du droit de conduire un véhicule à moteur",
+          "text_nl": "Een verval van het recht tot het besturen van een motorvoertuig",
+          "text_ru": "Лишение права управления транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende supplémentaire",
+          "text_nl": "Een bijkomende boete",
+          "text_ru": "Дополнительный штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "En cas de non-paiement de l'amende dans le délai imparti, la déchéance du droit de conduire un véhicule à moteur peut être prononcée.",
+      "explanation_nl": "In geval van niet-betaling van de boete binnen de gestelde termijn, kan het verval van het recht tot het besturen van een motorvoertuig worden uitgesproken.",
+      "explanation_ru": "В случае неоплаты штрафа в установленный срок, может быть применено лишение права управления транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le délai de paiement pour éviter la déchéance du droit de conduire un véhicule à moteur ?",
+      "text_nl": "Wat is de termijn voor betaling om het verval van het recht tot het besturen van een motorvoertuig te vermijden?",
+      "text_ru": "Какой срок оплаты для避ления лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un mois",
+          "text_nl": "Een maand",
+          "text_ru": "Один месяц",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Deux mois",
+          "text_nl": "Twee maanden",
+          "text_ru": "Два месяца",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Trois mois",
+          "text_nl": "Drie maanden",
+          "text_ru": "Три месяца",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai de paiement pour éviter la déchéance du droit de conduire un véhicule à moteur est de deux mois.",
+      "explanation_nl": "De termijn voor betaling om het verval van het recht tot het besturen van een motorvoertuig te vermijden is twee maanden.",
+      "explanation_ru": "Срок оплаты для tránh лишения права управления транспортным средством составляет два месяца."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la durée minimale et maximale de la déchéance du droit de conduire un véhicule à moteur ?",
+      "text_nl": "Wat is de minimale en maximale duur van het verval van het recht tot het besturen van een motorvoertuig?",
+      "text_ru": "Какова минимальная и максимальная продолжительность лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un jour et un an",
+          "text_nl": "Een dag en een jaar",
+          "text_ru": "Один день и один год",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Huit jours et un an",
+          "text_nl": "Acht dagen en een jaar",
+          "text_ru": "Восемь дней и один год",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un mois et deux ans",
+          "text_nl": "Een maand en twee jaar",
+          "text_ru": "Один месяц и два года",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée minimale de la déchéance du droit de conduire un véhicule à moteur est de huit jours et la durée maximale est de un an.",
+      "explanation_nl": "De minimale duur van het verval van het recht tot het besturen van een motorvoertuig is acht dagen en de maximale duur is een jaar.",
+      "explanation_ru": "Минимальная продолжительность лишения права управления транспортным средством составляет восемь дней, а максимальная продолжительность составляет один год."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez reçu une amende pour une infraction routière. Qu'est-ce que vous devez faire pour éviter la déchéance du droit de conduire un véhicule à moteur ?",
+      "text_nl": "U heeft een boete gekregen voor een verkeersovertreding. Wat moet u doen om het verval van het recht tot het besturen van een motorvoertuig te vermijden?",
+      "text_ru": "Вам был вынесен штраф за нарушение правил дорожного движения. Что вы должны сделать, чтобы избежать лишения права управления транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Payer l'amende dans le délai de deux mois",
+          "text_nl": "De boete binnen de termijn van twee maanden betalen",
+          "text_ru": "Оплатить штраф в течение двух месяцев",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Contester l'amende devant le tribunal",
+          "text_nl": "De boete voor de rechter aanvechten",
+          "text_ru": "Обжаловать штраф в суде",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer l'amende et ne pas payer",
+          "text_nl": "De boete negeren en niet betalen",
+          "text_ru": "Игнорировать штраф и не платить",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour éviter la déchéance du droit de conduire un véhicule à moteur, il est nécessaire de payer l'amende dans le délai de deux mois.",
+      "explanation_nl": "Om het verval van het recht tot het besturen van een motorvoertuig te vermijden, moet u de boete binnen de termijn van twee maanden betalen.",
+      "explanation_ru": "Чтобы избежать лишения права управления транспортным средством, необходимо оплатить штраф в течение двух месяцев."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": " Vous avez payé l'amende dans le délai de deux mois. Qu'est-ce qui se passe maintenant ?",
+      "text_nl": "U heeft de boete binnen de termijn van twee maanden betaald. Wat gebeurt er nu?",
+      "text_ru": "Вы оплатили штраф в течение двух месяцев. Что происходит теперь?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous recevrez une nouvelle amende",
+          "text_nl": "U krijgt een nieuwe boete",
+          "text_ru": "Вам будет вынесен новый штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ne recevrez plus de déchéance du droit de conduire un véhicule à moteur",
+          "text_nl": "U krijgt geen verval van het recht tot het besturen van een motorvoertuig meer",
+          "text_ru": "Вам больше не будет грозить лишение права управления транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devrez comparaître devant le tribunal",
+          "text_nl": "U moet voor de rechter verschijnen",
+          "text_ru": "Вам придется явиться в суд",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si vous payez l'amende dans le délai de deux mois, vous ne recevrez plus de déchéance du droit de conduire un véhicule à moteur.",
+      "explanation_nl": "Als u de boete binnen de termijn van twee maanden betaalt, krijgt u geen verval van het recht tot het besturen van een motorvoertuig meer.",
+      "explanation_ru": "Если вы оплатите штраф в течение двух месяцев, вам больше не будет грозить лишение права управления транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": " Vous avez reçu une déchéance du droit de conduire un véhicule à moteur pour une durée de six mois. Qu'est-ce que vous devez faire pendant cette période ?",
+      "text_nl": "U heeft een verval van het recht tot het besturen van een motorvoertuig gekregen voor een periode van zes maanden. Wat moet u doen tijdens deze periode?",
+      "text_ru": "Вам был вынесен запрет на управление транспортным средством на срок шесть месяцев. Что вы должны сделать в течение этого периода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Conduire un véhicule à moteur avec un accompagnateur",
+          "text_nl": "Een motorvoertuig besturen met een begeleider",
+          "text_ru": "Управлять транспортным средством с сопровождающим",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ne pas conduire un véhicule à moteur",
+          "text_nl": "Geen motorvoertuig besturen",
+          "text_ru": "Не управлять транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Conduire un véhicule à moteur avec un permis temporaire",
+          "text_nl": "Een motorvoertuig besturen met een tijdelijk rijbewijs",
+          "text_ru": "Управлять транспортным средством с временным правом",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pendant la période de déchéance du droit de conduire un véhicule à moteur, vous ne devez pas conduire un véhicule à moteur.",
+      "explanation_nl": "Tijdens de periode van het verval van het recht tot het besturen van een motorvoertuig, moet u geen motorvoertuig besturen.",
+      "explanation_ru": "В течение периода лишения права управления транспортным средством, вы не должны управлять транспортным средством."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": " Vous avez reçu une amende et une déchéance du droit de conduire un véhicule à moteur. Qu'est-ce que vous devez faire en premier ?",
+      "text_nl": "U heeft een boete en een verval van het recht tot het besturen van een motorvoertuig gekregen. Wat moet u eerst doen?",
+      "text_ru": "Вам был вынесен штраф и лишение права управления транспортным средством. Что вы должны сделать первым?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Payer l'amende",
+          "text_nl": "De boete betalen",
+          "text_ru": "Оплатить штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Contester la déchéance du droit de conduire un véhicule à moteur",
+          "text_nl": "Het verval van het recht tot het besturen van een motorvoertuig aanvechten",
+          "text_ru": "Обжаловать лишение права управления транспортным средством",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ne rien faire",
+          "text_nl": "Niets doen",
+          "text_ru": "Не делать ничего",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est recommandé de payer l'amende en premier pour éviter les conséquences supplémentaires.",
+      "explanation_nl": "Het wordt aanbevolen om de boete eerst te betalen om verdere gevolgen te vermijden.",
+      "explanation_ru": "Рекомендуется оплатить штраф первым, чтобы избежать дополнительных последствий."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": " Vous avez payé l'amende, mais vous avez toujours une déchéance du droit de conduire un véhicule à moteur. Qu'est-ce que vous devez faire maintenant ?",
+      "text_nl": "U heeft de boete betaald, maar u heeft nog steeds een verval van het recht tot het besturen van een motorvoertuig. Wat moet u nu doen?",
+      "text_ru": "Вы оплатили штраф, но у вас все еще есть лишение права управления транспортным средством. Что вы должны сделать сейчас?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Conduire un véhicule à moteur avec un accompagnateur",
+          "text_nl": "Een motorvoertuig besturen met een begeleider",
+          "text_ru": "Управлять транспортным средством с сопровождающим",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Attendre la fin de la période de déchéance",
+          "text_nl": "Wachten tot het einde van de periode van het verval",
+          "text_ru": "Ждать конца периода лишения права",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Contester la déchéance du droit de conduire un véhicule à moteur",
+          "text_nl": "Het verval van het recht tot het besturen van een motorvoertuig aanvechten",
+          "text_ru": "Обжаловать лишение права управления транспортным средством",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est recommandé d'attendre la fin de la période de déchéance pour éviter les conséquences supplémentaires.",
+      "explanation_nl": "Het wordt aanbevolen om te wachten tot het einde van de periode van het verval om verdere gevolgen te vermijden.",
+      "explanation_ru": "Рекомендуется ждать конца периода лишения права, чтобы избежать дополнительных последствий."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "c29c1f035a90",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:58:47Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

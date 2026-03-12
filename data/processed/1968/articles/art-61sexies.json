@@ -43,7 +43,119 @@
   "anchor_id_fr": "hwgaef2hxy",
   "anchor_id_nl": "aycbexl9l8",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est responsable de la définition des conditions d'application du système d'éthylotest antidémarrage en Belgique ?",
+      "text_nl": "Wie is verantwoordelijk voor het bepalen van de toepassingsvoorwaarden van het alcoholslot in België?",
+      "text_ru": "Кто отвечает за определение условий применения системы блокировки запуска двигателя по результатам алкотеста в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les ministres régionaux des transports",
+          "text_nl": "De regionale ministers van vervoer",
+          "text_ru": "Региональные министры транспорта",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Roi",
+          "text_nl": "De Koning",
+          "text_ru": "Король",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La police fédérale",
+          "text_nl": "De federale politie",
+          "text_ru": "Федеральная полиция",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article indique clairement que « Le Roi définit les conditions applicables au système ».",
+      "explanation_nl": "Het artikel stelt duidelijk dat « De Koning bepaalt de voorwaarden waaraan het systeem voldoet ».",
+      "explanation_ru": "Статья четко указывает, что «Король определяет условия, применимые к системе»."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le nom du dispositif technologique mentionné qui est utilisé pour empêcher un conducteur sous l'influence de l'alcool de démarrer un véhicule ?",
+      "text_nl": "Wat is de naam van het vermelde technologisch apparaat dat wordt gebruikt om te voorkomen dat een bestuurder onder invloed van alcohol een voertuig start?",
+      "text_ru": "Как называется упомянутое технологическое устройство, используемое для предотвращения запуска транспортного средства водителем в состоянии алкогольного опьянения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un tachygraphe numérique",
+          "text_nl": "Een digitale tachograaf",
+          "text_ru": "Цифровой тахограф",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un éthylotest antidémarrage",
+          "text_nl": "Een alcoholslot",
+          "text_ru": "Блокировка запуска двигателя по результатам алкотеста",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un limiteur de vitesse intelligent",
+          "text_nl": "Een intelligente snelheidsbegrenzer",
+          "text_ru": "Интеллектуальный ограничитель скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La note d'information fait référence aux « éthylotests antidémarrage » comme étant le système concerné par l'article.",
+      "explanation_nl": "De informatienota verwijst naar « alcoholsloten » als het systeem waarop het artikel betrekking heeft.",
+      "explanation_ru": "Информационная заметка ссылается на «блокировки запуска двигателя по результатам алкотеста» как на систему, к которой относится статья."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Les conditions définies pour le système d'éthylotest antidémarrage, tel que mentionné dans l'article, concernent principalement :",
+      "text_nl": "De gedefinieerde voorwaarden voor het alcoholslot systeem, zoals vermeld in het artikel, betreffen voornamelijk:",
+      "text_ru": "Определенные условия для системы блокировки запуска двигателя по результатам алкотеста, как указано в статье, в основном касаются:",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le nombre maximal d'heures de conduite par jour",
+          "text_nl": "Het maximaal aantal rij-uren per dag",
+          "text_ru": "Максимальное количество часов вождения в день",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les spécifications techniques et les modalités d'utilisation de l'appareil",
+          "text_nl": "De technische specificaties en de gebruikswijze van het apparaat",
+          "text_ru": "Технические характеристики и порядок использования устройства",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les sanctions pénales pour conduite en état d'ivresse",
+          "text_nl": "De strafrechtelijke sancties voor rijden onder invloed",
+          "text_ru": "Уголовные санкции за вождение в нетрезвом виде",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La note d'information explicative mentionne un Arrêté Royal « relatif aux spécifications techniques des éthylotests antidémarrage », ce qui indique la nature des conditions définies.",
+      "explanation_nl": "De verklarende informatienota vermeldt een Koninklijk Besluit « betreffende de technische specificaties van de alcoholsloten », wat de aard van de gedefinieerde voorwaarden aangeeft.",
+      "explanation_ru": "Пояснительная информационная заметка упоминает Королевский Указ «о технических характеристиках блокировок запуска двигателя по результатам алкотеста», что указывает на характер определенных условий."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "ccc67c500d6a",
@@ -53,6 +165,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:51:02Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

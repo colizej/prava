@@ -26,7 +26,304 @@
   "anchor_id_fr": "b2watd13w3",
   "anchor_id_nl": "6rgsiqdddo",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que l'immobilisation temporaire d'un véhicule prononcée par un juge ?",
+      "text_nl": "Wat betekent de tijdelijke immobilisering van een voertuig die door een rechter wordt bevolen?",
+      "text_ru": "Что означает временное задержание транспортного средства, назначенное судьей?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule est mis à la disposition d'un autre conducteur pour la durée de la déchéance.",
+          "text_nl": "Het voertuig wordt ter beschikking gesteld van een andere bestuurder voor de duur van het verval.",
+          "text_ru": "Транспортное средство предоставляется в распоряжение другого водителя на срок лишения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule ne peut pas être utilisé pendant une période déterminée, sans dépasser la durée de la déchéance du droit de conduire.",
+          "text_nl": "Het voertuig mag gedurende een bepaalde periode niet worden gebruikt, zonder de duur van het verval van het recht tot sturen te overschrijden.",
+          "text_ru": "Транспортное средство не может использоваться в течение определенного периода, не превышающего срок лишения водительских прав.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule est définitivement retiré de la circulation.",
+          "text_nl": "Het voertuig wordt definitief uit het verkeer genomen.",
+          "text_ru": "Транспортное средство окончательно изымается из обращения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'immobilisation temporaire signifie que le véhicule ne peut pas être utilisé pendant une période déterminée, qui ne peut pas excéder la durée de la déchéance du droit de conduire.",
+      "explanation_nl": "Tijdelijke immobilisering betekent dat het voertuig gedurende een bepaalde periode niet mag worden gebruikt, welke periode de duur van het verval van het recht tot sturen niet mag overschrijden.",
+      "explanation_ru": "Временное задержание означает, что транспортное средство не может использоваться в течение определенного периода, который не может превышать срок лишения водительских прав."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie la confiscation d'un véhicule décidée par un juge ?",
+      "text_nl": "Wat betekent de verbeurdverklaring van een voertuig die door een rechter wordt bevolen?",
+      "text_ru": "Что означает конфискация транспортного средства по решению судьи?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule est restitué au propriétaire après paiement d'une amende.",
+          "text_nl": "Het voertuig wordt na betaling van een boete teruggegeven aan de eigenaar.",
+          "text_ru": "Транспортное средство возвращается владельцу после уплаты штрафа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule est temporairement mis hors service pour une durée maximale d'un an.",
+          "text_nl": "Het voertuig wordt tijdelijk buiten gebruik gesteld voor een maximale duur van één jaar.",
+          "text_ru": "Транспортное средство временно выводится из эксплуатации на срок не более одного года.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule est définitivement retiré de la propriété de son propriétaire.",
+          "text_nl": "Het voertuig wordt definitief ontnomen aan de eigenaar.",
+          "text_ru": "Транспортное средство окончательно изымается из собственности его владельца.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La confiscation est une mesure définitive qui retire la propriété du véhicule à son propriétaire.",
+      "explanation_nl": "Verbeurdverklaring is een definitieve maatregel die het eigendomsrecht van het voertuig aan de eigenaar onttrekt.",
+      "explanation_ru": "Конфискация — это окончательная мера, лишающая владельца его права собственности на транспортное средство."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans le cas où le véhicule appartient à l'auteur de l'infraction, quelle condition relative à la déchéance du droit de conduire permet à un juge de prononcer la confiscation du véhicule ?",
+      "text_nl": "Welke voorwaarde met betrekking tot het verval van het recht tot sturen, wanneer het voertuig eigendom is van de dader van het misdrijf, stelt een rechter in staat de verbeurdverklaring van het voertuig te bevelen?",
+      "text_ru": "В случае, если транспортное средство принадлежит нарушителю, какое условие, касающееся лишения водительских прав, позволяет судье вынести решение о конфискации транспортного средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La déchéance est de six mois au minimum.",
+          "text_nl": "Het verval is ten minste zes maanden.",
+          "text_ru": "Лишение прав составляет не менее шести месяцев.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La déchéance est à vie ou d'au moins trois mois.",
+          "text_nl": "Het verval is levenslang of bedraagt ten minste drie maanden.",
+          "text_ru": "Лишение прав пожизненное или составляет не менее трех месяцев.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La déchéance est de courte durée, inférieure à un mois.",
+          "text_nl": "Het verval is van korte duur, minder dan een maand.",
+          "text_ru": "Лишение прав кратковременное, менее одного месяца.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour la confiscation du véhicule appartenant à l'auteur de l'infraction, la déchéance doit être à vie ou d'au moins trois mois.",
+      "explanation_nl": "Voor de verbeurdverklaring van het voertuig dat eigendom is van de dader van het misdrijf, moet het verval levenslang zijn of ten minste drie maanden bedragen.",
+      "explanation_ru": "Для конфискации транспортного средства, принадлежащего нарушителю, лишение прав должно быть пожизненным или составлять не менее трех месяцев."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est condamné à une déchéance du droit de conduire de deux mois. Le véhicule utilisé lors de l'infraction lui appartient. Quelle mesure judiciaire son véhicule pourrait-il subir ?",
+      "text_nl": "Een bestuurder wordt veroordeeld tot een verval van het recht tot sturen van twee maanden. Het voertuig dat bij de overtreding werd gebruikt, is zijn eigendom. Welke gerechtelijke maatregel zou zijn voertuig kunnen ondergaan?",
+      "text_ru": "Водитель приговорен к лишению водительских прав на два месяца. Транспортное средство, использованное при совершении нарушения, принадлежит ему. Какая судебная мера может быть применена к его транспортному средству?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule sera confisqué définitivement.",
+          "text_nl": "Het voertuig zal definitief verbeurd worden verklaard.",
+          "text_ru": "Транспортное средство будет окончательно конфисковано.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule sera temporairement immobilisé pour une durée maximale de deux mois.",
+          "text_nl": "Het voertuig zal tijdelijk worden geïmmobiliseerd voor een maximale duur van twee maanden.",
+          "text_ru": "Транспортное средство будет временно задержано на срок не более двух месяцев.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule ne subira aucune mesure spécifique car la déchéance est trop courte.",
+          "text_nl": "Het voertuig zal geen specifieke maatregel ondergaan omdat het verval te kort is.",
+          "text_ru": "Транспортное средство не будет подвергнуто каким-либо особым мерам, поскольку срок лишения прав слишком мал.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Dans ce cas, le juge peut prononcer l'immobilisation temporaire du véhicule pour une durée ne dépassant pas celle de la déchéance, soit deux mois. La confiscation nécessiterait une déchéance d'au moins trois mois.",
+      "explanation_nl": "In dit geval kan de rechter de tijdelijke immobilisering van het voertuig bevelen voor een duur die die van het verval, oftewel twee maanden, niet overschrijdt. Verbeurdverklaring zou een verval van ten minste drie maanden vereisen.",
+      "explanation_ru": "В данном случае судья может назначить временное задержание транспортного средства на срок, не превышающий срок лишения прав, то есть два месяца. Конфискация потребовала бы лишения прав на срок не менее трех месяцев."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est condamné à une déchéance à vie de son droit de conduire. Le véhicule utilisé lors de l'infraction lui appartient. Quelle mesure judiciaire son véhicule est-il susceptible de subir ?",
+      "text_nl": "Een bestuurder wordt veroordeeld tot een levenslang verval van zijn recht tot sturen. Het voertuig dat bij de overtreding werd gebruikt, is zijn eigendom. Welke gerechtelijke maatregel zou zijn voertuig kunnen ondergaan?",
+      "text_ru": "Водитель приговорен к пожизненному лишению водительских прав. Транспортное средство, использованное при совершении нарушения, принадлежит ему. Какая судебная мера может быть применена к его транспортному средству?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule sera temporairement immobilisé pendant une période indéterminée.",
+          "text_nl": "Het voertuig zal tijdelijk worden geïmmobiliseerd voor een onbepaalde periode.",
+          "text_ru": "Транспортное средство будет временно задержано на неопределенный срок.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule sera confisqué définitivement.",
+          "text_nl": "Het voertuig zal definitief verbeurd worden verklaard.",
+          "text_ru": "Транспортное средство будет окончательно конфисковано.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule sera vendu aux enchères au profit du conducteur.",
+          "text_nl": "Het voertuig zal worden verkocht op een veiling ten voordele van de bestuurder.",
+          "text_ru": "Транспортное средство будет продано с аукциона в пользу водителя.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si la déchéance est à vie et que le véhicule est la propriété de l'auteur de l'infraction, le juge peut prononcer la confiscation du véhicule.",
+      "explanation_nl": "Indien het verval levenslang is en het voertuig eigendom is van de dader van het misdrijf, kan de rechter de verbeurdverklaring van het voertuig bevelen.",
+      "explanation_ru": "Если лишение прав пожизненное и транспортное средство принадлежит нарушителю, судья может вынести решение о конфискации транспортного средства."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur est condamné à une déchéance du droit de conduire de quatre mois. Le véhicule lui appartient. Quelle est la sanction la plus sévère que le véhicule pourrait subir ?",
+      "text_nl": "Een bestuurder wordt veroordeeld tot een verval van het recht tot sturen van vier maanden. Het voertuig is zijn eigendom. Wat is de meest ingrijpende sanctie die het voertuig zou kunnen ondergaan?",
+      "text_ru": "Водитель приговорен к лишению водительских прав на четыре месяца. Транспортное средство принадлежит ему. Какое самое суровое наказание может быть применено к транспортному средству?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule sera immobilisé temporairement pour une durée maximale de quatre mois.",
+          "text_nl": "Het voertuig zal tijdelijk worden geïmmobiliseerd voor een maximale duur van vier maanden.",
+          "text_ru": "Транспортное средство будет временно задержано на срок не более четырех месяцев.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule sera confisqué définitivement.",
+          "text_nl": "Het voertuig zal definitief verbeurd worden verklaard.",
+          "text_ru": "Транспортное средство будет окончательно конфисковано.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule sera simplement immobilisé jusqu'à ce qu'il puisse être récupéré par un autre conducteur.",
+          "text_nl": "Het voertuig zal enkel geïmmobiliseerd worden totdat het door een andere bestuurder kan worden opgehaald.",
+          "text_ru": "Транспортное средство будет просто задержано, пока его не сможет забрать другой водитель.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Avec une déchéance de quatre mois et la propriété du véhicule par l'auteur de l'infraction, le juge peut ordonner la confiscation du véhicule, car quatre mois est supérieur ou égal à la condition minimale de trois mois pour la confiscation. C'est la sanction la plus sévère possible dans ce cas.",
+      "explanation_nl": "Met een verval van vier maanden en het eigendom van het voertuig door de dader van het misdrijf, kan de rechter de verbeurdverklaring van het voertuig bevelen, aangezien vier maanden gelijk is aan of langer is dan de minimale termijn van drie maanden voor verbeurdverklaring. Dit is de meest ingrijpende mogelijke sanctie in dit geval.",
+      "explanation_ru": "При лишении прав на четыре месяца и принадлежности транспортного средства нарушителю, судья может вынести решение о конфискации транспортного средства, так как четыре месяца превышают или равны минимальному сроку в три месяца для конфискации. Это самое суровое наказание в данном случае."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur est condamné à une déchéance du droit de conduire d'un mois après avoir commis une infraction au volant d'un véhicule emprunté. Le propriétaire du véhicule n'est pas impliqué dans l'infraction. Le véhicule peut-il être immobilisé ?",
+      "text_nl": "Een bestuurder wordt veroordeeld tot een verval van het recht tot sturen van één maand na het plegen van een overtreding met een geleend voertuig. De eigenaar van het voertuig is niet betrokken bij de overtreding. Kan het voertuig worden geïmmobiliseerd?",
+      "text_ru": "Водитель приговорен к лишению водительских прав на один месяц после совершения нарушения за рулем чужого автомобиля. Владелец автомобиля не причастен к нарушению. Может ли автомобиль быть задержан?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, le véhicule sera immobilisé pour la durée de la déchéance.",
+          "text_nl": "Ja, het voertuig zal geïmmobiliseerd worden voor de duur van het verval.",
+          "text_ru": "Да, транспортное средство будет задержано на срок лишения прав.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car le propriétaire du véhicule n'est pas l'auteur de l'infraction et n'est pas condamné pour une infraction spécifique.",
+          "text_nl": "Nee, want de eigenaar van het voertuig is niet de dader van de overtreding en is niet veroordeeld voor een specifieke overtreding.",
+          "text_ru": "Нет, так как владелец транспортного средства не является нарушителем и не осужден за конкретное правонарушение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si l'infraction est très grave, quel que soit le propriétaire.",
+          "text_nl": "Alleen als de overtreding zeer ernstig is, ongeacht de eigenaar.",
+          "text_ru": "Только если нарушение очень серьезное, независимо от владельца.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si le véhicule n'est pas la propriété de l'auteur de l'infraction, le juge ne peut ordonner l'immobilisation que si le propriétaire du véhicule est également condamné pour certaines infractions spécifiques. Puisque le propriétaire n'est pas impliqué ici, l'immobilisation ne peut pas être prononcée.",
+      "explanation_nl": "Indien het voertuig geen eigendom is van de dader van het misdrijf, kan de rechter de immobilisering slechts bevelen indien de eigenaar van het voertuig eveneens veroordeeld wordt voor bepaalde specifieke overtredingen. Aangezien de eigenaar hier niet bij betrokken is, kan immobilisering niet worden bevolen.",
+      "explanation_ru": "Если транспортное средство не принадлежит нарушителю, судья может вынести решение о задержании только в том случае, если владелец транспортного средства также осужден за определенные конкретные правонарушения. Поскольку владелец здесь не причастен, задержание не может быть назначено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur reçoit une déchéance à vie de son droit de conduire après avoir commis une infraction avec un véhicule emprunté. Le propriétaire du véhicule est également condamné pour une infraction liée à la situation. Quelle mesure judiciaire le véhicule est-il susceptible de subir ?",
+      "text_nl": "Een bestuurder krijgt een levenslang verval van zijn recht tot sturen na een overtreding met een geleend voertuig. De eigenaar van het voertuig wordt eveneens veroordeeld voor een overtreding die verband houdt met de situatie. Welke gerechtelijke maatregel zou het voertuig kunnen ondergaan?",
+      "text_ru": "Водитель получает пожизненное лишение водительских прав после совершения нарушения на чужом автомобиле. Владелец автомобиля также осужден за нарушение, связанное с ситуацией. Какая судебная мера может быть применена к транспортному средству?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le véhicule sera immobilisé temporairement, sans confiscation.",
+          "text_nl": "Het voertuig zal tijdelijk worden geïmmobiliseerd, zonder verbeurdverklaring.",
+          "text_ru": "Транспортное средство будет временно задержано, без конфискации.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le véhicule sera restitué au propriétaire après la période de déchéance.",
+          "text_nl": "Het voertuig wordt na de periode van verval teruggegeven aan de eigenaar.",
+          "text_ru": "Транспортное средство будет возвращено владельцу после окончания срока лишения прав.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le véhicule peut être confisqué, même s'il n'appartient pas à l'auteur de l'infraction.",
+          "text_nl": "Het voertuig kan worden verbeurd verklaard, zelfs als het niet eigendom is van de dader van de overtreding.",
+          "text_ru": "Транспортное средство может быть конфисковано, даже если оно не принадлежит нарушителю.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Même si le véhicule n'est pas la propriété de l'auteur de l'infraction, la confiscation peut être prononcée si le propriétaire est lui-même condamné pour une infraction spécifique, comme mentionné dans l'article.",
+      "explanation_nl": "Zelfs indien het voertuig geen eigendom is van de dader van het misdrijf, kan de verbeurdverklaring worden bevolen indien de eigenaar zelf veroordeeld wordt voor een specifieke overtreding, zoals vermeld in het artikel.",
+      "explanation_ru": "Даже если транспортное средство не принадлежит нарушителю, конфискация может быть назначена, если владелец сам осужден за конкретное правонарушение, как указано в статье."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "3e9746133643",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:45:59Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

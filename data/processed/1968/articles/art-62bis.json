@@ -44,7 +44,304 @@
   "anchor_id_fr": "hv8qwuhvrq",
   "anchor_id_nl": "ggzmmws7g4",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'objectif principal de la réglementation concernant les équipements embarqués dans un véhicule qui pourraient entraver les contrôles routiers ?",
+      "text_nl": "Wat is het hoofddoel van de regelgeving betreffende uitrusting in een voertuig die wegcontroles zou kunnen bemoeilijken?",
+      "text_ru": "Какова основная цель регулирования оборудования, установленного в транспортном средстве, которое может препятствовать дорожному контролю?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car dashboard with various electronic devices, some with glowing screens, symbolizing different types of equipment."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Permettre aux conducteurs de signaler les contrôles de police pour assurer une meilleure fluidité du trafic.",
+          "text_nl": "Bestuurders in staat stellen politiecontroles te melden voor een betere doorstroming van het verkeer.",
+          "text_ru": "Разрешить водителям сообщать о полицейских проверках для обеспечения лучшей проходимости дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Empêcher l'utilisation d'équipements qui entravent la constatation d'infractions ou détectent les appareils de contrôle automatiques.",
+          "text_nl": "Het gebruik van uitrusting die de vaststelling van overtredingen bemoeilijkt of automatische controleapparatuur opspoort, verbieden.",
+          "text_ru": "Запретить использование оборудования, которое препятствует выявлению нарушений или обнаруживает автоматические устройства контроля.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Réglementer la vente d'appareils de navigation GPS.",
+          "text_nl": "De verkoop van GPS-navigatieapparaten reguleren.",
+          "text_ru": "Регулировать продажу GPS-навигаторов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La réglementation vise spécifiquement à interdire tout équipement ou moyen ayant pour but d'entraver ou d'empêcher la détection des infractions routières, ou de détecter les appareils de contrôle automatique (comme les radars).",
+      "explanation_nl": "De regelgeving is specifiek gericht op het verbieden van elke uitrusting of elk middel dat tot doel heeft de vaststelling van verkeersovertredingen te bemoeilijken of te verhinderen, of automatische controleapparatuur (zoals flitsers) op te sporen.",
+      "explanation_ru": "Регулирование специально направлено на запрет любого оборудования или средств, целью которых является затруднение или предотвращение выявления дорожных нарушений, или обнаружение автоматических устройств контроля (таких как радары)."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les deux catégories principales d'actions qu'un équipement peut accomplir pour être interdit selon la réglementation sur la police de la circulation routière ?",
+      "text_nl": "Welke twee hoofdcategorieën van acties kan een uitrusting uitvoeren om verboden te zijn volgens de reglementen betreffende de politie over het wegverkeer?",
+      "text_ru": "Каковы две основные категории действий, которые может выполнять оборудование, чтобы быть запрещенным в соответствии с правилами дорожной полиции?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A police car with radar gun, and a car with a device on its dashboard, illustrating detection and hindrance."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Faciliter la communication entre conducteurs et enregistrer les données de trajet.",
+          "text_nl": "Communicatie tussen bestuurders vergemakkelijken en reisgegevens vastleggen.",
+          "text_ru": "Облегчать связь между водителями и записывать данные о поездке.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Empêcher la constatation d'infractions ou détecter les appareils de contrôle automatiques.",
+          "text_nl": "De vaststelling van overtredingen bemoeilijken of automatische controleapparaten opsporen.",
+          "text_ru": "Препятствовать выявлению нарушений или обнаруживать автоматические устройства контроля.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Mesurer la vitesse du véhicule ou fournir des informations sur le trafic.",
+          "text_nl": "De snelheid van het voertuig meten of verkeersinformatie verschaffen.",
+          "text_ru": "Измерять скорость транспортного средства или предоставлять информацию о дорожном движении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La réglementation interdit tout équipement ou moyen qui a pour fonction d'entraver ou d'empêcher la constatation des infractions, ou de détecter les appareils de contrôle (tels que radars et caméras) fonctionnant automatiquement.",
+      "explanation_nl": "De regelgeving verbiedt elke uitrusting of elk middel dat tot doel heeft de vaststelling van overtredingen te bemoeilijken of te verhinderen, of automatisch werkende controleapparatuur (zoals radars en camera's) op te sporen.",
+      "explanation_ru": "Регулирование запрещает любое оборудование или средство, функция которого заключается в затруднении или предотвращении выявления нарушений, или в обнаружении автоматически работающих устройств контроля (таких как радары и камеры)."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que l'on entend par \"appareils fonctionnant automatiquement\" dans le contexte des équipements de détection interdits ?",
+      "text_nl": "Wat wordt bedoeld met \"automatisch werkende toestellen\" in de context van verboden detectieapparatuur?",
+      "text_ru": "Что подразумевается под \"автоматически работающими устройствами\" в контексте запрещенного оборудования для обнаружения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a speed camera or a red light camera on the side of a road, representing an automatic enforcement device."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les systèmes de navigation GPS intégrés aux véhicules modernes.",
+          "text_nl": "Geïntegreerde GPS-navigatiesystemen in moderne voertuigen.",
+          "text_ru": "Встроенные GPS-навигационные системы в современных автомобилях.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les panneaux de signalisation lumineux indiquant les conditions de circulation.",
+          "text_nl": "De lichtgevende verkeersborden die de verkeersomstandigheden aangeven.",
+          "text_ru": "Световые дорожные знаки, указывающие условия дорожного движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les radars et caméras automatiques utilisés pour le contrôle de vitesse ou le franchissement de feux rouges.",
+          "text_nl": "Automatische radars en camera's gebruikt voor snelheidscontrole of het negeren van rode lichten.",
+          "text_ru": "Автоматические радары и камеры, используемые для контроля скорости или проезда на красный свет.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les \"appareils fonctionnant automatiquement\" désignent les outils de contrôle de la circulation routière tels que les radars fixes ou mobiles et les caméras de feux rouges, qui fonctionnent sans intervention humaine constante pour constater les infractions.",
+      "explanation_nl": "“Automatisch werkende toestellen” verwijzen naar verkeerscontrolehulpmiddelen zoals vaste of mobiele radars en roodlichtcamera’s, die zonder constante menselijke tussenkomst werken om overtredingen vast te stellen.",
+      "explanation_ru": "«Автоматически работающие устройства» относятся к средствам контроля дорожного движения, таким как стационарные или мобильные радары и камеры на светофорах, которые работают без постоянного участия человека для фиксации нарушений."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous installez un appareil dans votre véhicule conçu pour bloquer les signaux des radars de la police, afin d'éviter d'être flashé. Cette action est-elle autorisée ?",
+      "text_nl": "U installeert een apparaat in uw voertuig dat ontworpen is om radarsignalen van de politie te blokkeren, om zo flitsboetes te vermijden. Is deze handeling toegestaan?",
+      "text_ru": "Вы устанавливаете в своем автомобиле устройство, предназначенное для блокировки сигналов полицейских радаров, чтобы избежать штрафов за превышение скорости. Разрешено ли это действие?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A hand placing a small electronic device onto a car's dashboard, with a faint radar beam icon in the background, implying blocking."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, à condition que l'appareil soit désactivé lorsque vous êtes en agglomération.",
+          "text_nl": "Ja, op voorwaarde dat het apparaat gedeactiveerd is wanneer u in de bebouwde kom rijdt.",
+          "text_ru": "Да, при условии, что устройство деактивировано, когда вы находитесь в населенном пункте.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, c'est interdit car cela entrave la constatation d'infractions.",
+          "text_nl": "Nee, het is verboden omdat het de vaststelling van overtredingen bemoeilijkt.",
+          "text_ru": "Нет, это запрещено, так как это препятствует выявлению нарушений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si l'appareil est uniquement utilisé sur autoroute et à des vitesses élevées.",
+          "text_nl": "Ja, als het apparaat uitsluitend op de autosnelweg en bij hoge snelheden wordt gebruikt.",
+          "text_ru": "Да, если устройство используется только на автомагистралях и на высоких скоростях.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Il est strictement interdit d'avoir à bord de son véhicule tout équipement ou moyen qui entrave ou empêche la constatation d'infractions aux règlements sur la circulation routière, comme un brouilleur de radar.",
+      "explanation_nl": "Het is strikt verboden om in uw voertuig uitrusting of middelen te hebben die de vaststelling van overtredingen van de verkeersreglementen bemoeilijken of verhinderen, zoals een radarstoorzender.",
+      "explanation_ru": "Строго запрещено иметь в автомобиле любое оборудование или средства, которые затрудняют или препятствуют выявлению нарушений правил дорожного движения, например, глушитель радара."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "En conduisant, vous utilisez un dispositif spécial qui vous alerte activement par un signal sonore dès qu'il détecte la présence d'un appareil de contrôle de vitesse automatique (radar mobile). Cette pratique est-elle légale ?",
+      "text_nl": "Tijdens het rijden gebruikt u een speciaal apparaat dat u actief waarschuwt met een geluidssignaal zodra het de aanwezigheid van een automatisch snelheidscontroleapparaat (mobiele radar) detecteert. Is deze praktijk legaal?",
+      "text_ru": "Во время вождения вы используете специальное устройство, которое активно предупреждает вас звуковым сигналом при обнаружении автоматического устройства контроля скорости (мобильного радара). Является ли такая практика законной?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A driver's hands on the steering wheel, with a small electronic detector device on the dashboard beeping and showing a 'radar detected' alert."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si l'appareil est homologué et ne perturbe pas les autres systèmes électroniques.",
+          "text_nl": "Ja, als het apparaat goedgekeurd is en geen andere elektronische systemen stoort.",
+          "text_ru": "Да, если устройство сертифицировано и не нарушает работу других электронных систем.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, l'utilisation de tels dispositifs de détection d'appareils de contrôle automatique est interdite.",
+          "text_nl": "Nee, het gebruik van dergelijke detectieapparaten voor automatische controle is verboden.",
+          "text_ru": "Нет, использование таких устройств для обнаружения автоматического контроля запрещено.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais seulement si l'appareil est intégré au tableau de bord du véhicule.",
+          "text_nl": "Ja, maar alleen als het apparaat in het dashboard van het voertuig is geïntegreerd.",
+          "text_ru": "Да, но только если устройство встроено в приборную панель автомобиля.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La réglementation interdit de se munir de tout équipement ou moyen détectant les appareils fonctionnant automatiquement, comme les radars mobiles. Ceci inclut les détecteurs actifs de radars.",
+      "explanation_nl": "De regelgeving verbiedt het bezit van uitrusting of middelen die automatisch werkende toestellen, zoals mobiele radars, opsporen. Dit omvat actieve radardetectoren.",
+      "explanation_ru": "Правила запрещают иметь любое оборудование или средства, обнаруживающие автоматически работающие устройства, такие как мобильные радары. Это включает активные радар-детекторы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Votre passager possède sur lui un appareil sophistiqué capable de détecter les systèmes de mesure de vitesse de la police. En tant que conducteur, êtes-vous en infraction si cet appareil se trouve dans votre véhicule, même s'il appartient à votre passager et n'est pas activé par vous ?",
+      "text_nl": "Uw passagier heeft een geavanceerd apparaat bij zich dat in staat is de snelheidsmeetsystemen van de politie te detecteren. Bent u als bestuurder in overtreding als dit apparaat zich in uw voertuig bevindt, zelfs als het van uw passagier is en niet door u wordt geactiveerd?",
+      "text_ru": "Ваш пассажир имеет при себе сложное устройство, способное обнаруживать системы измерения скорости полиции. Являетесь ли вы, как водитель, нарушителем, если это устройство находится в вашем транспортном средстве, даже если оно принадлежит вашему пассажиру и не активировано вами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car interior, with a passenger holding a small, unactivated electronic device in their hand or lap, and a driver looking forward."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, car l'appareil n'est pas à vous et n'est pas utilisé par vous.",
+          "text_nl": "Nee, want het apparaat is niet van u en wordt niet door u gebruikt.",
+          "text_ru": "Нет, так как устройство не ваше и вы его не используете.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car il est interdit de se munir de ce type d'équipement dans le véhicule, quelle que soit la personne qui le possède ou l'active.",
+          "text_nl": "Ja, want het is verboden om dit soort uitrusting in het voertuig te hebben, ongeacht wie het bezit of activeert.",
+          "text_ru": "Да, так как запрещено иметь такое оборудование в транспортном средстве, независимо от того, кто им владеет или активирует.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, si l'appareil est gardé dans un sac et n'est pas visible.",
+          "text_nl": "Nee, als het apparaat in een tas wordt bewaard en niet zichtbaar is.",
+          "text_ru": "Нет, если устройство хранится в сумке и не видно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La loi interdit de 'se munir de' (c'est-à-dire avoir en sa possession ou à bord du véhicule) tout équipement détectant les appareils de contrôle ou entravant la constatation d'infractions. Cette interdiction s'applique à la présence de l'appareil dans le véhicule, indépendamment de qui en est le propriétaire ou l'utilisateur immédiat.",
+      "explanation_nl": "De wet verbiedt het 'bij zich hebben van' (d.w.z. in bezit hebben of aan boord van het voertuig) van uitrusting die controleapparatuur detecteert of de vaststelling van overtredingen bemoeilijkt. Dit verbod geldt voor de aanwezigheid van het apparaat in het voertuig, ongeacht wie de eigenaar of de onmiddellijke gebruiker is.",
+      "explanation_ru": "Закон запрещает 'иметь при себе' (то есть владеть или перевозить в транспортном средстве) любое оборудование, обнаруживающее контрольные устройства или препятствующее выявлению нарушений. Этот запрет распространяется на присутствие устройства в транспортном средстве, независимо от того, кто является его владельцем или непосредственным пользователем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous utilisez une application sur votre smartphone qui, par l'analyse de signaux radio ou d'autres techniques actives, détecte en temps réel la présence de véhicules de police ou de contrôles routiers mobiles à proximité. Cette utilisation est-elle conforme à la réglementation ?",
+      "text_nl": "U gebruikt een applicatie op uw smartphone die, door analyse van radiosignalen of andere actieve technieken, in realtime de aanwezigheid van politievoertuigen of mobiele wegcontroles in de buurt detecteert. Voldoet dit gebruik aan de regelgeving?",
+      "text_ru": "Вы используете приложение на своем смартфоне, которое, анализируя радиосигналы или другие активные методы, в реальном времени обнаруживает присутствие полицейских автомобилей или мобильных дорожных проверок поблизости. Соответствует ли это использование правилам?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A smartphone mounted on a car dashboard, displaying an app interface that shows alerts for police presence or speed traps, with radio waves emanating from it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car un smartphone n'est pas un équipement spécifiquement conçu à cet effet.",
+          "text_nl": "Ja, want een smartphone is geen uitrusting die specifiek voor dit doel ontworpen is.",
+          "text_ru": "Да, так как смартфон не является оборудованием, специально разработанным для этой цели.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car cela constitue un moyen de détecter les appareils de contrôle ou d'entraver la constatation d'infractions.",
+          "text_nl": "Nee, want dit vormt een middel om controleapparatuur op te sporen of de vaststelling van overtredingen te bemoeilijken.",
+          "text_ru": "Нет, так как это является средством для обнаружения устройств контроля или препятствования выявлению нарушений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si l'application est gratuite et ne nécessite pas d'abonnement.",
+          "text_nl": "Ja, als de applicatie gratis is en geen abonnement vereist.",
+          "text_ru": "Да, если приложение бесплатное и не требует подписки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'interdiction s'applique à \"tout équipement ou tout autre moyen\" qui détecte les appareils automatiques ou entrave la constatation d'infractions. Une application agissant comme un détecteur actif de contrôles est considérée comme un tel moyen, peu importe le support sur lequel elle est installée.",
+      "explanation_nl": "Het verbod geldt voor \"elke uitrusting of elk ander middel\" dat automatische toestellen opspoort of de vaststelling van overtredingen bemoeilijkt. Een applicatie die als actieve detector van controles fungeert, wordt als een dergelijk middel beschouwd, ongeacht het platform waarop deze is geïnstalleerd.",
+      "explanation_ru": "Запрет распространяется на «любое оборудование или любое другое средство», которое обнаруживает автоматические устройства или препятствует выявлению нарушений. Приложение, действующее как активный детектор контроля, считается таким средством, независимо от платформы, на которой оно установлено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un garagiste propose de modifier votre véhicule en installant un système qui, lorsqu'il détecte un flash de radar, active un brouilleur de signal très court pour rendre votre plaque d'immatriculation illisible sur la photo. Cette modification est-elle légale ?",
+      "text_nl": "Een garagist stelt voor om uw voertuig aan te passen door een systeem te installeren dat, wanneer het een radarflits detecteert, een zeer kort signaalstoorder activeert om uw nummerplaat onleesbaar te maken op de foto. Is deze aanpassing legaal?",
+      "text_ru": "Механик предлагает модифицировать ваш автомобиль, установив систему, которая при обнаружении вспышки радара активирует очень короткий глушитель сигнала, чтобы сделать ваш номерной знак нечитаемым на фотографии. Законна ли такая модификация?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car's rear license plate being obscured by a brief flash of light or electronic interference, with a speed camera in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si le système est désactivé manuellement avant de passer une zone de contrôle connue.",
+          "text_nl": "Ja, als het systeem handmatig wordt gedeactiveerd voordat u een bekende controlezone passeert.",
+          "text_ru": "Да, если система деактивируется вручную перед проездом через известную зону контроля.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car cela constitue un moyen d'entraver la constatation d'infractions.",
+          "text_nl": "Nee, want dit vormt een middel om de vaststelling van overtredingen te bemoeilijken.",
+          "text_ru": "Нет, так как это является средством для препятствования выявлению нарушений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, si la modification est effectuée par un professionnel agréé.",
+          "text_nl": "Ja, als de aanpassing door een erkende professional wordt uitgevoerd.",
+          "text_ru": "Да, если модификация выполнена сертифицированным специалистом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Modifier un véhicule pour entraver la constatation d'infractions, telle que l'identification par plaque d'immatriculation après un flash radar, est strictement interdit. Cela entre dans la catégorie des moyens qui empêchent ou entravent la constatation d'infractions.",
+      "explanation_nl": "Het aanpassen van een voertuig om de vaststelling van overtredingen, zoals identificatie via nummerplaat na een radarflits, te bemoeilijken, is strikt verboden. Dit valt onder de middelen die de vaststelling van overtredingen verhinderen of bemoeilijken.",
+      "explanation_ru": "Модификация транспортного средства для затруднения выявления нарушений, таких как идентификация по номерному знаку после вспышки радара, строго запрещена. Это относится к средствам, которые препятствуют или затрудняют выявление нарушений."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e711dc402682",
@@ -54,6 +351,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-11T11:53:49Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }
