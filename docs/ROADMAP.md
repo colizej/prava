@@ -91,16 +91,43 @@
 
 ---
 
-## Phase 5 — Import en base de données ⬜
+## Phase 5 — Import en base de données 🔄
 
-> Dépend de Phase 4 (complétion questions AR 1975)
+> Script fonctionnel, mais nécessite des corrections pour respecter les éditions manuelles.
 
-- [ ] `scripts/pipeline/05_import.py`
-  - [ ] Importer `RuleCategory`, `CodeArticle` (from `data/processed/1975/`)
-  - [ ] Importer les questions (`ExamQuestion`, `QuestionOption`)
-  - [ ] Gestion des doublons (update si slug existe, créer sinon)
-  - [ ] Rapport d'import (nb créés, mis à jour, erreurs)
-- [ ] Management command Django : `manage.py import_laws`
+- [x] `scripts/pipeline/05_import.py` — import articles + questions, toutes les lois
+  - [x] Importer `RuleCategory`, `CodeArticle` (from `data/processed/<law>/`)
+  - [x] Importer les questions (`Question`, `AnswerOption`)
+  - [x] Gestion des doublons (upsert par `category` + `text` FR)
+  - [x] Rapport d'import (nb créés, mis à jour, erreurs)
+- [ ] Management command Django : `manage.py import_laws` (pas encore créé)
+
+### ⚠️ BUG CONNU — 05_import.py écrase les modifications manuelles
+
+**Constaté le 13 mars 2026** lors du déploiement sur le serveur.
+
+Le script `05_import.py` écrase systématiquement certains champs lors du re-import,
+même si l'utilisateur les a modifiés manuellement dans le dashboard admin.
+
+**Champs écrasés à chaque import :**
+- `text_nl`, `text_ru` — traductions (remplacées par les valeurs JSON)
+- `difficulty` — niveau de difficulté
+- `image_prompt`, `image_sign_code`, `traffic_sign` — métadonnées image
+- **Toutes les `AnswerOption`** — supprimées et recréées (`options.all().delete()`)
+
+**Champs NON touchés (safe) :**
+- `image` (ImageField) — photos uploadées manuellement ✅
+- `image_alt`, `image_caption` — légendes images ✅
+- `explanation`, `explanation_nl`, `explanation_ru` — explications ✅
+- `is_active`, `is_official`, `tags`, `source` — métadonnées ✅
+- `times_answered`, `times_correct` — statistiques de réponse ✅
+
+**Corrections à faire :**
+- [ ] Ne pas écraser `text_nl`/`text_ru` si déjà remplis en BDD et identiques ou modifiés
+- [ ] Ne pas supprimer+recréer les `AnswerOption` si le contenu JSON n'a pas changé
+- [ ] Ajouter un flag `--force` pour forcer l'écrasement quand voulu
+- [ ] Ajouter un champ `manually_edited = BooleanField` sur `Question` pour protéger les éditions manuelles
+- [ ] Loguer les champs modifiés pour traçabilité
 
 ---
 
