@@ -74,6 +74,7 @@ prava/
 │   │   │   ├── articles/  # Un fichier JSON par article
 │   │   │   └── themes/    # Regroupés par thème (code, permis, assurance...)
 │   │   └── questions/     # Questions générées (avant import BDD)
+│   ├── signs/             # 252 signes routiers PNG + signs_index.json
 │   ├── sources/           # Données brutes scrapées (NE PAS MODIFIER)
 │   │   ├── codedelaroute.be/
 │   │   ├── wegcode.be/

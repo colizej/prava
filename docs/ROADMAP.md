@@ -1,6 +1,6 @@
 # PRAVA — Roadmap de développement
 
-> Dernière mise à jour : 5 mars 2026 (soir — Phase 7 terminée, email confirmation, HTTPS prod)
+> Dernière mise à jour : 13 mars 2026 (Phase 9b signes routiers terminée)
 
 ---
 
@@ -351,42 +351,45 @@ python manage.py compilemessages                  # compiler
 
 ---
 
-## Phase 9b — Signes routiers — Import complet depuis PDF officiel 🔄
+## Phase 9b — Signes routiers — Extraction depuis PDF officiel ✅
 
-> Indépendant des autres phases
+> **Terminée : 13 mars 2026**
 
-### Contexte & état actuel (12 mars 2026)
+### Résultat
 
-- PDF source : `signaux.pdf` (53 pages, catalogue belge officiel valable dès 01/06/2027)
-  - Véhiculés vectoriels (pas de bitmaps embarqués)
-  - Structure : tableau 3 colonnes par page — `[NL] | [image + code] | [FR]`
-  - Détection de tableau via `pymupdf.page.find_tables()` → bbox exacte par cellule
 - **252 signes extraits** → `data/signs/*.png` + `data/signs/signs_index.json`
-  - Format : PNG 3× zoom ≈ 216 DPI, fond gris → blanc (flood-fill)
-  - Chaque signe = 2 lignes PDF : ligne 0 = code texte, ligne 1 = image vide
-  - Script d'extraction : `scripts/extract_signs_full.py`
-- BDD actuelle : seulement **~27 signes** — à remplacer entièrement
+- Format : PNG 216 DPI (zoom 3×), fond blanc, padding 10px
+- Noms complets FR et NL dans l'index JSON
+- Vérification automatique (`_verify_signs.py`) : 252/252 clean
 
-### Problèmes connus à régler avant import
+### Source PDF
 
-- [ ] **A25** : image absente (ligne image à `i+2` au lieu de `i+1`) — 1 PNG à refaire manuellement ou corriger le regex de scan
-- [ ] **Qualité variable des PNG** : certains ont encore un léger fond gris, d'autres des marges inégales
-  - Piste : remplacer flood-fill par remplacement pixel-à-pixel de tous les gris proches de `(216,217,216)`
-  - Piste : auto-crop tight + recentrage sur carré 400×400 (déjà testé dans version intermédiaire du script, mais causait d'autres problèmes)
-- [ ] **Codes `M33-P.2`, `M41a-P.1`** : variantes de panneaux similaires — OK d'avoir un seul PNG pour la famille, à confirmer côté modèle BDD
+- `signaux.pdf` (53 pages, catalogue belge officiel valable dès 01/06/2027)
+- Graphiques vectoriels (pas de bitmaps embarqués)
+- Structure : tableau 3 colonnes par page — `[NL] | [image + code] | [FR]`
 
-### À faire — Import BDD
+### Script d'extraction : `scripts/extract_signs_full.py`
 
-- [ ] Vérifier modèle `TrafficSign` : champs `code`, `name_fr`, `name_nl`, `image` — ajouter `name_nl` si absent (migration)
-- [ ] Script `scripts/import_signs.py` : lire `signs_index.json`, créer/mettre à jour `TrafficSign` en BDD, copier PNG vers `media/signs/`
-- [ ] Vérifier que les noms NL/FR sont complets (actuellement tronqués à 50 chars dans le log, vérifier JSON)
-- [ ] Ajouter RU translations manquantes via DeepL ou manuellement
+**Deux types de mise en page détectés automatiquement :**
 
-### À faire — Affichage
+| Type | Détection | Lignes PDF | Clip rect |
+|------|-----------|------------|----------|
+| **TYPE A** | Ligne code `h < 25pt` + ligne image adjacente | 2 lignes (code + image) | Image row complète |
+| **TYPE B** | Cellule haute `h > 25pt` (code + image ensemble) | 1 ligne | Cellule complète + whiteout du texte code |
 
-- [ ] `apps/reglementation/templates/reglementation/signs.html` : afficher `name_fr` / `name_nl` / `name_ru` selon langue active
-- [ ] Page detail par signe avec image grande + descriptions multilingues
-- [ ] Lier signes aux articles de loi concernés (`TrafficSign` ↔ `CodeArticle`)
+**Pipeline de nettoyage par image :**
+1. Rendu via `page.get_pixmap()` avec clip rect (INSET=0)
+2. TYPE B : whiteout du texte code superposé au signe (coordonnées via `get_text("words")`)
+3. `clean_background()` : suppression fond gris PDF via numpy (pixels à canaux RGB égaux, r>100 → blanc)
+4. Trim des bordures de tableau (lignes sombres bord-à-bord uniquement)
+5. Ajout de padding blanc 10px sur les 4 côtés
+
+### Prochaine étape — Publication sur le site
+
+- [ ] Créer une page publique avec tous les 252 signes (catalogue complet)
+- [ ] Import BDD : script `import_signs.py` → modèle `TrafficSign` (code, image, name_fr, name_nl)
+- [ ] Traductions RU des noms de signes (DeepL ou manuelles)
+- [ ] Lier signes aux articles de loi (`TrafficSign` ↔ `CodeArticle`)
 
 ---
 
@@ -402,12 +405,12 @@ python manage.py compilemessages                  # compiler
                              gemini-2.5-flash, thinking_budget=0, 107/593 (18%)
                Phase 7  🔄  /reglementation/ connecté aux 10 lois (templates + views)
                Phase 3  ✅  slugify_number() corrigé (NoReverseMatch 1998 réparé)
-6 mars 2026   : Phase 4 🔜  Reprendre génération (~486 articles restants)
-                             nohup bash scripts/run_questions.sh > logs/questions_$(date +%Y%m%d).log 2>&1 &
-7-10 mars     : Phase 5 🔜  Import toutes les lois en BDD (05_import.py par loi)
-Mars–Avril    : Phase 6     Admin dashboard
-Avril–Mai     : Phase 7     Frontend utilisateur + lancement beta
-Mai           : Phase 9b    Signes routiers — import complet PDF (200+ signes)
+6-12 mars     : Phase 4 🔄  Génération questions (~1486 questions générées)
+12-13 mars    : Phase 9b ✅  252 signes routiers extraits depuis PDF officiel
+14 mars 2026  : Phase 9b 🔜 Page publique catalogue des signes routiers
+Mars–Avril    : Phase 5     Import BDD signes + questions restantes
+Avril         : Phase 6     Admin dashboard
+Avril–Mai     : Phase 8     SEO, blog, sitemap
 Mai–Juin      : Phase 9     i18n complète FR/NL/RU (UI + contenu)
-Juin+         : Phase 8     SEO, contenu 2027 progressif
+Juin+         : Phase 8b    Contenu loi 2027 progressif
 ```

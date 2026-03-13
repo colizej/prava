@@ -1,6 +1,6 @@
 # PRAVA — Documentation des scripts
 
-> Dernière mise à jour : 12 mars 2026
+> Dernière mise à jour : 13 mars 2026
 
 ---
 
@@ -14,8 +14,8 @@ scripts/
 │   ├── 03_process.py
 │   ├── 04_questions.py
 │   └── 05_import.py
-├── extract_signs_full.py      ← Extraction signes depuis signaux.pdf → PNG + JSON
-├── extract_signs_test.py      ← Version test (pages 3–6 seulement)
+├── extract_signs_full.py      ← Extraction 252 signes depuis signaux.pdf → PNG + JSON
+├── _verify_signs.py           ← Vérification qualité automatique des PNG extraits
 ├── utils/                     ← Utilitaires partagés (importés par le pipeline)
 │   ├── __init__.py
 │   ├── http_client.py
@@ -165,11 +165,58 @@ Client DeepL Free API :
 
 ## utils/gemini_client.py
 
-Client Gemini 1.5 Flash :
+Client Gemini 2.5 Flash :
 - Lecture de `GEMINI_API_KEY` depuis `.env`
 - Prompt système configurable
-- Rate limiting : 15 req/min (pause automatique)
+- Rate limiting : quota free tier (10–15 RPM)
+- Fallback Groq (llama) si Gemini 429
 - Parsing de la réponse JSON
+
+---
+
+## extract_signs_full.py — Extraction des signes routiers
+
+**Statut :** ✅ Terminé (13 mars 2026)
+
+**Usage :**
+```bash
+python3 scripts/extract_signs_full.py
+```
+
+**Ce que ça fait :**
+- Ouvre `signaux.pdf` (catalogue officiel belge des panneaux routiers, 53 pages)
+- Détecte automatiquement les tableaux via `pymupdf.page.find_tables()`
+- Identifie deux types de mise en page :
+  - **TYPE A** : ligne code (h < 25pt) + ligne image adjacente → clip = ligne image
+  - **TYPE B** : cellule haute (h > 25pt, code + image ensemble) → clip = cellule complète + whiteout texte
+- Rendu en PNG 216 DPI (zoom 3×)
+- Nettoyage : suppression fond gris (numpy threshold), trim bordures tableau, padding blanc 10px
+- Génère l'index `signs_index.json` avec code, page, name_fr, name_nl
+
+**Dépendances :** `pymupdf`, `Pillow`, `numpy`
+
+**Output :**
+```
+data/signs/A1a.png
+data/signs/A1b.png
+...
+data/signs/V5.png
+data/signs/signs_index.json     ← 252 entrées [{code, page, name_nl, name_fr}]
+```
+
+---
+
+## _verify_signs.py — Vérification qualité des signes
+
+**Usage :**
+```bash
+python3 scripts/_verify_signs.py
+```
+
+**Vérifications :**
+- **EMPTY** : image presque vide (< 2% de contenu non-blanc)
+- **BORDER** : artef act de bordure de tableau (ligne sombre bord-à-bord en haut/bas)
+- **GRAY** : résidu gris (> 5% de pixels gris)
 
 ---
 

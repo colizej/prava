@@ -1,6 +1,6 @@
 # PRAVA — Architecture technique
 
-> Dernière mise à jour : 5 mars 2026
+> Dernière mise à jour : 13 mars 2026
 
 ---
 
@@ -20,6 +20,7 @@
 | Erreurs | Sentry SDK | ≥2.0 |
 | Traduction | DeepL Free API | deepl ≥1.17 |
 | Questions IA | Google Gemini 2.5 Flash | google-genai ≥1.0 |
+| Extraction signes | PyMuPDF + Pillow + NumPy | pymupdf, Pillow, numpy |
 | i18n | FR (défaut) · NL · RU | gettext .po/.mo |
 
 ---
@@ -167,6 +168,22 @@ Tableau de bord admin custom (gestion questions, stats).
                               │
                               ▼
                         Django DB (SQLite→PostgreSQL)
+```
+
+### Pipeline signes routiers (indépendant)
+
+```
+  signaux.pdf (53 pages, PDF officiel belge)
+        │
+        ▼
+  extract_signs_full.py  ←─ PyMuPDF (détection tables + rendu)
+        │                      + NumPy (nettoyage fond gris)
+        │                      + Pillow (padding + sauvegarde)
+        ▼
+  data/signs/             ←─ 252 PNG + signs_index.json
+        │
+        ▼
+  import_signs.py (à créer) → TrafficSign en BDD
 ```
 
 **Scripts :** voir [SCRIPTS.md](SCRIPTS.md)

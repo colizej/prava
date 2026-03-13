@@ -1,6 +1,6 @@
 # PRAVA — Schéma des données JSON
 
-> Dernière mise à jour : 2 mars 2026
+> Dernière mise à jour : 13 mars 2026
 > Template de référence : `data/templates/article_template.json`
 > Schéma JSON valide : `data/templates/schema.json`
 
@@ -32,6 +32,10 @@ data/
 │   └── questions/                       ← Questions générées (output de 04_questions.py)
 │       ├── art001_questions.json
 │       └── ...
+│
+├── signs/                               ← Signes routiers extraits de signaux.pdf
+│   ├── A1a.png ... V5.png               ← 252 fichiers PNG (216 DPI, fond blanc, padding 10px)
+│   └── signs_index.json                 ← Index [{code, page, name_nl, name_fr}]
 │
 ├── sources/                             ← NE PAS MODIFIER — données brutes
 │   ├── codedelaroute.be/
