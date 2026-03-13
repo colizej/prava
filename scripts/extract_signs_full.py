@@ -7,9 +7,9 @@ Two layout variants:
   TYPE B (pages 6, 8 etc.): code+image in one tall cell (h>25pt)
 
 Key techniques:
-- Inset clip rect by 3pt to avoid table border lines
-- Gray background removed via numpy threshold (equal-channel pixels with r>100)
+- Gray background + table borders removed via numpy threshold (equal-channel pixels with r>100)
 - Smart border trim: only removes rows with dark pixels at both edges (table borders)
+- White padding added around cleaned image for professional appearance
 """
 import re
 import json
@@ -24,9 +24,10 @@ OUT_DIR  = Path(__file__).parent.parent / "data" / "signs"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 CODE_RE = re.compile(r'^([A-Z]{1,2}\d+[a-z]?(?:-[A-Z]\.\d+)?)\.?\s*$')
-INSET   = 3    # points to shrink clip rect (avoids table borders)
+INSET   = 0    # no inset — clean_background() handles gray table borders
 ZOOM    = 3    # 3× = 216 DPI
 MAT     = pymupdf.Matrix(ZOOM, ZOOM)
+PAD     = 10   # white padding in pixels added around the cleaned image
 
 
 def inset_rect(r):
@@ -80,7 +81,11 @@ def clean_background(img_path):
     if top > 0 or bot < h - 1:
         arr = arr[top:bot + 1, :, :]
 
-    Image.fromarray(arr).save(str(img_path))
+    # Add white padding around the sign
+    h2, w2 = arr.shape[:2]
+    padded = np.full((h2 + 2 * PAD, w2 + 2 * PAD, 3), 255, dtype=np.uint8)
+    padded[PAD:PAD + h2, PAD:PAD + w2] = arr
+    Image.fromarray(padded).save(str(img_path))
 
 
 doc   = pymupdf.open(str(PDF_PATH))
@@ -140,32 +145,44 @@ for page_num in range(len(doc)):
                     break
 
         if img_rect is None:
-            # TYPE B: code + image in single tall cell — strip code text area
-            # Need extra gap (4pt) to skip the internal horizontal grid line
-            words = page.get_text("words", clip=r_center)
-            if words:
-                label_bottom = max(w[3] for w in words)
-                candidate = pymupdf.Rect(
-                    r_center.x0, label_bottom + 4,
-                    r_center.x1, r_center.y1,
-                )
-                if candidate.height > 20:
-                    img_rect = candidate
-                else:
-                    img_rect = r_center
-            else:
-                img_rect = r_center
+            # TYPE B: code + image in single tall cell.
+            # The sign drawing fills the entire cell — use full rect.
+            # We'll white-out the code text label after rendering.
+            img_rect = r_center
 
         # --- NL / FR descriptions (from code row cells, which span full height) ---
         desc_nl = page.get_textbox(pymupdf.Rect(nl_cell)).strip().replace("\n", " ") if nl_cell else ""
         desc_fr = page.get_textbox(pymupdf.Rect(fr_cell)).strip().replace("\n", " ") if fr_cell else ""
 
-        # --- Render with inset to avoid table borders ---
+        # --- Render ---
         clip = inset_rect(img_rect)
         pix = page.get_pixmap(matrix=MAT, clip=clip)
 
         img_path = OUT_DIR / f"{code}.png"
         pix.save(str(img_path))
+
+        # --- For TYPE B: white-out the code text label overlaid on the sign ---
+        if not is_two_row:
+            words = page.get_text("words", clip=img_rect)
+            code_words = [w for w in words
+                          if re.match(r'^[A-Z]{1,2}\d+', w[4].strip().rstrip('.'))]
+            if code_words:
+                img = Image.open(img_path).convert("RGB")
+                arr = np.array(img)
+                for w in code_words:
+                    # Convert PDF coords to pixel coords relative to clip
+                    px_x0 = int((w[0] - clip.x0) * ZOOM) - 2
+                    px_y0 = int((w[1] - clip.y0) * ZOOM) - 2
+                    px_x1 = int((w[2] - clip.x0) * ZOOM) + 2
+                    px_y1 = int((w[3] - clip.y0) * ZOOM) + 2
+                    # Clamp to image bounds
+                    px_x0 = max(0, px_x0)
+                    px_y0 = max(0, px_y0)
+                    px_x1 = min(arr.shape[1], px_x1)
+                    px_y1 = min(arr.shape[0], px_y1)
+                    arr[px_y0:px_y1, px_x0:px_x1] = [255, 255, 255]
+                Image.fromarray(arr).save(str(img_path))
+
         clean_background(img_path)
 
         seen.add(code)
