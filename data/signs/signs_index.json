@@ -8,32 +8,32 @@
   {
     "code": "A1b",
     "page": 2,
-    "name_nl": "gevaarlijke bocht naar  rechts",
+    "name_nl": "gevaarlijke bocht naar",
     "name_fr": "virage dangereux à droite"
   },
   {
     "code": "A1c",
     "page": 2,
-    "name_nl": "dubbele bocht of  opeenvolging van meer  dan twee bochten, de  eerste naar links",
-    "name_fr": "double virage ou  succession de plus de  deux virages, le premier à  gauche"
+    "name_nl": "dubbele bocht of",
+    "name_fr": "double virage ou"
   },
   {
     "code": "A1d",
     "page": 2,
-    "name_nl": "dubbele bocht of  opeenvolging van meer  dan twee bochten, de  eerste naar rechts",
-    "name_fr": "double virage ou  succession de plus de  deux virages, le premier à  droite"
+    "name_nl": "dubbele bocht of",
+    "name_fr": "double virage ou"
   },
   {
     "code": "A3",
     "page": 2,
-    "name_nl": "gevaarlijke daling    Het percentage duidt de  hellingsgraad aan.",
-    "name_fr": "descente dangereuse    Le pourcentage indique  l’inclinaison de la pente."
+    "name_nl": "gevaarlijke daling",
+    "name_fr": "descente dangereuse"
   },
   {
     "code": "A5",
     "page": 2,
-    "name_nl": "gevaarlijke helling    Het percentage duidt de  hellingsgraad aan.",
-    "name_fr": "montée dangereuse    Le pourcentage indique  l’inclinaison de la pente."
+    "name_nl": "gevaarlijke helling",
+    "name_fr": "montée dangereuse"
   },
   {
     "code": "A7a",
@@ -134,14 +134,14 @@
   {
     "code": "A25",
     "page": 5,
-    "name_nl": "oversteekplaats voor  fietsers en bestuurders van  tweewielige bromfietsen of  plaats waar die  bestuurders op de rijbaan  komen",
-    "name_fr": "traversée pour cyclistes et  conducteurs de  cyclomoteurs à deux  roues, ou endroit où ces  conducteurs débouchent  sur la chaussée"
+    "name_nl": "oversteekplaats voor",
+    "name_fr": "traversée pour cyclistes et"
   },
   {
     "code": "A27",
     "page": 5,
-    "name_nl": "doortocht van dieren    Het symbool duidt de  beoogde diersoort aan.",
-    "name_fr": "traversée d’animaux    Le symbole indique  l’espèce animale visée."
+    "name_nl": "doortocht van dieren",
+    "name_fr": "traversée d’animaux"
   },
   {
     "code": "A31",
@@ -159,7 +159,7 @@
     "code": "A33",
     "page": 5,
     "name_nl": "verkeerslichten",
-    "name_fr": "signaux lumineux de  circulation"
+    "name_fr": "signaux lumineux de"
   },
   {
     "code": "A34",
@@ -170,8 +170,8 @@
   {
     "code": "A35",
     "page": 5,
-    "name_nl": "overtocht van vliegtuigen  op geringe hoogte",
-    "name_fr": "survol d’avions à basse  altitude"
+    "name_nl": "overtocht van vliegtuigen",
+    "name_fr": "survol d’avions à basse"
   },
   {
     "code": "A37",
@@ -182,44 +182,44 @@
   {
     "code": "A39",
     "page": 6,
-    "name_nl": "verkeer toegelaten in beide  richtingen na een gedeelte  van de rijbaan met  éénrichtingsverkeer",
-    "name_fr": "circulation admise dans  les deux sens après une  section de chaussée à  sens unique"
+    "name_nl": "verkeer toegelaten in beide",
+    "name_fr": "circulation admise dans"
   },
   {
     "code": "A41",
     "page": 6,
     "name_nl": "overweg met slagbomen",
-    "name_fr": "passage à niveau avec  barrières"
+    "name_fr": "passage à niveau avec"
   },
   {
     "code": "A43",
     "page": 6,
-    "name_nl": "overweg zonder  slagbomen",
-    "name_fr": "passage à niveau sans  barrières"
+    "name_nl": "overweg zonder",
+    "name_fr": "passage à niveau sans"
   },
   {
     "code": "A45",
     "page": 6,
     "name_nl": "overweg voor enkel spoor",
-    "name_fr": "passage à niveau à voie  unique"
+    "name_fr": "passage à niveau à voie"
   },
   {
     "code": "A47",
     "page": 6,
-    "name_nl": "overweg voor twee of meer  sporen",
-    "name_fr": "passage à niveau à deux  ou plusieurs voies"
+    "name_nl": "overweg voor twee of meer",
+    "name_fr": "passage à niveau à deux"
   },
   {
     "code": "A49",
     "page": 6,
-    "name_nl": "kruising van een openbare  weg door een of meer in de  rijbaan aangelegde sporen",
-    "name_fr": "croisement de la voie  publique par une ou  plusieurs voies ferrées  établies sur la chaussée"
+    "name_nl": "kruising van een openbare",
+    "name_fr": "croisement de la voie"
   },
   {
     "code": "A51",
     "page": 6,
-    "name_nl": "gevaar dat niet door een  speciaal symbool wordt  bepaald    Een onderbord duidt de  aard van het gevaar aan.",
-    "name_fr": "danger non défini par un  symbole spécial    Un panneau additionnel  indique la nature du  danger."
+    "name_nl": "gevaar dat niet door een",
+    "name_fr": "danger non défini par un"
   },
   {
     "code": "A52",
@@ -230,8 +230,8 @@
   {
     "code": "A53",
     "page": 7,
-    "name_nl": "verzinkbare paaltjes  Voorrangsborden",
-    "name_fr": "bornes rétractables  Signaux de priorité"
+    "name_nl": "verzinkbare paaltjes",
+    "name_fr": "bornes rétractables"
   },
   {
     "code": "B1",
@@ -266,302 +266,302 @@
   {
     "code": "B17",
     "page": 8,
-    "name_nl": "kruispunt waar de voorrang  van rechts geldt",
-    "name_fr": "carrefour où la priorité de  droite est applicable"
+    "name_nl": "kruispunt waar de voorrang",
+    "name_fr": "carrefour où la priorité de"
   },
   {
     "code": "B19",
     "page": 8,
-    "name_nl": "smalle doorgang    Gebod voorrang te  verlenen aan de  bestuurders die uit de  tegenovergestelde richting  komen.",
-    "name_fr": "passage étroit    Obligation de céder le  passage aux conducteurs  venant en sens opposé."
+    "name_nl": "smalle doorgang",
+    "name_fr": "passage étroit"
   },
   {
     "code": "B21",
     "page": 8,
-    "name_nl": "smalle doorgang    Voorrang ten opzichte van  de bestuurders die uit de  tegenovergestelde richting  komen.",
-    "name_fr": "passage étroit    Priorité de passage par  rapport aux conducteurs  venant en sens opposé."
+    "name_nl": "smalle doorgang",
+    "name_fr": "passage étroit"
   },
   {
     "code": "B22",
     "page": 8,
-    "name_nl": "toelating voor fietsers en  bestuurders van  speedpedelecs om de in  de artikelen 57 en 60  bedoelde verkeerslichten  voorbij te rijden in de door  de pijl of pijlen aangegeven  richtingen, wanneer deze  verkeerslichten het  verbieden, onder de  voorwaarde voorrang te  verlenen aan de andere  weggebruikers die zich  verplaatsen op de  openbare weg of op de  rijbaan  Verbodsborden",
-    "name_fr": "autorisation pour les  cyclistes et les  conducteurs de  speedpedelecs de franchir  les signaux lumineux  mentionnés aux articles 57  et 60 et de continuer dans  la ou les directions  indiquées par la ou les  flèches lorsque ces  signaux lumineux  l’interdisent, à condition  de céder la priorité aux  autres usagers circulant  sur la voie publique ou la  chaussée  Signaux  d’interdiction"
+    "name_nl": "toelating voor fietsers en  bestuurders van",
+    "name_fr": "autorisation pour les  cyclistes et les"
   },
   {
     "code": "C1",
     "page": 8,
-    "name_nl": "verboden richting voor  iedere bestuurder",
-    "name_fr": "sens interdit à tout  conducteur"
+    "name_nl": "verboden richting voor",
+    "name_fr": "sens interdit à tout"
   },
   {
     "code": "C3",
     "page": 9,
-    "name_nl": "verboden toegang, in beide  richtingen, voor iedere  bestuurder",
-    "name_fr": "accès interdit, dans les  deux sens, à tout  conducteur"
+    "name_nl": "verboden toegang, in beide",
+    "name_fr": "accès interdit, dans les"
   },
   {
     "code": "C5",
     "page": 9,
-    "name_nl": "verboden toegang voor  motorvoertuigen met meer  dan twee wielen en voor  motorfietsen met zijspan",
-    "name_fr": "accès interdit aux  véhicules à moteur à plus  de deux roues et aux  motocyclettes avec side- car"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C6",
     "page": 9,
-    "name_nl": "verboden toegang voor  motorvoertuigen met vier  wielen, geconstrueerd voor  onverhard terrein, met een  open carrosserie, een  stuur als op een motorfiets  en een zadel",
-    "name_fr": "accès interdit aux  véhicules à moteur à  quatre roues, construits  pour terrain non  praticable, avec une  carrosserie ouverte, un  guidon comme sur une  motocyclette et une selle"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux  véhicules à moteur à"
   },
   {
     "code": "C7",
     "page": 9,
-    "name_nl": "verboden toegang voor  motorfietsen",
-    "name_fr": "accès interdit aux  motocyclettes"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C8",
     "page": 9,
-    "name_nl": "verboden toegang voor  landbouwvoertuigen",
-    "name_fr": "accès interdit aux  véhicules agricoles"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C9",
     "page": 9,
-    "name_nl": "verboden toegang voor  bromfietsen",
-    "name_fr": "accès interdit aux  cyclomoteurs"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C11",
     "page": 9,
-    "name_nl": "verboden toegang voor  rijwielen",
+    "name_nl": "verboden toegang voor",
     "name_fr": "accès interdit aux cycles"
   },
   {
     "code": "C13",
     "page": 10,
-    "name_nl": "verboden toegang voor  gespannen",
-    "name_fr": "accès interdit aux  véhicules attelés"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C15",
     "page": 10,
-    "name_nl": "verboden toegang voor  ruiters",
+    "name_nl": "verboden toegang voor",
     "name_fr": "accès interdit aux cavaliers"
   },
   {
     "code": "C17",
     "page": 10,
-    "name_nl": "verboden toegang voor  handkarren",
-    "name_fr": "accès interdit aux  charrettes à bras"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C19",
     "page": 10,
-    "name_nl": "verboden toegang voor  voetgangers",
+    "name_nl": "verboden toegang voor",
     "name_fr": "accès interdit aux piétons"
   },
   {
     "code": "C21",
     "page": 10,
-    "name_nl": "verboden toegang voor  voertuigen of slepen  waarvan de massa in  beladen toestand hoger is  dan de aangeduide massa",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules dont la masse en  charge dépasse la masse  indiquée"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C22",
     "page": 10,
-    "name_nl": "verboden toegang voor  voertuigen of slepen  waarvan de massa in  beladen toestand per as  hoger is dan de  aangeduide massa",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules dont la masse en  charge par essieu dépasse  la masse indiquée"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C23",
     "page": 10,
-    "name_nl": "verboden toegang voor  autobussen en autocars",
-    "name_fr": "accès interdit aux autobus  et autocars"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux autobus"
   },
   {
     "code": "C24",
     "page": 11,
-    "name_nl": "verboden toegang voor  motorvoertuigen of slepen  ontworpen en gebouwd  voor het vervoer van  goederen    Wanneer een opschrift op  een onderbord of in lichte  kleur op het  vrachtwagensymbool is  aangebracht, betekent dit  dat het verbod is beperkt  tot voertuigen of slepen  waarvan de maximale  toegelaten massa hoger is  dan de aangeduide massa.",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules à moteur conçus  et construits pour le  transport de marchandises    Lorsqu’une inscription  figure sur un panneau  additionnel ou sur le  symbole du camion en  couleur claire, cela signifie  que l'interdiction est  limitée aux véhicules ou  trains de véhicules dont la  masse maximale autorisée  est supérieure à la masse  indiquée."
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux  véhicules ou trains de"
   },
   {
     "code": "C25a",
     "page": 11,
-    "name_nl": "verboden toegang voor  voertuigen of slepen die de  gevaarlijke goederen,  bepaald door de voor  vervoer van gevaarlijke  goederen bevoegde  overheden, vervoeren",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules transportant les  marchandises  dangereuses déterminées  par les autorités  compétentes en matière  de marchandises  dangereuses"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux  véhicules ou trains de"
   },
   {
     "code": "C25b",
     "page": 11,
-    "name_nl": "verboden toegang voor  voertuigen of slepen die de  gevaarlijke ontvlambare of  ontplofbare stoffen,  bepaald door de voor  vervoer van gevaarlijke  goederen bevoegde  overheden, vervoeren",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules transportant les  marchandises  dangereuses  inflammables ou  explosives déterminées  par les autorités  compétentes en matière  de transport de  marchandises  dangereuses"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux  véhicules ou trains de"
   },
   {
     "code": "C25c",
     "page": 11,
-    "name_nl": "verboden toegang voor  voertuigen of slepen die de  gevaarlijke  waterverontreinigende  stoffen, bepaald door de  voor vervoer van  gevaarlijke goederen  bevoegde overheden,  vervoeren",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules transportant les  marchandises  dangereuses de nature à  polluer les eaux,  déterminées par les  autorités compétentes en  matière de transport de  marchandises  dangereuses"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux  véhicules ou trains de"
   },
   {
     "code": "C26",
     "page": 12,
-    "name_nl": "verboden toegang voor  voertuigen of slepen  waarvan de lengte, lading  inbegrepen, groter is dan  de aangeduide",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules ayant,  chargement compris, une  longueur supérieure à celle  indiquée"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C27",
     "page": 12,
-    "name_nl": "verboden toegang voor  voertuigen of slepen  waarvan de breedte, lading  inbegrepen, groter is dan  de aangeduide",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules ayant,  chargement compris, une  largeur supérieure à celle  indiquée"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C29",
     "page": 12,
-    "name_nl": "verboden toegang voor  voertuigen of slepen  waarvan de hoogte, lading  inbegrepen, groter is dan  de aangeduide",
-    "name_fr": "accès interdit aux  véhicules ou trains de  véhicules ayant,  chargement compris, une  hauteur supérieure à celle  indiquée"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C30",
     "page": 12,
-    "name_nl": "verboden toegang voor  voertuigen die een  kampeeraanhangwagen  trekken",
-    "name_fr": "accès interdit aux  véhicules qui tirent une  remorque de camping"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C31",
     "page": 12,
-    "name_nl": "verboden toegang voor  kampeerwagens",
-    "name_fr": "accès interdit aux  autocaravanes"
+    "name_nl": "verboden toegang voor",
+    "name_fr": "accès interdit aux"
   },
   {
     "code": "C32a",
     "page": 12,
-    "name_nl": "verbod voor de  bestuurders aan het  volgend kruispunt af te  slaan in de richting door de  pijl aangegeven",
-    "name_fr": "au prochain carrefour,  interdiction pour les  conducteurs de tourner  dans le sens indiqué par la  flèche"
+    "name_nl": "verbod voor de",
+    "name_fr": "au prochain carrefour,"
   },
   {
     "code": "C32b",
     "page": 12,
-    "name_nl": "verbod voor de  bestuurders aan het  volgend kruispunt af te  slaan in de richting door de  pijl aangegeven",
-    "name_fr": "au prochain carrefour,  interdiction pour les  conducteurs de tourner  dans le sens indiqué par la  flèche"
+    "name_nl": "verbod voor de",
+    "name_fr": "au prochain carrefour,"
   },
   {
     "code": "C33",
     "page": 13,
-    "name_nl": "vanaf het verkeersbord tot  en met het volgend  kruispunt, verbod voor de  bestuurders om te keren.",
-    "name_fr": "à partir du signal et  jusqu’au prochain  carrefour inclus,  interdiction pour les  conducteurs de faire demi- tour."
+    "name_nl": "vanaf het verkeersbord tot",
+    "name_fr": "à partir du signal et"
   },
   {
     "code": "C35",
     "page": 13,
-    "name_nl": "vanaf het verkeersbord tot  en met het volgend  kruispunt, verbod een  voertuig met meer dan  twee wielen, een  motorfiets of een gespan  links in te halen",
-    "name_fr": "à partir du signal et  jusqu’au prochain  carrefour inclus,  interdiction de dépasser  par la gauche un véhicule à  plus de deux roues, une  motocyclette ou un  véhicule attelé"
+    "name_nl": "vanaf het verkeersbord tot",
+    "name_fr": "à partir du signal et  jusqu’au prochain"
   },
   {
     "code": "C37",
     "page": 13,
-    "name_nl": "einde van het verbod  opgelegd door het  verkeersbord C35",
-    "name_fr": "fin de l’interdiction prévue  par le signal C35"
+    "name_nl": "einde van het verbod",
+    "name_fr": "fin de l’interdiction prévue"
   },
   {
     "code": "C39",
     "page": 13,
-    "name_nl": "vanaf het verkeersbord tot  en met het volgend  kruispunt, verbod voor  bestuurders van  voertuigen of slepen  bestemd voor het vervoer  van goederen, met een  maximale toegelaten  massa van meer dan 3,5  ton, een voertuig met meer  dan twee wielen, een  motorfiets of een gespan  links in te halen",
-    "name_fr": "à partir du signal et  jusqu’au prochain  carrefour inclus,  interdiction aux  conducteurs de véhicules  ou trains de véhicules  affectés au transport de  marchandises, dont la  masse maximale autorisée  est supérieure à 3,5  tonnes, de dépasser par la  gauche un véhicule à plus  de deux roues, une  motocyclette ou un  véhicule attelé"
+    "name_nl": "vanaf het verkeersbord tot",
+    "name_fr": "à partir du signal et  jusqu’au prochain"
   },
   {
     "code": "C41",
     "page": 13,
-    "name_nl": "einde van het verbod  opgelegd door het  verkeersbord C39",
-    "name_fr": "fin de l’interdiction prévue  par le signal C39"
+    "name_nl": "einde van het verbod",
+    "name_fr": "fin de l’interdiction prévue"
   },
   {
     "code": "C43",
     "page": 14,
-    "name_nl": "vanaf het verkeersbord tot  en met het volgend  kruispunt, verbod te rijden  met een grotere snelheid  dan deze die is aangeduid    Het verbod vervalt  evenwel:  1° op de plaats waar een  verkeersbord C43 of een  ander verkeersbord een  andere snelheidsbeperking  aanduidt;  2° op de plaats waar een  verkeersbord het einde van  een bebouwde kom  aanduidt.    De vermelding “km” op het  verkeersbord is facultatief.",
-    "name_fr": "à partir du signal et  jusqu’au prochain  carrefour inclus,  interdiction de circuler à  une vitesse supérieure à  celle qui est indiquée    Toutefois, l’interdiction ne  vaut plus :  1° à l’endroit où un signal  C43 ou un autre signal  indique une autre  limitation de vitesse ;  2° à l’endroit où un signal  indique la fin d’une  agglomération.    La mention « km » sur le  signal est facultative."
+    "name_nl": "vanaf het verkeersbord tot  en met het volgend",
+    "name_fr": "à partir du signal et"
   },
   {
     "code": "C45",
     "page": 14,
-    "name_nl": "einde van de  snelheidsbeperking  opgelegd door het  verkeersbord C43    De vermelding “km” op het  verkeersbord is facultatief.",
-    "name_fr": "fin de la limitation de  vitesse prévue par le signal  C43    La mention « km » sur le  signal est facultative."
+    "name_nl": "einde van de  snelheidsbeperking",
+    "name_fr": "fin de la limitation de"
   },
   {
     "code": "C46",
     "page": 14,
-    "name_nl": "einde van alle plaatselijke  verbodsbepalingen  opgelegd aan de  voertuigen in beweging",
-    "name_fr": "fin de toutes les  interdictions locales  imposées aux véhicules en  mouvement"
+    "name_nl": "einde van alle plaatselijke",
+    "name_fr": "fin de toutes les"
   },
   {
     "code": "C47",
     "page": 14,
-    "name_nl": "verbod voorbij te rijden  zonder te betalen",
-    "name_fr": "interdiction de passer sans  payer"
+    "name_nl": "verbod voorbij te rijden",
+    "name_fr": "interdiction de passer sans"
   },
   {
     "code": "C49",
     "page": 15,
-    "name_nl": "verboden toegang voor  motorvoertuigen waarvoor  een selectief  toegangsbeleid geldt dat  gerechtvaardigd is met het  oog op het vrijwaren van de  levenskwaliteit, in het  bijzonder vanwege de  milieu-, lucht- en  gezondheidshinder die  deze voertuigen  veroorzaken  Gebodsborden",
-    "name_fr": "accès interdit aux  véhicules à moteur qui font  l'objet d'une politique  d'accès sélective justifiée  par des motifs liés à la  qualité de vie, en  particulier à cause des  nuisances provoquées par  ces véhicules sur  l'environnement et la santé  par une mauvaise qualité  de l'air  Signaux d’obligation"
+    "name_nl": "verboden toegang voor  motorvoertuigen waarvoor",
+    "name_fr": "accès interdit aux  véhicules à moteur qui font"
   },
   {
     "code": "D1a",
     "page": 15,
-    "name_nl": "verplichting voor de  bestuurders om op het  kruispunt de door de pijl  aangeduide richting te  volgen",
-    "name_fr": "obligation pour les  conducteurs de suivre, au  carrefour, la direction  indiquée par la flèche"
+    "name_nl": "verplichting voor de",
+    "name_fr": "obligation pour les"
   },
   {
     "code": "D1b",
     "page": 15,
-    "name_nl": "verplichting voor de  bestuurders om op het  kruispunt de door de pijl  aangeduide richting te  volgen",
-    "name_fr": "obligation pour les  conducteurs de suivre, au  carrefour, la direction  indiquée par la flèche"
+    "name_nl": "verplichting voor de",
+    "name_fr": "obligation pour les"
   },
   {
     "code": "D1c",
     "page": 15,
-    "name_nl": "verplichting voor de  bestuurders om op het  kruispunt de door de pijl  aangeduide richting te  volgen",
-    "name_fr": "obligation pour les  conducteurs de suivre, au  carrefour, la direction  indiquée par la flèche"
+    "name_nl": "verplichting voor de",
+    "name_fr": "obligation pour les"
   },
   {
     "code": "D1d",
     "page": 15,
-    "name_nl": "verplichting voor de  bestuurders de hindernis  langs de door de pijl  aangeduide richting voorbij  te rijden",
-    "name_fr": "obligation pour les  conducteurs de passer  l’obstacle du côté indiqué  par la flèche"
+    "name_nl": "verplichting voor de",
+    "name_fr": "obligation pour les"
   },
   {
     "code": "D1e",
     "page": 15,
-    "name_nl": "verplichting voor de  bestuurders de hindernis  langs de door de pijl  aangeduide richting voorbij  te rijden",
-    "name_fr": "obligation pour les  conducteurs de passer  l’obstacle du côté indiqué  par la flèche"
+    "name_nl": "verplichting voor de",
+    "name_fr": "obligation pour les"
   },
   {
     "code": "D1f",
     "page": 16,
-    "name_nl": "verplichting voor de  bestuurders de door de pijl  aangeduide richting te  volgen",
-    "name_fr": "obligation pour les  conducteurs de suivre la  direction indiquée par la  flèche"
+    "name_nl": "verplichting voor de",
+    "name_fr": "obligation pour les"
   },
   {
     "code": "D1g",
     "page": 16,
-    "name_nl": "verplichting voor de  bestuurders de door de pijl  aangeduide richting te  volgen",
-    "name_fr": "obligation pour les  conducteurs de suivre la  direction indiquée par la  flèche"
+    "name_nl": "verplichting voor de",
+    "name_fr": "obligation pour les"
   },
   {
     "code": "D3",
     "page": 16,
-    "name_nl": "verplichting voor de  bestuurders één van de  door de pijlen aangeduide  richtingen te volgen    De plaatsgesteldheid  bepaalt de stand van de  pijlen.",
-    "name_fr": "obligation pour les  conducteurs de suivre une  des directions indiquées  par les flèches    La disposition des lieux  détermine la position des  flèches."
+    "name_nl": "verplichting voor de  bestuurders één van de",
+    "name_fr": "obligation pour les  conducteurs de suivre une"
   },
   {
     "code": "D4",
     "page": 16,
-    "name_nl": "verplichting voor  voertuigen die gevaarlijke  goederen vervoeren om de  door de pijl aangeduide  richting te volgen    De plaatsgesteldheid  bepaalt de stand van de  pijl.",
-    "name_fr": "obligation pour les  véhicules transportant des  marchandises  dangereuses de suivre la  direction indiquée par la  flèche    La disposition des lieux  détermine la position de la  flèche."
+    "name_nl": "verplichting voor",
+    "name_fr": "obligation pour les  véhicules transportant des"
   },
   {
     "code": "D5",
     "page": 16,
-    "name_nl": "rotonde    Verplicht rondgaand  verkeer.",
-    "name_fr": "rond-point    Sens giratoire obligatoire."
+    "name_nl": "rotonde",
+    "name_fr": "rond-point"
   },
   {
     "code": "D7",
@@ -578,62 +578,62 @@
   {
     "code": "D9",
     "page": 17,
-    "name_nl": "deel van de openbare weg  verplicht voor voetgangers,  fietsers en bestuurders van  tweewielige bromfietsen  klasse A",
-    "name_fr": "partie de la voie publique  obligatoire pour les  piétons, les cyclistes et les  conducteurs de  cyclomoteurs classe A"
+    "name_nl": "deel van de openbare weg",
+    "name_fr": "partie de la voie publique"
   },
   {
     "code": "D10",
     "page": 17,
-    "name_nl": "einde van het deel van de  openbare weg verplicht  voor voetgangers, fietsers  en bestuurders van  tweewielige bromfietsen  klasse A",
-    "name_fr": "fin de la partie de la voie  publique obligatoire pour  les piétons, les cyclistes et  les conducteurs de  cyclomoteurs classe A"
+    "name_nl": "einde van het deel van de",
+    "name_fr": "fin de la partie de la voie"
   },
   {
     "code": "D11",
     "page": 17,
-    "name_nl": "deel van de openbare weg  verplicht voor voetgangers  en fietsers",
-    "name_fr": "partie de la voie publique  obligatoire pour les  piétons et les cyclistes"
+    "name_nl": "deel van de openbare weg",
+    "name_fr": "partie de la voie publique"
   },
   {
     "code": "D12",
     "page": 17,
-    "name_nl": "einde van het deel van de  openbare weg verplicht  voor voetgangers en  fietsers",
-    "name_fr": "fin de la partie de la voie  publique obligatoire pour  les piétons et les cyclistes"
+    "name_nl": "einde van het deel van de",
+    "name_fr": "fin de la partie de la voie"
   },
   {
     "code": "D13",
     "page": 17,
-    "name_nl": "deel van de openbare weg  verplicht voor voetgangers",
-    "name_fr": "partie de la voie publique  obligatoire pour les  piétons"
+    "name_nl": "deel van de openbare weg",
+    "name_fr": "partie de la voie publique"
   },
   {
     "code": "D14",
     "page": 17,
-    "name_nl": "einde van het deel van de  openbare weg verplicht  voor voetgangers",
-    "name_fr": "fin de la partie de la voie  publique obligatoire pour  les piétons"
+    "name_nl": "einde van het deel van de",
+    "name_fr": "fin de la partie de la voie"
   },
   {
     "code": "D15",
     "page": 18,
-    "name_nl": "deel van de openbare weg  verplicht voor ruiters",
-    "name_fr": "partie de la voie publique  obligatoire pour les  cavaliers"
+    "name_nl": "deel van de openbare weg",
+    "name_fr": "partie de la voie publique"
   },
   {
     "code": "D16",
     "page": 18,
-    "name_nl": "einde van het deel van de  openbare weg verplicht  voor ruiters",
-    "name_fr": "fin de la partie de la voie  publique obligatoire pour  les cavaliers"
+    "name_nl": "einde van het deel van de",
+    "name_fr": "fin de la partie de la voie"
   },
   {
     "code": "D17",
     "page": 18,
-    "name_nl": "verplicht gebruik van de  dimlichten",
-    "name_fr": "usage obligatoire des feux  de croisement"
+    "name_nl": "verplicht gebruik van de",
+    "name_fr": "usage obligatoire des feux"
   },
   {
     "code": "D18",
     "page": 18,
-    "name_nl": "einde van het verplicht  gebruik van de dimlichten,  onverminderd artikel 44  Verkeersborden  betreffende het  stilstaan en parkeren",
-    "name_fr": "fin de l’usage obligatoire  des feux de croisement,  sans préjudice de l’article  44  Signaux relatifs à  l’arrêt et au  stationnement"
+    "name_nl": "einde van het verplicht",
+    "name_fr": "fin de l’usage obligatoire"
   },
   {
     "code": "E1",
@@ -644,20 +644,20 @@
   {
     "code": "E3",
     "page": 18,
-    "name_nl": "stilstaan en parkeren  verboden",
-    "name_fr": "arrêt et stationnement  interdits"
+    "name_nl": "stilstaan en parkeren",
+    "name_fr": "arrêt et stationnement"
   },
   {
     "code": "E9",
     "page": 19,
-    "name_nl": "parkeren toegelaten  Aanwijzingsborden",
-    "name_fr": "stationnement autorisé  Signaux d’indication"
+    "name_nl": "parkeren toegelaten",
+    "name_fr": "stationnement autorisé"
   },
   {
     "code": "F6",
     "page": 19,
-    "name_nl": "afrit    Het nummer van de afrit  kan het symbool  aanvullen.",
-    "name_fr": "sortie    Le numéro de la sortie  peut compléter le  symbole."
+    "name_nl": "afrit",
+    "name_fr": "sortie"
   },
   {
     "code": "F7",
@@ -674,55 +674,55 @@
   {
     "code": "F13",
     "page": 19,
-    "name_nl": "verkeersbord dat de  voorsorteringspijlen op de  rijbaan aankondigt. Dit  verkeersbord kan ook de  rijstrookmarkeringen  weergeven.    Dit verkeersbord kan de  verschillende richtingen  aanduiden.    De bestuurder moet  afhankelijk van de richting  die hij volgt, de  aanwijzingen volgen.",
-    "name_fr": "signal annonçant des  flèches de sélection sur la  chaussée. Le signal peut  aussi reprendre le  marquage des bandes de  circulation.    Ce signal peut indiquer les  différentes directions.    Le conducteur doit se  conformer aux indications  en fonction de la direction  qu’il suit."
+    "name_nl": "verkeersbord dat de",
+    "name_fr": ""
   },
   {
     "code": "F14",
     "page": 20,
-    "name_nl": "opstelvak voorbehouden  voor fietsers en  bestuurders van  tweewielige bromfietsen    Dit verkeersbord kan ook  de pijlen van het  verkeersbord F13  weergeven.",
-    "name_fr": "zone avancée réservée aux  cyclistes et conducteurs  de cyclomoteurs à deux  roues    Ce signal peut aussi  reprendre les flèches du  signal F13."
+    "name_nl": "opstelvak voorbehouden  voor fietsers en",
+    "name_fr": "zone avancée réservée aux"
   },
   {
     "code": "F15",
     "page": 20,
-    "name_nl": "verkeersbord dat de keuze  van een richting  voorschrijft    Neerwaarts of opwaarts  gerichte pijlen hebben  betrekking op doorgaande  richtingen.    Schuine pijlen hebben  betrekking op afslaande  richtingen.    Het aantal pijlen  vertegenwoordigt het  aantal rijstroken.    De bestuurder moet  afhankelijk van de richting  die hij volgt, de  aanwijzingen volgen.",
-    "name_fr": "signal prescrivant le choix  d’une direction    Les flèches avec pointe  vers le bas ou vers le haut  indiquent les directions qui  continuent tout droit.    Les flèches obliques  indiquent les directions  sortantes.    Le nombre de flèches  correspond au nombre de  bandes de circulation.    Le conducteur doit se  conformer aux indications  en fonction de la direction  qu’il suit."
+    "name_nl": "verkeersbord dat de keuze  van een richting",
+    "name_fr": "signal prescrivant le choix"
   },
   {
     "code": "F17",
     "page": 20,
-    "name_nl": "busbaan    De pijlen op het  verkeersbord geven de  rijrichting aan op het  betrokken weggedeelte.    Dit verkeersbord kan ook  de rijstrookmarkeringen  weergeven. Naargelang het  geval zijn deze  markeringen doorlopend,  onderbroken of beide.",
-    "name_fr": "bande bus    Les flèches apposées sur  le signal indiquent le sens  de circulation sur la partie  de la voie publique  concernée.    Ce signal peut aussi  reprendre le marquage des  bandes de circulation.  Selon le cas, ces  marquages peuvent être  soit continus, soit  discontinus, soit les deux."
+    "name_nl": "busbaan",
+    "name_fr": "bande bus"
   },
   {
     "code": "F19",
     "page": 21,
-    "name_nl": "openbare weg met  éénrichtingsverkeer",
+    "name_nl": "openbare weg met",
     "name_fr": "voie publique à sens  unique"
   },
   {
     "code": "F21",
     "page": 21,
-    "name_nl": "rechts of links voorbijrijden  toegelaten",
+    "name_nl": "rechts of links voorbijrijden",
     "name_fr": "passage autorisé à droite  ou à gauche"
   },
   {
     "code": "F23a",
     "page": 21,
-    "name_nl": "nummer van een gewone  weg",
+    "name_nl": "nummer van een gewone",
     "name_fr": "numéro d’une route  ordinaire"
   },
   {
     "code": "F23b",
     "page": 21,
-    "name_nl": "nummer van een  autosnelweg",
+    "name_nl": "nummer van een",
     "name_fr": "numéro d’une autoroute"
   },
   {
     "code": "F23c",
     "page": 21,
-    "name_nl": "nummer van een  internationale weg",
+    "name_nl": "nummer van een",
     "name_fr": "numéro d’une route  internationale"
   },
   {
@@ -746,62 +746,62 @@
   {
     "code": "F29",
     "page": 22,
-    "name_nl": "wegwijzer    De afstand in kilometer  kan op de wegwijzer  aangeduid zijn.",
-    "name_fr": "signal de direction    La distance en kilomètres  peut être indiquée sur le  signal."
+    "name_nl": "wegwijzer",
+    "name_fr": "signal de direction"
   },
   {
     "code": "F31",
     "page": 22,
-    "name_nl": "wegwijzer    Reisweg over een  autosnelweg.    De afstand in kilometer  kan op de wegwijzer  aangeduid zijn.",
-    "name_fr": "signal de direction    Itinéraire par autoroute.    La distance en kilomètres  peut être indiquée sur le  signal."
+    "name_nl": "wegwijzer",
+    "name_fr": "signal de direction"
   },
   {
     "code": "F33a",
     "page": 22,
-    "name_nl": "wegwijzer op afstand:  luchthaven, beurs- of  tentoonstellingshal,  haven, car-ferry, zone met  economische activiteiten,  ziekenhuis",
-    "name_fr": "signal de direction à  distance : aéroport, hall de  foire ou centre  d’exposition, port, car- ferry, parc d’activités  économiques, hôpital"
+    "name_nl": "wegwijzer op afstand:  luchthaven, beurs- of",
+    "name_fr": "signal de direction à  distance : aéroport, hall de"
   },
   {
     "code": "F33b",
     "page": 22,
-    "name_nl": "wegwijzer op afstand:  vallei of waterloop van  toeristische aard    De afstand in kilometer  kan op de wegwijzer  aangeduid zijn.",
-    "name_fr": "signal de direction à  distance : vallée ou cours  d’eau touristique    La distance en kilomètres  peut être indiquée sur le  signal."
+    "name_nl": "wegwijzer op afstand:  vallei of waterloop van",
+    "name_fr": "signal de direction à  distance : vallée ou cours"
   },
   {
     "code": "F33c",
     "page": 22,
-    "name_nl": "wegwijzer op afstand:  sportcentrum of stadium  of omnisporthal, historisch  monument, ruïnes,  klooster of abdij, cultureel  park of recreatie- of  pretpark, monument of  merkwaardig landschap,  natuurpark, trefpunt voor  toeristische informatie,  uitkijkpunt",
-    "name_fr": "signal de direction à  distance : centre sportif ou  stade ou hall omnisport,  monument historique,  ruines, monastère ou  abbaye, parc culturel ou  parc de loisirs ou parc  d’attractions, monument  ou site remarquable, parc  naturel, point  d’information touristique,  point de vue"
+    "name_nl": "wegwijzer op afstand:",
+    "name_fr": "signal de direction à  distance : centre sportif ou"
   },
   {
     "code": "F34a",
     "page": 23,
-    "name_nl": "wegwijzer in de nabijheid  van inrichtingen en  etablissementen die  openbaar zijn of van  algemeen belang,  bijvoorbeeld een  treinstation, een  ziekenhuis, een stadhuis of  gemeentehuis, een  postkantoor  wegwijzer: aanbevolen  reisweg voor bepaalde  categorieën van  weggebruikers    Deze borden kunnen ook  een groene achtergrond  hebben.  wegwijzer: aanbevolen  reisweg voor bepaalde  categorieën van  weggebruikers    Deze borden kunnen ook  een groene achtergrond  hebben.  wegwijzer: aanbevolen  reisweg naar een  toeristische bestemming  voor bepaalde categorieën  van weggebruikers    Deze borden kunnen ook  een groene achtergrond  hebben.  wegwijzer: aanbevolen  reisweg naar een  toeristische bestemming  voor bepaalde categorieën  van weggebruikers    Deze borden kunnen ook  een groene achtergrond  hebben.",
-    "name_fr": "signal de direction à  proximité d’équipements  et établissements publics  ou d’intérêt général, par  exemple une gare de  chemin de fer, un hôpital,  un hôtel de ville ou maison  communale, un bureau de  poste  signal de direction :  itinéraire conseillé à des  catégories déterminées  d’usagers    Ces signaux peuvent aussi  avoir un fond vert.  signal de direction :  itinéraire conseillé à des  catégories déterminées  d’usagers    Ces signaux peuvent aussi  avoir un fond vert.  signal de direction :  itinéraire vers une  destination touristique,  conseillé à des catégories  déterminées d’usagers    Ces signaux peuvent aussi  avoir un fond vert.  signal de direction :  itinéraire vers une  destination touristique,  conseillé à des catégories  déterminées d’usagers    Ces signaux peuvent aussi  avoir un fond vert."
+    "name_nl": "wegwijzer in de nabijheid  van inrichtingen en",
+    "name_fr": "signal de direction à"
   },
   {
     "code": "F35",
     "page": 24,
-    "name_nl": "wegwijzer: sportcentrum of  stadium of omnisporthal,  historisch monument,  ruïnes, klooster of abdij,  cultureel park of recreatie-  of pretpark, monument of  merkwaardig landschap,  natuurpark, trefpunt voor  toeristische informatie,  uitkijkpunt",
-    "name_fr": "signal de direction : centre  sportif ou stade ou hall  omnisport, monument  historique, ruines,  monastère ou abbaye,  parc culturel ou parc de  loisirs ou parc  d’attractions, monument  ou site remarquable, parc  naturel, point  d’information touristique,  point de vue"
+    "name_nl": "wegwijzer: sportcentrum of",
+    "name_fr": "signal de direction : centre  sportif ou stade ou hall"
   },
   {
     "code": "F37",
     "page": 24,
-    "name_nl": "wegwijzer: hotel of motel,  restaurant,  drankgelegenheid,  kampeerterrein,  kampeeraanhangwagen- terrein, kampeerwagen- terrein, jeugdherberg,  picknickplaats",
-    "name_fr": "signal de direction : hôtel  ou motel, restaurant,  cafétaria, terrain de  camping, terrain de  caravaning, terrain pour  autocaravane, auberge de  jeunesse, emplacement  pour pique-nique"
+    "name_nl": "wegwijzer: hotel of motel,  restaurant,",
+    "name_fr": "signal de direction : hôtel  ou motel, restaurant,"
   },
   {
     "code": "F39",
     "page": 24,
-    "name_nl": "voorwegwijzer die een  omleiding aankondigt",
-    "name_fr": "signal de préavis  annonçant une déviation"
+    "name_nl": "voorwegwijzer die een",
+    "name_fr": "signal de préavis"
   },
   {
     "code": "F41",
     "page": 24,
-    "name_nl": "wegwijzer    Wegomleiding.  “Omleiding” kan  vervangen zijn door de  naam van de bestemming.",
-    "name_fr": "signal de direction    Itinéraire de déviation. «  Déviation » peut être  remplacé par le nom de la  destination."
+    "name_nl": "wegwijzer",
+    "name_fr": "signal de direction"
   },
   {
     "code": "F43",
@@ -818,50 +818,50 @@
   {
     "code": "F45a",
     "page": 24,
-    "name_nl": "doodlopende weg    Het symbool kan  aangepast zijn in functie  van de plaatsgesteldheid.",
-    "name_fr": "voie sans issue    Le symbole peut être  adapté en fonction des  lieux."
+    "name_nl": "",
+    "name_fr": ""
   },
   {
     "code": "F45b",
     "page": 25,
-    "name_nl": "doodlopende weg,  uitgezonderd voor fietsers  en voetgangers    Het symbool kan  aangepast zijn in functie  van de plaatsgesteldheid.",
-    "name_fr": "voie sans issue, à  l’exception des cyclistes et  des piétons    Le symbole peut être  adapté en fonction des  lieux."
+    "name_nl": "doodlopende weg,",
+    "name_fr": "voie sans issue, à"
   },
   {
     "code": "F48",
     "page": 25,
-    "name_nl": "oversteekplaats voor  voetgangers",
+    "name_nl": "oversteekplaats voor",
     "name_fr": "passage pour piétons"
   },
   {
     "code": "F49",
     "page": 25,
-    "name_nl": "oversteekplaats voor  fietsers en bestuurders van  tweewielige bromfietsen",
-    "name_fr": "passage pour cyclistes et  conducteurs de  cyclomoteurs à deux roues"
+    "name_nl": "oversteekplaats voor",
+    "name_fr": "passage pour cyclistes et"
   },
   {
     "code": "F50",
     "page": 25,
-    "name_nl": "verkeersbord dat de  bestuurders die van  richting veranderen, wijst  op een gevaar    Het symbool op het  gevaarsbord kan  aangepast zijn in functie  van de plaatsgesteldheid.",
-    "name_fr": "signal indiquant un danger  aux conducteurs qui  changent de direction    Le symbole du signal de  danger peut être adapté en  fonction des lieux."
+    "name_nl": "verkeersbord dat de  bestuurders die van",
+    "name_fr": "signal indiquant un danger"
   },
   {
     "code": "F51",
     "page": 25,
-    "name_nl": "ondergrondse of  bovengrondse toegang  voor voetgangers",
-    "name_fr": "accès pour piétons,  souterrain ou en hauteur"
+    "name_nl": "ondergrondse of",
+    "name_fr": "accès pour piétons,"
   },
   {
     "code": "F52a",
     "page": 25,
-    "name_nl": "aankondiging van een  nooduitgang",
-    "name_fr": "indication d’une issue de  secours"
+    "name_nl": "aankondiging van een",
+    "name_fr": "indication d’une issue de"
   },
   {
     "code": "F52b",
     "page": 26,
     "name_nl": "vluchtroute: aankondiging  van de dichtstbijzijnde",
-    "name_fr": "voie d’évacuation :  annonce de l’issue de"
+    "name_fr": "voie d’évacuation :  annonce de l’issue de  secours la plus proche  dans la direction indiquée"
   },
   {
     "code": "F53",
@@ -884,13 +884,13 @@
   {
     "code": "F57",
     "page": 26,
-    "name_nl": "aankondiging van een  parking",
+    "name_nl": "aankondiging van een",
     "name_fr": "annonce d’un parking"
   },
   {
     "code": "F58",
     "page": 26,
-    "name_nl": "aankondiging van een  overdekte parking",
+    "name_nl": "aankondiging van een",
     "name_fr": "annonce d’un parking  couvert"
   },
   {
@@ -902,14 +902,14 @@
   {
     "code": "F61",
     "page": 27,
-    "name_nl": "aankondiging van een  beveiligde parking  (voorbeeld)    Het maximaal aantal  sloten en sterren is 5. De  sterren zijn facultatief.",
-    "name_fr": "annonce d’un parking  sécurisé (exemple)    Le nombre maximal de  cadenas et d’étoiles est de  5. Les étoiles sont  facultatives."
+    "name_nl": "aankondiging van een",
+    "name_fr": "annonce d’un parking"
   },
   {
     "code": "F62",
     "page": 27,
-    "name_nl": "beveiligde parking  (voorbeeld)    Het maximaal aantal  sloten is 5. De sterren,  maximum 5, zijn  facultatief.",
-    "name_fr": "parking sécurisé (exemple)    Le nombre maximal de  cadenas est de 5. Les  étoiles, maximum 5, sont  facultatives."
+    "name_nl": "beveiligde parking",
+    "name_fr": "parking sécurisé (exemple)"
   },
   {
     "code": "F63",
@@ -921,19 +921,19 @@
     "code": "F64",
     "page": 27,
     "name_nl": "noodtelefoon",
-    "name_fr": "téléphone d’appel  d’urgence"
+    "name_fr": "téléphone d’appel"
   },
   {
     "code": "F65a",
     "page": 27,
-    "name_nl": "tankstation    Het type brandstof kan  aangeduid zijn op het  verkeersbord of op een  onderbord.",
-    "name_fr": "distribution de carburant    Le type du carburant peut  être indiqué sur le signal  ou sur un panneau  additionnel."
+    "name_nl": "tankstation",
+    "name_fr": "distribution de carburant"
   },
   {
     "code": "F65b",
     "page": 27,
     "name_nl": "elektrische laadpaal",
-    "name_fr": "borne de recharge  électrique"
+    "name_fr": "borne de recharge"
   },
   {
     "code": "F66",
@@ -998,26 +998,26 @@
   {
     "code": "F80",
     "page": 29,
-    "name_nl": "tijdelijke aanwijzingen bij  werken    Voorwegwijzer die de  vermindering van het  aantal rijstroken  aankondigt. Het symbool  stemt overeen met de  plaatsgesteldheid.",
-    "name_fr": "indications temporaires à  l’occasion de travaux    Signal de préavis  annonçant la réduction du  nombre de bandes de  circulation. Le symbole  correspond à la disposition  des lieux."
+    "name_nl": "",
+    "name_fr": ""
   },
   {
     "code": "F81",
     "page": 29,
-    "name_nl": "tijdelijke aanwijzingen bij  werken    Voorwegwijzer die een  uitwijking aankondigt. Het  symbool stemt overeen  met de plaatsgesteldheid.",
-    "name_fr": "indications temporaires à  l’occasion de travaux    Signal de préavis  annonçant un évitement.  Le symbole correspond à  la disposition des lieux."
+    "name_nl": "tijdelijke aanwijzingen bij",
+    "name_fr": "indications temporaires à"
   },
   {
     "code": "F83",
     "page": 29,
-    "name_nl": "tijdelijke aanwijzingen bij  werken    Voorwegwijzer die een  doorsteek van de  middenberm aankondigt.",
-    "name_fr": "indications temporaires à  l’occasion de travaux    Signal de préavis  annonçant une traversée  du terre-plein central."
+    "name_nl": "tijdelijke aanwijzingen bij",
+    "name_fr": "indications temporaires à"
   },
   {
     "code": "F85",
     "page": 29,
-    "name_nl": "tijdelijke aanwijzingen bij  werken    Verkeer toegelaten in  beide richtingen op een  deel van de rijbaan met  éénrichtingsverkeer.",
-    "name_fr": "indications temporaires à  l’occasion de travaux    Circulation admise dans  les deux sens sur une  section de chaussée à  sens unique."
+    "name_nl": "tijdelijke aanwijzingen bij",
+    "name_fr": "indications temporaires à"
   },
   {
     "code": "F87",
@@ -1028,14 +1028,14 @@
   {
     "code": "F91",
     "page": 30,
-    "name_nl": "verkeersbord dat een  gevaar, een verbod of een  gebod aanduidt dat slechts  van toepassing is op een  deel van de openbare weg  of op één of meerdere  rijstroken van een rijbaan  die meerdere rijstroken in  dezelfde richting omvat",
-    "name_fr": "signal indiquant un danger,  une interdiction ou une  obligation, qui ne  s’applique qu’à une partie  de la voie publique ou à  une ou plusieurs bandes  de circulation d’une  chaussée comportant  plusieurs bandes de  circulation dans le même  sens"
+    "name_nl": "verkeersbord dat een",
+    "name_fr": "signal indiquant un danger,  une interdiction ou une"
   },
   {
     "code": "F93",
     "page": 30,
-    "name_nl": "verkeersbord dat een  radio-omroep aanduidt  waar verkeersinformatie  gegeven wordt",
-    "name_fr": "signal indiquant une  station de radiodiffusion  donnant des informations  routières"
+    "name_nl": "verkeersbord dat een",
+    "name_fr": "signal indiquant une"
   },
   {
     "code": "F95",
@@ -1046,14 +1046,14 @@
   {
     "code": "F96",
     "page": 30,
-    "name_nl": "voorwegwijzer die een  uitwijking aankondigt    Het aantal pijlen stemt  overeen met het werkelijk  aantal rijstroken. Het  symbool stemt overeen  met de plaatsgesteldheid.",
-    "name_fr": "signal de préavis  annonçant un évitement    Le nombre de flèches  correspond au nombre réel  de bandes de circulation.  Le symbole correspond à  la disposition des lieux."
+    "name_nl": "voorwegwijzer die een",
+    "name_fr": "signal de préavis"
   },
   {
     "code": "F97",
     "page": 30,
-    "name_nl": "verkeersbord dat de  vermindering van een  rijstrook aanduidt",
-    "name_fr": "signal indiquant la  réduction d’une bande de  circulation"
+    "name_nl": "verkeersbord dat de",
+    "name_fr": "signal indiquant la"
   },
   {
     "code": "F98",
@@ -1064,80 +1064,80 @@
   {
     "code": "F99",
     "page": 31,
-    "name_nl": "vluchthaven voor  landbouwvoertuigen",
+    "name_nl": "vluchthaven voor",
     "name_fr": "refuge pour véhicules  agricoles"
   },
   {
     "code": "F100",
     "page": 31,
-    "name_nl": "grens  Verkeersborden met  bijzondere  voorschriften",
-    "name_fr": "frontière  Signaux à  réglementation  particulière"
+    "name_nl": "grens",
+    "name_fr": "frontière"
   },
   {
     "code": "R1",
     "page": 31,
-    "name_nl": "begin van een  schoolomgeving",
+    "name_nl": "begin van een",
     "name_fr": "début d’abords d’école"
   },
   {
     "code": "R3",
     "page": 32,
-    "name_nl": "einde van een  schoolomgeving",
+    "name_nl": "einde van een",
     "name_fr": "fin d’abords d’école"
   },
   {
     "code": "R5",
     "page": 32,
-    "name_nl": "begin van een erf    De maximale snelheid die  er geldt, kan rechtsonder  op het verkeersbord  aangeduid zijn.",
-    "name_fr": "début d’une zone de  rencontre    La vitesse maximale qui s’y  applique peut être  indiquée sur le signal en  bas à droite."
+    "name_nl": "begin van een erf",
+    "name_fr": "début d’une zone de"
   },
   {
     "code": "R7",
     "page": 32,
     "name_nl": "einde van een erf",
-    "name_fr": "fin d’une zone de  rencontre"
+    "name_fr": "fin d’une zone de"
   },
   {
     "code": "R9",
     "page": 32,
-    "name_nl": "begin van een weg of van  wegen voorbehouden voor  het verkeer van de  aangeduide weggebruikers    Het verkeersbord kan  aangepast zijn volgens de  categorieën van  weggebruikers. Op dit bord  zijn ten minste 2  categorieën van  weggebruikers aangeduid.    De maximale snelheid die  er geldt, kan rechtsonder  op het verkeersbord  aangeduid zijn.",
-    "name_fr": "début d’un chemin réservé  ou des chemins réservés à  la circulation des usagers  indiqués    Le signal peut être adapté  en fonction des catégories  d’usagers admises à y  circuler. Sur ce signal au  moins deux catégories  d’usagers sont indiqués.    La vitesse maximale qui s’y  applique peut être  indiquée sur le signal, en  bas à droite."
+    "name_nl": "begin van een weg of van  wegen voorbehouden voor",
+    "name_fr": "début d’un chemin réservé"
   },
   {
     "code": "R11",
     "page": 33,
-    "name_nl": "einde van een weg of van  wegen voorbehouden voor  het verkeer van de  aangeduide weggebruikers",
-    "name_fr": "fin d’un chemin réservé ou  des chemins réservés à la  circulation des usagers  indiqués"
+    "name_nl": "einde van een weg of van",
+    "name_fr": "fin d’un chemin réservé ou"
   },
   {
     "code": "R12",
     "page": 33,
-    "name_nl": "begin van een niet  verplicht fietspad",
-    "name_fr": "début d’une piste cyclable  non obligatoire"
+    "name_nl": "begin van een niet",
+    "name_fr": "début d’une piste cyclable"
   },
   {
     "code": "R13",
     "page": 33,
-    "name_nl": "einde van een niet  verplicht fietspad",
-    "name_fr": "fin d’une piste cyclable  non obligatoire"
+    "name_nl": "einde van een niet",
+    "name_fr": "fin d’une piste cyclable"
   },
   {
     "code": "R14",
     "page": 33,
-    "name_nl": "begin van een  voetgangerszone    De maximale snelheid die  er geldt, kan rechtsonder  op het verkeersbord  aangeduid zijn.",
-    "name_fr": "début d’une zone piétonne    La vitesse maximale qui s’y  applique peut être  indiquée sur le signal, en  bas à droite."
+    "name_nl": "begin van een",
+    "name_fr": ""
   },
   {
     "code": "R15",
     "page": 33,
-    "name_nl": "einde van een  voetgangerszone",
+    "name_nl": "einde van een",
     "name_fr": "fin d’une zone piétonne"
   },
   {
     "code": "R17",
     "page": 34,
-    "name_nl": "begin van een fietszone    De vermelding “Fietszone”  kan bovenaan op het  verkeersbord aangeduid  zijn.    De maximale snelheid die  er geldt, kan rechtsonder  op het verkeersbord  aangeduid zijn.",
-    "name_fr": "début d'une zone cyclable    La mention « Zone cyclable  » peut être indiquée sur le  dessus du signal.    La vitesse maximale qui s’y  applique peut être  indiquée sur le signal, en  bas à droite."
+    "name_nl": "begin van een fietszone",
+    "name_fr": "début d'une zone cyclable"
   },
   {
     "code": "R19",
@@ -1148,26 +1148,26 @@
   {
     "code": "R21",
     "page": 34,
-    "name_nl": "begin van een  luchthavengebied    De maximale snelheid die  er geldt, kan rechtsonder  op het verkeersbord  aangeduid zijn.",
-    "name_fr": "début d’une zone  aéroportuaire    La vitesse maximale qui s’y  applique peut être  indiquée sur le signal, en  bas à droite."
+    "name_nl": "begin van een",
+    "name_fr": "début d’une zone"
   },
   {
     "code": "R23",
     "page": 34,
-    "name_nl": "einde van een  luchthavengebied",
-    "name_fr": "fin d’une zone  aéroportuaire"
+    "name_nl": "einde van een",
+    "name_fr": "fin d’une zone"
   },
   {
     "code": "R25",
     "page": 35,
-    "name_nl": "begin van een bebouwde  kom (voorbeelden)    De naam van de bebouwde  kom kan, bovenaan in het  midden, op het  verkeersbord aangeduid  zijn.    De maximale snelheid die  er geldt, kan rechtsonder  op het verkeersbord  aangeduid zijn.",
-    "name_fr": "début d’une agglomération  (exemples)    Le nom de l’agglomération  peut être indiqué sur le  signal, en haut au milieu.    La vitesse maximale qui s’y  applique peut être  indiquée sur le signal, en  bas à droite."
+    "name_nl": "begin van een bebouwde",
+    "name_fr": "début d’une agglomération"
   },
   {
     "code": "R27",
     "page": 35,
-    "name_nl": "einde van een bebouwde  kom (voorbeelden)",
-    "name_fr": "fin d’une agglomération  (exemples)"
+    "name_nl": "einde van een bebouwde",
+    "name_fr": "fin d’une agglomération"
   },
   {
     "code": "R29",
@@ -1185,13 +1185,13 @@
     "code": "R33",
     "page": 36,
     "name_nl": "begin van een autoweg",
-    "name_fr": "début d’une route pour  automobiles"
+    "name_fr": "début d’une route pour"
   },
   {
     "code": "R35",
     "page": 36,
     "name_nl": "einde van een autoweg",
-    "name_fr": "fin d’une route pour  automobiles"
+    "name_fr": "fin d’une route pour"
   },
   {
     "code": "R37",
@@ -1202,110 +1202,110 @@
   {
     "code": "R39",
     "page": 36,
-    "name_nl": "einde van de werken  Verkeersborden met  zonale geldigheid",
-    "name_fr": "fin des travaux  Signaux à validité  zonale"
+    "name_nl": "einde van de werken",
+    "name_fr": "fin des travaux"
   },
   {
     "code": "Z1",
     "page": 36,
-    "name_nl": "begin van een zone    Het verkeersbord waaraan  een zonale geldigheid  wordt gegeven wordt  afgebeeld op dit  verkeersbord.",
-    "name_fr": "début d’une zone    Le signal auquel une  validité zonale est donnée  est représenté sur ce  signal."
+    "name_nl": "begin van een zone",
+    "name_fr": ""
   },
   {
     "code": "Z3",
     "page": 37,
-    "name_nl": "einde van een zone    Het verkeersbord bevat, in  grijstinten en met behoud  van de witte kleur, het  verkeersbord waaraan de  zonale geldigheid wordt  gegeven.  einde van een parkeerzone  (voorbeeld)  einde van een  snelheidszone (voorbeeld)",
-    "name_fr": "fin d’une zone    Le signal contient, dans  des tons gris et en  conservant la couleur  blanche, le signal auquel  la validité zonale est  donnée.  fin d’une zone de  stationnement (exemple)  fin d’une zone de vitesse  (exemple)"
+    "name_nl": "einde van een zone",
+    "name_fr": "fin d’une zone"
   },
   {
     "code": "Z5",
     "page": 37,
-    "name_nl": "herhaling van een zone    Het opschrift “herhaling”  kan ook op een onderbord  aangeduid zijn.",
-    "name_fr": "rappel d’une zone    L’inscription « rappel »  peut aussi être  mentionnée sur un  panneau additionnel."
+    "name_nl": "herhaling van een zone",
+    "name_fr": ""
   },
   {
     "code": "M1",
     "page": 38,
-    "name_nl": "onderbord dat bij  benadering de afstand  aanduidt tot hetzelfde  verkeersbord als dat  waaronder het is geplaatst  (voorbeeld)",
-    "name_fr": "panneau additionnel  indiquant la distance  approximative jusqu'à un  signal identique à celui  sous lequel il est placé  (exemple)"
+    "name_nl": "onderbord dat bij",
+    "name_fr": "panneau additionnel"
   },
   {
     "code": "M3",
     "page": 38,
-    "name_nl": "onderbord dat het  verkeersbord B5  aankondigt op de bij  benadering aangeduide  afstand (voorbeeld)",
-    "name_fr": "panneau additionnel qui  annonce le signal B5 à la  distance approximative  indiquée (exemple)"
+    "name_nl": "onderbord dat het",
+    "name_fr": "panneau additionnel qui"
   },
   {
     "code": "M5",
     "page": 38,
-    "name_nl": "onderbord dat de afstand  aanduidt waarover het  verkeersbord van  toepassing is (voorbeeld)",
-    "name_fr": "panneau additionnel  indiquant la distance sur  laquelle le signal est  d’application (exemple)"
+    "name_nl": "onderbord dat de afstand",
+    "name_fr": "panneau additionnel"
   },
   {
     "code": "M7",
     "page": 38,
-    "name_nl": "begin van de  reglementering",
+    "name_nl": "begin van de",
     "name_fr": "début de la réglementation"
   },
   {
     "code": "M8",
     "page": 38,
-    "name_nl": "einde van de  reglementering    Een aanduiding van het  einde van de  reglementering zal er niet  zijn wanneer het  samenvalt met een  kruispunt of met het begin  van een andere  reglementering van het  stilstaan of het parkeren.",
-    "name_fr": "fin de la réglementation    L’indication de la fin de la  réglementation n’est pas  signalée lorsqu’elle  coïncide avec un carrefour  ou avec le début d’une  autre réglementation de  l’arrêt ou du  stationnement."
+    "name_nl": "einde van de  reglementering",
+    "name_fr": "fin de la réglementation"
   },
   {
     "code": "M9",
     "page": 38,
-    "name_nl": "begin van de  reglementering en de  afstand waarover deze  geldt",
-    "name_fr": "début de la réglementation  et distance sur laquelle  elle est applicable"
+    "name_nl": "begin van de",
+    "name_fr": "début de la réglementation"
   },
   {
     "code": "M11",
     "page": 38,
-    "name_nl": "herhaling van de  reglementering",
-    "name_fr": "rappel de la  réglementation"
+    "name_nl": "herhaling van de",
+    "name_fr": "rappel de la"
   },
   {
     "code": "M13",
     "page": 39,
-    "name_nl": "herhaling van de  reglementering    Het aantal betrokken  parkeerplaatsen kan op de  pijl aangeduid zijn.",
-    "name_fr": "rappel de la  réglementation    Le nombre de places  concernées peut être  indiqué sur la flèche."
+    "name_nl": "herhaling van de",
+    "name_fr": "rappel de la"
   },
   {
     "code": "M15",
     "page": 39,
-    "name_nl": "de richting van de pijl of  pijlen duidt aan waar de  reglementering van  toepassing is",
-    "name_fr": "l’orientation de la flèche  ou des flèches détermine  l’endroit où la  réglementation est  d’application"
+    "name_nl": "de richting van de pijl of",
+    "name_fr": "l’orientation de la flèche"
   },
   {
     "code": "M17",
     "page": 39,
-    "name_nl": "parkeren op de berm of het  trottoir",
-    "name_fr": "stationnement sur  l’accotement ou le trottoir"
+    "name_nl": "parkeren op de berm of het",
+    "name_fr": "stationnement sur"
   },
   {
     "code": "M18",
     "page": 39,
-    "name_nl": "parkeren deels op de berm  of op het trottoir",
-    "name_fr": "stationnement en partie  sur l’accotement ou le  trottoir"
+    "name_nl": "parkeren deels op de berm",
+    "name_fr": "stationnement en partie"
   },
   {
     "code": "M19",
     "page": 39,
-    "name_nl": "parkeren op de rijbaan",
-    "name_fr": "stationnement sur la  chaussée"
+    "name_nl": "",
+    "name_fr": "stationnement sur la"
   },
   {
     "code": "M20",
     "page": 39,
-    "name_nl": "parkeren op de rijbaan,  voor motorfietsen, voor  fietsen, voor  voortbewegingstoestellen,  of voor bromfietsen,  afhankelijk van het  symbool of symbolen die  op het onderbord zijn  aangebracht (voorbeeld)",
-    "name_fr": "stationnement sur la  chaussée pour les  motocyclettes, les  bicyclettes, les engins de  déplacement, ou les  cyclomoteurs, en fonction  du symbole ou des  symboles qui figurent sur  le panneau additionnel  (exemple)"
+    "name_nl": "parkeren op de rijbaan,",
+    "name_fr": "stationnement sur la  chaussée pour les"
   },
   {
     "code": "M21",
     "page": 39,
     "name_nl": "parkeerstrook inbegrepen",
-    "name_fr": "bande de stationnement  comprise"
+    "name_fr": "bande de stationnement"
   },
   {
     "code": "M23",
@@ -1316,50 +1316,50 @@
   {
     "code": "M25",
     "page": 39,
-    "name_nl": "verplicht gebruik van de  parkeerschijf",
-    "name_fr": "usage du disque  obligatoire"
+    "name_nl": "verplicht gebruik van de",
+    "name_fr": "usage du disque"
   },
   {
     "code": "M27",
     "page": 40,
-    "name_nl": "periode waarin het verbod  of de toelating van  toepassing is (voorbeeld)",
-    "name_fr": "période pendant laquelle  l’autorisation ou  l’interdiction est  d’application (exemple)"
+    "name_nl": "periode waarin het verbod",
+    "name_fr": "période pendant laquelle"
   },
   {
     "code": "M29",
     "page": 40,
-    "name_nl": "periode waarin het  stilstaan is toegelaten  (voorbeeld)",
-    "name_fr": "période pendant laquelle  l’arrêt est autorisé  (exemple)"
+    "name_nl": "periode waarin het",
+    "name_fr": "période pendant laquelle"
   },
   {
     "code": "M31",
     "page": 40,
-    "name_nl": "periode waarin het verbod  of de toelating niet van  toepassing is (voorbeeld)",
-    "name_fr": "période pendant laquelle  l’interdiction ou  l’autorisation n’est pas  d’application (exemple)"
+    "name_nl": "periode waarin het verbod",
+    "name_fr": "période pendant laquelle"
   },
   {
     "code": "M33-P.2",
     "page": 40,
-    "name_nl": "fietsen",
-    "name_fr": "bicyclettes"
+    "name_nl": "",
+    "name_fr": ""
   },
   {
     "code": "M33-P.21",
     "page": 40,
-    "name_nl": "voertuigen of slepen  waarvan de maximaal  toegelaten massa lager is  dan of gelijk is aan de  aangeduide massa  (voorbeeld)",
-    "name_fr": "véhicules et trains de  véhicules dont la masse  maximale autorisée est  inférieure ou égale à la  masse indiquée (exemple)"
+    "name_nl": "voertuigen of slepen  waarvan de maximaal",
+    "name_fr": "véhicules et trains de"
   },
   {
     "code": "M33-P.23",
     "page": 40,
-    "name_nl": "voertuigen of slepen  waarvan de maximaal  toegelaten massa hoger is  dan de aangeduide massa  (voorbeeld)",
-    "name_fr": "véhicules et trains de  véhicules dont la masse  maximale autorisée est  supérieure à la masse  indiquée (exemple)"
+    "name_nl": "voertuigen of slepen",
+    "name_fr": "véhicules et trains de"
   },
   {
     "code": "M33-P.30",
     "page": 40,
-    "name_nl": "laden en lossen van  goederen",
-    "name_fr": "chargement et  déchargement de  marchandises"
+    "name_nl": "laden en lossen van",
+    "name_fr": "chargement et"
   },
   {
     "code": "M41a-P.1",
@@ -1382,13 +1382,13 @@
   {
     "code": "M41a-P.30",
     "page": 41,
-    "name_nl": "",
+    "name_nl": "uitgezonderd laden en",
     "name_fr": "excepté chargement et"
   },
   {
     "code": "M41a",
     "page": 41,
-    "name_nl": "uitgezonderd plaatselijk  verkeer",
+    "name_nl": "uitgezonderd plaatselijk",
     "name_fr": "excepté circulation locale"
   },
   {
@@ -1406,80 +1406,80 @@
   {
     "code": "M53",
     "page": 41,
-    "name_nl": "",
+    "name_nl": "fietsers in twee richtingen",
     "name_fr": "cyclistes dans les deux"
   },
   {
     "code": "M55a-P.8",
     "page": 41,
-    "name_nl": "verplicht voor bestuurders  van speedpedelecs",
-    "name_fr": "obligatoire pour les  conducteurs de  speedpedelecs"
+    "name_nl": "verplicht voor bestuurders",
+    "name_fr": ""
   },
   {
     "code": "M55b-P.8",
     "page": 42,
-    "name_nl": "verboden voor bestuurders  van bestuurders van  tweewielige bromfietsen  klasse B",
-    "name_fr": "interdit pour les  conducteurs de  cyclomoteurs à deux roues  classe B"
+    "name_nl": "verboden voor bestuurders",
+    "name_fr": "interdit pour les"
   },
   {
     "code": "M57a",
     "page": 42,
-    "name_nl": "uitrit rechts van een rijbaan  die in rijstroken is verdeeld",
-    "name_fr": "une sortie située à droite  d’une chaussée divisée en  bandes de circulation"
+    "name_nl": "uitrit rechts van een rijbaan",
+    "name_fr": "une sortie située à droite"
   },
   {
     "code": "M57b",
     "page": 42,
-    "name_nl": "uitrit links van een rijbaan  die in rijstroken is verdeeld",
-    "name_fr": "une sortie située à gauche  d’une chaussée divisée en  bandes de circulation"
+    "name_nl": "uitrit links van een rijbaan",
+    "name_fr": "une sortie située à gauche"
   },
   {
     "code": "M59",
     "page": 42,
-    "name_nl": "tracé van de weg waarop  de bestuurders aan het  volgend kruispunt voorrang  hebben (voorbeeld)    Het voorrangstraject  aangeduid op het  onderbord is aangepast in  functie van de  plaatsgesteldheid.",
-    "name_fr": "tracé de la voie sur  laquelle les conducteurs  ont priorité au carrefour  suivant (exemple)    Le trajet prioritaire indiqué  sur le panneau additionnel  est adapté en fonction de  la disposition des lieux."
+    "name_nl": "tracé van de weg waarop  de bestuurders aan het",
+    "name_fr": "tracé de la voie sur"
   },
   {
     "code": "M61",
     "page": 42,
-    "name_nl": "herhaling van het  verkeersbord waaronder  het is geplaatst",
-    "name_fr": "rappel du signal sous  lequel il est placé"
+    "name_nl": "herhaling van het",
+    "name_fr": "rappel du signal sous"
   },
   {
     "code": "M63",
     "page": 42,
-    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord C3  duidt een speelstraat aan.",
-    "name_fr": "Ce panneau additionnel en  dessous du signal C3  indique une rue réservée  au jeu."
+    "name_nl": "",
+    "name_fr": "Ce panneau additionnel en"
   },
   {
     "code": "M65",
     "page": 42,
-    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord C3  duidt een schoolstraat  aan.",
-    "name_fr": "Ce panneau additionnel en  dessous du signal C3  indique une rue scolaire."
+    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord C3",
+    "name_fr": ""
   },
   {
     "code": "M67",
     "page": 42,
-    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord  F98 duidt een vluchthaven  aan die is uitgerust met  een noodtelefoon en een  brandblusser.",
-    "name_fr": "Ce panneau additionnel en  dessous du signal F98  indique un refuge doté  d’un téléphone d’appel  d’urgence et d’un  extincteur."
+    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord",
+    "name_fr": "Ce panneau additionnel en  dessous du signal F98"
   },
   {
     "code": "M69",
     "page": 43,
-    "name_nl": "Een onderbord met  vermelding van de letter B,  C, D of E duidt aan dat het  verbod geldt voor alle  voertuigen die gevaarlijke  goederen vervoeren  waarvoor de toegang tot  wegtunnels van  respectievelijk categorie B,  C, D of E verboden is, zoals  deze categorieën voorzien  zijn in artikel 1.9.5.2 van  bijlage A van het Europees  verdrag betreffende het  internationaal vervoer van  gevaarlijke goederen over  de weg (ADR), ondertekend  te Genève op 30  september 1957.",
-    "name_fr": "Un panneau additionnel  portant la lettre B, C, D ou  E indique que l’interdiction  est applicable aux  véhicules transportant des  marchandises  dangereuses dont l’accès  est interdit respectivement  dans les tunnels de  catégorie B, C, D ou E,  telles que ces catégories  sont prévues par l’article  1.9.5.2 de l’annexe A de  l’accord européen relatif  au transport international  de marchandises  dangereuses par route  (ADR) fait à Genève le 30  septembre 1957."
+    "name_nl": "Een onderbord met  vermelding van de letter B,",
+    "name_fr": "Un panneau additionnel  portant la lettre B, C, D ou"
   },
   {
     "code": "M71",
     "page": 43,
-    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord F8  duidt de naam van de  tunnel aan. (voorbeeld)",
-    "name_fr": "Ce panneau additionnel en  dessous du signal F8  indique le nom du tunnel.  (exemple)"
+    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord F8",
+    "name_fr": "Ce panneau additionnel en  dessous du signal F8"
   },
   {
     "code": "M73",
     "page": 43,
-    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord  A51 duidt de aard van het  gevaar aan. (voorbeeld)  Symbolen en  opschriften op de  onderborden  voetgangers  fietsen  bakfietsen",
-    "name_fr": "Ce panneau additionnel en  dessous du signal A51  indique la nature du  danger. (exemple)  Symboles et  inscriptions sur les  panneaux  additionnels  piétons  bicyclettes  vélos cargo"
+    "name_nl": "Dit onderbord aangebracht  onder het verkeersbord",
+    "name_fr": "Ce panneau additionnel en  dessous du signal A51"
   },
   {
     "code": "V1",
@@ -1502,13 +1502,13 @@
   {
     "code": "V4",
     "page": 52,
-    "name_nl": "voertuigen bestemd voor  woon- werkverkeer  Bord voor het  begeleiden van een  groep fietsers",
-    "name_fr": "véhicules affectés aux  déplacements entre le  domicile et le lieu de  travail  Panneau d’escorte  pour un groupe de  cyclistes"
+    "name_nl": "voertuigen bestemd voor  woon- werkverkeer",
+    "name_fr": "véhicules affectés aux  déplacements entre le  domicile et le lieu de  travail"
   },
   {
     "code": "V5",
     "page": 52,
-    "name_nl": "Changelog  v. 2026-01-06  •  Aanpassing datum va •  Verbetering afbeeldin •  Toevoeging gordelpic •  Date d'entrée en vigu •  Corraction image A1d",
+    "name_nl": "",
     "name_fr": ""
   }
 ]
