@@ -55,7 +55,304 @@
   "anchor_id_fr": "ndihfhdtwp",
   "anchor_id_nl": "xiq3j55xje",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom spécifique de la ligne discontinue, composée de traits courts et rapprochés, qui est tracée pour signaler l'approche d'une ligne continue ?",
+      "text_nl": "Wat is de specifieke naam voor de onderbroken streep, bestaande uit korte, dicht bij elkaar liggende trekken, die wordt aangebracht om het naderen van een doorlopende streep aan te kondigen?",
+      "text_ru": "Как называется прерывистая линия, состоящая из коротких, близко расположенных штрихов, которая наносится для обозначения приближения к сплошной линии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An illustration of an approach marking, showing short dashes getting closer to a solid line."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une ligne d'avertissement",
+          "text_nl": "Een waarschuwingsstreep",
+          "text_ru": "Предупредительная линия",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une marque d'approche",
+          "text_nl": "Een naderingsmarkering",
+          "text_ru": "Разметка приближения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une ligne de transition",
+          "text_nl": "Een overgangsstreep",
+          "text_ru": "Переходная линия",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La marque d'approche est une ligne discontinue composée de traits d'environ 1,00 m de long et espacés d'environ 1,50 m, signalant l'approche d'une ligne continue.",
+      "explanation_nl": "De naderingsmarkering is een onderbroken streep bestaande uit trekken van ongeveer 1,00 m lengte met tussenafstanden van ongeveer 1,50 m, die het naderen van een doorlopende streep aangeeft.",
+      "explanation_ru": "Разметка приближения — это прерывистая линия, состоящая из штрихов длиной около 1,00 м и расположенных на расстоянии около 1,50 м друг от друга, указывающая на приближение к сплошной линии."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la caractéristique principale d'une ligne continue concernant la circulation des véhicules ?",
+      "text_nl": "Wat is het belangrijkste kenmerk van een doorlopende streep met betrekking tot het verkeer van voertuigen?",
+      "text_ru": "Какова основная характеристика сплошной линии разметки в отношении движения транспортных средств?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A continuous white line on a road, with a car driving alongside it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle indique une zone de stationnement autorisé.",
+          "text_nl": "Ze geeft een toegestane parkeerzone aan.",
+          "text_ru": "Она обозначает разрешенную зону парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle interdit normalement le franchissement ou le chevauchement.",
+          "text_nl": "Ze verbiedt normaal gesproken het overschrijden of overschrijden ervan.",
+          "text_ru": "Обычно она запрещает пересечение или наезд.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle délimite une bande d'arrêt d'urgence.",
+          "text_nl": "Ze bakent een vluchtstrook af.",
+          "text_ru": "Она обозначает обочину.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne continue indique que le franchissement ou le chevauchement de celle-ci est normalement interdit aux conducteurs. Elle ne peut être interrompue que dans des cas très spécifiques, comme aux carrefours dans les virages ou au sommet des côtes.",
+      "explanation_nl": "Een doorlopende streep geeft aan dat het overschrijden of overschrijden ervan normaal gesproken verboden is voor bestuurders. Ze mag alleen in zeer specifieke gevallen onderbroken worden, zoals op kruispunten in bochten of op de top van hellingen.",
+      "explanation_ru": "Сплошная линия означает, что пересечение или наезд на нее обычно запрещены водителям. Она может быть прервана только в очень специфических случаях, например, на перекрестках на поворотах или на вершинах холмов."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les caractéristiques visuelles d'une marque longitudinale désignant une bande de circulation réservée aux véhicules de transport en commun et quels éléments doivent y être répétés ?",
+      "text_nl": "Wat zijn de visuele kenmerken van een overlangse markering die een rijstrook aanduidt die is voorbehouden aan voertuigen van het openbaar vervoer en welke elementen moeten daarop herhaald worden?",
+      "text_ru": "Каковы визуальные характеристики продольной разметки, обозначающей полосу движения, зарезервированную для общественного транспорта, и какие элементы должны быть на ней повторены?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A road lane marked with wide dashed lines and the word 'BUS' painted on it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une ligne continue jaune avec l'inscription 'TAXI'.",
+          "text_nl": "Het is een doorlopende gele streep met de aanduiding 'TAXI'.",
+          "text_ru": "Это сплошная желтая линия с надписью 'TAXI'.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est une ligne discontinue composée de traits larges (environ 0,30 m) et le mot 'BUS' doit être répété après chaque carrefour.",
+          "text_nl": "Het is een onderbroken streep bestaande uit brede trekken (ongeveer 0,30 m) en het woord 'BUS' moet na elk kruispunt herhaald worden.",
+          "text_ru": "Это прерывистая линия, состоящая из широких штрихов (около 0,30 м), и слово 'BUS' должно повторяться после каждого перекрестка.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une double ligne discontinue verte sans inscription spécifique.",
+          "text_nl": "Het is een dubbele onderbroken groene streep zonder specifieke aanduiding.",
+          "text_ru": "Это двойная прерывистая зеленая линия без специальной надписи.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La ligne désignant une bande réservée aux véhicules de transport en commun est une ligne discontinue dont les traits sont d'environ 0,30 m de largeur. De plus, le mot 'BUS' doit être répété après chaque carrefour dans cette bande.",
+      "explanation_nl": "De streep die een rijstrook aanduidt die is voorbehouden aan voertuigen van het openbaar vervoer is een onderbroken streep met trekken van ongeveer 0,30 m breedte. Bovendien moet het woord 'BUS' na elk kruispunt in deze rijstrook herhaald worden.",
+      "explanation_ru": "Линия, обозначающая полосу, зарезервированную для общественного транспорта, представляет собой прерывистую линию, штрихи которой имеют ширину около 0,30 м. Кроме того, слово 'BUS' должно повторяться после каждого перекрестка на этой полосе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route sinueuse à deux voies en dehors d'une agglomération et vous rencontrez une ligne blanche continue dans un virage. Est-il autorisé de dépasser un autre véhicule ?",
+      "text_nl": "U rijdt op een kronkelige tweebaansweg buiten de bebouwde kom en u ziet een doorlopende witte streep in een bocht. Is het toegestaan om een ander voertuig in te halen?",
+      "text_ru": "Вы едете по извилистой двухполосной дороге вне населенного пункта и видите сплошную белую линию на повороте. Разрешено ли обгонять другое транспортное средство?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving on a winding two-lane road with a continuous white line in a curve. Another car is in front."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si la visibilité est bonne et qu'il n'y a pas de véhicules venant en sens inverse.",
+          "text_nl": "Ja, als het zicht goed is en er geen tegenliggers zijn.",
+          "text_ru": "Да, если видимость хорошая и нет встречных транспортных средств.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, une ligne continue dans un virage interdit le dépassement et le franchissement, sauf aux carrefours.",
+          "text_nl": "Nee, een doorlopende streep in een bocht verbiedt inhalen en overschrijden, behalve op kruispunten.",
+          "text_ru": "Нет, сплошная линия на повороте запрещает обгон и пересечение, за исключением перекрестков.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement si la vitesse est très réduite.",
+          "text_nl": "Ja, maar alleen als de snelheid erg laag is.",
+          "text_ru": "Да, но только если скорость очень низкая.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Sur une route avec deux ou trois bandes de circulation, une ligne continue tracée dans un virage ou au sommet d'une côte ne peut être interrompue qu'aux carrefours. Par conséquent, il est interdit de la franchir ou de la chevaucher, et donc de dépasser, dans cette situation.",
+      "explanation_nl": "Op een weg met twee of drie rijstroken mag een doorlopende streep getrokken in een bocht of op de top van een helling alleen onderbroken worden op kruispunten. Daarom is het verboden om deze streep te overschrijden of te overschrijden, en dus in te halen, in deze situatie.",
+      "explanation_ru": "На дороге с двумя или тремя полосами движения сплошная линия, нанесенная на повороте или на вершине холма, может быть прервана только на перекрестках. Следовательно, в этой ситуации запрещено пересекать или наезжать на нее, а значит, и обгонять."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur une autoroute où une ligne continue est tracée juste à côté d'une ligne discontinue. Vous vous trouvez dans la voie adjacente à la ligne discontinue. Pouvez-vous changer de voie en franchissant ces deux lignes vers la gauche ?",
+      "text_nl": "U rijdt op een autosnelweg waar een doorlopende streep direct naast een onderbroken streep is getrokken. U bevindt zich op de rijstrook naast de onderbroken streep. Kunt u van rijstrook wisselen door deze twee strepen naar links over te steken?",
+      "text_ru": "Вы едете по автомагистрали, где сплошная линия проведена рядом с прерывистой линией. Вы находитесь на полосе, примыкающей к прерывистой линии. Можете ли вы перестроиться, пересекая эти две линии налево?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An overhead view of a highway with adjacent continuous and discontinuous white lines. A car is on the side of the discontinuous line."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, le franchissement est autorisé depuis la voie adjacente à la ligne discontinue.",
+          "text_nl": "Ja, het overschrijden is toegestaan vanaf de rijstrook naast de onderbroken streep.",
+          "text_ru": "Да, пересечение разрешено со стороны, прилегающей к прерывистой линии.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, le franchissement d'une ligne continue est toujours interdit, quelle que soit la ligne adjacente.",
+          "text_nl": "Nee, het overschrijden van een doorlopende streep is altijd verboden, ongeacht de aangrenzende streep.",
+          "text_ru": "Нет, пересечение сплошной линии всегда запрещено, независимо от соседней линии.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais uniquement pour dépasser un véhicule lent.",
+          "text_nl": "Ja, maar alleen om een langzaam voertuig in te halen.",
+          "text_ru": "Да, но только для обгона медленного транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque des lignes continue et discontinue sont juxtaposées, le conducteur est autorisé à franchir ou à chevaucher ces lignes uniquement si la ligne la plus proche de son véhicule est la ligne discontinue. Dans cette situation, vous êtes du côté de la ligne discontinue, le franchissement est donc permis.",
+      "explanation_nl": "Wanneer doorlopende en onderbroken strepen naast elkaar zijn getrokken, mag de bestuurder deze strepen alleen overschrijden of overschrijden als de streep die het dichtst bij zijn voertuig ligt de onderbroken streep is. In deze situatie bevindt u zich aan de kant van de onderbroken streep, dus is het overschrijden toegestaan.",
+      "explanation_ru": "Когда сплошная и прерывистая линии расположены рядом, водитель может пересекать или наезжать на эти линии только в том случае, если ближайшая к его транспортному средству линия является прерывистой. В данной ситуации вы находитесь со стороны прерывистой линии, поэтому пересечение разрешено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez votre voiture personnelle sur une route et observez une bande de circulation délimitée par de larges traits discontinus d'environ 0,30 m de large et la mention 'BUS' est fréquemment peinte au sol. Pouvez-vous utiliser cette bande pour faciliter votre progression en cas de trafic dense ?",
+      "text_nl": "U rijdt met uw personenauto op een weg en ziet een rijstrook die is afgebakend door brede onderbroken trekken van ongeveer 0,30 m breed en de aanduiding 'BUS' is veelvuldig op de grond geschilderd. Mag u deze rijstrook gebruiken om sneller door te rijden bij druk verkeer?",
+      "text_ru": "Вы едете на личном автомобиле по дороге и видите полосу движения, обозначенную широкими прерывистыми линиями шириной около 0,30 м, и слово «BUS» часто нарисовано на асфальте. Можете ли вы использовать эту полосу для облегчения движения в условиях плотного трафика?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving next to a lane reserved for public transport, marked with wide dashed lines and the word 'BUS'."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si la ligne est discontinue, elle peut être franchie temporairement.",
+          "text_nl": "Ja, als de streep onderbroken is, mag deze tijdelijk overschreden worden.",
+          "text_ru": "Да, если линия прерывистая, ее можно временно пересекать.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, cette bande est exclusivement réservée aux véhicules des services publics de transport en commun et aux véhicules de ramassage scolaire.",
+          "text_nl": "Nee, deze rijstrook is uitsluitend voorbehouden aan voertuigen van openbare diensten voor gemeenschappelijk vervoer en aan voertuigen bestemd voor het ophalen van leerlingen.",
+          "text_ru": "Нет, эта полоса предназначена исключительно для транспортных средств общественного транспорта и школьных автобусов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, en dehors des heures de pointe.",
+          "text_nl": "Ja, buiten de spitsuren.",
+          "text_ru": "Да, вне часов пик.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les marques longitudinales constituées de larges traits discontinus avec l'inscription 'BUS' délimitent une bande de circulation exclusivement réservée aux véhicules des services publics réguliers de transport en commun et aux véhicules affectés au ramassage scolaire. Les autres véhicules n'y sont pas autorisés.",
+      "explanation_nl": "De overlangse markeringen bestaande uit brede onderbroken trekken met de aanduiding 'BUS' bakenen een rijstrook af die uitsluitend is voorbehouden aan voertuigen van geregelde openbare diensten voor gemeenschappelijk vervoer en aan voertuigen bestemd voor het ophalen van leerlingen. Andere voertuigen zijn daar niet toegestaan.",
+      "explanation_ru": "Продольная разметка, состоящая из широких прерывистых штрихов с надписью «BUS», обозначает полосу движения, предназначенную исключительно для транспортных средств регулярных служб общественного транспорта и транспортных средств, используемых для школьных перевозок. Другим транспортным средствам запрещено находиться на ней."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes en train de rouler et vous remarquez des lignes pointillées blanches courtes et rapprochées sur la chaussée, qui deviennent ensuite une ligne continue. Que vous indique cette marque spécifique ?",
+      "text_nl": "U bent aan het rijden en u merkt korte en dicht bij elkaar liggende witte stippellijnen op het wegdek, die vervolgens overgaan in een doorlopende streep. Wat geeft deze specifieke markering u aan?",
+      "text_ru": "Вы едете и замечаете короткие и близко расположенные прерывистые белые линии на проезжей части, которые затем переходят в сплошную линию. Что означает эта конкретная разметка?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car approaching an approach marking on the road, with short dashes transitioning into a continuous line."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous êtes sur une voie cyclable.",
+          "text_nl": "U bevindt zich op een fietspad.",
+          "text_ru": "Вы находитесь на велосипедной дорожке.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous approchez d'une ligne continue et devez vous préparer à ne plus pouvoir la franchir.",
+          "text_nl": "U nadert een doorlopende streep en moet zich voorbereiden om deze niet meer te mogen overschrijden.",
+          "text_ru": "Вы приближаетесь к сплошной линии и должны быть готовы к тому, что ее нельзя будет пересекать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il s'agit d'une zone où le stationnement est autorisé temporairement.",
+          "text_nl": "Dit is een zone waar tijdelijk parkeren is toegestaan.",
+          "text_ru": "Это зона, где временно разрешена парковка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Cette description correspond à une marque d'approche, une ligne discontinue dont les traits sont courts et rapprochés. Elle est tracée pour signaler l'approche d'une ligne continue, indiquant qu'il faut se préparer à ce que le franchissement devienne interdit.",
+      "explanation_nl": "Deze beschrijving komt overeen met een naderingsmarkering, een onderbroken streep waarvan de trekken kort en dicht bij elkaar liggen. Ze wordt aangebracht om het naderen van een doorlopende streep aan te kondigen, wat aangeeft dat men zich moet voorbereiden op het feit dat het overschrijden verboden wordt.",
+      "explanation_ru": "Это описание соответствует разметке приближения — прерывистой линии с короткими и близко расположенными штрихами. Она наносится для обозначения приближения к сплошной линии, указывая на необходимость подготовиться к тому, что пересечение станет запрещено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "En tant qu'ingénieur routier, vous concevez une nouvelle section de route hors agglomération. Quelle est la largeur minimale requise pour chaque bande de circulation afin de pouvoir y tracer des marques longitudinales standards (lignes continues ou discontinues) ?",
+      "text_nl": "Als wegenbouwkundige ontwerpt u een nieuw weggedeelte buiten de bebouwde kom. Wat is de minimaal vereiste breedte voor elke rijstrook om standaard overlangse markeringen (doorlopende of onderbroken strepen) aan te kunnen brengen?",
+      "text_ru": "Как дорожный инженер, вы проектируете новый участок дороги вне населенного пункта. Какова минимально необходимая ширина каждой полосы движения для нанесения стандартной продольной разметки (сплошных или прерывистых линий)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An empty, newly paved road section with measurements for lane width shown. A construction worker is present."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au moins 2,50 m",
+          "text_nl": "Minstens 2,50 m",
+          "text_ru": "Не менее 2,50 м",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au moins 2,75 m",
+          "text_nl": "Minstens 2,75 m",
+          "text_ru": "Не менее 2,75 м",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Au moins 3,00 m",
+          "text_nl": "Minstens 3,00 m",
+          "text_ru": "Не менее 3,00 м",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les marques longitudinales indiquant les bandes de circulation ne peuvent être tracées que si la largeur des bandes de circulation est d'au moins 2,75 m, sauf à l'approche d'un carrefour ou dans des cas particuliers.",
+      "explanation_nl": "De overlangse markeringen die de rijstroken aanduiden, mogen slechts aangebracht worden indien de rijstroken ten minste 2,75 m breed zijn, behoudens bij het naderen van een kruispunt of in bijzondere gevallen.",
+      "explanation_ru": "Продольная разметка, обозначающая полосы движения, может быть нанесена только в том случае, если ширина полос движения составляет не менее 2,75 м, за исключением случаев приближения к перекрестку или в особых случаях."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "405b69ed48e6",
@@ -65,6 +362,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:03:51Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

@@ -1,6 +1,6 @@
 # PRAVA — Documentation des scripts
 
-> Dernière mise à jour : 2 mars 2026
+> Dernière mise à jour : 12 mars 2026
 
 ---
 
@@ -8,21 +8,23 @@
 
 ```
 scripts/
-├── pipeline/          ← Scripts exécutables du pipeline principal
+├── pipeline/                  ← Pipeline principal (lois → questions → BDD)
 │   ├── 01_scrape.py
 │   ├── 02_translate.py
 │   ├── 03_process.py
 │   ├── 04_questions.py
 │   └── 05_import.py
-├── utils/             ← Utilitaires partagés (importés par le pipeline)
+├── extract_signs_full.py      ← Extraction signes depuis signaux.pdf → PNG + JSON
+├── extract_signs_test.py      ← Version test (pages 3–6 seulement)
+├── utils/                     ← Utilitaires partagés (importés par le pipeline)
 │   ├── __init__.py
 │   ├── http_client.py
 │   ├── json_helpers.py
 │   ├── deepl_client.py
 │   └── gemini_client.py
-└── archive/           ← Anciens scripts (NE PAS EXÉCUTER — référence uniquement)
-    ├── scripts_old/   ← 35 scripts d'exploration initiale
-    └── *.py           ← Scripts de la v1 du projet
+└── archive/                   ← Anciens scripts (NE PAS EXÉCUTER — référence uniquement)
+    ├── scripts_old/           ← 35 scripts d'exploration initiale
+    └── *.py                   ← Scripts de la v1 du projet
 ```
 
 ---
@@ -193,3 +195,56 @@ Fonctions utilitaires :
 | `scrape_reglementation_universal.py` | V2 du scraper | Skeleton plus avancé |
 | `universal_reglementation_parser.py` | Parser avancé | Logique de parsing HTML |
 | `import_exam_questions.py` | Import V1 | Logique d'import BDD |
+
+---
+
+## extract_signs_full.py — Extraction des signes routiers depuis PDF
+
+**Statut :** ✅ Fonctionnel — 252 signes extraits (12 mars 2026)
+
+**Dépendances :** `pymupdf`, `Pillow` (installés system-wide via `pip3`, pas dans venv)
+
+**Usage :**
+```bash
+python3 scripts/extract_signs_full.py
+```
+
+**Ce que ça fait :**
+- Ouvre `signaux.pdf` (catalogue belge officiel, valid dès 01/06/2027)
+- Détecte le tableau 3 colonnes sur chaque page via `page.find_tables()`
+- Pour chaque ligne avec un code de signe dans la cellule centrale :
+  - Extrait les descriptions NL (colonne gauche) et FR (colonne droite)
+  - Trouve la ligne image suivante (cellule centrale vide = image vectorielle)
+  - Rend le clip PNG à 3× zoom (≈216 DPI)
+  - Remplace le fond gris `(216,217,216)` → blanc (flood-fill depuis les 4 coins)
+- Sauvegarde chaque signe en `data/signs/{CODE}.png`
+- Crée `data/signs/signs_index.json` avec `{code, page, name_nl, name_fr}`
+
+**Output :**
+```
+data/signs/A1a.png, A1b.png, ... Z1.png  (252 fichiers PNG)
+data/signs/signs_index.json
+```
+
+**Structure du JSON :**
+```json
+[
+  {
+    "code": "A7a",
+    "page": 3,
+    "name_nl": "rijbaanversmalling",
+    "name_fr": "rétrécissement de la chaussée"
+  },
+  ...
+]
+```
+
+**Problèmes connus :**
+- `A25` : image vide (la ligne image est à `i+2` au lieu de `i+1` sur cette page)
+  → PNG créé mais ne contient que le code texte. À corriger manuellement ou via patch.
+- Fond gris résiduel sur certains signes : le flood-fill (thresh=12) ne couvre pas
+  tous les pixels gris si le signe a des coins arrondis touchant le bord de cellule.
+- Codes `M33-P.2`, `M41a-P.1` etc. : variantes panel — un seul PNG pour la famille,
+  dédupliqué via `seen` set.
+
+**Prochaine étape :** `scripts/import_signs.py` — lire le JSON et peupler `TrafficSign` en BDD.

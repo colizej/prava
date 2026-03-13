@@ -55,7 +55,304 @@
   "anchor_id_fr": "sexgxwapxd",
   "anchor_id_nl": "6ealldsnop",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le rôle principal des flèches de sélection tracées sur la chaussée avant un carrefour ?",
+      "text_nl": "Wat is de voornaamste rol van de voorsorteringspijlen die op de rijbaan vóór een kruispunt zijn aangebracht?",
+      "text_ru": "Какова основная роль стрелок выбора полосы движения, нанесенных на проезжую часть перед перекрестком?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Illustration of selection arrows on a road before an intersection"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles indiquent une zone de stationnement temporaire.",
+          "text_nl": "Ze duiden een tijdelijke parkeerzone aan.",
+          "text_ru": "Они указывают на временную зону парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles guident les conducteurs vers la bande de circulation appropriée pour la direction qu'ils souhaitent prendre.",
+          "text_nl": "Ze leiden bestuurders naar de juiste rijstrook voor de richting die ze willen nemen.",
+          "text_ru": "Они направляют водителей на соответствующую полосу движения для выбранного ими направления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles signalent un danger imminent sur la route.",
+          "text_nl": "Ze signaleren een dreigend gevaar op de weg.",
+          "text_ru": "Они сигнализируют о непосредственной опасности на дороге.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les flèches de sélection sont des marques au sol qui indiquent aux conducteurs la ou les directions permises depuis une bande de circulation donnée avant un carrefour, afin de faciliter le bon positionnement.",
+      "explanation_nl": "Voorsorteringspijlen zijn markeringen op de grond die bestuurders de toegestane richting(en) aangeven vanaf een bepaalde rijstrook vóór een kruispunt, om zo een juiste positionering te vergemakkelijken.",
+      "explanation_ru": "Стрелки выбора полосы — это дорожная разметка, которая указывает водителям разрешенное направление (или направления) с данной полосы движения перед перекрестком, чтобы облегчить правильное позиционирование."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la fonction principale d'une zone hachurée sur la chaussée, délimitée par une ligne blanche continue (appelée îlot directionnel ou zone d'évitement) ?",
+      "text_nl": "Wat is de belangrijkste functie van een gearceerde zone op de rijbaan, afgebakend door een doorlopende witte streep (genaamd verkeersgeleider of verdrijvingsvlak)?",
+      "text_ru": "Какова основная функция заштрихованной зоны на проезжей части, ограниченной сплошной белой линией (называемой направляющим островком или зоной исключения)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of a hatched area (traffic island/zone d'évitement) on a road"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une zone où le stationnement est autorisé pour les véhicules de livraison.",
+          "text_nl": "Het is een zone waar parkeren is toegestaan voor leveringsvoertuigen.",
+          "text_ru": "Это зона, где разрешена парковка для грузовых автомобилей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est un espace destiné à canaliser le trafic et sur lequel il est interdit de rouler ou de stationner.",
+          "text_nl": "Het is een ruimte bestemd om het verkeer te kanaliseren en waarop het verboden is te rijden of te parkeren.",
+          "text_ru": "Это пространство, предназначенное для направления движения, на котором запрещено движение или стоянка.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une zone réservée aux piétons pour traverser la route en toute sécurité.",
+          "text_nl": "Het is een zone gereserveerd voor voetgangers om veilig de weg over te steken.",
+          "text_ru": "Это зона, предназначенная для безопасного перехода дороги пешеходами.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les îlots directionnels et zones d'évitement sont des marques au sol qui canalisent le trafic. Il est interdit d'y rouler ou d'y stationner. Ils sont délimités par une ligne blanche continue et remplis de lignes parallèles inclinées.",
+      "explanation_nl": "Verkeersgeleiders en verdrijvingsvlakken zijn markeringen op de grond die het verkeer kanaliseren. Het is verboden erop te rijden of te parkeren. Ze zijn afgebakend met een doorlopende witte streep en gevuld met schuine parallelle strepen.",
+      "explanation_ru": "Направляющие островки и зоны исключения — это дорожная разметка, которая направляет транспортный поток. Движение или стоянка на них запрещены. Они обозначаются сплошной белой линией и заполнены наклонными параллельными линиями."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'une 'zone avancée' pour cyclistes et conducteurs de cyclomoteurs à deux roues et à quoi sert-elle ?",
+      "text_nl": "Wat is een 'vooruitgeschoven opstelvak' voor fietsers en bestuurders van tweewielige bromfietsen en waarvoor dient het?",
+      "text_ru": "Что такое 'передовая зона ожидания' для велосипедистов и водителей двухколесных мопедов и для чего она служит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image showing an advanced stop line for cyclists at a traffic light, with bicycles positioned in it."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est une zone de repos pour les cyclistes fatigués.",
+          "text_nl": "Het is een rustzone voor vermoeide fietsers.",
+          "text_ru": "Это зона отдыха для уставших велосипедистов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est un espace délimité avant les feux de circulation permettant aux cyclistes et cyclomoteurs de se positionner devant les véhicules motorisés.",
+          "text_nl": "Het is een afgebakende ruimte vóór verkeerslichten die fietsers en bromfietsers in staat stelt zich vóór gemotoriseerde voertuigen op te stellen.",
+          "text_ru": "Это обозначенная зона перед светофорами, позволяющая велосипедистам и мопедам расположиться перед моторизованными транспортными средствами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une zone réservée au stationnement des vélos en libre-service.",
+          "text_nl": "Het is een zone gereserveerd voor het stallen van deelfietsen.",
+          "text_ru": "Это зона, предназначенная для парковки велосипедов на прокат.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une zone avancée est un espace matérialisé au sol avant un carrefour à feux pour permettre aux usagers vulnérables de se positionner en toute sécurité et d'être plus visibles avant le départ des véhicules motorisés.",
+      "explanation_nl": "Een vooruitgeschoven opstelvak is een op de grond gemarkeerde ruimte vóór een kruispunt met verkeerslichten om kwetsbare weggebruikers in staat te stellen zich veilig op te stellen en beter zichtbaar te zijn voordat gemotoriseerde voertuigen vertrekken.",
+      "explanation_ru": "Передовая зона ожидания — это обозначенное на земле пространство перед перекрестком со светофорами, предназначенное для того, чтобы уязвимые участники дорожного движения могли безопасно расположиться и быть более заметными перед началом движения моторизованных транспортных средств."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous approchez d'un carrefour où des flèches de sélection sont tracées sur la chaussée. Que devez-vous faire en tant que conducteur pour prendre la bonne direction ?",
+      "text_nl": "U nadert een kruispunt waar voorsorteringspijlen op de rijbaan zijn aangebracht. Wat moet u als bestuurder doen om de juiste richting te nemen?",
+      "text_ru": "Вы приближаетесь к перекрестку, где на проезжей части нанесены стрелки выбора полосы. Что вы должны делать как водитель, чтобы выбрать правильное направление?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Car approaching an intersection with clear selection arrows indicating left, straight, and right turns for different lanes."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez choisir votre direction à tout moment, même après le début du carrefour.",
+          "text_nl": "U mag uw richting op elk moment kiezen, zelfs na het begin van het kruispunt.",
+          "text_ru": "Вы можете выбрать свое направление в любое время, даже после начала перекрестка.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez choisir la bande de circulation correspondant à votre direction avant que les flèches ne se terminent et ne plus en changer.",
+          "text_nl": "U moet de rijstrook kiezen die overeenkomt met uw richting voordat de pijlen eindigen en daarna niet meer van rijstrook veranderen.",
+          "text_ru": "Вы должны выбрать полосу движения, соответствующую вашему направлению, до окончания стрелок и больше не менять ее.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez suivre la direction indiquée par la flèche du véhicule devant vous, quelle que soit votre intention.",
+          "text_nl": "U moet de richting volgen die wordt aangegeven door de pijl van het voertuig voor u, ongeacht uw bedoeling.",
+          "text_ru": "Вы должны следовать направлению, указанному стрелкой транспортного средства перед вами, независимо от вашего намерения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les flèches de sélection vous obligent à vous positionner sur la bande correcte avant le carrefour et à ne plus en changer pour ne pas gêner les autres usagers.",
+      "explanation_nl": "Voorsorteringspijlen verplichten u om u vóór het kruispunt op de juiste rijstrook te plaatsen en daarna niet meer te veranderen om andere weggebruikers niet te hinderen.",
+      "explanation_ru": "Стрелки выбора полосы обязывают вас занять правильную полосу перед перекрестком и не менять ее, чтобы не мешать другим участникам дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route à plusieurs bandes et vous voyez des flèches de rabattement apparaître sur votre bande. Quelle action devez-vous entreprendre ?",
+      "text_nl": "U rijdt op een weg met meerdere rijstroken en u ziet rijstrookverminderingspijlen op uw rijstrook verschijnen. Welke actie moet u ondernemen?",
+      "text_ru": "Вы едете по дороге с несколькими полосами движения и видите, как на вашей полосе появляются стрелки сокращения полосы. Какие действия вы должны предпринять?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Car driving on a multi-lane road, with merging/lane reduction arrows painted on the lane, indicating the lane is ending."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez continuer normalement, ces flèches indiquent une voie rapide.",
+          "text_nl": "U kunt normaal doorrijden, deze pijlen duiden een snelle rijstrook aan.",
+          "text_ru": "Вы можете ехать как обычно, эти стрелки указывают на скоростную полосу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre bande de circulation va prendre fin, vous devez vous rabattre vers une autre bande de circulation le plus tôt possible et en toute sécurité.",
+          "text_nl": "Uw rijstrook zal eindigen, u moet zo snel mogelijk en veilig naar een andere rijstrook invoegen.",
+          "text_ru": "Ваша полоса движения скоро закончится, вы должны как можно раньше и безопасно перестроиться на другую полосу движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ces flèches signalent un emplacement de stationnement réservé.",
+          "text_nl": "Deze pijlen signaleren een gereserveerde parkeerplaats.",
+          "text_ru": "Эти стрелки указывают на зарезервированное парковочное место.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les flèches de rabattement indiquent que la bande de circulation sur laquelle vous vous trouvez va se terminer ou ne peut plus être empruntée, et que vous devez vous insérer dans la circulation des bandes adjacentes.",
+      "explanation_nl": "Rijstrookverminderingspijlen geven aan dat de rijstrook waarop u zich bevindt zal eindigen of niet meer mag gevolgd worden, en dat u moet invoegen in het verkeer van de aangrenzende rijstroken.",
+      "explanation_ru": "Стрелки сокращения полосы указывают, что полоса движения, по которой вы едете, заканчивается или больше не может использоваться, и вы должны влиться в поток движения на соседних полосах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "En tant que conducteur, vous rencontrez sur la chaussée une zone marquée en damier blanc. Quel comportement devez-vous adopter vis-à-vis de cette zone ?",
+      "text_nl": "Als bestuurder komt u op de rijbaan een met witte dambordmarkeringen gemarkeerde zone tegen. Welk gedrag moet u aannemen ten opzichte van deze zone?",
+      "text_ru": "Как водитель, вы встречаете на проезжей части зону, отмеченную белой шахматной разметкой. Какое поведение вы должны принять по отношению к этой зоне?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Image of checkerboard markings on a road indicating a special public transport lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous pouvez y circuler si la circulation est dense et y stationner brièvement.",
+          "text_nl": "U mag er rijden als het verkeer druk is en er kort parkeren.",
+          "text_ru": "Вы можете двигаться по ней, если движение плотное, и кратковременно парковаться.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Cette zone est exclusivement réservée aux véhicules des services réguliers de transports en commun, vous ne devez pas y circuler sauf nécessité absolue.",
+          "text_nl": "Deze zone is uitsluitend gereserveerd voor voertuigen van de reguliere openbare vervoersdiensten, u mag er niet rijden behalve in geval van absolute noodzaak.",
+          "text_ru": "Эта зона исключительно зарезервирована для регулярных транспортных средств общественного транспорта, вы не должны двигаться по ней, кроме крайней необходимости.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est une zone de ralentissement où vous devez réduire votre vitesse et céder le passage.",
+          "text_nl": "Het is een snelheidsbeperkingszone waar u uw snelheid moet verminderen en voorrang moet verlenen.",
+          "text_ru": "Это зона замедления, где вы должны снизить скорость и уступить дорогу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les marques en damier sont utilisées pour délimiter les espaces réservés aux véhicules des services réguliers des transports en commun sur des sites spéciaux. Les autres véhicules ne doivent pas y circuler.",
+      "explanation_nl": "Dambordmarkeringen worden gebruikt om de ruimtes af te bakenen die zijn gereserveerd voor voertuigen van de reguliere openbare vervoersdiensten op speciale sites. Andere voertuigen mogen er niet rijden.",
+      "explanation_ru": "Шахматная разметка используется для обозначения мест, предназначенных для регулярных транспортных средств общественного транспорта на специальных участках. Другие транспортные средства не должны двигаться по ним."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous voulez stationner votre véhicule et vous trouvez un emplacement délimité par des lignes sur le sol. Une partie de cet emplacement se situe sur le trottoir. Que devez-vous vérifier avant de vous garer ?",
+      "text_nl": "U wilt uw voertuig parkeren en u vindt een plaats die is afgebakend met strepen op de grond. Een deel van deze plaats bevindt zich op het trottoir. Wat moet u controleren voordat u parkeert?",
+      "text_ru": "Вы хотите припарковать свой автомобиль и находите место, обозначенное линиями на земле. Часть этого места находится на тротуаре. Что вы должны проверить, прежде чем припарковаться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Car attempting to park in a marked spot that partially extends onto the sidewalk, with a pedestrian walking past."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que personne ne marche sur le trottoir au moment de votre stationnement.",
+          "text_nl": "Dat er niemand op het trottoir loopt op het moment van uw parkeren.",
+          "text_ru": "Что никто не идет по тротуару в момент вашей парковки.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Que la largeur restante de la bande praticable pour les piétons le long du trottoir soit d'au moins 1,50 mètre.",
+          "text_nl": "Dat de resterende breedte van het begaanbare gedeelte voor voetgangers langs het trottoir ten minste 1,50 meter bedraagt.",
+          "text_ru": "Что оставшаяся ширина проходимой полосы для пешеходов вдоль тротуара составляет не менее 1,50 метра.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que la partie sur le trottoir est uniquement destinée aux roues avant de votre véhicule.",
+          "text_nl": "Dat het deel op het trottoir alleen bestemd is voor de voorwielen van uw voertuig.",
+          "text_ru": "Что часть на тротуаре предназначена только для передних колес вашего автомобиля.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les marques de stationnement sur l'accotement en saillie ou le trottoir ne sont autorisées que si une bande praticable pour les piétons d'au moins 1,50 mètre de largeur subsiste du côté extérieur de la voie publique.",
+      "explanation_nl": "Parkeermarkeringen op de uitstekende berm of het trottoir zijn alleen toegestaan als er aan de buitenkant van de openbare weg een begaanbaar pad voor voetgangers van ten minste 1,50 meter breed overblijft.",
+      "explanation_ru": "Разметка парковочных мест на выступающей обочине или тротуаре разрешена только при условии, что с внешней стороны дороги остается проходимая полоса для пешеходов шириной не менее 1,50 метра."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous circulez sur une route où la vitesse maximale autorisée est de 50 km/h. Vous voyez une flèche de sélection au sol avant un carrefour. Quelle est la longueur approximative de cette flèche ?",
+      "text_nl": "U rijdt op een weg waar de maximaal toegestane snelheid 50 km/u is. U ziet een voorsorteringspijl op de grond vóór een kruispunt. Wat is de geschatte lengte van deze pijl?",
+      "text_ru": "Вы едете по дороге, где максимальная разрешенная скорость составляет 50 км/ч. Вы видите стрелку выбора полосы на земле перед перекрестком. Какова приблизительная длина этой стрелки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A single selection arrow on a road, with a speed limit sign for 50 km/h in the background."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Environ 7,50 mètres.",
+          "text_nl": "Ongeveer 7,50 meter.",
+          "text_ru": "Примерно 7,50 метра.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Environ 5,00 mètres.",
+          "text_nl": "Ongeveer 5,00 meter.",
+          "text_ru": "Примерно 5,00 метра.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Environ 10,00 mètres.",
+          "text_nl": "Ongeveer 10,00 meter.",
+          "text_ru": "Примерно 10,00 метра.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Sur les routes où la vitesse maximale autorisée est inférieure ou égale à 70 km/h, la longueur des flèches de sélection est d'environ 5,00 m.",
+      "explanation_nl": "Op wegen waar de maximaal toegestane snelheid lager is dan of gelijk aan 70 km/u, is de lengte van voorsorteringspijlen ongeveer 5,00 m.",
+      "explanation_ru": "На дорогах, где максимальная разрешенная скорость ниже или равна 70 км/ч, длина стрелок выбора полосы составляет примерно 5,00 м."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "aefbbdd85ba4",
@@ -65,6 +362,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:06:54Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

@@ -26,7 +26,304 @@
   "anchor_id_fr": "gpfv6fmrav",
   "anchor_id_nl": "aykeanhezf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Lorsqu'une infraction est commise avec un véhicule et que le conducteur n'est pas identifié au moment des faits, quelle est la première personne à qui la loi attribue la responsabilité de l'infraction si le véhicule est immatriculé au nom d'une personne physique ?",
+      "text_nl": "Wanneer een overtreding wordt begaan met een voertuig en de bestuurder niet wordt geïdentificeerd op het moment van de feiten, aan welke persoon schrijft de wet dan in eerste instantie de verantwoordelijkheid voor de overtreding toe, indien het voertuig op naam van een natuurlijke persoon is ingeschreven?",
+      "text_ru": "Если нарушение совершено на транспортном средстве, и личность водителя не была установлена на момент нарушения, кто по закону несет первоначальную ответственность за нарушение, если транспортное средство зарегистрировано на физическое лицо?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le garagiste qui a entretenu le véhicule.",
+          "text_nl": "De garagist die het voertuig onderhield.",
+          "text_ru": "Механик, который обслуживал транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le titulaire de la plaque d'immatriculation du véhicule.",
+          "text_nl": "De houder van de kentekenplaat van het voertuig.",
+          "text_ru": "Владелец номерного знака транспортного средства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le constructeur du véhicule.",
+          "text_nl": "De fabrikant van het voertuig.",
+          "text_ru": "Производитель транспортного средства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La loi présume que le titulaire de la plaque d'immatriculation est le conducteur si celui-ci n'a pas été identifié au moment de l'infraction.",
+      "explanation_nl": "De wet vermoedt dat de houder van de kentekenplaat de bestuurder is indien deze niet werd geïdentificeerd op het moment van de overtreding.",
+      "explanation_ru": "Закон предполагает, что владелец номерного знака является водителем, если личность водителя не была установлена на момент нарушения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles circonstances spécifiques le titulaire de la plaque d'immatriculation n'est-il pas tenu de communiquer l'identité du conducteur réel après avoir prouvé qu'il n'était pas au volant ?",
+      "text_nl": "In welke specifieke omstandigheden is de houder van de kentekenplaat niet verplicht de identiteit van de werkelijke bestuurder mee te delen nadat hij heeft bewezen dat hij niet achter het stuur zat?",
+      "text_ru": "При каких конкретных обстоятельствах владелец номерного знака не обязан сообщать личность фактического водителя после того, как доказал, что не находился за рулем?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'il ne connaît pas le conducteur.",
+          "text_nl": "Als hij de bestuurder niet kent.",
+          "text_ru": "Если он не знает водителя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'il peut prouver le vol, la fraude ou la force majeure.",
+          "text_nl": "Als hij diefstal, fraude of overmacht kan bewijzen.",
+          "text_ru": "Если он может доказать кражу, мошенничество или форс-мажор.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si l'infraction est mineure.",
+          "text_nl": "Als de overtreding gering is.",
+          "text_ru": "Если нарушение незначительное.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le titulaire de la plaque d'immatriculation doit communiquer l'identité du conducteur, sauf s'il peut prouver le vol, la fraude ou la force majeure.",
+      "explanation_nl": "De houder van de kentekenplaat moet de identiteit van de bestuurder meedelen, tenzij hij diefstal, fraude of overmacht kan bewijzen.",
+      "explanation_ru": "Владелец номерного знака обязан сообщить личность водителя, если только он не может доказать кражу, мошенничество или форс-мажор."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le terme légal pour la situation où la responsabilité d'une infraction est initialement attribuée au titulaire de la plaque d'immatriculation, même s'il n'était pas le conducteur ?",
+      "text_nl": "Wat is de wettelijke term voor de situatie waarin de verantwoordelijkheid voor een overtreding aanvankelijk wordt toegewezen aan de houder van de kentekenplaat, zelfs als hij niet de bestuurder was?",
+      "text_ru": "Каков юридический термин для ситуации, когда ответственность за нарушение первоначально возлагается на владельца номерного знака, даже если он не был водителем?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une culpabilité définitive.",
+          "text_nl": "Een definitieve schuld.",
+          "text_ru": "Окончательная вина.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une présomption de culpabilité.",
+          "text_nl": "Een vermoeden van schuld.",
+          "text_ru": "Презумпция вины.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une amende automatique.",
+          "text_nl": "Een automatische boete.",
+          "text_ru": "Автоматический штраф.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La loi établit une 'présomption' selon laquelle l'infraction est censée avoir été commise par le titulaire de la plaque d'immatriculation.",
+      "explanation_nl": "De wet stelt een 'vermoeden' in dat de overtreding geacht wordt te zijn begaan door de houder van de kentekenplaat.",
+      "explanation_ru": "Закон устанавливает 'презумпцию', согласно которой нарушение считается совершенным владельцем номерного знака."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous recevez une notification d'infraction routière commise avec votre véhicule, mais vous êtes certain de ne pas avoir été au volant à ce moment-là. Que devez-vous faire en premier lieu pour contester cette infraction ?",
+      "text_nl": "U ontvangt een kennisgeving van een verkeersovertreding begaan met uw voertuig, maar u bent er zeker van dat u op dat moment niet achter het stuur zat. Wat moet u in de eerste plaats doen om deze overtreding aan te vechten?",
+      "text_ru": "Вы получаете уведомление о дорожном нарушении, совершенном на вашем транспортном средстве, но вы уверены, что не находились за рулем в тот момент. Что вы должны сделать в первую очередь, чтобы оспорить это нарушение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Payer l'amende immédiatement pour éviter des frais supplémentaires.",
+          "text_nl": "De boete onmiddellijk betalen om extra kosten te vermijden.",
+          "text_ru": "Немедленно оплатить штраф, чтобы избежать дополнительных расходов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Prouver par tout moyen de droit que vous n'étiez pas le conducteur au moment des faits.",
+          "text_nl": "Met elk middel bewijzen dat u niet de bestuurder was op het moment van de feiten.",
+          "text_ru": "Доказать любым законным способом, что вы не были водителем в момент совершения нарушения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer la notification en espérant qu'elle soit annulée.",
+          "text_nl": "De kennisgeving negeren in de hoop dat deze wordt geannuleerd.",
+          "text_ru": "Игнорировать уведомление в надежде, что оно будет отменено.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La première étape est de prouver que vous n'étiez pas le conducteur pour renverser la présomption de culpabilité qui pèse sur le titulaire de la plaque d'immatriculation.",
+      "explanation_nl": "De eerste stap is te bewijzen dat u niet de bestuurder was om het vermoeden van schuld dat rust op de houder van de kentekenplaat te weerleggen.",
+      "explanation_ru": "Первый шаг — доказать, что вы не были водителем, чтобы опровергнуть презумпцию вины, которая лежит на владельце номерного знака."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Après avoir prouvé que vous n'étiez pas le conducteur lors d'une infraction avec votre véhicule, vous savez qui était réellement au volant. Quelle est votre obligation légale si aucune exception ne s'applique ?",
+      "text_nl": "Nadat u heeft bewezen dat u niet de bestuurder was tijdens een overtreding met uw voertuig, weet u wie er werkelijk achter het stuur zat. Wat is uw wettelijke verplichting als er geen uitzonderingen van toepassing zijn?",
+      "text_ru": "Доказав, что вы не были водителем во время нарушения на вашем транспортном средстве, вы знаете, кто фактически был за рулем. Какова ваша законная обязанность, если не применимы никакие исключения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous n'avez aucune obligation supplémentaire.",
+          "text_nl": "U heeft geen verdere verplichtingen.",
+          "text_ru": "У вас нет никаких дополнительных обязательств.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous êtes tenu de communiquer l'identité du conducteur incontestable.",
+          "text_nl": "U bent ertoe gehouden de identiteit van de onmiskenbare bestuurder kenbaar te maken.",
+          "text_ru": "Вы обязаны сообщить личность безусловного водителя.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez demander au conducteur de se dénoncer lui-même.",
+          "text_nl": "U moet de bestuurder vragen zichzelf aan te geven.",
+          "text_ru": "Вы должны попросить водителя явиться самостоятельно.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une fois que le titulaire de la plaque d'immatriculation a prouvé qu'il n'était pas le conducteur, il est tenu de communiquer l'identité du conducteur réel, sauf cas de vol, fraude ou force majeure.",
+      "explanation_nl": "Zodra de houder van de kentekenplaat heeft bewezen dat hij niet de bestuurder was, is hij verplicht de identiteit van de werkelijke bestuurder kenbaar te maken, behalve in geval van diefstal, fraude of overmacht.",
+      "explanation_ru": "Как только владелец номерного знака докажет, что он не был водителем, он обязан сообщить личность фактического водителя, за исключением случаев кражи, мошенничества или форс-мажора."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Votre voiture, immatriculée à votre nom, a été utilisée pour commettre une infraction. Vous parvenez à prouver que le véhicule a été volé juste avant l'infraction. Êtes-vous toujours obligé de communiquer l'identité du conducteur qui a commis l'infraction ?",
+      "text_nl": "Uw auto, op uw naam ingeschreven, is gebruikt om een overtreding te begaan. U slaagt erin te bewijzen dat het voertuig vlak voor de overtreding is gestolen. Bent u nog steeds verplicht de identiteit van de bestuurder die de overtreding heeft begaan mee te delen?",
+      "text_ru": "Ваш автомобиль, зарегистрированный на ваше имя, был использован для совершения нарушения. Вам удается доказать, что автомобиль был угнан непосредственно перед нарушением. Вы все еще обязаны сообщать личность водителя, совершившего нарушение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car le véhicule est immatriculé à votre nom.",
+          "text_nl": "Ja, want het voertuig is op uw naam ingeschreven.",
+          "text_ru": "Да, так как транспортное средство зарегистрировано на ваше имя.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car le vol est une exception à cette obligation.",
+          "text_nl": "Nee, want diefstal is een uitzondering op deze verplichting.",
+          "text_ru": "Нет, так как кража является исключением из этого обязательства.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais seulement si la police le demande explicitement.",
+          "text_nl": "Ja, maar alleen als de politie er expliciet om vraagt.",
+          "text_ru": "Да, но только если полиция явно попросит об этом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La loi stipule que l'obligation de communiquer l'identité du conducteur ne s'applique pas si le titulaire de la plaque d'immatriculation peut prouver le vol, la fraude ou la force majeure.",
+      "explanation_nl": "De wet bepaalt dat de verplichting om de identiteit van de bestuurder mee te delen niet van toepassing is indien de houder van de kentekenplaat diefstal, fraude of overmacht kan bewijzen.",
+      "explanation_ru": "Закон гласит, что обязанность сообщать личность водителя не применяется, если владелец номерного знака может доказать кражу, мошенничество или форс-мажор."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez réussi à prouver que vous n'étiez pas le conducteur de votre véhicule au moment d'une infraction. À partir de quel moment commence le délai pour communiquer l'identité de l'individu qui était réellement au volant ?",
+      "text_nl": "U bent erin geslaagd te bewijzen dat u niet de bestuurder van uw voertuig was op het moment van een overtreding. Vanaf welk moment begint de termijn voor het meedelen van de identiteit van de persoon die werkelijk achter het stuur zat?",
+      "text_ru": "Вам удалось доказать, что вы не были водителем вашего транспортного средства в момент нарушения. С какого момента начинается отсчет срока для сообщения личности того, кто фактически находился за рулем?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dès la réception de la première notification d'infraction.",
+          "text_nl": "Onmiddellijk na ontvangst van de eerste kennisgeving van overtreding.",
+          "text_ru": "С момента получения первого уведомления о нарушении.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "À partir du jour où vous avez pu prouver que vous n'étiez pas le conducteur.",
+          "text_nl": "Vanaf de dag waarop u kon bewijzen dat u niet de bestuurder was.",
+          "text_ru": "Со дня, когда вы смогли доказать, что не были водителем.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À partir de la décision finale du tribunal de police.",
+          "text_nl": "Vanaf de definitieve beslissing van de politierechtbank.",
+          "text_ru": "С момента окончательного решения полицейского суда.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai de quinze jours pour communiquer l'identité du conducteur commence à courir à partir du jour où le titulaire de la plaque d'immatriculation peut prouver qu'il n'était pas le conducteur.",
+      "explanation_nl": "De termijn van vijftien dagen voor het meedelen van de identiteit van de bestuurder begint te lopen vanaf de dag waarop de houder van de kentekenplaat kan bewijzen dat hij niet de bestuurder was.",
+      "explanation_ru": "Срок в пятнадцать дней для сообщения личности водителя начинает течь со дня, когда владелец номерного знака может доказать, что он не был водителем."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez prouvé que vous n'étiez pas le conducteur d'un véhicule ayant commis une infraction. Vous connaissez l'identité du véritable conducteur. Quel est le délai maximum pour communiquer cette information aux autorités ?",
+      "text_nl": "U heeft bewezen dat u niet de bestuurder was van een voertuig dat een overtreding heeft begaan. U kent de identiteit van de werkelijke bestuurder. Wat is de maximale termijn om deze informatie aan de autoriteiten mee te delen?",
+      "text_ru": "Вы доказали, что не были водителем транспортного средства, совершившего нарушение. Вы знаете личность настоящего водителя. Каков максимальный срок для передачи этой информации властям?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "7 jours.",
+          "text_nl": "7 dagen.",
+          "text_ru": "7 дней.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "15 jours.",
+          "text_nl": "15 dagen.",
+          "text_ru": "15 дней.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "30 jours.",
+          "text_nl": "30 dagen.",
+          "text_ru": "30 дней.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La communication de l'identité du conducteur doit avoir lieu dans un délai de quinze jours à compter du jour où le titulaire de la plaque d'immatriculation peut prouver qu’il n’était pas le conducteur.",
+      "explanation_nl": "De kennisgeving van de identiteit van de bestuurder dient te gebeuren binnen een termijn van vijftien dagen te rekenen vanaf de dag waarop de houder van de kentekenplaat kan bewijzen dat hij niet de bestuurder was.",
+      "explanation_ru": "Сообщение личности водителя должно быть сделано в течение пятнадцати дней, начиная со дня, когда владелец номерного знака может доказать, что он не был водителем."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "5ccdf353bc35",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:00:22Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

@@ -47,7 +47,304 @@
   "anchor_id_fr": "bpzfkv5xxv",
   "anchor_id_nl": "0iwzawdfd1",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quels types de marquages peuvent indiquer le bord réel de la chaussée ?",
+      "text_nl": "Welke types markeringen kunnen de werkelijke rand van de rijbaan aangeven?",
+      "text_ru": "Какие типы разметки могут обозначать фактический край проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement une ligne continue de couleur blanche.",
+          "text_nl": "Uitsluitend een witte doorlopende streep.",
+          "text_ru": "Только сплошная белая линия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une ligne continue de couleur blanche ou une ligne discontinue de couleur jaune.",
+          "text_nl": "Een witte doorlopende streep of een gele onderbroken streep.",
+          "text_ru": "Сплошная белая линия или прерывистая желтая линия.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement une ligne discontinue de couleur jaune.",
+          "text_nl": "Uitsluitend een gele onderbroken streep.",
+          "text_ru": "Только прерывистая желтая линия.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le bord réel de la chaussée peut être indiqué par une ligne continue de couleur blanche ou une ligne discontinue de couleur jaune.",
+      "explanation_nl": "De werkelijke rand van de rijbaan kan worden aangegeven door een witte doorlopende streep of een gele onderbroken streep.",
+      "explanation_ru": "Фактический край проезжей части может быть обозначен сплошной белой линией или прерывистой желтой линией."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel type de ligne est utilisé pour indiquer un bord fictif de la chaussée ?",
+      "text_nl": "Welk type streep wordt gebruikt om een denkbeeldige rand van de rijbaan aan te geven?",
+      "text_ru": "Какой тип линии используется для обозначения условного края проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une ligne discontinue de couleur jaune.",
+          "text_nl": "Een gele onderbroken streep.",
+          "text_ru": "Прерывистая желтая линия.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une ligne continue de couleur blanche.",
+          "text_nl": "Een witte doorlopende streep.",
+          "text_ru": "Сплошная белая линия.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une ligne continue de couleur jaune.",
+          "text_nl": "Een gele doorlopende streep.",
+          "text_ru": "Сплошная желтая линия.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le bord fictif est toujours indiqué par une ligne continue de couleur blanche.",
+      "explanation_nl": "De denkbeeldige rand wordt altijd aangegeven door een witte doorlopende streep.",
+      "explanation_ru": "Условный край всегда обозначается сплошной белой линией."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Comment la ligne discontinue de couleur jaune marquant le bord réel de la chaussée est-elle caractérisée par sa conception spécifique ?",
+      "text_nl": "Hoe wordt de gele onderbroken streep die de werkelijke rand van de rijbaan aangeeft, specifiek gekenmerkt door zijn ontwerp?",
+      "text_ru": "Какими особенностями дизайна характеризуется прерывистая желтая линия, обозначающая фактический край проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle est constituée de traits et d'espaces de longueurs inégales.",
+          "text_nl": "Zij bestaat uit strepen en tussenafstanden van ongelijke lengte.",
+          "text_ru": "Она состоит из штрихов и промежутков неравной длины.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle est constituée de traits d'une longueur uniforme entre 0,50 m et 1,25 m, avec des espaces de même longueur.",
+          "text_nl": "Zij bestaat uit trekken met een gelijke lengte tussen 0,50 m en 1,25 m, met tussenafstanden van dezelfde lengte.",
+          "text_ru": "Она состоит из штрихов одинаковой длины от 0,50 м до 1,25 м, с промежутками той же длины.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle est constituée de traits d'environ 2 mètres de long avec des espaces courts.",
+          "text_nl": "Zij bestaat uit strepen van ongeveer 2 meter lang met korte tussenafstanden.",
+          "text_ru": "Она состоит из штрихов длиной около 2 метров с короткими промежутками.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La ligne discontinue jaune est caractérisée par des traits d'une longueur uniforme comprise entre 0,50 m et 1,25 m, et les espaces entre les traits ont la même longueur que ceux-ci.",
+      "explanation_nl": "De gele onderbroken streep wordt gekenmerkt door trekken met een gelijke lengte tussen 0,50 m en 1,25 m, waarbij de tussenafstanden dezelfde lengte hebben.",
+      "explanation_ru": "Желтая прерывистая линия характеризуется штрихами одинаковой длины от 0,50 м до 1,25 м, при этом промежутки между штрихами имеют ту же длину."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une autoroute. Quelle serait la largeur typique d'une ligne blanche continue indiquant le bord réel de la chaussée principale ?",
+      "text_nl": "U rijdt op een autosnelweg. Wat is de typische breedte van een witte doorlopende streep die de werkelijke rand van de hoofdrijbaan aangeeft?",
+      "text_ru": "Вы движетесь по автомагистрали. Какова типичная ширина сплошной белой линии, обозначающей фактический край основной проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving on a motorway next to a white continuous line marking the edge of the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Environ 0,15 m.",
+          "text_nl": "Ongeveer 0,15 m.",
+          "text_ru": "Приблизительно 0,15 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Environ 0,20 m.",
+          "text_nl": "Ongeveer 0,20 m.",
+          "text_ru": "Приблизительно 0,20 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Environ 0,30 m.",
+          "text_nl": "Ongeveer 0,30 m.",
+          "text_ru": "Приблизительно 0,30 м.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Sur les autoroutes, la largeur d'une ligne continue de couleur blanche marquant le bord réel est d'environ 0,30 m.",
+      "explanation_nl": "Op autosnelwegen is de breedte van een witte doorlopende streep die de werkelijke rand aangeeft, ongeveer 0,30 m.",
+      "explanation_ru": "На автомагистралях ширина сплошной белой линии, обозначающей фактический край, составляет около 0,30 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Sur une route avec des bandes de circulation clairement marquées, quelle est la largeur approximative d'une ligne blanche continue qui indique un 'bord fictif' (par exemple, séparant une voie de circulation d'une bande de stationnement ou d'arrêt d'urgence) ?",
+      "text_nl": "Op een weg met duidelijk gemarkeerde rijstroken, wat is de geschatte breedte van een doorlopende witte streep die een 'denkbeeldige rand' aangeeft (bijvoorbeeld ter scheiding van een rijstrook en een parkeerstrook of vluchtstrook)?",
+      "text_ru": "На дороге с четко обозначенными полосами движения, какова приблизительная ширина сплошной белой линии, обозначающей 'условный край' (например, отделяющей полосу движения от парковочной полосы или обочины для экстренной остановки)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving on a multi-lane road with a white continuous line separating the traffic lanes from a parking area or hard shoulder."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Environ 0,15 m.",
+          "text_nl": "Ongeveer 0,15 m.",
+          "text_ru": "Приблизительно 0,15 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Environ 0,25 m.",
+          "text_nl": "Ongeveer 0,25 m.",
+          "text_ru": "Приблизительно 0,25 м.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Environ 0,30 m.",
+          "text_nl": "Ongeveer 0,30 m.",
+          "text_ru": "Приблизительно 0,30 м.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Sur les autres routes avec bandes de circulation, la largeur de la ligne continue de couleur blanche pour un bord fictif est d'environ 0,25 m.",
+      "explanation_nl": "Op andere wegen met rijstroken is de breedte van de witte doorlopende streep voor een denkbeeldige rand ongeveer 0,25 m.",
+      "explanation_ru": "На других дорогах с полосами движения ширина сплошной белой линии для условного края составляет около 0,25 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route standard (hors autoroute) et remarquez une ligne blanche continue marquant le bord physique de la chaussée. Quelle est sa largeur approximative ?",
+      "text_nl": "U rijdt op een standaardweg (geen autosnelweg) en merkt een witte doorlopende streep op die de fysieke rand van de rijbaan aangeeft. Wat is de geschatte breedte ervan?",
+      "text_ru": "Вы движетесь по обычной дороге (не автомагистрали) и замечаете сплошную белую линию, обозначающую физический край проезжей части. Какова ее приблизительная ширина?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving on a regular road (not a motorway) next to a white continuous line marking the edge of the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Environ 0,15 m.",
+          "text_nl": "Ongeveer 0,15 m.",
+          "text_ru": "Приблизительно 0,15 м.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Environ 0,25 m.",
+          "text_nl": "Ongeveer 0,25 m.",
+          "text_ru": "Приблизительно 0,25 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Environ 0,30 m.",
+          "text_nl": "Ongeveer 0,30 m.",
+          "text_ru": "Приблизительно 0,30 m.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La largeur d'une ligne continue de couleur blanche marquant le bord réel sur les routes normales est d'environ 0,15 m.",
+      "explanation_nl": "De breedte van een witte doorlopende streep die de werkelijke rand aangeeft op normale wegen is ongeveer 0,15 m.",
+      "explanation_ru": "Ширина сплошной белой линии, обозначающей фактический край на обычных дорогах, составляет около 0,15 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous observez une ligne discontinue de couleur jaune le long du côté droit de la route. Que représente ce marquage spécifique concernant le bord de la chaussée ?",
+      "text_nl": "U ziet een gele onderbroken streep langs de rechterkant van de weg. Wat betekent deze specifieke markering met betrekking tot de rand van de rijbaan?",
+      "text_ru": "Вы замечаете прерывистую желтую линию вдоль правого края дороги. Что означает эта конкретная разметка относительно края проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving next to a yellow discontinuous line on the right side of the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle indique un bord fictif de la chaussée.",
+          "text_nl": "Zij geeft een denkbeeldige rand van de rijbaan aan.",
+          "text_ru": "Она обозначает условный край проезжей части.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle indique un bord réel de la chaussée.",
+          "text_nl": "Zij geeft een werkelijke rand van de rijbaan aan.",
+          "text_ru": "Она обозначает фактический край проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle délimite une voie réservée aux transports en commun.",
+          "text_nl": "Zij bakent een rijstrook voor openbaar vervoer af.",
+          "text_ru": "Она обозначает полосу, предназначенную для общественного транспорта.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne discontinue de couleur jaune est utilisée pour indiquer le bord réel de la chaussée.",
+      "explanation_nl": "Een gele onderbroken streep wordt gebruikt om de werkelijke rand van de rijbaan aan te geven.",
+      "explanation_ru": "Прерывистая желтая линия используется для обозначения фактического края проезжей части."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Sur une route où les bandes de circulation ne sont pas explicitement marquées, quelle est la largeur approximative d'une ligne blanche continue indiquant un 'bord fictif' ?",
+      "text_nl": "Op een weg waar rijstroken niet expliciet zijn gemarkeerd, wat is de geschatte breedte van een doorlopende witte streep die een 'denkbeeldige rand' aangeeft?",
+      "text_ru": "На дороге, где полосы движения явно не обозначены, какова приблизительная ширина сплошной белой линии, обозначающей 'условный край'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving on a road without marked lanes, next to a white continuous line marking a fictional edge."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Environ 0,15 m.",
+          "text_nl": "Ongeveer 0,15 m.",
+          "text_ru": "Приблизительно 0,15 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Environ 0,20 m.",
+          "text_nl": "Ongeveer 0,20 m.",
+          "text_ru": "Приблизительно 0,20 м.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Environ 0,30 m.",
+          "text_nl": "Ongeveer 0,30 m.",
+          "text_ru": "Приблизительно 0,30 м.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Sur les routes sans bandes de circulation, la largeur de la ligne continue de couleur blanche pour un bord fictif est d'environ 0,20 m.",
+      "explanation_nl": "Op wegen zonder rijstroken is de breedte van de witte doorlopende streep voor een denkbeeldige rand ongeveer 0,20 m.",
+      "explanation_ru": "На дорогах без полос движения ширина сплошной белой линии для условного края составляет около 0,20 м."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "e6e1ebfbab0d",
@@ -57,6 +354,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:05:15Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

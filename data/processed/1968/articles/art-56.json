@@ -28,7 +28,156 @@
   "anchor_id_fr": "8hvupukusu",
   "anchor_id_nl": "tjeg68stij",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle autorité est compétente pour décider de la restitution d'un permis de conduire qui a été temporairement retiré ?",
+      "text_nl": "Welke autoriteit is bevoegd om te beslissen over de teruggave van een rijbewijs dat tijdelijk is ingetrokken?",
+      "text_ru": "Какой орган компетентен принимать решение о возврате временно изъятого водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le service des permis de conduire de la commune.",
+          "text_nl": "De dienst rijbewijzen van de gemeente.",
+          "text_ru": "Муниципальная служба водительских удостоверений.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le ministère public.",
+          "text_nl": "Het openbaar ministerie.",
+          "text_ru": "Прокуратура.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le titulaire du permis de conduire lui-même, en faisant une demande.",
+          "text_nl": "De rijbewijshouder zelf, door een aanvraag in te dienen.",
+          "text_ru": "Сам владелец водительского удостоверения, подав заявление.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le ministère public est l'autorité qui ordonne le retrait du permis de conduire et peut également en décider la restitution, soit d'office, soit à la requête du titulaire.",
+      "explanation_nl": "Het openbaar ministerie is de autoriteit die de intrekking van het rijbewijs beveelt en kan ook de teruggave ervan beslissen, hetzij ambtshalve, hetzij op verzoek van de houder.",
+      "explanation_ru": "Прокуратура является органом, который предписывает изъятие водительского удостоверения и также может принять решение о его возврате, либо по собственной инициативе, либо по запросу владельца."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le délai standard après lequel un permis de conduire retiré doit être obligatoirement restitué, sauf prolongation par décision judiciaire ?",
+      "text_nl": "Wat is de standaardtermijn waarna een ingetrokken rijbewijs verplicht moet worden teruggegeven, tenzij verlengd door een gerechtelijke beslissing?",
+      "text_ru": "Какой стандартный срок, по истечении которого изъятое водительское удостоверение должно быть обязательно возвращено, если только срок не был продлен судебным решением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Après 7 jours.",
+          "text_nl": "Na 7 dagen.",
+          "text_ru": "Через 7 дней.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Après 15 jours.",
+          "text_nl": "Na 15 dagen.",
+          "text_ru": "Через 15 дней.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Après 30 jours.",
+          "text_nl": "Na 30 dagen.",
+          "text_ru": "Через 30 дней.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire retiré doit être obligatoirement restitué après quinze jours, à moins que le tribunal de police n'ait prolongé ce délai.",
+      "explanation_nl": "Een ingetrokken rijbewijs moet verplicht worden teruggegeven na vijftien dagen, behalve indien de politierechtbank deze termijn heeft verlengd.",
+      "explanation_ru": "Изъятое водительское удостоверение должно быть обязательно возвращено через пятнадцать дней, если только суд полиции не продлил этот срок."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelle situation liée à une décision de justice le permis de conduire retiré doit-il obligatoirement être restitué au conducteur ?",
+      "text_nl": "In welke situatie, gerelateerd aan een rechterlijke beslissing, moet het ingetrokken rijbewijs verplicht worden teruggegeven aan de bestuurder?",
+      "text_ru": "В какой ситуации, связанной с судебным решением, изъятое водительское удостоверение должно быть обязательно возвращено водителю?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Si le conducteur fait appel de la décision du tribunal.",
+          "text_nl": "Als de bestuurder in beroep gaat tegen de beslissing van de rechtbank.",
+          "text_ru": "Если водитель подает апелляцию на решение суда.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Si le juge ne prononce pas la déchéance du droit de conduire.",
+          "text_nl": "Als de rechter geen verval van het recht tot sturen uitspreekt.",
+          "text_ru": "Если судья не выносит решения о лишении права управления транспортным средством.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Si le conducteur paie l'amende imposée.",
+          "text_nl": "Als de bestuurder de opgelegde boete betaalt.",
+          "text_ru": "Если водитель уплачивает наложенный штраф.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire est obligatoirement restitué lorsque le juge ne prononce pas la déchéance du droit de conduire, ce qui signifie que le droit de conduire n'est pas révoqué.",
+      "explanation_nl": "Het rijbewijs wordt verplicht teruggegeven indien de rechter geen verval van het recht tot sturen uitspreekt, wat betekent dat het rijrecht niet wordt ingetrokken.",
+      "explanation_ru": "Водительское удостоверение обязательно возвращается, если судья не выносит решения о лишении права управления транспортным средством, что означает, что право на вождение не аннулируется."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Dans quel cas un permis de conduire retiré doit-il obligatoirement être restitué à un titulaire étranger qui ne répond pas aux conditions pour obtenir un permis belge ?",
+      "text_nl": "In welk geval moet een ingetrokken rijbewijs verplicht worden teruggegeven aan een buitenlandse houder die niet voldoet aan de voorwaarden voor het verkrijgen van een Belgisch rijbewijs?",
+      "text_ru": "В каком случае изъятое водительское удостоверение должно быть обязательно возвращено иностранному владельцу, который не соответствует условиям для получения бельгийского водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'il prouve qu'il a besoin de son permis pour des raisons professionnelles.",
+          "text_nl": "Als hij bewijst dat hij zijn rijbewijs nodig heeft voor professionele redenen.",
+          "text_ru": "Если он докажет, что ему нужны права по профессиональным причинам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'il quitte définitivement le territoire belge.",
+          "text_nl": "Als hij het Belgische grondgebied definitief verlaat.",
+          "text_ru": "Если он окончательно покидает территорию Бельгии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Son permis ne lui sera jamais restitué en Belgique, il doit en demander un nouveau dans son pays d'origine.",
+          "text_nl": "Zijn rijbewijs wordt hem nooit teruggegeven in België, hij moet een nieuw aanvragen in zijn thuisland.",
+          "text_ru": "Его водительское удостоверение никогда не будет ему возвращено в Бельгии, он должен запросить новое в своей стране происхождения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis est obligatoirement restitué lorsque le titulaire qui ne remplit pas les conditions pour obtenir un permis de conduire belge quitte le territoire belge.",
+      "explanation_nl": "Het rijbewijs wordt verplicht teruggegeven indien de houder die niet voldoet aan de voorwaarden om een Belgisch rijbewijs te verkrijgen, het Belgische grondgebied verlaat.",
+      "explanation_ru": "Водительское удостоверение обязательно возвращается, когда владелец, не соответствующий условиям для получения бельгийского водительского удостоверения, покидает территорию Бельгии."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "a2b4ed8e99ed",
@@ -38,6 +187,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T18:59:07Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 4
   }
 }

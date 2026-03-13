@@ -28,7 +28,140 @@
   "anchor_id_fr": "ra9mgiivc7",
   "anchor_id_nl": "e8gakbugie",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le délai général pour le recouvrement d'un ordre de paiement lié à une infraction routière ?",
+      "text_nl": "Wat is de algemene termijn voor de invordering van een bevel tot betaling met betrekking tot een verkeersovertreding?",
+      "text_ru": "Каков общий срок для взыскания платежного поручения, связанного с дорожным правонарушением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Deux ans",
+          "text_nl": "Twee jaar",
+          "text_ru": "Два года",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Trois ans",
+          "text_nl": "Drie jaar",
+          "text_ru": "Три года",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Cinq ans",
+          "text_nl": "Vijf jaar",
+          "text_ru": "Пять лет",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text_fr": "Dix ans",
+          "text_nl": "Tien jaar",
+          "text_ru": "Десять лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le recouvrement d'un ordre de paiement lié à une obligation routière est prescrit après cinq ans.",
+      "explanation_nl": "De invordering van een bevel tot betaling met betrekking tot een verkeersverplichting verjaart na vijf jaar.",
+      "explanation_ru": "Взыскание платежного поручения, связанного с дорожным обязательством, истекает через пять лет."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "À partir de quel moment précis le délai de recouvrement d'un ordre de paiement pour une obligation routière commence-t-il à être compté ?",
+      "text_nl": "Vanaf welk precies moment begint de invorderingstermijn van een bevel tot betaling voor een verkeersverplichting te lopen?",
+      "text_ru": "С какого именно момента начинает отсчитываться срок взыскания платежного поручения за дорожное обязательство?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Dès la constatation de l'infraction.",
+          "text_nl": "Vanaf de vaststelling van de overtreding.",
+          "text_ru": "С момента выявления нарушения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Dès l'envoi de l'ordre de paiement.",
+          "text_nl": "Vanaf de verzending van het bevel tot betaling.",
+          "text_ru": "С момента отправки платежного поручения.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dès le jour où l'ordre de paiement devient exécutoire.",
+          "text_nl": "Vanaf de dag waarop het bevel tot betaling uitvoerbaar wordt.",
+          "text_ru": "С момента, когда платежное поручение становится подлежащим исполнению.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text_fr": "Un mois après l'émission de l'ordre de paiement.",
+          "text_nl": "Een maand na de uitgifte van het bevel tot betaling.",
+          "text_ru": "Через месяц после выдачи платежного поручения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le délai de recouvrement commence à être compté à partir du jour où l'ordre de paiement est devenu exécutoire.",
+      "explanation_nl": "De invorderingstermijn begint te lopen vanaf de dag waarop het bevel tot betaling uitvoerbaar is geworden.",
+      "explanation_ru": "Срок взыскания начинает отсчитываться со дня, когда платежное поручение стало подлежащим исполнению."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans le contexte des obligations liées à la circulation routière, que signifie le fait qu'un recouvrement soit 'prescrit' après un certain délai ?",
+      "text_nl": "In de context van verkeersgerelateerde verplichtingen, wat betekent het feit dat een invordering 'verjaard' is na een bepaalde termijn?",
+      "text_ru": "В контексте обязательств, связанных с дорожным движением, что означает тот факт, что взыскание 'истекло' по истечении определенного срока?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'obligation de payer est augmentée d'intérêts de retard.",
+          "text_nl": "De betalingsverplichting wordt verhoogd met nalatigheidsinteresten.",
+          "text_ru": "Обязанность по оплате увеличивается за счет процентов за просрочку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'ordre de paiement est annulé et n'est plus valable.",
+          "text_nl": "Het bevel tot betaling wordt geannuleerd en is niet langer geldig.",
+          "text_ru": "Платежное поручение аннулируется и более недействительно.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le paiement ne peut légalement plus être exigé ou forcé.",
+          "text_nl": "De betaling kan wettelijk niet meer worden geëist of afgedwongen.",
+          "text_ru": "Платеж не может быть законно востребован или принудительно взыскан.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text_fr": "Une nouvelle procédure de recouvrement doit être lancée.",
+          "text_nl": "Er moet een nieuwe invorderingsprocedure worden gestart.",
+          "text_ru": "Должна быть начата новая процедура взыскания.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'un recouvrement est prescrit, cela signifie que la dette ne peut légalement plus être exigée ou forcée par les autorités.",
+      "explanation_nl": "Wanneer een invordering verjaard is, betekent dit dat de schuld wettelijk niet meer kan worden opgeëist of afgedwongen door de autoriteiten.",
+      "explanation_ru": "Когда срок давности по взысканию истек, это означает, что долг не может быть законно востребован или принудительно взыскан властями."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "a8311a3b9492",
@@ -38,6 +171,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:01:36Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

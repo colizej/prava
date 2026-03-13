@@ -49,7 +49,304 @@
   "anchor_id_fr": "jdwu7jzanl",
   "anchor_id_nl": "guzxd14hj0",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un permis de conduire européen ?",
+      "text_nl": "Wat is een Europees rijbewijs?",
+      "text_ru": "Что такое европейское водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un permis de conduire délivré par un pays membre de l'Union européenne",
+          "text_nl": "Een rijbewijs afgegeven door een lidstaat van de Europese Unie",
+          "text_ru": "Водительское удостоверение, выданное страной-членом Европейского Союза",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un permis de conduire délivré par un pays non membre de l'Union européenne",
+          "text_nl": "Een rijbewijs afgegeven door een niet-lidstaat van de Europese Unie",
+          "text_ru": "Водительское удостоверение, выданное страной, не являющейся членом Европейского Союза",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un permis de conduire délivré par une organisation internationale",
+          "text_nl": "Een rijbewijs afgegeven door een internationale organisatie",
+          "text_ru": "Водительское удостоверение, выданное международной организацией",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire européen est un permis de conduire délivré par un pays membre de l'Union européenne.",
+      "explanation_nl": "Een Europees rijbewijs is een rijbewijs afgegeven door een lidstaat van de Europese Unie.",
+      "explanation_ru": "Европейское водительское удостоверение - это водительское удостоверение, выданное страной-членом Европейского Союза."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un permis de conduire belge ?",
+      "text_nl": "Wat is een Belgisch rijbewijs?",
+      "text_ru": "Что такое бельгийское водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un permis de conduire délivré par la Belgique",
+          "text_nl": "Een rijbewijs afgegeven door België",
+          "text_ru": "Водительское удостоверение, выданное Бельгией",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un permis de conduire délivré par un pays membre de l'Union européenne",
+          "text_nl": "Een rijbewijs afgegeven door een lidstaat van de Europese Unie",
+          "text_ru": "Водительское удостоверение, выданное страной-членом Европейского Союза",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un permis de conduire délivré par une organisation internationale",
+          "text_nl": "Een rijbewijs afgegeven door een internationale organisatie",
+          "text_ru": "Водительское удостоверение, выданное международной организацией",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire belge est un permis de conduire délivré par la Belgique.",
+      "explanation_nl": "Een Belgisch rijbewijs is een rijbewijs afgegeven door België.",
+      "explanation_ru": "Бельгийское водительское удостоверение - это водительское удостоверение, выданное Бельгией."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les conditions pour obtenir un permis de conduire belge ?",
+      "text_nl": "Wat zijn de voorwaarden om een Belgisch rijbewijs te verkrijgen?",
+      "text_ru": "Какие условия необходимо выполнить, чтобы получить бельгийское водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avoir au moins 18 ans et passer un examen théorique et pratique",
+          "text_nl": "Ten minste 18 jaar oud zijn en een theoretisch en praktisch examen afleggen",
+          "text_ru": "Иметь не менее 18 лет и сдать теоретический и практический экзамен",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Avoir au moins 16 ans et passer un examen théorique",
+          "text_nl": "Ten minste 16 jaar oud zijn en een theoretisch examen afleggen",
+          "text_ru": "Иметь не менее 16 лет и сдать теоретический экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avoir au moins 21 ans et passer un examen pratique",
+          "text_nl": "Ten minste 21 jaar oud zijn en een praktisch examen afleggen",
+          "text_ru": "Иметь не менее 21 года и сдать практический экзамен",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conditions pour obtenir un permis de conduire belge sont d'avoir au moins 18 ans et de passer un examen théorique et pratique.",
+      "explanation_nl": "De voorwaarden om een Belgisch rijbewijs te verkrijgen zijn ten minste 18 jaar oud zijn en een theoretisch en praktisch examen afleggen.",
+      "explanation_ru": "Условия для получения бельгийского водительского удостоверения - это наличие не менее 18 лет и сдача теоретического и практического экзамена."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur qui a échoué à l'examen pratique doit-il se soumettre à nouveau à l'apprentissage ?",
+      "text_nl": "Moet een bestuurder die gezakt is voor het praktische examen opnieuw scholing volgen?",
+      "text_ru": "Должен ли водитель, не сдавший практический экзамен, снова пройти обучение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, si le permis de conduire n'est pas délivré dans un délai de trois ans",
+          "text_nl": "Ja, als het rijbewijs niet wordt afgegeven binnen een termijn van drie jaar",
+          "text_ru": "Да, если водительское удостоверение не будет выдано в течение трех лет",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, il peut passer l'examen pratique à nouveau sans apprentissage",
+          "text_nl": "Nee, hij kan opnieuw het praktische examen afleggen zonder scholing",
+          "text_ru": "Нет, он может сдать практический экзамен снова без обучения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, dans tous les cas",
+          "text_nl": "Ja, in alle gevallen",
+          "text_ru": "Да, во всех случаях",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur qui a échoué à l'examen pratique doit se soumettre à nouveau à l'apprentissage si le permis de conduire n'est pas délivré dans un délai de trois ans.",
+      "explanation_nl": "Een bestuurder die gezakt is voor het praktische examen moet opnieuw scholing volgen als het rijbewijs niet wordt afgegeven binnen een termijn van drie jaar.",
+      "explanation_ru": "Водитель, не сдавший практический экзамен, должен снова пройти обучение, если водительское удостоверение не будет выдано в течение трех лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un code 70 sur un permis de conduire ?",
+      "text_nl": "Wat is een code 70 op een rijbewijs?",
+      "text_ru": "Что такое код 70 на водительском удостоверении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un code indiquant que le conducteur a été dispensé de l'examen théorique",
+          "text_nl": "Een code die aangeeft dat de bestuurder vrijgesteld is van het theoretische examen",
+          "text_ru": "Код, указывающий, что водитель освобожден от теоретического экзамена",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un code indiquant que le conducteur a été dispensé de l'examen pratique",
+          "text_nl": "Een code die aangeeft dat de bestuurder vrijgesteld is van het praktische examen",
+          "text_ru": "Код, указывающий, что водитель освобожден от практического экзамена",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un code indiquant que le conducteur a échangé un permis de conduire non européen",
+          "text_nl": "Een code die aangeeft dat de bestuurder een niet-Europees rijbewijs heeft geruild",
+          "text_ru": "Код, указывающий, что водитель обменял недействительное водительское удостоверение",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un code 70 sur un permis de conduire indique que le conducteur a échangé un permis de conduire non européen.",
+      "explanation_nl": "Een code 70 op een rijbewijs geeft aan dat de bestuurder een niet-Europees rijbewijs heeft geruild.",
+      "explanation_ru": "Код 70 на водительском удостоверении указывает, что водитель обменял недействительное водительское удостоверение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur qui est titulaire d'un permis de conduire européen peut-il obtenir un permis de conduire belge ?",
+      "text_nl": "Kan een bestuurder die in het bezit is van een Europees rijbewijs een Belgisch rijbewijs verkrijgen?",
+      "text_ru": "Может ли водитель, имеющий европейское водительское удостоверение, получить бельгийское водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans conditions",
+          "text_nl": "Ja, zonder voorwaarden",
+          "text_ru": "Да, без условий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, si le conducteur suit l'apprentissage et obtient un permis de conduire belge",
+          "text_nl": "Ja, als de bestuurder scholing volgt en een Belgisch rijbewijs verkrijgt",
+          "text_ru": "Да, если водитель проходит обучение и получает бельгийское водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, jamais",
+          "text_nl": "Nee, nooit",
+          "text_ru": "Нет, никогда",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur qui est titulaire d'un permis de conduire européen peut obtenir un permis de conduire belge si il suit l'apprentissage et obtient un permis de conduire belge.",
+      "explanation_nl": "Een bestuurder die in het bezit is van een Europees rijbewijs kan een Belgisch rijbewijs verkrijgen als hij scholing volgt en een Belgisch rijbewijs verkrijgt.",
+      "explanation_ru": "Водитель, имеющий европейское водительское удостоверение, может получить бельгийское водительское удостоверение, если он проходит обучение и получает бельгийское водительское удостоверение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur qui a perdu son permis de conduire belge peut-il obtenir un nouveau permis de conduire ?",
+      "text_nl": "Kan een bestuurder die zijn Belgisch rijbewijs is kwijtgeraakt een nieuw rijbewijs verkrijgen?",
+      "text_ru": "Может ли водитель, потерявший бельгийское водительское удостоверение, получить новое водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans conditions",
+          "text_nl": "Ja, zonder voorwaarden",
+          "text_ru": "Да, без условий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, s'il fait une déclaration de perte et suit la procédure de demande de permis de conduire",
+          "text_nl": "Ja, als hij een verklaring van verlies doet en de procedure voor het aanvragen van een rijbewijs volgt",
+          "text_ru": "Да, если он сделает заявление о потере и пройдет процедуру подачи заявления на водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, jamais",
+          "text_nl": "Nee, nooit",
+          "text_ru": "Нет, никогда",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur qui a perdu son permis de conduire belge peut obtenir un nouveau permis de conduire s'il fait une déclaration de perte et suit la procédure de demande de permis de conduire.",
+      "explanation_nl": "Een bestuurder die zijn Belgisch rijbewijs is kwijtgeraakt kan een nieuw rijbewijs verkrijgen als hij een verklaring van verlies doet en de procedure voor het aanvragen van een rijbewijs volgt.",
+      "explanation_ru": "Водитель, потерявший бельгийское водительское удостоверение, может получить новое водительское удостоверение, если он сделает заявление о потере и пройдет процедуру подачи заявления на водительское удостоверение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur qui a échangé un permis de conduire non européen peut-il obtenir un permis de conduire belge ?",
+      "text_nl": "Kan een bestuurder die een niet-Europees rijbewijs heeft geruild een Belgisch rijbewijs verkrijgen?",
+      "text_ru": "Может ли водитель, обменявший недействительное водительское удостоверение, получить бельгийское водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans conditions",
+          "text_nl": "Ja, zonder voorwaarden",
+          "text_ru": "Да, без условий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, s'il suit l'apprentissage et obtient un permis de conduire belge",
+          "text_nl": "Ja, als hij scholing volgt en een Belgisch rijbewijs verkrijgt",
+          "text_ru": "Да, если он проходит обучение и получает бельгийское водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, jamais",
+          "text_nl": "Nee, nooit",
+          "text_ru": "Нет, никогда",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un conducteur qui a échangé un permis de conduire non européen peut obtenir un permis de conduire belge s'il suit l'apprentissage et obtient un permis de conduire belge.",
+      "explanation_nl": "Een bestuurder die een niet-Europees rijbewijs heeft geruild kan een Belgisch rijbewijs verkrijgen als hij scholing volgt en een Belgisch rijbewijs verkrijgt.",
+      "explanation_ru": "Водитель, обменявший недействительное водительское удостоверение, может получить бельгийское водительское удостоверение, если он проходит обучение и получает бельгийское водительское удостоверение."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "277b91054de3",
@@ -59,6 +356,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:13:20Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

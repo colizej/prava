@@ -26,7 +26,267 @@
   "anchor_id_fr": "y2k5ooat7f",
   "anchor_id_nl": "dd1ybziadh",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Selon la réglementation, quel type de signal lumineux de circulation est explicitement mentionné comme n'étant PAS soumis aux conditions de placement énumérées dans les règles générales ?",
+      "text_nl": "Welk type verkeerslicht wordt volgens de reglementen expliciet genoemd als NIET onderworpen aan de plaatsingsvoorwaarden die in de algemene regels zijn opgesomd?",
+      "text_ru": "Согласно правилам, какой тип светофора явно НЕ подпадает под условия размещения, перечисленные в общих правилах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les feux de circulation tricolores standards",
+          "text_nl": "Standaard driekleurige verkeerslichten",
+          "text_ru": "Стандартные трехцветные светофоры",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les signaux à feux clignotants",
+          "text_nl": "Knipperlichten",
+          "text_ru": "Мигающие сигналы",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les feux pour piétons",
+          "text_nl": "Voetgangerslichten",
+          "text_ru": "Пешеходные светофоры",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règles mentionnent que les signaux lumineux de circulation 'autres que les signaux à feux clignotants' sont soumis aux conditions spécifiques. Cela signifie que les signaux à feux clignotants sont exclus de ces conditions de placement.",
+      "explanation_nl": "De regels vermelden dat verkeerslichten 'andere dan de verkeersknipperlichten' onderworpen zijn aan de specifieke voorwaarden. Dit betekent dat knipperlichten uitgesloten zijn van deze plaatsingsvoorwaarden.",
+      "explanation_ru": "Правила указывают, что светофоры, 'за исключением мигающих светофоров', подпадают под конкретные условия. Это означает, что мигающие светофоры исключены из этих условий размещения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'un des critères principaux qui peut justifier l'installation de feux de signalisation, selon la réglementation routière, lié au mouvement des véhicules et des personnes ?",
+      "text_nl": "Wat is volgens de verkeersreglementen één van de hoofdcriteria die de installatie van verkeerslichten kan rechtvaardigen, gerelateerd aan de beweging van voertuigen en personen?",
+      "text_ru": "Какой из основных критериев, согласно правилам дорожного движения, может оправдать установку светофоров, связанный с движением транспортных средств и людей?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le niveau de bruit généré par le trafic",
+          "text_nl": "Het door het verkeer veroorzaakte geluidsniveau",
+          "text_ru": "Уровень шума, создаваемого дорожным движением",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le volume de la circulation des véhicules et des piétons",
+          "text_nl": "Het volume van het voertuigenverkeer en van de voetgangers",
+          "text_ru": "Объем движения транспортных средств и пешеходов",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La couleur dominante des bâtiments adjacents",
+          "text_nl": "De dominante kleur van de aangrenzende gebouwen",
+          "text_ru": "Доминирующий цвет соседних зданий",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le volume de la circulation des véhicules et des piétons est explicitement mentionné comme un facteur clé justifiant le placement de signaux lumineux.",
+      "explanation_nl": "Het volume van het voertuigenverkeer en van de voetgangers wordt expliciet genoemd als een belangrijke factor die de plaatsing van verkeerslichten rechtvaardigt.",
+      "explanation_ru": "Объем движения транспортных средств и пешеходов явно упоминается как ключевой фактор, оправдывающий установку светофоров."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "En plus des accidents, quels aspects de la sécurité routière sont pris en compte pour justifier l'installation de feux de circulation, notamment pour les usagers traversant la chaussée ?",
+      "text_nl": "Welke aspecten van de verkeersveiligheid worden naast ongevallen in overweging genomen om de installatie van verkeerslichten te rechtvaardigen, vooral voor weggebruikers die de rijbaan oversteken?",
+      "text_ru": "Помимо аварий, какие аспекты дорожной безопасности учитываются для обоснования установки светофоров, особенно для участников движения, пересекающих проезжую часть?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le nombre de commerces à proximité",
+          "text_nl": "Het aantal winkels in de buurt",
+          "text_ru": "Количество магазинов поблизости",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La difficulté de la traversée de la chaussée en raison de la circulation",
+          "text_nl": "De moeilijkheid die bij het oversteken van de rijbaan wordt ondervonden vanwege het verkeer",
+          "text_ru": "Сложность пересечения проезжей части из-за движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La présence d'arrêts de bus sans abris",
+          "text_nl": "De aanwezigheid van bushaltes zonder abri's",
+          "text_ru": "Наличие автобусных остановок без навесов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La difficulté de la traversée de la chaussée en raison de la circulation est un critère direct mentionné pour justifier le placement de feux de circulation, souvent pour protéger les piétons ou cyclistes.",
+      "explanation_nl": "De moeilijkheid die bij het oversteken van de rijbaan wordt ondervonden vanwege het verkeer is een direct vermeld criterium om de plaatsing van verkeerslichten te rechtvaardigen, vaak om voetgangers of fietsers te beschermen.",
+      "explanation_ru": "Сложность пересечения проезжей части из-за движения является прямым критерием, упомянутым для обоснования установки светофоров, часто для защиты пешеходов или велосипедистов."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez fréquemment sur une route où la vitesse moyenne des véhicules est très élevée, rendant l'insertion ou la traversée particulièrement dangereuse à une intersection. Quel facteur, selon les règles de placement des feux, pourrait justifier l'installation d'un signal lumineux à cet endroit ?",
+      "text_nl": "U rijdt regelmatig op een weg waar de gemiddelde snelheid van voertuigen zeer hoog is, wat het invoegen of oversteken bij een kruispunt bijzonder gevaarlijk maakt. Welke factor, volgens de regels voor het plaatsen van verkeerslichten, zou de installatie van een verkeerslicht op die plaats kunnen rechtvaardigen?",
+      "text_ru": "Вы часто ездите по дороге, где средняя скорость транспортных средств очень высока, что делает въезд или пересечение особенно опасным на перекрестке. Какой фактор, согласно правилам установки светофоров, может оправдать установку светофора в этом месте?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An intersection with fast-moving traffic on one road, making it difficult for vehicles from the side road to merge or cross safely. No traffic lights are currently present."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La couleur du revêtement routier",
+          "text_nl": "De kleur van het wegdek",
+          "text_ru": "Цвет дорожного покрытия",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La vitesse des véhicules",
+          "text_nl": "De snelheid van de voertuigen",
+          "text_ru": "Скорость транспортных средств",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La largeur des trottoirs",
+          "text_nl": "De breedte van de trottoirs",
+          "text_ru": "Ширина тротуаров",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La vitesse des véhicules est un critère directement cité dans la réglementation pour justifier le placement de feux de circulation, notamment pour améliorer la sécurité là où des vitesses élevées créent un danger.",
+      "explanation_nl": "De snelheid van de voertuigen is een criterium dat direct wordt genoemd in de reglementen om de plaatsing van verkeerslichten te rechtvaardigen, met name om de veiligheid te verbeteren waar hoge snelheden gevaar opleveren.",
+      "explanation_ru": "Скорость транспортных средств является критерием, прямо указанным в правилах для обоснования установки светофоров, особенно для повышения безопасности там, где высокие скорости создают опасность."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un carrefour est connu pour avoir un historique d'accidents fréquents, impliquant souvent des collisions similaires (par exemple, des collisions latérales). Quelle condition, parmi celles qui justifient le placement de feux de signalisation, est la plus pertinente dans ce cas pour l'installation d'un signal lumineux ?",
+      "text_nl": "Een kruispunt staat bekend om zijn geschiedenis van frequente ongevallen, vaak met vergelijkbare aanrijdingen (bijvoorbeeld zijdelingse botsingen). Welke voorwaarde, van degenen die de plaatsing van verkeerslichten rechtvaardigen, is in dit geval het meest relevant voor de installatie van een verkeerslicht?",
+      "text_ru": "Перекресток известен своей историей частых аварий, часто связанных с однотипными столкновениями (например, боковыми). Какое условие из тех, что оправдывают установку светофоров, наиболее актуально в данном случае для установки светофора?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An aerial view of an intersection, with markers indicating several past collision points, specifically side-impact collisions, suggesting a pattern of accidents. No traffic lights are present yet."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La couleur des marquages au sol",
+          "text_nl": "De kleur van de wegmarkeringen",
+          "text_ru": "Цвет дорожной разметки",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le nombre de véhicules stationnés à proximité",
+          "text_nl": "Het aantal voertuigen dat in de buurt geparkeerd staat",
+          "text_ru": "Количество припаркованных автомобилей поблизости",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le genre et le nombre d'accidents survenus",
+          "text_nl": "De soort en het aantal ongevallen",
+          "text_ru": "Тип и количество произошедших аварий",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le genre et le nombre d'accidents survenus est un facteur explicitement mentionné comme justification pour l'installation de feux de circulation, visant à réduire la fréquence et la gravité des collisions.",
+      "explanation_nl": "De soort en het aantal ongevallen is een expliciet vermelde factor als rechtvaardiging voor de installatie van verkeerslichten, met als doel de frequentie en ernst van botsingen te verminderen.",
+      "explanation_ru": "Тип и количество произошедших аварий является явно указанным фактором, оправдывающим установку светофоров, с целью уменьшения частоты и тяжести столкновений."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous remarquez qu'une intersection nouvellement aménagée présente une configuration complexe, avec de multiples voies et des angles de visibilité réduits. Cette situation rend difficile pour les conducteurs de bien percevoir le trafic venant de toutes les directions. Quelle condition justifierait l'installation de feux de circulation dans ce cas ?",
+      "text_nl": "U merkt op dat een nieuw aangelegd kruispunt een complexe configuratie heeft, met meerdere rijstroken en beperkte zichthoeken. Deze situatie maakt het voor bestuurders moeilijk om het verkeer uit alle richtingen goed waar te nemen. Welke voorwaarde zou de installatie van verkeerslichten in dit geval rechtvaardigen?",
+      "text_ru": "Вы замечаете, что недавно построенный перекресток имеет сложную конфигурацию с несколькими полосами движения и ограниченными углами обзора. Эта ситуация затрудняет для водителей хорошее восприятие движения со всех сторон. Какое условие оправдывало бы установку светофоров в этом случае?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A complex intersection with an unusual layout and structures obstructing the view, creating blind spots for drivers. No traffic lights are present."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La présence d'un commerce de proximité",
+          "text_nl": "De aanwezigheid van een buurtwinkel",
+          "text_ru": "Наличие ближайшего магазина",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La visibilité et la disposition des lieux",
+          "text_nl": "Het zicht en de plaatsgesteldheid",
+          "text_ru": "Видимость и расположение места",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La qualité de l'éclairage public",
+          "text_nl": "De kwaliteit van de openbare verlichting",
+          "text_ru": "Качество уличного освещения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La visibilité et la disposition des lieux sont des facteurs essentiels pris en compte pour justifier le placement de feux de circulation, en particulier là où une mauvaise conception ou des obstacles visuels augmentent le risque.",
+      "explanation_nl": "Het zicht en de plaatsgesteldheid zijn essentiële factoren die in overweging worden genomen om de plaatsing van verkeerslichten te rechtvaardigen, vooral daar waar een slecht ontwerp of visuele obstakels het risico vergroten.",
+      "explanation_ru": "Видимость и расположение места являются важными факторами, учитываемыми для обоснования установки светофоров, особенно там, где плохой дизайн или визуальные препятствия увеличивают риск."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Dans une zone urbaine dense, un croisement subit des congestions chroniques aux heures de pointe, avec des files de véhicules et de piétons très importantes. Quelle condition, parmi celles de la réglementation, est la plus directement liée à l'installation de feux de signalisation pour gérer cette situation ?",
+      "text_nl": "In een dichtbevolkt stedelijk gebied ondervindt een kruising chronische congestie tijdens piekuren, met zeer lange rijen voertuigen en voetgangers. Welke voorwaarde, van de voorwaarden in de regelgeving, is het meest direct gerelateerd aan de installatie van verkeerslichten om deze situatie te beheren?",
+      "text_ru": "В плотно застроенном городском районе перекресток страдает от хронических пробок в часы пик, с очень длинными очередями транспортных средств и пешеходов. Какое условие из правил наиболее прямо связано с установкой светофоров для управления этой ситуацией?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A heavily congested urban intersection during rush hour, with long lines of cars and many pedestrians waiting to cross, indicating high traffic volume and difficult conditions. No traffic lights are currently controlling the flow."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La présence d'arbres le long de la route",
+          "text_nl": "De aanwezigheid van bomen langs de weg",
+          "text_ru": "Наличие деревьев вдоль дороги",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conditions de trafic et le volume de la circulation",
+          "text_nl": "De verkeersvoorwaarden en het volume van het verkeer",
+          "text_ru": "Условия движения и объем движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La couleur des façades des bâtiments",
+          "text_nl": "De kleur van de gevels van de gebouwen",
+          "text_ru": "Цвет фасадов зданий",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conditions de trafic et le volume de la circulation des véhicules et/ou des piétons sont des critères fondamentaux pour justifier l'installation de feux de signalisation, spécifiquement pour gérer la congestion et fluidifier le trafic dans des zones à forte densité.",
+      "explanation_nl": "De verkeersvoorwaarden en het volume van het voertuigenverkeer en/of van de voetgangers zijn fundamentele criteria voor het rechtvaardigen van de installatie van verkeerslichten, specifiek om congestie te beheren en de doorstroming in dichtbevolkte gebieden te verbeteren.",
+      "explanation_ru": "Условия движения и объем движения транспортных средств и/или пешеходов являются основополагающими критериями для обоснования установки светофоров, специально для управления пробками и улучшения потока движения в густонаселенных районах."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "d62dbe16428f",
@@ -36,6 +296,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:07:27Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 7
   }
 }

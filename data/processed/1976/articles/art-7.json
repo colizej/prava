@@ -182,7 +182,304 @@
   "anchor_id_fr": "210cmaqb37",
   "anchor_id_nl": "5jncb0nfpa",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un signal de danger et à quoi sert-il dans la circulation routière ?",
+      "text_nl": "Wat is een gevaarsbord en waar dient het voor in het verkeer ?",
+      "text_ru": "Что такое сигнал опасности и для чего он используется в дорожном движении ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un signal de danger est un panneau qui indique une règle de la route",
+          "text_nl": "Een gevaarsbord is een bord dat een verkeersregel aangeeft",
+          "text_ru": "Сигнал опасности - это знак, указывающий на правило дорожного движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un signal de danger est un panneau qui avertit les conducteurs d'un danger potentiel",
+          "text_nl": "Een gevaarsbord is een bord dat de bestuurders waarschuwt voor een potentieel gevaar",
+          "text_ru": "Сигнал опасности - это знак, предупреждающий водителей о потенциальной опасности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un signal de danger est un panneau qui indique une direction à suivre",
+          "text_nl": "Een gevaarsbord is een bord dat een richting aangeeft",
+          "text_ru": "Сигнал опасности - это знак, указывающий направление",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un signal de danger est un panneau qui avertit les conducteurs d'un danger potentiel, tel qu'un virage dangereux ou une descente abrupte.",
+      "explanation_nl": "Een gevaarsbord is een bord dat de bestuurders waarschuwt voor een potentieel gevaar, zoals een gevaarlijke bocht of een steile daling.",
+      "explanation_ru": "Сигнал опасности - это знак, предупреждающий водителей о потенциальной опасности, такой как опасный поворот или крутой спуск."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le but du panneau additionnel du type Ia ?",
+      "text_nl": "Wat is het doel van het onderbord van het type Ia ?",
+      "text_ru": "Какова цель дополнительного знака типа Ia ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer une direction à suivre",
+          "text_nl": "Een richting aangeven",
+          "text_ru": "Указать направление",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Avertir les conducteurs d'un danger potentiel",
+          "text_nl": "De bestuurders waarschuwen voor een potentieel gevaar",
+          "text_ru": "Предупредить водителей о потенциальной опасности",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer la distance jusqu'à un signal de danger",
+          "text_nl": "De afstand tot een gevaarsbord aangeven",
+          "text_ru": "Указать расстояние до знака опасности",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le panneau additionnel du type Ia est utilisé pour indiquer la distance jusqu'à un signal de danger lorsque celui-ci n'est pas placé à une distance de 150 mètres de l'endroit dangereux.",
+      "explanation_nl": "Het onderbord van het type Ia wordt gebruikt om de afstand tot een gevaarsbord aan te geven wanneer dit niet op een afstand van 150 meter van de gevaarlijke plaats is geplaatst.",
+      "explanation_ru": "Дополнительный знак типа Ia используется для указания расстояния до знака опасности, когда тот не установлен на расстоянии 150 метров от опасного места."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quels sont les critères pour signaler un virage dangereux avec un signal A1 ?",
+      "text_nl": "Wat zijn de criteria voor het signaleren van een gevaarlijke bocht met een verkeersbord A1 ?",
+      "text_ru": "Какие критерии используются для обозначения опасного поворота знаком А1 ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le virage doit être très court et très serré",
+          "text_nl": "De bocht moet zeer kort en zeer scherp zijn",
+          "text_ru": "Поворот должен быть очень коротким и очень острым",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le virage doit être imprévu ou nécessiter une réduction sensible de la vitesse",
+          "text_nl": "De bocht moet onverwacht zijn of een gevoelige snelheidsvermindering vereisen",
+          "text_ru": "Поворот должен быть непредвиденным или требовать значительного снижения скорости",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le virage doit être très long et très large",
+          "text_nl": "De bocht moet zeer lang en zeer breed zijn",
+          "text_ru": "Поворот должен быть очень длинным и очень широким",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un virage dangereux peut être signalé avec un signal A1 si celui-ci est imprévu ou nécessite une réduction sensible de la vitesse.",
+      "explanation_nl": "Een gevaarlijke bocht kan worden gesignaleerd met een verkeersbord A1 als deze onverwacht is of een gevoelige snelheidsvermindering vereist.",
+      "explanation_ru": "Опасный поворот может быть обозначен знаком А1, если он непредвиден или требует значительного снижения скорости."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route avec un virage dangereux. Quel signal de danger devez-vous attendre de voir ?",
+      "text_nl": "U rijdt over een weg met een gevaarlijke bocht. Welk gevaarsbord moet u verwachten te zien ?",
+      "text_ru": "Вы едете по дороге с опасным поворотом. Какой знак опасности должны вы ожидать увидеть ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un signal A3 pour une descente dangereuse",
+          "text_nl": "Een verkeersbord A3 voor een gevaarlijke daling",
+          "text_ru": "Знак А3 для опасного спуска",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un signal A1 pour un virage dangereux",
+          "text_nl": "Een verkeersbord A1 voor een gevaarlijke bocht",
+          "text_ru": "Знак А1 для опасного поворота",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un signal A7 pour un rétrécissement de la chaussée",
+          "text_nl": "Een verkeersbord A7 voor een versmalling van de rijbaan",
+          "text_ru": "Знак А7 для сужения дороги",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous conduisez sur une route avec un virage dangereux, vous devez attendre de voir un signal A1 pour un virage dangereux.",
+      "explanation_nl": "Wanneer u over een weg rijdt met een gevaarlijke bocht, moet u een verkeersbord A1 voor een gevaarlijke bocht verwachten te zien.",
+      "explanation_ru": "Когда вы едете по дороге с опасным поворотом, вы должны ожидать увидеть знак А1 для опасного поворота."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous voyez un signal A5 pour une montée à forte inclinaison. Qu'est-ce que cela signifie pour votre conduite ?",
+      "text_nl": "U ziet een verkeersbord A5 voor een steile helling. Wat betekent dit voor uw rijgedrag ?",
+      "text_ru": "Вы видите знак А5 для крутого подъема. Что это значит для вашего вождения ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez accélérer pour gravir la montée",
+          "text_nl": "U moet versnellen om de helling te beklimmen",
+          "text_ru": "Вам нужно ускориться, чтобы подняться на подъём",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez réduire votre vitesse pour gravir la montée en toute sécurité",
+          "text_nl": "U moet uw snelheid verlagen om de helling veilig te beklimmen",
+          "text_ru": "Вам нужно снизить скорость, чтобы подняться на подъём безопасно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez contourner la montée",
+          "text_nl": "U moet de helling omrijden",
+          "text_ru": "Вам нужно объехать подъём",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un signal A5 pour une montée à forte inclinaison, cela signifie que vous devez réduire votre vitesse pour gravir la montée en toute sécurité.",
+      "explanation_nl": "Wanneer u een verkeersbord A5 voor een steile helling ziet, betekent dit dat u uw snelheid moet verlagen om de helling veilig te beklimmen.",
+      "explanation_ru": "Когда вы видите знак А5 для крутого подъема, это значит, что вам нужно снизить скорость, чтобы подняться на подъём безопасно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez sur une route avec des virages successifs. Quel signal de danger devez-vous attendre de voir ?",
+      "text_nl": "U rijdt over een weg met opeenvolgende bochten. Welk gevaarsbord moet u verwachten te zien ?",
+      "text_ru": "Вы едете по дороге с последовательными поворотами. Какой знак опасности должны вы ожидать увидеть ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un signal A1 pour chaque virage",
+          "text_nl": "Een verkeersbord A1 voor elke bocht",
+          "text_ru": "Знак А1 для каждого поворота",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un signal A1 pour le premier virage et un panneau additionnel pour la longueur de la section sinueuse",
+          "text_nl": "Een verkeersbord A1 voor de eerste bocht en een onderbord voor de lengte van het bochtig vak",
+          "text_ru": "Знак А1 для первого поворота и дополнительный знак для длины извилистого участка",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un signal A7 pour un rétrécissement de la chaussée",
+          "text_nl": "Een verkeersbord A7 voor een versmalling van de rijbaan",
+          "text_ru": "Знак А7 для сужения дороги",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous conduisez sur une route avec des virages successifs, vous devez attendre de voir un signal A1 pour le premier virage et un panneau additionnel pour la longueur de la section sinueuse.",
+      "explanation_nl": "Wanneer u over een weg rijdt met opeenvolgende bochten, moet u een verkeersbord A1 voor de eerste bocht en een onderbord voor de lengte van het bochtig vak verwachten te zien.",
+      "explanation_ru": "Когда вы едете по дороге с последовательными поворотами, вы должны ожидать увидеть знак А1 для первого поворота и дополнительный знак для длины извилистого участка."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un signal A7 pour un rétrécissement de la chaussée. Qu'est-ce que cela signifie pour votre conduite ?",
+      "text_nl": "U ziet een verkeersbord A7 voor een versmalling van de rijbaan. Wat betekent dit voor uw rijgedrag ?",
+      "text_ru": "Вы видите знак А7 для сужения дороги. Что это значит для вашего вождения ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez accélérer pour traverser le rétrécissement",
+          "text_nl": "U moet versnellen om de versmalling te passeren",
+          "text_ru": "Вам нужно ускориться, чтобы проехать через сужение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez réduire votre vitesse et faire attention pour traverser le rétrécissement en toute sécurité",
+          "text_nl": "U moet uw snelheid verlagen en opletten om de versmalling veilig te passeren",
+          "text_ru": "Вам нужно снизить скорость и быть осторожным, чтобы проехать через сужение безопасно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez contourner le rétrécissement",
+          "text_nl": "U moet de versmalling omrijden",
+          "text_ru": "Вам нужно объехать сужение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un signal A7 pour un rétrécissement de la chaussée, cela signifie que vous devez réduire votre vitesse et faire attention pour traverser le rétrécissement en toute sécurité.",
+      "explanation_nl": "Wanneer u een verkeersbord A7 voor een versmalling van de rijbaan ziet, betekent dit dat u uw snelheid moet verlagen en opletten om de versmalling veilig te passeren.",
+      "explanation_ru": "Когда вы видите знак А7 для сужения дороги, это значит, что вам нужно снизить скорость и быть осторожным, чтобы проехать через сужение безопасно."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une route avec une chaussée glissante. Quel signal de danger devez-vous attendre de voir ?",
+      "text_nl": "U rijdt over een weg met een gladde rijbaan. Welk gevaarsbord moet u verwachten te zien ?",
+      "text_ru": "Вы едете по дороге с скользкой дорогой. Какой знак опасности должны вы ожидать увидеть ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un signal A1 pour un virage dangereux",
+          "text_nl": "Een verkeersbord A1 voor een gevaarlijke bocht",
+          "text_ru": "Знак А1 для опасного поворота",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un signal A5 pour une montée à forte inclinaison",
+          "text_nl": "Een verkeersbord A5 voor een steile helling",
+          "text_ru": "Знак А5 для крутого подъема",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un signal A15 pour une chaussée glissante",
+          "text_nl": "Een verkeersbord A15 voor een gladde rijbaan",
+          "text_ru": "Знак А15 для скользкой дороги",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque vous conduisez sur une route avec une chaussée glissante, vous devez attendre de voir un signal A15 pour une chaussée glissante.",
+      "explanation_nl": "Wanneer u over een weg rijdt met een gladde rijbaan, moet u een verkeersbord A15 voor een gladde rijbaan verwachten te zien.",
+      "explanation_ru": "Когда вы едете по дороге с скользкой дорогой, вы должны ожидать увидеть знак А15 для скользкой дороги."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "9b34bf88128d",
@@ -192,6 +489,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:10:52Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

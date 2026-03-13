@@ -26,7 +26,119 @@
   "anchor_id_fr": "abkvhds5hj",
   "anchor_id_nl": "irtavvsrnf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la valeur légale des preuves matérielles fournies par un appareil fonctionnant automatiquement, opéré en présence d'un agent qualifié, mais qui n'est pas encore officiellement agréé ou homologué ?",
+      "text_nl": "Wat is de juridische waarde van de materiële bewijsmiddelen die worden opgeleverd door een automatisch werkend toestel, bediend in aanwezigheid van een gekwalificeerde agent, maar dat nog niet officieel is goedgekeurd of gehomologeerd?",
+      "text_ru": "Какова юридическая ценность вещественных доказательств, предоставляемых автоматически действующим устройством, управляемым в присутствии квалифицированного агента, но еще не имеющим официального одобрения или омологации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une preuve pleine et entière, suffisante pour une condamnation directe.",
+          "text_nl": "Een volwaardig bewijs, voldoende voor een directe veroordeling.",
+          "text_ru": "Полное и неоспоримое доказательство, достаточное для прямого осуждения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une valeur de simple renseignement dans le cadre de la constatation des infractions.",
+          "text_nl": "Een waarde van eenvoudige inlichting in het kader van de vaststelling van overtredingen.",
+          "text_ru": "Ценность простой информации в рамках фиксации правонарушений.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune valeur légale et ne peut être utilisée.",
+          "text_nl": "Geen juridische waarde en kan niet worden gebruikt.",
+          "text_ru": "Не имеет юридической силы и не может быть использовано.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les preuves matérielles fournies par ces appareils non agréés mais utilisés en présence d'un agent qualifié conservent leur valeur de simple renseignement pour la constatation des infractions.",
+      "explanation_nl": "De materiële bewijsmiddelen die worden geleverd door dergelijke niet-goedgekeurde toestellen, maar gebruikt in aanwezigheid van een gekwalificeerde agent, behouden hun waarde van eenvoudige inlichting voor de vaststelling van overtredingen.",
+      "explanation_ru": "Вещественные доказательства, предоставленные такими неодобренными устройствами, но используемые в присутствии квалифицированного агента, сохраняют свою ценность как простая информация для фиксации правонарушений."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Pour que les preuves matérielles fournies par un appareil automatique opéré par un agent acquièrent une valeur probante pleine et entière, quelle est la condition essentielle que l'appareil doit remplir ?",
+      "text_nl": "Welke essentiële voorwaarde moet een automatisch toestel, bediend door een agent, vervullen opdat de geleverde materiële bewijsmiddelen hun volledige bewijskracht krijgen?",
+      "text_ru": "Какое существенное условие должно выполнить автоматическое устройство, управляемое агентом, чтобы предоставленные им вещественные доказательства приобрели полную доказательную силу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'appareil doit avoir été utilisé en plein jour.",
+          "text_nl": "Het toestel moet overdag zijn gebruikt.",
+          "text_ru": "Устройство должно использоваться в дневное время суток.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'appareil doit être agréé ou homologué.",
+          "text_nl": "Het toestel moet goedgekeurd of gehomologeerd zijn.",
+          "text_ru": "Устройство должно быть одобрено или омологировано.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'agent doit être accompagné d'un témoin civil.",
+          "text_nl": "De agent moet vergezeld zijn van een burgergetuige.",
+          "text_ru": "Агент должен быть в сопровождении гражданского свидетеля.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article indique que la situation de 'simple renseignement' est valable 'Jusqu'à l'agrément ou l'homologation', impliquant que cette approbation est la condition pour une valeur probante supérieure.",
+      "explanation_nl": "Het artikel geeft aan dat de situatie van 'eenvoudige inlichting' geldig is 'Tot de goedkeuring of homologatie', wat inhoudt dat deze goedkeuring de voorwaarde is voor een hogere bewijskracht.",
+      "explanation_ru": "Статья указывает, что статус «простой информации» действует «До одобрения или омологации», подразумевая, что это одобрение является условием для полной доказательной силы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes flashé pour excès de vitesse par un radar automatique mobile, manipulé par un agent qualifié au bord de la route. Ce radar n'a pas encore reçu son agrément officiel. Que signifiera l'image de votre véhicule dans le procès-verbal d'infraction ?",
+      "text_nl": "U wordt geflitst voor snelheidsovertreding door een mobiele automatische radar, bediend door een gekwalificeerde agent langs de weg. Deze radar heeft zijn officiële goedkeuring nog niet ontvangen. Wat betekent de foto van uw voertuig in het proces-verbaal van de overtreding?",
+      "text_ru": "Вас зафиксировали за превышение скорости мобильным автоматическим радаром, управляемым квалифицированным агентом на обочине дороги. Этот радар еще не получил официального одобрения. Что будет означать изображение вашего автомобиля в протоколе о нарушении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle sera considérée comme une preuve irréfutable de votre infraction.",
+          "text_nl": "Het zal worden beschouwd als onweerlegbaar bewijs van uw overtreding.",
+          "text_ru": "Оно будет считаться неопровержимым доказательством вашего нарушения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle servira d'information complémentaire pour étayer la constatation de l'infraction.",
+          "text_nl": "Het zal dienen als aanvullende informatie ter ondersteuning van de vaststelling van de overtreding.",
+          "text_ru": "Оно послужит дополнительной информацией для подтверждения факта нарушения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle n'aura aucune validité et ne pourra pas être jointe au procès-verbal.",
+          "text_nl": "Het zal geen enkele geldigheid hebben en kan niet aan het proces-verbaal worden toegevoegd.",
+          "text_ru": "Оно не будет иметь юридической силы и не сможет быть приложено к протоколу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même si l'appareil n'est pas agréé, les preuves matérielles qu'il fournit en présence d'un agent qualifié gardent leur valeur de simple renseignement pour la constatation des infractions.",
+      "explanation_nl": "Zelfs als het toestel niet is goedgekeurd, behouden de materiële bewijsmiddelen die het levert in aanwezigheid van een gekwalificeerde agent hun waarde van eenvoudige inlichting voor de vaststelling van overtredingen.",
+      "explanation_ru": "Даже если устройство не одобрено, вещественные доказательства, которые оно предоставляет в присутствии квалифицированного агента, сохраняют свою ценность как простая информация для фиксации нарушений."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "544d416fa57c",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:02:18Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

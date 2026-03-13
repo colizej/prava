@@ -44,7 +44,304 @@
   "anchor_id_fr": "ikredb4bo4",
   "anchor_id_nl": "eahtq6xcbm",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la principale obligation d'une personne morale dont un véhicule est impliqué dans une infraction routière, lorsque le conducteur n'a pas été identifié sur place ?",
+      "text_nl": "Wat is de voornaamste verplichting van een rechtspersoon wiens voertuig betrokken is bij een verkeersovertreding, wanneer de bestuurder ter plaatse niet geïdentificeerd werd?",
+      "text_ru": "Каково основное обязательство юридического лица, чей автомобиль был причастен к дорожному нарушению, если водитель не был установлен на месте происшествия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Déclarer que le conducteur est inconnu et clore le dossier.",
+          "text_nl": "Verklaren dat de bestuurder onbekend is en het dossier afsluiten.",
+          "text_ru": "Заявить, что водитель неизвестен, и закрыть дело.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Communiquer l'identité du conducteur incontestable ou, si celle-ci est inconnue, l'identité de la personne responsable du véhicule.",
+          "text_nl": "De identiteit van de onmiskenbare bestuurder meedelen of, indien die onbekend is, de identiteit van de persoon die verantwoordelijk is voor het voertuig.",
+          "text_ru": "Сообщить личность неоспоримого водителя или, если она неизвестна, личность лица, ответственного за транспортное средство.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer l'amende au nom de l'entreprise sans fournir d'identité.",
+          "text_nl": "De boete namens het bedrijf betalen zonder identiteit te verstrekken.",
+          "text_ru": "Оплатить штраф от имени компании, не предоставляя личных данных.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu’un véhicule d'une personne morale commet une infraction et que le conducteur n'est pas identifié, l'entreprise est tenue de communiquer l'identité du conducteur incontestable ou, à défaut, de la personne responsable du véhicule.",
+      "explanation_nl": "Wanneer een voertuig van een rechtspersoon een overtreding begaat en de bestuurder niet geïdentificeerd is, is het bedrijf gehouden de identiteit van de onmiskenbare bestuurder mee te delen of, bij gebreke daarvan, de identiteit van de persoon die verantwoordelijk is voor het voertuig.",
+      "explanation_ru": "Когда транспортное средство юридического лица совершает нарушение, и водитель не установлен, компания обязана сообщить личность неоспоримого водителя или, если это невозможно, личность лица, ответственного за транспортное средство."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quel délai maximum une entreprise doit-elle communiquer l'identité du conducteur ou de la personne responsable du véhicule après avoir reçu une demande de renseignements officielle ?",
+      "text_nl": "Binnen welke maximale termijn moet een bedrijf de identiteit van de bestuurder of van de persoon die verantwoordelijk is voor het voertuig meedelen na ontvangst van een officieel verzoek om inlichtingen?",
+      "text_ru": "В течение какого максимального срока компания должна сообщить личность водителя или ответственного за транспортное средство лица после получения официального запроса информации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "7 jours.",
+          "text_nl": "7 dagen.",
+          "text_ru": "7 дней.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "15 jours.",
+          "text_nl": "15 dagen.",
+          "text_ru": "15 дней.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "30 jours.",
+          "text_nl": "30 dagen.",
+          "text_ru": "30 дней.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La communication de l'identité doit avoir lieu dans les quinze jours suivant l'envoi de la demande de renseignements.",
+      "explanation_nl": "De mededeling van de identiteit moet gebeuren binnen vijftien dagen na de verzending van het verzoek om inlichtingen.",
+      "explanation_ru": "Сообщение личности должно быть предоставлено в течение пятнадцати дней с момента отправки запроса информации."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie le terme 'conducteur incontestable' dans le contexte de l'identification d'un conducteur après une infraction commise avec un véhicule de société ?",
+      "text_nl": "Wat betekent de term 'onmiskenbare bestuurder' in de context van de identificatie van een bestuurder na een overtreding begaan met een bedrijfsvoertuig?",
+      "text_ru": "Что означает термин 'неоспоримый водитель' в контексте идентификации водителя после нарушения, совершенного на служебном автомобиле?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le gérant ou le propriétaire de l'entreprise.",
+          "text_nl": "De zaakvoerder of eigenaar van het bedrijf.",
+          "text_ru": "Управляющий или владелец компании.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La personne qui était réellement aux commandes du véhicule au moment précis de l'infraction.",
+          "text_nl": "De persoon die werkelijk aan het stuur zat op het exacte moment van de overtreding.",
+          "text_ru": "Лицо, которое фактически управляло транспортным средством в точный момент нарушения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "N'importe quel employé possédant un permis de conduire valide.",
+          "text_nl": "Elke werknemer met een geldig rijbewijs.",
+          "text_ru": "Любой сотрудник, имеющий действующее водительское удостоверение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le 'conducteur incontestable' est la personne qui était de manière certaine aux commandes du véhicule au moment exact où l'infraction a été commise.",
+      "explanation_nl": "De 'onmiskenbare bestuurder' is de persoon die op een onbetwistbare manier het voertuig bestuurde op het exacte moment dat de overtreding werd begaan.",
+      "explanation_ru": "'Неоспоримый водитель' — это лицо, которое, без сомнения, управляло транспортным средством в точный момент совершения нарушения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Une camionnette appartenant à votre entreprise est flashée pour un excès de vitesse par un radar automatique. Vous recevez une demande officielle d'identification. Vous savez que le chauffeur, Madame Dubois, était en livraison ce jour-là. Que doit faire votre entreprise ?",
+      "text_nl": "Een bestelwagen van uw bedrijf wordt geflitst voor een snelheidsovertreding door een automatische camera. U ontvangt een officieel identificatieverzoek. U weet dat de chauffeur, mevrouw Dubois, die dag op levering was. Wat moet uw bedrijf doen?",
+      "text_ru": "Фургон, принадлежащий вашей компании, зафиксирован камерой за превышение скорости. Вы получаете официальный запрос на идентификацию. Вы знаете, что водитель, госпожа Дюбуа, была в тот день на доставке. Что должна сделать ваша компания?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ignorer la demande, car l'infraction n'est pas directement liée à l'entreprise.",
+          "text_nl": "Het verzoek negeren, aangezien de overtreding niet direct aan het bedrijf is gekoppeld.",
+          "text_ru": "Игнорировать запрос, так как нарушение не связано напрямую с компанией.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Communiquer l'identité complète de Madame Dubois dans les 15 jours suivant la réception de la demande.",
+          "text_nl": "De volledige identiteit van mevrouw Dubois meedelen binnen 15 dagen na ontvangst van het verzoek.",
+          "text_ru": "Сообщить полные данные госпожи Дюбуа в течение 15 дней с момента получения запроса.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer l'amende directement au nom de l'entreprise pour éviter des démarches administratives.",
+          "text_nl": "De boete direct namens het bedrijf betalen om administratieve procedures te vermijden.",
+          "text_ru": "Оплатить штраф напрямую от имени компании, чтобы избежать административных процедур.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'entreprise est tenue de communiquer l'identité du conducteur incontestable (Madame Dubois) dans le délai de quinze jours après réception de la demande.",
+      "explanation_nl": "Het bedrijf is gehouden de identiteit van de onmiskenbare bestuurder (mevrouw Dubois) mee te delen binnen vijftien dagen na ontvangst van het verzoek.",
+      "explanation_ru": "Компания обязана сообщить личность неоспоримого водителя (госпожи Дюбуа) в течение пятнадцати дней с момента получения запроса."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un véhicule de votre entreprise est impliqué dans une infraction, et vous recevez une demande d'identification. Il est impossible de déterminer avec certitude qui conduisait à ce moment précis, mais le véhicule était sous la responsabilité de M. Schmidt, le chef d'équipe, pour la semaine. Quelle est la marche à suivre pour l'entreprise ?",
+      "text_nl": "Een voertuig van uw bedrijf is betrokken bij een overtreding en u ontvangt een identificatieverzoek. Het is onmogelijk om met zekerheid vast te stellen wie op dat exacte moment reed, maar het voertuig viel die week onder de verantwoordelijkheid van de heer Schmidt, de teamleider. Wat is de procedure voor het bedrijf?",
+      "text_ru": "Транспортное средство вашей компании причастно к нарушению, и вы получаете запрос на идентификацию. Невозможно точно определить, кто управлял автомобилем в этот конкретный момент, но на этой неделе ответственность за автомобиль нес господин Шмидт, руководитель группы. Каков порядок действий компании?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Déclarer que le conducteur est inconnu et attendre de nouvelles instructions.",
+          "text_nl": "Verklaren dat de bestuurder onbekend is en wachten op verdere instructies.",
+          "text_ru": "Заявить, что водитель неизвестен, и ждать дальнейших инструкций.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Communiquer l'identité de M. Schmidt, la personne responsable du véhicule, puisque le conducteur n'est pas identifiable.",
+          "text_nl": "De identiteit van de heer Schmidt, de persoon die verantwoordelijk is voor het voertuig, meedelen, aangezien de bestuurder niet identificeerbaar is.",
+          "text_ru": "Сообщить личность господина Шмидта, лица, ответственного за транспортное средство, поскольку водитель не может быть установлен.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Rechercher activement le conducteur pendant un an avant de répondre à la demande.",
+          "text_nl": "Actief naar de bestuurder zoeken gedurende een jaar voordat op het verzoek wordt gereageerd.",
+          "text_ru": "Активно искать водителя в течение года, прежде чем отвечать на запрос.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si l'identité du conducteur incontestable ne peut être établie, l'entreprise est tenue de communiquer l'identité de la personne responsable du véhicule.",
+      "explanation_nl": "Indien de identiteit van de onmiskenbare bestuurder niet kan worden vastgesteld, is het bedrijf gehouden de identiteit van de persoon die verantwoordelijk is voor het voertuig mee te delen.",
+      "explanation_ru": "Если личность неоспоримого водителя не может быть установлена, компания обязана сообщить личность лица, ответственного за транспортное средство."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Votre entreprise reçoit une demande d'identification pour une infraction commise par un de ses véhicules. Cependant, vous avez une preuve irréfutable que le véhicule a été volé la nuit précédant l'infraction, et une plainte a été déposée. Quelle est votre obligation dans ce cas ?",
+      "text_nl": "Uw bedrijf ontvangt een identificatieverzoek voor een overtreding begaan door een van zijn voertuigen. U heeft echter onweerlegbaar bewijs dat het voertuig de nacht vóór de overtreding is gestolen, en er is aangifte gedaan. Wat is uw verplichting in dit geval?",
+      "text_ru": "Ваша компания получает запрос на идентификацию в связи с нарушением, совершенным одним из ее транспортных средств. Однако у вас есть неопровержимые доказательства того, что автомобиль был угнан в ночь перед нарушением, и было подано заявление. Каково ваше обязательство в этом случае?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez quand même communiquer l'identité de la personne à qui le véhicule était attribué.",
+          "text_nl": "U moet nog steeds de identiteit meedelen van de persoon aan wie het voertuig was toegewezen.",
+          "text_ru": "Вы все равно должны сообщить личность лица, за которым было закреплено транспортное средство.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez prouver le vol pour être exempté de l'obligation de communiquer une identité.",
+          "text_nl": "U kunt de diefstal bewijzen om vrijgesteld te worden van de verplichting een identiteit mee te delen.",
+          "text_ru": "Вы можете доказать факт угона, чтобы быть освобожденным от обязанности предоставить идентификационные данные.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'amende est annulée automatiquement sans aucune démarche de votre part.",
+          "text_nl": "De boete wordt automatisch geannuleerd zonder enige actie van uw kant.",
+          "text_ru": "Штраф автоматически аннулируется без каких-либо действий с вашей стороны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'obligation de communiquer l'identité du conducteur ou de la personne responsable ne s'applique pas si la personne morale peut prouver le vol, la fraude ou la force majeure.",
+      "explanation_nl": "De verplichting om de identiteit van de bestuurder of de verantwoordelijke persoon mee te delen is niet van toepassing indien de rechtspersoon diefstal, fraude of overmacht kan bewijzen.",
+      "explanation_ru": "Обязательство сообщать личность водителя или ответственного лица не применяется, если юридическое лицо может доказать кражу, мошенничество или форс-мажор."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre entreprise a communiqué l'identité de Madame Garcia comme étant la personne responsable d'un véhicule qui a commis une infraction. Madame Garcia informe par la suite l'entreprise qu'elle avait prêté le véhicule à son frère ce jour-là. Quelle est la nouvelle obligation de Madame Garcia ?",
+      "text_nl": "Uw bedrijf heeft de identiteit van mevrouw Garcia meegedeeld als de persoon die verantwoordelijk is voor een voertuig dat een overtreding heeft begaan. Mevrouw Garcia informeert het bedrijf vervolgens dat zij het voertuig die dag aan haar broer had uitgeleend. Wat is de nieuwe verplichting van mevrouw Garcia?",
+      "text_ru": "Ваша компания сообщила личность госпожи Гарсия как ответственного за транспортное средство, совершившее нарушение. Госпожа Гарсия впоследствии сообщает компании, что она одолжила автомобиль своему брату в тот день. Каково новое обязательство госпожи Гарсия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle n'a aucune autre obligation, car l'entreprise a déjà répondu.",
+          "text_nl": "Zij heeft geen verdere verplichting, aangezien het bedrijf reeds heeft geantwoord.",
+          "text_ru": "У нее нет других обязательств, так как компания уже ответила.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle doit à son tour communiquer l'identité de son frère, le conducteur incontestable, selon les mêmes modalités.",
+          "text_nl": "Zij moet op haar beurt de identiteit van haar broer, de onmiskenbare bestuurder, op dezelfde wijze meedelen.",
+          "text_ru": "Она, в свою очередь, должна сообщить личность своего брата, неоспоримого водителя, тем же способом.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle doit payer l'amende puisque le véhicule était sous sa responsabilité.",
+          "text_nl": "Zij moet de boete betalen, aangezien het voertuig onder haar verantwoordelijkheid viel.",
+          "text_ru": "Она должна оплатить штраф, так как транспортное средство находилось под ее ответственностью.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si la personne responsable du véhicule n'était pas le conducteur, elle est également tenue de communiquer l'identité du conducteur incontestable.",
+      "explanation_nl": "Indien de persoon die verantwoordelijk is voor het voertuig niet de bestuurder was, is hij eveneens gehouden de identiteit van de onmiskenbare bestuurder mee te delen.",
+      "explanation_ru": "Если лицо, ответственное за транспортное средство, не было водителем, оно также обязано сообщить личность неоспоримого водителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Une entreprise gérant une large flotte de voitures de fonction souhaite simplifier les démarches en cas d'infractions pour ses employés qui utilisent régulièrement les mêmes véhicules. Quelle est la mesure spécifique qui permettrait de traiter ces conducteurs différemment ?",
+      "text_nl": "Een bedrijf dat een groot wagenpark beheert, wil de procedures bij overtredingen voor zijn werknemers die regelmatig dezelfde voertuigen gebruiken, vereenvoudigen. Welke specifieke maatregel zou deze bestuurders anders kunnen behandelen?",
+      "text_ru": "Компания, управляющая большим парком служебных автомобилей, желает упростить процедуры в случае нарушений для своих сотрудников, регулярно использующих одни и те же транспортные средства. Какая конкретная мера позволит иначе рассматривать этих водителей?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander à chaque employé de signer une reconnaissance de dette pour toute amende future.",
+          "text_nl": "Elke werknemer vragen een schuldbekentenis te ondertekenen voor toekomstige boetes.",
+          "text_ru": "Потребовать от каждого сотрудника подписать долговую расписку на все будущие штрафы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire enregistrer ces conducteurs comme 'conducteurs habituels' auprès de l'instance compétente pour les véhicules.",
+          "text_nl": "Deze bestuurders laten registreren als 'gebruikelijke bestuurders' bij de bevoegde instantie voor voertuigen.",
+          "text_ru": "Зарегистрировать этих водителей как 'постоянных водителей' в компетентном органе по транспортным средствам.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Installer des systèmes de télémétrie avancés sur tous les véhicules pour un suivi en temps réel.",
+          "text_nl": "Geavanceerde telemetriesystemen installeren in alle voertuigen voor realtime monitoring.",
+          "text_ru": "Установить передовые телеметрические системы на все транспортные средства для отслеживания в реальном времени.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque le conducteur habituel est enregistré à la Banque-Carrefour Véhicules, il est assimilé au titulaire de la plaque d'immatriculation, ce qui simplifie le traitement des infractions.",
+      "explanation_nl": "Wanneer de gebruikelijke bestuurder in de Kruispuntbank Voertuigen is geregistreerd, wordt hij gelijkgesteld met de houder van de kentekenplaat, wat de afhandeling van overtredingen vereenvoudigt.",
+      "explanation_ru": "Когда постоянный водитель зарегистрирован в Банке-перекрестке транспортных средств, он приравнивается к держателю номерного знака, что упрощает обработку нарушений."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "05fef548b65c",
@@ -54,6 +351,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:01:09Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

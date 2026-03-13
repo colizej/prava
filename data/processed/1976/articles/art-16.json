@@ -57,7 +57,304 @@
   "anchor_id_fr": "buddfd6hpa",
   "anchor_id_nl": "nt4j1l7ivr",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le but principal des marques longitudinales discontinues décrites, lorsqu'elles sont utilisées aux carrefours pour les pistes cyclables ?",
+      "text_nl": "Wat is het hoofddoel van de beschreven onderbroken overlangse markeringen, wanneer ze op kruispunten worden gebruikt voor fietspaden?",
+      "text_ru": "Какова основная цель описываемых прерывистых продольных разметок, используемых на перекрестках для велосипедных дорожек?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Discontinuous white line segments on road, indicating a bike path at an intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles indiquent une zone de stationnement temporaire pour les vélos.",
+          "text_nl": "Ze duiden een tijdelijke parkeerzone voor fietsen aan.",
+          "text_ru": "Они обозначают временную парковочную зону для велосипедов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles confirment la continuité d'une piste cyclable au-delà d'un carrefour.",
+          "text_nl": "Ze bevestigen de continuïteit van een fietspad voorbij een kruispunt.",
+          "text_ru": "Они подтверждают непрерывность велосипедной дорожки за перекрестком.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles obligent les cyclistes à s'arrêter avant le carrefour.",
+          "text_nl": "Ze verplichten fietsers om te stoppen voor het kruispunt.",
+          "text_ru": "Они обязывают велосипедистов останавливаться перед перекрестком.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces marques longitudinales ont pour but d'indiquer clairement la prolongation d'une piste cyclable à travers un carrefour, assurant ainsi la visibilité de l'itinéraire cyclable.",
+      "explanation_nl": "Deze overlangse markeringen zijn bedoeld om duidelijk de voortzetting van een fietspad over een kruispunt aan te geven, waardoor de zichtbaarheid van de fietsroute wordt gewaarborgd.",
+      "explanation_ru": "Эти продольные разметки предназначены для четкого обозначения продолжения велосипедной дорожки через перекресток, обеспечивая видимость велосипедного маршрута."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Dans quelles situations les marques longitudinales indiquant une piste cyclable sont-elles *obligatoires* aux carrefours, si la piste fait partie d'une voie publique et se prolonge ?",
+      "text_nl": "In welke situaties zijn overlangse markeringen die een fietspad aanduiden *verplicht* op kruispunten, als het fietspad deel uitmaakt van een openbare weg en doorloopt?",
+      "text_ru": "В каких ситуациях продольная разметка, обозначающая велосипедную дорожку, является *обязательной* на перекрестках, если дорожка является частью проезжей части и продолжается?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Traffic signs B9 and B15, in a Belgian road context."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque la voie publique est signalée par un panneau B1 (cédez le passage) ou B5 (stop).",
+          "text_nl": "Wanneer de openbare weg gesignaleerd wordt door een verkeersbord B1 (voorrang verlenen) of B5 (stop).",
+          "text_ru": "Когда проезжая часть обозначена знаком B1 (уступи дорогу) или B5 (стоп).",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque la voie publique est signalée par un panneau B9 (cédez le passage à tous les usagers) ou B15 (fin de route prioritaire).",
+          "text_nl": "Wanneer de openbare weg gesignaleerd wordt door een verkeersbord B9 (voorrang verlenen aan alle verkeer) of B15 (einde van de voorrangsweg).",
+          "text_ru": "Когда проезжая часть обозначена знаком B9 (уступи дорогу всем участникам движения) или B15 (конец главной дороги).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsque la voie publique est signalée par un panneau B17 (cédez le passage à la route prioritaire).",
+          "text_nl": "Wanneer de openbare weg gesignaleerd wordt door een verkeersbord B17 (voorrang verlenen aan de voorrangsweg).",
+          "text_ru": "Когда проезжая часть обозначена знаком B17 (уступи дорогу главной дороге).",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces marques sont obligatoires lorsque la piste cyclable fait partie d'une voie publique signalée par les panneaux B9 ou B15 et qu'elle se prolonge au-delà du carrefour.",
+      "explanation_nl": "Deze markeringen zijn verplicht wanneer het fietspad deel uitmaakt van een openbare weg gesignaleerd door de verkeersborden B9 of B15 en na het kruispunt verder loopt.",
+      "explanation_ru": "Эта разметка является обязательной, когда велосипедная дорожка является частью проезжей части, обозначенной знаками B9 или B15, и продолжается за перекрестком."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les dimensions approximatives d'un trait individuel et de l'espacement d'une ligne discontinue utilisée pour marquer une piste cyclable aux carrefours ?",
+      "text_nl": "Wat zijn de geschatte afmetingen van een individuele trek en de tussenafstand van een onderbroken lijn die wordt gebruikt om een fietspad op kruispunten te markeren?",
+      "text_ru": "Каковы приблизительные размеры отдельного штриха и интервала прерывистой линии, используемой для обозначения велосипедной дорожки на перекрестках?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Close-up of a discontinuous white line segment on road, with dimensions indicated."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Largeur 0,10 m, longueur 1,00 m, espacement 1,00 m.",
+          "text_nl": "Breedte 0,10 m, lengte 1,00 m, tussenafstand 1,00 m.",
+          "text_ru": "Ширина 0,10 м, длина 1,00 м, интервал 1,00 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Largeur 0,20 m, longueur 1,50 m, espacement 1,50 m.",
+          "text_nl": "Breedte 0,20 m, lengte 1,50 m, tussenafstand 1,50 m.",
+          "text_ru": "Ширина 0,20 м, длина 1,50 м, интервал 1,50 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Largeur 0,15 m, longueur 1,25 m, espacement 1,25 m.",
+          "text_nl": "Breedte 0,15 m, lengte 1,25 m, tussenafstand 1,25 m.",
+          "text_ru": "Ширина 0,15 м, длина 1,25 м, интервал 1,25 м.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La ligne discontinue est constituée de traits d'une largeur d'environ 0,15 m, d'une longueur d'environ 1,25 m et espacés d'environ 1,25 m.",
+      "explanation_nl": "De onderbroken streep bestaat uit trekken van ongeveer 0,15 m breedte en van ongeveer 1,25 m lengte, met tussenafstanden van ongeveer 1,25 m.",
+      "explanation_ru": "Прерывистая линия состоит из штрихов шириной около 0,15 м, длиной около 1,25 м и с интервалами около 1,25 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes au volant de votre voiture et vous approchez d'un carrefour. Vous remarquez des marques longitudinales discontinues (traits de 0,15 m de large et 1,25 m de long, espacés de 1,25 m) traversant la chaussée, adjacentes à un trottoir. Que vous indiquent ces marques ?",
+      "text_nl": "U rijdt met uw auto en nadert een kruispunt. U ziet onderbroken overlangse markeringen (strepen van 0,15 m breed en 1,25 m lang, met 1,25 m tussenafstand) die de rijbaan kruisen, grenzend aan een voetpad. Wat geven deze markeringen u aan?",
+      "text_ru": "Вы за рулем автомобиля и приближаетесь к перекрестку. Вы замечаете прерывистую продольную разметку (штрихи шириной 0,15 м и длиной 1,25 м, расположенные с интервалом 1,25 м), пересекающую проезжую часть, примыкающую к тротуару. Что означают эти разметки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car approaching an intersection with clearly visible discontinuous white line segments on the road, indicating a bike path crossing."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que vous devez réduire votre vitesse pour les piétons qui traversent.",
+          "text_nl": "Dat u uw snelheid moet minderen voor overstekende voetgangers.",
+          "text_ru": "Что вы должны снизить скорость для пешеходов, переходящих дорогу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Qu'une piste cyclable se prolonge à travers le carrefour, et que des cyclistes pourraient traverser.",
+          "text_nl": "Dat een fietspad door het kruispunt loopt en dat fietsers kunnen oversteken.",
+          "text_ru": "Что велосипедная дорожка продолжается через перекресток, и велосипедисты могут пересекать дорогу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Qu'il s'agit d'une zone où le stationnement est autorisé temporairement.",
+          "text_nl": "Dat het een zone is waar tijdelijk parkeren is toegestaan.",
+          "text_ru": "Что это зона, где временно разрешена парковка.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces marques indiquent la continuité d'une piste cyclable à travers le carrefour, signifiant que des cyclistes peuvent y être présents et que vous devez en tenir compte.",
+      "explanation_nl": "Deze markeringen geven de continuïteit van een fietspad over het kruispunt aan, wat betekent dat er fietsers aanwezig kunnen zijn en dat u daarmee rekening moet houden.",
+      "explanation_ru": "Эта разметка указывает на продолжение велосипедной дорожки через перекресток, что означает возможное присутствие велосипедистов, и вы должны это учитывать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un cycliste sur une piste cyclable. Vous approchez d'un carrefour où la voie publique que vous vous apprêtez à traverser est signalée par un panneau B9 (cédez le passage à tous les usagers). Votre piste cyclable se prolonge clairement au-delà du carrefour. Quelle est la règle concernant les marques longitudinales pour votre piste cyclable à ce carrefour ?",
+      "text_nl": "U bent een fietser op een fietspad. U nadert een kruispunt waar de openbare weg die u gaat oversteken, gesignaleerd wordt door een verkeersbord B9 (voorrang verlenen aan alle verkeer). Uw fietspad loopt duidelijk verder voorbij het kruispunt. Wat is de regel betreffende de overlangse markeringen voor uw fietspad op dit kruispunt?",
+      "text_ru": "Вы велосипедист на велосипедной дорожке. Вы приближаетесь к перекрестку, где проезжая часть, которую вы собираетесь пересечь, обозначена знаком B9 (уступи дорогу всем участникам движения). Ваша велосипедная дорожка явно продолжается за перекрестком. Каково правило относительно продольной разметки вашей велосипедной дорожки на этом перекрестке?",
+      "image": {
+        "sign_code": "B9",
+        "generation_prompt": "A cyclist approaching an intersection. The intersecting road has a B9 sign. A bike path is clearly visible crossing the intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les marques longitudinales sont interdites dans cette situation.",
+          "text_nl": "Overlangse markeringen zijn in deze situatie verboden.",
+          "text_ru": "Продольная разметка в этой ситуации запрещена.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les marques longitudinales doivent obligatoirement être apposées.",
+          "text_nl": "De overlangse markeringen moeten verplicht aangebracht worden.",
+          "text_ru": "Продольная разметка должна быть обязательно нанесена.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les marques longitudinales peuvent être apposées, mais ce n'est pas une obligation.",
+          "text_nl": "De overlangse markeringen mogen aangebracht worden, maar het is geen verplichting.",
+          "text_ru": "Продольная разметка может быть нанесена, но это не является обязательным.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque la piste cyclable fait partie d'une voie publique signalée par le panneau B9 et se prolonge au-delà du carrefour, les marques longitudinales doivent obligatoirement être apposées.",
+      "explanation_nl": "Wanneer het fietspad deel uitmaakt van een openbare weg gesignaleerd door het verkeersbord B9 en na het kruispunt verder loopt, moeten de overlangse markeringen verplicht aangebracht worden.",
+      "explanation_ru": "Если велосипедная дорожка является частью проезжей части, обозначенной знаком B9, и продолжается за перекрестком, то продольная разметка должна быть обязательно нанесена."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "En tant que conducteur, vous vous arrêtez à un carrefour en raison d'un panneau B5 (stop). Une piste cyclable longe la route principale et se poursuit à travers le carrefour. Dans cette situation, que savez-vous sur la présence des marques longitudinales pour la piste cyclable au niveau du carrefour ?",
+      "text_nl": "Als bestuurder stopt u op een kruispunt vanwege een verkeersbord B5 (stop). Een fietspad loopt langs de hoofdweg en loopt door over het kruispunt. Wat weet u in deze situatie over de aanwezigheid van overlangse markeringen voor het fietspad op het kruispunt?",
+      "text_ru": "Как водитель, вы останавливаетесь на перекрестке из-за знака B5 (стоп). Велосипедная дорожка проходит вдоль главной дороги и продолжается через перекресток. В этой ситуации, что вы знаете о наличии продольной разметки для велосипедной дорожки на перекрестке?",
+      "image": {
+        "sign_code": "B5",
+        "generation_prompt": "A car stopped at an intersection with a B5 (Stop) sign. A bike path with discontinuous markings is visible crossing the intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les marques longitudinales doivent impérativement être présentes.",
+          "text_nl": "De overlangse markeringen moeten verplicht aanwezig zijn.",
+          "text_ru": "Продольная разметка должна быть обязательно нанесена.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les marques longitudinales ne sont jamais utilisées dans cette situation.",
+          "text_nl": "De overlangse markeringen worden in deze situatie nooit gebruikt.",
+          "text_ru": "Продольная разметка в этой ситуации никогда не используется.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les marques longitudinales peuvent être présentes, mais ce n'est pas une obligation.",
+          "text_nl": "De overlangse markeringen mogen aanwezig zijn, maar het is geen verplichting.",
+          "text_ru": "Продольная разметка может быть нанесена, но это не является обязательным.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque la piste cyclable fait partie d'une voie publique signalée par les panneaux B1, B5 ou B17, les marques longitudinales peuvent être apposées, mais ce n'est pas une obligation, contrairement aux panneaux B9 ou B15.",
+      "explanation_nl": "Wanneer het fietspad deel uitmaakt van een openbare weg gesignaleerd door de verkeersborden B1, B5 of B17, mogen de overlangse markeringen aangebracht worden, maar het is geen verplichting, in tegenstelling tot de verkeersborden B9 of B15.",
+      "explanation_ru": "Когда велосипедная дорожка является частью проезжей части, обозначенной знаками B1, B5 или B17, продольная разметка может быть нанесена, но это не является обязательным, в отличие от знаков B9 или B15."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes cycliste et vous approchez d'un carrefour où la route principale adjacente à votre piste cyclable est signalée par un panneau B15 (fin de route prioritaire). Votre piste cyclable continue directement à travers le carrefour. Quel est l'impact de ce panneau sur l'obligation d'avoir des marques longitudinales pour votre piste cyclable à cet endroit ?",
+      "text_nl": "U bent fietser en u nadert een kruispunt waar de hoofdweg naast uw fietspad gesignaleerd wordt door een verkeersbord B15 (einde van de voorrangsweg). Uw fietspad loopt direct door over het kruispunt. Wat is de impact van dit verkeersbord op de verplichting om overlangse markeringen te hebben voor uw fietspad op die plaats?",
+      "text_ru": "Вы велосипедист и приближаетесь к перекрестку, где главная дорога, прилегающая к вашей велосипедной дорожке, обозначена знаком B15 (конец главной дороги). Ваша велосипедная дорожка продолжается прямо через перекресток. Каково влияние этого знака на обязательность наличия продольной разметки для вашей велосипедной дорожки в этом месте?",
+      "image": {
+        "sign_code": "B15",
+        "generation_prompt": "A cyclist approaching an intersection. The main road has a B15 sign. A bike path with discontinuous markings is clearly visible crossing the intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le panneau B15 rend la présence des marques longitudinales optionnelle.",
+          "text_nl": "Het bord B15 maakt de aanwezigheid van overlangse markeringen optioneel.",
+          "text_ru": "Знак B15 делает наличие продольной разметки необязательным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le panneau B15, combiné à la continuité de la piste cyclable, rend la présence des marques longitudinales obligatoire.",
+          "text_nl": "Het bord B15, in combinatie met de continuïteit van het fietspad, maakt de aanwezigheid van overlangse markeringen verplicht.",
+          "text_ru": "Знак B15 в сочетании с непрерывностью велосипедной дорожки делает наличие продольной разметки обязательным.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le panneau B15 indique que la piste cyclable prend fin au carrefour.",
+          "text_nl": "Het bord B15 geeft aan dat het fietspad eindigt bij het kruispunt.",
+          "text_ru": "Знак B15 указывает на то, что велосипедная дорожка заканчивается на перекрестке.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les marques longitudinales sont obligatoires lorsque la piste cyclable fait partie d'une voie publique signalée par un panneau B15 et qu'une piste cyclable se prolonge au-delà du carrefour. Le panneau B15 signifie la fin de la route prioritaire, mais ne concerne pas directement la continuité de la piste cyclable au niveau des marquages, si celle-ci continue.",
+      "explanation_nl": "Overlangse markeringen zijn verplicht wanneer het fietspad deel uitmaakt van een openbare weg gesignaleerd door een verkeersbord B15 en een fietspad na het kruispunt verder loopt. Het bord B15 betekent het einde van de voorrangsweg, maar heeft geen directe invloed op de continuïteit van het fietspad qua markeringen, als het fietspad doorloopt.",
+      "explanation_ru": "Продольная разметка является обязательной, когда велосипедная дорожка является частью проезжей части, обозначенной знаком B15, и продолжается за перекрестком. Знак B15 означает конец главной дороги, но не влияет напрямую на непрерывность велосипедной дорожки в отношении разметки, если дорожка продолжается."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "En tant que conducteur, vous traversez un carrefour et remarquez une ligne discontinue faite de courts traits blancs peints sur la chaussée, délimitant un espace sur le côté de la route où des cyclistes circulent. Quelle est la signification immédiate de cette ligne ?",
+      "text_nl": "Als bestuurder steekt u een kruispunt over en merkt u een onderbroken lijn op, bestaande uit korte witte strepen op het wegdek, die een ruimte aan de zijkant van de weg afbakenen waar fietsers rijden. Wat is de directe betekenis van deze lijn?",
+      "text_ru": "Как водитель, вы пересекаете перекресток и замечаете прерывистую линию, состоящую из коротких белых штрихов, нанесенных на проезжую часть, обозначающую пространство сбоку от дороги, где движутся велосипедисты. Каково непосредственное значение этой линии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car driving through an intersection. On the side of the road, a bike path is clearly delimited by discontinuous white line segments, indicating its continuation."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle indique un lieu où les véhicules peuvent s'arrêter momentanément.",
+          "text_nl": "Het duidt een plaats aan waar voertuigen tijdelijk kunnen stoppen.",
+          "text_ru": "Она обозначает место, где транспортные средства могут временно остановиться.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle signale la présence et la continuité d'une piste cyclable à travers le carrefour.",
+          "text_nl": "Het signaleert de aanwezigheid en continuïteit van een fietspad over het kruispunt.",
+          "text_ru": "Она сигнализирует о наличии и непрерывности велосипедной дорожки через перекресток.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle délimite une zone de dépassement autorisée pour les cyclistes.",
+          "text_nl": "Het bakent een toegestane inhaalzone af voor fietsers.",
+          "text_ru": "Она обозначает разрешенную зону обгона для велосипедистов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ces marques longitudinales servent à indiquer clairement la présence et la continuité d'une piste cyclable, même en traversant un carrefour. Les conducteurs doivent être conscients de cette infrastructure cyclable.",
+      "explanation_nl": "Deze overlangse markeringen dienen om duidelijk de aanwezigheid en continuïteit van een fietspad aan te geven, zelfs over een kruispunt. Bestuurders moeten zich bewust zijn van deze fietsinfrastructuur.",
+      "explanation_ru": "Эти продольные разметки служат для четкого обозначения наличия и непрерывности велосипедной дорожки, даже при пересечении перекрестка. Водители должны быть осведомлены об этой велосипедной инфраструктуре."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "813bf93904d4",
@@ -67,6 +364,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:04:34Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

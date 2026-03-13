@@ -26,7 +26,304 @@
   "anchor_id_fr": "g6rjcmymj6",
   "anchor_id_nl": "akzp2txtv3",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la forme de la plage lumineuse des feux clignotants?",
+      "text_nl": "Wat is de vorm van het lichtdoorlatend gedeelte van deze lichten?",
+      "text_ru": "Какова форма светового пятна мигающих огней?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un carré",
+          "text_nl": "Een vierkant",
+          "text_ru": "Квадрат",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un cercle",
+          "text_nl": "Een cirkel",
+          "text_ru": "Круг",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un triangle",
+          "text_nl": "Een driehoek",
+          "text_ru": "Треугольник",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La plage lumineuse des feux a la forme d'un cercle d'un diamètre minimal de 0,18 m.",
+      "explanation_nl": "Het lichtdoorlatend gedeelte van deze lichten heeft de vorm van een cirkel met een diameter van ten minste 0,18 m.",
+      "explanation_ru": "Световое пятно мигающих огней имеет форму круга диаметром не менее 0,18 м."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le fonctionnement des feux clignotants lorsqu'il y a deux feux?",
+      "text_nl": "Hoe werken de knipperlichten wanneer er twee lichten zijn?",
+      "text_ru": "Как работают мигающие огни, когда есть два огня?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ils s'allument en même temps",
+          "text_nl": "Ze branden tegelijk",
+          "text_ru": "Они загораются одновременно",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ils s'allument alternativement",
+          "text_nl": "Ze branden beurtelings",
+          "text_ru": "Они загораются поочередно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils ne s'allument pas",
+          "text_nl": "Ze branden niet",
+          "text_ru": "Они не загораются",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque l'installation comporte deux feux, ceux-ci s'allument alternativement.",
+      "explanation_nl": "Wanneer de installatie twee lichten omvat, branden deze beurtelings.",
+      "explanation_ru": "Когда установка состоит из двух огней, они загораются поочередно."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quel est le but du signal lumineux composé de trois feux?",
+      "text_nl": "Wat is het doel van het verkeerslicht dat bestaat uit drie lichten?",
+      "text_ru": "Какова цель сигнала, состоящего из трех огней?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer une intersection",
+          "text_nl": "Aanduiden van een kruispunt",
+          "text_ru": "Указать перекрёсток",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indiquer une zone de travaux",
+          "text_nl": "Aanduiden van een werkzone",
+          "text_ru": "Указать зону работ",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer une situation où les signaux tricolores ne conviennent pas",
+          "text_nl": "Aanduiden van een situatie waarin de driekleurige verkeerslichten niet geschikt zijn",
+          "text_ru": "Указать ситуацию, в которой триколорные сигналы не подходят",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Ce signal lumineux ne peut être utilisé que lorsque les signaux du système tricolore ne conviennent pas.",
+      "explanation_nl": "Dit verkeerslicht mag slechts gebruikt worden wanneer de driekleurige verkeerslichten niet passen.",
+      "explanation_ru": "Этот сигнал может использоваться только тогда, когда сигналы триколорной системы не подходят."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous approchez d'un carrefour et vous voyez un feu clignotant. Que devez-vous faire?",
+      "text_nl": "U nadert een kruispunt en u ziet een knipperlicht. Wat moet u doen?",
+      "text_ru": "Вы подходите к перекрёстку и видите мигающий огонь. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Accélérer pour passer le carrefour avant que le feu ne devienne rouge",
+          "text_nl": "Versnellen om het kruispunt over te steken voordat het licht rood wordt",
+          "text_ru": "Ускориться, чтобы пересечь перекрёсток, прежде чем огонь станет красным",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et être prêt à s'arrêter",
+          "text_nl": "Vertragen en klaar zijn om te stoppen",
+          "text_ru": "Замедлиться и быть готовым остановиться",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer le feu et continuer à rouler",
+          "text_nl": "Het licht negeren en doorrijden",
+          "text_ru": "Игнорировать огонь и продолжать ехать",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous approchez d'un carrefour avec un feu clignotant, vous devez ralentir et être prêt à vous arrêter.",
+      "explanation_nl": "Wanneer u een kruispunt nadert met een knipperlicht, moet u vertragen en klaar zijn om te stoppen.",
+      "explanation_ru": "Когда вы подходите к перекрёстку с мигающим огнём, вам следует замедлиться и быть готовым остановиться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes à une intersection et vous voyez un feu jaune-orange clignotant. Que signifie cela?",
+      "text_nl": "U bent op een kruispunt en u ziet een oranjegeel knipperlicht. Wat betekent dit?",
+      "text_ru": "Вы находитесь на перекрёстке и видите мигающий жёлто-оранжевый огонь. Что это значит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il faut s'arrêter immédiatement",
+          "text_nl": "U moet onmiddellijk stoppen",
+          "text_ru": "Нужно немедленно остановиться",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il faut préparer son arrêt",
+          "text_nl": "U moet uw stop voorbereiden",
+          "text_ru": "Нужно подготовиться к остановке",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut accélérer pour passer l'intersection",
+          "text_nl": "U moet versnellen om het kruispunt over te steken",
+          "text_ru": "Нужно ускориться, чтобы пересечь перекрёсток",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un feu jaune-orange clignotant signifie que vous devez préparer votre arrêt.",
+      "explanation_nl": "Een oranjegeel knipperlicht betekent dat u uw stop moet voorbereiden.",
+      "explanation_ru": "Мигающий жёлто-оранжевый огонь означает, что вы должны подготовиться к остановке."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes à une intersection et vous voyez un feu rouge, puis un feu jaune-orange fixe pendant 5 secondes. Que devez-vous faire?",
+      "text_nl": "U bent op een kruispunt en u ziet een rood licht, gevolgd door een vast oranjegeel licht van 5 seconden. Wat moet u doen?",
+      "text_ru": "Вы находитесь на перекрёстке и видите красный огонь, затем постоянный жёлто-оранжевый огонь в течение 5 секунд. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer l'intersection immédiatement",
+          "text_nl": "Onmiddellijk het kruispunt overstellen",
+          "text_ru": "Немедленно пересечь перекрёсток",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter et attendre le feu vert",
+          "text_nl": "Stoppen en wachten op het groene licht",
+          "text_ru": "Остановиться и ждать зелёный огонь",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer le feu et continuer à rouler",
+          "text_nl": "Het licht negeren en doorrijden",
+          "text_ru": "Игнорировать огонь и продолжать ехать",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un feu rouge, puis un feu jaune-orange fixe pendant 5 secondes, vous devez s'arrêter et attendre le feu vert.",
+      "explanation_nl": "Wanneer u een rood licht ziet, gevolgd door een vast oranjegeel licht van 5 seconden, moet u stoppen en wachten op het groene licht.",
+      "explanation_ru": "Когда вы видите красный огонь, затем постоянный жёлто-оранжевый огонь в течение 5 секунд, вы должны остановиться и ждать зелёный огонь."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes à une intersection et vous voyez deux feux clignotants qui s'allument alternativement. Que signifie cela?",
+      "text_nl": "U bent op een kruispunt en u ziet twee knipperlichten die beurtelings branden. Wat betekent dit?",
+      "text_ru": "Вы находитесь на перекрёстке и видите два мигающих огня, которые загораются поочередно. Что это значит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il faut s'arrêter immédiatement",
+          "text_nl": "U moet onmiddellijk stoppen",
+          "text_ru": "Нужно немедленно остановиться",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il faut préparer son arrêt",
+          "text_nl": "U moet uw stop voorbereiden",
+          "text_ru": "Нужно подготовиться к остановке",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut ralentir et être prêt à s'arrêter",
+          "text_nl": "U moet vertragen en klaar zijn om te stoppen",
+          "text_ru": "Нужно замедлиться и быть готовым остановиться",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez deux feux clignotants qui s'allument alternativement, vous devez ralentir et être prêt à vous arrêter.",
+      "explanation_nl": "Wanneer u twee knipperlichten ziet die beurtelings branden, moet u vertragen en klaar zijn om te stoppen.",
+      "explanation_ru": "Когда вы видите два мигающих огня, которые загораются поочередно, вы должны замедлиться и быть готовым остановиться."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes à une intersection et vous voyez un feu jaune-orange clignotant, puis un feu jaune-orange fixe pendant 5 secondes. Que devez-vous faire?",
+      "text_nl": "U bent op een kruispunt en u ziet een oranjegeel knipperlicht, gevolgd door een vast oranjegeel licht van 5 seconden. Wat moet u doen?",
+      "text_ru": "Вы находитесь на перекрёстке и видите мигающий жёлто-оранжевый огонь, затем постоянный жёлто-оранжевый огонь в течение 5 секунд. Что вы должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer l'intersection immédiatement",
+          "text_nl": "Onmiddellijk het kruispunt overstellen",
+          "text_ru": "Немедленно пересечь перекрёсток",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter et attendre le feu vert",
+          "text_nl": "Stoppen en wachten op het groene licht",
+          "text_ru": "Остановиться и ждать зелёный огонь",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ignorer le feu et continuer à rouler",
+          "text_nl": "Het licht negeren en doorrijden",
+          "text_ru": "Игнорировать огонь и продолжать ехать",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un feu jaune-orange clignotant, puis un feu jaune-orange fixe pendant 5 secondes, vous devez s'arrêter et attendre le feu vert.",
+      "explanation_nl": "Wanneer u een oranjegeel knipperlicht ziet, gevolgd door een vast oranjegeel licht van 5 seconden, moet u stoppen en wachten op het groene licht.",
+      "explanation_ru": "Когда вы видите мигающий жёлто-оранжевый огонь, затем постоянный жёлто-оранжевый огонь в течение 5 секунд, вы должны остановиться и ждать зелёный огонь."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "6c8d33df72c4",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:09:50Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

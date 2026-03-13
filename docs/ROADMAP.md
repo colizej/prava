@@ -324,27 +324,42 @@ python manage.py compilemessages                  # compiler
 
 ---
 
-## Phase 9b — Signes routiers — Import complet depuis PDF officiel ⬜
+## Phase 9b — Signes routiers — Import complet depuis PDF officiel 🔄
 
-> Durée estimée : 2–3 jours | Indépendant
+> Indépendant des autres phases
 
-### Contexte
+### Contexte & état actuel (12 mars 2026)
 
-- PDF officiel téléchargé : `https://www.codedelaroute.be/media/file/72d09b827e4aa70f33ab0664371b3741cb823a9f.pdf`
-  - Code de la voie publique 2027 — **200+ signes** avec codes FR/NL
-  - PDF analysé avec `pypdf` : structure lisible (code + nom FR/NL par ligne)
-- BDD actuelle : seulement **~27 signes** — incomplet
+- PDF source : `signaux.pdf` (53 pages, catalogue belge officiel valable dès 01/06/2027)
+  - Véhiculés vectoriels (pas de bitmaps embarqués)
+  - Structure : tableau 3 colonnes par page — `[NL] | [image + code] | [FR]`
+  - Détection de tableau via `pymupdf.page.find_tables()` → bbox exacte par cellule
+- **252 signes extraits** → `data/signs/*.png` + `data/signs/signs_index.json`
+  - Format : PNG 3× zoom ≈ 216 DPI, fond gris → blanc (flood-fill)
+  - Chaque signe = 2 lignes PDF : ligne 0 = code texte, ligne 1 = image vide
+  - Script d'extraction : `scripts/extract_signs_full.py`
+- BDD actuelle : seulement **~27 signes** — à remplacer entièrement
 
-### À faire
+### Problèmes connus à régler avant import
 
-- [ ] Script `scripts/parse_signs_pdf.py` — parser le PDF → JSON `{code, name_fr, name_nl}`
-- [ ] Remplir le `SIGN_REGISTRY` dans `import_signs.py` avec les **200+ entrées** du PDF
-- [ ] Ajouter champ `name_nl` au modèle `TrafficSign` (migration)
-- [ ] Re-downloader les images depuis Wikimedia pour tous les nouveaux signes
-  - Gérer le rate-limiting (429) avec délais appropriés
-  - Fallback : SVG direct depuis Wikimedia CDN (thumbnail steps valides : 120, 240, 320, 480px)
-- [ ] Corriger les images toujours mauvaises : F43, F47, F50, F51
-  - F51 absent de Wikimedia → chercher source alternative (codedelaroute.be, Wikipedia)
+- [ ] **A25** : image absente (ligne image à `i+2` au lieu de `i+1`) — 1 PNG à refaire manuellement ou corriger le regex de scan
+- [ ] **Qualité variable des PNG** : certains ont encore un léger fond gris, d'autres des marges inégales
+  - Piste : remplacer flood-fill par remplacement pixel-à-pixel de tous les gris proches de `(216,217,216)`
+  - Piste : auto-crop tight + recentrage sur carré 400×400 (déjà testé dans version intermédiaire du script, mais causait d'autres problèmes)
+- [ ] **Codes `M33-P.2`, `M41a-P.1`** : variantes de panneaux similaires — OK d'avoir un seul PNG pour la famille, à confirmer côté modèle BDD
+
+### À faire — Import BDD
+
+- [ ] Vérifier modèle `TrafficSign` : champs `code`, `name_fr`, `name_nl`, `image` — ajouter `name_nl` si absent (migration)
+- [ ] Script `scripts/import_signs.py` : lire `signs_index.json`, créer/mettre à jour `TrafficSign` en BDD, copier PNG vers `media/signs/`
+- [ ] Vérifier que les noms NL/FR sont complets (actuellement tronqués à 50 chars dans le log, vérifier JSON)
+- [ ] Ajouter RU translations manquantes via DeepL ou manuellement
+
+### À faire — Affichage
+
+- [ ] `apps/reglementation/templates/reglementation/signs.html` : afficher `name_fr` / `name_nl` / `name_ru` selon langue active
+- [ ] Page detail par signe avec image grande + descriptions multilingues
+- [ ] Lier signes aux articles de loi concernés (`TrafficSign` ↔ `CodeArticle`)
 
 ---
 

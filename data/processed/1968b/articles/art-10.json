@@ -36,7 +36,304 @@
   "anchor_id_fr": "smgnktjvgj",
   "anchor_id_nl": "uulm7b7bjk",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que le vitrage de sécurité pour les véhicules à moteur ?",
+      "text_nl": "Wat is beveiligingsglas voor motorvoertuigen?",
+      "text_ru": "Что такое безопасное стекло для транспортных средств?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un type de verre qui se brise facilement",
+          "text_nl": "Een soort glas dat gemakkelijk breekt",
+          "text_ru": "Тип стекла, который легко ломается",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un type de verre conçu pour résister aux chocs",
+          "text_nl": "Een soort glas dat ontworpen is om tegen stoten te weerstaan",
+          "text_ru": "Тип стекла, предназначенный для сопротивления ударам",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un type de verre utilisé uniquement pour les remorques",
+          "text_nl": "Een soort glas dat alleen voor aanhangwagens wordt gebruikt",
+          "text_ru": "Тип стекла, используемый только для прицепов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le vitrage de sécurité est conçu pour résister aux chocs et prévenir les blessures en cas d'accident.",
+      "explanation_nl": "Beveiligingsglas is ontworpen om tegen stoten te weerstaan en om letsel te voorkomen in geval van een ongeval.",
+      "explanation_ru": "Безопасное стекло предназначено для сопротивления ударам и предотвращения травм в случае аварии."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'objectif principal de l'homologation du vitrage de sécurité ?",
+      "text_nl": "Wat is het hoofddoel van de goedkeuring van beveiligingsglas?",
+      "text_ru": "В чем заключается основная цель сертификации безопасного стекла?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "De garantir la qualité du verre",
+          "text_nl": "Om de kwaliteit van het glas te garanderen",
+          "text_ru": "Гарантировать качество стекла",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "De réduire les coûts de production",
+          "text_nl": "Om de productiekosten te verlagen",
+          "text_ru": "Снизить производственные затраты",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "De augmenter la quantité de verre produit",
+          "text_nl": "Om de hoeveelheid geproduceerd glas te verhogen",
+          "text_ru": "Увеличить объем произведенного стекла",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'homologation du vitrage de sécurité vise à garantir que le verre utilisé dans les véhicules à moteur répond à certaines normes de qualité et de sécurité.",
+      "explanation_nl": "De goedkeuring van beveiligingsglas heeft als doel om te garanderen dat het glas dat in motorvoertuigen wordt gebruikt, voldoet aan bepaalde kwaliteits- en veiligheidsnormen.",
+      "explanation_ru": "Сертификация безопасного стекла направлена на обеспечение того, чтобы стекло, используемое в транспортных средствах, соответствовало определенным стандартам качества и безопасности."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce que les matériaux pour vitrages destinés à être montés sur les véhicules à moteur et leurs remorques ?",
+      "text_nl": "Wat zijn materialen voor glas dat bestemd is om op motorvoertuigen en hun aanhangwagens te worden gemonteerd?",
+      "text_ru": "Что такое материалы для стекол, предназначенные для установки на транспортные средства и их прицепы?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des matériaux utilisés pour la fabrication de pièces de rechange",
+          "text_nl": "Materialen die worden gebruikt voor de productie van reserveonderdelen",
+          "text_ru": "Материалы, используемые для производства запасных частей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des matériaux utilisés pour la fabrication de vitrages de sécurité",
+          "text_nl": "Materialen die worden gebruikt voor de productie van beveiligingsglas",
+          "text_ru": "Материалы, используемые для производства безопасного стекла",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des matériaux utilisés pour la fabrication de véhicules à moteur",
+          "text_nl": "Materialen die worden gebruikt voor de productie van motorvoertuigen",
+          "text_ru": "Материалы, используемые для производства транспортных средств",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les matériaux pour vitrages destinés à être montés sur les véhicules à moteur et leurs remorques sont des matériaux utilisés pour la fabrication de vitrages de sécurité.",
+      "explanation_nl": "Materialen voor glas dat bestemd is om op motorvoertuigen en hun aanhangwagens te worden gemonteerd, zijn materialen die worden gebruikt voor de productie van beveiligingsglas.",
+      "explanation_ru": "Материалы для стекол, предназначенные для установки на транспортные средства и их прицепы, являются материалами, используемыми для производства безопасного стекла."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est impliqué dans un accident de la route et le pare-brise de son véhicule est endommagé. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeluk en de voorruit van zijn voertuig is beschadigd. Wat moet hij doen?",
+      "text_ru": "Водитель попал в дорожно-транспортное происшествие, и лобовое стекло его транспортного средства повреждено. Что ему следует сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire avec un pare-brise endommagé",
+          "text_nl": "Doorgaan met rijden met een beschadigde voorruit",
+          "text_ru": "Продолжать движение с поврежденным лобовым стеклом",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter et évaluer les dégâts avant de prendre une décision",
+          "text_nl": "Stoppen en de schade beoordelen voordat u een beslissing neemt",
+          "text_ru": "Остановиться и оценить ущерб, прежде чем принять решение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler la police pour qu'elle vienne constater les dégâts",
+          "text_nl": "De politie bellen om de schade te komen constateren",
+          "text_ru": "Позвонить в полицию, чтобы она приехала и зафиксировала ущерб",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit s'arrêter et évaluer les dégâts avant de prendre une décision sur la façon de procéder.",
+      "explanation_nl": "De bestuurder moet stoppen en de schade beoordelen voordat hij een beslissing neemt over hoe te handelen.",
+      "explanation_ru": "Водитель должен остановиться и оценить ущерб, прежде чем принять решение о том, как действовать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur doit remplacer le pare-brise de son véhicule. Qu'est-ce qu'il doit choisir ?",
+      "text_nl": "Een bestuurder moet de voorruit van zijn voertuig vervangen. Wat moet hij kiezen?",
+      "text_ru": "Водитель должен заменить лобовое стекло своего транспортного средства. Что ему следует выбрать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un pare-brise en verre ordinaire",
+          "text_nl": "Een voorruit van gewoon glas",
+          "text_ru": "Лобовое стекло из обычного стекла",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un pare-brise en vitrage de sécurité",
+          "text_nl": "Een voorruit van beveiligingsglas",
+          "text_ru": "Лобовое стекло из безопасного стекла",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un pare-brise en plastique",
+          "text_nl": "Een voorruit van plastic",
+          "text_ru": "Лобовое стекло из пластика",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit choisir un pare-brise en vitrage de sécurité pour garantir la sécurité de lui-même et des autres usagers de la route.",
+      "explanation_nl": "De bestuurder moet een voorruit van beveiligingsglas kiezen om de veiligheid van zichzelf en andere weggebruikers te garanderen.",
+      "explanation_ru": "Водитель должен выбрать лобовое стекло из безопасного стекла, чтобы гарантировать безопасность себя и других участников дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur est impliqué dans un accident de la route et le vitrage latéral de son véhicule est endommagé. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder is betrokken bij een verkeersongeluk en de zijdruit van zijn voertuig is beschadigd. Wat moet hij doen?",
+      "text_ru": "Водитель попал в дорожно-транспортное происшествие, и боковое стекло его транспортного средства повреждено. Что ему следует сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire avec un vitrage latéral endommagé",
+          "text_nl": "Doorgaan met rijden met een beschadigde zijdruit",
+          "text_ru": "Продолжать движение с поврежденным боковым стеклом",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "S'arrêter et évaluer les dégâts avant de prendre une décision",
+          "text_nl": "Stoppen en de schade beoordelen voordat u een beslissing neemt",
+          "text_ru": "Остановиться и оценить ущерб, прежде чем принять решение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Appeler un dépanneur pour qu'il vienne réparer le vitrage latéral",
+          "text_nl": "Een sleepdienst bellen om de zijdruit te komen repareren",
+          "text_ru": "Позвонить в сервис по ремонту, чтобы он приехал и отремонтировал боковое стекло",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit s'arrêter et évaluer les dégâts avant de prendre une décision sur la façon de procéder.",
+      "explanation_nl": "De bestuurder moet stoppen en de schade beoordelen voordat hij een beslissing neemt over hoe te handelen.",
+      "explanation_ru": "Водитель должен остановиться и оценить ущерб, прежде чем принять решение о том, как действовать."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur doit inspecter le vitrage de son véhicule. Qu'est-ce qu'il doit vérifier ?",
+      "text_nl": "Een bestuurder moet de voorruit van zijn voertuig inspecteren. Wat moet hij controleren?",
+      "text_ru": "Водитель должен осмотреть стекло своего транспортного средства. Что ему следует проверить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les rayures et les dégâts sur le pare-brise",
+          "text_nl": "De krassen en de schade op de voorruit",
+          "text_ru": "Царапины и повреждения на лобовом стекле",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les défauts de fabrication du vitrage",
+          "text_nl": "De productiefouten in de voorruit",
+          "text_ru": "Производственные дефекты в лобовом стекле",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La couleur du vitrage",
+          "text_nl": "De kleur van de voorruit",
+          "text_ru": "Цвет лобового стекла",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit vérifier les rayures et les dégâts sur le pare-brise pour garantir la sécurité de lui-même et des autres usagers de la route.",
+      "explanation_nl": "De bestuurder moet de krassen en de schade op de voorruit controleren om de veiligheid van zichzelf en andere weggebruikers te garanderen.",
+      "explanation_ru": "Водитель должен проверить царапины и повреждения на лобовом стекле, чтобы гарантировать безопасность себя и других участников дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur doit remplacer le vitrage latéral de son véhicule. Qu'est-ce qu'il doit choisir ?",
+      "text_nl": "Een bestuurder moet de zijdruit van zijn voertuig vervangen. Wat moet hij kiezen?",
+      "text_ru": "Водитель должен заменить боковое стекло своего транспортного средства. Что ему следует выбрать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un vitrage latéral en verre ordinaire",
+          "text_nl": "Een zijdruit van gewoon glas",
+          "text_ru": "Боковое стекло из обычного стекла",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un vitrage latéral en vitrage de sécurité",
+          "text_nl": "Een zijdruit van beveiligingsglas",
+          "text_ru": "Боковое стекло из безопасного стекла",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un vitrage latéral en plastique",
+          "text_nl": "Een zijdruit van plastic",
+          "text_ru": "Боковое стекло из пластика",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit choisir un vitrage latéral en vitrage de sécurité pour garantir la sécurité de lui-même et des autres usagers de la route.",
+      "explanation_nl": "De bestuurder moet een zijdruit van beveiligingsglas kiezen om de veiligheid van zichzelf en andere weggebruikers te garanderen.",
+      "explanation_ru": "Водитель должен выбрать боковое стекло из безопасного стекла, чтобы гарантировать безопасность себя и других участников дорожного движения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:59:05Z",
     "content_hash": "4fd1e8c2aaaf",
@@ -46,6 +343,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:15:17Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

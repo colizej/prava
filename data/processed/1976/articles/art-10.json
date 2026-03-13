@@ -92,7 +92,304 @@
   "anchor_id_fr": "vpbf7eazpl",
   "anchor_id_nl": "chl525gqzu",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la règle générale concernant la modification de la portée des signaux d'obligation par des inscriptions additionnelles, et pour quel signal une exception est-elle admise en faveur des services de transport en commun ?",
+      "text_nl": "Wat is de algemene regel met betrekking tot het wijzigen van de betekenis van gebodsborden door bijkomende opschriften, en voor welk bord is een uitzondering toegestaan ten gunste van openbare vervoersdiensten?",
+      "text_ru": "Каково общее правило относительно изменения значения предписывающих знаков дополнительными надписями, и для какого знака допускается исключение в пользу общественного транспорта?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les inscriptions additionnelles peuvent limiter la portée de tous les signaux d'obligation, mais jamais l'étendre.",
+          "text_nl": "Bijkomende opschriften kunnen de betekenis van alle gebodsborden beperken, maar nooit uitbreiden.",
+          "text_ru": "Дополнительные надписи могут ограничивать действие всех предписывающих знаков, но никогда не расширять его.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Aucune inscription additionnelle ne peut limiter la portée des signaux d'obligation, sauf pour le signal D1 où une dérogation est possible pour les transports en commun si la disposition des lieux le permet.",
+          "text_nl": "Geen enkel bijkomend opschrift mag de betekenis van de gebodsborden beperken, behalve voor verkeersbord D1 waar een afwijking mogelijk is voor openbaar vervoer indien de plaatsgesteldheid het toelaat.",
+          "text_ru": "Никакие дополнительные надписи не могут ограничивать действие предписывающих знаков, за исключением знака D1, где допускается исключение для общественного транспорта, если это позволяют местные условия.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les inscriptions additionnelles sont toujours autorisées si elles clarifient le message du signal d'obligation.",
+          "text_nl": "Bijkomende opschriften zijn altijd toegestaan indien ze de boodschap van het gebodsbord verduidelijken.",
+          "text_ru": "Дополнительные надписи всегда разрешены, если они уточняют сообщение предписывающего знака.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La règle générale est qu'aucune inscription additionnelle ne peut limiter la portée des signaux d'obligation. Cependant, il existe une exception spécifique pour le signal D1, qui peut être complété par une dérogation en faveur des véhicules des services publics réguliers de transports en commun, si la disposition des lieux le permet.",
+      "explanation_nl": "De algemene regel is dat geen enkel bijkomend opschrift de betekenis van de gebodsborden mag beperken. Er is echter een specifieke uitzondering voor verkeersbord D1, dat kan worden aangevuld met een afwijking ten gunste van voertuigen van geregelde openbare diensten voor gemeenschappelijk vervoer, indien de plaatsgesteldheid het toelaat.",
+      "explanation_ru": "Общее правило заключается в том, что никакие дополнительные надписи не могут ограничивать действие предписывающих знаков. Однако существует специфическое исключение для знака D1, который может быть дополнен разрешением для транспортных средств регулярных общественных служб общественного транспорта, если это позволяют местные условия."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le nom officiel du signal qui impose le 'Sens giratoire obligatoire' et quelles conditions doivent être remplies pour qu'il puisse être placé à un carrefour ?",
+      "text_nl": "Wat is de officiële naam van het bord dat 'Verplichte rotonderichting' aangeeft en aan welke voorwaarden moet voldaan zijn om het op een kruispunt te mogen plaatsen?",
+      "text_ru": "Каково официальное название знака, предписывающего 'Обязательное круговое движение', и какие условия должны быть выполнены для его установки на перекрестке?",
+      "image": {
+        "sign_code": "D5",
+        "generation_prompt": "Mandatory roundabout sign (D5)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le signal C31, qui peut être placé si le trafic est dense.",
+          "text_nl": "Verkeersbord C31, dat mag geplaatst worden bij druk verkeer.",
+          "text_ru": "Знак C31, который может быть установлен при плотном движении.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le signal D5. Il ne peut être placé que si tous les conducteurs doivent laisser le dispositif de canalisation à leur gauche en s'engageant dans le carrefour et peuvent le contourner.",
+          "text_nl": "Verkeersbord D5. Het mag enkel geplaatst worden indien alle bestuurders die het kruispunt oprijden, het verkeersgeleidingsapparaat links moeten laten en het kunnen omrijden.",
+          "text_ru": "Знак D5. Он может быть установлен только в том случае, если все водители, въезжающие на перекресток, должны оставлять направляющее устройство слева от себя и могут его объехать.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le signal D1 avec une flèche courbée. Il peut être placé si la visibilité est bonne.",
+          "text_nl": "Verkeersbord D1 met een gebogen pijl. Het mag geplaatst worden bij goede zichtbaarheid.",
+          "text_ru": "Знак D1 с изогнутой стрелкой. Его можно устанавливать при хорошей видимости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal qui impose le sens giratoire obligatoire est le D5. La condition principale pour son placement est que tous les conducteurs s'engageant dans le carrefour doivent laisser le dispositif de canalisation à leur gauche et pouvoir le contourner.",
+      "explanation_nl": "Het verkeersbord dat de verplichte rotonderichting aangeeft, is D5. De belangrijkste voorwaarde voor de plaatsing ervan is dat alle bestuurders die het kruispunt oprijden, het verkeersgeleidingsapparaat links moeten laten en het moeten kunnen omrijden.",
+      "explanation_ru": "Знаком, предписывающим обязательное круговое движение, является D5. Основное условие для его установки заключается в том, что все водители, въезжающие на перекресток, должны оставлять направляющее устройство слева от себя и иметь возможность его объехать."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la principale distinction dans l'utilisation et la signification entre les signaux D9 et D10 concernant les voies réservées aux usagers vulnérables ?",
+      "text_nl": "Wat is het belangrijkste onderscheid in gebruik en betekenis tussen de verkeersborden D9 en D10 met betrekking tot wegen gereserveerd voor kwetsbare gebruikers?",
+      "text_ru": "В чем заключается основное различие в использовании и значении между знаками D9 и D10, касающимися полос, зарезервированных для уязвимых участников движения?",
+      "image": {
+        "sign_code": "D9",
+        "generation_prompt": "Sign for shared path pedestrians, bicycles, and class A mopeds (D9); Sign for shared path pedestrians and bicycles (D10)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le signal D9 indique une piste cyclable uniquement, tandis que le D10 est une voie piétonne.",
+          "text_nl": "Verkeersbord D9 duidt enkel een fietspad aan, terwijl D10 een voetpad is.",
+          "text_ru": "Знак D9 обозначает только велосипедную дорожку, тогда как D10 — пешеходную дорожку.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le D9 est réservé aux piétons, bicyclettes et cyclomoteurs classe A avec une séparation des espaces, tandis que le D10 est pour les piétons et cyclistes sans distinction de séparation, utilisé quand le D9 n'est pas possible.",
+          "text_nl": "D9 is gereserveerd voor voetgangers, fietsers en bromfietsers klasse A met gescheiden ruimtes, terwijl D10 bestemd is voor voetgangers en fietsers zonder scheiding, gebruikt wanneer D9 niet mogelijk is.",
+          "text_ru": "D9 зарезервирован для пешеходов, велосипедистов и мопедов класса А с разделением пространств, тогда как D10 предназначен для пешеходов и велосипедистов без разделения, используется, когда D9 невозможен.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le D10 est utilisé sur les routes à grande vitesse, tandis que le D9 est pour les zones résidentielles.",
+          "text_nl": "D10 wordt gebruikt op hogesnelheidswegen, terwijl D9 voor woonwijken is.",
+          "text_ru": "D10 используется на высокоскоростных дорогах, тогда как D9 предназначен для жилых районов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal D9 est utilisé pour une partie de la voie publique réservée aux piétons, bicyclettes et cyclomoteurs à deux roues classe A, avec une séparation claire entre les espaces. Le signal D10 est utilisé pour les piétons et cyclistes, sans séparation distincte, notamment lorsque l'espace est insuffisant pour D9 ou pour diriger les usagers vers des voies plus sûres sur des routes à circulation importante et à vitesse d'au moins 50 km/h.",
+      "explanation_nl": "Verkeersbord D9 wordt gebruikt voor een deel van de openbare weg gereserveerd voor voetgangers, fietsers en tweewielige bromfietsen klasse A, met een duidelijke scheiding tussen de ruimtes. Verkeersbord D10 wordt gebruikt voor voetgangers en fietsers, zonder aparte scheiding, met name wanneer er onvoldoende ruimte is voor D9 of om gebruikers naar veiligere paden te leiden op wegen met veel verkeer en een snelheid van minstens 50 km/u.",
+      "explanation_ru": "Знак D9 используется для части дороги, предназначенной для пешеходов, велосипедистов и двухколесных мопедов класса А, с четким разделением пространств. Знак D10 используется для пешеходов и велосипедистов без явного разделения, особенно когда места недостаточно для D9 или для направления участников движения на более безопасные участки дорог с интенсивным движением и скоростью не менее 50 км/ч."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à un obstacle central sur la route où est placé un signal D1, avec une flèche inclinée d'environ 45° vers le sol et pointant vers la droite. Que devez-vous faire ?",
+      "text_nl": "U nadert een centraal obstakel op de weg waarop een verkeersbord D1 is geplaatst, met een pijl die ongeveer 45° naar de grond is gericht en naar rechts wijst. Wat moet u doen?",
+      "text_ru": "Вы приближаетесь к центральному препятствию на дороге, где установлен знак D1 со стрелкой, наклоненной примерно на 45° к земле и указывающей вправо. Что вы должны делать?",
+      "image": {
+        "sign_code": "D1",
+        "generation_prompt": "Mandatory direction sign D1 with arrow pointing right, inclined at 45 degrees, placed on an obstacle in the road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je peux choisir de contourner l'obstacle par la droite ou par la gauche, selon la fluidité du trafic.",
+          "text_nl": "Ik kan ervoor kiezen om het obstakel rechts of links te omzeilen, afhankelijk van de verkeersstroom.",
+          "text_ru": "Я могу выбрать объезд препятствия справа или слева, в зависимости от интенсивности движения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je dois obligatoirement suivre la direction indiquée par la flèche, en contournant l'obstacle par la droite.",
+          "text_nl": "Ik moet verplicht de door de pijl aangeduide richting volgen, door het obstakel rechts te omzeilen.",
+          "text_ru": "Я обязан следовать направлению, указанному стрелкой, объезжая препятствие справа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ce signal indique une recommandation, je ne suis pas obligé de le suivre.",
+          "text_nl": "Dit bord is een aanbeveling, ik ben niet verplicht het te volgen.",
+          "text_ru": "Этот знак является рекомендацией, я не обязан ему следовать.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsqu'un signal D1 à flèche non coudée est placé sur un obstacle ou un dispositif de canalisation, la flèche doit être inclinée à 45° environ vers le sol et indique l'obligation de suivre la direction montrée.",
+      "explanation_nl": "Wanneer een verkeersbord D1 met een niet-gebogen pijl op een hindernis of een inrichting voor verkeersgeleiding wordt geplaatst, moet de pijl onder een hoek van ongeveer 45° naar de grond worden gericht en duidt deze de verplichting aan om de getoonde richting te volgen.",
+      "explanation_ru": "Когда знак D1 с неизогнутой стрелкой установлен на препятствии или устройстве для направления движения, стрелка должна быть наклонена примерно на 45° к земле и указывает на обязательство следовать показанному направлению."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "En tant que conducteur de cyclomoteur à deux roues classe A, vous arrivez à un carrefour où le signal D3 (obligation de suivre une des directions indiquées) est complété par un panneau additionnel M.2. Que signifie cette situation pour vous ?",
+      "text_nl": "Als bestuurder van een tweewielige bromfiets klasse A nadert u een kruispunt waar verkeersbord D3 (verplichting een van de aangeduide richtingen te volgen) is aangevuld met een onderbord M.2. Wat betekent deze situatie voor u?",
+      "text_ru": "Как водитель двухколесного мопеда класса А, вы подъезжаете к перекрестку, где знак D3 (обязательство следовать одному из указанных направлений) дополнен дополнительной табличкой M.2. Что означает эта ситуация для вас?",
+      "image": {
+        "sign_code": "D3",
+        "generation_prompt": "Mandatory direction sign D3 showing straight and left arrows, with additional panel M.2 (cyclist and class A moped symbol)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je dois obligatoirement suivre l'une des directions indiquées par les flèches du signal D3, sans exception.",
+          "text_nl": "Ik moet verplicht een van de richtingen volgen die door de pijlen van verkeersbord D3 worden aangegeven, zonder uitzondering.",
+          "text_ru": "Я обязан следовать одному из направлений, указанных стрелками знака D3, без исключений.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je peux déroger à l'obligation du signal D3 et choisir une autre direction autorisée, car le panneau additionnel me permet cette exception.",
+          "text_nl": "Ik mag afwijken van de verplichting van verkeersbord D3 en een andere toegestane richting kiezen, omdat het onderbord mij deze uitzondering toestaat.",
+          "text_ru": "Я могу отступить от требований знака D3 и выбрать другое разрешенное направление, так как дополнительная табличка разрешает это исключение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le panneau M.2 signifie que je dois rouler sur la piste cyclable, mais cela n'affecte pas les directions obligatoires de la chaussée.",
+          "text_nl": "Het bord M.2 betekent dat ik op het fietspad moet rijden, maar dit heeft geen invloed op de verplichte rijrichtingen op de rijbaan.",
+          "text_ru": "Табличка M.2 означает, что я должен ехать по велосипедной дорожке, но это не влияет на обязательные направления движения на проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si la disposition des lieux le permet, il peut être dérogé à la règle du signal D1 ou D3 en faveur des cyclistes et des conducteurs de cyclomoteurs à deux roues classe A, lorsque le signal est complété par un panneau additionnel du modèle M.2. ou M.3.",
+      "explanation_nl": "Indien de plaatsgesteldheid het toelaat, mag van de regel van verkeersbord D1 of D3 worden afgeweken ten gunste van fietsers en bestuurders van tweewielige bromfietsen klasse A, wanneer het bord is aangevuld met een onderbord van model M.2. of M.3.",
+      "explanation_ru": "Если позволяют местные условия, то от правила знака D1 или D3 может быть сделано исключение в пользу велосипедистов и водителей двухколесных мопедов класса А, когда знак дополнен табличкой модели M.2. или M.3."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule transportant des marchandises dangereuses et vous rencontrez un signal D4 avec une flèche indiquant une direction spécifique, complété par un panneau additionnel indiquant la lettre 'C'. Que devez-vous faire ?",
+      "text_nl": "U rijdt een voertuig dat gevaarlijke goederen vervoert en u komt een verkeersbord D4 tegen met een pijl die een specifieke richting aangeeft, aangevuld met een onderbord met de letter 'C'. Wat moet u doen?",
+      "text_ru": "Вы управляете транспортным средством, перевозящим опасные грузы, и встречаете знак D4 со стрелкой, указывающей конкретное направление, дополненный табличкой с буквой 'C'. Что вы должны делать?",
+      "image": {
+        "sign_code": "D4",
+        "generation_prompt": "Mandatory direction sign D4 for dangerous goods vehicles, with a right-pointing arrow and an additional panel with the letter 'C'"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le signal D4 est une suggestion ; je peux choisir mon itinéraire habituel si je le connais bien.",
+          "text_nl": "Verkeersbord D4 is een suggestie; ik kan mijn gebruikelijke route kiezen als ik die goed ken.",
+          "text_ru": "Знак D4 — это рекомендация; я могу выбрать свой обычный маршрут, если хорошо его знаю.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je suis obligé de suivre la direction indiquée par la flèche, car ce signal impose un itinéraire adapté aux véhicules transportant des marchandises dangereuses, en tenant compte des restrictions comme les tunnels de catégorie C.",
+          "text_nl": "Ik ben verplicht de door de pijl aangeduide richting te volgen, want dit bord legt een aangepaste route op voor voertuigen die gevaarlijke goederen vervoeren, rekening houdend met beperkingen zoals tunnels van categorie C.",
+          "text_ru": "Я обязан следовать направлению, указанному стрелкой, так как этот знак предписывает маршрут, адаптированный для транспортных средств, перевозящих опасные грузы, с учетом ограничений, таких как тоннели категории C.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le panneau 'C' indique que l'interdiction de passer s'applique à tous les véhicules sauf les transports de marchandises dangereuses.",
+          "text_nl": "Het bord 'C' geeft aan dat het verbod om door te rijden van toepassing is op alle voertuigen behalve transporten van gevaarlijke goederen.",
+          "text_ru": "Табличка 'C' указывает, что запрет на проезд распространяется на все транспортные средства, кроме перевозящих опасные грузы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal D4 impose aux véhicules transportant des marchandises dangereuses de suivre la direction indiquée par la flèche afin d'emprunter un itinéraire adapté à leurs caractéristiques. Le panneau additionnel 'C' indique que cet itinéraire est lié à des tunnels de catégorie C.",
+      "explanation_nl": "Verkeersbord D4 verplicht voertuigen die gevaarlijke goederen vervoeren de door de pijl aangeduide richting te volgen om een route te nemen die is aangepast aan hun kenmerken. Het onderbord 'C' geeft aan dat deze route gerelateerd is aan tunnels van categorie C.",
+      "explanation_ru": "Знак D4 обязывает транспортные средства, перевозящие опасные грузы, следовать направлению, указанному стрелкой, чтобы выбрать маршрут, соответствующий их характеристикам. Дополнительная табличка 'C' указывает, что этот маршрут связан с тоннелями категории C."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "En tant que conducteur de cyclomoteur à deux roues classe B, vous rencontrez un signal D7 (piste cyclable obligatoire) complété par un panneau additionnel M.7 (un cyclomoteur barré en rouge). Quelle est votre obligation ?",
+      "text_nl": "Als bestuurder van een tweewielige bromfiets klasse B komt u een verkeersbord D7 (verplicht fietspad) tegen, aangevuld met een onderbord M.7 (een rood doorstreept bromfietsymbool). Wat is uw verplichting?",
+      "text_ru": "Как водитель двухколесного мопеда класса B, вы встречаете знак D7 (обязательная велосипедная дорожка), дополненный табличкой M.7 (перечеркнутый красной линией символ мопеда). Каково ваше обязательство?",
+      "image": {
+        "sign_code": "D7",
+        "generation_prompt": "Mandatory cycle path sign D7 with additional panel M.7 (red diagonal line over moped symbol)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je dois emprunter la piste cyclable, car le signal D7 est obligatoire pour tous.",
+          "text_nl": "Ik moet het fietspad gebruiken, want verkeersbord D7 is verplicht voor iedereen.",
+          "text_ru": "Я должен использовать велосипедную дорожку, так как знак D7 обязателен для всех.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il m'est interdit d'emprunter cette piste cyclable, je dois rester sur la chaussée.",
+          "text_nl": "Het is mij verboden dit fietspad te gebruiken, ik moet op de rijbaan blijven.",
+          "text_ru": "Мне запрещено пользоваться этой велосипедной дорожкой, я должен оставаться на проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Je peux choisir d'emprunter la piste cyclable ou la chaussée, selon mon confort.",
+          "text_nl": "Ik mag kiezen of ik het fietspad of de rijbaan gebruik, afhankelijk van mijn comfort.",
+          "text_ru": "Я могу выбрать использование велосипедной дорожки или проезжей части, в зависимости от моего удобства.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal D7 indique une piste cyclable obligatoire. Le panneau additionnel du modèle M.7. (cyclomoteur barré) signifie que les conducteurs de cyclomoteurs à deux roues classe B ne peuvent PAS emprunter cette piste cyclable.",
+      "explanation_nl": "Verkeersbord D7 duidt een verplicht fietspad aan. Het onderbord van model M.7. (doorgestreepte bromfiets) betekent dat bestuurders van tweewielige bromfietsen klasse B dit fietspad NIET mogen gebruiken.",
+      "explanation_ru": "Знак D7 обозначает обязательную велосипедную дорожку. Дополнительная табличка модели M.7. (перечеркнутый мопед) означает, что водителям двухколесных мопедов класса B НЕ разрешается использовать эту велосипедную дорожку."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous vous approchez d'un carrefour où un signal D5 (sens giratoire obligatoire) est installé, indiquant un rond-point. Comment devez-vous vous comporter en entrant dans ce carrefour ?",
+      "text_nl": "U nadert een kruispunt waar een verkeersbord D5 (verplichte rotonderichting) is geplaatst, dat een rotonde aangeeft. Hoe moet u zich gedragen bij het oprijden van dit kruispunt?",
+      "text_ru": "Вы приближаетесь к перекрестку, где установлен знак D5 (обязательное круговое движение), обозначающий круговой перекресток. Как вы должны вести себя при въезде на этот перекресток?",
+      "image": {
+        "sign_code": "D5",
+        "generation_prompt": "Mandatory roundabout sign D5 at a crossroads"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Je peux tourner à gauche avant le rond-point si la voie est libre.",
+          "text_nl": "Ik mag linksaf slaan voor de rotonde als de weg vrij is.",
+          "text_ru": "Я могу повернуть налево до кругового перекрестка, если дорога свободна.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Je dois obligatoirement suivre le sens giratoire en laissant le dispositif de canalisation central à ma gauche.",
+          "text_nl": "Ik moet verplicht de rotonderichting volgen door het centrale verkeersgeleidingsapparaat links van mij te laten.",
+          "text_ru": "Я обязан следовать круговому движению, оставляя центральное направляющее устройство слева от себя.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ce signal est une indication de prudence, je peux choisir ma direction librement.",
+          "text_nl": "Dit bord is een waarschuwing, ik mag mijn richting vrij kiezen.",
+          "text_ru": "Этот знак является предупреждением, я могу свободно выбирать направление.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal D5 (sens giratoire obligatoire) impose à tous les conducteurs qui s'engagent dans le carrefour de laisser le dispositif de canalisation (le centre du rond-point) à leur gauche.",
+      "explanation_nl": "Het verkeersbord D5 (verplichte rotonderichting) verplicht alle bestuurders die het kruispunt oprijden het verkeersgeleidingsapparaat (het midden van de rotonde) links van zich te laten.",
+      "explanation_ru": "Знак D5 (обязательное круговое движение) предписывает всем водителям, въезжающим на перекресток, оставлять направляющее устройство (центр кругового движения) слева от себя."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "acf385ec5964",
@@ -102,6 +399,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:03:07Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

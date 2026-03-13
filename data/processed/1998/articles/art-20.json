@@ -28,7 +28,230 @@
   "anchor_id_fr": "meiawge49e",
   "anchor_id_nl": "ulfldlbx48",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle catégorie de véhicule peut être conduite avec un permis de conduire validé pour la catégorie A1 ?",
+      "text_nl": "Welke categorie voertuigen kan worden bestuurd met een rijbewijs dat geldig is verklaard voor de categorie A1 ?",
+      "text_ru": "Какая категория транспортных средств может быть управляема с действительным водительским удостоверением категории A1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement les véhicules de la catégorie AM",
+          "text_nl": "Alleen voertuigen van de categorie AM",
+          "text_ru": "Только транспортные средства категории AM",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les véhicules des catégories AM et A1",
+          "text_nl": "Voertuigen van de categorieën AM en A1",
+          "text_ru": "Транспортные средства категорий AM и A1",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les véhicules de la catégorie A2",
+          "text_nl": "Voertuigen van de categorie A2",
+          "text_ru": "Транспортные средства категории A2",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire validé pour la catégorie A1 est également validé pour la conduite des véhicules de la catégorie AM.",
+      "explanation_nl": "Een rijbewijs dat geldig is verklaard voor de categorie A1 is eveneens geldig verklaard voor het besturen van voertuigen van de categorie AM.",
+      "explanation_ru": "Действительное водительское удостоверение категории A1 также действует для управления транспортными средствами категории AM."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la condition pour que le permis de conduire validé pour la catégorie B autorise la conduite des véhicules de la catégorie A1 ?",
+      "text_nl": "Wat is de voorwaarde voor dat het rijbewijs geldig verklaard voor de categorie B de besturing van voertuigen van de categorie A1 toestaat?",
+      "text_ru": "Какое условие необходимо для того, чтобы действительное водительское удостоверение категории B разрешало управление транспортными средствами категории A1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le titulaire doit avoir suivi une formation spécifique",
+          "text_nl": "De houder moet een speciale opleiding hebben gevolgd",
+          "text_ru": "Владелец должен пройти специальное обучение",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le titulaire doit avoir un certain nombre d'années d'expérience",
+          "text_nl": "De houder moet een bepaald aantal jaren ervaring hebben",
+          "text_ru": "Владелец должен иметь определенный опыт",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le titulaire doit avoir un certain âge",
+          "text_nl": "De houder moet een bepaalde leeftijd hebben",
+          "text_ru": "Владелец должен иметь определенный возраст",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire validé pour la catégorie B autorise la conduite des véhicules de la catégorie A1 à condition que le titulaire ait suivi la formation visée.",
+      "explanation_nl": "Het rijbewijs geldig verklaard voor de categorie B toestaat de besturing van voertuigen van de categorie A1, mits de houder de voorgeschreven opleiding heeft gevolgd.",
+      "explanation_ru": "Действительное водительское удостоверение категории B разрешает управление транспортными средствами категории A1 при условии, что владелец прошел специальное обучение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la règle pour la conduite de véhicules à moteur utilisés comme véhicule folklorique ?",
+      "text_nl": "Wat is de regel voor het besturen van motorvoertuigen die als folkloristisch voertuig worden gebruikt?",
+      "text_ru": "Какое правило действует для управления транспортными средствами, используемыми как фольклорные транспортные средства?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le permis de conduire valide pour la catégorie B ou G suffit",
+          "text_nl": "Een geldig rijbewijs voor de categorie B of G is voldoende",
+          "text_ru": "Действительное водительское удостоверение категории B или G достаточно",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis de conduire valide pour la catégorie A ou C est nécessaire",
+          "text_nl": "Een geldig rijbewijs voor de categorie A of C is nodig",
+          "text_ru": "Действительное водительское удостоверение категории A или C необходимо",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucun permis de conduire n'est nécessaire",
+          "text_nl": "Geen rijbewijs is nodig",
+          "text_ru": "Никакого водительского удостоверения не требуется",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire valide pour la catégorie B ou G suffit pour la conduite de véhicules à moteur utilisés comme véhicule folklorique.",
+      "explanation_nl": "Een geldig rijbewijs voor de categorie B of G is voldoende voor het besturen van motorvoertuigen die als folkloristisch voertuig worden gebruikt.",
+      "explanation_ru": "Действительное водительское удостоверение категории B или G достаточно для управления транспортными средствами, используемыми как фольклорные транспортные средства."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez un permis de conduire validé pour la catégorie B. Pouvez-vous conduire un véhicule de la catégorie A1 ?",
+      "text_nl": "U heeft een rijbewijs dat geldig is verklaard voor de categorie B. Kunt u een voertuig van de categorie A1 besturen?",
+      "text_ru": "У вас есть действительное водительское удостоверение категории B. Можете ли вы управлять транспортным средством категории A1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, sans conditions",
+          "text_nl": "Ja, zonder voorwaarden",
+          "text_ru": "Да, без условий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, si j'ai suivi une formation spécifique",
+          "text_nl": "Ja, als ik een speciale opleiding heb gevolgd",
+          "text_ru": "Да, если я прошел специальное обучение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, cela est interdit",
+          "text_nl": "Nee, dit is verboden",
+          "text_ru": "Нет, это запрещено",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire validé pour la catégorie B autorise la conduite des véhicules de la catégorie A1 à condition que le titulaire ait suivi la formation visée.",
+      "explanation_nl": "Het rijbewijs geldig verklaard voor de categorie B toestaat de besturing van voertuigen van de categorie A1, mits de houder de voorgeschreven opleiding heeft gevolgd.",
+      "explanation_ru": "Действительное водительское удостоверение категории B разрешает управление транспортными средствами категории A1 при условии, что владелец прошел специальное обучение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez un permis de conduire validé pour la catégorie B et vous souhaitez conduire un ensemble composé d'un véhicule de la catégorie B et d'une remorque. Quelle est la masse maximale autorisée de l'ensemble ?",
+      "text_nl": "U heeft een rijbewijs dat geldig is verklaard voor de categorie B en u wilt een samenstel besturen, bestaande uit een voertuig van de categorie B en een aanhangwagen. Wat is de maximale toegelaten massa van het samenstel?",
+      "text_ru": "У вас есть действительное водительское удостоверение категории B, и вы хотите управлять составом, состоящим из транспортного средства категории B и прицепа. Какова максимально допустимая масса состава?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "3 500 kg",
+          "text_nl": "3 500 kg",
+          "text_ru": "3 500 кг",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "4 250 kg",
+          "text_nl": "4 250 kg",
+          "text_ru": "4 250 кг",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "5 000 kg",
+          "text_nl": "5 000 kg",
+          "text_ru": "5 000 кг",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire validé pour la catégorie B autorise la conduite d'un ensemble composé d'un véhicule de la catégorie B et d'une remorque, à condition que la masse maximale autorisée de l'ensemble ne dépasse pas 3 500 kg.",
+      "explanation_nl": "Het rijbewijs geldig verklaard voor de categorie B toestaat de besturing van een samenstel, bestaande uit een voertuig van de categorie B en een aanhangwagen, mits de maximale toegelaten massa van het samenstel niet meer dan 3 500 kg bedraagt.",
+      "explanation_ru": "Действительное водительское удостоверение категории B разрешает управление составом, состоящим из транспортного средства категории B и прицепа, при условии, что максимально допустимая масса состава не превышает 3 500 кг."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez un permis de conduire validé pour la catégorie C et vous souhaitez conduire un véhicule de la catégorie G. Quelle est la condition pour cela ?",
+      "text_nl": "U heeft een rijbewijs dat geldig is verklaard voor de categorie C en u wilt een voertuig van de categorie G besturen. Wat is de voorwaarde hiervoor?",
+      "text_ru": "У вас есть действительное водительское удостоверение категории C, и вы хотите управлять транспортным средством категории G. Какое условие необходимо для этого?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le permis de conduire validé pour la catégorie C est suffisant",
+          "text_nl": "Het rijbewijs geldig verklaard voor de categorie C is voldoende",
+          "text_ru": "Действительное водительское удостоверение категории C достаточно",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il faut avoir un permis de conduire validé pour la catégorie G",
+          "text_nl": "U moet een rijbewijs hebben dat geldig is verklaard voor de categorie G",
+          "text_ru": "Нужно иметь действительное водительское удостоверение категории G",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut avoir une expérience de conduite de 5 ans",
+          "text_nl": "U moet 5 jaar bestuurervaring hebben",
+          "text_ru": "Нужно иметь 5-летний опыт вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire validé pour la catégorie C autorise la conduite des véhicules de la catégorie G.",
+      "explanation_nl": "Het rijbewijs geldig verklaard voor de categorie C toestaat de besturing van voertuigen van de categorie G.",
+      "explanation_ru": "Действительное водительское удостоверение категории C разрешает управление транспортными средствами категории G."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "8083ad685994",
@@ -38,6 +261,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:14:24Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 6
   }
 }

@@ -59,7 +59,304 @@
   "anchor_id_fr": "6qmbbfp1xi",
   "anchor_id_nl": "m0dvtd6r1e",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la phase spéciale de transition lorsque les feux de circulation passent d'un signal jaune-orange clignotant seul à un système tricolore complet ?",
+      "text_nl": "Wat is de bijzondere overgangsfase wanneer verkeerslichten overgaan van een alleen brandend oranjegeel knipperlicht naar een volledig driekleurig systeem?",
+      "text_ru": "Какова особая переходная фаза, когда светофоры переключаются с мигающего желто-оранжевого сигнала на полноценную трехцветную систему?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A sequence showing a flashing orange traffic light, then all lights turning orange-yellow, then all turning red. Or, red in one direction and orange-yellow in others, representing a transition phase for traffic lights."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les feux verts s'allument immédiatement dans toutes les directions.",
+          "text_nl": "De groene lichten gaan onmiddellijk aan in alle richtingen.",
+          "text_ru": "Зеленый свет немедленно загорается во всех направлениях.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Soit les feux jaune-orange, puis rouges, s'allument dans toutes les directions; soit les feux rouges s'allument dans une direction et les feux jaune-orange dans les autres.",
+          "text_nl": "Ofwel gaan de oranjegele lichten, en vervolgens de rode, aan in alle richtingen; ofwel gaan de rode lichten aan in één richting en de oranjegele lichten in de andere.",
+          "text_ru": "Либо желто-оранжевые, затем красные огни загораются во всех направлениях; либо красные огни загораются в одном направлении, а желто-оранжевые — в других.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les feux rouges s'allument d'abord, puis les feux verts, sans phase jaune-orange intermédiaire.",
+          "text_nl": "De rode lichten gaan eerst aan, dan de groene lichten, zonder een tussenliggende oranjegele fase.",
+          "text_ru": "Сначала загорается красный свет, затем зеленый, без промежуточной желто-оранжевой фазы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La transition d'un feu jaune-orange clignotant seul à un système tricolore complet se fait par une phase spéciale comportant soit l'allumage des feux jaune-orange puis rouges dans toutes les directions, soit l'allumage des feux rouges dans une direction et des feux jaune-orange dans les autres.",
+      "explanation_nl": "De overgang van een alleen brandend oranjegeel knipperlicht naar een volledig driekleurig systeem gebeurt via een bijzondere fase die ofwel het aangaan van de oranjegele en vervolgens rode lichten in alle richtingen omvat, ofwel het aangaan van de rode lichten in één richting en de oranjegele lichten in de andere richtingen.",
+      "explanation_ru": "Переход от мигающего желто-оранжевого сигнала к полноценной трехцветной системе происходит через специальную фазу, включающую либо загорание желто-оранжевых, затем красных огней во всех направлениях, либо загорание красных огней в одном направлении и желто-оранжевых в других."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la durée approximative d'allumage du feu jaune-orange qui succède à un feu vert dans un carrefour avec un système tricolore classique ?",
+      "text_nl": "Wat is de geschatte brandduur van het oranjegele licht dat volgt op een groen licht op een kruispunt met een klassiek driekleurig systeem?",
+      "text_ru": "Какова приблизительная продолжительность горения желто-оранжевого света, который следует за зеленым светом на перекрестке с классической трехцветной системой?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A standard traffic light with a green light currently active, and an arrow pointing to the next phase which is an orange-yellow light."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une à deux secondes.",
+          "text_nl": "Eén tot twee seconden.",
+          "text_ru": "От одной до двух секунд.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Environ trois à cinq secondes.",
+          "text_nl": "Ongeveer drie tot vijf seconden.",
+          "text_ru": "Приблизительно от трех до пяти секунд.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Environ dix secondes.",
+          "text_nl": "Ongeveer tien seconden.",
+          "text_ru": "Приблизительно десять секунд.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le feu jaune-orange qui succède au feu vert doit apparaître pendant une durée approximative de trois à cinq secondes.",
+      "explanation_nl": "Het oranjegele licht dat volgt op het groene licht, moet gedurende ongeveer drie tot vijf seconden blijven branden.",
+      "explanation_ru": "Желто-оранжевый свет, который следует за зеленым светом, должен гореть приблизительно от трех до пяти секунд."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le but spécifique du décalage temporel où le feu rouge pour les cyclistes apparaît quelques instants avant les feux verts pour les autres usagers de la route ?",
+      "text_nl": "Wat is het specifieke doel van de tijdsverschuiving waarbij het rode licht voor fietsers even eerder verschijnt dan het groene licht voor andere weggebruikers?",
+      "text_ru": "Какова конкретная цель временного сдвига, при котором красный свет для велосипедистов загорается на несколько мгновений раньше зеленого света для других участников дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A traffic light specifically for bicycles, showing a red bicycle silhouette. In the background, a regular car traffic light is still red, about to turn green for other traffic."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour que les cyclistes puissent prendre de l'avance sur les véhicules motorisés.",
+          "text_nl": "Zodat fietsers een voorsprong kunnen nemen op gemotoriseerde voertuigen.",
+          "text_ru": "Чтобы велосипедисты могли опередить моторизованные транспортные средства.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour permettre aux conducteurs de bicyclettes et de cyclomoteurs à deux roues d'achever la traversée de la chaussée en toute sécurité.",
+          "text_nl": "Om fietsers en bestuurders van tweewielige bromfietsen in staat te stellen de rijbaan veilig over te steken.",
+          "text_ru": "Чтобы водители велосипедов и двухколесных мопедов могли безопасно завершить пересечение проезжей части.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour signaler aux cyclistes de se préparer à s'arrêter immédiatement et brutalement.",
+          "text_nl": "Om fietsers te waarschuwen zich onmiddellijk en abrupt voor te bereiden op een stop.",
+          "text_ru": "Чтобы сигнализировать велосипедистам о необходимости немедленно и резко остановиться.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le décalage temporel, où le feu rouge pour les cyclistes s'allume avant le feu vert pour les autres usagers, a pour but de permettre aux conducteurs de bicyclettes et de cyclomoteurs à deux roues d'achever la traversée de la chaussée en toute sécurité.",
+      "explanation_nl": "De tijdsverschuiving, waarbij het rode licht voor fietsers eerder aangaat dan het groene licht voor andere weggebruikers, is bedoeld om fietsers en bestuurders van tweewielige bromfietsen de mogelijkheid te geven de rijbaan veilig over te steken.",
+      "explanation_ru": "Временной сдвиг, при котором красный свет для велосипедистов загорается раньше зеленого света для других участников движения, предназначен для того, чтобы водители велосипедов и двухколесных мопедов могли безопасно завершить пересечение проезжей части."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour équipé de feux de circulation. Soudain, tous les feux tricolores de l'intersection s'éteignent ou fonctionnent de manière erratique, empêchant tout conflit potentiel de circulation. Que signifie ce comportement des feux ?",
+      "text_nl": "U nadert een kruispunt met verkeerslichten. Plotseling gaan alle driekleurige lichten op het kruispunt uit of functioneren ze onregelmatig, waardoor mogelijke verkeersconflicten worden vermeden. Wat betekent dit gedrag van de lichten?",
+      "text_ru": "Вы приближаетесь к перекрестку со светофорами. Внезапно все трехцветные светофоры на перекрестке гаснут или работают некорректно, предотвращая потенциальные конфликты движения. Что означает такое поведение светофоров?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An intersection with traffic lights. Some lights are completely dark, others are showing flickering or erratic signals, indicating a malfunction, with cars cautiously approaching."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une panne de courant générale affecte toute la zone, et les feux sont simplement éteints.",
+          "text_nl": "Een algemene stroomonderbreking treft het hele gebied, en de lichten zijn gewoon uit.",
+          "text_ru": "Общее отключение электроэнергии затронуло весь район, и светофоры просто выключены.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les dispositifs de sécurité des installations ont interrompu leur fonctionnement pour éviter des situations dangereuses suite à un dérèglement ou une défectuosité.",
+          "text_nl": "De veiligheidsinrichtingen van de installaties hebben hun werking onderbroken om gevaarlijke situaties te voorkomen als gevolg van een ontregeling of defect.",
+          "text_ru": "Системы безопасности светофорных установок прервали их работу для предотвращения опасных ситуаций в результате сбоя или неисправности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le carrefour est temporairement converti en carrefour sans signalisation, et les règles de priorité de droite s'appliquent.",
+          "text_nl": "Het kruispunt wordt tijdelijk omgezet in een kruispunt zonder signalisatie, en de voorrangsregels van rechts zijn van toepassing.",
+          "text_ru": "Перекресток временно преобразован в нерегулируемый, и применяются правила приоритета помехи справа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les installations lumineuses tricolores sont munies de dispositifs de sécurité qui interrompent leur fonctionnement dans toutes les directions dès qu'un dérèglement peut causer un conflit de circulation ou qu'un feu rouge ne s'allume pas comme il devrait.",
+      "explanation_nl": "Driekleurige lichtinstallaties zijn voorzien van veiligheidsinrichtingen die hun werking in alle richtingen onderbreken zodra een ontregeling een verkeersconflict kan veroorzaken of zodra een rood licht niet brandt wanneer het zou moeten branden.",
+      "explanation_ru": "Трехцветные светофорные установки должны быть оснащены устройствами безопасности, которые прерывают их работу во всех направлениях, как только неисправность может привести к дорожному конфликту или когда красный свет не загорается, когда должен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez vers une grande intersection. Le feu de circulation pour votre direction vient de passer au jaune. Vous remarquez que le feu vert pour la circulation transversale ne s'allume pas immédiatement après. Quelle est la raison probable de ce léger délai avant que le feu vert n'apparaisse pour le trafic perpendiculaire ?",
+      "text_nl": "U rijdt een groot kruispunt naderen. Het verkeerslicht voor uw richting is net oranje geworden. U merkt dat het groene licht voor het dwarsverkeer niet onmiddellijk daarna aangaat. Wat is de waarschijnlijke reden voor deze lichte vertraging voordat het groene licht verschijnt voor het loodrechte verkeer?",
+      "text_ru": "Вы подъезжаете к большому перекрестку. Светофор для вашего направления только что загорелся желтым. Вы замечаете, что зеленый свет для поперечного движения не загорается сразу после этого. Какова вероятная причина этой небольшой задержки перед тем, как загорится зеленый свет для перпендикулярного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An intersection with traffic lights. One direction's light is yellow, and the perpendicular direction's light is still red, with a slight delay before it turns green, illustrating the clearance time."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le système de signalisation est en panne ou fonctionne de manière incorrecte.",
+          "text_nl": "Het signalisatiesysteem is defect of werkt niet correct.",
+          "text_ru": "Система сигнализации неисправна или работает некорректно.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il s'agit d'un délai intentionnel pour permettre le dégagement complet du carrefour par les véhicules et les usagers de la voie précédente.",
+          "text_nl": "Dit is een opzettelijke vertraging om het kruispunt volledig te laten ontruimen door voertuigen en weggebruikers van de vorige richting.",
+          "text_ru": "Это преднамеренная задержка, чтобы дать возможность полностью освободить перекресток от транспортных средств и участников движения с предыдущего направления.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un piéton a appuyé sur le bouton pour traverser, priorisant le passage des piétons.",
+          "text_nl": "Een voetganger heeft op de knop gedrukt om over te steken, waardoor de oversteek van voetgangers voorrang krijgt.",
+          "text_ru": "Пешеход нажал кнопку для перехода, отдавая приоритет пешеходному переходу.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Dans les carrefours où le dégagement des lieux peut ne pas être terminé à l'extinction du feu jaune-orange, l'allumage des feux verts destinés aux conducteurs désireux d'entrer dans le carrefour peut être retardé de quelques secondes pour garantir la sécurité.",
+      "explanation_nl": "Op elk kruispunt waar het zou kunnen dat de ontruiming niet is beëindigd wanneer het oranjegele licht uitgaat, kan het aangaan van de groene lichten die bestemd zijn voor de bestuurders die het kruispunt wensen op te rijden, vertraagd worden met enkele seconden om de veiligheid te garanderen.",
+      "explanation_ru": "На любом перекрестке, где очистка места может быть не завершена при выключении желто-оранжевого света, загорание зеленого света для водителей, желающих въехать на перекресток, может быть задержано на несколько секунд для обеспечения безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Lors de la conception d'un nouveau carrefour avec des feux de circulation, quelle condition doit être remplie pour que des passages pour piétons soient marqués et régulés par des feux spécifiques pour piétons ?",
+      "text_nl": "Bij het ontwerpen van een nieuw kruispunt met verkeerslichten, welke voorwaarde moet vervuld zijn om oversteekplaatsen voor voetgangers te markeren en te regelen met specifieke voetgangerslichten?",
+      "text_ru": "При проектировании нового перекрестка со светофорами, какое условие должно быть выполнено для разметки пешеходных переходов и их регулирования специальными пешеходными светофорами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An urban intersection showing marked pedestrian crossings and pedestrian traffic lights, with a moderate to high volume of pedestrians."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement si le carrefour est situé à proximité immédiate d'une école ou d'un hôpital.",
+          "text_nl": "Alleen als het kruispunt in de onmiddellijke nabijheid van een school of ziekenhuis ligt.",
+          "text_ru": "Только если перекресток расположен в непосредственной близости от школы или больницы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement si l'intensité de la circulation piétonne le justifie.",
+          "text_nl": "Alleen als de intensiteit van het voetgangersverkeer dit rechtvaardigt.",
+          "text_ru": "Только если это оправдано интенсивностью пешеходного движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Toujours, pour garantir systématiquement la sécurité de tous les piétons.",
+          "text_nl": "Altijd, om systematisch de veiligheid van alle voetgangers te garanderen.",
+          "text_ru": "Всегда, для систематического обеспечения безопасности всех пешеходов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les passages pour piétons peuvent seulement être marqués lorsque l'intensité de la circulation piétonne le justifie, et dans ce cas, des signaux lumineux spécifiques doivent être placés pour réguler cette circulation.",
+      "explanation_nl": "Oversteekplaatsen voor voetgangers mogen alleen gemarkeerd worden wanneer de intensiteit van het voetgangersverkeer dit rechtvaardigt, en in dat geval moeten specifieke voetgangerslichten worden geplaatst om dit verkeer te regelen.",
+      "explanation_ru": "Пешеходные переходы могут быть размечены только тогда, когда это оправдано интенсивностью пешеходного движения, и в этом случае должны быть установлены специальные светофоры для регулирования этого движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à une intersection où, au lieu des feux tricolores ronds habituels, seuls des feux avec des flèches directionnelles régulent la circulation. Dans quelle situation particulière un tel système est-il utilisé ?",
+      "text_nl": "U komt aan bij een kruispunt waar, in plaats van de gebruikelijke ronde driekleurige lichten, alleen lichten met richtingpijlen het verkeer regelen. In welke specifieke situatie wordt een dergelijk systeem gebruikt?",
+      "text_ru": "Вы подъезжаете к перекрестку, где вместо обычных круглых трехцветных светофоров движение регулируется только светофорами со стрелками направления. В какой особой ситуации используется такая система?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An intersection with traffic lights. Instead of full colored circles, the lights display only illuminated arrows (e.g., green left arrow, red straight arrow), indicating specific directions for traffic flow."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il s'agit d'un système temporaire mis en place en cas de travaux routiers majeurs.",
+          "text_nl": "Dit is een tijdelijk systeem dat wordt geïnstalleerd bij grote wegwerkzaamheden.",
+          "text_ru": "Это временная система, установленная в случае крупных дорожных работ.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque les autres systèmes tricolores ne permettent pas d'assurer la fluidité souhaitée ou de régler la circulation dans des conditions de sécurité satisfaisantes.",
+          "text_nl": "Wanneer andere driekleurige systemen niet de gewenste doorstroming kunnen garanderen of het verkeer niet onder bevredigende veiligheidsomstandigheden kunnen regelen.",
+          "text_ru": "Когда другие трехцветные системы не могут обеспечить желаемую плавность движения или регулировать движение в удовлетворительных условиях безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour simplifier la signalisation pour les conducteurs étrangers ou les novices.",
+          "text_nl": "Om de signalisatie te vereenvoudigen voor buitenlandse bestuurders of beginners.",
+          "text_ru": "Для упрощения сигнализации для иностранных или неопытных водителей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'emploi de signaux lumineux à flèches remplaçant les feux du système tricolore est réservé à des cas spéciaux où les autres systèmes ne permettent pas d'assurer la fluidité souhaitée ou de régler la circulation dans des conditions de sécurité satisfaisantes.",
+      "explanation_nl": "Het gebruik van verkeerslichten met pijlen die de driekleurige lichten vervangen, is voorbehouden aan speciale gevallen waarin andere systemen de gewenste doorstroming niet kunnen garanderen of het verkeer niet onder bevredigende veiligheidsomstandigheden kunnen regelen.",
+      "explanation_ru": "Использование светофоров со стрелками, заменяющих трехцветные светофоры, предназначено для особых случаев, когда другие системы не могут обеспечить желаемую плавность движения или регулировать движение в удовлетворительных условиях безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "À une intersection, vous voyez un feu rouge circulaire accompagné d'une flèche verte éclairée, indiquant une direction spécifique (par exemple, un virage à gauche autorisé). Quelle sera la prochaine phase de signalisation pour les véhicules suivant cette direction, une fois que la flèche verte s'éteindra et que le feu rouge restera allumé ?",
+      "text_nl": "Op een kruispunt ziet u een rood rond licht samen met een verlichte groene pijl, die een specifieke richting aangeeft (bijvoorbeeld een toegestane linkse afslag). Wat zal de volgende signaalfase zijn voor voertuigen die deze richting volgen, zodra de groene pijl uitgaat en het rode licht aan blijft?",
+      "text_ru": "На перекрестке вы видите круглый красный свет, сопровождаемый горящей зеленой стрелкой, указывающей конкретное направление (например, разрешенный левый поворот). Какова будет следующая фаза сигнала для транспортных средств, следующих в этом направлении, как только зеленая стрелка погаснет, а красный свет останется включенным?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A traffic light showing a red circular light and, simultaneously, a green arrow pointing left. Cars are turning left while other traffic stops for the red light."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un feu jaune-orange, avant un éventuel feu vert.",
+          "text_nl": "Een oranjegeel licht, vóór een eventueel groen licht.",
+          "text_ru": "Желто-оранжевый свет, перед возможным зеленым светом.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un feu vert, directement après la flèche verte.",
+          "text_nl": "Een groen licht, direct na de groene pijl.",
+          "text_ru": "Зеленый свет, сразу после зеленой стрелки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un autre feu rouge clignotant, puis un feu vert.",
+          "text_nl": "Een ander knipperend rood licht, dan een groen licht.",
+          "text_ru": "Другой мигающий красный свет, затем зеленый свет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les règles, à une ou des flèches vertes éclairées conjointement avec un feu rouge, ne peut succéder qu'un feu vert. Il n'y a pas de phase intermédiaire jaune-orange dans ce cas particulier.",
+      "explanation_nl": "Volgens de regels kan op een of meerdere groene pijlen die samen met een rood licht branden, alleen een groen licht volgen. Er is geen tussenliggende oranjegele fase in dit specifieke geval.",
+      "explanation_ru": "Согласно правилам, за зелеными стрелками, горящими одновременно с красным светом, может следовать только зеленый свет. В этом конкретном случае нет промежуточной желто-оранжевой фазы."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "5a2d6973b3f9",
@@ -69,6 +366,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:09:00Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

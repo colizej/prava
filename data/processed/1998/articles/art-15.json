@@ -37,7 +37,304 @@
   "anchor_id_fr": "lavobja615",
   "anchor_id_nl": "aldixaav9i",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le sens du \"code 78\" apposé sur un permis de conduire belge ou européen pour une catégorie donnée de véhicules ?",
+      "text_nl": "Wat is de betekenis van de \"code 78\" die op een Belgisch of Europees rijbewijs voor een bepaalde voertuigcategorie is vermeld?",
+      "text_ru": "Каково значение \"кода 78\", указанного на бельгийских или европейских водительских правах для определенной категории транспортных средств?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il autorise la conduite uniquement des véhicules avec transmission manuelle.",
+          "text_nl": "Het machtigt uitsluitend om voertuigen met handgeschakelde transmissie te besturen.",
+          "text_ru": "Он разрешает управление только транспортными средствами с механической коробкой передач.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il restreint la conduite aux véhicules équipés d'une boîte de vitesses automatique.",
+          "text_nl": "Het beperkt het besturen tot voertuigen die zijn uitgerust met een automatische versnellingsbak.",
+          "text_ru": "Он ограничивает управление транспортными средствами, оснащенными автоматической коробкой передач.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il indique que le conducteur est un débutant avec des restrictions de vitesse.",
+          "text_nl": "Het geeft aan dat de bestuurder een beginner is met snelheidsbeperkingen.",
+          "text_ru": "Он указывает, что водитель является новичком с ограничениями скорости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le code 78 sur un permis de conduire signifie que le titulaire est uniquement autorisé à conduire des véhicules à transmission automatique. L'article mentionne la possibilité de supprimer ce code, ce qui implique que sa présence impose cette restriction.",
+      "explanation_nl": "Code 78 op een rijbewijs betekent dat de houder alleen voertuigen met een automatische transmissie mag besturen. Het artikel vermeldt de mogelijkheid om deze code op te heffen, wat impliceert dat de aanwezigheid ervan deze beperking oplegt.",
+      "explanation_ru": "Код 78 на водительских правах означает, что владелец имеет право управлять только транспортными средствами с автоматической коробкой передач. В статье упоминается возможность удаления этого кода, что подразумевает, что его наличие накладывает это ограничение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Pour quelle(s) catégorie(s) de permis de conduire l'examen pratique sur \"terrain isolé de la circulation\" est-il spécifiquement mentionné comme épreuve préalable ?",
+      "text_nl": "Voor welke rijbewijscategorie(ën) wordt het praktisch examen op een \"terrein buiten het verkeer\" specifiek vermeld als een voorafgaande proef?",
+      "text_ru": "Для каких категорий водительских прав практический экзамен на \"изолированной от движения территории\" специально упоминается как предварительное испытание?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image showing a motorcycle on a dedicated training ground, away from public roads."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement pour la catégorie B (voitures).",
+          "text_nl": "Uitsluitend voor de categorie B (auto's).",
+          "text_ru": "Только для категории В (легковые автомобили).",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Principalement pour les catégories de motos (A1, A2, A).",
+          "text_nl": "Hoofdzakelijk voor de motorfiets categorieën (A1, A2, A).",
+          "text_ru": "В основном для категорий мотоциклов (А1, А2, А).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour toutes les catégories de véhicules lourds (C, D, E).",
+          "text_nl": "Voor alle categorieën zware voertuigen (C, D, E).",
+          "text_ru": "Для всех категорий тяжелых транспортных средств (C, D, E).",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les règles du code de la route précisent que l'examen pratique sur terrain isolé de la circulation est requis pour les catégories de permis de conduire A1, A2 ou A, concernant la conduite de motos.",
+      "explanation_nl": "De regels van de wegcode specificeren dat het praktisch examen op een terrein buiten het verkeer vereist is voor de rijbewijscategorieën A1, A2 of A, betreffende het besturen van motorfietsen.",
+      "explanation_ru": "Правила дорожного кодекса уточняют, что практический экзамен на изолированной от движения территории требуется для категорий водительских прав A1, A2 или A, касающихся управления мотоциклами."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Dans le contexte de l'obtention du permis de conduire, quel est l'objectif principal de l'exigence d'heures d'enseignement pratique supplémentaires pour un candidat qui a échoué à plusieurs reprises à l'examen ou dont le permis provisoire a expiré ?",
+      "text_nl": "Wat is, in het kader van het behalen van een rijbewijs, het hoofddoel van de vereiste voor extra uren praktijkonderricht voor een kandidaat die meerdere keren niet geslaagd is voor het examen of wiens voorlopig rijbewijs is verlopen?",
+      "text_ru": "В контексте получения водительских прав, какова основная цель требования дополнительных часов практического обучения для кандидата, который неоднократно провалил экзамен или у которого истек срок действия временных водительских прав?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image showing a frustrated student driver next to an expired provisional license, with a driving instructor offering guidance."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Retarder l'accès au permis de conduire pour les candidats jugés insuffisamment préparés.",
+          "text_nl": "De toegang tot het rijbewijs vertragen voor kandidaten die als onvoldoende voorbereid worden beschouwd.",
+          "text_ru": "Задержать получение водительских прав для кандидатов, которые считаются недостаточно подготовленными.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Assurer que le candidat renforce ses compétences et acquiert l'expérience nécessaire avant une nouvelle tentative.",
+          "text_nl": "Ervoor zorgen dat de kandidaat zijn vaardigheden versterkt en de nodige ervaring opdoet voor een nieuwe poging.",
+          "text_ru": "Обеспечить, чтобы кандидат улучшил свои навыки и приобрел необходимый опыт перед новой попыткой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Générer des revenus supplémentaires pour les écoles de conduite.",
+          "text_nl": "Extra inkomsten genereren voor rijscholen.",
+          "text_ru": "Генерировать дополнительный доход для автошкол.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les règles du code de la route, l'exigence d'heures d'enseignement pratique supplémentaires après des échecs répétés ou l'expiration d'un permis provisoire vise à garantir que le candidat a suffisamment de formation pour atteindre le niveau de compétence requis et la sécurité routière avant de se représenter à l'examen.",
+      "explanation_nl": "Volgens de regels van de wegcode is de vereiste van extra uren praktijkonderricht na herhaalde mislukkingen of het verlopen van een voorlopig rijbewijs bedoeld om ervoor te zorgen dat de kandidaat voldoende training heeft om het vereiste niveau van bekwaamheid en verkeersveiligheid te bereiken voordat hij zich opnieuw voor het examen aanmeldt.",
+      "explanation_ru": "Согласно правилам дорожного кодекса, требование дополнительных часов практического обучения после неоднократных неудач или истечения срока действия временных водительских прав направлено на обеспечение того, чтобы кандидат получил достаточную подготовку для достижения необходимого уровня компетентности и безопасности дорожного движения, прежде чем повторно сдавать экзамен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur est titulaire d'un permis de conduire catégorie A1 depuis trois ans et souhaite obtenir un permis de catégorie A2. Combien d'heures d'enseignement pratique minimales doit-il suivre ?",
+      "text_nl": "Een bestuurder is al drie jaar in het bezit van een rijbewijs categorie A1 en wil een rijbewijs categorie A2 behalen. Hoeveel uur minimaal praktijkonderricht moet hij volgen?",
+      "text_ru": "Водитель имеет водительские права категории А1 уже три года и желает получить права категории А2. Сколько минимальных часов практического обучения ему необходимо пройти?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a motorcyclist showing their A1 license, looking at an A2 license."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Deux heures.",
+          "text_nl": "Twee uren.",
+          "text_ru": "Два часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Quatre heures.",
+          "text_nl": "Vier uren.",
+          "text_ru": "Четыре часа.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Six heures.",
+          "text_nl": "Zes uren.",
+          "text_ru": "Шесть часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les règles du code de la route, pour un candidat qui est titulaire depuis au moins deux ans d'un permis de conduire valable pour la catégorie A1 ou A2 et qui souhaite obtenir un permis de conduire valable pour la catégorie A2 ou A respectivement, quatre heures d'enseignement pratique sont requises.",
+      "explanation_nl": "Volgens de regels van de wegcode, voor een kandidaat die ten minste twee jaar in het bezit is van een geldig rijbewijs voor categorie A1 of A2 en die een geldig rijbewijs voor respectievelijk categorie A2 of A wil behalen, zijn vier uur praktijkonderricht vereist.",
+      "explanation_ru": "Согласно правилам дорожного кодекса, для кандидата, который является владельцем водительских прав категории А1 или А2 в течение как минимум двух лет и желает получить водительские права категории А2 или А соответственно, требуется четыре часа практического обучения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un candidat au permis de conduire de catégorie B a échoué à deux reprises à l'examen pratique. Combien d'heures d'enseignement pratique minimales lui sont requises avant de pouvoir se représenter ?",
+      "text_nl": "Een kandidaat voor het rijbewijs categorie B is tweemaal niet geslaagd voor het praktisch examen. Hoeveel uur minimaal praktijkonderricht is van hem vereist voordat hij opnieuw examen mag afleggen?",
+      "text_ru": "Кандидат на получение водительских прав категории В дважды провалил практический экзамен. Сколько минимальных часов практического обучения ему требуется пройти, прежде чем он сможет пересдать экзамен?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a driving school car with a frustrated student in the driver's seat and an instructor consoling them after failing an exam."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Quatre heures.",
+          "text_nl": "Vier uren.",
+          "text_ru": "Четыре часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Six heures.",
+          "text_nl": "Zes uren.",
+          "text_ru": "Шесть часов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Huit heures.",
+          "text_nl": "Acht uren.",
+          "text_ru": "Восемь часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les règles du code de la route, pour un candidat au permis de conduire valable pour les véhicules de la catégorie B qui a échoué à deux reprises à l'examen pratique, un minimum de six heures d'enseignement pratique est exigé.",
+      "explanation_nl": "Volgens de regels van de wegcode is voor een kandidaat voor het rijbewijs geldig voor voertuigen van categorie B die tweemaal niet geslaagd is voor het praktisch examen, minimaal zes uur praktijkonderricht vereist.",
+      "explanation_ru": "Согласно правилам дорожного кодекса, для кандидата на получение водительских прав категории В, который дважды провалил практический экзамен, требуется минимум шесть часов практического обучения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un titulaire d'un permis de conduire de catégorie B souhaite obtenir l'apposition du code 96 sur son permis pour tracter des remorques plus lourdes. Combien d'heures d'enseignement pratique minimales doit-il suivre ?",
+      "text_nl": "Een houder van een rijbewijs categorie B wenst de code 96 op zijn rijbewijs te laten vermelden om zwaardere aanhangwagens te mogen trekken. Hoeveel uur minimaal praktijkonderricht moet hij volgen?",
+      "text_ru": "Владелец водительских прав категории B желает получить код 96 на своих правах для буксировки более тяжелых прицепов. Сколько минимальных часов практического обучения ему необходимо пройти?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a car with a large caravan or trailer attached, suggesting a need for code 96."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Six heures.",
+          "text_nl": "Zes uren.",
+          "text_ru": "Шесть часов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Huit heures.",
+          "text_nl": "Acht uren.",
+          "text_ru": "Восемь часов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dix heures.",
+          "text_nl": "Tien uren.",
+          "text_ru": "Десять часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les règles du code de la route, pour un candidat qui souhaite obtenir un permis de conduire valable pour la catégorie B sur lequel est apposé le code 96, huit heures d'enseignement pratique sont nécessaires.",
+      "explanation_nl": "Volgens de regels van de wegcode zijn voor een kandidaat die een rijbewijs geldig voor de categorie B wenst te behalen waarop de code 96 is vermeld, acht uur praktijkonderricht nodig.",
+      "explanation_ru": "Согласно правилам дорожного кодекса, для кандидата, желающего получить водительские права категории B с кодом 96, требуется восемь часов практического обучения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Le permis de conduire provisoire d'un conducteur pour la catégorie B+E est arrivé à expiration. Combien d'heures d'enseignement pratique minimales doit-il suivre pour pouvoir se représenter à l'examen ?",
+      "text_nl": "Het voorlopig rijbewijs van een bestuurder voor de categorie B+E is verlopen. Hoeveel uur minimaal praktijkonderricht moet hij volgen om opnieuw examen te kunnen afleggen?",
+      "text_ru": "Срок действия временных водительских прав водителя для категории B+E истек. Сколько минимальных часов практического обучения ему необходимо пройти, чтобы иметь возможность повторно сдать экзамен?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of an expired provisional driver's license for a car with a trailer (B+E)."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Six heures.",
+          "text_nl": "Zes uren.",
+          "text_ru": "Шесть часов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Huit heures.",
+          "text_nl": "Acht uren.",
+          "text_ru": "Восемь часов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dix heures.",
+          "text_nl": "Tien uren.",
+          "text_ru": "Десять часов.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les règles du code de la route, pour le titulaire d'un permis de conduire provisoire valable pour la catégorie B+E (entre autres catégories lourdes) dont la validité est expirée, un minimum de huit heures d'enseignement pratique est requis.",
+      "explanation_nl": "Volgens de regels van de wegcode is voor de houder van een voorlopig rijbewijs geldig voor de categorie B+E (onder andere zware categorieën) waarvan de geldigheidsduur is verstreken, minimaal acht uur praktijkonderricht vereist.",
+      "explanation_ru": "Согласно правилам дорожного кодекса, для владельца временных водительских прав категории B+E (среди прочих тяжелых категорий), срок действия которых истек, требуется минимум восемь часов практического обучения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un candidat au permis de conduire de catégorie A a échoué à deux reprises à l'examen pratique sur la voie publique. Combien d'heures d'enseignement pratique minimales lui sont requises avant de pouvoir se représenter ?",
+      "text_nl": "Een kandidaat voor het rijbewijs categorie A is tweemaal niet geslaagd voor het praktisch examen op de openbare weg. Hoeveel uur minimaal praktijkonderricht is van hem vereist voordat hij opnieuw examen mag afleggen?",
+      "text_ru": "Кандидат на получение водительских прав категории А дважды провалил практический экзамен на дорогах общего пользования. Сколько минимальных часов практического обучения ему требуется пройти, прежде чем он сможет пересдать экзамен?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An image of a motorcycle student and instructor, with a thought bubble showing a failed public road exam scenario."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Deux heures.",
+          "text_nl": "Twee uren.",
+          "text_ru": "Два часа.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Trois heures.",
+          "text_nl": "Drie uren.",
+          "text_ru": "Три часа.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Quatre heures.",
+          "text_nl": "Vier uren.",
+          "text_ru": "Четыре часа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Selon les règles du code de la route, pour un candidat au permis de conduire valable pour les véhicules de la catégorie A1, A2 ou A qui a échoué à deux reprises à l'examen pratique sur la voie publique, un minimum de deux heures d'enseignement pratique est requis.",
+      "explanation_nl": "Volgens de regels van de wegcode is voor een kandidaat voor het rijbewijs geldig voor voertuigen van de categorie A1, A2 of A die tweemaal niet geslaagd is voor het praktisch examen op de openbare weg, minimaal twee uur praktijkonderricht vereist.",
+      "explanation_ru": "Согласно правилам дорожного кодекса, для кандидата на получение водительских прав категории A1, A2 или A, который дважды провалил практический экзамен на дорогах общего пользования, требуется минимум два часа практического обучения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "a3218d464db2",
@@ -47,6 +344,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:12:51Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

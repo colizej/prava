@@ -62,7 +62,304 @@
   "anchor_id_fr": "7vi9fpeol3",
   "anchor_id_nl": "otn1smtsg7",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom officiel de la marque transversale, large et pleine, qui indique l'endroit où les conducteurs doivent obligatoirement marquer l'arrêt ?",
+      "text_nl": "Wat is de officiële naam van de brede, volle dwarsmarkering die de plaats aangeeft waar bestuurders verplicht moeten stoppen?",
+      "text_ru": "Каково официальное название широкой, сплошной поперечной разметки, указывающей место, где водители обязаны остановиться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A wide, solid white line painted across a road, indicating a stop position."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ligne de priorité",
+          "text_nl": "Voorrangsstreep",
+          "text_ru": "Линия приоритета",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ligne d'arrêt",
+          "text_nl": "Stopstreep",
+          "text_ru": "Стоп-линия",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ligne de jalonnement",
+          "text_nl": "Richtingaanwijzerstreep",
+          "text_ru": "Разметочная линия",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La marque transversale large et pleine indiquant l'obligation de s'arrêter est appelée \"Ligne d'arrêt\".",
+      "explanation_nl": "De brede, volle dwarsmarkering die de stopverplichting aangeeft, wordt \"Stopstreep\" genoemd.",
+      "explanation_ru": "Широкая, сплошная поперечная разметка, указывающая на обязательную остановку, называется \"Стоп-линия\"."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Que signifie une ligne transversale constituée de triangles blancs dont les sommets sont dirigés vers vous, en l'absence d'autres signalisations de priorité ?",
+      "text_nl": "Wat betekent een dwarsmarkering bestaande uit witte driehoeken waarvan de punten naar u toe gericht zijn, bij afwezigheid van andere voorrangssignalering?",
+      "text_ru": "Что означает поперечная линия из белых треугольников, вершины которых направлены к вам, при отсутствии другой приоритетной сигнализации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A line formed by white triangles painted across a road, with their apexes pointing towards the driver's direction."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez marquer l'arrêt obligatoire, comme à un panneau \"Stop\".",
+          "text_nl": "U moet verplicht stoppen, zoals bij een \"Stop\"-bord.",
+          "text_ru": "Вы обязаны остановиться, как у знака \"Стоп\".",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez céder le passage si nécessaire, mais l'arrêt n'est pas obligatoire sans circulation.",
+          "text_nl": "U moet, indien nodig, voorrang verlenen, maar stoppen is niet verplicht zonder verkeer.",
+          "text_ru": "Вы должны, при необходимости, уступить дорогу, но остановка не обязательна при отсутствии движения.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous avez la priorité de passage.",
+          "text_nl": "U heeft voorrang.",
+          "text_ru": "У вас приоритет проезда.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Cette ligne indique que vous devez céder le passage à la circulation sur la voie que vous allez traverser. L'arrêt n'est obligatoire que si la circulation l'exige.",
+      "explanation_nl": "Deze streep geeft aan dat u voorrang moet verlenen aan het verkeer op de weg die u kruist. Stoppen is alleen verplicht indien het verkeer dit vereist.",
+      "explanation_ru": "Эта линия указывает, что вы должны уступить дорогу движению на пересекаемой полосе. Остановка обязательна только в том случае, если этого требует дорожное движение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Comment sont généralement caractérisées les marques des passages pour piétons sur la chaussée ?",
+      "text_nl": "Hoe worden de markeringen van oversteekplaatsen voor voetgangers op de rijbaan doorgaans gekenmerkt?",
+      "text_ru": "Как обычно характеризуются обозначения пешеходных переходов на проезжей части?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian crossing (zebra crossing) with parallel white stripes on a road."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont constituées de deux lignes discontinues parallèles.",
+          "text_nl": "Ze bestaan uit twee evenwijdige onderbroken lijnen.",
+          "text_ru": "Они состоят из двух параллельных прерывистых линий.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles sont composées de bandes blanches parallèles à l'axe de la route.",
+          "text_nl": "Ze zijn samengesteld uit witte stroken evenwijdig aan de as van de weg.",
+          "text_ru": "Они состоят из белых полос, параллельных оси дороги.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles sont formées de bandes blanches parallèles au bord de la chaussée.",
+          "text_nl": "Ze zijn gevormd uit witte stroken evenwijdig aan de rand van de rijbaan.",
+          "text_ru": "Они образованы белыми полосами, параллельными краю проезжей части.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les marques des passages pour piétons sont constituées de bandes blanches parallèles au bord de la chaussée (donc perpendiculaires au sens de la circulation), avec une largeur et un écartement d'environ 0,50 m.",
+      "explanation_nl": "Markeringen van oversteekplaatsen voor voetgangers bestaan uit witte stroken die evenwijdig aan de rand van de rijbaan (dus loodrecht op de rijrichting) liggen, met een breedte en tussenafstand van ongeveer 0,50 m.",
+      "explanation_ru": "Обозначения пешеходных переходов состоят из белых полос, параллельных краю проезжей части (т.е. перпендикулярно направлению движения), шириной и расстоянием между ними около 0,50 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous approchez d'un carrefour où un panneau \"Stop\" est présent, accompagné d'une ligne d'arrêt. Où devez-vous vous arrêter pour respecter la réglementation et assurer votre sécurité ?",
+      "text_nl": "U nadert een kruispunt waar een \"Stop\"-bord aanwezig is, samen met een stopstreep. Waar moet u stoppen om de regelgeving te respecteren en uw veiligheid te garanderen?",
+      "text_ru": "Вы приближаетесь к перекрестку, где установлен знак \"Стоп\" и нанесена стоп-линия. Где вы должны остановиться, чтобы соблюсти правила и обеспечить свою безопасность?",
+      "image": {
+        "sign_code": "B5",
+        "generation_prompt": "A car stopped before a stop line and a B5 sign at an intersection, clearly showing good visibility and not blocking pedestrian or cycle paths."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Juste au niveau du panneau \"Stop\".",
+          "text_nl": "Net ter hoogte van het \"Stop\"-bord.",
+          "text_ru": "Прямо у знака \"Стоп\".",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Devant la ligne d'arrêt, en veillant à avoir la meilleure visibilité possible sans immobiliser votre véhicule sur un passage pour piétons ou une piste cyclable.",
+          "text_nl": "Voor de stopstreep, erop lettend dat u een zo goed mogelijk zicht heeft zonder uw voertuig te immobiliseren op een oversteekplaats voor voetgangers of een fietspad.",
+          "text_ru": "Перед стоп-линией, убедившись, что у вас наилучшая видимость, и не останавливая транспортное средство на пешеходном переходе или велосипедной дорожке.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "À la hauteur de la ligne d'arrêt, même si cela obstrue une piste cyclable.",
+          "text_nl": "Ter hoogte van de stopstreep, zelfs als dit een fietspad blokkeert.",
+          "text_ru": "На уровне стоп-линии, даже если это блокирует велосипедную дорожку.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La ligne d'arrêt doit être située de manière à ce que le conducteur arrêté devant elle ait une visibilité aussi étendue que possible sur la voie prioritaire, sans immobiliser son véhicule sur un passage pour piétons ou une piste cyclable.",
+      "explanation_nl": "De stopstreep moet zodanig zijn aangebracht dat de bestuurder die ervoor stopt, een zo ruim mogelijk zicht heeft op de voorrangsweg, zonder zijn voertuig op een oversteekplaats voor voetgangers of op een fietspad te immobiliseren.",
+      "explanation_ru": "Стоп-линия должна быть расположена таким образом, чтобы водитель, остановившийся перед ней, имел максимально широкий обзор приоритетной дороги, не блокируя при этом пешеходный переход или велосипедную дорожку."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous approchez d'un carrefour équipé de feux de signalisation placés au-dessus des bandes de circulation, et vous voyez une ligne d'arrêt. Quelle distance minimale cette ligne d'arrêt est-elle généralement placée avant les feux ?",
+      "text_nl": "U nadert een kruispunt dat is uitgerust met verkeerslichten die boven de rijstroken zijn geplaatst, en u ziet een stopstreep. Welke minimale afstand wordt deze stopstreep doorgaans vóór de lichten geplaatst?",
+      "text_ru": "Вы приближаетесь к перекрестку, оборудованному светофорами, расположенными над полосами движения, и видите стоп-линию. Какое минимальное расстояние обычно устанавливается между стоп-линией и светофорами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A stop line on the road, with overhead traffic lights visible at a distance, implying a 5-meter gap."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au moins 1 mètre.",
+          "text_nl": "Ten minste 1 meter.",
+          "text_ru": "Не менее 1 метра.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Au moins 3 mètres.",
+          "text_nl": "Ten minste 3 meter.",
+          "text_ru": "Не менее 3 метров.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Au moins 5 mètres.",
+          "text_nl": "Ten minste 5 meter.",
+          "text_ru": "Не менее 5 метров.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque les signaux lumineux sont placés au-dessus des bandes de circulation, la ligne d'arrêt est tracée au moins 5 mètres avant les feux.",
+      "explanation_nl": "Wanneer verkeerslichten boven de rijstroken zijn aangebracht, wordt de stopstreep gemarkeerd op tenminste 5 meter voor de lichten.",
+      "explanation_ru": "Когда светофоры расположены над полосами движения, стоп-линия наносится не менее чем за 5 метров до светофоров."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à une intersection et voyez une ligne de triangles blancs dont la pointe est dirigée vers vous. Il n'y a pas d'autres panneaux de signalisation. Quelle est votre obligation ?",
+      "text_nl": "U nadert een kruispunt en ziet een streep van witte driehoeken waarvan de punten naar u toe gericht zijn. Er zijn geen andere verkeersborden. Wat is uw verplichting?",
+      "text_ru": "Вы приближаетесь к перекрестку и видите линию из белых треугольников, вершины которых направлены к вам. Других дорожных знаков нет. Каково ваше обязательство?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A car approaching an intersection with a line of white triangles on the road, pointing towards the car."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez obligatoirement vous arrêter et ensuite céder le passage.",
+          "text_nl": "U moet verplicht stoppen en daarna voorrang verlenen.",
+          "text_ru": "Вы обязаны остановиться, а затем уступить дорогу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez céder le passage à tous les usagers venant d'autres directions, et vous arrêter si nécessaire.",
+          "text_nl": "U moet voorrang verlenen aan alle gebruikers uit andere richtingen, en stoppen indien nodig.",
+          "text_ru": "Вы должны уступить дорогу всем участникам движения, движущимся с других направлений, и остановиться, если это необходимо.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous avez la priorité et pouvez continuer sans ralentir.",
+          "text_nl": "U heeft voorrang en mag doorrijden zonder te vertragen.",
+          "text_ru": "У вас приоритет, и вы можете продолжать движение, не снижая скорости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une ligne de triangles blancs indique que vous devez céder le passage aux conducteurs circulant sur la voie que vous allez aborder ou traverser. L'arrêt est requis uniquement si la situation l'exige pour pouvoir céder le passage en toute sécurité.",
+      "explanation_nl": "Een streep van witte driehoeken geeft aan dat u voorrang moet verlenen aan bestuurders die rijden op de weg die u nadert of kruist. Stoppen is alleen verplicht indien de situatie dit vereist om veilig voorrang te kunnen verlenen.",
+      "explanation_ru": "Линия из белых треугольников указывает, что вы должны уступить дорогу водителям, движущимся по полосе, на которую вы собираетесь выехать или которую вы собираетесь пересечь. Остановка требуется только в том случае, если ситуация того требует для безопасного уступления дороги."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous circulez sur une route où la vitesse maximale autorisée est de 80 km/h. Vous apercevez un passage pour piétons. Quelle est la longueur minimale des bandes blanches de ce passage ?",
+      "text_nl": "U rijdt op een weg waar de maximum toegelaten snelheid 80 km/u is. U ziet een oversteekplaats voor voetgangers. Wat is de minimale lengte van de witte stroken van deze oversteekplaats?",
+      "text_ru": "Вы едете по дороге, где максимальная разрешенная скорость составляет 80 км/ч. Вы видите пешеходный переход. Какова минимальная длина белых полос этого перехода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian crossing with long white stripes on a fast road, showing the length."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "3,00 m.",
+          "text_nl": "3,00 m.",
+          "text_ru": "3,00 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "3,50 m.",
+          "text_nl": "3,50 m.",
+          "text_ru": "3,50 м.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "4,00 m.",
+          "text_nl": "4,00 m.",
+          "text_ru": "4,00 м.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Sur les routes où une vitesse supérieure à 70 km/h est autorisée (comme 80 km/h), les marques des passages pour piétons doivent avoir une longueur d'au moins 4,00 m.",
+      "explanation_nl": "Op wegen waar een snelheid van meer dan 70 km/u is toegelaten (zoals 80 km/u), moeten de markeringen van oversteekplaatsen voor voetgangers een lengte hebben van ten minste 4,00 m.",
+      "explanation_ru": "На дорогах, где разрешена скорость более 70 км/ч (например, 80 км/ч), обозначения пешеходных переходов должны иметь длину не менее 4,00 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez des marques au sol composées de carrés ou de parallélogrammes indiquant un passage pour conducteurs de bicyclettes et de cyclomoteurs à deux roues. Dans quelle situation ce type de marquage transversal est-il généralement apposé ?",
+      "text_nl": "U ziet markeringen op de grond die bestaan uit vierkanten of parallellogrammen en die een oversteekplaats voor bestuurders van fietsen en tweewielige bromfietsen aanduiden. In welke situatie wordt dit type dwarsmarkering doorgaans aangebracht?",
+      "text_ru": "Вы видите разметку на дороге, состоящую из квадратов или параллелограммов, обозначающую переход для велосипедистов и водителей двухколесных мопедов. В какой ситуации обычно наносится этот тип поперечной разметки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A crossing for cyclists with square/parallelogram markings on the road, outside an intersection."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Au centre d'un carrefour ou d'un rond-point où ils ont la priorité.",
+          "text_nl": "In het midden van een kruispunt of rotonde waar zij voorrang hebben.",
+          "text_ru": "В центре перекрестка или кольцевой развязки, где у них приоритет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque les conducteurs de bicyclettes et de cyclomoteurs à deux roues doivent traverser la chaussée en dehors d'un carrefour ou d'un rond-point.",
+          "text_nl": "Wanneer bestuurders van fietsen en tweewielige bromfietsen de rijbaan moeten oversteken buiten een kruispunt of rotonde.",
+          "text_ru": "Когда водители велосипедов и двухколесных мопедов должны пересекать проезжую часть вне перекрестка или кольцевой развязки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour indiquer une piste cyclable longeant la chaussée.",
+          "text_nl": "Om een fietspad langs de rijbaan aan te duiden.",
+          "text_ru": "Для обозначения велосипедной дорожки, идущей вдоль проезжей части.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Ce marquage transversal doit être apposé lorsque les conducteurs de bicyclettes et cyclomoteurs à deux-roues doivent traverser la chaussée en dehors du carrefour ou du rond-point. Il ne peut pas être apposé au carrefour même ou au rond-point lorsque ces conducteurs suivent les mêmes règles de priorité que les autres.",
+      "explanation_nl": "Deze dwarsmarkering moet worden aangebracht wanneer bestuurders van fietsen en tweewielige bromfietsen de rijbaan moeten oversteken buiten het kruispunt of de rotonde. Het mag niet worden aangebracht op het kruispunt zelf of de rotonde, wanneer deze bestuurders dezelfde voorrangsregels volgen als andere bestuurders.",
+      "explanation_ru": "Эта поперечная разметка должна быть нанесена, когда водители велосипедов и двухколесных мопедов должны пересекать проезжую часть вне перекрестка или кольцевой развязки. Ее нельзя наносить на самом перекрестке или кольцевой развязке, когда эти водители следуют тем же правилам приоритета, что и другие водители."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "ca04b981fbaa",
@@ -72,6 +369,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:06:08Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

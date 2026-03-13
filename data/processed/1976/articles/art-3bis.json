@@ -26,7 +26,304 @@
   "anchor_id_fr": "hbfzvfb9hd",
   "anchor_id_nl": "jvyazuiuzg",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la couleur de la surface sur laquelle apparaît la flèche d'évacuation ?",
+      "text_nl": "Welke kleur heeft het oppervlak waarop de ontruimingspijl verschijnt?",
+      "text_ru": "Какого цвета поверхность, на которой появляется стрелка эвакуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Blanche",
+          "text_nl": "Wit",
+          "text_ru": "Белый",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Noire",
+          "text_nl": "Zwart",
+          "text_ru": "Чёрный",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Jaune-orange",
+          "text_nl": "Geel-oranje",
+          "text_ru": "Жёлто-оранжевый",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La surface sur laquelle apparaît la flèche d'évacuation est noire.",
+      "explanation_nl": "Het oppervlak waarop de ontruimingspijl verschijnt is zwart.",
+      "explanation_ru": "Поверхность, на которой появляется стрелка эвакуации, чёрная."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la fonction de la flèche d'évacuation ?",
+      "text_nl": "Wat is de functie van de ontruimingspijl?",
+      "text_ru": "Какова функция стрелки эвакуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer la direction à suivre",
+          "text_nl": "De richting aangeven die gevolgd moet worden",
+          "text_ru": "Указывать направление, которое необходимо следовать",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Indiquer la réduction du nombre de bandes de circulation",
+          "text_nl": "Het aantal rijstroken dat gebruikt mag worden verminderen",
+          "text_ru": "Указывать уменьшение количества полос движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer la fin de la route",
+          "text_nl": "Het einde van de weg aangeven",
+          "text_ru": "Указывать конец дороги",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La flèche d'évacuation est utilisée pour indiquer la réduction du nombre de bandes de circulation qui peuvent être utilisées dans le sens suivi.",
+      "explanation_nl": "De ontruimingspijl wordt gebruikt om de vermindering aan te kondigen van het aantal rijstroken die in de gevolgde richting mogen gebruikt worden.",
+      "explanation_ru": "Стрелка эвакуации используется для указания уменьшения количества полос движения, которые могут быть использованы в направлении, которое следует."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la couleur de la flèche d'évacuation ?",
+      "text_nl": "Welke kleur heeft de ontruimingspijl?",
+      "text_ru": "Какого цвета стрелка эвакуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rouge",
+          "text_nl": "Rood",
+          "text_ru": "Красный",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Jaune-orange",
+          "text_nl": "Geel-oranje",
+          "text_ru": "Жёлто-оранжевый",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Verte",
+          "text_nl": "Groen",
+          "text_ru": "Зелёный",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La flèche d'évacuation est de couleur jaune-orange.",
+      "explanation_nl": "De ontruimingspijl is geel-oranje.",
+      "explanation_ru": "Стрелка эвакуации жёлто-оранжевого цвета."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'une intersection et vous voyez une flèche d'évacuation au-dessus d'une bande de circulation. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en u ziet een ontruimingspijl boven een rijstrook. Wat moet u doen?",
+      "text_ru": "Вы подходите к перекрёстку и видите стрелку эвакуации над полосой движения. Что должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler sur la même bande de circulation",
+          "text_nl": "Doorgaan op dezelfde rijstrook",
+          "text_ru": "Продолжать движение по той же полосе",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Changer de bande de circulation vers la gauche",
+          "text_nl": "Van rijstrook veranderen naar links",
+          "text_ru": "Перейти на левую полосу",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Changer de bande de circulation vers la droite",
+          "text_nl": "Van rijstrook veranderen naar rechts",
+          "text_ru": "Перейти на правую полосу",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La flèche d'évacuation indique que la bande de circulation est en train de se réduire, vous devez donc changer de bande de circulation vers la droite.",
+      "explanation_nl": "De ontruimingspijl geeft aan dat het aantal rijstroken afneemt, u moet dus van rijstrook veranderen naar rechts.",
+      "explanation_ru": "Стрелка эвакуации указывает на уменьшение количества полос движения, поэтому вам следует перейти на правую полосу."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes en train de rouler sur une route à plusieurs bandes de circulation et vous voyez une flèche d'évacuation au-dessus d'une bande de circulation. Que signifie cela ?",
+      "text_nl": "U rijdt op een weg met meerdere rijstroken en u ziet een ontruimingspijl boven een rijstrook. Wat betekent dit?",
+      "text_ru": "Вы едете по дороге с несколькими полосами движения и видите стрелку эвакуации над полосой движения. Что это значит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La bande de circulation est fermée",
+          "text_nl": "De rijstrook is gesloten",
+          "text_ru": "Полоса движения закрыта",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La bande de circulation est en train de se réduire",
+          "text_nl": "Het aantal rijstroken neemt af",
+          "text_ru": "Количество полос движения уменьшается",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La bande de circulation est en train de s'agrandir",
+          "text_nl": "Het aantal rijstroken neemt toe",
+          "text_ru": "Количество полос движения увеличивается",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La flèche d'évacuation signifie que la bande de circulation est en train de se réduire.",
+      "explanation_nl": "De ontruimingspijl geeft aan dat het aantal rijstroken afneemt.",
+      "explanation_ru": "Стрелка эвакуации указывает на уменьшение количества полос движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'une intersection et vous voyez une flèche d'évacuation au-dessus d'une bande de circulation, ainsi qu'un feu lumineux avec une croix rouge. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en u ziet een ontruimingspijl boven een rijstrook, evenals een verkeerslicht met een rood kruis. Wat moet u doen?",
+      "text_ru": "Вы подходите к перекрёстку и видите стрелку эвакуации над полосой движения, а также светофор с красным крестом. Что должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler sur la même bande de circulation",
+          "text_nl": "Doorgaan op dezelfde rijstrook",
+          "text_ru": "Продолжать движение по той же полосе",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Changer de bande de circulation vers la droite et arrêter au feu lumineux",
+          "text_nl": "Van rijstrook veranderen naar rechts en stoppen bij het verkeerslicht",
+          "text_ru": "Перейти на правую полосу и остановиться на светофоре",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Changer de bande de circulation vers la gauche et ignorer le feu lumineux",
+          "text_nl": "Van rijstrook veranderen naar links en het verkeerslicht negeren",
+          "text_ru": "Перейти на левую полосу и игнорировать светофор",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La flèche d'évacuation et le feu lumineux avec une croix rouge indiquent que la bande de circulation est en train de se réduire et que vous devez arrêter au feu lumineux.",
+      "explanation_nl": "De ontruimingspijl en het verkeerslicht met een rood kruis geven aan dat het aantal rijstroken afneemt en dat u moet stoppen bij het verkeerslicht.",
+      "explanation_ru": "Стрелка эвакуации и светофор с красным крестом указывают на уменьшение количества полос движения и требуют остановиться на светофоре."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes en train de rouler sur une route à plusieurs bandes de circulation et vous voyez une flèche d'évacuation au-dessus d'une bande de circulation. Que devez-vous faire pour éviter une collision ?",
+      "text_nl": "U rijdt op een weg met meerdere rijstroken en u ziet een ontruimingspijl boven een rijstrook. Wat moet u doen om een botsing te voorkomen?",
+      "text_ru": "Вы едете по дороге с несколькими полосами движения и видите стрелку эвакуации над полосой движения. Что должны сделать, чтобы избежать столкновения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler sur la même bande de circulation",
+          "text_nl": "Doorgaan op dezelfde rijstrook",
+          "text_ru": "Продолжать движение по той же полосе",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Changer de bande de circulation vers la droite et réduire la vitesse",
+          "text_nl": "Van rijstrook veranderen naar rechts en de snelheid verminderen",
+          "text_ru": "Перейти на правую полосу и уменьшить скорость",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Changer de bande de circulation vers la gauche et augmenter la vitesse",
+          "text_nl": "Van rijstrook veranderen naar links en de snelheid verhogen",
+          "text_ru": "Перейти на левую полосу и увеличить скорость",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour éviter une collision, vous devez changer de bande de circulation vers la droite et réduire la vitesse.",
+      "explanation_nl": "Om een botsing te voorkomen, moet u van rijstrook veranderen naar rechts en de snelheid verminderen.",
+      "explanation_ru": "Чтобы избежать столкновения, необходимо перейти на правую полосу и уменьшить скорость."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'une intersection et vous voyez une flèche d'évacuation au-dessus d'une bande de circulation, ainsi qu'un feu lumineux avec une flèche verte. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en u ziet een ontruimingspijl boven een rijstrook, evenals een verkeerslicht met een groene pijl. Wat moet u doen?",
+      "text_ru": "Вы подходите к перекрёстку и видите стрелку эвакуации над полосой движения, а также светофор с зелёной стрелкой. Что должны сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler sur la même bande de circulation et suivre la flèche verte",
+          "text_nl": "Doorgaan op dezelfde rijstrook en de groene pijl volgen",
+          "text_ru": "Продолжать движение по той же полосе и следовать зелёной стрелке",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Changer de bande de circulation vers la droite et arrêter au feu lumineux",
+          "text_nl": "Van rijstrook veranderen naar rechts en stoppen bij het verkeerslicht",
+          "text_ru": "Перейти на правую полосу и остановиться на светофоре",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Changer de bande de circulation vers la gauche et ignorer le feu lumineux",
+          "text_nl": "Van rijstrook veranderen naar links en het verkeerslicht negeren",
+          "text_ru": "Перейти на левую полосу и игнорировать светофор",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La flèche d'évacuation et le feu lumineux avec une flèche verte indiquent que la bande de circulation est en train de se réduire, mais que vous pouvez continuer à rouler sur la même bande de circulation en suivant la flèche verte.",
+      "explanation_nl": "De ontruimingspijl en het verkeerslicht met een groene pijl geven aan dat het aantal rijstroken afneemt, maar dat u op dezelfde rijstrook kunt blijven en de groene pijl kunt volgen.",
+      "explanation_ru": "Стрелка эвакуации и светофор с зелёной стрелкой указывают на уменьшение количества полос движения, но вы можете продолжать движение по той же полосе, следуя зелёной стрелке."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "5385386371d9",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:09:17Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

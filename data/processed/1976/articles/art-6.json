@@ -100,7 +100,304 @@
   "anchor_id_fr": "gb9fsrsqaa",
   "anchor_id_nl": "gtsoloejvh",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quels sont les deux types de signaux routiers en Belgique ?",
+      "text_nl": "Welke twee soorten verkeersborden zijn er in België?",
+      "text_ru": "Какие два типа дорожных знаков в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Routiers et piétons",
+          "text_nl": "Verkeersborden en voetgangers",
+          "text_ru": "Дорожные знаки и пешеходы",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réfléchissants et à éclairage propre",
+          "text_nl": "Lichtweerkaatsend en met eigen verlichting",
+          "text_ru": "Отражающие и с собственным освещением",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Verticaux et horizontaux",
+          "text_nl": "Verticale en horizontale",
+          "text_ru": "Вертикальные и горизонтальные",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux routiers en Belgique sont soit du type réfléchissant, soit du type à éclairage propre.",
+      "explanation_nl": "De verkeersborden in België zijn van het lichtweerkaatsend type of van het type met eigen verlichting.",
+      "explanation_ru": "Дорожные знаки в Бельгии могут быть либо отражающими, либо с собственным освещением."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la fréquence de répétition des signaux routiers ?",
+      "text_nl": "Hoe vaak moeten de verkeersborden herhaald worden?",
+      "text_ru": "С какой частотой должны повторяться дорожные знаки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Toutes les 100 mètres",
+          "text_nl": "Elke 100 meter",
+          "text_ru": "Каждые 100 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque le trafic le justifie",
+          "text_nl": "Wanneer het verkeer het rechtvaardigt",
+          "text_ru": "Когда это оправдано трафиком",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Toutes les 500 mètres",
+          "text_nl": "Elke 500 meter",
+          "text_ru": "Каждые 500 метров",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux routiers ne peuvent être répétés que lorsque la circulation le justifie.",
+      "explanation_nl": "De verkeersborden mogen slechts herhaald worden wanneer het verkeer het rechtvaardigt.",
+      "explanation_ru": "Дорожные знаки могут повторяться только когда это оправдано трафиком."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les dimensions minimales des signaux routiers dans les agglomérations ?",
+      "text_nl": "Wat zijn de minimale afmetingen van de verkeersborden in de bebouwde kommen?",
+      "text_ru": "Каковы минимальные размеры дорожных знаков в населенных пунктах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "0,30 m x 0,60 m",
+          "text_nl": "0,30 m x 0,60 m",
+          "text_ru": "0,30 м x 0,60 м",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "0,60 m x 0,90 m",
+          "text_nl": "0,60 m x 0,90 m",
+          "text_ru": "0,60 м x 0,90 м",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "1,00 m x 1,50 m",
+          "text_nl": "1,00 m x 1,50 m",
+          "text_ru": "1,00 м x 1,50 м",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les dimensions minimales des signaux routiers dans les agglomérations sont de 0,60 m x 0,90 m.",
+      "explanation_nl": "De minimale afmetingen van de verkeersborden in de bebouwde kommen zijn 0,60 m x 0,90 m.",
+      "explanation_ru": "Минимальные размеры дорожных знаков в населенных пунктах составляют 0,60 м x 0,90 м."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route avec une signalisation à message variable. Quelle est la règle pour la répétition de ces signaux ?",
+      "text_nl": "U rijdt op een weg met signalisatie met veranderlijke informatie. Wat is de regel voor de herhaling van deze borden?",
+      "text_ru": "Вы едете по дороге с сигнализацией переменной информации. Какова规则 для повторения этих знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les signaux sont répétés tous les 100 mètres",
+          "text_nl": "De borden worden elke 100 meter herhaald",
+          "text_ru": "Знаки повторяются каждые 100 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les signaux sont répétés après chaque carrefour ou chaque accès à une autoroute",
+          "text_nl": "De borden worden herhaald na elk kruispunt of na elke toegang tot een autosnelweg",
+          "text_ru": "Знаки повторяются после каждого перекрёстка или каждого въезда на автомагистраль",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les signaux ne sont pas répétés",
+          "text_nl": "De borden worden niet herhaald",
+          "text_ru": "Знаки не повторяются",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux de signalisation à message variable sont répétés après chaque carrefour ou chaque accès à une autoroute.",
+      "explanation_nl": "De signalisatie met veranderlijke informatie wordt herhaald na elk kruispunt of na elke toegang tot een autosnelweg.",
+      "explanation_ru": "Сигнализация переменной информации повторяется после каждого перекрёстка или каждого въезда на автомагистраль."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez dans une zone avec une signalisation à validité zonale. Quelle est la règle pour la signalisation de fin d'interdiction ?",
+      "text_nl": "U rijdt in een zone met signalisatie met zonale draagwijdte. Wat is de regel voor de signalisatie van het einde van een verbod?",
+      "text_ru": "Вы едете в зоне с сигнализацией зональной значимости. Какова规칙 для сигнализации окончания запрета?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un signal de fin d'interdiction est placé à chaque carrefour",
+          "text_nl": "Een einde-verbodsbord wordt geplaatst bij elk kruispunt",
+          "text_ru": "Знак окончания запрета устанавливается на каждом перекрёстке",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un signal de fin d'interdiction est placé sur autoroute ou lorsque l'interdiction ne coïncide pas avec un carrefour",
+          "text_nl": "Een einde-verbodsbord wordt geplaatst op de autosnelweg of wanneer dit einde-verbod niet samenvalt met een kruispunt",
+          "text_ru": "Знак окончания запрета устанавливается на автомагистрали или когда запрет не совпадает с перекрёстком",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un signal de fin d'interdiction n'est pas nécessaire",
+          "text_nl": "Een einde-verbodsbord is niet nodig",
+          "text_ru": "Знак окончания запрета не нужен",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un signal de fin d'interdiction doit être placé sur autoroute ou lorsque l'interdiction ne coïncide pas avec un carrefour.",
+      "explanation_nl": "Een einde-verbodsbord moet geplaatst worden op de autosnelweg of wanneer dit einde-verbod niet samenvalt met een kruispunt.",
+      "explanation_ru": "Знак окончания запрета должен устанавливаться на автомагистрали или когда запрет не совпадает с перекрёстком."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez sur une route avec une signalisation par bande de circulation. Quelle est la règle pour la répétition de ces signaux ?",
+      "text_nl": "U rijdt op een weg met signalisatie per rijstrook. Wat is de regel voor de herhaling van deze borden?",
+      "text_ru": "Вы едете по дороге с сигнализацией по полосе движения. Какова правил для повторения этих знаков?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les signaux sont répétés tous les 500 mètres",
+          "text_nl": "De borden worden elke 500 meter herhaald",
+          "text_ru": "Знаки повторяются каждые 500 метров",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les signaux sont répétés après chaque carrefour ou chaque accès à une autoroute",
+          "text_nl": "De borden worden herhaald na elk kruispunt of na elke toegang tot een autosnelweg",
+          "text_ru": "Знаки повторяются после каждого перекрёстка или каждого въезда на автомагистраль",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les signaux ne sont pas répétés",
+          "text_nl": "De borden worden niet herhaald",
+          "text_ru": "Знаки не повторяются",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les signaux de signalisation par bande de circulation sont répétés après chaque carrefour ou chaque accès à une autoroute.",
+      "explanation_nl": "De signalisatie per rijstrook wordt herhaald na elk kruispunt of na elke toegang tot een autosnelweg.",
+      "explanation_ru": "Сигнализация по полосе движения повторяется после каждого перекрёстка или каждого въезда на автомагистраль."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez dans une zone avec une signalisation à validité zonale. Quelle est la règle pour la signalisation de rappel ?",
+      "text_nl": "U rijdt in een zone met signalisatie met zonale draagwijdte. Wat is de regel voor de signalisatie van herhaling?",
+      "text_ru": "Вы едете в зоне с сигнализацией зональной значимости. Какова правил для сигнализации напоминания?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un signal de rappel est placé à chaque carrefour",
+          "text_nl": "Een herhalingssignaal wordt geplaatst bij elk kruispunt",
+          "text_ru": "Знак напоминания устанавливается на каждом перекрёстке",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un signal de rappel est placé lorsque l'une des réglementations prend fin",
+          "text_nl": "Een herhalingssignaal wordt geplaatst wanneer een van de reglementeringen eindigt",
+          "text_ru": "Знак напоминания устанавливается когда одна из правил истекает",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un signal de rappel n'est pas nécessaire",
+          "text_nl": "Een herhalingssignaal is niet nodig",
+          "text_ru": "Знак напоминания не нужен",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un signal de rappel doit être placé lorsque l'une des réglementations prend fin.",
+      "explanation_nl": "Een herhalingssignaal moet geplaatst worden wanneer een van de reglementeringen eindigt.",
+      "explanation_ru": "Знак напоминания должен устанавливаться когда одна из правил истекает."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une route avec une signalisation à message variable. Quelle est la règle pour la signalisation des abords d'écoles ?",
+      "text_nl": "U rijdt op een weg met signalisatie met veranderlijke informatie. Wat is de regel voor de signalisatie van de schoolomgevingen?",
+      "text_ru": "Вы едете по дороге с сигнализацией переменной информации. Какова правил для сигнализации школьных зон?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La signalisation des abords d'écoles est interdite",
+          "text_nl": "De signalisatie van de schoolomgevingen is verboden",
+          "text_ru": "Сигнализация школьных зон запрещена",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La signalisation des abords d'écoles est autorisée avec les signaux F4a et F4b",
+          "text_nl": "De signalisatie van de schoolomgevingen is toegelaten met de verkeersborden F4a en F4b",
+          "text_ru": "Сигнализация школьных зон разрешена с использованием знаков F4a и F4b",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La signalisation des abords d'écoles est autorisée avec tous les signaux",
+          "text_nl": "De signalisatie van de schoolomgevingen is toegelaten met alle verkeersborden",
+          "text_ru": "Сигнализация школьных зон разрешена со всеми знаками",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation des abords d'écoles est autorisée avec les signaux F4a et F4b.",
+      "explanation_nl": "De signalisatie van de schoolomgevingen is toegelaten met de verkeersborden F4a en F4b.",
+      "explanation_ru": "Сигнализация школьных зон разрешена с использованием знаков F4a и F4b."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "f76b700f1897",
@@ -110,6 +407,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:10:20Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

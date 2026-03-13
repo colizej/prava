@@ -30,7 +30,304 @@
   "anchor_id_fr": "a50nhzombd",
   "anchor_id_nl": "r2jbuja7hu",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la durée de validité administrative maximale d'un permis de conduire en Belgique ?",
+      "text_nl": "Wat is de maximale administratieve geldigheidsduur van een rijbewijs in België ?",
+      "text_ru": "Каков максимальный срок административной действительности водительского удостоверения в Бельгии ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "5 ans",
+          "text_nl": "5 jaar",
+          "text_ru": "5 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "10 ans",
+          "text_nl": "10 jaar",
+          "text_ru": "10 лет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "15 ans",
+          "text_nl": "15 jaar",
+          "text_ru": "15 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée de validité administrative d'un permis de conduire en Belgique est de 10 ans maximum.",
+      "explanation_nl": "De administratieve geldigheidsduur van een rijbewijs in België is maximaal 10 jaar.",
+      "explanation_ru": "Срок административной действительности водительского удостоверения в Бельгии составляет максимум 10 лет."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la condition pour renouveler un permis de conduire dont la validité administrative est expirée ?",
+      "text_nl": "Wat is de voorwaarde om een rijbewijs te verlengen waarvan de administratieve geldigheidsduur is verstreken ?",
+      "text_ru": "Каково условие для продления водительского удостоверения, срок административной действительности которого истек ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Avoir un certificat médical",
+          "text_nl": "Een medisch certificaat hebben",
+          "text_ru": "Иметь медицинский сертификат",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Satisfaire aux conditions du présent arrêté",
+          "text_nl": "Voldoen aan de bepalingen van dit besluit",
+          "text_ru": "Соответствовать требованиям настоящего постановления",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Avoir une assurance automobile",
+          "text_nl": "Een autoverzekering hebben",
+          "text_ru": "Иметь автомобильную страховку",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La condition pour renouveler un permis de conduire dont la validité administrative est expirée est de satisfaire aux conditions du présent arrêté.",
+      "explanation_nl": "De voorwaarde om een rijbewijs te verlengen waarvan de administratieve geldigheidsduur is verstreken is voldoen aan de bepalingen van dit besluit.",
+      "explanation_ru": "Условие для продления водительского удостоверения, срок административной действительности которого истек, состоит в соответствии требованиям настоящего постановления."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la procédure pour renouveler un permis de conduire européen dont la validité administrative est expirée ?",
+      "text_nl": "Wat is de procedure om een Europees rijbewijs te hernieuwen waarvan de administratieve geldigheidsduur is verstreken ?",
+      "text_ru": "Какова процедура для продления европейского водительского удостоверения, срок административной действительности которого истек ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre la procédure décrite à l'article 17",
+          "text_nl": "De procedure beschreven in artikel 17 volgen",
+          "text_ru": "Следовать процедуре, описанной в статье 17",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre la procédure décrite à l'article 49",
+          "text_nl": "De procedure beschreven in artikel 49 volgen",
+          "text_ru": "Следовать процедуре, описанной в статье 49",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander un nouveau permis de conduire",
+          "text_nl": "Een nieuw rijbewijs aanvragen",
+          "text_ru": "Подать заявление на получение нового водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La procédure pour renouveler un permis de conduire européen dont la validité administrative est expirée est de suivre la procédure décrite à l'article 49.",
+      "explanation_nl": "De procedure om een Europees rijbewijs te hernieuwen waarvan de administratieve geldigheidsduur is verstreken is de procedure beschreven in artikel 49 te volgen.",
+      "explanation_ru": "Процедура для продления европейского водительского удостоверения, срок административной действительности которого истек, состоит в следовании процедуре, описанной в статье 49."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez un permis de conduire dont la validité administrative est expirée. Que devez-vous faire ?",
+      "text_nl": "Uw rijbewijs heeft een verstreken administratieve geldigheidsduur. Wat moet u doen ?",
+      "text_ru": "У вас есть водительское удостоверение, срок административной действительности которого истек. Что вам нужно сделать ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander un nouveau permis de conduire",
+          "text_nl": "Een nieuw rijbewijs aanvragen",
+          "text_ru": "Подать заявление на получение нового водительского удостоверения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Renouveler votre permis de conduire",
+          "text_nl": "Uw rijbewijs verlengen",
+          "text_ru": "Продлить водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer à conduire sans permis de conduire",
+          "text_nl": "Zonder rijbewijs blijven rijden",
+          "text_ru": "Продолжать водить без водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si votre permis de conduire a expiré, vous devez le renouveler pour continuer à conduire.",
+      "explanation_nl": "Als uw rijbewijs is verstreken, moet u het verlengen om te kunnen blijven rijden.",
+      "explanation_ru": "Если срок административной действительности вашего водительского удостоверения истек, вам необходимо его продлить, чтобы продолжать водить."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez un permis de conduire européen dont la validité administrative est expirée. Que devez-vous faire pour le renouveler ?",
+      "text_nl": "Uw Europees rijbewijs heeft een verstreken administratieve geldigheidsduur. Wat moet u doen om het te hernieuwen ?",
+      "text_ru": "У вас есть европейское водительское удостоверение, срок административной действительности которого истек. Что вам нужно сделать, чтобы его продлить ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre la procédure décrite à l'article 17",
+          "text_nl": "De procedure beschreven in artikel 17 volgen",
+          "text_ru": "Следовать процедуре, описанной в статье 17",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre la procédure décrite à l'article 49",
+          "text_nl": "De procedure beschreven in artikel 49 volgen",
+          "text_ru": "Следовать процедуре, описанной в статье 49",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander un nouveau permis de conduire",
+          "text_nl": "Een nieuw rijbewijs aanvragen",
+          "text_ru": "Подать заявление на получение нового водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour renouveler un permis de conduire européen dont la validité administrative est expirée, vous devez suivre la procédure décrite à l'article 49.",
+      "explanation_nl": "Om een Europees rijbewijs te hernieuwen waarvan de administratieve geldigheidsduur is verstreken, moet u de procedure beschreven in artikel 49 volgen.",
+      "explanation_ru": "Чтобы продлить европейское водительское удостоверение, срок административной действительности которого истек, необходимо следовать процедуре, описанной в статье 49."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous avez un permis de conduire dont la validité administrative est expirée et vous souhaitez continuer à conduire. Quelles sont les conséquences de la non-renouvelation de votre permis de conduire ?",
+      "text_nl": "Uw rijbewijs heeft een verstreken administratieve geldigheidsduur en u wilt blijven rijden. Wat zijn de gevolgen van het niet verlengen van uw rijbewijs ?",
+      "text_ru": "У вас есть водительское удостоверение, срок административной действительности которого истек, и вы хотите продолжать водить. Каковы последствия непродления водительского удостоверения ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une amende et une suspension de permis de conduire",
+          "text_nl": "Een boete en een schorsing van het rijbewijs",
+          "text_ru": "Штраф и приостановка водительского удостоверения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un retrait de permis de conduire",
+          "text_nl": "Intrekking van het rijbewijs",
+          "text_ru": "Лишение водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si vous ne renouvelez pas votre permis de conduire dont la validité administrative est expirée, vous risquez une amende et une suspension de permis de conduire.",
+      "explanation_nl": "Als u uw rijbewijs niet verlengt wanneer de administratieve geldigheidsduur is verstreken, loopt u het risico op een boete en een schorsing van het rijbewijs.",
+      "explanation_ru": "Если вы не продлите водительское удостоверение, срок административной действительности которого истек, вы рискуете получить штраф и приостановку водительского удостоверения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez un permis de conduire dont la validité administrative est proche de l'expiration. Que devez-vous faire ?",
+      "text_nl": "Uw rijbewijs heeft een administratieve geldigheidsduur die bijna is verstreken. Wat moet u doen ?",
+      "text_ru": "У вас есть водительское удостоверение, срок административной действительности которого скоро истекает. Что вам нужно сделать ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Demander un nouveau permis de conduire",
+          "text_nl": "Een nieuw rijbewijs aanvragen",
+          "text_ru": "Подать заявление на получение нового водительского удостоверения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Renouveler votre permis de conduire",
+          "text_nl": "Uw rijbewijs verlengen",
+          "text_ru": "Продлить водительское удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer à conduire sans permis de conduire",
+          "text_nl": "Zonder rijbewijs blijven rijden",
+          "text_ru": "Продолжать водить без водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si votre permis de conduire est proche de l'expiration, vous devez le renouveler pour continuer à conduire.",
+      "explanation_nl": "Als uw rijbewijs bijna is verstreken, moet u het verlengen om te kunnen blijven rijden.",
+      "explanation_ru": "Если срок административной действительности вашего водительского удостоверения скоро истекает, вам необходимо его продлить, чтобы продолжать водить."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez un permis de conduire européen dont la validité administrative est expirée et vous souhaitez le renouveler. Quelle est la procédure à suivre ?",
+      "text_nl": "Uw Europees rijbewijs heeft een verstreken administratieve geldigheidsduur en u wilt het hernieuwen. Wat is de procedure die u moet volgen ?",
+      "text_ru": "У вас есть европейское водительское удостоверение, срок административной действительности которого истек, и вы хотите его продлить. Какая процедура должна быть выполнена ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre la procédure décrite à l'article 17",
+          "text_nl": "De procedure beschreven in artikel 17 volgen",
+          "text_ru": "Следовать процедуре, описанной в статье 17",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre la procédure décrite à l'article 49",
+          "text_nl": "De procedure beschreven in artikel 49 volgen",
+          "text_ru": "Следовать процедуре, описанной в статье 49",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Demander un nouveau permis de conduire",
+          "text_nl": "Een nieuw rijbewijs aanvragen",
+          "text_ru": "Подать заявление на получение нового водительского удостоверения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour renouveler un permis de conduire européen dont la validité administrative est expirée, vous devez suivre la procédure décrite à l'article 49.",
+      "explanation_nl": "Om een Europees rijbewijs te hernieuwen waarvan de administratieve geldigheidsduur is verstreken, moet u de procedure beschreven in artikel 49 volgen.",
+      "explanation_ru": "Чтобы продлить европейское водительское удостоверение, срок административной действительности которого истек, необходимо следовать процедуре, описанной в статье 49."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "3b2d3932733c",
@@ -40,6 +337,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-13T19:14:40Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }
