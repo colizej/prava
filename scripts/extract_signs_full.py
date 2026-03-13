@@ -7,9 +7,9 @@ Two layout variants:
   TYPE B (pages 6, 8 etc.): code+image in one tall cell (h>25pt)
 
 Key techniques:
-- Inset clip rect by 2pt to avoid table border lines
+- Inset clip rect by 3pt to avoid table border lines
 - Gray background removed via numpy threshold (equal-channel pixels with r>100)
-- Auto-trim dark horizontal border lines at top/bottom of rendered images
+- Smart border trim: only removes rows with dark pixels at both edges (table borders)
 """
 import re
 import json
@@ -24,7 +24,7 @@ OUT_DIR  = Path(__file__).parent.parent / "data" / "signs"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 CODE_RE = re.compile(r'^([A-Z]{1,2}\d+[a-z]?(?:-[A-Z]\.\d+)?)\.?\s*$')
-INSET   = 2    # points to shrink clip rect (avoids table borders)
+INSET   = 3    # points to shrink clip rect (avoids table borders)
 ZOOM    = 3    # 3× = 216 DPI
 MAT     = pymupdf.Matrix(ZOOM, ZOOM)
 
@@ -54,22 +54,26 @@ def clean_background(img_path):
     )
     arr[mask] = [255, 255, 255]
 
-    # Auto-trim dark border rows at top and bottom.
-    # Table borders render as solid dark horizontal lines (>30% dark pixels).
+    # Trim table border rows at top/bottom.
+    # Table borders span edge-to-edge; sign borders are centered with white margins.
+    # Only trim rows where both the left edge AND right edge have dark pixels.
     h, w = arr.shape[:2]
+    edge = 10  # pixels from each side to check
     top = 0
     while top < h - 1:
         row = arr[top, :, :]
-        dark = np.sum(np.all(row < 80, axis=1))
-        if dark > w * 0.3:
+        left_dark = np.any(np.all(row[:edge] < 80, axis=1))
+        right_dark = np.any(np.all(row[w - edge:] < 80, axis=1))
+        if left_dark and right_dark:
             top += 1
         else:
             break
     bot = h - 1
     while bot > top:
         row = arr[bot, :, :]
-        dark = np.sum(np.all(row < 80, axis=1))
-        if dark > w * 0.3:
+        left_dark = np.any(np.all(row[:edge] < 80, axis=1))
+        right_dark = np.any(np.all(row[w - edge:] < 80, axis=1))
+        if left_dark and right_dark:
             bot -= 1
         else:
             break
@@ -86,7 +90,7 @@ seen  = set()
 for page_num in range(len(doc)):
     page = doc[page_num]
     tabs = page.find_tables()
-    if not tabs.tables:
+    if not tabs or not tabs.tables:
         continue
 
     rows = list(tabs.tables[0].rows)

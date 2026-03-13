@@ -20,12 +20,16 @@ for png in sorted(SIGNS_DIR.glob('*.png')):
         issues.append(f'EMPTY: {png.name} ({pct:.1f}% content)')
         continue
 
-    # Check for dark horizontal line at top/bottom (border artifact)
+    # Check for table border artifact at top/bottom (edge-to-edge dark lines).
+    # Sign-content borders are centered with white margins on both sides.
+    edge = 10
     for label, y in [('top', 0), ('bottom', h-1)]:
         row = arr[y, :, :]  # shape (w, 3)
         dark = np.sum(np.all(row < 100, axis=1))
-        if dark > w * 0.3:
-            issues.append(f'BORDER: {png.name} {label} row has {dark}/{w} dark pixels')
+        left_dark = np.any(np.all(row[:edge] < 80, axis=1))
+        right_dark = np.any(np.all(row[w-edge:] < 80, axis=1))
+        if dark > w * 0.3 and left_dark and right_dark:
+            issues.append(f'BORDER: {png.name} {label} row has {dark}/{w} dark pixels (edge-to-edge)')
 
     # Check for gray residue (pixels in 120-230 range with equal channels)
     r, g, b = arr[:,:,0].astype(int), arr[:,:,1].astype(int), arr[:,:,2].astype(int)
