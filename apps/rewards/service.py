@@ -45,8 +45,9 @@ def award(user, amount: int, reason: str, note: str = '') -> int:
     if amount <= 0:
         return get_or_create_wallet(user).balance
 
+    settings = get_settings()
     wallet = get_or_create_wallet(user)
-    wallet.balance += amount
+    wallet.balance = min(wallet.balance + amount, settings.tank_capacity)
     wallet.save(update_fields=['balance'])
 
     KeyTransaction.objects.create(
