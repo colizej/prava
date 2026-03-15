@@ -41,7 +41,304 @@
   "anchor_id_fr": "ckbyhnan0g",
   "anchor_id_nl": "gfygn1xaph",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une infraction de conduite ?",
+      "text_nl": "Wat is een verkeersovertreding?",
+      "text_ru": "Что такое нарушение правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un accident de la route",
+          "text_nl": "Een verkeersongeluk",
+          "text_ru": "Дорожно-транспортное происшествие",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une violation des règles de circulation",
+          "text_nl": "Een schending van de verkeersregels",
+          "text_ru": "Нарушение правил дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un délit de fuite",
+          "text_nl": "Een verkeersdelict",
+          "text_ru": "Дорожное преступление",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une infraction de conduite est une violation des règles de circulation.",
+      "explanation_nl": "Een verkeersovertreding is een schending van de verkeersregels.",
+      "explanation_ru": "Нарушение правил дорожного движения - это нарушение правил дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un degré d'infraction ?",
+      "text_nl": "Wat is een graad van overtreding?",
+      "text_ru": "Что такое степень нарушения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un type d'infraction",
+          "text_nl": "Een soort overtreding",
+          "text_ru": "Тип нарушения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un niveau de gravité",
+          "text_nl": "Een niveau van ernst",
+          "text_ru": "Уровень тяжести",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un lieu d'infraction",
+          "text_nl": "Een locatie van overtreding",
+          "text_ru": "Место нарушения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un degré d'infraction est un niveau de gravité.",
+      "explanation_nl": "Een graad van overtreding is een niveau van ernst.",
+      "explanation_ru": "Степень нарушения - это уровень тяжести."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce que la signification du terme 'quatrième degré' dans le contexte des infractions de conduite ?",
+      "text_nl": "Wat is de betekenis van de term 'vierde graad' in de context van verkeersovertredingen?",
+      "text_ru": "Что означает термин 'четвертая степень' в контексте нарушений правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un niveau de gravité élevé",
+          "text_nl": "Een hoog niveau van ernst",
+          "text_ru": "Высокий уровень тяжести",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un niveau de gravité faible",
+          "text_nl": "Een laag niveau van ernst",
+          "text_ru": "Низкий уровень тяжести",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un type d'infraction spécifique",
+          "text_nl": "Een specifiek type overtreding",
+          "text_ru": "Конкретный тип нарушения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le terme 'quatrième degré' signifie un niveau de gravité faible.",
+      "explanation_nl": "De term 'vierde graad' betekent een laag niveau van ernst.",
+      "explanation_ru": "Термин 'четвертая степень' означает низкий уровень тяжести."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez à une vitesse de 50 km/h dans une zone où la limite de vitesse est de 30 km/h. Quelle est la conséquence de votre action ?",
+      "text_nl": "U rijdt met een snelheid van 50 km/h in een zone waar de maximumsnelheid 30 km/h is. Wat zijn de gevolgen van uw actie?",
+      "text_ru": "Вы едете со скоростью 50 км/ч в зоне, где максимальная скорость равна 30 км/ч. Каковы последствия ваших действий?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction de conduite",
+          "text_nl": "Een verkeersovertreding",
+          "text_ru": "Нарушение правил дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un accident de la route",
+          "text_nl": "Een verkeersongeluk",
+          "text_ru": "Дорожно-транспортное происшествие",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de votre action est une infraction de conduite.",
+      "explanation_nl": "De gevolgen van uw actie zijn een verkeersovertreding.",
+      "explanation_ru": "Последствия ваших действий - нарушение правил дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous ne respectez pas la priorité de passage à un carrefour. Quelle est la conséquence de votre action ?",
+      "text_nl": "U houdt niet halt bij een kruising. Wat zijn de gevolgen van uw actie?",
+      "text_ru": "Вы не уступаете дорогу на перекрёстке. Каковы последствия ваших действий?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction de conduite",
+          "text_nl": "Een verkeersovertreding",
+          "text_ru": "Нарушение правил дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un accident de la route",
+          "text_nl": "Een verkeersongeluk",
+          "text_ru": "Дорожно-транспортное происшествие",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de votre action est une infraction de conduite.",
+      "explanation_nl": "De gevolgen van uw actie zijn een verkeersovertreding.",
+      "explanation_ru": "Последствия ваших действий - нарушение правил дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous dépassez un véhicule à un endroit où cela est interdit. Quelle est la conséquence de votre action ?",
+      "text_nl": "U passeert een voertuig op een plaats waar dit verboden is. Wat zijn de gevolgen van uw actie?",
+      "text_ru": "Вы обгоняете транспортное средство в месте, где это запрещено. Каковы последствия ваших действий?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction de conduite",
+          "text_nl": "Een verkeersovertreding",
+          "text_ru": "Нарушение правил дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un accident de la route",
+          "text_nl": "Een verkeersongeluk",
+          "text_ru": "Дорожно-транспортное происшествие",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de votre action est une infraction de conduite.",
+      "explanation_nl": "De gevolgen van uw actie zijn een verkeersovertreding.",
+      "explanation_ru": "Последствия ваших действий - нарушение правил дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sans ceinture de sécurité. Quelle est la conséquence de votre action ?",
+      "text_nl": "U rijdt zonder veiligheidsriem. Wat zijn de gevolgen van uw actie?",
+      "text_ru": "Вы едете без ремня безопасности. Каковы последствия ваших действий?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction de conduite",
+          "text_nl": "Een verkeersovertreding",
+          "text_ru": "Нарушение правил дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un accident de la route",
+          "text_nl": "Een verkeersongeluk",
+          "text_ru": "Дорожно-транспортное происшествие",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de votre action est une infraction de conduite.",
+      "explanation_nl": "De gevolgen van uw actie zijn een verkeersovertreding.",
+      "explanation_ru": "Последствия ваших действий - нарушение правил дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous utilisez un téléphone portable pendant la conduite. Quelle est la conséquence de votre action ?",
+      "text_nl": "U gebruikt een mobiele telefoon tijdens het rijden. Wat zijn de gevolgen van uw actie?",
+      "text_ru": "Вы используете мобильный телефон во время вождения. Каковы последствия ваших действий?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Aucune conséquence",
+          "text_nl": "Geen gevolgen",
+          "text_ru": "Нет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction de conduite",
+          "text_nl": "Een verkeersovertreding",
+          "text_ru": "Нарушение правил дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un accident de la route",
+          "text_nl": "Een verkeersongeluk",
+          "text_ru": "Дорожно-транспортное происшествие",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La conséquence de votre action est une infraction de conduite.",
+      "explanation_nl": "De gevolgen van uw actie zijn een verkeersovertreding.",
+      "explanation_ru": "Последствия ваших действий - нарушение правил дорожного движения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:10:54Z",
     "content_hash": "bc3314d292d6",
@@ -51,6 +348,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:55:33Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

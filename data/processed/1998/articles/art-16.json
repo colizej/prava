@@ -36,7 +36,304 @@
   "anchor_id_fr": "sqzqixy5sk",
   "anchor_id_nl": "v7kueljnms",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est généralement dispensé de suivre les heures obligatoires d'auto-école s'il prend des leçons pour perfectionner ses aptitudes à conduire pour une catégorie pour laquelle il possède déjà un document valide ?",
+      "text_nl": "Wie is gewoonlijk vrijgesteld van het volgen van de verplichte rijschooluren als hij lessen volgt om zijn rijvaardigheid te vervolmaken voor een categorie waarvoor hij reeds een geldig document bezit?",
+      "text_ru": "Кто обычно освобождается от обязательных часов в автошколе, если он берет уроки для совершенствования своих навыков вождения в категории, на которую у него уже есть действующий документ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les titulaires d'un permis de conduire provisoire.",
+          "text_nl": "Alleen houders van een voorlopig rijbewijs.",
+          "text_ru": "Только владельцы временных водительских удостоверений.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les titulaires d'un permis de conduire national ou international valide, ou d'un permis de conduire provisoire, qui cherchent à améliorer leurs compétences existantes.",
+          "text_nl": "Houders van een geldig nationaal of internationaal rijbewijs, of van een voorlopig rijbewijs, die hun bestaande vaardigheden willen verbeteren.",
+          "text_ru": "Владельцы действующих национальных или международных водительских удостоверений, а также временных водительских удостоверений, которые стремятся улучшить свои существующие навыки.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tous les conducteurs, quel que soit leur statut de permis actuel.",
+          "text_nl": "Alle bestuurders, ongeacht hun huidige rijbewijsstatus.",
+          "text_ru": "Все водители, независимо от их текущего статуса водительских прав.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'obligation de suivre un nombre d'heures donné ne s'applique pas aux titulaires d'un permis de conduire national ou international valide, ni aux titulaires d'un permis de conduire provisoire, qui suivent des cours pour perfectionner leur aptitude à conduire des véhicules de la catégorie pour laquelle leur document est valable.",
+      "explanation_nl": "De verplichting tot het volgen van een voorgeschreven aantal uren is niet van toepassing op houders van een geldig nationaal of internationaal rijbewijs, noch op houders van een voorlopig rijbewijs, die lessen volgen om hun rijvaardigheid te vervolmaken voor de categorie waarvoor hun document geldig is.",
+      "explanation_ru": "Обязанность проходить определенное количество часов не распространяется на владельцев действующих национальных или международных водительских удостоверений, а также на владельцев временных водительских удостоверений, которые берут уроки для совершенствования своих навыков вождения транспортных средств той категории, для которой их документ действителен."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Concernant le nombre d'heures d'auto-école requis, comment ces heures peuvent-elles être additionnées si une personne fréquente différentes institutions ?",
+      "text_nl": "Met betrekking tot het vereiste aantal rijschooluren, hoe kunnen deze uren worden opgeteld als een persoon verschillende instellingen bezoekt?",
+      "text_ru": "Относительно требуемого количества часов в автошколе, как эти часы могут быть суммированы, если человек посещает разные учреждения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les heures doivent être entièrement suivies dans un seul et même siège d'auto-école.",
+          "text_nl": "De uren moeten volledig in één enkele vestiging van de rijschool worden gevolgd.",
+          "text_ru": "Часы должны быть полностью пройдены в одном и том же отделении автошколы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les heures peuvent être combinées entre différents sièges de la même auto-école, ou entre différentes auto-écoles.",
+          "text_nl": "De uren kunnen worden gecombineerd van verschillende vestigingen van dezelfde rijschool, of van verschillende rijscholen.",
+          "text_ru": "Часы могут быть объединены из разных отделений одной и той же автошколы, или из разных автошкол.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seules les heures effectuées au sein de la même auto-école peuvent être combinées, mais pas celles de différentes écoles.",
+          "text_nl": "Alleen de uren die binnen dezelfde rijschool zijn gevolgd, kunnen worden gecombineerd, maar niet die van verschillende scholen.",
+          "text_ru": "Могут быть объединены только часы, пройденные в одной и той же автошколе, но не часы из разных школ.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le nombre d'heures peut être atteint en additionnant le nombre d'heures suivies dans deux sièges différents d'une même école de conduite ou encore dans deux écoles de conduite différentes.",
+      "explanation_nl": "Het aantal uren kan worden bereikt door het optellen van de uren die zijn gevolgd in twee verschillende vestigingen van dezelfde rijschool of in twee verschillende rijscholen.",
+      "explanation_ru": "Количество часов может быть достигнуто путем суммирования часов, пройденных в двух разных отделениях одной и той же автошколы, или в двух разных автошколах."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Pendant combien de temps les heures suivies dans une auto-école sont-elles généralement prises en considération ?",
+      "text_nl": "Hoe lang worden de uren die in een rijschool zijn gevolgd, gewoonlijk in aanmerking genomen?",
+      "text_ru": "В течение какого времени часы, пройденные в автошколе, обычно учитываются?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un an.",
+          "text_nl": "Eén jaar.",
+          "text_ru": "Один год.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Trois ans.",
+          "text_nl": "Drie jaar.",
+          "text_ru": "Три года.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indéfiniment, tant que le conducteur n'a pas obtenu son permis définitif.",
+          "text_nl": "Onbepaald, zolang de bestuurder zijn definitieve rijbewijs nog niet heeft behaald.",
+          "text_ru": "Бессрочно, пока водитель не получит свои окончательные права.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les heures de cours suivies dans une école de conduite sont prises en considération pendant un délai de trois ans.",
+      "explanation_nl": "De gevolgde lesuren in een rijschool worden in aanmerking genomen gedurende een termijn van drie jaar.",
+      "explanation_ru": "Часы занятий, пройденные в автошколе, учитываются в течение трех лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Sarah est titulaire d'un permis de conduire définitif pour la catégorie B (voiture). Elle décide de prendre des leçons de conduite supplémentaires pour perfectionner ses compétences. Est-elle soumise aux heures de formation initiales obligatoires généralement requises pour les nouveaux conducteurs ?",
+      "text_nl": "Sarah is houder van een definitief rijbewijs voor categorie B (auto). Ze besluit extra rijlessen te nemen om haar vaardigheden te perfectioneren. Is zij onderworpen aan de verplichte initiële opleidingsuren die doorgaans vereist zijn voor nieuwe bestuurders?",
+      "text_ru": "Сара имеет полные водительские права категории В (легковой автомобиль). Она решает взять дополнительные уроки вождения для совершенствования своих навыков. Распространяются ли на нее обязательные начальные часы обучения, обычно требуемые для новых водителей?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, tous les conducteurs doivent compléter des heures obligatoires lorsqu'ils prennent des leçons de conduite, quelles qu'elles soient.",
+          "text_nl": "Ja, alle bestuurders moeten verplichte uren voltooien wanneer ze welke rijlessen dan ook volgen.",
+          "text_ru": "Да, все водители должны проходить обязательные часы, когда они берут любые уроки вождения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car elle possède déjà un permis valide pour la catégorie et suit les cours dans le but d'améliorer ses compétences existantes, les heures initiales obligatoires ne s'appliquent pas à elle.",
+          "text_nl": "Nee, omdat zij al in het bezit is van een geldig rijbewijs voor de categorie en de lessen volgt met het doel haar bestaande vaardigheden te verbeteren, zijn de verplichte initiële uren niet op haar van toepassing.",
+          "text_ru": "Нет, поскольку у нее уже есть действующие права на эту категорию, и она берет уроки с целью улучшения своих существующих навыков, обязательные начальные часы на нее не распространяются.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si son permis a plus de 5 ans.",
+          "text_nl": "Alleen als haar rijbewijs ouder is dan 5 jaar.",
+          "text_ru": "Только если ее правам более 5 лет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'obligation de suivre un nombre d'heures donné ne s'applique pas aux titulaires d'un permis de conduire belge, européen ou étranger, ni aux titulaires d'un permis de conduire provisoire, qui suivent des cours pour perfectionner leur aptitude à conduire des véhicules de la catégorie pour laquelle leur document est valable.",
+      "explanation_nl": "De verplichting tot het volgen van een voorgeschreven aantal uren is niet van toepassing op houders van een Belgisch, Europees of buitenlands rijbewijs, noch op houders van een voorlopig rijbewijs, die lessen volgen om hun rijvaardigheid te vervolmaken voor de categorie waarvoor hun document geldig is.",
+      "explanation_ru": "Обязанность проходить определенное количество часов не распространяется на владельцев бельгийских, европейских или иностранных водительских удостоверений, а также на владельцев временных водительских удостоверений, которые берут уроки для совершенствования своих навыков вождения транспортных средств той категории, для которой их документ действителен."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Jean doit compléter un nombre spécifique d'heures d'auto-école. Il effectue la première moitié de sa formation à la branche principale de 'Auto-école Rapide' et la seconde moitié à une succursale de 'Auto-école Rapide' dans une autre ville. Peut-il combiner ces heures pour satisfaire à l'exigence ?",
+      "text_nl": "Jan moet een specifiek aantal rijschooluren voltooien. Hij volgt de eerste helft van zijn opleiding bij de hoofdvestiging van 'Rijschool Speedy' en de tweede helft bij een nevenvestiging van 'Rijschool Speedy' in een andere stad. Kan hij deze uren combineren om aan de vereiste te voldoen?",
+      "text_ru": "Джон должен пройти определенное количество часов в автошколе. Первую половину обучения он проходит в главном филиале 'Быстрой Автошколы', а вторую половину — в другом филиале 'Быстрой Автошколы' в другом городе. Может ли он объединить эти часы для выполнения требований?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, toutes les heures doivent être complétées dans un seul et même siège physique de l'auto-école.",
+          "text_nl": "Nee, alle uren moeten op één enkele fysieke locatie van de rijschool worden voltooid.",
+          "text_ru": "Нет, все часы должны быть пройдены в одном физическом отделении автошколы.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, les heures complétées dans différents sièges de la même auto-école peuvent être combinées.",
+          "text_nl": "Ja, uren die zijn voltooid op verschillende vestigingen van dezelfde rijschool kunnen worden gecombineerd.",
+          "text_ru": "Да, часы, пройденные в разных отделениях одной и той же автошколы, могут быть объединены.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si les deux succursales se trouvent dans la même commune.",
+          "text_nl": "Alleen als de twee vestigingen zich in dezelfde gemeente bevinden.",
+          "text_ru": "Только если оба филиала находятся в одном муниципалитете.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le nombre d'heures prévu peut être atteint en additionnant le nombre d'heures suivies dans deux sièges différents d'une même école de conduite.",
+      "explanation_nl": "Het voorgeschreven aantal uren kan worden bereikt door het optellen van de uren die zijn gevolgd in twee verschillende vestigingen van dezelfde rijschool.",
+      "explanation_ru": "Предписанное количество часов может быть достигнуто путем суммирования часов, пройденных в двух разных отделениях одной и той же автошколы."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Émilie a commencé ses leçons de conduite à 'Académie Première Vitesse' et a effectué plusieurs heures. En raison d'un déménagement, elle poursuit ensuite sa formation à 'École Maître de la Route'. Peut-elle combiner les heures de 'Académie Première Vitesse' avec celles de 'École Maître de la Route' pour atteindre son total d'heures obligatoires ?",
+      "text_nl": "Emily is begonnen met rijlessen bij 'Rijacademie Eerste Versnelling' en heeft verschillende uren voltooid. Vanwege een verhuizing zet ze haar opleiding voort bij 'Wegmeester Rijschool'. Kan ze de uren van 'Rijacademie Eerste Versnelling' combineren met die van 'Wegmeester Rijschool' om haar totale verplichte uren te behalen?",
+      "text_ru": "Эмили начала уроки вождения в 'Академии Первой Передачи' и прошла несколько часов. Из-за переезда она продолжает обучение в 'Школе Дорожного Мастера'. Может ли она объединить часы из 'Академии Первой Передачи' с часами из 'Школы Дорожного Мастера' для выполнения общего количества обязательных часов?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les heures de différentes auto-écoles ne peuvent en aucun cas être combinées.",
+          "text_nl": "Nee, uren van verschillende rijscholen kunnen onder geen enkele omstandigheid worden gecombineerd.",
+          "text_ru": "Нет, часы из разных автошкол ни при каких обстоятельствах не могут быть объединены.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, les heures suivies dans deux auto-écoles différentes peuvent être additionnées pour atteindre le total requis.",
+          "text_nl": "Ja, uren die zijn gevolgd in twee verschillende rijscholen kunnen worden opgeteld om het vereiste totaal te bereiken.",
+          "text_ru": "Да, часы, пройденные в двух разных автошколах, могут быть суммированы для достижения необходимого общего количества.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seulement si les deux écoles sont accréditées par la même autorité régionale.",
+          "text_nl": "Alleen als de twee scholen geaccrediteerd zijn door dezelfde regionale autoriteit.",
+          "text_ru": "Только если обе школы аккредитованы одним и тем же региональным органом.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le nombre d'heures prévu peut être atteint en additionnant le nombre d'heures suivies dans deux écoles de conduite différentes.",
+      "explanation_nl": "Het voorgeschreven aantal uren kan worden bereikt door het optellen van de uren die zijn gevolgd in twee verschillende rijscholen.",
+      "explanation_ru": "Предписанное количество часов может быть достигнуто путем суммирования часов, пройденных в двух разных автошколах."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Après avoir complété toutes ses heures d'auto-école requises, Marc décide de reporter son examen pratique de deux ans pour des raisons personnelles. Ses heures d'auto-école complétées sont-elles toujours considérées comme valides lorsqu'il décide de passer son examen après cette période de deux ans ?",
+      "text_nl": "Nadat hij al zijn verplichte rijschooluren heeft voltooid, besluit Mark zijn praktijkexamen twee jaar uit te stellen om persoonlijke redenen. Worden zijn voltooide rijschooluren nog steeds als geldig beschouwd wanneer hij na deze periode van twee jaar besluit zijn examen af te leggen?",
+      "text_ru": "После прохождения всех необходимых часов в автошколе, Марк решает отложить свой практический экзамен на два года по личным причинам. Будут ли его пройденные часы в автошколе по-прежнему считаться действительными, когда он решит сдать экзамен после этого двухлетнего периода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, les heures d'auto-école ne sont valables que pour un an après leur achèvement.",
+          "text_nl": "Nee, rijschooluren zijn slechts één jaar geldig na voltooiing.",
+          "text_ru": "Нет, часы в автошколе действительны только в течение одного года после их прохождения.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, les heures sont valables pour une durée maximale de trois ans, elles sont donc toujours valides dans ce cas.",
+          "text_nl": "Ja, de uren zijn geldig voor maximaal drie jaar, dus ze zijn in dit geval nog steeds geldig.",
+          "text_ru": "Да, часы действительны в течение максимум трех лет, поэтому в данном случае они все еще действительны.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, les heures d'auto-école n'expirent jamais une fois complétées.",
+          "text_nl": "Ja, rijschooluren verlopen nooit zodra ze zijn voltooid.",
+          "text_ru": "Да, часы в автошколе никогда не истекают после их прохождения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les heures de cours suivies dans une école de conduite sont prises en considération pendant un délai de trois ans. Deux ans se situent bien dans cette période.",
+      "explanation_nl": "De gevolgde lesuren in een rijschool worden in aanmerking genomen gedurende een termijn van drie jaar. Twee jaar valt binnen deze periode.",
+      "explanation_ru": "Часы занятий, пройденные в автошколе, учитываются в течение трех лет. Два года находятся в пределах этого срока."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Sarah a complété ses heures obligatoires d'auto-école il y a quatre ans, mais n'a jamais passé son examen pratique de conduite. Elle souhaite maintenant passer l'examen. Ses heures d'auto-école précédemment complétées sont-elles toujours reconnues ?",
+      "text_nl": "Sarah heeft haar verplichte rijschooluren vier jaar geleden voltooid, maar heeft nooit haar praktijkexamen afgelegd. Ze wil nu het examen doen. Worden haar eerder voltooide rijschooluren nog steeds erkend?",
+      "text_ru": "Сара прошла обязательные часы в автошколе четыре года назад, но так и не сдала практический экзамен по вождению. Теперь она хочет сдать экзамен. Будут ли ее ранее пройденные часы в автошколе по-прежнему признаны?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, toutes les heures complétées restent valides indéfiniment.",
+          "text_nl": "Ja, alle voltooide uren blijven onbeperkt geldig.",
+          "text_ru": "Да, все пройденные часы остаются действительными бессрочно.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, car la période de validité des heures d'auto-école est de trois ans, elle devra donc les refaire ou les actualiser.",
+          "text_nl": "Nee, omdat de geldigheidsperiode voor rijschooluren drie jaar is, zal ze de uren opnieuw moeten volgen of opfrissen.",
+          "text_ru": "Нет, поскольку срок действия часов в автошколе составляет три года, ей придется пройти их снова или обновить.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, mais elle devra suivre un cours de remise à niveau.",
+          "text_nl": "Ja, maar ze zal een opfriscursus moeten volgen.",
+          "text_ru": "Да, но ей придется пройти курс переподготовки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les heures de cours suivies dans une école de conduite sont prises en considération pendant un délai de trois ans. Après cette période, elles ne sont plus valides.",
+      "explanation_nl": "De gevolgde lesuren in een rijschool worden in aanmerking genomen gedurende een termijn van drie jaar. Na deze periode zijn ze niet langer geldig.",
+      "explanation_ru": "Часы занятий, пройденные в автошколе, учитываются в течение трех лет. По истечении этого срока они перестают быть действительными."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "1e7164fd8b3c",
@@ -46,6 +343,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:51:37Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

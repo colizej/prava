@@ -26,7 +26,304 @@
   "anchor_id_fr": "1v0xcgnkpb",
   "anchor_id_nl": "j6ihfsj5dc",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que le permis de conduire pour les véhicules de catégorie B?",
+      "text_nl": "Wat is een rijbewijs voor voertuigen van categorie B?",
+      "text_ru": "Что такое водительские права для транспортных средств категории B?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un permis pour les véhicules lourds",
+          "text_nl": "Een rijbewijs voor zware voertuigen",
+          "text_ru": "Водительские права для тяжелых транспортных средств",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un permis pour les voitures particulières",
+          "text_nl": "Een rijbewijs voor personenwagens",
+          "text_ru": "Водительские права для легковых автомобилей",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un permis pour les motos",
+          "text_nl": "Een rijbewijs voor motorfietsen",
+          "text_ru": "Водительские права для мотоциклов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire pour les véhicules de catégorie B est un permis pour les voitures particulières.",
+      "explanation_nl": "Het rijbewijs voor voertuigen van categorie B is een rijbewijs voor personenwagens.",
+      "explanation_ru": "Водительские права для транспортных средств категории B - это водительские права для легковых автомобилей."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un arrêté royal?",
+      "text_nl": "Wat is een koninklijk besluit?",
+      "text_ru": "Что такое королевский указ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un texte de loi",
+          "text_nl": "Een wetsTekst",
+          "text_ru": "Законный текст",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un décret émis par le roi",
+          "text_nl": "Een door de koning uitgevaardigd besluit",
+          "text_ru": "Декрет, изданный королем",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un règlement municipal",
+          "text_nl": "Een gemeentelijke verordening",
+          "text_ru": "Муниципальное постановление",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un arrêté royal est un décret émis par le roi.",
+      "explanation_nl": "Een koninklijk besluit is een door de koning uitgevaardigd besluit.",
+      "explanation_ru": "Королевский указ - это декрет, изданный королем."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la différence entre un arrêté royal et un arrêté ministériel?",
+      "text_nl": "Wat is het verschil tussen een koninklijk besluit en een ministerieel besluit?",
+      "text_ru": "В чем разница между королевским указом и министерским постановлением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un arrêté royal est émis par le roi, tandis qu'un arrêté ministériel est émis par un ministre",
+          "text_nl": "Een koninklijk besluit wordt uitgevaardigd door de koning, terwijl een ministerieel besluit wordt uitgevaardigd door een minister",
+          "text_ru": "Королевский указ издается королем, а министерское постановление издается министром",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un arrêté royal est émis par un ministre, tandis qu'un arrêté ministériel est émis par le roi",
+          "text_nl": "Een koninklijk besluit wordt uitgevaardigd door een minister, terwijl een ministerieel besluit wordt uitgevaardigd door de koning",
+          "text_ru": "Королевский указ издается министром, а министерское постановление издается королем",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un arrêté royal et un arrêté ministériel sont la même chose",
+          "text_nl": "Een koninklijk besluit en een ministerieel besluit zijn hetzelfde",
+          "text_ru": "Королевский указ и министерское постановление - одно и то же",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un arrêté royal est émis par le roi, tandis qu'un arrêté ministériel est émis par un ministre.",
+      "explanation_nl": "Een koninklijk besluit wordt uitgevaardigd door de koning, terwijl een ministerieel besluit wordt uitgevaardigd door een minister.",
+      "explanation_ru": "Королевский указ издается королем, а министерское постановление издается министром."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez une voiture de catégorie B. Qu'est-ce que vous devez faire pour obtenir un permis de conduire?",
+      "text_nl": "U rijdt een auto van categorie B. Wat moet u doen om een rijbewijs te krijgen?",
+      "text_ru": "Вы водите автомобиль категории B. Что вам нужно сделать, чтобы получить водительские права?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer un examen de conduite",
+          "text_nl": "Een rijexamen afleggen",
+          "text_ru": "Сдать экзамен на водительские права",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire une demande de permis de conduire en ligne",
+          "text_nl": "Een aanvraag voor een rijbewijs online indienen",
+          "text_ru": "Подать заявку на водительские права онлайн",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Contacter un agent de police",
+          "text_nl": "Contact opnemen met een politieagent",
+          "text_ru": "Связаться с сотрудником полиции",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour obtenir un permis de conduire, vous devez passer un examen de conduite.",
+      "explanation_nl": "Om een rijbewijs te krijgen, moet u een rijexamen afleggen.",
+      "explanation_ru": "Чтобы получить водительские права, вам нужно сдать экзамен на водительские права."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez un permis de conduire pour les véhicules de catégorie B. Qu'est-ce que vous pouvez conduire?",
+      "text_nl": "U heeft een rijbewijs voor voertuigen van categorie B. Wat kunt u rijden?",
+      "text_ru": "У вас есть водительские права для транспортных средств категории B. Что вы можете водить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des voitures particulières",
+          "text_nl": "Personenwagens",
+          "text_ru": "Легковые автомобили",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des camions",
+          "text_nl": "Vrachtwagens",
+          "text_ru": "Грузовики",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des motos",
+          "text_nl": "Motorfietsen",
+          "text_ru": "Мотоциклы",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Avec un permis de conduire pour les véhicules de catégorie B, vous pouvez conduire des voitures particulières.",
+      "explanation_nl": "Met een rijbewijs voor voertuigen van categorie B kunt u personenwagens rijden.",
+      "explanation_ru": "С водительскими правами для транспортных средств категории B вы можете водить легковые автомобили."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez une voiture de catégorie B et vous avez un permis de conduire valable. Qu'est-ce que vous devez faire si vous êtes arrêté par un agent de police?",
+      "text_nl": "U rijdt een auto van categorie B en u heeft een geldig rijbewijs. Wat moet u doen als u wordt aangehouden door een politieagent?",
+      "text_ru": "Вы водите автомобиль категории B и у вас есть действительные водительские права. Что вам нужно сделать, если вас остановил сотрудник полиции?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Présenter votre permis de conduire et votre carte d'identité",
+          "text_nl": "Uw rijbewijs en identiteitskaart tonen",
+          "text_ru": "Предъявить водительские права и удостоверение личности",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Refuser de présenter vos documents",
+          "text_nl": "Weigeren uw documenten te tonen",
+          "text_ru": "Отказаться предъявить документы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Essayer de fuir",
+          "text_nl": "Proberen te vluchten",
+          "text_ru": "Пытаться убежать",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si vous êtes arrêté par un agent de police, vous devez présenter votre permis de conduire et votre carte d'identité.",
+      "explanation_nl": "Als u wordt aangehouden door een politieagent, moet u uw rijbewijs en identiteitskaart tonen.",
+      "explanation_ru": "Если вас остановил сотрудник полиции, вам нужно предъявить водительские права и удостоверение личности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez un permis de conduire pour les véhicules de catégorie B, mais vous voulez conduire un camion. Qu'est-ce que vous devez faire?",
+      "text_nl": "U heeft een rijbewijs voor voertuigen van categorie B, maar u wilt een vrachtwagen rijden. Wat moet u doen?",
+      "text_ru": "У вас есть водительские права для транспортных средств категории B, но вы хотите водить грузовик. Что вам нужно сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer un examen de conduite pour les camions",
+          "text_nl": "Een rijexamen voor vrachtwagens afleggen",
+          "text_ru": "Сдать экзамен на водительские права для грузовиков",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander une extension de votre permis de conduire",
+          "text_nl": "Een verlenging van uw rijbewijs aanvragen",
+          "text_ru": "Подать заявку на продление водительских прав",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Continuer à conduire avec votre permis de conduire actuel",
+          "text_nl": "Doorgaan met rijden met uw huidige rijbewijs",
+          "text_ru": "Продолжать водить с вашими текущими водительскими правами",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si vous voulez conduire un camion, vous devez passer un examen de conduite pour les camions.",
+      "explanation_nl": "Als u een vrachtwagen wilt rijden, moet u een rijexamen voor vrachtwagens afleggen.",
+      "explanation_ru": "Если вы хотите водить грузовик, вам нужно сдать экзамен на водительские права для грузовиков."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez une voiture de catégorie B et vous arrivez à un feu rouge. Qu'est-ce que vous devez faire?",
+      "text_nl": "U rijdt een auto van categorie B en u komt aan bij een rood licht. Wat moet u doen?",
+      "text_ru": "Вы водите автомобиль категории B и вы приезжаете к красному светофору. Что вам нужно сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "S'arrêter avant le feu rouge",
+          "text_nl": "Stoppen voor het rode licht",
+          "text_ru": "Остановиться перед красным светофором",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire sans s'arrêter",
+          "text_nl": "Doorgaan met rijden zonder te stoppen",
+          "text_ru": "Продолжать водить без остановки",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tourner à gauche ou à droite",
+          "text_nl": "Links of rechts afslaan",
+          "text_ru": "Поворот налево или направо",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous arrivez à un feu rouge, vous devez vous arrêter avant le feu rouge.",
+      "explanation_nl": "Als u bij een rood licht komt, moet u stoppen voor het rode licht.",
+      "explanation_ru": "Когда вы приезжаете к красному светофору, вам нужно остановиться перед красным светофором."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "04c9fcd95557",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:56:17Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

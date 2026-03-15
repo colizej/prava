@@ -26,7 +26,304 @@
   "anchor_id_fr": "xtlnx4eqth",
   "anchor_id_nl": "nj5nz4kdgc",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les informations mentionnées sur le permis de conduire concernant les conditions de conduite ?",
+      "text_nl": "Welke informatie wordt op het rijbewijs vermeld over de voorwaarden voor het besturen van een voertuig?",
+      "text_ru": "Какая информация указывается в водительском удостоверении относительно условий вождения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les limitations de vitesse",
+          "text_nl": "De snelheidsbeperkingen",
+          "text_ru": "Ограничения скорости",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les conditions dans lesquelles le conducteur est habilité à conduire",
+          "text_nl": "De voorwaarden waaronder de bestuurder gemachtigd is te sturen",
+          "text_ru": "Условия, при которых водитель имеет право управлять транспортным средством",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les types de véhicules autorisés",
+          "text_nl": "De toegestane voertuigtypen",
+          "text_ru": "Типы транспортных средств, разрешенные для управления",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les conditions dans lesquelles le conducteur est habilité à conduire sont mentionnées sur le permis de conduire.",
+      "explanation_nl": "De voorwaarden waaronder de bestuurder gemachtigd is te sturen, worden in de vorm van codes overgenomen op het rijbewijs.",
+      "explanation_ru": "Условия, при которых водитель имеет право управлять транспортным средством, указываются в водительском удостоверении."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui est indiqué sur le permis de conduire si le candidat a subi l'examen pratique à bord d'un véhicule équipé d'un changement de vitesses automatique ?",
+      "text_nl": "Wat wordt op het rijbewijs vermeld als de kandidaat het praktische examen heeft afgelegd met een voertuig uitgerust met een automatische schakeling?",
+      "text_ru": "Что указывается в водительском удостоверении, если кандидат сдал практический экзамен на транспортном средстве с автоматической коробкой передач?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une limitation de vitesse",
+          "text_nl": "Een snelheidsbeperking",
+          "text_ru": "Ограничение скорости",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une mention spécifique",
+          "text_nl": "Een speciale vermelding",
+          "text_ru": "Особая отметка",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune indication",
+          "text_nl": "Geen vermelding",
+          "text_ru": "Нет отметки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une mention spécifique est faite sur le permis de conduire si le candidat a subi l'examen pratique à bord d'un véhicule équipé d'un changement de vitesses automatique.",
+      "explanation_nl": "Een speciale vermelding wordt op het rijbewijs gemaakt als de kandidaat het praktische examen heeft afgelegd met een voertuig uitgerust met een automatische schakeling.",
+      "explanation_ru": "Особая отметка указывается в водительском удостоверении, если кандидат сдал практический экзамен на транспортном средстве с автоматической коробкой передач."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les catégories de véhicules pour lesquelles la mention spécifique ne s'applique pas ?",
+      "text_nl": "Welke voertuigcategorieën zijn uitgezonderd van de speciale vermelding?",
+      "text_ru": "Какие категории транспортных средств исключены из особой отметки?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les catégories A et B",
+          "text_nl": "De categorieën A en B",
+          "text_ru": "Категории А и Б",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les catégories AM et G",
+          "text_nl": "De categorieën AM en G",
+          "text_ru": "Категории AM и G",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les catégories C et D",
+          "text_nl": "De categorieën C en D",
+          "text_ru": "Категории С и D",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La mention spécifique ne s'applique pas aux catégories AM et G.",
+      "explanation_nl": "De speciale vermelding is niet van toepassing op de categorieën AM en G.",
+      "explanation_ru": "Особая отметка не применяется к категориям AM и G."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a subi l'examen pratique à bord d'un véhicule équipé d'un changement de vitesses automatique. Qu'est-ce qui sera indiqué sur son permis de conduire ?",
+      "text_nl": "Een bestuurder heeft het praktische examen afgelegd met een voertuig uitgerust met een automatische schakeling. Wat wordt op zijn rijbewijs vermeld?",
+      "text_ru": "Водитель сдал практический экзамен на транспортном средстве с автоматической коробкой передач. Что будет указано в его водительском удостоверении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une limitation de vitesse",
+          "text_nl": "Een snelheidsbeperking",
+          "text_ru": "Ограничение скорости",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une mention spécifique",
+          "text_nl": "Een speciale vermelding",
+          "text_ru": "Особая отметка",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune indication",
+          "text_nl": "Geen vermelding",
+          "text_ru": "Нет отметки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une mention spécifique sera faite sur le permis de conduire du conducteur.",
+      "explanation_nl": "Een speciale vermelding wordt op het rijbewijs van de bestuurder gemaakt.",
+      "explanation_ru": "Особая отметка будет указана в водительском удостоверении водителя."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur souhaite conduire un véhicule de la catégorie G. Qu'est-ce qui sera indiqué sur son permis de conduire concernant l'examen pratique ?",
+      "text_nl": "Een bestuurder wil een voertuig van de categorie G besturen. Wat wordt op zijn rijbewijs vermeld over het praktische examen?",
+      "text_ru": "Водитель хочет управлять транспортным средством категории G. Что будет указано в его водительском удостоверении относительно практического экзамена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une mention spécifique",
+          "text_nl": "Een speciale vermelding",
+          "text_ru": "Особая отметка",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Aucune indication",
+          "text_nl": "Geen vermelding",
+          "text_ru": "Нет отметки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une limitation de vitesse",
+          "text_nl": "Een snelheidsbeperking",
+          "text_ru": "Ограничение скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Aucune indication ne sera faite sur le permis de conduire du conducteur concernant l'examen pratique pour la catégorie G.",
+      "explanation_nl": "Geen vermelding wordt op het rijbewijs van de bestuurder gemaakt over het praktische examen voor de categorie G.",
+      "explanation_ru": "Нет отметки будет указано в водительском удостоверении водителя относительно практического экзамена для категории G."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a subi l'examen pratique à bord d'un véhicule équipé d'un changement de vitesses manuel. Qu'est-ce qui sera indiqué sur son permis de conduire ?",
+      "text_nl": "Een bestuurder heeft het praktische examen afgelegd met een voertuig uitgerust met een handgeschakelde versnellingsbak. Wat wordt op zijn rijbewijs vermeld?",
+      "text_ru": "Водитель сдал практический экзамен на транспортном средстве с ручной коробкой передач. Что будет указано в его водительском удостоверении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une limitation de vitesse",
+          "text_nl": "Een snelheidsbeperking",
+          "text_ru": "Ограничение скорости",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une mention spécifique",
+          "text_nl": "Een speciale vermelding",
+          "text_ru": "Особая отметка",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucune indication",
+          "text_nl": "Geen vermelding",
+          "text_ru": "Нет отметки",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Aucune indication ne sera faite sur le permis de conduire du conducteur concernant l'examen pratique avec un véhicule équipé d'un changement de vitesses manuel.",
+      "explanation_nl": "Geen vermelding wordt op het rijbewijs van de bestuurder gemaakt over het praktische examen met een voertuig uitgerust met een handgeschakelde versnellingsbak.",
+      "explanation_ru": "Нет отметки будет указано в водительском удостоверении водителя относительно практического экзамена на транспортном средстве с ручной коробкой передач."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur souhaite conduire un véhicule de la catégorie AM. Qu'est-ce qui sera indiqué sur son permis de conduire concernant l'examen pratique ?",
+      "text_nl": "Een bestuurder wil een voertuig van de categorie AM besturen. Wat wordt op zijn rijbewijs vermeld over het praktische examen?",
+      "text_ru": "Водитель хочет управлять транспортным средством категории AM. Что будет указано в его водительском удостоверении относительно практического экзамена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une mention spécifique",
+          "text_nl": "Een speciale vermelding",
+          "text_ru": "Особая отметка",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Aucune indication",
+          "text_nl": "Geen vermelding",
+          "text_ru": "Нет отметки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une limitation de vitesse",
+          "text_nl": "Een snelheidsbeperking",
+          "text_ru": "Ограничение скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Aucune indication ne sera faite sur le permis de conduire du conducteur concernant l'examen pratique pour la catégorie AM.",
+      "explanation_nl": "Geen vermelding wordt op het rijbewijs van de bestuurder gemaakt over het praktische examen voor de categorie AM.",
+      "explanation_ru": "Нет отметки будет указано в водительском удостоверении водителя относительно практического экзамена для категории AM."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a subi l'examen pratique à bord d'un véhicule équipé d'un changement de vitesses automatique et souhaite conduire un véhicule de la catégorie G. Qu'est-ce qui sera indiqué sur son permis de conduire ?",
+      "text_nl": "Een bestuurder heeft het praktische examen afgelegd met een voertuig uitgerust met een automatische schakeling en wil een voertuig van de categorie G besturen. Wat wordt op zijn rijbewijs vermeld?",
+      "text_ru": "Водитель сдал практический экзамен на транспортном средстве с автоматической коробкой передач и хочет управлять транспортным средством категории G. Что будет указано в его водительском удостоверении?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une mention spécifique",
+          "text_nl": "Een speciale vermelding",
+          "text_ru": "Особая отметка",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Aucune indication",
+          "text_nl": "Geen vermelding",
+          "text_ru": "Нет отметки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une limitation de vitesse",
+          "text_nl": "Een snelheidsbeperking",
+          "text_ru": "Ограничение скорости",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Aucune indication ne sera faite sur le permis de conduire du conducteur concernant l'examen pratique pour la catégorie G.",
+      "explanation_nl": "Geen vermelding wordt op het rijbewijs van de bestuurder gemaakt over het praktische examen voor de categorie G.",
+      "explanation_ru": "Нет отметки будет указано в водительском удостоверении водителя относительно практического экзамена для категории G."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "fca85713d05b",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:54:02Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

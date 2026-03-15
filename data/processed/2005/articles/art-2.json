@@ -59,7 +59,230 @@
   "anchor_id_fr": "owsma2lczp",
   "anchor_id_nl": "dbchrlxfml",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une infraction de deuxième degré dans le contexte de la circulation routière ?",
+      "text_nl": "Wat is een overtreding van de tweede graad in de context van het wegverkeer?",
+      "text_ru": "Что такое правонарушение второй степени в контексте дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une infraction mineure qui n'a pas d'impact sur la sécurité routière",
+          "text_nl": "Een minder ernstige overtreding die geen invloed heeft op de verkeersveiligheid",
+          "text_ru": "Незначительное правонарушение, не влияющее на безопасность дорожного движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction qui peut avoir des conséquences sur la sécurité routière et est sanctionnée par la loi",
+          "text_nl": "Een overtreding die gevolgen kan hebben voor de verkeersveiligheid en wordt gestraft door de wet",
+          "text_ru": "Правонарушение, которое может иметь последствия для безопасности дорожного движения и наказывается законом",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une infraction qui n'est pas répertoriée dans la loi sur la circulation routière",
+          "text_nl": "Een overtreding die niet is opgenomen in de wet betreffende de politie over het wegverkeer",
+          "text_ru": "Правонарушение, не предусмотренное законом о дорожном движении",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une infraction de deuxième degré est une infraction qui peut avoir des conséquences sur la sécurité routière et est sanctionnée par la loi.",
+      "explanation_nl": "Een overtreding van de tweede graad is een overtreding die gevolgen kan hebben voor de verkeersveiligheid en wordt gestraft door de wet.",
+      "explanation_ru": "Правонарушение второй степени - это правонарушение, которое может иметь последствия для безопасности дорожного движения и наказывается законом."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quels sont les panneaux de signalisation mentionnés dans le contexte des infractions de deuxième degré ?",
+      "text_nl": "Welke verkeersborden worden genoemd in de context van overtredingen van de tweede graad?",
+      "text_ru": "Какие дорожные знаки упоминаются в контексте правонарушений второй степени?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "B1 et B3",
+          "text_nl": "B1 en B3",
+          "text_ru": "B1 и B3",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "B1 et B5",
+          "text_nl": "B1 en B5",
+          "text_ru": "B1 и B5",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "B2 et B4",
+          "text_nl": "B2 en B4",
+          "text_ru": "B2 и B4",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les panneaux de signalisation mentionnés sont B1 et B5.",
+      "explanation_nl": "De genoemde verkeersborden zijn B1 en B5.",
+      "explanation_ru": "Упомянутые дорожные знаки - B1 и B5."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la loi qui régit les infractions de deuxième degré dans le contexte de la circulation routière ?",
+      "text_nl": "Welke wet regelt de overtredingen van de tweede graad in de context van het wegverkeer?",
+      "text_ru": "Какой закон регулирует правонарушения второй степени в контексте дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La loi sur la sécurité routière",
+          "text_nl": "De wet betreffende de verkeersveiligheid",
+          "text_ru": "Закон о безопасности дорожного движения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La loi sur la police de la circulation routière",
+          "text_nl": "De wet betreffende de politie over het wegverkeer",
+          "text_ru": "Закон о полиции дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La loi sur les transports",
+          "text_nl": "De wet betreffende de transport",
+          "text_ru": "Закон о транспорте",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La loi qui régit les infractions de deuxième degré est la loi sur la police de la circulation routière.",
+      "explanation_nl": "De wet die de overtredingen van de tweede graad regelt is de wet betreffende de politie over het wegverkeer.",
+      "explanation_ru": "Закон, регулирующий правонарушения второй степени, - это закон о полиции дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous vous approchez d'un carrefour et vous voyez un panneau de signalisation B1. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en ziet een verkeersbord B1. Wat moet u doen?",
+      "text_ru": "Вы подходите к перекрёстку и видите знак B1. Что вам нужно сделать?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": "Panneau de signalisation B1"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Arrêter votre véhicule avant le carrefour",
+          "text_nl": "Uw voertuig stoppen voor het kruispunt",
+          "text_ru": "Остановить ваше транспортное средство перед перекрёстком",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à rouler sans s'arrêter",
+          "text_nl": "Doorgaan met rijden zonder te stoppen",
+          "text_ru": "Продолжать движение без остановки",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tourner à gauche avant le carrefour",
+          "text_nl": "Links afslaan voor het kruispunt",
+          "text_ru": "Повернуть налево перед перекрёстком",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un panneau de signalisation B1, vous devez arrêter votre véhicule avant le carrefour.",
+      "explanation_nl": "Wanneer u een verkeersbord B1 ziet, moet u uw voertuig stoppen voor het kruispunt.",
+      "explanation_ru": "Когда вы видите знак B1, вы должны остановить ваше транспортное средство перед перекрёстком."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en train de conduire sur une route et vous voyez un panneau de signalisation B5. Que signifie ce panneau ?",
+      "text_nl": "U rijdt op een weg en ziet een verkeersbord B5. Wat betekent dit bord?",
+      "text_ru": "Вы едете по дороге и видите знак B5. Что означает этот знак?",
+      "image": {
+        "sign_code": "B5",
+        "generation_prompt": "Panneau de signalisation B5"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Interdiction de tourner à gauche",
+          "text_nl": "Verbod om links af te slaan",
+          "text_ru": "Запрет поворота налево",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Interdiction de dépasser",
+          "text_nl": "Verbod om in te halen",
+          "text_ru": "Запрет обгона",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Interdiction de stationner",
+          "text_nl": "Verbod om te parkeren",
+          "text_ru": "Запрет остановки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau de signalisation B5 signifie interdiction de dépasser.",
+      "explanation_nl": "Het verkeersbord B5 betekent verbod om in te halen.",
+      "explanation_ru": "Знак B5 означает запрет обгона."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous vous approchez d'un carrefour et vous voyez un panneau de signalisation B1 et un panneau de signalisation B5. Que devez-vous faire ?",
+      "text_nl": "U nadert een kruispunt en ziet een verkeersbord B1 en een verkeersbord B5. Wat moet u doen?",
+      "text_ru": "Вы подходите к перекрёстку и видите знак B1 и знак B5. Что вам нужно сделать?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": "Panneau de signalisation B1 et panneau de signalisation B5"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Arrêter votre véhicule avant le carrefour et ne pas dépasser",
+          "text_nl": "Uw voertuig stoppen voor het kruispunt en niet inhalen",
+          "text_ru": "Остановить ваше транспортное средство перед перекрёстком и не обгонять",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à rouler sans s'arrêter et dépasser les autres véhicules",
+          "text_nl": "Doorgaan met rijden zonder te stoppen en andere voertuigen inhalen",
+          "text_ru": "Продолжать движение без остановки и обгонять другие транспортные средства",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Tourner à gauche avant le carrefour et dépasser les autres véhicules",
+          "text_nl": "Links afslaan voor het kruispunt en andere voertuigen inhalen",
+          "text_ru": "Повернуть налево перед перекрёстком и обгонять другие транспортные средства",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un panneau de signalisation B1 et un panneau de signalisation B5, vous devez arrêter votre véhicule avant le carrefour et ne pas dépasser.",
+      "explanation_nl": "Wanneer u een verkeersbord B1 en een verkeersbord B5 ziet, moet u uw voertuig stoppen voor het kruispunt en niet inhalen.",
+      "explanation_ru": "Когда вы видите знак B1 и знак B5, вы должны остановить ваше транспортное средство перед перекрёстком и не обгонять."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:10:54Z",
     "content_hash": "1887ca1e44cd",
@@ -69,6 +292,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:55:05Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 6
   }
 }

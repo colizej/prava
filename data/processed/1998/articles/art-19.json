@@ -28,7 +28,304 @@
   "anchor_id_fr": "gn1xckojob",
   "anchor_id_nl": "lr43mwjyuq",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelles sont quelques-unes des catégories de véhicules pour lesquelles un permis de conduire peut être délivré ?",
+      "text_nl": "Welke zijn enkele van de voertuigcategorieën waarvoor een rijbewijs kan worden afgegeven?",
+      "text_ru": "Какие категории транспортных средств могут быть включены в водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement les catégories B et C.",
+          "text_nl": "Enkel de categorieën B en C.",
+          "text_ru": "Только категории B и C.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les catégories A, B, C, D et G, parmi d'autres.",
+          "text_nl": "Onder andere de categorieën A, B, C, D en G.",
+          "text_ru": "Категории A, B, C, D и G, среди прочих.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Seules les catégories de motos et de voitures.",
+          "text_nl": "Enkel motorfiets- en autocategorieën.",
+          "text_ru": "Только категории мотоциклов и легковых автомобилей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire est validé pour un large éventail de catégories, incluant les motos (AM, A1, A2, A), les voitures (B, B+E), les véhicules de transport de marchandises (C1, C1+E, C, C+E), les véhicules de transport de personnes (D1, D1+E, D, D+E) et les véhicules agricoles (G).",
+      "explanation_nl": "Het rijbewijs wordt geldig verklaard voor een breed scala aan categorieën, waaronder motorfietsen (AM, A1, A2, A), auto's (B, B+E), goederenvervoervoertuigen (C1, C1+E, C, C+E), personenvervoervoertuigen (D1, D1+E, D, D+E) en landbouwvoertuigen (G).",
+      "explanation_ru": "Водительское удостоверение действительно для широкого спектра категорий, включая мотоциклы (AM, A1, A2, A), автомобили (B, B+E), грузовые транспортные средства (C1, C1+E, C, C+E), пассажирские транспортные средства (D1, D1+E, D, D+E) и сельскохозяйственные транспортные средства (G)."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Un jeune conducteur qui obtient son permis pour véhicules de transport de marchandises (catégorie C) avant un certain âge reçoit initialement une restriction. Quelle est cette restriction et comment peut-elle être levée sans nouvel examen une fois l'âge requis atteint ?",
+      "text_nl": "Een jonge bestuurder die zijn rijbewijs voor goederenvervoervoertuigen (categorie C) vóór een bepaalde leeftijd behaalt, krijgt aanvankelijk een beperking. Wat is deze beperking en hoe kan deze worden opgeheven zonder nieuw examen zodra de vereiste leeftijd is bereikt?",
+      "text_ru": "Молодой водитель, получивший водительское удостоверение для грузовых транспортных средств (категория C) до определенного возраста, изначально получает ограничение. Каково это ограничение и как оно может быть снято без повторного экзамена по достижении необходимого возраста?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le permis est limité à la catégorie C1, et la restriction est levée à 21 ans après avoir repassé l'examen pratique.",
+          "text_nl": "Het rijbewijs is beperkt tot categorie C1, en de beperking wordt op 21-jarige leeftijd opgeheven na het opnieuw afleggen van het praktijkexamen.",
+          "text_ru": "Удостоверение ограничено категорией C1, и ограничение снимается в 21 год после повторной сдачи практического экзамена.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le permis est limité à la catégorie C1, et la restriction est levée à 21 ans sans devoir repasser d'examen.",
+          "text_nl": "Het rijbewijs is beperkt tot categorie C1, en de beperking wordt op 21-jarige leeftijd opgeheven zonder een nieuw examen te moeten afleggen.",
+          "text_ru": "Удостоверение ограничено категорией C1, и ограничение снимается в 21 год без необходимости повторной сдачи экзамена.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le permis est limité à la catégorie B, et la restriction est levée à 21 ans après une formation complémentaire obligatoire.",
+          "text_nl": "Het rijbewijs is beperkt tot categorie B, en de beperking wordt op 21-jarige leeftijd opgeheven na een verplichte aanvullende opleiding.",
+          "text_ru": "Удостоверение ограничено категорией B, и ограничение снимается в 21 год после обязательного дополнительного обучения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si un candidat de moins de 21 ans passe l'examen pratique pour la catégorie C, il reçoit un permis de conduire uniquement valide pour la catégorie C1. Cette restriction est automatiquement levée à l'âge de 21 ans, sans nécessité de repasser d'examen, à moins qu'il ne soit déjà titulaire d'un certificat de qualification initiale spécifique.",
+      "explanation_nl": "Als een kandidaat van minder dan 21 jaar het praktijkexamen voor categorie C aflegt, ontvangt hij een rijbewijs dat enkel geldig is voor categorie C1. Deze beperking wordt automatisch opgeheven op 21-jarige leeftijd, zonder de noodzaak om opnieuw examens af te leggen, tenzij hij reeds houder is van een specifiek getuigschrift van basiskwalificatie.",
+      "explanation_ru": "Если кандидат моложе 21 года сдает практический экзамен на категорию C, он получает водительское удостоверение, действительное только для категории C1. Это ограничение автоматически снимается по достижении 21 года без необходимости пересдавать экзамен, если только у него уже нет определенного сертификата о первоначальной квалификации."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Pour les conducteurs de véhicules agricoles (catégorie G) âgés de moins de 18 ans, quelle est la restriction de masse maximale autorisée pour les véhicules qu'ils peuvent conduire, et quand cette restriction est-elle levée ?",
+      "text_nl": "Voor bestuurders van landbouwvoertuigen (categorie G) die jonger zijn dan 18 jaar, wat is de beperking van de maximaal toegelaten massa voor de voertuigen die zij mogen besturen, en wanneer wordt deze beperking opgeheven?",
+      "text_ru": "Для водителей сельскохозяйственной техники (категория G) в возрасте до 18 лет, каково ограничение по максимально допустимой массе транспортных средств, которыми они могут управлять, и когда это ограничение снимается?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La masse maximale autorisée ne doit pas dépasser 10 000 kg, et la restriction est levée à 18 ans.",
+          "text_nl": "De maximaal toegelaten massa mag niet meer zijn dan 10 000 kg, en de beperking wordt op 18-jarige leeftijd opgeheven.",
+          "text_ru": "Максимально допустимая масса не должна превышать 10 000 кг, и ограничение снимается в 18 лет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il n'y a pas de restriction de masse pour les conducteurs de catégorie G de moins de 18 ans.",
+          "text_nl": "Er is geen massa beperking voor bestuurders van categorie G jonger dan 18 jaar.",
+          "text_ru": "Для водителей категории G в возрасте до 18 лет нет ограничений по массе.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La masse maximale autorisée ne doit pas dépasser 20 000 kg, et la restriction est levée à 18 ans.",
+          "text_nl": "De maximaal toegelaten massa mag niet meer zijn dan 20 000 kg, en de beperking wordt op 18-jarige leeftijd opgeheven.",
+          "text_ru": "Максимально допустимая масса не должна превышать 20 000 кг, и ограничение снимается в 18 лет.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un permis de conduire de catégorie G délivré à un candidat de moins de 18 ans ne l'autorise à conduire que des véhicules dont la masse maximale autorisée n'excède pas 20 000 kg. Cette restriction est levée automatiquement lorsqu'il atteint l'âge de 18 ans, sans devoir solliciter un nouveau permis.",
+      "explanation_nl": "Een rijbewijs van categorie G afgeleverd aan een kandidaat jonger dan 18 jaar laat enkel toe voertuigen te besturen waarvan de maximaal toegelaten massa niet meer is dan 20 000 kg. Deze beperking wordt automatisch opgeheven wanneer hij de leeftijd van 18 jaar bereikt, zonder dat een nieuw rijbewijs hoeft te worden aangevraagd.",
+      "explanation_ru": "Водительское удостоверение категории G, выданное кандидату моложе 18 лет, позволяет управлять только транспортными средствами, максимально допустимая масса которых не превышает 20 000 кг. Это ограничение автоматически снимается по достижении 18 лет без необходимости запрашивать новое водительское удостоверение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous avez 20 ans et vous venez de réussir l'examen pratique pour la catégorie C (véhicules de transport de marchandises). Quel type de permis de conduire recevrez-vous initialement si vous ne possédez pas de qualification professionnelle spécifique ?",
+      "text_nl": "U bent 20 jaar en hebt zojuist het praktijkexamen voor categorie C (goederenvervoervoertuigen) behaald. Welk type rijbewijs ontvangt u aanvankelijk als u geen specifieke beroepskwalificatie bezit?",
+      "text_ru": "Вам 20 лет, и вы только что успешно сдали практический экзамен на категорию C (грузовые транспортные средства). Какое водительское удостоверение вы получите изначально, если у вас нет специальной профессиональной квалификации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Young person passing driving exam for a truck"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un permis de catégorie C illimité.",
+          "text_nl": "Een onbeperkt rijbewijs van categorie C.",
+          "text_ru": "Неограниченное водительское удостоверение категории C.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un permis de catégorie C1.",
+          "text_nl": "Een rijbewijs van categorie C1.",
+          "text_ru": "Водительское удостоверение категории C1.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un permis de catégorie B avec une mention spéciale.",
+          "text_nl": "Een rijbewijs van categorie B met een speciale vermelding.",
+          "text_ru": "Водительское удостоверение категории B со специальной отметкой.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les candidats de moins de 21 ans qui passent l'examen pratique pour la catégorie C reçoivent un permis de conduire limité à la catégorie C1, sauf s'ils détiennent un certificat de qualification initiale spécifique.",
+      "explanation_nl": "Kandidaten van minder dan 21 jaar die het praktijkexamen voor categorie C afleggen, ontvangen een rijbewijs dat beperkt is tot categorie C1, tenzij zij in het bezit zijn van een specifiek getuigschrift van basiskwalificatie.",
+      "explanation_ru": "Кандидаты моложе 21 года, сдавшие практический экзамен на категорию C, получают водительское удостоверение, ограниченное категорией C1, если только у них нет определенного сертификата о первоначальной квалификации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez obtenu un permis de conduire de catégorie C1 à l'âge de 20 ans. Vous venez d'avoir 21 ans. Que devez-vous faire pour pouvoir conduire des véhicules de catégorie C (plus grands véhicules de transport de marchandises) ?",
+      "text_nl": "U heeft op 20-jarige leeftijd een rijbewijs van categorie C1 behaald. U bent zojuist 21 jaar geworden. Wat moet u doen om voertuigen van categorie C (grotere goederenvervoervoertuigen) te mogen besturen?",
+      "text_ru": "Вы получили водительское удостоверение категории C1 в возрасте 20 лет. Вам только что исполнился 21 год. Что вам нужно сделать, чтобы иметь возможность управлять транспортными средствами категории C (более крупными грузовыми транспортными средствами)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person receiving a full category C license document"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez repasser l'examen pratique pour la catégorie C.",
+          "text_nl": "U moet het praktijkexamen voor categorie C opnieuw afleggen.",
+          "text_ru": "Вы должны пересдать практический экзамен на категорию C.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez demander un nouveau permis pour la catégorie C sans repasser d'examen.",
+          "text_nl": "U moet een nieuw rijbewijs voor categorie C aanvragen zonder opnieuw examen af te leggen.",
+          "text_ru": "Вы должны подать заявление на получение нового водительского удостоверения категории C без повторной сдачи экзамена.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez suivre une formation complémentaire obligatoire.",
+          "text_nl": "U moet een verplichte aanvullende opleiding volgen.",
+          "text_ru": "Вы должны пройти обязательное дополнительное обучение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque le titulaire d'un permis C1 obtenu avant 21 ans atteint cet âge, il peut obtenir le permis de conduire validé pour la catégorie C sans devoir se soumettre à l'apprentissage ni passer un nouvel examen théorique et pratique. Il doit suivre la procédure administrative.",
+      "explanation_nl": "Wanneer de houder van een C1-rijbewijs, behaald vóór 21 jaar, deze leeftijd bereikt, kan hij een rijbewijs geldig verklaard voor categorie C behalen, zonder de scholing te moeten doorlopen en een nieuw theoretisch en praktisch examen te moeten afleggen. Hij moet de administratieve procedure volgen.",
+      "explanation_ru": "Когда владелец водительского удостоверения категории C1, полученного до 21 года, достигает этого возраста, он может получить водительское удостоверение, действительное для категории C, без необходимости проходить обучение или сдавать новый теоретический и практический экзамен. Он должен следовать административной процедуре."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes âgé de 23 ans et vous réussissez l'examen pratique pour la catégorie D (véhicules de transport de personnes). Quel permis de conduire recevrez-vous initialement si vous n'avez pas de qualification professionnelle spécifique ?",
+      "text_nl": "U bent 23 jaar en slaagt voor het praktijkexamen voor categorie D (personenvervoervoertuigen). Welk rijbewijs ontvangt u aanvankelijk als u geen specifieke beroepskwalificatie heeft?",
+      "text_ru": "Вам 23 года, и вы успешно сдали практический экзамен на категорию D (транспортные средства для перевозки пассажиров). Какое водительское удостоверение вы получите изначально, если у вас нет специальной профессиональной квалификации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Young person passing driving exam for a bus"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un permis de catégorie D illimité.",
+          "text_nl": "Een onbeperkt rijbewijs van categorie D.",
+          "text_ru": "Неограниченное водительское удостоверение категории D.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un permis de catégorie D1.",
+          "text_nl": "Een rijbewijs van categorie D1.",
+          "text_ru": "Водительское удостоверение категории D1.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un permis de catégorie B avec une extension pour le transport de personnes.",
+          "text_nl": "Een rijbewijs van categorie B met een uitbreiding voor personenvervoer.",
+          "text_ru": "Водительское удостоверение категории B с расширением для перевозки пассажиров.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les candidats de moins de 24 ans qui passent l'examen pratique pour la catégorie D reçoivent un permis de conduire uniquement valide pour la catégorie D1, sauf s'ils détiennent un certificat de qualification initiale spécifique.",
+      "explanation_nl": "Kandidaten van minder dan 24 jaar die het praktijkexamen voor categorie D afleggen, ontvangen een rijbewijs dat enkel geldig is voor categorie D1, tenzij zij in het bezit zijn van een specifiek getuigschrift van basiskwalificatie.",
+      "explanation_ru": "Кандидаты моложе 24 лет, сдавшие практический экзамен на категорию D, получают водительское удостоверение, действительное только для категории D1, если только у них нет определенного сертификата о первоначальной квалификации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez obtenu un permis de conduire de catégorie D1 à l'âge de 23 ans. Vous venez d'avoir 24 ans. Que devez-vous faire pour pouvoir conduire des véhicules de catégorie D (plus grands véhicules de transport de personnes) ?",
+      "text_nl": "U heeft op 23-jarige leeftijd een rijbewijs van categorie D1 behaald. U bent zojuist 24 jaar geworden. Wat moet u doen om voertuigen van categorie D (grotere personenvervoervoertuigen) te mogen besturen?",
+      "text_ru": "Вы получили водительское удостоверение категории D1 в возрасте 23 лет. Вам только что исполнилось 24 года. Что вам нужно сделать, чтобы иметь возможность управлять транспортными средствами категории D (более крупными транспортными средствами для перевозки пассажиров)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A person receiving a full category D license document"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez repasser l'examen pratique pour la catégorie D.",
+          "text_nl": "U moet het praktijkexamen voor categorie D opnieuw afleggen.",
+          "text_ru": "Вы должны пересдать практический экзамен на категорию D.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez demander un nouveau permis pour la catégorie D sans repasser d'examen.",
+          "text_nl": "U moet een nieuw rijbewijs voor categorie D aanvragen zonder opnieuw examen af te leggen.",
+          "text_ru": "Вы должны подать заявление на получение нового водительского удостоверения категории D без повторной сдачи экзамена.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez prouver une certaine expérience de conduite avec le permis D1.",
+          "text_nl": "U moet een zekere rijervaring met het D1-rijbewijs aantonen.",
+          "text_ru": "Вы должны подтвердить определенный опыт вождения с водительским удостоверением D1.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque le titulaire d'un permis D1 obtenu avant 24 ans atteint cet âge, il peut obtenir le permis de conduire validé pour la catégorie D sans devoir se soumettre à l'apprentissage ni passer un nouvel examen théorique et pratique. Il doit suivre la procédure administrative.",
+      "explanation_nl": "Wanneer de houder van een D1-rijbewijs, behaald vóór 24 jaar, deze leeftijd bereikt, kan hij een rijbewijs geldig verklaard voor categorie D behalen, zonder de scholing te moeten doorlopen en een nieuw theoretisch en praktisch examen te moeten afleggen. Hij moet de administratieve procedure volgen.",
+      "explanation_ru": "Когда владелец водительского удостоверения категории D1, полученного до 24 лет, достигает этого возраста, он может получить водительское удостоверение, действительное для категории D, без необходимости проходить обучение или сдавать новый теоретический и практический экзамен. Он должен следовать административной процедуре."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez 17 ans et vous avez un permis de conduire pour la catégorie G (véhicules agricoles). Quelle est la masse maximale autorisée (MMA) des véhicules que vous pouvez conduire avec ce permis ?",
+      "text_nl": "U bent 17 jaar en heeft een rijbewijs voor categorie G (landbouwvoertuigen). Wat is de maximaal toegelaten massa (MTM) van de voertuigen die u met dit rijbewijs mag besturen?",
+      "text_ru": "Вам 17 лет, и у вас есть водительское удостоверение категории G (сельскохозяйственная техника). Какова максимально допустимая масса (МДМ) транспортных средств, которыми вы можете управлять с этим удостоверением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "17 year old driving a tractor in a field"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jusqu'à 10 000 kg.",
+          "text_nl": "Tot 10 000 kg.",
+          "text_ru": "До 10 000 кг.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Jusqu'à 20 000 kg.",
+          "text_nl": "Tot 20 000 kg.",
+          "text_ru": "До 20 000 кг.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il n'y a pas de limite de masse.",
+          "text_nl": "Er is geen massalimiet.",
+          "text_ru": "Ограничений по массе нет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour les conducteurs de catégorie G de moins de 18 ans, le permis de conduire n'autorise la conduite que de véhicules dont la masse maximale autorisée n'excède pas 20 000 kg. Cette restriction est levée à 18 ans.",
+      "explanation_nl": "Voor bestuurders van categorie G die jonger zijn dan 18 jaar, laat het rijbewijs enkel toe voertuigen te besturen waarvan de maximaal toegelaten massa niet meer is dan 20 000 kg. Deze beperking wordt op 18-jarige leeftijd opgeheven.",
+      "explanation_ru": "Для водителей категории G моложе 18 лет водительское удостоверение разрешает управление только транспортными средствами, максимально допустимая масса которых не превышает 20 000 кг. Это ограничение снимается в 18 лет."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "ec5bd5ee7a67",
@@ -38,6 +335,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:52:48Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

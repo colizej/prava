@@ -26,7 +26,304 @@
   "anchor_id_fr": "gea6sbcorx",
   "anchor_id_nl": "nxtenbadaf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'âge minimal standard requis pour obtenir un permis de conduire de catégorie B, permettant de conduire la plupart des voitures de tourisme ?",
+      "text_nl": "Wat is de standaard minimumleeftijd vereist om een rijbewijs van categorie B te behalen, waarmee de meeste personenauto's bestuurd mogen worden?",
+      "text_ru": "Каков стандартный минимальный возраст, необходимый для получения водительского удостоверения категории B, позволяющего управлять большинством легковых автомобилей?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "16 ans",
+          "text_nl": "16 jaar",
+          "text_ru": "16 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "18 ans",
+          "text_nl": "18 jaar",
+          "text_ru": "18 лет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "20 ans",
+          "text_nl": "20 jaar",
+          "text_ru": "20 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'âge minimal standard pour obtenir un permis de conduire de catégorie B est de 18 ans.",
+      "explanation_nl": "De standaard minimumleeftijd om een rijbewijs van categorie B te behalen is 18 jaar.",
+      "explanation_ru": "Стандартный минимальный возраст для получения водительского удостоверения категории B составляет 18 лет."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'âge minimal standard pour obtenir un permis de conduire de catégorie A1 (motos légères) et quelle est l'exception pour les titulaires d'un permis européen A1 obtenu dans un autre État membre ?",
+      "text_nl": "Wat is de standaard minimumleeftijd om een rijbewijs van categorie A1 (lichte motorfietsen) te behalen, en wat is de uitzondering voor houders van een Europees A1-rijbewijs behaald in een andere lidstaat?",
+      "text_ru": "Каков стандартный минимальный возраст для получения водительского удостоверения категории A1 (легкие мотоциклы) и каково исключение для владельцев европейского удостоверения A1, полученного в другом государстве-члене?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Standard 16 ans, européen 16 ans",
+          "text_nl": "Standaard 16 jaar, Europees 16 jaar",
+          "text_ru": "Стандартный 16 лет, европейский 16 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Standard 18 ans, européen 16 ans",
+          "text_nl": "Standaard 18 jaar, Europees 16 jaar",
+          "text_ru": "Стандартный 18 лет, европейский 16 лет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Standard 18 ans, européen 18 ans",
+          "text_nl": "Standaard 18 jaar, Europees 18 jaar",
+          "text_ru": "Стандартный 18 лет, европейский 18 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'âge minimal standard pour la catégorie A1 est de 18 ans. Toutefois, il est fixé à 16 ans pour les titulaires d'un permis de conduire européen A1 obtenu dans un autre État membre.",
+      "explanation_nl": "De standaard minimumleeftijd voor categorie A1 is 18 jaar. Echter, de leeftijd is vastgesteld op 16 jaar voor houders van een Europees A1-rijbewijs behaald in een andere lidstaat.",
+      "explanation_ru": "Стандартный минимальный возраст для категории A1 составляет 18 лет. Однако для владельцев европейского водительского удостоверения A1, полученного в другом государстве-члене, возраст устанавливается в 16 лет."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est l'âge minimal requis pour obtenir un permis de conduire des catégories AM (cyclomoteurs et quadricycles légers) ou G (véhicules agricoles) ?",
+      "text_nl": "Wat is de minimumleeftijd vereist om een rijbewijs van categorie AM (bromfietsen en lichte vierwielers) of G (landbouwvoertuigen) te behalen?",
+      "text_ru": "Какой минимальный возраст требуется для получения водительского удостоверения категорий AM (мопеды и легкие квадрициклы) или G (сельскохозяйственные транспортные средства)?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "16 ans",
+          "text_nl": "16 jaar",
+          "text_ru": "16 лет",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "18 ans",
+          "text_nl": "18 jaar",
+          "text_ru": "18 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "20 ans",
+          "text_nl": "20 jaar",
+          "text_ru": "20 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'âge minimal pour obtenir un permis de conduire des catégories AM et G est de 16 ans.",
+      "explanation_nl": "De minimumleeftijd om een rijbewijs van categorie AM en G te behalen is 16 jaar.",
+      "explanation_ru": "Минимальный возраст для получения водительского удостоверения категорий AM и G составляет 16 лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Jean a 19 ans et souhaite devenir chauffeur de camion. Il a suivi la formation professionnelle nécessaire et est titulaire d'un certificat de qualification initiale. Peut-il obtenir un permis de conduire de catégorie C ?",
+      "text_nl": "Jan is 19 jaar en wil vrachtwagenchauffeur worden. Hij heeft de nodige beroepsopleiding gevolgd en is houder van een getuigschrift van basiskwalificatie. Kan hij een rijbewijs van categorie C behalen?",
+      "text_ru": "Жану 19 лет, и он хочет стать водителем грузовика. Он прошел необходимую профессиональную подготовку и имеет свидетельство о начальной квалификации. Может ли он получить водительское удостоверение категории C?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, il doit avoir 21 ans",
+          "text_nl": "Nee, hij moet 21 jaar zijn",
+          "text_ru": "Нет, ему должно быть 21 год",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, grâce à son certificat de qualification initiale",
+          "text_nl": "Ja, dankzij zijn getuigschrift van basiskwalificatie",
+          "text_ru": "Да, благодаря его свидетельству о начальной квалификации",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, il doit avoir 24 ans",
+          "text_nl": "Nee, hij moet 24 jaar zijn",
+          "text_ru": "Нет, ему должно быть 24 года",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Normalement, l'âge minimal pour la catégorie C est de 21 ans, mais un candidat d'au moins 18 ans peut l'obtenir s'il est titulaire d'un certificat de qualification initiale.",
+      "explanation_nl": "Normaal gesproken is de minimumleeftijd voor categorie C 21 jaar, maar een kandidaat van ten minste 18 jaar kan dit behalen op voorwaarde dat hij houder is van een getuigschrift van basiskwalificatie.",
+      "explanation_ru": "Обычно минимальный возраст для категории C составляет 21 год, но кандидат в возрасте не менее 18 лет может получить его при наличии свидетельства о начальной квалификации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Sarah a 23 ans et est titulaire d'un permis de conduire de catégorie A2 depuis trois ans. Elle souhaite désormais obtenir le permis de catégorie A complet (motos illimitées). Est-elle éligible ?",
+      "text_nl": "Sarah is 23 jaar en is al drie jaar houder van een rijbewijs van categorie A2. Ze wil nu het volledige A-rijbewijs (onbeperkte motorfietsen) behalen. Komt ze hiervoor in aanmerking?",
+      "text_ru": "Саре 23 года, и она владеет водительским удостоверением категории А2 уже три года. Теперь она хочет получить полное водительское удостоверение категории А (мотоциклы без ограничений). Имеет ли она право?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, car elle a plus de 22 ans et est titulaire du permis A2 depuis au moins deux ans.",
+          "text_nl": "Ja, want ze is ouder dan 22 jaar en heeft minstens twee jaar een A2-rijbewijs.",
+          "text_ru": "Да, потому что ей больше 22 лет, и она владеет категорией А2 не менее двух лет.",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, elle doit avoir 24 ans, quelle que soit la durée de détention du permis A2.",
+          "text_nl": "Nee, ze moet 24 jaar zijn, ongeacht hoe lang ze A2 al heeft.",
+          "text_ru": "Нет, ей должно быть 24 года, независимо от срока владения категорией А2.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, elle doit passer un examen spécifique supplémentaire.",
+          "text_nl": "Nee, ze moet een extra specifiek examen afleggen.",
+          "text_ru": "Нет, ей нужно сдать дополнительный специальный экзамен.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'âge minimal pour la catégorie A est de 24 ans, sauf si le candidat est titulaire d'un permis A2 depuis au moins deux ans, auquel cas l'âge est de 22 ans. Sarah remplit ces conditions.",
+      "explanation_nl": "De minimumleeftijd voor categorie A is 24 jaar, tenzij de kandidaat minstens twee jaar houder is van een A2-rijbewijs, in welk geval de leeftijd 22 jaar is. Sarah voldoet aan deze voorwaarden.",
+      "explanation_ru": "Минимальный возраст для категории A составляет 24 года, за исключением случаев, когда кандидат владеет удостоверением A2 не менее двух лет, тогда возраст составляет 22 года. Сара соответствует этим условиям."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "David veut conduire une voiture avec une remorque lourde, ce qui nécessite un permis de conduire de catégorie B+E. Quel est l'âge minimal qu'il doit avoir pour obtenir ce permis ?",
+      "text_nl": "David wil een auto met een zware aanhangwagen besturen, waarvoor een rijbewijs van categorie B+E vereist is. Wat is de minimumleeftijd die hij moet hebben om dit rijbewijs te behalen?",
+      "text_ru": "Давид хочет управлять автомобилем с тяжелым прицепом, для чего требуется водительское удостоверение категории B+E. Какой минимальный возраст он должен иметь для получения этого удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "16 ans",
+          "text_nl": "16 jaar",
+          "text_ru": "16 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "18 ans",
+          "text_nl": "18 jaar",
+          "text_ru": "18 лет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "20 ans",
+          "text_nl": "20 jaar",
+          "text_ru": "20 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'âge minimal pour obtenir un permis de conduire de catégorie B+E est de 18 ans.",
+      "explanation_nl": "De minimumleeftijd om een rijbewijs van categorie B+E te behalen is 18 jaar.",
+      "explanation_ru": "Минимальный возраст для получения водительского удостоверения категории B+E составляет 18 лет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Emily a 20 ans et aspire à conduire un bus. Elle a suivi avec succès la formation professionnelle requise et possède un certificat de qualification initiale pour les conducteurs professionnels. Peut-elle obtenir un permis de conduire de catégorie D ?",
+      "text_nl": "Emily is 20 jaar en wil graag een bus besturen. Ze heeft de vereiste beroepsopleiding succesvol afgerond en bezit een getuigschrift van basiskwalificatie voor beroepschauffeurs. Kan zij een rijbewijs van categorie D behalen?",
+      "text_ru": "Эмили 20 лет, и она стремится водить автобус. Она успешно завершила необходимую профессиональную подготовку и имеет свидетельство о начальной квалификации для профессиональных водителей. Может ли она получить водительское удостоверение категории D?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, elle doit avoir 24 ans",
+          "text_nl": "Nee, ze moet 24 jaar zijn",
+          "text_ru": "Нет, ей должно быть 24 года",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, grâce à son certificat de qualification initiale",
+          "text_nl": "Ja, dankzij haar getuigschrift van basiskwalificatie",
+          "text_ru": "Да, благодаря ее свидетельству о начальной квалификации",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, elle doit d'abord avoir 21 ans pour la catégorie D1",
+          "text_nl": "Nee, ze moet eerst 21 zijn voor categorie D1",
+          "text_ru": "Нет, сначала ей должно быть 21 год для категории D1",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Normalement, l'âge minimal pour la catégorie D est de 24 ans, mais un candidat d'au moins 18 ans peut l'obtenir s'il est titulaire d'un certificat de qualification initiale.",
+      "explanation_nl": "Normaal gesproken is de minimumleeftijd voor categorie D 24 jaar, maar een kandidaat van ten minste 18 jaar kan dit behalen op voorwaarde dat hij houder is van een getuigschrift van basiskwalificatie.",
+      "explanation_ru": "Обычно минимальный возраст для категории D составляет 24 года, но кандидат в возрасте не менее 18 лет может получить его при наличии свидетельства о начальной квалификации."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un étudiant de 20 ans, originaire d'un autre pays de l'UE, arrive en Belgique. Il possède un permis de conduire européen valide de catégorie A (motos illimitées) obtenu dans son pays d'origine. Peut-il légalement conduire une moto illimitée en Belgique ?",
+      "text_nl": "Een 20-jarige student uit een ander EU-land arriveert in België. Hij heeft een geldig Europees rijbewijs van categorie A (onbeperkte motorfietsen) dat in zijn thuisland is behaald. Mag hij legaal een onbeperkte motorfiets besturen in België?",
+      "text_ru": "20-летний студент из другой страны ЕС прибывает в Бельгию. У него есть действующее европейское водительское удостоверение категории А (мотоциклы без ограничений), полученное в его родной стране. Может ли он на законных основаниях управлять неограниченным мотоциклом в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, il doit avoir au moins 24 ans.",
+          "text_nl": "Nee, hij moet minstens 24 jaar oud zijn.",
+          "text_ru": "Нет, ему должно быть не менее 24 лет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, car son permis européen de catégorie A est reconnu à partir de 20 ans.",
+          "text_nl": "Ja, want zijn Europees rijbewijs van categorie A wordt erkend vanaf 20 jaar.",
+          "text_ru": "Да, потому что его европейское удостоверение категории А признается с 20 лет.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, il doit d'abord obtenir un permis belge.",
+          "text_nl": "Nee, hij moet eerst een Belgisch rijbewijs halen.",
+          "text_ru": "Нет, он должен сначала получить бельгийское удостоверение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'âge minimal pour la catégorie A est de 24 ans, mais il est fixé à 20 ans pour les titulaires d'un permis de conduire européen obtenu dans un autre État membre valable pour la catégorie A.",
+      "explanation_nl": "De minimumleeftijd voor categorie A is 24 jaar, maar deze is vastgesteld op 20 jaar voor houders van een Europees rijbewijs behaald in een andere lidstaat dat geldig is voor categorie A.",
+      "explanation_ru": "Минимальный возраст для категории А составляет 24 года, но он установлен в 20 лет для владельцев европейского водительского удостоверения, полученного в другом государстве-члене и действительного для категории А."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "a83cb1743f8b",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:52:13Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

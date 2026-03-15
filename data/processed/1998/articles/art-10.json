@@ -26,7 +26,140 @@
   "anchor_id_fr": "ay47lo4dda",
   "anchor_id_nl": "958hzdoqcl",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Un ensemble de dispositions du code de la route belge, relatives à l'enseignement de la conduite, est formellement indiqué comme n'étant plus en vigueur. Quel est le statut légal de ces dispositions ?",
+      "text_nl": "Een reeks bepalingen van de Belgische wegcode, betreffende rijonderricht, wordt formeel aangegeven als niet langer van kracht. Wat is de wettelijke status van deze bepalingen?",
+      "text_ru": "Ряд положений Бельгийского дорожного кодекса, касающихся обучения вождению, формально указан как более не действующий. Каков правовой статус этих положений?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elles sont pleinement en vigueur.",
+          "text_nl": "Ze zijn volledig van kracht.",
+          "text_ru": "Они полностью действуют.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elles sont en cours de révision et seront bientôt mises à jour.",
+          "text_nl": "Ze worden momenteel herzien en zullen binnenkort worden bijgewerkt.",
+          "text_ru": "Они находятся на пересмотре и скоро будут обновлены.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elles ont été abrogées et ne sont plus applicables.",
+          "text_nl": "Ze zijn ingetrokken en niet langer van toepassing.",
+          "text_ru": "Они были отменены и больше не применимы.",
+          "is_correct": true
+        },
+        {
+          "letter": "D",
+          "text_fr": "Elles s'appliquent uniquement sous certaines conditions spécifiques.",
+          "text_nl": "Ze zijn alleen van toepassing onder specifieke voorwaarden.",
+          "text_ru": "Они применяются только при определенных условиях.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le texte fourni indique que ces dispositions sont abrogées, ce qui signifie qu'elles ont été annulées et ne sont plus valides.",
+      "explanation_nl": "De verstrekte tekst vermeldt dat deze bepalingen zijn ingetrokken, wat betekent dat ze zijn geannuleerd en niet langer geldig zijn.",
+      "explanation_ru": "Предоставленный текст указывает, что эти положения отменены, что означает, что они были аннулированы и более недействительны."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "La Section IV du code de la route traite de quel sujet principal ?",
+      "text_nl": "Welk hoofdonderwerp wordt behandeld in Afdeling IV van de wegcode?",
+      "text_ru": "Какова основная тема раздела IV дорожного кодекса?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les règles de priorité aux carrefours.",
+          "text_nl": "De voorrangsregels op kruispunten.",
+          "text_ru": "Правила приоритета на перекрестках.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "L'enseignement théorique et pratique délivré par les écoles de conduite.",
+          "text_nl": "Het theoretisch en praktisch onderricht verstrekt door rijscholen.",
+          "text_ru": "Теоретическое и практическое обучение, предоставляемое автошколами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La signalisation routière.",
+          "text_nl": "De verkeersborden.",
+          "text_ru": "Дорожные знаки.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text_fr": "Les limitations de vitesse.",
+          "text_nl": "De snelheidsbeperkingen.",
+          "text_ru": "Ограничения скорости.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le titre de la Section IV indique clairement son sujet : 'Enseignement théorique et pratique dispensé par les écoles de conduite'.",
+      "explanation_nl": "De titel van Afdeling IV geeft duidelijk het onderwerp aan: 'Theoretisch en praktisch onderricht verstrekt door de rijscholen'.",
+      "explanation_ru": "Название Раздела IV четко указывает на его тему: 'Теоретическое и практическое обучение, предоставляемое автошколами'."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Dans le contexte de la formation à la conduite, que signifie l'expression 'enseignement théorique et pratique' ?",
+      "text_nl": "In de context van rijopleiding, wat betekent de uitdrukking 'theoretisch en praktisch onderricht'?",
+      "text_ru": "В контексте обучения вождению, что означает выражение 'теоретическое и практическое обучение'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les cours de premiers secours obligatoires pour les conducteurs.",
+          "text_nl": "De verplichte EHBO-cursussen voor bestuurders.",
+          "text_ru": "Обязательные курсы первой помощи для водителей.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La formation complète des futurs conducteurs, incluant la connaissance des règles de circulation et l'apprentissage de la conduite d'un véhicule.",
+          "text_nl": "De volledige opleiding van toekomstige bestuurders, inclusief kennis van verkeersregels en het leren besturen van een voertuig.",
+          "text_ru": "Полное обучение будущих водителей, включающее знание правил дорожного движения и обучение управлению транспортным средством.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'inspection technique et l'entretien des véhicules.",
+          "text_nl": "De technische keuring en het onderhoud van voertuigen.",
+          "text_ru": "Технический осмотр и обслуживание транспортных средств.",
+          "is_correct": false
+        },
+        {
+          "letter": "D",
+          "text_fr": "La gestion administrative des permis de conduire et des immatriculations.",
+          "text_nl": "Het administratief beheer van rijbewijzen en inschrijvingen.",
+          "text_ru": "Административное управление водительскими удостоверениями и регистрациями.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'enseignement théorique et pratique fait référence à la formation complète des conducteurs, couvrant à la fois les aspects théoriques (code de la route) et pratiques (conduite effective).",
+      "explanation_nl": "Theoretisch en praktisch onderricht verwijst naar de volledige opleiding van bestuurders, zowel de theoretische aspecten (wegcode) als de praktische aspecten (daadwerkelijk rijden).",
+      "explanation_ru": "Теоретическое и практическое обучение относится к полной подготовке водителей, охватывающей как теоретические аспекты (ПДД), так и практические (фактическое вождение)."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "6b6ea2b3b1d4",
@@ -36,6 +169,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:50:46Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

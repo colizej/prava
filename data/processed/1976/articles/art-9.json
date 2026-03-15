@@ -305,7 +305,304 @@
   "anchor_id_fr": "v7vpaenaor",
   "anchor_id_nl": "cokawolo66",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le but du signal C1 en termes de circulation routière ?",
+      "text_nl": "Wat is het doel van het verkeersbord C1 in termen van verkeerscirculatie?",
+      "text_ru": "Какова цель сигнала C1 в отношении дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Indiquer une direction autorisée",
+          "text_nl": "Aanduiden van een toegestane richting",
+          "text_ru": "Указать разрешенное направление",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Interdire une direction à tous les conducteurs",
+          "text_nl": "Een richting voor alle bestuurders verbieden",
+          "text_ru": "Запретить направление всем водителям",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Indiquer une zone de stationnement",
+          "text_nl": "Aanduiden van een parkeerzone",
+          "text_ru": "Указать зону парковки",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal C1 est utilisé pour interdire une direction à tous les conducteurs.",
+      "explanation_nl": "Het verkeersbord C1 wordt gebruikt om een richting voor alle bestuurders te verbieden.",
+      "explanation_ru": "Сигнал C1 используется для запрета направления всем водителям."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'un signal C3 avec un panneau additionnel 'rue réservée au jeu' ?",
+      "text_nl": "Wat is een verkeersbord C3 met een onderbord 'straat gereserveerd voor spel'?",
+      "text_ru": "Что такое сигнал C3 с дополнительным знаком 'улица, зарезервированная для игры'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un signal d'interdiction de circulation",
+          "text_nl": "Een verkeersbord dat het verkeer verbiedt",
+          "text_ru": "Сигнал, запрещающий движение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un signal de réservation d'une rue pour les jeux",
+          "text_nl": "Een verkeersbord dat een straat reserveert voor spel",
+          "text_ru": "Сигнал, резервирующий улицу для игр",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un signal de direction autorisée",
+          "text_nl": "Een verkeersbord dat een toegestane richting aanduidt",
+          "text_ru": "Сигнал, указывающий разрешенное направление",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un signal C3 avec un panneau additionnel 'rue réservée au jeu' est utilisé pour réserver une rue pour les jeux.",
+      "explanation_nl": "Een verkeersbord C3 met een onderbord 'straat gereserveerd voor spel' wordt gebruikt om een straat te reserveren voor spel.",
+      "explanation_ru": "Сигнал C3 с дополнительным знаком 'улица, зарезервированная для игры' используется для резервирования улицы для игр."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelles sont les conditions pour placer un signal C1 avec un panneau additionnel 'excepté bus' ?",
+      "text_nl": "Wat zijn de voorwaarden voor het plaatsen van een verkeersbord C1 met een onderbord 'uitgezonderd bus'?",
+      "text_ru": "Какие условия должны быть выполнены для установки сигнала C1 с дополнительным знаком 'исключая автобус'?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La rue doit être réservée aux bus",
+          "text_nl": "De straat moet gereserveerd zijn voor bussen",
+          "text_ru": "Улица должна быть зарезервирована для автобусов",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La rue doit être fermée à la circulation",
+          "text_nl": "De straat moet afgesloten zijn voor het verkeer",
+          "text_ru": "Улица должна быть закрыта для движения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La rue doit avoir une bande bus ou un site spécial franchissable",
+          "text_nl": "De straat moet een busstrook of een bijzondere overrijdbare bedding hebben",
+          "text_ru": "Улица должна иметь полосу для автобусов или специальную проезжую часть",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Un signal C1 avec un panneau additionnel 'excepté bus' peut être placé si la rue a une bande bus ou un site spécial franchissable.",
+      "explanation_nl": "Een verkeersbord C1 met een onderbord 'uitgezonderd bus' kan worden geplaatst als de straat een busstrook of een bijzondere overrijdbare bedding heeft.",
+      "explanation_ru": "Сигнал C1 с дополнительным знаком 'исключая автобус' может быть установлен, если улица имеет полосу для автобусов или специальную проезжую часть."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'une intersection et vous voyez un signal C1. Que devez-vous faire ?",
+      "text_nl": "U komt aan bij een kruispunt en u ziet een verkeersbord C1. Wat moet u doen?",
+      "text_ru": "Вы подходите к перекрёстку и видите сигнал C1. Что вам нужно сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Tourner à gauche",
+          "text_nl": "Links afslaan",
+          "text_ru": "Повернуть налево",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer tout droit",
+          "text_nl": "Rechtdoor rijden",
+          "text_ru": "Продолжать прямо",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Faire demi-tour",
+          "text_nl": "Keren",
+          "text_ru": "Сделать поворот",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un signal C1, vous devez faire demi-tour car la direction est interdite.",
+      "explanation_nl": "Wanneer u een verkeersbord C1 ziet, moet u keren omdat de richting verboden is.",
+      "explanation_ru": "Когда вы видите сигнал C1, вам нужно сделать поворот, потому что направление запрещено."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une route et vous voyez un signal C3. Que signifie cela ?",
+      "text_nl": "U rijdt op een weg en u ziet een verkeersbord C3. Wat betekent dit?",
+      "text_ru": "Вы едете по дороге и видите сигнал C3. Что это значит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La route est fermée à la circulation",
+          "text_nl": "De weg is afgesloten voor het verkeer",
+          "text_ru": "Дорога закрыта для движения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La route est ouverte à la circulation",
+          "text_nl": "De weg is open voor het verkeer",
+          "text_ru": "Дорога открыта для движения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La route est réservée aux bus",
+          "text_nl": "De weg is gereserveerd voor bussen",
+          "text_ru": "Дорога зарезервирована для автобусов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un signal C3 signifie que la route est fermée à la circulation.",
+      "explanation_nl": "Een verkeersbord C3 betekent dat de weg afgesloten is voor het verkeer.",
+      "explanation_ru": "Сигнал C3 означает, что дорога закрыта для движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez sur une route et vous voyez un signal C1 avec un panneau additionnel 'excepté cyclistes'. Que devez-vous faire ?",
+      "text_nl": "U rijdt op een weg en u ziet een verkeersbord C1 met een onderbord 'uitgezonderd fietsers'. Wat moet u doen?",
+      "text_ru": "Вы едете по дороге и видите сигнал C1 с дополнительным знаком 'исключая велосипедистов'. Что вам нужно сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à conduire",
+          "text_nl": "Doorgaan met rijden",
+          "text_ru": "Продолжать ехать",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Faire demi-tour",
+          "text_nl": "Keren",
+          "text_ru": "Сделать поворот",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre un autre chemin",
+          "text_nl": "Een andere route nemen",
+          "text_ru": "Взять другой путь",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un signal C1 avec un panneau additionnel 'excepté cyclistes', vous devez faire demi-tour car la direction est interdite aux véhicules, mais les cyclistes sont autorisés à continuer.",
+      "explanation_nl": "Wanneer u een verkeersbord C1 met een onderbord 'uitgezonderd fietsers' ziet, moet u keren omdat de richting verboden is voor voertuigen, maar fietsers mogen doorrijden.",
+      "explanation_ru": "Когда вы видите сигнал C1 с дополнительным знаком 'исключая велосипедистов', вам нужно сделать поворот, потому что направление запрещено для транспортных средств, но велосипедисты могут продолжать движение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route et vous voyez un signal C3 avec un panneau additionnel 'rue réservée au jeu'. Que signifie cela ?",
+      "text_nl": "U rijdt op een weg en u ziet een verkeersbord C3 met een onderbord 'straat gereserveerd voor spel'. Wat betekent dit?",
+      "text_ru": "Вы едете по дороге и видите сигнал C3 с дополнительным знаком 'улица, зарезервированная для игры'. Что это значит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La rue est fermée à la circulation",
+          "text_nl": "De straat is afgesloten voor het verkeer",
+          "text_ru": "Улица закрыта для движения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La rue est ouverte à la circulation",
+          "text_nl": "De straat is open voor het verkeer",
+          "text_ru": "Улица открыта для движения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La rue est réservée aux bus",
+          "text_nl": "De straat is gereserveerd voor bussen",
+          "text_ru": "Улица зарезервирована для автобусов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un signal C3 avec un panneau additionnel 'rue réservée au jeu' signifie que la rue est fermée à la circulation pour les jeux.",
+      "explanation_nl": "Een verkeersbord C3 met een onderbord 'straat gereserveerd voor spel' betekent dat de straat afgesloten is voor het verkeer voor spel.",
+      "explanation_ru": "Сигнал C3 с дополнительным знаком 'улица, зарезервированная для игры' означает, что улица закрыта для движения для игр."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une route et vous voyez un signal C1. Que devez-vous faire si vous êtes un cycliste ?",
+      "text_nl": "U rijdt op een weg en u ziet een verkeersbord C1. Wat moet u doen als u een fietser bent?",
+      "text_ru": "Вы едете по дороге и видите сигнал C1. Что вам нужно сделать, если вы велосипедист?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Faire demi-tour",
+          "text_nl": "Keren",
+          "text_ru": "Сделать поворот",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Continuer à conduire",
+          "text_nl": "Doorgaan met rijden",
+          "text_ru": "Продолжать ехать",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Prendre un autre chemin",
+          "text_nl": "Een andere route nemen",
+          "text_ru": "Взять другой путь",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous voyez un signal C1 et que vous êtes un cycliste, vous pouvez continuer à conduire car les cyclistes sont autorisés à continuer.",
+      "explanation_nl": "Wanneer u een verkeersbord C1 ziet en u bent een fietser, kunt u doorgaan met rijden omdat fietsers mogen doorrijden.",
+      "explanation_ru": "Когда вы видите сигнал C1 и вы велосипедист, вы можете продолжать движение, потому что велосипедисты могут продолжать ехать."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "ce115268e6e1",
@@ -315,6 +612,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:53:57Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

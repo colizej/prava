@@ -31,7 +31,304 @@
   "anchor_id_fr": "qjzv8cctxc",
   "anchor_id_nl": "6h99fjsefk",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qui rend un permis de conduire nul en Belgique ?",
+      "text_nl": "Wanneer is een rijbewijs nietig in België ?",
+      "text_ru": "При каких условиях водительское удостоверение считается недействительным в Бельгии ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Lorsque le titulaire a plus de 70 ans",
+          "text_nl": "Wanneer de houder ouder is dan 70 jaar",
+          "text_ru": "Когда держатель старше 70 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Lorsque le permis a été délivré sans que le requérant ait satisfait aux conditions prévues",
+          "text_nl": "Wanneer het rijbewijs werd afgegeven zonder dat de aanvrager aan de voorwaarden voldeed",
+          "text_ru": "Когда водительское удостоверение было выдано без соблюдения необходимых условий",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Lorsque le titulaire a moins de 18 ans",
+          "text_nl": "Wanneer de houder jonger is dan 18 jaar",
+          "text_ru": "Когда держатель моложе 18 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire est nul en Belgique si les conditions prévues n'ont pas été satisfaites lors de sa délivrance.",
+      "explanation_nl": "Een rijbewijs is nietig in België als de voorwaarden niet werden nageleefd bij de afgifte.",
+      "explanation_ru": "Водительское удостоверение считается недействительным в Бельгии, если при его выдаче не были соблюдены необходимые условия."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui se passe avec un permis de conduire belge lorsque son titulaire reçoit un nouveau permis de conduire ?",
+      "text_nl": "Wat gebeurt er met een Belgisch rijbewijs wanneer de houder een nieuw rijbewijs ontvangt ?",
+      "text_ru": "Что происходит с бельгийским водительским удостоверением, когда его владелец получает новое водительское удостоверение ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est suspendu",
+          "text_nl": "Het wordt opgeschort",
+          "text_ru": "Оно приостанавливается",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il perd sa validité",
+          "text_nl": "Het verliest zijn geldigheid",
+          "text_ru": "Оно теряет свою действительность",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est annulé",
+          "text_nl": "Het wordt geannuleerd",
+          "text_ru": "Оно аннулируется",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire belge perd sa validité lorsque son titulaire reçoit un nouveau permis de conduire.",
+      "explanation_nl": "Een Belgisch rijbewijs verliest zijn geldigheid wanneer de houder een nieuw rijbewijs ontvangt.",
+      "explanation_ru": "Бельгийское водительское удостоверение теряет свою действительность, когда его владелец получает новое водительское удостоверение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qui se passe avec la validité d'un permis de conduire belge dans les cas visés à l'article 69, § 2, alinéa 2, § 3, alinéa 2, § 8, alinéa 3, et § 9, alinéa 3 ?",
+      "text_nl": "Wat gebeurt er met de geldigheid van een Belgisch rijbewijs in de gevallen bedoeld in artikel 69, § 2, tweede lid, § 3, tweede lid, § 8, derde lid, en § 9, derde lid ?",
+      "text_ru": "Что происходит с действительностью бельгийского водительского удостоверения в случаях, предусмотренных статьей 69, § 2, пунктом 2, § 3, пунктом 2, § 8, пунктом 3 и § 9, пунктом 3 ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est annulé",
+          "text_nl": "Het wordt geannuleerd",
+          "text_ru": "Оно аннулируется",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il perd sa validité",
+          "text_nl": "Het verliest zijn geldigheid",
+          "text_ru": "Оно теряет свою действительность",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est suspendu pendant la durée de la déchéance du droit de conduire",
+          "text_nl": "Het wordt opgeschort tijdens de periode van het verval van het recht tot sturen",
+          "text_ru": "Оно приостанавливается на период лишения права управления",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Dans les cas visés, la validité du permis de conduire belge est suspendue pendant la durée de la déchéance du droit de conduire.",
+      "explanation_nl": "In de gevallen bedoeld, wordt de geldigheid van het Belgisch rijbewijs opgeschort tijdens de periode van het verval van het recht tot sturen.",
+      "explanation_ru": "В случаях, предусмотренных статьей, действительность бельгийского водительского удостоверения приостанавливается на период лишения права управления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes titulaire d'un permis de conduire belge et vous venez de recevoir un nouveau permis de conduire. Que devez-vous faire avec votre ancien permis de conduire ?",
+      "text_nl": "U bent houder van een Belgisch rijbewijs en u heeft zojuist een nieuw rijbewijs ontvangen. Wat moet u doen met uw oude rijbewijs ?",
+      "text_ru": "Вы являетесь владельцем бельгийского водительского удостоверения и только что получили новое водительское удостоверение. Что вы должны сделать со своим старым водительским удостоверением ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conserver pour des raisons personnelles",
+          "text_nl": "Het bewaren voor persoonlijke redenen",
+          "text_ru": "Сохранить его для личных целей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le restituer à l'autorité compétente",
+          "text_nl": "Het teruggeven aan de bevoegde autoriteit",
+          "text_ru": "Вернуть его в соответствующую инстанцию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le détruire",
+          "text_nl": "Het vernietigen",
+          "text_ru": "Уничтожить его",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous recevez un nouveau permis de conduire, vous devez restituer votre ancien permis de conduire à l'autorité compétente.",
+      "explanation_nl": "Wanneer u een nieuw rijbewijs ontvangt, moet u uw oude rijbewijs teruggeven aan de bevoegde autoriteit.",
+      "explanation_ru": "Когда вы получаете новое водительское удостоверение, вы должны вернуть свое старое водительское удостоверение в соответствующую инстанцию."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes titulaire d'un permis de conduire belge et vous avez commis une infraction qui entraîne la suspension de votre permis de conduire. Que se passe-t-il avec votre permis de conduire ?",
+      "text_nl": "U bent houder van een Belgisch rijbewijs en u heeft een overtreding begaan die leidt tot de schorsing van uw rijbewijs. Wat gebeurt er met uw rijbewijs ?",
+      "text_ru": "Вы являетесь владельцем бельгийского водительского удостоверения и вы совершили правонарушение, которое повлекло за собой приостановку вашего водительского удостоверения. Что происходит с вашим водительским удостоверением ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est annulé",
+          "text_nl": "Het wordt geannuleerd",
+          "text_ru": "Оно аннулируется",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il est suspendu pendant la durée de la suspension",
+          "text_nl": "Het wordt opgeschort tijdens de periode van de schorsing",
+          "text_ru": "Оно приостанавливается на период приостановки",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est restitué à l'autorité compétente",
+          "text_nl": "Het wordt teruggegeven aan de bevoegde autoriteit",
+          "text_ru": "Оно возвращается в соответствующую инстанцию",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous commettez une infraction qui entraîne la suspension de votre permis de conduire, votre permis de conduire est suspendu pendant la durée de la suspension.",
+      "explanation_nl": "Wanneer u een overtreding begaat die leidt tot de schorsing van uw rijbewijs, wordt uw rijbewijs opgeschort tijdens de periode van de schorsing.",
+      "explanation_ru": "Когда вы совершаете правонарушение, которое повлекло за собой приостановку вашего водительского удостоверения, ваше водительское удостоверение приостанавливается на период приостановки."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes titulaire d'un permis de conduire belge et vous avez déménagé à l'étranger. Que devez-vous faire avec votre permis de conduire belge ?",
+      "text_nl": "U bent houder van een Belgisch rijbewijs en u bent naar het buitenland verhuisd. Wat moet u doen met uw Belgisch rijbewijs ?",
+      "text_ru": "Вы являетесь владельцем бельгийского водительского удостоверения и вы переехали за границу. Что вы должны сделать со своим бельгийским водительским удостоверением ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conserver pour des raisons personnelles",
+          "text_nl": "Het bewaren voor persoonlijke redenen",
+          "text_ru": "Сохранить его для личных целей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le restituer à l'autorité compétente",
+          "text_nl": "Het teruggeven aan de bevoegde autoriteit",
+          "text_ru": "Вернуть его в соответствующую инстанцию",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le remplacer par un permis de conduire du pays de résidence",
+          "text_nl": "Het vervangen door een rijbewijs van het land van verblijf",
+          "text_ru": "Заменить его на водительское удостоверение страны проживания",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Lorsque vous déménagez à l'étranger, il est recommandé de remplacer votre permis de conduire belge par un permis de conduire du pays de résidence.",
+      "explanation_nl": "Wanneer u naar het buitenland verhuist, is het aanbevolen om uw Belgisch rijbewijs te vervangen door een rijbewijs van het land van verblijf.",
+      "explanation_ru": "Когда вы переехали за границу, рекомендуется заменить свое бельгийское водительское удостоверение на водительское удостоверение страны проживания."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes titulaire d'un permis de conduire belge et vous avez reçu un nouveau permis de conduire avec des catégories de véhicules différentes. Que devez-vous faire avec votre ancien permis de conduire ?",
+      "text_nl": "U bent houder van een Belgisch rijbewijs en u heeft een nieuw rijbewijs ontvangen met andere voertuigcategorieën. Wat moet u doen met uw oude rijbewijs ?",
+      "text_ru": "Вы являетесь владельцем бельгийского водительского удостоверения и вы получили новое водительское удостоверение с другими категориями транспортных средств. Что вы должны сделать со своим старым водительским удостоверением ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conserver pour des raisons personnelles",
+          "text_nl": "Het bewaren voor persoonlijke redenen",
+          "text_ru": "Сохранить его для личных целей",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le restituer à l'autorité compétente",
+          "text_nl": "Het teruggeven aan de bevoegde autoriteit",
+          "text_ru": "Вернуть его в соответствующую инстанцию",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le détruire",
+          "text_nl": "Het vernietigen",
+          "text_ru": "Уничтожить его",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous recevez un nouveau permis de conduire avec des catégories de véhicules différentes, vous devez restituer votre ancien permis de conduire à l'autorité compétente.",
+      "explanation_nl": "Wanneer u een nieuw rijbewijs ontvangt met andere voertuigcategorieën, moet u uw oude rijbewijs teruggeven aan de bevoegde autoriteit.",
+      "explanation_ru": "Когда вы получаете новое водительское удостоверение с другими категориями транспортных средств, вы должны вернуть свое старое водительское удостоверение в соответствующую инстанцию."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes titulaire d'un permis de conduire belge et vous avez oublié de le renouveler. Que se passe-t-il avec votre permis de conduire ?",
+      "text_nl": "U bent houder van een Belgisch rijbewijs en u heeft vergeten om het te vernieuwen. Wat gebeurt er met uw rijbewijs ?",
+      "text_ru": "Вы являетесь владельцем бельгийского водительского удостоверения и вы забыли его продлить. Что происходит с вашим водительским удостоверением ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il est annulé",
+          "text_nl": "Het wordt geannuleerd",
+          "text_ru": "Оно аннулируется",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il perd sa validité",
+          "text_nl": "Het verliest zijn geldigheid",
+          "text_ru": "Оно теряет свою действительность",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il est suspendu",
+          "text_nl": "Het wordt opgeschort",
+          "text_ru": "Оно приостанавливается",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque vous oubliez de renouveler votre permis de conduire, il perd sa validité.",
+      "explanation_nl": "Wanneer u vergeten bent om uw rijbewijs te vernieuwen, verliest het zijn geldigheid.",
+      "explanation_ru": "Когда вы забываете продлить свое водительское удостоверение, оно теряет свою действительность."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "9d3e60a9cee4",
@@ -41,6 +338,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:54:41Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

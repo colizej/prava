@@ -26,7 +26,119 @@
   "anchor_id_fr": "ftc4deyk1c",
   "anchor_id_nl": "pmrj6rpaf2",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que signifie l'expression \"entrer en vigueur\" lorsqu'elle est utilisée pour un texte réglementaire ?",
+      "text_nl": "Wat betekent de uitdrukking \"in werking treden\" wanneer deze wordt gebruikt voor een regelgevende tekst?",
+      "text_ru": "Что означает выражение \"вступить в силу\", когда оно используется для нормативного текста?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "C'est la date à laquelle le texte a été rédigé par les autorités.",
+          "text_nl": "Het is de datum waarop de tekst door de autoriteiten werd opgesteld.",
+          "text_ru": "Это дата, когда текст был составлен властями.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "C'est la date à partir de laquelle le texte devient légalement applicable et obligatoire pour tous.",
+          "text_nl": "Het is de datum vanaf wanneer de tekst wettelijk van toepassing en verplicht wordt voor iedereen.",
+          "text_ru": "Это дата, с которой текст становится юридически применимым и обязательным для всех.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "C'est la date à laquelle le texte a été présenté au public pour la première fois.",
+          "text_nl": "Het is de datum waarop de tekst voor het eerst aan het publiek werd gepresenteerd.",
+          "text_ru": "Это дата, когда текст был впервые представлен общественности.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'entrée en vigueur marque le moment où un texte légal acquiert force obligatoire et doit être respecté par les citoyens et les autorités.",
+      "explanation_nl": "De inwerkingtreding markeert het moment waarop een wettekst bindend wordt en moet worden nageleefd door burgers en autoriteiten.",
+      "explanation_ru": "Вступление в силу означает момент, когда правовой текст приобретает обязательную силу и должен соблюдаться гражданами и властями."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Un document qui \"entre en vigueur\" à une date précise, comme c'est le cas pour la réglementation routière, est généralement de quel type ?",
+      "text_nl": "Een document dat \"in werking treedt\" op een specifieke datum, zoals het geval is voor verkeersregelgeving, is over het algemeen van welk type?",
+      "text_ru": "Документ, который \"вступает в силу\" в определенную дату, как это происходит с правилами дорожного движения, обычно относится к какому типу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une simple recommandation ou un avis sans caractère obligatoire.",
+          "text_nl": "Een simpele aanbeveling of advies zonder verplichtend karakter.",
+          "text_ru": "Простая рекомендация или консультативное мнение без обязательного характера.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un acte législatif ou réglementaire ayant force de loi.",
+          "text_nl": "Een wetgevend of regelgevend besluit met kracht van wet.",
+          "text_ru": "Законодательный или нормативный акт, имеющий силу закона.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un projet de loi qui n'a pas encore été voté.",
+          "text_nl": "Een wetsontwerp dat nog niet is goedgekeurd.",
+          "text_ru": "Законопроект, который еще не был принят.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les textes qui \"entrent en vigueur\" sont des lois, des décrets ou des arrêtés qui ont été adoptés et publiés, et qui sont donc juridiquement contraignants.",
+      "explanation_nl": "Teksten die \"in werking treden\" zijn wetten, decreten of besluiten die zijn aangenomen en gepubliceerd, en dus juridisch bindend zijn.",
+      "explanation_ru": "Тексты, которые \"вступают в силу\", — это законы, указы или постановления, которые были приняты и опубликованы, и, следовательно, имеют юридически обязательную силу."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Pourquoi est-il important de spécifier la date d'entrée en vigueur d'un texte légal ?",
+      "text_nl": "Waarom is het belangrijk om de datum van inwerkingtreding van een wettekst te specificeren?",
+      "text_ru": "Почему важно указывать дату вступления в силу правового документа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Cela permet uniquement de classer les documents par ordre chronologique de rédaction pour les archives.",
+          "text_nl": "Dit dient uitsluitend om documenten chronologisch te archiveren volgens de opsteldatum.",
+          "text_ru": "Это позволяет только классифицировать документы в хронологическом порядке их составления для архивов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Cela informe clairement les citoyens et les autorités à partir de quand les dispositions du texte s'appliquent et doivent être respectées.",
+          "text_nl": "Dit informeert burgers en autoriteiten duidelijk vanaf wanneer de bepalingen van de tekst van toepassing zijn en moeten worden nageleefd.",
+          "text_ru": "Это четко информирует граждан и власти о том, с какого момента положения документа применяются и должны соблюдаться.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La date d'entrée en vigueur est un détail administratif sans impact direct sur les usagers.",
+          "text_nl": "De datum van inwerkingtreding is een administratief detail zonder directe impact op de gebruikers.",
+          "text_ru": "Дата вступления в силу — это административная деталь, не имеющая прямого влияния на пользователей.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La date d'entrée en vigueur est fondamentale car elle détermine le moment exact où la loi ou la réglementation devient opérationnelle et commence à produire ses effets juridiques. Avant cette date, les règles ne sont pas applicables.",
+      "explanation_nl": "De datum van inwerkingtreding is fundamenteel omdat deze het exacte moment bepaalt waarop de wet of regelgeving operationeel wordt en haar juridische gevolgen begint te produceren. Voor deze datum zijn de regels niet van toepassing.",
+      "explanation_ru": "Дата вступления в силу имеет основополагающее значение, поскольку она определяет точный момент, когда закон или положение становятся действующими и начинают производить свои юридические последствия. До этой даты правила не применимы."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "b35017039e50",
@@ -36,6 +148,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:50:15Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

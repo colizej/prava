@@ -26,7 +26,304 @@
   "anchor_id_fr": "8xttt138a0",
   "anchor_id_nl": "tjijhu1gaj",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une infraction grave en matière de circulation routière ?",
+      "text_nl": "Wat is een zware overtreding inzake het wegverkeer?",
+      "text_ru": "Что такое серьезное нарушение правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une infraction mineure qui n'a pas de conséquences",
+          "text_nl": "Een lichte overtreding die geen gevolgen heeft",
+          "text_ru": "Незначительное нарушение, которое не имеет последствий",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction qui peut avoir des conséquences graves sur la sécurité routière",
+          "text_nl": "Een overtreding die ernstige gevolgen kan hebben voor de verkeersveiligheid",
+          "text_ru": "Нарушение, которое может иметь серьезные последствия для безопасности дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une infraction qui n'est pas répertoriée dans les règlements",
+          "text_nl": "Een overtreding die niet is opgenomen in de reglementen",
+          "text_ru": "Нарушение, которое не указано в правилах",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une infraction grave en matière de circulation routière est une infraction qui peut avoir des conséquences graves sur la sécurité routière.",
+      "explanation_nl": "Een zware overtreding inzake het wegverkeer is een overtreding die ernstige gevolgen kan hebben voor de verkeersveiligheid.",
+      "explanation_ru": "Серьезное нарушение правил дорожного движения - это нарушение, которое может иметь серьезные последствия для безопасности дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un arrêté royal en matière de circulation routière ?",
+      "text_nl": "Wat is een koninklijk besluit inzake het wegverkeer?",
+      "text_ru": "Что такое королевский указ в области дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un texte législatif qui réglemente la circulation routière",
+          "text_nl": "Een wettelijk tekst die het wegverkeer regelt",
+          "text_ru": "Законодательный текст, регулирующий движение",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un texte qui n'a pas de valeur législative",
+          "text_nl": "Een tekst die geen wettelijke waarde heeft",
+          "text_ru": "Текст, не имеющий законодательной силы",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un texte qui concerne uniquement les véhicules",
+          "text_nl": "Een tekst die alleen over voertuigen gaat",
+          "text_ru": "Текст, касающийся только транспортных средств",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un arrêté royal en matière de circulation routière est un texte législatif qui réglemente la circulation routière.",
+      "explanation_nl": "Een koninklijk besluit inzake het wegverkeer is een wettelijk tekst die het wegverkeer regelt.",
+      "explanation_ru": "Королевский указ в области дорожного движения - это законодательный текст, регулирующий движение."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qu'une abrogation en matière de circulation routière ?",
+      "text_nl": "Wat is een opheffing inzake het wegverkeer?",
+      "text_ru": "Что такое отмена в области дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une modification d'un texte législatif",
+          "text_nl": "Een wijziging van een wettelijk tekst",
+          "text_ru": "Изменение законодательного текста",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une suppression d'un texte législatif",
+          "text_nl": "Een opheffing van een wettelijk tekst",
+          "text_ru": "Отмена законодательного текста",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une ajoute d'un texte législatif",
+          "text_nl": "Een toevoeging van een wettelijk tekst",
+          "text_ru": "Добавление законодательного текста",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une abrogation en matière de circulation routière est une suppression d'un texte législatif.",
+      "explanation_nl": "Een opheffing inzake het wegverkeer is een opheffing van een wettelijk tekst.",
+      "explanation_ru": "Отмена в области дорожного движения - это отмена законодательного текста."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes en train de conduire sur une route où la vitesse est limitée à 90 km/h. Qu'est-ce que vous devez faire si vous voyez un panneau de signalisation qui indique une zone de travaux avec une limite de vitesse réduite à 60 km/h ?",
+      "text_nl": "U rijdt op een weg waar de maximumsnelheid 90 km/h is. Wat moet u doen als u een verkeersbord ziet dat een werkzone aanduidt met een maximumsnelheid van 60 km/h?",
+      "text_ru": "Вы едете по дороге, на которой ограничение скорости составляет 90 км/ч. Что вы должны сделать, если видите знак, указывающий на зону работ с ограничением скорости 60 км/ч?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler à 90 km/h",
+          "text_nl": "Doorgaan met 90 km/h",
+          "text_ru": "Продолжать ехать со скоростью 90 км/ч",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réduire la vitesse à 60 km/h",
+          "text_nl": "Snelheid terugbrengen tot 60 km/h",
+          "text_ru": "Снизить скорость до 60 км/ч",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Augmenter la vitesse à 100 km/h",
+          "text_nl": "Snelheid verhogen tot 100 km/h",
+          "text_ru": "Увеличить скорость до 100 км/ч",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez réduire la vitesse à 60 km/h pour respecter la limite de vitesse réduite dans la zone de travaux.",
+      "explanation_nl": "U moet de snelheid terugbrengen tot 60 km/h om de maximumsnelheid in de werkzone te respecteren.",
+      "explanation_ru": "Вы должны снизить скорость до 60 км/ч, чтобы соблюдать ограничение скорости в зоне работ."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en train de conduire sur une route où la priorité est à droite. Qu'est-ce que vous devez faire si vous voyez un véhicule qui approche de la droite ?",
+      "text_nl": "U rijdt op een weg waar rechts voorrang heeft. Wat moet u doen als u een voertuig ziet dat van rechts nadert?",
+      "text_ru": "Вы едете по дороге, на которой приоритет у водителя, который находится справа. Что вы должны сделать, если видите транспортное средство, которое приближается справа?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler sans ralentir",
+          "text_nl": "Doorgaan met rijden zonder te vertragen",
+          "text_ru": "Продолжать ехать без замедления",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et céder le passage au véhicule qui approche de la droite",
+          "text_nl": "Vertragen en voorrang geven aan het voertuig dat van rechts nadert",
+          "text_ru": "Замедлить и уступить дорогу транспортному средству, которое приближается справа",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accélérer pour passer avant le véhicule qui approche de la droite",
+          "text_nl": "Versnellen om voor het voertuig te passeren dat van rechts nadert",
+          "text_ru": "Ускорить, чтобы обогнать транспортное средство, которое приближается справа",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez ralentir et céder le passage au véhicule qui approche de la droite pour respecter la priorité à droite.",
+      "explanation_nl": "U moet vertragen en voorrang geven aan het voertuig dat van rechts nadert om rechts voorrang te respecteren.",
+      "explanation_ru": "Вы должны замедлить и уступить дорогу транспортному средству, которое приближается справа, чтобы соблюдать приоритет у водителя, который находится справа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes en train de conduire sur une route où il y a un feu tricolore. Qu'est-ce que vous devez faire si le feu passe au orange ?",
+      "text_nl": "U rijdt op een weg waar een driekleurenverkeerslicht is. Wat moet u doen als het licht oranje wordt?",
+      "text_ru": "Вы едете по дороге, на которой установлен светофор с тремя цветами. Что вы должны сделать, если светофор перейдет в оранжевый режим?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler sans ralentir",
+          "text_nl": "Doorgaan met rijden zonder te vertragen",
+          "text_ru": "Продолжать ехать без замедления",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Ralentir et s'arrêter avant le feu si possible",
+          "text_nl": "Vertragen en stoppen voor het licht als dat mogelijk is",
+          "text_ru": "Замедлить и остановиться перед светофором, если это возможно",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Accélérer pour passer avant que le feu ne devienne rouge",
+          "text_nl": "Versnellen om voor het licht rood wordt te passeren",
+          "text_ru": "Ускорить, чтобы проехать перед тем, как светофор перейдет в красный режим",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez ralentir et essayer de vous arrêter avant le feu si possible pour éviter de passer au rouge.",
+      "explanation_nl": "U moet vertragen en proberen te stoppen voor het licht als dat mogelijk is om te voorkomen dat u door het rode licht rijdt.",
+      "explanation_ru": "Вы должны замедлить и попытаться остановиться перед светофором, если это возможно, чтобы избежать проезда на красный свет."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes en train de conduire sur une route où il y a des travaux en cours. Qu'est-ce que vous devez faire si vous voyez un panneau de signalisation qui indique une déviation ?",
+      "text_nl": "U rijdt op een weg waar er wegenwerken zijn. Wat moet u doen als u een verkeersbord ziet dat een omleiding aanduidt?",
+      "text_ru": "Вы едете по дороге, на которой проводятся ремонтные работы. Что вы должны сделать, если видите знак, указывающий на объезд?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Continuer à rouler sur la route principale",
+          "text_nl": "Doorgaan met rijden op de hoofdweg",
+          "text_ru": "Продолжать ехать по основной дороге",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Suivre la déviation indiquée par le panneau de signalisation",
+          "text_nl": "De omleiding volgen die door het verkeersbord wordt aangeduid",
+          "text_ru": "Следовать объезду, указанному на знаке",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Revenir en arrière pour chercher une autre route",
+          "text_nl": "Terugkeren om een andere weg te zoeken",
+          "text_ru": "Вернуться назад, чтобы найти другой путь",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez suivre la déviation indiquée par le panneau de signalisation pour éviter les travaux en cours.",
+      "explanation_nl": "U moet de omleiding volgen die door het verkeersbord wordt aangeduid om de wegenwerken te vermijden.",
+      "explanation_ru": "Вы должны следовать объезду, указанному на знаке, чтобы избежать ремонтных работ."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes en train de conduire sur une route où il y a un stop. Qu'est-ce que vous devez faire si vous arrivez à un stop en même temps qu'un autre véhicule ?",
+      "text_nl": "U rijdt op een weg waar een stop is. Wat moet u doen als u tegelijk met een ander voertuig bij de stop aankomt?",
+      "text_ru": "Вы едете по дороге, на которой установлен знак 'стоп'. Что вы должны сделать, если вы прибываете к 'стопу' одновременно с другим транспортным средством?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Passer avant l'autre véhicule",
+          "text_nl": "Voor het andere voertuig passeren",
+          "text_ru": "Проехать перед другим транспортным средством",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Céder le passage à l'autre véhicule",
+          "text_nl": "Voorrang geven aan het andere voertuig",
+          "text_ru": "Уступить дорогу другому транспортному средству",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "S'arrêter et attendre que l'autre véhicule parte",
+          "text_nl": "Stoppen en wachten tot het andere voertuig vertrekt",
+          "text_ru": "Остановиться и ждать, пока другое транспортное средство не тронется",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez céder le passage à l'autre véhicule pour éviter tout accident.",
+      "explanation_nl": "U moet voorrang geven aan het andere voertuig om een ongeval te vermijden.",
+      "explanation_ru": "Вы должны уступить дорогу другому транспортному средству, чтобы избежать аварии."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:10:54Z",
     "content_hash": "710a27755d97",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:56:01Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

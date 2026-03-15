@@ -140,7 +140,304 @@
   "anchor_id_fr": "klg4f00gzo",
   "anchor_id_nl": "odvbdqycvd",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'une infraction du troisième degré dans le code de la route belge ?",
+      "text_nl": "Wat is een overtreding van de derde graad in de Belgische verkeerswetgeving?",
+      "text_ru": "Что такое правонарушение третьей степени в бельгийском кодексе дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une infraction mineure qui n'entraîne pas de pénalité",
+          "text_nl": "Een lichte overtreding die geen sanctie met zich meebrengt",
+          "text_ru": "Незначительное правонарушение, не влекущее штрафа",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction grave qui entraîne des pénalités et des points de pénalité",
+          "text_nl": "Een ernstige overtreding die sancties en boeteplaatsen met zich meebrengt",
+          "text_ru": "Тяжкое правонарушение, влекущее штрафы и штрафные баллы",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une infraction qui n'est pas répertoriée dans le code de la route",
+          "text_nl": "Een overtreding die niet is opgenomen in de verkeerswetgeving",
+          "text_ru": "Правонарушение, не предусмотренное кодексом дорожного движения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une infraction du troisième degré est une infraction grave qui entraîne des pénalités et des points de pénalité.",
+      "explanation_nl": "Een overtreding van de derde graad is een ernstige overtreding die sancties en boeteplaatsen met zich meebrengt.",
+      "explanation_ru": "Правонарушение третьей степени - это тяжкое правонарушение, влекущее штрафы и штрафные баллы."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce que le panneau de signalisation C35 ?",
+      "text_nl": "Wat is het verkeersbord C35?",
+      "text_ru": "Что такое знак C35?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un panneau de signalisation de danger",
+          "text_nl": "Een gevaarsbord",
+          "text_ru": "Знак опасности",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un panneau de signalisation d'indication",
+          "text_nl": "Een indicatiebord",
+          "text_ru": "Знак указания",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un panneau de signalisation de prescription",
+          "text_nl": "Een voorschriftenbord",
+          "text_ru": "Знак предписания",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau de signalisation C35 est un panneau de signalisation d'indication.",
+      "explanation_nl": "Het verkeersbord C35 is een indicatiebord.",
+      "explanation_ru": "Знак C35 - это знак указания."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la différence entre les infractions du troisième degré en Région flamande et dans les autres régions ?",
+      "text_nl": "Wat is het verschil tussen de overtredingen van de derde graad in het Vlaams Gewest en in de andere gewesten?",
+      "text_ru": "В чем разница между правонарушениями третьей степени во Фламандском регионе и в других регионах?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il n'y a pas de différence",
+          "text_nl": "Er is geen verschil",
+          "text_ru": "Разницы нет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les points 47° et 48° sont remplacés par d'autres dispositions en Région flamande",
+          "text_nl": "De punten 47° en 48° worden in het Vlaams Gewest vervangen door andere bepalingen",
+          "text_ru": "Пункты 47° и 48° заменяются другими положениями во Фламандском регионе",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les infractions du troisième degré ne sont applicables qu'en Région flamande",
+          "text_nl": "De overtredingen van de derde graad zijn alleen van toepassing in het Vlaams Gewest",
+          "text_ru": "Правонарушения третьей степени применяются только во Фламандском регионе",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les points 47° et 48° sont remplacés par d'autres dispositions en Région flamande.",
+      "explanation_nl": "De punten 47° en 48° worden in het Vlaams Gewest vervangen door andere bepalingen.",
+      "explanation_ru": "Пункты 47° и 48° заменяются другими положениями во Фламандском регионе."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route où le panneau de signalisation C39 est affiché. Qu'est-ce que cela signifie pour vous ?",
+      "text_nl": "U rijdt op een weg waar het verkeersbord C39 wordt getoond. Wat betekent dit voor u?",
+      "text_ru": "Вы едете по дороге, где вывешен знак C39. Что это значит для вас?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez réduire votre vitesse",
+          "text_nl": "U moet uw snelheid verlagen",
+          "text_ru": "Вам необходимо снизить скорость",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez augmenter votre vitesse",
+          "text_nl": "U kunt uw snelheid verhogen",
+          "text_ru": "Вы можете увеличить скорость",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter",
+          "text_nl": "U moet stoppen",
+          "text_ru": "Вам необходимо остановиться",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau de signalisation C39 indique que vous devez réduire votre vitesse.",
+      "explanation_nl": "Het verkeersbord C39 geeft aan dat u uw snelheid moet verlagen.",
+      "explanation_ru": "Знак C39 указывает, что вам необходимо снизить скорость."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une route où il y a un panneau de signalisation d'indication. Qu'est-ce que cela signifie pour vous ?",
+      "text_nl": "U rijdt op een weg waar een indicatiebord staat. Wat betekent dit voor u?",
+      "text_ru": "Вы едете по дороге, где стоит знак указания. Что это значит для вас?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez suivre les instructions du panneau",
+          "text_nl": "U moet de instructies van het bord volgen",
+          "text_ru": "Вам необходимо следовать инструкциям знака",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez ignorer le panneau",
+          "text_nl": "U kunt het bord negeren",
+          "text_ru": "Вы можете игнорировать знак",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter",
+          "text_nl": "U moet stoppen",
+          "text_ru": "Вам необходимо остановиться",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un panneau de signalisation d'indication indique que vous devez suivre les instructions du panneau.",
+      "explanation_nl": "Een indicatiebord geeft aan dat u de instructies van het bord moet volgen.",
+      "explanation_ru": "Знак указания указывает, что вам необходимо следовать инструкциям знака."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route où il y a un panneau de signalisation de danger. Qu'est-ce que cela signifie pour vous ?",
+      "text_nl": "U rijdt op een weg waar een gevaarsbord staat. Wat betekent dit voor u?",
+      "text_ru": "Вы едете по дороге, где стоит знак опасности. Что это значит для вас?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez réduire votre vitesse et être prudent",
+          "text_nl": "U moet uw snelheid verlagen en voorzichtig zijn",
+          "text_ru": "Вам необходимо снизить скорость и быть осторожным",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez augmenter votre vitesse",
+          "text_nl": "U kunt uw snelheid verhogen",
+          "text_ru": "Вы можете увеличить скорость",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter",
+          "text_nl": "U moet stoppen",
+          "text_ru": "Вам необходимо остановиться",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un panneau de signalisation de danger indique que vous devez réduire votre vitesse et être prudent.",
+      "explanation_nl": "Een gevaarsbord geeft aan dat u uw snelheid moet verlagen en voorzichtig moet zijn.",
+      "explanation_ru": "Знак опасности указывает, что вам необходимо снизить скорость и быть осторожным."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une route où il y a un panneau de signalisation de prescription. Qu'est-ce que cela signifie pour vous ?",
+      "text_nl": "U rijdt op een weg waar een voorschriftenbord staat. Wat betekent dit voor u?",
+      "text_ru": "Вы едете по дороге, где стоит знак предписания. Что это значит для вас?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez suivre les instructions du panneau",
+          "text_nl": "U moet de instructies van het bord volgen",
+          "text_ru": "Вам необходимо следовать инструкциям знака",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez ignorer le panneau",
+          "text_nl": "U kunt het bord negeren",
+          "text_ru": "Вы можете игнорировать знак",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter",
+          "text_nl": "U moet stoppen",
+          "text_ru": "Вам необходимо остановиться",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un panneau de signalisation de prescription indique que vous devez suivre les instructions du panneau.",
+      "explanation_nl": "Een voorschriftenbord geeft aan dat u de instructies van het bord moet volgen.",
+      "explanation_ru": "Знак предписания указывает, что вам необходимо следовать инструкциям знака."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez sur une route où il y a un panneau de signalisation C35. Qu'est-ce que cela signifie pour vous ?",
+      "text_nl": "U rijdt op een weg waar het verkeersbord C35 staat. Wat betekent dit voor u?",
+      "text_ru": "Вы едете по дороге, где стоит знак C35. Что это значит для вас?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez réduire votre vitesse et être prudent",
+          "text_nl": "U moet uw snelheid verlagen en voorzichtig zijn",
+          "text_ru": "Вам необходимо снизить скорость и быть осторожным",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous pouvez augmenter votre vitesse",
+          "text_nl": "U kunt uw snelheid verhogen",
+          "text_ru": "Вы можете увеличить скорость",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez vous arrêter",
+          "text_nl": "U moet stoppen",
+          "text_ru": "Вам необходимо остановиться",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau de signalisation C35 indique que vous devez réduire votre vitesse et être prudent.",
+      "explanation_nl": "Het verkeersbord C35 geeft aan dat u uw snelheid moet verlagen en voorzichtig moet zijn.",
+      "explanation_ru": "Знак C35 указывает, что вам необходимо снизить скорость и быть осторожным."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:10:54Z",
     "content_hash": "5fcfb1163bc3",
@@ -150,6 +447,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:55:24Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

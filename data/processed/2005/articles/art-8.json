@@ -26,7 +26,304 @@
   "anchor_id_fr": "bpegabfecz",
   "anchor_id_nl": "gf4hfkfgnk",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qui est chargé de l'exécution de l'arrêté en ce qui concerne la justice ?",
+      "text_nl": "Wie is belast met de uitvoering van het besluit voor wat betreft justitie?",
+      "text_ru": "Кто负责 за исполнение распоряжения в части правосудия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de la Mobilité",
+          "text_nl": "De Minister van Mobiliteit",
+          "text_ru": "Министр мобильности",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre de la Justice",
+          "text_nl": "De Minister van Justitie",
+          "text_ru": "Министр юстиции",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre de l'Intérieur",
+          "text_nl": "De Minister van Binnenlandse Zaken",
+          "text_ru": "Министр внутренних дел",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le Ministre de la Justice est chargé de l'exécution de l'arrêté en ce qui concerne la justice.",
+      "explanation_nl": "De Minister van Justitie is belast met de uitvoering van het besluit voor wat betreft justitie.",
+      "explanation_ru": "Министр юстиции отвечает за исполнение распоряжения в части правосудия."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quels ministres sont chargés de l'exécution de l'arrêté ?",
+      "text_nl": "Welke ministers zijn belast met de uitvoering van het besluit?",
+      "text_ru": "Какие министры отвечают за исполнение распоряжения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de la Justice et le Ministre de l'Intérieur",
+          "text_nl": "De Minister van Justitie en de Minister van Binnenlandse Zaken",
+          "text_ru": "Министр юстиции и Министр внутренних дел",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre de la Justice, le Ministre de l'Intérieur et le Ministre de la Mobilité",
+          "text_nl": "De Minister van Justitie, de Minister van Binnenlandse Zaken en de Minister van Mobiliteit",
+          "text_ru": "Министр юстиции, Министр внутренних дел и Министр мобильности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre de la Mobilité et le Ministre de l'Intérieur",
+          "text_nl": "De Minister van Mobiliteit en de Minister van Binnenlandse Zaken",
+          "text_ru": "Министр мобильности и Министр внутренних дел",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les Ministres de la Justice, de l'Intérieur et de la Mobilité sont chargés de l'exécution de l'arrêté.",
+      "explanation_nl": "De Ministers van Justitie, Binnenlandse Zaken en Mobiliteit zijn belast met de uitvoering van het besluit.",
+      "explanation_ru": "Министры юстиции, внутренних дел и мобильности отвечают за исполнение распоряжения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la responsabilité de chaque ministre dans l'exécution de l'arrêté ?",
+      "text_nl": "Wat is de verantwoordelijkheid van elke minister bij de uitvoering van het besluit?",
+      "text_ru": "Какова ответственность каждого министра при исполнении распоряжения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Chaque ministre est responsable de l'exécution de l'arrêté dans son ensemble",
+          "text_nl": "Elke minister is verantwoordelijk voor de uitvoering van het besluit als geheel",
+          "text_ru": "Каждый министр отвечает за исполнение распоряжения в целом",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Chaque ministre est responsable de l'exécution de l'arrêté en ce qui le concerne",
+          "text_nl": "Elke minister is verantwoordelijk voor de uitvoering van het besluit voor wat hem betreft",
+          "text_ru": "Каждый министр отвечает за исполнение распоряжения в части, касающейся его",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les ministres sont responsables de l'exécution de l'arrêté de manière collective",
+          "text_nl": "De ministers zijn collectief verantwoordelijk voor de uitvoering van het besluit",
+          "text_ru": "Министры несут коллективную ответственность за исполнение распоряжения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Chaque ministre est responsable de l'exécution de l'arrêté en ce qui le concerne.",
+      "explanation_nl": "Elke minister is verantwoordelijk voor de uitvoering van het besluit voor wat hem betreft.",
+      "explanation_ru": "Каждый министр отвечает за исполнение распоряжения в части, касающейся его."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un citoyen souhaite savoir qui est responsable de l'exécution de l'arrêté en ce qui concerne la justice. Qui doit-il contacter ?",
+      "text_nl": "Een burger wil weten wie verantwoordelijk is voor de uitvoering van het besluit voor wat betreft justitie. Wie moet hij contacten?",
+      "text_ru": "Гражданин хочет знать, кто отвечает за исполнение распоряжения в части правосудия. Кому он должен обратиться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de la Mobilité",
+          "text_nl": "De Minister van Mobiliteit",
+          "text_ru": "Министр мобильности",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre de la Justice",
+          "text_nl": "De Minister van Justitie",
+          "text_ru": "Министр юстиции",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre de l'Intérieur",
+          "text_nl": "De Minister van Binnenlandse Zaken",
+          "text_ru": "Министр внутренних дел",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le citoyen doit contacter le Ministre de la Justice pour obtenir des informations sur l'exécution de l'arrêté en ce qui concerne la justice.",
+      "explanation_nl": "De burger moet contact opnemen met de Minister van Justitie om informatie te krijgen over de uitvoering van het besluit voor wat betreft justitie.",
+      "explanation_ru": "Гражданин должен обратиться к Министру юстиции, чтобы получить информацию об исполнении распоряжения в части правосудия."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un député souhaite savoir quels ministres sont chargés de l'exécution de l'arrêté. Qui doit-il interroger ?",
+      "text_nl": "Een parlementslid wil weten welke ministers belast zijn met de uitvoering van het besluit. Wie moet hij ondervragen?",
+      "text_ru": "Депутат хочет знать, какие министры отвечают за исполнение распоряжения. Кого он должен опросить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Premier Ministre",
+          "text_nl": "De Premier",
+          "text_ru": "Премьер-министр",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les Ministres de la Justice, de l'Intérieur et de la Mobilité",
+          "text_nl": "De Ministers van Justitie, Binnenlandse Zaken en Mobiliteit",
+          "text_ru": "Министры юстиции, внутренних дел и мобильности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre des Finances",
+          "text_nl": "De Minister van Financiën",
+          "text_ru": "Министр финансов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le député doit interroger les Ministres de la Justice, de l'Intérieur et de la Mobilité pour obtenir des informations sur l'exécution de l'arrêté.",
+      "explanation_nl": "Het parlementslid moet de Ministers van Justitie, Binnenlandse Zaken en Mobiliteit ondervragen om informatie te krijgen over de uitvoering van het besluit.",
+      "explanation_ru": "Депутат должен опросить Министров юстиции, внутренних дел и мобильности, чтобы получить информацию об исполнении распоряжения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un journaliste souhaite savoir comment les ministres sont responsables de l'exécution de l'arrêté. Quelle est la bonne réponse ?",
+      "text_nl": "Een journalist wil weten hoe de ministers verantwoordelijk zijn voor de uitvoering van het besluit. Wat is het juiste antwoord?",
+      "text_ru": "Журналист хочет знать, как министры отвечают за исполнение распоряжения. Какой правильный ответ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les ministres sont responsables de l'exécution de l'arrêté de manière collective",
+          "text_nl": "De ministers zijn collectief verantwoordelijk voor de uitvoering van het besluit",
+          "text_ru": "Министры несут коллективную ответственность за исполнение распоряжения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Chaque ministre est responsable de l'exécution de l'arrêté en ce qui le concerne",
+          "text_nl": "Elke minister is verantwoordelijk voor de uitvoering van het besluit voor wat hem betreft",
+          "text_ru": "Каждый министр отвечает за исполнение распоряжения в части, касающейся его",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les ministres ne sont pas responsables de l'exécution de l'arrêté",
+          "text_nl": "De ministers zijn niet verantwoordelijk voor de uitvoering van het besluit",
+          "text_ru": "Министры не несут ответственность за исполнение распоряжения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Chaque ministre est responsable de l'exécution de l'arrêté en ce qui le concerne.",
+      "explanation_nl": "Elke minister is verantwoordelijk voor de uitvoering van het besluit voor wat hem betreft.",
+      "explanation_ru": "Каждый министр отвечает за исполнение распоряжения в части, касающейся его."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un citoyen souhaite contacter le ministre responsable de l'exécution de l'arrêté en ce qui concerne la mobilité. Qui doit-il contacter ?",
+      "text_nl": "Een burger wil contact opnemen met de minister die verantwoordelijk is voor de uitvoering van het besluit voor wat betreft mobiliteit. Wie moet hij contacten?",
+      "text_ru": "Гражданин хочет обратиться к министру, ответскому за исполнение распоряжения в части мобильности. Кому он должен обратиться?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Ministre de la Justice",
+          "text_nl": "De Minister van Justitie",
+          "text_ru": "Министр юстиции",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le Ministre de l'Intérieur",
+          "text_nl": "De Minister van Binnenlandse Zaken",
+          "text_ru": "Министр внутренних дел",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre de la Mobilité",
+          "text_nl": "De Minister van Mobiliteit",
+          "text_ru": "Министр мобильности",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le citoyen doit contacter le Ministre de la Mobilité pour obtenir des informations sur l'exécution de l'arrêté en ce qui concerne la mobilité.",
+      "explanation_nl": "De burger moet contact opnemen met de Minister van Mobiliteit om informatie te krijgen over de uitvoering van het besluit voor wat betreft mobiliteit.",
+      "explanation_ru": "Гражданин должен обратиться к Министру мобильности, чтобы получить информацию об исполнении распоряжения в части мобильности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un député souhaite savoir quels sont les ministres responsables de l'exécution de l'arrêté en ce qui concerne la justice et la mobilité. Qui doit-il interroger ?",
+      "text_nl": "Een parlementslid wil weten welke ministers verantwoordelijk zijn voor de uitvoering van het besluit voor wat betreft justitie en mobiliteit. Wie moet hij ondervragen?",
+      "text_ru": "Депутат хочет знать, какие министры отвечают за исполнение распоряжения в части правосудия и мобильности. Кого он должен опросить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le Premier Ministre",
+          "text_nl": "De Premier",
+          "text_ru": "Премьер-министр",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les Ministres de la Justice et de la Mobilité",
+          "text_nl": "De Ministers van Justitie en Mobiliteit",
+          "text_ru": "Министры юстиции и мобильности",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le Ministre des Finances",
+          "text_nl": "De Minister van Financiën",
+          "text_ru": "Министр финансов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le député doit interroger les Ministres de la Justice et de la Mobilité pour obtenir des informations sur l'exécution de l'arrêté en ce qui concerne la justice et la mobilité.",
+      "explanation_nl": "Het parlementslid moet de Ministers van Justitie en Mobiliteit ondervragen om informatie te krijgen over de uitvoering van het besluit voor wat betreft justitie en mobiliteit.",
+      "explanation_ru": "Депутат должен опросить Министров юстиции и мобильности, чтобы получить информацию об исполнении распоряжения в части правосудия и мобильности."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:10:54Z",
     "content_hash": "1aa0671b91a7",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:56:27Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

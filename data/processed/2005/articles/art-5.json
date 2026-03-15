@@ -26,7 +26,304 @@
   "anchor_id_fr": "ryfknvwblg",
   "anchor_id_nl": "p00eaa8xyn",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qu'une infraction grave dans le contexte du code de la route ?",
+      "text_nl": "Wat is een zware overtreding in de context van de wegcode ?",
+      "text_ru": "Что такое тяжкое правонарушение в контексте правил дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une infraction mineure",
+          "text_nl": "Een lichte overtreding",
+          "text_ru": "Незначительное правонарушение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une infraction qui peut entraîner des conséquences graves",
+          "text_nl": "Een overtreding die ernstige gevolgen kan hebben",
+          "text_ru": "Правонарушение, которое может иметь серьезные последствия",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une infraction qui n'a pas d'importance",
+          "text_nl": "Een overtreding die geen belang heeft",
+          "text_ru": "Правонарушение, которое не имеет значения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Une infraction grave est une infraction qui peut entraîner des conséquences graves, telles que des amendes ou des suspensions de permis.",
+      "explanation_nl": "Een zware overtreding is een overtreding die ernstige gevolgen kan hebben, zoals boetes of intrekking van het rijbewijs.",
+      "explanation_ru": "Тяжкое правонарушение - это правонарушение, которое может иметь серьезные последствия, такие как штрафы или лишение права управления транспортным средством."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce que l'arrêté royal du 30 septembre 2005 ?",
+      "text_nl": "Wat is het koninklijk besluit van 30 september 2005 ?",
+      "text_ru": "Что такое королевский указ от 30 сентября 2005 года?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un arrêté royal qui désigne les infractions mineures",
+          "text_nl": "Een koninklijk besluit dat de lichte overtredingen aanwijst",
+          "text_ru": "Королевский указ, который определяет незначительные правонарушения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un arrêté royal qui désigne les infractions par degré",
+          "text_nl": "Een koninklijk besluit dat de overtredingen per graad aanwijst",
+          "text_ru": "Королевский указ, который определяет правонарушения по степени",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un arrêté royal qui supprime les infractions",
+          "text_nl": "Een koninklijk besluit dat de overtredingen schrapt",
+          "text_ru": "Королевский указ, который отменяет правонарушения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'arrêté royal du 30 septembre 2005 est un arrêté royal qui désigne les infractions par degré.",
+      "explanation_nl": "Het koninklijk besluit van 30 september 2005 is een koninklijk besluit dat de overtredingen per graad aanwijst.",
+      "explanation_ru": "Королевский указ от 30 сентября 2005 года - это королевский указ, который определяет правонарушения по степени."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Quelle est la différence entre les infractions graves et les infractions ?",
+      "text_nl": "Wat is het verschil tussen de zware overtredingen en de overtredingen ?",
+      "text_ru": "В чем разница между тяжкими правонарушениями и правонарушениями?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les infractions graves sont plus sévères que les infractions",
+          "text_nl": "De zware overtredingen zijn ernstiger dan de overtredingen",
+          "text_ru": "Тяжкие правонарушения более серьезны, чем правонарушения",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les infractions graves sont les mêmes que les infractions",
+          "text_nl": "De zware overtredingen zijn hetzelfde als de overtredingen",
+          "text_ru": "Тяжкие правонарушения такие же, как и правонарушения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les infractions graves sont moins sévères que les infractions",
+          "text_nl": "De zware overtredingen zijn minder ernstig dan de overtredingen",
+          "text_ru": "Тяжкие правонарушения менее серьезны, чем правонарушения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les infractions graves et les infractions sont les mêmes, la différence réside dans la façon dont elles sont désignées.",
+      "explanation_nl": "De zware overtredingen en de overtredingen zijn hetzelfde, het verschil ligt in de manier waarop ze worden aangewezen.",
+      "explanation_ru": "Тяжкие правонарушения и правонарушения одинаковы, разница заключается в том, как они определяются."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez à 50 km/h dans une zone où la vitesse est limitée à 30 km/h. Quelle est la conséquence de votre action ?",
+      "text_nl": "U rijdt 50 km/h in een zone waar de maximumsnelheid 30 km/h is. Wat is de consequentie van uw actie ?",
+      "text_ru": "Вы едете со скоростью 50 км/ч в зоне, где максимальная скорость составляет 30 км/ч. Какая последствие вашего действия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous recevrez une amende",
+          "text_nl": "U krijgt een boete",
+          "text_ru": "Вам будет выписан штраф",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ne recevrez pas d'amende",
+          "text_nl": "U krijgt geen boete",
+          "text_ru": "Вам не будет выписан штраф",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous serez arrêté",
+          "text_nl": "U wordt aangehouden",
+          "text_ru": "Вас арестуют",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous recevrez une amende pour excès de vitesse.",
+      "explanation_nl": "U krijgt een boete voor te hard rijden.",
+      "explanation_ru": "Вам будет выписан штраф за превышение скорости."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes impliqué dans un accident de la route et vous avez causé des dégâts matériels. Quelle est la procédure à suivre ?",
+      "text_nl": "U bent betrokken bij een verkeersongeluk en u heeft materiële schade veroorzaakt. Wat is de procedure die u moet volgen ?",
+      "text_ru": "Вы участвуете в дорожном происшествии и вы причинили материальный ущерб. Какая процедура должна быть соблюдена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez quitter les lieux de l'accident",
+          "text_nl": "U moet de plaats van het ongeval verlaten",
+          "text_ru": "Вам необходимо покинуть место происшествия",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez contacter la police et échanger vos coordonnées avec les autres parties impliquées",
+          "text_nl": "U moet de politie contacteren en uw gegevens uitwisselen met de andere betrokken partijen",
+          "text_ru": "Вам необходимо связаться с полицией и обменяться контактной информацией с другими участвующими сторонами",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez payer les dégâts matériels sur place",
+          "text_nl": "U moet de materiële schade ter plaatse betalen",
+          "text_ru": "Вам необходимо оплатить материальный ущерб на месте",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez contacter la police et échanger vos coordonnées avec les autres parties impliquées.",
+      "explanation_nl": "U moet de politie contacteren en uw gegevens uitwisselen met de andere betrokken partijen.",
+      "explanation_ru": "Вам необходимо связаться с полицией и обменяться контактной информацией с другими участвующими сторонами."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous conduisez un véhicule qui n'est pas en état de marche. Quelle est la conséquence de votre action ?",
+      "text_nl": "U rijdt een voertuig dat niet in orde is. Wat is de consequentie van uw actie ?",
+      "text_ru": "Вы управляете транспортным средством, которое не находится в рабочем состоянии. Какая последствие вашего действия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous recevrez une amende et votre véhicule sera immobilisé",
+          "text_nl": "U krijgt een boete en uw voertuig wordt in beslag genomen",
+          "text_ru": "Вам будет выписан штраф, и ваше транспортное средство будет арестовано",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous ne recevrez pas d'amende et vous pourrez continuer à conduire",
+          "text_nl": "U krijgt geen boete en u kunt doorrijden",
+          "text_ru": "Вам не будет выписан штраф, и вы сможете продолжать управлять транспортным средством",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous serez arrêté et votre permis de conduire sera suspendu",
+          "text_nl": "U wordt aangehouden en uw rijbewijs wordt ingetrokken",
+          "text_ru": "Вас арестуют, и ваше водительское удостоверение будет приостановлено",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous recevrez une amende et votre véhicule sera immobilisé pour non-conformité aux normes de sécurité.",
+      "explanation_nl": "U krijgt een boete en uw voertuig wordt in beslag genomen wegens niet-naleving van de veiligheidsnormen.",
+      "explanation_ru": "Вам будет выписан штраф, и ваше транспортное средство будет арестовано за несоответствие требованиям безопасности."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes à l'approche d'un feu rouge. Quelle est la règle de conduite à suivre ?",
+      "text_nl": "U nadert een rood verkeerslicht. Wat is de verkeersregel die u moet volgen ?",
+      "text_ru": "Вы подходите к красному светофору. Какое правило дорожного движения следует соблюдать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez accélérer pour passer le feu avant qu'il ne devienne rouge",
+          "text_nl": "U moet accelereren om het licht te passeren voordat het rood wordt",
+          "text_ru": "Вам необходимо ускориться, чтобы проехать светофор, прежде чем он станет красным",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez ralentir et vous arrêter avant le feu rouge",
+          "text_nl": "U moet vertragen en stoppen voor het rode licht",
+          "text_ru": "Вам необходимо减ить скорость и остановиться перед красным светофором",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez contourner le feu rouge",
+          "text_nl": "U moet het rode licht omrijden",
+          "text_ru": "Вам необходимо объехать красный светофор",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez ralentir et vous arrêter avant le feu rouge pour respecter la règle de conduite.",
+      "explanation_nl": "U moet vertragen en stoppen voor het rode licht om de verkeersregel te respecteren.",
+      "explanation_ru": "Вам необходимо减ить скорость и остановиться перед красным светофором, чтобы соблюдать правило дорожного движения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes sur une route à sens unique et vous devez tourner à gauche. Quelle est la procédure à suivre ?",
+      "text_nl": "U bent op een eenrichtingsweg en u moet linksaf slaan. Wat is de procedure die u moet volgen ?",
+      "text_ru": "Вы находитесь на дороге с односторонним движением и вам необходимо повернуть налево. Какая процедура должна быть соблюдена?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous devez continuer tout droit et chercher une intersection pour tourner à gauche",
+          "text_nl": "U moet rechtdoor rijden en een kruispunt zoeken om linksaf te slaan",
+          "text_ru": "Вам необходимо продолжать движение прямо и искать перекрёсток, чтобы повернуть налево",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez tourner à gauche immédiatement",
+          "text_nl": "U moet meteen linksaf slaan",
+          "text_ru": "Вам необходимо сразу повернуть налево",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez faire demi-tour pour tourner à gauche",
+          "text_nl": "U moet keren om linksaf te slaan",
+          "text_ru": "Вам необходимо развернуться, чтобы повернуть налево",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Vous devez continuer tout droit et chercher une intersection pour tourner à gauche, car les routes à sens unique ne permettent pas de tourner à gauche.",
+      "explanation_nl": "U moet rechtdoor rijden en een kruispunt zoeken om linksaf te slaan, omdat eenrichtingswegen het niet toelaten om linksaf te slaan.",
+      "explanation_ru": "Вам необходимо продолжать движение прямо и искать перекрёсток, чтобы повернуть налево, поскольку дороги с односторонним движением не допускают поворот налево."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:10:54Z",
     "content_hash": "81c3f2878e3a",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:55:47Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

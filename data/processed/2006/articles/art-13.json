@@ -26,7 +26,304 @@
   "anchor_id_fr": "njllbvprft",
   "anchor_id_nl": "jmua9trjm9",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qu'un apprentissage pour obtenir un permis de conduire en Belgique ?",
+      "text_nl": "Wat is een scholing om een rijbewijs te behalen in België?",
+      "text_ru": "Что такое обучение для получения водительских прав в Бельгии?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un examen théorique",
+          "text_nl": "Een theorie-examen",
+          "text_ru": "Теоретический экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un enseignement pratique dans une école de conduite ou avec un permis de conduire provisoire",
+          "text_nl": "Een praktisch onderricht in een rijschool of met een voorlopig rijbewijs",
+          "text_ru": "Практическое обучение в школе вождения или с временным водительским удостоверением",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un stage de conduite",
+          "text_nl": "Een rijstage",
+          "text_ru": "Стаж вождения",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'apprentissage pour obtenir un permis de conduire en Belgique peut se dérouler de deux manières : soit en suivant un enseignement pratique dans une école de conduite, soit avec un permis de conduire provisoire.",
+      "explanation_nl": "De scholing om een rijbewijs te behalen in België kan op twee manieren verlopen: hetzij door een praktisch onderricht in een rijschool te volgen, hetzij op basis van een voorlopig rijbewijs.",
+      "explanation_ru": "Обучение для получения водительских прав в Бельгии может проходить двумя способами: либо в школе вождения, либо с временным водительским удостоверением."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelles sont les catégories de permis de conduire qui nécessitent un apprentissage ?",
+      "text_nl": "Welke categorieën van rijbewijzen vereisen een scholing?",
+      "text_ru": "Какие категории водительских прав требуют обучения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Seulement la catégorie B",
+          "text_nl": "Alleen de categorie B",
+          "text_ru": "Только категория Б",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les catégories A3, A, B+E, C, C+E, D, D+E, C1, C1+E, D1 et D1+E",
+          "text_nl": "De categorieën A3, A, B+E, C, C+E, D, D+E, C1, C1+E, D1 en D1+E",
+          "text_ru": "Категории A3, A, B+E, C, C+E, D, D+E, C1, C1+E, D1 и D1+E",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Toutes les catégories",
+          "text_nl": "Alle categorieën",
+          "text_ru": "Все категории",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les catégories de permis de conduire qui nécessitent un apprentissage sont les catégories A3, A, B+E, C, C+E, D, D+E, C1, C1+E, D1 et D1+E.",
+      "explanation_nl": "De categorieën van rijbewijzen die een scholing vereisen zijn de categorieën A3, A, B+E, C, C+E, D, D+E, C1, C1+E, D1 en D1+E.",
+      "explanation_ru": "Категории водительских прав, требующие обучения, являются категориями A3, A, B+E, C, C+E, D, D+E, C1, C1+E, D1 и D1+E."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qu'un permis de conduire provisoire modèle 3 ?",
+      "text_nl": "Wat is een voorlopig rijbewijs model 3?",
+      "text_ru": "Что такое временное водительское удостоверение модели 3?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un permis de conduire définitif",
+          "text_nl": "Een definitief rijbewijs",
+          "text_ru": "Окончательное водительское удостоверение",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un permis de conduire provisoire pour les candidats qui suivent un enseignement pratique",
+          "text_nl": "Een voorlopig rijbewijs voor kandidaten die een praktisch onderricht volgen",
+          "text_ru": "Временное водительское удостоверение для кандидатов, проходящих практическое обучение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un permis de conduire international",
+          "text_nl": "Een internationaal rijbewijs",
+          "text_ru": "Международное водительское удостоверение",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire provisoire modèle 3 est un permis de conduire provisoire pour les candidats qui suivent un enseignement pratique.",
+      "explanation_nl": "Een voorlopig rijbewijs model 3 is een voorlopig rijbewijs voor kandidaten die een praktisch onderricht volgen.",
+      "explanation_ru": "Временное водительское удостоверение модели 3 является временным водительским удостоверением для кандидатов, проходящих практическое обучение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un candidat au permis de conduire de la catégorie B. Qu'est-ce que vous devez faire pour obtenir votre permis ?",
+      "text_nl": "U bent een kandidaat voor het rijbewijs van de categorie B. Wat moet u doen om uw rijbewijs te behalen?",
+      "text_ru": "Вы являетесь кандидатом на получение водительских прав категории Б. Что вам нужно сделать, чтобы получить водительское удостоверение?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre un enseignement pratique dans une école de conduite",
+          "text_nl": "Een praktisch onderricht volgen in een rijschool",
+          "text_ru": "Пройти практическое обучение в школе вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Passer un examen théorique",
+          "text_nl": "Een theorie-examen afleggen",
+          "text_ru": "Сдать теоретический экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Obtenir un permis de conduire provisoire modèle 3",
+          "text_nl": "Een voorlopig rijbewijs model 3 behalen",
+          "text_ru": "Получить временное водительское удостоверение модели 3",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour obtenir un permis de conduire de la catégorie B, vous devez suivre un enseignement pratique dans une école de conduite.",
+      "explanation_nl": "Om een rijbewijs van de categorie B te behalen, moet u een praktisch onderricht volgen in een rijschool.",
+      "explanation_ru": "Чтобы получить водительские права категории Б, вам необходимо пройти практическое обучение в школе вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes titulaire d'un permis de conduire avec la mention « automatique » et vous voulez obtenir un permis de conduire sans cette mention. Qu'est-ce que vous devez faire ?",
+      "text_nl": "U bent houder van een rijbewijs met de vermelding « automatisch » en u wilt een rijbewijs zonder deze vermelding behalen. Wat moet u doen?",
+      "text_ru": "Вы являетесь владельцем водительских прав с отметкой «автоматическая» и хотите получить водительские права без этой отметки. Что вам нужно сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre un enseignement pratique dans une école de conduite",
+          "text_nl": "Een praktisch onderricht volgen in een rijschool",
+          "text_ru": "Пройти практическое обучение в школе вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Passer un examen théorique",
+          "text_nl": "Een theorie-examen afleggen",
+          "text_ru": "Сдать теоретический экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Obtenir un permis de conduire provisoire modèle 3",
+          "text_nl": "Een voorlopig rijbewijs model 3 behalen",
+          "text_ru": "Получить временное водительское удостоверение модели 3",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour obtenir un permis de conduire sans la mention « automatique », vous devez suivre un enseignement pratique dans une école de conduite.",
+      "explanation_nl": "Om een rijbewijs zonder de vermelding « automatisch » te behalen, moet u een praktisch onderricht volgen in een rijschool.",
+      "explanation_ru": "Чтобы получить водительские права без отметки «автоматическая», вам необходимо пройти практическое обучение в школе вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes un candidat au permis de conduire de la catégorie C et vous avez déjà un permis de conduire de la catégorie B. Qu'est-ce que vous devez faire pour obtenir votre permis de conduire de la catégorie C ?",
+      "text_nl": "U bent een kandidaat voor het rijbewijs van de categorie C en u heeft al een rijbewijs van de categorie B. Wat moet u doen om uw rijbewijs van de categorie C te behalen?",
+      "text_ru": "Вы являетесь кандидатом на получение водительских прав категории С и у вас уже есть водительские права категории Б. Что вам нужно сделать, чтобы получить водительские права категории С?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre un enseignement pratique dans une école de conduite",
+          "text_nl": "Een praktisch onderricht volgen in een rijschool",
+          "text_ru": "Пройти практическое обучение в школе вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Passer un examen théorique",
+          "text_nl": "Een theorie-examen afleggen",
+          "text_ru": "Сдать теоретический экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Obtenir un permis de conduire provisoire modèle 3",
+          "text_nl": "Een voorlopig rijbewijs model 3 behalen",
+          "text_ru": "Получить временное водительское удостоверение модели 3",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour obtenir un permis de conduire de la catégorie C, vous devez suivre un enseignement pratique dans une école de conduite.",
+      "explanation_nl": "Om een rijbewijs van de categorie C te behalen, moet u een praktisch onderricht volgen in een rijschool.",
+      "explanation_ru": "Чтобы получить водительские права категории С, вам необходимо пройти практическое обучение в школе вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes un candidat au permis de conduire de la catégorie D et vous n'avez pas encore de permis de conduire. Qu'est-ce que vous devez faire pour obtenir votre permis de conduire de la catégorie D ?",
+      "text_nl": "U bent een kandidaat voor het rijbewijs van de categorie D en u heeft nog geen rijbewijs. Wat moet u doen om uw rijbewijs van de categorie D te behalen?",
+      "text_ru": "Вы являетесь кандидатом на получение водительских прав категории Д и у вас еще нет водительских прав. Что вам нужно сделать, чтобы получить водительские права категории Д?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre un enseignement pratique dans une école de conduite",
+          "text_nl": "Een praktisch onderricht volgen in een rijschool",
+          "text_ru": "Пройти практическое обучение в школе вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Passer un examen théorique",
+          "text_nl": "Een theorie-examen afleggen",
+          "text_ru": "Сдать теоретический экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Obtenir un permis de conduire provisoire modèle 3",
+          "text_nl": "Een voorlopig rijbewijs model 3 behalen",
+          "text_ru": "Получить временное водительское удостоверение модели 3",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour obtenir un permis de conduire de la catégorie D, vous devez suivre un enseignement pratique dans une école de conduite.",
+      "explanation_nl": "Om een rijbewijs van de categorie D te behalen, moet u een praktisch onderricht volgen in een rijschool.",
+      "explanation_ru": "Чтобы получить водительские права категории Д, вам необходимо пройти практическое обучение в школе вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes un candidat au permis de conduire de la catégorie C1 et vous avez déjà un permis de conduire de la catégorie B. Qu'est-ce que vous devez faire pour obtenir votre permis de conduire de la catégorie C1 ?",
+      "text_nl": "U bent een kandidaat voor het rijbewijs van de categorie C1 en u heeft al een rijbewijs van de categorie B. Wat moet u doen om uw rijbewijs van de categorie C1 te behalen?",
+      "text_ru": "Вы являетесь кандидатом на получение водительских прав категории С1 и у вас уже есть водительские права категории Б. Что вам нужно сделать, чтобы получить водительские права категории С1?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suivre un enseignement pratique dans une école de conduite",
+          "text_nl": "Een praktisch onderricht volgen in een rijschool",
+          "text_ru": "Пройти практическое обучение в школе вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Passer un examen théorique",
+          "text_nl": "Een theorie-examen afleggen",
+          "text_ru": "Сдать теоретический экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Obtenir un permis de conduire provisoire modèle 3",
+          "text_nl": "Een voorlopig rijbewijs model 3 behalen",
+          "text_ru": "Получить временное водительское удостоверение модели 3",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour obtenir un permis de conduire de la catégorie C1, vous devez suivre un enseignement pratique dans une école de conduite.",
+      "explanation_nl": "Om een rijbewijs van de categorie C1 te behalen, moet u een praktisch onderricht volgen in een rijschool.",
+      "explanation_ru": "Чтобы получить водительские права категории С1, вам необходимо пройти практическое обучение в школе вождения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "32d95f19e3fc",
@@ -36,6 +333,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:56:41Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

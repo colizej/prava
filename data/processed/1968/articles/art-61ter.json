@@ -29,7 +29,230 @@
   "anchor_id_fr": "h2i5al1i1v",
   "anchor_id_nl": "ammunoahpk",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le rôle principal d'un médecin lorsqu'une personne invoque une raison légitime pour refuser un test salivaire ou une analyse de salive ?",
+      "text_nl": "Wat is de voornaamste rol van een arts wanneer een persoon een wettige reden inroept voor het weigeren van een speekseltest of speekselanalyse?",
+      "text_ru": "Какова основная роль врача, когда лицо ссылается на уважительную причину для отказа от слюнного теста или анализа слюны?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Effectuer lui-même le test salivaire à la place de la personne.",
+          "text_nl": "Zelf de speekseltest uitvoeren in plaats van de persoon.",
+          "text_ru": "Самостоятельно провести слюнной тест вместо человека.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Juger si la raison invoquée pour le refus est légitime.",
+          "text_nl": "Beoordelen of de ingeroepen reden voor de weigering wettig is.",
+          "text_ru": "Оценить, является ли заявленная причина отказа уважительной.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Signaler le refus aux autorités sans évaluation supplémentaire.",
+          "text_nl": "De weigering melden aan de autoriteiten zonder verdere beoordeling.",
+          "text_ru": "Сообщить об отказе властям без дополнительной оценки.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si une personne invoque un motif légitime pour refuser un test salivaire, un médecin est requis pour juger de la légitimité de ce motif.",
+      "explanation_nl": "Wanneer een persoon een wettige reden inroept voor het weigeren van een speekseltest, wordt een arts gevorderd om het ingeroepen motief te beoordelen.",
+      "explanation_ru": "Если лицо ссылается на уважительную причину для отказа от слюнного теста, требуется врач для оценки обоснованности этой причины."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Si la raison légitime invoquée pour refuser un test salivaire est couverte par le secret médical, qu'est-ce que le médecin est autorisé à en révéler ?",
+      "text_nl": "Als de wettige reden die wordt ingeroepen voor het weigeren van een speekseltest onder het medisch geheim valt, wat mag de arts dan hierover onthullen?",
+      "text_ru": "Если уважительная причина отказа от слюнного теста подпадает под врачебную тайну, что врач имеет право раскрыть по этому поводу?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le médecin doit toujours révéler tous les détails de la raison aux autorités.",
+          "text_nl": "De arts moet altijd alle details van de reden aan de autoriteiten onthullen.",
+          "text_ru": "Врач всегда должен раскрывать властям все детали причины.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le médecin peut révéler la raison uniquement si elle confirme une consommation de drogues.",
+          "text_nl": "De arts mag de reden alleen onthullen als deze drugsgebruik bevestigt.",
+          "text_ru": "Врач может раскрыть причину только в случае подтверждения употребления наркотиков.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le médecin ne peut pas révéler le contenu de la raison.",
+          "text_nl": "De arts mag de inhoud van de reden niet onthullen.",
+          "text_ru": "Врач не может раскрывать содержание причины.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Le contenu d'un motif légitime ne peut être révélé par le médecin s'il est couvert par le secret médical.",
+      "explanation_nl": "De inhoud van een wettige reden mag door de geneesheer niet worden onthuld als ze door het medisch geheim wordt gedekt.",
+      "explanation_ru": "Содержание уважительной причины не может быть раскрыто врачом, если оно подпадает под врачебную тайну."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle situation n'est pas considérée comme une forme de refus de se soumettre à un test salivaire ou une analyse de salive ?",
+      "text_nl": "Welke situatie wordt niet beschouwd als een vorm van weigering om een speekseltest of speekselanalyse te ondergaan?",
+      "text_ru": "Какая ситуация не считается формой отказа от прохождения слюнного теста или анализа слюны?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Déclarer ne pas vouloir faire le test pour des raisons personnelles.",
+          "text_nl": "Verklaren de test niet te willen doen om persoonlijke redenen.",
+          "text_ru": "Заявить об отказе проходить тест по личным причинам.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Être dans l'incapacité pratique de collecter suffisamment de salive pour le test.",
+          "text_nl": "Het praktisch onmogelijk vinden om voldoende speeksel te verzamelen voor de test.",
+          "text_ru": "Испытывать практическую невозможность собрать достаточно слюны для теста.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Refuser le test en affirmant qu'il porte atteinte à la vie privée sans justification médicale.",
+          "text_nl": "De test weigeren met de bewering dat deze de privacy schendt zonder medische rechtvaardiging.",
+          "text_ru": "Отказаться от теста, утверждая, что он нарушает частную жизнь без медицинского обоснования.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'impossibilité pratique de collecter assez de salive pour exécuter le test salivaire ou l'analyse de salive n'est pas considérée comme une forme de refus.",
+      "explanation_nl": "De praktische onmogelijkheid voldoende speeksel te collecteren om de speekseltest of de speekselanalyse uit te voeren wordt niet beschouwd als een vorm van weigering.",
+      "explanation_ru": "Практическая невозможность собрать достаточно слюны для проведения слюнного теста или анализа слюны не считается формой отказа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous refusez un test salivaire en invoquant une raison médicale. Un médecin est appelé pour évaluer cette raison, mais conclut qu'elle n'est pas fondée. Qui prend en charge les frais de l'intervention du médecin ?",
+      "text_nl": "U weigert een speekseltest door een medische reden in te roepen. Een arts wordt ingeschakeld om deze reden te beoordelen, maar komt tot de conclusie dat deze ongegrond is. Wie draagt de kosten van de tussenkomst van de arts?",
+      "text_ru": "Вы отказываетесь от слюнного теста, ссылаясь на медицинскую причину. Приглашенный врач оценивает эту причину, но приходит к выводу, что она необоснованна. Кто несет расходы за вызов врача?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les frais sont toujours à la charge de l'État.",
+          "text_nl": "De kosten zijn altijd ten laste van de staat.",
+          "text_ru": "Расходы всегда покрываются государством.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les frais sont à votre charge, car votre refus n'était pas fondé.",
+          "text_nl": "De kosten zijn voor uw rekening, aangezien uw weigering ongegrond was.",
+          "text_ru": "Расходы несете вы, так как ваш отказ был необоснован.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les frais sont couverts par l'assurance du médecin.",
+          "text_nl": "De kosten worden gedekt door de verzekering van de arts.",
+          "text_ru": "Расходы покрываются страховкой врача.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si le refus d'un test salivaire n'est pas fondé, les frais pour l'intervention du médecin sont à la charge de la personne examinée.",
+      "explanation_nl": "Indien de weigering van een speekseltest niet gegrond was, zijn de kosten voor de tussenkomst van de geneesheer ten laste van de onderzochte persoon.",
+      "explanation_ru": "Если отказ от слюнного теста необоснован, расходы на вмешательство врача несет обследуемое лицо."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Lors d'un contrôle, on vous demande de subir un test salivaire, mais malgré plusieurs tentatives, vous êtes physiquement incapable de produire suffisamment de salive pour le test. Une analyse de sang ultérieure confirme une infraction liée à la consommation de drogues. Qui est responsable des frais du test salivaire initial ?",
+      "text_nl": "Tijdens een controle wordt u gevraagd een speekseltest te ondergaan, maar ondanks meerdere pogingen bent u fysiek niet in staat om voldoende speeksel te produceren voor de test. Een daaropvolgende bloedanalyse bevestigt een overtreding gerelateerd aan drugsgebruik. Wie is verantwoordelijk voor de kosten van de initiële speekseltest?",
+      "text_ru": "Во время проверки вас просят пройти слюнной тест, но, несмотря на несколько попыток, вы физически не можете предоставить достаточно слюны для теста. Последующий анализ крови подтверждает нарушение, связанное с употреблением наркотиков. Кто несет ответственность за расходы на первоначальный слюнной тест?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les frais du test salivaire sont à la charge de l'État, car vous ne pouviez pas fournir de salive physiquement.",
+          "text_nl": "De kosten van de speekseltest zijn ten laste van de staat, omdat u fysiek geen speeksel kon leveren.",
+          "text_ru": "Расходы на слюнной тест несет государство, так как вы физически не могли предоставить слюну.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les frais du test salivaire sont à votre charge, car l'infraction a été prouvée par l'analyse de sang.",
+          "text_nl": "De kosten van de speekseltest zijn voor uw rekening, omdat de overtreding door de bloedanalyse bewezen is.",
+          "text_ru": "Расходы на слюнной тест несете вы, так как нарушение было доказано анализом крови.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les frais du test salivaire sont toujours gratuits.",
+          "text_nl": "De kosten van de speekseltest zijn altijd gratis.",
+          "text_ru": "Расходы на слюнной тест всегда бесплатны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même si l'impossibilité pratique de collecter de la salive n'est pas un refus, les frais du test salivaire sont à la charge de la personne si l'infraction est établie au moyen d'une analyse de sang.",
+      "explanation_nl": "Hoewel de praktische onmogelijkheid om speeksel te verzamelen geen weigering is, zijn de kosten van de speekseltest ten laste van de onderzochte persoon indien de overtreding door middel van een bloedanalyse bewezen is.",
+      "explanation_ru": "Даже если практическая невозможность собрать слюну не является отказом, расходы на слюнной тест несет лицо, если нарушение установлено с помощью анализа крови."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes arrêté et on vous demande d'effectuer un test salivaire. Vous informez les autorités que vous avez une condition médicale spécifique qui vous empêche de subir le test, ce que vous considérez comme une raison légitime. Un médecin est appelé pour évaluer votre affirmation. Si cette condition médicale est couverte par le secret médical, que communiquera le médecin aux autorités concernant la nature de votre condition ?",
+      "text_nl": "U wordt aangehouden en gevraagd een speekseltest uit te voeren. U informeert de autoriteiten dat u een specifieke medische aandoening heeft die u verhindert de test te ondergaan, wat u als een wettige reden beschouwt. Een arts wordt ingeschakeld om uw bewering te beoordelen. Als deze medische aandoening onder het medisch geheim valt, wat zal de arts dan aan de autoriteiten communiceren over de aard van uw aandoening?",
+      "text_ru": "Вас останавливают и просят пройти слюнной тест. Вы сообщаете властям, что у вас есть определенное медицинское состояние, которое мешает вам пройти тест, что вы считаете уважительной причиной. Приглашается врач для оценки вашего заявления. Если это медицинское состояние подпадает под врачебную тайну, что врач сообщит властям о характере вашего состояния?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le médecin expliquera en détail votre condition médicale aux autorités pour justifier le refus.",
+          "text_nl": "De arts zal uw medische aandoening gedetailleerd aan de autoriteiten uitleggen om de weigering te rechtvaardigen.",
+          "text_ru": "Врач подробно объяснит властям ваше медицинское состояние для обоснования отказа.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le médecin confirmera si la raison est légitime ou non, mais ne divulguera pas les détails de votre condition médicale.",
+          "text_nl": "De arts zal bevestigen of de reden wettig is of niet, maar zal de details van uw medische aandoening niet bekendmaken.",
+          "text_ru": "Врач подтвердит, является ли причина уважительной или нет, но не раскроет детали вашего медицинского состояния.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le médecin refusera d'évaluer la légitimité de votre raison si elle est couverte par le secret médical.",
+          "text_nl": "De arts zal weigeren de wettigheid van uw reden te beoordelen als deze onder het medisch geheim valt.",
+          "text_ru": "Врач откажется оценивать обоснованность вашей причины, если она подпадает под врачебную тайну.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le médecin doit juger du motif invoqué, mais si ce motif est couvert par le secret médical, il ne peut en révéler le contenu. Il confirmera donc la légitimité sans en divulguer les détails.",
+      "explanation_nl": "De arts moet het ingeroepen motief beoordelen, maar als dit motief door het medisch geheim wordt gedekt, mag hij de inhoud ervan niet onthullen. Hij zal dus de wettigheid bevestigen zonder de details bekend te maken.",
+      "explanation_ru": "Врач должен оценить заявленную причину, но если эта причина подпадает под врачебную тайну, он не может раскрывать ее содержание. Таким образом, он подтвердит обоснованность, не раскрывая деталей."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "e26ace175363",
@@ -39,6 +262,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:49:00Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 6
   }
 }

@@ -29,7 +29,304 @@
   "anchor_id_fr": "fnrjzj6bzw",
   "anchor_id_nl": "qgbzmvz7vl",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qui est mentionné sur le permis de conduire en ce qui concerne la durée de validité administrative de chaque catégorie ?",
+      "text_nl": "Wat wordt op het rijbewijs vermeld met betrekking tot de administratieve geldigheidsduur van elke categorie ?",
+      "text_ru": "Что указано в водительском удостоверении относительно административного срока действия каждой категории?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La date de naissance du conducteur",
+          "text_nl": "De geboortedatum van de bestuurder",
+          "text_ru": "Дата рождения водителя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La durée de validité administrative et la date de fin de validité",
+          "text_nl": "De administratieve geldigheidsduur en de datum waarop de geldigheidsduur afloopt",
+          "text_ru": "Административный срок действия и дата окончания срока действия",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le numéro de téléphone du conducteur",
+          "text_nl": "Het telefoonnummer van de bestuurder",
+          "text_ru": "Номер телефона водителя",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée de validité administrative et la date de fin de validité de chaque catégorie sont mentionnées sur le permis de conduire.",
+      "explanation_nl": "De administratieve geldigheidsduur en de datum waarop de geldigheidsduur afloopt voor elke categorie worden op het rijbewijs vermeld.",
+      "explanation_ru": "Административный срок действия и дата окончания срока действия каждой категории указаны в водительском удостоверении."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui se passe avec la durée de validité du permis de conduire lorsque le titulaire sollicite un nouveau permis de conduire ?",
+      "text_nl": "Wat gebeurt er met de geldigheidsduur van het rijbewijs wanneer de houder een nieuw rijbewijs aanvraagt ?",
+      "text_ru": "Что происходит с сроком действия водительского удостоверения, когда владелец запрашивает новый документ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La durée de validité est réduite",
+          "text_nl": "De geldigheidsduur wordt verkort",
+          "text_ru": "Срок действия уменьшается",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La durée de validité est prolongée",
+          "text_nl": "De geldigheidsduur wordt verlengd",
+          "text_ru": "Срок действия продлевается",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "La procédure prévue est d'application",
+          "text_nl": "De voorgeschreven procedure is van toepassing",
+          "text_ru": "Применяется предусмотренная процедура",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "La procédure prévue est d'application lorsque le titulaire sollicite un nouveau permis de conduire.",
+      "explanation_nl": "De voorgeschreven procedure is van toepassing wanneer de houder een nieuw rijbewijs aanvraagt.",
+      "explanation_ru": "Применяется предусмотренная процедура, когда владелец запрашивает новый документ."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qui est retranscrit lors de tout remplacement du permis de conduire ?",
+      "text_nl": "Wat wordt overgenomen bij elke vervanging van het rijbewijs ?",
+      "text_ru": "Что переоформляется при каждом замене водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La date de naissance du conducteur",
+          "text_nl": "De geboortedatum van de bestuurder",
+          "text_ru": "Дата рождения водителя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La date de première délivrance de chaque catégorie",
+          "text_nl": "De eerste afgiftedatum van elke categorie",
+          "text_ru": "Дата первого выдачи каждой категории",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le numéro de téléphone du conducteur",
+          "text_nl": "Het telefoonnummer van de bestuurder",
+          "text_ru": "Номер телефона водителя",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La date de première délivrance de chaque catégorie est retranscrite lors de tout remplacement du permis de conduire.",
+      "explanation_nl": "De eerste afgiftedatum van elke categorie wordt overgenomen bij elke vervanging van het rijbewijs.",
+      "explanation_ru": "Дата первого выдачи каждой категории переоформляется при каждом замене водительского удостоверения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a un permis de conduire avec une catégorie A valable jusqu'au 01/01/2025 et une catégorie B valable jusqu'au 01/01/2028. Quelle est la durée de validité administrative du permis de conduire ?",
+      "text_nl": "Een bestuurder heeft een rijbewijs met een categorie A die geldig is tot 01/01/2025 en een categorie B die geldig is tot 01/01/2028. Wat is de administratieve geldigheidsduur van het rijbewijs ?",
+      "text_ru": "У водителя есть водительское удостоверение с категорией А, действительной до 01/01/2025, и категорией Б, действительной до 01/01/2028. Какой срок действия водительского удостоверения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Jusqu'au 01/01/2025",
+          "text_nl": "Tot 01/01/2025",
+          "text_ru": "До 01/01/2025",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Jusqu'au 01/01/2028",
+          "text_nl": "Tot 01/01/2028",
+          "text_ru": "До 01/01/2028",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Jusqu'au 01/01/2030",
+          "text_nl": "Tot 01/01/2030",
+          "text_ru": "До 01/01/2030",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée de validité administrative du permis de conduire est limitée à la durée de la validité de la catégorie pour laquelle le permis de conduire est le plus longtemps valable.",
+      "explanation_nl": "De administratieve geldigheidsduur van het rijbewijs wordt beperkt tot de geldigheidsduur van de categorie waarvoor het rijbewijs het langst geldig wordt verklaard.",
+      "explanation_ru": "Срок действия водительского удостоверения ограничен сроком действия категории, для которой водительское удостоверение действует дольше всего."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a un permis de conduire qui expire dans 6 mois. Qu'est-ce qu'il doit faire pour continuer à conduire ?",
+      "text_nl": "Een bestuurder heeft een rijbewijs dat over 6 maanden verloopt. Wat moet hij doen om te kunnen blijven rijden ?",
+      "text_ru": "У водителя есть водительское удостоверение, которое истечет через 6 месяцев. Что ему нужно сделать, чтобы продолжать водить?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien, le permis de conduire se renouvelle automatiquement",
+          "text_nl": "Niets, het rijbewijs wordt automatisch verlengd",
+          "text_ru": "Ничего, водительское удостоверение автоматически продлевается",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander un nouveau permis de conduire",
+          "text_nl": "Een nieuw rijbewijs aanvragen",
+          "text_ru": "Запросить новый документ",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer une amende",
+          "text_nl": "Een boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit demander un nouveau permis de conduire pour continuer à conduire.",
+      "explanation_nl": "De bestuurder moet een nieuw rijbewijs aanvragen om te kunnen blijven rijden.",
+      "explanation_ru": "Водитель должен запросить новый документ, чтобы продолжать водить."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur a perdu son permis de conduire. Qu'est-ce qu'il doit faire pour obtenir un nouveau permis de conduire ?",
+      "text_nl": "Een bestuurder is zijn rijbewijs kwijtgeraakt. Wat moet hij doen om een nieuw rijbewijs te krijgen ?",
+      "text_ru": "У водителя потеряно водительское удостоверение. Что ему нужно сделать, чтобы получить новый документ?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Se rendre au commissariat de police",
+          "text_nl": "Naar het politiebureau gaan",
+          "text_ru": "Отправиться в警察ский участок",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander un nouveau permis de conduire auprès de l'autorité compétente",
+          "text_nl": "Een nieuw rijbewijs aanvragen bij de bevoegde autoriteit",
+          "text_ru": "Запросить новый документ у соответствующего органа",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Contacter son assurance",
+          "text_nl": "Zijn verzekering contacteren",
+          "text_ru": "Связаться со страховкой",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit demander un nouveau permis de conduire auprès de l'autorité compétente.",
+      "explanation_nl": "De bestuurder moet een nieuw rijbewijs aanvragen bij de bevoegde autoriteit.",
+      "explanation_ru": "Водитель должен запросить новый документ у соответствующего органа."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un conducteur a un permis de conduire avec une restriction. Qu'est-ce que cela signifie ?",
+      "text_nl": "Een bestuurder heeft een rijbewijs met een beperking. Wat betekent dit ?",
+      "text_ru": "У водителя есть водительское удостоверение с ограничением. Что это значит?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Le conducteur peut conduire sans restriction",
+          "text_nl": "De bestuurder kan onbeperkt rijden",
+          "text_ru": "Водитель может водить без ограничений",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Le conducteur doit respecter certaines conditions pour conduire",
+          "text_nl": "De bestuurder moet bepaalde voorwaarden respecteren om te rijden",
+          "text_ru": "Водитель должен соблюдать определенные условия для вождения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le conducteur ne peut pas conduire",
+          "text_nl": "De bestuurder mag niet rijden",
+          "text_ru": "Водитель не может водить",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit respecter certaines conditions pour conduire.",
+      "explanation_nl": "De bestuurder moet bepaalde voorwaarden respecteren om te rijden.",
+      "explanation_ru": "Водитель должен соблюдать определенные условия для вождения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur a un permis de conduire qui est sur le point d'expirer. Qu'est-ce qu'il doit faire ?",
+      "text_nl": "Een bestuurder heeft een rijbewijs dat bijna verloopt. Wat moet hij doen ?",
+      "text_ru": "У водителя есть водительское удостоверение, которое скоро истечет. Что ему нужно сделать?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Rien, le permis de conduire se renouvelle automatiquement",
+          "text_nl": "Niets, het rijbewijs wordt automatisch verlengd",
+          "text_ru": "Ничего, водительское удостоверение автоматически продлевается",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Demander un nouveau permis de conduire",
+          "text_nl": "Een nieuw rijbewijs aanvragen",
+          "text_ru": "Запросить новый документ",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Payer une amende",
+          "text_nl": "Een boete betalen",
+          "text_ru": "Заплатить штраф",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit demander un nouveau permis de conduire.",
+      "explanation_nl": "De bestuurder moet een nieuw rijbewijs aanvragen.",
+      "explanation_ru": "Водитель должен запросить новый документ."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "d2034b3b4153",
@@ -39,6 +336,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:53:53Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 8
   }
 }

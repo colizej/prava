@@ -26,7 +26,230 @@
   "anchor_id_fr": "54rmkcpyn9",
   "anchor_id_nl": "do4uefcbeq",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Qu'est-ce qui se passe lorsque les dispositions du présent arrêté diffèrent de celles de l'arrêté royal sur la police de la circulation routière ?",
+      "text_nl": "Wat gebeurt er wanneer de bepalingen van dit besluit afwijken van die van het koninklijk besluit over de politie van het wegverkeer?",
+      "text_ru": "Что происходит, когда положения настоящего постановления отличаются от положений королевского постановления о полицейском регулировании дорожного движения?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les dispositions de l'arrêté royal sont valables",
+          "text_nl": "De bepalingen van het koninklijk besluit zijn van toepassing",
+          "text_ru": "Положения королевского постановления действительны",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les dispositions du présent arrêté sont valables",
+          "text_nl": "De bepalingen van dit besluit zijn van toepassing",
+          "text_ru": "Положения настоящего постановления действительны",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les deux dispositions sont invalides",
+          "text_nl": "Beide bepalingen zijn ongeldig",
+          "text_ru": "Оба положения недействительны",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque les dispositions du présent arrêté diffèrent de celles de l'arrêté royal, les dispositions du présent arrêté sont valables.",
+      "explanation_nl": "Wanneer de bepalingen van dit besluit afwijken van die van het koninklijk besluit, dan gelden de bepalingen van dit besluit.",
+      "explanation_ru": "Когда положения настоящего постановления отличаются от положений королевского постановления, положения настоящего постановления действительны."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est le but de l'arrêté royal du 1er décembre 1975 ?",
+      "text_nl": "Wat is het doel van het koninklijk besluit van 1 december 1975?",
+      "text_ru": "Какова цель королевского постановления от 1 декабря 1975 года?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Réglementer l'immatriculation des véhicules",
+          "text_nl": "Regelen van de inschrijving van voertuigen",
+          "text_ru": "Регулирование регистрации транспортных средств",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Réglementer la police de la circulation routière",
+          "text_nl": "Regelen van de politie van het wegverkeer",
+          "text_ru": "Регулирование полицейского регулирования дорожного движения",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Réglementer l'utilisation des plaques commerciales",
+          "text_nl": "Regelen van het gebruik van commerciële platen",
+          "text_ru": "Регулирование использования коммерческих плакатов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'arrêté royal du 1er décembre 1975 vise à réglementer la police de la circulation routière.",
+      "explanation_nl": "Het koninklijk besluit van 1 december 1975 heeft tot doel de politie van het wegverkeer te regelen.",
+      "explanation_ru": "Королевское постановление от 1 декабря 1975 года направлено на регулирование полицейского регулирования дорожного движения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 3,
+      "text_fr": "Qu'est-ce qui est régi par l'arrêté royal du 20 juillet 2001 ?",
+      "text_nl": "Wat wordt geregeld door het koninklijk besluit van 20 juli 2001?",
+      "text_ru": "Что регулируется королевским постановлением от 20 июля 2001 года?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'immatriculation des véhicules",
+          "text_nl": "De inschrijving van voertuigen",
+          "text_ru": "Регистрация транспортных средств",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "La police de la circulation routière",
+          "text_nl": "De politie van het wegverkeer",
+          "text_ru": "Полицейское регулирование дорожного движения",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "L'utilisation des plaques commerciales",
+          "text_nl": "Het gebruik van commerciële platen",
+          "text_ru": "Использование коммерческих плакатов",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'arrêté royal du 20 juillet 2001 régit l'immatriculation des véhicules.",
+      "explanation_nl": "Het koninklijk besluit van 20 juli 2001 regelt de inschrijving van voertuigen.",
+      "explanation_ru": "Королевское постановление от 20 июля 2001 года регулирует регистрацию транспортных средств."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Un conducteur doit-il suivre les dispositions de l'arrêté royal sur la police de la circulation routière ou celles du présent arrêté si elles diffèrent ?",
+      "text_nl": "Moet een bestuurder de bepalingen van het koninklijk besluit over de politie van het wegverkeer volgen of die van dit besluit als ze afwijken?",
+      "text_ru": "Должен ли водитель следовать положениям королевского постановления о полицейском регулировании дорожного движения или положениям настоящего постановления, если они отличаются?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Les dispositions de l'arrêté royal",
+          "text_nl": "De bepalingen van het koninklijk besluit",
+          "text_ru": "Положения королевского постановления",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Les dispositions du présent arrêté",
+          "text_nl": "De bepalingen van dit besluit",
+          "text_ru": "Положения настоящего постановления",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Les deux",
+          "text_nl": "Beide",
+          "text_ru": "Оба",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur doit suivre les dispositions du présent arrêté si elles diffèrent de celles de l'arrêté royal.",
+      "explanation_nl": "De bestuurder moet de bepalingen van dit besluit volgen als ze afwijken van die van het koninklijk besluit.",
+      "explanation_ru": "Водитель должен следовать положениям настоящего постановления, если они отличаются от положений королевского постановления."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Un propriétaire de véhicule doit-il s'inscrire auprès de l'autorité compétente en vertu de l'arrêté royal du 20 juillet 2001 ?",
+      "text_nl": "Moet een voertuigeigenaar zich inschrijven bij de bevoegde autoriteit op grond van het koninklijk besluit van 20 juli 2001?",
+      "text_ru": "Должен ли владелец транспортного средства зарегистрироваться в соответствующем органе в соответствии с королевским постановлением от 20 июля 2001 года?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui",
+          "text_nl": "Ja",
+          "text_ru": "Да",
+          "is_correct": true
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non",
+          "text_nl": "Nee",
+          "text_ru": "Нет",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Peut-être",
+          "text_nl": "Misschien",
+          "text_ru": "Может быть",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le propriétaire de véhicule doit s'inscrire auprès de l'autorité compétente en vertu de l'arrêté royal du 20 juillet 2001.",
+      "explanation_nl": "De voertuigeigenaar moet zich inschrijven bij de bevoegde autoriteit op grond van het koninklijk besluit van 20 juli 2001.",
+      "explanation_ru": "Владелец транспортного средства должен зарегистрироваться в соответствующем органе в соответствии с королевским постановлением от 20 июля 2001 года."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Un conducteur peut-il utiliser des plaques commerciales pour son véhicule sans s'inscrire auprès de l'autorité compétente ?",
+      "text_nl": "Kan een bestuurder commerciële platen voor zijn voertuig gebruiken zonder zich in te schrijven bij de bevoegde autoriteit?",
+      "text_ru": "Может ли водитель использовать коммерческие плакаты для своего транспортного средства без регистрации в соответствующем органе?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui",
+          "text_nl": "Ja",
+          "text_ru": "Да",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non",
+          "text_nl": "Nee",
+          "text_ru": "Нет",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Peut-être",
+          "text_nl": "Misschien",
+          "text_ru": "Может быть",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le conducteur ne peut pas utiliser des plaques commerciales pour son véhicule sans s'inscrire auprès de l'autorité compétente.",
+      "explanation_nl": "De bestuurder kan geen commerciële platen voor zijn voertuig gebruiken zonder zich in te schrijven bij de bevoegde autoriteit.",
+      "explanation_ru": "Водитель не может использовать коммерческие плакаты для своего транспортного средства без регистрации в соответствующем органе."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:10:54Z",
     "content_hash": "1c332540b192",
@@ -36,6 +259,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:54:55Z",
+    "questions_model": "llama-3.3-70b-versatile",
+    "questions_count": 6
   }
 }

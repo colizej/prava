@@ -30,7 +30,119 @@
   "anchor_id_fr": "nwrbeykcar",
   "anchor_id_nl": "ftrqwl7ybh",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que prévoit la réglementation concernant la signalisation routière qui ne respecte plus les prescriptions après une période de transition ?",
+      "text_nl": "Wat bepaalt de regelgeving betreffende verkeerstekens die na een overgangsperiode niet meer aan de voorschriften voldoen?",
+      "text_ru": "Что предусматривают правила относительно дорожных знаков, которые перестали соответствовать требованиям после переходного периода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle peut être maintenue si elle ne présente pas de danger immédiat.",
+          "text_nl": "Het mag behouden blijven indien het geen onmiddellijk gevaar vormt.",
+          "text_ru": "Его можно сохранить, если оно не представляет непосредственной опасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle doit être retirée ou mise en conformité et ne peut plus être maintenue.",
+          "text_nl": "Het moet worden verwijderd of in overeenstemming gebracht en mag niet langer behouden blijven.",
+          "text_ru": "Его необходимо удалить или привести в соответствие, и его нельзя более сохранять.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Elle peut être maintenue jusqu'à son usure naturelle.",
+          "text_nl": "Het mag behouden blijven tot het van nature versleten is.",
+          "text_ru": "Его можно сохранять до его естественного износа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Après la période de transition prévue, la signalisation routière qui ne satisfait plus aux prescriptions ne pouvait plus être maintenue. Elle devait donc être retirée ou rendue conforme.",
+      "explanation_nl": "Na de voorziene overgangsperiode mochten verkeerstekens die niet meer aan de voorschriften voldeden, niet langer behouden blijven. Ze moesten dus worden verwijderd of in overeenstemming worden gebracht.",
+      "explanation_ru": "По истечении предусмотренного переходного периода дорожные знаки, которые больше не соответствовали требованиям, не могли быть сохранены. Их следовало удалить или привести в соответствие."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Après une période de transition, quel type d'équipement spécifique était requis pour les installations lumineuses tricolores existantes afin d'améliorer la sécurité ?",
+      "text_nl": "Welk type specifieke uitrusting was na een overgangsperiode vereist voor bestaande driekleurige lichtinstallaties om de veiligheid te verbeteren?",
+      "text_ru": "Какое конкретное оборудование требовалось для существующих трехцветных светофорных установок после переходного периода для повышения безопасности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Des dispositifs permettant de réguler la fluidité du trafic.",
+          "text_nl": "Apparaten om de verkeersstroom te regelen.",
+          "text_ru": "Устройства для регулирования транспортного потока.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Des dispositifs de sécurité spécifiques.",
+          "text_nl": "Specifieke veiligheidsinrichtingen.",
+          "text_ru": "Специальные устройства безопасности.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Des systèmes d'éclairage additionnels pour une meilleure visibilité nocturne.",
+          "text_nl": "Extra verlichtingssystemen voor betere zichtbaarheid 's nachts.",
+          "text_ru": "Дополнительные системы освещения для лучшей видимости в ночное время.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les installations lumineuses tricolores placées avant la date d'entrée en vigueur de la réglementation devaient être munies de dispositifs de sécurité spécifiques après une période de transition.",
+      "explanation_nl": "Driekleurige lichtinstallaties die vóór de datum van inwerkingtreding van de regelgeving waren geplaatst, moesten na een overgangsperiode worden uitgerust met specifieke veiligheidsinrichtingen.",
+      "explanation_ru": "Трехцветные светофорные установки, установленные до даты вступления правил в силу, должны были быть оснащены специальными устройствами безопасности после переходного периода."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle était la règle générale concernant la mise en place de la signalisation routière rendue obligatoire par de nouvelles prescriptions ?",
+      "text_nl": "Wat was de algemene regel betreffende de plaatsing van verkeerstekens die door nieuwe voorschriften verplicht werden?",
+      "text_ru": "Каково было общее правило относительно установки дорожных знаков, сделанных обязательными новыми предписаниями?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Elle devait être placée dès l'entrée en vigueur des nouvelles prescriptions, sans délai.",
+          "text_nl": "Het moest onmiddellijk worden geplaatst na de inwerkingtreding van de nieuwe voorschriften, zonder uitstel.",
+          "text_ru": "Его нужно было установить немедленно после вступления новых правил в силу, без задержек.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Elle devait être placée avant une date limite spécifique fixée par la réglementation.",
+          "text_nl": "Het moest geplaatst worden vóór een specifieke deadline die in de regelgeving was vastgesteld.",
+          "text_ru": "Его нужно было установить до определенной даты, установленной правилами.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Son placement dépendait de la disponibilité des matériaux et du personnel, sans contrainte de temps stricte.",
+          "text_nl": "De plaatsing ervan hing af van de beschikbaarheid van materialen en personeel, zonder strikte tijdsbeperking.",
+          "text_ru": "Его установка зависела от наличия материалов и персонала, без строгих временных ограничений.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La signalisation routière rendue obligatoire par de nouvelles dispositions devait être placée avant une date limite spécifique, selon les délais fixés par la réglementation.",
+      "explanation_nl": "Verkeerstekens die door nieuwe bepalingen verplicht werden, moesten vóór een specifieke deadline worden geplaatst, volgens de termijnen die in de regelgeving waren vastgesteld.",
+      "explanation_ru": "Дорожные знаки, ставшие обязательными в соответствии с новыми положениями, должны были быть установлены до определенной даты, согласно срокам, установленным правилами."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "f59383ad0ada",
@@ -40,6 +152,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:51:45Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 3
   }
 }

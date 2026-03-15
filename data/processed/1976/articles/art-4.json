@@ -28,7 +28,304 @@
   "anchor_id_fr": "unybrb48mo",
   "anchor_id_nl": "cbazxgbqyo",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le but principal du décalage entre l'allumage du feu rouge pour piétons et l'allumage du feu vert pour les conducteurs traversant le même passage ?",
+      "text_nl": "Wat is het hoofddoel van het tijdsverschil tussen het aangaan van het rode voetgangerslicht en het aangaan van het groene licht voor bestuurders die dezelfde oversteekplaats kruisen?",
+      "text_ru": "Какова основная цель задержки между включением красного сигнала светофора для пешеходов и включением зеленого сигнала для водителей, пересекающих тот же пешеходный переход?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian crossing with a traffic light showing a red pedestrian figure, and a vehicle traffic light showing a red light. An arrow indicates the short time delay between the two turning red/green."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Permettre aux véhicules de s'engager plus rapidement dans le carrefour.",
+          "text_nl": "Voertuigen in staat stellen sneller de kruising op te rijden.",
+          "text_ru": "Позволить транспортным средствам быстрее выехать на перекресток.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Assurer que les piétons qui ont déjà commencé à traverser puissent achever leur traversée en toute sécurité.",
+          "text_nl": "Ervoor zorgen dat voetgangers die reeds begonnen zijn met oversteken, hun oversteek veilig kunnen beëindigen.",
+          "text_ru": "Обеспечить, чтобы пешеходы, которые уже начали переходить, могли безопасно завершить переход.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Réduire le temps d'attente des piétons au feu rouge.",
+          "text_nl": "De wachttijd voor voetgangers bij rood licht verkorten.",
+          "text_ru": "Сократить время ожидания пешеходов на красный свет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le décalage est mis en place pour permettre aux piétons qui ont déjà commencé leur traversée de la chaussée de l'achever en toute sécurité, avant que les véhicules ne reçoivent le feu vert.",
+      "explanation_nl": "Het tijdsverschil is bedoeld om voetgangers die reeds begonnen zijn met het oversteken van de rijbaan, in staat te stellen dit veilig te voltooien, voordat de voertuigen groen licht krijgen.",
+      "explanation_ru": "Задержка предназначена для того, чтобы пешеходы, которые уже начали переходить проезжую часть, могли безопасно завершить переход, прежде чем транспортные средства получат зеленый свет."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Que signifie la présence d'une flèche verte au-dessus d'une bande de circulation sur une route avec un système de feux lumineux au-dessus des voies ?",
+      "text_nl": "Wat betekent de aanwezigheid van een groene pijl boven een rijstrook op een weg met een systeem van verkeerslichten boven de rijstroken?",
+      "text_ru": "Что означает наличие зеленой стрелки над полосой движения на дороге с системой светофоров над полосами?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A traffic light system above a multi-lane road, with a green arrow pointing downwards over one lane and a red cross over an adjacent lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "La circulation est interdite dans cette bande.",
+          "text_nl": "Het verkeer is verboden op deze rijstrook.",
+          "text_ru": "Движение по этой полосе запрещено.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La circulation est autorisée dans cette bande et dans le sens indiqué par la flèche.",
+          "text_nl": "Het verkeer is toegestaan op deze rijstrook en in de richting aangegeven door de pijl.",
+          "text_ru": "Движение разрешено по этой полосе и в направлении, указанном стрелкой.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il faut se préparer à changer de bande.",
+          "text_nl": "Men moet zich voorbereiden om van rijstrook te wisselen.",
+          "text_ru": "Необходимо подготовиться к смене полосы движения.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les feux lumineux au-dessus des bandes de circulation, comme la flèche verte, indiquent que la circulation est autorisée sur la bande concernée, dans le sens de la flèche.",
+      "explanation_nl": "De verkeerslichten boven de rijstroken, zoals de groene pijl, geven aan dat het verkeer op de betreffende rijstrook is toegestaan, in de richting van de pijl.",
+      "explanation_ru": "Светофоры над полосами движения, такие как зеленая стрелка, указывают на то, что движение по соответствующей полосе разрешено, в направлении стрелки."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelle est la durée minimale pendant laquelle un feu vert fixe doit rester allumé à un passage pour piétons pour permettre une traversée sécurisée ?",
+      "text_nl": "Wat is de minimale duur dat een vast groen licht brandt bij een voetgangersoversteekplaats om een veilige oversteek mogelijk te maken?",
+      "text_ru": "Какова минимальная продолжительность горения постоянного зеленого сигнала светофора на пешеходном переходе для обеспечения безопасного перехода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian crossing with a green pedestrian traffic light, indicating a safe crossing for a person walking."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une durée fixe de 10 secondes, quel que soit l'endroit.",
+          "text_nl": "Een vaste duur van 10 seconden, ongeacht de locatie.",
+          "text_ru": "Фиксированная продолжительность 10 секунд, независимо от места.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une durée qui permet au piéton d'effectuer la traversée à une vitesse de 1,20 m/s.",
+          "text_nl": "Een duur die de voetganger in staat stelt over te steken met een snelheid van 1,20 m/s.",
+          "text_ru": "Продолжительность, позволяющая пешеходу пересечь проезжую часть со скоростью 1,20 м/с.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Une durée comprise entre trois et cinq secondes.",
+          "text_nl": "Een duur tussen drie en vijf seconden.",
+          "text_ru": "Продолжительность от трех до пяти секунд.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le feu vert fixe pour piétons doit être allumé pendant une durée minimale qui permet au piéton d'effectuer la traversée à une vitesse de 1,20 m/s. La durée de trois à cinq secondes concerne le clignotement du feu vert.",
+      "explanation_nl": "Het vaste groene voetgangerslicht moet minimaal zo lang branden dat een voetganger de oversteek kan voltooien met een snelheid van 1,20 m/s. De duur van drie tot vijf seconden heeft betrekking op het knipperen van het groene licht.",
+      "explanation_ru": "Постоянный зеленый сигнал светофора для пешеходов должен гореть минимальное время, которое позволяет пешеходу пересечь проезжую часть со скоростью 1,20 м/с. Продолжительность от трех до пяти секунд относится к миганию зеленого сигнала."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous vous approchez d'un passage pour piétons équipé de feux. Le feu vert pour piétons se met à clignoter. Quelle est la durée approximative de ce clignotement avant que le feu ne devienne rouge ou s'éteigne ?",
+      "text_nl": "U nadert een voetgangersoversteekplaats met verkeerslichten. Het groene voetgangerslicht begint te knipperen. Wat is de geschatte duur van dit knipperen voordat het licht rood wordt of uitgaat?",
+      "text_ru": "Вы приближаетесь к пешеходному переходу, оборудованному светофорами. Зеленый сигнал светофора для пешеходов начинает мигать. Какова приблизительная продолжительность этого мигания, прежде чем свет станет красным или погаснет?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian traffic light showing a flashing green pedestrian figure. A person is still on the crossing, trying to finish."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Moins de 1 seconde.",
+          "text_nl": "Minder dan 1 seconde.",
+          "text_ru": "Менее 1 секунды.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Entre trois et cinq secondes.",
+          "text_nl": "Tussen drie en vijf seconden.",
+          "text_ru": "От трех до пяти секунд.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Plus de dix secondes.",
+          "text_nl": "Meer dan tien seconden.",
+          "text_ru": "Более десяти секунд.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lorsque le clignotement du feu vert est utilisé, sa durée est comprise entre trois et cinq secondes.",
+      "explanation_nl": "Wanneer het knipperen van het groene licht wordt gebruikt, dan ligt de duur ervan tussen drie en vijf seconden.",
+      "explanation_ru": "Если используется мигающий зеленый свет, его продолжительность составляет от трех до пяти секунд."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes piéton et vous vous trouvez sur un passage pour piétons avec un refuge central. Si les feux pour piétons sont placés sur le refuge, comment devez-vous considérer la traversée pour le calcul du temps de passage ?",
+      "text_nl": "U bent een voetganger en bevindt zich op een oversteekplaats met een middenberm. Als er voetgangerslichten op de middenberm zijn geplaatst, hoe moet u dan de oversteek beschouwen voor de berekening van de oversteektijd?",
+      "text_ru": "Вы пешеход и находитесь на пешеходном переходе с центральным островком безопасности. Если на островке установлены пешеходные светофоры, как следует рассматривать переход при расчете времени перехода?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "A pedestrian crossing with a central refuge. Pedestrian traffic lights are visible on both ends of the crossing and on the refuge itself."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Comme une seule traversée longue, ignorante du refuge.",
+          "text_nl": "Als één lange oversteek, de middenberm negerend.",
+          "text_ru": "Как один длинный переход, игнорируя островок безопасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Comme deux sections de traversée distinctes, chacune avec son propre calcul de temps.",
+          "text_nl": "Als twee afzonderlijke oversteekdelen, elk met zijn eigen tijdsberekening.",
+          "text_ru": "Как два отдельных участка перехода, каждый со своим расчетом времени.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Le refuge n'a aucune influence sur le temps de passage.",
+          "text_nl": "De middenberm heeft geen invloed op de oversteektijd.",
+          "text_ru": "Островок безопасности не влияет на время перехода.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Si le passage pour piétons est entrecoupé par des refuges, bermes, îlots directionnels, etc., sur lesquels sont placés des feux pour piétons, c'est la longueur de chacune des sections du passage qu'il faut considérer pour calculer le décalage, traitant ainsi chaque section comme une traversée distincte.",
+      "explanation_nl": "Indien de oversteekplaats voor voetgangers onderbroken is door vluchtheuvels, bermen, verkeersgeleiders, enz., waarop voetgangerslichten geplaatst zijn, moet de lengte van elk van deze delen van de oversteekplaats in aanmerking genomen worden om het tijdsverschil te berekenen, waarbij elk deel als een afzonderlijke oversteek wordt behandeld.",
+      "explanation_ru": "Если пешеходный переход прерывается островками безопасности, бордюрами, направляющими островками и т. д., на которых установлены пешеходные светофоры, то для расчета задержки необходимо учитывать длину каждого участка перехода, рассматривая каждый участок как отдельный переход."
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous êtes un agent de circulation responsable d'une route avec des bandes de circulation réversibles. Vous devez inverser le sens de circulation d'une bande. Quelle est la procédure correcte pour cela ?",
+      "text_nl": "U bent een verkeersleider verantwoordelijk voor een weg met omkeerbare rijstroken. U moet de rijrichting van een rijstrook omkeren. Wat is de correcte procedure hiervoor?",
+      "text_ru": "Вы сотрудник дорожной службы, отвечающий за дорогу с реверсивными полосами движения. Вам необходимо изменить направление движения по полосе. Какова правильная процедура для этого?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An overhead traffic light system changing from a red cross to a green arrow on a multi-lane road, with cars evacuating the lane."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Allumer directement la flèche verte dans le nouveau sens, car les conducteurs sont attentifs.",
+          "text_nl": "De groene pijl in de nieuwe richting direct aanzetten, omdat bestuurders attent zijn.",
+          "text_ru": "Сразу включить зеленую стрелку в новом направлении, так как водители внимательны.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Allumer d'abord la croix rouge au-dessus de la bande, attendre son évacuation complète, puis allumer la flèche verte dans le sens opposé.",
+          "text_nl": "Eerst het rode kruis boven de rijstrook aanzetten, wachten op de volledige ontruiming, en dan de groene pijl in de tegengestelde richting aanzetten.",
+          "text_ru": "Сначала включить красный крест над полосой, дождаться полного освобождения полосы, затем включить зеленую стрелку в противоположном направлении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Allumer simultanément la croix rouge et la flèche verte pour indiquer le changement immédiat.",
+          "text_nl": "Tegelijkertijd het rode kruis en de groene pijl aanzetten om de onmiddellijke verandering aan te geven.",
+          "text_ru": "Одновременно включить красный крест и зеленую стрелку, чтобы указать на немедленное изменение.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour inverser le sens de circulation sur une bande, il y a lieu, après l'allumage de la croix rouge suspendue au-dessus de cette bande d'en attendre l'évacuation complète avant d'allumer la flèche verte dans le sens opposé.",
+      "explanation_nl": "Om de rijrichting op een rijstrook om te keren, dient er, na het aangaan van het rode kruis dat boven deze rijstrook hangt, gewacht op de volledige ontruiming vooraleer de groene pijl voor de tegengestelde richting mag aangaan.",
+      "explanation_ru": "Чтобы изменить направление движения по полосе, после включения красного креста над этой полосой необходимо дождаться ее полного освобождения, прежде чем включать зеленую стрелку в противоположном направлении."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Sur une autoroute, après avoir franchi un échangeur, vous remarquez des feux lumineux au-dessus des bandes de circulation. Pourquoi sont-ils répétés à cet endroit ?",
+      "text_nl": "Op een autosnelweg, na het passeren van een knooppunt, ziet u verkeerslichten boven de rijstroken. Waarom worden deze op deze plaats herhaald?",
+      "text_ru": "На автомагистрали, проехав развязку, вы замечаете светофоры над полосами движения. Почему они повторяются в этом месте?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "An overhead traffic light system on a multi-lane highway, placed after an interchange, with cars driving in multiple lanes."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Pour indiquer la fin de l'autoroute.",
+          "text_nl": "Om het einde van de autosnelweg aan te geven.",
+          "text_ru": "Чтобы указать на конец автомагистрали.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Pour des raisons purement esthétiques.",
+          "text_nl": "Om puur esthetische redenen.",
+          "text_ru": "Из чисто эстетических соображений.",
+          "is_correct": false
+        },
+        {
+          "letter": "C",
+          "text_fr": "Pour assurer une visibilité continue de l'information, notamment après chaque accès à une autoroute.",
+          "text_nl": "Om een continue zichtbaarheid van de informatie te garanderen, met name na elke toegang tot een autosnelweg.",
+          "text_ru": "Для обеспечения постоянной видимости информации, особенно после каждого съезда на автомагистраль.",
+          "is_correct": true
+        }
+      ],
+      "explanation_fr": "Les feux lumineux au-dessus des bandes de circulation sont répétés autant de fois que nécessaire, et notamment après chaque carrefour et chaque accès à une autoroute, pour assurer que les conducteurs reçoivent toujours l'information sur la disponibilité des voies.",
+      "explanation_nl": "De verkeerslichten boven de rijstroken worden herhaald telkens dit noodzakelijk is, en inzonderheid na elk kruispunt en na elke toegang tot een autosnelweg, om ervoor te zorgen dat bestuurders steeds de informatie over de beschikbaarheid van de rijstroken ontvangen.",
+      "explanation_ru": "Светофоры над полосами движения повторяются столько раз, сколько необходимо, и, в частности, после каждого перекрестка и каждого съезда на автомагистраль, чтобы водители всегда получали информацию о доступности полос."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous conduisez sur une route où des feux lumineux sont installés au-dessus des bandes de circulation. Vous voyez des feux jaune-orange clignotants placés de part et d'autre des flèches et des croix. Quelle doit être leur caractéristique principale ?",
+      "text_nl": "U rijdt op een weg waar verkeerslichten boven de rijstroken zijn geïnstalleerd. U ziet knipperende oranjegele lichten aan weerszijden van de pijlen en kruisen. Wat moet hun belangrijkste kenmerk zijn?",
+      "text_ru": "Вы едете по дороге, где над полосами движения установлены светофоры. Вы видите мигающие желто-оранжевые огни, расположенные по обе стороны от стрелок и крестов. Какова должна быть их основная характеристика?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Overhead traffic lights with a green arrow and a red cross, flanked by two smaller, subtly flashing yellow-orange lights. The main lights are clearly visible."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Leur intensité lumineuse doit être maximale pour attirer l'attention.",
+          "text_nl": "De lichtsterkte moet maximaal zijn om de aandacht te trekken.",
+          "text_ru": "Их световая интенсивность должна быть максимальной для привлечения внимания.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Leur intensité ne doit pas nuire à la perception des signaux lumineux principaux (flèches et croix).",
+          "text_nl": "De intensiteit mag de waarneming van de hoofdsignalen (pijlen en kruisen) niet hinderen.",
+          "text_ru": "Их интенсивность не должна препятствовать восприятию основных световых сигналов (стрелок и крестов).",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Ils doivent être d'une couleur différente des signaux principaux pour éviter toute confusion.",
+          "text_nl": "Ze moeten een andere kleur hebben dan de hoofdsignalen om verwarring te voorkomen.",
+          "text_ru": "Они должны быть другого цвета, чем основные сигналы, чтобы избежать путаницы.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Des feux jaune-orange clignotants peuvent être placés de part et d'autre des flèches et croix. L'intensité de ces feux ne peut toutefois nuire à la perception des signaux lumineux placés au-dessus des bandes de circulation.",
+      "explanation_nl": "Oranjegele knipperlichten mogen aan weerszijden van de kruisen en de pijlen aangebracht worden. De lichtsterkte van deze lichten mag evenwel niet hinderlijk zijn voor de waarneming van de verkeerslichten die boven de rijstroken zijn aangebracht.",
+      "explanation_ru": "Мигающие желто-оранжевые огни могут быть расположены по обе стороны от крестов и стрелок. Однако интенсивность этих огней не должна мешать восприятию светофоров, расположенных над полосами движения."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "1877d5afb8f3",
@@ -38,6 +335,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:52:54Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

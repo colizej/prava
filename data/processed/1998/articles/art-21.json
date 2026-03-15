@@ -31,7 +31,304 @@
   "anchor_id_fr": "kvm0kqrlkk",
   "anchor_id_nl": "9evfmb38id",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la durée de validité habituelle d'un permis de conduire pour les catégories de véhicules légers comme les voitures ou les motos, en l'absence de restriction médicale ?",
+      "text_nl": "Wat is de gebruikelijke geldigheidsduur van een rijbewijs voor lichte voertuigcategorieën zoals auto's of motoren, zonder medische beperking?",
+      "text_ru": "Каков обычный срок действия водительских прав для легких категорий транспортных средств, таких как автомобили или мотоциклы, при отсутствии медицинских ограничений?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Generic driving license card"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "5 ans",
+          "text_nl": "5 jaar",
+          "text_ru": "5 лет",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Durée indéterminée",
+          "text_nl": "Onbepaalde duur",
+          "text_ru": "Неограниченный срок",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "10 ans",
+          "text_nl": "10 jaar",
+          "text_ru": "10 лет",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Les permis de conduire pour les catégories AM, A, B, B+E et G sont généralement valables pour une durée indéterminée, sauf si une restriction médicale limite leur validité dans le temps.",
+      "explanation_nl": "Rijbewijzen voor de categorieën AM, A, B, B+E en G zijn over het algemeen voor onbepaalde duur geldig, tenzij een medische beperking de geldigheidsduur in de tijd beperkt.",
+      "explanation_ru": "Водительские права категорий AM, A, B, B+E и G обычно действительны в течение неограниченного срока, если только медицинское ограничение не ограничивает их срок действия."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Qu'est-ce qui détermine la durée de validité d'un permis de conduire pour les catégories de véhicules lourds, comme les camions ou les bus ?",
+      "text_nl": "Wat bepaalt de geldigheidsduur van een rijbewijs voor zware voertuigcategorieën, zoals vrachtwagens of bussen?",
+      "text_ru": "Что определяет срок действия водительских прав для категорий тяжелых транспортных средств, таких как грузовики или автобусы?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Heavy truck and bus on a road"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "L'âge du conducteur",
+          "text_nl": "De leeftijd van de bestuurder",
+          "text_ru": "Возраст водителя",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une attestation spécifique",
+          "text_nl": "Een specifiek attest",
+          "text_ru": "Специальное удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "La date de délivrance du permis",
+          "text_nl": "De datum van afgifte van het rijbewijs",
+          "text_ru": "Дата выдачи водительских прав",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "La durée de validité des permis de conduire pour les catégories C1, C, C1+E, C+E, D1, D, D1+E et D+E est déterminée par une attestation spécifique.",
+      "explanation_nl": "De geldigheidsduur van rijbewijzen voor de categorieën C1, C, C1+E, C+E, D1, D, D1+E en D+E wordt bepaald door een specifiek attest.",
+      "explanation_ru": "Срок действия водительских прав категорий C1, C, C1+E, C+E, D1, D, D1+E и D+E определяется специальным удостоверением."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel document est indispensable pour le renouvellement d'un permis de conduire dont la validité est limitée dans le temps ?",
+      "text_nl": "Welk document is essentieel voor de vernieuwing van een rijbewijs waarvan de geldigheidsduur in de tijd beperkt is?",
+      "text_ru": "Какой документ необходим для продления водительских прав с ограниченным сроком действия?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Hand holding a document for renewal"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un nouvel examen pratique",
+          "text_nl": "Een nieuw praktisch examen",
+          "text_ru": "Новый практический экзамен",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une attestation spécifique",
+          "text_nl": "Een specifiek attest",
+          "text_ru": "Специальное удостоверение",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un certificat de bonne conduite",
+          "text_nl": "Een bewijs van goed gedrag",
+          "text_ru": "Справка о безупречном поведении",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le renouvellement d'un permis de conduire limité dans le temps se fait sur présentation d'une attestation spécifique, sans nécessiter de nouvel examen théorique ou pratique.",
+      "explanation_nl": "De vernieuwing van een in de tijd beperkt rijbewijs gebeurt op vertoon van een specifiek attest, zonder dat een nieuw theoretisch of praktisch examen nodig is.",
+      "explanation_ru": "Продление водительских прав с ограниченным сроком действия осуществляется при предъявлении специального удостоверения, без необходимости сдачи нового теоретического или практического экзамена."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous avez obtenu votre permis de conduire pour la catégorie B sans aucune restriction médicale. Quelle est la durée de validité de votre permis dans ce cas ?",
+      "text_nl": "U heeft uw rijbewijs voor categorie B zonder medische beperkingen behaald. Wat is in dit geval de geldigheidsduur van uw rijbewijs?",
+      "text_ru": "Вы получили водительские права категории B без каких-либо медицинских ограничений. Каков срок действия ваших прав в этом случае?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Person holding a category B driving license"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Votre permis est valable pour 5 ans.",
+          "text_nl": "Uw rijbewijs is 5 jaar geldig.",
+          "text_ru": "Ваши права действительны в течение 5 лет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Votre permis est valable pour une durée indéterminée.",
+          "text_nl": "Uw rijbewijs is voor onbepaalde duur geldig.",
+          "text_ru": "Ваши права действительны в течение неограниченного срока.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Votre permis est valable pour 10 ans.",
+          "text_nl": "Uw rijbewijs is 10 jaar geldig.",
+          "text_ru": "Ваши права действительны в течение 10 лет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Pour les catégories AM, A, B, B+E et G, le permis de conduire est généralement délivré pour une durée indéterminée, sauf si un médecin impose une limitation temporaire.",
+      "explanation_nl": "Voor de categorieën AM, A, B, B+E en G wordt het rijbewijs doorgaans voor onbepaalde duur afgegeven, tenzij een arts een tijdelijke beperking oplegt.",
+      "explanation_ru": "Для категорий AM, A, B, B+E и G водительские права обычно выдаются на неопределенный срок, если только врач не наложит временное ограничение."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes titulaire d'un permis de conduire européen pour la catégorie D (bus) et vous venez de vous inscrire dans une commune belge. Combien de temps votre permis est-il valable à partir de cette date d'inscription, si aucune durée plus courte n'y est mentionnée ?",
+      "text_nl": "U bent houder van een Europees rijbewijs voor categorie D (bus) en u heeft zich zojuist ingeschreven in een Belgische gemeente. Hoe lang is uw rijbewijs vanaf deze inschrijvingsdatum geldig, indien er geen kortere duur op vermeld staat?",
+      "text_ru": "У вас европейские водительские права категории D (автобус), и вы только что зарегистрировались в бельгийской коммуне. Каков срок действия ваших прав с даты регистрации, если на них не указан более короткий срок?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "European driving license for bus category"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Un an.",
+          "text_nl": "Eén jaar.",
+          "text_ru": "Один год.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Cinq ans.",
+          "text_nl": "Vijf jaar.",
+          "text_ru": "Пять лет.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Dix ans.",
+          "text_nl": "Tien jaar.",
+          "text_ru": "Десять лет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Un permis de conduire européen pour les catégories lourdes (C1, C, C1+E, C+E, D1, D, D1+E et D+E) est valable cinq ans à compter de la date d'inscription dans une commune belge, sauf si une durée plus courte est spécifiée sur le permis lui-même.",
+      "explanation_nl": "Een Europees rijbewijs voor de zware categorieën (C1, C, C1+E, C+E, D1, D, D1+E en D+E) is vijf jaar geldig vanaf de inschrijvingsdatum in een Belgische gemeente, tenzij een kortere duur op het rijbewijs zelf is vermeld.",
+      "explanation_ru": "Европейские водительские права для тяжелых категорий (C1, C, C1+E, C+E, D1, D, D1+E и D+E) действительны в течение пяти лет с даты регистрации в бельгийской коммуне, если только на самих правах не указан более короткий срок."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Votre permis de conduire pour la catégorie C (camion) arrive à expiration et sa validité était limitée. Pour le renouveler, devrez-vous repasser les examens théorique et pratique ?",
+      "text_nl": "Uw rijbewijs voor categorie C (vrachtwagen) verloopt en de geldigheidsduur was beperkt. Moet u de theoretische en praktische examens opnieuw afleggen om het te vernieuwen?",
+      "text_ru": "Ваши водительские права категории C (грузовик) истекают, и срок их действия был ограничен. Потребуется ли вам сдавать теоретический и практический экзамены повторно для их продления?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Person studying a thick book, representing theory exam preparation"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Oui, uniquement l'examen théorique.",
+          "text_nl": "Ja, alleen het theoretisch examen.",
+          "text_ru": "Да, только теоретический экзамен.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Non, un nouvel examen n'est pas requis.",
+          "text_nl": "Neen, een nieuw examen is niet vereist.",
+          "text_ru": "Нет, новый экзамен не требуется.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, les deux examens sont obligatoires.",
+          "text_nl": "Ja, beide examens zijn verplicht.",
+          "text_ru": "Да, оба экзамена обязательны.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Lors du renouvellement d'un permis de conduire limité dans le temps, il n'est pas nécessaire de se soumettre à l'apprentissage et de subir un nouvel examen théorique et pratique. Un nouveau permis est délivré sur présentation de l'attestation requise.",
+      "explanation_nl": "Bij de vernieuwing van een in de tijd beperkt rijbewijs is het niet nodig om zich opnieuw aan te melden voor scholing en een nieuw theoretisch en praktisch examen af te leggen. Een nieuw rijbewijs wordt afgegeven op vertoon van het vereiste attest.",
+      "explanation_ru": "При продлении водительских прав с ограниченным сроком действия нет необходимости повторно проходить обучение и сдавать новый теоретический и практический экзамены. Новые права выдаются при предъявлении необходимого удостоверения."
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous êtes une personne inscrite au registre d'attente d'une commune belge et vous possédez une attestation d'immatriculation. Quelle est la durée initiale de validité de votre permis de conduire dans cette situation ?",
+      "text_nl": "U bent een persoon die is ingeschreven in het wachtregister van een Belgische gemeente en u bezit een attest van immatriculatie. Wat is de initiële geldigheidsduur van uw rijbewijs in deze situatie?",
+      "text_ru": "Вы являетесь лицом, зарегистрированным в списке ожидания бельгийской коммуны, и у вас есть свидетельство о регистрации. Каков первоначальный срок действия ваших водительских прав в этой ситуации?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Registration document for a foreign resident"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Cinq ans.",
+          "text_nl": "Vijf jaar.",
+          "text_ru": "Пять лет.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un an.",
+          "text_nl": "Eén jaar.",
+          "text_ru": "Один год.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Durée indéterminée.",
+          "text_nl": "Onbepaalde duur.",
+          "text_ru": "Неограниченный срок.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le permis de conduire délivré à une personne inscrite au registre d'attente d'une commune belge et titulaire d'une attestation d'immatriculation est valable un an initialement.",
+      "explanation_nl": "Het rijbewijs afgegeven aan een persoon die ingeschreven is in het wachtregister van een Belgische gemeente en houder is van een attest van immatriculatie, is aanvankelijk één jaar geldig.",
+      "explanation_ru": "Водительские права, выданные лицу, зарегистрированному в списке ожидания бельгийской коммуны и имеющему свидетельство о регистрации, действительны в течение одного года изначально."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous conduisez un véhicule de catégorie B affecté à un service de transport spécifique (comme un taxi ou une ambulance). La validité de votre permis de conduire pour cette activité est-elle limitée dans le temps ?",
+      "text_nl": "U bestuurt een voertuig van categorie B dat bestemd is voor een specifieke vervoersdienst (zoals een taxi of ambulance). Is de geldigheidsduur van uw rijbewijs voor deze activiteit in de tijd beperkt?",
+      "text_ru": "Вы управляете транспортным средством категории B, предназначенным для специальной транспортной службы (например, такси или скорой помощи). Ограничен ли срок действия ваших водительских прав для этой деятельности?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Taxi or ambulance vehicle"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, elle est indéterminée comme pour une voiture privée.",
+          "text_nl": "Nee, deze is onbepaalde duur geldig, net als voor een privéauto.",
+          "text_ru": "Нет, он неограничен, как и для частного автомобиля.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, sa validité est indiquée sur une attestation spécifique.",
+          "text_nl": "Ja, de geldigheidsduur staat vermeld op een specifiek attest.",
+          "text_ru": "Да, его срок действия указан в специальном удостоверении.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Oui, pour cinq ans fixes.",
+          "text_nl": "Ja, voor vijf vaste jaren.",
+          "text_ru": "Да, на пять фиксированных лет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Même pour les catégories A, B ou B+E, si le véhicule est affecté à un service de transport spécifique (par exemple, transport rémunéré de personnes), la validité du permis de conduire est limitée dans le temps et indiquée sur une attestation spécifique.",
+      "explanation_nl": "Zelfs voor de categorieën A, B of B+E, indien het voertuig bestemd is voor een specifieke vervoersdienst (bijvoorbeeld bezoldigd personenvervoer), is de geldigheidsduur van het rijbewijs in de tijd beperkt en aangegeven op een specifiek attest.",
+      "explanation_ru": "Даже для категорий A, B или B+E, если транспортное средство используется для конкретной транспортной службы (например, платный перевозка пассажиров), срок действия водительских прав ограничен и указывается в специальном удостоверении."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:45Z",
     "content_hash": "3c1fbd489c15",
@@ -41,6 +338,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:53:37Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

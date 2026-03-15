@@ -142,7 +142,312 @@
   "anchor_id_fr": "wvns9oys7g",
   "anchor_id_nl": "blg0wftblf",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quel est le nom officiel et la signification principale du signal routier de priorité B1, représenté par un triangle inversé à bord rouge, sans autre symbole à l'intérieur ?",
+      "text_nl": "Wat is de officiële naam en de voornaamste betekenis van verkeersbord B1, dat wordt voorgesteld door een omgekeerde driehoek met een rode rand, zonder ander symbool erin?",
+      "text_ru": "Каково официальное название и основное значение дорожного знака приоритета B1, представленного перевернутым треугольником с красной каймой, без других символов внутри?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Danger imminent",
+          "text_nl": "Dreigend gevaar",
+          "text_ru": "Неминуемая опасность",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Céder le passage",
+          "text_nl": "Voorrang verlenen",
+          "text_ru": "Уступить дорогу",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Interdiction de dépasser",
+          "text_nl": "Inhaalverbod",
+          "text_ru": "Обгон запрещен",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal B1, un triangle inversé à bord rouge, signifie 'Céder le passage'. Les conducteurs qui rencontrent ce signal doivent réduire leur vitesse et, si nécessaire, s'arrêter pour laisser passer les usagers de la voie à laquelle ils accèdent.",
+      "explanation_nl": "Verkeersbord B1, een omgekeerde driehoek met een rode rand, betekent 'Voorrang verlenen'. Bestuurders die dit bord zien, moeten hun snelheid verminderen en, indien nodig, stoppen om de gebruikers van de weg waarop zij komen, voorrang te verlenen.",
+      "explanation_ru": "Знак B1, перевернутый треугольник с красной каймой, означает 'Уступить дорогу'. Водители, видящие этот знак, должны снизить скорость и, при необходимости, остановиться, чтобы пропустить участников движения на пересекаемой дороге.",
+      "question_id": "belgian_road_code_8_q1"
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 1,
+      "text_fr": "Quelle est la signification principale du signal routier de priorité B5, qui est de forme octogonale et de couleur rouge ?",
+      "text_nl": "Wat is de belangrijkste betekenis van verkeersbord B5, dat achthoekig is en rood van kleur?",
+      "text_ru": "Каково основное значение дорожного знака приоритета B5, который имеет восьмиугольную форму и красный цвет?",
+      "image": {
+        "sign_code": "B5",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Ralentir et donner la priorité",
+          "text_nl": "Vertragen en voorrang geven",
+          "text_ru": "Замедлить движение и уступить дорогу",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Marquer l'arrêt et céder le passage",
+          "text_nl": "Stoppen en voorrang verlenen",
+          "text_ru": "Остановиться и уступить дорогу",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Interdiction de stationner",
+          "text_nl": "Parkeerverbod",
+          "text_ru": "Остановка запрещена",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal B5, de forme octogonale et de couleur rouge, signifie 'Marquer l'arrêt et céder le passage'. Les conducteurs doivent s'arrêter complètement avant de s'engager et céder le passage à tous les usagers de la voie transversale.",
+      "explanation_nl": "Verkeersbord B5, achthoekig en rood van kleur, betekent 'Stoppen en voorrang verlenen'. Bestuurders moeten volledig stoppen voordat ze de kruising oprijden en voorrang verlenen aan alle gebruikers van de dwarsstraat.",
+      "explanation_ru": "Знак B5, восьмиугольной формы и красного цвета, означает 'Остановиться и уступить дорогу'. Водители должны полностью остановиться перед тем, как выехать на перекресток, и уступить дорогу всем участникам движения на пересекаемой дороге.",
+      "question_id": "belgian_road_code_8_q2"
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "À quoi sert le signal routier B3, qui est un triangle inversé à bord rouge avec un panneau rectangulaire bleu en dessous indiquant une distance ?",
+      "text_nl": "Waarvoor dient verkeersbord B3, dat een omgekeerde driehoek met een rode rand is, met daaronder een blauw rechthoekig bord dat een afstand aangeeft?",
+      "text_ru": "Для чего служит дорожный знак B3, представляющий собой перевернутый треугольник с красной каймой и синей прямоугольной табличкой внизу, указывающей расстояние?",
+      "image": {
+        "sign_code": "B3",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Il indique un danger lié à la vitesse sur la distance spécifiée.",
+          "text_nl": "Het duidt op een snelheidsgevaar over de aangegeven afstand.",
+          "text_ru": "Он указывает на опасность, связанную со скоростью, на указанном расстоянии.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Il annonce un signal de priorité (céder le passage) qui se trouve à la distance approximativement indiquée.",
+          "text_nl": "Het kondigt een voorrangsbord (voorrang verlenen) aan dat zich op de bij benadering aangegeven afstand bevindt.",
+          "text_ru": "Он предупреждает о знаке приоритета ('Уступить дорогу'), который находится на примерно указанном расстоянии.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Il signale un virage dangereux nécessitant une attention particulière sur la distance spécifiée.",
+          "text_nl": "Het wijst op een gevaarlijke bocht die over de aangegeven afstand bijzondere aandacht vereist.",
+          "text_ru": "Он указывает на опасный поворот, требующий особого внимания на указанном расстоянии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal B3 est un signal d'annonce. Il est placé pour prévenir les conducteurs qu'ils rencontreront un signal B1 (céder le passage) ou B5 (arrêt et céder le passage) à la distance indiquée sur le panneau additionnel.",
+      "explanation_nl": "Verkeersbord B3 is een aankondigingsbord. Het wordt geplaatst om bestuurders te waarschuwen dat zij een verkeersbord B1 (voorrang verlenen) of B5 (stoppen en voorrang verlenen) zullen tegenkomen op de afstand die op het onderbord is aangegeven.",
+      "explanation_ru": "Знак B3 является предупреждающим знаком. Он устанавливается для информирования водителей о том, что они встретят знак B1 ('Уступить дорогу') или B5 ('Остановиться и уступить дорогу') на расстоянии, указанном на дополнительной табличке.",
+      "question_id": "belgian_road_code_8_q3"
+    },
+    {
+      "type": "practical",
+      "difficulty": 1,
+      "text_fr": "Vous approchez d'un carrefour et vous voyez le signal B1 (triangle inversé). Quelle est votre obligation en tant que conducteur ?",
+      "text_nl": "U nadert een kruispunt en ziet verkeersbord B1 (omgekeerde driehoek). Wat is uw verplichting als bestuurder?",
+      "text_ru": "Вы приближаетесь к перекрестку и видите знак B1 (перевернутый треугольник). Каково ваше обязательство как водителя?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous avez priorité de passage, mais devez rester vigilant.",
+          "text_nl": "U heeft voorrang, maar moet waakzaam blijven.",
+          "text_ru": "У вас приоритет проезда, но вы должны оставаться бдительным.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous devez réduire votre vitesse et céder le passage aux usagers de la voie transversale.",
+          "text_nl": "U moet uw snelheid verminderen en voorrang verlenen aan de gebruikers van de dwarsstraat.",
+          "text_ru": "Вы должны снизить скорость и уступить дорогу участникам движения на пересекаемой дороге.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous devez marquer l'arrêt complet avant de vous engager, même si la voie est libre.",
+          "text_nl": "U moet volledig stoppen voordat u de kruising oprijdt, zelfs als de weg vrij is.",
+          "text_ru": "Вы должны полностью остановиться перед выездом на перекресток, даже если дорога свободна.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal B1 indique que vous devez céder le passage. Cela signifie que vous devez ralentir et donner la priorité aux véhicules circulant sur la voie que vous allez croiser ou sur laquelle vous allez vous engager.",
+      "explanation_nl": "Verkeersbord B1 geeft aan dat u voorrang moet verlenen. Dit betekent dat u moet vertragen en voorrang moet geven aan voertuigen die op de kruisende weg rijden of waarop u gaat invoegen.",
+      "explanation_ru": "Знак B1 указывает, что вы должны уступить дорогу. Это означает, что вы должны снизить скорость и дать приоритет транспортным средствам, движущимся по пересекаемой дороге или дороге, на которую вы собираетесь выехать.",
+      "question_id": "belgian_road_code_8_q4"
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous arrivez à une intersection et vous apercevez le signal B5 (octogone rouge). Que devez-vous faire impérativement avant de vous engager ?",
+      "text_nl": "U nadert een kruispunt en ziet verkeersbord B5 (rode achthoek). Wat moet u absoluut doen voordat u de kruising oprijdt?",
+      "text_ru": "Вы приближаетесь к перекрестку и видите знак B5 (красный восьмиугольник). Что вы должны обязательно сделать, прежде чем выехать на перекресток?",
+      "image": {
+        "sign_code": "B5",
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Vous ralentissez et, si nécessaire, vous vous arrêtez pour céder le passage.",
+          "text_nl": "U vertraagt en stopt, indien nodig, om voorrang te verlenen.",
+          "text_ru": "Вы замедляетесь и, если необходимо, останавливаетесь, чтобы уступить дорогу.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Vous marquez un arrêt complet avant la ligne d'arrêt ou, à défaut de ligne, à la hauteur du signal, et vous cédez le passage.",
+          "text_nl": "U stopt volledig vóór de stopstreep of, bij afwezigheid daarvan, ter hoogte van het bord, en u verleent voorrang.",
+          "text_ru": "Вы делаете полную остановку перед стоп-линией или, при ее отсутствии, на уровне знака, и уступаете дорогу.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Vous pouvez passer si personne n'arrive, sans nécessairement vous arrêter complètement.",
+          "text_nl": "U mag doorrijden als er niemand aankomt, zonder per se volledig te stoppen.",
+          "text_ru": "Вы можете проехать, если никто не приближается, не обязательно полностью останавливаясь.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal B5 impose une obligation de 'Marquer l'arrêt et céder le passage'. Cela signifie un arrêt complet du véhicule, même si la voie semble libre, avant de pouvoir s'engager après s'être assuré que la priorité est donnée aux autres usagers.",
+      "explanation_nl": "Verkeersbord B5 legt de verplichting op 'Stoppen en voorrang verlenen'. Dit betekent een volledige stilstand van het voertuig, zelfs als de weg vrij lijkt, voordat u mag doorrijden nadat u zich ervan heeft vergewist dat voorrang is verleend aan andere weggebruikers.",
+      "explanation_ru": "Знак B5 налагает обязанность 'Остановиться и уступить дорогу'. Это означает полную остановку транспортного средства, даже если дорога кажется свободной, прежде чем продолжить движение, убедившись, что приоритет отдан другим участникам движения.",
+      "question_id": "belgian_road_code_8_q5"
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous voyez un signal B1 (céder le passage) accompagné d'un panneau additionnel M.8, qui représente un pictogramme de cycliste et de cyclomoteur. À qui le signal B1 s'applique-t-il spécifiquement dans cette situation ?",
+      "text_nl": "U ziet verkeersbord B1 (voorrang verlenen) vergezeld van een onderbord M.8, dat een pictogram van een fietser en een bromfiets toont. Op wie is verkeersbord B1 in deze situatie specifiek van toepassing?",
+      "text_ru": "Вы видите знак B1 ('Уступить дорогу') в сопровождении дополнительной таблички M.8, которая изображает пиктограмму велосипедиста и мопеда. К кому конкретно относится знак B1 в данной ситуации?",
+      "image": {
+        "sign_code": "B1",
+        "generation_prompt": "Sign B1 with additional panel M.8 showing a cyclist and a moped."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "À tous les véhicules, y compris les cyclistes et cyclomoteurs.",
+          "text_nl": "Op alle voertuigen, inclusief fietsers en bromfietsen.",
+          "text_ru": "Ко всем транспортным средствам, включая велосипедистов и водителей мопедов.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Uniquement aux cyclistes et aux conducteurs de cyclomoteurs à deux roues.",
+          "text_nl": "Alleen op fietsers en bestuurders van tweewielige bromfietsen.",
+          "text_ru": "Только к велосипедистам и водителям двухколесных мопедов.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Uniquement aux véhicules motorisés, les cyclistes ont toujours priorité.",
+          "text_nl": "Alleen op gemotoriseerde voertuigen; fietsers hebben altijd voorrang.",
+          "text_ru": "Только к моторизованным транспортным средствам; велосипедисты всегда имеют приоритет.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le panneau additionnel M.8 indique que le signal de priorité (B1 ou B5) n'est applicable qu'aux cyclistes et aux conducteurs de cyclomoteurs à deux roues. Cette disposition est utilisée lorsque le placement du signal peut être trompeur pour les autres usagers.",
+      "explanation_nl": "Het onderbord M.8 geeft aan dat het voorrangsbord (B1 of B5) alleen van toepassing is op fietsers en bestuurders van tweewielige bromfietsen. Deze bepaling wordt gebruikt wanneer de plaatsing van het bord misleidend kan zijn voor andere weggebruikers.",
+      "explanation_ru": "Дополнительная табличка M.8 указывает, что знак приоритета (B1 или B5) применяется только к велосипедистам и водителям двухколесных мопедов. Это положение используется, когда расположение знака может ввести в заблуждение других участников движения.",
+      "question_id": "belgian_road_code_8_q6"
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous roulez en agglomération et vous approchez d'un carrefour. Un signal B1 (céder le passage) est bien visible à l'approche du carrefour, mais aucun signal B3 (annonce de B1) n'est placé avant. Est-ce une situation conforme aux règles ?",
+      "text_nl": "U rijdt binnen de bebouwde kom en nadert een kruispunt. Verkeersbord B1 (voorrang verlenen) is goed zichtbaar bij het naderen van het kruispunt, maar er is geen verkeersbord B3 (aankondiging van B1) voorafgaand geplaatst. Is dit een situatie die voldoet aan de regels?",
+      "text_ru": "Вы едете в населенном пункте и приближаетесь к перекрестку. Знак B1 ('Уступить дорогу') хорошо виден при приближении к перекрестку, но никаких предупреждающих знаков B3 (предупреждение о B1) не установлено заранее. Соответствует ли эта ситуация правилам?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": null
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Non, le signal B3 doit toujours être placé avant un B1, quel que soit l'endroit, pour assurer la sécurité.",
+          "text_nl": "Nee, verkeersbord B3 moet altijd vóór een B1 geplaatst worden, ongeacht de locatie, om de veiligheid te garanderen.",
+          "text_ru": "Нет, знак B3 всегда должен быть установлен перед B1, независимо от места, для обеспечения безопасности.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Oui, le signal B3 ne doit pas être placé dans les agglomérations.",
+          "text_nl": "Ja, verkeersbord B3 hoeft niet in de bebouwde kom geplaatst te worden.",
+          "text_ru": "Да, знак B3 не должен устанавливаться в населенных пунктах.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Non, le signal B3 est seulement facultatif dans ce cas, mais sa présence serait préférable.",
+          "text_nl": "Nee, verkeersbord B3 is in dit geval alleen optioneel, maar de aanwezigheid ervan zou wenselijk zijn.",
+          "text_ru": "Нет, знак B3 в этом случае является лишь необязательным, но его наличие было бы предпочтительнее.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le signal B3 (annonce de B1) ne doit pas être placé dans les agglomérations. La visibilité des signaux est généralement suffisante et la vitesse y est plus faible, rendant le signal d'annonce moins nécessaire.",
+      "explanation_nl": "Verkeersbord B3 (aankondiging van B1) hoeft niet in de bebouwde kom geplaatst te worden. De zichtbaarheid van de borden is daar doorgaans voldoende en de snelheid is er lager, waardoor een aankondigingsbord minder noodzakelijk is.",
+      "explanation_ru": "Знак B3 (предупреждение о B1) не должен устанавливаться в населенных пунктах. Видимость знаков там обычно достаточна, а скорость движения ниже, что делает предупреждающий знак менее необходимым.",
+      "question_id": "belgian_road_code_8_q7"
+    },
+    {
+      "type": "practical",
+      "difficulty": 3,
+      "text_fr": "Vous vous apprêtez à entrer dans un rond-point signalé par des panneaux D5. Quel type de signal de priorité doit être obligatoirement placé à votre voie d'accès ?",
+      "text_nl": "U staat op het punt een rotonde op te rijden die is aangegeven met verkeersborden D5. Welk type voorrangsbord moet verplicht geplaatst zijn bij uw toegangsweg?",
+      "text_ru": "Вы собираетесь въехать на перекресток с круговым движением, обозначенный знаками D5. Какой тип знака приоритета должен быть обязательно установлен на вашей подъездной дороге?",
+      "image": {
+        "sign_code": "D5",
+        "generation_prompt": "Roundabout sign (D5)"
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Uniquement le signal B9 (route à priorité) ou B15 (fin de route à priorité).",
+          "text_nl": "Alleen verkeersbord B9 (voorrangsweg) of B15 (einde voorrangsweg).",
+          "text_ru": "Только знак B9 (главная дорога) или B15 (конец главной дороги).",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Un signal B1 (céder le passage) ou, si nécessaire, un signal B5 (arrêt et céder le passage).",
+          "text_nl": "Een verkeersbord B1 (voorrang verlenen) of, indien nodig, een verkeersbord B5 (stoppen en voorrang verlenen).",
+          "text_ru": "Знак B1 ('Уступить дорогу') или, при необходимости, знак B5 ('Остановиться и уступить дорогу').",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Aucun signal spécifique, la règle de la priorité de droite s'applique.",
+          "text_nl": "Geen specifiek bord, de regel van voorrang van rechts is van toepassing.",
+          "text_ru": "Никакого конкретного знака, применяется правило приоритета справа.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Aux voies d'accès des ronds-points signalés par des signaux D5, des signaux B1 (céder le passage) ou, au besoin, des signaux B5 (arrêt et céder le passage) doivent être placés. Cela garantit que les usagers déjà engagés dans le rond-point ont la priorité.",
+      "explanation_nl": "Bij de toegangswegen tot rotondes die zijn aangegeven met verkeersborden D5, moeten verkeersborden B1 (voorrang verlenen) of, indien nodig, verkeersborden B5 (stoppen en voorrang verlenen) worden geplaatst. Dit garandeert dat gebruikers die zich reeds op de rotonde bevinden, voorrang hebben.",
+      "explanation_ru": "На подъездных путях к перекресткам с круговым движением, обозначенным знаками D5, должны быть установлены знаки B1 ('Уступить дорогу') или, при необходимости, знаки B5 ('Остановиться и уступить дорогу'). Это гарантирует, что участники движения, уже находящиеся на круговом движении, имеют приоритет.",
+      "question_id": "belgian_road_code_8_q8"
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-05T08:35:44Z",
     "content_hash": "b5ebf1644b40",
@@ -152,6 +457,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:53:40Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 8
   }
 }

@@ -26,7 +26,156 @@
   "anchor_id_fr": "slj5aixont",
   "anchor_id_nl": "bqwuvojekw",
   "definitions": [],
-  "exam_questions": [],
+  "exam_questions": [
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les deux mesures restrictives concernant un véhicule dont l'usage est interdit si l'on en a connaissance ?",
+      "text_nl": "Welke twee beperkende maatregelen betreffende een voertuig, waarvan het gebruik verboden is indien men hiervan kennis heeft, worden genoemd?",
+      "text_ru": "Какие две ограничительные меры в отношении транспортного средства, использование которого запрещено, если вы о них знаете, упоминаются?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Réparation et entretien.",
+          "text_nl": "Reparatie en onderhoud.",
+          "text_ru": "Ремонт и обслуживание.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Immobilisation et confiscation.",
+          "text_nl": "Immobilisering en verbeurdverklaring.",
+          "text_ru": "Иммобилизация и конфискация.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Assurance et contrôle technique.",
+          "text_nl": "Verzekering en technische controle.",
+          "text_ru": "Страхование и технический осмотр.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le texte mentionne spécifiquement que l'infraction concerne un véhicule dont l'immobilisation ou la confiscation est prononcée.",
+      "explanation_nl": "De tekst vermeldt specifiek dat de overtreding betrekking heeft op een voertuig waarvan de immobilisering of verbeurdverklaring is uitgesproken.",
+      "explanation_ru": "Текст конкретно указывает, что нарушение касается транспортного средства, в отношении которого вынесено решение об иммобилизации или конфискации."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quel est l'élément essentiel pour qu'une personne soit punie pour avoir utilisé un véhicule sous restriction ?",
+      "text_nl": "Wat is het essentiële element om bestraft te worden voor het gebruik van een voertuig onder beperking?",
+      "text_ru": "Какой ключевой элемент необходим для наказания лица за использование транспортного средства, находящегося под ограничением?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Que le véhicule ait été utilisé sur une voie publique.",
+          "text_nl": "Dat het voertuig op een openbare weg werd gebruikt.",
+          "text_ru": "Что транспортное средство использовалось на дороге общего пользования.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "La connaissance que l'immobilisation ou la confiscation a été prononcée.",
+          "text_nl": "De wetenschap dat de immobilisering of verbeurdverklaring is uitgesproken.",
+          "text_ru": "Знание о том, что была произведена иммобилизация или конфискация.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Que le véhicule ait causé un accident.",
+          "text_nl": "Dat het voertuig een ongeval heeft veroorzaakt.",
+          "text_ru": "Что транспортное средство стало причиной аварии.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article stipule clairement 'dont il sait que l'immobilisation ou la confiscation est prononcée', ce qui rend la connaissance de la restriction un élément indispensable de l'infraction.",
+      "explanation_nl": "Het artikel stelt duidelijk 'waarvan hij weet dat de immobilisering of de verbeurdverklaring is uitgesproken', wat de kennis van de beperking tot een essentieel element van de overtreding maakt.",
+      "explanation_ru": "В статье четко указано «о котором он знает, что иммобилизация или конфискация были произведены», что делает знание об ограничении незаменимым элементом правонарушения."
+    },
+    {
+      "type": "theoretical",
+      "difficulty": 2,
+      "text_fr": "Quelles sont les catégories de sanctions prévues pour l'utilisation d'un véhicule dont l'immobilisation ou la confiscation est connue ?",
+      "text_nl": "Welke categorieën van sancties zijn voorzien voor het gebruik van een voertuig waarvan bekend is dat het geïmmobiliseerd of verbeurd verklaard is?",
+      "text_ru": "Какие категории санкций предусмотрены за использование транспортного средства, об иммобилизации или конфискации которого известно?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": ""
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Suspension du permis de conduire uniquement.",
+          "text_nl": "Enkel intrekking van het rijbewijs.",
+          "text_ru": "Только приостановление действия водительских прав.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Amende et/ou emprisonnement.",
+          "text_nl": "Geldboete en/of gevangenisstraf.",
+          "text_ru": "Штраф и/или тюремное заключение.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Point sur le permis de conduire uniquement.",
+          "text_nl": "Enkel punten op het rijbewijs.",
+          "text_ru": "Только баллы в водительском удостоверении.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "Le texte indique 'est puni d'un emprisonnement de huit jours à six mois et d'une amende de 100 euros à 1000 euros, ou d'une de ces peines seulement', ce qui signifie une amende, de l'emprisonnement, ou les deux.",
+      "explanation_nl": "De tekst vermeldt 'wordt gestraft met gevangenisstraf van acht dagen tot zes maanden en met geldboete van 100 euro tot 1 000 euro of met een van die straffen alleen', wat betekent een geldboete, gevangenisstraf, of beide.",
+      "explanation_ru": "Текст указывает: «наказывается лишением свободы на срок от восьми дней до шести месяцев и штрафом от 100 до 1000 евро, или только одним из этих наказаний», что означает штраф, тюремное заключение или оба."
+    },
+    {
+      "type": "practical",
+      "difficulty": 2,
+      "text_fr": "Vous êtes arrêté par la police au volant d'une voiture. Les autorités constatent que vous conduisez un véhicule dont vous saviez pertinemment qu'il était confisqué. Que risquez-vous selon la loi ?",
+      "text_nl": "U wordt door de politie tegengehouden terwijl u in een auto rijdt. De autoriteiten stellen vast dat u een voertuig bestuurt waarvan u wist dat het in beslag was genomen. Wat riskeert u volgens de wet?",
+      "text_ru": "Вас останавливает полиция за рулем автомобиля. Власти устанавливают, что вы управляете транспортным средством, о конфискации которого вам было доподлинно известно. Что вам грозит по закону?",
+      "image": {
+        "sign_code": null,
+        "generation_prompt": "Police officer stopping a car, road side, day time, normal traffic."
+      },
+      "options": [
+        {
+          "letter": "A",
+          "text_fr": "Une simple réprimande pour infraction mineure.",
+          "text_nl": "Een simpele berisping voor een kleine overtreding.",
+          "text_ru": "Простое порицание за мелкое правонарушение.",
+          "is_correct": false
+        },
+        {
+          "letter": "B",
+          "text_fr": "Une peine d'emprisonnement, une amende, ou les deux.",
+          "text_nl": "Een gevangenisstraf, een geldboete, of beide.",
+          "text_ru": "Тюремное заключение, штраф или и то, и другое.",
+          "is_correct": true
+        },
+        {
+          "letter": "C",
+          "text_fr": "Un avertissement et l'obligation de rendre le véhicule immédiatement.",
+          "text_nl": "Een waarschuwing en de verplichting om het voertuig onmiddellijk terug te geven.",
+          "text_ru": "Предупреждение и обязанность немедленно вернуть транспортное средство.",
+          "is_correct": false
+        }
+      ],
+      "explanation_fr": "L'article prévoit pour cette infraction une peine d'emprisonnement de huit jours à six mois et une amende de 100 euros à 1000 euros, ou l'une de ces peines seulement.",
+      "explanation_nl": "Het artikel voorziet voor deze overtreding een gevangenisstraf van acht dagen tot zes maanden en een geldboete van 100 euro tot 1 000 euro, of een van die straffen alleen.",
+      "explanation_ru": "Статья предусматривает за данное правонарушение наказание в виде лишения свободы на срок от восьми дней до шести месяцев и штраф от 100 до 1000 евро, или только одно из этих наказаний."
+    }
+  ],
   "_meta": {
     "processed_at": "2026-03-04T11:07:49Z",
     "content_hash": "eb1b52afd611",
@@ -36,6 +185,9 @@
       "fr": "codedelaroute.be",
       "nl": "wegcode.be",
       "ru": "deepl-translation"
-    }
+    },
+    "questions_generated_at": "2026-03-15T18:51:15Z",
+    "questions_model": "gemini-2.5-flash",
+    "questions_count": 4
   }
 }
