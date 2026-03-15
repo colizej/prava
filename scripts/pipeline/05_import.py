@@ -311,30 +311,23 @@ def import_questions(article: dict, law_id: str, dry_run: bool = False) -> int:
             },
         )
         if not created:
-            q_obj.code_article = code_article
-            q_obj.text_nl = (q_data.get("text_nl") or "").strip()
-            q_obj.text_ru = (q_data.get("text_ru") or "").strip()
-            q_obj.difficulty = int(q_data.get("difficulty") or 2)
-            q_obj.image_prompt = image_prompt
-            q_obj.image_sign_code = sign_code
-            q_obj.traffic_sign = traffic_sign
-            q_obj.save(update_fields=["code_article", "text_nl", "text_ru", "difficulty",
-                                      "image_prompt", "image_sign_code", "traffic_sign"])
+            # Skip existing questions — preserve manual edits and images
+            logger.debug(f"  Skipping existing question: {text_fr[:60]}…")
+            count += 1
+            continue
 
         options = q_data.get("options") or []
-        if options:
-            q_obj.options.all().delete()
-            for idx, opt in enumerate(options):
-                letter = (opt.get("letter") or chr(65 + idx)).strip()
-                AnswerOption.objects.create(
-                    question=q_obj,
-                    letter=letter,
-                    text=(opt.get("text_fr") or opt.get("text") or "").strip(),
-                    text_nl=(opt.get("text_nl") or "").strip(),
-                    text_ru=(opt.get("text_ru") or "").strip(),
-                    is_correct=bool(opt.get("is_correct", False)),
-                    order=idx,
-                )
+        for idx, opt in enumerate(options):
+            letter = (opt.get("letter") or chr(65 + idx)).strip()
+            AnswerOption.objects.create(
+                question=q_obj,
+                letter=letter,
+                text=(opt.get("text_fr") or opt.get("text") or "").strip(),
+                text_nl=(opt.get("text_nl") or "").strip(),
+                text_ru=(opt.get("text_ru") or "").strip(),
+                is_correct=bool(opt.get("is_correct", False)),
+                order=idx,
+            )
         count += 1
 
     return count
